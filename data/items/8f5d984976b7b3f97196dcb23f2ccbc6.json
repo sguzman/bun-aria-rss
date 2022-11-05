@@ -1,0 +1,169 @@
+{
+  "title": "AzureCosmosR: interface to Azure Cosmos DB",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b026bdeb5e403200c",
+  "published": "2021-01-21T09:30:00-08:00",
+  "updated": "2021-01-20T14:26:21-08:00",
+  "summary": "by Hong Ooi Last week, I announced AzureCosmosR, an R interface to Azure Cosmos DB, a fully-managed NoSQL database service in Azure. This post gives a short rundown on the main features of AzureCosmosR. Explaining what Azure Cosmos DB is can be tricky, so here’s an excerpt from the official description: Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale. Business continuity is assured with SLA-backed availability and enterprise-grade security. App development is faster and more productive thanks to turnkey multi region...",
+  "author": {
+    "name": "Hong Ooi"
+  },
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "em": "by Hong Ooi"
+        },
+        {
+          "a": [
+            "Last week",
+            "Azure Cosmos DB"
+          ],
+          "#text": ", I announced AzureCosmosR, an R interface to, a fully-managed NoSQL database service in Azure. This post gives a short rundown on the main features of AzureCosmosR."
+        },
+        {
+          "a": "official description",
+          "#text": "Explaining what Azure Cosmos DB is can be tricky, so here’s an excerpt from the:"
+        },
+        {
+          "a": "AzureRMR",
+          "#text": "Among other features, Azure Cosmos DB is notable in that it supports multiple data models and APIs. When you create a new Cosmos DB account, you specify which API you want to use: SQL/core API, which lets you use a dialect of T-SQL to query and manage tables and documents; MongoDB; Azure table storage; Cassandra; or Gremlin (graph). AzureCosmosR provides a comprehensive interface to the SQL API, as well as bridges to the MongoDB and table storage APIs. On the Resource Manager side, AzureCosmosR extends theclass framework to allow creating and managing Cosmos DB accounts."
+        },
+        {
+          "a": "on CRAN",
+          "code": "devtools::install_github(\"Azure/AzureCosmosR\")",
+          "#text": "AzureCosmosR is now available. You can also install the development version from GitHub, with."
+        }
+      ],
+      "blockquote": {
+        "p": "Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale. Business continuity is assured with SLA-backed availability and enterprise-grade security. App development is faster and more productive thanks to turnkey multi region data distribution anywhere in the world, open source APIs and SDKs for popular languages. As a fully managed service, Azure Cosmos DB takes database administration off your hands with automatic management, updates and patching. It also handles capacity management with cost-effective serverless and automatic scaling options that respond to application needs to match capacity with demand."
+      },
+      "div": [
+        {
+          "h2": "SQL interface",
+          "p": [
+            "The meat of AzureCosmosR is a suite of methods to work with databases, containers (tables) and documents (rows) using the SQL API.",
+            "You can easily create and execute JavaScript stored procedures and user-defined functions:",
+            {
+              "code": [
+                "by_pkrange=TRUE",
+                "query_documents"
+              ],
+              "#text": "Aggregates take some extra work, as the Cosmos DB REST API currently only has limited support for cross-partition queries. Setin thecall, which will run the query on each partition key range (physical partition) and return a list of data frames. You can then process the list to obtain an overall result."
+            },
+            "Full support for cross-partition queries, including aggregates, may come in a future version of AzureCosmosR."
+          ],
+          "pre": [
+            {
+              "code": {
+                "span": [
+                  "library",
+                  "library",
+                  "# endpoint object for this account",
+                  "\"https://myaccount.documents.azure.com:443/\"",
+                  "\"mykey\"",
+                  "# all databases in this account",
+                  "# a specific database",
+                  "\"mydatabase\"",
+                  "# create a new container and upload the Star Wars dataset from dplyr",
+                  "\"mycontainer\"",
+                  "\"sex\"",
+                  "\"select * from mycontainer\"",
+                  "# an array select: all characters who appear in ANH",
+                  "\"select c.name\n        from mycontainer c\n        where array_contains(c.films, 'A New Hope')\""
+                ],
+                "#text": "(dplyr)(AzureCosmosR)endp <- cosmos_endpoint(,\n    key=)list_cosmos_databases(endp)db <- get_cosmos_database(endp,)cont <- create_cosmos_container(db,, partition_key=)\nbulk_import(cont, starwars)\n\nquery_documents(cont,)query_documents(cont,)"
+              }
+            },
+            {
+              "code": {
+                "span": [
+                  "\"helloworld\"",
+                  "'function () {\n        var context = getContext();\n        var response = context.getResponse();\n        response.setBody(\"Hello, World\");\n    }'",
+                  "\"times2\"",
+                  "\"function(x) { return 2*x; }\"",
+                  "\"select udf.times2(c.height) from cont c\""
+                ],
+                "#text": "proc <- create_stored_procedure(\n    cont,,)\n\nexec_stored_procedure(proc)\n\ncreate_udf(cont,,)\n\nquery_documents(cont,)"
+              }
+            },
+            {
+              "code": {
+                "span": [
+                  "# average height by sex, by pkrange",
+                  "\"select c.gender, count(1) n, avg(c.height) height\n        from mycontainer c\n        group by c.gender\"",
+                  "TRUE",
+                  "# combine pkrange results",
+                  "\"pkrange\""
+                ],
+                "#text": "df_lst <- query_documents(cont,,\n    by_pkrange=)df_lst %>%\n    bind_rows(.id=) %>%\n    group_by(gender) %>%\n    summarise(height=weighted.mean(height, n))"
+              }
+            }
+          ]
+        },
+        {
+          "h2": "Other client interfaces",
+          "div": [
+            {
+              "h3": "MongoDB",
+              "p": [
+                "You can query data in a MongoDB-enabled Cosmos DB instance using the mongolite package. AzureCosmosR provides a simple bridge to facilitate this.",
+                {
+                  "a": "mongolite",
+                  "#text": "For more information on working with MongoDB, see thedocumentation."
+                }
+              ],
+              "pre": {
+                "code": {
+                  "span": [
+                    "\"https://myaccount.mongo.cosmos.azure.com:443/\"",
+                    "\"mykey\"",
+                    "# a mongolite::mongo object",
+                    "\"mycollection\"",
+                    "\"mydatabase\"",
+                    "\"{}\""
+                  ],
+                  "#text": "endp <- cosmos_mongo_endpoint(,\n    key=)conn <- cosmos_mongo_connection(endp,,)\nconn$find()"
+                }
+              }
+            },
+            {
+              "h3": "Table storage",
+              "p": "You can work with data in a table storage-enabled Cosmos DB instance using the AzureTableStor package.",
+              "pre": {
+                "code": {
+                  "span": [
+                    "\"https://myaccount.table.cosmos.azure.com:443/\"",
+                    "\"mykey\"",
+                    "\"mytable\"",
+                    "\"firstname eq 'Satya'\""
+                  ],
+                  "#text": "endp <- AzureTableStor::table_endpoint(,\n    key=)\n\ntab <- AzureTableStor::storage_table(endp,)\nAzureTableStor::list_table_entities(tab, filter=)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "h2": "Further information",
+          "p": {
+            "a": [
+              "here",
+              "official documentation",
+              "open an issue"
+            ],
+            "#text": "A good introduction to Azure Cosmos DB can be found, or you can browse the. If you have any questions or feedback about the AzureCosmosR package, you canor email me at hongooi73 (@) gmail.com."
+          }
+        }
+      ]
+    }
+  }
+}

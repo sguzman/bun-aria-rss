@@ -1,0 +1,9 @@
+{
+  "title": "LLE comes in different flavours",
+  "link": "http://fa.bianp.net/blog/2011/lle-comes-in-different-flavours/",
+  "description": "<p>I haven't worked in the manifold module since <a class=\"reference external\" href=\"http://fa.bianp.net/blog/2011/manifold-learning-in-scikit-learn/\">last time</a>, yet thanks\nto <a class=\"reference external\" href=\"http://www.astro.washington.edu/users/vanderplas/\">Jake VanderPlas</a> there are some cool features I can talk about.\nFirst of, the ARPACK backend is finally working and gives factor one\nspeedup over the <a class=\"reference external\" href=\"http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/\">lobcpg + PyAMG approach</a>. The key is to use ARPACK's\nshift-invert mode …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 30 Jun 2011 16:22:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-06-30:/blog/2011/lle-comes-in-different-flavours/",
+  "category": "General, manifold learning, scikit-learn"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2008-0333 (mailbee_webmail_pro)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2008-0333",
+  "description": "Directory traversal vulnerability in download_view_attachment.aspx in AfterLogic MailBee WebMail Pro 4.1 for ASP.NET allows remote attackers to read arbitrary files via a .. (dot dot) in the temp_filename parameter.",
+  "dc:date": "2008-01-17T22:00:00Z"
+}
