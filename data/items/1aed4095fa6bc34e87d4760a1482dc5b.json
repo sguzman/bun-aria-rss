@@ -1,0 +1,23 @@
+{
+  "title": "Higher quality neural translations for a bunch more languages",
+  "link": "https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p>Last November, people from Brazil to Turkey to Japan discovered that Google Translate for their language was suddenly more accurate and easier to understand. That’s because we introduced <a href=\"https://blog.google/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/\">neural machine translation</a>—using deep neural networks to translate entire sentences, rather than just phrases—for eight languages overall. Over the next couple of weeks, these improvements are coming to Google Translate in many more languages, starting right now with Hindi, Russian and Vietnamese.</p><p>Neural translation is a lot better than our previous technology, because we translate whole sentences at a time, instead of pieces of a sentence. (Of course there’s lots of machine learning magic powering this under the hood, which you can read about on the <a href=\"https://research.googleblog.com/2016/09/a-neural-network-for-machine.html\">Research blog</a>.) This makes for translations that are usually more accurate and sound closer to the way people speak the language. Here’s one example to show how much it’s improved:</p></div></div><div class=\"block-image_full_width\"><div class=\"h-c-page\"><div class=\"article-image h-c-grid__col--10 h-c-grid__col--offset-1 h-c-grid__col-l--offset-2 h-c-grid__col-l--8\"><a class=\"article-image--link\"><img alt=\"Hindi_GoogleTranslate_v4_Blog.gif\" class=\"article-image--full\" src=\" https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Hindi_GoogleTranslate_v4_Blog.gif \" tabindex=\"0\"/></a></div></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><p>You’ll get these new translations automatically in most places Google Translate is available: in the iOS and Android apps, at translate.google.com, and through Google Search and the Google app. We’ll be introducing neural machine translation to even more languages over the next few weeks, so keep an eye out for smoother, more fluent translations.</p><p>Finally, please keep contributing to <a href=\"https://translate.google.com/community_s\">Translate Community</a>! Our translations are still far from perfect, and it helps everyone using Google Translate when you suggest improvements.</p></div></div></body></html>",
+  "pubDate": "Mon, 06 Mar 2017 21:15:00 +0000",
+  "guid": "https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/",
+  "category": "Translate",
+  "media:content": "",
+  "og": {
+    "type": "article",
+    "title": "Higher quality neural translations for a bunch more languages",
+    "description": "With neural translation, Google Translate is more accurate and sounds more human. We’re upgrading more languages starting today with Russian, Vietnamese and Hindi.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/13_about_fallback_D_1.max-600x600.png",
+    "site_name": "Google",
+    "url": "https://blog.google/products/translate/higher-quality-neural-translations-bunch-more-languages/"
+  },
+  "author": {
+    "name": "Barak Turovsky",
+    "title": "Product Lead (and proud Russian speaker!)",
+    "department": "Google Translate",
+    "company": ""
+  }
+}

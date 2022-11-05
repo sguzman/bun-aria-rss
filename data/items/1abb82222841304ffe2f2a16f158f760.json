@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43108 (ac23_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43108",
+  "description": "Tenda AC23 V16.03.07.45_cn was discovered to contain a stack overflow via the firewallEn parameter in the formSetFirewallCfg function.",
+  "dc:date": "2022-11-03T14:15:32Z"
+}
