@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA"/>
+ <id>yt:channel:UC29ju8bIPH5as8OGnQzwJyA</id>
+ <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+ <title>Traversy Media</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"/>
+ <author>
+  <name>Traversy Media</name>
+  <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+ </author>
+ <published>2009-10-30T21:33:14+00:00</published>
+ <entry>
+  <id>yt:video:SP8mSVSAh6s</id>
+  <yt:videoId>SP8mSVSAh6s</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>PostCSS Crash Course</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SP8mSVSAh6s"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-10-26T15:38:31+00:00</published>
+  <updated>2022-11-02T18:42:36+00:00</updated>
+  <media:group>
+   <media:title>PostCSS Crash Course</media:title>
+   <media:content url="https://www.youtube.com/v/SP8mSVSAh6s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SP8mSVSAh6s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this video, we will talk about what PostCSS is, set it up and show you how to use some of the popular plugins such as postcss-preset-env, precss, postcss-import, autoprefixer and more.
+
+💻 Code:
+https://github.com/bradtraversy/postcss-crash
+
+⭐ All Courses:
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+0:47 - Slides
+6:48 - Docs
+8:14 - Setup &amp; Install
+9:42 - Build &amp; Watch Scripts
+12:40 - Autoprefixer &amp; Plugin Config
+16:17 - postcss-preset-env
+18:05 - Custom selectors, media, nesting
+21:29 - PreCSS
+24:13 - PostCSS Import &amp; File Structure
+28:42 - PostCSS Assets
+31:52 - CSSNano</media:description>
+   <media:community>
+    <media:starRating count="855" average="5.00" min="1" max="5"/>
+    <media:statistics views="20190"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_8M-YVY76O8</id>
+  <yt:videoId>_8M-YVY76O8</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Build a Shopping Cart With React JS &amp; Stripe</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_8M-YVY76O8"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-10-18T14:00:28+00:00</published>
+  <updated>2022-10-18T14:00:28+00:00</updated>
+  <media:group>
+   <media:title>Build a Shopping Cart With React JS &amp; Stripe</media:title>
+   <media:content url="https://www.youtube.com/v/_8M-YVY76O8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_8M-YVY76O8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this project, we will create a shopping cart using React and Stripe.
+
+📽️ Cooper Codes YouTube Channel:
+https://www.youtube.com/c/CooperCodes
+
+💻 Code:
+https://github.com/coopercodes/ReactEcommerceStoreWithStripeAPI
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 Project showcase
+1:25 Create react app / installs
+2:22 Navbar component
+6:00 Implementing React Router
+7:45 Creating pages for router
+10:35 Building rows and cols for Store page
+12:14 Creating products for React to use
+16:50 Loading products dynamically
+19:18 Creating product card component
+22:45 Creating a modal for the cart
+25:55 Creating our cart context (Cart functionality)
+46:02 Adding CartProvider to our app
+46:29 Creating add / remove product to product cards
+52:05 Adding cart functionality to navbar (number of items)
+54:40 Showing cart data in modal
+57:00 Creating CartProduct component
+1:01:00 Create Stripe account and add test products
+1:03:06 Creating Express server / installs
+1:05:00 Creating Stripe checkout request
+1:09:30 Adding Stripe IDs to React
+1:10:33 Creating checkout call from React
+1:13:43 Final project / checkout demo!
+1:15:06 Thank you for watching</media:description>
+   <media:community>
+    <media:starRating count="1187" average="5.00" min="1" max="5"/>
+    <media:statistics views="30168"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ou6x2qcLOLI</id>
+  <yt:videoId>ou6x2qcLOLI</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Clean Code vs Preference</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ou6x2qcLOLI"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-10-11T14:00:33+00:00</published>
+  <updated>2022-10-17T20:48:14+00:00</updated>
+  <media:group>
+   <media:title>Clean Code vs Preference</media:title>
+   <media:content url="https://www.youtube.com/v/ou6x2qcLOLI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/ou6x2qcLOLI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Let's talk about the phrase &quot;clean code&quot; and how it can be pretty subjective and a lot of it comes down to preference.
+
+⭐  Check out Agora! 
+https://bit.ly/3bLM8Iu
+
+🐥 Clean Code Tweet:
+https://twitter.com/traversymedia/status/1577706658943344641
+
+💻 All Courses:
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy</media:description>
+   <media:community>
+    <media:starRating count="1985" average="5.00" min="1" max="5"/>
+    <media:statistics views="36003"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ML743nrkMHw</id>
+  <yt:videoId>ML743nrkMHw</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Create a Desktop App With JavaScript &amp; Electron</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ML743nrkMHw"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-10-03T13:18:54+00:00</published>
+  <updated>2022-10-09T08:26:00+00:00</updated>
+  <media:group>
+   <media:title>Create a Desktop App With JavaScript &amp; Electron</media:title>
+   <media:content url="https://www.youtube.com/v/ML743nrkMHw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ML743nrkMHw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this video, we will create a cross-platform desktop app to resize image dimensions, using JavaScript and Electron.
+
+💻 Code:
+https://github.com/bradtraversy/image-resizer-electron
+
+To package your app up for different platforms, you could use one of the following:
+https://github.com/electron/electron-packager
+https://www.electronforge.io/
+
+⭐ All Courses:
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+3:05 - Resources
+4:48 - Setup &amp; Install Dependencies
+8:08 - Create Main Window
+12:45 - Common Boilerplate
+15:53 - Show Devtools
+18:10 - Using Electronmon
+18:54 - Adding the UI Theme
+21:26 - Content Security Policy
+23:00 - Menu Customization
+27:36 - Menu Roles
+30:00 - About Window
+31:53 - Start Renderer JS / Load Image
+38:15 - Get Original Dimensions
+39:40 - Using Preload
+44:28 - Show Output Path
+46:43 - Toastify Alerts
+50:58 - Form Submit Handler
+53:54 - IPC Renderer (Send)
+56:44 - IPC Main (Recieve)
+59:35 - Resize Image
+1:05:32 - Catch Message In Renderer
+1:07:32 - Make mainWindow Global
+1:10:22 - Test Production Mode</media:description>
+   <media:community>
+    <media:starRating count="2389" average="5.00" min="1" max="5"/>
+    <media:statistics views="66101"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4FhJkX18fS8</id>
+  <yt:videoId>4FhJkX18fS8</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>5 Pro-Level React Do's &amp; Don'ts</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4FhJkX18fS8"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-09-20T14:00:04+00:00</published>
+  <updated>2022-10-25T04:37:34+00:00</updated>
+  <media:group>
+   <media:title>5 Pro-Level React Do's &amp; Don'ts</media:title>
+   <media:content url="https://www.youtube.com/v/4FhJkX18fS8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4FhJkX18fS8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this video, Jack will talk about some do's and don'ts when it comes to writing code with the React JavaScript framework. 
+
+📽️ Jack's YouTube Channel:
+https://www.youtube.com/c/JackHerrington
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+00:00 Introduction
+00:30 Do use functional components
+02:22 Don’t think of function components as templates
+07:08 Do use TypeScript
+12:02 Don’t worry about re-renders (too much)
+14:35 Do learn to love dependency arrays
+18:36 Don’t ignore useCallback or useMemo
+22:25 Do learn to make custom hooks
+23:23 Don’t use Redux just because you think you have to
+26:00 Do use a query library
+27:50 Don’t make your own UI library
+29:29 Outroduction</media:description>
+   <media:community>
+    <media:starRating count="5992" average="5.00" min="1" max="5"/>
+    <media:statistics views="104059"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uwAqEzhyjtw</id>
+  <yt:videoId>uwAqEzhyjtw</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Command Line Crash Course For Beginners | Terminal Commands</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uwAqEzhyjtw"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-09-14T15:20:55+00:00</published>
+  <updated>2022-10-25T05:05:09+00:00</updated>
+  <media:group>
+   <media:title>Command Line Crash Course For Beginners | Terminal Commands</media:title>
+   <media:content url="https://www.youtube.com/v/uwAqEzhyjtw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uwAqEzhyjtw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a course for beginners to learn how to navigate the terminal/command line. I tried to make it as OS agnostic as possible, but if you are on Windows, I suggest using something like &quot;Git Bash&quot;.
+
+⭐  Check out Agora! 
+https://bit.ly/3bLM8Iu
+
+💻  Gist With All Commands:
+https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+0:50 - Agora Sponsor
+1:34 - Slides Start
+2:00 - Why Learn The Command Line?
+5:43 - Command Line vs Terminal vs Shell
+8:25 - Let's Talk About Windows
+10:30 - Gist File
+12:20 - Up &amp; Down Arrow
+12:44 - Tab Key
+13:08 - Keyboard Shortcuts
+14:11 - man
+15:11 - whoami
+15:17 - date
+15:21 - clear
+15:47 - pwd
+16:09 - ls
+18:13 - cd
+19:35 - open, start, xdg-open
+20:25 - mkdir
+20:55 - touch
+21:22 - rm
+22:31 - rm -r
+23:48 - cp
+24:28 - mv
+27:46 - cat
+29:14 - RIght Angle Bracket (piping)
+30:32 - less
+31:00 - head
+31:21 - tail
+32:01 - nano
+33:04 - echo
+33:53 - grep
+36:10 - find
+38:03 - More On Piping
+39:44 - ln (symlinks)
+41:36 - tar
+43:45 - history</media:description>
+   <media:community>
+    <media:starRating count="2758" average="5.00" min="1" max="5"/>
+    <media:statistics views="62638"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MusIvEKjqsc</id>
+  <yt:videoId>MusIvEKjqsc</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>3 Alternatives for Heroku's Free Tier - Full Stack &amp; API Hosting</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MusIvEKjqsc"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-09-08T13:30:07+00:00</published>
+  <updated>2022-09-09T14:56:29+00:00</updated>
+  <media:group>
+   <media:title>3 Alternatives for Heroku's Free Tier - Full Stack &amp; API Hosting</media:title>
+   <media:content url="https://www.youtube.com/v/MusIvEKjqsc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MusIvEKjqsc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Heroku is getting rid of its free tier. In this video, we will look at 3 really good alternatives that offer a similar service. We will deploy a simple Node.js API to each one.
+
+- Render - https://render.com
+- Railway -https://railway.app
+- Cyclic - https://cyclic.sh
+
+💻 Node API Github Repo:
+https://github.com/bradtraversy/vanilla-node-rest-api
+
+📽️ Node API Video:
+https://www.youtube.com/watch?v=_1xa8Bsho6A&amp;t=2120s
+
+🐥Tweet About Topic:
+https://twitter.com/traversymedia/status/1566881561366220800
+
+⭐ All Courses
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+
+0:00 - Intro &amp; Chat About Heroku &amp; Free Hosting
+3:16 - Project Intro
+3:47 - Render
+5:24 - Railway
+6:40 - Cyclic
+7:35 - Render Deployment
+9:53 - Railway Deployment
+11:30 - Cyclic Deployment</media:description>
+   <media:community>
+    <media:starRating count="4909" average="5.00" min="1" max="5"/>
+    <media:statistics views="82836"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Oi9z5gfIHJs</id>
+  <yt:videoId>Oi9z5gfIHJs</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Astro Crash Course</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Oi9z5gfIHJs"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-29T14:28:44+00:00</published>
+  <updated>2022-09-09T17:35:46+00:00</updated>
+  <media:group>
+   <media:title>Astro Crash Course</media:title>
+   <media:content url="https://www.youtube.com/v/Oi9z5gfIHJs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Oi9z5gfIHJs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Astro is an amazing static site generator that allows you to build really fast websites with little to no production JavaScript. You can use Astro components as we all have components from other frameworks such as React, Vue and Svelte.
+
+TIP: I forgot to mention there is a VS Code extension called &quot;Astro&quot;. Use it for syntax highlighting.
+
+💻 Github Repo:
+https://github.com/bradtraversy/astro-crash-course
+
+⭐ All Courses
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro / What Is Astro?
+3:20 - Project Demo
+6:20 - Create A New Astro Project
+7:50 - Folder Structure
+10:19 - Run Dev Server &amp; Prepare
+11:18 - Astro Components
+16:00 - Making a Request - Top Level Async
+17:13 - Create A Layout
+20:29 - Passing Props
+23:17 - Start Project / Global Styling
+26:53 - Header Component
+31:38 - React Integration
+37:10 - Showcase Component
+43:18 - Features &amp; Card Components
+49:34 - Dynamic Classes - Dark Card
+51:40 - Page Content &amp; Tabs Component
+1:03:28 - Footer Component
+1:05:19 - About Page
+1:08:37 - Refactor Card Component
+1:10:53 - Blog Page &amp; Markdown Files
+1:18:44 - Fetching Markdown FIles
+1:20:57 - Blog Showcase Component
+1:22:50 - Single Post Page / getStaticPaths()
+1:29:35 - Build Static Assets
+1:30:40 - Deploy To Netlify</media:description>
+   <media:community>
+    <media:starRating count="2194" average="5.00" min="1" max="5"/>
+    <media:statistics views="71385"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:b_4ZchFAYRs</id>
+  <yt:videoId>b_4ZchFAYRs</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Do You Need To Learn Data Structures &amp; Algorithms As A Developer?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=b_4ZchFAYRs"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-25T13:07:07+00:00</published>
+  <updated>2022-09-07T19:44:12+00:00</updated>
+  <media:group>
+   <media:title>Do You Need To Learn Data Structures &amp; Algorithms As A Developer?</media:title>
+   <media:content url="https://www.youtube.com/v/b_4ZchFAYRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b_4ZchFAYRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A short discussion on learning data structures and algorithms as a developer.
+
+James Quick YouTube Channel:
+https://www.youtube.com/c/jamesqquick
+
+Tweet from Lawrence Lockhart - [https://twitter.com/LDLockhartJr/status/1561250018006294528?s=20&amp;t=Sb2aRdbdmveSWt1-JVsBUw](https://twitter.com/LDLockhartJr/status/1561250018006294528?s=20&amp;t=Sb2aRdbdmveSWt1-JVsBUw)
+
+Hiring without Whiteboards - https://github.com/poteto/hiring-without-whiteboards
+
+Interview Patterns - [https://twitter.com/LDLockhartJr/status/1561251161134473217?s=20&amp;t=Sb2aRdbdmveSWt1-JVsBUw](https://twitter.com/LDLockhartJr/status/1561251161134473217?s=20&amp;t=Sb2aRdbdmveSWt1-JVsBUw)
+
+JavaScript Algorithms and Data Structures Masterclass - [https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy</media:description>
+   <media:community>
+    <media:starRating count="2338" average="5.00" min="1" max="5"/>
+    <media:statistics views="49680"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qNiUlml9MDk</id>
+  <yt:videoId>qNiUlml9MDk</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Create A Simple JavaScript App to Generate QR Codes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qNiUlml9MDk"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-16T13:17:27+00:00</published>
+  <updated>2022-08-19T15:46:06+00:00</updated>
+  <media:group>
+   <media:title>Create A Simple JavaScript App to Generate QR Codes</media:title>
+   <media:content url="https://www.youtube.com/v/qNiUlml9MDk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qNiUlml9MDk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Let's create a simple QR Code generator app with JavaScript, QRcode.js and Tailwind CSS.
+
+💻 Github Repo
+https://github.com/bradtraversy/qr-code-generator
+
+🧑‍💻 Live Demo
+https://qrcodes.tech
+
+💻 QRCode.js Library:
+https://github.com/davidshimjs/qrcodejs
+
+⭐ Special $9.99 Promo For My Tailwind CSS Course:
+https://www.udemy.com/course/tailwind-from-scratch/?couponCode=5DAY999
+
+⭐All Courses
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Traversy Media On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+1:09 - Side Project Motivation
+2:31 - QRCode.js Library Intro
+3:16 - Dependency Setup
+6:39 - Tailwind CSS Layout
+20:42 - Start JavaScript &amp; Get Form Inputs
+23:03 - Show &amp; Hide Spinner Functions
+25:05 - Generate QR Code
+27:28 - Clear UI Function
+28:40 - Create Save Button
+32:48 - Get QR Code Image Source
+34:50 - Clear Button From UI</media:description>
+   <media:community>
+    <media:starRating count="2583" average="5.00" min="1" max="5"/>
+    <media:statistics views="61100"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:clwpf3VwCZQ</id>
+  <yt:videoId>clwpf3VwCZQ</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Build A Digital Resume &amp; Host For Free</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=clwpf3VwCZQ"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-11T14:00:30+00:00</published>
+  <updated>2022-08-19T15:43:08+00:00</updated>
+  <media:group>
+   <media:title>Build A Digital Resume &amp; Host For Free</media:title>
+   <media:content url="https://www.youtube.com/v/clwpf3VwCZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/clwpf3VwCZQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Turning a real-life resume into a digital resume hosted free on Github pages.
+
+Live Demo: https://divanov11.github.io/Digital-Resume/
+Source Code: https://github.com/divanov11/Digital-Resume
+Article: https://dev.to/dennisivy11/build-a-digital-resume-host-for-free-559
+
+Check out Agora! https://bit.ly/3bLM8Iu
+
+Dennis Ivy's Channel: https://www.youtube.com/c/DennisIvy
+
+Timestamps
+
+00:00 - Introduction
+4:56 - Project Setup
+9:15 - Hero Section
+35:50 - Adding Dark Mode
+39:50 - Techstack section
+44:23 - Work History section
+52:30 - Projects sections
+57:30 - Project Detail Page
+1:01:30 - Adding Responsiveness
+1:05:50 - Hosting with Github pages</media:description>
+   <media:community>
+    <media:starRating count="2601" average="5.00" min="1" max="5"/>
+    <media:statistics views="65803"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wryPX7KSwSc</id>
+  <yt:videoId>wryPX7KSwSc</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>SpaceX Website Clone - HTML, CSS &amp; JavaScript</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wryPX7KSwSc"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-09T13:00:01+00:00</published>
+  <updated>2022-08-19T15:37:11+00:00</updated>
+  <media:group>
+   <media:title>SpaceX Website Clone - HTML, CSS &amp; JavaScript</media:title>
+   <media:content url="https://www.youtube.com/v/wryPX7KSwSc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wryPX7KSwSc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this video, we will re-create parts of the SpaceX website including the homepage, menus, and some inner pages. We will create some animations and use JavaScript to manipulate the DOM.
+
+Sponsor: Hostinger (10% off):
+http://hostinger.com/traversymedia
+
+Github Repo:
+https://github.com/bradtraversy/spacex-website
+
+Live Demo:
+https://traversydemo.dev
+
+Website &amp; Courses:
+https://traversymedia.com
+
+Timestamps:
+0:00 - Intro
+0:37 - Hostinger Sponsor
+1:39 - Project Demo
+4:38 - Header/Navbar HTML &amp; CSS
+17:23 - Menu Underline Animation
+22:52 - Homepage Section A
+30:22 - Button &amp; Hover Animation
+38:29 - Fade In &amp; Up Animation
+44:40 - Scroll Arrow Animation
+49:29 - Remaining Homepage Sections
+53:30 - Footer
+58:29 - Media Queries
+1:04:25 - Hamburger Icon &amp; Open Animation
+1:12:22 - JavaScript For Open Toggle
+1:14:30 - Dark Overlay
+1:18:32 - Remove Scroll On Open
+1:19:40 - Side Menu HTML &amp; CSS
+1:33:00 - Inner Page &amp; Fade Animation
+1:42:20 - Stats Counter HTML &amp; CSS
+1:46:07 - Stat Counter JavaScript
+2:00:00 - Inner Page Responsiveness
+2:02:40 - Remaining Inner Pages
+2:08:27 - Deploy To Hostinger (Using Git)</media:description>
+   <media:community>
+    <media:starRating count="1941" average="5.00" min="1" max="5"/>
+    <media:statistics views="56885"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MMxbP8ME2Ag</id>
+  <yt:videoId>MMxbP8ME2Ag</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Carbon Lang First Look &amp; Crash Course | Google's C++ Successor</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MMxbP8ME2Ag"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-08-01T13:35:01+00:00</published>
+  <updated>2022-08-19T15:39:05+00:00</updated>
+  <media:group>
+   <media:title>Carbon Lang First Look &amp; Crash Course | Google's C++ Successor</media:title>
+   <media:content url="https://www.youtube.com/v/MMxbP8ME2Ag?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MMxbP8ME2Ag/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Carbon is Google's new C++ successor. In this video, we will talk a little bit about it and then look at the basic syntax including variables, data types, arrays, tuples, classes, generics and more.
+
+💻 Carbon Main Repo:
+https://github.com/carbon-language/carbon-lang
+
+✅ Gist File From Video:
+https://gist.github.com/bradtraversy/681eae47e8c2fc14fbfa9e3eac8dc3ca
+
+⭐ My Courses &amp; More
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Me On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+1:37 - Carbon - What &amp; Why?
+7:26 - Setup With Homebrew
+13:15 - Package Namespace
+14:16 - Main() Function
+16:40 - Print() Function
+18:00 - Creating Functions
+19:40 - Primitive Data Types
+21:37 - Naming Conventions
+22:14 - Variables
+24:15 - let Keyword
+26:22 - auto Type
+27:06 - Global Variables &amp; Scope
+28:52 - Multi-Line Strings
+29:27 - Function Arguments
+31:49 - Arrays
+35:10 - Tuples
+37:42 - Structs
+41:11 - Classes &amp; Objects
+43:32 - Class Methods
+46:10 - Class Functions
+47:52 - Pointers
+52:35 - If Else Statements
+54:55 - Match Statement
+59:04 - While Loops
+1:01:32 - Generics
+1:05:22 - Outro</media:description>
+   <media:community>
+    <media:starRating count="2143" average="5.00" min="1" max="5"/>
+    <media:statistics views="84669"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HtunPQtr-Xw</id>
+  <yt:videoId>HtunPQtr-Xw</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>5 HTML, CSS &amp; JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HtunPQtr-Xw"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-07-27T13:27:54+00:00</published>
+  <updated>2022-08-19T15:34:23+00:00</updated>
+  <media:group>
+   <media:title>5 HTML, CSS &amp; JS Mini Projects - Scroll Animation, Rotating Navigation, Drag Events, etc</media:title>
+   <media:content url="https://www.youtube.com/v/HtunPQtr-Xw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HtunPQtr-Xw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>5 projects from my 50 Projects In 50 Days course on Udemy. These projects are meant to sharpen your CSS skills and help you work with the DOM using JavaScript.
+
+FULL COURSE: $9.99 Promo Link (Only valid for 5 days)
+https://www.udemy.com/course/50-projects-50-days/?couponCode=JULY999
+
+All courses:
+https://traversymedia.com
+
+Timestamps:
+0:00 - Intro
+2:00 - Scroll Animation Project
+16:13 - Rotating Navigation Project
+40:40 - Login Input Wave
+59:38 -  Animated 3D Boxes Project
+1:27:12 - Hoverboard Project</media:description>
+   <media:community>
+    <media:starRating count="2834" average="5.00" min="1" max="5"/>
+    <media:statistics views="68449"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t3w7OCDbmnc</id>
+  <yt:videoId>t3w7OCDbmnc</yt:videoId>
+  <yt:channelId>UC29ju8bIPH5as8OGnQzwJyA</yt:channelId>
+  <title>Improve The Developer Hiring Process</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t3w7OCDbmnc"/>
+  <author>
+   <name>Traversy Media</name>
+   <uri>https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA</uri>
+  </author>
+  <published>2022-07-19T13:30:21+00:00</published>
+  <updated>2022-08-19T15:51:54+00:00</updated>
+  <media:group>
+   <media:title>Improve The Developer Hiring Process</media:title>
+   <media:content url="https://www.youtube.com/v/t3w7OCDbmnc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t3w7OCDbmnc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this video, I will propose an alternative to the current hiring process that a lot of tech companies use to hire developers.
+
+💻 My Courses &amp; More
+https://traversymedia.com
+
+💖  Show Support
+Patreon: https://www.patreon.com/traversymedia
+PayPal: https://paypal.me/traversymedia
+
+👇 Follow Me On Social Media:
+Twitter: https://twitter.com/traversymedia
+Instagram: https://www.instagram.com/traversymedia
+Linkedin: https://www.linkedin.com/in/bradtraversy
+
+Timestamps:
+0:00 - Intro
+1:19 - Interview Questions
+2:08 - Being Put On The Spot Sucks
+3:55 - Ridiculous Tech Requirements
+4:59 - Mandatory College Degree
+5:24 - My Proposal
+6:03 - Personal Project Review
+6:39 - Relevant Take Home Project
+7:54 - Learning Process Evaluation
+8:25 - Wrap Up</media:description>
+   <media:community>
+    <media:starRating count="3575" average="5.00" min="1" max="5"/>
+    <media:statistics views="49979"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
