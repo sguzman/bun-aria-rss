@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2421 (socket.io-parser)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2421",
+  "description": "Due to improper type validation in attachment parsing the Socket.io js library, it is possible to overwrite the _placeholder object which allows an attacker to place references to functions at arbitrary places in the resulting query object.",
+  "dc:date": "2022-10-26T10:15:16Z"
+}

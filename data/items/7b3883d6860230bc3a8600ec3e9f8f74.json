@@ -1,0 +1,8 @@
+{
+  "title": "SolarWinds Hack and the Case of DNS Security",
+  "description": "It's not news that some of the top government agencies and companies in the world were victims of the SolarWinds attack. At this point, I can say it's the reason I didn't have a smoother transition back into work-life following a long vacation. As I understand it, the breaches happened after malicious code was inserted into a software patch that was downloaded by the companies and agencies. The installation of the patch executed malicious code, called SUNBURST, which created an entry point for other malicious codes (TEARDROP/RAINDROP). These additional codes were used to allow attackers to move laterally within the network and exfiltrate sensitive customer information to a public command and control server.",
+  "link": "https://www.akamai.com/blog/security/solarwinds-hack-and-the-case-of-dns-security",
+  "author": "Chinedu Egonu",
+  "guid": "https://www.akamai.com/blog/security/solarwinds-hack-and-the-case-of-dns-security",
+  "pubDate": "Tue, 16 Feb 2021 05:00 AM UTC"
+}

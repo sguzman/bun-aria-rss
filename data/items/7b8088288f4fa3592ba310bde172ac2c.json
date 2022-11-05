@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-33878 (forticlient)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33878",
+  "description": "An exposure of sensitive information to an unauthorized actor vulnerabiltiy [CWE-200] in FortiClient for Mac versions 7.0.0 through 7.0.5 may allow a local authenticated attacker to obtain the SSL-VPN password in cleartext via running a logstream for the FortiTray process in the terminal.",
+  "dc:date": "2022-11-02T12:15:53Z"
+}
