@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.CV updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Complex Variables (math.CV) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Complex Variables</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01507" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01742" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2005.02996" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01507">
+<title>Solving the Kerzman&apos;s problem on the sup-norm estimate for $\dbar$ on product domains. (arXiv:2211.01507v1 [math.CV])</title>
+<link>http://arxiv.org/abs/2211.01507</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, the author solves the long term open problem of Kerzman on
+sup-norm estimate for Cauchy-Riemann equation on polydisc in $n$-dimensional
+complex space. The problem has been open since 1971. He also extends and solves
+the problem on a bounded product domain $\Omega^n$, where $\Omega$ either is
+simply connected with $C^{1,\alpha}$ boundary or satisfies a uniform exterior
+ball condition with piecewise $C^1$ boundary.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_S/0/1/0/all/0/1&quot;&gt;Song-Ying Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01742">
+<title>On a multiplier operator induced by the Schwarzian derivative of a univalent function. (arXiv:2211.01742v1 [math.CV])</title>
+<link>http://arxiv.org/abs/2211.01742</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we study a multiplier operator which is induced by the
+Schwarzian derivative of a univalent function with a qc extension to the
+extended complex plane. We obtain a norm estimate for this operator. As an
+application, we prove that the Brennan&apos;s conjecture is true for a large class
+of quasi-disks. We also present a new characterization of the asymptotically
+conformal curves and the WP curves in terms of the multiplier operator.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Jin_J/0/1/0/all/0/1&quot;&gt;Jianjun Jin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2005.02996">
+<title>Fourier interpolation with zeros of zeta and $L$-functions. (arXiv:2005.02996v3 [math.NT] UPDATED)</title>
+<link>http://arxiv.org/abs/2005.02996</link>
+<description rdf:parseType="Literal">&lt;p&gt;We construct a large family of Fourier interpolation bases for functions
+analytic in a strip symmetric about the real line. Interesting examples involve
+the nontrivial zeros of the Riemann zeta function and other $L$-functions. We
+establish a duality principle for Fourier interpolation bases in terms of
+certain kernels of general Dirichlet series with variable coefficients. Such
+kernels admit meromorphic continuation, with poles at a sequence dual to the
+sequence of frequencies of the Dirichlet series, and they satisfy a functional
+equation. Our construction of concrete bases relies on a strengthening of
+Knopp&apos;s abundance principle for Dirichlet series with functional equations and
+a careful analysis of the associated Dirichlet series kernel, with coefficients
+arising from certain modular integrals for the theta group.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bondarenko_A/0/1/0/all/0/1&quot;&gt;Andriy Bondarenko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Radchenko_D/0/1/0/all/0/1&quot;&gt;Danylo Radchenko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Seip_K/0/1/0/all/0/1&quot;&gt;Kristian Seip&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
