@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>nlin.SI updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Nonlinear Sciences -- Exactly Solvable and Integrable Systems (nlin.SI) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Nonlinear Sciences -- Exactly Solvable and Integrable Systems</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01541" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01586" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.14277" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01541">
+<title>Factorization conditions for nonlinear second-order differential equations. (arXiv:2211.01541v1 [nlin.SI])</title>
+<link>http://arxiv.org/abs/2211.01541</link>
+<description rdf:parseType="Literal">&lt;p&gt;For the case of nonlinear second-order differential equations with a constant
+coefficient of the first derivative term and polynomial nonlinearities, the
+factorization conditions of Rosu and Cornejo-Perez are approached in two ways:
+(i) by commuting the subindices of the factorization functions in the two
+factorization conditions and (ii) by leaving invariant only the first
+factorization condition achieved by using monomials or polynomial sequences.
+For the first case the factorization brackets commute and the generated
+equations are only equations of Ermakov-Pinney type. The second modification is
+non commuting, leading to nonlinear equations with different nonlinear force
+terms, but the same first-order part as the initially factored equation. It is
+illustrated for monomials with the examples of the generalized Fisher and
+FitzHugh-Nagumo initial equations. A polynomial sequence example is also
+included.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Gonzalez_G/0/1/0/all/0/1&quot;&gt;G. Gonzalez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Rosu_H/0/1/0/all/0/1&quot;&gt;H.C. Rosu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Perez_Cornejo_O/0/1/0/all/0/1&quot;&gt;O. Perez-Cornejo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Mancas_S/0/1/0/all/0/1&quot;&gt;S.C. Mancas&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01586">
+<title>Spectral theory of the Nazarov-Sklyanin Lax operator. (arXiv:2211.01586v1 [math.CO])</title>
+<link>http://arxiv.org/abs/2211.01586</link>
+<description rdf:parseType="Literal">&lt;p&gt;In their study of Jack polynomials, Nazarov-Sklyanin introduced a remarkable
+new graded linear operator $\mathcal{L}: F[w] \rightarrow F[w]$ where $F$ is
+the ring of symmetric functions. In this paper, we (1) establish a cyclic
+decomposition $F[w] \cong \bigoplus_{\lambda} Z(j_{\lambda}, \mathcal{L})$ of
+the domain of $\mathcal{L}$ into finite-dimensional $\mathcal{L}$-cyclic
+subspaces in which Jack polynomials $j_{\lambda}$ may be taken as cyclic
+vectors and (2) prove that the restriction of $\mathcal{L}$ to each
+$Z(j_{\lambda}, \mathcal{L})$ has simple spectrum given by the anisotropic
+contents $[s]$ of the addable corners $s$ of the Young diagram of $\lambda$.
+Our proofs of (1) and (2) rely on the commutativity and spectral theorem for
+the integrable hierarchy of $\mathcal{L}$, both established by
+Nazarov-Sklyanin. Finally, we derive and conjecture several properties of the
+$\mathcal{L}$-eigenfunctions $\psi_{\lambda}^s$ which satisfy
+$\psi_{\lambda}^s|_{w=0} = j_{\lambda}$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Mickler_R/0/1/0/all/0/1&quot;&gt;Ryan Mickler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Moll_A/0/1/0/all/0/1&quot;&gt;Alexander Moll&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.14277">
+<title>Integrable Floquet systems related to logarithmic conformal field theory. (arXiv:2206.14277v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.14277</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study an integrable Floquet quantum system related to lattice statistical
+systems in the universality class of dense polymers. These systems are
+described by a particular non-unitary representation of the Temperley-Lieb
+algebra. We find a simple Lie algebra structure for the elements of
+Temperley-Lieb algebra which are invariant under shift by two lattice sites,
+and show how the local Floquet conserved charges and the Floquet Hamiltonian
+are expressed in terms of this algebra. The system has a phase transition
+between local and non-local phases of the Floquet Hamiltonian. We provide a
+strong indication that in the scaling limit this non-equilibrium system is
+described by the logarithmic conformal field theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yashin_V/0/1/0/all/0/1&quot;&gt;Vsevolod I. Yashin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kurlov_D/0/1/0/all/0/1&quot;&gt;Denis V. Kurlov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fedorov_A/0/1/0/all/0/1&quot;&gt;Aleksey K. Fedorov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gritsev_V/0/1/0/all/0/1&quot;&gt;Vladimir Gritsev&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
