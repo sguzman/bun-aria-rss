@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>hep-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">High Energy Physics - Phenomenology (hep-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>www-admin@arxiv.org</dc:publisher>
+<dc:subject>High Energy Physics - Phenomenology</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01379" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01380" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01387" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01397" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01398" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01420" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01421" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01470" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01543" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01616" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01647" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01673" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01693" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01711" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01728" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01729" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01789" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01816" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01846" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01854" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01896" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01906" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01935" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01949" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01971" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02010" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02027" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02028" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02029" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02030" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2105.09686" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.11637" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2202.01578" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2202.04498" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.02861" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.11442" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.00889" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.09910" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.00013" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.00416" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.04085" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.06986" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.13037" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.08215" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.13409" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00510" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01379">
+<title>Dipole operators in Fierz identities. (arXiv:2211.01379v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01379</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the contribution from dipole operators to one-loop Fierz identities
+and provide the resulting QCD and QED shifts to the tree-level relations for
+all four-fermion operators. The results simplify one-loop basis changes as well
+as matching computations and allow one to consistently eliminate operators from
+an operator basis which give rise to complications, e.g. traces involving
+$\gamma_5$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Aebischer_J/0/1/0/all/0/1&quot;&gt;Jason Aebischer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Pesut_M/0/1/0/all/0/1&quot;&gt;Marko Pesut&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Polonsky_Z/0/1/0/all/0/1&quot;&gt;Zachary Polonsky&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01380">
+<title>Large-Scale $2+1$D $\mathrm{U}(1)$ Gauge Theory with Dynamical Matter in a Cold-Atom Quantum Simulator. (arXiv:2211.01380v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01380</link>
+<description rdf:parseType="Literal">&lt;p&gt;A major driver of quantum-simulator technology is the prospect of probing
+high-energy phenomena in synthetic quantum matter setups at a high level of
+control and tunability, thereby offering a venue complementary to dedicated
+particle colliders. Here, we propose an experimentally feasible realization of
+a large-scale $2+1$D $\mathrm{U}(1)$ gauge theory with dynamical matter and
+gauge fields in a cold-atom quantum simulator with spinless bosons. We present
+the full mapping of the corresponding Gauss&apos;s law onto the bosonic
+computational basis. We then show that the target gauge theory can be
+faithfully realized and stabilized by an emergent gauge protection term in a
+two-dimensional single-species Bose--Hubbard optical Lieb superlattice with two
+spatial periods along either direction, thereby requiring only moderate
+experimental resources already available in current cold-atom setups. Using
+infinite matrix product states, we calculate numerical benchmarks for adiabatic
+sweeps and global quench dynamics that further confirm the fidelity of the
+mapping. Our work brings quantum simulators of gauge theories a significant
+step forward in terms of investigating particle physics in higher spatial
+dimensions, and is readily implementable in existing cold-atom platforms.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Osborne_J/0/1/0/all/0/1&quot;&gt;Jesse Osborne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+McCulloch_I/0/1/0/all/0/1&quot;&gt;Ian P. McCulloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_B/0/1/0/all/0/1&quot;&gt;Bing Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hauke_P/0/1/0/all/0/1&quot;&gt;Philipp Hauke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Halimeh_J/0/1/0/all/0/1&quot;&gt;Jad C. Halimeh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01387">
+<title>The persistent nonperturbative charm enigma. (arXiv:2211.01387v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01387</link>
+<description rdf:parseType="Literal">&lt;p&gt;The question of the existence and possible magnitude of nonperturbative
+(often called &quot;intrinsic&quot;) charm in the proton has long confounded attempts to
+cleanly isolate such a contribution in global analyses of high-energy
+experiments. In this letter, we show that the available (non)perturbative QCD
+theory and hadronic data have still not developed to a sufficient level to
+clearly resolve this problem. We highlight a number of challenging aspects that
+must be confronted in extracting nonperturbative charm in PDF fits, and in so
+doing, present an updated next-to-next-to-leading order CT analysis of fitted
+charm, CT18 FC, which we also compare to recent studies. We outline the theory
+developments and future data needed to make progress on this subject.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Guzzi_M/0/1/0/all/0/1&quot;&gt;Marco Guzzi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Hobbs_T/0/1/0/all/0/1&quot;&gt;T. J. Hobbs&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Xie_K/0/1/0/all/0/1&quot;&gt;Keping Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Huston_J/0/1/0/all/0/1&quot;&gt;Joey Huston&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Nadolsky_P/0/1/0/all/0/1&quot;&gt;Pavel Nadolsky&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yuan_C/0/1/0/all/0/1&quot;&gt;C.-P. Yuan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01397">
+<title>The fate of discrete torsion on resolved heterotic Z2xZ2 orbifolds using (0,2) GLSMs. (arXiv:2211.01397v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01397</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper aims to shed light on what becomes of discrete torsion within
+heterotic orbifolds when they are resolved to smooth geometries. Gauged Linear
+Sigma Models (GLSMs) possessing (0,2) worldsheet supersymmetry are employed as
+interpolations between them. This question is addressed for resolutions of the
+non-compact C3/Z2xZ2 and the compact T6/Z2xZ2 orbifolds to keep track of local
+and global aspects. The GLSMs associated with the non-compact orbifold with or
+without torsion are to a large extent equivalent: only when expressed in the
+same superfield basis, a field redefinition anomaly arises among them, which in
+the orbifold limit reproduces the discrete torsion phases. Previously unknown,
+novel resolution GLSMs for T6/Z2xZ2 are constructed. The GLSM associated with
+the torsional compact orbifold suffers from mixed gauge anomalies, which need
+to be cancelled by appropriate logarithmic superfield dependent FI-terms on the
+worldsheet, signalling H-flux due to NS5-branes supported at the exceptional
+cycles.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Faraggi_A/0/1/0/all/0/1&quot;&gt;A.E. Faraggi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Nibbelink_S/0/1/0/all/0/1&quot;&gt;S. Groot Nibbelink&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Heredia_M/0/1/0/all/0/1&quot;&gt;M. Hurtado Heredia&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01398">
+<title>Connecting small-scale to large-scale structures of fast neutrino-flavor conversion. (arXiv:2211.01398v1 [astro-ph.HE])</title>
+<link>http://arxiv.org/abs/2211.01398</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a systematic study of fast neutrino-flavor conversion (FFC) with
+both small-scale and large-scale numerical simulations in spherical symmetry.
+We find that FFCs can, in general, reach in a quasi-steady state, and these
+features in the non-linear phase are not characterized by the growth rate of
+FFC instability but rather angular structures of electron neutrino lepton
+number (ELN) and heavy one (XLN). Our result suggests that neutrinos can almost
+reach a flavor equipartition even in cases with low growth rate of instability
+(e.g., shallow ELN crossing) and narrow angular regions (in momentum space)
+where flavor conversions occur vigorously. This exhibits that ELN and XLN
+angular distributions can not provide a sufficient information to determine
+total amount of flavor conversion in neutrinos and antineutrinos of all
+flavors. Based on the results of our numerical simulations, we provide a new
+approximate scheme of FFC that is designed so that one can easily incorporate
+effects of FFCs in existing classical neutrino transport codes for the study of
+core-collapse supernova (CCSN) and binary neutron star merger (BNSM). The
+scheme has an ability to capture key features of quasi-steady state of FFCs
+without solving quantum kinetic neutrino transport, which will serve to
+facilitate access to FFCs for CCSN and BNSM theorists.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Nagakura_H/0/1/0/all/0/1&quot;&gt;Hiroki Nagakura&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Zaizen_M/0/1/0/all/0/1&quot;&gt;Masamichi Zaizen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01420">
+<title>A Complete Set of the Dimension-8 Green&apos;s Basis Operators in the Standard Model Effective Field Theory. (arXiv:2211.01420v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01420</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a complete and independent off-shell Green&apos;s basis of the
+dimension 8 operators in the Standard Model effective field theory (SMEFT). We
+propose an off-shell amplitude formalism such that this new kind of amplitudes
+has a one-to-one correspondence to general operators carrying all kinds of
+redundancies. The advantage of such formalism is that all kinds of redundancies
+can be formulated explicitly in terms of the off-shell spinors and thus be
+removed systematically from the exhaustive list of the general off-shell
+amplitudes. Following such procedure, redundant operators can be reduced to the
+ones with the only redundancy from the equation of motion kept, the Green&apos;s
+basis. We find there are (993+1649) independent (on-shell + off-shell)
+operators for one generation of fermions and (44807+66197) ones for three
+generations at the dimension 8. This systematic method can be applied to obtain
+the Green&apos;s basis at any mass dimension for general EFTs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ren_Z/0/1/0/all/0/1&quot;&gt;Zhe Ren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yu_J/0/1/0/all/0/1&quot;&gt;Jiang-Hao Yu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01421">
+<title>Modern Machine Learning for LHC Physicists. (arXiv:2211.01421v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01421</link>
+<description rdf:parseType="Literal">&lt;p&gt;Modern machine learning is transforming particle physics, faster than we can
+follow, and bullying its way into our numerical tool box. For young researchers
+it is crucial to stay on top of this development, which means applying
+cutting-edge methods and tools to the full range of LHC physics problems. These
+lecture notes are meant to lead students with basic knowledge of particle
+physics and significant enthusiasm for machine learning to relevant
+applications as fast as possible. They start with an LHC-specific motivation
+and a non-standard introduction to neural networks and then cover
+classification, unsupervised classification, generative networks, and inverse
+problems. Two themes defining much of the discussion are well-defined loss
+functions reflecting the problem at hand and uncertainty-aware networks. As
+part of the applications, the notes include some aspects of theoretical LHC
+physics. All examples are chosen from particle physics publications of the last
+few years. Given that these notes will be outdated already at the time of
+submission, the week of ML4Jets 2022, they will be updated frequently.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Plehn_T/0/1/0/all/0/1&quot;&gt;Tilman Plehn&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Butter_A/0/1/0/all/0/1&quot;&gt;Anja Butter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Dillon_B/0/1/0/all/0/1&quot;&gt;Barry Dillon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Krause_C/0/1/0/all/0/1&quot;&gt;Claudius Krause&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01470">
+<title>Invisible Charm Exotica. (arXiv:2211.01470v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01470</link>
+<description rdf:parseType="Literal">&lt;p&gt;One possible interpretation of two narrow $\Omega^0_c$ states reported by the
+LHCb Collaboration at CERN in 2017 is that they are pentaquarks belonging to a
+$\overline{\boldsymbol{15}}$ exotic SU(3) representation, as predicted by the
+Chiral Quark--Soliton Model. If so, there must exist a number of other exotic
+states since the model predicts three different $\overline{\boldsymbol{15}}$
+multiplets of heavy baryons. We show, that depending on the soliton spin $J$,
+these states are either very narrow or very broad. This explains why they might
+have escaped experimental observation. Furthermore, we show that the lightest
+members of these multiplets are stable against two body strong decays.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Praszalowicz_M/0/1/0/all/0/1&quot;&gt;Micha&amp;#x142; Prasza&amp;#x142;owicz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Kucab_M/0/1/0/all/0/1&quot;&gt;Maciej Kucab&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01543">
+<title>Custodial Symmetry Violation in Scalar Extensions of the Standard Model. (arXiv:2211.01543v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01543</link>
+<description rdf:parseType="Literal">&lt;p&gt;The new measurement of the W boson mass from the CDF collaboration shows a
+significant tension with the Standard Model prediction, which evidences
+violation of custodial symmetry in the scalar sector. We study the scalar
+extensions of the Standard Model, which can be categorized into two classes,
+scalar sector with custodial symmetry (Georgi-Machacek model and its
+generalizations) and scalar sector without custodial symmetry, and explore how
+these extensions fit to the electroweak precision data and the CDF new $m_W$ .
+The favored oblique parameters are coming from either the large mass splitting
+in the multiplet via the loop contribution or the large vacuum expectation
+value which breaks custodial symmetry at the tree level. In particular, we find
+that $\mathcal{O}(100)$ GeV new particles are allowed in the scalar extension
+scenarios.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Song_H/0/1/0/all/0/1&quot;&gt;Huayang Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wan_X/0/1/0/all/0/1&quot;&gt;Xia Wan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yu_J/0/1/0/all/0/1&quot;&gt;Jiang-Hao Yu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01616">
+<title>Towards identifying the minimal flavor symmetry behind neutrino oscillations. (arXiv:2211.01616v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01616</link>
+<description rdf:parseType="Literal">&lt;p&gt;Current neutrino oscillation data indicate that the $3\times 3$
+Pontecorvo-Maki-Nakagawa-Sakata matrix $U$ exhibits a $\mu$-$\tau$ flavor
+interchange symmetry $|U^{}_{\mu i}| = |U^{}_{\tau i}|$ (for $i = 1, 2, 3$) as
+a good approximation. In particular, the T2K measurement implies that the
+maximal neutrino mixing angle $\theta^{}_{23}$ and the CP-violating phase
+$\delta$ should be close to $\pi/4$ and $-\pi/2$, respectively. Behind these
+observations lies a minimal flavor symmetry -- - the effective Majorana
+neutrino mass term keeps invariant under the transformations $\nu^{}_{e \rm L}
+\to (\nu^{}_{e \rm L})^c$, $\nu^{}_{\mu \rm L} \to (\nu^{}_{\tau \rm L})^c$ and
+$\nu^{}_{\tau \rm L} \to (\nu^{}_{\mu \rm L})^c$. Extending this flavor
+symmetry to the canonical seesaw mechanism, we find that the $R$-matrix
+describing the strength of weak charged-current interactions of heavy Majorana
+neutrinos satisfies $|R^{}_{\mu i}| = |R^{}_{\tau i}|$ as a consequence of
+$|U^{}_{\mu i}| = |U^{}_{\tau i}|$. This result can be used to set a new upper
+bound, which is about three orders of magnitude more stringent than before, on
+the flavor mixing factor associated with the charged-lepton-flavor-violating
+decay mode $\tau^- \to e^- + \gamma$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Xing_Z/0/1/0/all/0/1&quot;&gt;Zhi-zhong Xing&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01647">
+<title>Harmonics of Parton Saturation in Lepton-Jet Correlations at the EIC. (arXiv:2211.01647v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01647</link>
+<description rdf:parseType="Literal">&lt;p&gt;Parton saturation is one of the most intriguing phenomena in the high energy
+nuclear physics research frontier, especially in the upcoming era of the
+Electron-Ion Collider (EIC). The lepton-jet correlation in deep inelastic
+scattering provides us with a new gateway to the parton saturation at the EIC.
+In particular, we demonstrate that azimuthal angle anisotropies of the
+lepton-jet correlation are sensitive to the strength of the saturation momentum
+in the EIC kinematic region. In contrast to the predictions based on the
+collinear framework calculation, significant nuclear modification of the
+anisotropies is observed when we compare the saturation physics results in e +
+p and e + Au scatterings. By measuring these harmonic coefficients at the EIC,
+one can conduct quantitative analysis in different collisional systems and
+unveil compelling evidence for saturation effects.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Tong_X/0/1/0/all/0/1&quot;&gt;Xuan-Bo Tong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Xiao_B/0/1/0/all/0/1&quot;&gt;Bo-Wen Xiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yuan-Yuan Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01673">
+<title>The QCD topological susceptibility at high temperatures via staggered fermions spectral projectors. (arXiv:2211.01673v1 [hep-lat])</title>
+<link>http://arxiv.org/abs/2211.01673</link>
+<description rdf:parseType="Literal">&lt;p&gt;The QCD topological observables are essential inputs to obtain theoretical
+predictions about axion phenomenology, which are of utmost importance for
+current and future experimental searches for this particle. Among them, we
+focus on the topological susceptibility, related to the axion mass. We present
+lattice results for the topological susceptibility in QCD at high temperatures
+obtained by discretizing this observable via spectral projectors on eigenmodes
+of the staggered Dirac operator, and we compare them with those obtained with
+the standard gluonic definition. The adoption of the spectral discretization is
+motivated by the large lattice artifacts affecting the standard gluonic
+susceptibility, related to the choice of non-chiral fermions in the lattice
+action.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Athenodorou_A/0/1/0/all/0/1&quot;&gt;Andreas Athenodorou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bonanno_C/0/1/0/all/0/1&quot;&gt;Claudio Bonanno&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bonati_C/0/1/0/all/0/1&quot;&gt;Claudio Bonati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Clemente_G/0/1/0/all/0/1&quot;&gt;Giuseppe Clemente&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+DAngelo_F/0/1/0/all/0/1&quot;&gt;Francesco D&amp;#x27;Angelo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+DElia_M/0/1/0/all/0/1&quot;&gt;Massimo D&amp;#x27;Elia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Maio_L/0/1/0/all/0/1&quot;&gt;Lorenzo Maio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Martinelli_G/0/1/0/all/0/1&quot;&gt;Guido Martinelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Sanfilippo_F/0/1/0/all/0/1&quot;&gt;Francesco Sanfilippo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Todaro_A/0/1/0/all/0/1&quot;&gt;Antonino Todaro&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01693">
+<title>Study on $\Lambda nn$ Bound State and Resonance. (arXiv:2211.01693v1 [nucl-th])</title>
+<link>http://arxiv.org/abs/2211.01693</link>
+<description rdf:parseType="Literal">&lt;p&gt;We perform the ab initio no-core shell model (NCSM) calculation to
+investigate the bound state problem of the three-body $\Lambda nn$ system in
+chiral next-to-next-to-leading-order NN and chiral leading-order YN
+interactions. The calculations show that no $\Lambda nn$ bound state exists,
+but predict a low-lying $\Lambda nn$ resonant state near the threshold with the
+energy of $E_r= 0.124$ MeV and the width of about $\Gamma=1.161$ MeV. In
+searching for $\Lambda nn$ resonances, we extend the NCSM calculation to the
+continuum state by employing the J-matrix formalism in the scattering theory
+with the hyperspherical oscillator basis.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Htun_T/0/1/0/all/0/1&quot;&gt;Thiri Yadanar Htun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Yan_Y/0/1/0/all/0/1&quot;&gt;Yupeng Yan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01711">
+<title>Charmed-strange tetraquarks and their decays in the potential quark model. (arXiv:2211.01711v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01711</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the framework of a nonrelativistic potential quark model, we investigate
+the mass spectrum of the $1S$-wave charmed-strange tetraquark states of
+$cn\bar{s}\bar{n}$ and $cs\bar{n}\bar{n}$ ($n=u$ or $d$) systems. The
+tetraquark system is solved by a correlated Gaussian method. With the same
+parameters fixed by the meson spectra, we obtained the mass spectra for the
+$1S$-wave tetraquark states. Furthermore, based on the predicted tetraquark
+spectra we estimate their rearrangement decays in a quark-exchange model. We
+find that the resonances $X_0(2900)^0$ and $T^a_{c\bar{s}0}(2900)^{++/0}$
+reported from LHCb may be assigned to be the lowest $1S$-wave tetraquark states
+$\bar{T}_{cs0}^f(2818)$ and $T^{a}_{c\bar{s}0}(2828)$ classified in the quark
+model, respectively. It also allows us to extract the couplings for the initial
+tetraquark states to their nearby $S$-wave interaction channels. We find that
+some of these couplings turn out to be sizeable. For $\bar{T}_{cs0}^f(2818)$
+and $T^{a}_{c\bar{s}0}(2828)$ their couplings to $D^*\bar{K}^*$ and $D^*K^*$,
+respectively, are found to be large. Following the picture of the wavefunction
+renormalization for the near-threshold strong $S$-wave interactions, the
+sizeable coupling strengths can be regarded as an indication of their dynamic
+origins as candidates for hadronic molecules. Furthermore, our predictions
+suggest that signals for the $1S$-wave charmed-strange tetraquark states can
+also be searched in the other channels, such as $D^0K^+$, $D^+K^+$,
+$D^{*+}K^-$, $D^{*+}K^+$, $D^{*0}K^+$, $D^0\bar{K}^{*0}$, $D_s^+\rho^0$, etc.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Liu_F/0/1/0/all/0/1&quot;&gt;Feng-Xiao Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ni_R/0/1/0/all/0/1&quot;&gt;Ru-Hui Ni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Zhong_X/0/1/0/all/0/1&quot;&gt;Xian-Hui Zhong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Zhao_Q/0/1/0/all/0/1&quot;&gt;Qiang Zhao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01728">
+<title>Primordial non-gaussianity up to all orders: theoretical aspects and implications for primordial black hole models. (arXiv:2211.01728v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.01728</link>
+<description rdf:parseType="Literal">&lt;p&gt;We develop an exact formalism for the computation of the abundance of
+primordial black holes (PBHs) in the presence of local non-gaussianity (NG) in
+the curvature perturbation field. For the first time, we include NG going
+beyond the widely used quadratic and cubic approximations, and consider a
+completely generic functional form. Adopting threshold statistics of the
+compaction function, we address the computation of the abundance both for
+narrow and broad power spectra. While our formulas are generic, we discuss
+explicit examples of phenomenological relevance considering the physics case of
+the curvaton field. We carefully assess under which conditions the conventional
+perturbative approach can be trusted. In the case of a narrow power spectrum,
+this happens only if the perturbative expansion is pushed beyond the quadratic
+order (with the optimal order of truncation that depends on the width of the
+spectrum). Most importantly, we demonstrate that the perturbative approach is
+intrinsically flawed when considering broad spectra, in which case only the
+non-perturbative computation captures the correct result. Finally, we describe
+the phenomenological relevance of our results for the connection between the
+abundance of PBHs and the stochastic gravitational wave (GW) background related
+to their formation. As NGs modify the amplitude of perturbations necessary to
+produce a given PBHs abundance and boost PBHs production at large scales for
+broad spectra, modelling these effects is crucial to connect the PBH scenario
+to its signatures at current and future GWs experiments.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ferrante_G/0/1/0/all/0/1&quot;&gt;Giacomo Ferrante&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Franciolini_G/0/1/0/all/0/1&quot;&gt;Gabriele Franciolini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Iovino_A/0/1/0/all/0/1&quot;&gt;Antonio Junior Iovino&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Urbano_A/0/1/0/all/0/1&quot;&gt;Alfredo Urbano&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01729">
+<title>A seesaw model for large neutrino masses in concordance with cosmology. (arXiv:2211.01729v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01729</link>
+<description rdf:parseType="Literal">&lt;p&gt;Cosmological constraints on the sum of the neutrino masses can be relaxed if
+the number density of active neutrinos is reduced compared to the standard
+scenario, while at the same time keeping the effective number of neutrino
+species $N_{\rm eff}\approx 3$ by introducing a new component of dark
+radiation. We discuss a UV complete model to realise this idea, which
+simultaneously provides neutrino masses via the seesaw mechanism. It is based
+on a $U(1)$ symmetry in the dark sector, which can be either gauged or global.
+In addition to heavy seesaw neutrinos, we need to introduce $\mathcal{O}(10)$
+generations of massless sterile neutrinos providing the dark radiation. Then we
+can accommodate active neutrino masses with $\sum m_\nu \sim 1$ eV, in the
+sensitivity range of the KATRIN experiment. We discuss the phenomenology of the
+model and identify the allowed parameter space. We argue that the gauged
+version of the model is preferred, and in this case the typical energy scale of
+the model is in the 10 MeV to few GeV range.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Escudero_M/0/1/0/all/0/1&quot;&gt;Miguel Escudero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Schwetz_T/0/1/0/all/0/1&quot;&gt;Thomas Schwetz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Terol_Calvo_J/0/1/0/all/0/1&quot;&gt;Jorge Terol-Calvo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01789">
+<title>Probing hadron mass spectrum in dense two-color QCD with linear sigma model. (arXiv:2211.01789v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01789</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate modifications of hadron masses at finite quark chemical
+potential in two-flavor and two-color QCD, of which the data are available from
+lattice simulations, within a linear sigma model based on approximate
+Pauli-Gursey $SU(4)$ symmetry. The model describes not only ground-state scalar
+diquarks and pseudo-scalar mesons but also the excited pseudo-scalar diquarks
+and scalar mesons; each ground-state diquark (meson) has the corresponding
+excited diquark (hadron) with opposite parity as a chiral partner. Effects of
+chiral symmetry breaking and diquark condensates are incorporated by a
+mean-field treatment. We show that various mixings among the hadrons, which are
+triggered by the breakdown of baryon number conservation in the superfluid
+phase, lead to a rich hadron mass spectrum. We discuss the influence of
+$U(1)_A$ anomaly on the density dependence of the mass spectrum and also
+manifestations of the chiral partner structures as density increases in the
+superfluid phase. The predicted hadron masses are expected to provide future
+lattice simulations with useful information on such symmetry properties in
+dense two-color QCD.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Suenaga_D/0/1/0/all/0/1&quot;&gt;Daiki Suenaga&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Murakami_K/0/1/0/all/0/1&quot;&gt;Kotaro Murakami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Itou_E/0/1/0/all/0/1&quot;&gt;Etsuko Itou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Iida_K/0/1/0/all/0/1&quot;&gt;Kei Iida&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01816">
+<title>Study of light sterile neutrino at the long-baseline experiment options at KM3NeT. (arXiv:2211.01816v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01816</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we study the capability of different long-baseline experiment
+options at the KM3NeT facility i.e., P2O, Upgraded P2O and P2SO to probe the
+light sterile neutrino and compare their sensitivity with DUNE. The option P2O
+will have neutrinos from a 90 KW beam at Protvino to be detected at the ORCA
+detector, the Upgraded P2O will have neutrinos from the upgraded 450 KW beam to
+be detected at the ORCA detector and the option P2SO will have neutrinos from a
+450 KW beam to be detected at the upgraded Super-ORCA detector. All these
+options will have a baseline around 2595 km. Our results show that the
+experiments at the KM3NeT (DUNE) would be more sensitive if the value of
+$\Delta m^2_{41}$ is around 10 (1) eV$^2$. Our results also show that the role
+of near detector is very important for the study of sterile neutrinos and
+addition of near detector improves the sensitivity as compared to only far
+detector for 3+1 scenario. Among the three options at KM3NeT, the sensitivity
+of P2O and updated P2O is limited and sensitivity of P2SO is either comparable
+or better than DUNE.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Singha_D/0/1/0/all/0/1&quot;&gt;Dinesh Kumar Singha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ghosh_M/0/1/0/all/0/1&quot;&gt;Monojit Ghosh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Majhi_R/0/1/0/all/0/1&quot;&gt;Rudra Majhi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Mohanta_R/0/1/0/all/0/1&quot;&gt;Rukmani Mohanta&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01846">
+<title>Evidence for the molecular nature of $D_{s0}^*(2317)$ and $D_{s1}(2460)$ and the production yield of $K_{c\bar{c}}(4180)$ as a $D\bar{D}K$ bound state in inclusive $e^+e^-\to c\bar{c}$ collisions. (arXiv:2211.01846v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01846</link>
+<description rdf:parseType="Literal">&lt;p&gt;Searching for exotic multiquark states and elucidating their nature remains a
+central topic in understanding quantum chromo dynamics--the underlying theory
+of the strong interaction. Two of the most studied such states are the
+charmed-strange states $D_{s0}^*(2317)$ and $D_{s1}(2460)$. In this work, we
+show for the first time that their production yields in inclusive $e^+e^-\to
+c\bar{c}$ productions near $\sqrt{s}=10.6$ GeV measured by the BaBar
+Collaboration can be well explained in the molecular picture, which provide a
+highly nontrivial verification of their nature being $DK/D^*K$ molecules. In
+addition, we predict the production yield of the $D\bar{D}K$ three-body bound
+state, $K_{c\bar{c}}(4180)$, in $e^+e^-\to c\bar{c}$ collisions and find that
+it is within the reach of the ongoing Belle II experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wu_T/0/1/0/all/0/1&quot;&gt;Tian-Chen Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Geng_L/0/1/0/all/0/1&quot;&gt;Li-Sheng Geng&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01854">
+<title>Ultralight dark matter searches at the sub-Hz frontier with atom multi-gradiometry. (arXiv:2211.01854v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01854</link>
+<description rdf:parseType="Literal">&lt;p&gt;Single-photon atom gradiometry is a powerful experimental technique that can
+be employed to search for the oscillation of atomic transition energies induced
+by ultralight scalar dark matter (ULDM). In the sub-Hz regime the background is
+expected to be dominated by gravity gradient noise (GGN), which arises as a
+result of mass fluctuations around the experiment. In this work we model the
+GGN as surface Rayleigh waves and construct a likelihood-based analysis that
+consistently folds GGN into the sensitivity estimates of vertical atom
+gradiometers in the frequency window between 1 mHz and 1 Hz. We show that in
+certain geological settings GGN can be significantly mitigated when operating a
+multi-gradiometer configuration, which consists of three or more atom
+interferometers in the same baseline. Multi-gradiometer experiments, such as
+future versions of AION and MAGIS-100, have the potential to probe regions of
+scalar ULDM parameter space in the sub-Hz regime that have not been excluded by
+existing experiments.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Badurina_L/0/1/0/all/0/1&quot;&gt;Leonardo Badurina&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gibson_V/0/1/0/all/0/1&quot;&gt;Valerie Gibson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+McCabe_C/0/1/0/all/0/1&quot;&gt;Christopher McCabe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Mitchell_J/0/1/0/all/0/1&quot;&gt;Jeremiah Mitchell&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01896">
+<title>The $X(3872)$, the $X(4014)$, and their bottom partners at finite temperature. (arXiv:2211.01896v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01896</link>
+<description rdf:parseType="Literal">&lt;p&gt;The properties of the $X(3872)$ and its spin partner, the $X(4014)$, are
+studied both in vacuum and at finite temperature. Using an effective hadron
+theory based on the hidden-gauge Lagrangian, the $X(3872)$ is dynamically
+generated from the $s$-wave rescattering of a pair of pseudoscalar and vector
+charm mesons. By incorporating the thermal spectral functions of open charm
+mesons, the calculation is extended to finite temperature. Similarly, the
+properties of the $X(4014)$ are obtained out of the scattering of charm vector
+mesons. By applying heavy-quark flavor symmetry, the properties of their bottom
+counterparts in the axial-vector and tensor channels are also predicted. All
+the dynamically generated states show a decreasing mass and acquire an
+increasing decay width with temperature, following the trend observed in their
+meson constituents. These results are relevant in relativistic heavy-ion
+collisions at high energies, in analyses of the collective medium formed after
+hadronization or in femtoscopic studies, and can be tested in lattice-QCD
+calculations exploring the melting of heavy mesons at finite temperature.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Montana_G/0/1/0/all/0/1&quot;&gt;Gloria Monta&amp;#xf1;a&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ramos_A/0/1/0/all/0/1&quot;&gt;Angels Ramos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Tolos_L/0/1/0/all/0/1&quot;&gt;Laura Tolos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Torres_Rincon_J/0/1/0/all/0/1&quot;&gt;Juan M. Torres-Rincon&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01906">
+<title>$U(1)_{Y&apos;}$ universal seesaw. (arXiv:2211.01906v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01906</link>
+<description rdf:parseType="Literal">&lt;p&gt;We extend the $SU(3)_c \times SU(2)_L \times U(1)_Y$ standard model by a
+$U(1)_{Y&apos;}$ gauge symmetry. Three right-handed neutrinos are introduced to
+cancel the gauge anomaly. One Higgs singlet is responsible for spontaneously
+breaking the $U(1)_{Y&apos;}$ symmetry while the standard model Higgs doublet does
+not carry any $U(1)_{Y&apos;}$ charges. The down-type quarks, up-type quarks,
+charged leptons and neutral neutrinos obtain their Dirac masses through four
+types of dimension-5 operators constructed by the fermion doublets and singlets
+with the Higgs doublet and singlet. This effective theory is realized in three
+renormalizable contexts with heavy fermion singlets, scalar doublets and
+fermion doublets. The heavy fermion singlets and doublets for generating the
+neutrino masses also accommodate a successful Dirac leptogenesis to explain the
+baryon asymmetry in the universe.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Chen_S/0/1/0/all/0/1&quot;&gt;Su-Ping Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gu_P/0/1/0/all/0/1&quot;&gt;Pei-Hong Gu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01935">
+<title>Discovering a new well: Decaying dark matter with profile likelihoods. (arXiv:2211.01935v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.01935</link>
+<description rdf:parseType="Literal">&lt;p&gt;A large number of studies, all using Bayesian parameter inference from Markov
+Chain Monte Carlo methods, have constrained the presence of a decaying dark
+matter component. All such studies find a strong preference for either very
+long-lived or very short-lived dark matter. However, in this letter, we
+demonstrate that this preference is due to parameter volume effects that drive
+the model towards the standard $\Lambda$CDM model, which is known to provide a
+good fit to most observational data.
+&lt;/p&gt;
+&lt;p&gt;Using profile likelihoods, which are free from volume effects, we instead
+find that the best-fitting parameters are associated with an intermediate
+regime where around $3 \%$ of cold dark matter decays just prior to
+recombination. With two additional parameters, the model yields an overall
+preference over the $\Lambda$CDM model of $\Delta \chi^2 \approx -2.8$ with
+\textit{Planck} and BAO and $\Delta \chi^2 \approx -7.8$ with the SH0ES $H_0$
+measurement, while only slightly alleviating the $H_0$ tension. Ultimately, our
+results reveal that decaying dark matter is more viable than previously
+assumed, and illustrate the dangers of relying exclusively on Bayesian
+parameter inference when analysing extensions to the $\Lambda$CDM model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Holm_E/0/1/0/all/0/1&quot;&gt;Emil Brinch Holm&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Herold_L/0/1/0/all/0/1&quot;&gt;Laura Herold&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hannestad_S/0/1/0/all/0/1&quot;&gt;Steen Hannestad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Nygaard_A/0/1/0/all/0/1&quot;&gt;Andreas Nygaard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tram_T/0/1/0/all/0/1&quot;&gt;Thomas Tram&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01949">
+<title>Impact of multiple modes on the evolution of self-interacting axion condensate around rotating black holes. (arXiv:2211.01949v1 [gr-qc])</title>
+<link>http://arxiv.org/abs/2211.01949</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ultra-light particles, such as axions, form a macroscopic condensate around a
+highly spinning black hole by the superradiant instability. Due to its
+macroscopic nature, the condensate opens the possibility of detecting the axion
+through gravitational wave observations. However, the precise evolution of the
+condensate must be known for the actual detection. For future observation, we
+numerically study the influence of the self-interaction, especially interaction
+between different modes, on the evolution of the condensate in detail. First,
+we focus on the case when condensate starts with the smallest possible angular
+quantum number. For this case, we perform the non-linear calculation and show
+that the dissipation induced by the mode interaction is strong enough to
+saturate the superradiant instability, even if the secondary cloud starts with
+quantum fluctuations. Our result indicates that explosive phenomena such as
+bosenova do not occur in this case. We also show that the condensate settles to
+a quasi-stationary state mainly composed of two modes, one with the smallest
+angular quantum number for which the superradiant instability occurs and the
+other with the adjacent higher angular quantum number. We also study the case
+when the condensate starts with the dominance of the higher angular quantum
+number. We show that the dissipation process induced by the mode coupling does
+not occur for small gravitational coupling. Therefore, bosenova might occur in
+this case.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Omiya_H/0/1/0/all/0/1&quot;&gt;Hidetoshi Omiya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Takahashi_T/0/1/0/all/0/1&quot;&gt;Takuya Takahashi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Tanaka_T/0/1/0/all/0/1&quot;&gt;Takahiro Tanaka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Yoshino_H/0/1/0/all/0/1&quot;&gt;Hirotaka Yoshino&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01971">
+<title>Detecting nuclear mass distribution in isobar collisions via charmonium. (arXiv:2211.01971v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01971</link>
+<description rdf:parseType="Literal">&lt;p&gt;The collective properties of final state hadrons produced in the high
+statistics $_{44}^{96}$Ru+$_{44}^{96}$Ru and $_{40}^{96}$Zr+$_{40}^{96}$Zr
+collisions at $\sqrt{s_\mathrm{NN}} = 200~\mathrm{GeV}$ are found to be
+significantly different. Such differences were argued to be precise probes of
+the difference in nucleon distribution in the isobar nuclei. We investigate the
+$J/\psi$ production in the isobar collision via a relativistic transport
+approach. By comparing the isobar systems according to equal centrality bin and
+equal multiplicity bin, we find that the yield ratio of $J/\psi$ is sensitive
+to the differences in both the number of binary collisions and the medium
+evolution. Besides, the elliptic flow $v_2$ of $J/\psi$ is qualitatively
+different from the light hadrons, and the ratio between Ru+Ru and Zr+Zr
+collisions is sensitive to the medium evolution. The charmonium production
+provides an independent probe to study the nucleon distribution in the isobar
+system.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Zhao_J/0/1/0/all/0/1&quot;&gt;Jiaxing Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Shi_S/0/1/0/all/0/1&quot;&gt;Shuzhe Shi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02010">
+<title>On ALP scenarios and GRB 221009A. (arXiv:2211.02010v1 [astro-ph.HE])</title>
+<link>http://arxiv.org/abs/2211.02010</link>
+<description rdf:parseType="Literal">&lt;p&gt;The extraordinarily bright gamma-ray burst GRB 221009A was observed by a
+large number of observatories, from radio frequencies to gamma-rays. Of
+particular interest are the reported observations of photon-like air showers of
+very high energy: an 18 TeV event in LHAASO and a 251 TeV event at Carpet-2.
+Gamma rays at these energies are expected to be absorbed by pair-production
+events on background photons when travelling intergalactic distances. Several
+works have sought to explain the observations of these events, assuming they
+originate from GRB 221009A, by invoking axion-like particles (ALPs). We
+reconsider this scenario and account for astrophysical uncertainties due to
+poorly known magnetic fields and background photon densities. We find that,
+robustly, the ALP scenario cannot simultaneously account for an 18 TeV and a
+251 TeV photon from GRB 221009A.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Carenza_P/0/1/0/all/0/1&quot;&gt;Pierluca Carenza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marsh_M/0/1/0/all/0/1&quot;&gt;M.C. David Marsh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02027">
+<title>Charged Higgs boson signatures via $pp \rightarrow H^\pm bj$ in 2HDM type-I. (arXiv:2211.02027v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.02027</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this study, we investigate the light charged Higgs boson production via
+$pp \rightarrow H^\pm bj$ in the type-I configuration of the Two-Higgs Doublet
+Model (2HDM). In the viable parameter space, assuming either $h$ or $H$ is the
+SM-like Higgs boson observed at the Large Hadron Collider (LHC), we focus on
+the bosonic decays $H^\pm \rightarrow W^\pm A/h$ and examine the final states
+arising from the above charged Higgs production and decay. We show here that
+the suggested signatures can have sizable rates, reaching the pb level, when
+the top quark is produced on-shell and $\tan\beta$ is small.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Benbrik_R/0/1/0/all/0/1&quot;&gt;R. Benbrik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Krab_M/0/1/0/all/0/1&quot;&gt;M. Krab&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Manaut_B/0/1/0/all/0/1&quot;&gt;B. Manaut&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ouchemhou_M/0/1/0/all/0/1&quot;&gt;M. Ouchemhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02028">
+<title>Neutrino Origin of LHAASO&apos;s 18 TeV GRB221009A Photon. (arXiv:2211.02028v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.02028</link>
+<description rdf:parseType="Literal">&lt;p&gt;LHAASO collaboration detected photons with energy above 10 TeV from the most
+recent gamma-ray burst (GRB), GRB221009A. Given the redshift of this event,
+$z\sim 0.15$, photons of such energy are expected to interact with the diffuse
+extragalactic background light (EBL) well before reaching Earth. In this paper
+we provide the first neutrino-related explanation of the most energetic 18 TeV
+event reported by LHAASO. We find that the minimal viable scenario involves
+both mixing and transition magnetic moment portal between light and sterile
+neutrinos. The production of sterile neutrinos occurs efficiently via mixing
+while the transition magnetic moment portal governs the decay rate in the
+parameter space where tree-level decays via mixing to non-photon final states
+are suppressed. Our explanation of this event, while being consistent with the
+terrestrial constraints, points to the non-standard cosmology.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Brdar_V/0/1/0/all/0/1&quot;&gt;Vedran Brdar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Ying-Ying Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02029">
+<title>Optimal transport for a global event description at high-intensity hadron colliders. (arXiv:2211.02029v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.02029</link>
+<description rdf:parseType="Literal">&lt;p&gt;The CERN Large Hadron Collider was built to uncover fundamental particles and
+their interactions at the energy frontier. Upon entering its High Luminosity
+phase at the end of this decade, the unprecedented interaction rates when
+colliding two proton bunches will pose a significant challenge to the
+reconstruction algorithms of experiments such as ATLAS and CMS. We propose an
+algorithm with a greatly enhanced capability of disentangling individual proton
+collisions to obtain a new global event description, considerably improving
+over the current state-of-the-art. Employing a metric inspired by optimal
+transport problems as the cost function of a graph neural network enhanced with
+attention mechanisms, our algorithm is able to compare two particle collections
+with different noise levels, thereby learning to correctly flag particles
+originating from the main proton interaction amidst products from up to 200
+simultaneous pileup collisions. The adoption of such an algorithm will lead to
+a quasi-global sensitivity improvement for searches for new physics phenomena
+and will enable precision measurements at the percent level in the High
+Luminosity era of the Large Hadron Collider.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gouskos_L/0/1/0/all/0/1&quot;&gt;Loukas Gouskos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Iemmi_F/0/1/0/all/0/1&quot;&gt;Fabio Iemmi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Liechti_S/0/1/0/all/0/1&quot;&gt;Sascha Liechti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Maier_B/0/1/0/all/0/1&quot;&gt;Benedikt Maier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Mikuni_V/0/1/0/all/0/1&quot;&gt;Vinicius Mikuni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Qu_H/0/1/0/all/0/1&quot;&gt;Huilin Qu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02030">
+<title>Improved muon decay simulation with McMule and Geant4. (arXiv:2211.02030v1 [hep-ex])</title>
+<link>http://arxiv.org/abs/2211.02030</link>
+<description rdf:parseType="Literal">&lt;p&gt;The physics programme of the MEG II experiment can be extended with the
+search for new invisible particles produced in rare muon decays. The hunt for
+such elusive signals requires accurate simulations to characterise the detector
+response and estimate the experimental sensitivity. This work presents an
+improved simulation of muon decay in MEG II, based on McMule and Geant4.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Gurgone_A/0/1/0/all/0/1&quot;&gt;A. Gurgone&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Papa_A/0/1/0/all/0/1&quot;&gt;A. Papa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Schwendimann_P/0/1/0/all/0/1&quot;&gt;P. Schwendimann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Signer_A/0/1/0/all/0/1&quot;&gt;A. Signer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Ulrich_Y/0/1/0/all/0/1&quot;&gt;Y. Ulrich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Baldini_A/0/1/0/all/0/1&quot;&gt;A. M. Baldini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Cei_F/0/1/0/all/0/1&quot;&gt;F. Cei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Chiappini_M/0/1/0/all/0/1&quot;&gt;M. Chiappini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Francesconi_M/0/1/0/all/0/1&quot;&gt;M. Francesconi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Galli_L/0/1/0/all/0/1&quot;&gt;L. Galli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Grassi_M/0/1/0/all/0/1&quot;&gt;M. Grassi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Nicolo_D/0/1/0/all/0/1&quot;&gt;D. Nicol&amp;#xf2;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Signorelli_G/0/1/0/all/0/1&quot;&gt;G. Signorelli&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2105.09686">
+<title>Contact Interactions at Future Circular Collider based Muon-Proton Colliders. (arXiv:2105.09686v4 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2105.09686</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recently proposed Future Circular Collider based muon-proton colliders will
+allow investigating lepton-hadron interactions at the highest center-of-mass
+energy. In this study, we investigate the potential of these colliders for a
+four-fermion contact interactions search. Regarding the constructive and
+destructive interferences of contact interactions, we estimated discovery,
+observation, and exclusion limits on the compositeness scale for the left-left,
+right-right, left-right, and right-left helicity structures. This study&apos;s
+findings show that the FCC-based {\mu}p colliders have great potential for
+investigating four-fermion contact interactions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Aydin_G/0/1/0/all/0/1&quot;&gt;Gural Aydin&lt;/a&gt; (Hatay Mustafa Kemal University), &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gunaydin_Y/0/1/0/all/0/1&quot;&gt;Yusuf Oguzhan G&amp;#xfc;naydin&lt;/a&gt; (Kahramanmaras S&amp;#xfc;tc&amp;#xfc; Imam University), &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Sahin_M/0/1/0/all/0/1&quot;&gt;Mehmet Sahin&lt;/a&gt; (Usak University), &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Sultansoy_S/0/1/0/all/0/1&quot;&gt;Saleh Sultansoy&lt;/a&gt; (TOBB ETU), &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Tarakcioglu_M/0/1/0/all/0/1&quot;&gt;Mehmet T&amp;#xfc;rker Tarakcioglu&lt;/a&gt; (Kahramanmaras S&amp;#xfc;tc&amp;#xfc; Imam University)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.11637">
+<title>Determining Feynman integrals with only input from linear algebra. (arXiv:2201.11637v3 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.11637</link>
+<description rdf:parseType="Literal">&lt;p&gt;We find that all Feynman integrals (FIs), having any number of loops, can be
+completely determined once linear relations between FIs are provided.
+Therefore, FIs computation is conceptually changed to a linear algebraic
+problem. Examples up to 5 loops are given to verify this observation. As a
+byproduct, we get a powerful method to calculate perturbative corrections in
+quantum field theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Liu_Z/0/1/0/all/0/1&quot;&gt;Zhi-Feng Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ma_Y/0/1/0/all/0/1&quot;&gt;Yan-Qing Ma&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2202.01578">
+<title>Projected Sensivity to Dimension-6 Triple Gauge Couplings at the FCC-hh. (arXiv:2202.01578v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2202.01578</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this study, we investigate the process $pp \rightarrow W^{\pm} \gamma$ for
+the physics potential of the FCC-hh with $\sqrt{s}=100$ TeV to examine the
+anomalous $WW\gamma$ couplings defined by three CP-conserving and two
+CP-violating effective operators of dimension-6. The analysis containing the
+realistic detector effects is carried out in the mode where $W^{\pm}$ bosons in
+the final state decay into the leptonic channel. The best sensitivities
+obtained from the process $pp \rightarrow W^{\pm} \gamma$ on the anomalous
+couplings $C_{WWW}/ \Lambda^{2}$ and $C_{W,B}/ \Lambda^{2}$ determined by
+CP-conserving effective Lagrangians are $[-0.01; 0.01]$ TeV$^{-2}$ and $[-0.88;
+0.88]$ TeV$^{-2}$, while $C_{\tilde{W}WW}/ \Lambda^{2}$ and $C_{\tilde{W}}/
+\Lambda^{2}$ couplings defined by CP-violating effective Lagrangian are
+obtained as $[-0.03; 0.03]$ TeV$^{-2}$ and $[-0.47; 0.47]$ TeV$^{-2}$ at the
+FCC-hh with $\sqrt{s}=100$ TeV, $L_{int}=30$ ab$^{-1}$. However, if the
+systematic uncertainty is included, we obtain reduced sensitivities on the
+anomalous $WW\gamma$ coupling . The results are compared for assumed
+systematics of $5\%$ and $10\%$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Ari_V/0/1/0/all/0/1&quot;&gt;V. Ari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Cetinkaya_V/0/1/0/all/0/1&quot;&gt;V. Cetinkaya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Koksal_M/0/1/0/all/0/1&quot;&gt;M. K&amp;#xf6;ksal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Cakir_O/0/1/0/all/0/1&quot;&gt;O. Cakir&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2202.04498">
+<title>Analytic thin wall false vacuum decay rate. (arXiv:2202.04498v4 [hep-th] UPDATED)</title>
+<link>http://arxiv.org/abs/2202.04498</link>
+<description rdf:parseType="Literal">&lt;p&gt;We derive a closed-form false vacuum decay rate at one loop in the thin wall
+limit, where the true and false vacua are nearly degenerate. We obtain the
+bounce configuration in $D$ dimensions, together with the Euclidean action with
+a higher order correction, counter-terms and renormalization group running. We
+extract the functional determinant via the Gel&apos;fand-Yaglom theorem for low and
+generic orbital multipoles. The negative and zero eigenvalues appear for low
+multipoles and the translational zeroes are removed. We compute the
+fluctuations for generic multipoles, multiply and regulate the orbital modes.
+We find an explicit finite renormalized decay rate in $D = 3, 4$ and give a
+closed-form expression for the finite functional determinant in any dimension.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Ivanov_A/0/1/0/all/0/1&quot;&gt;Aleksandar Ivanov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Matteini_M/0/1/0/all/0/1&quot;&gt;Marco Matteini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Nemevsek_M/0/1/0/all/0/1&quot;&gt;Miha Nemev&amp;#x161;ek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Ubaldi_L/0/1/0/all/0/1&quot;&gt;Lorenzo Ubaldi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.02861">
+<title>Lund and Cambridge multiplicities for precision physics. (arXiv:2205.02861v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.02861</link>
+<description rdf:parseType="Literal">&lt;p&gt;We revisit the calculation of the average jet multiplicity in high-energy
+collisions. First, we introduce a new definition of (sub)jet multiplicity based
+on Lund declusterings obtained using the Cambridge jet algorithm. We develop a
+new systematic resummation approach. This allows us to compute both the Lund
+and the Cambridge average multiplicities to next-to-next-to-double (NNDL)
+logarithmic accuracy in electron-positron annihilation, an order higher in
+accuracy than previous works in the literature. We match our resummed
+calculation to the exact NLO ($\mathcal{O}(\alpha_s^2)$) result, showing
+predictions for the Lund multiplicity at LEP energies with theoretical
+uncertainties up to $50\%$ smaller than the previous state-of-the-art. Adding
+hadronisation corrections obtained by Monte Carlo simulations, we also show a
+good agreement with existing Cambridge multiplicity data. Finally, to highlight
+the flexibility of our method, we extend the Lund multiplicity calculation to
+hadronic collisions where we reach next-to-double logarithmic accuracy for
+colour singlet production.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Medves_R/0/1/0/all/0/1&quot;&gt;Rok Medves&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Soto_Ontoso_A/0/1/0/all/0/1&quot;&gt;Alba Soto-Ontoso&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Soyez_G/0/1/0/all/0/1&quot;&gt;Gregory Soyez&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.11442">
+<title>Charmonium dissociation at high baryon chemical potential. (arXiv:2206.11442v2 [nucl-th] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.11442</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the charmonium dissociation in the hot medium with finite baryon
+chemical potential $\mu_B$. Charmonium bound states are dissociated in the
+medium by the color screening effect and the random scatterings with thermal
+partons, which are included in the real and imaginary parts of the potential
+respectively. $J/\psi$ fraction in the $c\bar c$ pair defined to be the quantum
+overlap between the wave package and the wave function of $J/\psi$ eigenstate
+decreases with time due to the complex potentials. When $\mu_B$ is large
+compared with the medium temperature, the Deybe mass is increased evidently. We
+consider $\mu_B$-dependent Deybe mass in both real and imaginary parts of the
+potential to calculate the $J/\psi$ survival probability in the static medium
+and the Bjorken medium. $J/\psi$ survival probability is reduced evidently by
+the $\mu_B$ effect at low temperatures available in the medium produced in Beam
+Energy Scan experiments, while this effect becomes not apparent at high
+temperatures.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Tong_B/0/1/0/all/0/1&quot;&gt;Bo Tong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Chen_B/0/1/0/all/0/1&quot;&gt;Baoyi Chen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.00889">
+<title>Lattice Fermionic Casimir effect in a Slab Bag and Universality. (arXiv:2207.00889v4 [hep-lat] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.00889</link>
+<description rdf:parseType="Literal">&lt;p&gt;We apply the physically more appealing MIT Bag boundary conditions to study
+the Casimir effect on the lattice. Employing the formalism of &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt;
+to calculate the Casimir energy for free lattice fermions, we show that the
+results for the naive, Wilson and overlap fermions match the continuum
+expressions precisely in the zero lattice spacing limit, as expected from
+universality. In contrast to &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; where the result for the naive
+fermions rapidly oscillates with the lattice size for both, the periodic (P)
+and anti-periodic (AP) boundary conditions, no oscillations are observed with
+the lattice size. Furthermore, the apparent violation of the universality for
+naive fermion in &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; is shown to be cured by applying suitable
+series extrapolation techniques, thus demonstrating that the Casimir energy for
+the naive fermions with periodic/antiperiodic boundary conditions agrees with
+the results for other free lattice fermions, and can as well be used to obtain
+the results for the Dirac fermion in the zero limit of the lattice spacing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Mandlecha_Y/0/1/0/all/0/1&quot;&gt;Yash V. Mandlecha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Gavai_R/0/1/0/all/0/1&quot;&gt;Rajiv V. Gavai&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.09910">
+<title>Analysis of the $X(3960)$ and related tetraquark molecular states via the QCD sum rules. (arXiv:2207.09910v3 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.09910</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we study the $D\bar{D}$, $DD$, $D\bar{D}_s$, $DD_s$,
+$D_s\bar{D}_s$ and $D_sD_s$ tetraquark molecular states with the
+$J^{PC}=0^{++}$ via the QCD sum rules. The prediction $M_{D_s\bar {D}_s} =
+3.98\pm0.10\, \rm{GeV}$ is in very good agreement with the experimental value
+$M_{X(3960)} = 3956 \pm 5\pm 10 \,\rm{MeV}$ from the LHCb collaboration and
+supports assigning the $X(3960)$ as the $D_s^+D_s^-$ molecular state with the
+$J^{PC}=0^{++}$. We take account of our previous works on the four-quark states
+consisting of two color-neutral clusters, and acquire the mass spectrum of the
+ground state hidden-charm and doubly-charm tetraquark molecular states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Xin_Q/0/1/0/all/0/1&quot;&gt;Qi Xin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhi-Gang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yang_X/0/1/0/all/0/1&quot;&gt;Xiao-Song Yang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.00013">
+<title>Electroweak corrections and shower effects to Higgs production in association with two jets at the LHC. (arXiv:2208.00013v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.00013</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present an implementation of the full electroweak $H+2~\text{jets}$
+production process at hadron colliders in the framework of the
+$\tt{POWHEG~BOX}$, a public tool for the matching of fixed-order perturbative
+calculations with parton shower generators. Our implementation allows for the
+simultaneous description of vector-boson fusion and Higgsstrahlung
+contributions. NLO-QCD and electroweak corrections are taken into account and
+matched to QCD and QED showers, respectively. The size of the fixed-order QCD
+and electroweak corrections is found to be moderate, but dependent on the
+considered selection cuts. QCD shower effects slightly modify the NLO-QCD
+predictions and are most pronounced for distributions of non-tagging jets. The
+impact of QED shower effects is small.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Jager_B/0/1/0/all/0/1&quot;&gt;Barbara J&amp;#xe4;ger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Scheller_J/0/1/0/all/0/1&quot;&gt;Johannes Scheller&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.00416">
+<title>Blast from the past II: Constraints on heavy neutral leptons from the BEBC WA66 beam dump experiment. (arXiv:2208.00416v4 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.00416</link>
+<description rdf:parseType="Literal">&lt;p&gt;We revisit the search for heavy neutral leptons with the Big European Bubble
+Chamber in the 1982 proton beam dump experiment at CERN, focussing on those
+heavier than the kaon and mixing only with the tau neutrino, as these are far
+less constrained than their counterparts with smaller mass or other mixings.
+Recasting the previous search in terms of this model and including additional
+production and decay channels yields the strongest bounds to date, up to the
+tau mass. This applies also to our updated bounds on the mixing of heavy
+neutral leptons with the electron neutrino.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Barouki_R/0/1/0/all/0/1&quot;&gt;Ryan Barouki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Marocco_G/0/1/0/all/0/1&quot;&gt;Giacomo Marocco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Sarkar_S/0/1/0/all/0/1&quot;&gt;Subir Sarkar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.04085">
+<title>Four-top quark physics at the LHC. (arXiv:2208.04085v4 [hep-ex] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.04085</link>
+<description rdf:parseType="Literal">&lt;p&gt;The production of four top quarks is a rare process in the Standard Model
+that provides unique opportunities and sensitivity to Standard Model
+observables including potential enhancement from many popular new physics
+extensions. This article summarises the latest experimental measurements of the
+four-top quark production cross section at the LHC. An overview of the
+interpretations of the experimental results in terms of the top quark Yukawa
+coupling and limits on physics beyond the Standard Model is also given as well
+as prospects for future measurements and opportunities offered by this
+challenging final state.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Blekman_F/0/1/0/all/0/1&quot;&gt;Freya Blekman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Deliot_F/0/1/0/all/0/1&quot;&gt;Fr&amp;#xe9;deric D&amp;#xe9;liot&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Dutta_V/0/1/0/all/0/1&quot;&gt;Valentina Dutta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ex/1/au:+Usai_E/0/1/0/all/0/1&quot;&gt;Emanuele Usai&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.06986">
+<title>Relativistic correction to the dissociation temperature of B_c mesons in the hot medium. (arXiv:2208.06986v2 [nucl-th] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.06986</link>
+<description rdf:parseType="Literal">&lt;p&gt;By solving two body Dirac equations with potentials at finite temperature, we
+calculated the dissociation temperature T_d of B_c mesons in the quark-gluon
+plasma. It is found that the T_d becomes higher with the relativistic
+correction than the T_d from the Schroedinger equation. Both the short range
+interaction and the constant term of the potential at the long-range scale have
+a contribution to the shift of T_d, while the spin interaction is negligible.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Li_G/0/1/0/all/0/1&quot;&gt;Guangyu Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Chen_B/0/1/0/all/0/1&quot;&gt;Baoyi Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nucl-th/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Yunpeng Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.13037">
+<title>Beyond DGLAP improved saturation model. (arXiv:2208.13037v3 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.13037</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a modification of the DGLAP improved saturation model with respect
+to the nonlinear correction (NLC). The GLR-MQ improved saturation model is
+considered by employing the parametrization of proton structure function due to
+the Laplace transforms method, which preserves its behavior success in the low
+and high $Q^{2}$ regions. We show that the geometric scaling holds for the
+GLR-MQ improved model in a wide kinematic region $rQ_{s}$. These results are
+comparable with other models in a wide kinematic region $rQ_{s}$. The behavior
+of the dipole cross sections, with respect to the GLR-MQ improved saturation
+model, are comparable with the Color Glass Condensate (CGC) model. The model
+describes the dipole cross sections in the inclusive and diffractive processes.
+We also compare the nonlinear corrections to the impact-parameter dependent
+saturation (IP-Sat) model with the impact-parameter dependent color glass
+condensate (b-CGC) dipole model. Finally, we consider the linear and nonlinear
+corrections to the IP Non-Sat model. These results provide a benchmark for
+further investigation of QCD at small $x$ in future experiments such as the
+Large Hadron Collider and Future Circular Collider projects.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Boroun_G/0/1/0/all/0/1&quot;&gt;G.R.Boroun&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.08215">
+<title>Report of the Topical Group on Cosmic Probes of Dark Matter for Snowmass 2021. (arXiv:2209.08215v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.08215</link>
+<description rdf:parseType="Literal">&lt;p&gt;Cosmological and astrophysical observations currently provide the the only
+robust, positive evidence for dark matter. Cosmic probes of dark matter, which
+seek to determine the fundamental properties of dark matter through
+observations of the cosmos, have emerged as a promising means to reveal the
+nature of dark matter. This report summarizes the current status and future
+potential of cosmic probes to inform our understanding of the fundamental
+nature of dark matter in the coming decade.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Drlica_Wagner_A/0/1/0/all/0/1&quot;&gt;Alex Drlica-Wagner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Prescod_Weinstein_C/0/1/0/all/0/1&quot;&gt;Chanda Prescod-Weinstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yu_H/0/1/0/all/0/1&quot;&gt;Hai-Bo Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Albert_A/0/1/0/all/0/1&quot;&gt;Andrea Albert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Banerjee_A/0/1/0/all/0/1&quot;&gt;Arka Banerjee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Baryakhtar_M/0/1/0/all/0/1&quot;&gt;Masha Baryakhtar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Bechtol_K/0/1/0/all/0/1&quot;&gt;Keith Bechtol&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Bird_S/0/1/0/all/0/1&quot;&gt;Simeon Bird&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Birrer_S/0/1/0/all/0/1&quot;&gt;Simon Birrer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Bringmann_T/0/1/0/all/0/1&quot;&gt;Torsten Bringmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Caputo_R/0/1/0/all/0/1&quot;&gt;Regina Caputo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Chakrabarti_S/0/1/0/all/0/1&quot;&gt;Sukanya Chakrabarti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Chen_T/0/1/0/all/0/1&quot;&gt;Thomas Y. Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Croon_D/0/1/0/all/0/1&quot;&gt;Djuna Croon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Cyr_Racine_F/0/1/0/all/0/1&quot;&gt;Francis-Yan Cyr-Racine&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Dawson_W/0/1/0/all/0/1&quot;&gt;William A. Dawson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Dvorkin_C/0/1/0/all/0/1&quot;&gt;Cora Dvorkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gluscevic_V/0/1/0/all/0/1&quot;&gt;Vera Gluscevic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Gilman_D/0/1/0/all/0/1&quot;&gt;Daniel Gilman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Grin_D/0/1/0/all/0/1&quot;&gt;Daniel Grin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Hlozek_R/0/1/0/all/0/1&quot;&gt;Ren&amp;#xe9;e Hlo&amp;#x17e;ek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Leane_R/0/1/0/all/0/1&quot;&gt;Rebecca K. Leane&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Li_T/0/1/0/all/0/1&quot;&gt;Ting S. Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Mao_Y/0/1/0/all/0/1&quot;&gt;Yao-Yuan Mao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Meyers_J/0/1/0/all/0/1&quot;&gt;Joel Meyers&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Mishra_Sharma_S/0/1/0/all/0/1&quot;&gt;Siddharth Mishra-Sharma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Munoz_J/0/1/0/all/0/1&quot;&gt;Julian B. Mu&amp;#xf1;oz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Munshi_F/0/1/0/all/0/1&quot;&gt;Ferah Munshi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Nadler_E/0/1/0/all/0/1&quot;&gt;Ethan O. Nadler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Parikh_A/0/1/0/all/0/1&quot;&gt;Aditya Parikh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Perez_K/0/1/0/all/0/1&quot;&gt;Kerstin Perez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Peter_A/0/1/0/all/0/1&quot;&gt;Annika H. G. Peter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Profumo_S/0/1/0/all/0/1&quot;&gt;Stefano Profumo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Schutz_K/0/1/0/all/0/1&quot;&gt;Katelin Schutz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Sehgal_N/0/1/0/all/0/1&quot;&gt;Neelima Sehgal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Simon_J/0/1/0/all/0/1&quot;&gt;Joshua D. Simon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Sinha_K/0/1/0/all/0/1&quot;&gt;Kuver Sinha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Valluri_M/0/1/0/all/0/1&quot;&gt;Monica Valluri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wechsler_R/0/1/0/all/0/1&quot;&gt;Risa H. Wechsler&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.13409">
+<title>Looking for the effects of New Physics in the $\Lambda_b \longrightarrow \Lambda_c(\to \Lambda \pi) \ell \nu $ decay mode. (arXiv:2209.13409v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.13409</link>
+<description rdf:parseType="Literal">&lt;p&gt;One of the most pragmatic ways to look for the effects of New Physics at low
+energy scales is to study a detailed angular distribution of various decay
+modes, and in particular those based on $b\to c\ell\bar \nu_\ell$. In this
+paper we focus onto $\Lambda_b \longrightarrow \Lambda_c(\to \Lambda \pi) \ell
+\nu$ in a generic effective theory setup in which, besides the Standard Model,
+we allow for all the possible covariant dimension-six effective operators
+capturing the contributions arising at high energy scales, beyond the Standard
+Model. We list a number of observables that could be used as a diagnostic tool
+to check for the presence of New Physics and to discriminate among its various
+scenarios. We also briefly comment on $\Lambda_c \to \Lambda l\nu$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Becirevic_D/0/1/0/all/0/1&quot;&gt;Damir Be&amp;#x10d;irevi&amp;#x107;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Jaffredo_F/0/1/0/all/0/1&quot;&gt;Florentin Jaffredo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00510">
+<title>Systematic analysis of doubly charmed baryons $\Xi_{cc}$ and $\Omega_{cc}$. (arXiv:2211.00510v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00510</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we perform a systematic study of the mass spectra, the root
+mean square(r.m.s.) radii and the radial density distributions of the doubly
+charmed baryons $\Xi_{cc}$ and $\Omega_{cc}$. The calculations are carried out
+in the frame work of Godfrey-Isgur (GI) relativized quark model, where the
+baryon is regarded as a real three-body system of quarks. Our results show that
+the excited energy of doubly charmed baryon with $\rho$-mode is lower than
+those of the $\lambda$-mode and $\lambda$-$\rho$ mixing mode, which indicates
+that the lowest state is dominated by the $\rho$-mode. According to this
+conclusion, we systematically investigate the mass spectra, the r.m.s. radii of
+the ground and excited states($1S\sim4S$, $1P\sim4P$, $1D\sim4D$, $1F\sim4F$
+and $1G\sim4G$) with $\rho$-mode. Using the wave functions obtained from quark
+model, we also study the radial density distributions. Finally, with the
+predicated mass spectra, the Regge trajectories of $\Xi_{cc}$ and $\Omega_{cc}$
+in the ($J$,$M^{2}$) plane are constructed, and the slopes, intercepts are
+determined by linear fitting. It is found that model predicted masses fit
+nicely to the constructed Regge trajectories.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yu_G/0/1/0/all/0/1&quot;&gt;Guo-Liang Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zhen-Yu Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhi-Gang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Lu_J/0/1/0/all/0/1&quot;&gt;Jie Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Yan_M/0/1/0/all/0/1&quot;&gt;Meng Yan&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
