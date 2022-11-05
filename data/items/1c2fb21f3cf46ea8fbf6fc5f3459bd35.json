@@ -1,0 +1,10 @@
+{
+  "title": "The Ultimate Guide to Linear Regression",
+  "description": "Linear regression is one of the most fundamental algorithms for data scientists. I also find it is extremely common ground for interview questions. Yet - I find it is also shallowly understood. Don&#8217;t be the person who when asked about linear regression only knows how to call fit() and predict() in scikit-learn.",
+  "link": "https://datascienceleadership.substack.com/p/the-ultimate-guide-to-linear-regression",
+  "guid": "https://datascienceleadership.substack.com/p/the-ultimate-guide-to-linear-regression",
+  "dc:creator": "Tyler Folkman",
+  "pubDate": "Sun, 03 May 2020 19:16:27 GMT",
+  "enclosure": "",
+  "content:encoded": "<p>Linear regression is one of the most fundamental algorithms for data scientists. I also find it is extremely common ground for interview questions.</p><p>Yet - I find it is also shallowly understood.</p><p>Don&#8217;t be the person who when asked about linear regression only knows how to call fit() and predict() in scikit-learn.</p><p>To help you out, I have assembled the <strong><a href=\"https://learningwithdata.com/posts/tylerfolkman/the-ultimate-guide-to-linear-regression/\">Ultimate Guide to Linear Regression</a>. </strong>This article will  cover:</p><ul><li><p>How to mathematically derive linear regression for gradient descent</p></li><li><p>Show you how to code a simple example from scratch</p></li><li><p>Compare with scikit-learn&#8217;s model</p></li><li><p>Show you how to interpret your results</p></li><li><p>Explore how to generate confidence intervals</p></li><li><p>And how to tune your algorithm depending on whether you have high bias or variance</p></li></ul><p>This is by far the most in-depth article I have written. If you enjoy it, please share it on sites like LinkedIn and Twitter and tag me! This helps me know what content is most valuable.</p><p>Here is the direct link to the article:</p><p>https://learningwithdata.com/posts/tylerfolkman/the-ultimate-guide-to-linear-regression/</p><p>All the best,</p><p>Tyler</p><p></p><p></p>"
+}

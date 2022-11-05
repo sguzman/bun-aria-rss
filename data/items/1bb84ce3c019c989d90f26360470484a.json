@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:BfR08xNTL4w",
+  "yt:videoId": "BfR08xNTL4w",
+  "yt:channelId": "UCTdw38Cw6jcm0atBPA39a0Q",
+  "title": "Building a Raspberry Pi Robot Arm with  NET 6, Blazor and SignalR - Peter Gallagher",
+  "link": "",
+  "author": {
+    "name": "NDC Conferences",
+    "uri": "https://www.youtube.com/channel/UCTdw38Cw6jcm0atBPA39a0Q"
+  },
+  "published": "2022-10-20T06:55:09+00:00",
+  "updated": "2022-10-21T12:22:38+00:00",
+  "media:group": {
+    "media:title": "Building a Raspberry Pi Robot Arm with  NET 6, Blazor and SignalR - Peter Gallagher",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this session we'll run through everything needed to build a Robot Arm with a Raspberry Pi, .NET 6 a Blazor App and SignalR.\n\nWe'll begin by seeing how easy it is to install .NET 6.\n\nThen we'll see how we've connected up the various components to our Raspberry Pi.\n\nNext we'll spin up a console application to explore how we can control the GPIO on the Pi.\n\nWe'll then examine the code to start moving the connected servos for our Raspberry pi based Robot Arm.\n\nNext we'll look at a simple Blazor and SignalR app to control our robot remotely!\n\nFinally we'll have a look at how we can use an Oculus Quest 2 to interact with our Robot Arm in VR!\n\nThis session will appeal to all knowledge levels. A working knowledge of programming will help, but all the code will be shared on GitHub!\n\n\nCheck out more of our featured speakers and talks at\nhttps://www.ndcconferences.com\nhttps://ndcmelbourne.com/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
