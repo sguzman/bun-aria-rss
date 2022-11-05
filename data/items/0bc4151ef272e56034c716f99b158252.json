@@ -1,0 +1,7 @@
+{
+  "title": "Profiling Native Python Extensions",
+  "link": "",
+  "updated": "2019-09-27T00:00:00-07:00",
+  "id": "http://www.benfrederickson.com/profiling-native-python-extensions-with-py-spy/",
+  "content": "\n        \n            <img src=\"http://www.benfrederickson.com/images/native-python-extensions/flame.png\" width=\"100%\" style=\"max-width:500px\">\n        \n        <p>One of the cool new features in <a href=\"https://github.com/benfred/py-spy\">py-spy</a>\nis the ability to profile native Python extensions written in languages\nlike C, C++ or Cython.</p>\n\n<p>Almost all other Python profilers<sup><a href=\"#footnote1\">[1]</a></sup> only show program activity that is in pure Python code, and\nnative code will instead show up as spending time in the line of Python that calls the native\nfunction. Using native profiling tools like perf can get you a sense of what’s going on the native side of things\nbut at the expense of losing any visibility into what’s happening with the Python function calls.</p>\n\n<p>The big problem with this is that a huge amount of the Python ecosystem is in native extensions.\nIt’s a common optimization pattern to rewrite the slowest part of your Python program in a language like Cython or C++ after profiling,\n and by only being able to profile either the native code or the python code you only get\nhalf the picture of what’s happening in your python codebase.</p>\n\n<p class='more'><a href='http://www.benfrederickson.com/profiling-native-python-extensions-with-py-spy/'>Read more ...</a></p>\n     "
+}

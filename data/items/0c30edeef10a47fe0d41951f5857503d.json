@@ -1,0 +1,15 @@
+{
+  "title": "The Model Complexity Myth",
+  "link": "",
+  "published": "2015-07-06T08:00:00-07:00",
+  "updated": "2015-07-06T08:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-07-06:blog/2015/07/06/model-complexity-myth/",
+  "summary": "<p>An oft-repeated rule of thumb in any sort of statistical model fitting is \"you can't fit a model with more parameters than data points\".\nThis idea appears to be as wide-spread as it is incorrect.\nOn the contrary, if you construct your models carefully, <strong>you can fit models with more parameters than datapoints</strong>, and this is much more than mere trivia with which you can impress the nerdiest of your friends: as I will show here, this fact can prove to be very useful in real-world scientific applications.</p>\n<p>A model with more parameters than datapoints is known as an <em>under-determined system</em>, and it's a common misperception that such a model cannot be solved in any circumstance.\nIn this post I will consider this misconception, which I like to call the \"model complexity myth\".\nI'll start by showing where this model complexity myth holds true, first from from an intuitive point of view, and then from a more mathematically-heavy point of view.\nI'll build from this mathematical treatment and discuss how underdetermined models may be addressed from a frequentist standpoint, and then from a Bayesian standpoint.\n(If you're unclear about the general differences between frequentist and Bayesian approaches, I might suggest reading <a href=\"http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/\">my posts</a> on the subject).\nFinally, I'll discuss some practical examples of where such an underdetermined model can be useful, and demonstrate one of these examples: quantitatively accounting for measurement biases in scientific data.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}
