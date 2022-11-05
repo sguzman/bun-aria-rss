@@ -1,0 +1,6 @@
+{
+  "title": "Quantized Precoding and RIS-Assisted Modulation for Integrated Sensing and Communications Systems. (arXiv:2211.01943v1 [eess.SP])",
+  "link": "http://arxiv.org/abs/2211.01943",
+  "description": "<p>In this paper, we present a novel reconfigurable intelligent surface\n(RIS)-assisted integrated sensing and communication (ISAC) system with 1-bit\nquantization at the ISAC base station. An RIS is introduced in the ISAC system\nto mitigate the effects of coarse quantization and to enable the co-existence\nbetween sensing and communication functionalities. Specifically, we design\ntransmit precoder to obtain 1-bit sensing waveforms having a desired radiation\npattern. The RIS phase shifts are then designed to modulate the 1-bit sensing\nwaveform to transmit M-ary phase shift keying symbols to users. Through\nnumerical simulations, we show that the proposed method offers significantly\nimproved symbol error probabilities when compared to MIMO communication systems\nhaving quantized linear precoders, while still offering comparable sensing\nperformance as that of unquantized sensing systems.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Sankar_R/0/1/0/all/0/1\">R.S. Prasobh Sankar</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Chepuri_S/0/1/0/all/0/1\">Sundeep Prabhakar Chepuri</a>"
+}

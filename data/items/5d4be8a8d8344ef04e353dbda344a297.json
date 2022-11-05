@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:qP8kir2GUgo",
+  "yt:videoId": "qP8kir2GUgo",
+  "yt:channelId": "UCdngmbVKX1Tgre699-XLlUA",
+  "title": "GitLab CI CD Tutorial for Beginners [Crash Course]",
+  "link": "",
+  "author": {
+    "name": "TechWorld with Nana",
+    "uri": "https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA"
+  },
+  "published": "2022-06-09T14:17:27+00:00",
+  "updated": "2022-08-19T15:40:16+00:00",
+  "media:group": {
+    "media:title": "GitLab CI CD Tutorial for Beginners [Crash Course]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Learn GitLab CI/CD by building a complete CICD pipeline for a python demo project | with Docker\n\n🧡  GitLab Course with Kubernetes, Microservices, Multi-Stage: https://bit.ly/gitlab-full-course\n💚  Become a DevOps Engineer - 6-month program:  https://bit.ly/3gEwf4V\n\n#gitlab  #gitlabcicd  #techworldwithnana \n\n\n►  This course is sponsored by Twingate 🙌🏼, a modern alternative to VPN \n►  If you want to try it, check out their special offer for my viewers by using the code \"NANA\": https://lp.twingate.com/NANA\n\n\n▬▬▬▬▬▬   What you’ll learn in 1 Hour  ✅  ▬▬▬▬▬▬ \n►  What GitLab CI/CD is\n►  GitLab compared to other CI/CD platforms\n►  Overview of GitLab Architecture\n►  Build a full GitLab CI/CD pipeline for a python app that\n    - executes tests,\n    - builds a Docker image,\n    - pushes to a private Docker repository and\n    - deploys the app to a remote server on DigitalOcean\n►  Learn GitLab Basic Concepts on the way:\n    - Pipeline, Jobs,\n    - Stages\n    - GitLab Runners and Executors\n    - Variables (Variable and File Type)\n    - Docker in Docker\n\n\n▬▬▬▬▬▬  R E F E R E N C E S  🔗▬▬▬▬▬▬ \n►   Git repo we build the CI/CD pipeline for: https://gitlab.com/nanuchi/gitlab-cicd-crash-course\n►   Original forked python demo app: https://github.com/benc-uk/python-demoapp\n►   Docker in Docker Image: https://hub.docker.com/_/docker\n►   Docker in Docker Gitlab Docs: https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#use-docker-in-docker\n►   Install Python and Pip: https://www.python.org/downloads/\n\n\n▬▬▬▬▬▬   Course Pre-Requisites  ▬▬▬▬▬▬ \n💡  Docker - learn here:    ►  https://youtu.be/3c-iBn73dDE\n💡  YAML -   learn here:    ►  https://youtu.be/1uFVr15xDGg\n💡  Basics of Git\n\n\n▬▬▬▬▬▬  Pre-Requisites if you want to follow the demo  ▬▬▬▬▬▬ \n⌨️  GitLab Account\n⌨️  DockerHub Account - we push and pull docker image from Docker Hub (https://hub.docker.com/)\n⌨️  If you want to start the app locally: Install Python3, Pip and make\n\n\n▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬\n00:00 - Intro and Course Overview\n01:25 -  What is GitLab CI/CD?\n01:59 - What is CI/CD in simple words\n03:11 - GitLab in comparison to other CI/CD platforms\n04:28 - GitLab Architecture - How GitLab works\n06:16 - Overview of the demo app (run locally)\n12:47 - Pipeline Configuration File (.gitlab-ci.yml)\n14:09 - Run Tests\n26:27 - Build and Push Docker Image\n    27:43 - Variables for Login Credentials\n    32:33 - Write Pipeline Configuration\n    38:56 - Docker in Docker\n    43:23 - Execute Pipeline\n44:20 - Define Stages\n47:19 - Prepare Deployment Server\n    47:44 - Create Ubuntu server on DigitalOcean\n54:44 - Deploy Application\n1:06:22 - Validate Application Runs Successfully\n1:07:30 - Delete server on DO\n1:07:49 - Dive Deeper into GitLab CI/CD\n\n\n▬▬▬▬▬▬ Connect with me 👋   ▬▬▬▬▬▬ \nINSTAGRAM             ►  https://bit.ly/2F3LXYJ\nTWITTER                   ►  https://bit.ly/3i54PUB\nLINKEDIN                  ►  https://bit.ly/3hWOLVT\nFacebook group      ►  https://bit.ly/32UVSZP",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
