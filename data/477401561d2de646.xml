@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>quant-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Quantum Physics (quant-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>www-admin@arxiv.org</dc:publisher>
+<dc:subject>Quantum Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01376" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01380" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01381" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01383" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01392" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01428" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01433" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01441" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01444" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01477" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01485" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01489" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01497" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01514" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01525" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01552" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01620" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01650" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01653" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01657" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01665" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01668" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01681" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01684" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01687" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01735" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01773" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01803" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01815" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01819" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01838" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01857" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01870" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01884" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01895" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01899" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01923" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01925" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01934" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01942" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01947" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01989" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02014" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02017" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02037" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2012.08889" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2105.06244" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2107.09984" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2109.05862" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2110.08304" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2112.09280" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2202.12615" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.06586" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.16012" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.06245" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.13684" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.13945" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.00198" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.05704" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.14277" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.02933" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.07454" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.13858" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.05053" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.05689" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.09457" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16438" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.17448" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00350" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01068" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01190" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01331" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01376">
+<title>Higgs Condensates are Symmetry-Protected Topological Phases: I. Discrete Symmetries. (arXiv:2211.01376v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01376</link>
+<description rdf:parseType="Literal">&lt;p&gt;Where in the landscape of many-body phases of matter do we place the Higgs
+condensate of a gauge theory? On the one hand, the Higgs phase is gapped, has
+no local order parameter, and for fundamental Higgs fields is adiabatically
+connected to the confined phase. On the other hand, Higgs phases such as
+superconductors display rich phenomenology. In this work, we propose a minimal
+description of the Higgs phase as a symmetry-protected topological (SPT) phase,
+utilizing conventional and higher-form symmetries. In this first part, we focus
+on 2+1D $\mathbb Z_2$ gauge theory and find that the Higgs phase is protected
+by a higher-form magnetic symmetry and a matter symmetry, whose meaning depends
+on the physical context. While this proposal captures known properties of Higgs
+phases, it also predicts that the Higgs phase of the Fradkin-Shenker model has
+SPT edge modes in the symmetric part of the phase diagram, which we confirm
+analytically. In addition, we argue that this SPT property is remarkably robust
+upon explicitly breaking the magnetic symmetry. Although the Higgs and confined
+phases are then connected without a bulk transition, they are separated by a
+boundary phase transition, which we confirm with tensor network simulations.
+More generally, the boundary anomaly of the Higgs SPT phase coincides with the
+emergent anomaly of symmetry-breaking phases, making precise the relation
+between Higgs phases and symmetry breaking. The SPT nature of the Higgs phase
+can also manifest in the bulk, e.g., at transitions between distinct Higgs
+condensates. Finally, we extract insights which are applicable to general SPT
+phases, such as a &apos;bulk-defect correspondence&apos; generalizing discrete gauge
+group analogs of Superconductor-Insulator-Superconductor (SIS) junctions. The
+sequel to this work will generalize &apos;Higgs=SPT&apos; to continuous symmetries,
+interpreting superconductivity as an SPT property.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Verresen_R/0/1/0/all/0/1&quot;&gt;Ruben Verresen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Borla_U/0/1/0/all/0/1&quot;&gt;Umberto Borla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vishwanath_A/0/1/0/all/0/1&quot;&gt;Ashvin Vishwanath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Moroz_S/0/1/0/all/0/1&quot;&gt;Sergej Moroz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Thorngren_R/0/1/0/all/0/1&quot;&gt;Ryan Thorngren&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01380">
+<title>Large-Scale $2+1$D $\mathrm{U}(1)$ Gauge Theory with Dynamical Matter in a Cold-Atom Quantum Simulator. (arXiv:2211.01380v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01380</link>
+<description rdf:parseType="Literal">&lt;p&gt;A major driver of quantum-simulator technology is the prospect of probing
+high-energy phenomena in synthetic quantum matter setups at a high level of
+control and tunability, thereby offering a venue complementary to dedicated
+particle colliders. Here, we propose an experimentally feasible realization of
+a large-scale $2+1$D $\mathrm{U}(1)$ gauge theory with dynamical matter and
+gauge fields in a cold-atom quantum simulator with spinless bosons. We present
+the full mapping of the corresponding Gauss&apos;s law onto the bosonic
+computational basis. We then show that the target gauge theory can be
+faithfully realized and stabilized by an emergent gauge protection term in a
+two-dimensional single-species Bose--Hubbard optical Lieb superlattice with two
+spatial periods along either direction, thereby requiring only moderate
+experimental resources already available in current cold-atom setups. Using
+infinite matrix product states, we calculate numerical benchmarks for adiabatic
+sweeps and global quench dynamics that further confirm the fidelity of the
+mapping. Our work brings quantum simulators of gauge theories a significant
+step forward in terms of investigating particle physics in higher spatial
+dimensions, and is readily implementable in existing cold-atom platforms.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Osborne_J/0/1/0/all/0/1&quot;&gt;Jesse Osborne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+McCulloch_I/0/1/0/all/0/1&quot;&gt;Ian P. McCulloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_B/0/1/0/all/0/1&quot;&gt;Bing Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hauke_P/0/1/0/all/0/1&quot;&gt;Philipp Hauke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Halimeh_J/0/1/0/all/0/1&quot;&gt;Jad C. Halimeh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01381">
+<title>Quantum Spin Puddles and Lakes: NISQ-Era Spin Liquids from Non-Equilibrium Dynamics. (arXiv:2211.01381v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01381</link>
+<description rdf:parseType="Literal">&lt;p&gt;While many-body systems can host long-ranged entangled quantum spin liquids
+(QSLs), the ingredients for realizing these as ground states can be
+prohibitively difficult. In many circumstances, one requires (i) a constrained
+Hilbert space and (ii) an extensive quantum superposition. The paradigmatic
+example is the toric code, or $\mathbb{Z}_2$ spin liquid, which is a
+superposition of closed loop states. We show how non-equilibrium Hamiltonian
+dynamics can provide a streamlined route toward creating such QSLs. Rather than
+cooling into the ground state of a Hamiltonian, we show how a simple parameter
+sweep can dynamically project a family of initial product states into the
+constrained space, giving rise to a QSL. For the toric code, this is achieved
+in systems with a separation in energy scales between the $e$- and $m$-anyons,
+where one can sweep in a way that is adiabatic (sudden) with respect to the
+former (latter). Although this separation of scales does not extend to the
+thermodynamic limit, we analytically and numerically show that this method
+efficiently prepares a spin liquid in finite-sized regions, which we brand
+``quantum spin lakes.&apos;&apos; This mechanism elucidates recent experimental and
+numerical observations of the dynamical state preparation of the ruby lattice
+spin liquid in Rydberg atom arrays. In fact, the slow dynamics of $m$-anyons
+suggest that we can capture spin lake preparation by simulating the dynamics on
+tree lattices, which we confirm with tensor network simulations. Finally, we
+use this mechanism to propose new experiments, e.g., for preparing a
+finite-sized $U(1)$ spin liquid as a honeycomb Rokhsar-Kivelson dimer model
+using Rydberg atoms -- which is remarkable given its equilibrium counterpart is
+unstable in $2 + 1$D. Our work opens up a new avenue in the study of
+non-equilibrium physics, as well as the exploration of exotic states of finite
+extent in NISQ devices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Sahay_R/0/1/0/all/0/1&quot;&gt;Rahul Sahay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vishwanath_A/0/1/0/all/0/1&quot;&gt;Ashvin Vishwanath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Verresen_R/0/1/0/all/0/1&quot;&gt;Ruben Verresen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01383">
+<title>Pulse-efficient quantum machine learning. (arXiv:2211.01383v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01383</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum machine learning algorithms based on parameterized quantum circuits
+are promising candidates for near-term quantum advantage. Although these
+algorithms are compatible with the current generation of quantum processors,
+device noise limits their performance, for example by inducing an exponential
+flattening of loss landscapes. Error suppression schemes such as dynamical
+decoupling and Pauli twirling alleviate this issue by reducing noise at the
+hardware level. A recent addition to this toolbox of techniques is
+pulse-efficient transpilation, which reduces circuit schedule duration by
+exploiting hardware-native cross-resonance interaction. In this work, we
+investigate the impact of pulse-efficient circuits on near-term algorithms for
+quantum machine learning. We report results for two standard experiments:
+binary classification on a synthetic dataset with quantum neural networks and
+handwritten digit recognition with quantum kernel estimation. In both cases, we
+find that pulse-efficient transpilation vastly reduces average circuit
+durations and, as a result, significantly improves classification accuracy. We
+conclude by applying pulse-efficient transpilation to the Hamiltonian
+Variational Ansatz and show that it delays the onset of noise-induced barren
+plateaus.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Melo_A/0/1/0/all/0/1&quot;&gt;Andr&amp;#xe9; Melo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Earnest_Noble_N/0/1/0/all/0/1&quot;&gt;Nathan Earnest-Noble&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tacchino_F/0/1/0/all/0/1&quot;&gt;Francesco Tacchino&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01392">
+<title>R\&apos;enyi Mutual Information in Quantum Field Theory. (arXiv:2211.01392v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01392</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study a proper definition of R\&apos;enyi mutual information (RMI) in quantum
+field theory as defined via the Petz R\&apos;enyi relative entropy. Unlike the
+standard definition, the RMI we compute is a genuine measure of correlations
+between subsystems, as evidenced by its non-negativity and monotonicity under
+local operations. Furthermore, the RMI is UV finite and well-defined in the
+continuum limit. We develop a replica path integral approach for the RMI in
+quantum field theories and evaluate it explicitly in 1+1D conformal field
+theory using twist fields. We prove that it bounds connected correlation
+functions and check our results against exact numerics in the massless free
+fermion theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Kudler_Flam_J/0/1/0/all/0/1&quot;&gt;Jonah Kudler-Flam&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01428">
+<title>Entanglement complexity of the Rokhsar-Kivelson-sign wavefunctions. (arXiv:2211.01428v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01428</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we study the transitions of entanglement complexity in an
+exemplary family of states - the Rokhsar-Kivelson-sign wavefunctions - whose
+degree of entanglement is controlled by a single parameter. This family of
+states is known to feature a transition between a phase exhibiting volume-law
+scaling of entanglement entropy and a phase with sub-extensive scaling of
+entanglement, reminiscent of the many-body-localization transition of
+disordered quantum Hamiltonians [Physical Review B 92, 214204 (2015)]. We study
+the singularities of the RK-sign wavefunctions and their entanglement
+complexity across the transition using several tools from quantum information
+theory: fidelity metric; entanglement spectrum statistics; entanglement entropy
+fluctuations; stabilizer R\&apos;enyi Entropy; and the performance of a
+disentangling algorithm. Across the whole volume-law phase the states feature
+universal entanglement spectrum statistics. Yet a &quot;super-universal&quot; regime
+appears for small values of the control parameter in which all metrics become
+independent of the parameter itself; the entanglement entropy as well as the
+stabilizer R\&apos;enyi entropy appear to approach their theoretical maximum; the
+entanglement fluctuations scale to zero as in output states of random universal
+circuits, and the disentangling algorithm has essentially null efficiency. All
+these indicators consistently reveal a complex pattern of entanglement. In the
+sub-volume-law phase, on the other hand, the entanglement spectrum statistics
+is no longer universal, entanglement fluctuations are larger and exhibiting a
+non-universal scaling; and the efficiency of the disentangling algorithm
+becomes finite. Our results, based on model wavefunctions, suggest that a
+similar combination of entanglement scaling properties and of entanglement
+complexity features may be found in high-energy Hamiltonian eigenstates.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Piemontese_S/0/1/0/all/0/1&quot;&gt;Stefano Piemontese&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Roscilde_T/0/1/0/all/0/1&quot;&gt;Tommaso Roscilde&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hamma_A/0/1/0/all/0/1&quot;&gt;Alioscia Hamma&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01433">
+<title>Testing highly nonlinear fiber for squeezed-light generation. (arXiv:2211.01433v1 [physics.optics])</title>
+<link>http://arxiv.org/abs/2211.01433</link>
+<description rdf:parseType="Literal">&lt;p&gt;Squeezed light, which is easily degraded by loss, could benefit from
+generation directly in optical fiber. Furthermore, highly nonlinear fiber could
+offer more efficient generation with lower pump power and shorter fiber lengths
+than standard single-mode fiber. We investigate non-polarization-maintaining
+highly nonlinear fiber (HNLF) for squeezed-light generation by characterizing
+possible sources of excess noise, including its zero-dispersion wavelength
+(ZDW) variation and polarization noise. We find significant ZDW variation and
+excess polarization noise. We believe the polarization noise is from non-linear
+polarization-mode dispersion. These findings are indicative of excess noise
+that would reduce and potentially completely overtake any squeezing generated,
+except possibly using intensity difference detection.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Chapman_J/0/1/0/all/0/1&quot;&gt;Joseph C. Chapman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Peters_N/0/1/0/all/0/1&quot;&gt;Nicholas A. Peters&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01441">
+<title>eXplainable AI for Quantum Machine Learning. (arXiv:2211.01441v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01441</link>
+<description rdf:parseType="Literal">&lt;p&gt;Parametrized Quantum Circuits (PQCs) enable a novel method for machine
+learning (ML). However, from a computational point of view they present a
+challenge to existing eXplainable AI (xAI) methods. On the one hand,
+measurements on quantum circuits introduce probabilistic errors which impact
+the convergence of these methods. On the other hand, the phase space of a
+quantum circuit expands exponentially with the number of qubits, complicating
+efforts to execute xAI methods in polynomial time. In this paper we will
+discuss the performance of established xAI methods, such as Baseline SHAP and
+Integrated Gradients. Using the internal mechanics of PQCs we study ways to
+speed up their computation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Steinmuller_P/0/1/0/all/0/1&quot;&gt;Patrick Steinm&amp;#xfc;ller&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Schulz_T/0/1/0/all/0/1&quot;&gt;Tobias Schulz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Graf_F/0/1/0/all/0/1&quot;&gt;Ferdinand Graf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Herr_D/0/1/0/all/0/1&quot;&gt;Daniel Herr&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01444">
+<title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications. (arXiv:2211.01444v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01444</link>
+<description rdf:parseType="Literal">&lt;p&gt;Pseudorandom quantum states (PRS) are efficiently constructible states that
+are computationally indistinguishable from being Haar-random, and have recently
+found cryptographic applications. We explore new definitions, new properties
+and applications of pseudorandom states, and present the following
+contributions:
+&lt;/p&gt;
+&lt;p&gt;1. New Definitions: We study variants of pseudorandom function-like state
+(PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO&apos;22), where the
+pseudorandomness property holds even when the generator can be queried
+adaptively or in superposition. We show feasibility of these variants assuming
+the existence of post-quantum one-way functions.
+&lt;/p&gt;
+&lt;p&gt;2. Classical Communication: We show that PRS generators with logarithmic
+output length imply commitment and encryption schemes with classical
+communication. Previous constructions of such schemes from PRS generators
+required quantum communication.
+&lt;/p&gt;
+&lt;p&gt;3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli
+(TCC&apos;19) result that polynomially-many copies of uniform superposition states
+with random binary phases are indistinguishable from Haar-random states.
+&lt;/p&gt;
+&lt;p&gt;4. Necessity of Computational Assumptions: We also show that a secure PRS
+with output length logarithmic, or larger, in the key length necessarily
+requires computational assumptions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ananth_P/0/1/0/all/0/1&quot;&gt;Prabhanjan Ananth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gulati_A/0/1/0/all/0/1&quot;&gt;Aditya Gulati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Qian_L/0/1/0/all/0/1&quot;&gt;Lower Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yuen_H/0/1/0/all/0/1&quot;&gt;Henry Yuen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01477">
+<title>On the practical usefulness of the Hardware Efficient Ansatz. (arXiv:2211.01477v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01477</link>
+<description rdf:parseType="Literal">&lt;p&gt;Variational Quantum Algorithms (VQAs) and Quantum Machine Learning (QML)
+models train a parametrized quantum circuit to solve a given learning task. The
+success of these algorithms greatly hinges on appropriately choosing an ansatz
+for the quantum circuit. Perhaps one of the most famous ansatzes is the
+one-dimensional layered Hardware Efficient Ansatz (HEA), which seeks to
+minimize the effect of hardware noise by using native gates and connectives.
+The use of this HEA has generated a certain ambivalence arising from the fact
+that while it suffers from barren plateaus at long depths, it can also avoid
+them at shallow ones. In this work, we attempt to determine whether one should,
+or should not, use a HEA. We rigorously identify scenarios where shallow HEAs
+should likely be avoided (e.g., VQA or QML tasks with data satisfying a volume
+law of entanglement). More importantly, we identify a Goldilocks scenario where
+shallow HEAs could achieve a quantum speedup: QML tasks with data satisfying an
+area law of entanglement. We provide examples for such scenario (such as
+Gaussian diagonal ensemble random Hamiltonian discrimination), and we show that
+in these cases a shallow HEA is always trainable and that there exists an
+anti-concentration of loss function values. Our work highlights the crucial
+role that input states play in the trainability of a parametrized quantum
+circuit, a phenomenon that is verified in our numerics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Leone_L/0/1/0/all/0/1&quot;&gt;Lorenzo Leone&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Oliviero_S/0/1/0/all/0/1&quot;&gt;Salvatore F.E. Oliviero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Cincio_L/0/1/0/all/0/1&quot;&gt;Lukasz Cincio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Cerezo_M/0/1/0/all/0/1&quot;&gt;M. Cerezo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01485">
+<title>Information compression at the turbulent-phase transition in cold atom gases. (arXiv:2211.01485v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01485</link>
+<description rdf:parseType="Literal">&lt;p&gt;The statistical properties of physical systems in thermal equilibrium are
+blatantly different from their far-from-equilibrium counterparts. In the
+latter, fluctuations often dominate the dynamics and might cluster in ordered
+patterns in the form of dissipative coherent structures. Here, we study the
+transition of a cold atomic cloud, driven close to a sharp electronic
+resonance, from a stable to a turbulent phase. From the atomic density
+distribution -- measured using a spatially-resolved pump-probe technique -- we
+have computed the Shannon entropy on two different basis sets. Information
+compression, corresponding to a minimum in the Shannon entropy, has been
+observed at criticality, where the system fluctuations organize into high-order
+(low-entropy) patterns. Being independent of the representation used, this
+feature is a property shared by a vast class of physical systems undergoing
+phase transitions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Giampaoli_R/0/1/0/all/0/1&quot;&gt;R. Giampaoli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Figueiredo_J/0/1/0/all/0/1&quot;&gt;J. L. Figueiredo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rodrigues_J/0/1/0/all/0/1&quot;&gt;J. D. Rodrigues&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rodrigues_J/0/1/0/all/0/1&quot;&gt;J. A. Rodrigues&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tercas_H/0/1/0/all/0/1&quot;&gt;H. Ter&amp;#xe7;as&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mendonca_J/0/1/0/all/0/1&quot;&gt;J. T. Mendon&amp;#xe7;a&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01489">
+<title>Chip-scale Simulations in a Quantum-correlated Synthetic Space. (arXiv:2211.01489v1 [physics.optics])</title>
+<link>http://arxiv.org/abs/2211.01489</link>
+<description rdf:parseType="Literal">&lt;p&gt;An efficient simulator for quantum systems is one of the original goals for
+the efforts to develop a quantum computer [1]. In recent years, synthetic
+dimension in photonics [2] have emerged as a potentially powerful approach for
+simulation that is free from the constraint of geometric dimensionality. Here
+we demonstrate a quantum-correlated synthetic crystal, based upon a
+coherently-controlled broadband quantum frequency comb produced in a chip-scale
+dynamically modulated lithium niobate microresonator. The time-frequency
+entanglement inherent with the comb modes significantly extends the
+dimensionality of the synthetic space, creating a massive nearly 400 x 400
+synthetic lattice with electrically-controlled tunability. With such a system,
+we are able to utilize the evolution of quantum correlations between entangled
+photons to perform a series of simulations, demonstrating quantum random walks,
+Bloch oscillations, and multi-level Rabi oscillations in the time and frequency
+correlation space. The device combines the simplicity of monolithic
+nanophotonic architecture, high dimensionality of a quantum-correlated
+synthetic space, and on-chip coherent control, which opens up an avenue towards
+chip-scale implementation of large-scale analog quantum simulation and
+computation [1,3,4] in the time-frequency domain.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Javid_U/0/1/0/all/0/1&quot;&gt;Usman A. Javid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lopez_Rios_R/0/1/0/all/0/1&quot;&gt;Raymond Lopez-Rios&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ling_J/0/1/0/all/0/1&quot;&gt;Jingwei Ling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Graf_A/0/1/0/all/0/1&quot;&gt;Austin Graf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Staffa_J/0/1/0/all/0/1&quot;&gt;Jeremy Staffa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lin_Q/0/1/0/all/0/1&quot;&gt;Qiang Lin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01497">
+<title>Optimizing for periodicity: a model-independent approach to flux crosstalk calibration for superconducting circuits. (arXiv:2211.01497v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01497</link>
+<description rdf:parseType="Literal">&lt;p&gt;Flux tunability is an important engineering resource for superconducting
+circuits. Large-scale quantum computers based on flux-tunable superconducting
+circuits face the problem of flux crosstalk, which needs to be accurately
+calibrated to realize high-fidelity quantum operations. Typical calibration
+methods either assume that circuit elements can be effectively decoupled and
+simple models can be applied, or require a large amount of data. Such methods
+become ineffective as the system size increases and circuit interactions become
+stronger. Here we propose a new method for calibrating flux crosstalk, which is
+independent of the underlying circuit model. Using the fundamental property
+that superconducting circuits respond periodically to external fluxes,
+crosstalk calibration of N flux channels can be treated as N independent
+optimization problems, with the objective functions being the periodicity of a
+measured signal depending on the compensation parameters. We demonstrate this
+method on a small-scale quantum annealing circuit based on superconducting flux
+qubits, achieving comparable accuracy with previous methods. We also show that
+the objective function usually has a nearly convex landscape, allowing
+efficient optimization.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Dai_X/0/1/0/all/0/1&quot;&gt;X. Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Trappen_R/0/1/0/all/0/1&quot;&gt;R. Trappen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yang_R/0/1/0/all/0/1&quot;&gt;R. Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Disseler_S/0/1/0/all/0/1&quot;&gt;S. M. Disseler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Basham_J/0/1/0/all/0/1&quot;&gt;J. I. Basham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gibson_J/0/1/0/all/0/1&quot;&gt;J. Gibson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Melville_A/0/1/0/all/0/1&quot;&gt;A. J. Melville&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Niedzielski_B/0/1/0/all/0/1&quot;&gt;B. M. Niedzielski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Das_R/0/1/0/all/0/1&quot;&gt;R. Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kim_D/0/1/0/all/0/1&quot;&gt;D. K. Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yoder_J/0/1/0/all/0/1&quot;&gt;J. L. Yoder&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Weber_S/0/1/0/all/0/1&quot;&gt;S. J. Weber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hirjibehedin_C/0/1/0/all/0/1&quot;&gt;C. F. Hirjibehedin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lidar_D/0/1/0/all/0/1&quot;&gt;D. A. Lidar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lupascu_A/0/1/0/all/0/1&quot;&gt;A. Lupascu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01514">
+<title>N-photon Bound States In The Continuum For Strong Intensity Squeezing And Deterministic Stabilization Of Large Photonic Fock States. (arXiv:2211.01514v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01514</link>
+<description rdf:parseType="Literal">&lt;p&gt;Large non-Gaussian states of light are a highly coveted resource in quantum
+science and technology. An important example of such states are n-photon states
+of light (Fock states), which, besides being the most fundamental states of the
+quantized radiation field, are theoretically believed to be valuable for many
+tasks including metrology, communication, simulation, quantum state generation,
+and information processing. However, the deterministic creation of even
+approximate large-number Fock states at optical frequencies is a long-standing
+open problem. Here, we present a fundamental new effect in nonlinear photonic
+systems, called n-photon bound states in the continuum, which can be applied to
+deterministically create large Fock states, as well as very highly
+intensity-squeezed states of light. The effect is one in which destructive
+interference gives a certain quantum state of light an infinite lifetime,
+despite coexisting in frequency with a radiative continuum. For Kerr nonlinear
+systems, that state is an Fock state of a particular and tunable n. We develop
+the theory using experimentally-realizable examples (showing examples of
+producing 30-photon Fock states, and states with very large intensity squeezing
+(10 dB)), and we describe schemes to pump and probe the generated quantum
+states. The effect requires only Kerr nonlinearity and linear
+frequency-dependent (non-Markovian) dissipation, and is in principle applicable
+at any frequency. The theory and concepts are also immediately applicable to
+nonlinear bosons besides photons, and should be implementable in many other
+fields (e.g., superconducting circuits, magnonics, phononics). Further, we
+expect the broader possibility of using engineered nonlinear photonic
+structures with highly tailorable radiation loss as a basis to create many of
+the other quantum photonic states that have traditionally been hard to
+generate.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rivera_N/0/1/0/all/0/1&quot;&gt;Nicholas Rivera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sloan_J/0/1/0/all/0/1&quot;&gt;Jamison Sloan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Salamin_Y/0/1/0/all/0/1&quot;&gt;Yannick Salamin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Soljacic_M/0/1/0/all/0/1&quot;&gt;Marin Soljacic&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01525">
+<title>Exploring quantum geometry created by quantum matter. (arXiv:2211.01525v1 [gr-qc])</title>
+<link>http://arxiv.org/abs/2211.01525</link>
+<description rdf:parseType="Literal">&lt;p&gt;Exactly soluble models can serve as excellent tools to explore conceptual
+issues in non-perturbative quantum gravity. In perturbative approaches, it is
+only the two radiative modes of the linearized gravitational field that are
+quantized. The goal of this investigation is to probe the `Coulombic&apos; aspects
+of quantum geometry that are governed entirely by matter sources. Since there
+are no gravitational waves in 3 dimensions, 3-d gravity coupled to matter
+provides an ideal arena for this task. Our analysis will reveal novel aspects
+of quantum gravity that bring out limitations of classical and semi-classical
+theories in unforeseen regimes: non-linearities of general relativity can
+magnify small quantum fluctuations in the matter sector to large effects in the
+gravitational sector. Finally, this analysis leads to thought experiments that
+bring out rather starkly why understanding of the nature of physical reality
+depends sensitively on the theoretical lens with which it is probed. As
+theories becomes richer, new scales emerge, triggering novel effects that could
+not be imagined before. The model provides a concise realization of this
+well-known chain.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Ashtekar_A/0/1/0/all/0/1&quot;&gt;Abhay Ashtekar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01552">
+<title>Mobility edges and critical regions in periodically kicked incommensurate optical Raman lattice. (arXiv:2211.01552v1 [cond-mat.dis-nn])</title>
+<link>http://arxiv.org/abs/2211.01552</link>
+<description rdf:parseType="Literal">&lt;p&gt;Conventionally the mobility edge (ME) separating extended states from
+localized ones is a central concept in understanding Anderson localization
+transition. The critical state, being delocalized and non-ergodic, is a third
+type of fundamental state that is different from both the extended and
+localized states. Here we study the localization phenomena in a one dimensional
+periodically kicked quasiperiodic optical Raman lattice by using fractal
+dimensions. We show a rich phase diagram including the pure extended, critical
+and localized phases in the high frequency regime, the MEs separating the
+critical regions from the extended (localized) regions, and the coexisting
+phase of extended, critical and localized regions with increasing the kicked
+period. We also find the fragility of phase boundaries, which are more
+susceptible to the dynamical kick, and the phenomenon of the reentrant
+localization transition. Finally, we demonstrate how the studied model can be
+realized based on current cold atom experiments and how to detect the rich
+physics by the expansion dynamics. Our results provide insight into studying
+and detecting the novel critical phases, MEs, coexisting quantum phases, and
+some other physics phenomena in the periodically kicked systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yucheng Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01620">
+<title>Quantum Correlation of Microwave Two-mode Squeezed State Generated by Nonlinearity of InP HEMT. (arXiv:2211.01620v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01620</link>
+<description rdf:parseType="Literal">&lt;p&gt;This study significantly concentrates on cryogenic InP HEMT high-frequency
+circuit analysis using quantum theory to find how the transistor nonlinearity
+can affect the quantum correlation of the modes generated in the circuit.
+Firstly, the total Hamiltonian of the circuit is derived, and the dynamic
+equation of the motion contributed is examined using the Heisenberg-Langevin
+equation. Using the nonlinear Hamiltonian, some components are attached to the
+intrinsic internal circuit of InP HEMT to fully address the circuit
+characteristics. The components attached are arisen due to the nonlinearity
+effects. As a result, the theoretical calculations show that the states
+generated in the circuit are mixed, and no pure state is produced. Accordingly,
+the modified circuit generates the two-mode squeezed thermal state, which means
+one can focus on calculating the Gaussian quantum discord to evaluate quantum
+correlation. It is also found that the nonlinearity factors (addressed as the
+nonlinear components in the circuit) can intensely influence the squeezed
+thermal state by which the quantum discord is changed. Finally, as the primary
+point, it is concluded that although it is possible to enhance the quantum
+correlation between modes by engineering the nonlinear components; however,
+quantum discord greater than unity, entangled microwave photons, seems a
+challenging task since InP HEMT operates at 4.2 K.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Salmanogli_A/0/1/0/all/0/1&quot;&gt;Ahmad Salmanogli&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01650">
+<title>Universality and its limits in non-Hermitian many-body quantum chaos using the Sachdev-Ye-Kitaev model. (arXiv:2211.01650v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01650</link>
+<description rdf:parseType="Literal">&lt;p&gt;Spectral rigidity in Hermitian quantum chaotic systems signals the presence
+of dynamical universal features at time scales that can be much shorter than
+the Heisenberg time. We study the analogue of this time scale in many-body
+non-Hermitian quantum chaos by a detailed analysis of long-range spectral
+correlators. For that purpose, we investigate the number variance and the
+spectral form factor of a non-Hermitian $q$-body Sachdev-Ye-Kitaev (nHSYK)
+model, which describes $N$ fermions in zero spatial dimensions. After an
+analytical and numerical analysis of these spectral observables for
+non-Hermitian random matrices, and a careful unfolding, we find good agreement
+with the nHSYK model for $q &amp;gt; 2$ starting at a time scale that decreases
+sharply with $q$. The source of deviation from universality, identified
+analytically, is ensemble fluctuations not related to the quantum dynamics. For
+fixed $q$ and large enough $N$, these fluctuations become dominant up until
+after the Heisenberg time, so that the spectral form factor is no longer useful
+for the study of quantum chaos. In all cases, our results point to a weakened
+or vanishing spectral rigidity that effectively delays the observation of full
+quantum ergodicity. We also show that the number variance displays
+non-stationary spectral correlations for both the nHSYK model and random
+matrices. This non-stationarity, also not related to the quantum dynamics,
+points to intrinsic limitations of these observables to describe the quantum
+chaotic motion. On the other hand, we introduce the local spectral form factor,
+which is shown to be stationary and not affected by collective fluctuations,
+and propose it as an effective diagnostic of non-Hermitian quantum chaos. For
+$q = 2$, we find saturation to Poisson statistics at a time scale of $\log D$,
+compared to a scale of $\sqrt D$ for $ q&amp;gt;2$, with $D $ the total number of
+states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Garcia_Garcia_A/0/1/0/all/0/1&quot;&gt;Antonio M. Garc&amp;#xed;a-Garc&amp;#xed;a&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Sa_L/0/1/0/all/0/1&quot;&gt;Lucas S&amp;#xe1;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Verbaarschot_J/0/1/0/all/0/1&quot;&gt;Jacobus J. M. Verbaarschot&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01653">
+<title>Purcell-induced suppression of superradiance for molecular overlayers on noble atom surfaces. (arXiv:2211.01653v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01653</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the impact of an environment on the electromagnetic responses of a
+molecule in the presence of a dielectric medium. By applying the dipole-dipole
+coupling between the molecule&apos;s and the environment&apos;s degrees of freedom, we
+can reduce the complex system into its components and predict excitation
+lifetimes of single and few molecules attached to a dielectric surface by
+knowing the entire quantum-mechanical properties of the molecules, such as
+transition energies and dipole moments. The derived theory allows for the
+description of superradiance between two molecules depending on the geometric
+arrangement between both concerning their separation and orientation with
+respect to each other. We analyse the possibility of superradiance between two
+molecules bound to a dielectric sphere and determine a change of the relevant
+length scale where the usually considered wavelength in free space is replaced
+with the binding distance, drastically reducing the length scales at which
+collective effects can take place.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fiedler_J/0/1/0/all/0/1&quot;&gt;Johannes Fiedler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Berland_K/0/1/0/all/0/1&quot;&gt;Kristian Berland&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Buhmann_S/0/1/0/all/0/1&quot;&gt;Stefan Yoshi Buhmann&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01657">
+<title>Semiclassical spacetimes at super-Planckian scales from delocalized sources. (arXiv:2211.01657v1 [gr-qc])</title>
+<link>http://arxiv.org/abs/2211.01657</link>
+<description rdf:parseType="Literal">&lt;p&gt;We derive the gravitational field and the spacetime metric generated by
+sources in quantum superposition of different locations. We start by working in
+a Newtonian approximation, in which the effective gravitational potential is
+computed as the expectation value of the gravitational potential operator in a
+Gaussian distribution of width $R$ for the position of the source. The
+effective gravitational potential is then covariantly uplifted to a fully
+relativistic metric in general relativity, describing the spacetime generated
+by averaging over the state of such sources. These results are then rederived
+and extended by adopting an independent construction in terms of quantum
+reference frames. We find three classes of quantum effective metrics which are
+all asymptotically flat and reproduce the Schwarzschild metric at great
+distances. The solutions differ, however, in the inner core. The quantum
+uncertainty $\Delta r\sim R$ in the position of the source prevents the radius
+of the transverse two-sphere to shrink to zero. Depending on the strength of
+the quantum superposition effects, we have either a nonsingular black hole with
+a ``quantum hair&apos;&apos; and an event horizon, a one-way wormhole with a critical
+null throat or a traversable wormhole. We also provide a detailed study of the
+geometric and thermodynamic properties of the spacetime structure for each of
+these three families of models, as well as their phenomenology.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Akil_A/0/1/0/all/0/1&quot;&gt;Ali Akil&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Cadoni_M/0/1/0/all/0/1&quot;&gt;Mariano Cadoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Modesto_L/0/1/0/all/0/1&quot;&gt;Leonardo Modesto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Oi_M/0/1/0/all/0/1&quot;&gt;Mauro Oi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Sanna_A/0/1/0/all/0/1&quot;&gt;Andrea Pierfrancesco Sanna&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01665">
+<title>From Auditable Quantum Authentication to Best-of-Both-Worlds Multiparty Quantum Computation with Public Verifiable Identifiable Abort. (arXiv:2211.01665v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01665</link>
+<description rdf:parseType="Literal">&lt;p&gt;We construct the first secure multiparty quantum computation with public
+verifiable identifiable abort (MPQC-PVIA) protocol, where PVIA security enables
+outside observers with only classical computational power to agree on the
+identity of a malicious party in case of an abort. Moreover, our MPQC is the
+first quantum setting to provide Best-of-Both-Worlds (BoBW) security, which
+attains full security with an honest majority and is secure with abort if the
+majority is dishonest. At the heart of our construction is a generic
+transformation called Auditable Quantum Authentication (AQA) that publicly
+identifies the malicious sender with overwhelming probability. Our approach
+comes with several advantages over the traditional way of building MPQC
+protocols. First, instead of following the Clifford code paradigm, our protocol
+can be based on a variety of authentication codes. Second, the online phase of
+our MPQC requires only classical communications. Third, our construction can
+achieve distributed computation via a carefully crafted protocol design, which
+can be adjusted to an MPQC that conditionally guarantees output delivery.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mi-Ying/0/1/0/all/0/1&quot;&gt;Mi-Ying&lt;/a&gt; (Miryam) &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Huang/0/1/0/all/0/1&quot;&gt;Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tang_E/0/1/0/all/0/1&quot;&gt;Er-Cheng Tang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01668">
+<title>A Data-Driven Approach to Quantum Cross-Platform Verification. (arXiv:2211.01668v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01668</link>
+<description rdf:parseType="Literal">&lt;p&gt;The task of testing whether two uncharacterized devices behave in the same
+way, known as cross-platform verification, is crucial for benchmarking quantum
+simulators and near-term quantum computers. Cross-platform verification becomes
+increasingly challenging as the system&apos;s dimensionality increases, and has so
+far remained intractable for continuous variable quantum systems. In this
+Letter, we develop a data-driven approach, working with limited noisy data and
+suitable for continuous variable quantum states. Our approach is based on a
+convolutional neural network that assesses the similarity of quantum states
+based on a lower-dimensional state representation built from measurement data.
+The network can be trained offline with classically simulated data, and is
+demonstrated here on non-Gaussian quantum states for which cross-platform
+verification could not be achieved with previous techniques. It can also be
+applied to cross-platform verification of quantum dynamics and to the problem
+of experimentally testing whether two quantum states are equivalent up to
+Gaussian unitary transformations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Ya-Dong Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhu_Y/0/1/0/all/0/1&quot;&gt;Yan Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bai_G/0/1/0/all/0/1&quot;&gt;Ge Bai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yuexuan Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chiribella_G/0/1/0/all/0/1&quot;&gt;Giulio Chiribella&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01681">
+<title>Matrix Multiplicative Weights Updates in Quantum Zero-Sum Games: Conservation Laws &amp; Recurrence. (arXiv:2211.01681v1 [cs.GT])</title>
+<link>http://arxiv.org/abs/2211.01681</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent advances in quantum computing and in particular, the introduction of
+quantum GANs, have led to increased interest in quantum zero-sum game theory,
+extending the scope of learning algorithms for classical games into the quantum
+realm. In this paper, we focus on learning in quantum zero-sum games under
+Matrix Multiplicative Weights Update (a generalization of the multiplicative
+weights update method) and its continuous analogue, Quantum Replicator
+Dynamics. When each player selects their state according to quantum replicator
+dynamics, we show that the system exhibits conservation laws in a
+quantum-information theoretic sense. Moreover, we show that the system exhibits
+Poincare recurrence, meaning that almost all orbits return arbitrarily close to
+their initial conditions infinitely often. Our analysis generalizes previous
+results in the case of classical games.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jain_R/0/1/0/all/0/1&quot;&gt;Rahul Jain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Piliouras_G/0/1/0/all/0/1&quot;&gt;Georgios Piliouras&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sim_R/0/1/0/all/0/1&quot;&gt;Ryann Sim&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01684">
+<title>Indefinite causal order for quantum metrology with quantum thermal noise. (arXiv:2211.01684v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01684</link>
+<description rdf:parseType="Literal">&lt;p&gt;A switched quantum channel with indefinite causal order is studied for the
+fundamental metrological task of phase estimation on a qubit unitary operator
+affected by quantum thermal noise. Specific capabilities are reported in the
+switched channel with indefinite order, not accessible with conventional
+estimation approaches with definite order. Phase estimation can be performed by
+measuring the control qubit alone, although it does not actively interact with
+the unitary process -- only the probe qubit doing so. Also, phase estimation
+becomes possible with a fully depolarized input probe or with an input probe
+aligned with the rotation axis of the unitary, while this is never possible
+with conventional approaches. The present study extends to thermal noise,
+investigations previously carried out with the more symmetric and isotropic
+qubit depolarizing noise, and it contributes to the timely exploration of
+properties of quantum channels with indefinite causal order relevant to quantum
+signal and information processing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chapeau_Blondeau_F/0/1/0/all/0/1&quot;&gt;Francois Chapeau-Blondeau&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01687">
+<title>Improving social welfare in non-cooperative games with different types of quantum resources. (arXiv:2211.01687v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01687</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate what quantum advantages can be obtained in multipartite
+non-cooperative games by studying how different types of quantum resources can
+improve social welfare, a measure of the quality of a Nash equilibrium. We
+study how these advantages in quantum social welfare depend on the bias of the
+game, and improve upon the separation that was previously obtained using
+pseudo-telepathic strategies.
+&lt;/p&gt;
+&lt;p&gt;Two different quantum settings are analysed: a first, in which players are
+given direct access to an entangled quantum state, and a second, which we
+introduce here, in which they are only given classical advice obtained from
+quantum devices. For a given game $G$, these two settings give rise to
+different equilibria characterised by the sets of equilibrium correlations
+$Q_\textrm{corr}(G)$ and $Q(G)$, respectively. We show that $Q(G)\subseteq
+Q_\textrm{corr}(G)$ and, by considering explicit example games and exploiting
+SDP optimisation methods, provide indications of a strict separation between
+the social welfare attainable in the two settings. This provides a new angle
+towards understanding the limits and advantages of delegating quantum
+measurements.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Abbott_A/0/1/0/all/0/1&quot;&gt;Alastair A. Abbott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mhalla_M/0/1/0/all/0/1&quot;&gt;Mehdi Mhalla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Pocreau_P/0/1/0/all/0/1&quot;&gt;Pierre Pocreau&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01735">
+<title>Electronic Coherent Control of an Insulator-to-Metal Mott Transition. (arXiv:2211.01735v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01735</link>
+<description rdf:parseType="Literal">&lt;p&gt;Managing light-matter interaction on timescales faster than the loss of
+electronic coherence is key for achieving the full quantum control of final
+products in solid-solid transformations. In this work, we demonstrate coherent
+electronic control of the photoinduced insulator-to-metal transition in the
+prototypical Mott insulator V$_2$O$_3$. Selective excitation of a specific
+interband transition with two phase-locked light pulses manipulates the orbital
+occupation of the correlated bands in a way that depends on the coherent
+evolution of the photoinduced superposition of states. Comparison between
+experimental results and numerical solutions of the optical Bloch equations
+provides an electronic coherence time on the order of 5 fs. Temperature
+dependent experiments suggest that the electronic coherence time is enhanced in
+the vicinity of the insulator-to-metal transition critical temperature, thus
+highlighting the role of fluctuations in determining the electronic coherence.
+These results open new routes to selectively switch functionalities of quantum
+materials and coherently control solid-solid electronic transformations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Franceschini_P/0/1/0/all/0/1&quot;&gt;Paolo Franceschini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Policht_V/0/1/0/all/0/1&quot;&gt;Veronica R.Policht&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Milloch_A/0/1/0/all/0/1&quot;&gt;Alessandra Milloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ronchi_A/0/1/0/all/0/1&quot;&gt;Andrea Ronchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mor_S/0/1/0/all/0/1&quot;&gt;Selene Mor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mellaerts_S/0/1/0/all/0/1&quot;&gt;Simon Mellaerts&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hsu_W/0/1/0/all/0/1&quot;&gt;Wei-Fan Hsu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pagliara_S/0/1/0/all/0/1&quot;&gt;Stefania Pagliara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ferrini_G/0/1/0/all/0/1&quot;&gt;Gabriele Ferrini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Banfi_F/0/1/0/all/0/1&quot;&gt;Francesco Banfi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fabrizio_M/0/1/0/all/0/1&quot;&gt;Michele Fabrizio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Menghini_M/0/1/0/all/0/1&quot;&gt;Mariela Menghini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Locquet_J/0/1/0/all/0/1&quot;&gt;Jean-Pierre Locquet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Conte_S/0/1/0/all/0/1&quot;&gt;Stefano Dal Conte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cerullo_G/0/1/0/all/0/1&quot;&gt;Giulio Cerullo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Giannetti_C/0/1/0/all/0/1&quot;&gt;Claudio Giannetti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01773">
+<title>Universal optimization efficiency and bounds of Carnot-like heat engines and refrigerators under shortcuts to isothermality. (arXiv:2211.01773v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01773</link>
+<description rdf:parseType="Literal">&lt;p&gt;Based on a quantum thermodynamic protocol for shortcut to isothermality that
+smoothly modify the system-reservoir interaction can significantly speed up an
+isothermal process while keeping the overall dissipation constant [Phys. Rev.
+X. 10, 031015 (2020)], we extend the study of optimization performance of
+Carnot-like heat engines and refrigerators in a straightforward and unified
+way. We derive the universal optimization efficiency of heat engines and the
+optimization coefficient of performance of refrigerators under two unified
+optimization criterions, i.e., chi criterion and omega criterion. We also
+derived the universal lower and upper bounds for heat engines and
+refrigerators, and found that these bounds can be reached under extremely
+asymmetric cases.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yanchao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_S/0/1/0/all/0/1&quot;&gt;Shuang Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01803">
+<title>Control-enhanced quantum metrology under Markovian noise. (arXiv:2211.01803v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01803</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum metrology is supposed to significantly improve the precision of
+parameter estimation by utilizing suitable quantum resources. However, the
+predicted precision can be severely distorted by realistic noises. Here, we
+propose a control-enhanced quantum metrology scheme to defend against these
+noises for improving the metrology performance. Our scheme can automatically
+alter the parameter encoding dynamics with adjustable controls, thus leading to
+optimal resultant states that are less sensitive to the noises under
+consideration. As a demonstration, we numerically apply it to the problem of
+frequency estimation under several typical Markovian noise channels. Through
+comparing our control-enhanced scheme with the standard scheme and the
+ancilla-assisted scheme, we show that our scheme performs better and can
+improve the estimation precision up to around one order of magnitude.
+Furthermore, we conduct a proof-of-principle experiment in nuclear magnetic
+resonance system to verify the effectiveness of the proposed scheme. The
+research here is helpful for current quantum platforms to harness the power of
+quantum metrology in realistic noise environments.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhai_Y/0/1/0/all/0/1&quot;&gt;Yue Zhai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yang_X/0/1/0/all/0/1&quot;&gt;Xiaodong Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tang_K/0/1/0/all/0/1&quot;&gt;Kai Tang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Long_X/0/1/0/all/0/1&quot;&gt;Xinyue Long&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Nie_X/0/1/0/all/0/1&quot;&gt;Xinfang Nie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Xin_T/0/1/0/all/0/1&quot;&gt;Tao Xin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lu_D/0/1/0/all/0/1&quot;&gt;Dawei Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Li_J/0/1/0/all/0/1&quot;&gt;Jun Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01815">
+<title>High-fidelity quantum control via Autler-Townes splitting. (arXiv:2211.01815v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01815</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose quantum control protocols for the high-fidelity preparation of
+target states in systems with Autler-Townes splitting. We investigate an
+approximated three-level system obtained from a four-level one by adiabatically
+eliminating a state that does not participate in the evolution. In our work we
+use linear, arctan, and Roland-Cerf functions for transferring population
+between two eigenstates of the system obtaining a high fidelity for long
+evolution times. Additionally, in order to overcome the restriction given by
+the lifetimes of the experimental setup, we propose an accelerated adiabatic
+evolution with a shortcut to adiabaticity protocol, which allows us to reach
+fidelities close to one but much faster.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Delvecchio_M/0/1/0/all/0/1&quot;&gt;Michele Delvecchio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kirova_T/0/1/0/all/0/1&quot;&gt;Teodora Kirova&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Arimondo_E/0/1/0/all/0/1&quot;&gt;Ennio Arimondo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ciampini_D/0/1/0/all/0/1&quot;&gt;Donatella Ciampini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wimberger_S/0/1/0/all/0/1&quot;&gt;Sandro Wimberger&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01819">
+<title>Giant atom induced zero modes and localization in the nonreciprocal Su-Schrieffer-Heeger chai. (arXiv:2211.01819v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01819</link>
+<description rdf:parseType="Literal">&lt;p&gt;A notable feature of non-Hermitian systems with skin effects is the
+sensitivity of their spectra and eigenstates to the boundary conditions. In the
+literature, three types of boundary conditions-periodic boundary condition,open
+boundary condition and a defect in the system as a boundary, are explored. In
+this work we introduce the other type of boundary condition provided by a giant
+atom. The giant atom couples to a nonreciprocal SuSchrieffer-Heeger chain at
+two points and plays the role of defects. We study the spectrum and
+localization of eigenstates of the system and find that the giant atom can
+induce asymmetric zero modes. A remarkable feature is that bulk states might
+localize at the left or the right chain-atom coupling sites in weak
+localization regimes. This bipolar localization leads to Bloch-like states,
+even though translational invariance is broken. Moreover, we find that the
+localization is obviously weaker than the case with two small atoms or open
+boundary conditions even in strong coupling regimes. These intriguing results
+indicate that nonlocal coupling of giant atom to a nonreciprocal SSH chain
+weakens localization of the eigenstates. We also show that the Lyapunov
+exponent in the long-time dynamics in real space can act as a witness of the
+localized bulk states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Junjie Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Li_F/0/1/0/all/0/1&quot;&gt;Fude Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yi_X/0/1/0/all/0/1&quot;&gt;X. X. Yi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01838">
+<title>On the Operator Origins of Classical and Quantum Wave Functions. (arXiv:2211.01838v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01838</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate operator algebraic origins of the classical Koopman-von
+Neumann wave function $\psi_{KvN}$ as well as the quantum mechanical one
+$\psi_{QM}$. We introduce a formalism of Operator Mechanics (OM) based on a
+noncommutative Poisson, symplectic and noncommutative differential structures.
+OM serves as a pre-quantum algebra from which algebraic structures relevant to
+real-world classical and quantum mechanics follow. In particular, $\psi_{KvN}$
+and $\psi_{QM}$ are both consequences of this pre-quantum formalism. No a
+priori Hilbert space is needed. OM admits an algebraic notion of operator
+expectation values without invoking states. A phase space bundle ${\cal E}$
+follows from this. $\psi_{KvN}$ and $\psi_{QM}$ are shown to be sections in
+${\cal E}$. The difference between $\psi_{KvN}$ and $\psi_{QM}$ originates from
+a quantization map interpreted as &quot;twisting&quot; of sections over ${\cal E}$. We
+also show that the Schr\&quot;{o}dinger equation is obtained from the Koopman-von
+Neumann equation. What this suggests is that neither the Schr\&quot;{o}dinger
+equation nor the quantum wave function are fundamental structures. Rather, they
+both originate from a pre-quantum operator algebra.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Arsiwalla_X/0/1/0/all/0/1&quot;&gt;Xerxes D. Arsiwalla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Chester_D/0/1/0/all/0/1&quot;&gt;David Chester&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Kauffman_L/0/1/0/all/0/1&quot;&gt;Louis H. Kauffman&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01857">
+<title>Algebra of the spinor invariants and the relativistic hydrogen atom. (arXiv:2211.01857v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01857</link>
+<description rdf:parseType="Literal">&lt;p&gt;It is shown that the Dirac equation with the Coulomb potential can be solved
+using the algebra of the three spinor invariants of the Dirac equation without
+the involvement of the methods of supersymmetric quantum mechanics. The Dirac
+Hamiltonian is invariant with respect to the rotation transformation, which
+indicates the dynamical (hidden) symmetry $ SU(2) $ of the Dirac equation. The
+total symmetry of the Dirac equation is the symmetry $ SO(3) \otimes SU(2) $.
+The generator of the $ SO(3) $ symmetry group is given by the total momentum
+operator, and the generator of $ SU(2) $ group is given by the rotation of the
+vector-states in the spinor space, determined by the Dirac, Johnson-Lippmann,
+and the new spinor invariants. It is shown that using algebraic approach to the
+Dirac problem allows one to calculate the eigenstates and eigenenergies of the
+relativistic hydrogen atom and reveals the fundamental role of the principal
+quantum number as an independent number, even though it is represented as the
+combination of other quantum numbers.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Eremko_A/0/1/0/all/0/1&quot;&gt;A.A. Eremko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Brizhik_L/0/1/0/all/0/1&quot;&gt;L.S. Brizhik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Loktev_V/0/1/0/all/0/1&quot;&gt;V.M. Loktev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01870">
+<title>Many-body quantum boomerang effect. (arXiv:2211.01870v1 [cond-mat.dis-nn])</title>
+<link>http://arxiv.org/abs/2211.01870</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study numerically the impact of many-body interactions on the quantum
+boomerang effect. We consider various cases: weakly interacting bosons, the
+Tonks-Girardeau gas, and strongly interacting bosons (which may be mapped onto
+weakly interacting fermions). Numerical simulations are performed using the
+time-evolving block decimation algorithm, a quasi-exact method based on matrix
+product states. In the case of weakly interacting bosons, we find a partial
+destruction of the quantum boomerang effect, in agreement with the earlier
+mean-field study [Phys. Rev. A \textbf{102}, 013303 (2020)]. For the
+Tonks-Girardeau gas, we show the presence of the full quantum boomerang effect.
+For strongly interacting bosons, we observe a partial boomerang effect. We show
+that the destruction of the quantum boomerang effect is universal and does not
+depend on the details of the interaction between particles.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Janarek_J/0/1/0/all/0/1&quot;&gt;Jakub Janarek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zakrzewski_J/0/1/0/all/0/1&quot;&gt;Jakub Zakrzewski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Delande_D/0/1/0/all/0/1&quot;&gt;Dominique Delande&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01884">
+<title>Orbital liquid in the $e_g$ orbital Hubbard model in $d=\infty$ dimensions. (arXiv:2211.01884v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01884</link>
+<description rdf:parseType="Literal">&lt;p&gt;We demonstrate that the three-dimensional $e_g$ orbital Hubbard model can be
+generalized to arbitrary dimension $d$, and that the form of the result is
+determined uniquely by the requirements that
+&lt;/p&gt;
+&lt;p&gt;(i) the two-fold degeneracy of the $e_g$ orbital be retained, and (ii) the
+cubic lattice be turned into a hypercubic lattice. While the local Coulomb
+interaction $U$ is invariant for each basis of orthogonal orbitals, the form of
+the kinetic energy depends on the orbital basis and takes the most symmetric
+form for the so-called complex-orbital basis. Characteristically, with respect
+to this basis, the model has two hopping channels, one that is orbital-flavor
+conserving, and a second one that is orbital-flavor non-conserving. We show
+that the noninteracting electronic structure consists of two nondegenerate
+bands of plane-wave real-orbital single-particle states for which the orbital
+depends on the wave vector. Due to the latter feature each band is unpolarized
+at any filling, and has a non-Gaussian density of states at $d=\infty$. The
+\textit{orbital liquid} state is obtained by filling these two bands up to the
+same Fermi energy. We investigate the $e_g$ orbital Hubbard model in the limit
+$d\to\infty$, treating the on-site Coulomb interaction $U$ within the
+Gutzwiller approximation, thus determining the correlation energy of the
+orbital liquid and the (disordered) para-orbital states. (...) We show that the
+orbital liquid is the ground state everywhere in the $(n,U)$ phase diagram
+except close to half-filling at sufficiently large $U$, where ferro-orbital
+order with real orbitals occupied is favored. The latter feature is shown to be
+specific for $d=\infty$, being of mathematical nature due to the exponential
+tails in the density of states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Feiner_L/0/1/0/all/0/1&quot;&gt;Louis Felix Feiner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Oles_A/0/1/0/all/0/1&quot;&gt;Andrzej M. Ole&amp;#x15b;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01895">
+<title>Quantum kinetic theory of nonlinear thermal current. (arXiv:2211.01895v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01895</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the second-order nonlinear electronic thermal transport
+induced by temperature gradient. We develop the quantum kinetic theory
+framework to describe thermal transport in presence of a temperature gradient.
+Using this, we predict an intrinsic scattering time independent nonlinear
+thermal current in addition to the known extrinsic nonlinear Drude and Berry
+curvature dipole contributions. We show that the intrinsic thermal current is
+determined by the band geometric quantities and is non-zero only in systems
+where both the space inversion and time-reversal symmetries are broken. We
+employ the developed theory to study the thermal response in tilted massive
+Dirac systems. We show that besides the different scattering time dependence,
+the various current contributions have distinct temperature dependence in the
+low temperature limit. Our systematic and comprehensive theory for nonlinear
+thermal transport paves the way for future theoretical and experimental studies
+on intrinsic thermal responses.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Varshney_H/0/1/0/all/0/1&quot;&gt;Harsh Varshney&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Das_K/0/1/0/all/0/1&quot;&gt;Kamal Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bhalla_P/0/1/0/all/0/1&quot;&gt;Pankaj Bhalla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Agarwal_A/0/1/0/all/0/1&quot;&gt;Amit Agarwal&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01899">
+<title>Formally Self-Adjoint Hamiltonian for the Hilbert-P\&apos;olya Conjecture. (arXiv:2211.01899v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01899</link>
+<description rdf:parseType="Literal">&lt;p&gt;We construct a formally self-adjoint Hamiltonian whose eigenvalues correspond
+to the nontrivial zeros of the Riemann zeta function. We consider a
+two-dimensional Hamiltonian which couples the Berry-Keating Hamiltonian to the
+number operator on the half-line via a unitary transformation. We demonstrate
+that the unitary operator, which is composed of squeeze (dilation) operators
+and an exponential of the number operator, confines the eigenfunction of the
+Hamiltonian to one dimension as the squeezing parameter tends towards infinity.
+The Riemann zeta function appears at the boundary of the resulting confined
+wave function and vanishes as a result of the imposed boundary condition. If
+the formal argument presented here can be made more rigorous, particularly if
+it can be shown rigorously that the Hamiltonian remains self-adjoint under the
+imposed boundary condition, then our approach has the potential to imply that
+the Riemann hypothesis is true.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Yakaboylu_E/0/1/0/all/0/1&quot;&gt;Enderalp Yakaboylu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01923">
+<title>Stochastic Representation of the Quantum Quartic Oscillator. (arXiv:2211.01923v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01923</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent experimental advances have inspired the development of theoretical
+tools to describe the non-equilibrium dynamics of quantum systems. Among them
+an exact representation of quantum spin systems in terms of classical
+stochastic processes has been proposed. Here we provide first steps towards the
+extension of this stochastic approach to bosonic systems by considering the
+one-dimensional quantum quartic oscillator. We show how to exactly parameterize
+the time evolution of this prototypical model via the dynamics of a set of
+classical variables. We interpret these variables as stochastic processes,
+which allows us to propose a novel way to numerically simulate the time
+evolution of the system. We benchmark our findings by considering analytically
+solvable limits and providing alternative derivations of known results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tucci_G/0/1/0/all/0/1&quot;&gt;Gennaro Tucci&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Nicola_S/0/1/0/all/0/1&quot;&gt;Stefano De Nicola&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wald_S/0/1/0/all/0/1&quot;&gt;Sascha Wald&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gambassi_A/0/1/0/all/0/1&quot;&gt;Andrea Gambassi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01925">
+<title>Exploiting Qubit Reuse through Mid-circuit Measurement and Reset. (arXiv:2211.01925v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01925</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum measurement is important to quantum computing as it extracts the
+outcome of the circuit at the end of the computation. Previously, all
+measurements have to be done at the end of the circuit. Otherwise, it will
+incur significant errors. But it is not the case now. Recently IBM started
+supporting dynamic circuits through hardware (instead of software by
+simulator). With mid-circuit hardware measurement, we can improve circuit
+efficacy and fidelity from three aspects: (a) reduced qubit usage, (b) reduced
+swap insertion, and (c) improved fidelity. We demonstrate this using real-world
+applications Bernstein Verizani on real hardware and show that circuit resource
+usage can be improved by 60\%, and circuit fidelity can be improved by 15\%. We
+design a compiler-assisted tool that can find and exploit the tradeoff between
+qubit reuse, fidelity, gate count, and circuit duration. We also developed a
+method for identifying whether qubit reuse will be beneficial for a given
+application. We evaluated our method on a representative set of essential
+applications. We can reduce resource usage by up to 80\% and circuit fidelity
+by up to 20\%.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hua_F/0/1/0/all/0/1&quot;&gt;Fei Hua&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Jin_Y/0/1/0/all/0/1&quot;&gt;Yuwei Jin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yanhao Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lapeyre_J/0/1/0/all/0/1&quot;&gt;John Lapeyre&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Javadi_Abhari_A/0/1/0/all/0/1&quot;&gt;Ali Javadi-Abhari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhang_E/0/1/0/all/0/1&quot;&gt;Eddy Z. Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01934">
+<title>Discovery of Optimal Thermometers with Spin Networks aided by Machine-Learning. (arXiv:2211.01934v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01934</link>
+<description rdf:parseType="Literal">&lt;p&gt;The heat capacity $\mathcal{C}$ of a given probe is a fundamental quantity
+that determines, among other properties, the maximum precision in temperature
+estimation. In turn, $\mathcal{C}$ is limited by a quadratic scaling with the
+number of constituents of the probe, which provides a fundamental limit in
+quantum thermometry. Achieving this fundamental bound with realistic probes,
+i.e. experimentally amenable, remains an open problem. In this work, we exploit
+machine-learning techniques to discover optimal spin-network thermal probes,
+restricting ourselves to two-body interactions. This leads to simple
+architectures, which we show analytically to approximate the theoretical
+maximal value of $\mathcal{C}$ and maintain the optimal scaling for short- and
+long-range interactions. Our models can be encoded in currently available
+quantum annealers, and find application in other tasks requiring Hamiltonian
+engineering, ranging from quantum heat engines to adiabatic Grover&apos;s search.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Abiuso_P/0/1/0/all/0/1&quot;&gt;Paolo Abiuso&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Erdman_P/0/1/0/all/0/1&quot;&gt;Paolo Andrea Erdman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ronen_M/0/1/0/all/0/1&quot;&gt;Michael Ronen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Noe_F/0/1/0/all/0/1&quot;&gt;Frank No&amp;#xe9;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Haack_G/0/1/0/all/0/1&quot;&gt;G&amp;#xe9;raldine Haack&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Perarnau_Llobet_M/0/1/0/all/0/1&quot;&gt;Mart&amp;#xed; Perarnau-Llobet&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01942">
+<title>Quantum Random Walker in Presence of a Moving Detector. (arXiv:2211.01942v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01942</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we study the effect of a moving detector on a discrete time one
+dimensional Quantum Random Walk where the movement is realized in the form of
+hopping/shifts. The occupation probability $f(x,t;n,s)$ is estimated as the
+number of detection $n$ and number of shift $s$ vary. It is seen that the
+occupation probability at the initial position $x_D$ of the detector is
+enhanced when $n$ is small which a quantum mechanical effect but decreases when
+$n$ is large. The ratio of occupation probabilities of our walk to that of an
+Infinite walk shows a scaling behavior of $\frac{1}{n^2}$. It shows a definite
+scaling behavior with number of shifts $s$ also. The limiting behaviours of the
+walk are observed when $x_D$ is large, $n$ is large and $s$ is large and the
+walker for these cases approach the Infinite Walk, The Semi Infinite Walk and
+the Quenched Quantum Walk respectively.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Molla_M/0/1/0/all/0/1&quot;&gt;Md Aquib Molla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Goswami_S/0/1/0/all/0/1&quot;&gt;Sanchari Goswami&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01947">
+<title>Invertible bimodule categories and generalized Schur orthogonality. (arXiv:2211.01947v1 [math.QA])</title>
+<link>http://arxiv.org/abs/2211.01947</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Schur orthogonality relations are a cornerstone in the representation
+theory of groups. We utilize a generalization to weak Hopf algebras to provide
+a new, readily verifiable condition on the skeletal data for deciding whether a
+given bimodule category is invertible and therefore defines a Morita
+equivalence. As a first application, we provide an algorithm for the
+construction of the full skeletal data of the invertible bimodule category
+associated to a given module category, which is obtained in a unitary gauge
+when the underlying categories are unitary. As a second application, we show
+that our condition for invertibility is equivalent to the notion of
+MPO-injectivity, thereby closing an open question concerning tensor network
+representations of string-net models exhibiting topological order. We discuss
+applications to generalized symmetries, including a generalized Wigner-Eckart
+theorem.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bridgeman_J/0/1/0/all/0/1&quot;&gt;Jacob C. Bridgeman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lootens_L/0/1/0/all/0/1&quot;&gt;Laurens Lootens&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Verstraete_F/0/1/0/all/0/1&quot;&gt;Frank Verstraete&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01989">
+<title>Bound states of weakly deformed soft waveguides. (arXiv:2211.01989v1 [math.SP])</title>
+<link>http://arxiv.org/abs/2211.01989</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we consider the two-dimensional Schr\&quot;odinger operator with an
+attractive potential which is a multiple of the characteristic function of an
+unbounded strip-shaped region, whose thickness is varying and is determined by
+the function $\mathbb{R}\ni x \mapsto d+\varepsilon f(x)$, where $d &amp;gt; 0$ is a
+constant, $\varepsilon &amp;gt; 0$ is a small parameter, and $f$ is a compactly
+supported continuous function. We prove that if $\int_{\mathbb{R}} f
+\,\mathsf{d} x &amp;gt; 0$, then the respective Schr\&quot;odinger operator has a unique
+simple eigenvalue below the threshold of the essential spectrum for all
+sufficiently small $\varepsilon &amp;gt;0$ and we obtain the asymptotic expansion of
+this eigenvalue in the regime $\varepsilon\rightarrow 0$. An asymptotic
+expansion of the respective eigenfunction as $\varepsilon\rightarrow 0$ is also
+obtained. In the case that $\int_{\mathbb{R}} f \,\mathsf{d} x &amp;lt; 0$ we prove
+that the discrete spectrum is empty for all sufficiently small $\varepsilon &amp;gt;
+0$. In the critical case $\int_{\mathbb{R}} f \,\mathsf{d} x = 0$, we derive a
+sufficient condition for the existence of a unique bound state for all
+sufficiently small $\varepsilon &amp;gt; 0$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Exner_P/0/1/0/all/0/1&quot;&gt;Pavel Exner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kondej_S/0/1/0/all/0/1&quot;&gt;Sylwia Kondej&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lotoreichik_V/0/1/0/all/0/1&quot;&gt;Vladimir Lotoreichik&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02014">
+<title>On the classicality of quantum dephasing processes. (arXiv:2211.02014v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.02014</link>
+<description rdf:parseType="Literal">&lt;p&gt;We analyze the multitime statistics associated with pure dephasing systems
+repeatedly probed with sharp measurements, and search for measurement protocols
+whose statistics satisfies the Kolmogorov consistency conditions possibly up to
+a finite order. We find a rich phenomenology of quantum dephasing processes
+which can be interpreted in classical terms. In particular, if the underlying
+dephasing process is Markovian, we find sufficient conditions under which
+classicality at every order can be found: this can be reached by choosing the
+dephasing and measurement basis to be fully compatible or fully incompatible,
+that is, mutually unbiased bases (MUBs). For non-Markovian processes,
+classicality can only be proven in the fully compatible case, thus revealing a
+key difference between Markovian and non-Markovian pure dephasing processes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lonigro_D/0/1/0/all/0/1&quot;&gt;Davide Lonigro&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chruscinski_D/0/1/0/all/0/1&quot;&gt;Dariusz Chru&amp;#x15b;ci&amp;#x144;ski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02017">
+<title>A cryogenic SRAM based arbitrary waveform generator in 14 nm for spin qubit control. (arXiv:2211.02017v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.02017</link>
+<description rdf:parseType="Literal">&lt;p&gt;Realization of qubit gate sequences require coherent microwave control pulses
+with programmable amplitude, duration, spacing and phase. We propose an SRAM
+based arbitrary waveform generator for cryogenic control of spin qubits. We
+demonstrate in this work, the cryogenic operation of a fully programmable radio
+frequency arbitrary waveform generator in 14 nm FinFET technology. The waveform
+sequence from a control processor can be stored in an SRAM memory array, which
+can be programmed in real time. The waveform pattern is converted to microwave
+pulses by a source-series-terminated digital to analog converter. The chip is
+operational at 4 K, capable of generating an arbitrary envelope shape at the
+desired carrier frequency. Total power consumption of the AWG is 40-140mW at 4
+K, depending upon the baud rate. A wide signal band of 1-17 GHz is measured at
+4 K, while multiple qubit control can be achieved using frequency division
+multiplexing at an average spurious free dynamic range of 40 dB. This work
+paves the way to optimal qubit control and closed loop feedback control, which
+is necessary to achieve low latency error mitigation
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Prathapan_M/0/1/0/all/0/1&quot;&gt;Mridula Prathapan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mueller_P/0/1/0/all/0/1&quot;&gt;Peter Mueller&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Menolfi_C/0/1/0/all/0/1&quot;&gt;Christian Menolfi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Braendli_M/0/1/0/all/0/1&quot;&gt;Matthias Braendli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kossel_M/0/1/0/all/0/1&quot;&gt;Marcel Kossel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Francese_P/0/1/0/all/0/1&quot;&gt;Pier Andrea Francese&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Heim_D/0/1/0/all/0/1&quot;&gt;David Heim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Oropallo_M/0/1/0/all/0/1&quot;&gt;Maria Vittoria Oropallo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ruffino_A/0/1/0/all/0/1&quot;&gt;Andrea Ruffino&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zota_C/0/1/0/all/0/1&quot;&gt;Cezar Zota&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Morf_T/0/1/0/all/0/1&quot;&gt;Thomas Morf&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02037">
+<title>Average Mixing in Quantum Walks of Reversible Markov Chains. (arXiv:2211.02037v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.02037</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Szegedy quantum walk is a discrete time quantum walk model which defines
+a quantum analogue of any Markov chain. The long-term behavior of the quantum
+walk can be encoded in a matrix called the average mixing matrix, whose columns
+give the limiting probability distribution of the walk given an initial state.
+We define a version of the average mixing matrix of the Szegedy quantum walk
+which allows us to more readily compare the limiting behavior to that of the
+chain it quantizes. We prove a formula for our mixing matrix in terms of the
+spectral decomposition of the Markov chain and show a relationship with the
+mixing matrix of a continuous quantum walk on the chain. In particular, we
+prove that average uniform mixing in the continuous walk implies average
+uniform mixing in the Szegedy walk. We conclude by giving examples of Markov
+chains of arbitrarily large size which admit average uniform mixing in both the
+continuous and Szegedy quantum walk.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sorci_J/0/1/0/all/0/1&quot;&gt;Julien Sorci&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2012.08889">
+<title>Expressive power of complex-valued restricted Boltzmann machines for solving non-stoquastic Hamiltonians. (arXiv:2012.08889v3 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2012.08889</link>
+<description rdf:parseType="Literal">&lt;p&gt;Variational Monte Carlo with neural network quantum states has proven to be a
+promising avenue for evaluating the ground state energy of spin Hamiltonians.
+However, despite continuous efforts the performance of the method on frustrated
+Hamiltonians remains significantly worse than those on stoquastic Hamiltonians
+that are sign-free. We present a detailed and systematic study of restricted
+Boltzmann machine (RBM) based variational Monte Carlo for quantum spin chains,
+resolving how relevant stoquasticity is in this setting. We show that in most
+cases, when the Hamiltonian is phase connected with a stoquastic point, the
+complex RBM state can faithfully represent the ground state, and local
+quantities can be evaluated efficiently by sampling. On the other hand, we
+identify several new phases that are challenging for the RBM Ansatz, including
+non-topological robust non-stoquastic phases as well as stoquastic phases where
+sampling is nevertheless inefficient. Furthermore, we find that an accurate
+neural network representation of ground states in non-stoquastic phases is
+hindered not only by the sign structure but also by their amplitudes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Park_C/0/1/0/all/0/1&quot;&gt;Chae-Yeun Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kastoryano_M/0/1/0/all/0/1&quot;&gt;Michael J. Kastoryano&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2105.06244">
+<title>A Graphical Calculus for Lagrangian Relations. (arXiv:2105.06244v2 [cs.LO] UPDATED)</title>
+<link>http://arxiv.org/abs/2105.06244</link>
+<description rdf:parseType="Literal">&lt;p&gt;Symplectic vector spaces are the phase spaces of linear mechanical systems.
+The symplectic form describes, for example, the relation between position and
+momentum as well as current and voltage. The category of linear Lagrangian
+relations between symplectic vector spaces is a symmetric monoidal subcategory
+of relations which gives a semantics for the evolution -- and more generally
+linear constraints on the evolution -- of various physical systems. We give a
+new presentation of the category of Lagrangian relations over an arbitrary
+field as a `doubled&apos; category of linear relations. More precisely, we show that
+it arises as a variation of Selinger&apos;s CPM construction applied to linear
+relations, where the covariant orthogonal complement functor plays the role of
+conjugation. Furthermore, for linear relations over prime fields, this
+corresponds exactly to the CPM construction for a suitable choice of dagger. We
+can furthermore extend this construction by a single affine shift operator to
+obtain a category of affine Lagrangian relations. Using this new presentation,
+we prove the equivalence of the prop of affine Lagrangian relations with the
+prop of qudit stabilizer theory in odd prime dimensions. We hence obtain a
+unified graphical language for several disparate process theories, including
+electrical circuits, Spekkens&apos; toy theory, and odd-prime-dimensional stabilizer
+quantum circuits.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Comfort_C/0/1/0/all/0/1&quot;&gt;Cole Comfort&lt;/a&gt; (University of Oxford), &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kissinger_A/0/1/0/all/0/1&quot;&gt;Aleks Kissinger&lt;/a&gt; (University of Oxford)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2107.09984">
+<title>Chiral Dirac-like fermion in spin-orbit-free antiferromagnetic semimetals. (arXiv:2107.09984v3 [cond-mat.mtrl-sci] UPDATED)</title>
+<link>http://arxiv.org/abs/2107.09984</link>
+<description rdf:parseType="Literal">&lt;p&gt;Dirac semimetal is a phase of matter, whose elementary excitation is
+described by the relativistic Dirac equation. In the limit of zero mass, its
+parity-time symmetry enforces the Dirac fermion in the momentum space, which is
+composed of two Weyl fermions with opposite chirality, to be non-chiral.
+Inspired by the flavor symmetry in particle physics, we theoretically propose a
+massless Dirac-like equation yet linking two Weyl fields with the identical
+chirality by assuming SU(2) isospin symmetry, independent of the space-time
+rotation exchanging the two fields. Dramatically, such symmetry is hidden in
+certain solid-state spin-1/2 systems with negligible spin-orbit coupling, where
+the spin degree of freedom is decoupled with the lattice. Therefore, the
+existence of the corresponding quasiparticle, dubbed as flavor Weyl fermion,
+cannot be explained by the conventional (magnetic) space group framework. The
+four-fold degenerate flavor Weyl fermion manifests linear dispersion and a
+Chern number of 2, leading to a robust network of topologically protected Fermi
+arcs throughout the Brillouin zone. For material realization, we show that the
+transition-metal chalcogenide CoNb3S6 with experimentally confirmed collinear
+antiferromagnetic order is ideal for flavor Weyl semimetal under the
+approximation of vanishing spin-orbit coupling. Our work reveals a counterpart
+of the flavor symmetry in magnetic electronic systems, leading to further
+possibilities of emergent phenomena in quantum materials.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_P/0/1/0/all/0/1&quot;&gt;Pengfei Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhang_A/0/1/0/all/0/1&quot;&gt;Ao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Han_J/0/1/0/all/0/1&quot;&gt;Jingzhi Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_Q/0/1/0/all/0/1&quot;&gt;Qihang Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2109.05862">
+<title>Random-time quantum measurements. (arXiv:2109.05862v3 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2109.05862</link>
+<description rdf:parseType="Literal">&lt;p&gt;The analysis of a continuous measurement record $z(t)$ poses a fundamental
+challenge in quantum measurement theory. Different approaches have been used in
+the past as records can, e.g., exhibit predominantly Gaussian noise, telegraph
+noise, or clicks at random times. The last case may appear as photon clicks in
+an optical spin noise measurement at very low probe laser power. Here we show
+that such random-time quantum measurements can similarly to the first two cases
+be analyzed in terms of higher-order temporal correlations of the detector
+output $z(t)$ and be related to the Liouvillian of the measured quantum system.
+Our analysis in terms of up to fourth-order spectra (quantum polyspectra) shows
+that this new type of spectra reveals the same valuable information as
+previously studied higher-order spectra in case of usual continuous quantum
+measurements. Surprisingly, broad-band system dynamics is revealed even for
+deliberately low average measurement rates. Many applications are envisioned in
+high-resolution spectroscopy, single-photon microscopy, circuit quantum
+electrodynamics, quantum sensing, and quantum measurements in general.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sifft_M/0/1/0/all/0/1&quot;&gt;Markus Sifft&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hagele_D/0/1/0/all/0/1&quot;&gt;Daniel H&amp;#xe4;gele&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2110.08304">
+<title>Nonlinear Landauer formula: Nonlinear response theory of disordered and topological materials. (arXiv:2110.08304v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2110.08304</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Landauer formula provides a general scattering formulation of electrical
+conduction. Despite its utility, it has been mainly applied to the
+linear-response regime, and a scattering theory of nonlinear response has yet
+to be fully developed. Here, we extend the Landauer formula to the
+nonlinear-response regime. We show that while the linear conductance is
+directly related to the transmission probability, the nonlinear conductance is
+given by its derivatives with respect to energy. This sensitivity to the energy
+derivatives is shown to produce unique nonlinear transport phenomena of
+mesoscopic systems including disordered and topological materials. By way of
+illustration, we investigate nonlinear conductance of disordered chains and
+identify their universal behavior according to symmetry. In particular, we find
+large singular nonlinear conductance for zero modes, including Majorana zero
+modes in topological superconductors. We also show the critical behavior of
+nonlinear response around the mobility edges due to the Anderson transitions.
+Moreover, we study nonlinear response of graphene as a prime example of
+topological materials featuring quantum anomaly. Furthermore, considering the
+geometry of electronic wave functions, we develop a scattering theory of the
+nonlinear Hall effect. We establish a new connection between the nonlinear Hall
+response and the nonequilibrium quantum fluctuations. We also discuss the
+influence of disorder and Anderson localization on the nonlinear Hall effect.
+Our work opens a new avenue in quantum physics beyond the linear-response
+regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kawabata_K/0/1/0/all/0/1&quot;&gt;Kohei Kawabata&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ueda_M/0/1/0/all/0/1&quot;&gt;Masahito Ueda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2112.09280">
+<title>Scaling dynamics of the ultra-cold Bose gas. (arXiv:2112.09280v2 [cond-mat.quant-gas] UPDATED)</title>
+<link>http://arxiv.org/abs/2112.09280</link>
+<description rdf:parseType="Literal">&lt;p&gt;The large-scale expansion dynamics of quantum gases is a central tool for
+ultra-cold gas experiments and poses a significant challenge for theory.
+&lt;/p&gt;
+&lt;p&gt;In this work we provide an exact reformulation of the Gross-Pitaevskii
+equation for the ultra-cold Bose gas in a coordinate frame that adaptively
+scales with the system size during evolution, enabling simulations of long
+evolution times during expansion or similar large-scale manipulation. Our
+approach makes no hydrodynamic approximations, is not restricted to a scaling
+ansatz, harmonic potentials, or energy eigenstates, and can be generalized
+readily to non-contact interactions via the appropriate stress tensor of the
+quantum fluid. As applications, we simulate the expansion of the ideal gas, a
+cigar-shaped condensate in the Thomas-Fermi regime, and a linear superposition
+of counter propagating Gaussian wavepackets. We recover known scaling for the
+ideal gas and Thomas-Fermi regimes, and identify a linear regime of
+aspect-ratio preserving free expansion; analysis of the scaling dynamics
+equations shows that an exact, aspect-ratio invariant, free expansion does not
+exist for nonlinear evolution. Our treatment enables exploration of nonlinear
+effects in matter-wave dynamics over large scale-changing evolution.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bradley_A/0/1/0/all/0/1&quot;&gt;Ashton S. Bradley&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Clarke_J/0/1/0/all/0/1&quot;&gt;Jordan Clarke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Neely_T/0/1/0/all/0/1&quot;&gt;Tyler W. Neely&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Anderson_B/0/1/0/all/0/1&quot;&gt;Brian P Anderson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2202.12615">
+<title>Fall of a Particle to the Center of a Singular Potential: Classical vs. Quantum Exact Solutions. (arXiv:2202.12615v3 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2202.12615</link>
+<description rdf:parseType="Literal">&lt;p&gt;Exact solutions describing a fall of a particle to the center of a singular
+potential (collapse) in classical and quantum cases are obtained, inspected,
+and compared. The quantum and classical solutions exhibit striking
+similarities. In particular, at zero energy of the particle, both are
+self-similar, and their characteristic spatial scales obey the same temporal
+dependence. In addition to collapsing, exact expanding solutions, corresponding
+to the escape of the particle from the singularity, exist for both problems.
+The collapse and escape are independent and not linked to each other through
+the singularity. In the quantum collapse, the wave functions of the exact
+solutions have time-depended norms. This case requires reconsidering and
+generalizing the continuity equations and rules for mean value calculations. It
+has also been done. The analysis sheds new light on the fundamentals of quantum
+mechanics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tribelsky_M/0/1/0/all/0/1&quot;&gt;Michael I. Tribelsky&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.06586">
+<title>Phonon downconversion to suppress correlated errors in superconducting qubits. (arXiv:2203.06586v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.06586</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum error correction can preserve quantum information in the presence of
+local errors, but correlated errors are fatal. For superconducting qubits,
+high-energy particle impacts from background radioactivity produce energetic
+phonons that travel throughout the substrate and create excitations above the
+superconducting ground state, known as quasiparticles, which can poison all
+qubits on the chip. We use normal metal reservoirs on the chip back side to
+downconvert phonons to low energies where they can no longer poison qubits. We
+introduce a pump-probe scheme involving controlled injection of pair-breaking
+phonons into the qubit chips. We examine quasiparticle poisoning on chips with
+and without back-side metallization and demonstrate a reduction in the flux of
+pair-breaking phonons by over a factor of 20. We use a Ramsey interferometer
+scheme to simultaneously monitor quasiparticle parity on three qubits for each
+chip and observe a two-order of magnitude reduction in correlated poisoning due
+to background radiation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Iaia_V/0/1/0/all/0/1&quot;&gt;V. Iaia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ku_J/0/1/0/all/0/1&quot;&gt;J. Ku&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ballard_A/0/1/0/all/0/1&quot;&gt;A. Ballard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Larson_C/0/1/0/all/0/1&quot;&gt;C. P. Larson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yelton_E/0/1/0/all/0/1&quot;&gt;E. Yelton&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;C. H. Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Patel_S/0/1/0/all/0/1&quot;&gt;S. Patel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+McDermott_R/0/1/0/all/0/1&quot;&gt;R. McDermott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Plourde_B/0/1/0/all/0/1&quot;&gt;B. L. T. Plourde&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.16012">
+<title>Entanglement area law for 1D gauge theories and bosonic systems. (arXiv:2203.16012v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.16012</link>
+<description rdf:parseType="Literal">&lt;p&gt;We prove an entanglement area law for a class of 1D quantum systems involving
+infinite-dimensional local Hilbert spaces. This class of quantum systems
+include bosonic models such as the Hubbard-Holstein model, and both U(1) and
+SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new
+results concerning the robustness of the ground state and spectral gap to the
+truncation of Hilbert space, applied within the approximate ground state
+projector (AGSP) framework from previous work. In establishing this area law,
+we develop a system-size independent bound on the expectation value of local
+observables for Hamiltonians without translation symmetry, which may be of
+separate interest. Our result provides theoretical justification for using
+tensor network methods to study the ground state properties of quantum systems
+with infinite local degrees of freedom.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Abrahamsen_N/0/1/0/all/0/1&quot;&gt;Nilin Abrahamsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tong_Y/0/1/0/all/0/1&quot;&gt;Yu Tong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bao_N/0/1/0/all/0/1&quot;&gt;Ning Bao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Su_Y/0/1/0/all/0/1&quot;&gt;Yuan Su&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wiebe_N/0/1/0/all/0/1&quot;&gt;Nathan Wiebe&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.06245">
+<title>Entanglement of particles versus entanglement of fields: independent quantum resources. (arXiv:2204.06245v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.06245</link>
+<description rdf:parseType="Literal">&lt;p&gt;Nature allows one to explore a manifold of remarkable quantum effects. Most
+prominently, quantum entanglement can be observed in many-particle systems,
+between multiple quantized fields, and hybrid combinations thereof. This
+diversity, however, also leads to contradicting conclusions about what truly
+constitutes entanglement in any given physical scenario. By explicitly allowing
+various perspectives, we rigorously consider different notions of entanglement
+in the context of first and second quantization. By providing instructive
+examples, we show that particle entanglement and field entanglement are
+actually distinct phenomena that can occur and be observed independently of
+each other. This finding not only affects our fundamental understanding but has
+direct implications on quantum technology which can harness those independent
+forms of entanglement in practical scenarios.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sperling_J/0/1/0/all/0/1&quot;&gt;Jan Sperling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Agudelo_E/0/1/0/all/0/1&quot;&gt;Elizabeth Agudelo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.13684">
+<title>Force-Gradient Sensing and Entanglement via Feedback Cooling of Interacting Nanoparticles. (arXiv:2204.13684v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.13684</link>
+<description rdf:parseType="Literal">&lt;p&gt;We show theoretically that feedback-cooling of two levitated, interacting
+nanoparticles enables differential sensing of forces and the observation of
+stationary entanglement. The feedback drives the two particles into a
+stationary, non-thermal state which is susceptible to inhomogeneous force
+fields and which exhibits entanglement for sufficiently strong inter-particle
+couplings. We predict that force-gradient sensing at the zepto-Newton per
+micron range is feasible and that entanglement due to the Coulomb interaction
+between charged particles can be realistically observed in state-of-the-art
+setups.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rudolph_H/0/1/0/all/0/1&quot;&gt;Henning Rudolph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Delic_U/0/1/0/all/0/1&quot;&gt;Uro&amp;#x161; Deli&amp;#x107;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Aspelmeyer_M/0/1/0/all/0/1&quot;&gt;Markus Aspelmeyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hornberger_K/0/1/0/all/0/1&quot;&gt;Klaus Hornberger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Stickler_B/0/1/0/all/0/1&quot;&gt;Benjamin A. Stickler&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.13945">
+<title>Symmetry-protected exceptional and nodal points in non-Hermitian systems. (arXiv:2204.13945v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.13945</link>
+<description rdf:parseType="Literal">&lt;p&gt;One of the unique features of non-Hermitian~(NH) systems is the appearance of
+non-Hermitian degeneracies known as exceptional points~(EPs). The extensively
+studied defective EPs occur when the Hamiltonian becomes non-diagonalizable.
+Aside from this degeneracy, we show that NH systems may host two further types
+of degeneracies, namely, non-defective EPs and ordinary (Hermitian) nodal
+points. The non-defective EPs manifest themselves by i) the diagonalizability
+of the NH Hamiltonian at these points, ii) the non-diagonalizability of the
+Hamiltonian along certain intersections of these points and iii) instabilities
+in the Jordan decomposition when approaching the points from certain
+directions. We demonstrate that certain discrete symmetries, namely
+parity-time, parity-particle-hole, and pseudo-Hermitian symmetry, guarantee the
+occurrence of both defective and non-defective EPs. We extend this list of
+symmetries by including the NH time-reversal symmetry in two-band systems.
+Two-band and four-band models exemplify our findings. Through an example, we
+further reveal that ordinary nodal points may coexist with defective EPs in NH
+models when the above symmetries are relaxed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sayyad_S/0/1/0/all/0/1&quot;&gt;Sharareh Sayyad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Stalhammar_M/0/1/0/all/0/1&quot;&gt;Marcus Stalhammar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rodland_L/0/1/0/all/0/1&quot;&gt;Lukas Rodland&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kunst_F/0/1/0/all/0/1&quot;&gt;Flore K. Kunst&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.00198">
+<title>Temporal witnesses of non-classicality and conservation laws. (arXiv:2205.00198v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.00198</link>
+<description rdf:parseType="Literal">&lt;p&gt;A general entanglement-based witness of non-classicality has recently been
+proposed, which can be applied to testing quantum effects in gravity. This
+witness is based on generating entanglement between two quantum probes via a
+mediator. In this paper we provide a &quot;temporal&quot; variant of this witness, using
+a single quantum probe to assess the non-classicality of the mediator. Within
+the formalism of quantum theory, we show that if a system $M$ is capable of
+inducing a coherent dynamical evolution of a quantum system $Q$, in the
+presence of a conservation law, then $M$ must be non-classical. This argument
+supports witnesses of non-classicality relying on a single quantum probe, which
+can be applied to a number of open issues, notably in quantum gravity or
+quantum biology.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Pietra_G/0/1/0/all/0/1&quot;&gt;Giuseppe Di Pietra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Marletto_C/0/1/0/all/0/1&quot;&gt;Chiara Marletto&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.05704">
+<title>Dynamical quantum ergodicity from energy level statistics. (arXiv:2205.05704v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.05704</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ergodic theory provides a rigorous mathematical description of classical
+dynamical systems including a formal definition of the ergodic hierarchy.
+Closely related to this hierarchy is a less-known notion of cyclic approximate
+periodic transformations [see, e.g., I. Cornfield, S. Fomin, and Y. Sinai,
+Ergodic theory (Springer-Verlag New York, 1982)], which maps any &quot;ergodic&quot;
+dynamical system to a cyclic permutation on a circle and arguably represents
+the most elementary notion of ergodicity. This paper shows that cyclic
+ergodicity generalizes to quantum dynamical systems, and this generalization is
+proposed here as the basic rigorous definition of quantum ergodicity. It
+implies the ability to construct an orthonormal basis, where quantum dynamics
+transports an initial basis vector to all other basis vectors one by one, while
+maintaining a sufficiently large overlap between the time-evolved initial state
+and a given basis state. It is proven that the basis, maximizing the overlap
+over all cyclic permutations, is obtained via the discrete Fourier transform of
+the energy eigenstates. This relates quantum cyclic ergodicity to level
+statistics. We then show that the near-universal Wigner-Dyson level statistics
+implies quantum cyclic ergodicity, but the reverse is not necessarily true. For
+the latter, we study irrational flows on a 2D torus and prove that both the
+classical and quantum flows are cyclic ergodic. However, the corresponding
+level statistics is neither Wigner-Dyson nor Poisson. Finally, we use the
+cyclic construction to motivate a quantum ergodic hierarchy of operators and
+argue that under the additional assumption of Poincare recurrences, cyclic
+ergodicity is a necessary condition for such operators to satisfy the
+eigenstate thermalization hypothesis. This work provides a general framework
+for transplanting some rigorous concepts of ergodic theory to quantum dynamical
+systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Vikram_A/0/1/0/all/0/1&quot;&gt;Amit Vikram&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Galitski_V/0/1/0/all/0/1&quot;&gt;Victor Galitski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.14277">
+<title>Integrable Floquet systems related to logarithmic conformal field theory. (arXiv:2206.14277v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.14277</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study an integrable Floquet quantum system related to lattice statistical
+systems in the universality class of dense polymers. These systems are
+described by a particular non-unitary representation of the Temperley-Lieb
+algebra. We find a simple Lie algebra structure for the elements of
+Temperley-Lieb algebra which are invariant under shift by two lattice sites,
+and show how the local Floquet conserved charges and the Floquet Hamiltonian
+are expressed in terms of this algebra. The system has a phase transition
+between local and non-local phases of the Floquet Hamiltonian. We provide a
+strong indication that in the scaling limit this non-equilibrium system is
+described by the logarithmic conformal field theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yashin_V/0/1/0/all/0/1&quot;&gt;Vsevolod I. Yashin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kurlov_D/0/1/0/all/0/1&quot;&gt;Denis V. Kurlov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fedorov_A/0/1/0/all/0/1&quot;&gt;Aleksey K. Fedorov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gritsev_V/0/1/0/all/0/1&quot;&gt;Vladimir Gritsev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.02933">
+<title>On the two-dimensional time-dependent anisotropic harmonic oscillator in a magnetic field. (arXiv:2207.02933v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.02933</link>
+<description rdf:parseType="Literal">&lt;p&gt;A Charged harmonic oscillator in a magnetic field, Landau problems, and an
+oscillator in a noncommutative space, share the same mathematical structure in
+their Hamiltonians. We have considered a two-dimensional anisotropic harmonic
+oscillator (AHO) with arbitrarily time-dependent parameters (effective mass and
+frequencies), placed in an arbitrarily time-dependent magnetic field. A class
+of quadratic invariant operators (in the sense of Lewis and Riesenfeld) have
+been constructed. The invariant operators ($\hat{\mathcal{I}}$) have been
+reduced to a simplified representative form by a linear canonical
+transformation (the group $Sp(4, \mathbb{R})$). An orthonormal basis of the
+Hilbert space consisting of the eigenvectors of $\hat{\mathcal{I}}$ is
+obtained. In order to obtain the solutions of the time-dependent
+Schr\&quot;{o}dinger equation corresponding to the system, both the geometric and
+dynamical phase-factors are constructed. Peres-Horodecki Separability Criterion
+for the bipartite coherent states corresponding to our system has been
+demonstrated.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Patra_P/0/1/0/all/0/1&quot;&gt;Pinaki Patra&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.07454">
+<title>High frequency torsional motion transduction using optomechanical coupled oscillators. (arXiv:2208.07454v2 [physics.optics] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.07454</link>
+<description rdf:parseType="Literal">&lt;p&gt;Using light to measure an object&apos;s motion is central to operating mechanical
+sensors that probe forces and fields. Cavity optomechanical systems embed
+mechanical resonators inside optical resonators. This enhances the sensitivity
+of optomechanical measurements, but only if the mechanical resonator does not
+spoil the properties of the optical cavity. For example, cavity optomechanical
+detection of resonators made from optically absorbing materials, or whose
+geometry does not possess suitable spatial symmetry, is challenging. Here we
+demonstrate a system that overcomes challenges in measuring high-frequency
+twisting motion of a nanodisk by converting them to vibrations of a photonic
+crystal cavity. Optomechanical readout of the cavity then enables measurement
+of the nanodisk&apos;s torsional resonances with sensitivity $5.1\times
+10^{-21}-1.2\times 10^{-19}\,\text{Nm}/\sqrt{\text{Hz}}$ for a mechanical
+frequency range of 5--800 MHz. The nanodisk can be outfitted with magnetic
+nanostructures or metasurfaces without affecting the optical properties of the
+cavity, making the system suitable for torque magnetometry and structured light
+sensing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kaviani_H/0/1/0/all/0/1&quot;&gt;Hamidreza Kaviani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Behera_B/0/1/0/all/0/1&quot;&gt;Bishnupada Behera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Hajisalem_G/0/1/0/all/0/1&quot;&gt;Ghazal Hajisalem&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Luiz_G/0/1/0/all/0/1&quot;&gt;Gustavo de Oliveira Luiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lake_D/0/1/0/all/0/1&quot;&gt;David P. Lake&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Barclay_P/0/1/0/all/0/1&quot;&gt;Paul E. Barclay&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.13858">
+<title>Unitary evolution for a two-level quantum system in fractional-time scenario. (arXiv:2208.13858v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.13858</link>
+<description rdf:parseType="Literal">&lt;p&gt;The time-evolution operator obtained from the fractional-time Schr\&quot;{o}dinger
+equation (FTSE) is said to be non-unitary since it does not preserve the norm
+of the vector state in time. As done in the time-dependent non-Hermitian
+quantum formalism, for a traceless non-Hermitian two-level quantum system, we
+demonstrate that it is possible to map the non-unitary time-evolution operator
+in a unitary one. It is done by considering a dynamical Hilbert space with a
+time-dependent metric operator, constructed from a Hermitian time-dependent
+Dyson map, in respect to which the system evolves in a unitary way, and the
+standard quantum mechanics interpretation can be made properly. To elucidate
+our approach, we consider three examples of Hamiltonian operators and their
+corresponding unitary dynamics obtained from the solutions of FTSE, and the
+respective Dyson maps.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Cius_D/0/1/0/all/0/1&quot;&gt;D. Cius&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Menon_L/0/1/0/all/0/1&quot;&gt;L. Menon Jr.&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Santos_M/0/1/0/all/0/1&quot;&gt;M. A. F. dos Santos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Castro_A/0/1/0/all/0/1&quot;&gt;A. S. M. de Castro&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Andrade_F/0/1/0/all/0/1&quot;&gt;F. M. Andrade&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.05053">
+<title>Strong coupling of a Gd$^{3+}$ multilevel spin system to an on-chip superconducting resonator. (arXiv:2210.05053v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.05053</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report the realization of a strong coupling between a Gd$^{3+}$ spin
+ensemble hosted in a scheelite (CaWO$_4$) single crystal and the resonant mode
+of a coplanar stripline superconducting cavity leading to a large separation of
+spin-photon states of 146 MHz. The interaction is well described by the Dicke
+model and the crystal-field Hamiltonian of the multilevel spin system. We
+observe a change of the crystal-field parameters due to the presence of photons
+in the cavity that generates a significant perturbation of the crystal ground
+state. Using finite-element calculations, we numerically estimate the cavity
+sensing volume as well as the average spin-photon coupling strength of
+$g_0\approx$ 620 Hz. Lastly, the dynamics of the spin-cavity states are
+explored via pulsed measurements by recording the cavity ring-down signal as a
+function of pulse length and amplitude. The results indicate a potential method
+to initialize this multilevel system in its ground state via an active cooling
+process.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Franco_Rivera_G/0/1/0/all/0/1&quot;&gt;Giovanni Franco-Rivera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Cochran_J/0/1/0/all/0/1&quot;&gt;Josiah Cochran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Miyashita_S/0/1/0/all/0/1&quot;&gt;Seiji Miyashita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bertaina_S/0/1/0/all/0/1&quot;&gt;Sylvain Bertaina&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chiorescu_I/0/1/0/all/0/1&quot;&gt;Irinel Chiorescu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.05689">
+<title>Mass Independent Scheme for Large Spatial Quantum Superpositions. (arXiv:2210.05689v3 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.05689</link>
+<description rdf:parseType="Literal">&lt;p&gt;Placing a large mass in a large spatial superposition, such as a
+Schr\&quot;odinger Cat state is a significant and important challenge. In
+particular, testing the quantum nature of gravity in the laboratory via
+entanglement will require a large spatial superposition (${\cal O}(10-100)$
+$\mu$m) of a mesoscopic mass ($m\sim {\cal O}(10^{-14} -10^{-15})$ kg). To
+date, the typical methods of achieving this spatial delocalization are to use
+wavepacket expansions or quantum ancilla (for example spin) dependent forces,
+all of whose efficacy reduces with mass. Thus achieving a spatial splitting
+independent of the mass is an important open challenge. In this paper, we
+present a method of achieving a mass-independent enhancement of superposition
+via diamagnetic repulsion from current-carrying wires. We analyse an example
+system which uses the Stern-Gerlach effect to creating a small initial
+splitting, and then apply our diamagnetic repulsion method to enhance the
+superposition size ${\cal O}(400-600)$ $\mu$m from an initial modest split of
+the wavefunction. We provide an analytic and numeric analysis of our scheme.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhou_R/0/1/0/all/0/1&quot;&gt;Run Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Marshman_R/0/1/0/all/0/1&quot;&gt;Ryan J. Marshman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bose_S/0/1/0/all/0/1&quot;&gt;Sougato Bose&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mazumdar_A/0/1/0/all/0/1&quot;&gt;Anupam Mazumdar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.09457">
+<title>Pseudo Entropy in dS/CFT and Time-like Entanglement Entropy. (arXiv:2210.09457v2 [hep-th] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.09457</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study holographic entanglement entropy in dS/CFT and introduce time-like
+entanglement entropy in CFTs. Both of them take complex values in general and
+are related with each other via an analytical continuation. We argue that they
+are correctly understood as pseudo entropy. We find that the imaginary part of
+pseudo entropy implies an emergence of time in dS/CFT.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Doi_K/0/1/0/all/0/1&quot;&gt;Kazuki Doi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Harper_J/0/1/0/all/0/1&quot;&gt;Jonathan Harper&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Mollabashi_A/0/1/0/all/0/1&quot;&gt;Ali Mollabashi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Takayanagi_T/0/1/0/all/0/1&quot;&gt;Tadashi Takayanagi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Taki_Y/0/1/0/all/0/1&quot;&gt;Yusuke Taki&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16438">
+<title>Quantum Variational Rewinding for Time Series Anomaly Detection. (arXiv:2210.16438v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16438</link>
+<description rdf:parseType="Literal">&lt;p&gt;Electron dynamics, financial markets and nuclear fission reactors, though
+seemingly unrelated, all produce observable characteristics evolving with time.
+Within this broad scope, departures from normal temporal behavior range from
+academically interesting to potentially catastrophic. New algorithms for time
+series anomaly detection (TAD) are therefore certainly in demand. With the
+advent of newly accessible quantum processing units (QPUs), exploring a quantum
+approach to TAD is now relevant and is the topic of this work. Our approach -
+Quantum Variational Rewinding, or, QVR - trains a family of parameterized
+unitary time-devolution operators to cluster normal time series instances
+encoded within quantum states. Unseen time series are assigned an anomaly score
+based upon their distance from the cluster center, which, beyond a given
+threshold, classifies anomalous behavior. After a first demonstration with a
+simple and didactic case, QVR is used to study the real problem of identifying
+anomalous behavior in cryptocurrency market data. Finally, multivariate time
+series from the cryptocurrency use case are studied using IBM&apos;s Falcon r5.11H
+family of superconducting transmon QPUs, where anomaly score errors resulting
+from hardware noise are shown to be reducible by as much as 20% using advanced
+error mitigation techniques.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Baker_J/0/1/0/all/0/1&quot;&gt;Jack S. Baker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Horowitz_H/0/1/0/all/0/1&quot;&gt;Haim Horowitz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Radha_S/0/1/0/all/0/1&quot;&gt;Santosh Kumar Radha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fernandes_S/0/1/0/all/0/1&quot;&gt;Stenio Fernandes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Jones_C/0/1/0/all/0/1&quot;&gt;Colin Jones&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Noorani_N/0/1/0/all/0/1&quot;&gt;Noorain Noorani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Skavysh_V/0/1/0/all/0/1&quot;&gt;Vladimir Skavysh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Lamontangne_P/0/1/0/all/0/1&quot;&gt;Philippe Lamontangne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sanders_B/0/1/0/all/0/1&quot;&gt;Barry C. Sanders&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.17448">
+<title>Geometry of phase-covariant qubit channels. (arXiv:2210.17448v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.17448</link>
+<description rdf:parseType="Literal">&lt;p&gt;We analyze the geometry on the space of non-unital phase-covariant qubit
+maps. Using the corresponding Choi-Jamio{\l}kowski states, we derive the
+Hilbert-Schmidt line and volume elements using the channel eigenvalues together
+with the parameter that characterizes non-unitality. We find the shapes and
+analytically compute the volumes of phase-covariant channels, in particular
+entanglement breaking and obtainable with time-local generators.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Siudzinska_K/0/1/0/all/0/1&quot;&gt;Katarzyna Siudzi&amp;#x144;ska&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00350">
+<title>Pulse-Level Optimization of Parameterized Quantum Circuits for Variational Quantum Algorithms. (arXiv:2211.00350v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00350</link>
+<description rdf:parseType="Literal">&lt;p&gt;Variational Quantum Algorithms (VQAs) have emerged as a powerful class of
+algorithms that is highly suitable for noisy quantum devices. Therefore,
+investigating their design has become key in quantum computing research.
+Previous works have shown that choosing an effective parameterized quantum
+circuit (PQC) or ansatz for VQAs is crucial to their overall performance,
+especially on near-term devices. In this paper, we utilize pulse-level access
+to quantum machines and our understanding of their two-qubit interactions to
+optimize the design of two-qubit entanglers in a manner suitable for VQAs. Our
+analysis results show that pulse-optimized ansatze reduce state preparation
+times by more than half, maintain expressibility relative to standard PQCs, and
+are more trainable through local cost function analysis. Our algorithm
+performance results show that in three cases, our PQC configuration outperforms
+the base implementation. Our algorithm performance results, executed on IBM
+Quantum hardware, demonstrate that our pulse-optimized PQC configurations are
+more capable of solving MaxCut and Chemistry problems compared to a standard
+configuration.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ibrahim_M/0/1/0/all/0/1&quot;&gt;Mohannad Ibrahim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mohammadbagherpoor_H/0/1/0/all/0/1&quot;&gt;Hamed Mohammadbagherpoor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rios_C/0/1/0/all/0/1&quot;&gt;Cynthia Rios&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bronn_N/0/1/0/all/0/1&quot;&gt;Nicholas T. Bronn&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Byrd_G/0/1/0/all/0/1&quot;&gt;Gregory T. Byrd&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01068">
+<title>Comment on: Bell tests explained by classical optics without quantum entanglement. (arXiv:2211.01068v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01068</link>
+<description rdf:parseType="Literal">&lt;p&gt;In a paper published in the journal Physics Essays in 2021, the author D.L.
+Mamas writes &quot;A polarized photon interacts with a polarizer through the
+component of the photon&apos;s electric field which is aligned with the polarizer.
+This component varies as the cosine of the angle through which the polarizer is
+rotated, explaining the cosine observed in Bell test data. Quantum mechanics is
+unnecessary and plays no role&quot;. Mamas is right that according to this physical
+model, one will observe a negative cosine. However, the amplitude of the cosine
+curve is 50%, not 100%, and it consequently does not violate any Bell-CHSH
+inequality. Mamas&apos; physical model is a classic local hidden variables model.
+The result is illustrated with a Monte Carlo simulation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gill_R/0/1/0/all/0/1&quot;&gt;Richard D. Gill&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01190">
+<title>Quantum City: simulation of a practical near-term metropolitan quantum network. (arXiv:2211.01190v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01190</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the architecture and analyze the applications of a
+metropolitan-scale quantum network that requires only limited hardware
+resources for end users. Using NetSquid, a quantum network simulation tool
+based on discrete events, we assess the performance of several quantum network
+protocols involving two or more users in various configurations in terms of
+topology, hardware and trust choices. Our analysis takes losses and errors into
+account and considers realistic parameters corresponding to present or
+near-term technology. Our results show that practical quantum-enhanced network
+functionalities are within reach today and can prepare the ground for further
+applications when more advanced technology becomes available.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yehia_R/0/1/0/all/0/1&quot;&gt;Raja Yehia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Neves_S/0/1/0/all/0/1&quot;&gt;Simon Neves&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Diamanti_E/0/1/0/all/0/1&quot;&gt;Eleni Diamanti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kerenidis_I/0/1/0/all/0/1&quot;&gt;Iordanis Kerenidis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01331">
+<title>Bell&apos;s theorem allows local theories of quantum mechanics. (arXiv:2211.01331v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01331</link>
+<description rdf:parseType="Literal">&lt;p&gt;A recent Nature Physics editorial (Nat. Phys. (2022) 18, 961) falsely claims
+``any theory that uses hidden variables still requires non-local physics.&apos;&apos; We
+correct this claim and explain why it is important to get this right.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hance_J/0/1/0/all/0/1&quot;&gt;Jonte R. Hance&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Hossenfelder_S/0/1/0/all/0/1&quot;&gt;Sabine Hossenfelder&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
