@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.acc-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Accelerator Physics (physics.acc-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Accelerator Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01504" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01614" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01695" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01719" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.11871" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01504">
+<title>Redundant Field Survey Data of Cyclotron with Imperfect Median Plane. (arXiv:2211.01504v1 [physics.acc-ph])</title>
+<link>http://arxiv.org/abs/2211.01504</link>
+<description rdf:parseType="Literal">&lt;p&gt;An accurate and detailed field map is important for cyclotron beam dynamics
+studies. During the long history of cyclotron studies, many techniques have
+been developed by cyclotron pioneers for the treatment of median plane field
+map. In this paper, we take the TRIUMF 500 MeV cyclotron as an example to study
+the asymmetric field resulting from the imperfect median plane symmetry. The
+``Gordon approach&apos;&apos; and a highly accurate compact finite differentiation method
+are used to investigate the historical field survey data. The redundancy in the
+survey data is revealed by the expansion method, which also makes it possible
+to correct the error in the measurement. Finally, both the azimuthal field
+$B_\theta$ and the axial gradient of the axial field $dB_z/dz$ in the median
+plane are corrected using the radial field map $B_r$. The influence of the
+correction is examined by recalculating the equilibrium orbit properties of the
+TRIUMF cyclotron. The result shows significantly increased vertical centering
+errors of the closed orbits. Further simulation study suggests that these
+centering errors can be reduced to below 1.5 cm by adjusting the trim coils&apos;
+$B_r$ field within the output limits of our trim coils&apos; power supplies. The
+error in the measurement field data may explain why the calculated trim coils&apos;
+settings during the cyclotron commissioning in 1974 encountered difficulty.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhang_L/0/1/0/all/0/1&quot;&gt;Lige Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rao_Y/0/1/0/all/0/1&quot;&gt;Yi-Nong Rao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01614">
+<title>Lorentz Dissociation of Hydrogen Ions in a Cyclotron. (arXiv:2211.01614v1 [physics.acc-ph])</title>
+<link>http://arxiv.org/abs/2211.01614</link>
+<description rdf:parseType="Literal">&lt;p&gt;Stripping extraction of hydrogen molecular ions has gained interest in the
+cyclotron industry due to its high extraction efficiency. However, the magnetic
+field could result in undesired Lorentz dissociation of the hydrogen
+anion/molecular ions during acceleration. Studies of dissociation under
+electric fields comparable to that of a Lorentz-transformed magnetic field in a
+typical cyclotron (a few MV/cm) are sparse. Hence, in order to fill in the
+missing yet crucial information when designing a cyclotron, this work compiles
+and summarizes the study of Lorentz dissociation of H$^-$, H$_2^+$ and H$_3^+$
+for stripping extraction in a cyclotron.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Koay_H/0/1/0/all/0/1&quot;&gt;Hui Wen Koay&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01695">
+<title>Characterization of Cs-free negative ion production in the ion source SPIDER by Cavity Ring-Down Spectroscopy. (arXiv:2211.01695v1 [physics.plasm-ph])</title>
+<link>http://arxiv.org/abs/2211.01695</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Neutral beam Injectors of the ITER experiment will be based on negative
+ion sources for the generation of beams composed by 1 MeV H/D particles. The
+prototype of these sources is currently under testing in the SPIDER experiment,
+part of the Neutral Beam Test Facility of Consorzio RFX, Padua. Among the
+targets of the experimentation in SPIDER, it is of foremost importance to
+maximize the beam current density extracted from the source acceleration
+system. The SPIDER operating conditions can be optimized thanks to a Cavity
+Ring-down Spectroscopy diagnostic, which is able to give line-integrated
+measurements of negative ion density in proximity of the acceleration system
+apertures. Regarding the diagnostic technique, this work presents a phenomenon
+of drift in ring down time measurements, which develops in a time scale of few
+hours. This issue may significantly affect negative ion density measurements
+for plasma pulses of 1 h duration, as required by ITER. Causes and solutions
+are discussed. Regarding the source performance, this paper presents how
+negative ion density is influenced by the RF power used to sustain the plasma,
+and by the magnetic filter field present in SPIDER to limit the amount of
+co-extracted electrons. In this study, SPIDER was operated in hydrogen and
+deuterium, in Cs-free conditions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Barbisan_M/0/1/0/all/0/1&quot;&gt;M. Barbisan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Agnello_R/0/1/0/all/0/1&quot;&gt;R. Agnello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Casati_G/0/1/0/all/0/1&quot;&gt;G. Casati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Pasqualotto_R/0/1/0/all/0/1&quot;&gt;R. Pasqualotto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sartori_E/0/1/0/all/0/1&quot;&gt;E. Sartori&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Serianni_G/0/1/0/all/0/1&quot;&gt;G. Serianni&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01719">
+<title>Design and preliminary operation of a laser absorption diagnostic for the SPIDER RF source. (arXiv:2211.01719v1 [physics.plasm-ph])</title>
+<link>http://arxiv.org/abs/2211.01719</link>
+<description rdf:parseType="Literal">&lt;p&gt;The ITER Heating Neutral Beam (HNB) injector is required to deliver 16.7 MW
+power into the plasma from a neutralised beam of H-/D- negative ions, produced
+by an RF source and accelerated up to 1 MeV. To enhance the H-/D- production,
+the surface of the acceleration system grid facing the source (the plasma grid)
+will be coated with Cs because of its low work function. Cs will be routinely
+evaporated in the source by means of specific ovens. Monitoring the evaporation
+rate and the distribution of Cs inside the source is fundamental to get the
+desired performances on the ITER HNB. In order to proper design the source of
+the ITER HNB and to identify the best operation practices for it, the prototype
+RF negative ion source SPIDER has been developed and built in the Neutral Beam
+Test Facility at Consorzio RFX. A Laser Absorption Spectroscopy diagnostic will
+be installed in SPIDER for a quantitative estimation of Cs density. By using a
+wavelength tunable laser, the diagnostic will measure the absorption spectrum
+of the 852 nm line along 4 lines of sight, parallel to the plasma grid surface
+and close to it. From the absorption spectra the line-integrated density of Cs
+at ground state will be measured. The design of this diagnostic for SPIDER is
+presented, with details of the layout and of the key components. A preliminary
+installation of the diagnostic on the test stand for Cs ovens is also
+described, together with its first experimental results; the effect of ground
+state depopulation on collected measurements is discussed and partially
+corrected.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Barbisan_M/0/1/0/all/0/1&quot;&gt;M. Barbisan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Pasqualotto_R/0/1/0/all/0/1&quot;&gt;R. Pasqualotto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rizzolo_A/0/1/0/all/0/1&quot;&gt;A. Rizzolo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.11871">
+<title>Beam Background Simulation and Experiment at BEPCII. (arXiv:2210.11871v2 [physics.acc-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.11871</link>
+<description rdf:parseType="Literal">&lt;p&gt;A high-level beam background is a crucial challenge to future upgrades to the
+BEPCII collider. We report here on the components of the background of a single
+beam at the BEPCII collider and the BESIII detector in an experiment. Touschek
+effect is the dominant source of the beam background in the inner detector,
+where this is different from the previous understanding of beam background at
+BEPCII. We also report a simulation of the beam background, and compare the
+background count rates obtained by it with those measured in the experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Shi_H/0/1/0/all/0/1&quot;&gt;H. C . Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Wang_B/0/1/0/all/0/1&quot;&gt;B. Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Shi_H/0/1/0/all/0/1&quot;&gt;H. Y. Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yu_C/0/1/0/all/0/1&quot;&gt;C. H. Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Dong_M/0/1/0/all/0/1&quot;&gt;M. Y. Dong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Peng_H/0/1/0/all/0/1&quot;&gt;H. P. Peng&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
