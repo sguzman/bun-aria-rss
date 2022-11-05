@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41688 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41688",
+  "description": "Delta Electronics InfraSuite Device Master versions 00.00.01a and prior lack proper authentication for functions that create and modify user groups. An attacker could provide malicious serialized objects that could run these functions without authentication to create a new user and add them to the administrator group.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

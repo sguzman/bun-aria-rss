@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-2613463329022637025",
+  "published": "2022-10-06T12:18:00.000-07:00",
+  "updated": "2022-10-06T12:18:11.507-07:00",
+  "category": [
+    "",
+    ""
+  ],
+  "title": "Sunsetting support for Top content bid adjustments in Google Ads API",
+  "content": "We recently <a href=\"https://support.google.com/google-ads/answer/2732132?hl=en#zippy=%2Ctop-content-advanced\">announced</a> that Top content bid adjustments are no longer available for any campaigns. To align with this change, Google Ads API will make the following changes starting <strong>November 1, 2022</strong>.<br /><br /> <ol>  <li>Attempting to set an <a href=\"https://developers.google.com/google-ads/api/reference/rpc/latest/AdGroupBidModifier\"><code>AdGroupBidModifier</code></a> with its <a href=\"https://developers.google.com/google-ads/api/reference/rpc/v11/AdGroupBidModifier#preferred_content\"><code>preferred_content</code></a> field set will fail with an <a href=\"https://developers.google.com/google-ads/api/reference/rpc/v11/ContextErrorEnum.ContextError#operation_not_permitted_for_context\"><code>ContextError.OPERATION_NOT_PERMITTED_FOR_CONTEXT</code></a> error.</li>  <li>Attempting to retrieve an <a href=\"https://developers.google.com/google-ads/api/reference/rpc/latest/AdGroupBidModifier\"><code>AdGroupBidModifier</code></a> with its <a href=\"https://developers.google.com/google-ads/api/reference/rpc/v11/AdGroupBidModifier#preferred_content\"><code>preferred_content</code></a> field set will return a zero value for the <a href=\"https://developers.google.com/google-ads/api/reference/rpc/latest/AdGroupBidModifier#bid_modifier\"><code>bid_modifier</code></a> field.</li></ol> If you need to retrieve the existing values for these fields for future reference, we recommend that you download these values before <strong>November 1, 2022</strong>.<br /><br /> If you have any questions or need additional help, contact us using any of the following support options: <ul>  <li>Email: <a href=\"mailto:googleadsapi-support@google.com\">googleadsapi-support@google.com</a></li>  <li>Support forum:  <a href=\"https://groups.google.com/forum/#!forum/adwords-api\">https://groups.google.com/forum/#!forum/adwords-api</a></li></ul> <span class='byline-author'>- Anash P. Oommen, Google Ads API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  }
+}
