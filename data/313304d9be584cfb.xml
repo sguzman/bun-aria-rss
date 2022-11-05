@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Anton Lebedevich's Blog</title>
+		<description></description>
+		<link>https://mabrek.github.io/feed.xml</link>
+		<atom:link href="https://mabrek.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>My Top 10% Solution for Kaggle Rossman Store Sales Forecasting Competition</title>
+				<description>&lt;p&gt;&lt;em&gt;This is the first time I have participated in a machine learning competition and my result turned out to be quite good: &lt;a href=&quot;https://www.kaggle.com/mabrek/results&quot;&gt;66th out of 3303&lt;/a&gt;. I used R and an average of two models: glmnet and xgboost with a lot of feature engineering.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal of the &lt;a href=&quot;https://www.kaggle.com/c/rossmann-store-sales&quot;&gt;competition&lt;/a&gt; was to predict 6 weeks of daily &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sales&lt;/code&gt; in 1115 stores located in different parts of Germany based on 2.5 years of historical daily sales.&lt;/p&gt;
+
+&lt;p&gt;The first thing I tried after importing data was to convert it into multivariate regular time series and run &lt;a href=&quot;https://mabrek.github.io/blog/multivariate-svd-pca/&quot;&gt;SVD&lt;/a&gt;. The result highlighted several interesting details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the majority of stores didn’t have upward or downward trends&lt;/li&gt;
+  &lt;li&gt;seasonal variation was present but mostly as a Christmas effect&lt;/li&gt;
+  &lt;li&gt;Sunday was a non-working day in a  majority of stores&lt;/li&gt;
+  &lt;li&gt;there was a strange 2 week cycle which was an effect of running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Promo&lt;/code&gt; actions every other week&lt;/li&gt;
+  &lt;li&gt;there were group of stores that didn’t close on Sunday in summer&lt;/li&gt;
+  &lt;li&gt;some stores had strong yearly pattern&lt;/li&gt;
+  &lt;li&gt;some stores showed continuous sales increases and other decreases over time&lt;/li&gt;
+  &lt;li&gt;several stores were missing data from the second  half of 2014&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I sampled several stores from different groups to check various ideas on them first.&lt;/p&gt;
+
+&lt;p&gt;In the beginning my idea was to check how good a single interpretable model could be. There were two simple benchmark models (&lt;a href=&quot;https://www.kaggle.com/shearerp/rossmann-store-sales/interactive-sales-visualization&quot;&gt;median&lt;/a&gt; and &lt;a href=&quot;https://www.kaggle.com/shearerp/rossmann-store-sales/store-dayofweek-promo-0-13952&quot;&gt;geometric mean&lt;/a&gt;) on the competition forum which I used as a starting point.&lt;/p&gt;
+
+&lt;p&gt;To validate model quality I implemented time-based cross-validation as described in &lt;a href=&quot;https://www.otexts.org/fpp/2/5&quot;&gt;Forecasting: principles and practice&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Interactive visualization helped a lot in identifying features and sources of errors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/kaggle-forecasting.png&quot; alt=&quot;store forecast with error&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Initially I tried &lt;a href=&quot;http://www.inside-r.org/packages/cran/forecast/docs/tbats&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;forecast::tbats&lt;/code&gt;&lt;/a&gt; (a separate model for each store) but the results were quite bad. The influence of non-seasonal factors was big but &lt;a href=&quot;http://robjhyndman.com/hyndsight/tbats-with-regressors/&quot;&gt;tbats can’t&lt;/a&gt; &lt;a href=&quot;http://robjhyndman.com/hyndsight/dailydata/&quot;&gt;use external regressors&lt;/a&gt;. Next I considered using &lt;a href=&quot;http://www.inside-r.org/packages/cran/forecast/docs/auto.arima&quot;&gt;ARIMA&lt;/a&gt;, as it can use regressors, but for long-term forecasts it decays to &lt;a href=&quot;https://www.otexts.org/fpp/8/5&quot;&gt;constant or linear trends&lt;/a&gt;. So I continued to evaluate different kinds of linear models. As more and more features were added, the simple linear model started to get worse so I switched to &lt;a href=&quot;http://www.inside-r.org/packages/cran/glmnet/docs/glmnet&quot;&gt;glmnet&lt;/a&gt; which is able to select subsets of features.&lt;/p&gt;
+
+&lt;p&gt;There was some similarity between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sales&lt;/code&gt; and count data so I tried Poisson regression as suggested in &lt;a href=&quot;http://www.magesblog.com/2015/08/generalised-linear-models-in-r.html&quot;&gt;Generalized Linear Models in R&lt;/a&gt;. This, however, resulted in a larger error in cross-validation than predicting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log(Sales)&lt;/code&gt; using &lt;a href=&quot;https://cran.r-project.org/web/packages/glmnet/vignettes/glmnet_beta.html#lin&quot;&gt;Gaussian family&lt;/a&gt; of generalized linear model.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/c/rossmann-store-sales/details/evaluation&quot;&gt;RMSPE evaluation criteria&lt;/a&gt; is asymmetric (see &lt;a href=&quot;https://www.otexts.org/fpp/2/5&quot;&gt;discussion of MAPE&lt;/a&gt;) and sensitive to outliers. The typical range for different models and different stores was between 0.08 and 0.25. If a model predicted a sales value of 1000 on a specific day (for example) and the actual sales were 10 because there was an unaccounted holiday,  then  RMSPE would be equal to 99 for that day which would  make an otherwise good model look really bad on average.&lt;/p&gt;
+
+&lt;p&gt;The best per store glmnet model scored worse than  &lt;a href=&quot;https://github.com/dmlc/xgboost&quot;&gt;xgboost&lt;/a&gt;, &lt;a href=&quot;https://www.kaggle.com/abhilashawasthi/rossmann-store-sales/xgb-rossmann/run/86608&quot;&gt;also published on the forum&lt;/a&gt;. Tree based regression models don’t extrapolate well because they &lt;a href=&quot;https://www.kaggle.com/forums/f/15/kaggle-forum/t/6609/why-does-extrapolating-a-sine-curve-via-a-randomforest-gives-a-straight&quot;&gt;predict with constant value anything outside their training ranges&lt;/a&gt;. The number of stores with long-range trends was small and the majority had quite stable sales over time, so I decided to give xgboost a try and feed it with the same features as I did for linear model (without &lt;a href=&quot;https://en.wikipedia.org/wiki/One-hot&quot;&gt;one-hot encoding&lt;/a&gt; for categorical features).&lt;/p&gt;
+
+&lt;p&gt;Feature engineering:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5 fourier terms generated by &lt;a href=&quot;http://www.inside-r.org/packages/cran/forecast/docs/fourier&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;forecast::fourier&lt;/code&gt;&lt;/a&gt; with frequency=365;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Days&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log(Days)&lt;/code&gt; since the beginning of the training set to capture trends (exponential and linear because &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log(Sales)&lt;/code&gt; is predicted);&lt;/li&gt;
+  &lt;li&gt;exponential and linear growth before events or decay after events such as starting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Promo&lt;/code&gt; or state holidays (similar to &lt;a href=&quot;https://github.com/republicwireless-open/foregen&quot;&gt;foregen&lt;/a&gt; which I discovered later);&lt;/li&gt;
+  &lt;li&gt;binary features which took value 1 for several days before or after events including the start and end of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Promo&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Promo2&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StateHoliday&lt;/code&gt;, and refurbishments;&lt;/li&gt;
+  &lt;li&gt;binary features like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClosesTomorrow&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WasClosedYesterday&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WasClosedOnSunday&lt;/code&gt;;&lt;/li&gt;
+  &lt;li&gt;day of week, day of month, month number, year as categorical features for xbgoost and n-1 binary features for glmnet (described at https://www.otexts.org/fpp/5/2 ).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For some stores with large error in cross-validation I dropped data before manually selected (by examining &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sales&lt;/code&gt; time series graphs) changepoints.&lt;/p&gt;
+
+&lt;p&gt;The training set contained more stores than were present in the test set. I dropped those extra stores from the training set for xgboost.&lt;/p&gt;
+
+&lt;p&gt;I dropped outliers from the training set for glmnet. Outliers were selected by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt; 2.5 * median absolute residual&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lm&lt;/code&gt; trained on a small set of features per store.&lt;/p&gt;
+
+&lt;p&gt;Initially I used 10 cross-validation folds with 6 weeks length starting from the end of the training set with 2 weeks step (~4.5 months total) but then found that closest to 2014 folds produce large errors for stores with missing in 2014 data. Then I switched to 15 folds with 3 days step to avoid being too close to 2014 which improved predictions for those stores.&lt;/p&gt;
+
+&lt;p&gt;RMSPE was quite different for different prediction ranges. For the same store it could go from 0.103 to 0.125 with the same model. It made me think that public leaderboard position is going to change a lot in private leaderboard because they have time based split. It turned out to be &lt;a href=&quot;https://www.kaggle.com/c/rossmann-store-sales/forums/t/17898/leaderboard-shakeup&quot;&gt;true&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Grid search was used to find &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glmnet&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alpha&lt;/code&gt; parameter. The best &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alpha&lt;/code&gt; was 1 which corresponds to &lt;a href=&quot;https://en.wikipedia.org/wiki/Least_squares#Lasso_method&quot;&gt;Lasso  regularization&lt;/a&gt;. Choice of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lambda&lt;/code&gt; is implemented in &lt;a href=&quot;http://www.inside-r.org/packages/cran/glmnet/docs/cv.glmnet&quot;&gt;cv.glmnet&lt;/a&gt; but it uses a standard k-fold cross-validation. I reimplemented it with a time-based cross-validation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/c/rossmann-store-sales/forums/t/17601/correcting-log-sales-prediction-for-rmspe/99643#post99643&quot;&gt;0.985 correction&lt;/a&gt; was insignificant on cross-validation (effect was less than standard deviation of RMSPE from different folds) but helped on both private and public leaderboards.&lt;/p&gt;
+
+&lt;p&gt;Pairwise feature combinations had positive effect for glmnet on cross-validation but didn’t work on leaderboard.&lt;/p&gt;
+
+&lt;p&gt;As a result single per store glmnet model gave prediction error (RMSPE) on private leaderboard 0.11974 (516th place), single all stores xgboost model - 0.11839 (379th), their average - 0.11262 (66th). Complicated ensemble models are good for competitions but in practice it might be better to have 0.007 increase in error and simple interpretable model.&lt;/p&gt;
+
+&lt;p&gt;Source code is available at &lt;a href=&quot;https://github.com/mabrek/kaggle-rossman-store-sales&quot;&gt;github.com/mabrek/kaggle-rossman-store-sales&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/kaggle-forecasting/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/kaggle-forecasting/</guid>
+			</item>
+		
+			<item>
+				<title>Machine Learning is not BS in Monitoring</title>
+				<description>&lt;p&gt;Recently I came across provocatively titled &lt;a href=&quot;https://medium.com/the-opsee-blog/machine-learning-in-monitoring-is-bs-134e362faee2&quot;&gt;“Machine Learning in Monitoring is BS”&lt;/a&gt; and decided to reply but the response came out longer than typical comment so I posted it separately.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ambiguity of the data - true point. It’s impossible to build a single universal model that eats any data and alert when it’s wrong. But it’s possible to build different models for different cases with the help of humans. And yes, it’s possible for machine learning to find if a bump on EEG is good or bad, see &lt;a href=&quot;https://www.kaggle.com/c/seizure-prediction&quot;&gt;Epilepsy Seizure Prediction Challenge&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Multiplicity of variables. It’s true that mass of metrics doesn’t make a lot of sense without context but adding context back and applying dimensionality reduction methods (&lt;a href=&quot;https://mabrek.github.io/blog/multivariate-svd-pca/&quot;&gt;SVD&lt;/a&gt;) allows to reduce the mass into handful. If ECG of one cow is quite different from ECGs of all other cows then it’s quite likely to be sick.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;User experience. Not all machine learning methods are opaque. &lt;a href=&quot;https://en.wikipedia.org/wiki/Deep_learning&quot;&gt;Deep learning&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Gradient_boosting&quot;&gt;gradient boosting&lt;/a&gt; models are black boxes but there are many interpretable models like &lt;a href=&quot;https://en.wikipedia.org/wiki/Linear_regression&quot;&gt;regularized linear&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Logistic_regression&quot;&gt;logistic regression&lt;/a&gt;. They can give answers like “sales tomorrow will be higher than the previous Monday because it’s a first working day after long holidays and sales are usually higher in that case”.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visualization. Traditional monitoring that is built around dashboards and staring at graphs doesn’t scale. At the same time there are different ways to present loads of data in compact visual form that makes sense to human (like &lt;a href=&quot;https://mabrek.github.io/blog/multivariate-mds-tsne&quot;&gt;MDS, T-SNE&lt;/a&gt;). Machine learning  could be used to produce better visualization to help humans understand what’s going on.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There is a lot of hype around machine learning and as it usually happens some of overhyped technologies fail to deliver. The same problem was faced by information security community as explained in “Secure because Math” (&lt;a href=&quot;https://www.blackhat.com/docs/us-14/materials/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf&quot;&gt;pdf&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=TYVCVzEJhhQ&quot;&gt;video&lt;/a&gt;) talk by &lt;a href=&quot;https://twitter.com/alexcpsec&quot;&gt;@alexcpsec&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Machine learning is not a magic that would digest uncleaned and unlabeled metrics and point out when and how the system was broken. It’s rather a set of tools which when used appropriately will reduce manual labor for devops looking after production systems.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/machine-learning-is-not-bs/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/machine-learning-is-not-bs/</guid>
+			</item>
+		
+			<item>
+				<title>Prototyping Long Term Time Series Storage with Kafka and Parquet</title>
+				<description>&lt;p&gt;&lt;em&gt;Another attempt to find better storage for time series data, this time it looks quite promising&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Last time I tried to switch from &lt;a href=&quot;http://graphite.readthedocs.org/en/latest/&quot;&gt;Graphite&lt;/a&gt; time series storage to &lt;a href=&quot;https://mabrek.github.io/blog/spark-cassandra-timeseries/&quot;&gt;Cyanite/Cassandra&lt;/a&gt; but the attempt failed and I stayed with &lt;a href=&quot;http://graphite.readthedocs.org/en/latest/whisper.html&quot;&gt;Whisper&lt;/a&gt; files. After struggling with keeping disk IOPS sane while ingesting hi-resolution performance data I ended up putting &lt;a href=&quot;http://graphite.readthedocs.org/en/latest/whisper.html&quot;&gt;Whisper&lt;/a&gt; files into &lt;a href=&quot;https://en.wikipedia.org/wiki/Tmpfs&quot;&gt;tmpfs&lt;/a&gt; and shortening data retention interval to just one day because my load tests usually don’t last more than several hours. Then I export data into &lt;a href=&quot;http://r-project.org/&quot;&gt;R&lt;/a&gt; and do analysis. Large scale projects like &lt;a href=&quot;http://www.vldb.org/pvldb/vol8/p1816-teller.pdf&quot;&gt;Gorilla(pdf)&lt;/a&gt; and &lt;a href=&quot;http://techblog.netflix.com/2014/12/introducing-atlas-netflixs-primary.html&quot;&gt;Atlas&lt;/a&gt; do similar things. They store recent data in RAM for dashboards and real-time analytics and then dump it to slow long term storage for offline analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://graphite.readthedocs.org/en/latest/whisper.html#database-format&quot;&gt;Whisper file format&lt;/a&gt; is relatively good in terms of storage size (12 bytes per datapoint). It’s columnar because it saves each metric in its own file. It contains redundant data because it saves a timestamp with each value and many values from different metrics share the same timestamp. There is no compression. I need to find something better than Whisper.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vldb.org/pvldb/vol8/p1816-teller.pdf&quot;&gt;Gorilla(pdf)&lt;/a&gt; paper inspired me to look into column storage formats with efficient encoding of repeated data. I decided to try &lt;a href=&quot;https://parquet.apache.org/&quot;&gt;Parquet&lt;/a&gt;. Unfortunately floating point compression is &lt;a href=&quot;https://github.com/Parquet/parquet-mr/issues/306&quot;&gt;not there yet&lt;/a&gt; but my values have type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;double&lt;/code&gt; (as a side note &lt;a href=&quot;http://orc.apache.org/&quot;&gt;ORCFile&lt;/a&gt; &lt;a href=&quot;https://issues.apache.org/jira/browse/ORC-15&quot;&gt;lacks it&lt;/a&gt; too). Many metrics (counters) actually have integer type but there is no information about their types upfront.&lt;/p&gt;
+
+&lt;p&gt;To achieve good compression data needs to be written in large chunks so I needed something to buffer data. The way &lt;a href=&quot;http://kafka.apache.org/&quot;&gt;Kafka&lt;/a&gt; works with streaming writes and read offsets made me think that it’s a good fit for storing data until it’s picked up by periodical job. That job would start, read all the data available from the last read offset, compress and store it, and sleep until the next cycle.&lt;/p&gt;
+
+&lt;p&gt;My data comes in &lt;a href=&quot;http://graphite.readthedocs.org/en/latest/feeding-carbon.html#the-plaintext-protocol&quot;&gt;Graphite plaintext protocol&lt;/a&gt; which is quite verbose:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;metric_name&amp;gt; &amp;lt;value&amp;gt; &amp;lt;timestamp&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Metric names and timestamps are repeating. Metrics are sent periodically at the same time so many lines share the same timestamp. The same set of metrics is being sent each time. Values for many metrics are not changing a lot over time (like disk usage) which makes it a good target for &lt;a href=&quot;https://en.wikipedia.org/wiki/Dictionary_coder&quot;&gt;dictionary&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Delta_encoding&quot;&gt;delta encoding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;feeding-graphite-data-into-kafka&quot;&gt;Feeding graphite data into Kafka&lt;/h3&gt;
+
+&lt;p&gt;I set up single node Kafka as described in &lt;a href=&quot;http://kafka.apache.org/documentation.html#quickstart&quot;&gt;manual&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Feeding graphite data into Kafka turned out to be one-liner with &lt;a href=&quot;http://netcat.sourceforge.net/&quot;&gt;nc&lt;/a&gt; and &lt;a href=&quot;https://github.com/edenhill/kafkacat&quot;&gt;kafkacat&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nc -4l localhost 2003 | kafkacat -P -b localhost -t metrics -K ' '
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Metric name is used as message key in kafka and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;value timestamp&lt;/code&gt; is a payload.&lt;/p&gt;
+
+&lt;p&gt;Then I started &lt;a href=&quot;https://collectd.org/&quot;&gt;collectd&lt;/a&gt; with &lt;a href=&quot;https://collectd.org/wiki/index.php/Plugin:Write_Graphite&quot;&gt;write graphite plugin&lt;/a&gt; pointing to localhost and reporting interval of 1 second. After several hours I got 1.8 Gb queue in kafka.&lt;/p&gt;
+
+&lt;p&gt;Dumping the data back into text format is a one-liner too:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kafka-console-consumer.sh --zookeeper localhost:2181 --topic metrics \
+  --from-beginning --property print.key=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Text file had size of 1.4Gb which means kafka has some overhead for storing uncompressed data. There were ~19000000 lines in the file.&lt;/p&gt;
+
+&lt;h3 id=&quot;fetching-data-from-kafka&quot;&gt;Fetching data from Kafka&lt;/h3&gt;
+
+&lt;p&gt;I needed to handle read offsets manually so I chose &lt;a href=&quot;http://kafka.apache.org/documentation.html#simpleconsumerapi&quot;&gt;SimpleConsumer&lt;/a&gt;. Its API turned out to be quite confusing and not that simple. It doesn’t talk to Zookeeper and allows to specify offsets. Handling all corner cases requires lots of &lt;a href=&quot;https://cwiki.apache.org/confluence/display/KAFKA/0.8.0+SimpleConsumer+Example&quot;&gt;code&lt;/a&gt; but simple prototype turned out to be quite short in Scala:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;val consumer = new SimpleConsumer(&quot;localhost&quot;, 9092, 5000,
+    BlockingChannel.UseDefaultBufferSize, name)
+val fetchRequest = new FetchRequestBuilder().clientId(name)
+    .addFetch(topic, partition, offset, fetchSize).build()
+val fetchResponse = consumer.fetch(fetchRequest)
+val messages = fetchResponse.messageSet(topic, partition)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It just reads all messages from specified &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;offset&lt;/code&gt; up to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetchSize&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;saving-data-into-parquet&quot;&gt;Saving data into Parquet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://parquet.apache.org/&quot;&gt;Parquet&lt;/a&gt; API documentation doesn’t seem to be published anywhere. Javadoc for &lt;a href=&quot;https://github.com/apache/parquet-mr/blob/master/parquet-column/src/main/java/org/apache/parquet/schema/Types.java#L30&quot;&gt;org.apache.parquet.schema.Types&lt;/a&gt; contains several schema examples. Writing local files from standalone application is not described anywhere but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parquet-benchmarks&lt;/code&gt; module contains class &lt;a href=&quot;https://github.com/apache/parquet-mr/blob/master/parquet-benchmarks/src/main/java/org/apache/parquet/benchmarks/DataGenerator.java#L68&quot;&gt;org.apache.parquet.benchmarks.DataGenerator&lt;/a&gt; which writes several variants of local files. It depends on Hadoop classes so you’ll need it as a project dependency (&lt;a href=&quot;https://github.com/Parquet/parquet-mr/issues/305&quot;&gt;issue&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;I decided to use ‘wide’ schema when each metric has its own column to make delta encoding possible and a single column for timestamps (like &lt;a href=&quot;https://cran.r-project.org/web/packages/xts/index.html&quot;&gt;xts&lt;/a&gt; does for multivariate series):&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;val types = mutable.Set[Type]()
+...
+// for each message collect unique keys as types
+types += Types.optional(DOUBLE).named(key)
+...
+val schema = new MessageType(&quot;GraphiteLine&quot;,
+    (types + Types.required(INT64).named(&quot;timestamp&quot;)).toList) 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Boilerplate to create &lt;a href=&quot;https://github.com/apache/parquet-mr/blob/master/parquet-hadoop/src/main/java/org/apache/parquet/hadoop/ParquetWriter.java&quot;&gt;ParquetWriter&lt;/a&gt; object:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;val configuration = new Configuration
+GroupWriteSupport.setSchema(schema, configuration)
+val gf = new SimpleGroupFactory(schema)
+val outFile = new Path(&quot;data-file.parquet&quot;)
+val writer = new ParquetWriter[Group](outFile, 
+    new GroupWriteSupport, UNCOMPRESSED, DEFAULT_BLOCK_SIZE, 
+    DEFAULT_PAGE_SIZE, 512, true, false, PARQUET_2_0, 
+    configuration)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For each unique timestamp a row (called group in Parquet) is added which contains values for all metrics (columns) at that time:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for (timestamp &amp;lt;- timestamps) {
+    val group = gf.newGroup().append(&quot;timestamp&quot;, timestamp)
+        for ((metric, column) &amp;lt;- columns) {
+            column.get(timestamp).foreach(group.append(metric, _))
+        }
+    writer.write(group)
+}
+writer.close()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And that’s it.&lt;/p&gt;
+
+&lt;h3 id=&quot;effect-of-compression&quot;&gt;Effect of compression&lt;/h3&gt;
+
+&lt;p&gt;Enabling gzip compression in Parquet reduced file size 3 times compared to uncompressed. The result took 12Mb for ~19000000 input lines which is quite impressive. Storing the same data in whisper format would take at least 230Mb (actually more because it reserves space for whole retention interval).&lt;/p&gt;
+
+&lt;p&gt;I tried enabling Snappy compression for Kafka publisher:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kafkacat -P -b localhost -t metricz -K ' ' -z snappy &amp;lt; metrics.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and got ~ 500Mb queue size for 1.4Gb original data. The only problem is that log compaction is not yet compatible with compressed topics.&lt;/p&gt;
+
+&lt;p&gt;The result looks quite good: temporal buffer in Kafka needs 1/3 size of original data  and long term storage takes ~ 0.6 bytes per datapoint (while whisper takes 12 bytes).&lt;/p&gt;
+
+&lt;h3 id=&quot;open-questions&quot;&gt;Open questions&lt;/h3&gt;
+
+&lt;p&gt;Can Parquet handle very wide schema with 100k columns and more?&lt;/p&gt;
+
+&lt;p&gt;How to guess effective metric type (double or integer) from incoming graphite data?&lt;/p&gt;
+
+&lt;p&gt;How to get data from Parquet into R without Spark? (&lt;a href=&quot;https://github.com/Parquet/parquet-format/issues/72&quot;&gt;issue&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source code&lt;/h3&gt;
+
+&lt;p&gt;Available on github &lt;a href=&quot;https://github.com/mabrek/kafka-timeseries&quot;&gt;kafka-timeseries&lt;/a&gt; with build instructions. Actually it’s just a &lt;a href=&quot;https://github.com/mabrek/kafka-timeseries/blob/master/src/main/scala/KafkaTimeseries.scala&quot;&gt;single Scala file&lt;/a&gt; with 100 lines of code 20 of which are import statements.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/kafka-parquet-timeseries/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/kafka-parquet-timeseries/</guid>
+			</item>
+		
+			<item>
+				<title>Visual Exploration of Performance Monitoring Time Series with MDS and t-SNE</title>
+				<description>&lt;p&gt;This time I’m going to introduce tools for visual data exploration. They represent each time series as a point in 2-dimensional space. When original time series are similar the corresponding points will be close to each other.&lt;/p&gt;
+
+&lt;p&gt;The same data was used here as in previous post about &lt;a href=&quot;https://mabrek.github.io/blog/multivariate-svd-pca/&quot;&gt;SVD and PCA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multidimensional_scaling&quot;&gt;Multidimensional Scaling (MDS)&lt;/a&gt; produces this kind of image:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/mds-embeddings.png&quot; alt=&quot;mds embeddings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/mds-examples.png&quot; alt=&quot;mds examples&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It has put hill shaped series (1 - 5) together in the left corner which seems to be the most dense one. Different kinds of spikes landed on the upper corner (7 - 10). Series with strong increasing or decreasing trend landed on the right corner (13, 14) and step-like changes on the bottom (15, 16).&lt;/p&gt;
+
+&lt;p&gt;This image was generated using classical (metric) multidimensional scaling using &lt;a href=&quot;http://www.inside-r.org/r-doc/stats/cmdscale&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmdscale&lt;/code&gt;&lt;/a&gt; function from R and distance matrix calculated as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1 - abs(cor(a, b))&lt;/code&gt; for each pair of time series. &lt;a href=&quot;https://en.wikipedia.org/wiki/Metric_%28mathematics%29&quot;&gt;Metric&lt;/a&gt; here corresponds to the set of properties of distance function required by the algorithm.&lt;/p&gt;
+
+&lt;p&gt;Not all &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_series#Measures&quot;&gt;time series (dis)similarity measures&lt;/a&gt; have these properties. There are non-metric variants of multidimensional scaling like &lt;a href=&quot;http://www.inside-r.org/r-doc/MASS/isoMDS&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;isoMDS&lt;/code&gt;&lt;/a&gt;. It is much slower than metric MDS and in my case it produced results visually indistinguishable from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmdscale&lt;/code&gt;. Actually &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;isoMDS&lt;/code&gt; starts by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmdscale&lt;/code&gt; first and then iteratively refines its result.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-distributed stochastic neighbor embedding (t-SNE)&lt;/a&gt; arranges the same data (using the same distance matrix) in a different way:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/tsne-embeddings.png&quot; alt=&quot;tsne embeddings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/tsne-examples.png&quot; alt=&quot;tsne examples&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several clusters of step-like shapes (1 - 3, 13) and spikes (4, 11, 12, 16) around edges. Hill-like shapes are in the middle (5 - 10). Valley-like shape (6) is in the middle because the absolute value of correlation was used as the similarity function. It’s a flipped hill and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abs(cor(...))&lt;/code&gt; is the same for flipped series. Bottom-right side contains close to linear trend series (14, 15).&lt;/p&gt;
+
+&lt;p&gt;t-SNE seems to find more groups of smaller size than MDS. Large table-hill shaped group (which is in the middle) is not that clear as in MDS results. It doesn’t collapse points with zero distance into one but tries to spread them around which produces small and dense groups (1, 2). t-SNE is much slower than MDS.&lt;/p&gt;
+
+&lt;p&gt;When used interactively these tools are better for exploratory analysis of time series data than &lt;a href=&quot;https://mabrek.github.io/blog/statistics-for-monitoring-correlation/&quot;&gt;clustering&lt;/a&gt; that I used before.&lt;/p&gt;
+
+&lt;p&gt;I’ve made a &lt;a href=&quot;https://mabrek.shinyapps.io/explore-timeseries&quot;&gt;quick demo for both methods&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/multivariate-mds-tsne/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/multivariate-mds-tsne/</guid>
+			</item>
+		
+			<item>
+				<title>Exploring Performance Monitoring Data with Multivariate Tools: SVD and PCA</title>
+				<description>&lt;p&gt;Most methods that were presented here so far are dealing with a single time series (performance metric) at a time. Now I’d like to make a quick overview of methods which allow to glance over a whole collection of time series at once.&lt;/p&gt;
+
+&lt;p&gt;Data used here was gathered during a load test of an application which consists of several components: http server, messaging server (&lt;a href=&quot;http://www.rabbitmq.com/&quot;&gt;RabbitMQ&lt;/a&gt;), database (&lt;a href=&quot;http://cassandra.apache.org/&quot;&gt;Cassandra&lt;/a&gt;). That application uses 5 hosts and number of system metrics + application metrics is about 3300 after filtering (~32000 before). Think of it as a number of graphs to get through while exploring results of the test.&lt;/p&gt;
+
+&lt;p&gt;The load applied to the http server looks like this (number of identical clients sending requests):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/jmeter-threads.png&quot; alt=&quot;connected clients&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea behind the table hill shape of the load is that the upwards slope shows when the system breaks (how it scales), flat top shows how stable it is (if it didn’t break on upwards slope), and the downwards slope shows how it recovers.&lt;/p&gt;
+
+&lt;p&gt;The service didn’t do very well this time. Here is a plot of successful and error response rates:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/request-error-rates.png&quot; alt=&quot;request and error rates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And response latencies:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/latencies.png&quot; alt=&quot;latencies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Error rate is not zero and 99th percentile of response latency has spikes close to allowed by SLA maximum. At least it recovered and continued to serve requests at a lower rate.&lt;/p&gt;
+
+&lt;p&gt;Here’s what a result of &lt;a href=&quot;https://en.wikipedia.org/wiki/Singular_value_decomposition&quot;&gt;SVD (Singular Value Decomposition)&lt;/a&gt; looks like (left-singular vectors sorted by decreasing singular values):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/svd-u.png&quot; alt=&quot;svd left singular&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In time series context SVD decomposes original set of series into set of uncorrelated base series (left-singular vectors), set of singular values, and a matrix of weights (right-singular vectors). These matrices could be used to reconstruct the original set of series. The nice feature is that you can take only several base series corresponding to the top singular values to get quite good (in terms of squared error) reconstruction result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/svd-d.png&quot; alt=&quot;singular values sorted by decreasing value&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First 6 singular values (sorted by decreasing value) contribute most and the rest is a background noise.&lt;/p&gt;
+
+&lt;p&gt;When the data is centered (mean subtracted) and scaled (divided by standard deviation) before applying SVD then the top (by singular values) base series represent the most common shapes in the data with some caveats. Sometimes it can change sign (flip shape vertically) or mix several common shapes into one. Outliers distort extracted base series due to the scaling used and the least-squares nature of the decomposition (which amplifies outliers).&lt;/p&gt;
+
+&lt;p&gt;In this case the first extracted series is a slightly skewed table hill shape of the load applied because most metrics follow that pattern. A lot of metrics comes from Cassandra which uses &lt;a href=&quot;http://metrics.dropwizard.io/3.1.0/manual/core/#exponentially-decaying-reservoirs&quot;&gt;exponentially decaying sampling&lt;/a&gt; for latencies. This algorithm smoothes and moves the shape to the right (delays signal). The second extracted series corresponds to growing counters and caches. The third series looks like a flipped shape of RabbitMQ disk activity during the test. There are some spikes and drops visible on several base series which corresponds to errors and latency spikes.&lt;/p&gt;
+
+&lt;p&gt;Closely related &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;PCA (Principal Component Analysis)&lt;/a&gt; produces set of principal components (which are base series from SVD scaled by singular values) and the same weights (loadings) from SVD. Here the first 2 original series selected by maximum absolute loading per each principal component.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/multivariate/svd-v.png&quot; alt=&quot;top original by right singular vectors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It selects original series which have largest contribution from top components (base series).&lt;/p&gt;
+
+&lt;p&gt;These methods are quite fast and produce meaningful results: they extract the most common shapes and group original series by these shapes.&lt;/p&gt;
+
+&lt;p&gt;They are sensitive to outliers. The usual way of scaling data (by standard deviation) doesn’t make a lot of sence for long tailed distributions which are quite common in performance monitoring data. It might be a good thing for exploratory data analysis because if you see some spikes or step-like changes in several first base series  then it definitely means some abrupt changes at that time in system being monitored.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to center data by subtracting median and scale by &lt;a href=&quot;https://en.wikipedia.org/wiki/Median_absolute_deviation&quot;&gt;MAD (Median Absolute Deviation)&lt;/a&gt; but discovered that zero MAD is quite common in my data (when it’s mostly constant with a few spikes).&lt;/p&gt;
+
+&lt;p&gt;What SVD/PCA are good for: if you have a lots of data, slow anomaly detection algorithm and interested mostly in the time when anomaly happens then running the algorithm on several first principal components might be much faster than feeding it all the original data.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/multivariate-svd-pca/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/multivariate-svd-pca/</guid>
+			</item>
+		
+			<item>
+				<title>Spark vs. Cassandra (Cyanite) for Metric Timeseries</title>
+				<description>&lt;p&gt;&lt;em&gt;An unsuccessful attempt to scale performance metrics processing by switching from Graphite/R to Spark/Cassandra/Cyanite&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My typical workflow is to run load tests until the system fails (or discover production failure), extract data from &lt;a href=&quot;http://graphite.readthedocs.org/&quot;&gt;Graphite&lt;/a&gt; (&lt;a href=&quot;https://github.com/graphite-project/whisper&quot;&gt;Whisper&lt;/a&gt; files produced by &lt;a href=&quot;https://github.com/graphite-project/carbon&quot;&gt;Carbon&lt;/a&gt;), import it into &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt;, and then run a battery of statistical tests and visual explorations to find a root cause of the problem. There is a strong need for hi-resolution data in load tests (because systems fail really fast under load) but the tools I use now are not really good at ingesting and processing data with granularity finer than 10 seconds. It’s been a long time since I first tried to escape ‘Graphite world’ but all attempts failed so far and here I’ll tell about another failed attempt.&lt;/p&gt;
+
+&lt;p&gt;‘Graphite world’ (&lt;a href=&quot;https://github.com/graphite-project/carbon&quot;&gt;Carbon&lt;/a&gt;), &lt;a href=&quot;https://github.com/graphite-project/whisper&quot;&gt;Whisper&lt;/a&gt;, &lt;a href=&quot;https://github.com/graphite-project/graphite-web&quot;&gt;Graphite-Web&lt;/a&gt;) has a &lt;a href=&quot;https://github.com/graphite-project/carbon/issues&quot;&gt;lot&lt;/a&gt; of &lt;a href=&quot;https://github.com/graphite-project/graphite-web/issues&quot;&gt;issues&lt;/a&gt; and is &lt;a href=&quot;https://github.com/graphite-project/graphite-web/tags&quot;&gt;moving&lt;/a&gt; &lt;a href=&quot;https://github.com/graphite-project/carbon/tags&quot;&gt;slowly&lt;/a&gt;. Feeding metrics with 1s resolution to carbon works for one host but doesn’t work at practical scale. This could be done but needs more hardware than monitored hosts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt; has a great number of &lt;a href=&quot;http://cran.r-project.org/web/views/TimeSeries.html&quot;&gt;timeseries related libraries&lt;/a&gt; but it runs on a single core and is limited by available memory on a single box. There are &lt;a href=&quot;http://cran.r-project.org/web/views/HighPerformanceComputing.html&quot;&gt;packages&lt;/a&gt; that allow R to fork several computation processes and move data between them but it’s still limited to a single box.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cassandra.apache.org/&quot;&gt;Cassandra&lt;/a&gt; is said to be &lt;a href=&quot;http://strataconf.com/big-data-conference-ca-2015/public/schedule/detail/39534&quot;&gt;good&lt;/a&gt; at &lt;a href=&quot;http://www.slideshare.net/jericevans/time-series-data-with-apache-cassandra&quot;&gt;timeseries&lt;/a&gt; data. &lt;a href=&quot;http://spark.apache.org/&quot;&gt;Spark&lt;/a&gt; is said to be fast at distributed data processing and there is &lt;a href=&quot;https://github.com/datastax/spark-cassandra-connector&quot;&gt;spark-cassandra&lt;/a&gt; connector. &lt;a href=&quot;https://github.com/pyr/cyanite/&quot;&gt;Cyanite&lt;/a&gt; is a simple app written in &lt;a href=&quot;http://clojure.org/&quot;&gt;Clojure&lt;/a&gt; that ingests metrics in the same format as Carbon does and saves them into &lt;a href=&quot;https://github.com/pyr/cyanite/blob/master/doc/schema.cql&quot;&gt;simple table&lt;/a&gt; in Cassandra. There is a &lt;a href=&quot;https://github.com/brutasse/graphite-cyanite&quot;&gt;Graphite-Cyanite&lt;/a&gt; project that allows to run &lt;a href=&quot;https://github.com/brutasse/graphite-api&quot;&gt;Graphite-Api&lt;/a&gt; on top of Cyanite and use all Graphite-compatible dashboards like &lt;a href=&quot;http://grafana.org/&quot;&gt;Grafana&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I wired them all together and tested with one &lt;a href=&quot;https://collectd.org/&quot;&gt;collectd&lt;/a&gt; instance gathering data with 10s interval. It worked OK so I proceeded by adding more hosts and switching to 1s interval. Cyanite ate all cpu and failed. Profiling showed that the default &lt;a href=&quot;https://github.com/pyr/cyanite/blob/master/src/io/cyanite/path.clj&quot;&gt;in-memory index&lt;/a&gt; of metric names is the bottleneck so I installed Elasticsearch and switched Cyanite path store to es-native. This time both Cyanite and Elasticsearch ate all cpu and failed again. It turns out that for every metric update Cyanite tries to send metric name to Elasticsearch &lt;a href=&quot;https://github.com/pyr/cyanite/issues/96&quot;&gt;(cyanite/#96)&lt;/a&gt; which amounts to thousands requests per second. It’s mostly a time waste because metric names don’t change that often. I ended up disabling metric name indexing and data flowed to Cassandra with a little complaints &lt;a href=&quot;https://github.com/pyr/cyanite/issues/73&quot;&gt;(cyanite/#73)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/&quot;&gt;Spark&lt;/a&gt; version was 1.3.1. Released version of &lt;a href=&quot;https://github.com/datastax/spark-cassandra-connector&quot;&gt;spark-cassandra-connector&lt;/a&gt; supported only Spark 1.2 but the master branch was able to work with Spark 1.3.1 (see &lt;a href=&quot;https://datastax-oss.atlassian.net/browse/SPARKC-98&quot;&gt;SPARKC-98&lt;/a&gt; for more details). There are a lot of changes in internal Spark APIs between 1.2 and 1.3 so DataFrames and SQL was not working with connector (&lt;a href=&quot;https://datastax-oss.atlassian.net/browse/SPARKC-112&quot;&gt;SPARKC-112&lt;/a&gt;) but RDD operations were quite usable.&lt;/p&gt;
+
+&lt;p&gt;First problem encountered was poor locality of spark jobs caused by missing reverse DNS in my virtual machines where spark and cassandra were running. There is a task &lt;a href=&quot;https://issues.apache.org/jira/browse/SPARK-5113&quot;&gt;SPARK-5113&lt;/a&gt; to help with that but in the mean time if your reverse DNS is broken (as it usually is in intranets) then it’s better to force spark to use only ip addresses for everything (set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SPARK_LOCAL_IP&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SPARK_PUBLIC_DNS&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SPARK_LOCAL_HOSTNAME&lt;/code&gt; to an ip address in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spark-env.sh&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;Then there was not enough job parallelism. Number of partitions was equal to number of Cassandra hosts (replication factor was 1). Data in &lt;a href=&quot;https://github.com/pyr/cyanite/blob/master/doc/schema.cql&quot;&gt;cyanite table&lt;/a&gt; is partitioned by metric name and there were about 1500 unique names. Default connector setting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spark.cassandra.input.split.size&lt;/code&gt; was too large and I lowered it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then I noticed quite high number of context switches and cpu usage of Cassandra process. There were too many queries executed by connector so I increased &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spark.cassandra.input.page.row.size&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10000&lt;/code&gt;. Each datapoint is a single number and at 1s resolution 10000 points equals to about 3 hours of data for a single metric.&lt;/p&gt;
+
+&lt;p&gt;These parameters (split size and page row size) are better to set individually per table because number of partitions, rows per partition, cells per row, cell size are different. Setting these parameters manually in Scala seems ugly because you can’t provide one implicit for ReadConf and not provide for other parameters:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;val rdd = sc.cassandraTable(&quot;metric&quot;, &quot;metric&quot;)(CassandraConnector(sc.getConf), 
+                                                ReadConf(5000, 10000), 
+                                                implicitly[ClassTag[CassandraRow]], 
+                                                implicitly[RowReaderFactory[CassandraRow]], 
+                                                implicitly[ValidRDDType[CassandraRow]])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Some kind of auto-tuning based on optimal data size per job might be better than global one-size-fit-all defaults.&lt;/p&gt;
+
+&lt;p&gt;Job speed increased but Cassandra cpu usage remained quite high. &lt;a href=&quot;https://perf.wiki.kernel.org/index.php/Tutorial#Live_analysis_with_perf_top&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;perf top&lt;/code&gt;&lt;/a&gt; profiler showed LZ4 decompression routines so I tried disabling sstable compression. Compression level was about 0.3 and increasing data size 3 times was not a big deal. It didn’t help at all. Cassandra was still hogging cpu. &lt;a href=&quot;http://www.oracle.com/technetwork/java/javaseproducts/mission-control/java-mission-control-1998576.html&quot;&gt;JMC&lt;/a&gt; profiler showed that Cassandra was reading sstables (quite expected behavior). That prompted me to check if the storage format was good enough for the data.&lt;/p&gt;
+
+&lt;p&gt;It takes about 100 bytes to store 1 timestamp and 1 value of type double without compression and about 30 bytes with compression enabled in the &lt;a href=&quot;https://github.com/pyr/cyanite/blob/master/doc/schema.cql&quot;&gt;table&lt;/a&gt;. It’s a lot compared to &lt;a href=&quot;http://graphite.readthedocs.org/en/latest/whisper.html&quot;&gt;whisper format&lt;/a&gt; which takes 12 bytes for that. For each data cell cassandra stores column name and write timestamp. Column names are identical for the majority of cells stored and compression takes care of that on disk but memory overhead is still high (see discussion at &lt;a href=&quot;https://issues.apache.org/jira/browse/CASSANDRA-4175&quot;&gt;CASSANDRA-4175&lt;/a&gt;). Saving another timestamp for data cell which has a timestamp inside seems redundant. While it’s possible to set cell write time by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;insert ... using timestamp ...&lt;/code&gt; this internal timestamp can’t be used for sorting and filtering data.&lt;/p&gt;
+
+&lt;p&gt;After all of that I arrived to the point when reading 51000000 datapoints took about 40 seconds on 6 cores. That data was produced by 4 hosts with collectd reporting with 1 second interval for about 10 hours. Number of unique metric names was 1500. Data size on disk with compression enabled was 1.3Gb total.&lt;/p&gt;
+
+&lt;p&gt;With the data ready to be processed in Spark RDD I got stuck on what’s next. Usually I’d run positive-only-diff on known counters, filter out flat metrics, calculate different percentiles on moving windows and run Tukey Method to find spikes. But Java/Scala toolbox for time series is almost empty. There is nothing like &lt;a href=&quot;http://cran.r-project.org/web/packages/xts/index.html&quot;&gt;xts&lt;/a&gt;, &lt;a href=&quot;http://ggplot2.org/&quot;&gt;ggplot2&lt;/a&gt;, &lt;a href=&quot;http://cran.r-project.org/web/packages/TSclust/index.html&quot;&gt;TSclust&lt;/a&gt;, &lt;a href=&quot;https://github.com/robjhyndman/forecast&quot;&gt;forecast&lt;/a&gt;. The only thing that I found is a recently started &lt;a href=&quot;https://github.com/cloudera/spark-timeseries&quot;&gt;spark-timeseries&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are tools available beyond Java/Scala ecosystem at the price of cpu cycles spent on another round of data serialization/deserialization (first one is moving data from Cassandra into Spark). &lt;a href=&quot;http://spark.apache.org/docs/latest/api/python/index.html&quot;&gt;PySpark&lt;/a&gt; could give access to &lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; and &lt;a href=&quot;http://ipython.org/&quot;&gt;IPython&lt;/a&gt; (with &lt;a href=&quot;https://issues.apache.org/jira/browse/SPARK-4897&quot;&gt;python 3 support&lt;/a&gt; in upcoming Spark 1.4). SparkR is &lt;a href=&quot;https://issues.apache.org/jira/browse/SPARK-5654&quot;&gt;going to be released&lt;/a&gt; in Spark 1.4 too.&lt;/p&gt;
+
+&lt;p&gt;I took a several days break between my experiments and then I found that none of my queries work anymore. They either failed or returned empty results. Cassandra was dying with out of memory errors. One log file had a warning about too many tombstones being scanned. The problem was caused by data expiration because I set 1 week TTL and forgot about that. Cassandra &lt;a href=&quot;http://docs.datastax.com/en/cassandra/2.1/cassandra/dml/dml_about_deletes_c.html&quot;&gt;doesn’t really delete data&lt;/a&gt; but places special records (tombstones) to mark it as deleted. Large delete operations cause &lt;a href=&quot;https://lostechies.com/ryansvihla/2014/10/20/domain-modeling-around-deletes-or-using-cassandra-as-a-queue-even-when-you-know-better/&quot;&gt;known problems&lt;/a&gt;. Consequences could be reduced by decreasing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gc_grace_seconds&lt;/code&gt; and switching to &lt;a href=&quot;http://www.datastax.com/dev/blog/datetieredcompactionstrategy&quot;&gt;DateTieredCompactionStrategy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It turns out that using single Cassandra cell for a single timeseries value is not that efficient both from storage overhead and from cpu cycles lost on doing extra housekeeping. Buffering incoming data and packing several timestamp-value pairs into a single Cassandra cell would be better.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/spark-cassandra-timeseries/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/spark-cassandra-timeseries/</guid>
+			</item>
+		
+			<item>
+				<title>Service Flapping and Load Oscillations</title>
+				<description>&lt;p&gt;&lt;em&gt;Case 1:&lt;/em&gt; Users were experiencing slow page loads with periodical 5xx errors but the backend service looked OK with average cpu utilization about 50%. Usually it happens when some other service required to process the request is too slow but that was not the case. Sampling profiler attached to the backend showed nothing interesting in call stacks and time distribution between calls to other services was typical. The interesting thing was found on thread activity graph produced by the profiler. All the threads were busy doing something for 2 seconds and then idle for another 2 seconds like no requests were coming for 2 seconds out of 4. Load balancer logs showed that it was sending all the load to half of the cluster then declaring it down and switching to another half back and forth. Half of the cluster was unable to process all the load applied which lead to timeouts and being marked as down by load balancer.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Case 2:&lt;/em&gt; JMeter reported that http latency is unusually high compared to requests executed manually via curl while the load test was running. If was possible though to catch a long response once in about 10 curl requests. Profiling didn’t show any obvious bottleneck. It looked like the service was hitting cpu but average cpu usage was low. Reading JMeter csv report revealed interesting pattern. Test plan was configured with several hundred threads with &lt;a href=&quot;http://jmeter.apache.org/usermanual/component_reference.html#Constant_Throughput_Timer&quot;&gt;ConstantThroughputTimer&lt;/a&gt; between requests. All threads were sending requests almost at the same millisecond then slept for some time and then again burst of requests at the same time. The service was OK to handle 100 requests per second but micro-bursts of more than 1000 per second slowed it down. Somehow delays used by ConstantThroughputTimer got synchronized between threads and they started firing at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Case 3:&lt;/em&gt; Maximum and 99th percentile of service response time was too high under flat request rate generated by JMeter (now it was using &lt;a href=&quot;http://jmeter.apache.org/usermanual/component_reference.html#Uniform_Random_Timer&quot;&gt;UniformRandomTimer&lt;/a&gt;). Initially latency data was aggregated with 10s resolution and looked like there is some oscillation in median:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/elapsed10s.png&quot; alt=&quot;response time graph with 10s resolution&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Re-aggregating data with 1s resolution confirmed it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/elapsed1s.png&quot; alt=&quot;response time graph with 1s resolution&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That oscillation was traced down to heavy query running every 30 seconds and slowing down the database.&lt;/p&gt;
+
+&lt;p&gt;What’s common in all these cases is that periodic fluctuation in load caused performance degradation but it was only visible in hi-resolution data (second or milliseconds). Visual inspection of hi-res data doesn’t scale so some method is needed to find if there is a periodical structure in a time series.&lt;/p&gt;
+
+&lt;p&gt;FFT periodogram (&lt;a href=&quot;http://www.inside-r.org/r-doc/stats/spec.pgram&quot;&gt;spec.pgram&lt;/a&gt;) produces quite unconvincing result on 10s aggregated data:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/pgram10s.png&quot; alt=&quot;10s pgram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a spike at the expected place (frequency 0.033 which corresponds to the period of 30s) but it’s not alone and hard to distinguish from background noise. 30 seconds is larger that 20 seconds (which is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Nyquist_frequency&quot;&gt;Nyquist frequency&lt;/a&gt; for sampling rate 10s) so it should be OK to use 10s sampling rate to catch it but it’s not. Another problem with FFT periodogram is that it doesn’t like missing data. It’s quite easy to do linear interpolation in case of several missing points though.&lt;/p&gt;
+
+&lt;p&gt;0.033 frequency spike is more pronounced on periodogram generated from 1s sampled data but the noise around it is still strong:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/pgram1s.png&quot; alt=&quot;1s pgram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a method called &lt;a href=&quot;http://en.wikipedia.org/wiki/Least-squares_spectral_analysis#The_Lomb.E2.80.93Scargle_periodogram&quot;&gt;Lomb–Scargle periodogram&lt;/a&gt; which produces more readable results on 10s data:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/lsp10s.png&quot; alt=&quot;10s lsp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It handles missing data and irregularl samles but it’s quite slow compared to FFT.&lt;/p&gt;
+
+&lt;p&gt;So it’s possible to find periodic structure by observing peaks on periodograms but you still need to eyeball it. Something is needed to tell if time series has a periodical component and how significant is the component compared to background noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Multitaper&quot;&gt;Multitaper&lt;/a&gt; method comes to the rescue. &lt;a href=&quot;http://cran.r-project.org/web/packages/multitaper/index.html&quot;&gt;R implementation&lt;/a&gt; allows to estimate significance of spectral line in comparison to surrounding noise via F-test.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/flapping/mtmftest.png&quot; alt=&quot;multitaper f-test&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are 22s, 30s, 45s periodical components with significance more than 99.9%&lt;/p&gt;
+
+&lt;p&gt;Multitaper method is still based on FFT which means that the frequency found might be a little bit off the true frequency if it’s not equal to any of component frequencies of transformation.&lt;/p&gt;
+
+&lt;p&gt;Due to a fixed sampling rate and a lack of low-pass filter before sampling the effect called &lt;a href=&quot;http://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions&quot;&gt;aliasing&lt;/a&gt; could add more periodical components which are aliases of higher frequencies.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 22 Apr 2015 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/flapping-oscillations/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/flapping-oscillations/</guid>
+			</item>
+		
+			<item>
+				<title>More on Outlier Detection</title>
+				<description>&lt;p&gt;&lt;em&gt;Several features of outlier detection in real world performance monitoring data.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Outlier score is useless. It could be defined as number of &lt;a href=&quot;http://en.wikipedia.org/wiki/Standard_deviation&quot;&gt;standard deviations&lt;/a&gt; from the &lt;a href=&quot;http://en.wikipedia.org/wiki/Mean&quot;&gt;sample mean&lt;/a&gt; to the value in question (or number of &lt;a href=&quot;http://en.wikipedia.org/wiki/Interquartile_range&quot;&gt;IQRs&lt;/a&gt; from &lt;a href=&quot;http://en.wikipedia.org/wiki/Median&quot;&gt;median&lt;/a&gt; depending on method used).  Due to extremely long tails of data distribution there would be outliers with scores 10 and 1000 but it doesn’t mean that one of them is 100 times worse than another. The only thing that seems to matter here is if the value is an outlier or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Mean&quot;&gt;Mean&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Standard_deviation&quot;&gt;standard deviation&lt;/a&gt; values are misleading for non-gaussian distributions which are typical in performance monitoring data. &lt;a href=&quot;http://en.wikipedia.org/wiki/Median&quot;&gt;Median&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Interquartile_range&quot;&gt;IQR&lt;/a&gt; (or &lt;a href=&quot;http://en.wikipedia.org/wiki/Interdecile_range&quot;&gt;interdecile range&lt;/a&gt;) are more robust estimates for &lt;a href=&quot;http://en.wikipedia.org/wiki/Central_tendency&quot;&gt;center&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Statistical_dispersion&quot;&gt;dispersion&lt;/a&gt; of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Interquartile_range&quot;&gt;IQR&lt;/a&gt; or &lt;a href=&quot;http://en.wikipedia.org/wiki/Interdecile_range&quot;&gt;interdecile range&lt;/a&gt; could be 0 for a flat metric with rare spikes. It makes methods based on these values useless.&lt;/p&gt;
+
+&lt;p&gt;Many metrics have small number of unique values which skews calculation of quantilles (breaks &lt;a href=&quot;http://www.edgarstat.com/tukeys_outliers_help.cfm&quot;&gt;IQR-based methods&lt;/a&gt;) and produces steep steps in &lt;a href=&quot;http://en.wikipedia.org/wiki/Empirical_distribution_function&quot;&gt;empirical CDF&lt;/a&gt; (breaks &lt;a href=&quot;http://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test&quot;&gt;KS-test&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Asymmetric distribution (typical for latency data) suggests using asymmetric ranges around median but it’s often impossible to calculate range on one side because there is only one value there (e.g. mostly constant metric with rare positive spikes).&lt;/p&gt;
+
+&lt;p&gt;We can’t ignore outliers when reasoning about overall system performance. Imagine a single threaded service that has typical request latency about 1ms and one in 1000 requests takes 1s (outlier) to complete. If we drop the outlier (maybe because of &lt;a href=&quot;http://www.azulsystems.com/sites/default/files/images/HowNotToMeasureLatency_LLSummit_NYC_12Nov2013.pdf&quot;&gt;Coordinated Omission&lt;/a&gt;) then the service seems to be capable of serving 1000 rps. In reality that service works for one second and then gets stuck for another second resulting in total performance less than 500 rps.&lt;/p&gt;
+
+&lt;p&gt;There are several events which are outliers from practical point of view but outlier detection methods don’t handle them well (though they are quite simple to detect):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metric appeared. Some libraries might start reporting metric only after application provides value for the first time. For rare events (like errors) it means that event’s counter will be undefined until the event happens for the first time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metric disappeared. It might mean that metric was removed with latest update of application or that there was no single appearance for some rare event within observation window.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Constant changed. Observation window contains only equal values and the last obtained one is not equal to previously seen values.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 08 Dec 2014 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/more-on-outliers/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/more-on-outliers/</guid>
+			</item>
+		
+			<item>
+				<title>Handling Seasonal Data with Outliers</title>
+				<description>&lt;p&gt;Most anomaly detection methods for time series expect it to be flat (not changing over time) and they find when it stops being flat. But real data that comes from system monitoring is not flat. People are active during business hours and sleep at night so system usage metrics are higher during daytime. Weekends usually have lower usage metrics for business apps and higher for entertainment. That difference between daytime and nighttime (and weekend vs. middle of the week) needs to be removed somehow before applying anomaly detection algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Exponential_smoothing#Triple_exponential_smoothing&quot;&gt;Holt-Winters&lt;/a&gt; is popular for such data but it puts more weight into last observations so if you had public holiday or outage last week it’ll expect the same dip next week leading to false positive.&lt;/p&gt;
+
+&lt;p&gt;There are several methods described at &lt;a href=&quot;https://www.otexts.org/fpp/6&quot;&gt;chapter 6 Time series decomposition&lt;/a&gt; of &lt;a href=&quot;https://www.otexts.org/fpp&quot;&gt;Forecasting: principles and practice&lt;/a&gt; that allow to split time series into seasonal and non-seasonal components.&lt;/p&gt;
+
+&lt;p&gt;I needed to process several thousands metrics so the most simple and fast &lt;a href=&quot;https://www.otexts.org/fpp/6/3&quot;&gt;Classical decomposition&lt;/a&gt; was chosen first. Here’s an example weekly decomposition of 35 days of &lt;a href=&quot;http://gdash.wikimedia.org/dashboards/reqsum/&quot;&gt;Wikipedia pageviews data&lt;/a&gt; using &lt;a href=&quot;http://www.inside-r.org/r-doc/stats/decompose&quot;&gt;decompose&lt;/a&gt; function from &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/seasonal/pageviews.decomposed.png&quot; alt=&quot;decomposed pageviews&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The decomposition removes most of daily and weekly variation from the data and allows to see outliers more clearly in the remainder component (labeled as ‘random’).&lt;/p&gt;
+
+&lt;p&gt;In the next example I injected 2 hours long outage (zero pageviews) into the data and did the same decomposition:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/seasonal/pageviews.broken.decomposed.png&quot; alt=&quot;decomposed pageviews with outage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The single outage managed to corrupt extracted trend and seasonal component and introduced false outlier in the remainder for each week. It happens because the method uses moving average to get trend component out and then averages values for the same time during several seasons (e.g. average 10AM value on Mondays if period length is 1 week). (Moving) average is not robust in presence of outliers so I decided to try &lt;a href=&quot;http://en.wikipedia.org/wiki/Median_filter&quot;&gt;median&lt;/a&gt; instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/seasonal/pageviews.broken.median.png&quot; alt=&quot;median decomposed pageviews with outage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This decomposition looks much better than the previous one but there are several caveats.&lt;/p&gt;
+
+&lt;p&gt;High resolution data doesn’t mean better seasonal extraction because current 10s don’t have to be the same as 10s exactly one week ago. But the current hour has to be similar to the same hour of day week ago if there is no holidays, outages, extremely successful marketing campaigns, etc.&lt;/p&gt;
+
+&lt;p&gt;Median filter leaves abrupt steps in extracted trend. That means that if you are looking for step-like anomalies then you can’t just process remainder. Step might be hiding in the trend component so it’s better to remove only seasonal component from signal (use trend + remainder for step detection).&lt;/p&gt;
+
+&lt;p&gt;Periods of odd length are better for median calculation because there is no interpolation in that case. Same reason applies to seasonal component extraction. Since one season is lost due to left and right padding during filtering then even number of periods is better.&lt;/p&gt;
+
+&lt;p&gt;R &lt;a href=&quot;https://mabrek.github.io/code/seasonal.R&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;https://mabrek.github.io/data/35days.csv&quot;&gt;data&lt;/a&gt; used to make these graphs.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/seasonal-decomposition/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/seasonal-decomposition/</guid>
+			</item>
+		
+			<item>
+				<title>Statistics for Monitoring: Correlation and Clustering</title>
+				<description>&lt;p&gt;&lt;em&gt;Finding metrics with similar behavior and analyzing internal system dependencies.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There are a lot of situations when you see an unexpected change in one metric (e.g. increased latency or error rate) and need to find the cause. It could be solved by applying prior knowledge about dependencies in the system but there are still a lot of unknowns especially in case of poorly documented legacy applications. It would be great to have a tool that given a metric produces a list of other metrics it depends on based on time series data.&lt;/p&gt;
+
+&lt;p&gt;There are some papers (e.g. &lt;a href=&quot;http://galton.uchicago.edu/~eichler/hsss.pdf&quot;&gt;“Causality and graphical models in time series analysis”&lt;/a&gt;) suggesting that it’s possible to infer dependencies from time series data but I haven’t done any experiments with it yet (R package &lt;a href=&quot;http://cran.r-project.org/web/packages/vars/vignettes/vars.pdf&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vars&lt;/code&gt;&lt;/a&gt; might be useful).&lt;/p&gt;
+
+&lt;p&gt;For practical purposes it’s often enough to find metrics that have similarly shaped graphs. Changes in computer systems are quite fast (seconds or milliseconds) to propagate between components making it impossible to find out what changed first with typical polling intervals (10s, 60s) so it looks like dependent metrics are moving at the same time.&lt;/p&gt;
+
+&lt;p&gt;There are several methods for finding similar time series:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;correlation (&lt;a href=&quot;http://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient&quot;&gt;Pearson&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient&quot;&gt;Spearman&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Euclidean_distance&quot;&gt;Euclidean distance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Dynamic_time_warping&quot;&gt;dynamic time warping (DTW)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Discrete_Fourier_transform&quot;&gt;discrete Fourier transform (DFT)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Discrete_wavelet_transform&quot;&gt;discrete wavelet transform (DWT)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Actually there are much more targeted at different use cases and the list above contains only most popular ones. The good news is that performance monitoring data is quite small in comparison with ECG and EEG data. It gives a hope that more effective methods from medical field will be used for performance monitoring too.&lt;/p&gt;
+
+&lt;p&gt;First two are quite simple to understand and fast in runtime. &lt;a href=&quot;http://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient&quot;&gt;Pearson correlation coefficient&lt;/a&gt; has a simple &lt;a href=&quot;http://www.analytictech.com/mb876/handouts/distance_and_correlation.htm&quot;&gt;relation&lt;/a&gt; to &lt;a href=&quot;http://en.wikipedia.org/wiki/Euclidean_distance&quot;&gt;Euclidean distance&lt;/a&gt; for normalized data. Absolute value of correlation coefficient allows to find mirrored graphs (like disk used vs. disk free space).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Dynamic_time_warping&quot;&gt;Dynamic time warping&lt;/a&gt; has a nice property to find slightly misaligned in time graphs but its R implementation was too slow to be useful when I tried it.&lt;/p&gt;
+
+&lt;p&gt;My experiments with DFT failed because computer-generated metrics rarely have sparse representation in frequency domain. Their spectra are wide and contain a lot of frequencies. There is not so many periodical things (maybe cron jobs) going on in online request processing. There are seasonal daily/weekly/yearly changes but the typical need to compare graphs is limited by short ranges (hours or even minutes).&lt;/p&gt;
+
+&lt;p&gt;DWT looks promising because &lt;a href=&quot;http://en.wikipedia.org/wiki/Haar_wavelet&quot;&gt;Haar wavelet’s&lt;/a&gt; shape is very similar to step-like changes usually found in performance metrics but I haven’t tried it yet.&lt;/p&gt;
+
+&lt;p&gt;Sometimes production system misbehaves but you have no idea where to start from because known dependencies and similar graphs for usual suspects (metrics like error rate) lead nowhere. Going through all metrics and watching all graphs works for small systems (up to several hundreds metrics) but doesn’t work when there are thousands metrics. While trying to do that I noticed that many graphs are almost the same making it unnecessary to get through all of them.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Cluster_analysis&quot;&gt;Clustering&lt;/a&gt; allows to group similar metrics and reduce amount of data to analyze. It makes possible to take only single representative from each group of similar metrics. I used &lt;a href=&quot;http://en.wikipedia.org/wiki/Partitioning_Around_Medoids&quot;&gt;Partitioning Around Medoids&lt;/a&gt; clustering algorithm and absolute value of correlation coefficient as a distance function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/aspm/medoids.png&quot; alt=&quot;cluster centers (medoids)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These 4 graphs were taken from a set of cluster representatives.&lt;/p&gt;
+
+&lt;p&gt;Contents of a cluster represented by the top right one:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/aspm/cluster19.png&quot; alt=&quot;sample cluster contents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are 2 quite similar graphs on top (actually there were more omitted from illustration) but it contains some noisy graphs (bottom) which don’t look really similar to others. Clustering algorithm used requires exact number of clusters to be set upfront which leads to the result above because it has to assign graphs which are not similar to anything to some clusters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mabrek.github.io/img/aspm/cluster17.png&quot; alt=&quot;sample cluster contents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is another cluster with different contents. Top right graph looks like periodical &lt;a href=&quot;http://hades.mech.northwestern.edu/index.php/RC_and_RL_Exponential_Responses&quot;&gt;exponential charge&lt;/a&gt; while others are more like  &lt;a href=&quot;http://en.wikipedia.org/wiki/Sawtooth_wave&quot;&gt;sawtooth wave&lt;/a&gt; or &lt;a href=&quot;http://en.wikipedia.org/wiki/Triangle_wave&quot;&gt;triangle wave&lt;/a&gt;. Relation between those graphs is clealy non-linear.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient&quot;&gt;Spearman’s rank correlation coefficient&lt;/a&gt; was used to create these clusters because it allows to catch non-linear relationships between metrics. It’s more computationally difficult than Pearson but produces better results because there are a lot of non-linear dependencies in computer-generated data. It allowed me to find misconfigured cache expiration which wiped too much data from the cache and periodically overloaded service behind the cache (note to self: don’t forget to monitor cache-miss ratio next time).&lt;/p&gt;
+
+&lt;p&gt;Problems with clustering monitoring data:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Non-euclidean (&lt;a href=&quot;http://en.wikipedia.org/wiki/Ultrametric_space&quot;&gt;ultrametric&lt;/a&gt;) space. Many clustering algorithms require distance function to be &lt;a href=&quot;http://en.wikipedia.org/wiki/Euclidean_metric&quot;&gt;Euclidean metric&lt;/a&gt; while useful time series comparison functions (like correlation coefficient) are not. It limits set of available algorithms.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Many small clusters. There a lot of almost independent metrics which produce large number of small clusters. It makes harder to set number of clusters for algorithms that require it. If you set number of clusters too low there will be a lot of unrelated noise in each cluster but if you set the number too high the original purpose (to reduce amount of graphs to watch) will be missed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Local clusters around events. Each event like service restart tend to gather a lot of metrics into single big cluster. It might be good for investigating outages but it’s bad for finding dependencies in a steady state. It’s better to choose quiet time range without any significant events for the latter use case.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Correlations which are not dependencies. If two metrics rise and fall at the same time their correlation coefficient will be close to 1 (or -1 for mirrored graphs) but in general &lt;a href=&quot;http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation&quot;&gt;correlation doesn’t imply causation&lt;/a&gt;. There are a lot of cases where independent events happen at the same time like:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;cron jobs (e.g. log rotation)&lt;/li&gt;
+      &lt;li&gt;human actions (cluster restarts, reconfigurations)&lt;/li&gt;
+      &lt;li&gt;timed cache expirations&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cluster structure often tells obvious things like grouping all metrics related to a single service into one cluster. But sometimes it uncovers something new like dependency between latency of one application and disk IO of another unrelated one which turned out to be using the same storage array.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
+				<link>https://mabrek.github.io/blog/statistics-for-monitoring-correlation/</link>
+				<guid isPermaLink="true">https://mabrek.github.io/blog/statistics-for-monitoring-correlation/</guid>
+			</item>
+		
+	</channel>
+</rss>
