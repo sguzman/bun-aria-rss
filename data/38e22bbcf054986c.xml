@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Jeremy D. Jackson, PhD</title>
+	<atom:link href="http://www.jeremydjacksonphd.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.jeremydjacksonphd.com</link>
+	<description>Computer Vision, Machine Learning, Big Data and other pursuits</description>
+	<lastBuildDate>Fri, 04 Jun 2021 07:25:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">152399953</site>	<item>
+		<title>Bitcoin Resources</title>
+		<link>http://www.jeremydjacksonphd.com/2017/11/30/bitcoin-resources/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/11/30/bitcoin-resources/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Thu, 30 Nov 2017 21:08:12 +0000</pubDate>
+				<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=1387</guid>
+
+					<description><![CDATA[Wikis Wikipedia:Bitcoin Bitcoin.Org Wiki Bitcoin Wiki Investopedia (Bitcoin Center) /R/BTC wiki Crypto/Mining/Blockchain Wikipedia:Public Key Cryptography Wikipedia:Blockchain Jupyter/IPython pyminer Analyze Bitcoin charts (github) Bitcoin Notebook (github) Bitcoin Data Analysis (github) Reddit /r/btc /r/bitcoin /r/CryptoMarkets /r/BitcoinBeginners Software Bitcoin (github) https://github.com/chainside/btcpy (Segwit-Compliant Python 3 Bitcoin &#8230; <a href="http://www.jeremydjacksonphd.com/2017/11/30/bitcoin-resources/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Wikis</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bitcoin">Wikipedia:Bitcoin</a></li>
+<li><a href="http://en.bitcoinwiki.org/Main_Page">Bitcoin.Org Wiki</a></li>
+<li><a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin Wiki</a></li>
+<li><a href="http://www.investopedia.com/terms/b/bitcoin.asp">Investopedia</a> (<a href="http://www.investopedia.com/bitcoin/">Bitcoin Center</a>)</li>
+<li>/R/BTC <a href="https://www.reddit.com/r/btc/wiki/index">wiki</a></li>
+</ul>
+<p>Crypto/Mining/Blockchain</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Public-key_cryptography">Wikipedia:Public Key Cryptography</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Blockchain">Wikipedia:Blockchain</a></li>
+</ul>
+<p>Jupyter/IPython</p>
+<ul>
+<li><a href="https://github.com/jgarzik/pyminer">pyminer</a></li>
+<li>Analyze Bitcoin charts (<a href="https://github.com/dloss/notebooks/blob/master/Bitcoin.ipynb">github</a>)</li>
+<li>Bitcoin Notebook (<a href="https://github.com/chr15m/bitcoin-notebook">github</a>)</li>
+<li>Bitcoin Data Analysis (<a href="https://github.com/Link-/bitcoin-manalysis">github</a>)</li>
+</ul>
+<p>Reddit</p>
+<ul>
+<li><a href="https://www.reddit.com/r/btc/">/r/btc</a></li>
+<li><a href="https://www.reddit.com/r/bitcoin">/r/bitcoin</a></li>
+<li><a href="https://www.reddit.com/r/CryptoMarkets">/r/CryptoMarkets</a></li>
+<li><a href="https://www.reddit.com/r/BitcoinBeginners/">/r/BitcoinBeginners</a></li>
+</ul>
+<p>Software</p>
+<ul>
+<li>Bitcoin (<a href="https://github.com/bitcoin/bitcoin">github</a>)</li>
+<li><a href="https://github.com/chainside/btcpy">https://github.com/chainside/btcpy</a> (Segwit-Compliant Python 3 Bitcoin Library)</li>
+<li>BitcoinScript (<a href="https://github.com/fungibit/bitcoinscript">github</a>, <a href="http://bitcoinscript.readthedocs.io/en/latest/">docs</a>)</li>
+<li>Python bitcoin-lib (<a href="https://github.com/petertodd/python-bitcoinlib">github</a>)</li>
+<li>Github search (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=bitcoin&amp;type=">bitcoin</a>)</li>
+</ul>
+<p>Data</p>
+<ul>
+<li>Quandl
+<ol>
+<li><a href="https://blog.quandl.com/api-for-bitcoin-data">Api</a></li>
+<li><a href="https://www.quandl.com/collections/markets/bitcoin-data">Bitcoin collections</a></li>
+</ol>
+</li>
+<li>Kaggle
+<ol>
+<li><a href="https://www.kaggle.com/mczielinski/bitcoin-historical-data">Bitcoin Historical Data</a></li>
+<li><a href="https://www.kaggle.com/kingburrito666/ethereum-historical-data">Ethereum Historical Data</a></li>
+</ol>
+</li>
+</ul>
+<p>Papers</p>
+<ul>
+<li>Satoshi Nakamoto&#8217;s original <a href="https://bitcoin.org/en/bitcoin-paper">paper</a></li>
+</ul>
+<p>Books</p>
+<ul>
+<li>Mastering Bitcoin (<a href="http://chimera.labs.oreilly.com/books/1234000001802/pr01.html">free web</a>)</li>
+</ul>
+<p>Courses</p>
+<ul>
+<li><a href="https://www.coursera.org/courses?languages=en&amp;query=bitcoin">Cousera Bitcoin Courses</a></li>
+<li><a href="https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it">Bitcoin Course</a> at Khan Academy (<a href="https://www.khanacademy.org/science/core-finance/money-and-banking/bitcoin">Khan</a>, <a href="https://www.youtube.com/playlist?list=PLFyHXClT3SSiqbT3eCQdJjSmrj5rR6wxK">YouTube</a>)</li>
+</ul>
+<p>Videos</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Lx9zgZCMqXE&amp;t=914s">How Bitcoin Works Under the Hood</a></li>
+<li><a href="https://www.youtube.com/watch?v=3xAO4K7FC6E">Python Bitcoin Tutorial for Beginners</a></li>
+<li><a href="https://www.youtube.com/watch?v=iXGnNPL89Wo"><del>How to do Automated Bitcoin Algo Trading via BTC-e Trade API</del></a></li>
+</ul>
+<p>AWS</p>
+<ul>
+<li>Bitcoin Full Node on AWS Free Tier (<a href="https://gist.github.com/romanz/17ff716f13a34df49ff4">gist</a>)</li>
+</ul>
+<p>News</p>
+<ul>
+<li><a href="https://cryptopanic.com">https://cryptopanic.com</a></li>
+</ul>
+<p>Tickers</p>
+<ul>
+<li><a href="https://cryptowat.ch">https://cryptowat.ch</a></li>
+<li><a href="https://finance.yahoo.com/cryptocurrencies">Yahoo! Crytpto Currencies</a></li>
+<li><a href="https://www.cryptocompare.com/coins/#/btc">Cryptocompare</a></li>
+<li><a href="https://bitcoinwisdom.com/">Bitcoin Wisdom</a></li>
+<li><a href="https://blockchain.info/">blockchain.info</a></li>
+<li><a href="https://www.gdax.com/trade/BTC-USD">GDAX/BTC-USD</a></li>
+</ul>
+<p>Taxes</p>
+<ul>
+<li><a href="https://bitcoin.tax/">https://bitcoin.tax/</a></li>
+<li>Reddit (<a href="https://www.reddit.com/r/BitcoinMarkets/comments/7gg8tb/guide_us_longterm_and_shortterm_capital_gains/">US Long/Short Term Capital Gains</a>, <a href="https://www.reddit.com/r/Bitcoin/comments/1uccfz/i_am_a_tax_attorney_here_are_my_answers_to_the/">tax post</a>)</li>
+<li><a href="https://www.reddit.com/r/BitcoinMarkets/comments/7gjhn3/coinbase_ordered_to_report_14355_users_to_the_irs/">Coinbase has to report 14,355 Users to IRS</a></li>
+</ul>
+<p>Mining</p>
+<ul>
+<li><a href="https://whattomine.com/asic">What to mine</a></li>
+<li><a href="https://www.reddit.com/r/BitcoinMining/">/r/BitcoinMining</a></li>
+<li><a href="https://en.bitcoin.it/wiki/Comparison_of_mining_pools">Comparison of Mining Pools</a></li>
+</ul>
+<p>Extra</p>
+<ul>
+<li><a href="https://www.data-blogger.com/2017/02/22/getting-rich-using-bitcoin-stockprices-and-twitter/">https://www.data-blogger.com/2017/02/22/getting-rich-using-bitcoin-stockprices-and-twitter/</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/11/30/bitcoin-resources/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1387</post-id>	</item>
+		<item>
+		<title>Run some cool GitHubs on Azure (Python)</title>
+		<link>http://www.jeremydjacksonphd.com/2017/09/26/run-some-cool-githubs-on-azure/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/09/26/run-some-cool-githubs-on-azure/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Tue, 26 Sep 2017 03:15:51 +0000</pubDate>
+				<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[ipython]]></category>
+		<category><![CDATA[jupyter]]></category>
+		<category><![CDATA[python]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=1330</guid>
+
+					<description><![CDATA[Azure sample notebooks (run on Azure) Azure Python for DS 101 (run on Azure) Azure cntk  (run on Azure) Azure Python Data Science Handbook (run on Azure) https://github.com/TrackDR/ModdedIpythonNotebooks (run on Azure) https://github.com/JWarmenhoven/ISLR-python (run on Azure) https://github.com/jdwittenauer/ipython-notebooks (run on Azure) https://github.com/masinoa/machine_learning (run on Azure) &#8230; <a href="http://www.jeremydjacksonphd.com/2017/09/26/run-some-cool-githubs-on-azure/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<ol>
+<li><a href="https://notebooks.azure.com/Microsoft/libraries/samples">Azure</a> sample notebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/samples">Azure</a>)</li>
+<li><a href="https://notebooks.azure.com/rheartpython/libraries/PythonDS101">Azure</a> Python for DS 101 (run on <a href="https://notebooks.azure.com/trackdr/libraries/PythonDS101">Azure</a>)</li>
+<li><a href="https://notebooks.azure.com/cntk/libraries/tutorials">Azure</a> cntk  (run on <a href="https://notebooks.azure.com/trackdr/libraries/cntktutorials">Azure</a>)</li>
+<li><a href="https://notebooks.azure.com/jakevdp/libraries/PythonDataScienceHandbook">Azure</a> Python Data Science Handbook (run on <a href="https://notebooks.azure.com/trackdr/libraries/PythonDataScienceHandbook">Azure</a>)</li>
+<li>https://github.com/TrackDR/ModdedIpythonNotebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/trackdr-ModdedIpythonNotebooks">Azure</a>)</li>
+<li>https://github.com/JWarmenhoven/ISLR-python (run on <a href="https://notebooks.azure.com/trackdr/libraries/JWarmenhoven-ISLR-python">Azure</a>)</li>
+<li>https://github.com/jdwittenauer/ipython-notebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/jdwittenauer-ipython-notebooks">Azure</a>)</li>
+<li>https://github.com/masinoa/machine_learning (run on <a href="https://notebooks.azure.com/trackdr/libraries/masinoa-machine-learning">Azure</a>)</li>
+<li>https://github.com/jakevdp/sklearn_tutorial (run on <a href="https://notebooks.azure.com/trackdr/libraries/jakevdp-sklearn-tutorial/tree/notebooks">Azure</a>)</li>
+<li>https://github.com/scikit-image/skimage-tutorials (run on <a href="https://notebooks.azure.com/trackdr/libraries/scikit-image-skimage-tutorials">Azure</a>)</li>
+<li>https://github.com/spatialaudio/digital-signal-processing-lecture (run on <a href="https://notebooks.azure.com/trackdr/libraries/spatialaudio-dsp-lecture">Azure</a>)
+<ol>
+<li><a href="http://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/">docs</a></li>
+</ol>
+</li>
+<li>https://github.com/AllenDowney/ThinkDSP (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ThinkDSP">Azure</a>)</li>
+<li>https://github.com/AllenDowney/ThinkBayes2 (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ThinkBayes2">Azure</a>)</li>
+<li>https://github.com/AllenDowney/ThinkStats2 (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ThinkStats2">Azure</a>)</li>
+<li>https://github.com/AllenDowney/ThinkComplexity2 (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ThinkComplexity2">Azure</a>)</li>
+<li>https://github.com/AllenDowney/ModSimPy (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ModSimPy">Azure</a>)</li>
+<li>https://github.com/AllenDowney/CompStats (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-CompStats">Azure</a>)</li>
+<li>https://github.com/multivac61/wave_digital_notebook (run on <a href="https://notebooks.azure.com/trackdr/libraries/multivac61-wave-digital-nb">Azure</a>)</li>
+<li>https://github.com/learnml/machine-learning-specialization (run on <a href="https://notebooks.azure.com/trackdr/libraries/learnml-ml-specialization">Azure</a>)</li>
+<li>https://github.com/ipython/ipython-in-depth (run on <a href="https://notebooks.azure.com/trackdr/libraries/ipython-ipython-in-depth">Azure</a>)</li>
+<li>https://github.com/yhilpisch/dx (run on <a href="https://notebooks.azure.com/trackdr/libraries/yhilpisch-dx">Azure</a>)</li>
+<li>https://github.com/yhilpisch/py4fi (run on <a href="https://notebooks.azure.com/trackdr/libraries/yhilpisch-py4fi">Azure</a>)</li>
+<li>https://github.com/quantopian/research_public (run on <a href="https://notebooks.azure.com/trackdr/libraries/quantopian-research-public">Azure</a>)</li>
+<li>https://github.com/darribas/gds_scipy16 (run on <a href="https://notebooks.azure.com/trackdr/libraries/darribas-gds-scipy16">Azure</a>)</li>
+<li><a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#introductory-tutorials">https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#introductory-tutorials</a></li>
+<li>Open CV notebooks on <a href="https://notebooks.azure.com/trackdr/libraries/trackdr-OpenCV-notebooks">Azure</a></li>
+<li>Geospatial notebooks on <a href="https://notebooks.azure.com/trackdr/libraries/trackdr-Geospatial-Notebooks">Azure</a></li>
+<li>Python Lectures on <a href="https://notebooks.azure.com/trackdr/libraries/rajathkumarmp-Python-Lectures">Azure</a></li>
+</ol>
+<p>Good for Python/IPython/Jupyter Beginners</p>
+<ul>
+<li>Sample notebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/samples">Azure</a>)
+<ul>
+<li>Introduction to Python.ipynb</li>
+</ul>
+</li>
+<li>Python-Lectures (run on <a href="https://notebooks.azure.com/trackdr/libraries/rajathkumarmp-Python-Lectures">Azure</a>)
+<ul>
+<li>01.ipynb</li>
+</ul>
+</li>
+<li>https://github.com/jdwittenauer/ipython-notebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/jdwittenauer-ipython-notebooks">Azure</a>)
+<ol>
+<li>notebooks/ipython-notebooks/notebooks/language/Intro.ipynb to start</li>
+</ol>
+</li>
+<li>Python for DS 101 (run on <a href="https://notebooks.azure.com/trackdr/libraries/PythonDS101">Azure</a>)
+<ul>
+<li>01.Basics.ipynb</li>
+</ul>
+</li>
+</ul>
+<p>Neat starting examples</p>
+<ul>
+<li>Images
+<ul>
+<li>https://github.com/scikit-image/skimage-tutorials (run on <a href="https://notebooks.azure.com/trackdr/libraries/scikit-image-skimage-tutorials">Azure</a>)
+<ol>
+<li>skimage-tutorials/lectures/00_images_are_arrays.ipynb</li>
+</ol>
+</li>
+<li>https://github.com/TrackDR/ModdedIpythonNotebooks (run on <a href="https://notebooks.azure.com/trackdr/libraries/trackdr-ModdedIpythonNotebooks">Azure</a>)
+<ul>
+<li>ImageStuff.ipynb</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Finance
+<ul>
+<li>https://github.com/yhilpisch/py4fi (run on <a href="https://notebooks.azure.com/trackdr/libraries/yhilpisch-py4fi">Azure</a>)
+<ul>
+<li>ipython3/03_Introductory_Examples.ipynb</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DSP
+<ul>
+<li>https://github.com/AllenDowney/ThinkDSP (run on <a href="https://notebooks.azure.com/trackdr/libraries/AllenDowney-ThinkDSP">Azure</a>)
+<ul>
+<li>code/chap01.ipynb</li>
+</ul>
+</li>
+<li>https://github.com/spatialaudio/digital-signal-processing-lecture (run on <a href="https://notebooks.azure.com/trackdr/libraries/spatialaudio-dsp-lecture">Azure</a>)
+<ul>
+<li>index.ipynb</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Gaussian Mixture Models
+<ul>
+<li>Python Data Science Handbook (run on <a href="https://notebooks.azure.com/trackdr/libraries/PythonDataScienceHandbook">Azure</a>)
+<ul>
+<li>notebooks/05.12-Gaussian-Mixtures.ipynb</li>
+</ul>
+</li>
+<li>https://github.com/jakevdp/sklearn_tutorial (run on <a href="https://notebooks.azure.com/trackdr/libraries/jakevdp-sklearn-tutorial/tree/notebooks">Azure</a>)
+<ul>
+<li>notebooks/04.3-Density-GMM.ipynb</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/09/26/run-some-cool-githubs-on-azure/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1330</post-id>	</item>
+		<item>
+		<title>SciPy 2017</title>
+		<link>http://www.jeremydjacksonphd.com/2017/07/14/scipy-2017/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/07/14/scipy-2017/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Fri, 14 Jul 2017 00:04:15 +0000</pubDate>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[SciPy]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=1217</guid>
+
+					<description><![CDATA[Scientific Computing with Python (SciPy 2017, YouTube Official Playlist) Tutorials Beginner Software Carpentry Scientific Python Course Part 1 (YouTube, overview) Software Carpentry Scientific Python Course Part 2 (YouTube, overview) Computational Statistics (YouTube, overview, github1, github2) Introduction to Numerical Computing with &#8230; <a href="http://www.jeremydjacksonphd.com/2017/07/14/scipy-2017/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><strong>Scientific Computing with Python</strong> (<a href="https://scipy2017.scipy.org">SciPy 2017</a>, <a href="https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf">YouTube Official Playlist</a>)</p>
+<p><strong>Tutorials</strong></p>
+<ul>
+<li><strong>Beginner</strong>
+<ul>
+<li>Software Carpentry Scientific Python Course Part 1
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=7VO4pUGCcMI">YouTube</a>, <a href="https://maxim-belkin.github.io/2017-07-10-scipy/">overview</a>)</li>
+</ul>
+</li>
+<li>Software Carpentry Scientific Python Course Part 2
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=V5KQxBKtdA8">YouTube</a>, <a href="https://maxim-belkin.github.io/2017-07-10-scipy/">overview</a>)</li>
+</ul>
+</li>
+<li>Computational Statistics
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=He9MCbs1wgE">YouTube</a>, <a href="https://allendowney.github.io/CompStats/tutorial">overview</a>, <a href="https://github.com/mvanapp/SciPy2017_SimpleComputationalStats_tutorial">github1</a>, <a href="https://github.com/AllenDowney/CompStats">github2</a>)</li>
+</ul>
+</li>
+<li>Introduction to Numerical Computing with NumPy
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=lKcwuPnSHIQ">YouTube</a>, <a href="https://github.com/enthought/Numpy-Tutorial-SciPyConf-2017">github</a>)</li>
+</ul>
+</li>
+<li>Pandas for Data Analysis
+<ul>
+<li>(<del>YouTube</del>, <a href="https://github.com/chendaniely/scipy-2017-tutorial-pandas">github</a>)</li>
+</ul>
+</li>
+<li>Anatomy of Matplotlib
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=rARMKS8jE9g">YouTube</a>, <a href="https://github.com/WeatherGod/AnatomyOfMatplotlib">github</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Intermediate</strong>
+<ul>
+<li>Numba: Tell Those C++ Bullies to Get Lost
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=1AwG0T4gaO0">YouTube</a>, <a href="https://github.com/gforsyth/numba_tutorial_scipy2017">github</a>)</li>
+</ul>
+</li>
+<li>Machine Learning with scikit-learn Part One
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=2kT6QOVSgSg">YouTube</a>, <a href="https://github.com/amueller/scipy-2017-sklearn">github</a>)</li>
+</ul>
+</li>
+<li>Machine Learning with scikit-learn Part Two
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=WLYzSas511I">YouTube</a>, <a href="https://github.com/amueller/scipy-2017-sklearn">github</a>)</li>
+</ul>
+</li>
+<li>Parallelizing Scientific Python with Dask
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=mbfsog3e5DA">YouTube</a>, <a href="https://github.com/dask/dask-tutorial/tree/scipy-2017">github</a>)</li>
+</ul>
+</li>
+<li>Parallel Data Analysis in Python
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=a8gpcnmggiU">YouTube</a>, <a href="https://github.com/pydata/parallel-tutorial">github</a>)</li>
+</ul>
+</li>
+<li>scikit-image: Image Processing for Python
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=5e9jhgiqbzc">YouTube</a>, <a href="https://github.com/scikit-image/skimage-tutorials">github</a>)</li>
+</ul>
+</li>
+<li>Network Science and Statistics: Fundamentals and Applications
+<ul>
+<li>(<del>YouTube</del>, <a href="http://ericmjl.github.io/Network-Analysis-Made-Simple/">overview</a>, <a href="https://github.com/ericmjl/Network-Analysis-Made-Simple">github</a>, <a href="https://www.youtube.com/watch?v=ZsvlVpSCb0Y">YouTube 2016</a>)</li>
+</ul>
+</li>
+<li>Signal Processing and Comm Hands-On Using scikit-dsp-comm
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=p1D5jlbrMV8">YouTube</a>, <a href="https://github.com/mwickert/SP-Comm-Tutorial-using-scikit-dsp-comm">github</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Intermediate/Advanced</strong>
+<ul>
+<li>Cython for Data, Scientists, and Data Scientists
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=FepqwPI6U80">YouTube</a>, <a href="https://github.com/kwmsmith/scipy-2017-cython-tutorial">github</a>)</li>
+</ul>
+</li>
+<li>Modern Optimization Methods in Python
+<ul>
+<li>(<del>YouTube</del>, <a href="https://github.com/mmckerns/tutmom">github</a>, <a href="https://www.youtube.com/watch?v=avRx2cdNZmk">YouTube 2015</a>)</li>
+</ul>
+</li>
+<li>The Jupyter Interactive Widget Ecosystem
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=eWzY2nGfkXk">YouTube</a>, <a href="https://github.com/mwcraig/scipy2017-jupyter-widgets-tutorial">github</a>)</li>
+</ul>
+</li>
+<li>HDF5 take 2: h5py &amp; PyTables
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=ofLFhQ9yxCw">YouTube</a>, <a href="https://github.com/tomkooij/scipy2017">github</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Advanced</strong>
+<ul>
+<li>Automatic Code Generation with SymPy
+<ul>
+<li>(<a href="https://www.youtube.com/watch?v=5jzIVp6bTy0">YouTube</a>, <a href="https://github.com/sympy/scipy-2017-codegen-tutorial">github</a>)</li>
+</ul>
+</li>
+<li>Interactive Data Visualization with HoloViews &amp; Bokeh
+<ul>
+<li>(<del>YouTube</del>, <a href="https://github.com/ioam/scipy-2017-holoviews-tutorial">github</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Talks</strong></p>
+<ul>
+<li>YouTube <a href="https://www.youtube.com/playlist?list=PLFyHXClT3SSieQTIsa0RJx3obyYkI96F5">Playlist</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/07/14/scipy-2017/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1217</post-id>	</item>
+		<item>
+		<title>Japanese Kids Shows, Movies, Games, and Videos for Immersion</title>
+		<link>http://www.jeremydjacksonphd.com/2017/07/14/japanese-kids-shows-movies-games-and-videos-for-immersion/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/07/14/japanese-kids-shows-movies-games-and-videos-for-immersion/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Fri, 14 Jul 2017 00:03:19 +0000</pubDate>
+				<category><![CDATA[Japanese]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=915</guid>
+
+					<description><![CDATA[I have been trying to learn Japanese lately and have been using a lot of Japanese kids shows, Movies, and Games for immersion.  Enjoy! Youtube Channels Nomitalk (channel) Learn Japanese (channel) JapanesePod 101 (channel) Youtube Playlists Learn Japanese from Zero (youtube &#8230; <a href="http://www.jeremydjacksonphd.com/2017/07/14/japanese-kids-shows-movies-games-and-videos-for-immersion/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I have been trying to learn Japanese lately and have been <a href="https://www.youtube.com/channel/UCQMN6Cd7oSBSYGgN2NY0ZnQ">u</a>sing a lot of Japanese kids shows, Movies, and Games for immersion.  Enjoy!</p>
+<p><em><strong>Youtube Channels</strong></em></p>
+<ul>
+<li>Nomitalk (<a href="https://www.youtube.com/channel/UCQMN6Cd7oSBSYGgN2NY0ZnQ">channel</a>)</li>
+<li>Learn Japanese (<a href="https://www.youtube.com/user/learnjapanesebod">channel</a>)</li>
+<li>JapanesePod 101 (<a href="https://www.youtube.com/user/japanesepod101">channel</a>)</li>
+</ul>
+<p><em><strong>Youtube Playlists</strong></em></p>
+<ul>
+<li>Learn Japanese from Zero (<a href="https://www.youtube.com/playlist?list=PLOcym2c7xnBwRNLWXOAtlN-9dbLkctxV-">youtube playlist</a>)</li>
+</ul>
+<p><a href="https://steamdb.info/search/?a=app_keynames&amp;type=-1&amp;keyname=252&amp;operator=1&amp;keyvalue=japanese">Steam Japanese Search</a></p>
+<p><a href="http://store.steampowered.com/?l=japanese">Steam in Japanese</a></p>
+<p><a href="https://www.reddit.com/r/LearnJapanese/comments/34gir6/learning_japanese_through_video_games/">Reddit Videogame Thread</a></p>
+<p><a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Japanese_Pok%C3%A9mon_names">List of Japanese Pokemon Names</a></p>
+<p><a href="https://bulbapedia.bulbagarden.net/wiki/List_of_moves_in_other_languages">List of Pokemon Moves</a></p>
+<p><b><i>Good Steam games that can be switched to <em><strong>Japanese</strong></em> spoken dialog w/ <em><strong>Japanese</strong></em> subtitles</i></b></p>
+<ol>
+<li><strong>One Piece: Pirate Warriors 3</strong> (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647FuWkSUF2fHPxjBa1TqoV1V&amp;disable_polymer=true">YouTube Playlist</a>)</li>
+<li><strong>Skyrim: Special Edition</strong></li>
+<li><strong>The Witcher 3: Wild Hunt</strong></li>
+<li><strong>Rise of the Tomb Raider</strong></li>
+<li><strong>Doom</strong></li>
+<li><strong>Romance of the Three Kingdoms XIII / 三國志13</strong></li>
+<li>Nier: Automata</li>
+<li><strong>Code of Princess</strong></li>
+<li><strong>Borderlands 2</strong></li>
+<li><strong>Borderlands: The Pre-Sequel</strong></li>
+<li>Fallout 4</li>
+<li>Dishonored 2</li>
+<li>Lego City Undercover</li>
+<li><strong>Resident Evil 7</strong></li>
+<li><strong>FINAL FANTASY X/X-2 HD Remaster</strong></li>
+<li>Final Fantasy Type-0</li>
+<li>Ultra Street Fighter 4</li>
+<li>Street Fighter V</li>
+<li>Grid 2</li>
+<li>Grid Autosport</li>
+<li><strong>Alan Wake</strong></li>
+<li><strong>Resident Evil Revelations</strong></li>
+<li><strong>Resident Evil Revelations 2</strong></li>
+<li><strong>Yaiba: Ninja Gaiden Z</strong></li>
+<li>Dynasty Warriors 8:Xtreme Legends Complete Edition/ 真・三國無双７ with 猛将伝</li>
+<li>Sid Meier’s Civilization VI</li>
+<li>METAL GEAR SOLID V: GROUND ZEROES</li>
+<li>METAL GEAR SOLID V: THE PHANTOM PAIN</li>
+<li><strong>Disgaea PC (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GMpwmTtxfjBfWGUoJ0ZLn5">YouTube Playlist</a>)</strong></li>
+<li>Disgaea 2 PC</li>
+<li>I am Setsuna</li>
+<li>Castle of Shikigami 式神の城</li>
+<li>THE KING OF FIGHTERS XIV STEAM EDITION</li>
+<li>Japanese School Life</li>
+<li>Astro Boy: Edge of Time</li>
+<li><strong>Learn Japanese To Survive! Hiragana Battle</strong></li>
+<li>Learn Japanese To Survive! Katakana War</li>
+</ol>
+<p><b><i>Good Steam games: <em><strong>Japanese </strong></em>spoken dialog w/ No <em><strong>Japanese</strong></em> subtitles</i></b></p>
+<ol>
+<li>Final Fantasy 13</li>
+<li>Final Fantasy 13-2</li>
+<li>Lego Worlds</li>
+<li>Senko no Ronde 2 旋光の輪舞２</li>
+</ol>
+<p><b><i>Good Steam games: <em><strong>Japanese </strong></em>text only, no <em><strong>Japanese</strong></em> audio</i></b></p>
+<ol>
+<li>Call of Duty: Black Ops 3</li>
+<li>DARK SOULS: Prepare To Die Edition</li>
+<li>Dark Souls 3</li>
+<li>Resident Evil 5</li>
+<li>Resident Evil / biohazard HD REMASTER</li>
+<li>Resident Evil 0 / biohazard 0 HD REMASTER</li>
+<li>Half Life 2</li>
+<li>Portal</li>
+<li>Portal 2</li>
+<li>Romance of the Three Kingdoms 1,2,3 (No English, Only Japanese text)</li>
+<li>Mafia 3</li>
+<li>Saint&#8217;s Row 4</li>
+<li>Sid Meier’s Civilization V</li>
+<li>Flinthook</li>
+<li>Mighty Gunvolt</li>
+<li>Tekken 7</li>
+<li>Mega Man Legacy Collection / ロックマン クラシックス コレクション</li>
+<li>Devil May Cry 4 Special Edition</li>
+<li>Sid Meier&#8217;s Civilization: Beyond Earth</li>
+<li>Tetris Ultimate</li>
+<li>Witch and Hero(魔女と勇者)</li>
+<li>Duke Nukem 3D: 20th Anniversary World Tour</li>
+<li>Dead Rising 1 &amp; 2</li>
+<li>Dead Rising 3 Apocalypse Edition</li>
+<li>軒轅劍外傳穹之扉(The Gate of Firmament)</li>
+<li>Stardew Valley</li>
+<li>４人打ちアクション麻雀 / ACTION MAHJONG (No English)</li>
+<li>Kyurinaga&#8217;s Revenge</li>
+<li>Double Dragon IV</li>
+<li>Demon Hunter 3: Revelation</li>
+<li>Higurashi When They Cry</li>
+</ol>
+<p><b><i>Good Nintendo Console Games</i></b></p>
+<ol>
+<li>Switch &#8211; Region Free so North American and Japanese versions work
+<ol>
+<li>Bayonetta (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647E-gpCx_eqqWWnf6iqkdIoa">YouTube Playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B077ZGRQM2?tag=streaminunico-20">Get the Game!</a></li>
+<li>Labyrinth of Refrain &#8211; (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647F9J6kjEJ4AgBIR88o6C3cn">YouTube Playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B079P9BZ8M?tag=streaminunico-20&amp;th=1">Get the Game!</a></li>
+<li>Shining Resonance Refrain &#8211; (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647Hax5vIRwBAquW81NyGO4Ag">YouTube Playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B079Z9XHRD?tag=streaminunico-20&amp;th=1">Get the Game!</a></li>
+<li>Ys VIII &#8211; (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647G-WKhoYtsJOm3sF-E6m4dQ">YouTube Playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B079FGT22K?tag=streaminunico-20">Get the Game!</a></li>
+<li>Atelier Lydie and Suelle &#8211; (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647Ftd6bZ8PxdionDkOIvm08H">YouTube Playlist</a>) &#8211; Get the Game!</li>
+<li>Atelier Arland Trilogy &#8211; (YouTube Playlist) &#8211; Get the Game!</li>
+<li>Atelier Lulua &#8211; (YouTube Playlist) &#8211; Get the Game!</li>
+<li>Nelke and the Legendary Alchemists &#8211; (YouTube Playlist) &#8211; Get the Game!</li>
+<li>Diablo 3 &#8211; (YouTube Playlist) &#8211; <a href="https://www.amazon.com/dp/B07GKCMV6Y?tag=streaminunico-20">Get the Game!</a></li>
+<li>God Wars: The Complete Legend (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GCdlv794MJ_PVevm6fshkv&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://amzn.to/2M3GrTs">Get the Game!</a></li>
+<li>The Lost Child (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HkE1BjZTxglkH9fW16zlQf&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://amzn.to/2Nb7YEe">Get the Game!</a></li>
+<li>One Piece Pirate Warriors 3 (only Japanese) (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GeB6hEbXCriCmzLCUjmaCu">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B076M3QJBP?tag=streaminunijp-22">Get the Game!</a></li>
+<li>One Piece Unlimited World Red Deluxe Edition (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647EefkUpWH-t4SDZnZksTAqP">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B0719GQZBS?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Xenoblade Chronicles 2 (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GwtHmb1VVTsO9H2iKDlGES&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="http://amzn.to/2GsloHV">Get the Game!</a></li>
+<li>Hyrule Warriors DE or Zelda Musou Hyrule All Stars DX (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647EY2T7XTB7O5AQGOimgxADt&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="http://amzn.to/2INljk6">Get the Game!</a></li>
+<li>Snack World Trejarers Gold (only Japanese) (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GGuXjghPgY5npXt7oj05Yf&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B079Q33L5Z?tag=streaminunijp-22">Get the Game!</a></li>
+<li>PuyoPuyo Tetris (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HTywRIwyI25csGBuvnYs8F">youtube playlist</a>) &#8211; JP version &#8211; <a href="https://www.amazon.com/dp/B01N4PKS4S?tag=streaminunico-20">Get the Game!</a></li>
+<li>I am Setsuna (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647H1CXuHJ67tZ639Yi6BZFzn">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B01N5R9QT6?tag=streaminunico-20">Get the Game!</a></li>
+<li>Lost Sphear (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HsycyxRCUeQ1o-nNPS0ta7&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="http://amzn.to/2oomJI6">Get the Game!</a></li>
+<li>Minna de WaiWai! Spelunker (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HWp5cp-u0CWQA-WM4jlJC3">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B01MUCO3DG?tag=streaminunico-20">Get the Game!</a></li>
+<li>Disgaea 1 Complete (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647G1d3iNFvTgSeNNEHmZWzq5">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B07C7G35GL?tag=streaminunico-20&amp;th=1">Get the Game!</a></li>
+<li>Disgaea 5 Complete (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HENwjiO1G_vGpI_urkdzPX">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B01MUXWEV5?tag=streaminunico-20">Get the Game!</a></li>
+<li>Fire Emblem Warriors (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GJxg7PzyixW3P9zgHcr4V4">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B071X7QQKZ?tag=streaminunico-20">Get the Game!</a></li>
+<li>Seiken Densetsu Collection (only Japanese) &#8211; <a href="https://www.amazon.co.jp/dp/B06XR73KWR?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Dragon Quest Heroes I &amp; II (only Japanese) &#8211; <a href="https://www.amazon.co.jp/dp/B01N242UN2?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Nobunaga&#8217;s Ambition: Sphere of Influence (only Japanese) &#8211; <a href="https://www.amazon.co.jp/dp/B01MS91C01?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Monster Hunter XX (only Japanese) (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647F_QXnWxs_WSnq0isQ7SIGP">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B0728N1QYV?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Fate/EXTELLA: The Umbral Star (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GqoPOtA3AYz1_ZiWD9OyJh&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="http://amzn.to/2BDLhFk">Get the Game!</a></li>
+<li>Fate/EXTELLA Link (YouTube Playlist) &#8211; Get the Game!</li>
+<li>Moero Chronicle Hyper (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647EA87eahduMFd_1h-RByv4w">YouTube playlist</a>)</li>
+<li>My Girlfriend is a Mermaid !? (YouTube Playlist)</li>
+<li>Zelda: Breath of the Wild (YouTube Playlist)</li>
+<li>Bomberman R?</li>
+<li>Animal Crossing: New Horizons</li>
+</ol>
+</li>
+<li>3DS
+<ol>
+<li>Pokémon Sun &#8211; <a href="https://www.amazon.com/dp/B01C93CWU6?tag=streaminunico-20">Get the Game!</a></li>
+<li>Pokémon Moon &#8211; <a href="https://www.amazon.com/gp/product/B01C93CWSI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B01C93CWSI&amp;linkCode=as2&amp;tag=streaminunico-20&amp;linkId=e0f29a7f6b04d506d2c800385c3cd6b0" target="_blank" rel="noopener noreferrer">Get the game!</a></li>
+<li>Pokémon Ultra Sun &#8211; <a href="https://www.amazon.com/dp/B071WNTGFY?tag=streaminunico-20&amp;th=1">Get the Game!</a></li>
+<li>Pokémon Ultra Moon &#8211; <a href="https://www.amazon.com/dp/B071JQQ9PK?tag=streaminunico-20&amp;th=1">Get the Game!</a></li>
+<li>Etrian Odyssey Nexus (Japanese Voices, English Subtitles) (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HfIhOREbL1Jy0xR6jbpGcC&amp;disable_polymer=true">youtube playlist</a>) <a href="https://amzn.to/2BJM0Xf">Get the Game!</a></li>
+<li>Phoenix Wright: Ace Attorney Trilogy &#8211; No Japanese Voices only text</li>
+</ol>
+</li>
+<li>3DS (Japanese)
+<ol>
+<li>世界樹の迷宮X &#8211; Etrian Odyssey X (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647EDchZBCG_aXDagVNhMRMSW&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://amzn.to/2vAacWC">Get the Japanese Game!</a>, <a href="https://amzn.to/2BJM0Xf">Get the English Game!</a></li>
+<li>Deep Strange Journey (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647He4Qc-vofP0VEN06LN3KPI">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B073Q65WNC?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Alliance Alive (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HyFKAdftCLJmg_LV9QVaUb&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B01M2Z4K07?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Radiant Historia: Perfect Chronology (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647FILR0yolo2NzkX36DhGULA">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B06XS4M41J?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Pocket Monsters: Green Version VC (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647Eou8vlnNqqRepDqdtN0wYM">youtube playlist</a>) &#8211; <a href="http://amzn.to/2okzgwm">Get the Game!</a></li>
+<li>Pocket Monsters: Silver Version VC (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647G8AfuT_vD7IRauhrGw8thi">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B0758ZJ6Q4?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Pocket Monsters: Crystal VC (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HWtFnOTLoYs7MD1dxcCwRA&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="http://amzn.to/2CyiVcG">Get the Game!</a></li>
+<li>Yokai Watch Busters 2: Treasure Legend Banbaraya Sword (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647EeoGXSdHjsmqyYhD2Nq4jS">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B077SH6Q5W?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Etrian Mystery Dungeon 2 (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647ELrJ4NX7rpMTlntJwAM0Bt">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B06XTDF418?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Monster Hunter Stories (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HNezGdHZcmQ1yfAvLQTVS4">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/dp/B01GDQGUKI?tag=streaminunijp-22">Get the Game!</a></li>
+<li>マリオ&amp;ルイージRPG1 DX (Mario &amp; Luigi: Super Star Saga + Bowser&#8217;s Minions) (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647FQw1F69xcs2h2i-C11CWTV">youtube playlist</a>) &#8211;<a href="https://www.amazon.co.jp/dp/B075LC617X?tag=streaminunijp-22"> Get the Game!</a></li>
+<li>Snack World Trejarers (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647HZ-noIh-kUUciHWjkdD11q&amp;disable_polymer=true">youtube playlist</a>) &#8211; <a href="https://www.amazon.co.jp/gp/product/B071XNTWPV?tag=streaminunijp-22">Get the Game!</a></li>
+<li>Koueki Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai KanKen Training 2 &#8211; <a href="http://amzn.to/2oif2Ds">Get the Game!</a></li>
+<li>Puyo Puyo Tetris &#8211; <a href="http://amzn.to/2w2WTyK">Get the Game!</a></li>
+<li>Animal Crossing: New Leaf</li>
+</ol>
+</li>
+<li>DS (North America)
+<ol>
+<li><strong>My Japanese Coach DS</strong> (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647ERxVx8U4oRxJf-U2Z00Z9c">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B001BZ8EX8?tag=streaminunico-20">Get the Game!</a></li>
+<li>Castlevania: Portrait of Ruin (Japanese Voices/Options L+A)</li>
+<li>Castlevania: Order of Ecclesia (Japanese Voices/Options)</li>
+<li><strong>Puyo Pop Fever (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647GGx8OpBItXE6zoXN9OObt3">youtube playlist</a>) &#8211; <a href="https://www.amazon.com/dp/B0007U0GTI?tag=streaminunico-20">Get the Game!</a></strong></li>
+<li>Sonic Rush (English Voices &amp; Text for NA DS, English Voices/Japanese Text for Japanese DS)</li>
+<li>Sonic Rush Adventure (English Voices &amp; Text for NA DS, English Voices/Japanese Text for Japanese DS)</li>
+</ol>
+</li>
+<li>DS (Japanese) &#8211; Will work with North American DS
+<ol>
+<li>Little Charo (<a href="http://www.nihongonobaka.com/little-charo-the-best-video-game-for-japanese-learners/">Article</a>) &#8211; <a href="http://amzn.to/2njVUp4">Get the Game!</a></li>
+<li>Kanji Dictionary: Kanji Sonomama Rakubiki Jiten &#8211; <a href="https://www.amazon.com/dp/B000O2S9VQ?tag=streaminunico-20">Get the Game!</a></li>
+<li>Ni no kuni: Shikkoku No Madoushi &#8211; <a href="https://www.amazon.com/dp/B001GNBW8E?tag=streaminunico-20">Get the Game!</a></li>
+<li>Animal Crossing</li>
+<li>Pokemon DS games</li>
+<li>Zelda DS games?</li>
+<li>Any Japanese DS game with NTR product code (TWL product code doesn&#8217;t work on North American 3DS, it will work on NA DS)</li>
+</ol>
+</li>
+<li> Wii
+<ol>
+<li>Xenoblade Chronicles</li>
+</ol>
+</li>
+</ol>
+<p><b><i>Ok <em><strong>Japanese</strong></em> shows with <em><strong>Japanese</strong></em> Subtitles that match the Dialogue</i></b></p>
+<ol>
+<li>Placeholder</li>
+</ol>
+<p><em><strong>Japanese Video Game Consoles</strong></em></p>
+<ol>
+<li>Japanese 3ds at Play Asia</li>
+</ol>
+<p><em><strong>IPad/Android Games/Apps</strong></em></p>
+<ol>
+<li>Anki</li>
+<li>Mindsnacks Japanese ()</li>
+<li>Duolingo (<a href="https://www.youtube.com/playlist?list=PLc7mKAo-647F7Ygh4NzxFEnUidiCgcIYU">youtube playlist</a>)</li>
+<li>Fantasy Life Online?</li>
+</ol>
+<p>Doulingo <a href="http://duolingo.wikia.com/wiki/Chinese">wikia</a></p>
+<p><b><i>Good <em><strong>Japanese</strong></em> kids shows with Japanese Subtitles that match the Japanese Dialogue</i></b></p>
+<ol>
+<li>Placeholder</li>
+</ol>
+<p><b><i>Good Japanese kids shows &#8211; Japanese Subtitles don’t match dialogue or no subtitles</i></b></p>
+<ol>
+<li>Placeholder</li>
+</ol>
+<p><b><i>Good Movies with <em><strong>Japanese</strong></em> Subtitles that match the <em><strong>Japanese</strong></em> Dialogue</i></b></p>
+<ol>
+<li>Placeholder</li>
+</ol>
+<p><b><i>Good Movies &#8211; <em><strong>Japanese</strong></em> Subtitles don’t match dialogue or no subtitles</i></b></p>
+<ol>
+<li>Placeholder</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/07/14/japanese-kids-shows-movies-games-and-videos-for-immersion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">915</post-id>	</item>
+		<item>
+		<title>Docker for AWS</title>
+		<link>http://www.jeremydjacksonphd.com/2017/06/27/docker-for-aws/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/06/27/docker-for-aws/#comments</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Tue, 27 Jun 2017 02:01:36 +0000</pubDate>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Docker]]></category>
+		<category><![CDATA[aws]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[cloudformation]]></category>
+		<category><![CDATA[docker]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[ipython]]></category>
+		<category><![CDATA[jupyter]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=1118</guid>
+
+					<description><![CDATA[Launch Stack on AWS (Costs Money!) Picked 1 Manager Node (t2.micro), Picked 1 Worker Node (t2.medium or t2.large) Or 1 Manager Node(t2.medium or t2.large), 0 Worker Nodes(doesn&#8217;t matter) Picked one of my AWS security keys Launch using Create Button (Costs &#8230; <a href="http://www.jeremydjacksonphd.com/2017/06/27/docker-for-aws/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p><strong><a href="https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=Docker&amp;templateURL=https://editions-us-east-1.s3.amazonaws.com/aws/stable/Docker.tmpl">Launch</a> Stack on AWS (Costs Money!)</strong></p>
+<ol>
+<li>Picked 1 Manager Node (t2.micro), Picked 1 Worker Node (t2.medium or t2.large)
+<ol>
+<li>Or 1 Manager Node(t2.medium or t2.large), 0 Worker Nodes(doesn&#8217;t matter)</li>
+</ol>
+</li>
+<li>Picked one of my AWS security keys</li>
+<li>Launch using Create Button (Costs Money!)</li>
+<li>Services-&gt;EC2-&gt;Docker-Manager to get Public DNS
+<ol>
+<li>Or CloudFormation-&gt;Stacks-&gt;Docker-&gt;Outputs-&gt;Managers
+<ol>
+<li>Click on link under &#8220;Managers-&gt;Value&#8221; and see Public DNS of Manager Node</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Ssh to manager node using AWS security key and docker as username
+<ol>
+<li>Either use &#8220;Connect&#8221; in EC2 or</li>
+<li>ssh -i &#8220;mykey.pem&#8221; docker@&lt;Public DNS&gt;
+<ol>
+<li>Make sure mykey.pem has correct permissions
+<ol>
+<li>chmod 400 mykey.pem</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>or convert .pem to .ppk and use putty</li>
+</ol>
+</li>
+<li>Launch a docker container (choose one for now)
+<ol>
+<li><code><b>docker service create --name dsnb -p 8888:8888 jupyter/datascience-notebook</b></code>
+<ol>
+<li>github <a href="https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook">link</a>, dockerhub <a href="https://hub.docker.com/r/jupyter/datascience-notebook/">link</a></li>
+<li>took about 20 minutes to start up <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f641.png" alt="🙁" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>docker node ls</li>
+<li>docker node inspect &lt;node-name&gt;</li>
+<li>docker service ls</li>
+<li>docker service inspect &lt;node-service-name&gt;
+<ol>
+<li>docker service inspect dsnb</li>
+</ol>
+</li>
+<li>docker service ps &lt;node-service-name&gt;
+<ol>
+<li><code><b>docker service ps dsnb</b></code></li>
+</ol>
+</li>
+<li><code><b>containerid=`docker ps | grep jupyter | cut -d' ' -f1`</b></code></li>
+<li><code><b>docker exec -it $containerid bash</b></code></li>
+<li>Connect to port on Manager to access services on worker nodes
+<ol>
+<li>CloudFormation-&gt;Stacks-&gt;Docker-&gt;Outputs-&gt;DefaultDNSTarget for web address</li>
+<li><code><b>jupyter notebook list</b></code></li>
+<li>Open &lt;DefaultDNSTarget&gt;:&lt;port&gt;?token=&lt;token&gt; in web browser
+<ol>
+<li>Use 8888 for &lt;port&gt; in this example</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Make New Python 2 Notebook and then:
+<ol>
+<li>!git clone https://github.com/TrackDR/Geospatial-Jupyter-Notebooks</li>
+<li>!git clone https://github.com/rajathkumarmp/Python-Lectures
+<ol>
+<li>Python-Lectures/01.ipynb to start, rest are good too</li>
+</ol>
+</li>
+<li>Open notebook out of any cloned directory</li>
+</ol>
+</li>
+<li><em><strong>CloudFormation-&gt;Stacks-&gt;Docker-&gt;Other Actions-&gt;Delete Stack when done using</strong></em></li>
+</ol>
+<p>Docs</p>
+<ol>
+<li><a href="https://docs.docker.com/docker-for-aws/deploy/">Deploy</a> your app</li>
+</ol>
+<p>Other Jupyter/Ipython Github Repositories to clone</p>
+<ol>
+<li>!git clone https://github.com/TrackDR/ModdedIpythonNotebooks</li>
+<li>!git clone https://github.com/JWarmenhoven/ISLR-python</li>
+<li>!git clone https://github.com/jdwittenauer/ipython-notebooks
+<ol>
+<li>notebooks/ipython-notebooks/notebooks/language/Intro.ipynb to start</li>
+</ol>
+</li>
+<li>!git clone https://github.com/masinoa/machine_learning</li>
+<li>!git clone https://github.com/jakevdp/sklearn_tutorial</li>
+<li>!git clone https://github.com/scikit-image/skimage-tutorials
+<ol>
+<li>skimage-tutorials/lectures/00_images_are_arrays.ipynb</li>
+</ol>
+</li>
+<li>!git clone https://github.com/spatialaudio/digital-signal-processing-lecture
+<ol>
+<li><a href="http://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/">docs</a></li>
+</ol>
+</li>
+<li>!git clone https://github.com/AllenDowney/ThinkDSP</li>
+<li>!git clone https://github.com/AllenDowney/ThinkBayes2</li>
+<li>!git clone https://github.com/AllenDowney/ThinkStats2</li>
+<li>!git clone https://github.com/AllenDowney/ThinkComplexity2</li>
+<li>!git clone https://github.com/AllenDowney/ModSimPy</li>
+<li>!git clone https://github.com/AllenDowney/CompStats</li>
+<li>!git clone https://github.com/multivac61/wave_digital_notebook</li>
+<li>!git clone https://github.com/learnml/machine-learning-specialization</li>
+<li>!git clone https://github.com/ipython/ipython-in-depth</li>
+<li>!git clone https://github.com/yhilpisch/dx</li>
+<li>!git clone https://github.com/yhilpisch/py4fi</li>
+<li>!git clone https://github.com/quantopian/research_public</li>
+<li>!git clone https://github.com/darribas/gds_scipy16</li>
+<li><a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#introductory-tutorials">https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#introductory-tutorials</a></li>
+</ol>
+<p>Docker images to run</p>
+<ol>
+<li>Jupyter
+<ol>
+<li>jupyter/datascience-notebook</li>
+</ol>
+</li>
+</ol>
+<p>Docker images that will need to modify to run here, but looking to the future</p>
+<ol>
+<li>Kaggle
+<ol>
+<li>kaggle/python</li>
+<li>kaggle/rstats</li>
+</ol>
+</li>
+<li>Quantlib
+<ol>
+<li>docker service create &#8211;name quantlib -p 8888:8888 lballabio/quantlib-notebook</li>
+<li>Videos at <a href="https://vimeo.com/channels/qlnotebooks">vimeo</a>, blog w/<a href="http://gouthamanbalaraman.com/blog/quantlib-python-tutorials-with-examples.html">ex</a>, <a href="https://leanpub.com/quantlibpythoncookbook">book</a></li>
+</ol>
+</li>
+<li>QSTK
+<ol>
+<li>ipython <a href="https://github.com/ruippeixotog/docker-qstk">docker image</a></li>
+<li>ontouchstart <a href="https://hub.docker.com/r/ontouchstart/qstk/">docker image</a></li>
+<li>Twisted logic <a href="https://hub.docker.com/r/twistedogic/qstk/">docker image</a></li>
+</ol>
+</li>
+<li>BitQuant <a href="https://github.com/joequant/bitquant">docker image</a></li>
+<li>Needs Nvidia-docker so may not work here
+<ol>
+<li>Torch/iTorch/Ubuntu 14.04 Docker <a href="https://registry.hub.docker.com/u/kaixhin/torch/">image</a>: docker pull kaixhin/torch</li>
+<li>Torch/iTorch/CUDA 7/Ubuntu 14.04 Docker <a href="https://registry.hub.docker.com/u/kaixhin/cuda-torch/">image</a>: docker pull kaixhin/cuda-torch</li>
+</ol>
+</li>
+<li>OSGeo <a href="https://wiki.osgeo.org/wiki/DockerImages">list of Docker images</a></li>
+<li>Docker container for QGIS models (<a href="https://github.com/nuest/docker-qgis-model">github</a>, <a href="https://hub.docker.com/r/nuest/docker-qgis-model/">dockerhub</a>)
+<ul>
+<li>can use with OSGeoLive</li>
+</ul>
+</li>
+<li>My <a href="https://github.com/TrackDR/dockerfiles">Dockerfiles</a> at GitHub</li>
+</ol>
+<p>Alternatives to Docker for AWS for running Jupyter Notebooks</p>
+<ol>
+<li>CoCalc (subscription based)
+<ol>
+<li><a href="https://cocalc.com">Website</a>, <a href="https://cocalc.com/policies/pricing.html">Pricing</a>, <a href="https://en.wikipedia.org/wiki/CoCalc">Wikipedia</a>, <a href="https://chrome.google.com/webstore/detail/the-sagemath-cloud/eocdndagganmilahaiclppjigemcinmb">Chrome Extension</a>, <a href="https://github.com/sagemathinc/cocalc">GitHub</a></li>
+<li>Or <a href="https://github.com/sagemathinc/cocalc/blob/master/src/dev/docker">Run your own CoCalc</a> using their <a href="https://github.com/sagemathinc/cocalc/blob/master/src/dev/docker/README.md">Docker image</a></li>
+</ol>
+</li>
+<li>Python Anywhere (<a href="https://www.pythonanywhere.com">website</a>, <a href="http://blog.pythonanywhere.com/">blog</a>, <a href="https://help.pythonanywhere.com/pages/">help</a>, <a href="https://www.pythonanywhere.com/forums/">forums</a>, <a href="https://www.pythonanywhere.com/pricing/">pricing</a>, <a href="https://www.pythonanywhere.com/batteries_included/">modules</a>, <a href="https://twitter.com/pythonanywhere">twitter</a>, <a href="https://www.pythonanywhere.com/details/education">edu</a>, <a href="https://help.pythonanywhere.com/pages/Education">edu help</a>)</li>
+<li>Anaconda Enterprise Notebooks (Pricey! <a href="https://www.continuum.io/anaconda-enterprise-notebooks">Website</a>)</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/06/27/docker-for-aws/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1118</post-id>	</item>
+		<item>
+		<title>My Video Game Playlists in Japanese for Immersion</title>
+		<link>http://www.jeremydjacksonphd.com/2017/06/07/my-video-game-playlists-in-japanese-for-immersion/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/06/07/my-video-game-playlists-in-japanese-for-immersion/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Wed, 07 Jun 2017 18:29:48 +0000</pubDate>
+				<category><![CDATA[Foreign Languages]]></category>
+		<category><![CDATA[Japanese]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=982</guid>
+
+					<description><![CDATA[I have taken my own advice and started playing a few games in Japanese to try to learn the language better.  I record them and then upload to YouTube.  Here are a few of my current playlists. Labyrinth of Refrain &#8230; <a href="http://www.jeremydjacksonphd.com/2017/06/07/my-video-game-playlists-in-japanese-for-immersion/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I have taken my own advice and started playing a few games in Japanese to try to learn the language better.  I record them and then upload to YouTube.  Here are a few of my current playlists.</p>
+<p>Labyrinth of Refrain</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647F9J6kjEJ4AgBIR88o6C3cn" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Shining Resonance Refrain</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647Hax5vIRwBAquW81NyGO4Ag" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Ys VIII</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647G-WKhoYtsJOm3sF-E6m4dQ" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Bayonetta</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647E-gpCx_eqqWWnf6iqkdIoa" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Atelier Lydie and Suelle</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647Ftd6bZ8PxdionDkOIvm08H" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>世界樹の迷宮X &#8211; Etrian Odyssey X</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647EDchZBCG_aXDagVNhMRMSW" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>魔界戦記ディスガイア Refine</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647Ev6VG-P0OeDPqs8lUB3ugs" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>God Wars: The Complete Legend</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GCdlv794MJ_PVevm6fshkv" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>The Lost Child</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HkE1BjZTxglkH9fW16zlQf" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>ゼルダ無双 ハイラルオールスターズ DX &#8211; Hyrule Warriors Definitive Edition &#8211; Nintendo Switch</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647EY2T7XTB7O5AQGOimgxADt" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Snack World Trejarers Gold &#8211; Nintendo Switch</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GGuXjghPgY5npXt7oj05Yf" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>アライアンス・アライブ Alliance Alive &#8211; Nintendo 3DS</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HyFKAdftCLJmg_LV9QVaUb" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Radiant Historia: Perfect Chronology</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647FILR0yolo2NzkX36DhGULA" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Deep Strange Journey 3DS &#8211; Japanese Version</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647He4Qc-vofP0VEN06LN3KPI" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Dragon Questドラゴンクエスト (3DS Virtual Console)</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HLPZyshLeUHsaJgvx6phB6" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Pocket Monsters: Silver Version</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647G8AfuT_vD7IRauhrGw8thi" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Yokai Watch Busters 2: Treasure Legend Banbaraya Sword</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647EeoGXSdHjsmqyYhD2Nq4jS" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Etrian Mystery Dungeon 2</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647ELrJ4NX7rpMTlntJwAM0Bt" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p class="pl-header-title yt-uix-inlineedit-edit c4-module-is-editable c4-visible-on-hover-container" tabindex="0">モンスターハンター ストーリーズ (Monster Hunter Stories)</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HNezGdHZcmQ1yfAvLQTVS4" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Xenoblade Chronicles 2</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GwtHmb1VVTsO9H2iKDlGES" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Fire Emblem Warriors</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GJxg7PzyixW3P9zgHcr4V4" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>One Piece Pirate Warriors 3</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GeB6hEbXCriCmzLCUjmaCu" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>One Piece Unlimited World Red Deluxe Edition</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647EefkUpWH-t4SDZnZksTAqP" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Monster Hunter XX</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647F_QXnWxs_WSnq0isQ7SIGP" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Duolingo Japanese</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647F7Ygh4NzxFEnUidiCgcIYU" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Duolingo Hiragana 2</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GnPQmn_bSxOFjcfU8uL4UT" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Duolingo Hiragana 3</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HifEiW_Y3iIHvMrSDo0z9T" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>I am Setsuna (Nintendo Switch) Jap/Eng</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647H1CXuHJ67tZ639Yi6BZFzn" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Disgaea 5 Complete (Nintendo Switch) Jap/Eng</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HENwjiO1G_vGpI_urkdzPX" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Minna de WaiWai! Spelunker</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HWp5cp-u0CWQA-WM4jlJC3" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Corpse Party 3DS Jap/Eng</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647E3WvPqTZtGhdvwjWnfc34Q" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Puyo Pop Fever DS</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GGx8OpBItXE6zoXN9OObt3" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>PuyoPuyo Tetris Japanese Demo</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed/Ok3iZvfNik8?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HTywRIwyI25csGBuvnYs8F" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>マリオ&amp;ルイージRPG1 DX #1 (Mario &amp; Luigi: Super Star Saga + Bowser&#8217;s Minions)</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647FQw1F69xcs2h2i-C11CWTV" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Mindsnacks Japanese</p>
+<p>Pokémon Ultra Moon</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/06/07/my-video-game-playlists-in-japanese-for-immersion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">982</post-id>	</item>
+		<item>
+		<title>Geospatial Python</title>
+		<link>http://www.jeremydjacksonphd.com/2017/06/06/geospatial-python/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/06/06/geospatial-python/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Tue, 06 Jun 2017 22:12:04 +0000</pubDate>
+				<category><![CDATA[Geospatial]]></category>
+		<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=925</guid>
+
+					<description><![CDATA[Libraries OSGeo (github, website) GDAL (github, website) GRASS github, website, wiki GRASS and Python Python Scripting Library GRASS GIS Python library docs pygrass wiki, docs1, docs2 QGIS (org github, software github, website, twitter) PyQGIS Cookbook apt-get install qgis qgis-plugin-grass OSGeoLive (bootable &#8230; <a href="http://www.jeremydjacksonphd.com/2017/06/06/geospatial-python/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Libraries</p>
+<ul>
+<li>OSGeo (<a href="https://github.com/OSGeo">github</a>, <a href="http://www.osgeo.org/">website</a>)
+<ul>
+<li>GDAL (<a href="https://github.com/OSGeo/gdal">github</a>, <a href="http://www.gdal.org/">website</a>)</li>
+<li>GRASS
+<ul>
+<li><a href="https://github.com/GRASS-GIS">github</a>, <a href="https://grass.osgeo.org/">website</a>, <a href="https://grasswiki.osgeo.org/wiki/GRASS-Wiki">wiki</a></li>
+<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_and_Python">GRASS and Python</a></li>
+<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library">Python Scripting Library</a></li>
+<li><a href="https://grass.osgeo.org/grass70/manuals/libpython/">GRASS GIS Python library docs</a></li>
+<li>pygrass
+<ul>
+<li><a href="https://grasswiki.osgeo.org/wiki/Python/pygrass">wiki</a>, <a href="http://pygrass.readthedocs.io/en/latest/">docs1</a>, <a href="https://grass.osgeo.org/grass70/manuals/libpython/pygrass_index.html">docs2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>QGIS (<a href="https://github.com/qgis">org github</a>, <a href="https://github.com/qgis/QGIS">software github</a>, <a href="http://www.qgis.org">website</a>, <a href="https://twitter.com/qgis">twitter</a>)
+<ul>
+<li>PyQGIS <a href="http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/index.html">Cookbook</a></li>
+<li>apt-get install qgis qgis-plugin-grass</li>
+</ul>
+</li>
+<li>OSGeoLive (bootable usb, dvd, vm) (<a href="https://live.osgeo.org/en/index.html">website</a>, <a href="https://live.osgeo.org/en/presentation/index.html">presentation</a>, <a href="https://github.com/OSGeo/OSGeoLive">github</a>)</li>
+</ul>
+</li>
+<li>Geospatial Python (<a href="https://github.com/GeospatialPython">github</a>, <a href="http://geospatialpython.com/">website</a>)
+<ul>
+<li>pyshp (<a href="https://github.com/GeospatialPython/pyshp">github</a>)</li>
+<li><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/">windows binary</a> or winpython install: pip install pyshp</li>
+</ul>
+</li>
+<li>Toblerity (<a href="http://toblerity.org/">website</a>, <a href="https://github.com/Toblerity">github</a>)
+<ul>
+<li>Fiona (<a href="https://github.com/Toblerity/Fiona">github</a>, <a href="http://toblerity.org/fiona/">docs</a>, <a href="https://github.com/Toblerity/Fiona/tree/master/examples">examples</a>, <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona">windows binary</a>)
+<ul>
+<li>manually install six, cligj, munch, argparse, and <strong>ordereddict</strong> on windows</li>
+<li>pip install will get these for you on other systems</li>
+<li><a href="https://github.com/winpython/winpython/issues/303">Installation for winpython</a></li>
+</ul>
+</li>
+<li>Shapely (<a href="https://github.com/Toblerity/Shapely">github</a>, <a href="http://toblerity.org/shapely/manual.html">manual</a>, <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely">windows binary</a>)
+<ul>
+<li><a href="https://github.com/winpython/winpython/issues/303">Installation for winpython</a></li>
+<li>Wraps <a href="https://trac.osgeo.org/geos/">GEOS</a> C++</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mapbox (<a href="https://github.com/mapbox">github</a>, <a href="https://www.mapbox.com/">website</a>)
+<ul>
+<li>Rasterio (<a href="https://github.com/mapbox/rasterio">github</a>) (needs gdal)</li>
+</ul>
+</li>
+<li>Laspy (<a href="https://github.com/laspy/laspy">github</a>, <a href="http://laspy.readthedocs.io/en/latest/">docs</a>)</li>
+<li>PySAL (Python Spatial Analysis Library) (<a href="http://pysal.github.io/">Homepage</a>)
+<ul>
+<li>github <a href="https://github.com/pysal">user</a>, <a href="https://github.com/pysal/pysal">repo</a>, <a href="https://github.com/pysal/notebooks">jupyter nb</a>, <a href="https://github.com/pysal/pysal_examples">data</a>, <a href="https://github.com/pysal/notebooks/blob/master/courses.md">courses</a></li>
+<li><a href="http://pysal.readthedocs.io/en/latest/">docs</a>, <a href="http://pysal.readthedocs.io/en/latest/users/tutorials/index.html">tutorials</a>, <a href="http://pysal.github.io/news.html">news</a></li>
+</ul>
+</li>
+<li>NetworkX (<a href="https://networkx.github.io/">homepage</a>, <a href="https://en.wikipedia.org/wiki/NetworkX">wikipedia</a>)
+<ul>
+<li>github <a href="https://github.com/networkx/">user</a>, <a href="https://github.com/networkx/networkx">repo</a>, <a href="https://github.com/networkx/notebooks">jupyter nb</a></li>
+<li><a href="https://networkx.readthedocs.io/en/stable/">docs</a>, <a href="https://networkx.github.io/documentation/stable/auto_examples/index.html">examples</a>, <a href="https://www.cl.cam.ac.uk/~cm542/teaching/2010/stna-pdfs/stna-lecture8.pdf">lecture</a>, <a href="http://www.python-course.eu/networkx.php">ex</a></li>
+</ul>
+</li>
+<li>GeoPandas (<a href="https://github.com/geopandas/geopandas">github</a>, <a href="http://geopandas.org/">docs</a>, <a href="http://geopandas.readthedocs.io/en/latest/">docs2</a>)</li>
+<li>osmgraph (Create NetworkX graphs from OpenStreetMap data) (<a href="https://github.com/Mapkin/osmgraph">github</a>)</li>
+<li>OSMnx (Create NetworkX graphs from OpenStreetMap data)
+<ul>
+<li><a href="http://geoffboeing.com/2016/11/osmnx-python-street-networks/">blog post</a>, <a href="https://github.com/gboeing/osmnx">github</a>, <a href="https://github.com/gboeing/osmnx-examples">github examples</a>, <a href="http://geoffboeing.com/publications/osmnx-complex-street-networks/">abstract</a>, <a href="https://www.researchgate.net/publication/309738462_OSMnx_New_Methods_for_Acquiring_Constructing_Analyzing_and_Visualizing_Complex_Street_Networks">paper</a>, <a href="https://dataverse.harvard.edu/dataverse/osmnx-street-networks">data</a>, <a href="https://github.com/gboeing/urban-data-science">github course</a>, <a href="https://github.com/gboeing/data-visualization">github data-viz</a>, <a href="http://osmnx.readthedocs.io/en/stable/index.html">docs</a></li>
+</ul>
+</li>
+<li>python-s2g (S)hapefile (2) Graph/network converter in Python (<a href="https://github.com/caesar0301/s2g">github</a>)</li>
+<li>Dimensionally Extended nine-Intersection Model (DE-9IM)
+<ul>
+<li>Wikipedia <a href="https://en.wikipedia.org/wiki/DE-9IM">article</a></li>
+<li>Python <a href="https://pypi.python.org/pypi/de9im">package</a></li>
+<li>Bitbucket <a href="https://bitbucket.org/sgillies/de9im">source</a></li>
+</ul>
+</li>
+</ul>
+<p>Ecosystems</p>
+<ul>
+<li>Winpython with Spyder (<a href="http://winpython.github.io">website</a>)
+<ul>
+<li>Windows Library Binaries (<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/">website</a>)</li>
+</ul>
+</li>
+<li>Anaconda (<a href="https://www.continuum.io/downloads">website</a>)</li>
+</ul>
+<p>Docker</p>
+<ul>
+<li>OSGeo <a href="https://wiki.osgeo.org/wiki/DockerImages">list of Docker images</a></li>
+<li>Docker container for QGIS models (<a href="https://github.com/nuest/docker-qgis-model">github</a>, <a href="https://hub.docker.com/r/nuest/docker-qgis-model/">dockerhub</a>)
+<ul>
+<li>can use with OSGeoLive</li>
+</ul>
+</li>
+</ul>
+<p>Examples</p>
+<ul>
+<li>Plotting 3D Polygons in matplotlib (<a href="http://stackoverflow.com/questions/4622057/plotting-3d-polygons-in-python-matplotlib">site</a>)</li>
+<li>Read and plot 2D shapefile with matplotlib (<a href="http://gis.stackexchange.com/questions/131716/plot-shapefile-with-matplotlib">site</a>)</li>
+<li>Extract 3D points from shapefile (<a href="http://gis.stackexchange.com/questions/31159/to-extract-3d-points-from-a-shp-file">site</a>)</li>
+<li>PyShp and Shapely for modifying and writing shapefiles (<a href="https://gis.stackexchange.com/questions/52705/how-to-write-shapely-geometries-to-shapefiles">site</a>)</li>
+<li>Add field to existing shapefile (<a href="http://geospatialpython.com/search?q=add+field+to+existing+shapefile">site</a>)</li>
+<li>AlphaShapes at HumanGeo/DigitalGlobe (<a href="http://blog.thehumangeo.com/2014/05/12/drawing-boundaries-in-python/">site</a>, <a href="https://github.com/dwyerk/boundaries">github</a>, <a href="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/belair/alpha.html">alphashapes</a>, <a href="https://en.wikipedia.org/wiki/Alpha_shape">wikipedia</a>, <a href="https://stackoverflow.com/questions/41268547/estimating-an-area-of-an-image-generated-by-a-set-of-points-alpha-shapes">stackoverflow</a>, <a href="http://www.mrzv.org/software/dionysus/python/alphashapes.html">dionysus</a> and <a href="http://www.mrzv.org/software/dionysus/examples/alphashape.html">ex</a>, <a href="https://plot.ly/python/alpha-shapes/">plotly</a>, <a href="https://github.com/mlaloux/Python--alpha-shape_concave_hull">frenchex</a>)</li>
+<li>NetworkX graph <a href="http://www.python-course.eu/networkx.php">example</a></li>
+<li>Read and write shapefiles using NetworkX (<a href="https://networkx.github.io/documentation/networkx-1.10/reference/readwrite.nx_shp.html">doc</a>)</li>
+<li>Drawing nodes with lat, lon coordinates using NetworkX (<a href="https://stackoverflow.com/questions/32488772/drawing-nodes-with-coordinates-in-correct-position-using-networkx-matplotlib">site</a>)</li>
+<li>My github <a href="https://github.com/TrackDR/Geospatial-Jupyter-Notebooks">examples</a></li>
+</ul>
+<p>Courses</p>
+<ul>
+<li>GeoPython &#8211; AutoGIS 2016 at University of Helsinki (<a href="https://automating-gis-processes.github.io/2016/index.html">webpage</a>)</li>
+<li>Geographic Data Science with PySAL and the pydata stack Beginner | SciPy 2016 | Sergio Rey (<a href="https://www.youtube.com/watch?v=TY4QWnnd4jY&amp;t=6278s">youtube</a>, <a href="https://github.com/darribas/gds_scipy16">github</a>, <a href="http://darribas.org/gds_scipy16/">page</a>)</li>
+<li></li>
+</ul>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/06/06/geospatial-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">925</post-id>	</item>
+		<item>
+		<title>My Video Game Playlists in Chinese for Immersion</title>
+		<link>http://www.jeremydjacksonphd.com/2017/03/20/my-video-game-playlists-in-chinese-for-immersion/</link>
+					<comments>http://www.jeremydjacksonphd.com/2017/03/20/my-video-game-playlists-in-chinese-for-immersion/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Mon, 20 Mar 2017 16:21:08 +0000</pubDate>
+				<category><![CDATA[Chinese]]></category>
+		<category><![CDATA[Foreign Languages]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=450</guid>
+
+					<description><![CDATA[I have taken my own advice and started playing a few games in Mandarin Chinese to try to learn the language better.  I record them and then upload to YouTube.  Here are a few of my current playlists. Zelda Musou: &#8230; <a href="http://www.jeremydjacksonphd.com/2017/03/20/my-video-game-playlists-in-chinese-for-immersion/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I have taken my own advice and started playing a few games in Mandarin Chinese to try to learn the language better.  I record them and then upload to YouTube.  Here are a few of my current playlists.</p>
+<p>Zelda Musou: Hyrule All Stars Edition (Hyrule Warriors Definitive Edition) &#8211; Nintendo Switch</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647Eq5-g75xfWvp5hY1EM6om7" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Pokémon Moon – 3DS</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647F6nftF0TgqhyZNuzxPJfRH" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>The Gate of the Firmament</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647Ho66T-SkBcNv2Vq4CAi0dO" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Season of 12 Colors</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647GNCZ30Hgg_hIx2z-67h3SJ" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Chinese Skill</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647H6f7PFwveoLvf3ZnL3sPBZ" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Mindsnacks Mandarin</p>
+<p><iframe loading="lazy" class="youtube-player" width="584" height="329" src="https://www.youtube.com/embed?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent&#038;listType=playlist&#038;list=PLc7mKAo-647HccV9IlrNdKMAlXS1TioMl" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></p>
+<p>Rise of The Tomb Raider</p>
+<p>Half-Life 2</p>
+<p>My Chinese Coach – DS</p>
+<p>The Talos Principle</p>
+<p>Mayjasmine episode01 What is God?</p>
+<p>Gaokao.Love.100Days</p>
+<p>Romance of the Three Kingdoms 13</p>
+<p>Weapon Shop Fantasy</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2017/03/20/my-video-game-playlists-in-chinese-for-immersion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">450</post-id>	</item>
+		<item>
+		<title>Quantitative Finance Resources</title>
+		<link>http://www.jeremydjacksonphd.com/2016/06/04/quantitative-finance-resources/</link>
+					<comments>http://www.jeremydjacksonphd.com/2016/06/04/quantitative-finance-resources/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Sat, 04 Jun 2016 19:26:27 +0000</pubDate>
+				<category><![CDATA[Quantitative Finance]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=60</guid>
+
+					<description><![CDATA[Datasets Quandl: page (stocks guide 1, stocks guide 2) Python api Browse databases Premium content Google Finance (page) Yahoo Finance (page) Kaggle Winton Stock Market Challenge (page, data) Software/Frameworks Quantopian (main, github) Python with Finance Dx Analytics (main, github) Python for &#8230; <a href="http://www.jeremydjacksonphd.com/2016/06/04/quantitative-finance-resources/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Datasets</p>
+<ol>
+<li>Quandl: <a href="https://www.quandl.com/">page</a> (<a href="https://blog.quandl.com/stock-market-data-ultimate-guide-part-1">stocks guide 1</a>, <a href="https://blog.quandl.com/stock-market-data-the-ultimate-guide-part-2">stocks guide 2</a>)
+<ol>
+<li>Python <a href="https://www.quandl.com/tools/python">api</a></li>
+<li><a href="https://www.quandl.com/browse">Browse</a> databases</li>
+<li>Premium <a href="https://www.quandl.com/vendors">content</a></li>
+</ol>
+</li>
+<li>Google Finance (<a href="https://www.google.com/finance">page</a>)</li>
+<li>Yahoo Finance (<a href="http://finance.yahoo.com/">page</a>)</li>
+<li>Kaggle
+<ol>
+<li>Winton Stock Market Challenge (<a href="https://www.kaggle.com/c/the-winton-stock-market-challenge">page</a>, <a href="https://www.kaggle.com/c/the-winton-stock-market-challenge/data">data</a>)</li>
+</ol>
+</li>
+</ol>
+<p>Software/Frameworks</p>
+<ol>
+<li>Quantopian (<a href="https://www.quantopian.com/">main</a>, <a href="https://github.com/quantopian">github</a>)</li>
+<li>Python with Finance
+<ol>
+<li>Dx Analytics (<a href="http://dx-analytics.com/">main</a>, <a href="https://github.com/yhilpisch/dx">github</a>)</li>
+<li>Python for Finance (<a href="http://python-for-finance.com/">page</a>)</li>
+<li>Derivative Analytics with Python (<a href="http://derivatives-analytics-with-python.com/">page</a>)</li>
+<li>Quant Platform (<a href="http://quant-platform.com/Python_Quant_Platform.html">page</a>)</li>
+<li>Python Quants (<a href="https://tpq.io">page</a>)</li>
+</ol>
+</li>
+<li>QSTK (<a href="http://wiki.quantsoftware.org/index.php?title=QuantSoftware_ToolKit">page</a>, <a href="https://github.com/QuantSoftware/QuantSoftwareToolkit">github</a>)</li>
+<li>Quantlib (<a href="http://quantlib.org/index.shtml">page</a>, <a href="https://github.com/lballabio/QuantLib">github</a>)</li>
+<li>Investopedia (<a href="http://www.investopedia.com/">page</a>, <a href="http://www.investopedia.com/simulator/">simulator</a>)</li>
+</ol>
+<p>Videos/Courses</p>
+<ol>
+<li>Computational Investing Part 1 &#8211; GT &#8211; <a href="https://www.coursera.org/learn/computational-investing/">Coursera Page</a></li>
+<li>Machine Learning for Trading &#8211; GT &#8211; <a href="https://www.udacity.com/course/machine-learning-for-trading--ud501">Udacity Page</a>
+<ol>
+<li>Intro material (<a href="https://www.youtube.com/playlist?list=PLFyHXClT3SShrqWkxxBXjF-pIllVHrDij">youtube playlist</a>)</li>
+<li>Machine learning (<a href="https://www.youtube.com/playlist?list=PLFyHXClT3SSgLy0lkZeVs-BBoNLaR7HGW">youtube playlist</a>)</li>
+</ol>
+</li>
+<li>UW &#8211; Intro to Computational Finance (<a href="https://www.coursera.org/course/compfinance">Cousera</a>)</li>
+<li>Quantopian (<a href="https://www.youtube.com/playlist?list=PLRFLF1OxMm_WUX97SE1HwQQIpkcWLVCvB">Getting Started</a>)</li>
+<li>Sentdex
+<ol>
+<li>Python for Finance with Zipline and Quantopian (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDeN06s5ervxTfTcVvt-xpZN">youtube playlist</a>)</li>
+<li>Scikit-learn ML with Python (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDd0flgGphKCej-9jp-QdzZ3">youtube playlist</a>)</li>
+<li>Programming to aid Fundamental Investing (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDejNczz7dbpyu3JnwUBvNch">youtube playlist</a>)</li>
+<li>ML for Forex, Stock Analysis, Algo Trading (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO">youtube playlist</a>)</li>
+<li>Big Data with Stock Trading (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDcR-u9O8LyLR7URiKuW-XZq">youtube playlist</a>)</li>
+<li>Monte Carlo Python (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDdhOnp-FnVStDsALpYk2hk0">youtube playlist</a>)</li>
+<li>Matplotlib (<a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDc2QjQOkZ4rtLYZVll_sZFZ">youtube playlist</a>)</li>
+</ol>
+</li>
+<li>Python Quants (<a href="https://www.youtube.com/channel/UC9R16BvXE6sSjpFiAFmNAFQ">page</a>)
+<ol>
+<li>2014 For Python Quants (<a href="https://www.youtube.com/playlist?list=PLewASH3WdJOOWvTVq217wumNhxx6FM1TR">playlist</a>)</li>
+</ol>
+</li>
+<li>Cousera &#8211; Michigan
+<ol>
+<li>Principles of Valuation: Time Value of Money (<a href="https://www.coursera.org/learn/time-value-money/">page</a>)</li>
+<li>Risk and Return (<a href="https://www.coursera.org/learn/risk-and-return/">page</a>)</li>
+<li>Alternative Methods (<a href="https://www.coursera.org/learn/valuation-methods/">page</a>)</li>
+<li>Projects and Companies (<a href="https://www.coursera.org/learn/company-valuation/">page</a>)</li>
+<li>Capstone (<a href="https://www.coursera.org/learn/valuation-project/">page</a>)</li>
+</ol>
+</li>
+<li>Cousera &#8211; Chicago &#8211; Asset Pricing
+<ol>
+<li><a href="https://www.coursera.org/course/assetpricing">Part 1</a></li>
+<li><a href="https://www.coursera.org/course/assetpricing2">Part 2</a></li>
+</ol>
+</li>
+<li>Quantlib
+<ol>
+<li>vimeo <a href="https://vimeo.com/channels/qlnotebooks">page</a>, <a href="https://www.youtube.com/playlist?list=PLu_PrO8j6XAvOAlZND9WUPwTHY_GYhJVr">youtube playlist</a></li>
+<li><a href="https://leanpub.com/thequantlibnotebooks">ebook</a></li>
+<li><a href="http://twitter.com/lballabio">twitter</a></li>
+<li>Implementing Quantlib (<a href="http://www.implementingquantlib.com/">blog</a>)</li>
+<li><a href="http://gouthamanbalaraman.com/blog/quantlib-python-tutorials-with-examples.html">Examples</a> in python, <a href="http://gouthamanbalaraman.com/">blog</a></li>
+</ol>
+</li>
+<li>Coursera &#8211; Wharton
+<ol>
+<li>Quant Modeling (<a href="https://www.coursera.org/learn/wharton-quantitative-modeling">page</a>)</li>
+<li>Spreadsheets &amp; Models (<a href="https://www.coursera.org/learn/wharton-introduction-spreadsheets-models">page</a>)</li>
+<li>Risk Models (<a href="https://www.coursera.org/learn/wharton-risk-models">page</a>)</li>
+<li>Decision Making and Scenarios (<a href="https://www.coursera.org/learn/wharton-decision-making-scenarios">page</a>)</li>
+<li>Capstone (page)</li>
+</ol>
+</li>
+<li>Cousera &#8211; Columbia
+<ol>
+<li>Financial Engineering and Risk Management I (<a href="https://www.coursera.org/learn/financial-engineering-1">page</a>)</li>
+<li>Financial Engineering and Risk Management II (<a href="https://www.coursera.org/learn/financial-engineering-2">page</a>)</li>
+</ol>
+</li>
+<li>Khan Aademy
+<ol>
+<li>Valuation and Investing (<a href="https://www.youtube.com/playlist?list=PL370CD04C45C6BB81">youtube playlist</a>)</li>
+</ol>
+</li>
+</ol>
+<p>Methods</p>
+<ol>
+<li>Sentiment Analysis</li>
+<li>Machine Learning</li>
+<li>Deep Learning</li>
+<li>MDPs, RL, and QL</li>
+</ol>
+<p>Books</p>
+<ol>
+<li>Hull (<a href="https://www.amazon.com/gp/product/013447208X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=013447208X&amp;linkCode=as2&amp;tag=streaminunico-20&amp;linkId=abbafe2a80d6e8589722b9f6d4bfe9fd">Options, Futures, and Other Derivatives (10th Edition) on Amazon</a>)</li>
+<li>R Cookbook (<a href="https://www.amazon.com/gp/product/0596809158/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596809158&amp;linkCode=as2&amp;tag=streaminunico-20&amp;linkId=d084b5a03c8aad9ca56d5ef724121c2f">Amazon</a>)</li>
+</ol>
+<p>Papers</p>
+<ol>
+<li>ArXiv &#8211; <a href="https://arxiv.org/archive/q-fin">Q-fin</a>, <a href="https://arxiv.org/list/q-fin/recent">Qfin recent</a>, <a href="https://twitter.com/qfinancepapers">twitter</a>
+<ol>
+<li><b>q-fin.CP &#8211; Computational Finance</b> (<a href="https://arxiv.org/list/q-fin.CP/new">new</a>, <a href="https://arxiv.org/list/q-fin.CP/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.CP/current">current month</a>)
+<div class="description">Computational methods, including Monte Carlo, PDE, lattice and other numerical methods with applications to financial modeling</div>
+</li>
+<li><b>q-fin.EC &#8211; Economics</b> (<a href="https://arxiv.org/list/q-fin.EC/new">new</a>, <a href="https://arxiv.org/list/q-fin.EC/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.EC/current">current month</a>)
+<div class="description">Economics, including micro and macro economics, international economics, theory of the firm, labor economics, and other economic topics outside of finance</div>
+</li>
+<li><b>q-fin.GN &#8211; General Finance</b> (<a href="https://arxiv.org/list/q-fin.GN/new">new</a>, <a href="https://arxiv.org/list/q-fin.GN/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.GN/current">current month</a>)
+<div class="description">Development of general quantitative methodologies with applications in finance</div>
+</li>
+<li><b>q-fin.MF &#8211; Mathematical Finance</b> (<a href="https://arxiv.org/list/q-fin.MF/new">new</a>, <a href="https://arxiv.org/list/q-fin.MF/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.MF/current">current month</a>)
+<div class="description">Mathematical and analytical methods of finance, including stochastic, probabilistic and functional analysis, algebraic, geometric and other methods</div>
+</li>
+<li><b>q-fin.PM &#8211; Portfolio Management</b> (<a href="https://arxiv.org/list/q-fin.PM/new">new</a>, <a href="https://arxiv.org/list/q-fin.PM/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.PM/current">current month</a>)
+<div class="description">Security selection and optimization, capital allocation, investment strategies and performance measurement</div>
+</li>
+<li><b>q-fin.PR &#8211; Pricing of Securities</b> (<a href="https://arxiv.org/list/q-fin.PR/new">new</a>, <a href="https://arxiv.org/list/q-fin.PR/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.PR/current">current month</a>)
+<div class="description">Valuation and hedging of financial securities, their derivatives, and structured products</div>
+</li>
+<li><b>q-fin.RM &#8211; Risk Management</b> (<a href="https://arxiv.org/list/q-fin.RM/new">new</a>, <a href="https://arxiv.org/list/q-fin.RM/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.RM/current">current month</a>)
+<div class="description">Measurement and management of financial risks in trading, banking, insurance, corporate and other applications</div>
+</li>
+<li><b>q-fin.ST &#8211; Statistical Finance</b> (<a href="https://arxiv.org/list/q-fin.ST/new">new</a>, <a href="https://arxiv.org/list/q-fin.ST/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.ST/current">current month</a>)
+<div class="description">Statistical, econometric and econophysics analyses with applications to financial markets and economic data</div>
+</li>
+<li><b>q-fin.TR &#8211; Trading and Market Microstructure</b> (<a href="https://arxiv.org/list/q-fin.TR/new">new</a>, <a href="https://arxiv.org/list/q-fin.TR/recent">recent</a>, <a href="https://arxiv.org/list/q-fin.TR/current">current month</a>)
+<div class="description">Market microstructure, liquidity, exchange and auction design, automated trading, agent-based modeling and market-making</div>
+</li>
+</ol>
+</li>
+</ol>
+<p>People</p>
+<ol>
+<li>Ipython Quant <a href="https://ipythonquant.wordpress.com/category/quantlib/">blog</a></li>
+</ol>
+<p>Groups</p>
+<ol>
+<li>Reddit
+<ol>
+<li>Algotrading <a href="https://www.reddit.com/r/algotrading/">Reddit</a></li>
+<li>Investing <a href="https://www.reddit.com/r/investing">Reddit</a></li>
+<li>Stock Market <a href="https://www.reddit.com/r/stockmarket">Reddit</a></li>
+<li>Stocks <a href="https://www.reddit.com/r/stocks">Reddit</a></li>
+<li>Forex <a href="https://www.reddit.com/r/forex">Reddit</a></li>
+<li>Finance <a href="https://www.reddit.com/r/Finance">Reddit</a></li>
+<li>Bitcoin <a href="https://www.reddit.com/r/Bitcoin/">Reddit</a></li>
+<li>Bitcoin Markets <a href="https://www.reddit.com/r/bitcoinmarkets">Reddit</a></li>
+</ol>
+</li>
+</ol>
+<p>Docker/AWS</p>
+<ol>
+<li>Quantlib (<a href="https://github.com/lballabio/dockerfiles">docker images</a>)</li>
+<li>QSTK
+<ol>
+<li>ipython <a href="https://github.com/ruippeixotog/docker-qstk">docker image</a></li>
+<li>ontouchstart <a href="https://hub.docker.com/r/ontouchstart/qstk/">docker image</a></li>
+<li>Twisted logic <a href="https://hub.docker.com/r/twistedogic/qstk/">docker image</a></li>
+</ol>
+</li>
+<li>BitQuant <a href="https://github.com/joequant/bitquant">docker image</a></li>
+</ol>
+<p>Terms</p>
+<ol>
+<li>Mathematical Finance (<a href="https://en.wikipedia.org/wiki/Mathematical_finance">Wikipedia page</a>, <a href="https://en.wikipedia.org/wiki/Category:Mathematical_finance">Wikipedia</a> subject)</li>
+<li>Alpha</li>
+<li>Beta</li>
+<li>Sharpe Ratio</li>
+<li>Bollinger Bands</li>
+<li>Drawdown</li>
+<li>SMA (crossover)</li>
+<li>CAPM</li>
+<li>Options</li>
+<li>Futures</li>
+<li>Forex</li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2016/06/04/quantitative-finance-resources/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">60</post-id>	</item>
+		<item>
+		<title>Orthorectification using open source tools</title>
+		<link>http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/</link>
+					<comments>http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/#respond</comments>
+		
+		<dc:creator><![CDATA[jeremydjacksonphd]]></dc:creator>
+		<pubDate>Wed, 13 Apr 2016 16:51:05 +0000</pubDate>
+				<category><![CDATA[Geometry]]></category>
+		<guid isPermaLink="false">http://www.jeremydjacksonphd.com/?p=389</guid>
+
+					<description><![CDATA[OSSIM OSSIMOrthos.pdf GRASS i.ortho.photo Orfeo Toolbox C++ example Detailed Description CLI and Python examples Monteverdi and otb-applications QGIS plugins Pic2Map: docs DEMs SRTM US 30m ASTER]]></description>
+										<content:encoded><![CDATA[<ol>
+<li><a href="http://www.ossim.org/OSSIM/OSSIM_Home.html">OSSIM</a>
+<ol>
+<li><a href="http://download.osgeo.org/ossim/docs/pdfs/">OSSIMOrthos.pdf</a></li>
+</ol>
+</li>
+<li><a href="http://grass.osgeo.org/">GRASS</a>
+<ol>
+<li><a href="http://grass.osgeo.org/gdp/html_grass64/i.ortho.photo.html">i.ortho.photo</a></li>
+</ol>
+</li>
+<li>Orfeo Toolbox
+<ol>
+<li><a href="https://www.orfeo-toolbox.org/doxygen/Projections_2OrthoRectificationExample_8cxx-example.html">C++ example</a></li>
+<li><a href="http://otbcb.readthedocs.org/en/latest/Applications/app_OrthoRectification.html#detailed-description">Detailed Description</a></li>
+<li><a href="http://otbcb.readthedocs.org/en/latest/Applications/app_OrthoRectification.html#example">CLI and Python examples</a></li>
+</ol>
+</li>
+<li><a href="http://otbcb.readthedocs.org/en/latest/recipes/optpreproc.html#ortho-rectification-and-map-projections">Monteverdi and otb-applications</a></li>
+<li>QGIS plugins
+<ol>
+<li><a href="https://plugins.qgis.org/plugins/Pic2Map/">Pic2Map</a>: <a href="https://documents.epfl.ch/groups/l/la/lasig-unit/www/pic2map/documentation/">docs</a></li>
+</ol>
+</li>
+<li>DEMs
+<ol>
+<li><a href="http://www2.jpl.nasa.gov/srtm/">SRTM</a>
+<ol>
+<li><a href="http://dds.cr.usgs.gov/srtm/version2_1/SRTM1/">US 30m</a></li>
+</ol>
+</li>
+<li><a href="http://asterweb.jpl.nasa.gov/">ASTER</a></li>
+</ol>
+</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">389</post-id>	</item>
+	</channel>
+</rss>
