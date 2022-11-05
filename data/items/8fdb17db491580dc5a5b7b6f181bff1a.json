@@ -1,0 +1,7 @@
+{
+  "title": "Bagging as a regularizer",
+  "link": "https://erikbern.com/2013/12/06/bagging-as-a-regularizer.html",
+  "pubDate": "Fri, 06 Dec 2013 00:00:00 +0000",
+  "guid": "https://erikbern.com/2013/12/06/bagging-as-a-regularizer.html",
+  "description": "One thing I encountered today was a trick using bagging as a way to go beyond a point estimate and get an approximation for the full distribution. This can then be used to penalize predictions with larger uncertainty, which helps reducing false positives."
+}

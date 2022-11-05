@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43252 (libde265)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43252",
+  "description": "Libde265 v1.0.8 was discovered to contain a heap-buffer-overflow vulnerability via put_epel_16_fallback in fallback-motion.cc. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted video file.",
+  "dc:date": "2022-11-02T14:15:15Z"
+}
