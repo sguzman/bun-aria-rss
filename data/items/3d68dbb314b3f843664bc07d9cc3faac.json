@@ -1,0 +1,9 @@
+{
+  "title": "Support Vector machines with custom kernels using scikits.learn",
+  "link": "http://fa.bianp.net/blog/2010/support-vector-machines-with-custom-kernels-using-scikitslearn/",
+  "description": "<p>It is now possible (using the development version as of may 2010) to use\nSupport Vector Machines with custom kernels in scikits.learn. How to use\nit couldn't be more simple: you just pass a callable (the kernel) to the\nclass constructor). For example, a linear kernel would be implemented …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 27 May 2010 10:42:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-05-27:/blog/2010/support-vector-machines-with-custom-kernels-using-scikitslearn/",
+  "category": "General, scikit-learn, Tecnologí­a"
+}
