@@ -1,0 +1,17 @@
+{
+  "title": "newbird: a theme for pelican",
+  "link": "",
+  "published": "2020-11-25T00:00:00-08:00",
+  "updated": "2022-11-03T04:16:07-07:00",
+  "author": {
+    "name": "Greg Reda"
+  },
+  "id": "tag:www.gregreda.com,2020-11-25:/2020/11/25/newbird-pelican-theme/",
+  "summary": "<p>In 2014, I <a href=\"https://github.com/gjreda/void\">wrote a custom theme</a> for <a href=\"https://blog.getpelican.com/\">Pelican</a>, the static site generator I use for this site.</p>\n<p>At the time, there were few themes available and I wanted something that was fairly simple in its design, but also that I understood well enough to tweak as necessary. I opted …</p>",
+  "content": "<p>In 2014, I <a href=\"https://github.com/gjreda/void\">wrote a custom theme</a> for <a href=\"https://blog.getpelican.com/\">Pelican</a>, the static site generator I use for this site.</p>\n<p>At the time, there were few themes available and I wanted something that was fairly simple in its design, but also that I understood well enough to tweak as necessary. I opted to use <a href=\"http://getskeleton.com/\">Skeleton</a> for the theme's general structure, but also added a <a href=\"https://github.com/gjreda/void/blob/master/static/css/void.css\">fair amount of custom CSS</a> to get things the way I wanted.</p>\n<p>But over time all that custom CSS became more of a pain than it was worth. I wanted something I could just drop in and have it look nice.</p>\n<p>Yesterday I came across <a href=\"https://newcss.net/\">new.css</a>, which I feel achieves its goal of sensible design and <a href=\"https://blog.usejournal.com/the-next-css-frontier-classless-5e66f3f25fdd\">classless CSS</a>. It allowed me to quickly create a new Pelican theme with limited CSS-fiddling.</p>\n<p>The new theme, which I've named <a href=\"https://github.com/gjreda/newbird-pelican-theme\">newbird</a>, includes support for Google Analytics, <a href=\"https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards\">Twitter Cards</a>, and <a href=\"https://developers.facebook.com/docs/sharing/webmasters/\">Facebook Open Graph</a>. It also allows for articles to be written in Jupyter Notebooks thanks to Pelican's liquid tags plugin. Notably, I opted not to include any social sharing buttons in order to decrease clutter and page loads.</p>\n<p>If you're interested in using newbird for your Pelican-based site, you can find it <a href=\"https://github.com/gjreda/newbird-pelican-theme\">here</a>.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
