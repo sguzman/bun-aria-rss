@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.app-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Applied Physics (physics.app-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Applied Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01408" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01423" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01437" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01489" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01584" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01593" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01968" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2111.05841" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2111.08760" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.06864" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.15187" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00560" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01408">
+<title>Design of a Modified Coupled Resonators Optical Waveguide Supporting a Frozen Mode. (arXiv:2211.01408v1 [physics.optics])</title>
+<link>http://arxiv.org/abs/2211.01408</link>
+<description rdf:parseType="Literal">&lt;p&gt;We design a three-way silicon optical waveguide with the Bloch dispersion
+relation supporting a stationary inflection point (SIP). The SIP is a third
+order exceptional point of degeneracy (EPD) where three Bloch modes coalesce
+forming the frozen mode with greatly enhanced amplitude. The proposed design
+consists of a coupled resonators optical waveguide (CROW) coupled to a parallel
+straight waveguide. At any given frequency, this structure supports three pairs
+of reciprocal Bloch eigenmodes, propagating and/or evanescent. In addition to
+full-wave simulations, we also employ a so-called &apos;&apos;hybrid model&apos;&apos; that uses
+transfer matrices obtained from full-wave simulations of sub-blocks of the unit
+cell. This allows us to account for radiation losses and enables a design
+procedure based on minimizing the eigenmodes&apos; coalescence parameter. The
+proposed finite-length CROW displays almost unitary transfer function at the
+SIP frequency, implying a nearly perfect conversion of the input light into the
+frozen mode. The group delay and the effective quality factor at the SIP
+frequency show an $N^{3}$ scaling, where $N$ is the number of unit cells in the
+cavity. The frozen mode in the CROW can be utilized in various applications
+like sensors, lasers and optical delay lines.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Nada_M/0/1/0/all/0/1&quot;&gt;Mohamed Y. Nada&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mealy_T/0/1/0/all/0/1&quot;&gt;Tarek Mealy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Islam_M/0/1/0/all/0/1&quot;&gt;Md Shafiqul Islam&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Vitebskiy_I/0/1/0/all/0/1&quot;&gt;Ilya Vitebskiy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Gibson_R/0/1/0/all/0/1&quot;&gt;Ricky Gibson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Bedford_R/0/1/0/all/0/1&quot;&gt;Robert Bedford&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Boyraz_O/0/1/0/all/0/1&quot;&gt;Ozdal Boyraz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Capolino_F/0/1/0/all/0/1&quot;&gt;Filippo Capolino&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01423">
+<title>Theory of Truncation Resonances in Continuum Rod-based Phononic Crystals with Generally Asymmetric Unit Cells. (arXiv:2211.01423v1 [physics.app-ph])</title>
+<link>http://arxiv.org/abs/2211.01423</link>
+<description rdf:parseType="Literal">&lt;p&gt;Phononic crystals exhibit Bragg bandgaps, frequency regions within which wave
+propagation is forbidden. In solid continua, such bandgaps are the outcome of
+destructive interferences resulting from periodically alternating layers. Under
+certain conditions, natural frequencies emerge within these bandgaps in the
+form of high-amplitude localized vibrations near one boundary of the structure.
+In this paper, we investigate the vibrational spectrum of finite phononic
+crystals which take the form a one-dimensional rod, and explain the fundamental
+factors that contribute to the origination of truncation resonances. By
+identifying a unit cell symmetry parameter, we define a family of finite
+phononic rods which share the same unit cell dispersion relation, yet distinct
+truncated forms. A transfer matrix method is utilized to derive closed-form
+expressions of the characteristic equations governing the natural frequencies
+of the finite system and decipher the truncation resonances emerging across
+different boundary conditions. The presented analysis establishes concrete
+connections between the localized vibrations associated with a truncation
+resonance, the corresponding boundary condition, and the overall configuration
+of the truncated chain as dictated by the unit cell choice. The study provides
+tools to predict, tune, and selectively design truncation resonances, to meet
+the demands of various applications that require such truncation resonances.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Babaa_H/0/1/0/all/0/1&quot;&gt;Hasan B. Al Ba&amp;#x27;ba&amp;#x27;a&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Willey_C/0/1/0/all/0/1&quot;&gt;Carson L. Willey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Chen_V/0/1/0/all/0/1&quot;&gt;Vincent W. Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Juhl_A/0/1/0/all/0/1&quot;&gt;Abigail T. Juhl&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Nouh_M/0/1/0/all/0/1&quot;&gt;Mostafa Nouh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01437">
+<title>Multi-photon polymerization using upconversion nanoparticles for tunable feature-size printing. (arXiv:2211.01437v1 [physics.optics])</title>
+<link>http://arxiv.org/abs/2211.01437</link>
+<description rdf:parseType="Literal">&lt;p&gt;The recent development of light-based 3D printing technologies has marked a
+turning point in additive manufacturing. Through photopolymerization, liquid
+resins can be solidified into complex objects. Usually, the polymerization is
+triggered by exciting a photoinitiator with ultraviolet (UV) or blue light. In
+two-photon printing (TPP), the excitation is done through the non-linear
+absorption of two photons; it enables printing 100-nm voxels but requires
+expensive femtosecond lasers which strongly limits their broad dissemination.
+Upconversion nanoparticles (UCNPs) have recently been proposed as an
+alternative to TPP for photopolymerization but using continuous-wave lasers.
+UCNPs convert near-infrared (NIR) into visible/UV light to initiate the
+polymerization locally as in TPP. Here we provide a study of this multi-photon
+mechanism and demonstrate how the non-linearity impacts the printing process.
+In particular, we report on the possibility of fine-tuning the size of the
+printed voxel by adjusting the NIR excitation intensity. Using gelatin-based
+hydrogel, we are able to vary the transverse voxel size from 1.3 to 2.8 {\mu}m
+and the axial size from 7.7 to 59 {\mu}m by adjusting the NIR power without
+changing the degree of polymerization. This work opens up new opportunities for
+speeding up the fabrication while preserving the minimum feature size with
+cheap light sources.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhang_Q/0/1/0/all/0/1&quot;&gt;Qianyi Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Boniface_A/0/1/0/all/0/1&quot;&gt;Antoine Boniface&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Parashar_V/0/1/0/all/0/1&quot;&gt;Virendra K. Parashar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Gijs_M/0/1/0/all/0/1&quot;&gt;Martin A. M. Gijs&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Moser_C/0/1/0/all/0/1&quot;&gt;Christophe Moser&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01489">
+<title>Chip-scale Simulations in a Quantum-correlated Synthetic Space. (arXiv:2211.01489v1 [physics.optics])</title>
+<link>http://arxiv.org/abs/2211.01489</link>
+<description rdf:parseType="Literal">&lt;p&gt;An efficient simulator for quantum systems is one of the original goals for
+the efforts to develop a quantum computer [1]. In recent years, synthetic
+dimension in photonics [2] have emerged as a potentially powerful approach for
+simulation that is free from the constraint of geometric dimensionality. Here
+we demonstrate a quantum-correlated synthetic crystal, based upon a
+coherently-controlled broadband quantum frequency comb produced in a chip-scale
+dynamically modulated lithium niobate microresonator. The time-frequency
+entanglement inherent with the comb modes significantly extends the
+dimensionality of the synthetic space, creating a massive nearly 400 x 400
+synthetic lattice with electrically-controlled tunability. With such a system,
+we are able to utilize the evolution of quantum correlations between entangled
+photons to perform a series of simulations, demonstrating quantum random walks,
+Bloch oscillations, and multi-level Rabi oscillations in the time and frequency
+correlation space. The device combines the simplicity of monolithic
+nanophotonic architecture, high dimensionality of a quantum-correlated
+synthetic space, and on-chip coherent control, which opens up an avenue towards
+chip-scale implementation of large-scale analog quantum simulation and
+computation [1,3,4] in the time-frequency domain.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Javid_U/0/1/0/all/0/1&quot;&gt;Usman A. Javid&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lopez_Rios_R/0/1/0/all/0/1&quot;&gt;Raymond Lopez-Rios&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ling_J/0/1/0/all/0/1&quot;&gt;Jingwei Ling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Graf_A/0/1/0/all/0/1&quot;&gt;Austin Graf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Staffa_J/0/1/0/all/0/1&quot;&gt;Jeremy Staffa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lin_Q/0/1/0/all/0/1&quot;&gt;Qiang Lin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01584">
+<title>Memory Window in Ferroelectric Field-Effect Transistors: Analytical Approach. (arXiv:2211.01584v1 [physics.app-ph])</title>
+<link>http://arxiv.org/abs/2211.01584</link>
+<description rdf:parseType="Literal">&lt;p&gt;A memory window of ferroelectric field-effect transistors (FeFETs), defined
+as a separation of the HIGH-state and the LOW-state threshold voltages, is an
+important measure of the FeFET memory characteristics. In this study, we
+theoretically investigate the relation between the FeFET memory window and the
+P-E hysteresis loop of the ferroelectric gate insulator, and derive a compact
+model explicitly described by material parameters. It is found that the memory
+window is linearly proportional to the ferroelectric polarization for the small
+polarization regime, and converges to the limit value of 2 x coercive field x
+thickness when the remanent polarization is much larger than permittivity x
+coercive field. We discuss additional factors that possibly influence the
+memory window in actual devices such as the existence of interlayer (no direct
+impact), interface charges (invalidity of linear superposition between the
+ferroelectric and charge-trapping hysteresis), and minor-loop operation
+(behavior equivalent to the generation of interface charges).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Toprasertpong_K/0/1/0/all/0/1&quot;&gt;Kasidit Toprasertpong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Takenaka_M/0/1/0/all/0/1&quot;&gt;Mitsuru Takenaka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Takagi_S/0/1/0/all/0/1&quot;&gt;Shinichi Takagi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01593">
+<title>Electron Quantum Tunneling Sensors. (arXiv:2211.01593v1 [physics.app-ph])</title>
+<link>http://arxiv.org/abs/2211.01593</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantum tunneling sensors are typically ultra-sensitive devices which have
+been specifically designed to convert a stimulus into an electronic signal
+using the wondrous principles of quantum mechanical tunneling. In the early
+1990s, William Kaiser developed one of the first micromachined quantum
+tunneling sensors as part of his work with the Nasa Jet Propulsion Laboratory.
+Since then, there have been scattered attempts at utilizing this phenomenon for
+the development of a variety of physical and chemical sensors. Although these
+devices demonstrate unique characteristics such as high sensitivity, the
+principle of quantum tunneling often acts as a double-edged sword and is
+responsible for certain drawbacks of this sensor family. In this review, we
+briefly explain the underlying working principles of quantum tunneling and how
+they are used to design miniaturized quantum tunneling sensors. We then proceed
+to describe an overview of the various attempts at developing such sensors.
+Next, we discuss their current need and recent resurgence. Finally, we describe
+various advantages and shortcomings of these sensors and end this review with
+an insight into the potential of this technology and prospects.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Banerjee_A/0/1/0/all/0/1&quot;&gt;Aishwaryadev Banerjee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mastrangelo_C/0/1/0/all/0/1&quot;&gt;Carlos H. Mastrangelo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01968">
+<title>Longitudinal waves dispersion control through the affine deformation of the interlaced wire medium. (arXiv:2211.01968v1 [physics.class-ph])</title>
+<link>http://arxiv.org/abs/2211.01968</link>
+<description rdf:parseType="Literal">&lt;p&gt;We have studied dispersion properties of interlaced wire media with geometry
+deformed by affine transformation. It is revealed that the metamaterials
+support eigenmodes with longitudinal polarization at low frequency range for
+all deformations. The isofrequency surfaces of the matamaterial are centered at
+the points at the edges of the Brillouin zone (not at Gamma-point) and have
+shape of ellipsoids. The refraction indexes corresponding to the ellipsoids are
+analysed both analytically and numerically.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sakhno_D/0/1/0/all/0/1&quot;&gt;Denis Sakhno&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Koreshin_E/0/1/0/all/0/1&quot;&gt;Eugene Koreshin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Belov_P/0/1/0/all/0/1&quot;&gt;Pavel A. Belov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2111.05841">
+<title>Physics-enhanced deep surrogates for PDEs. (arXiv:2111.05841v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2111.05841</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a &apos;&apos;physics-enhanced deep-surrogate&apos;&apos; (&apos;&apos;PEDS&apos;&apos;) approach towards
+developing fast surrogate models for complex physical systems, which is
+described by partial differential equations (PDEs) and similar models.
+Specifically, a unique combination of a low-fidelity, explainable physics
+simulator and a neural network generator is proposed, which is trained
+end-to-end to globally match the output of an expensive high-fidelity numerical
+solver. We consider low-fidelity models derived from coarser discretizations
+and/or by simplifying the physical equations, which are several orders of
+magnitude faster than a high-fidelity &apos;&apos;brute-force&apos;&apos; PDE solver. The neural
+network generates an approximate input, which is adaptively mixed with a
+downsampled guess and fed into the low-fidelity simulator. In this way, by
+incorporating the limited physical knowledge from the differentiable
+low-fidelity model &apos;&apos;layer&apos;&apos;, we ensure that the conservation laws and
+symmetries governing the system are respected by the design of our hybrid
+system. Experiments on three test problems -- diffusion, reaction-diffusion,
+and electromagnetic scattering models -- show that a PEDS surrogate can be up
+to 3$\times$ more accurate than a &apos;&apos;black-box&apos;&apos; neural network with limited
+data ($\approx 10^3$ training points), and reduces the data needed by at least
+a factor of 100 for a target error of $5\%$, comparable to fabrication
+uncertainty. PEDS even appears to learn with a steeper asymptotic power law
+than black-box surrogates. In summary, PEDS provides a general, data-driven
+strategy to bridge the gap between a vast array of simplified physical models
+with corresponding brute-force numerical solvers, offering accuracy, speed,
+data efficiency, as well as physical insights into the process.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pestourie_R/0/1/0/all/0/1&quot;&gt;Rapha&amp;#xeb;l Pestourie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mroueh_Y/0/1/0/all/0/1&quot;&gt;Youssef Mroueh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rackauckas_C/0/1/0/all/0/1&quot;&gt;Chris Rackauckas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Das_P/0/1/0/all/0/1&quot;&gt;Payel Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Johnson_S/0/1/0/all/0/1&quot;&gt;Steven G. Johnson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2111.08760">
+<title>Field Synthesis with Azimuthally-Varying, Cascaded, Cylindrical Metasurfaces using a Wave Matrix Approach. (arXiv:2111.08760v2 [physics.app-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2111.08760</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, there has been extensive research on planar metasurfaces
+capable of arbitrarily controlling scattered fields. However, rigorous studies
+on conformal metasurfaces, such as those that are cylindrical, have been few in
+number likely due to their more complex geometry. Here, wave propagation in
+cascaded cylindrical structures consisting of layers of dielectric spacers and
+azimuthally-varying metasurfaces (subwavelength patterned metallic claddings)
+is investigated. A wave matrix approach, which incorporates the advantages of
+both ABCD matrices and scattering matrices (S matrices), is adopted. Wave
+matrices are used to model the higher order coupling between metasurface
+layers, overcoming fabrication difficulties associated with previous works. The
+proposed framework provides an efficient approach to synthesize the
+inhomogeneous sheet admittances that realize a desired cylindrical field
+transformation. Design examples are reported to illustrate the power and
+potential applications of the proposed method in antenna design and stealth
+technology.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lin_C/0/1/0/all/0/1&quot;&gt;Chun-Wen Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Grbic_A/0/1/0/all/0/1&quot;&gt;Anthony Grbic&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.06864">
+<title>Acoustic monitoring of the gelation of a colloidal suspension. (arXiv:2201.06864v2 [cond-mat.soft] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.06864</link>
+<description rdf:parseType="Literal">&lt;p&gt;Because they are sensitive to mechanical properties of materials and can
+propagate even in opaque systems, acoustic waves provides us with a powerful
+characterization tool in numerous fields. Common techniques mostly rely on
+time-of-flight measurements and do not exploit the spectral content: however,
+sound speed and attenuation spectra contain rich information. Such an acoustic
+spectroscopy already exists and allows to retrieve subtle information on
+systems of well-known physico-chemistry, but modeling becomes out of reach for
+industrial systems. In this article, we use a simple empirical approach to
+monitor the gelation of silica suspensions: we show that the gelation time
+obtained from acoustic measurements is proportional to this determined with
+more conventional rheological characterization. Such a results thus opens the
+way for in-situ monitoring of time-evolving systems in industrial context with
+acoustic methods only.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Belicard_N/0/1/0/all/0/1&quot;&gt;Nicolas B&amp;#xe9;licard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Niemet_Mabiala_M/0/1/0/all/0/1&quot;&gt;Marc Junior Ni&amp;#xe9;met-Mabiala&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tourvieille_J/0/1/0/all/0/1&quot;&gt;Jean-No&amp;#xeb;l Tourvieille&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lidon_P/0/1/0/all/0/1&quot;&gt;Pierre Lidon&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.15187">
+<title>Perspectives on Antiferromagnetic Spintronics. (arXiv:2209.15187v2 [cond-mat.mtrl-sci] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.15187</link>
+<description rdf:parseType="Literal">&lt;p&gt;Although the development of spintronic devices has advanced significantly
+over the past decade with the use of ferromagnetic materials, the extensive
+implementation of such devices has been limited by the notable drawbacks of
+these materials. Antiferromagnets claim to resolve many of these shortcomings
+leading to faster, smaller, more energy-efficient, and more robust electronics.
+Antiferromagnets exhibit many desirable properties including zero net
+magnetization, imperviousness to external magnetic fields, intrinsic
+high-frequency dynamics with a characteristic precession frequency on the order
+of terahertz (THz), and the ability to serve as passive exchange-bias materials
+in multiple magnetoresistance (MR)- based devices. In this Perspective article,
+we will discuss the fundamental physics of magnetic structures in
+antiferromagnets and their interactions with external stimuli such as spin
+current, voltage, and magnons. A discussion on the challenges lying ahead is
+also provided along with an outlook of future research directions of these
+systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_K/0/1/0/all/0/1&quot;&gt;Kang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bheemarasetty_V/0/1/0/all/0/1&quot;&gt;Vineetha Bheemarasetty&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Duan_J/0/1/0/all/0/1&quot;&gt;Junhang Duan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhou_S/0/1/0/all/0/1&quot;&gt;Shiyu Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Xiao_G/0/1/0/all/0/1&quot;&gt;Gang Xiao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00560">
+<title>2D Janus Niobium Oxydihalide NbO$XY$: Multifunctional High-Mobility Piezoelectric Semiconductor for Electronics, Photonics and Sustainable Energy Applications. (arXiv:2211.00560v2 [cond-mat.mtrl-sci] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00560</link>
+<description rdf:parseType="Literal">&lt;p&gt;Two-dimensional (2D) niobium oxydihalide NbOI$_2$ has been recently
+demonstrated as an excellent in-plane piezoelectric and nonlinear optical
+materials. Here we show that Janus niobium oxydihalide, NbO$XY$ (X, Y = Cl, Br,
+I and X$\neq$Y), is a multifunctional anisotropic semiconductor family with
+exceptional piezoelectric, electronic, photocatalytic and optical properties.
+NbO$XY$ are stable and mechancially flexible monolayers with band gap around
+the visible light regime of $\sim 1.9$ eV. The anisotropic carrier mobility of
+NbO$XY$ lies in the range of $10^3 \sim 10^4$ cm$^2$V$^{-1}$s$^{-1}$, which
+represents some of the highest among 2D semiconductors of bandgap $\gtrsim 2$
+eV. Inversion symmetry breaking in Janus NbO$XY$ generates sizable out-of-plane
+$d_{31}$ piezoelectric response while still retaining a strong in-plane
+piezoelectricity. Remarkably, NbO$XY$ exhibits an additional out-of-plane
+piezoelectric response, $d_{32}$ as large as 0.55 pm/V. G$_0$W$_0$-BSE
+calculation further reveals the strong linear optical dichroism of NbO$XY$ in
+the visible-to-ultraviolet regime. The optical absorption peaks with $14\sim18$
+\% in the deep UV regime ($5\sim6$ eV), outperforming the vast majority of
+other 2D materials. The high carrier mobility, strong optical absorption,
+sizable built-in electric field and band alignment compatible with overall
+water splitting further suggest the strengths of NbO$XY$ in energy conversion
+application. We further propose a directional stress sensing device to
+demonstrate how the out-of-plane piezoelectricity can be harnessed for
+functional device applications. Our findings unveil NbO$XY$ as an exceptional
+multifunctional 2D semiconductor for flexible electronics, optoelectronics, UV
+photonics, piezoelectric and sustainable energy applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Su_T/0/1/0/all/0/1&quot;&gt;Tong Su&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lee_C/0/1/0/all/0/1&quot;&gt;Ching Hua Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Guo_S/0/1/0/all/0/1&quot;&gt;San-Dong Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_G/0/1/0/all/0/1&quot;&gt;Guangzhao Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ong_W/0/1/0/all/0/1&quot;&gt;Wee-Liat Ong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhao_W/0/1/0/all/0/1&quot;&gt;Weiwei Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_S/0/1/0/all/0/1&quot;&gt;Shengyuan A. Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ang_Y/0/1/0/all/0/1&quot;&gt;Yee Sin Ang&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
