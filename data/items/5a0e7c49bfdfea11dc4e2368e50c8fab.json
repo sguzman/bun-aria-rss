@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42793 (ipados, iphone_os, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42793",
+  "description": "An issue in code signature validation was addressed with improved checks. This issue is fixed in macOS Big Sur 11.7, macOS Ventura 13, iOS 16, iOS 15.7 and iPadOS 15.7, macOS Monterey 12.6. An app may be able to bypass code signing checks.",
+  "dc:date": "2022-11-01T20:15:22Z"
+}
