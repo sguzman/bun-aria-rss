@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-19950 (backports, debian_linux, graphicsmagick, leap)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-19950",
+  "description": "In GraphicsMagick 1.4 snapshot-20190403 Q8, there is a use-after-free in ThrowException and ThrowLoggedException of magick/error.c.",
+  "dc:date": "2019-12-24T01:15:11Z"
+}

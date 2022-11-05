@@ -1,0 +1,7 @@
+{
+  "title": "SQLite",
+  "description": "My new project confronted me with the task of screening a massive set of large data files in text format with billions of entries each. I will have to retrieve data repeatedly and frequently in the future. Thus, I was tempted to find a better solution than brute-force scanning through ~20 separate 1-column text files with ~6 billion entries every time line by line.",
+  "pubDate": "Sun, 03 Nov 2013 09:00:00 +0000",
+  "link": "https://sebastianraschka.com/Articles/2013_sqlite_database.html",
+  "guid": "https://sebastianraschka.com/Articles/2013_sqlite_database.html"
+}

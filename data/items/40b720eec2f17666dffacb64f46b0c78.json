@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32926 (ipad_os, iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32926",
+  "description": "The issue was addressed with improved bounds checks. This issue is fixed in tvOS 16.1, iOS 15.7.1 and iPadOS 15.7.1, macOS Ventura 13, watchOS 9.1, iOS 16.1 and iPadOS 16. An app with root privileges may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}
