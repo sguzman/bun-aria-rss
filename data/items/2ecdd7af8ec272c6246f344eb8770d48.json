@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-21605 (libde265)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-21605",
+  "description": "libde265 v1.0.4 contains a segmentation fault in the apply_sao_internal function, which can be exploited via a crafted a file.",
+  "dc:date": "2021-09-16T22:15:08Z"
+}

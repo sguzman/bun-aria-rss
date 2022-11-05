@@ -1,0 +1,65 @@
+{
+  "title": "Random Forest Tutorial: Predicting Goals in Soccer",
+  "link": "https://algobeans.com/2021/03/29/random-forest-tutorial-predicting-goals-in-football/",
+  "comments": "https://algobeans.com/2021/03/29/random-forest-tutorial-predicting-goals-in-football/#respond",
+  "dc:creator": "Kenneth Soo",
+  "pubDate": "Sun, 28 Mar 2021 18:58:09 +0000",
+  "category": [
+    "Tutorial",
+    "bagging",
+    "black box",
+    "bundesliga",
+    "data mining",
+    "decision trees",
+    "english premier league",
+    "ensemble",
+    "EPL",
+    "expected goals",
+    "la liga",
+    "layman",
+    "ligue 1",
+    "machine learning",
+    "match-fixing",
+    "predictive modelling",
+    "random forest",
+    "RMSE",
+    "root mean square error",
+    "serie a",
+    "soccer",
+    "xG"
+  ],
+  "guid": "http://algobeans.com/?p=7504",
+  "description": "Learn how a random forest model can help us to predict the probability of a goal, with applications ranging from performance appraisal to match-fixing detection.",
+  "wfw:commentRss": "https://algobeans.com/2021/03/29/random-forest-tutorial-predicting-goals-in-football/feed/",
+  "slash:comments": 0,
+  "media:thumbnail": "",
+  "media:content": [
+    {
+      "media:title": "football image"
+    },
+    {
+      "media:title": "yellowfishx"
+    },
+    {
+      "media:title": "Figure 1. Scatterplot of a sample of shots from the Wyscout dataset. Each dot represents the location where a shot was attempted, with red dots representing successful goals."
+    },
+    {
+      "media:title": "Figure 2. Heatmap of goal probabilities based on the location where a shot was attempted. Red and orange areas indicate high probability of scoring if a shot was made at that location, whereas blue and green areas indicate low probability of scoring."
+    },
+    {
+      "media:title": "Figure 3. Top variables contributing to the random forest’s performance in predicting goals, as measured by % decrease in performance if the variable was omitted from the model.  The visible shot angle and distance to goal have the highest influence on whether a goal is scored."
+    },
+    {
+      "media:title": "Figure 4. Models 1, 2, and 3 are individual models attempting to predict 10 outputs, where Blue is the correct output and Red is the wrong output. An ensemble model is formed by majority voting, i.e. if two models predict Blue and one model predicts Red, the ensemble predicts Blue. Here, the ensemble model scored 8/10, higher than individual models, which scored at most 7/10."
+    },
+    {
+      "media:title": "Figure 5. Histogram showing the RMSE of 1000 decision trees. While their RMSE averages at 0.299, with the best score at 0.296, the random forest model had an RMSE of 0.288, which is best among all of its constituent decision trees."
+    },
+    {
+      "media:title": "Figure 6. How a tree is created in a random forest."
+    },
+    {
+      "media:title": "Free Data Science Tutorials"
+    }
+  ]
+}
