@@ -1,0 +1,16 @@
+{
+  "title": "NBA week 1 summary, week 2 predictions",
+  "link": "",
+  "published": "2014-11-14T23:22:00-08:00",
+  "updated": "2014-11-14T23:22:00-08:00",
+  "author": {
+    "name": "Dustin McIntosh"
+  },
+  "id": "tag:efavdb.com,2014-11-14:/nba-week-1-summary-week-2-predictions",
+  "summary": "<p><a href=\"https://efavdb.com/wp-content/uploads/2014/11/week1Table.png\"><img alt=\"week1Table\" src=\"https://efavdb.com/wp-content/uploads/2014/11/week1Table.png\"></a></p>\n<p>The first week of our <span class=\"caps\">NBA</span> game outcome prediction experiment is in the books!   We had a prediction accuracy of 32/51 (= 63%).  A summary of the results broken down by game point spread is given at right. The point spreads shown are from the actual games, and the accuracy …</p>",
+  "content": "<p><a href=\"https://efavdb.com/wp-content/uploads/2014/11/week1Table.png\"><img alt=\"week1Table\" src=\"https://efavdb.com/wp-content/uploads/2014/11/week1Table.png\"></a></p>\n<p>The first week of our <span class=\"caps\">NBA</span> game outcome prediction experiment is in the books!   We had a prediction accuracy of 32/51 (= 63%).  A summary of the results broken down by game point spread is given at right. The point spreads shown are from the actual games, and the accuracy values shown are the fraction of correct predictions for games within the particular point spread range specified in that&nbsp;row. </p>\n<p>Our accuracy this past week was significantly lower than we achieved on the 2013-2014 historical data.  In training on the first 800 games of that season we achieved approximately 70% accuracy on the remaining 430 games, after <a href=\"http://efavdb.github.io/nba-weekly-predictions-up\">incorporating momentum</a> into the prediction.  This past week, our model had only 70 games from the current season to train on, relying on last year’s data to supplement the training.   For this reason, we feel 63% is actually pretty reasonable for our first week. In fact, we had a few very good days late in the week — and, of course, we are particularly proud to have correctly predicted <a href=\"http://gfycat.com/ScaredConsciousGoldfinch\">this</a>.  </p>\n<p>Our predictions for the next week are now up as well.  This week we have further incorporated fatigue into the model - keeping track of the number of games each team has played in the five days preceding a game. When applied to the prior season data, we found that this feature helped boost our accuracy by about&nbsp;2%.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

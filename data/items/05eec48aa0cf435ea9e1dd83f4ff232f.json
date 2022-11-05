@@ -1,0 +1,6 @@
+{
+  "title": "Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods. (arXiv:2211.01746v1 [stat.CO])",
+  "link": "http://arxiv.org/abs/2211.01746",
+  "description": "<p>A metric tensor for Riemann manifold Monte Carlo particularly suited for\nnon-linear Bayesian hierarchical models is proposed. The metric tensor is built\nfrom here proposed symmetric positive semidefinite log-density gradient\ncovariance (LGC) matrices. The LGCs measure the joint information content and\ndependence structure of both a random variable and the parameters of said\nvariable. The proposed methodology is highly automatic and allows for\nexploitation of any sparsity associated with the model in question. When\nimplemented in conjunction with a Riemann manifold variant of the recently\nproposed numerical generalized randomized Hamiltonian Monte Carlo processes,\nthe proposed methodology is highly competitive, in particular for the more\nchallenging target distributions associated with Bayesian hierarchical models.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/stat/1/au:+Kleppe_T/0/1/0/all/0/1\">Tore Selland Kleppe</a>"
+}
