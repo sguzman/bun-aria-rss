@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Erin Shellman</title>
+	<atom:link href="http://www.erinshellman.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.erinshellman.com</link>
+	<description>Data scientist living large as all hell.</description>
+	<lastBuildDate>Thu, 11 Feb 2016 01:26:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
+	<item>
+		<title>Developing effective data scientists</title>
+		<link>http://www.erinshellman.com/developing-effective-data-scientists/</link>
+					<comments>http://www.erinshellman.com/developing-effective-data-scientists/#respond</comments>
+		
+		<dc:creator><![CDATA[erinshellman]]></dc:creator>
+		<pubDate>Thu, 11 Feb 2016 01:26:50 +0000</pubDate>
+				<category><![CDATA[career]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[teaching]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[programming]]></category>
+		<guid isPermaLink="false">http://www.erinshellman.com/?p=549</guid>
+
+					<description><![CDATA[ <a class="read-more" href="http://www.erinshellman.com/developing-effective-data-scientists/"></a>]]></description>
+										<content:encoded><![CDATA[<p>Last year I had the honor and pleasure of visiting my graduate school alma mater to speak at the kick-off event for the University of Michigan&#8217;s new <a href="http://midas.umich.edu/" target="_blank">Institute for Data Science</a>. They invited me to share my work and teaching experiences, and offer guidance to students and educators of data science. I asked a bunch of my data scientist friends what they could have done differently to better prepare themselves for their careers, and there were a lot of similarities in the responses. I&#8217;ve attempted to distill them into three core competencies: communication, coding, and curiosity&#8230; and alliteration, when possible.</p>
+<h3>Effective data scientists communicate well</h3>
+<p>Communicating technical concepts to non-technical audiences is a huge part of a data scientist&#8217;s job. To do that well, you need a solid understanding of the techniques in your toolbox, and should be able to provide intuitions for why the techniques work. Also expect to spend a lot of time communicating technical concepts to other technical people from different disciplines, like software engineers. Communicating effectively with engineers requires that you think about data products in terms of their inputs and outputs. What inputs do your algorithms need in order to work and where will those inputs come from? What does the algorithm return as a result, and what&#8217;s the level of uncertainty?</p>
+<div id="attachment_563" style="width: 310px" class="wp-caption alignright"><a href="http://www.erinshellman.com/blog/wp-content/uploads/2016/02/Screenshot-2016-01-25-17.22.59.png" rel="attachment wp-att-563"><img aria-describedby="caption-attachment-563" class="size-medium wp-image-563" src="http://www.erinshellman.com/blog/wp-content/uploads/2016/02/Screenshot-2016-01-25-17.22.59-300x259.png" alt="Effective data scientists gesticulate wildly to drive home key points." width="300" height="259" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2016/02/Screenshot-2016-01-25-17.22.59-300x259.png 300w, http://www.erinshellman.com/blog/wp-content/uploads/2016/02/Screenshot-2016-01-25-17.22.59.png 460w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-563" class="wp-caption-text">Effective data scientists gesticulate wildly to drive home key points.</p></div>
+<p>In addition to the technical aspects of communication, data scientists are often expected to evangelize and advocate for their work more than is typical in older disciplines like software engineering. It&#8217;s critical for data scientists to understand the business in a broader context than their team or department, and also be able to identify specifically how their contributions fit into the broader context. At Nordstrom we did this with dollars, the ideal unit of measurement. We worked primarily in the area of product recommendations, so we could directly connect recommendation activity with sales. Your work won&#8217;t always be easy to quantify, which is why it&#8217;s important to establish evaluation metrics <em>before</em> starting projects.</p>
+<div class="perfect-quotes">LEARN MORE CODING AND STATISTICS. Meet other people working on data sets not in your field. Learn something not in your field. Don&#8217;t sit in a box staring at your thesis project.<span>- Wendy Grus, Technical Data Analyst @ Inrix</span></div>
+<p>Developing communication skills as a student is pretty natural. Try presenting your work, blogging, and teaching others. When I was working on my PhD, my department had a student-run seminar series called Bistro. Bistro was a fantastic way for us to share our work and get feedback in a low-pressure setting. If you want to avoid the random and occasionally terrifying aspects of public speaking, blogging is an excellent way to practice written communication and advance your &#8220;personal brand.&#8221; <em>Ahem.</em></p>
+<h3>Effective data scientists write high-quality code</h3>
+<p>At Nordstrom my team was split evenly between software developers and data scientists. Working in the Data Lab was the first time in my life that I was not the sole consumer of my own code. Instead I wrote code for a website that got millions of hits everyday. I initially didn&#8217;t have the skills to write production-quality code, so my first year as a data scientist was a year of intense learning and buggin&#8217; out about how slow I felt.</p>
+<div class="perfect-quotes">The single most useful thing I learned in grad school was how to work with Python.<span>- Sarah Guido, Data Scientist @ bit.ly</span></div>
+<p>You don&#8217;t have to be a software engineer, but it&#8217;s critical that before graduation you&#8217;re proficient in at least one programming language, and the sooner you adopt good coding practices the easier the transition will be. Start using automated testing now, and invest in learning to use your tools better (or get better tools).</p>
+<div class="perfect-quotes">I wish there had been more emphasis on real data/messy data/getting my own data/cleaning data.<span>- Trey Causey, Data Scientist @ ChefSteps</span></div>
+<p>Unfortunately, demonstrating language proficiency isn&#8217;t enough. As a data scientist you&#8217;ll be expected to apply statistical skills in many domains throughout the business. For example, the Data Lab tackles problems ranging from personalization and marketing, to store display testing, to operations. Exposure to lots of different types of data in graduate school&#8211;especially large, messy bioinformatics data&#8211;prepared me to contribute to lots of different types of projects later.</p>
+<h3>Effective data scientists are curious, life-long learners</h3>
+<p>The tools and technologies of data science change at an incredible pace which is at once exciting and exhausting. To succeed in this field it&#8217;s important to have a mindset of life-long improvement and learning. Curiosity too is critical, because even if you work for the same company your entire career, you&#8217;ll be exposed to a breadth of problems over the years. In short, effective data scientists are usually people who can find something interesting in anything.</p>
+<div class="perfect-quotes">I took Naval Criminal Law &#038; international relations. It was hard to stay awake. By comparison, I looked forward to vector calculus and loved Matlab. Lesson: Don&#8217;t be afraid to explore your options while you are still on the track of figuring out what comes next.<span>- Amanda Casari, Senior Data Scientist @ Concur</span></div>
+<p>While you&#8217;re a student, developing curiosity is hopefully something you don&#8217;t need to work too hard at (you&#8217;re so young to be this jaded). Try something simple like grabbing an Oprah Chai<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> with someone outside your department and then think about how you might approach their research questions using your computational and quantitative tools. Also, go to a meet-up. Meet-ups can be a great place to learn about tools and techniques that are actually being applied out in the wild (<a href="http://www.meetup.com/Seattle-PyLadies/" target="_blank">and meet really fun and supportive women who program in Python in the Seattle area</a>).</p>
+<div class="perfect-quotes">Boundaries between disciplines are becoming less-defined. There are general, powerful patterns of thinking that apply to many disciplines. A good way to become aware of these patterns is to broaden exposure to disciplines.<span>- James Pestrak, Senior Data Scientist @ Nordstrom</span></div>
+<p>I love the last two quotes because they advance the idea of casting a wide net in terms of academic interests. Ultimately, a data scientist is a person with a generalizable set of quantitative skills. As you grow and evolve, and your interests change, data science doesn&#8217;t lock you into any particular career. Instead, data science enables you to approach any problem that can be solved with quantitative tools, and that&#8217;s extremely powerful.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.erinshellman.com/developing-effective-data-scientists/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bot or Not: an end-to-end data analysis in Python</title>
+		<link>http://www.erinshellman.com/bot-or-not/</link>
+					<comments>http://www.erinshellman.com/bot-or-not/#comments</comments>
+		
+		<dc:creator><![CDATA[erinshellman]]></dc:creator>
+		<pubDate>Tue, 18 Aug 2015 04:20:24 +0000</pubDate>
+				<category><![CDATA[data science]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[pandas]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[twitter]]></category>
+		<guid isPermaLink="false">http://www.erinshellman.com/?p=327</guid>
+
+					<description><![CDATA[ <a class="read-more" href="http://www.erinshellman.com/bot-or-not/"></a>]]></description>
+										<content:encoded><![CDATA[<section class="stag-section stag-intro-text"><p>For those who didn&#8217;t make it to my PyData talk&#8230; how dare you? Aww, I can&#8217;t stay mad at you. Here&#8217;s the written version of my talk about building a classifier with <em>pandas, NLTK,</em> and <em>scikit-learn</em> to identify Twitter bots. You can also watch it <a href="https://youtu.be/ic4SagX5RFM" target="_blank">here</a>.</p>
+</section>
+<p><span class="stag-dropcap stag-dropcap--normal" style="font-size:50px;line-height:50px;width:50px;height:50px;">I</span>n this post I want to discuss an Internets phenomena knows as bots, specifically Twitter bots. I&#8217;m focusing on Twitter bots primarily because they&#8217;re fun and funny, but also because Twitter happens to provide a rich and comprehensive API that allows users to access information about the platform and how it&#8217;s used. In short, it makes for a compelling demonstration of Python&#8217;s prowess for data analysis work, and also areas of relative weakness.</p>
+<p>For those unfamiliar with Twitter (who are you monsters?), it&#8217;s a social media platform on which users can post 140 character fart jokes called &#8220;tweets&#8221; (that joke bombed at PyData btw, but I can&#8217;t let it go). Twitter is distinct from other social media in that by default tweets are public and there&#8217;s no expectation that followers actually know one another. You can think of Twitter less as a stream of personal news, and more as a marketplace of ideas where the currency is favs and retweets.</p>
+<blockquote class="twitter-tweet" width="550">
+<p lang="en" dir="ltr">After my death I&#39;d like my remains to be vaped by everyone in my dance crew except for Li&#39;l Sherbet. He knows why</p>
+<p>&mdash; Andy Richter (@AndyRichter) <a href="https://twitter.com/AndyRichter/status/627165392616591360">July 31, 2015</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Another distinguishing feature of Twitter is the &#8220;embed-ability&#8221; of its content (hilarious example above). It&#8217;s commonplace nowadays to see tweets included as part of news media. This is due in no small part to the openness of their APIs, which allow developers to programmatically tweet and view timelines. But the same openness that makes twitter pervasive across the internet, also opens the door for unwelcome users, like bots.</p>
+<p>Twitter bots are programs that compose and post tweets without human intervention, and they range widely in complexity. Some are relatively inert, living mostly to follow people and fav things, while others use sophisticated algorithms to create, at times, very convincing speech. All bots can be a nuisance because their participation in the Twittersphere undermines the credibility of Twitter&#8217;s analytics and marketing attribution, and ultimately their bottom line.</p>
+<p>So what can Twitter do about them? Well, the first step is to identify them. Here&#8217;s how I did it.</p>
+<h4>Creating labels</h4>
+<p>The objective is to build a classifier to identify accounts likely belonging to bots, and I took a supervised learning approach. &#8220;Supervised&#8221; means we need labeled data, <em>i.e. </em>we need to know at the outset which accounts belong to bots and which belong to humans. In past work this thankless task had been accomplished through the use (and abuse) of grad students. For example<i>, </i><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6280553" target="_blank">Jajodia </a><em><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6280553" target="_blank">et al</a> </em>manually inspected accounts and applied a Twitter version of the Turing test&#8211;if it looks like a bot, and tweets like a bot, then it&#8217;s a bot. The trouble is, I&#8217;m not a grad student anymore and my time has value (<em>that</em> joke killed). I solved this problem thanks to a hot tip from friend and co-worker <a href="http://vallandingham.me/vis/" target="_blank">Jim Vallandingham</a>, who introduced me to <a href="https://www.fiverr.com/" target="_blank">fiverr</a>, a website offering dubious services for $5.</p>
+<figure class="stag-section stag-image stag-image--no-filter stag-image--center"><img src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/fiverr_small.png" alt=""></figure>
+<p>Five dollars and 24 hours later, I had 5,500 new followers. Since I knew who followed me prior to the bot swarm, I could positively identify them as humans and all my overnight followers as bots.</p>
+<h4>Creating features</h4>
+<p>Due to the richness of the Twitter REST API, creating the feature set required significantly less terms-of-service-violating behavior. I used the <a href="https://github.com/bear/python-twitter" target="_blank">python-twitter</a> module to query two endpoints: <a href="https://dev.twitter.com/rest/reference/get/users/lookup" target="_blank">GET users/lookup</a> and <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline" target="_blank">GET statuses/user_timeline</a>. The users/lookup endpoint returns a JSON blob containing information you could expect to find on a user&#8217;s profile page, <em>e.g.</em> indicators of whether they&#8217;re using default profile settings, follower/following counts, and tweet count. From GET/user_time I grabbed the last 200 tweets of everyone in my dataset.</p>
+<p>The trouble is, Twitter isn&#8217;t going to let you just roll in and request all the data you want. They enforce rate limits on the API, which means you&#8217;re going to have to take a little cat nap in between requests. I accomplished this in part with the charming method, <em>blow_chunks</em>:</p>
+<pre id="code_snippet_24" style="position:relative;width:100%;border:0;padding:0;"># don’t exceed API limits
+def blow_chunks(self, data, max_chunk_size):
+  for i in range(0, len(data), max_chunk_size):
+    yield data[i:i + max_chunk_size]</pre>
+<p><em>blow_chunks</em> takes as input a list of your queries, for example user ids, and breaks it into chunks of a maximum size. But it doesn&#8217;t return those chunks, it returns a generator, which can be used thusly:</p>
+<pre id="code_snippet_26" style="position:relative;width:100%;border:0;padding:0;">if len(user_ids) &gt; max_query_size:
+  chunks = self.blow_chunks(user_ids, max_chunk_size = max_query_size)
+  while True:
+    try:
+      current_chunk = chunks.next()
+      for user in current_chunk:
+        try:
+          user_data = self.api.GetUser(user_id = str(user))
+          results.append(user_data.AsDict())
+        except:
+          print &quot;got a twitter error! D:&quot;
+          pass
+      print &quot;nap time. ZzZzZzzzzz...&quot;
+      time.sleep(60 * 16)
+      continue
+    except StopIteration:
+      break</pre>
+<p>If the query size is bigger than the maximum allowed, then break it into chunks. Call the <em>.next()</em> method of generators to grab the first chunk and send that request to the API. Then grab a beer because, there&#8217;s 16 minutes until the next request is sent. When there aren&#8217;t anymore chunks left, the generator will throw a StopIteration and break out of the loop.</p>
+<h5>These bots are weird</h5>
+<p>Fast-forward to clean, well-formatted data and it doesn&#8217;t take long to find fishiness. On average, bots follow 1400 people whereas humans follow 500. Bots are similarly strange in their distribution of followers. Humans have a fairly uniform distribution of followers. Some people are popular, some not so much, and many in between. Conversely, these bots are extremely unpopular with an average of a measly 28 followers.</p>
+<p><img loading="lazy" class="alignnone wp-image-388 size-full" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/friends.png" alt="friends" width="915" height="439" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/friends.png 915w, http://www.erinshellman.com/blog/wp-content/uploads/2015/08/friends-300x144.png 300w" sizes="(max-width: 915px) 100vw, 915px" /><img loading="lazy" class="aligncenter wp-image-389 size-full" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/followers.png" alt="followers" width="915" height="438" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/followers.png 915w, http://www.erinshellman.com/blog/wp-content/uploads/2015/08/followers-300x144.png 300w" sizes="(max-width: 915px) 100vw, 915px" /></p>
+<h5>Tweets into data</h5>
+<p>Sure, these bots look weird at the profile level, but lots of humans are unpopular and have the Twitter egg for a profile picture. How about what they&#8217;re saying? To incorporate the tweet data in the classifier, it needed to be summarized into one row per account. One such summary metric is lexical diversity, which is the ratio of unique tokens to total tokens in a document. Lexical diversity ranges from 0 to 1 where 0 indicates no words in a document, and 1 indicates that each word was used exactly once. You can think of it as a measure of lexical sophistication.</p>
+<p>I used <a href="http://pandas.pydata.org/" target="_blank">Pandas</a> to quickly and elegantly apply summary functions like lexical diversity to the tweets. First I combined all the tweets per user into one document and tokenized it, so I was left with a list of words. Then I removed punctuation and stopwords with <a href="http://www.nltk.org/" target="_blank">NLTK</a>.</p>
+<p>Pandas makes it super simple to apply custom functions over groups of data. With <em>groupby </em>I grouped the tweets by screen name and then applied the lexical diversity function to my groups of tweets. I love the simplicity and flexibility of this syntax, which makes it a breeze to group over any category and apply custom summary functions. For example, I could group by location or predicted gender, and compute the lexical diversity of all those slices just by modifying the grouping variable.</p>
+<pre id="code_snippet_25" style="position:relative;width:100%;border:0;padding:0;">def lexical_diversity(text):
+  if len(text) == 0:
+    diversity = 0
+  else: 
+   diversity = float(len(set(text))) / len(text)
+  return diversity
+  
+# Easily compute summaries for each user!
+grouped = tweets.groupby('screen_name')
+diversity = grouped.apply(lexical_diversity)</pre>
+<p>Again these bots look strange. Humans have a beautiful, almost textbook normal distribution of diversities centered at 0.70. Bots on the other hand have more mass at the extremes, especially towards one. A lexical diversity of one means that every word in the document is unique, implying that bots are either not tweeting much, or are tweeting random strings of text.</p>
+<p><img loading="lazy" class="aligncenter wp-image-390 size-full" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/diversity.png" alt="diversity" width="884" height="439" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/diversity.png 884w, http://www.erinshellman.com/blog/wp-content/uploads/2015/08/diversity-300x149.png 300w" sizes="(max-width: 884px) 100vw, 884px" /></p>
+<h5>Model Development</h5>
+<p>I used <em><a href="http://scikit-learn.org/stable/" target="_blank">scikit-learn</a></em>, the premier machine learning module in Python, for model development and validation. My analysis plan went something like this: since I&#8217;m primarily interested in predictive accuracy, why not just try a couple classification methods and see which one performs the best. One of the strengths of <em>scikit-learn</em> is a clean and consistent API for constructing models and pipelines that makes trying out a couple models simple.</p>
+<pre id="code_snippet_27" style="position:relative;width:100%;border:0;padding:0;"># Naive Bayes
+bayes = GaussianNB().fit(train[features], y)
+bayes_predict = bayes.predict(test[features])
+
+# Logistic regression
+logistic = LogisticRegression().fit(train[features], y)
+logistic_predict = logistic.predict(test[features])
+
+# Random Forest
+rf = RandomForestClassifier().fit(train[features], y)
+rf_predict = rf.predict(test[features])</pre>
+<p>I fit three classifiers, a naive Bayes, logistic regression and random forest classifier. You can see that the syntax for each classification method is identical. In the first line I&#8217;m fitting the classifier, providing the features from the training set and the labels, <em>y</em>. Then it&#8217;s simple to generate predictions from the model fit by passing in the features from the test set and view accuracy measures from the classification report.</p>
+<pre id="code_snippet_28" style="position:relative;width:100%;border:0;padding:0;"># Classification Metrics
+print(metrics.classification_report(test.bot, bayes_predict))
+print(metrics.classification_report(test.bot, logistic_predict))
+print(metrics.classification_report(test.bot, rf_predict))</pre>
+<p>Not surprisingly random forest performed the best with an overall precision of 0.90 versus 0.84 for Naive Bayes and 0.87 for logistic regression. Amazingly with an out-of-the-box classifier, we are able to correctly identify bots 90% of the time, but can we do better? Yes, yes we can. It&#8217;s actually really easy to tune classifiers using <em>GridSearchCV</em>. <em>GridSearchCV</em> takes a classification method and a grid of parameter settings to explore. The &#8220;grid&#8221; is just a dictionary keyed off of the model&#8217;s configurable parameters. What&#8217;s rad about <em>GridSearchCV</em> is that you can treat it just like the classification methods we saw previously. That is, we can use .fit() and .predict().</p>
+<pre id="code_snippet_29" style="position:relative;width:100%;border:0;padding:0;"># construct parameter grid
+param_grid = {'max_depth': [1, 3, 6, 9, 12, 15, None],
+              'max_features': [1, 3, 6, 9, 12],
+              'min_samples_split': [1, 3, 6, 9, 12, 15],
+              'min_samples_leaf': [1, 3, 6, 9, 12, 15],
+              'bootstrap': [True, False],
+              'criterion': ['gini', 'entropy']}
+
+# fit best classifier
+grid_search = GridSearchCV(RandomForestClassifier(), param_grid = param_grid).fit(train[features], y)
+
+# assess predictive accuracy
+predict = grid_search.predict(test[features])
+print(metrics.classification_report(test.bot, predict))</pre>
+<p>Aha, better precision! The simple tuning step resulted in a configuration that yielded a 2% increase in precision. Inspecting the variable importance plot for the tuned random forest yields few surprises. The number of friends and followers are the most important variables for predicting bot-status.</p>
+<p><img loading="lazy" class="aligncenter wp-image-387 size-full" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/variable_importance.png" alt="variable_importance" width="509" height="268" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/variable_importance.png 509w, http://www.erinshellman.com/blog/wp-content/uploads/2015/08/variable_importance-300x158.png 300w" sizes="(max-width: 509px) 100vw, 509px" /></p>
+<h5>Still, we need better tools for iterative model development</h5>
+<p>There&#8217;s still a lot of room for growth in <em>scikit-learn</em>, particularly in functions for generating model diagnostics and utilities for model comparison. As an illustrative example of what I mean, I want to take you away to another world where the language isn&#8217;t Python, it&#8217;s R. And there&#8217;s no <em>scikit-learn</em>, there&#8217;s only <a href="http://topepo.github.io/caret/" target="_blank">caret</a>. Let me show you some of the strengths of <em>caret </em>that could be replicated in <em>scikit-learn</em>.</p>
+<p>Below is the output from the <em>confusionMatrix</em> function, the conceptual equivalent of <em>scikit-learn</em>&#8216;s <em>classification_report</em>. What you&#8217;ll notice about the output of <em>confusionMatrix</em> is the depth of accuracy reporting. There&#8217;s the confusion matrix and lots of accuracy measures that use the confusion matrix as input. Most of the time you&#8217;ll probably only use one or two of the measures, but it&#8217;s nice to have them all available so that you can use what works best in your situation without having to write extra code.</p>
+<pre id="code_snippet_31" style="position:relative;width:100%;border:0;padding:0;">&gt; confusionMatrix(logistic_predictions, test$bot)
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0 394  22
+         1 144  70
+                                          
+               Accuracy : 0.7365          
+                 95% CI : (0.7003, 0.7705)
+    No Information Rate : 0.854           
+    P-Value [Acc &gt; NIR] : 1               
+                                          
+                  Kappa : 0.3183          
+ Mcnemars Test P-Value : &lt;2e-16          
+                                          
+            Sensitivity : 0.7323          
+            Specificity : 0.7609          
+         Pos Pred Value : 0.9471          
+         Neg Pred Value : 0.3271          
+             Prevalence : 0.8540          
+         Detection Rate : 0.6254          
+   Detection Prevalence : 0.6603          
+      Balanced Accuracy : 0.7466          
+                                          
+       'Positive' Class : 0 </pre>
+<p>One of the biggest strengths of <em>caret</em> is the ability to extract inferential model diagnostics, something that&#8217;s virtually impossible to do with <em>scikit-learn</em>. When fitting a regression method for example, you&#8217;ll naturally want to view coefficients, test statistics, p-values and goodness-of-fit metrics. Even if you&#8217;re only interested in predictive accuracy, there&#8217;s value to understanding what the model is actually saying and knowing whether the assumptions of the method are met. To replicate this type of output in Python would require refitting the model in something like <em>statsmodels, </em>which makes the model development process wasteful and tedious.</p>
+<pre id="code_snippet_32" style="position:relative;width:100%;border:0;padding:0;">summary(logistic_model)
+
+Call:
+NULL
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.2620  -0.6323  -0.4834  -0.0610   6.0228  
+
+Coefficients:
+                Estimate Std. Error z value Pr(&gt;|z|)    
+(Intercept)      -5.7136     0.7293  -7.835 4.71e-15 ***
+statuses_count   -2.4120     0.5026  -4.799 1.59e-06 ***
+friends_count    30.8238     3.2536   9.474  &lt; 2e-16 ***
+followers_count -69.4496    10.7190  -6.479 9.22e-11 ***
+---
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2172.3  on 2521  degrees of freedom
+Residual deviance: 1858.3  on 2518  degrees of freedom
+AIC: 1866.3
+
+Number of Fisher Scoring iterations: 13</pre>
+<p>But I think the best feature of R&#8217;s <em>caret</em> package is the ease with which you can compare models. Using the <em>resamples</em> function I can quickly generate visualizations to compare model performance on metrics of my choosing. These type of utility functions are super useful during model development, but also in communication of early results where you don&#8217;t want to spend a ton of time making finalized figures.</p>
+<pre id="code_snippet_33" style="position:relative;width:100%;border:0;padding:0;"># compare models
+results = resamples(list(tree_model = tree_model, 
+                         bagged_model = bagged_model,
+                         boost_model = boost_model))
+# plot results
+dotplot(results)</pre>
+<figure class="stag-section stag-image stag-image--no-filter stag-image--center"><img src="http://www.erinshellman.com/blog/wp-content/uploads/2015/08/dotplot.png" alt=""></figure>
+<p>For me, these features make all the difference and are a huge part of why R is still my preferred language for model development.</p>
+<h3>Conclusion</h3>
+<p>If you learned anything from this read, I hope it&#8217;s that Python is an extremely powerful tool for data tasks. We were able to retrieve data through an API, clean and process the data, develop, and test a classifier all with Python. We&#8217;ve also seen that there&#8217;s room for improvement. Utilities for fast, iterative model development are rich in R&#8217;s <em>caret </em>package, and <em>caret</em> serves as a great model for future development in <em>scikit-learn</em>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.erinshellman.com/bot-or-not/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Crushed it! Landing a data science job</title>
+		<link>http://www.erinshellman.com/crushed-it-landing-a-data-science-job/</link>
+					<comments>http://www.erinshellman.com/crushed-it-landing-a-data-science-job/#comments</comments>
+		
+		<dc:creator><![CDATA[erinshellman]]></dc:creator>
+		<pubDate>Sat, 21 Mar 2015 20:29:52 +0000</pubDate>
+				<category><![CDATA[data science]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://www.erinshellman.com/?p=212</guid>
+
+					<description><![CDATA[ <a class="read-more" href="http://www.erinshellman.com/crushed-it-landing-a-data-science-job/"></a>]]></description>
+										<content:encoded><![CDATA[<section class="stag-section stag-intro-text"></p>
+<p>Data science interviews are <em>the</em> <em>worst </em>because data science is interdisciplinary: code for &#8220;you have to know everything about all the disciplines.&#8221;  Depending on the company and the team, your interview might look like a software developer&#8217;s interview, or it might look a like a statistician&#8217;s interview, and the bad news is that virtually none of the material overlaps.  I recently spent a ton of time studying for interviews and I&#8217;ve got some hot tips to pass along if you&#8217;re thinking about a move soon.</p>
+<p>
+</section>
+<hr class="stag-section stag-divider stag-divider--dashed">
+<p><span class="stag-dropcap stag-dropcap--normal" style="font-size:50px;line-height:50px;width:50px;height:50px;">A</span>fter two amazing years with the Nordstrom Data Lab, I&#8217;ve accepted a research scientist position at Amazon Web Services to work on S3.  I&#8217;m excited to begin a new chapter of my career, and relieved that the interview process is over because it&#8217;s grueling and time-consuming.  Interviews typically consist of one to three screener conversations and then an all-day on-site, and they&#8217;re stressful because it&#8217;s hard to know what you&#8217;ll be asked and often you&#8217;re expected to perform feats of intellect that you don&#8217;t typically do as a data scientist (at least not devoid of context, from memory and over the phone).</p>
+<h3>You need time</h3>
+<p>The best piece of advice I can offer is that if you&#8217;re thinking of moving on (or moving into the field) start preparing now.  You want to give yourself a lot of time and not be in cram mode.  Take the time to be sure that you can explain core concepts in your own words.  Screening questions are commonly phrased like this:  &#8220;how would you explain to an engineer how to interpret a p-value?&#8221;  Explain it to an engineer, someone who, presumably, isn&#8217;t a statistician and might not be used to that language.  You don&#8217;t want it to be the first time you&#8217;ve had to rephrase basic definitions like that.  Also, don&#8217;t underestimate what nerves can do to your ability to recall information, even stuff you really thought you understood.  If you&#8217;re new to the field, you might need to give yourself more time to prepare if a lot of the concepts are unfamiliar to you.</p>
+<p>I also highly recommend spending time on the preparation of your professional materials, <em>i.e.</em> résumé and cover letter.  There are two camps on this it seems, those who think it matters and those who don&#8217;t.  Do interviewees look at that stuff with any detail?  Hard to say generally, but I did a ton of interviews at Nordstrom and I can tell you that I was very critical of résumés and letters.  Typos are unacceptable, a letter where the applicant brags is a red flag, weak materials indicate lack of interest (or lack of respect for the reader), and keyword stuffing was an open invitation for me to ask about where and why the applicant applied the methods.  In the broader technology industry I think people tend to believe the myth that all anyone cares about is what you&#8217;ve got up on GitHub, but most companies, big companies, don&#8217;t look at your GitHub, they look at your résumé and cover letter (this might also come as a shock, but technology <em>isn&#8217;t</em> a meritocracy).  Ultimately these documents are how you&#8217;ve chosen to represent yourself professionally, so they should matter to you even if you think they don&#8217;t matter to your interviewers.</p>
+<h3>If you didn&#8217;t try it, you probably don&#8217;t know it</h3>
+<p>I recommend doing a lot of practice problems and being very analytical about your weak areas.  Many falsely believe that reading and rereading is an effective study strategy, but it isn&#8217;t effective when you&#8217;re required to solve probability zingers and logic puzzles live (highly recommend <a href="http://www.amazon.com/Make-Stick-Peter-C-Brown-ebook/dp/B00JQ3FN7M">Make it Stick</a>, maybe before you study).  By mindfully doing practice problems you&#8217;ll know immediately where you&#8217;re weak and that will help you prioritize how you study.  Wasting time on stuff you know pretty well is a procrastination strategy, and I thought you were busy?  Also, this is a technical field and you should be prepared to answer questions at a substantially technical level.  If possible, I recommend doing practice problems standing at a whiteboard just to make sure you&#8217;re comfortable writing that way and speaking while you write.  You can find lots of <a href="http://www.quora.com/Data-Science-Interviews" target="_blank">tips</a> and <a href="http://www.quora.com/Statistics-and-Probability-Homework-Question" target="_blank">interview questions</a> on Quora.</p>
+<div id="attachment_262" style="width: 393px" class="wp-caption aligncenter"><a href="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/interview_prep.jpg"><img aria-describedby="caption-attachment-262" loading="lazy" class=" wp-image-262" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/interview_prep-300x225.jpg" alt="Set up for my first round of interviews." width="383" height="287" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/interview_prep-300x225.jpg 300w, http://www.erinshellman.com/blog/wp-content/uploads/2015/03/interview_prep.jpg 1024w" sizes="(max-width: 383px) 100vw, 383px" /></a><p id="caption-attachment-262" class="wp-caption-text">Office setup for my first round of interviews while still a PhD student at the University of Michigan. I was very green, transitioning out of my field, and terrified of not knowing something. This level of obsession is not healthy nor recommended.</p></div>
+<h3>Learn as much as you can about the role ahead of time</h3>
+<p>Did you know that an informational interview is a thing?  Until a friend used this strategy, I didn&#8217;t either!  Sometimes you&#8217;ll find that the interview process got going, but you&#8217;re not even sure you want the job.  You can tell them to slow their roll and just do an informational interview where you can learn more about whether pursuing the job is something you want.  Also take the time to &#8220;stalk&#8221; the company and people you&#8217;ll be interviewing with.  For example for my AWS onsite I looked up everyone I&#8217;d be interviewing with and spent some time on LinkedIn understanding their background.  This can sometimes help you guess what types of things they&#8217;re liable to ask you.  Oh, she&#8217;s an engineer so she probably won&#8217;t ask about stats, but she&#8217;ll want to hear about scaling methods up.  Wait, but she&#8217;s a principal engineer, so maybe she&#8217;ll actually want to hear more about my leadership and inter-personal abilities.  Ellen Chisa&#8217;s got a lot of great tips on <a href="http://blog.ellenchisa.com/2014/04/13/stuff-ive-screwed-up-while-interviewing/" target="_blank">what not to do</a> in an interview as well.</p>
+<h3>On to the resources!</h3>
+<p>You can reasonably be expected to be asked about the following topics:  Statistics, Machine Learning, Forecasting, Algorithms, everything an undergrad CS major should know, and then the scalability and performance associated with all those things.  Oh also, you should be prepared to program, typically in a language of your choice.  Easy peasy right?!</p>
+<h5>Books</h5>
+<p>It probably doesn&#8217;t matter which one, but get an intro probability book.  I used my trusty old <a href="http://www.amazon.com/First-Course-Probability-9th/dp/032179477X" target="_blank">Ross</a>, a standard undergrad text in probability.  If you have Ross, I recommend doing the self-tests in chapters 1 &#8211; 5 and using those tests to help you decide where to spend more time.  Combinatorics and basic probability questions are the norm for phone screens so make sure you&#8217;re comfortable doing them.  I also used <a href="http://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126/" target="_blank">Casella and Berger</a>, basically the Bible for statisticians, to review the properties of expectations and variance.  Generally I&#8217;d say that text is probably more advanced than is required in most interviews.</p>
+<p>For the CS related topics I primarily used <a href="http://www.amazon.com/Programming-Interviews-Exposed-Secrets-Landing/dp/1118261364/" target="_blank">Programming Interviews Exposed</a>, <a href="http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X" target="_blank">Cracking the Coding Interview</a> and <a href="http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880" target="_blank">Programming Pearls</a>.  <em>Exposed</em> is definitely the most comprehensive of the books and if you only have time to look over one, go with that one.  <em>Cracking</em> is very succinct and specific to the interview processes at the big boy companies like Amazon, Google and Facebook but isn&#8217;t super generalizable.  The version I was using also had some really irritating vignettes about making sure you&#8217;re &#8220;a guy they want to get beer with&#8221; that were so bro-y I quit using the book (I expected more from Gayle).  <em>Pearls</em> is not an interview book at all.  It&#8217;s a collection of problems in computing and mental narratives of approaches to solving them.  This book isn&#8217;t really for studying as much as it is for reasoning about computing and it&#8217;s a great read if you&#8217;ve got time.</p>
+<h5>Coursera</h5>
+<div id="attachment_268" style="width: 295px" class="wp-caption alignright"><a href="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/coursera_archive.png"><img aria-describedby="caption-attachment-268" loading="lazy" class="size-medium wp-image-268" src="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/coursera_archive-285x300.png" alt="Some classes allow you to view archived sections so you don't have to wait to see the lecture materials." width="285" height="300" srcset="http://www.erinshellman.com/blog/wp-content/uploads/2015/03/coursera_archive-285x300.png 285w, http://www.erinshellman.com/blog/wp-content/uploads/2015/03/coursera_archive-973x1024.png 973w, http://www.erinshellman.com/blog/wp-content/uploads/2015/03/coursera_archive.png 988w" sizes="(max-width: 285px) 100vw, 285px" /></a><p id="caption-attachment-268" class="wp-caption-text">Some classes allow you to view archived sections so you don&#8217;t have to wait to see the lecture materials.</p></div>
+<p>Coursera is literally <em>the</em> shit.  If you got rid of your old textbooks or don&#8217;t want to buy anything, you can easily get by with the material on Cousera.  I hiiiiighly recommend the Biostatistics <a href="https://www.coursera.org/course/biostats" target="_blank">bootcamps</a> from Johns Hopkins.  They are an excellent review of the first year of a graduate level statistics program.  Don&#8217;t spend too much of your time watching the lectures.  Instead test yourself with the quizzes and assignments and watch the videos in areas where you are weak.  Also check out the <a href="https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripTop" target="_blank">data science specialization</a> which is offered from the same folks and covers applied skills like exploratory data analysis and programming in R.  <a href="https://www.coursera.org/course/ml" target="_blank">Andrew Ng</a>&#8216;s machine learning course is a must and is quite enjoyable.  He does a great job of motivating methods and spends a lot of time building intuition which is very valuable for phone screens where you might not jump into technical details but still need to demonstrate familiarity.  The <a href="https://www.coursera.org/specialization/cloudcomputing/19?utm_medium=courseDescripTop" target="_blank">cloud computing specialization</a> was also great for me since I was gunning for the job at AWS.  I&#8217;m transitioning industries again from retail technology to cloud computing and I wanted to get a better sense for the types of problems that I&#8217;d be expected to discuss.  In this case I just watched videos so I could absorb the language people use to describe the field rather than focus too much on the technical details.  I&#8217;m always on the prowl for great classes on Coursera, so if you have recommendations leave them in the comments!</p>
+<p>Coursera used to make me crazy because they enforce this antiquated notion of start and end times.  I recently discovered that many courses allow you to view archived lecture materials so you can learn the material without having to wait for the class to start.  This was a game changer for me, so check it out.</p>
+<h3>Good luck!</h3>
+<p>That&#8217;s about all I&#8217;ve got in terms of the tangibles. But I&#8217;ll leave you with a couple platitudes.  First, stay calm!  You won&#8217;t be able to recall your knowledge when you&#8217;re all keyed up.  This is something I have trouble with, which is why I do crazy things like write down everything I know and tape it to the wall, but that&#8217;s not recommended behavior.  My new crazy strategy is to do a bunch of jumping jacks a couple minutes before a screener call so that I&#8217;m sweaty and out of breath.  Also, if you&#8217;re local, ask to do screeners in person.  I give great face, and I&#8217;ve found that I do a lot better when I can see the interviewer than I do over the phone.</p>
+<p>Don&#8217;t forget you&#8217;re interviewing them too and trust your initial impressions.  I had an informational interview with a start-up and left with the feeling that the interviewer was arrogant and not really listening to what I was saying, but I thought the work seemed interesting.  I did a follow-up and all my reservations were confirmed a million times over.  It was a terrible experience and a total waste of my time that could have been avoided if I&#8217;d trusted my gut feeling that these people were douches. Interesting work isn&#8217;t worth spending a minimum of 8 hours a day with people who won&#8217;t respect you.</p>
+<p>Finally, try not to compare your experience to those of others, because you might have it wrong and it might just bum you out.  I happened to be interviewing at about the same time as a number of colleagues whom I know well.  I was pretty shocked and, at the time, angry about my experience compared with some of theirs.  Without going into specifics, I interviewed the same week for the same job in the same office as a male colleague with less experience.  He got to do his screener in person with someone from the team he&#8217;d be on and was asked very rudimentary questions about dice roll probabilities.  I had to do my screener on the phone with someone from a different office and was asked to find the optimal strategy of a game theory problem. It&#8217;s hard to hear that and not read into it, and it&#8217;s harder not to not be angry.  Now I interpret that inconsistent interview experience with poor recruiting practices and company-wide immaturity. I don&#8217;t want to work somewhere that doesn&#8217;t know how to interview for my role and as a result probably hires people I don&#8217;t want to work with.</p>
+<p>In the end you should prepare as much as you can, but don&#8217;t fret if you feel like there are holes in your knowledge.  Trust yourself, trust your impressions, and learn from those bad interviews so that you can crush it in the next one.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.erinshellman.com/crushed-it-landing-a-data-science-job/feed/</wfw:commentRss>
+			<slash:comments>30</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Data Scientists at Work</title>
+		<link>http://www.erinshellman.com/data-scientists-at-work/</link>
+					<comments>http://www.erinshellman.com/data-scientists-at-work/#comments</comments>
+		
+		<dc:creator><![CDATA[erinshellman]]></dc:creator>
+		<pubDate>Fri, 02 Jan 2015 23:22:01 +0000</pubDate>
+				<category><![CDATA[data science]]></category>
+		<category><![CDATA[press]]></category>
+		<category><![CDATA[writing]]></category>
+		<guid isPermaLink="false">http://www.erinshellman.com/?p=145</guid>
+
+					<description><![CDATA[ <a class="read-more" href="http://www.erinshellman.com/data-scientists-at-work/"></a>]]></description>
+										<content:encoded><![CDATA[<section class="stag-section stag-intro-text"><p>Data entrepreneur <a href="https://www.dashingd3js.com/">Sebastian Gutierrez</a> recently published <a href="http://www.amazon.com/Data-Scientists-Work-Sebastian-Gutierrez/dp/1430265981/" target="_blank">Data Scientists at Work</a>, which features 16 interviews with data scientists from a variety of industries. I&#8217;m thrilled to be featured in the book and it&#8217;s been amazing to see the final product.  Here are some highlights from my chapter (Excerpted by courtesy of the publisher from <a href="http://www.apress.com/9781430265986"><i>Data Scientists at Work</i></a> by Sebastian Gutierrez.  Apress, 2015).</p>
+</section>
+<hr class="stag-section stag-divider stag-divider--dashed">
+<div class="page" title="Page 4">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Gutierrez: Tell me about where you work.</p>
+<p>Shellman: I work at Nordstrom in the Nordstrom Data Lab. It’s an exciting job because in retail, specifically fashion retail, I have the opportunity to work on data applications and problems in lots of areas, including transactional, business operations, clickstream, and seasonal trends in garment colors. Retailers the size and age of Nordstrom have access to unique data that many online retailers don’t, because they don’t have brick-and-mortar stores. The heterogeneity of the data we work with makes the job really fun and challenging.</p>
+<div class="page" title="Page 13">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Gutierrez: What specific tools are you using?</p>
+<p>Shellman: I’m writing a lot of Python these days, it’s what all our recommendation algorithms are written in. The Recommendo API is written in node and hosted on AWS. We use a lot of open source libraries in Python, like scikit-learn and pandas. As someone who used to work almost exclusively in R, pandas is great because it’s cheating in a way. It makes Python a lot like R, so you get to code in Python but get a lot of the conveniences that we’ve all come to expect from R. Of course, you’ll also make yourself insane trying to remember whether it’s “len” or “length,” and 0 or 1 indexed.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 6">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Gutierrez: What advice do you have for current undergrads?</p>
+<p>Shellman: My advice to undergrads is to study computer science, math, or statistics, and a combination of the three. It doesn’t matter what else you study alongside them, if you have those three skills, you can do whatever you want, literally. I think the opportunities are endless, which means you don’t actually have to commit to any industry. I can’t advocate enough for the study of math in general and the maths more broadly because it’s where you learn to reason and think critically. The really exciting industries that are experiencing a lot of growth all involve math, computer science, and statistics in some way.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page" title="Page 7">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Gutierrez: Do you see yourself working in data science in your 40s?</p>
+<p>Shellman: Well, the thing about data science is that it’s almost a catchall to the point that it’s meaningless. The reason that almost everybody starts a data science talk with a slide discussing “What does it even mean?” is that it almost means nothing. A data scientist to me is a person with a certain set of quantitative and computational skills that are applicable across different domains. So as a data scientist, even if I don’t have the domain expertise I can learn it, and can work on any problem that can be quantitatively described. I can almost guarantee that I won’t be in fashion retail in my forties, but I’m sure I’ll be working on something that relies on data and using similar techniques and methodologies.</p>
+<div class="page" title="Page 17">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Gutierrez: What advice would you give to data scientists looking for work?</p>
+<p>Shellman: Postings for data scientists can be pretty intimidating because most of them read like a data science glossary. The truth is that the technology changes so quickly that no one possesses experience of everything liable to be written on a posting. When you look at that, it can be overwhelming, and you might feel like, “This isn’t for me. I don’t have any of these skills and I have nothing to contribute.” I would encourage against that mindset as long as you’re okay with change and learning new things all the time.  Ultimately, what companies want is a person who can rigorously define problems and design paths to a solution. They also want people who are good at learning. I think those are the core skills.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.erinshellman.com/data-scientists-at-work/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Getting to code in under a minute with Teamocil</title>
+		<link>http://www.erinshellman.com/getting-to-code-in-under-a-minute-with-teamocil/</link>
+					<comments>http://www.erinshellman.com/getting-to-code-in-under-a-minute-with-teamocil/#comments</comments>
+		
+		<dc:creator><![CDATA[erinshellman]]></dc:creator>
+		<pubDate>Sun, 21 Dec 2014 21:31:42 +0000</pubDate>
+				<category><![CDATA[data science]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[PyLadies]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[software development]]></category>
+		<category><![CDATA[tmux]]></category>
+		<guid isPermaLink="false">http://www.erinshellman.com/?p=107</guid>
+
+					<description><![CDATA[ <a class="read-more" href="http://www.erinshellman.com/getting-to-code-in-under-a-minute-with-teamocil/"></a>]]></description>
+										<content:encoded><![CDATA[<p>Lately I&#8217;ve found that the overhead of configuring my development environment occupies too much of my development time, particularly on side-projects that are already time-starved.  Nobody likes to sit down&#8211;all stoked to code&#8211;and spend the first 15 minutes just getting everything up and running.  Lucky for me, my beautiful and talented <a title="Jim Vallandingham" href="http://vallandingham.me/" target="_blank">co-worker</a> spammed me a helpful link this week for a <a href="http://robots.thoughtbot.com/a-tmux-crash-course">tmux</a> tool called <a href="https://github.com/remiprev/teamocil">Teamocil</a>, which it turns out, is kind of the shit.  I already use tmux for programming on remote servers to avoid my code disappearing into space in the event that I&#8217;m prematurely disconnected, so getting Teamocil up and running was really easy.  It&#8217;s just a matter of configuring a yaml file.</p>
+<p>So here&#8217;s my environment for cellbot, a RESTful service that exposes <a title="SBML.org" href="http://sbml.org/Main_Page" target="_blank">SBML</a> models as JSON (coming soon!).  At the moment, I have two basic configurations.  The first is my API development set-up which consists of three panes, one large pane for vim and two small ones for the command line/git and my web server.</p>
+<pre id="code_snippet_5" style="position:relative;width:100%;border:0;padding:0;">name: &quot;cellbot-api&quot;
+windows:
+  - name: &quot;server&quot;
+    root: &quot;~/projects/human-cellbot-api/api&quot;
+    layout: main-vertical
+    panes:
+      - commands:
+        - vim &quot;app.js&quot;
+        - focus: true
+      - commands:
+        - git status
+      - commands:
+        - npm start </pre>
+<p>Then it&#8217;s just a matter of opening a new tmux session and typing &#8220;teamocil cellbot&#8221;.  Teamocil then renames my tmux session to &#8216;cellbot-api&#8217;, constructs my panes, and issues my commands.  Ultimately my set-up looks like this:</p>
+<figure class="stag-section stag-image stag-image--no-filter stag-image--none"><img src="http://www.erinshellman.com/blog/wp-content/uploads/2014/12/cellbot-env.png" alt=""></figure>
+<p>I have app.js and API documentation open in a split-window vim session (although I did the vim split manually).  This makes it super simple to modify the code and documentation (<a title="iodocs github" href="https://github.com/mashery/iodocs" target="_blank">iodocs</a>, thanks Mashery!) simultaneously. Next to that I have an open terminal window for git and any other command line stuff I might want to do.  Finally in the bottom left I can monitor my server.  <em>Fun!</em></p>
+<p>Second, I have an configuration to fire up my databases.  Data for the API are stored in mongodb and I&#8217;m using Redis for my OAuth store.</p>
+<pre id="code_snippet_6" style="position:relative;width:100%;border:0;padding:0;">name: &quot;cellbot-db&quot;
+windows:
+  - name: &quot;db&quot;
+    root: &quot;~/projects/human-cellbot-api/api&quot;
+    layout: main-vertical
+    panes:
+      - commands:
+        - sudo mongod
+      - commands:
+        - sudo redis-server 
+      - commands:
+        - sudo mongo
+        - focus: true </pre>
+<p>In this case I just want to run both of those database servers, and then open a mongo shell so that I can interactively debug my endpoints when I need to.  The only minor annoyance is the sudo-ing, but it&#8217;s still faster than remembering to start those servers when I have 15 minutes and just want to write code.  I also found <a title="Better productivity with Tmux and Teamocil" href="http://blog.shameerc.com/2014/05/better-productivity-with-tmux-and-teamocil" target="_blank">this</a> post useful, especially the tips about adding mouse actions to tmux, because that&#8217;s what enables you to slide the pane sizes around.</p>
+<p>I spent some time a few months ago organizing my dotfiles and getting them all up on github and I love that I can include the .teamocil directory in my dotfiles repo and take my environment with me wherever I go.  <em>Get into it!</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://www.erinshellman.com/getting-to-code-in-under-a-minute-with-teamocil/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
