@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC_zn0wBLlOpIlQWY3V_Y3gw"/>
+ <id>yt:channel:UC_zn0wBLlOpIlQWY3V_Y3gw</id>
+ <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+ <title>Good Vibrations with Freeball</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw"/>
+ <author>
+  <name>Good Vibrations with Freeball</name>
+  <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+ </author>
+ <published>2007-01-29T16:41:15+00:00</published>
+ <entry>
+  <id>yt:video:wPk16G7mkZY</id>
+  <yt:videoId>wPk16G7mkZY</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Introduction To The Lagrange Multiplier Method</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wPk16G7mkZY"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2022-10-30T16:34:41+00:00</published>
+  <updated>2022-10-31T14:15:03+00:00</updated>
+  <media:group>
+   <media:title>Introduction To The Lagrange Multiplier Method</media:title>
+   <media:content url="https://www.youtube.com/v/wPk16G7mkZY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wPk16G7mkZY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>An introductory video on the use of the Lagrange Multiplier Method to derive the equations of motion for the simple pendulum using a constrained optimization approach.
+
+A COUPLE OF TYPOS TO NOTE:  
+The 2nd term of Equation 8 should have a + sign.  It should be + g/l sin θ. 
+ALSO: 
+Equation 20 should read -gy.
+
+Equations of Motion for the Simple Pendulum: 
+https://www.youtube.com/watch?v=8VJ1CJ55Np0
+
+Download notes for THIS video HERE:  https://bit.ly/3gKKRDI
+
+Download notes for my other videos:  https://bit.ly/37OH9lX
+
+0:00 Introduction
+1:46 Modeling the simple pendulum using Lagrange's equations
+4:41 Constrained optimization problems
+5:24 Modeling the simple pendulum using the Lagrange Multiplier Method
+11:00 What is the Lagrange multiplier?
+17:19 Summary of the Lagrange Multiplier Method
+18:15 Quick recap</media:description>
+   <media:community>
+    <media:starRating count="148" average="5.00" min="1" max="5"/>
+    <media:statistics views="1957"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JmjdwhBkvq8</id>
+  <yt:videoId>JmjdwhBkvq8</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Approximate Solutions - The Galerkin Method</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JmjdwhBkvq8"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2022-06-08T04:17:04+00:00</published>
+  <updated>2022-08-19T15:48:50+00:00</updated>
+  <media:group>
+   <media:title>Approximate Solutions - The Galerkin Method</media:title>
+   <media:content url="https://www.youtube.com/v/JmjdwhBkvq8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JmjdwhBkvq8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Finding approximate solutions using The Galerkin Method.  Showing an example of a cantilevered beam with a UNIFORMLY DISTRIBUTED LOAD.
+
+Governing Equations: Weak Forms vs Strong Forms: 
+https://www.youtube.com/watch?v=4f1601w4syI
+
+The Ritz Method:
+https://youtu.be/sPs1ScOaYjs
+
+Download notes for THIS video HERE:  https://bit.ly/3H5qKcv
+
+Download notes for my other videos:  https://bit.ly/37OH9lX
+
+0:00 Introduction
+1:00 The Method of Weighted Residuals
+8:14 The Galerkin Method - Explanation
+13:37 Orthogonal Projection of Error
+20:49 The Galerkin Method - Step-By-Step
+23:26 Example: Cantilever beam with uniformly distributed load using Galerkin's Method - Shape Functions
+28:53 Example: Cantilever beam with uniformly distributed load using Galerkin's Method - Solving for the Constants
+31:22 Example: Cantilever beam with uniformly distributed load using Galerkin's Method - Solution
+32:57 Quick recap</media:description>
+   <media:community>
+    <media:starRating count="241" average="5.00" min="1" max="5"/>
+    <media:statistics views="5049"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sPs1ScOaYjs</id>
+  <yt:videoId>sPs1ScOaYjs</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Approximate Solutions - The Ritz Method</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sPs1ScOaYjs"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2022-04-19T07:00:13+00:00</published>
+  <updated>2022-08-19T15:42:18+00:00</updated>
+  <media:group>
+   <media:title>Approximate Solutions - The Ritz Method</media:title>
+   <media:content url="https://www.youtube.com/v/sPs1ScOaYjs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sPs1ScOaYjs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Finding approximate solutions using The Ritz Method.  Showing an example of a cantilevered beam with a tip load.
+
+Governing Equations: Weak Forms vs Strong Forms: 
+https://www.youtube.com/watch?v=4f1601w4syI
+
+The Galerkin Method:
+https://youtu.be/JmjdwhBkvq8
+
+Download notes for THIS video HERE:  https://bit.ly/37mHsH
+
+Download notes for my other videos:  https://bit.ly/37OH9lX
+
+0:00 Finding the exact solution for the tip loaded cantilevered beam
+3:53 The Ritz Method - Mathematical and historical background
+10:46 The Ritz Method - Finding a suitable shape function
+14:40 The Ritz Method - Formulating the potential energy expression
+20:10 The Ritz Method - Minimizing the potential energy with respect to a
+22:12 Comparing exact and approximate solutions
+24:22 Quick recap</media:description>
+   <media:community>
+    <media:starRating count="157" average="5.00" min="1" max="5"/>
+    <media:statistics views="3319"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4f1601w4syI</id>
+  <yt:videoId>4f1601w4syI</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Governing Equations: Weak Forms Versus Strong Forms</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4f1601w4syI"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2022-03-08T08:00:03+00:00</published>
+  <updated>2022-08-19T15:41:39+00:00</updated>
+  <media:group>
+   <media:title>Governing Equations: Weak Forms Versus Strong Forms</media:title>
+   <media:content url="https://www.youtube.com/v/4f1601w4syI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4f1601w4syI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Showing how to derive the strong form of the governing differential equation from the weak form.  Discussion of the benefits of each.
+
+Download notes for THIS video HERE:  https://bit.ly/35V9Fna
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="202" average="5.00" min="1" max="5"/>
+    <media:statistics views="3545"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3HXCv4dmR7A</id>
+  <yt:videoId>3HXCv4dmR7A</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>The Brachistochrone Problem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3HXCv4dmR7A"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2021-04-08T07:00:01+00:00</published>
+  <updated>2022-01-16T00:49:23+00:00</updated>
+  <media:group>
+   <media:title>The Brachistochrone Problem</media:title>
+   <media:content url="https://www.youtube.com/v/3HXCv4dmR7A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3HXCv4dmR7A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presenting the history of the brachistochrone problem, its role in the discovery and development of the Calculus of Variations and demonstrating how to solve the brachistochrone problem using the method of the Calculus of Variations.
+
+Download notes for THIS video HERE:  https://bit.ly/3sKXUGA
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="1193" average="5.00" min="1" max="5"/>
+    <media:statistics views="30317"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EHKFbl3VwMo</id>
+  <yt:videoId>EHKFbl3VwMo</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>The Hanging Chain (Catenary) Problem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EHKFbl3VwMo"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2021-03-30T07:00:02+00:00</published>
+  <updated>2022-07-22T06:02:47+00:00</updated>
+  <media:group>
+   <media:title>The Hanging Chain (Catenary) Problem</media:title>
+   <media:content url="https://www.youtube.com/v/EHKFbl3VwMo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EHKFbl3VwMo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Finding the solution to the hanging chain (catenary) problem using the Calculus of Variations.
+
+Download notes for THIS video HERE: https://bit.ly/3de81wQ
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="808" average="5.00" min="1" max="5"/>
+    <media:statistics views="19486"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YVLFHE-mJ7w</id>
+  <yt:videoId>YVLFHE-mJ7w</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Shortest Distance Path Between Two Points On A Plane</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YVLFHE-mJ7w"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2021-03-24T07:00:14+00:00</published>
+  <updated>2022-07-01T20:54:32+00:00</updated>
+  <media:group>
+   <media:title>Shortest Distance Path Between Two Points On A Plane</media:title>
+   <media:content url="https://www.youtube.com/v/YVLFHE-mJ7w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YVLFHE-mJ7w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Using the Euler-Lagrange Equation to prove that the shortest path between two points on a plane is a straight line.
+
+Download notes for THIS video HERE:  https://bit.ly/2OSYYtl
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="440" average="5.00" min="1" max="5"/>
+    <media:statistics views="8744"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LY-JcuYqSEk</id>
+  <yt:videoId>LY-JcuYqSEk</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Deriving Lagrange's Equations</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LY-JcuYqSEk"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-24T10:26:59+00:00</published>
+  <updated>2022-06-30T21:45:31+00:00</updated>
+  <media:group>
+   <media:title>Deriving Lagrange's Equations</media:title>
+   <media:content url="https://www.youtube.com/v/LY-JcuYqSEk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LY-JcuYqSEk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Deriving Lagrange's Equations using Hamilton's Principle.  Demonstrating how to incorporate the effects of damping and non-conservative forces into Lagrange's equations.
+
+Download notes for THIS video HERE:  https://bit.ly/2KdBjRo 
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="455" average="5.00" min="1" max="5"/>
+    <media:statistics views="15661"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Tl7j68nuGBw</id>
+  <yt:videoId>Tl7j68nuGBw</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>The Effect of the Axial Load - Foreshortening Work</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Tl7j68nuGBw"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-19T08:00:05+00:00</published>
+  <updated>2022-01-22T12:59:26+00:00</updated>
+  <media:group>
+   <media:title>The Effect of the Axial Load - Foreshortening Work</media:title>
+   <media:content url="https://www.youtube.com/v/Tl7j68nuGBw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Tl7j68nuGBw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Demonstrating how to model the effects of an axial load using Hamilton's Principle.  Explanation of beam foreshortening.
+
+Download notes for THIS video HERE:  https://bit.ly/2UEtZjZ 
+
+Download notes for my other videos:  https://bit.ly/37OH9lX
+
+**You Should Watch This Video First**
+Transverse Vibrations of a Beam Using Hamilton's Principle: 
+www.youtube.com/watch?v=YVcqL1UozHw
+
+Column Buckling: 
+https://youtu.be/PxHNEIqrMCA</media:description>
+   <media:community>
+    <media:starRating count="59" average="5.00" min="1" max="5"/>
+    <media:statistics views="1973"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YVcqL1UozHw</id>
+  <yt:videoId>YVcqL1UozHw</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Transverse Vibrations of a Beam Using Hamilton's Principle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YVcqL1UozHw"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-13T12:00:05+00:00</published>
+  <updated>2022-07-01T20:55:01+00:00</updated>
+  <media:group>
+   <media:title>Transverse Vibrations of a Beam Using Hamilton's Principle</media:title>
+   <media:content url="https://www.youtube.com/v/YVcqL1UozHw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YVcqL1UozHw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Deriving the equations of motion for the transverse vibrations of an Euler-Bernoulli Beam using Hamilton's Principle.
+
+Download notes for THIS video HERE:  https://bit.ly/3eOwJ7G
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="224" average="5.00" min="1" max="5"/>
+    <media:statistics views="7359"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8GV5pggBeu0</id>
+  <yt:videoId>8GV5pggBeu0</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Kinetic and Strain Energy for Common Structural Members</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8GV5pggBeu0"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-12T08:00:03+00:00</published>
+  <updated>2022-07-22T12:09:02+00:00</updated>
+  <media:group>
+   <media:title>Kinetic and Strain Energy for Common Structural Members</media:title>
+   <media:content url="https://www.youtube.com/v/8GV5pggBeu0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8GV5pggBeu0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Expressions for the kinetic and strain energies of some typical structural members.  This one moves pretty quickly because it assume that this is review material for most of you.  You should have seen in basic strength of materials classes.
+
+Download notes for THIS video HERE:  https://bit.ly/3eGUj5Y
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="138" average="5.00" min="1" max="5"/>
+    <media:statistics views="3395"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OWTaGzLeRpE</id>
+  <yt:videoId>OWTaGzLeRpE</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Deriving Hamilton's Principle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OWTaGzLeRpE"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-10T08:00:04+00:00</published>
+  <updated>2022-06-28T00:09:01+00:00</updated>
+  <media:group>
+   <media:title>Deriving Hamilton's Principle</media:title>
+   <media:content url="https://www.youtube.com/v/OWTaGzLeRpE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OWTaGzLeRpE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The derivation of Hamilton's Principle from fundamental principles of elasticity starting with the Principle of Virtual Work.
+
+Download notes for THIS video HERE:  https://bit.ly/2Gzy9WK
+
+Download notes for my other videos:  https://bit.ly/37OH9lX
+
+**You Should Watch This Video First**
+The Principle of Minimum Potential Energy:  https://www.youtube.com/watch?v=CfCuTNacNyY</media:description>
+   <media:community>
+    <media:starRating count="1021" average="5.00" min="1" max="5"/>
+    <media:statistics views="36826"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CfCuTNacNyY</id>
+  <yt:videoId>CfCuTNacNyY</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>The Principle of Minimum Potential Energy</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CfCuTNacNyY"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-05T08:00:02+00:00</published>
+  <updated>2022-07-22T16:11:10+00:00</updated>
+  <media:group>
+   <media:title>The Principle of Minimum Potential Energy</media:title>
+   <media:content url="https://www.youtube.com/v/CfCuTNacNyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CfCuTNacNyY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Deriving the Principle of Virtual Work and the Principle of Minimum Potential Energy.
+
+Download notes for THIS video HERE:  https://bit.ly/3kT4Hdl
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="492" average="5.00" min="1" max="5"/>
+    <media:statistics views="16767"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vqDHO2eKXcs</id>
+  <yt:videoId>vqDHO2eKXcs</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>The Delta Operator (Variational Operation)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vqDHO2eKXcs"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-11-03T08:00:07+00:00</published>
+  <updated>2022-06-29T01:49:44+00:00</updated>
+  <media:group>
+   <media:title>The Delta Operator (Variational Operation)</media:title>
+   <media:content url="https://www.youtube.com/v/vqDHO2eKXcs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vqDHO2eKXcs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The definition and development of the delta (variational) operator.
+
+Download notes for THIS video:  https://bit.ly/3mBuUNK
+
+Download notes for my other videos:  https://bit.ly/37OH9lX</media:description>
+   <media:community>
+    <media:starRating count="935" average="5.00" min="1" max="5"/>
+    <media:statistics views="24495"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:om04HgbugLU</id>
+  <yt:videoId>om04HgbugLU</yt:videoId>
+  <yt:channelId>UC_zn0wBLlOpIlQWY3V_Y3gw</yt:channelId>
+  <title>Lecture Notes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=om04HgbugLU"/>
+  <author>
+   <name>Good Vibrations with Freeball</name>
+   <uri>https://www.youtube.com/channel/UC_zn0wBLlOpIlQWY3V_Y3gw</uri>
+  </author>
+  <published>2020-10-31T18:07:47+00:00</published>
+  <updated>2022-01-08T15:18:35+00:00</updated>
+  <media:group>
+   <media:title>Lecture Notes</media:title>
+   <media:content url="https://www.youtube.com/v/om04HgbugLU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/om04HgbugLU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>*** Download your lecture notes: *** 
+http://freeball.dpdcart.com</media:description>
+   <media:community>
+    <media:starRating count="52" average="5.00" min="1" max="5"/>
+    <media:statistics views="6627"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
