@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCfqPst3x4TrBUsYAF83uOBg"/>
+ <id>yt:channel:UCfqPst3x4TrBUsYAF83uOBg</id>
+ <yt:channelId>UCfqPst3x4TrBUsYAF83uOBg</yt:channelId>
+ <title>davidrandallmiller</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCfqPst3x4TrBUsYAF83uOBg"/>
+ <author>
+  <name>davidrandallmiller</name>
+  <uri>https://www.youtube.com/channel/UCfqPst3x4TrBUsYAF83uOBg</uri>
+ </author>
+ <published>2010-08-21T19:44:25+00:00</published>
+ <entry>
+  <id>yt:video:N3tRFayqVtk</id>
+  <yt:videoId>N3tRFayqVtk</yt:videoId>
+  <yt:channelId>UCfqPst3x4TrBUsYAF83uOBg</yt:channelId>
+  <title>I programmed some creatures. They Evolved.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=N3tRFayqVtk"/>
+  <author>
+   <name>davidrandallmiller</name>
+   <uri>https://www.youtube.com/channel/UCfqPst3x4TrBUsYAF83uOBg</uri>
+  </author>
+  <published>2020-12-13T23:35:01+00:00</published>
+  <updated>2022-07-19T00:52:41+00:00</updated>
+  <media:group>
+   <media:title>I programmed some creatures. They Evolved.</media:title>
+   <media:content url="https://www.youtube.com/v/N3tRFayqVtk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/N3tRFayqVtk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a report of a software project that created the conditions for evolution in an attempt to learn something about how evolution works in nature. This is for the programmer looking for ideas for interdisciplinary programming projects, or for anyone interested in how evolution and natural selection work.
+
+Before commenting on the religious/theological implications of this simulation, please note that this video in no way purports to explain all the mysteries of life and the universe.
+
+GitHub: https://github.com/davidrmiller/biosim4</media:description>
+   <media:community>
+    <media:starRating count="123280" average="5.00" min="1" max="5"/>
+    <media:statistics views="2769442"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hLfaqJ-AlYE</id>
+  <yt:videoId>hLfaqJ-AlYE</yt:videoId>
+  <yt:channelId>UCfqPst3x4TrBUsYAF83uOBg</yt:channelId>
+  <title>Shakespeare Word Search Puzzle</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hLfaqJ-AlYE"/>
+  <author>
+   <name>davidrandallmiller</name>
+   <uri>https://www.youtube.com/channel/UCfqPst3x4TrBUsYAF83uOBg</uri>
+  </author>
+  <published>2020-05-28T19:14:30+00:00</published>
+  <updated>2022-06-04T02:49:08+00:00</updated>
+  <media:group>
+   <media:title>Shakespeare Word Search Puzzle</media:title>
+   <media:content url="https://www.youtube.com/v/hLfaqJ-AlYE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hLfaqJ-AlYE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This very large word search puzzle poster is for the nerdiest Shakespeare nerds.
+
+The word search has a grid of 85,808 letters containing the 26,786 words in William Shakespeare's vocabulary. Our source was The Complete Works of William Shakespeare, originally published in 1623, available from Project Gutenberg (http://gutenberg.org).
+
+Shakespeare wrote using a vocabulary of, depending on who did the counting, 15,000 to 31,500 words. We found, after removing punctuation and deleting duplicates, 26,786 unique words.
+
+We wrote a computer program that arranged the words in a word search grid of 248 by 346 characters. The words are arranged horizontally, vertically, and diagonally going forward and backward. The puzzle is 95.6% dense, meaning that about 96% of the letters are part of a word, and only about 4% of the letters are random fillers.
+
+For more info, visit https://ptolemypress.com/shakespeare/</media:description>
+   <media:community>
+    <media:starRating count="652" average="5.00" min="1" max="5"/>
+    <media:statistics views="18853"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
