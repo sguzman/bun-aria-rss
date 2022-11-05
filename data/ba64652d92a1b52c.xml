@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>stat.CO updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Statistics -- Computation (stat.CO) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Statistics -- Computation</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01429" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01492" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01591" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01746" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.04539" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01429">
+<title>Fast Bayesian estimation of brain activation with cortical surface fMRI data using EM. (arXiv:2211.01429v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01429</link>
+<description rdf:parseType="Literal">&lt;p&gt;Task functional magnetic resonance imaging (fMRI) is a type of neuroimaging
+data used to identify areas of the brain that activate during specific tasks or
+stimuli. These data are conventionally modeled using a massive univariate
+approach across all data locations, which ignores spatial dependence at the
+cost of model power. We previously developed and validated a spatial Bayesian
+model leveraging dependencies along the cortical surface of the brain in order
+to improve accuracy and power. This model utilizes stochastic partial
+differential equation spatial priors with sparse precision matrices to allow
+for appropriate modeling of spatially-dependent activations seen in the
+neuroimaging literature, resulting in substantial increases in model power. Our
+original implementation relies on the computational efficiencies of the
+integrated nested Laplace approximation (INLA) to overcome the computational
+challenges of analyzing high-dimensional fMRI data while avoiding issues
+associated with variational Bayes implementations. However, this requires
+significant memory resources, extra software, and software licenses to run. In
+this article, we develop an exact Bayesian analysis method for the general
+linear model, employing an efficient expectation-maximization algorithm to find
+maximum a posteriori estimates of task-based regressors on cortical surface
+fMRI data. Through an extensive simulation study of cortical surface-based fMRI
+data, we compare our proposed method to the existing INLA implementation, as
+well as a conventional massive univariate approach employing ad-hoc spatial
+smoothing. We also apply the method to task fMRI data from the Human Connectome
+Project and show that our proposed implementation produces similar results to
+the validated INLA implementation. Both the INLA and EM-based implementations
+are available through our open-source BayesfMRI R package.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Spencer_D/0/1/0/all/0/1&quot;&gt;Daniel A. Spencer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bolin_D/0/1/0/all/0/1&quot;&gt;David Bolin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mejia_A/0/1/0/all/0/1&quot;&gt;Amanda F. Mejia&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01492">
+<title>Fast, effective, and coherent time series modeling using the sparsity-ranked lasso. (arXiv:2211.01492v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01492</link>
+<description rdf:parseType="Literal">&lt;p&gt;The sparsity-ranked lasso (SRL) has been developed for model selection and
+estimation in the presence of interactions and polynomials. The main tenet of
+the SRL is that an algorithm should be more skeptical of higher-order
+polynomials and interactions *a priori* compared to main effects, and hence the
+inclusion of these more complex terms should require a higher level of
+evidence. In time series, the same idea of ranked prior skepticism can be
+applied to the possibly seasonal autoregressive (AR) structure of the series
+during the model fitting process, becoming especially useful in settings with
+uncertain or multiple modes of seasonality. The SRL can naturally incorporate
+exogenous variables, with streamlined options for inference and/or feature
+selection. The fitting process is quick even for large series with a
+high-dimensional feature set. In this work, we discuss both the formulation of
+this procedure and the software we have developed for its implementation via
+the **srlTS** R package. We explore the performance of our SRL-based approach
+in a novel application involving the autoregressive modeling of hourly
+emergency room arrivals at the University of Iowa Hospitals and Clinics. We
+find that the SRL is considerably faster than its competitors, while producing
+more accurate predictions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Peterson_R/0/1/0/all/0/1&quot;&gt;Ryan Peterson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Cavanaugh_J/0/1/0/all/0/1&quot;&gt;Joseph Cavanaugh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01591">
+<title>A Bayesian Semiparametric Method For Estimating Causal Quantile Effects. (arXiv:2211.01591v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01591</link>
+<description rdf:parseType="Literal">&lt;p&gt;Standard causal inference characterizes treatment effect through averages,
+but the counterfactual distributions could be different in not only the central
+tendency but also spread and shape. To provide a comprehensive evaluation of
+treatment effects, we focus on estimating quantile treatment effects (QTEs).
+Existing methods that invert a nonsmooth estimator of the cumulative
+distribution functions forbid inference on probability density functions
+(PDFs), but PDFs can reveal more nuanced characteristics of the counterfactual
+distributions. We adopt a semiparametric conditional distribution regression
+model that allows inference on any functionals of counterfactual distributions,
+including PDFs and multiple QTEs. To account for the observational nature of
+the data and ensure an efficient model, we adjust for a double balancing score
+that augments the propensity score with individual covariates. We provide a
+Bayesian estimation framework that appropriately propagates modeling
+uncertainty. We show via simulations that the use of double balancing score for
+confounding adjustment improves performance over adjusting for any single score
+alone, and the proposed semiparametric model estimates QTEs more accurately
+than other semiparametric methods. We apply the proposed method to the North
+Carolina birth weight dataset to analyze the effect of maternal smoking on
+infant&apos;s birth weight.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;Steven G. Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Yang_S/0/1/0/all/0/1&quot;&gt;Shu Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Reich_B/0/1/0/all/0/1&quot;&gt;Brian J. Reich&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01746">
+<title>Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods. (arXiv:2211.01746v1 [stat.CO])</title>
+<link>http://arxiv.org/abs/2211.01746</link>
+<description rdf:parseType="Literal">&lt;p&gt;A metric tensor for Riemann manifold Monte Carlo particularly suited for
+non-linear Bayesian hierarchical models is proposed. The metric tensor is built
+from here proposed symmetric positive semidefinite log-density gradient
+covariance (LGC) matrices. The LGCs measure the joint information content and
+dependence structure of both a random variable and the parameters of said
+variable. The proposed methodology is highly automatic and allows for
+exploitation of any sparsity associated with the model in question. When
+implemented in conjunction with a Riemann manifold variant of the recently
+proposed numerical generalized randomized Hamiltonian Monte Carlo processes,
+the proposed methodology is highly competitive, in particular for the more
+challenging target distributions associated with Bayesian hierarchical models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kleppe_T/0/1/0/all/0/1&quot;&gt;Tore Selland Kleppe&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.04539">
+<title>Efficient algorithms for building representative matched pairs with enhanced generalizability. (arXiv:2205.04539v2 [stat.ME] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.04539</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many recent efforts center on assessing the ability of real-world evidence
+(RWE) generated from non-randomized, observational data to produce results
+compatible with those from randomized controlled trials (RCTs). One noticeable
+endeavor is the RCT DUPLICATE initiative (Franklin et al., 2020, 2021). To
+better reconcile findings from an observational study and an RCT, or two
+observational studies based on different databases, it is desirable to
+eliminate differences between study populations. We outline an efficient,
+network-flow-based statistical matching algorithm that designs well-matched
+pairs from observational data that resemble the covariate distributions of a
+target population, for instance, the target-RCT-eligible population in the RCT
+DUPLICATE initiative studies or a generic population of scientific interest. We
+demonstrate the usefulness of the method by revisiting the inconsistency
+regarding a cardioprotective effect of the hormone replacement therapy (HRT) in
+the Women&apos;s Health Initiative (WHI) clinical trial and corresponding
+observational study. We found that the discrepancy between the trial and
+observational study persisted in a design that adjusted for study populations&apos;
+cardiovascular risk profile, but seemed to disappear in a study design that
+further adjusted for the HRT initiation age and previous
+estrogen-plus-progestin use. The proposed method is integrated into the R
+package match2C.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhang_B/0/1/0/all/0/1&quot;&gt;Bo Zhang&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
