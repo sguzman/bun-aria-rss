@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42827 (ipados, iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42827",
+  "description": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, iOS 16.1 and iPadOS 16. An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited..",
+  "dc:date": "2022-11-01T20:15:24Z"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41629 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41629",
+  "description": "Delta Electronics InfraSuite Device Master versions 00.00.01a and prior allow unauthenticated users to access the aprunning endpoint, which could allow an attacker to retrieve any file from the &acirc;&euro;&oelig;RunningConfigs&acirc;&euro;&#65533; directory. The attacker could then view and modify configuration files such as UserListInfo.xml, which would allow them to see existing administrative passwords.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

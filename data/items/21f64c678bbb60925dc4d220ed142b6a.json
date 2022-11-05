@@ -1,0 +1,12 @@
+{
+  "title": "Minesweeper in Matplotlib",
+  "link": "",
+  "published": "2012-12-06T18:23:00-08:00",
+  "updated": "2012-12-06T18:23:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-12-06:blog/2012/12/06/minesweeper-in-matplotlib/",
+  "summary": "<p>Lately I've been playing around with interactivity in matplotlib.  A couple\nweeks ago, I discussed briefly how to use event callbacks to implement\n<a href=\"/blog/2012/11/24/simple-3d-visualization-in-matplotlib/\">simple 3D visualization</a>\nand later used this as a base for creating a\n<a href=\"/blog/2012/11/26/3d-interactive-rubiks-cube-in-python\">working 3D Rubik's cube</a>\nentirely in matplotlib.</p>\n<p>Today I have a different goal: re-create\n<a href=\"http://en.wikipedia.org/wiki/Minesweeper_%28computer_game%29\">minesweeper</a>,\nthat ubiquitous single-player puzzle game that most of us will admit to\nhaving binged on at least once or twice in their lives.  In minesweeper, the\ngoal is to discover and avoid hidden mines within a gridded minefield, and\nthe process takes some logic and quick thinking.</p>\n<p><img src=\"/images/minesweeper_2.gif\" width=\"800\"></p>",
+  "category": ""
+}

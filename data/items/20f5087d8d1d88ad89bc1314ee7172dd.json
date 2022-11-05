@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:GkgPIJp8_30",
+  "yt:videoId": "GkgPIJp8_30",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "What are Flatpaks? | How to install & permissions",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-05-01T13:30:03+00:00",
+  "updated": "2022-05-20T10:11:42+00:00",
+  "media:group": {
+    "media:title": "What are Flatpaks? | How to install & permissions",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Flatpaks have many great advantages. They can be sandboxed to protect your system. They usually carry newer versions of software than repos. And they are distro independent, which means they run as they should on any distro that supports Flatpaks.\n\nIn this video I'll go over how they work, how to install them, and how to change what permissions they have.\n\nFlathub : https://www.flathub.org\n\nConsider supporting my channel : https://www.patreon.com/doriandotslash/\n\n00:00 Intro\n00:26 How Flatpaks work\n01:50 Installation\n02:35 Using a package manager\n03:03 Installing from Flathub\n03:24 Updating\n03:33 PRO: Newer versions\n04:01 Install from the terminal\n05:09 PRO: Getting software not available in your distro\n05:48 Flatpak Permissions (GUI)\n07:16 Flatpak Permissions (terminal)\n09:14 Example of denying filesystem access\n10:13 Conclusion\n10:36 The most important part\n\n#Linux #Flatpaks",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
