@@ -1,0 +1,13 @@
+{
+  "title": "Intel says that both Intel and AMD CPUs can update Arc GPU firmware [Updated]",
+  "link": "https://arstechnica.com/?p=1895391",
+  "dc:creator": "Andrew Cunningham",
+  "pubDate": "Fri, 04 Nov 2022 19:47:25 +0000",
+  "category": [
+    "Gaming & Culture",
+    "Tech"
+  ],
+  "guid": "https://arstechnica.com/?p=1895391",
+  "description": "Firmware updates are rare, but if ever a GPU was going to need one, it's Arc.",
+  "content:encoded": "<div id=\"rss-wrap\">\n<figure class=\"intro-image intro-left\">\n  <img src=\"https://cdn.arstechnica.net/wp-content/uploads/2022/11/intel-arc-gpu-800x424.jpg\" alt=\"An Intel Arc GPU.\">\n      <p class=\"caption\" style=\"font-size:0.8em\"><a href=\"https://cdn.arstechnica.net/wp-content/uploads/2022/11/intel-arc-gpu.jpg\" class=\"enlarge-link\" data-height=\"598\" data-width=\"1129\">Enlarge</a> <span class=\"sep\">/</span> An Intel Arc GPU. (credit: Intel)</p>  </figure>\n\n\n\n\n\n\n<div><a name=\"page-1\"></a></div>\n<p><strong>Update, 7:35 pm ET: </strong>Intel told Ars Technica that it is possible for both Intel and AMD-based platforms to update Arc GPU firmware, and that Intel's Management Engine wasn't actually required for firmware updates.</p>\n<p>\"Intel Arc products do not require the host CSME to update Arc firmware,\" an Intel spokesperson told Ars. \"Firmware updates will work on both AMD and Intel platforms. Arc products have their own Graphics Security Control for firmware updates and leverage existing Intel technology like the HECI interface protocol to implement the firmware update flow.\"</p>\n<p><a href=\"https://twitter.com/hughsient/status/1588650112045428738\">A follow-up from Richard Hughes</a>, the developer who originally discovered the limitation, said that another user had told him that an \"HECI-using GSC device shows up in Windows\" when an Arc GPU is installed, which ought to allow updates on x86 devices. We confirmed this ourselves on a Windows PC with an Arc GPU installed and saw Intel's GSC firmware interface listed in the device manager, which ought to work the same way on both Intel and AMD platforms since it's a part of the GPU itself. (How and whether it will work in x86 Linux is something we can't confirm at this point.)</p></div><p><a href=\"https://arstechnica.com/?p=1895391#p3\">Read 5 remaining paragraphs</a> | <a href=\"https://arstechnica.com/?p=1895391&comments=1\">Comments</a></p>"
+}

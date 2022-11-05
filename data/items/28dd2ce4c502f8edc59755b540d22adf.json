@@ -1,0 +1,94 @@
+{
+  "title": "What's new with AzureR",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b026bdeb53fa1200c",
+  "published": "2021-01-13T09:30:00-08:00",
+  "updated": "2021-01-12T15:05:29-08:00",
+  "summary": "by Hong Ooi This is an update on what’s been happening with the AzureR suite of packages. First, you may have noticed that just before the holiday season, the packages were updated on CRAN to change their maintainer email to a non-Microsoft address. This is because I’ve left Microsoft for a role at Westpac bank here in Australia; while I’m sad to be leaving, I do intend to continue maintaining and updating the packages. To that end, here are the changes that have recently been submitted to CRAN, or will be shortly: AzureAuth now allows obtaining tokens for the “organizations”...",
+  "author": {
+    "name": "Hong Ooi"
+  },
+  "category": [
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "em": "by Hong Ooi"
+        },
+        {
+          "a": "AzureR",
+          "#text": "This is an update on what’s been happening with thesuite of packages. First, you may have noticed that just before the holiday season, the packages were updated on CRAN to change their maintainer email to a non-Microsoft address. This is because I’ve left Microsoft for a role at Westpac bank here in Australia; while I’m sad to be leaving, I do intend to continue maintaining and updating the packages."
+        },
+        "To that end, here are the changes that have recently been submitted to CRAN, or will be shortly:",
+        {
+          "a": {
+            "strong": "AzureAuth"
+          },
+          "#text": "now allows obtaining tokens for the “organizations” and “consumers” generic tenants, in addition to “common”. This should make it easier to authenticate users who are using a personal account, as opposed to a work & school account. This is now live on CRAN."
+        },
+        {
+          "a": {
+            "strong": "AzureStor"
+          },
+          "code": [
+            "saveRDS",
+            "readRDS",
+            "save",
+            "load"
+          ],
+          "#text": "gains convenience functions for transferring data in several commonly-used formats: RDS (as created by/), RData (as created by/), CSV, CSV2, and tab-delimited. These work via connections and so don’t create temporary files on disk."
+        },
+        {
+          "a": {
+            "strong": "AzureRMR"
+          },
+          "code": [
+            "get_subresource",
+            "az_resource",
+            "res",
+            "res$get_subresource(type=\"blobServices/default/containers\", name=\"containername\")"
+          ],
+          "#text": "makes it easier to retrieve subresources by adding a&#0160;method to theclass. For example, ifis a storage account resource, you can obtain the subresource for a particular blob container with. It now authenticates using AAD v2.0 by default."
+        },
+        {
+          "a": {
+            "strong": "AzureGraph"
+          },
+          "#text": "has had several changes:"
+        },
+        {
+          "a": {
+            "strong": "Microsoft365R"
+          },
+          "#text": "All of these changes are put to good use in the newpackage, which is intended to be an interface to Microsoft 365 (formerly known as Office 365). Currently, it enables you to access your data stored in OneDrive (personal or business) and SharePoint Online, using the Microsoft Graph API. This will be released to CRAN in the next few weeks; later versions may add support for other Microsoft 365 services."
+        },
+        {
+          "a": {
+            "strong": "AzureCosmosR"
+          },
+          "#text": "The newpackage is an interface to Azure Cosmos DB. Like the other interface packages in AzureR, it provides both management plane and data plane access, in the latter case to the SQL (core) API. You can easily create and manage Cosmos DB accounts, run queries, and create and execute stored procedures. Like Microsoft365R, this should be released to CRAN in the next few weeks."
+        },
+        "If you have any comments or feedback, feel free to drop me a line at hongooi73@gmail.com."
+      ],
+      "ul": {
+        "li": [
+          {
+            "a": "AAD",
+            "#text": "Like AzureRMR, it also now authenticates usingv2.0 by default, making it more convenient to use with personal accounts (which require AAD v2.0)."
+          },
+          {
+            "code": "get_graph_login",
+            "#text": "is much more flexible, letting you choose authentication parameters like the permission scope(s), app ID, and authorisation method."
+          },
+          "The internals have undergone a refactoring to enhance extensibility."
+        ]
+      }
+    }
+  }
+}
