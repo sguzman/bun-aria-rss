@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41776 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41776",
+  "description": "Delta Electronics InfraSuite Device Master versions 00.00.01a and prior allow unauthenticated users to trigger the WriteConfiguration method, which could allow an attacker to provide new values for user configuration files such as UserListInfo.xml. This could lead to the changing of administrative passwords.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

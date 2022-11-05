@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-3211409948956809184.post-7845202660293957872",
+  "published": "2017-09-04T21:19:00.005-07:00",
+  "updated": "2017-09-08T21:28:45.199-07:00",
+  "title": "Deepgram - Audio Search with Deep Learning",
+  "content": "A very <a href=\"https://twimlai.com/from-particle-physics-to-audio-ai-with-scott-stephenson/\">interesting podcast</a> by <a href=\"https://twimlai.com/about/\">Sam Charrington</a> who is interviewing Scott Stephenson from <a href=\"http://deepgram.com/\">DeepGram</a>. DeepGram is using deep learning activations for creating indexes that allows to search text in voice recordings.<br /><br />DeepGram have released <a href=\"https://github.com/deepgram/kur/blob/master/examples/cifar.yml\">Kur</a> which is a high level abstraction of deep learning framework to allow quickly defining network layouts. But still, writing the target persona is researchers with deep learning knowledge.<br /><br />A related Israeli startup is <a href=\"https://www.audioburst.com/\">AudioBurst</a>. &nbsp;They claim to use AI for indexing but it is not clear what they actually do. Another Israeli startup is <a href=\"https://www.verbit.ai/\">Verbit</a>. They seem to transcribe audio with humans going over the preliminary result.<br /><br />In addition, my friend Yishay Carmiel is working on importing parts of <a href=\"http://kaldi-asr.org/doc/\">Kaldi</a> to TensorFLow. A recent <a href=\"https://developers.googleblog.com/2017/08/kaldi-now-offers-tensorflow-integration.html\">Google developer blog post describes this effort</a>. Yishay is leading a spinoff of Spoken called <a href=\"http://intelligentwire.com/\">IntelligentWire</a> who is also searching audio files using deep learning.<br /><br />Overall it seems that search in audio files using deep learning is getting hotter!<br /><br /><br /><br /><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Danny Bickson",
+    "uri": "http://www.blogger.com/profile/01517237836051035400",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}
