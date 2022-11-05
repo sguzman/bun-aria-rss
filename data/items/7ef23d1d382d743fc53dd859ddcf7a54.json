@@ -1,0 +1,45 @@
+{
+  "title": "Easy R Tutorials with Dev Containers",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b02a30d4713bb200b",
+  "published": "2022-08-02T09:29:18-07:00",
+  "updated": "2022-08-02T09:29:18-07:00",
+  "summary": "Ever written a tutorial for R — or simply shared some R code with someone — and been told that your code doesn't work on their machine? There's now an easy way to solve that problem: Dev Containers. Dev Containers are a standardized container format designed for interactive use. You can set up a Dev Container with the specific version of R, R packages, and other software to guarantee that your R code will run on their machine just as it did on yours. Dev Containers are 100% open source and integrated with Visual Studio Code, which provides a convenient...",
+  "author": {
+    "name": "David Smith"
+  },
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "a": "Dev Containers",
+          "#text": "Ever written a tutorial for R — or simply shared some R code with someone — and been told that your code doesn't work on their machine? There's now an easy way to solve that problem:. Dev Containers are a standardized container format designed for interactive use. You can set up a Dev Container with the specific version of R, R packages, and other software to guarantee that your R code will run on their machine just as it did on yours. Dev Containers are 100% open source and integrated with Visual Studio Code, which provides a convenient environment for running your R scripts and notebooks.&#0160;"
+        },
+        {
+          "a": "User!2022 conference",
+          "#text": "At the recent, I gave a 20-minute presentation describing how Dev Containers work with R:"
+        },
+        {
+          "iframe": ""
+        },
+        {
+          "a": "GitHub CodeSpaces",
+          "#text": "(Dev Containers also work with, to create a cloud-based environment for running your R code in a single click. I demonstrated that at last week's RStudio::conf, and I'll post that video when it's available.)"
+        },
+        "If you'd like to set up a Dev Container for your own R project, the GitHub repository linked at the link below provides all the info you need.",
+        {
+          "a": "Easy R Tutorials with Dev Containers",
+          "#text": "GitHub (revodavid):"
+        }
+      ]
+    }
+  }
+}
