@@ -1,0 +1,27 @@
+{
+  "id": "tag:blogger.com,1999:blog-8698702854482141883.post-4658937117285928706",
+  "published": "2022-10-24T09:00:00.001-07:00",
+  "updated": "2022-10-24T09:00:00.196-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Kubeflow applies to become a CNCF incubating project",
+  "content": "Google has pioneered AI and ML and has a <a href=\"https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-open-source-contributions-unlock-ai-innovation\" target=\"_blank\">history</a> of innovative technology donations to the open source community (e.g. <a href=\"https://www.tensorflow.org/\" target=\"_blank\">TensorFlow</a> and <a href=\"https://github.com/google/jax\" target=\"_blank\">Jax</a>). Google is also the initial developer and <a href=\"https://k8s.devstats.cncf.io/d/8/company-statistics-by-repository-group?orgId=1\" target=\"_blank\">largest contributor</a> to <a href=\"https://kubernetes.io/\" target=\"_blank\">Kubernetes</a>, and brings with it a wealth of experience to the project and its community. Building an ML Platform on our state-of-the-art Google Kubernetes Engine (GKE), we have learned best practices from our users, and in 2017, we used that experience to create and <a href=\"https://kubernetes.io/blog/2017/12/introducing-kubeflow-composable/\" target=\"_blank\">open source</a> the Kubeflow project.<br /><br />In May 2020, with the <a href=\"https://blog.kubeflow.org/releases/2020/03/02/kubeflow-1-0-cloud-native-ml-for-everyone.html\" target=\"_blank\">v1.0</a> release, Kubeflow reached maturity across a core set of its stable applications. During that year, we also graduated Kubeflow Serving as an <a href=\"https://github.com/kserve/kserve\" target=\"_blank\">independent project, KServe</a>, which is now incubating in <a href=\"https://lfaidata.foundation/\" target=\"_blank\">Linux Foundation AI &amp; Data</a>.<br /><br />Today, Kubeflow has developed into an end-to-end, extendable ML platform, with multiple distinct components to address specific stages of the ML lifecycle: model development (<a href=\"https://en.wikipedia.org/wiki/Kubeflow#Kubeflow_Notebooks\" target=\"_blank\">Kubeflow Notebooks</a>), model training (<a href=\"https://en.wikipedia.org/wiki/Kubeflow#Kubeflow_Pipelines\" target=\"_blank\">Kubeflow Pipelines</a> and <a href=\"https://en.wikipedia.org/wiki/Kubeflow#Kubeflow_Training_Operator\" target=\"_blank\">Kubeflow Training Operator</a>), model serving (<a href=\"https://en.wikipedia.org/wiki/Kubeflow#KServe\" target=\"_blank\">KServe</a>), and automated machine learning (<a href=\"https://en.wikipedia.org/wiki/Kubeflow#Katib\" target=\"_blank\">Katib</a>).<br /><br />The Kubeflow project now has close to 200 contributors from over 30 organizations, and the Kubeflow community has hosted several summits and contributor meetups across the world. The broader Kubeflow ecosystem includes a number <a href=\"https://www.kubeflow.org/docs/distributions/\" target=\"_blank\">distributions</a> across multiple cloud service providers and on-prem environments. Kubeflow’s powerful development experience helps data scientists build, train, and deploy their ML models, enabling enterprise ML operation teams to deploy and scale advanced workflows in a variety of infrastructures.<br /><br />Google’s application for Kubeflow to become a CNCF incubating project is the next big milestone for the Kubeflow community, and we’re thrilled to see how developers will continue to build and innovate in ML using this project.<br /><br />What's next? The <a href=\"https://github.com/cncf/toc/pull/950\" target=\"_blank\">pull request</a> we’ve opened today to join the CNCF as an incubating project is only the first step. Google and the Kubeflow community will work with the CNCF and their Technical Oversight Committee (TOC), to meet the incubation stage requirements. While the due diligence and eventual TOC decision can take a few months, the Kubeflow project will continue developing and releasing throughout this process.<br /><br />If Kubeflow is accepted into CNCF, the project’s assets will be transferred to the CNCF, including the source code, trademark, and website, and other collaboration and social media accounts. At Google, we believe that using open source comes with a responsibility to contribute, maintain, and improve those projects. In that spirit, we will continue supporting the Kubeflow project and work with the community towards the next level of innovation.<br /><br />Thanks to everyone who has contributed to Kubeflow over the years! We are excited for what lays ahead for the Kubeflow community.<br /><br /><i>By Thea Lamkin, Senior Program Manager and Mark Chmarny, Senior Technical Program Manager – Google Open Source</i>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Open Source Programs Office",
+    "uri": "http://www.blogger.com/profile/11192158996903493674",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  }
+}
