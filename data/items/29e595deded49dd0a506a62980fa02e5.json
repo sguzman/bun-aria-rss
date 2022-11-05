@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:k2h7usLLBhY",
+  "yt:videoId": "k2h7usLLBhY",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to build a smoothly animated ToDo app with React Native, Expo, Reanimated, NativeBase, and Moti",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2021-11-14T11:48:54+00:00",
+  "updated": "2022-01-17T05:35:27+00:00",
+  "media:group": {
+    "media:title": "How to build a smoothly animated ToDo app with React Native, Expo, Reanimated, NativeBase, and Moti",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nI've learned how to create animated components on React Native by building a simple ToDo app.\nI hope you enjoy it!\n\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=k2h7usLLBhY\n▶ ToDo app source code\nhttps://github.com/craftzdog/react-native-animated-todo\nhttps://github.com/craftzdog/react-native-checkbox-reanimated\n▶ Ingredients\n* React Native - ReactJS-based framework that can use native platform capabilities\n* Expo - Toolset for building and delivering RN apps\n* React Navigation(v6) - Routing and navigation\n* NativeBase(v3) - Themable component library\n* React Native Reanimated - Animations\n* React Native SVG - Drawing SVG\n* Moti - Helper module for Reanimated 2\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My terminal set up\nhttps://www.youtube.com/watch?v=KKxhf50FIPI\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n▶ My desk setup\n* https://www.youtube.com/watch?v=1OFDMwDlnOE\n▶ My equipments\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n\n* Slider: SliderONE v2\n* Terminal: Hacked Hyper - https://dev.to/craftzdog/getting-side-by-side-preview-in-a-terminal-app-hyper-20ii\n* Keyboard: Keychron K2V2 - https://www.youtube.com/watch?v=-UW_c8VT2ZE\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n0:00 Digest\n01:25 Create a new Expo project\n06:05 Prepare to use NativeBase\n08:42 Add dark theme support\n13:33 Go to Kyoto!\n14:49 Create SVG checkmark\n18:21 Animate the checkbox\n22:00 Fix a babel error\n23:02 Make the checkbox able to toggle\n25:19 Animate the checkbox\n27:58 Create task item component\n33:55 Animate task label\n47:45 Integrate react-navigation and drawer\n51:25 Implement swipe-to-remove interaction\n01:07:09 Make task items editable\n01:12:25 Create task list component\n01:31:42 Animate background color\n01:36:20 Add masthead\n01:43:06 Fix scrollview\n01:45:29 Implement sidebar content\n01:56:16 Add about screen\n02:05:20 Testing on Android\n\n#ReactNative #ASMR #CodeWithMe",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

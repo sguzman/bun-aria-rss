@@ -1,0 +1,12 @@
+{
+  "title": "Quaternions and Key Bindings: Simple 3D Visualization in Matplotlib",
+  "link": "",
+  "published": "2012-11-24T11:04:00-08:00",
+  "updated": "2012-11-24T11:04:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-11-24:blog/2012/11/24/simple-3d-visualization-in-matplotlib/",
+  "summary": "<p>Matplotlib is a powerful framework, but its 3D capabilities still have\na lot of room to grow. The <a href=\"http://matplotlib.org/mpl_toolkits/mplot3d/index.html\">mplot3d</a>\ntoolkit allows for several kinds of 3D plotting, but the ability to create\nand rotate solid 3D objects is hindered by the inflexibility of the <code>zorder</code> attribute:\nbecause it is not updated when the view is rotated, things in the \"back\" will cover\nthings in the \"front\", obscuring them and leading to very unnatural-looking results.</p>\n<p>I decided to see if I could create a simple script that addresses this.  Though it would\nbe possible to use the built-in <code>mplot3d</code> architecture to take care of rotating and\nprojecting the points, I decided to do it from scratch for the sake of my own education.</p>\n<p>We'll step through it below: by the end of this post we will have created a 3D viewer in\nmatplotlib which I think is quite nice.</p>",
+  "category": ""
+}
