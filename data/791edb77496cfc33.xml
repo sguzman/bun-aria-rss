@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC9NuJImUbaSNKiwF2bdSfAw"/>
+ <id>yt:channel:UC9NuJImUbaSNKiwF2bdSfAw</id>
+ <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+ <title>FOSDEM</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw"/>
+ <author>
+  <name>FOSDEM</name>
+  <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+ </author>
+ <published>2009-01-13T17:46:05+00:00</published>
+ <entry>
+  <id>yt:video:sMnw28M-fMg</id>
+  <yt:videoId>sMnw28M-fMg</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Deterministic debugging with Delve And the state of Delve</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sMnw28M-fMg"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T13:05:14+00:00</published>
+  <updated>2022-01-12T18:29:08+00:00</updated>
+  <media:group>
+   <media:title>Deterministic debugging with Delve And the state of Delve</media:title>
+   <media:content url="https://www.youtube.com/v/sMnw28M-fMg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sMnw28M-fMg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Derek Parker
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB2.252A/debuggingwithdelve.webm
+
+In this talk I will begin by delivering the &quot;State of Delve&quot; update. In similar fashion to the popular &quot;State of Go&quot; talk I will begin by discussing all of the exciting new features and changes that have happened over the past year, since last FOSDEM. Following that I will go into a live demo showcasing how Delve can leverage Mozilla RR in order to perform deterministic debugging. This talk will begin by introducing users to the concept of deterministic debugging and the power that comes with it. Following that I will launch into a demo showcasing how to leverage this concept to debug an otherwise unpredictable highly concurrent program. Users will walk away with immediate practical knowledge they can begin applying in their day to day debugging.
+It's been a year since last FOSDEM and a lot has changed with Delve! I will discuss all the new features and changes that have been implemented in the last year.
+
+
+Following the &quot;State of Delve&quot; introduction, I will dig into how Delve can be utilized to perform deterministic debugging. This style of debugging enables users to record the execution of their process and &quot;play it back&quot; in a deterministic fashion in order to more quickly and efficiently perform root cause analysis on a bug that may otherwise be difficult to reproduce or track down. This section of the talk will begin by introducing the concept of deterministic debugging and why it is so useful and powerful. Once everyone is familiar with the concept I will launch into a live demo showcasing how to leverage this debugging approach to track down and fix a bug which is hard to reproduce and happens only intermittently.
+
+
+Attendees will walk away with practical knowledge that they can begin applying to their debugging problems immediately.
+
+Room: UB2.252A (Lameere)
+Scheduled start: 2020-02-02 11:00:00</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="1585"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7CM8E_rLgEI</id>
+  <yt:videoId>7CM8E_rLgEI</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7CM8E_rLgEI"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T13:03:36+00:00</published>
+  <updated>2022-01-15T07:52:10+00:00</updated>
+  <media:group>
+   <media:title>Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.</media:title>
+   <media:content url="https://www.youtube.com/v/7CM8E_rLgEI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7CM8E_rLgEI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Konrad Kleine
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.4.201/debugging_mini.webm
+
+The &quot;official&quot; mini-debuginfo man-page describes the topic best:
+
+
+❮blockquote❯Some systems ship pre-built executables and libraries that have a
+special ❮code❯.gnu_debugdata❮/code❯ section. This feature is called MiniDebugInfo.
+This section holds an LZMA-compressed object and is used to supply extra
+symbols for backtraces.
+
+
+The intent of this section is to provide extra minimal debugging information
+for use in simple backtraces. It is not intended to be a replacement for
+full separate debugging information (see Separate Debug Files).
+❮/blockquote❯
+
+In this talk I'll explain what it took to interpret support for mini-debuginfo
+in LLDB, how we've tested it, and what to think about when implementing this
+support (e.g. merging ❮code❯.symtab❮/code❯ and ❮code❯.gnu_debugdata❮/code❯ sections).
+
+Room: K.4.201
+Scheduled start: 2020-02-02 14:00:00</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="462"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dxOYSGouY-0</id>
+  <yt:videoId>dxOYSGouY-0</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Postmodern strace</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dxOYSGouY-0"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T08:08:34+00:00</published>
+  <updated>2022-06-29T00:02:25+00:00</updated>
+  <media:group>
+   <media:title>Postmodern strace</media:title>
+   <media:content url="https://www.youtube.com/v/dxOYSGouY-0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dxOYSGouY-0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Dmitry Levin
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.4.201/debugging_strace_modern.webm
+
+strace is a diagnostic, debugging and instructional utility for Linux. It is used to monitor and tamper with interactions between processes and the Linux kernel, which include system calls, signal deliveries, and changes of process state. In this talk the maintainer of strace will describe new features implemented since FOSDEM 2018.
+Several interesting features were implemented within strace project since FOSDEM 2018, including:
+
+
+❮ul❯
+❮li❯seccomp-assisted system call filtering❮/li❯
+❮li❯system call return status filtering❮/li❯
+❮li❯PTRACE_GET_SYSCALL_INFO API support❮/li❯
+❮li❯new options: -DD, -DDD, -X, -z, -Z❮/li❯
+❮/ul❯
+
+
+In this talk the maintainer of strace will describe these new features and demonstrate what kinds of problems they help to solve.
+
+Room: K.4.201
+Scheduled start: 2020-02-02 11:30:00</media:description>
+   <media:community>
+    <media:starRating count="25" average="5.00" min="1" max="5"/>
+    <media:statistics views="1661"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6U5zWtrnJtk</id>
+  <yt:videoId>6U5zWtrnJtk</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Our road to a k8s/GKE based Closed Build Environment A small journey to an autoscaling build env ba…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6U5zWtrnJtk"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T08:05:58+00:00</published>
+  <updated>2022-01-22T21:24:17+00:00</updated>
+  <media:group>
+   <media:title>Our road to a k8s/GKE based Closed Build Environment A small journey to an autoscaling build env ba…</media:title>
+   <media:content url="https://www.youtube.com/v/6U5zWtrnJtk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6U5zWtrnJtk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Our road to a k8s/GKE based Closed Build Environment A small journey to an autoscaling build env based on Jenkins.
+by Siegfried Kiermayer
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB4.136/our_road_to_a_k8sgke_based_closed_build_environment.webm
+
+My team build a new Closed Build Environment for building Release Packages on Google Cloud Platform(gcp) with Google Kubernetes Engine (GKE).
+
+
+I like to take you on a small journey through a variety of topics we came across (open for change):
+
+
+❮ul❯
+❮li❯How we bootstrap and how we use ArgoCD
+❮/li❯
+❮li❯Autoscaling to 100 Build nodes for building
+❮/li❯
+❮li❯Why we are using Prometheus-Operator
+❮/li❯
+❮li❯SRE or how we maintain our stack
+❮/li❯
+❮li❯Product aspect
+❮/li❯
+❮li❯Base Image building &amp;amp; scanning
+❮/li❯
+❮li❯Network setup with Shared VPC
+❮/li❯
+❮li❯Google Cloud Platform IAM Permissions vs. RBAC
+❮/li❯
+❮li❯Specific GKE Features like Workload Identity
+❮/li❯
+❮/ul❯
+
+
+And others
+
+
+Simple real live example how my team is doing it. Looking forward to inspire and to get feedback from others!
+
+Room: UB4.136
+Scheduled start: 2020-02-02 13:10:00</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="569"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-bEzHG2u8XA</id>
+  <yt:videoId>-bEzHG2u8XA</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Uplift your Linux systems programming skills with systemd and D-Bus Practical examples and best pra…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-bEzHG2u8XA"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T08:05:45+00:00</published>
+  <updated>2022-01-11T04:30:15+00:00</updated>
+  <media:group>
+   <media:title>Uplift your Linux systems programming skills with systemd and D-Bus Practical examples and best pra…</media:title>
+   <media:content url="https://www.youtube.com/v/-bEzHG2u8XA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-bEzHG2u8XA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Uplift your Linux systems programming skills with systemd and D-Bus Practical examples and best practices on how to leverage systemd and D-Bus in Go
+by Leonid Vasilyev
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB2.252A/golinux.webm
+
+Systemd is a de-facto standard process manager in all mainstream Linux distributions for almost a decade.
+D-Bus is most widely used inter-process communication on a local host. It's used in many core apps on Linux Desktop.
+
+
+Yet both systemd and D-Bus are undervalued.
+Very often, programs that are only intended to run on Linux attempt to re-implement (with bugs) what systemd and D-Bus already provide
+(for example: watchdog function, reliable process termination, notifying another program about some event, coordination between multiple processes).
+
+
+The goal of this talk is to shift perspective on systemd and D-Bus (using concrete practical examples in Go),
+and show how basic building block these systems provide can be re-used in software you write for modern Linux system.
+This is an exploratory talk. Then intent is to look at systemd and D-Bus from a different angle.
+
+
+Most of current tutorials about systemd focused on operating a service like apache, nginx or redis.
+D-Bus tutorials are very abstract, basic and lack any concrete useful use-cases.
+
+
+I plan to present few recent additions to systemd, such as portable services and resource control.
+As well as re-introduce few existing concepts, like sd-notify, watchdogs and transient units.
+
+
+On D-Bus I plan to show how to use bus abstraction and few neat features,
+like passing file descriptors and receiving notifications.
+
+
+The focus is on how to not re-invent things that systemd and D-Bus do much better.
+
+
+Examples are given as a few simple Golang programs, with full source available on ❮a href=&quot;https://github.com/lvsl/fosdem-2020-go-dbus-systemd&quot;❯github❮/a❯.
+
+
+The indented audience is anyone who write and operate Go code on Linux.
+Preferred experience of the audience: basic knowledge of Linux and Golang, familiarity with systemd and D-Bus concepts would be useful as well.
+
+Room: UB2.252A (Lameere)
+Scheduled start: 2020-02-02 13:30:00</media:description>
+   <media:community>
+    <media:starRating count="172" average="5.00" min="1" max="5"/>
+    <media:statistics views="11861"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:txcHwLBbWb8</id>
+  <yt:videoId>txcHwLBbWb8</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>GRUB upstream and distros cooperation</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=txcHwLBbWb8"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T08:05:44+00:00</published>
+  <updated>2022-07-22T19:08:44+00:00</updated>
+  <media:group>
+   <media:title>GRUB upstream and distros cooperation</media:title>
+   <media:content url="https://www.youtube.com/v/txcHwLBbWb8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/txcHwLBbWb8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Daniel Kiper
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.3.201/guadc.webm
+
+The presentation will discuss current state of GRUB upstream development and cooperation with distributions. The first half of presentation will be focusing on last year, current and future development efforts. The second half will discuss cooperation between GRUB upstream and distros. In general it will show current progress in the project and main pain points. One of the goals of the presentation is to solicit some help from the community. Maintainers are quite busy and they are not able to solve all issues themselves. So, help from others is greatly appreciated. At the end of presentation Q&amp;amp;A session is planned.
+
+Room: K.3.201
+Scheduled start: 2020-02-02 13:30:00</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="543"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6FgnoCb7ZPc</id>
+  <yt:videoId>6FgnoCb7ZPc</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Low-end platform profiling with HawkTracer profiler</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6FgnoCb7ZPc"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-19T08:04:41+00:00</published>
+  <updated>2022-06-12T23:40:35+00:00</updated>
+  <media:group>
+   <media:title>Low-end platform profiling with HawkTracer profiler</media:title>
+   <media:content url="https://www.youtube.com/v/6FgnoCb7ZPc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6FgnoCb7ZPc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Marcin Kolny
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.4.201/debugging_hawktrace.webm
+
+HawkTracer is low-overhead instrumentation-based profiler built at Amazon Video for platforms with limited capabilities. It's written in C but can be used almost with any other language (we've successfully used it with JavaScript, LUA, Python and Rust). It's highly extensible (at compile time) and portable so it can be run on almost any embedded device. In this talk I'll introduce the architecture of the profiler, present it's advantages and limitations, show how can you instrument the code and demonstrate the profiler in action by running it with an example cross-language (Rust, C++ and Python) project.
+
+Room: K.4.201
+Scheduled start: 2020-02-02 09:05:00</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="273"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yWF6LSBhkpM</id>
+  <yt:videoId>yWF6LSBhkpM</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Debugging apps running in Kubernetes An overview of the tooling available</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yWF6LSBhkpM"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-18T08:06:08+00:00</published>
+  <updated>2022-06-29T17:20:58+00:00</updated>
+  <media:group>
+   <media:title>Debugging apps running in Kubernetes An overview of the tooling available</media:title>
+   <media:content url="https://www.youtube.com/v/yWF6LSBhkpM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yWF6LSBhkpM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Jeff Knurek
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.4.201/debugging_kubernetes.webm
+
+New tools are coming out to make it possible to add breakpoints and debug running code in a Kubernetes Pod. This talk will present an overview of some of these tools. We'll cover tools that make it easy to update the code that's running in a Pod (Squash/Ksync/Telepresence). And we'll also cover how to connect your IDE to the code and set breakpoints.
+❮ul❯
+❮li❯A really brief, high level overview of k8s pods &amp;amp; how to run an application there❮/li❯
+❮li❯List out some the tools available that make debugging possible❮/li❯
+❮li❯Overview of how each tool differs❮/li❯
+❮li❯A demo of 2 different debugging tools❮/li❯
+❮/ul❯
+
+
+Room: K.4.201
+Scheduled start: 2020-02-02 15:05:00</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="662"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Bn-9nL_1CwE</id>
+  <yt:videoId>Bn-9nL_1CwE</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Maggy: Asynchronous distributed hyperparameter optimization based on Apache Spark Asynchronous algo…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Bn-9nL_1CwE"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-18T08:05:18+00:00</published>
+  <updated>2022-09-09T02:01:09+00:00</updated>
+  <media:group>
+   <media:title>Maggy: Asynchronous distributed hyperparameter optimization based on Apache Spark Asynchronous algo…</media:title>
+   <media:content url="https://www.youtube.com/v/Bn-9nL_1CwE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Bn-9nL_1CwE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Maggy: Asynchronous distributed hyperparameter optimization based on Apache Spark Asynchronous algorithms on a bulk-synchronous system
+by Moritz Meister
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB5.132/maggy.webm
+
+Maggy is an open-source framework built on Apache Spark, for asynchronous parallel execution of trials for machine learning experiments. In this talk, we will present our work to tackle search as a general purpose method efficiently with Maggy, focusing on hyperparameter optimization. We show that an asynchronous system enables state-of-the-art optimization algorithms and allows extensive early stopping in order to increase the number of trials that can be performed in a given period of time on a fixed amount of resources.
+In &quot;The Bitter Lesson of AI&quot;, Rich Sutton (father of reinforcement learning) claimed that general purpose methods (like search and learning) that scale with increased computation are the future of AI. Apache Spark is a general purpose framework for scaling out data processing with available compute, but there are challenges in making Sparks' bulk-synchronous execution mechanism work efficiently with search and (deep) learning.
+In this talk, we will present our work on Maggy, an open-source framework to tackle search as a general purpose method efficiently on Spark. Spark can be used to deploy basic optimizers (grid search, random search, differential evolution) proposing combinations of hyperparameters (trials) that are run synchronously in parallel on executors. However, many such trials perform poorly, and a lot of CPU and hardware accelerator cycles are wasted on trials that could be stopped early, freeing up resources for other trials. What is needed is support for asynchronous mechanisms.
+Maggy is an asynchronous hyperparameter optimization framework built on Spark that is able to transparently schedule and manage hyperparameter trials, by allowing limited communication, thereby increasing resource utilization, and massively increasing the number of trials that can be performed in a given period of time on a fixed amount of resources. Maggy is also built to support parallel ablation studies and applies to black box optimization/search problems in general. We will report on the gains we have seen in reduced time to find good hyperparameters and improved utilization of GPU hardware. Finally, we will perform a live demo on a Jupyter notebook, showing how to integrate Maggy in existing PySpark applications.
+
+Room: UB5.132
+Scheduled start: 2020-02-02 09:30:00</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="366"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Kc-cQqQOsw0</id>
+  <yt:videoId>Kc-cQqQOsw0</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Sharing memories of Python and Rust The story of a lifetime inside Mercurial</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Kc-cQqQOsw0"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-18T08:05:10+00:00</published>
+  <updated>2022-06-28T03:17:43+00:00</updated>
+  <media:group>
+   <media:title>Sharing memories of Python and Rust The story of a lifetime inside Mercurial</media:title>
+   <media:content url="https://www.youtube.com/v/Kc-cQqQOsw0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Kc-cQqQOsw0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Raphaël Gomès
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.3.401/rust_python_sharing_memories.webm
+
+The Mercurial version control system now has an option for running Rust code to improve performance. In this talk we will explore the challenges of using Rust efficiently inside a performance-sensitive Python project with more than 10 years of backwards compatiblity.
+
+Room: K.3.401
+Scheduled start: 2020-02-02 12:50:00</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="757"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:n23-c7g7Fvs</id>
+  <yt:videoId>n23-c7g7Fvs</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>cargo deny Fearlessly update your dependencies</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=n23-c7g7Fvs"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-18T08:05:03+00:00</published>
+  <updated>2022-02-11T19:44:50+00:00</updated>
+  <media:group>
+   <media:title>cargo deny Fearlessly update your dependencies</media:title>
+   <media:content url="https://www.youtube.com/v/n23-c7g7Fvs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/n23-c7g7Fvs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Jake Shadle
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.3.401/rust_cargo_deny.webm
+
+A talk about ❮a href=&quot;https://github.com/EmbarkStudios/cargo-deny&quot;❯cargo-deny❮/a❯, why we created it, and how it helps us manage our dependencies in the long term. The slides are available on ❮a href=&quot;https://github.com/Jake-Shadle/talks/tree/master/deny&quot;❯Github❮/a❯, it uses ❮a href=&quot;https://github.com/webpro/reveal-md&quot;❯reveal-md❮/a❯ to present the slides, or you can just browse the contents of all the slides in their text form in ❮a href=&quot;https://github.com/Jake-Shadle/talks/tree/master/deny/slides.md&quot;❯slides.md❮/a❯
+
+Room: K.3.401
+Scheduled start: 2020-02-02 08:30:00</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="356"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7168BdRMVSY</id>
+  <yt:videoId>7168BdRMVSY</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Sharing Reproducible Results in a Container A container you can build anywhere</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7168BdRMVSY"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-18T08:03:14+00:00</published>
+  <updated>2022-07-22T08:55:55+00:00</updated>
+  <media:group>
+   <media:title>Sharing Reproducible Results in a Container A container you can build anywhere</media:title>
+   <media:content url="https://www.youtube.com/v/7168BdRMVSY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7168BdRMVSY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Efraim Flashner
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB5.132/reprod_container.webm
+
+Containers do a great job separating out different parts of a system, making sure that they don't interact unless we want them to. What happens when a colleague hands us a project they've written and we're supposed to host it for them? They're not programmers, they're scientists. Who knows what they have in their program? How can we keep it up to date and deployed with a minimum of fuss?
+Come and see how we've solved this problem with Guix, from rebuilding or replacing the dependencies with modern versions like a pro, having only the bare minimum required software in the container, deploying in an artisanally crafted container like a hero, and upgrading and rolling back when ready.
+
+Room: UB5.132
+Scheduled start: 2020-02-02 12:15:00</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="489"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FSQ_EAOeCzo</id>
+  <yt:videoId>FSQ_EAOeCzo</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Efficient Model Selection for Deep Neural Networks on Massively Parallel Processing Databases</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FSQ_EAOeCzo"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-17T08:05:32+00:00</published>
+  <updated>2022-02-17T20:51:05+00:00</updated>
+  <media:group>
+   <media:title>Efficient Model Selection for Deep Neural Networks on Massively Parallel Processing Databases</media:title>
+   <media:content url="https://www.youtube.com/v/FSQ_EAOeCzo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FSQ_EAOeCzo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Frank McQuillan
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB5.132/mppdb.webm
+
+In this session we will present an efficient way to train many deep learning model configurations at the same time with Greenplum, a free and open source massively parallel database based on PostgreSQL.  The implementation involves distributing data to the workers that have GPUs available and hopping model state between those workers, without sacrificing reproducibility or accuracy.   Then we apply optimization algorithms to generate and prune the set of model configurations to try.
+Deep neural networks are revolutionizing many machine learning applications, but hundreds of trials may be needed to generate a good model architecture and associated hyperparameters.  This is the challenge of model selection.  It is time consuming and expensive, especially if you are only training one model at a time.
+
+
+Massively parallel processing databases can have hundreds of workers, so can you use this parallel compute architecture to address the challenge of model selection for deep nets, in order to make it faster and cheaper?
+
+
+It’s possible!
+
+
+We will demonstrate results from this project using a version of Hyperband, which is a well known hyperparameter optimization algorithm, and the deep learning frameworks Keras and TensorFlow, all running on Greenplum database using Apache MADlib.  Other topics will include architecture, scalability results and bright opportunities for the future.
+
+
+We look forward to presenting this topic at FOSDEM’20!
+
+Room: UB5.132
+Scheduled start: 2020-02-02 10:30:00</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="278"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pK9C-bdJprk</id>
+  <yt:videoId>pK9C-bdJprk</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>Homebrew: Features and Funding</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pK9C-bdJprk"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-17T08:05:12+00:00</published>
+  <updated>2022-07-25T12:45:44+00:00</updated>
+  <media:group>
+   <media:title>Homebrew: Features and Funding</media:title>
+   <media:content url="https://www.youtube.com/v/pK9C-bdJprk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pK9C-bdJprk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Mike McQuaid
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/K.3.201/hfaf.webm
+
+A talk about the Homebrew package manager and how we've been working with our users to introduce new features to subsets of users, encouraging users to donate to the project and communicating both these to as many users as possible without being annoying.
+
+Room: K.3.201
+Scheduled start: 2020-02-02 09:30:00</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="347"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wkZ4KfZ7x1k</id>
+  <yt:videoId>wkZ4KfZ7x1k</yt:videoId>
+  <yt:channelId>UC9NuJImUbaSNKiwF2bdSfAw</yt:channelId>
+  <title>dav1d: 1 year later dav1d is a fast AV1 decoder</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wkZ4KfZ7x1k"/>
+  <author>
+   <name>FOSDEM</name>
+   <uri>https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw</uri>
+  </author>
+  <published>2020-11-17T08:04:31+00:00</published>
+  <updated>2022-07-20T04:10:15+00:00</updated>
+  <media:group>
+   <media:title>dav1d: 1 year later dav1d is a fast AV1 decoder</media:title>
+   <media:content url="https://www.youtube.com/v/wkZ4KfZ7x1k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wkZ4KfZ7x1k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>by Jean-Baptiste Kempf
+
+At: FOSDEM 2020
+https://video.fosdem.org/2020/UB2.147/om_dav1d.webm
+
+dav1d is an open source decoder for the AV1 format, focused on being fast and lean. It was started a bit more than one year ago. This is a talk to see where this project is now, how fast we achieved for decoding AV1 samples and what is left to do on this project.
+
+Room: UB2.147
+Scheduled start: 2020-02-02 12:30:00</media:description>
+   <media:community>
+    <media:starRating count="53" average="5.00" min="1" max="5"/>
+    <media:statistics views="2220"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
