@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:znahDZ1TRbE",
+  "yt:videoId": "znahDZ1TRbE",
+  "yt:channelId": "UCxUZjZaLPsHPlp8AtkSBZiA",
+  "title": "Gilles Dowek: \"From the Universality of Mathematical Truth to the Interoperability of Proof Systems\"",
+  "link": "",
+  "author": {
+    "name": "Topos Institute",
+    "uri": "https://www.youtube.com/channel/UCxUZjZaLPsHPlp8AtkSBZiA"
+  },
+  "published": "2022-11-03T18:10:58+00:00",
+  "updated": "2022-11-03T18:11:00+00:00",
+  "media:group": {
+    "media:title": "Gilles Dowek: \"From the Universality of Mathematical Truth to the Interoperability of Proof Systems\"",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Topos Institute Colloquium, 10th of November 2022.\n———\nThe development of computerized proof systems is a major step forward in the never ending quest of mathematical rigor. But it jeopardizes once again the universality of mathematical truth, each proof system defining its own language for mathematical statements and its own truth conditions for these statements.  One way to address this issue is to view the formalisms implemented in these systems as theories expressed in a common logical framework, such as Predicate logic, λ-Prolog, Isabelle, the Edinburgh logical framework, or Dedukti.  We show in the talk how theories, such as Simple type theory, Simple type theory with polymorphism, Simple type theory with predicate subtyping, the Calculus of constructions... can be expressed in Dedukti.  Proofs developed with proof processing systems then can be expressed in these theories, independently of the system they have been developed with, and used in any system that supports the axioms they use.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
