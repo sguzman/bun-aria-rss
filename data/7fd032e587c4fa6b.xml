@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.FA updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Functional Analysis (math.FA) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Functional Analysis</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01479" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01529" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01530" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01544" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01574" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01623" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01702" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01974" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01986" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01988" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2110.12977" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2202.10531" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.14153" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00591" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01479">
+<title>Topological Amenability of Semihypergroups. (arXiv:2211.01479v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01479</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this article, we introduce and discuss the notion of topological left
+amenability in the general setting of semihypergroups. We acquire several
+characterizations of the same in terms of certain stationary, ergodic and
+operator algebraic properties of the associated measure algebra. Finally, we
+discuss and characterize topological amenability of its sub-semihypergroups in
+terms of (topological) invariance properties attained on the corresponding
+measure algebras of the parent semihypergroup.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bandyopadhyay_C/0/1/0/all/0/1&quot;&gt;Choiti Bandyopadhyay&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01529">
+<title>Truncated smooth function spaces. (arXiv:2211.01529v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01529</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce truncated Besov and Triebel--Lizorkin function spaces and
+investigate their main properties: embeddings, interpolation, duality, lifting,
+traces. These new scales allow us to improve several known results in
+functional analysis and PDE&apos;s.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Dominguez_O/0/1/0/all/0/1&quot;&gt;Oscar Dom&amp;#xed;nguez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tikhonov_S/0/1/0/all/0/1&quot;&gt;Sergey Tikhonov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01530">
+<title>Decomposition of q-commuting contractions. (arXiv:2211.01530v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01530</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the literature, we have several results associated with canonical
+decomposition of commuting contractions. In this paper, we generalize a few of
+these results to q-commuting contractions. Here we mainly deal with doubly
+q-commuting contractions when $|q|=1$ or when $q$ is a unitary operator.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Pal_S/0/1/0/all/0/1&quot;&gt;Sourav Pal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sahasrabuddhe_P/0/1/0/all/0/1&quot;&gt;Prajakta Sahasrabuddhe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tomar_N/0/1/0/all/0/1&quot;&gt;Nitin Tomar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01544">
+<title>Pathology of submeasures and $F_\sigma$ ideals. (arXiv:2211.01544v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01544</link>
+<description rdf:parseType="Literal">&lt;p&gt;We address some phenomena about the interaction between lower semicontinuous
+submeasures on $\mathbb{N}$ and $F_{\sigma}$ ideals. We analyze the pathology
+degree of a submeasure and present a method to construct pathological
+$F_\sigma$ ideals. We give a partial answers to the question of whether every
+nonpathological tall $F_\sigma$ ideal is Kat\v{e}tov above the random ideal or
+at least has a Borel selector. Finally, we show a representation of
+nonpathological $F_\sigma$ ideals using sequences in Banach spaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Martinez_J/0/1/0/all/0/1&quot;&gt;Jorge Mart&amp;#xed;nez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Meza_Alcantara_D/0/1/0/all/0/1&quot;&gt;David Meza-Alc&amp;#xe1;ntara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Uzcategui_C/0/1/0/all/0/1&quot;&gt;Carlos Uzc&amp;#xe1;tegui&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01574">
+<title>Quasilinear P.D.Es, Interpolation spaces and H\&quot;olderian mappings. (arXiv:2211.01574v1 [math.AP])</title>
+<link>http://arxiv.org/abs/2211.01574</link>
+<description rdf:parseType="Literal">&lt;p&gt;As in the work of Tartar ( Tartar L. Interpolation non lin\&apos;eaire et
+r\&apos;egularit\&apos;e, 9, Journal of Functional Analysis, (1972), 469-489) we
+developed here some new results on non linear interpolation of
+$\alpha$-H\&quot;olderian mappings between normed spaces, namely, by studying the
+action of the mappings on $K$-functionals and between interpolation spaces with
+logarithm functors. We apply those results to obtain regularity results on the
+gradient of the solution to quasilinear equations of the form $$-div(\widehat
+a(\nabla u ))+V(u)=f, $$ whenever $V$ is a nonlinear potential, $f$ belongs to
+non standard spaces as Lorentz-Zygmund spaces. We show among other that the
+mapping $T: \ Tf=\nabla u$ is locally or globally $\alpha$-H\&quot;olderian under
+suitable values of $\alpha$ and adequate hypothesis on $V$ and $\widehat a.$
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ahmed_I/0/1/0/all/0/1&quot;&gt;Irshaad Ahmed&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Fiorenza_A/0/1/0/all/0/1&quot;&gt;Alberto Fiorenza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Formica_M/0/1/0/all/0/1&quot;&gt;Maria Rosaria Formica&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Gogatishvili_A/0/1/0/all/0/1&quot;&gt;Amiran Gogatishvili&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hamidi_A/0/1/0/all/0/1&quot;&gt;Abdallah El Hamidi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Rakotoson_J/0/1/0/all/0/1&quot;&gt;Jean Michel Rakotoson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01623">
+<title>Convex-Cyclic Weighted Translations On Locally Compact Groups. (arXiv:2211.01623v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01623</link>
+<description rdf:parseType="Literal">&lt;p&gt;A bounded linear operator $T$ on a Banach space $X$ is called a convex-cyclic
+operator if there exists a vector $x \in X$ such that the convex hull of
+$Orb(T, x)$ is dense in $X$. In this paper, for given an aperiodic element $g$
+in a locally compact group $G$, we give some sufficient conditions for a
+weighted translation operator $T_{g,w}: f \mapsto w\cdot f*\delta_g$ on
+$\mathfrak{L}^{p}(G)$ to be convex-cyclic. A necessary condition is also
+studied. At the end, to explain the obtained results, some examples are given.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Azimi_M/0/1/0/all/0/1&quot;&gt;M. R. Azimi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Akbarbaglu_I/0/1/0/all/0/1&quot;&gt;I. Akbarbaglu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Asadipour_M/0/1/0/all/0/1&quot;&gt;M. Asadipour&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01702">
+<title>On diagonal canonical solutions to the Einstein field equations and their meromorphic deformations. (arXiv:2211.01702v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01702</link>
+<description rdf:parseType="Literal">&lt;p&gt;Explicit solutions to the non-linear field equations of gravitational
+theories can be obtained, using a Riemann-Hilbert approach, from an appropriate
+factorization of certain matrix functions. Here we study a class of solutions,
+which we call diagonal canonical solutions, obtained via Wiener-Hopf
+factorization of diagonal matrices. This class comprises, among others, the
+Schwarzschild, Kasner, Einstein-Rosen and gravitational pulse wave solutions.
+We show that new solutions can be obtained by a method of meromorphic
+deformation of the diagonal canonical solutions and that we can define Abelian
+groups of such solutions indexed by a curve in the complex plane.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Camara_M/0/1/0/all/0/1&quot;&gt;M. Cristina C&amp;#xe2;mara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Cardoso_G/0/1/0/all/0/1&quot;&gt;Gabriel Lopes Cardoso&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01974">
+<title>Discrete approximations to Dirichlet and Neumann Laplacians on a half-space and norm resolvent convergence. (arXiv:2211.01974v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01974</link>
+<description rdf:parseType="Literal">&lt;p&gt;We extend recent results on discrete approximations of the Laplacian in
+$\mathbf{R}^d$ with norm resolvent convergence to the corresponding results for
+Dirichlet and Neumann Laplacians on a half-space. The resolvents of the
+discrete Dirichlet/Neumann Laplacians are embedded into the continuum using
+natural discretization and embedding operators. Norm resolvent convergence to
+their continuous counterparts is proven with a quadratic rate in the mesh size.
+These results generalize with a limited rate to also include operators with a
+real, bounded, and H\&quot;older continuous potential, as well as certain functions
+of the Dirichlet/Neumann Laplacians, including any positive real power.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cornean_H/0/1/0/all/0/1&quot;&gt;Horia Cornean&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Garde_H/0/1/0/all/0/1&quot;&gt;Henrik Garde&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Jensen_A/0/1/0/all/0/1&quot;&gt;Arne Jensen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01986">
+<title>Resilience of cube slicing in $\ell_p$. (arXiv:2211.01986v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01986</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ball&apos;s celebrated cube slicing (1986) asserts that among hyperplane sections
+of the cube in $\mathbb{R}^n$, the central section orthogonal to
+$(1,1,0,\dots,0)$ has the greatest volume. We show that the same continues to
+hold for slicing $\ell_p$ balls when $p &amp;gt; 10^{15}$, as well as that the same
+hyperplane minimizes the volume of projections of $\ell_q$ balls for $1 &amp;lt; q &amp;lt; 1
++ 10^{-12}$. This extends Szarek&apos;s optimal Khinchin inequality (1976) which
+corresponds to $q=1$. These results thus address the resilience of the
+Ball--Szarek hyperplane in the ranges $2 &amp;lt; p &amp;lt; \infty$ and $1 &amp;lt; q &amp;lt; 2$, where
+analysis of the extremizers has been elusive since the works of Koldobsky
+(1998), Barthe--Naor (2002) and Oleszkiewicz (2003).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Eskenazis_A/0/1/0/all/0/1&quot;&gt;Alexandros Eskenazis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Nayar_P/0/1/0/all/0/1&quot;&gt;Piotr Nayar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tkocz_T/0/1/0/all/0/1&quot;&gt;Tomasz Tkocz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01988">
+<title>End-point Norm Estimates for Ces\&apos;aro and Copson Operators. (arXiv:2211.01988v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01988</link>
+<description rdf:parseType="Literal">&lt;p&gt;For a large class of operators acting between weighted $\ell^\infty$ spaces,
+exact formulas are given for their norms and the norms of their restrictions to
+the cones of nonnegative sequences; nonnegative, nonincreasing sequences; and
+nonnegative, nondecreasing sequences. The weights involved are arbitrary
+nonnegative sequences and may differ in the domain and codomain spaces. The
+results are applied to the Ces\&apos;aro and Copson operators, giving their norms
+and their distances to the identity operator on the whole space and on the
+cones. Simplifications of these formulas are derived in the case of these
+operators acting on power-weighted $\ell^\infty$. As an application, best
+constants are given for inequalities relating the weighted $\ell^\infty$ norms
+of the Ces\&apos;aro and Copson operators both for general weights and for power
+weights.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Barza_S/0/1/0/all/0/1&quot;&gt;Sorina Barza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Demissie_B/0/1/0/all/0/1&quot;&gt;Bizuneh Minda Demissie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sinnamon_G/0/1/0/all/0/1&quot;&gt;Gord Sinnamon&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2110.12977">
+<title>Large deviations for random matrices in the orthogonal group and Stiefel manifold with applications to random projections of product distributions. (arXiv:2110.12977v3 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2110.12977</link>
+<description rdf:parseType="Literal">&lt;p&gt;We prove large deviation principles (LDPs) for random matrices in the
+orthogonal group and Stiefel manifold, determining both the speed and good
+convex rate functions that are explicitly given in terms of certain
+log-determinants of trace-class operators and are finite on the set of
+Hilbert-Schmidt operators $M$ satisfying $\|MM^*\|&amp;lt;1$. As an application of
+those LDPs, we determine the precise large deviation behavior of
+$k$-dimensional random projections of high-dimensional product distributions
+using an appropriate interpretation in terms of point processes, also
+characterizing the space of all possible deviations. The case of uniform
+distributions on $\ell_p$-balls, $1\leq p \leq \infty$, is then considered and
+reduced to appropriate product measures. Those applications generalize
+considerably the recent work [Johnston, Kabluchko, Prochno: Projections of the
+uniform distribution on the cube - a large deviation perspective, Studia
+Mathematica 264 (2022), 103-119].
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kabluchko_Z/0/1/0/all/0/1&quot;&gt;Zakhar Kabluchko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Prochno_J/0/1/0/all/0/1&quot;&gt;Joscha Prochno&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2202.10531">
+<title>Oscillating singular integral operators on compact Lie groups revisited. (arXiv:2202.10531v3 [math.FA] UPDATED)</title>
+<link>http://arxiv.org/abs/2202.10531</link>
+<description rdf:parseType="Literal">&lt;p&gt;In [24, Theorem 2&apos;] Charles Fefferman has proved the weak (1,1) boundedness
+for a class of oscillating singular integrals that includes the oscillating
+spectral multipliers of the Euclidean Laplacian $\Delta,$ namely, operators of
+the form \begin{equation}
+&lt;/p&gt;
+&lt;p&gt;T_{\theta}(-\Delta):= (1-\Delta)^{-\frac{n\theta}{4}}e^{i
+(1-\Delta)^{\frac{\theta}{2}}},\,0\leq \theta &amp;lt;1. \end{equation} The aim of
+this work is to extend Fefferman&apos;s result to oscillating singular integrals on
+any arbitrary compact Lie group. Applications to oscillating spectral
+multipliers of the Laplace-Beltrami operator are also considered. The proof of
+our main theorem illustrates the delicate relationship between the condition on
+the kernel of the operator, its Fourier transform (defined in terms of the
+representation theory of the group) and the microlocal/geometric properties of
+the group.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cardona_D/0/1/0/all/0/1&quot;&gt;Duv&amp;#xe1;n Cardona&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ruzhansky_M/0/1/0/all/0/1&quot;&gt;Michael Ruzhansky&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.14153">
+<title>An inequality characterizing convex domains. (arXiv:2209.14153v2 [math.CA] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.14153</link>
+<description rdf:parseType="Literal">&lt;p&gt;A property of smooth convex domains $\Omega \subset \mathbb{R}^n$ is that if
+two points on the boundary $x, y \in \partial \Omega$ are close to each other,
+then their normal vectors $n(x), n(y)$ point roughly in the same direction and
+this direction is almost orthogonal to $x-y$ (for `nearby&apos; $x$ and $y$). We
+prove there exists a constant $c_n &amp;gt; 0$ such that if $\Omega \subset
+\mathbb{R}^n$ is a bounded domain with $C^1-$boundary $\partial \Omega$, then
+$$ \int_{\partial \Omega \times \partial \Omega} \frac{\left|\left\langle n(x),
+y - x \right\rangle \left\langle y - x, n(y) \right\rangle \right| }{\|x -
+y\|^{n+1}}~d \sigma(x) d\sigma(y) \geq c_n |\partial \Omega|$$ and equality
+occurs if and only if the domain $\Omega$ is convex.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Steinerberger_S/0/1/0/all/0/1&quot;&gt;Stefan Steinerberger&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00591">
+<title>Norm optimal factorizations of scalar and block matrices. (arXiv:2211.00591v1 [math.OA] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.00591</link>
+<description rdf:parseType="Literal">&lt;p&gt;For an $m \times n$ complex matrix $X$ of rank $r$ with Schur multiplier
+$S_X$ we show that there exist an $ r \times m $ complex matrix $L$ and an $
+r\times n $ complex matrix $R$ such that $X = L^*R$ and $\|S_X\|\, =\,
+\|\mathrm{diag} (L^*L) \|^{\frac{1}{2}} \| \mathrm{diag} (R^*R) \|
+^{\frac{1}{2}},$ and the norm condition is optimal. Let the completely bounded
+norm of the bilinear form $B_X$ induced by $X$ on $(\mathbb{C}^m, \|.\|_\infty)
+\times (\mathbb{C}^n, \|.\|_\infty)$ be denoted $\|B_X\|_{cb},$ then $X$ has a
+factorization $ X = \Delta(\eta)^* C \Delta(\xi)$ with $\eta $ in
+$\mathbb{C}^m,$ $\xi$ in $\mathbb{C}^n$ such that the outer factors are
+diagonal operators with $\|\xi\|_2 = \|\eta\|_2=1 $ and $C$ has operator norm
+equal to $\|B_X\|_{cb},$ and the norm condition is optimal. A generalization to
+operator valued Schur block multipliers is presented too.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Christensen_E/0/1/0/all/0/1&quot;&gt;Erik Christensen&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
