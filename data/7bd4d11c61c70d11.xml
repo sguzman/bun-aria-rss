@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>joy of data</title>
+	<atom:link href="http://www.joyofdata.de/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.joyofdata.de/blog</link>
+	<description>about turning data into insightful knowledge - for business and personal curiosity</description>
+	<lastBuildDate>
+	Sun, 03 Jan 2021 14:03:52 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.15</generator>
+	<item>
+		<title>It&#8217;s your Life &#8211; It&#8217;s your Data</title>
+		<link>https://www.joyofdata.de/blog/alternatives-to-whatsapp/</link>
+				<pubDate>Tue, 01 Dec 2015 17:01:25 +0000</pubDate>
+		<dc:creator><![CDATA[Raffael Vogler]]></dc:creator>
+				<category><![CDATA[default]]></category>
+
+		<guid isPermaLink="false">http://www.joyofdata.de/blog/?p=3894</guid>
+				<description><![CDATA[Time to leave @WhatsApp now! Which alt messenger do you prefer? #Signal (@whispersystems), @ThreemaApp or @telegram? — Raffael Vogler (@joyofdata) December 1, 2015 WhatsApp Blocks Links to Telegram Messenger Signal Private Messenger Threema Telegram I cast my vote for Signal &#8230; <a href="https://www.joyofdata.de/blog/alternatives-to-whatsapp/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<blockquote class="twitter-tweet" lang="en">
+<p dir="ltr" lang="en">Time to leave <a href="https://twitter.com/WhatsApp">@WhatsApp</a> now! Which alt messenger do you prefer? <a href="https://twitter.com/hashtag/Signal?src=hash">#Signal</a> (<a href="https://twitter.com/whispersystems">@whispersystems</a>), <a href="https://twitter.com/ThreemaApp">@ThreemaApp</a> or <a href="https://twitter.com/telegram">@telegram</a>?</p>
+<p>— Raffael Vogler (@joyofdata) <a href="https://twitter.com/joyofdata/status/671730318051799041">December 1, 2015</a></p></blockquote>
+<p><span id="more-3894"></span></p>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<ul>
+<li><a href="http://thehackernews.com/2015/11/whatsapp-telegram.html" target="_blank" rel="noopener noreferrer">WhatsApp Blocks Links to Telegram Messenger</a></li>
+<li><a href="https://whispersystems.org/" target="_blank" rel="noopener noreferrer">Signal Private Messenger</a></li>
+<li><a href="https://threema.ch/de" target="_blank" rel="noopener noreferrer">Threema</a></li>
+<li><a href="https://telegram.org/" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+</ul>
+<p>I cast my vote for Signal b/c</p>
+<ul>
+<li>it is recommended by Edward Snowden and <a href="https://www.schneier.com/" target="_blank" rel="noopener noreferrer">Bruce Schneier</a></li>
+<li>it is <a href="https://github.com/WhisperSystems/Signal-Android" target="_blank" rel="noopener noreferrer">Open Source</a></li>
+<li>it <a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&amp;hl=en" target="_blank" rel="noopener noreferrer">is free of charge</a></li>
+<li>I like its UI</li>
+</ul>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>LOCF and Linear Imputation with PostgreSQL</title>
+		<link>https://www.joyofdata.de/blog/locf-linear-imputation-postgresql-tutorial/</link>
+				<comments>https://www.joyofdata.de/blog/locf-linear-imputation-postgresql-tutorial/#comments</comments>
+				<pubDate>Sun, 11 Oct 2015 22:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[Raffael Vogler]]></dc:creator>
+				<category><![CDATA[default]]></category>
+		<category><![CDATA[PostgreSQL]]></category>
+		<category><![CDATA[SQL]]></category>
+
+		<guid isPermaLink="false">http://www.joyofdata.de/blog/?p=3844</guid>
+				<description><![CDATA[This tutorial will introduce various tools offered by PostgreSQL, and SQL in general &#8211; like custom functions, window functions, aggregate functions, WITH clause (or CTE for Common Table Expression) &#8211; for the purpose of implementing a program which imputes numeric observations within a column &#8230; <a href="https://www.joyofdata.de/blog/locf-linear-imputation-postgresql-tutorial/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify;">This tutorial will introduce various tools offered by PostgreSQL, and SQL in general &#8211; like <a href="http://www.postgresql.org/docs/9.5/static/sql-createfunction.html" target="_blank" rel="noopener noreferrer">custom functions</a>, <a href="http://www.postgresql.org/docs/9.5/static/functions-window.html" target="_blank" rel="noopener noreferrer">window functions</a>, <a href="http://www.postgresql.org/docs/9.5/static/functions-aggregate.html" target="_blank" rel="noopener noreferrer">aggregate functions</a>, <a href="http://www.postgresql.org/docs/9.5/static/queries-with.html" target="_blank" rel="noopener noreferrer">WITH clause</a> (or CTE for Common Table Expression) &#8211; for the purpose of implementing a program which <a href="https://en.wikipedia.org/wiki/Imputation_(statistics)" target="_blank" rel="noopener noreferrer">imputes</a> numeric observations within a column applying <a href="https://en.wikipedia.org/wiki/Linear_interpolation" target="_blank" rel="noopener noreferrer">linear interpolation</a> where possible and <a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear.png"><img class="alignleft wp-image-3859" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear-300x173.png" alt="locf-and-linear" width="261" height="155" /></a>forward and backward padding where necessary. I&#8217;m going to progressively add and explain those constructs, step by step, so no problem if you are new to the scene. I am very much interested in input regarding potential downsides of the implementation and possible improvements.</p>
+<p style="text-align: justify;"><span id="more-3844"></span></p>
+<p style="text-align: justify;"><strong>Imputing Observations</strong></p>
+<p style="text-align: justify;">A standard situation for somebody working with data is being faced with missing observations. Depending on the type of observation imputation might be possible. The most simple methods of padding those gaps are to forward or backfill observations up and down an ordered and related sequence of records. This is often referred to as LOCF (last observation carried forward) and FOCB (first observation carried backward). Another often reasonable method is to assume a linear transformation between observations.</p>
+<h1 style="text-align: justify;">Setting Up the Toy Data</h1>
+<p>(<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/postgresql-imputation/create-table-and-insert.sql" target="_blank" rel="noopener noreferrer">GitHub</a> / <a href="http://sqlfiddle.com/#!15/19c89/3" target="_blank" rel="noopener noreferrer">SQL Fiddle</a> &#8211; <em>at the beginning of every section you will find a link to the code on GitHub and an SQL Fiddle session</em>)</p>
+<p style="text-align: justify;">We start with a table (<pre class="crayon-plain-tag">tbl</pre>) of four columns <pre class="crayon-plain-tag">t::float</pre>, <pre class="crayon-plain-tag">a::int</pre>, <pre class="crayon-plain-tag">b::int</pre> and <pre class="crayon-plain-tag">v::float</pre>. <pre class="crayon-plain-tag">a</pre>  and <pre class="crayon-plain-tag">b</pre> hold the keys for identifiying related records &#8211; this is what we will partition over. <pre class="crayon-plain-tag">t</pre> represents the time and <pre class="crayon-plain-tag">v</pre> the observations that we want to impute. For example, think of <pre class="crayon-plain-tag">b</pre> as a town in country <pre class="crayon-plain-tag">a</pre> where temperature <pre class="crayon-plain-tag">v</pre> was measured on 12pm on date <pre class="crayon-plain-tag">t</pre>.</p>
+<h1 style="text-align: justify;">A Very Simple Custom Function</h1>
+<p>(<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/postgresql-imputation/custom-function.sql" target="_blank" rel="noopener noreferrer">GitHub</a> / <a href="http://sqlfiddle.com/#!15/19c89/4" target="_blank" rel="noopener noreferrer">SQL Fiddle</a>)</p>
+<p style="text-align: justify;"><span class="alignright"></span>An LOCF is at the end of the day just a<a href="http://www.postgresql.org/docs/9.5/static/functions-conditional.html" target="_blank" rel="noopener noreferrer"> <pre class="crayon-plain-tag">COALESCE(b,a)</pre> </a>of two observations with <pre class="crayon-plain-tag">a</pre> having been observed before <pre class="crayon-plain-tag">b</pre>. If <pre class="crayon-plain-tag">b is not NULL</pre> we take it, if it is we use the value of the observation before, i.e. <pre class="crayon-plain-tag">a</pre>. If we perform those steps iteratively starting with an initial observation (initial condition) of <pre class="crayon-plain-tag">NULL</pre> then we will inductively fill all gaps after stumbling upon a first non-NULL observation. The following function implements this mechanism, but first we will apply it in a non-aggregating way. The script will just add another column <pre class="crayon-plain-tag">v_or_t</pre> which holds <pre class="crayon-plain-tag">v</pre> in case <pre class="crayon-plain-tag">v IS NOT NULL</pre> and <pre class="crayon-plain-tag">t</pre> if <pre class="crayon-plain-tag">v IS NULL</pre>.</p>
+<p></p><pre class="crayon-plain-tag">CREATE OR REPLACE FUNCTION fun(a FLOAT, b FLOAT)
+RETURNS FLOAT
+LANGUAGE SQL
+AS '
+  SELECT COALESCE(b, a)
+';
+
+select a,b,t,v,
+    fun(t,v) as v_or_t
+from tbl
+order by a,b,t
+;</pre><p></p>
+<p style="text-align: justify;">Here we <pre class="crayon-plain-tag">CREATE OR REPLACE</pre> a <pre class="crayon-plain-tag">FUNCTION</pre> named fun, which takes two <pre class="crayon-plain-tag">FLOAT</pre> typed arguments <pre class="crayon-plain-tag">a</pre> and <pre class="crayon-plain-tag">b</pre> and <pre class="crayon-plain-tag">RETURNS FLOAT</pre> as well. The function is implemented by means of the <pre class="crayon-plain-tag">LANGUAGE SQL</pre> (instead of <a href="http://www.postgresql.org/docs/9.5/static/plpgsql.html" target="_blank" rel="noopener noreferrer">PL/pgSQL</a> or <a href="http://www.postgresql.org/docs/9.5/static/xfunc.html" target="_blank" rel="noopener noreferrer">some other language</a>). An SQL programmed function will return the result of the last evaluated <pre class="crayon-plain-tag">SELECT</pre> statement. The code itself has to be delimited by single quotes (<pre class="crayon-plain-tag">'</pre>) or a string like f.x. &#8220;$$&#8221; and follows after the keyword <pre class="crayon-plain-tag">AS</pre>.</p>
+<p style="text-align: justify;"><p style="text-align: center; border: 1px solid #378efd">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/stay-tuned.png" alt="stay-tuned" style="padding-right:30px; height:30px"/>
+
+<a href="https://twitter.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/twitter.png" alt="twitter" height="28" /></a>
+<a href="http://feedly.com/i/subscription/feed/http://www.joyofdata.de/blog/feed/" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/feedly.png" alt="feedly" width="30" height="30" /></a>
+<a href="https://github.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/github.png" alt="github" width="30" height="30" /></a>
+</p></p>
+<h1>Implementing LOCF</h1>
+<p>(<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/postgresql-imputation/locf-simple.sql" target="_blank" rel="noopener noreferrer">GitHub</a> / <a href="http://sqlfiddle.com/#!15/19c89/5" target="_blank" rel="noopener noreferrer">SQL Fiddle</a>)</p>
+<p style="text-align: justify;">Now instead of applying the function (which I renamed to <pre class="crayon-plain-tag">locf</pre>) horizontally within a record we tell PostgreSQL to apply it iteratively in a specified <pre class="crayon-plain-tag">ORDER</pre> and within specified boundaries (the <pre class="crayon-plain-tag">PARTITION</pre>) vertically across two records:</p>
+<p></p><pre class="crayon-plain-tag">create or replace function locf_s(a float, b float)
+returns float
+language sql
+as '
+  select coalesce(b, a)
+';
+
+drop aggregate if exists locf(float);
+CREATE AGGREGATE locf(FLOAT) (
+  SFUNC = locf_s,
+  STYPE = FLOAT
+);
+
+select a,b,t,v,
+    locf(v) over (PARTITION by a,b ORDER by t) as v_locf
+from tbl
+order by a,b,t
+;</pre><p></p>
+<p style="text-align: justify;">As you can see the process of creating the LOCF function is now split into two steps. <a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/simple-locf1.png"><img class="alignleft size-medium wp-image-3874" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/simple-locf1-300x187.png" alt="simple-locf" width="300" height="187" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/10/simple-locf1-300x187.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/10/simple-locf1.png 468w" sizes="(max-width: 300px) 100vw, 300px" /></a>First we define the transformation of two values into one (<pre class="crayon-plain-tag">locf_s</pre>) and then we <a href="http://www.postgresql.org/docs/9.5/static/sql-createaggregate.html" target="_blank" rel="noopener noreferrer">create the actual aggregating function</a> (<pre class="crayon-plain-tag">locf</pre>) by specifying how to apply the transformation. Here we just define what in this context is referred to as the &#8220;state transition function&#8221; (<pre class="crayon-plain-tag">SFUNC</pre>) which returns a value of the &#8220;state type&#8221; (<pre class="crayon-plain-tag">STYPE</pre>) <pre class="crayon-plain-tag">FLOAT</pre>.</p>
+<p style="text-align: justify;">In the final query we apply <pre class="crayon-plain-tag">locf()</pre> over the <pre class="crayon-plain-tag">PARTITION</pre> defined by <pre class="crayon-plain-tag">a</pre> and <pre class="crayon-plain-tag">b</pre> and traverse the records by ordering <pre class="crayon-plain-tag">t</pre> ascending.</p>
+<h1 style="text-align: justify;">Filling all the Gaps by Applying First LOCF and then FOCB</h1>
+<p style="text-align: justify;">(<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/postgresql-imputation/locf-full.sql" target="_blank" rel="noopener noreferrer">GitHub</a> / <a href="http://sqlfiddle.com/#!15/19c89/6" target="_blank" rel="noopener noreferrer">SQL Fiddle</a>)</p>
+<p style="text-align: justify;"><span class="alignright"></span>Now we go one step further and fill all the missing oberservations by padding a missing oberservation preferredly with the last seen value and if that is not possible we use the first available value. Technically we fill one column <pre class="crayon-plain-tag">v_locf</pre> with the LOCF values, another column <pre class="crayon-plain-tag">v_focb</pre> with the FOCB values and then choose for <pre class="crayon-plain-tag">v_final</pre> the value from <pre class="crayon-plain-tag">v_locf</pre> if it is not NULL and otherwise the value from <pre class="crayon-plain-tag">v_focb</pre>.</p>
+<p></p><pre class="crayon-plain-tag">select a,b,t,v,
+    locf(v) over t_asc as v_locf,
+    locf(v) over t_desc as v_focb,
+    COALESCE(
+        locf(v) over t_asc,
+        locf(v) over t_desc
+    ) as v_final
+from tbl
+WINDOW
+    t_asc as (partition by a,b order by t),
+    t_desc as (partition by a,b order by t desc)
+order by a,b,t
+;</pre><p></p>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-full1.png"><img class="alignleft wp-image-3875" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-full1-300x171.png" alt="locf-full" width="293" height="172" /></a>First of all, the <pre class="crayon-plain-tag">WINDOW</pre> keyword simply allows us to to name an ordered partition and then use it in the corresponding select query. Second of all, the FOCB mechanism is just LOCF applied to the inversely ordered partition (<pre class="crayon-plain-tag">t_desc</pre>). And finally, it might be worth noting that you can use multiple aggregate functions within another function &#8211; <pre class="crayon-plain-tag">COALESCE</pre> in this case.</p>
+<h1 style="text-align: justify;">Putting the Pieces Together for Linear Interpolation</h1>
+<p style="text-align: justify;">(<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/postgresql-imputation/locf-and-linear-full.sql" target="_blank" rel="noopener noreferrer">GitHub</a> / <a href="http://sqlfiddle.com/#!15/19c89/14" target="_blank" rel="noopener noreferrer">SQL Fiddle</a> &#8211;<em> if you think SQL Fiddle is pretty cool &#8211; why not <a href="http://sqlfiddle.com/" target="_blank" rel="noopener noreferrer">donate a few bucks</a> to support the project?!</em>)</p>
+<p style="text-align: justify;">This query is composed of two main steps. First we unite all the necessary values spread across multiple rows, so those values are available locally to every row and then we calculate row based the imputed value.</p>
+<p></p><pre class="crayon-plain-tag">WITH 
+tbl0 as (
+    SELECT a, b, t, v,
+           locf(v) over t_asc as v_locf,
+           locf(v) over t_desc as v_focb, 
+           locf(case when v is not null then t else null end) 
+                over t_asc as t_locf,
+           locf(case when v is not null then t else null end) 
+                over t_desc as t_focb
+    from tbl
+    window t_asc as (partition by a,b order by t),
+           t_desc as (partition by a,b order by t desc)
+),
+tbl1 as (
+    SELECT a, b, t, v, v_locf, v_focb, t_locf, t_focb,
+        case
+            when 
+                t_focb != t_locf 
+                and v_locf is not null 
+                and v_focb is not null
+            then 
+                v_locf + (
+                    (v_focb - v_locf)
+                    *
+                    (t - t_locf) /
+                    (t_focb - t_locf)
+                )
+            else coalesce(v_locf, v_focb)
+        end as v_final
+    from tbl0
+    order by a,b,t
+)
+SELECT * from tbl1 order by a,b,t;</pre><p></p>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear.png"><img class="alignleft wp-image-3859 size-medium" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear-300x173.png" alt="locf-and-linear" width="300" height="173" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear-300x173.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear-500x288.png 500w, https://www.joyofdata.de/blog/wp-content/uploads/2015/10/locf-and-linear.png 567w" sizes="(max-width: 300px) 100vw, 300px" /></a>The <pre class="crayon-plain-tag">WITH</pre> clause is simply a way to chain temporary tables. The result of the first SELECT is named <pre class="crayon-plain-tag">tbl0</pre> and used within the second SELECT whose result set is named <pre class="crayon-plain-tag">tbl1</pre> and referred to by the final (technically not necessary) SELECT query. The statements formulated using a <a href="http://www.postgresql.org/docs/9.5/static/queries-with.html" target="_blank" rel="noopener noreferrer">WITH clause are also referred to as CTEs or Common Table Expressions</a>. They can make complex queries more readable and allow the formulation of recursive queries, for example to traverse a tree. CTEs are controversial with respect to their performance (&#8220;<a href="http://blog.2ndquadrant.com/postgresql-ctes-are-optimization-fences/" target="_blank" rel="noopener noreferrer">optimization fence</a>&#8220;).</p>
+<p style="text-align: justify;">Now with the different parameters assembled we can interpolate with the following simple formula:</p>
+<p style="text-align: justify;"><img src="http://www.joyofdata.de/blog/wp-content/ql-cache/quicklatex.com-4b76ea928478abb33fbb73e406542a4e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt=" &#118;&#95;&#123;&#102;&#105;&#110;&#97;&#108;&#125;&#32;&#61;&#32;&#118;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#108;&#111;&#99;&#102;&#125;&#125;&#32;&#43;&#32;&#40;&#118;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#102;&#111;&#99;&#98;&#125;&#125;&#32;&#45;&#32;&#118;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#108;&#111;&#99;&#102;&#125;&#125;&#41;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#92;&#100;&#102;&#114;&#97;&#99;&#123;&#116;&#32;&#45;&#32;&#116;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#108;&#111;&#99;&#102;&#125;&#125;&#125;&#123;&#116;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#102;&#111;&#99;&#98;&#125;&#125;&#32;&#45;&#32;&#116;&#95;&#123;&#92;&#116;&#101;&#120;&#116;&#123;&#108;&#111;&#99;&#102;&#125;&#125;&#125; " title="Rendered by QuickLaTeX.com" height="40" width="317" style="vertical-align: -16px;"/></p>
+<h1 style="text-align: justify;">Updating the Table Directly</h1>
+<p style="text-align: justify;">Now if we subsitute above&#8217;s last SELECT query with the following UPDATE statement then the imputed set of values for <pre class="crayon-plain-tag">v</pre> are directly written to <pre class="crayon-plain-tag">tbl</pre>:</p>
+<p></p><pre class="crayon-plain-tag">update tbl as tb
+set v = t1.v_final
+from t1
+where
+    tb.a = t1.a and tb.b = t1.b and tb.t = t1.t</pre><p></p>
+<hr />
+<p style="text-align: justify;">(original article published on <a href="http://www.joyofdata.de/blog/locf-linear-imputation-postgresql-tutorial">www.joyofdata.de</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.joyofdata.de/blog/locf-linear-imputation-postgresql-tutorial/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>Illustrated Guide to ROC and AUC</title>
+		<link>https://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/</link>
+				<comments>https://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/#comments</comments>
+				<pubDate>Tue, 23 Jun 2015 11:49:55 +0000</pubDate>
+		<dc:creator><![CDATA[Raffael Vogler]]></dc:creator>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[R]]></category>
+
+		<guid isPermaLink="false">http://www.joyofdata.de/blog/?p=3597</guid>
+				<description><![CDATA[(In a past job interview I failed at explaining how to calculate and interprete ROC curves &#8211; so here goes my attempt to fill this knowledge gap.) Think of a regression model mapping a number of features onto a real number &#8230; <a href="https://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify;"><img class="alignright wp-image-3648 size-full" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc.png" alt="roc" width="251" height="250" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc.png 251w, https://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc-150x150.png 150w" sizes="(max-width: 251px) 100vw, 251px" />(In a past job interview I failed at explaining how to <a href="https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf" target="_blank" rel="noopener noreferrer">calculate and interprete ROC curves </a>&#8211; so here goes my attempt to fill this knowledge gap.) Think of a <a href="https://en.wikipedia.org/wiki/Regression_analysis" target="_blank" rel="noopener noreferrer">regression model</a> mapping a number of features onto a real number (potentially a probability). The resulting real number can then be mapped on one of two classes, depending on whether this predicted number is greater or lower than some choosable threshold. Let&#8217;s take for example a logistic regression and <a href="http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets" target="_blank" rel="noopener noreferrer">data on the survivorship of the Titanic accident</a> to introduce the relevant concepts which will lead naturally to the ROC (Receiver Operating Characteristic) and its AUC or AUROC (Area Under ROC Curve).</p>
+<p style="text-align: justify;"><span id="more-3597"></span></p>
+<h1>Titanic Data Set and the Logistic Regression Model</h1>
+<p style="text-align: justify;">Every record in the data set represents a passenger &#8211; providing information on her/his age, gender, class, number of siblings/spouses aboard (sibsp), number of parents/children aboard (parch) and, of course, whether s/he survived the accident.</p>
+<p></p><pre class="crayon-plain-tag"># https://github.com/joyofdata/joyofdata-articles/blob/master/roc-auc/read_and_prepare_titanic_dataset.R
+&gt; df &lt;- read_and_prepare_titanic_dataset("~/Downloads/titanic3.csv")
+&gt; str(df)
+
+'data.frame':	1046 obs. of  6 variables:
+  $ survived: Factor w/ 2 levels "0","1": 2 2 1 1 1 2 2 1 2 1 ...
+$ pclass  : Factor w/ 3 levels "1","2","3": 1 1 1 1 1 1 1 1 1 1 ...
+$ sex     : Factor w/ 2 levels "female","male": 1 2 1 2 1 2 1 2 1 2 ...
+$ age     : num  29 0.92 2 30 25 48 63 39 53 71 ...
+$ sibsp   : int  0 1 1 1 1 0 1 0 2 0 ...
+$ parch   : int  0 2 2 2 2 0 0 0 0 0 ...</pre><p></p>
+<p style="text-align: justify;">The logistic regression model is tested on batches of 10 cases with a model trained on the remaining N-10 cases &#8211; the test batches form a partition of the data. In short, <a href="https://en.wikipedia.org/wiki/Cross-validation_(statistics)" target="_blank" rel="noopener noreferrer">Leave-10-out CV</a> has been applied to arrive at more accurate estimation of the out-of-sample error rates.</p>
+<p></p><pre class="crayon-plain-tag"># https://github.com/joyofdata/joyofdata-articles/blob/master/roc-auc/log_reg.R
+&gt; predictions &lt;- log_reg(df, size=10)
+&gt; str(predictions)
+
+'data.frame':	1046 obs. of  2 variables:
+ $ survived: Factor w/ 2 levels "0","1": 1 2 1 1 2 2 1 2 1 2 ...
+ $ pred    : num  0.114 0.854 0.176 0.117 0.524 ...</pre><p></p>
+<h1>Distribution of the Predictions</h1>
+<p style="text-align: justify;">Now let&#8217;s first have a look at the distribution of survival and death cases on the predicted survival probabilities.</p>
+<p></p><pre class="crayon-plain-tag"># https://github.com/joyofdata/joyofdata-articles/blob/master/roc-auc/plot_pred_type_distribution.R
+&gt; plot_pred_type_distribution(predictions, 0.7)</pre><p></p>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/06/prediction_type_distribution.png"><img class="alignleft wp-image-3599 size-full" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/06/prediction_type_distribution.png" alt="prediction_type_distribution" width="926" height="293" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/06/prediction_type_distribution.png 926w, https://www.joyofdata.de/blog/wp-content/uploads/2015/06/prediction_type_distribution-300x95.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/06/prediction_type_distribution-500x158.png 500w" sizes="(max-width: 926px) 100vw, 926px" /></a>If we consider survival as a positive (1) and death due to the accident as a negative (0) result, then the above plot illustrates the tradeoff we face upon choosing a reasonable threshold. If we increase the threshold the number of false positive (FP) results is lowered, while the number of false negative (FN) results increases.</p>
+<h1 style="text-align: justify;">Receiver Operating Characteristic</h1>
+<p style="text-align: justify;"><span class="alignright"></span>This question of how to balance false positives and false negatives (depending on the cost/consequences of either mistake) arose on a major scale during World War II in context of interpretation of radar signals for identification of enemy air planes. For the purpose of visualizing and quantifying the impact of a threshold on the FP/FN-tradeoff the ROC curve was introduced. The ROC curve is the interpolated curve made of points whose coordinates are functions of the threshold:</p>
+<p><img src="http://www.joyofdata.de/blog/wp-content/ql-cache/quicklatex.com-7ac4bb516b31a31148268524821068e1_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#92;&#116;&#101;&#120;&#116;&#123;&#116;&#104;&#114;&#101;&#115;&#104;&#111;&#108;&#100;&#125;&#32;&#61;&#32;&#92;&#116;&#104;&#101;&#116;&#97;&#32;&#92;&#105;&#110;&#32;&#92;&#109;&#97;&#116;&#104;&#98;&#98;&#123;&#82;&#125;&#32;&#92;&#116;&#101;&#120;&#116;&#123;&#44;&#32;&#104;&#101;&#114;&#101;&#32;&#125;&#32;&#92;&#116;&#104;&#101;&#116;&#97;&#32;&#92;&#105;&#110;&#32;&#091;&#48;&#44;&#49;&#093;" title="Rendered by QuickLaTeX.com" height="18" width="252" style="vertical-align: -5px;"/></p>
+<p><img src="http://www.joyofdata.de/blog/wp-content/ql-cache/quicklatex.com-7674339e13a8cee308503ea19a9497d8_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#82;&#79;&#67;&#95;&#120;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#61;&#32;&#70;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#61;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#70;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#123;&#70;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#43;&#32;&#84;&#78;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#32;&#61;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#70;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#123;&#92;&#35;&#78;&#125;" title="Rendered by QuickLaTeX.com" height="29" width="340" style="vertical-align: -9px;"/></p>
+<p><img src="http://www.joyofdata.de/blog/wp-content/ql-cache/quicklatex.com-e0a5528b94aca1b673b3b611a867be7e_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#82;&#79;&#67;&#95;&#121;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#61;&#32;&#84;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#61;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#84;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#123;&#70;&#78;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#43;&#32;&#84;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#32;&#61;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#84;&#80;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#123;&#92;&#35;&#80;&#125;&#32;&#61;&#32;&#49;&#32;&#45;&#32;&#92;&#102;&#114;&#97;&#99;&#123;&#70;&#78;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#125;&#123;&#92;&#35;&#80;&#125;&#32;&#61;&#32;&#49;&#32;&#45;&#32;&#70;&#78;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;" title="Rendered by QuickLaTeX.com" height="29" width="558" style="vertical-align: -9px;"/></p>
+<p style="text-align: justify;"><a href="https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Worked_example" target="_blank" rel="noopener noreferrer">In terms of hypothesis tests</a> where rejecting the null hypothesis is considered a positive result the FPR (false positive rate) corresponds to the Type I error, the FNR (false negative rate) to the Type II error and (1 &#8211; FNR) to the power. So the ROC for above distribution of predictions would be:</p>
+<p></p><pre class="crayon-plain-tag"># https://github.com/joyofdata/joyofdata-articles/blob/master/roc-auc/calculate_roc.R
+roc &lt;- calculate_roc(predictions, 1, 2, n = 100)
+
+# https://github.com/joyofdata/joyofdata-articles/blob/master/roc-auc/plot_roc.R
+plot_roc(roc, 0.7, 1, 2)</pre><p></p>
+<h1><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc_and_cost_function.png"><img class=" size-full wp-image-3625 aligncenter" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc_and_cost_function.png" alt="roc_and_cost_function" width="944" height="498" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc_and_cost_function.png 944w, https://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc_and_cost_function-300x158.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/06/roc_and_cost_function-500x264.png 500w" sizes="(max-width: 944px) 100vw, 944px" /></a></h1>
+<p style="text-align: justify;">The dashed lines indicate the location of the (FPR, TPR) corresponding to a threshold of 0.7. Note that the low corner (0,0) is associated with a threshold of 1 and the top corner (1,1) with a threshold of 0.</p>
+<p style="text-align: justify;">The cost function and the corresponding coloring of the ROC points illustrate that an optimal FPR and TPR combination is determined by the associated cost. Depending on the use case false negatives might be more costly than false positive or vice versa. Here I assumed a cost of 1 for FP cases and a cost of 2 for FN cases.</p>
+<h1 style="text-align: justify;">Area Under (ROC) Curve</h1>
+<p style="text-align: justify;">The optimal point on the ROC curve is (FPR, TPR) = (0,1). No false positives and all true positives. So the closer we get there the better. The second essential observation is that the curve is by definition monotonically increasing.</p>
+<p style="text-align: justify;"><img src="http://www.joyofdata.de/blog/wp-content/ql-cache/quicklatex.com-f3f30d4a2c0b950dab8ab97396515939_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#70;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#60;&#32;&#70;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#39;&#41;&#32;&#92;&#105;&#109;&#112;&#108;&#105;&#101;&#115;&#32;&#92;&#116;&#104;&#101;&#116;&#97;&#32;&#62;&#32;&#92;&#116;&#104;&#101;&#116;&#97;&#39;&#32;&#92;&#105;&#109;&#112;&#108;&#105;&#101;&#115;&#32;&#84;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#41;&#32;&#92;&#108;&#101;&#113;&#32;&#84;&#80;&#82;&#40;&#92;&#116;&#104;&#101;&#116;&#97;&#39;&#41;" title="Rendered by QuickLaTeX.com" height="18" width="451" style="vertical-align: -4px;"/></p>
+<p style="text-align: justify;">This inequation can be easily checked by looking at the first plot by mentally pushing the threshold (red line) up and down; it implies the monotonicity. Furthermore any reasonable model&#8217;s ROC is located above the identity line as a point below it would imply a prediction performance worse than random (in that case, simply inverting the predicted classes would bring us to the sunny side of the ROC space).</p>
+<p style="text-align: justify;">All those features combined make it apparently reasonable to summarize the ROC into a single value by calculating the area of the convex shape below the ROC curve &#8211; this is the AUC. The closer the ROC gets to the optimal point of perfect prediction the closer the AUC gets to 1.</p>
+<p></p><pre class="crayon-plain-tag"># AUC for the example
+
+&gt; library(pROC)
+&gt; auc(predictions$survived, predictions$pred)
+
+Area under the curve: 0.8421</pre><p></p>
+<h1>ROC and AUC for Comparison of Classifiers</h1>
+<p style="text-align: justify;"><span class="alignleft"></span>Mainly two reasons are responsible for why an ROC curve is a potentially powerful metric for comparison of different classifiers. One is that the resulting ROC is invariant against class skew of the applied data set &#8211; that means a data set featuring 60% positive labels will yield the same (statistically expected) ROC as a data set featuring 45% positive labels (though this will affect the cost associated with a given point of the ROC). The other is that the ROC is invariant against the evaluated score &#8211; which means that we could compare a model giving non-calibrated scores like a regular linear regression with a logistic regression or a random forest model whose scores can be considered as class probabilities.</p>
+<p style="text-align: justify;">The AUC furthermore offers interesting interpretations:</p>
+<blockquote><p>The AUC has an important statistical property: the AUC of a classifier is equivalent to the probability that the classifier will rank a randomly chosen positive instance higher than a randomly chosen negative instance. <em>[Fawcett]</em></p>
+<p>&nbsp;</p>
+<p>[The AUC] also has various natural intuitive interpretations, one of which is that it is the average sensitivity of a classifier under the assumption that one is equally likely to choose any value of the specificity — under the assumption of a uniform distribution over specificity. <em>[Hand]</em></p></blockquote>
+<p style="text-align: justify;">As the ROC itself is variable with respect to a given data set it is necessary to average multiple ROCs derived from different data sets to arrive at a good estimation of a classifier&#8217;s true ROC function.</p>
+<p style="text-align: justify;"><p style="text-align: center; border: 1px solid #378efd">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/stay-tuned.png" alt="stay-tuned" style="padding-right:30px; height:30px"/>
+
+<a href="https://twitter.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/twitter.png" alt="twitter" height="28" /></a>
+<a href="http://feedly.com/i/subscription/feed/http://www.joyofdata.de/blog/feed/" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/feedly.png" alt="feedly" width="30" height="30" /></a>
+<a href="https://github.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/github.png" alt="github" width="30" height="30" /></a>
+</p></p>
+<h1>Criticism of the AUC</h1>
+<p style="text-align: justify;">It seems problematic, in the first place, to absolutely measure and compare the performance of classifiers with something as simple as a scalar between 0 and 1. The main fundamental reason of this is that problem specific cost functions hurt the assumption of points in the ROC space being homogenous in that regard and by that comparable across classifiers. This non-uniformity of the cost function causes ambiguities if ROC curves of different classifiers cross and on itself when the ROC curve is compressed into the AUC by means of integration over the false positive rate.</p>
+<blockquote><p>However, the AUC also has a much more serious deficiency, and one which appears not to have been previously recognised. This is that it is fundamentally incoherent in terms of misclassification costs: the AUC uses different misclassification cost distributions for different classifiers. This means that using the AUC is equivalent to using different metrics to evaluate different classification rules. It is equivalent to saying that, using one classifier, misclassifying a class 1 point is p times as serious as misclassifying a class 0 point, but, using another classifier, misclassifying a class 1 point is P times as serious, where p ? P. This is nonsensical because the relative severities of different kinds of misclassifications of individual points is a property of the problem, not the classifiers which happen to have been chosen. <em>[Hand]</em></p></blockquote>
+<p><a href="http://www.cs.iastate.edu/~cs573x/Notes/hand-article.pdf" target="_blank" rel="noopener noreferrer">David J. Hand</a> gives a statistically profound reasoning for the dubiousness of the AUC.</p>
+<h1>Sources</h1>
+<p>[Fawcett]: <a href="https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf" target="_blank" rel="noopener noreferrer">&#8220;An introduction to ROC analysis&#8221; by Tom Fawcett</a></p>
+<p>[Hand]: <a href="http://www.cs.iastate.edu/~cs573x/Notes/hand-article.pdf" target="_blank" rel="noopener noreferrer">&#8220;Measuring classifier performance: a coherent alternative</a><br />
+<a href="http://www.cs.iastate.edu/~cs573x/Notes/hand-article.pdf" target="_blank" rel="noopener noreferrer">to the area under the ROC curve&#8221; by David J. Hand</a></p>
+<hr />
+<p style="text-align: justify;">(original article published on <a href="http://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/">www.joyofdata.de</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+							</item>
+		<item>
+		<title>Neural Nets with Caffe Utilizing the GPU</title>
+		<link>https://www.joyofdata.de/blog/neural-networks-with-caffe-on-the-gpu/</link>
+				<comments>https://www.joyofdata.de/blog/neural-networks-with-caffe-on-the-gpu/#comments</comments>
+				<pubDate>Sat, 09 May 2015 12:02:22 +0000</pubDate>
+		<dc:creator><![CDATA[Raffael Vogler]]></dc:creator>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Kaggle]]></category>
+
+		<guid isPermaLink="false">http://www.joyofdata.de/blog/?p=3545</guid>
+				<description><![CDATA[Caffe is an open-source deep learning framework originally created by Yangqing Jia which allows you to leverage your GPU for training neural networks. As opposed to other deep learning frameworks like Theano or Torch you don&#8217;t have to program the &#8230; <a href="https://www.joyofdata.de/blog/neural-networks-with-caffe-on-the-gpu/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/network-graph.png"><img class=" alignright wp-image-3550" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/network-graph.png" alt="network-graph" width="115" height="234" /></a><a href="http://caffe.berkeleyvision.org/" target="_blank" rel="noopener noreferrer">Caffe</a> is an open-source deep learning framework originally created by <a href="http://daggerfs.com/" target="_blank" rel="noopener noreferrer">Yangqing Jia</a> which allows you to leverage your GPU for training neural networks. As opposed to other deep learning frameworks like <a href="http://www.deeplearning.net/software/theano/" target="_blank" rel="noopener noreferrer">Theano</a> or <a href="http://torch.ch/" target="_blank" rel="noopener noreferrer">Torch</a> you don&#8217;t have to program the algorithms yourself; instead you specify your network by means of configuration files. Obviously this approach is less time consuming than programming everything on your own, but it also forces you to stay within the boundaries of the framework, of course. Practically though this won&#8217;t matter most of the time as the framework Caffe provides is quite powerful and continuously advanced.</p>
+<p style="text-align: justify;"><span id="more-3545"></span></p>
+<p><span class="alignleft"></span></p>
+<p style="text-align: justify;">The subject of this article is the composition of a multi-layer feed-forward network. This model will be trained based on data of the &#8220;<a href="https://www.kaggle.com/c/otto-group-product-classification-challenge" target="_blank" rel="noopener noreferrer">Otto Group Product Classification Challenge</a>&#8221; at Kaggle. We&#8217;ll also take a look at applying the model to new data and eventually you&#8217;ll see how to visualize the network graph and the trained weights. I won&#8217;t explain all the details, as this would bloat the text beyond a bearable scale. Also, if you are like me &#8211; straightforward code says more than a thousand words. Instead check out this <span style="color: #ff0000;"><strong><a style="color: #ff0000;" href="http://nbviewer.ipython.org/github/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/Neural-Networks-with-Caffe-on-the-GPU.ipynb" target="_blank" rel="noopener noreferrer">IPython Notebook</a></strong></span> for the programmatical details &#8211; here I will focus on describing the concepts and some of the tripping stones I encountered.</p>
+<p style="text-align: center; border: 1px solid #378efd">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/stay-tuned.png" alt="stay-tuned" style="padding-right:30px; height:30px"/>
+
+<a href="https://twitter.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/twitter.png" alt="twitter" height="28" /></a>
+<a href="http://feedly.com/i/subscription/feed/http://www.joyofdata.de/blog/feed/" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/feedly.png" alt="feedly" width="30" height="30" /></a>
+<a href="https://github.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/github.png" alt="github" width="30" height="30" /></a>
+</p>
+<h1 style="text-align: justify;">Setting Up</h1>
+<p style="text-align: justify;">Most likely you don&#8217;t have caffe yet installed on your system &#8211; if yes, good for you &#8211; if not, I recommend working on an EC2 instance allowing GPU-processing, f.x. the g2.2xlarge instance. For instructions on how to work with EC2 have a look at <a href="http://www.joyofdata.de/blog/guide-to-aws-ec2-on-cli/" target="_blank" rel="noopener noreferrer">Guide to EC2 from the Command Line</a> and for setting up caffe and its prerequisits work through <a href="http://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/" target="_blank" rel="noopener noreferrer">GPU Powered DeepLearning with NVIDIA DIGITS on EC2</a>. For playing around with Caffe I also recommend installing IPython Notebook on your instance &#8211; the instructions for this you&#8217;ll find <a href="http://badhessian.org/2013/11/cluster-computing-for-027hr-using-amazon-ec2-and-ipython-notebook/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h1 style="text-align: justify;">Defining the Model and Meta-Parameters</h1>
+<p style="text-align: justify;">Training of a model and its application requires at least three configuration files. The format of those configuration files follows an interface description language called <a href="https://developers.google.com/protocol-buffers/" target="_blank" rel="noopener noreferrer">protocol buffers</a>. It supeficially resembles JSON but is significantly different and actually supposed to replace it in use cases where the data document needs to be validateable (by means of a custom schema &#8211; <a href="https://github.com/BVLC/caffe/blob/master/src/caffe/proto/caffe.proto" target="_blank" rel="noopener noreferrer">like this one for Caffe</a>) and serializable.</p>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/network-graph.png"><img class="alignleft size-thumbnail wp-image-3550" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/network-graph-150x150.png" alt="network-graph" width="150" height="150" /></a>For training you need one prototxt-file keeping the meta-parameters (<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/config.prototxt" target="_blank" rel="noopener noreferrer">config.prototxt</a>) of the training and the model and another for defining the graph of the network (<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/model_train_test.prototxt" target="_blank" rel="noopener noreferrer">model_train_test.prototxt</a>) &#8211; connecting the layers in an acyclical and directed fashion. Note that the data flows from <pre class="crayon-plain-tag">bottom</pre>  to <pre class="crayon-plain-tag">top</pre>  with regards to how the order of layers is specified. The example network here is composed of five layers:</p>
+<ol style="text-align: justify;">
+<li><a href="http://caffe.berkeleyvision.org/tutorial/layers.html#data-layers" target="_blank" rel="noopener noreferrer">data layer</a> (one for TRAINing and one for TESTing)</li>
+<li><a href="http://caffe.berkeleyvision.org/tutorial/layers.html#inner-product" target="_blank" rel="noopener noreferrer">inner product layer</a> (the weights I)</li>
+<li><a href="http://caffe.berkeleyvision.org/tutorial/layers.html#relu--rectified-linear-and-leaky-relu" target="_blank" rel="noopener noreferrer">rectified linear units</a> (the hidden layer)</li>
+<li>inner product layer (the weights II)</li>
+<li>output layer (Soft Max for classification)
+<ol>
+<li>soft max layer giving the loss</li>
+<li>accuracy layer &#8211; so we can see how the network improves while training.</li>
+</ol>
+</li>
+</ol>
+<p>The following excerpt from model_train_test.prototxt shows layers (4) and (5A):</p><pre class="crayon-plain-tag">[...]
+layer {
+  name: "ip2"
+  type: "InnerProduct"
+  bottom: "ip1"
+  top: "ip2"
+  inner_product_param {
+    num_output: 9
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "accuracy"
+  type: "Accuracy"
+  bottom: "ip2"
+  bottom: "label"
+  top: "accuracy"
+  include {
+    phase: TEST
+  }
+}
+[...]</pre><p>The third prototxt-file (<a href="https://github.com/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/model_prod.prototxt" target="_blank" rel="noopener noreferrer">model_prod.prototxt</a>) specifies the network to be used for applying it. In this case it is mostly congruent with the specification for training &#8211; but it lacks the data layers (as we don&#8217;t read data from a data source at production) and the Soft Max layer won&#8217;t yield a loss value but classification probabilities. Also the accuracy layer is gone now. Note also that &#8211; at the beginning &#8211; we now specify the input dimensions (as expected: 1,93,1,1) &#8211; it is certainly confusing that all four dimensions are referred to as <pre class="crayon-plain-tag">input_dim</pre> , that only the order defines which is which and no explicit context is specified.</p>
+<h1 style="text-align: justify;">Supported Data Sources</h1>
+<p style="text-align: justify;">This is one of the first mental obstacle to overcome when trying to get started with Caffe. It is not as simple as providing the caffe executable with some CSV and let it have its way with it. Practically, for not-image data, you have three options.</p>
+<ul style="text-align: justify;">
+<li><a href="http://symas.com/mdb/" target="_blank" rel="noopener noreferrer">LMDB</a> (Lightning Memory-Mapped Database)</li>
+<li><a href="http://leveldb.org/" target="_blank" rel="noopener noreferrer">LevelDB</a></li>
+<li><a href="https://www.hdfgroup.org/HDF5/" target="_blank" rel="noopener noreferrer">HDF5</a> format</li>
+</ul>
+<p><span class="alignright"></span></p>
+<p style="text-align: justify;">HDF5 is probably the easiest to use b/c you simply have to store the data sets in files using the HDF5 format. LMDB and LevelDB are databases so you&#8217;ll have to go by their protocol. The size of a data set stored as HDF5 will be limited by your memory, which is why I discarded it. The choice between LMDB and LevelDB was rather arbitrary &#8211; LMDB seemed more powerful, faster and mature judging from the sources I skimmed over. Then again LevelDB seems more actively maintained, judging from its GitHub repo and also has a larger Google and stackoverflow footprint.</p>
+<h1 style="text-align: justify;">Blobs and Datums</h1>
+<p style="text-align: justify;">Caffe internally works with a data structure called <a href="http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html" target="_blank" rel="noopener noreferrer">blobs</a> which is used to pass data forward and gradients backward. It&#8217;s a four dimensional array whose four dimensions are referred to as:</p>
+<ol style="text-align: justify;">
+<li>N or batch_size</li>
+<li>channels</li>
+<li>height</li>
+<li>width</li>
+</ol>
+<p style="text-align: justify;">This is relevant to us b/c we&#8217;ll have to <a href="http://nbviewer.ipython.org/github/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/Neural-Networks-with-Caffe-on-the-GPU.ipynb#Load-Data-into-LMDB" target="_blank" rel="noopener noreferrer">shape our cases into this structure</a> before we can store it in LMDB &#8211; from where it is feeded directly to Caffe. The shape is straight-forward for images where a batch of 64 images each defined by 100&#215;200 RGB-pixels would end up as an array shaped (64, 3, 200, 100). For a batch of 64 feature vectors each of length 93 the blob&#8217;s shape is (64, 93, 1, 1).</p>
+<p style="text-align: justify;">Under <a href="http://nbviewer.ipython.org/github/joyofdata/joyofdata-articles/blob/master/deeplearning-with-caffe/Neural-Networks-with-Caffe-on-the-GPU.ipynb#Load-Data-into-LMDB" target="_blank" rel="noopener noreferrer">Load Data into LMDB</a> you can see that the individual cases or feature vectors are stored in <a href="https://github.com/BVLC/caffe/blob/bc6e8386f4fb1bd0ffd5083714a379197071e881/src/caffe/proto/caffe.proto#L28" target="_blank" rel="noopener noreferrer">Datum objects</a>. Integer valued features are stored (as a byte string) in <pre class="crayon-plain-tag">data</pre>, float valued features in <pre class="crayon-plain-tag">float_data</pre>. In the beginning I made the mistake to assign float valued features to data which caused the model to not learn anything. Before storing the Datum in LMDB you have to serialize the object into a byte string representation.</p>
+<h1 style="text-align: justify;">Bottom Line</h1>
+<p style="text-align: justify;">Getting a grip at Caffe was a surprisingly non-linear experience for me. That means there is no entry point and a continuous learning path which will lead you to a good understanding of the system. The information required to do something useful with Caffe is distributed onto many different <a href="http://caffe.berkeleyvision.org/tutorial/" target="_blank" rel="noopener noreferrer">tutorial sections</a>, <a href="https://github.com/BVLC/caffe/" target="_blank" rel="noopener noreferrer">source code on GitHub</a>, <a href="https://github.com/BVLC/caffe/tree/master/examples" target="_blank" rel="noopener noreferrer">IPython notebooks</a> and <a href="https://groups.google.com/forum/#!forum/caffe-users" target="_blank" rel="noopener noreferrer">forum threads</a>. This is why I took the time to compose this tutorial and its accompanying code, following my maxim to summarize what I learned into a text I would have liked to read myself in the beginning.</p>
+<p style="text-align: justify;">I think Caffe has a bright future ahead &#8211; provided it will not just grow horizontally by adding new features but also vertically by refactoring and improving the over all user experience. It&#8217;s definitely a great tool for high performance deep learning. In case you want to do image processing with convolutional neural networks, I recommend you take a look at <a href="http://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/" target="_blank" rel="noopener noreferrer">NVIDIA DIGITS</a> which offers you a comfortable GUI for that purpose.</p>
+<hr />
+<p style="text-align: justify;">(original article published on <a href="http://www.joyofdata.de/blog/neural-networks-with-caffe-on-the-gpu/">www.joyofdata.de</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.joyofdata.de/blog/neural-networks-with-caffe-on-the-gpu/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>GPU Powered DeepLearning with NVIDIA DIGITS on EC2</title>
+		<link>https://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/</link>
+				<comments>https://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/#comments</comments>
+				<pubDate>Sat, 25 Apr 2015 20:26:13 +0000</pubDate>
+		<dc:creator><![CDATA[Raffael Vogler]]></dc:creator>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Deep Learning]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[Kaggle]]></category>
+
+		<guid isPermaLink="false">http://www.joyofdata.de/blog/?p=3524</guid>
+				<description><![CDATA[In this tutorial I am going to show you how to set up CUDA 7, cuDNN, caffe and DIGITS on a g2.2xlarge EC2 instance (running Ubuntu 14.04 64 bit) and how to get started with DIGITS. For illustrating DIGITS&#8217; application &#8230; <a href="https://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify;"><img class="alignright wp-image-3536 size-thumbnail" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/activations-e1429992979162-150x150.png" alt="activations" width="150" height="150" />In this tutorial I am going to show you how to set up <a href="http://en.wikipedia.org/wiki/CUDA" target="_blank" rel="noopener noreferrer">CUDA 7</a>, <a href="https://developer.nvidia.com/cuDNN" target="_blank" rel="noopener noreferrer">cuDNN</a>, <a href="http://caffe.berkeleyvision.org/" target="_blank" rel="noopener noreferrer">caffe</a> and <a href="https://github.com/NVIDIA/DIGITS" target="_blank" rel="noopener noreferrer">DIGITS</a> on a <a href="http://aws.amazon.com/ec2/instance-types/" target="_blank" rel="noopener noreferrer">g2.2xlarge</a> EC2 instance (running Ubuntu 14.04 64 bit) and how to get started with DIGITS. For illustrating DIGITS&#8217; application I use a current <a href="http://www.kaggle.com/c/diabetic-retinopathy-detection" target="_blank" rel="noopener noreferrer">Kaggle competition about detecting diabetic retinopathy</a> and its state from <a href="http://en.wikipedia.org/wiki/Fluorescein_angiography" target="_blank" rel="noopener noreferrer">fluorescein angiography</a>.</p>
+<h1 style="text-align: justify;">Convolutional Deep Neural Networks for Image Classification</h1>
+<p style="text-align: justify;">For classification or regression on images you have two choices:</p>
+<ul style="text-align: justify;">
+<li>Feature engineering and upon that translating an image into a vector</li>
+<li>Relying on a <a href="http://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank" rel="noopener noreferrer">convolutional DNN</a> to figure out the features</li>
+</ul>
+<p><span id="more-3524"></span></p>
+<p style="text-align: justify;">Deep Neural Networks are computationally quite demanding. This is the case for two reasons:</p>
+<ul style="text-align: justify;">
+<li>The input data is much larger if you use even a small image resolution of 256 x 256 RGB-pixel implies 196&#8217;608 input neurons (256 x 256 x 3). If you engineer your features intelligently then a 1000 neurons would be a lot already.</li>
+<li>Saddling the network with the burden of figuring out the relevant features also requires a more sophisticated network structure and more layers.</li>
+</ul>
+<p style="text-align: justify;">Luckily many of the involved floating point matrix operations have been unintentionally addressed by your<a href="http://www.nvidia.com/object/what-is-gpu-computing.html" target="_blank" rel="noopener noreferrer"> graphic card&#8217;s GPU</a>.</p>
+<h1 style="text-align: justify;">NVIDIA DIGITS and caffe</h1>
+<p><span class="alignright"></span></p>
+<p style="text-align: justify;">There are three major GPU utilizing Deep Learning frameworks available &#8211; <a href="http://deeplearning.net/software/theano/" target="_blank" rel="noopener noreferrer">Theano</a>, <a href="http://torch.ch/" target="_blank" rel="noopener noreferrer">Torch</a> and caffe. <a href="https://developer.nvidia.com/digits" target="_blank" rel="noopener noreferrer">NVIDIA DIGITS</a> is a web server providing a convenient web interface for training and testing Deep Neural Networks based on caffe. I intend to cover in a future article how to work with caffe. Here I will show you how to set up CUDA</p>
+<p style="text-align: justify;">First of all you need an AWS account and g2.2xlarge instance up and running. That is mostly self-explanatory &#8211; for the command line parts (and some tips) you might want to have a look at my previous tutorial &#8220;<a href="http://www.joyofdata.de/blog/guide-to-aws-ec2-on-cli/" target="_blank" rel="noopener noreferrer">Guide to EC2 from the Command Line</a>&#8220;. Make sure to add an inbound rule for port 5000 for your IP &#8211; b/c this is where the DIGITS server is made available at.</p>
+<p></p><pre class="crayon-plain-tag"># don't forget to get your system up to date
+sudo apt-get update
+sudo apt-get dist-upgrade</pre><p></p>
+<h1>Installing CUDA 7</h1>
+<p>Main source for this step is <a href="http://markus.com/install-theano-on-aws/" target="_blank" rel="noopener noreferrer">Markus Beissinger&#8217;s blog post on setting up Theano</a>.</p><pre class="crayon-plain-tag"># installation of required tools
+sudo apt-get install -y gcc g++ gfortran build-essential \
+  git wget linux-image-generic libopenblas-dev python-dev \
+  python-pip python-nose python-numpy python-scipy
+
+# downloading the (currently) most recent version of CUDA 7
+sudo wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.0-28_amd64.deb
+
+# installing CUDA
+sudo dpkg -i cuda-repo-ubuntu1404_7.0-28_amd64.deb
+
+sudo apt-get update
+sudo apt-get install cuda
+
+# setting the environment variables so CUDA will be found
+echo -e "\nexport PATH=/usr/local/cuda/bin:$PATH" &gt;&gt; .bashrc
+echo -e "\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64" &gt;&gt; .bashrc
+
+sudo reboot
+
+# installing the samples and checking the GPU
+cuda-install-samples-7.0.sh ~/
+cd NVIDIA\_CUDA-7.0\_Samples/1\_Utilities/deviceQuery  
+make  
+./deviceQuery</pre><p></p>
+<h1>Installing cuDNN</h1>
+<p style="text-align: justify;">To further speed up deep learning relevant calculations it is a good idea to set up the cuDNN library. For that purpose you will have to get an NVIDIA developer account and join the CUDA registered developer program. The last step requires NVIDIA to unlock your account  and that might take one or two days. But you can get started also without cuDNN library. As soon as you have the okay from them &#8211; <a href="https://developer.nvidia.com/cuDNN" target="_blank" rel="noopener noreferrer">download cuDNN</a> and upload it to your instance.</p>
+<p></p><pre class="crayon-plain-tag"># unpack the library
+gzip -d cudnn-6.5-linux-x64-v2.tar.gz
+tar xf cudnn-6.5-linux-x64-v2.tar
+
+# copy the library files into CUDA's include and lib folders
+sudo cp cudnn-6.5-linux-x64-v2/cudnn.h /usr/local/cuda-7.0/include
+sudo cp cudnn-6.5-linux-x64-v2/libcudnn* /usr/local/cuda-7.0/lib64</pre><p></p>
+<h1>Installing caffe</h1>
+<p>Main source for this and the following step is the <a href="https://github.com/NVIDIA/DIGITS/blob/master/README.md" target="_blank" rel="noopener noreferrer">readme of the DIGITS project</a>.</p><pre class="crayon-plain-tag">sudo apt-get install libprotobuf-dev libleveldb-dev \
+  libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev \
+  libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler \
+  libatlas-base-dev
+
+# the version number of the required branch might change
+# consult https://github.com/NVIDIA/DIGITS/blob/master/README.md
+git clone --branch v0.11.0 https://github.com/NVIDIA/caffe.git
+
+cd ~/caffe/python
+for req in $(cat requirements.txt); do sudo pip install $req; done
+
+cd ~/caffe
+cp Makefile.config.example Makefile.config
+
+# check that USE_CUDNN is set to 1 in case you would
+# like to use it and to 0 if not
+
+make all
+make py
+make test
+make runtest
+
+echo -e "\nexport CAFFE_HOME=/home/ubuntu/caffe" &gt;&gt; ~/.bashrc
+
+# load the new environmental variables
+bash</pre><p></p>
+<h1>Installing DIGITS</h1>
+<p></p><pre class="crayon-plain-tag">cd ~
+git clone https://github.com/NVIDIA/DIGITS.git digits
+cd digits
+sudo apt-get install graphviz gunicorn
+for req in $(cat requirements.txt); do sudo pip install $req; done</pre><p></p>
+<h1>Starting and Configuring DIGITS</h1>
+<p style="text-align: justify;">The first time you start DIGITS it will ask you number of questions for the purpose of its configuration. But those settings are pretty much self-explanatory and you can change them afterwards in <pre class="crayon-plain-tag">~/.digits/digits.cfg</pre> . You might want to consider locating your job-directory (<pre class="crayon-plain-tag">jobs_dir</pre>) on an <a href="http://aws.amazon.com/ebs/" target="_blank" rel="noopener noreferrer">EBS</a> &#8211; the data set of about 140&#8217;000 PNGs in the example I feature here consumes about 10 GB of space and the trained models (with all its model snapshots) accounts for about 1 GB.</p>
+<p></p><pre class="crayon-plain-tag"># change into your digits directory
+cd digits
+
+# start the server
+./digits-devserver</pre><p></p>
+<h1>Troubleshooting DIGITS</h1>
+<p style="text-align: justify;">When you start DIGITS for the first time you might run into a number of errors and warnings. Here&#8217;s my take on them.</p>
+<p></p><pre class="crayon-plain-tag">"libdc1394 error: Failed to initialize libdc1394"
+
+# no big deal - either ignore or treat symptomatically
+sudo ln /dev/null /dev/raw1394</pre><p></p><pre class="crayon-plain-tag">"Gtk-WARNING **: Locale not supported by C library."
+
+# not sure how serious this is - but it is easy to resolve
+sudo apt-get install language-pack-en-base
+sudo dpkg-reconfigure locales
+
+# check what locales are available and then ...
+locale -a
+# ... set LC_ALL to it
+echo -e "\nexport LC_ALL=\"en_US.utf8\"" &gt;&gt; ~/.bashrc</pre><p></p><pre class="crayon-plain-tag">"Gdk-CRITICAL **: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed"
+
+# this is a big deal and will cause the server start up to fail:
+# connect with ssh flags -Xi
+ssh -Xi ...</pre><p></p><pre class="crayon-plain-tag">"Couldn't import dot_parser, loading of dot files will not be possible."
+
+# reinstall pyparsing:
+sudo pip uninstall pyparsing
+sudo pip install pyparsing==1.5.7
+sudo pip install pydot</pre><p></p>
+<h1>Getting Started with DIGITS</h1>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset.png"><img class="alignright size-medium wp-image-3533" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset-300x194.png" alt="digits_new_dataset" width="300" height="194" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset-300x194.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset-1024x663.png 1024w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset-463x300.png 463w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_dataset.png 1174w" sizes="(max-width: 300px) 100vw, 300px" /></a>First you have to create the data set on which you want to train a model. You have to provide at least one large set of pictures for the training and optionally two smaller sets for validation and testing. You can either separate those sets (and their correct labels) by means of different folders or &#8211; what I&#8217;d recommend &#8211; by providing corresponding CSVs. Those CSVs are supposed to feature two unnamed tab separated columns. The first column keeps the full path of the image (don&#8217;t use <pre class="crayon-plain-tag">~</pre> for home, but the its path equivalent) and the second column keeps a 0-based index referencing the correct class. You will also have to provide a text file holding the different classes &#8211; one per line. <a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_model.png"><img class="alignleft wp-image-3534 size-medium" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_model-276x300.png" alt="digits_new_model" width="276" height="300" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_model-276x300.png 276w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/digits_new_model.png 879w" sizes="(max-width: 276px) 100vw, 276px" /></a>For example if you have two classes &#8220;pos&#8221; (1st line) and &#8220;neg&#8221; (2nd line) &#8211; then an image belonging to class &#8220;pos&#8221; would have to have a class index of 0 associated with it. Loading might take a while. Loading my 140&#8217;000 PNGs with 256&#215;256 resolution took about one hour.</p>
+<p style="text-align: justify;">Setting up the model you intend to train is even easier provided you stick with the suggested defaults &#8211; just choose the data set you want to use, a network and you&#8217;re ready to go! Training a <a href="http://arxiv.org/abs/1409.4842" target="_blank" rel="noopener noreferrer">GoogLeNet</a> for 30 epochs on the described data set took about one day and 6 hours. This is why you should make sure that &#8230;</p>
+<ul>
+<li style="text-align: justify;">&#8230; your bidding for a Spot instance is not too low &#8211; or you risk it being terminated</li>
+<li style="text-align: justify;">&#8230; you start the server in <a href="http://en.wikipedia.org/wiki/Tmux" target="_blank" rel="noopener noreferrer">tmux</a> session. Otherwise if you lose connection &#8211; maybe b/c your IP changes over night &#8211; the server process will be killed</li>
+</ul>
+<h1>Tackling the Diabetic Retinopathy Kaggle challenge</h1>
+<p><span class="alignright"></span></p>
+<p style="text-align: justify;">The provided training set consists of about 35 thousand images of high resolution &#8211; zipped and split accross five files. The whole zip archive is about 33 GB large. I downloaded the five components directly onto an EBS using lynx &#8211; b/c you can just regularly log on and initiate the download. The download speed on the g2.2xlarge instance btw was incredible &#8211; you are granted up to 100 MB per second. I started all five downloads in parallel &#8211; each going at 6 MB per second. And yes, its mega byte &#8211; not mega bit (the unit DSL providers use).</p>
+<p style="text-align: justify;">The visible indicators of diabetic retinopathy are as I understand it mostly leaking (aneurysms) and pathologically growing blood vessels. I figure those features are mirror and rotation invariant. So to increase the available training set I created four versions:</p>
+<ul style="text-align: justify;">
+<li>(A): As is but resized to 256&#215;256 pixels and saved as PNG</li>
+<li>(R): 180 degree rotation of (A)</li>
+<li>Vertical mirroring of (A)</li>
+<li>Vertical mirroring of (R)</li>
+</ul>
+<p style="text-align: justify;">Because the task at hand is obviously not a classification but a regression I abstained from attempting to learn a classification into no DR and the four stages of DR. I labelled all DR cases as &#8220;positive&#8221; and the no-DR cases respectively as &#8220;negative&#8221;. This would have to be done for all four possible splits ({0} vs {1,&#8230;,4}, &#8230;, {0,&#8230;,3},{4}) and those predictions would finally be regressed against the actual stage.</p>
+<p>The bash script for this transformation you may find on <a href="https://github.com/joyofdata/joyofdata-articles/blob/master/installing-digits/transform-and-duplicate-training-images.sh" target="_blank" rel="noopener noreferrer">bash commands for the processing</a>.</p>
+<p style="text-align: center; border: 1px solid #378efd">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/stay-tuned.png" alt="stay-tuned" style="padding-right:30px; height:30px"/>
+
+<a href="https://twitter.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/twitter.png" alt="twitter" height="28" /></a>
+<a href="http://feedly.com/i/subscription/feed/http://www.joyofdata.de/blog/feed/" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/feedly.png" alt="feedly" width="30" height="30" /></a>
+<a href="https://github.com/joyofdata" target="new" style="padding-right:20px">
+<img src="http://www.joyofdata.de/blog/wp-content/uploads/2015/05/github.png" alt="github" width="30" height="30" /></a>
+</p>
+<h1>The Result</h1>
+<p style="text-align: justify;"><a href="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/GoogLeNet.png"><img class="alignright wp-image-3532 size-medium" src="http://www.joyofdata.de/blog/wp-content/uploads/2015/04/GoogLeNet-300x212.png" alt="GoogLeNet" width="300" height="212" srcset="https://www.joyofdata.de/blog/wp-content/uploads/2015/04/GoogLeNet-300x212.png 300w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/GoogLeNet-425x300.png 425w, https://www.joyofdata.de/blog/wp-content/uploads/2015/04/GoogLeNet.png 716w" sizes="(max-width: 300px) 100vw, 300px" /></a>Well &#8230; on one hand I would have liked to see a higher accuracy &#8211; on the other hand I can barely (if at all) make out the difference between some healthy cases and some extreme stage four cases. As 73.95% is the share of negative cases &#8211; this is also were the accuracy of the network started out at. In the course of 30 epochs it improved about 8 p.p. to 81.8%.</p>
+<h1>Any Questions?</h1>
+<p style="text-align: justify;">I highly recommend the <a href="https://groups.google.com/forum/#!forum/digits-users" target="_blank" rel="noopener noreferrer">DIGITS Google Group</a> for your questions on features and issues. The developers of DIGITS are very helpful and open for suggestions.</p>
+<hr />
+<p style="text-align: justify;">(original article published on <a href="http://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/">www.joyofdata.de</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.joyofdata.de/blog/gpu-powered-deeplearning-with-nvidia-digits/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+							</item>
+	</channel>
+</rss>
