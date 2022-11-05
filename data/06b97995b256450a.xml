@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>econ updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Economics (econ) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>www-admin@arxiv.org</dc:publisher>
+<dc:subject>Economics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01537" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01547" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01557" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01575" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01921" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01944" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.07545" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2010.01105" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.04065" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.17232" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07330" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.10166" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00131" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00520" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16547" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01537">
+<title>Stochastic Treatment Choice with Empirical Welfare Updating. (arXiv:2211.01537v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01537</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper proposes a novel method to estimate individualised treatment
+assignment rules. The method is designed to find rules that are stochastic,
+reflecting uncertainty in estimation of an assignment rule and about its
+welfare performance. Our approach is to form a prior distribution over
+assignment rules and to update this prior based upon an empirical welfare
+criterion. The social planner then assigns treatment by drawing a policy from
+the resulting posterior. We show analytically a welfare-optimal way of updating
+the prior using empirical welfare. The posterior obtained by implementing the
+optimal updating rule is not feasible to compute, so we propose a variational
+Bayes approximation for the optimal posterior. We characterise the welfare
+regret convergence of the assignment rule based upon this variational Bayes
+approximation and show that it converges to zero at a rate of ln(n)/sqrt(n). We
+apply our methods to experimental data from the Job Training Partnership Act
+Study and extensive numerical simulations to illustrate the implementation of
+our methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Lopez_H/0/1/0/all/0/1&quot;&gt;Hugo Lopez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Rowley_J/0/1/0/all/0/1&quot;&gt;Jeff Rowley&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01547">
+<title>A Systematic Paradigm for Detecting, Surfacing, and Characterizing Heterogeneous Treatment Effects (HTE). (arXiv:2211.01547v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01547</link>
+<description rdf:parseType="Literal">&lt;p&gt;To effectively optimize and personalize treatments, it is necessary to
+investigate the heterogeneity of treatment effects. With the wide range of
+users being treated over many online controlled experiments, the typical
+approach of manually investigating each dimension of heterogeneity becomes
+overly cumbersome and prone to subjective human biases. We need an efficient
+way to search through thousands of experiments with hundreds of target
+covariates and hundreds of breakdown dimensions. In this paper, we propose a
+systematic paradigm for detecting, surfacing and characterizing heterogeneous
+treatment effects. First, we detect if treatment effect variation is present in
+an experiment, prior to specifying any breakdowns. Second, we surface the most
+relevant dimensions for heterogeneity. Finally, we characterize the
+heterogeneity beyond just the conditional average treatment effects (CATE) by
+studying the conditional distributions of the estimated individual treatment
+effects. We show the effectiveness of our methods using simulated data and
+empirical studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Cai_J/0/1/0/all/0/1&quot;&gt;John Cai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Weinan Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01557">
+<title>Estimating interaction effects with panel data. (arXiv:2211.01557v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01557</link>
+<description rdf:parseType="Literal">&lt;p&gt;A common task in empirical economics is to estimate \emph{interaction
+effects} that measure how the effect of one variable $X$ on another variable
+$Y$ depends on a third variable $H$. This paper considers the estimation of
+interaction effects in linear panel models with a fixed number of time periods.
+There are at least two ways to estimate interaction effects in this setting,
+both common in applied work. Our theoretical results show that these two
+approaches are distinct, and only coincide under strong conditions on
+unobserved effect heterogeneity. Our empirical results show that the difference
+between the two approaches is large, leading to conflicting conclusions about
+the sign of the interaction effect. Taken together, our findings may guide the
+choice between the two approaches in empirical work.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Muris_C/0/1/0/all/0/1&quot;&gt;Chris Muris&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Wacker_K/0/1/0/all/0/1&quot;&gt;Konstantin Wacker&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01575">
+<title>Are Synthetic Control Weights Balancing Score?. (arXiv:2211.01575v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01575</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this short note, I outline conditions under which conditioning on
+Synthetic Control (SC) weights emulates a randomized control trial where the
+treatment status is independent of potential outcomes. Specifically, I
+demonstrate that if there exist SC weights such that (i) the treatment effects
+are exactly identified and (ii) these weights are uniformly and cumulatively
+bounded, then SC weights are balancing scores.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Parikh_H/0/1/0/all/0/1&quot;&gt;Harsh Parikh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01921">
+<title>On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis. (arXiv:2211.01921v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01921</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper revisits and provides an alternative derivation of the asymptotic
+results for the Principal Components estimator of a large approximate factor
+model as considered in Stock and Watson (2002), Bai (2003), and Forni et al.
+(2009). Results are derived under a minimal set of assumptions with a special
+focus on the time series setting, which is usually considered in almost all
+recent empirical applications. Hence, $n$ and $T$ are not treated
+symmetrically, the former being the dimension of the considered vector of time
+series, while the latter being the sample size and, therefore, being relevant
+only for estimation purposes, but not when it comes to just studying the
+properties of the model at a population level. As a consequence, following
+Stock and Watson (2002) and Forni et al. (2009), estimation is based on the
+classical $n \times n$ sample covariance matrix. As expected, all asymptotic
+results we derive are equivalent to those stated in Bai (2003), where, however,
+a $T\times T$ covariance matrix is considered as a starting point. A series of
+useful complementary results is also given. In particular, we give some
+alternative sets of primitive conditions for mean-squared consistency of the
+sample covariance matrix of the factors, of the idiosyncratic components, and
+of the observed time series. We also give more intuitive asymptotic expansions
+for the estimators showing that PCA is equivalent to OLS as long as
+$\sqrt{T}/n\to 0$ and $\sqrt{n}/T\to 0$, that is loadings are estimated in a
+time series regression as if the factors were known, while factors are
+estimated in a cross-sectional regression as if the loadings were known. The
+issue of testing multiple restrictions on the loadings as well as building
+joint confidence intervals for the factors is discussed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Barigozzi_M/0/1/0/all/0/1&quot;&gt;Matteo Barigozzi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01944">
+<title>Carbon Monitor Europe, near-real-time daily CO$_2$ emissions for 27 EU countries and the United Kingdom. (arXiv:2211.01944v1 [physics.geo-ph])</title>
+<link>http://arxiv.org/abs/2211.01944</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the urgent need to implement the EU countries pledges and to monitor the
+effectiveness of Green Deal plan, Monitoring Reporting and Verification tools
+are needed to track how emissions are changing for all the sectors. Current
+official inventories only provide annual estimates of national CO$_2$ emissions
+with a lag of 1+ year which do not capture the variations of emissions due to
+recent shocks including COVID lockdowns and economic rebounds, war in Ukraine.
+Here we present a near-real-time country-level dataset of daily fossil fuel and
+cement emissions from January 2019 through December 2021 for 27 EU countries
+and UK, which called Carbon Monitor Europe. The data are calculated separately
+for six sectors: power, industry, ground transportation, domestic aviation,
+international aviation and residential. Daily CO$_2$ emissions are estimated
+from a large set of activity data compiled from different sources. The goal of
+this dataset is to improve the timeliness and temporal resolution of emissions
+for European countries, to inform the public and decision makers about current
+emissions changes in Europe.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ke_P/0/1/0/all/0/1&quot;&gt;Piyu Ke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Deng_Z/0/1/0/all/0/1&quot;&gt;Zhu Deng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhu_B/0/1/0/all/0/1&quot;&gt;Biqing Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zheng_B/0/1/0/all/0/1&quot;&gt;Bo Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yilong Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Boucher_O/0/1/0/all/0/1&quot;&gt;Olivier Boucher&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Arous_S/0/1/0/all/0/1&quot;&gt;Simon Ben Arous&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhou_C/0/1/0/all/0/1&quot;&gt;Chuanlong Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Dou_X/0/1/0/all/0/1&quot;&gt;Xinyu Dou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sun_T/0/1/0/all/0/1&quot;&gt;Taochun Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zhao Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yan_F/0/1/0/all/0/1&quot;&gt;Feifan Yan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Cui_D/0/1/0/all/0/1&quot;&gt;Duo Cui&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Hu_Y/0/1/0/all/0/1&quot;&gt;Yifan Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Huo_D/0/1/0/all/0/1&quot;&gt;Da Huo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Pierre_J/0/1/0/all/0/1&quot;&gt;Jean Pierre&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Engelen_R/0/1/0/all/0/1&quot;&gt;Richard Engelen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Davis_S/0/1/0/all/0/1&quot;&gt;Steven J. Davis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ciais_P/0/1/0/all/0/1&quot;&gt;Philippe Ciais&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Liu_Z/0/1/0/all/0/1&quot;&gt;Zhu Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.07545">
+<title>Interpretable Personalization via Policy Learning with Linear Decision Boundaries. (arXiv:2003.07545v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.07545</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the rise of the digital economy and an explosion of available
+information about consumers, effective personalization of goods and services
+has become a core business focus for companies to improve revenues and maintain
+a competitive edge. This paper studies the personalization problem through the
+lens of policy learning, where the goal is to learn a decision-making rule (a
+policy) that maps from consumer and product characteristics (features) to
+recommendations (actions) in order to optimize outcomes (rewards). We focus on
+using available historical data for offline learning with unknown data
+collection procedures, where a key challenge is the non-random assignment of
+recommendations. Moreover, in many business and medical applications,
+interpretability of a policy is essential. We study the class of policies with
+linear decision boundaries to ensure interpretability, and propose learning
+algorithms using tools from causal inference to address unbalanced treatments.
+We study several optimization schemes to solve the associated non-convex,
+non-smooth optimization problem, and find that a Bayesian optimization
+algorithm is effective. We test our algorithm with extensive simulation studies
+and apply it to an anonymized online marketplace customer purchase dataset,
+where the learned policy outputs a personalized discount recommendation based
+on customer and product features in order to maximize gross merchandise value
+(GMV) for sellers. Our learned policy improves upon the platform&apos;s baseline by
+88.2\% in net sales revenue, while also providing informative insights on which
+features are important for the decision-making process. Our findings suggest
+that our proposed policy learning framework using tools from causal inference
+and Bayesian optimization provides a promising practical approach to
+interpretable personalization across a wide range of applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qu_Z/0/1/0/all/0/1&quot;&gt;Zhaonan Qu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qian_I/0/1/0/all/0/1&quot;&gt;Isabella Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhengyuan Zhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2010.01105">
+<title>Policy evaluation of waste pricing programs using heterogeneous causal effect estimation. (arXiv:2010.01105v8 [econ.GN] UPDATED)</title>
+<link>http://arxiv.org/abs/2010.01105</link>
+<description rdf:parseType="Literal">&lt;p&gt;Using machine learning methods in a quasi-experimental setting, I study the
+heterogeneous effects of introducing waste prices - unit prices on household
+unsorted waste disposal on - waste demands, municipal costs and pollution.
+Using a unique panel of Italian municipalities with large variation in prices
+and observables, I show that waste demands are nonlinear. I find evidence of
+constant elasticities at low prices, and increasing elasticities at high prices
+driven by income effects and waste habits before policy. The policy reduces
+waste management costs and pollution in all municipalities after three years of
+adoption, when prices cause significant waste avoidance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Valente_M/0/1/0/all/0/1&quot;&gt;Marica Valente&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.04065">
+<title>Honest calibration assessment for binary outcome predictions. (arXiv:2203.04065v2 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.04065</link>
+<description rdf:parseType="Literal">&lt;p&gt;Probability predictions from binary regressions or machine learning methods
+ought to be calibrated: If an event is predicted to occur with probability $x$,
+it should materialize with approximately that frequency, which means that the
+so-called calibration curve $p(\cdot)$ should equal the identity, $p(x) = x$
+for all $x$ in the unit interval. We propose honest calibration assessment
+based on novel confidence bands for the calibration curve, which are valid only
+subject to the natural assumption of isotonicity. Besides testing the classical
+goodness-of-fit null hypothesis of perfect calibration, our bands facilitate
+inverted goodness-of-fit tests whose rejection allows for the sought-after
+conclusion of a sufficiently well specified model. We show that our bands have
+a finite sample coverage guarantee, are narrower than existing approaches, and
+adapt to the local smoothness of the calibration curve $p$ and the local
+variance of the binary observations. In an application to model predictions of
+an infant having a low birth weight, the bounds give informative insights on
+model calibration.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Dimitriadis_T/0/1/0/all/0/1&quot;&gt;Timo Dimitriadis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Duembgen_L/0/1/0/all/0/1&quot;&gt;Lutz Duembgen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Henzi_A/0/1/0/all/0/1&quot;&gt;Alexander Henzi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Puke_M/0/1/0/all/0/1&quot;&gt;Marius Puke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ziegel_J/0/1/0/all/0/1&quot;&gt;Johanna Ziegel&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.17232">
+<title>Performative Power. (arXiv:2203.17232v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.17232</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce the notion of performative power, which measures the ability of
+a firm operating an algorithmic system, such as a digital content
+recommendation platform, to cause change in a population of participants. We
+relate performative power to the economic study of competition in digital
+economies. Traditional economic concepts struggle with identifying
+anti-competitive patterns in digital platforms not least due to the complexity
+of market definition. In contrast, performative power is a causal notion that
+is identifiable with minimal knowledge of the market, its internals,
+participants, products, or prices.
+&lt;/p&gt;
+&lt;p&gt;Low performative power implies that a firm can do no better than to optimize
+their objective on current data. In contrast, firms of high performative power
+stand to benefit from steering the population towards more profitable behavior.
+We confirm in a simple theoretical model that monopolies maximize performative
+power. A firm&apos;s ability to personalize increases performative power, while
+competition and outside options decrease performative power. On the empirical
+side, we propose an observational causal design to identify performative power
+from discontinuities in how digital platforms display content. This allows to
+repurpose causal effects from various studies about digital platforms as lower
+bounds on performative power. Finally, we speculate about the role that
+performative power might play in competition policy and antitrust enforcement
+in digital marketplaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hardt_M/0/1/0/all/0/1&quot;&gt;Moritz Hardt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jagadeesan_M/0/1/0/all/0/1&quot;&gt;Meena Jagadeesan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mendler_Dunner_C/0/1/0/all/0/1&quot;&gt;Celestine Mendler-D&amp;#xfc;nner&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07330">
+<title>Semiparametric Best Arm Identification with Contextual Information. (arXiv:2209.07330v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07330</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study best-arm identification with a fixed budget and contextual
+(covariate) information in stochastic multi-armed bandit problems. In each
+round, after observing contextual information, we choose a treatment arm using
+past observations and current context. Our goal is to identify the best
+treatment arm, a treatment arm with the maximal expected reward marginalized
+over the contextual distribution, with a minimal probability of
+misidentification. First, we derive semiparametric lower bounds of the
+misidentification probability for this problem, where we regard the gaps
+between the expected rewards of the best and suboptimal treatment arms as
+parameters of interest, and all other parameters, such as the expected rewards
+conditioned on contexts, as the nuisance parameters. We then develop the
+``Contextual RS-AIPW strategy,&apos;&apos; which consists of the random sampling (RS)
+rule tracking a target allocation ratio and the recommendation rule using the
+augmented inverse probability weighting (AIPW) estimator. Our proposed
+Contextual RS-AIPW strategy is optimal because the upper bound for the
+probability of misidentification by the strategy matches the semiparametric
+lower bound, when the budget goes to infinity and the gaps converge to zero.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kato_M/0/1/0/all/0/1&quot;&gt;Masahiro Kato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Imaizumi_M/0/1/0/all/0/1&quot;&gt;Masaaki Imaizumi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ishihara_T/0/1/0/all/0/1&quot;&gt;Takuya Ishihara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.10166">
+<title>How (Not) to Reform India&apos;s Affirmative Action Policies for its Economically Weaker Segments. (arXiv:2210.10166v2 [econ.GN] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.10166</link>
+<description rdf:parseType="Literal">&lt;p&gt;Various groups in India are protected with a vertical reservation (VR)
+policy, which sets aside a share of public positions for these groups.
+VR-protected positions are processed by law after those open to all, assuring
+that they are awarded to individuals who do not merit open positions.
+Historically, VR protections were exclusive to groups who suffered
+discrimination due to their caste identities. This structure means that no
+individual can belong to multiple VR-protected groups, which implies that the
+processing sequence of VR-protected groups is immaterial. A Constitutional
+Amendment in 2019 granted economically weaker sections (EWS) VR protections,
+but limited its eligibility to members of upper castes who are ineligible for
+caste-based VR protections. The amendment was immediately brought to court, and
+the exclusion of caste-based VR-protected groups was challenged due to its
+violation of Right to Equality. A compromise that emerged at the Supreme Court
+involves maintaining the amendment, but expanding its scope to include the
+excluded groups. If this policy is adopted, individuals can belong to multiple
+VR-protected groups. We show that a major loophole will emerge, if the Supreme
+Court only expands the scope of EWS without specifying how its positions are
+processed. Depending on which normative objective the court wants to promote,
+we formulate and characterize three plausible specifications. If EWS is
+processed simultaneously with other VR-protected groups, then the outcome is
+one that selects the most meritorious individuals subject to the Court&apos;s
+mandates. If EWS is processed before other VR-protected groups, then the
+outcome maintains the elevated status of caste-based VR protections. If EWS is
+processed after other VR-protected groups, then the outcome is the smallest
+possible change from the contested amendment that escapes a violation of Right
+to Equality.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Sonmez_T/0/1/0/all/0/1&quot;&gt;Tayfun S&amp;#xf6;nmez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Unver_U/0/1/0/all/0/1&quot;&gt;Utku &amp;#xdc;nver&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00131">
+<title>A New Concept of the Value Function. (arXiv:2211.00131v2 [econ.GN] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00131</link>
+<description rdf:parseType="Literal">&lt;p&gt;The prospect theory&apos;s value function is usually concave for gains, commonly
+convex for losses, and generally steeper for losses than for gains. The neural
+system is quite different from the loss and gains sides. Four new studies on
+neurons related to this issue have examined neuronal responses to losses,
+gains, and reference points, respectively. The value function with a neuronal
+cusp could have variations and behavior cusps with catastrophe where a trader
+closes her position.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Sano_K/0/1/0/all/0/1&quot;&gt;Kazuo Sano&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00520">
+<title>Distortion risk measures in random environments: construction and axiomatic characterization. (arXiv:2211.00520v2 [econ.TH] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00520</link>
+<description rdf:parseType="Literal">&lt;p&gt;The risk of a financial position shines through by means of the fluctuation
+of its market price. The factors affecting the price of a financial position
+include not only market internal factors, but also other various market
+external factors. The latter can be understood as sorts of environments to
+which financial positions have to expose. Motivated by this observation, this
+paper aims to design a novel axiomatic approach to risk measures in random
+environments. We construct a new distortion-type risk measure, which can
+appropriately evaluate the risk of financial positions in the presence of
+environments. After having studied its fundamental properties, we also
+axiomatically characterize it. Furthermore, its coherence and dual
+representation are investigated. The new class of risk measures in random
+environments is large enough, for example, it not only can recover some known
+risk measures such as the common weighted value at risk and range value at
+risk, but also can induce other new specific risk measures such as risk
+measures in the presence of background risk. Examples are given to illustrate
+the new framework of risk measures. This paper gives some theoretical results
+about risk measures in random environments, helping one to have an insight look
+at the potential impact of environments on risk measures of positions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Gong_S/0/1/0/all/0/1&quot;&gt;Shuo Gong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Hu_Y/0/1/0/all/0/1&quot;&gt;Yijun Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Wei_L/0/1/0/all/0/1&quot;&gt;Linxiao Wei&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16547">
+<title>Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse. (arXiv:2210.16547v1 [stat.ME] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2210.16547</link>
+<description rdf:parseType="Literal">&lt;p&gt;Causal inference from observational data requires untestable assumptions. If
+these assumptions apply, machine learning (ML) methods can be used to study
+complex forms of causal-effect heterogeneity. Several ML methods were developed
+recently to estimate the conditional average treatment effect (CATE). If the
+features at hand cannot explain all heterogeneity, the individual treatment
+effects (ITEs) can seriously deviate from the CATE. In this work, we
+demonstrate how the distributions of the ITE and the estimated CATE can differ
+when a causal random forest (CRF) is applied. We extend the CRF to estimate the
+difference in conditional variance between treated and controls. If the ITE
+distribution equals the CATE distribution, this difference in variance should
+be small. If they differ, an additional causal assumption is necessary to
+quantify the heterogeneity not captured by the CATE distribution. The
+conditional variance of the ITE can be identified when the individual effect is
+independent of the outcome under no treatment given the measured features.
+Then, in the cases where the ITE and CATE distributions differ, the extended
+CRF can appropriately estimate the characteristics of the ITE distribution
+while the CRF fails to do so.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Post_R/0/1/0/all/0/1&quot;&gt;Richard Post&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Heuvel_I/0/1/0/all/0/1&quot;&gt;Isabel van den Heuvel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Petkovic_M/0/1/0/all/0/1&quot;&gt;Marko Petkovic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Heuvel_E/0/1/0/all/0/1&quot;&gt;Edwin van den Heuvel&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
