@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:X0razs3zR94",
+  "yt:videoId": "X0razs3zR94",
+  "yt:channelId": "UC9rTsvTxJnx1DNrDA3Rqa6A",
+  "title": "This Infinitely Differentiable Function Breaks Taylor Series",
+  "link": "",
+  "author": {
+    "name": "Dr. Trefor Bazett",
+    "uri": "https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A"
+  },
+  "published": "2022-06-15T16:29:49+00:00",
+  "updated": "2022-09-05T21:52:02+00:00",
+  "media:group": {
+    "media:title": "This Infinitely Differentiable Function Breaks Taylor Series",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "►Get my favorite calculator app for your phone or tablet: MAPLE CALCULATOR: https://www.maplesoft.com/products/maplecalculator/download.aspx?p=TC-9857\n►Check out MAPLE LEARN for your browser to do compute and graph math: https://www.maplesoft.com/products/learn/?p=TC-9857\n►Check out MapleSoft's YouTube channel: https://www.youtube.com/channel/UCq2MmZQ8-kqEVAnmL2GSMsQ. Thank you to MapleSoft for sponsoring today's video. \n\nTaylor Series are incredible. We can approximate a function with the Taylor Polynomial, and then hope that when we take the infinite series we get a series that is equal to the original function. However, this doesn't always work, for several reasons. The first is that we either can't compute the Taylor Series centered at some values (example ln(x) isn't defined at 0), or that the result series only converges on a limited interval of convergence as we see in our second example. The trickiest part however is that even when the Taylor Series converges, that doesn't immediately imply that it converges to the original function! We will see the very cool example of e^{-1/x^2} (with f(0) defined to be 0) that is infinitely differentiable (aka smooth) but whose taylor series is the zero series and thus clearly not the same as the original function. An analytic function is one whose taylor series convergences to the original function, so this example is an example of a smooth function that is non-analytic. Cool! \n\n0:00 The big question about Taylor Series\n0:30 Review of Taylor Series\n2:20 Ln(x) and its Interval of Convergence\n7:08 An infinitely differentiable but non-analytic example\n9:55 Smooth vs Analytic\n\nCheck out my MATH MERCH line in collaboration with Beautiful Equations \n►https://beautifulequations.net/pages/trefor\n\nCOURSE PLAYLISTS:\n►DISCRETE MATH: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS\n►LINEAR ALGEBRA: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6\n►CALCULUS I: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfT9RMcReZ4WcoVILP4k6-m\n► CALCULUS II: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n\n►MULTIVARIABLE CALCULUS (Calc III): https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd\n►VECTOR CALCULUS (Calc IV) https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa\n►DIFFERENTIAL EQUATIONS: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxde-SlgmWlCmNHroIWtujBw\n►LAPLACE TRANSFORM: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxcJXnLr08cyNaup4RDsbAl1\n►GAME THEORY:  https://www.youtube.com/playlist?list=PLHXZ9OQGMqxdzD8KpTHz6_gsw9pPxRFlX\n\nOTHER PLAYLISTS:\n► Learning Math Series\nhttps://www.youtube.com/watch?v=LPH2lqis3D0&list=PLHXZ9OQGMqxfSkRtlL5KPq6JqMNTh_MBw\n►Cool Math Series:\nhttps://www.youtube.com/playlist?list=PLHXZ9OQGMqxelE_9RzwJ-cqfUtaFBpiho\n\nBECOME A MEMBER:\n►Join: https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A/join\n\nMATH BOOKS I LOVE (affilliate link):\n► https://www.amazon.com/shop/treforbazett\n\nSOCIALS:\n►Twitter (math based): http://twitter.com/treforbazett\n►Instagram (photography based): http://instagram.com/treforphotography",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

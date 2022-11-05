@@ -1,0 +1,6 @@
+{
+  "title": "Matrix Multiplicative Weights Updates in Quantum Zero-Sum Games: Conservation Laws & Recurrence. (arXiv:2211.01681v1 [cs.GT])",
+  "link": "http://arxiv.org/abs/2211.01681",
+  "description": "<p>Recent advances in quantum computing and in particular, the introduction of\nquantum GANs, have led to increased interest in quantum zero-sum game theory,\nextending the scope of learning algorithms for classical games into the quantum\nrealm. In this paper, we focus on learning in quantum zero-sum games under\nMatrix Multiplicative Weights Update (a generalization of the multiplicative\nweights update method) and its continuous analogue, Quantum Replicator\nDynamics. When each player selects their state according to quantum replicator\ndynamics, we show that the system exhibits conservation laws in a\nquantum-information theoretic sense. Moreover, we show that the system exhibits\nPoincare recurrence, meaning that almost all orbits return arbitrarily close to\ntheir initial conditions infinitely often. Our analysis generalizes previous\nresults in the case of classical games.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Jain_R/0/1/0/all/0/1\">Rahul Jain</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Piliouras_G/0/1/0/all/0/1\">Georgios Piliouras</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sim_R/0/1/0/all/0/1\">Ryann Sim</a>"
+}
