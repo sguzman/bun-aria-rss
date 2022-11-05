@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39356 (discourse)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39356",
+  "description": "Discourse is a platform for community discussion. Users who receive an invitation link that is not scoped to a single email address can enter any non-admin user's email and gain access to their account when accepting the invitation. All users should upgrade to the latest version. A workaround is temporarily disabling invitations with `SiteSetting.max_invites_per_day = 0` or scope them to individual email addresses.",
+  "dc:date": "2022-11-02T17:15:17Z"
+}

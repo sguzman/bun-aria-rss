@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:KtyYC_xzqyE",
+  "yt:videoId": "KtyYC_xzqyE",
+  "yt:channelId": "UC9rTsvTxJnx1DNrDA3Rqa6A",
+  "title": "The strangest function I know (linear but not continuous?? huh??)",
+  "link": "",
+  "author": {
+    "name": "Dr. Trefor Bazett",
+    "uri": "https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A"
+  },
+  "published": "2022-10-17T17:00:24+00:00",
+  "updated": "2022-10-17T18:22:48+00:00",
+  "media:group": {
+    "media:title": "The strangest function I know (linear but not continuous?? huh??)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Keep exploring at https://brilliant.org/TreforBazett. Get started for free, and hurry—the first 200 people get 20% off an annual premium subscription.\n\nWhen you think of linear functions from R to R, you are probably thinking about lines. However, I'm going to show you in this video a crazy example of a linear function that actually fails to be continuous. We are going to use a slightly more general notion of a linear function:\nf(x+y)=f(x)+f(y) & f(cx)=cf(x)\nTo do this we will first think of the real numbers as a vector space over the rational numbers. Then a consequence of the Axiom of Choice is that every vector space has a basis, and thus there is a subset of the real numbers so every real number can be written as a linear combination of elements from this subset with rational coefficients. Ok, so what is our crazy function? Given any such expression for x, then f(x) is defined to be the sum of those rational coefficients. We can quickly check it satisfies the two properties of linearity, but it isn't continuous as its output is only rational numbers and so it misses all the reals. \n\n0:00 A weird function\n0:35 Linearity more generally\n2:20 Defining the function\n4:15 It isn't continuous...\n5:18 ...but it is linear!\n7:25 Axiom of Choice\n9:16 R as a vector space over Q\n12:20 Check out brilliant.org/TreforBazett\n\nCheck out my MATH MERCH line in collaboration with Beautiful Equations \n►https://beautifulequations.net/pages/trefor\n\nCOURSE PLAYLISTS:\n►DISCRETE MATH: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS\n►LINEAR ALGEBRA: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6\n►CALCULUS I: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfT9RMcReZ4WcoVILP4k6-m\n► CALCULUS II: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n\n►MULTIVARIABLE CALCULUS (Calc III): https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd\n►VECTOR CALCULUS (Calc IV) https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa\n►DIFFERENTIAL EQUATIONS: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxde-SlgmWlCmNHroIWtujBw\n►LAPLACE TRANSFORM: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxcJXnLr08cyNaup4RDsbAl1\n►GAME THEORY:  https://www.youtube.com/playlist?list=PLHXZ9OQGMqxdzD8KpTHz6_gsw9pPxRFlX\n\nOTHER PLAYLISTS:\n► Learning Math Series\nhttps://www.youtube.com/watch?v=LPH2lqis3D0&list=PLHXZ9OQGMqxfSkRtlL5KPq6JqMNTh_MBw\n►Cool Math Series:\nhttps://www.youtube.com/playlist?list=PLHXZ9OQGMqxelE_9RzwJ-cqfUtaFBpiho\n\nBECOME A MEMBER:\n►Join: https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A/join\n\nMATH BOOKS I LOVE (affilliate link):\n► https://www.amazon.com/shop/treforbazett\n\nSOCIALS:\n►Twitter (math based): http://twitter.com/treforbazett\n►Instagram (photography based): http://instagram.com/treforphotography",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

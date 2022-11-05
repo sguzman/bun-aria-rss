@@ -1,0 +1,23 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-2762725598508640757",
+  "published": "2022-07-22T07:42:00.000-07:00",
+  "updated": "2022-07-22T07:42:19.840-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "Performance Max upgrade has started",
+  "content": "<p>As we <a href=\"https://ads-developers.googleblog.com/2022/01/ssc-lc-upgrade-performance-max.html\">announced</a> in January and <a href=\"https://ads-developers.googleblog.com/2022/03/update-performance-max-upgrade.html\">again</a> in March, existing and future <a href=\"https://developers.google.com/google-ads/api/docs/shopping-ads/create-campaign#smart_shopping_campaigns\">Smart Shopping campaigns</a> (SSC) will automatically upgrade to <a href=\"https://developers.google.com/google-ads/api/docs/performance-max/overview?hl=en\">Performance Max</a> campaigns between July and September 2022. The self-upgrade started in April 2022. The <a href=\"https://support.google.com/google-ads/answer/12368488\">automatic upgrade has commenced</a> (related <a href=\"https://blog.google/products/ads-commerce/upgrade-to-performance-max-for-holidays/\">blog post</a>) and should complete by September 30, 2022. This blog post adds details for our API developers.  </p><p>Starting July 25, 2022, accounts <em>without</em> active or paused SSCs (including new accounts) will no longer be able to create SSCs. </p><p>Once an account <em>with</em> active or paused SSCs has been automatically upgraded from SSC to Performance Max, no new SSC creation will be permitted in any surface including the <a href=\"https://ads.google.com/\">UI</a>, the <a href=\"https://developers.google.com/google-ads/api/docs/start\">API</a>, <a href=\"https://developers.google.com/google-ads/scripts/docs/start\">Google Ads Scripts</a> or <a href=\"https://support.google.com/google-ads/editor/answer/2484521\">Google Ads Editor</a>. </p><p>The Google Ads API v11 included a new <code><a href=\"https://developers.google.com/google-ads/api/reference/rpc/latest/Recommendation.UpgradeSmartShoppingCampaignToPerformanceMaxRecommendation\">UpgradeSmartShoppingCampaignToPerformanceMaxRecommendation</a></code> recommendation type to allow developers to upgrade a given SSC to a Performance Max campaign. This can still be applied to an account that has not yet automatically upgraded.  <p>As mentioned in the <a href=\"https://ads-developers.googleblog.com/2022/01/ssc-lc-upgrade-performance-max.html\">January blog post</a>, Local campaigns will also be automatically upgraded to Performance Max. An upcoming release of the Google Ads API will include a new recommendation type to allow developers to upgrade an eligible <a href=\"https://developers.google.com/google-ads/api/docs/local-campaigns/overview\">Local campaign</a> to a Performance Max campaign. </p><h2>Additional information</h2>  <p>If you have any questions or need additional help, contact us via the <a href=\"https://groups.google.com/forum/#!forum/adwords-api\">forum</a>. </p> <span class='byline-author'><img height=\"40\" src=\"https://avatars.githubusercontent.com/u/1339705?s=460&v=4\" style=\"vertical-align: middle; border:none;\" width=\"40\"><a href=\"https://github.com/wihl\" rel=\"author\">David Wihl</a>, Google Ads API Team </span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  }
+}
