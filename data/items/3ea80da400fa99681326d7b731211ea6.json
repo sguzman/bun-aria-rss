@@ -1,0 +1,8 @@
+{
+  "title": "A short tutorial for decent heat maps in R",
+  "description": "I received many questions from people who want to quickly visualize their data via heat maps - ideally as quickly as possible. This is the major issue of exploratory data analysis, since we often don’t have the time to digest whole books about the particular techniques in different software packages to just get the job done. But once we are happy with our initial results, it might be worthwhile to dig deeper into the topic in order to further customize our plots and maybe even polish them for publication. In this post, my aim is to briefly introduce one of R’s several heat map libraries for a simple data analysis. I chose R, because it is one of the most popular free statistical software packages around. Of course there are many more tools out there to produce similar results (and even in R there are many different packages for heat maps), but I will leave this as an open topic for another time.",
+  "pubDate": "Sun, 08 Dec 2013 09:00:00 +0000",
+  "link": "https://sebastianraschka.com/Articles/heatmaps_in_r.html",
+  "guid": "https://sebastianraschka.com/Articles/heatmaps_in_r.html",
+  "category": "Python"
+}
