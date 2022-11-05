@@ -1,0 +1,18 @@
+{
+  "title": "New developments in the WSL attack. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/236/notes",
+  "description": "Danny Adamitis from Lumen's Black Lotus Labs, joins Dave to discuss new developments in the WSL attack surface. Since September 2021, Black Lotus Labs have been monitoring malware repositories as a part of their proactive threat hunting process. Danny shares how researchers discovered a series of suspicious ELF files compiled for Debian Linux .\nThe research states how the team identified a series of samples that target the WSL environment, were uploaded every two to three weeks and that they started as early as May 3, 2021 and go until August 22, 20221.\nThe research can be found here:\n\nWindows Subsystem For Linux (WSL): Threats Still Lurk Below The (Sub)Surface\n\nNo Longer Just Theory: Black Lotus Labs Uncovers Linux Executables Deployed As Stealth Windows Loaders",
+  "pubDate": "Sat, 11 Jun 2022 07:00:00 -0000",
+  "itunes:title": "New developments in the WSL attack. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 236,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Danny Adamitis from Lumen's Black Lotus Labs, joins Dave to discuss new developments in the WSL attack surface. Since September 2021, Black Lotus Labs have been monitoring malware repositories as a part of their proactive threat hunting process. Danny shares how researchers discovered a series of suspicious ELF files compiled for Debian Linux .\nThe research states how the team identified a series of samples that target the WSL environment, were uploaded every two to three weeks and that they started as early as May 3, 2021 and go until August 22, 20221.\nThe research can be found here:\n\nWindows Subsystem For Linux (WSL): Threats Still Lurk Below The (Sub)Surface\n\nNo Longer Just Theory: Black Lotus Labs Uncovers Linux Executables Deployed As Stealth Windows Loaders",
+  "content:encoded": "<p>Danny Adamitis from Lumen's Black Lotus Labs, joins Dave to discuss new developments in the WSL attack surface. Since September 2021, Black Lotus Labs have been monitoring malware repositories as a part of their proactive threat hunting process. Danny shares how researchers discovered a series of suspicious ELF files compiled for Debian Linux .</p><p>The research states how the team identified a series of samples that target the WSL environment, were uploaded every two to three weeks and that they started as early as May 3, 2021 and go until August 22, 20221.</p><p>The research can be found here:</p><ul>\n<li><a href=\"https://blog.lumen.com/windows-subsystem-for-linux-wsl-threats/\">Windows Subsystem For Linux (WSL): Threats Still Lurk Below The (Sub)Surface</a></li>\n<li><a href=\"https://blog.lumen.com/no-longer-just-theory-black-lotus-labs-uncovers-linux-executables-deployed-as-stealth-windows-loaders/\">No Longer Just Theory: Black Lotus Labs Uncovers Linux Executables Deployed As Stealth Windows Loaders</a></li>\n</ul>",
+  "itunes:duration": 1405,
+  "itunes:explicit": "no",
+  "guid": "5028c158-e765-11ec-9ff7-37d18fc6bba8",
+  "enclosure": ""
+}

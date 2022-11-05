@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43985 (airflow)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43985",
+  "description": "In Apache Airflow versions prior to 2.4.2, there was an open redirect in the webserver's `/confirm` endpoint.",
+  "dc:date": "2022-11-02T12:15:56Z"
+}

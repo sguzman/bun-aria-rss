@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42751 (candidats)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42751",
+  "description": "CandidATS version 3.0.0 allows an external attacker to elevate privileges in the application. This is possible because the application suffers from CSRF. This allows to persuade an administrator to create a new account with administrative permissions.",
+  "dc:date": "2022-11-03T18:15:17Z"
+}
