@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.space-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Space Physics (physics.space-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Space Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.09832" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2207.09832">
+<title>A comparison of the impacts of CMEs and CIRs on the Martian dayside and nightside ionospheric species. (arXiv:2207.09832v2 [physics.space-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.09832</link>
+<description rdf:parseType="Literal">&lt;p&gt;Measurements from the Mars Atmosphere and Volatile EvolutioN (MAVEN)
+spacecraft, orbiting Mars are used for investigating the impact of coronal mass
+ejections (CMEs) and corotating interaction regions (CIRs) on Martian
+ionospheric species. We have chosen 15 CME and 15 CIR events at Mars from the
+existing catalogs. We have extensively analyzed Martian dayside and nightside
+profiles of ionospheric species during each of the CME and CIR events. We have
+selected the disturbed orbit plasma density profiles which are beyond the quiet
+time mean profile during each event. The primary focus of this paper is to
+provide a comparative average scenario of the variation of Martian ionospheric
+species during CME and CIR events between 150-500 km altitudes. A significant
+difference can be observed in the profiles of Martian dayside and nightside
+ionospheric species (O+, O2+, CO2+, NO+, C+, N+, &amp;amp; OH+) during CMEs and CIRs.
+The difference is more prominent on the nightside in comparison to the dayside
+ionosphere. We have observed that the plasma densities were lower during CIRs
+compared to CMEs. During CIRs, the nightside ion density is one order of
+magnitude less (above 250 km) in comparison to CMEs. The mean peak altitude and
+density of the lighter ions (O+, C+, N+, &amp;amp; OH+) were at lower altitudes during
+the CIRs compared to CMEs. Therefore, this study suggests that the impact of
+CIRs on the Martian ionospheric species is more prominent compared to CMEs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ram_L/0/1/0/all/0/1&quot;&gt;Lot Ram&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rout_D/0/1/0/all/0/1&quot;&gt;Diptiranjan Rout&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rathi_R/0/1/0/all/0/1&quot;&gt;Rahul Rathi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mondal_S/0/1/0/all/0/1&quot;&gt;Subarna Mondal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sarkhel_S/0/1/0/all/0/1&quot;&gt;Sumanta Sarkhel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Halekas_J/0/1/0/all/0/1&quot;&gt;Jasper Halekas&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
