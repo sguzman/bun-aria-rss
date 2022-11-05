@@ -1,0 +1,7 @@
+{
+  "title": "Annoy – now without Boost dependencies and with Python 3 Support",
+  "link": "https://erikbern.com/2015/05/03/annoy-now-without-boost-dependencies-and-with-python-3-support.html",
+  "pubDate": "Sun, 03 May 2015 00:00:00 +0000",
+  "guid": "https://erikbern.com/2015/05/03/annoy-now-without-boost-dependencies-and-with-python-3-support.html",
+  "description": "Annoy is a C++/Python package I built for fast approximate nearest neighbor search in high dimensional spaces. Spotify uses it a lot to find similar items. First, matrix factorization gives a low dimensional representation of each item (artist/album/track/user) so that every item is a k-dimensional vector, where k is typically 40-100."
+}

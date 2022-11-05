@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42753 (salonerp)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42753",
+  "description": "SalonERP version 3.0.2 allows an external attacker to steal the cookie of arbitrary users. This is possible because the application does not correctly validate the page parameter against XSS attacks.",
+  "dc:date": "2022-11-03T18:15:17Z"
+}
