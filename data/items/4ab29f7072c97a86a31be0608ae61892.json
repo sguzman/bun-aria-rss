@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:ML743nrkMHw",
+  "yt:videoId": "ML743nrkMHw",
+  "yt:channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+  "title": "Create a Desktop App With JavaScript & Electron",
+  "link": "",
+  "author": {
+    "name": "Traversy Media",
+    "uri": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+  },
+  "published": "2022-10-03T13:18:54+00:00",
+  "updated": "2022-10-09T08:26:00+00:00",
+  "media:group": {
+    "media:title": "Create a Desktop App With JavaScript & Electron",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video, we will create a cross-platform desktop app to resize image dimensions, using JavaScript and Electron.\n\n💻 Code:\nhttps://github.com/bradtraversy/image-resizer-electron\n\nTo package your app up for different platforms, you could use one of the following:\nhttps://github.com/electron/electron-packager\nhttps://www.electronforge.io/\n\n⭐ All Courses:\nhttps://traversymedia.com\n\n💖  Show Support\nPatreon: https://www.patreon.com/traversymedia\nPayPal: https://paypal.me/traversymedia\n\n👇 Follow Traversy Media On Social Media:\nTwitter: https://twitter.com/traversymedia\nInstagram: https://www.instagram.com/traversymedia\nLinkedin: https://www.linkedin.com/in/bradtraversy\n\nTimestamps:\n0:00 - Intro\n3:05 - Resources\n4:48 - Setup & Install Dependencies\n8:08 - Create Main Window\n12:45 - Common Boilerplate\n15:53 - Show Devtools\n18:10 - Using Electronmon\n18:54 - Adding the UI Theme\n21:26 - Content Security Policy\n23:00 - Menu Customization\n27:36 - Menu Roles\n30:00 - About Window\n31:53 - Start Renderer JS / Load Image\n38:15 - Get Original Dimensions\n39:40 - Using Preload\n44:28 - Show Output Path\n46:43 - Toastify Alerts\n50:58 - Form Submit Handler\n53:54 - IPC Renderer (Send)\n56:44 - IPC Main (Recieve)\n59:35 - Resize Image\n1:05:32 - Catch Message In Renderer\n1:07:32 - Make mainWindow Global\n1:10:22 - Test Production Mode",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

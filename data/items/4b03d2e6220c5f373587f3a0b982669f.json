@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:7fbHdrcMsEs",
+  "yt:videoId": "7fbHdrcMsEs",
+  "yt:channelId": "UCEBcDOjv-bhAmLavY71RMHA",
+  "title": "Lambda World 2019 - Functional Smart Contracts - Manuel Chakravarty",
+  "link": "",
+  "author": {
+    "name": "Lambda World",
+    "uri": "https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"
+  },
+  "published": "2019-11-04T16:54:11+00:00",
+  "updated": "2022-01-13T10:19:24+00:00",
+  "media:group": {
+    "media:title": "Lambda World 2019 - Functional Smart Contracts - Manuel Chakravarty",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this Lambda World 2019 presentation, Manuel Chakravarty shows how blockchains are a well-suited application area for functional programming techniques.\n\nFull Presentation Description:\n\nFunctional programming and blockchains are a match made in heaven! The immutable and reproducible nature of distributed ledgers is mirrored in the semantic foundation of functional programming. Moreover, the concurrent and distributed operation calls for a programming model that carefully controls shared mutable state and side effects. Finally, the high financial stakes often associated with blockchains suggest the need for high assurance software and formal methods.\n\nNevertheless, most existing blockchains favour an object-oriented, imperative approach in both their implementation as well as in the contract programming layer that provides user-defined custom functionality on top of the basic ledger. On the one hand, this might appear surprising, given that it is widely understood that this style of programming is particularly risky in concurrent and distributed systems. On the other hand, blockchains are still in their infancy and little research has been conducted into associated programming language technology.\n\nIn this talk, I will explain the connection between blockchains and functional programming and argue that blockchains are a well-suited application area for functional programming techniques. I will illustrate this with evidence from the research-driven development of the Cardano blockchain and its contract programming platform, Plutus. Cardano and Plutus are implemented in Haskell and Rust, and the development process includes semi-formal specifications together with mechanised theorem proving to formalise key components.\n\n------\nFollow: \n-https://www.twitter.com/lambda_world \n-https://www.twitter.com/47deg\n-https://twitter.com/TacticalGrace\n\nVisit: \n-https://www.47deg.com/events for more details\n-http://www.lambda.world",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

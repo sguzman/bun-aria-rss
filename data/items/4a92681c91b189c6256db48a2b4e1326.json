@@ -1,0 +1,14 @@
+{
+  "title": "Optimization Nuggets: Implicit Bias of Gradient-based Methods",
+  "link": "http://fa.bianp.net/blog/2022/implicit-bias-regression/",
+  "description": "<p>\n      When an optimization problem has multiple global minima, different algorithms can find different solutions, a phenomenon often referred to as the <i>implicit bias</i> of optimization algorithms. In this post we'll characterize the implicit bias of gradient-based methods on a class of regression problems that includes linear least squares and Huber …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 10 Jan 2022 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2022-01-10:/blog/2022/implicit-bias-regression/",
+  "category": [
+    "learning theory",
+    "implicit bias",
+    "proofs",
+    "nuggets"
+  ]
+}

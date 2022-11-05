@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43451",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43451",
+  "description": "OpenHarmony-v3.1.2 and prior versions had an Multiple path traversal vulnerability in appspawn and nwebspawn services. Local attackers can create arbitrary directories or escape application sandbox.If chained with other vulnerabilities it would allow an unprivileged process to gain full root privileges.",
+  "dc:date": "2022-11-03T20:15:33Z"
+}
