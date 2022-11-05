@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-4898052062903412786",
+  "published": "2016-06-18T23:30:00.000-07:00",
+  "updated": "2016-06-19T03:54:04.610-07:00",
+  "title": "What's the Value of a Win?",
+  "content": "In a previous entry I demonstrated <a href=\"http://angrystatistician.blogspot.com/2016/06/a-simple-estimate-for-pythagorean.html\">one simple way to estimate an exponent for the Pythagorean win expectation</a>. Another nice consequence of a Pythagorean win expectation formula is that it also makes it simple to estimate the run value of a win in baseball, the point value of a win in basketball, the goal value of a win in hockey etc.<br /><br />Let our Pythagorean win expectation formula be \\[ w=\\frac{P^e}{P^e+1},\\] where \\(w\\) is the win fraction expectation, \\(P\\) is runs/allowed (or similar) and \\(e\\) is the Pythagorean exponent. How do we get an estimate for the run value of a win? The expected number of games won in a season with \\(g\\) games is \\[W = g\\cdot w = g\\cdot \\frac{P^e}{P^e+1},\\] so for one estimate we only need to compute the value of the partial derivative \\(\\frac{\\partial W}{\\partial P}\\) at \\(P=1\\). Note that \\[ W = g\\left( 1-\\frac{1}{P^e+1}\\right), \\] and so \\[ \\frac{\\partial W}{\\partial P} = g\\frac{eP^{e-1}}{(P^e+1)^2}\\] and it follows \\[ \\frac{\\partial W}{\\partial P}(P=1) = \\frac{ge}{4}.\\] Our estimate for the run value of a win now follows by setting \\[\\frac{\\Delta W}{\\Delta P} = \\frac{ge}{4} \\] giving \\[ \\Delta W = 1 = \\frac{ge}{4} \\Delta P.\\] What is \\(\\Delta P\\)? Well \\(P = R/A\\), where \\(R\\) is runs scored over the season and \\(A\\) is runs allowed over the season. We're assuming this is a league average team and asking how many more runs they'd need to score to win an additional game, so \\(A\\) is actually fixed at \\(L\\), the league average number of runs scored (or allowed). This gives us \\[1 = \\frac{ge}{4} \\Delta P = \\frac{ge\\Delta R}{4L}.\\] Now \\(L/g = l\\), the league average runs per game, so we arrive at the estimate \\[\\Delta R = \\frac{4l}{e}.\\] In the specific case of MLB, we have \\(e = 1.8\\) and \\(l = 4.3\\), giving that a win is approximately \\(\\Delta R = 9.56\\) runs.<br /><br />Bill James originally used the exponent \\(e=2\\); in this case the formula simplifies to \\(\\Delta R = 2l\\), i.e. we get the particularly simple result that a win is equal to approximately twice the average number of runs scored per game.<br /><br />Applying this estimate to the NBA, a win is approximately \\( \\Delta R = \\frac{4\\cdot 101}{16.4} = 24.6\\) points. Similarly, we get the estimates for a win of 4.5 goals for the NHL and 5.1 goals for the Premier League.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 2
+}
