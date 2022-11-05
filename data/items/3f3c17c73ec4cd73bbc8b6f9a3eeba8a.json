@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:wDZx9B4TAXo",
+  "yt:videoId": "wDZx9B4TAXo",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Mathematical Magic: Undoing Handcuffs",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2021-12-12T20:03:50+00:00",
+  "updated": "2022-08-19T15:43:54+00:00",
+  "media:group": {
+    "media:title": "Mathematical Magic: Undoing Handcuffs",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Suppose you have a pair of handcuffs locked to a post.  Can you remove one of the cuffs without unlocking them, breaking them, or letting them pass through themselves?  With real handcuffs, definitely not!  But for handcuffs made out of stretchy rubber, it turns out to be possible—as shown in this short looping video.\n\nThis motion provides a surprising example of what is known in mathematics as an \"ambient isotopy\" of two surfaces: a continuous motion where the surface is not ripped, cut, pinched, or allowed to pass through itself.  A more traditional example, perhaps, is the \"unknot problem\": given a loop of string, can it be untangled into a circle without cutting?  Even this simple question turns out to be very difficult to answer in general.  And questions about isotopy get even more interesting—and harder to predict!—when you start thinking about surfaces rather than curves.\n\nThe motion in this video was computed in a particularly remarkable way: it was not keyframed or manipulated by a human animator, but computed automatically by a program that does not do any high-level reasoning.   Instead, it minimizes a simple geometric energy that knows only about the shape of the surface at the current moment in time.  Just like gravity makes a ball fall to the ground, this so-called tangent-point energy makes the surface \"fall\" into the configuration that gets furthest away from the pole, while preserving its initial surface area—and avoiding any self-intersections.\n\nThe algorithm used to compute the motion is described in the paper\n\nChris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane\n\"Repulsive Surfaces\" (2021)\n\nFor more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
