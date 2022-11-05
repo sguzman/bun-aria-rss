@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.HO updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- History and Overview (math.HO) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- History and Overview</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01956" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2001.00578" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01956">
+<title>Simple Continued Fractions an approach for High School students. (arXiv:2211.01956v1 [math.HO])</title>
+<link>http://arxiv.org/abs/2211.01956</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper introduces high school students to continued fractions and
+develops basic properties of Finite Continued Fractions and Infinite Continued
+Fractions. This also includes computation of the quadratic number with a given
+periodic continued fraction, conjugate quadratic numbers, and approximation of
+reals and convergent of continued fractions. Through the study of continued
+fractions, you will gain increased insight into the proper relationships of
+number systems that are emphasized in today&apos;s modern mathematics courses. I
+believe that you will find continued fractions fun to work with.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Paraskevopoulos_A/0/1/0/all/0/1&quot;&gt;Athanasios Paraskevopoulos&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2001.00578">
+<title>Errata and Addenda to Mathematical Constants. (arXiv:2001.00578v3 [math.HO] UPDATED)</title>
+<link>http://arxiv.org/abs/2001.00578</link>
+<description rdf:parseType="Literal">&lt;p&gt;We humbly and briefly offer corrections and supplements to Mathematical
+Constants (2003) and Mathematical Constants II (2019), both published by
+Cambridge University Press. Comments are always welcome.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Finch_S/0/1/0/all/0/1&quot;&gt;Steven Finch&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
