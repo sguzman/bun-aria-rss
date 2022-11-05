@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-1619 (debian_linux, fedora, hci_management_node, macos, solidfire, vim)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1619",
+  "description": "Heap-based Buffer Overflow in function cmdline_erase_chars in GitHub repository vim/vim prior to 8.2.4899. This vulnerabilities are capable of crashing software, modify memory, and possible remote execution",
+  "dc:date": "2022-05-08T10:15:07Z"
+}

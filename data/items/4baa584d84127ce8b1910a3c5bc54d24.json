@@ -1,0 +1,14 @@
+{
+  "title": "Singular Value Decomposition in SciPy",
+  "link": "http://fa.bianp.net/blog/2012/singular-value-decomposition-in-scipy/",
+  "description": "<p>SciPy contains two methods to compute the singular value decomposition (SVD) of a matrix: <code>scipy.linalg.svd</code> and <code>scipy.sparse.linalg.svds</code>. In this post I'll compare both methods for the task of computing the full SVD of a large dense matrix.</p>\n<p>The first method, <code>scipy.linalg.svd</code>, is perhaps …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 08 Dec 2012 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2012-12-08:/blog/2012/singular-value-decomposition-in-scipy/",
+  "category": [
+    "misc",
+    "python",
+    "scipy",
+    "svd"
+  ]
+}
