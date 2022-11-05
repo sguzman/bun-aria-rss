@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCIAmdxvgfnIEZnyQSiqgVgQ"/>
+ <id>yt:channel:UCIAmdxvgfnIEZnyQSiqgVgQ</id>
+ <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+ <title>Keenan Crane</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"/>
+ <author>
+  <name>Keenan Crane</name>
+  <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+ </author>
+ <published>2007-11-24T17:54:39+00:00</published>
+ <entry>
+  <id>yt:video:bZbuKOxH71o</id>
+  <yt:videoId>bZbuKOxH71o</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Monte Carlo Geometry Processing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bZbuKOxH71o"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2022-08-29T21:03:36+00:00</published>
+  <updated>2022-09-08T03:27:15+00:00</updated>
+  <media:group>
+   <media:title>Monte Carlo Geometry Processing</media:title>
+   <media:content url="https://www.youtube.com/v/bZbuKOxH71o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bZbuKOxH71o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>How can we solve physical equations on massively complex geometry?  Computer graphics grappled with a similar question in the 1990s, leading to the widespread adoption of Monte Carlo methods for photorealistic image generation.  This talk explores how Monte Carlo can also be used to solve a broader class of equations appearing in science and engineering, using the so-called &quot;walk on spheres method&quot; and recent extensions developed at Carnegie Mellon University.
+
+The talk was originally given by Keenan Crane at the Oberwolfach Research Institute for Mathematics on August 22, 2022.  It is based primarily on two papers:
+
+   1. Sawhney &amp; Crane, &quot;Monte Carlo Geometry Processing: A Grid-Free Approach to PDE-Based Methods on Volumetric Domains&quot; — http://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html
+
+   2. Sawhney, Seyb, Jarosz, Crane, &quot;Grid-Free Monte Carlo for PDEs with Spatially Varying Coefficients&quot; — https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html</media:description>
+   <media:community>
+    <media:starRating count="631" average="5.00" min="1" max="5"/>
+    <media:statistics views="14063"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:q0Y-qjXLslM</id>
+  <yt:videoId>q0Y-qjXLslM</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Turning a Torus Inside-Out (Punctured Torus Eversion)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=q0Y-qjXLslM"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2022-07-06T19:58:40+00:00</published>
+  <updated>2022-07-06T19:59:38+00:00</updated>
+  <media:group>
+   <media:title>Turning a Torus Inside-Out (Punctured Torus Eversion)</media:title>
+   <media:content url="https://www.youtube.com/v/q0Y-qjXLslM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q0Y-qjXLslM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Cut a small hole in a donut.  Can you turn it inside-out?  The answer, as shown in this looping video, is &quot;yes!&quot;  Notice how the blue inside becomes the red outside, and back again.  Unlike the classic question of &quot;turning the sphere inside out,&quot; which considers non-physical motions where the sphere may pass through itself, here the (punctured) torus turns inside-out without any self-contact.  In other words, you could really perform this motion if you had a donut made out of a stretchy rubber sheet.  Mathematically speaking, this motion is an &quot;isotopy&quot;: a continuous transition between states with no self-intersections (whereas the classic sphere eversion is a &quot;regular homotopy&quot;: a continuous transition that can have self intersections, but no pinching or creasing).
+
+The motion of the torus was computed using the algorithms developed in the paper
+
+Chris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Curves&quot; (2021)
+
+For more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html
+
+To compute a sphere eversion, one typically starts with a &quot;mid-surface,&quot; i.e., a symmetric surface that exhibits no preferred orientation, applies a tiny perturbation (to break symmetry) and minimizes an energy that encourages smoothness to flow to the round sphere.  To get the full &quot;movie&quot;, this motion is then reversed in time, the colors are flipped, and the two movies are concatenated together.  The punctured torus eversion was computed in the opposite way: starting with a torus, we make a small hole and then minimize an energy that encourages every point on the surface to repel every other point.  To keep the surface from simply growing to infinity, we also constrain the surface area and penalize large increases in boundary length and curvature.  This &quot;repulsive energy&quot; pushes the surface into the symmetric configuration seen at the halfway point between the red and blue torus.  As with the sphere eversion, two movies are then concatenated to get the full motion.</media:description>
+   <media:community>
+    <media:starRating count="84" average="5.00" min="1" max="5"/>
+    <media:statistics views="2085"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wDZx9B4TAXo</id>
+  <yt:videoId>wDZx9B4TAXo</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Mathematical Magic: Undoing Handcuffs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=wDZx9B4TAXo"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-12-12T20:03:50+00:00</published>
+  <updated>2022-08-19T15:43:54+00:00</updated>
+  <media:group>
+   <media:title>Mathematical Magic: Undoing Handcuffs</media:title>
+   <media:content url="https://www.youtube.com/v/wDZx9B4TAXo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wDZx9B4TAXo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Suppose you have a pair of handcuffs locked to a post.  Can you remove one of the cuffs without unlocking them, breaking them, or letting them pass through themselves?  With real handcuffs, definitely not!  But for handcuffs made out of stretchy rubber, it turns out to be possible—as shown in this short looping video.
+
+This motion provides a surprising example of what is known in mathematics as an &quot;ambient isotopy&quot; of two surfaces: a continuous motion where the surface is not ripped, cut, pinched, or allowed to pass through itself.  A more traditional example, perhaps, is the &quot;unknot problem&quot;: given a loop of string, can it be untangled into a circle without cutting?  Even this simple question turns out to be very difficult to answer in general.  And questions about isotopy get even more interesting—and harder to predict!—when you start thinking about surfaces rather than curves.
+
+The motion in this video was computed in a particularly remarkable way: it was not keyframed or manipulated by a human animator, but computed automatically by a program that does not do any high-level reasoning.   Instead, it minimizes a simple geometric energy that knows only about the shape of the surface at the current moment in time.  Just like gravity makes a ball fall to the ground, this so-called tangent-point energy makes the surface &quot;fall&quot; into the configuration that gets furthest away from the pole, while preserving its initial surface area—and avoiding any self-intersections.
+
+The algorithm used to compute the motion is described in the paper
+
+Chris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Surfaces&quot; (2021)
+
+For more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html</media:description>
+   <media:community>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="3294"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EC8RyCL68IQ</id>
+  <yt:videoId>EC8RyCL68IQ</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>What's the nicest way to draw a shape with many holes?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EC8RyCL68IQ"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-12-09T13:13:01+00:00</published>
+  <updated>2022-07-09T06:36:08+00:00</updated>
+  <media:group>
+   <media:title>What's the nicest way to draw a shape with many holes?</media:title>
+   <media:content url="https://www.youtube.com/v/EC8RyCL68IQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EC8RyCL68IQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>For millennia human beings have been drawn to the question: what's the nicest possible shape I can make?  &quot;Nicest&quot; could mean the most symmetric—for instance, the ancient Greeks discovered there were five so-called Platonic solids where every face and every vertex looks the same (tetrahedron, cube, octahedron, dodecahedron, icosahedron).  Or, &quot;nicest&quot; could mean smoothest.  For instance, the smoothest shape with no holes or handles is a round sphere; the smoothest shape with a single hole is (by some definitions) a perfectly round donut, also known as a torus of revolution.
+
+What's the nicest way to draw a shape with many holes?  As shown in this video, the smoothest possible shapes often want to have a high degree of symmetry—just like the Platonic solids.  In each case we start with an initial guess of several donuts glued together along a straight line.  If we make this surface smoother and smoother and smoother, we end up with nice smooth shapes that look like the tetrahedron, the cube, and the icosahedron.
+
+More precisely, these surfaces are (conjectured!) minimizers of something called the tangent-point energy.  This energy tries to keep all pairs of points on the surface far away from each other—just like two electrons pushing away from one another.  At the same time, the area of the surface must remain the same, so that it doesn't just blow up to infinity.
+
+These motions were computed using the algorithm described in
+
+Chris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Surfaces&quot; (2021)
+
+For more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html</media:description>
+   <media:community>
+    <media:starRating count="85" average="5.00" min="1" max="5"/>
+    <media:statistics views="1973"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TL82mPxXuvQ</id>
+  <yt:videoId>TL82mPxXuvQ</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Mathematical Magic: Unlinking a Pair of Handcuffs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TL82mPxXuvQ"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-12-07T23:59:48+00:00</published>
+  <updated>2022-01-09T02:26:46+00:00</updated>
+  <media:group>
+   <media:title>Mathematical Magic: Unlinking a Pair of Handcuffs</media:title>
+   <media:content url="https://www.youtube.com/v/TL82mPxXuvQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TL82mPxXuvQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Suppose you have a pair of handcuffs linked together.  Can you pull them apart without unlocking them, breaking them, or letting them pass through themselves?  With real handcuffs, definitely not!  But for handcuffs made out of stretchy rubber, it turns out to be possible—as shown in this short looping video.
+
+This motion provides a surprising example of what is known in mathematics as an &quot;ambient isotopy&quot; of two surfaces: a continuous motion where the surface is not ripped, cut, pinched, or allowed to pass through itself.  A more traditional example, perhaps, is the &quot;unknot problem&quot;: given a loop of string, can it be untangled into a circle without cutting?  Even this simple question turns out to be very difficult to answer in general.  And questions about isotopy get even more interesting—and harder to predict!—when you start thinking about surfaces rather than curves.
+
+The motion in this video was computed in a particularly remarkable way: it was not keyframed or manipulated by a human animator, but computed automatically by a program that does not do any high-level reasoning.   Instead, it minimizes a simple geometric energy that knows only about the shape of the surface at the current moment in time.  Just like gravity makes a ball fall to the ground, this so-called tangent-point energy makes the surface &quot;fall&quot; into the configuration that spreads out the surface as uniformly as possible, while preserving surface area.
+
+The algorithm used to compute the motion is described in the paper
+
+Chris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Surfaces&quot; (2021)
+
+For more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html</media:description>
+   <media:community>
+    <media:starRating count="86" average="5.00" min="1" max="5"/>
+    <media:statistics views="2330"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sJgK0jjd6oE</id>
+  <yt:videoId>sJgK0jjd6oE</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Repulsive Surfaces - paper video</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sJgK0jjd6oE"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-12-07T00:20:47+00:00</published>
+  <updated>2021-12-14T08:54:03+00:00</updated>
+  <media:group>
+   <media:title>Repulsive Surfaces - paper video</media:title>
+   <media:content url="https://www.youtube.com/v/sJgK0jjd6oE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sJgK0jjd6oE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video accompanies the paper
+
+Chris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Surfaces&quot;
+SIGGRAPH Asia 2021 (conditionally accepted)
+
+More information to come…</media:description>
+   <media:community>
+    <media:starRating count="212" average="5.00" min="1" max="5"/>
+    <media:statistics views="4373"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dtYGiCpzzbA</id>
+  <yt:videoId>dtYGiCpzzbA</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Repulsive Shape Optimization</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dtYGiCpzzbA"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-12-07T00:17:16+00:00</published>
+  <updated>2022-01-14T06:21:48+00:00</updated>
+  <media:group>
+   <media:title>Repulsive Shape Optimization</media:title>
+   <media:content url="https://www.youtube.com/v/dtYGiCpzzbA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dtYGiCpzzbA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In visual computing, point locations are often optimized using a &quot;repulsive&quot; energy, to obtain a nice uniform distribution for tasks ranging from image stippling to mesh generation to fluid simulation.  But how do you perform this same kind of repulsive optimization on curves and surfaces?  This talk takes a deep dive into the mathematical and computational challenges of repulsive shape optimization, with applications in computer graphics, mathematical visualization, and 3D geometry processing.
+
+00:00 — Introduction [easy]
+01:16 — Motivation [easy]
+07:27 — Repulsive Energies [intermediate]
+13:47 — Energy Minimization [difficult]
+22:27 — Fractional Preconditioning [experts only]
+29:10 — Discretization [intermediate]
+32:24 — Constraints [intermediate]
+34:27 — Hierarchical Acceleration [intermediate]
+38:54 — Evaluation &amp; Comparisons [easy]
+41:47 — Results &amp; Applications [easy]
+51:43 — Limitations &amp; Future Work [easy]
+
+The work in this talk comes from the papers:
+Yu, Schumacher, Crane, &quot;Repulsive Curves&quot; (Transactions on Graphics 2021)
+Yu, Brakensiek, Schumacher, Crane, &quot;Repulsive Surfaces&quot; (SIGGRAPH Asia 2021)
+
+An initial version of this talk was given on November 18, 2021 at the Center on Frontiers of Computing Studies, Peking University.
+
+For more information, see:
+http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html
+http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveCurves/index.html</media:description>
+   <media:community>
+    <media:starRating count="480" average="5.00" min="1" max="5"/>
+    <media:statistics views="8676"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-uXFYpVumh4</id>
+  <yt:videoId>-uXFYpVumh4</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Repulsive Curves</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-uXFYpVumh4"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-07-31T12:24:59+00:00</published>
+  <updated>2022-07-21T08:17:16+00:00</updated>
+  <media:group>
+   <media:title>Repulsive Curves</media:title>
+   <media:content url="https://www.youtube.com/v/-uXFYpVumh4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-uXFYpVumh4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video accompanies the paper
+
+Chris Yu, Henrik Schumacher, Keenan Crane
+&quot;Repulsive Curves&quot;
+ACM Transactions on Graphics (2021)
+
+For more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveCurves/</media:description>
+   <media:community>
+    <media:starRating count="475" average="5.00" min="1" max="5"/>
+    <media:statistics views="8474"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GiipeTtMdOk</id>
+  <yt:videoId>GiipeTtMdOk</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>End of Winter (1997)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GiipeTtMdOk"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-06-27T11:54:54+00:00</published>
+  <updated>2022-11-03T09:27:28+00:00</updated>
+  <media:group>
+   <media:title>End of Winter (1997)</media:title>
+   <media:content url="https://www.youtube.com/v/GiipeTtMdOk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GiipeTtMdOk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Computer animation by Keenan Crane circa 1997 (converted from VHS).  Made in NewTek Lightwave 3D and rendered on Mac OS/PowerPC.</media:description>
+   <media:community>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="1386"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qyESnPHQuq4</id>
+  <yt:videoId>qyESnPHQuq4</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Discrete Conformal Equivalence of Polyhedral Surfaces - Fast Forward</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qyESnPHQuq4"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-06-04T19:16:34+00:00</published>
+  <updated>2022-07-12T20:52:00+00:00</updated>
+  <media:group>
+   <media:title>Discrete Conformal Equivalence of Polyhedral Surfaces - Fast Forward</media:title>
+   <media:content url="https://www.youtube.com/v/qyESnPHQuq4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qyESnPHQuq4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video, narrated by Mark Gillespie, is a short 30-second teaser for the paper
+
+Gillespie, Springborn, Crane
+&quot;Discrete Conformal Equivalence of Polyhedral Surfaces&quot;
+ACM Transactions on Graphics (2021)
+
+For more information see: http://www.cs.cmu.edu/~kmcrane/Projects/CEPS/index.html</media:description>
+   <media:community>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="2228"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8p8qa2btZTU</id>
+  <yt:videoId>8p8qa2btZTU</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Behind the Scenes: Teaser Image for &quot;Discrete Conformal Equivalence of Polyhedral Surfaces&quot;</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8p8qa2btZTU"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-05-25T18:32:39+00:00</published>
+  <updated>2022-07-15T16:16:27+00:00</updated>
+  <media:group>
+   <media:title>Behind the Scenes: Teaser Image for &quot;Discrete Conformal Equivalence of Polyhedral Surfaces&quot;</media:title>
+   <media:content url="https://www.youtube.com/v/8p8qa2btZTU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8p8qa2btZTU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>None of these models overlap when you look at them from the initial viewpoint.  But what happens when you move the camera?
+
+This is a &quot;just-for-fun&quot; video showing how the teaser image was created for
+
+Mark Gillespie, Boris Springborn, Keenan Crane
+&quot;Discrete Conformal Equivalence of Polyhedral Surfaces&quot;
+(ACM Transactions on Graphics 2021)
+http://www.cs.cmu.edu/~kmcrane/Projects/CEPS/index.html
+
+A standard way to show a bunch of results in a geometry processing paper is to pack rendered 2D images into a single image using Qingnan Zhou's &quot;Mosaic Generator&quot;: https://github.com/qnzhou/Mosaic
+
+We put a twist on this idea by arranging our models in 3D space so that they nicely pack into a 2D image when projected onto the camera plane.  The video shows what happens when you move the camera from the &quot;perfect location&quot;!</media:description>
+   <media:community>
+    <media:starRating count="43" average="5.00" min="1" max="5"/>
+    <media:statistics views="1725"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JQ2burHX710</id>
+  <yt:videoId>JQ2burHX710</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Geometry Processing with Intrinsic Triangulations (Day II)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JQ2burHX710"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-05-10T19:30:18+00:00</published>
+  <updated>2022-07-23T01:15:26+00:00</updated>
+  <media:group>
+   <media:title>Geometry Processing with Intrinsic Triangulations (Day II)</media:title>
+   <media:content url="https://www.youtube.com/v/JQ2burHX710?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JQ2burHX710/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video is the second in a series of two lectures given by Keenan Crane at the Harvard FRG Workshop on Geometric Methods for Analyzing Discrete Shapes: https://cmsa.fas.harvard.edu/frg-2021/
+
+Day I: https://www.youtube.com/watch?v=w99UcsgkUgE
+
+Abstract: The intrinsic viewpoint was a hallmark of 19th century geometry, enabling one to reason about shapes without needing to consider an embedding in space---and leading to major developments in the 20th century such as Einstein's theory of general relativity.  Yet 21st century digital geometry processing still largely adopts an extrinsic mindset, where the geometry of a polyhedral surface is expressed via vertex positions in n-dimensional space.  This talk explores how the intrinsic view of polyhedral surfaces helps relax some standard assumptions in geometric computing, leading to algorithms that are more flexible and numerically more robust.  In particular we will examine fundamental data structures for intrinsic triangulations, extensions of important triangulation algorithms to curved surfaces, as well as methods for finite element problems, finding geodesics, and computing discrete conformal maps.</media:description>
+   <media:community>
+    <media:starRating count="75" average="5.00" min="1" max="5"/>
+    <media:statistics views="2476"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:w99UcsgkUgE</id>
+  <yt:videoId>w99UcsgkUgE</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Geometry Processing with Intrinsic Triangulations (Day I)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w99UcsgkUgE"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-05-07T14:25:31+00:00</published>
+  <updated>2022-07-22T04:35:21+00:00</updated>
+  <media:group>
+   <media:title>Geometry Processing with Intrinsic Triangulations (Day I)</media:title>
+   <media:content url="https://www.youtube.com/v/w99UcsgkUgE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w99UcsgkUgE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video is the first in a series of two lectures given by Keenan Crane at the Harvard FRG Workshop on Geometric Methods for Analyzing Discrete Shapes: https://cmsa.fas.harvard.edu/frg-2021/
+
+Day II: https://www.youtube.com/watch?v=JQ2burHX710
+
+Abstract: The intrinsic viewpoint was a hallmark of 19th century geometry, enabling one to reason about shapes without needing to consider an embedding in space---and leading to major developments in the 20th century such as Einstein's theory of general relativity.  Yet 21st century digital geometry processing still largely adopts an extrinsic mindset, where the geometry of a polyhedral surface is expressed via vertex positions in n-dimensional space.  This talk explores how the intrinsic view of polyhedral surfaces helps relax some standard assumptions in geometric computing, leading to algorithms that are more flexible and numerically more robust.  In particular we will examine fundamental data structures for intrinsic triangulations, extensions of important triangulation algorithms to curved surfaces, as well as methods for finite element problems, finding geodesics, and computing discrete conformal maps.</media:description>
+   <media:community>
+    <media:starRating count="208" average="5.00" min="1" max="5"/>
+    <media:statistics views="5135"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IyJnd_LvGRI</id>
+  <yt:videoId>IyJnd_LvGRI</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Lecture 11: Discrete Curves (Discrete Differential Geometry)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IyJnd_LvGRI"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-03-31T15:56:00+00:00</published>
+  <updated>2022-06-27T19:58:03+00:00</updated>
+  <media:group>
+   <media:title>Lecture 11: Discrete Curves (Discrete Differential Geometry)</media:title>
+   <media:content url="https://www.youtube.com/v/IyJnd_LvGRI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IyJnd_LvGRI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Full playlist: https://www.youtube.com/playlist?list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS
+For more information see http://geometry.cs.cmu.edu/ddg</media:description>
+   <media:community>
+    <media:starRating count="87" average="5.00" min="1" max="5"/>
+    <media:statistics views="5031"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sV58Fy2s6ac</id>
+  <yt:videoId>sV58Fy2s6ac</yt:videoId>
+  <yt:channelId>UCIAmdxvgfnIEZnyQSiqgVgQ</yt:channelId>
+  <title>Lecture 12: Smooth Surfaces I (Discrete Differential Geometry)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sV58Fy2s6ac"/>
+  <author>
+   <name>Keenan Crane</name>
+   <uri>https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ</uri>
+  </author>
+  <published>2021-03-31T15:10:13+00:00</published>
+  <updated>2022-06-28T23:19:23+00:00</updated>
+  <media:group>
+   <media:title>Lecture 12: Smooth Surfaces I (Discrete Differential Geometry)</media:title>
+   <media:content url="https://www.youtube.com/v/sV58Fy2s6ac?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sV58Fy2s6ac/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Full playlist: https://www.youtube.com/playlist?list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS
+For more information see http://geometry.cs.cmu.edu/ddg</media:description>
+   <media:community>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="5231"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
