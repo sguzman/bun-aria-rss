@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>eess.AS updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Electrical Engineering and Systems Science -- Audio and Speech Processing (eess.AS) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Electrical Engineering and Systems Science -- Audio and Speech Processing</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01438" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01458" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01461" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01515" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01519" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01522" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01571" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01585" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01599" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01621" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01646" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01669" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01704" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01716" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01722" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01751" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01756" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01839" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01966" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01993" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02000" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.09130" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.02637" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.03421" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.05735" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.13944" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16127" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00119" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01180" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01438">
+<title>Variable Attention Masking for Configurable Transformer Transducer Speech Recognition. (arXiv:2211.01438v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01438</link>
+<description rdf:parseType="Literal">&lt;p&gt;This work studies the use of attention masking in transformer transducer
+based speech recognition for building a single configurable model for different
+deployment scenarios. We present a comprehensive set of experiments comparing
+fixed masking, where the same attention mask is applied at every frame, with
+chunked masking, where the attention mask for each frame is determined by chunk
+boundaries, in terms of recognition accuracy and latency. We then explore the
+use of variable masking, where the attention masks are sampled from a target
+distribution at training time, to build models that can work in different
+configurations. Finally, we investigate how a single configurable model can be
+used to perform both first pass streaming recognition and second pass acoustic
+rescoring. Experiments show that chunked masking achieves a better accuracy vs
+latency trade-off compared to fixed masking, both with and without FastEmit. We
+also show that variable masking improves the accuracy by up to 8% relative in
+the acoustic re-scoring scenario.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Swietojanski_P/0/1/0/all/0/1&quot;&gt;Pawel Swietojanski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Braun_S/0/1/0/all/0/1&quot;&gt;Stefan Braun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Can_D/0/1/0/all/0/1&quot;&gt;Dogan Can&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Silva_T/0/1/0/all/0/1&quot;&gt;Thiago Fraga da Silva&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Ghoshal_A/0/1/0/all/0/1&quot;&gt;Arnab Ghoshal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Hori_T/0/1/0/all/0/1&quot;&gt;Takaaki Hori&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Hsiao_R/0/1/0/all/0/1&quot;&gt;Roger Hsiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Mason_H/0/1/0/all/0/1&quot;&gt;Henry Mason&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+McDermott_E/0/1/0/all/0/1&quot;&gt;Erik McDermott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Silovsky_H/0/1/0/all/0/1&quot;&gt;Honza Silovsky&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Travadi_R/0/1/0/all/0/1&quot;&gt;Ruchir Travadi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zhuang_X/0/1/0/all/0/1&quot;&gt;Xiaodan Zhuang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01458">
+<title>Towards Zero-Shot Code-Switched Speech Recognition. (arXiv:2211.01458v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/2211.01458</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we seek to build effective code-switched (CS) automatic speech
+recognition systems (ASR) under the zero-shot setting where no transcribed CS
+speech data is available for training. Previously proposed frameworks which
+conditionally factorize the bilingual task into its constituent monolingual
+parts are a promising starting point for leveraging monolingual data
+efficiently. However, these methods require the monolingual modules to perform
+language segmentation. That is, each monolingual module has to simultaneously
+detect CS points and transcribe speech segments of one language while ignoring
+those of other languages -- not a trivial task. We propose to simplify each
+monolingual module by allowing them to transcribe all speech segments
+indiscriminately with a monolingual script (i.e. transliteration). This simple
+modification passes the responsibility of CS point detection to subsequent
+bilingual modules which determine the final output by considering multiple
+monolingual transliterations along with external language model information. We
+apply this transliteration-based approach in an end-to-end differentiable
+neural network and demonstrate its efficacy for zero-shot CS ASR on
+Mandarin-English SEAME test sets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yan_B/0/1/0/all/0/1&quot;&gt;Brian Yan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wiesner_M/0/1/0/all/0/1&quot;&gt;Matthew Wiesner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Klejch_O/0/1/0/all/0/1&quot;&gt;Ondrej Klejch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jyothi_P/0/1/0/all/0/1&quot;&gt;Preethi Jyothi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Watanabe_S/0/1/0/all/0/1&quot;&gt;Shinji Watanabe&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01461">
+<title>Phoneme Segmentation Using Self-Supervised Speech Models. (arXiv:2211.01461v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01461</link>
+<description rdf:parseType="Literal">&lt;p&gt;We apply transfer learning to the task of phoneme segmentation and
+demonstrate the utility of representations learned in self-supervised
+pre-training for the task. Our model extends transformer-style encoders with
+strategically placed convolutions that manipulate features learned in
+pre-training. Using the TIMIT and Buckeye corpora we train and test the model
+in the supervised and unsupervised settings. The latter case is accomplished by
+furnishing a noisy label-set with the predictions of a separate model, it
+having been trained in an unsupervised fashion. Results indicate our model
+eclipses previous state-of-the-art performance in both settings and on both
+datasets. Finally, following observations during published code review and
+attempts to reproduce past segmentation results, we find a need to disambiguate
+the definition and implementation of widely-used evaluation metrics. We resolve
+this ambiguity by delineating two distinct evaluation schemes and describing
+their nuances.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Strgar_L/0/1/0/all/0/1&quot;&gt;Luke Strgar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Harwath_D/0/1/0/all/0/1&quot;&gt;David Harwath&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01515">
+<title>MAST: Multiscale Audio Spectrogram Transformers. (arXiv:2211.01515v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01515</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present Multiscale Audio Spectrogram Transformer (MAST) for audio
+classification, which brings the concept of multiscale feature hierarchies to
+the Audio Spectrogram Transformer (AST). Given an input audio spectrogram we
+first patchify and project it into an initial temporal resolution and embedding
+dimension, post which the multiple stages in MAST progressively expand the
+embedding dimension while reducing the temporal resolution of the input. We use
+a pyramid structure that allows early layers of MAST operating at a high
+temporal resolution but low embedding space to model simple low-level acoustic
+information and deeper temporally coarse layers to model high-level acoustic
+information with high-dimensional embeddings. We also extend our approach to
+present a new Self-Supervised Learning (SSL) method called SS-MAST, which
+calculates a symmetric contrastive loss between latent representations from a
+student and a teacher encoder. In practice, MAST significantly outperforms AST
+by an average accuracy of 3.4% across 8 speech and non-speech tasks from the
+LAPE Benchmark. Moreover, SS-MAST achieves an absolute average improvement of
+2.6% over SSAST for both AST and MAST encoders. We make all our codes available
+on GitHub at the time of publication.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Ghosh_S/0/1/0/all/0/1&quot;&gt;Sreyan Ghosh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Seth_A/0/1/0/all/0/1&quot;&gt;Ashish Seth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Umesh_S/0/1/0/all/0/1&quot;&gt;S. Umesh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Manocha_D/0/1/0/all/0/1&quot;&gt;Dinesh Manocha&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01519">
+<title>SLICER: Learning universal audio representations using low-resource self-supervised pre-training. (arXiv:2211.01519v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01519</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a new Self-Supervised Learning (SSL) approach to pre-train
+encoders on unlabeled audio data that reduces the need for large amounts of
+labeled data for audio and speech classification. Our primary aim is to learn
+audio representations that can generalize across a large variety of speech and
+non-speech tasks in a low-resource un-labeled audio pre-training setting.
+Inspired by the recent success of clustering and contrasting learning paradigms
+for SSL-based speech representation learning, we propose SLICER (Symmetrical
+Learning of Instance and Cluster-level Efficient Representations), which brings
+together the best of both clustering and contrasting learning paradigms. We use
+a symmetric loss between latent representations from student and teacher
+encoders and simultaneously solve instance and cluster-level contrastive
+learning tasks. We obtain cluster representations online by just projecting the
+input spectrogram into an output subspace with dimensions equal to the number
+of clusters. In addition, we propose a novel mel-spectrogram augmentation
+procedure, k-mix, based on mixup, which does not require labels and aids
+unsupervised representation learning for audio. Overall, SLICER achieves
+state-of-the-art results on the LAPE Benchmark \cite{9868132}, significantly
+outperforming DeLoRes-M and other prior approaches, which are pre-trained on
+$10\times$ larger of unsupervised data. We will make all our codes available on
+GitHub.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Seth_A/0/1/0/all/0/1&quot;&gt;Ashish Seth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Ghosh_S/0/1/0/all/0/1&quot;&gt;Sreyan Ghosh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Umesh_S/0/1/0/all/0/1&quot;&gt;S. Umesh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Manocha_D/0/1/0/all/0/1&quot;&gt;Dinesh Manocha&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01522">
+<title>Losses Can Be Blessings: Routing Self-Supervised Speech Representations Towards Efficient Multilingual and Multitask Speech Processing. (arXiv:2211.01522v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01522</link>
+<description rdf:parseType="Literal">&lt;p&gt;Self-supervised learning (SSL) for rich speech representations has achieved
+empirical success in low-resource Automatic Speech Recognition (ASR) and other
+speech processing tasks, which can mitigate the necessity of a large amount of
+transcribed speech and thus has driven a growing demand for on-device ASR and
+other speech processing. However, advanced speech SSL models have become
+increasingly large, which contradicts the limited on-device resources. This gap
+could be more severe in multilingual/multitask scenarios requiring
+simultaneously recognizing multiple languages or executing multiple speech
+processing tasks. Additionally, strongly overparameterized speech SSL models
+tend to suffer from overfitting when being finetuned on low-resource speech
+corpus. This work aims to enhance the practical usage of speech SSL models
+towards a win-win in both enhanced efficiency and alleviated overfitting via
+our proposed S$^3$-Router framework, which for the first time discovers that
+simply discarding no more than 10\% of model weights via only finetuning model
+connections of speech SSL models can achieve better accuracy over standard
+weight finetuning on downstream speech processing tasks. More importantly,
+S$^3$-Router can serve as an all-in-one technique to enable (1) a new
+finetuning scheme, (2) an efficient multilingual/multitask solution, (3) a
+state-of-the-art ASR pruning technique, and (4) a new tool to quantitatively
+analyze the learned speech representation. We believe S$^3$-Router has provided
+a new perspective for practical deployment of speech SSL models. Our codes are
+available at: https://github.com/GATECH-EIC/S3-Router.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fu_Y/0/1/0/all/0/1&quot;&gt;Yonggan Fu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yang Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qian_K/0/1/0/all/0/1&quot;&gt;Kaizhi Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ye_Z/0/1/0/all/0/1&quot;&gt;Zhifan Ye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_Z/0/1/0/all/0/1&quot;&gt;Zhongzhi Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lai_C/0/1/0/all/0/1&quot;&gt;Cheng-I Lai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_Y/0/1/0/all/0/1&quot;&gt;Yingyan Lin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01571">
+<title>Phonetic-assisted Multi-Target Units Modeling for Improving Conformer-Transducer ASR system. (arXiv:2211.01571v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01571</link>
+<description rdf:parseType="Literal">&lt;p&gt;Exploiting effective target modeling units is very important and has always
+been a concern in end-to-end automatic speech recognition (ASR). In this work,
+we propose a phonetic-assisted multi-target units (PMU) modeling approach, to
+enhance the Conformer-Transducer ASR system in a progressive representation
+learning manner. Specifically, PMU first uses the pronunciation-assisted
+subword modeling (PASM) and byte pair encoding (BPE) to produce
+phonetic-induced and text-induced target units separately; Then, three new
+frameworks are investigated to enhance the acoustic encoder, including a basic
+PMU, a paraCTC and a pcaCTC, they integrate the PASM and BPE units at different
+levels for CTC and transducer multi-task training. Experiments on both
+LibriSpeech and accented ASR tasks show that, the proposed PMU significantly
+outperforms the conventional BPE, it reduces the WER of LibriSpeech clean,
+other, and six accented ASR testsets by relative 12.7%, 6.0% and 7.7%,
+respectively.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Li_L/0/1/0/all/0/1&quot;&gt;Li Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Xu_D/0/1/0/all/0/1&quot;&gt;Dongxing Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wei_H/0/1/0/all/0/1&quot;&gt;Haoran Wei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Long_Y/0/1/0/all/0/1&quot;&gt;Yanhua Long&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01585">
+<title>The ISCSLP 2022 Intelligent Cockpit Speech Recognition Challenge (ICSRC): Dataset, Tracks, Baseline and Results. (arXiv:2211.01585v1 [cs.SD])</title>
+<link>http://arxiv.org/abs/2211.01585</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper summarizes the outcomes from the ISCSLP 2022 Intelligent Cockpit
+Speech Recognition Challenge (ICSRC). We first address the necessity of the
+challenge and then introduce the associated dataset collected from a new-energy
+vehicle (NEV) covering a variety of cockpit acoustic conditions and linguistic
+contents. We then describe the track arrangement and the baseline system.
+Specifically, we set up two tracks in terms of allowed model/system size to
+investigate resource-constrained and -unconstrained setups, targeting to
+vehicle embedded as well as cloud ASR systems respectively. Finally we
+summarize the challenge results and provide the major observations from the
+submitted systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_A/0/1/0/all/0/1&quot;&gt;Ao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_F/0/1/0/all/0/1&quot;&gt;Fan Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_K/0/1/0/all/0/1&quot;&gt;Kaixun Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xie_L/0/1/0/all/0/1&quot;&gt;Lei Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_L/0/1/0/all/0/1&quot;&gt;Longbiao Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chng_E/0/1/0/all/0/1&quot;&gt;Eng Siong Chng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bu_H/0/1/0/all/0/1&quot;&gt;Hui Bu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_B/0/1/0/all/0/1&quot;&gt;Binbin Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_W/0/1/0/all/0/1&quot;&gt;Wei Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_X/0/1/0/all/0/1&quot;&gt;Xin Xu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01599">
+<title>Convolution channel separation and frequency sub-bands aggregation for music genre classification. (arXiv:2211.01599v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01599</link>
+<description rdf:parseType="Literal">&lt;p&gt;In music, short-term features such as pitch and tempo constitute long-term
+semantic features such as melody and narrative. A music genre classification
+(MGC) system should be able to analyze these features. In this research, we
+propose a novel framework that can extract and aggregate both short- and
+long-term features hierarchically. Our framework is based on ECAPA-TDNN, where
+all the layers that extract short-term features are affected by the layers that
+extract long-term features because of the back-propagation training. To prevent
+the distortion of short-term features, we devised the convolution channel
+separation technique that separates short-term features from long-term feature
+extraction paths. To extract more diverse features from our framework, we
+incorporated the frequency sub-bands aggregation method, which divides the
+input spectrogram along frequency bandwidths and processes each segment. We
+evaluated our framework using the Melon Playlist dataset which is a large-scale
+dataset containing 600 times more data than GTZAN which is a widely used
+dataset in MGC studies. As the result, our framework achieved 70.4% accuracy,
+which was improved by 16.9% compared to a conventional framework.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Heo_J/0/1/0/all/0/1&quot;&gt;Jungwoo Heo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Shin_H/0/1/0/all/0/1&quot;&gt;Hyun-seo Shin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Kim_J/0/1/0/all/0/1&quot;&gt;Ju-ho Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Lim_C/0/1/0/all/0/1&quot;&gt;Chan-yeong Lim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Yu_H/0/1/0/all/0/1&quot;&gt;Ha-Jin Yu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01621">
+<title>Leveraging Domain Features for Detecting Adversarial Attacks Against Deep Speech Recognition in Noise. (arXiv:2211.01621v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01621</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, significant progress has been made in deep model-based
+automatic speech recognition (ASR), leading to its widespread deployment in the
+real world. At the same time, adversarial attacks against deep ASR systems are
+highly successful. Various methods have been proposed to defend ASR systems
+from these attacks. However, existing classification based methods focus on the
+design of deep learning models while lacking exploration of domain specific
+features. This work leverages filter bank-based features to better capture the
+characteristics of attacks for improved detection. Furthermore, the paper
+analyses the potentials of using speech and non-speech parts separately in
+detecting adversarial attacks. In the end, considering adverse environments
+where ASR systems may be deployed, we study the impact of acoustic noise of
+various types and signal-to-noise ratios. Extensive experiments show that the
+inverse filter bank features generally perform better in both clean and noisy
+environments, the detection is effective using either speech or non-speech
+part, and the acoustic noise can largely degrade the detection performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Nielsen_C/0/1/0/all/0/1&quot;&gt;Christian Heider Nielsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Tan_Z/0/1/0/all/0/1&quot;&gt;Zheng-Hua Tan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01646">
+<title>Adversarial Data Augmentation Using VAE-GAN for Disordered Speech Recognition. (arXiv:2211.01646v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01646</link>
+<description rdf:parseType="Literal">&lt;p&gt;Automatic recognition of disordered speech remains a highly challenging task
+to date. The underlying neuro-motor conditions, often compounded with
+co-occurring physical disabilities, lead to the difficulty in collecting large
+quantities of impaired speech required for ASR system development. This paper
+presents novel variational auto-encoder generative adversarial network
+(VAE-GAN) based personalized disordered speech augmentation approaches that
+simultaneously learn to encode, generate and discriminate synthesized impaired
+speech. Separate latent features are derived to learn dysarthric speech
+characteristics and phoneme context representations. Self-supervised
+pre-trained Wav2vec 2.0 embedding features are also incorporated. Experiments
+conducted on the UASpeech corpus suggest the proposed adversarial data
+augmentation approach consistently outperformed the baseline speed perturbation
+and non-VAE GAN augmentation methods with trained hybrid TDNN and End-to-end
+Conformer systems. After LHUC speaker adaptation, the best system using VAE-GAN
+based augmentation produced an overall WER of 27.78% on the UASpeech test set
+of 16 dysarthric speakers, and the lowest published WER of 57.31% on the subset
+of speakers with &quot;Very Low&quot; intelligibility.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Jin_Z/0/1/0/all/0/1&quot;&gt;Zengrui Jin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Xie_X/0/1/0/all/0/1&quot;&gt;Xurong Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Geng_M/0/1/0/all/0/1&quot;&gt;Mengzhe Geng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wang_T/0/1/0/all/0/1&quot;&gt;Tianzi Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Hu_S/0/1/0/all/0/1&quot;&gt;Shujie Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Deng_J/0/1/0/all/0/1&quot;&gt;Jiajun Deng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Li_G/0/1/0/all/0/1&quot;&gt;Guinan Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Liu_X/0/1/0/all/0/1&quot;&gt;Xunying Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01669">
+<title>Channel-Aware Pretraining of Joint Encoder-Decoder Self-Supervised Model for Telephonic-Speech ASR. (arXiv:2211.01669v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01669</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper proposes a novel technique to obtain better downstream ASR
+performance from a joint encoder-decoder self-supervised model when trained
+with speech pooled from two different channels (narrow and wide band). The
+joint encoder-decoder self-supervised model extends the HuBERT model with a
+Transformer decoder. HuBERT performs clustering of features and predicts the
+class of every input frame. In simple pooling, which is our baseline, there is
+no way to identify the channel information. To incorporate channel information,
+we have proposed non-overlapping cluster IDs for speech from different
+channels. Our method gives a relative improvement of ~ 5% over the joint
+encoder-decoder self-supervised model built with simple pooling of data, which
+serves as our baseline.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Sukhadia_V/0/1/0/all/0/1&quot;&gt;Vrunda N. Sukhadia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Arunkumar_A/0/1/0/all/0/1&quot;&gt;A. Arunkumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Umesh_S/0/1/0/all/0/1&quot;&gt;S. Umesh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01704">
+<title>Cutting Through the Noise: An Empirical Comparison of Psychoacoustic and Envelope-based Features for Machinery Fault Detection. (arXiv:2211.01704v1 [eess.SP])</title>
+<link>http://arxiv.org/abs/2211.01704</link>
+<description rdf:parseType="Literal">&lt;p&gt;Acoustic-based fault detection has a high potential to monitor the health
+condition of mechanical parts. However, the background noise of an industrial
+environment may negatively influence the performance of fault detection.
+Limited attention has been paid to improving the robustness of fault detection
+against industrial environmental noise. Therefore, we present the Lenze
+production background-noise (LPBN) real-world dataset and an automated and
+noise-robust auditory inspection (ARAI) system for the end-of-line inspection
+of geared motors. An acoustic array is used to acquire data from motors with a
+minor fault, major fault, or which are healthy. A benchmark is provided to
+compare the psychoacoustic features with different types of envelope features
+based on expert knowledge of the gearbox. To the best of our knowledge, we are
+the first to apply time-varying psychoacoustic features for fault detection. We
+train a state-of-the-art one-class-classifier, on samples from healthy motors
+and separate the faulty ones for fault detection using a threshold. The
+best-performing approaches achieve an area under curve of 0.87 (logarithm
+envelope), 0.86 (time-varying psychoacoustics), and 0.91 (combination of both).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wissbrock_P/0/1/0/all/0/1&quot;&gt;Peter Wi&amp;#xdf;brock&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Richter_Y/0/1/0/all/0/1&quot;&gt;Yvonne Richter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Pelkmann_D/0/1/0/all/0/1&quot;&gt;David Pelkmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Ren_Z/0/1/0/all/0/1&quot;&gt;Zhao Ren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Palmer_G/0/1/0/all/0/1&quot;&gt;Gregory Palmer&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01716">
+<title>Discussion of Features for Acoustic Anomaly Detection under Industrial Disturbing Noise in an End-of-Line Test of Geared Motors. (arXiv:2211.01716v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01716</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the end-of-line test of geared motors, the evaluation of product qual-ity
+is important. Due to time constraints and the high diversity of variants,
+acous-tic measurements are more economical than vibration measurements.
+However, the acoustic data is affected by industrial disturbing noise.
+Therefore, the aim of this study is to investigate the robustness of features
+used for anomaly detection in geared motor end-of-line testing. A real-world
+dataset with typical faults and acoustic disturbances is recorded by an
+acoustic array. This includes industrial noise from the production and
+systematically produced disturbances, used to compare the robustness. Overall,
+it is proposed to apply features extracted from a log-envelope spectrum
+together with psychoacoustic features. The anomaly de-tection is done by using
+the isolation forest or the more universal bagging random miner. Most
+disturbances can be circumvented, while the use of a hammer or air pressure
+often causes problems. In general, these results are important for condi-tion
+monitoring tasks that are based on acoustic or vibration measurements.
+Fur-thermore, a real-world problem description is presented to improve common
+sig-nal processing and machine learning tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wissbrock_P/0/1/0/all/0/1&quot;&gt;Peter Wissbrock&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Pelkmann_D/0/1/0/all/0/1&quot;&gt;David Pelkmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Richter_Y/0/1/0/all/0/1&quot;&gt;Yvonne Richter&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01722">
+<title>Hybrid-SD ($\text{H}_{\text{SD}}$) : A new hybrid evaluation metric for automatic speech recognition tasks. (arXiv:2211.01722v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/2211.01722</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many studies have examined the shortcomings of word error rate (WER) as an
+evaluation metric for automatic speech recognition (ASR) systems, particularly
+when used for spoken language understanding tasks such as intent recognition
+and dialogue systems. In this paper, we propose Hybrid-SD
+($\text{H}_{\text{SD}}$), a new hybrid evaluation metric for ASR systems that
+takes into account both semantic correctness and error rate. To generate
+sentence dissimilarity scores (SD), we built a fast and lightweight SNanoBERT
+model using distillation techniques. Our experiments show that the SNanoBERT
+model is 25.9x smaller and 38.8x faster than SRoBERTa while achieving
+comparable results on well-known benchmarks. Hence, making it suitable for
+deploying with ASR models on edge devices. We also show that
+$\text{H}_{\text{SD}}$ correlates more strongly with downstream tasks such as
+intent recognition and named-entity recognition (NER).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sasindran_Z/0/1/0/all/0/1&quot;&gt;Zitha Sasindran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yelchuri_H/0/1/0/all/0/1&quot;&gt;Harsha Yelchuri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rao_S/0/1/0/all/0/1&quot;&gt;Supreeth Rao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Prabhakar_T/0/1/0/all/0/1&quot;&gt;T. V. Prabhakar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01751">
+<title>Iterative autoregression: a novel trick to improve your low-latency speech enhancement model. (arXiv:2211.01751v1 [cs.SD])</title>
+<link>http://arxiv.org/abs/2211.01751</link>
+<description rdf:parseType="Literal">&lt;p&gt;Streaming models are an essential component of real-time speech enhancement
+tools. The streaming regime constrains speech enhancement models to use only a
+tiny context of future information, thus, the low-latency streaming setup is
+generally assumed to be challenging and has a significant negative effect on
+the model quality. However, due to the sequential nature of streaming
+generation, it provides a natural possibility for autoregression, i.e., using
+previous predictions when making current ones. In this paper, we present a
+simple, yet effective trick for training of autoregressive low-latency speech
+enhancement models. We demonstrate that the proposed technique leads to stable
+improvement across different architectures and training scenarios.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Andreev_P/0/1/0/all/0/1&quot;&gt;Pavel Andreev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Babaev_N/0/1/0/all/0/1&quot;&gt;Nicholas Babaev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Saginbaev_A/0/1/0/all/0/1&quot;&gt;Azat Saginbaev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shchekotov_I/0/1/0/all/0/1&quot;&gt;Ivan Shchekotov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01756">
+<title>Speech-based emotion recognition with self-supervised models using attentive channel-wise correlations and label smoothing. (arXiv:2211.01756v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01756</link>
+<description rdf:parseType="Literal">&lt;p&gt;When recognizing emotions from speech, we encounter two common problems: how
+to optimally capture emotion-relevant information from the speech signal and
+how to best quantify or categorize the noisy subjective emotion labels.
+Self-supervised pre-trained representations can robustly capture information
+from speech enabling state-of-the-art results in many downstream tasks
+including emotion recognition. However, better ways of aggregating the
+information across time need to be considered as the relevant emotion
+information is likely to appear piecewise and not uniformly across the signal.
+For the labels, we need to take into account that there is a substantial degree
+of noise that comes from the subjective human annotations. In this paper, we
+propose a novel approach to attentive pooling based on correlations between the
+representations&apos; coefficients combined with label smoothing, a method aiming to
+reduce the confidence of the classifier on the training labels. We evaluate our
+proposed approach on the benchmark dataset IEMOCAP, and demonstrate high
+performance surpassing that in the literature. The code to reproduce the
+results is available at github.com/skakouros/s3prl_attentive_correlation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Kakouros_S/0/1/0/all/0/1&quot;&gt;Sofoklis Kakouros&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Stafylakis_T/0/1/0/all/0/1&quot;&gt;Themos Stafylakis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Mosner_L/0/1/0/all/0/1&quot;&gt;Ladislav Mosner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Burget_L/0/1/0/all/0/1&quot;&gt;Lukas Burget&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01839">
+<title>HyperSound: Generating Implicit Neural Representations of Audio Signals with Hypernetworks. (arXiv:2211.01839v1 [cs.SD])</title>
+<link>http://arxiv.org/abs/2211.01839</link>
+<description rdf:parseType="Literal">&lt;p&gt;Implicit neural representations (INRs) are a rapidly growing research field,
+which provides alternative ways to represent multimedia signals. Recent
+applications of INRs include image super-resolution, compression of
+high-dimensional signals, or 3D rendering. However, these solutions usually
+focus on visual data, and adapting them to the audio domain is not trivial.
+Moreover, it requires a separately trained model for every data sample. To
+address this limitation, we propose HyperSound, a meta-learning method
+leveraging hypernetworks to produce INRs for audio signals unseen at training
+time. We show that our approach can reconstruct sound waves with quality
+comparable to other state-of-the-art models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Szatkowski_F/0/1/0/all/0/1&quot;&gt;Filip Szatkowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Piczak_K/0/1/0/all/0/1&quot;&gt;Karol J. Piczak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Spurek_P/0/1/0/all/0/1&quot;&gt;Przemys&amp;#x142;aw Spurek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tabor_J/0/1/0/all/0/1&quot;&gt;Jacek Tabor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Trzcinski_T/0/1/0/all/0/1&quot;&gt;Tomasz Trzci&amp;#x144;ski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01966">
+<title>MarginNCE: Robust Sound Localization with a Negative Margin. (arXiv:2211.01966v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/2211.01966</link>
+<description rdf:parseType="Literal">&lt;p&gt;The goal of this work is to localize sound sources in visual scenes with a
+self-supervised approach. Contrastive learning in the context of sound source
+localization leverages the natural correspondence between audio and visual
+signals where the audio-visual pairs from the same source are assumed as
+positive, while randomly selected pairs are negatives. However, this approach
+brings in noisy correspondences; for example, positive audio and visual pair
+signals that may be unrelated to each other, or negative pairs that may contain
+semantically similar samples to the positive one. Our key contribution in this
+work is to show that using a less strict decision boundary in contrastive
+learning can alleviate the effect of noisy correspondences in sound source
+localization. We propose a simple yet effective approach by slightly modifying
+the contrastive loss with a negative margin. Extensive experimental results
+show that our approach gives on-par or better performance than the
+state-of-the-art methods. Furthermore, we demonstrate that the introduction of
+a negative margin to existing methods results in a consistent improvement in
+performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Park_S/0/1/0/all/0/1&quot;&gt;Sooyoung Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Senocak_A/0/1/0/all/0/1&quot;&gt;Arda Senocak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chung_J/0/1/0/all/0/1&quot;&gt;Joon Son Chung&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01993">
+<title>Probing Statistical Representations For End-To-End ASR. (arXiv:2211.01993v1 [cs.CL])</title>
+<link>http://arxiv.org/abs/2211.01993</link>
+<description rdf:parseType="Literal">&lt;p&gt;End-to-End automatic speech recognition (ASR) models aim to learn a
+generalised speech representation to perform recognition. In this domain there
+is little research to analyse internal representation dependencies and their
+relationship to modelling approaches. This paper investigates cross-domain
+language model dependencies within transformer architectures using SVCCA and
+uses these insights to exploit modelling approaches. It was found that specific
+neural representations within the transformer layers exhibit correlated
+behaviour which impacts recognition performance.
+&lt;/p&gt;
+&lt;p&gt;Altogether, this work provides analysis of the modelling approaches affecting
+contextual dependencies and ASR performance, and can be used to create or adapt
+better performing End-to-End ASR models and also for downstream tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ollerenshaw_A/0/1/0/all/0/1&quot;&gt;Anna Ollerenshaw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jalal_M/0/1/0/all/0/1&quot;&gt;Md Asif Jalal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hain_T/0/1/0/all/0/1&quot;&gt;Thomas Hain&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02000">
+<title>Dynamic Kernels and Channel Attention with Multi-Layer Embedding Aggregation for Speaker Verification. (arXiv:2211.02000v1 [cs.SD])</title>
+<link>http://arxiv.org/abs/2211.02000</link>
+<description rdf:parseType="Literal">&lt;p&gt;State-of-the-art speaker verification frameworks have typically focused on
+speech enhancement techniques with increasingly deeper (more layers) and wider
+(number of channels) models to improve their verification performance. Instead,
+this paper proposes an approach to increase the model resolution capability
+using attention-based dynamic kernels in a convolutional neural network to
+adapt the model parameters to be feature-conditioned. The attention weights on
+the kernels are further distilled by channel attention and multi-layer feature
+aggregation to learn global features from speech. This approach provides an
+efficient solution to improving representation capacity with lower data
+resources. This is due to the self-adaptation to inputs of the structures of
+the model parameters. The proposed dynamic convolutional model achieved 1.62\%
+EER and 0.18 miniDCF on the VoxCeleb1 test set and has a 17\% relative
+improvement compared to the ECAPA-TDNN.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ollerenshaw_A/0/1/0/all/0/1&quot;&gt;Anna Ollerenshaw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jalal_M/0/1/0/all/0/1&quot;&gt;Md Asif Jalal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hain_T/0/1/0/all/0/1&quot;&gt;Thomas Hain&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.09130">
+<title>Artificial Intelligence for Suicide Assessment using Audiovisual Cues: A Review. (arXiv:2201.09130v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.09130</link>
+<description rdf:parseType="Literal">&lt;p&gt;Death by suicide is the seventh leading death cause worldwide. The recent
+advancement in Artificial Intelligence (AI), specifically AI applications in
+image and voice processing, has created a promising opportunity to
+revolutionize suicide risk assessment. Subsequently, we have witnessed
+fast-growing literature of research that applies AI to extract audiovisual
+non-verbal cues for mental illness assessment. However, the majority of the
+recent works focus on depression, despite the evident difference between
+depression symptoms and suicidal behavior and non-verbal cues. This paper
+reviews recent works that study suicide ideation and suicide behavior detection
+through audiovisual feature analysis, mainly suicidal voice/speech acoustic
+features analysis and suicidal visual cues. Automatic suicide assessment is a
+promising research direction that is still in the early stages. Accordingly,
+there is a lack of large datasets that can be used to train machine learning
+and deep learning models proven to be effective in other, similar tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dhelim_S/0/1/0/all/0/1&quot;&gt;Sahraoui Dhelim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1&quot;&gt;Liming Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ning_H/0/1/0/all/0/1&quot;&gt;Huansheng Ning&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nugent_C/0/1/0/all/0/1&quot;&gt;Chris Nugent&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.02637">
+<title>Global HRTF Interpolation via Learned Affine Transformation of Hyper-conditioned Features. (arXiv:2204.02637v2 [eess.AS] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.02637</link>
+<description rdf:parseType="Literal">&lt;p&gt;Estimating Head-Related Transfer Functions (HRTFs) of arbitrary source points
+is essential in immersive binaural audio rendering. Computing each individual&apos;s
+HRTFs is challenging, as traditional approaches require expensive time and
+computational resources, while modern data-driven approaches are data-hungry.
+Especially for the data-driven approaches, existing HRTF datasets differ in
+spatial sampling distributions of source positions, posing a major problem when
+generalizing the method across multiple datasets. To alleviate this, we propose
+a deep learning method based on a novel conditioning architecture. The proposed
+method can predict an HRTF of any position by interpolating the HRTFs of known
+distributions. Experimental results show that the proposed architecture
+improves the model&apos;s generalizability across datasets with various coordinate
+systems. Additional demonstrations show that the model robustly reconstructs
+the target HRTFs from the spatially downsampled HRTFs in both quantitative and
+perceptual measures.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Lee_J/0/1/0/all/0/1&quot;&gt;Jin Woo Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Lee_S/0/1/0/all/0/1&quot;&gt;Sungho Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Lee_K/0/1/0/all/0/1&quot;&gt;Kyogu Lee&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.03421">
+<title>Self-supervised learning for robust voice cloning. (arXiv:2204.03421v2 [cs.SD] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.03421</link>
+<description rdf:parseType="Literal">&lt;p&gt;Voice cloning is a difficult task which requires robust and informative
+features incorporated in a high quality TTS system in order to effectively copy
+an unseen speaker&apos;s voice. In our work, we utilize features learned in a
+self-supervised framework via the Bootstrap Your Own Latent (BYOL) method,
+which is shown to produce high quality speech representations when specific
+audio augmentations are applied to the vanilla algorithm. We further extend the
+augmentations in the training procedure to aid the resulting features to
+capture the speaker identity and to make them robust to noise and acoustic
+conditions. The learned features are used as pre-trained utterance-level
+embeddings and as inputs to a Non-Attentive Tacotron based architecture, aiming
+to achieve multispeaker speech synthesis without utilizing additional speaker
+features. This method enables us to train our model in an unlabeled
+multispeaker dataset as well as use unseen speaker embeddings to copy a
+speaker&apos;s voice. Subjective and objective evaluations are used to validate the
+proposed model, as well as the robustness to the acoustic conditions of the
+target utterance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Klapsas_K/0/1/0/all/0/1&quot;&gt;Konstantinos Klapsas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ellinas_N/0/1/0/all/0/1&quot;&gt;Nikolaos Ellinas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nikitaras_K/0/1/0/all/0/1&quot;&gt;Karolos Nikitaras&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vamvoukakis_G/0/1/0/all/0/1&quot;&gt;Georgios Vamvoukakis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kakoulidis_P/0/1/0/all/0/1&quot;&gt;Panos Kakoulidis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Markopoulos_K/0/1/0/all/0/1&quot;&gt;Konstantinos Markopoulos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Raptis_S/0/1/0/all/0/1&quot;&gt;Spyros Raptis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sung_J/0/1/0/all/0/1&quot;&gt;June Sig Sung&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jho_G/0/1/0/all/0/1&quot;&gt;Gunu Jho&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chalamandaris_A/0/1/0/all/0/1&quot;&gt;Aimilios Chalamandaris&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tsiakoulis_P/0/1/0/all/0/1&quot;&gt;Pirros Tsiakoulis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.05735">
+<title>Learning ASR pathways: A sparse multilingual ASR model. (arXiv:2209.05735v2 [eess.AS] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.05735</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural network pruning compresses automatic speech recognition (ASR) models
+effectively. However, in multilingual ASR, language-agnostic pruning may lead
+to severe performance drops on some languages because language-agnostic pruning
+masks may not fit all languages and discard important language-specific
+parameters. In this work, we present ASR pathways, a sparse multilingual ASR
+model that activates language-specific sub-networks (&quot;pathways&quot;), such that the
+parameters for each language are learned explicitly. With the overlapping
+sub-networks, the shared parameters can also enable knowledge transfer for
+lower-resource languages via joint multilingual training. We propose a novel
+algorithm to learn ASR pathways, and evaluate the proposed method on 4
+languages with a streaming RNN-T model. Our proposed ASR pathways outperform
+both dense models and a language-agnostically pruned model, and provide better
+performance on low-resource languages compared to the monolingual sparse
+models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Yang_M/0/1/0/all/0/1&quot;&gt;Mu Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Tjandra_A/0/1/0/all/0/1&quot;&gt;Andros Tjandra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chunxi Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zhang_D/0/1/0/all/0/1&quot;&gt;David Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Le_D/0/1/0/all/0/1&quot;&gt;Duc Le&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Kalinli_O/0/1/0/all/0/1&quot;&gt;Ozlem Kalinli&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.13944">
+<title>A Survey on Artificial Intelligence for Music Generation: Agents, Domains and Perspectives. (arXiv:2210.13944v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.13944</link>
+<description rdf:parseType="Literal">&lt;p&gt;Music is one of the Gardner&apos;s intelligences in his theory of multiple
+intelligences. How humans perceive and understand music is still being studied
+and is crucial to develop artificial intelligence models that imitate such
+processes. Music generation with Artificial Intelligence is an emerging field
+that is gaining much attention in the recent years. In this paper, we describe
+how humans compose music and how new AI systems could imitate such process by
+comparing past and recent advances in the field with music composition
+techniques. To understand how AI models and algorithms generate music and the
+potential applications that might appear in the future, we explore, analyze and
+describe the agents that take part of the music generation process: the
+datasets, models, interfaces, the users and the generated music. We mention
+possible applications that might benefit from this field and we also propose
+new trends and future research directions that could be explored in the future.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hernandez_Olivan_C/0/1/0/all/0/1&quot;&gt;Carlos Hernandez-Olivan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hernandez_Olivan_J/0/1/0/all/0/1&quot;&gt;Javier Hernandez-Olivan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beltran_J/0/1/0/all/0/1&quot;&gt;Jose R. Beltran&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16127">
+<title>Target-Speaker Voice Activity Detection via Sequence-to-Sequence Prediction. (arXiv:2210.16127v2 [eess.AS] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16127</link>
+<description rdf:parseType="Literal">&lt;p&gt;Target-speaker voice activity detection is currently a promising approach for
+speaker diarization in complex acoustic environments. This paper presents a
+novel Sequence-to-Sequence Target-Speaker Voice Activity Detection
+(Seq2Seq-TSVAD) method that can efficiently address the joint modeling of
+large-scale speakers and predict high-resolution voice activities. Experimental
+results show that larger speaker capacity and higher output resolution can
+significantly reduce the diarization error rate (DER), which achieves the new
+state-of-the-art performance of 4.55% on the VoxConverse test set and 10.77% on
+Track 1 of the DIHARD-III evaluation set under the widely-used evaluation
+metrics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Cheng_M/0/1/0/all/0/1&quot;&gt;Ming Cheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Weiqing Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yucong Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Qin_X/0/1/0/all/0/1&quot;&gt;Xiaoyi Qin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Li_M/0/1/0/all/0/1&quot;&gt;Ming Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00119">
+<title>Active Learning of Non-semantic Speech Tasks with Pretrained Models. (arXiv:2211.00119v2 [cs.SD] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00119</link>
+<description rdf:parseType="Literal">&lt;p&gt;Pretraining neural networks with massive unlabeled datasets has become
+popular as it equips the deep models with a better prior to solve downstream
+tasks. However, this approach generally assumes that for downstream tasks, we
+have access to annotated data of sufficient size. In this work, we propose
+ALOE, a novel system for improving the data- and label-efficiency of
+non-semantic speech tasks with active learning (AL). ALOE uses pre-trained
+models in conjunction with active learning to label data incrementally and
+learns classifiers for downstream tasks, thereby mitigating the need to acquire
+labeled data beforehand. We demonstrate the effectiveness of ALOE on a wide
+range of tasks, uncertainty-based acquisition functions, and model
+architectures. Training a linear classifier on top of a frozen encoder with
+ALOE is shown to achieve performance similar to several baselines that utilize
+the entire labeled data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_H/0/1/0/all/0/1&quot;&gt;Harlin Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Saeed_A/0/1/0/all/0/1&quot;&gt;Aaqib Saeed&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bertozzi_A/0/1/0/all/0/1&quot;&gt;Andrea L. Bertozzi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01180">
+<title>M-SpeechCLIP: Leveraging Large-Scale, Pre-Trained Models for Multilingual Speech to Image Retrieval. (arXiv:2211.01180v1 [cs.CL] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.01180</link>
+<description rdf:parseType="Literal">&lt;p&gt;This work investigates the use of large-scale, pre-trained models (CLIP and
+HuBERT) for multilingual speech-image retrieval. For non-English speech-image
+retrieval, we outperform the current state-of-the-art performance by a wide
+margin when training separate models for each language, and show that a single
+model which processes speech in all three languages still achieves retrieval
+scores comparable with the prior state-of-the-art. We identify key differences
+in model behavior and performance between English and non-English settings,
+presumably attributable to the English-only pre-training of CLIP and HuBERT.
+Finally, we show that our models can be used for mono- and cross-lingual
+speech-text retrieval and cross-lingual speech-speech retrieval, despite never
+having seen any parallel speech-text or speech-speech data during training.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Berry_L/0/1/0/all/0/1&quot;&gt;Layne Berry&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shih_Y/0/1/0/all/0/1&quot;&gt;Yi-Jen Shih&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hsuan-Fu Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chang_H/0/1/0/all/0/1&quot;&gt;Heng-Jui Chang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_H/0/1/0/all/0/1&quot;&gt;Hung-yi Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Harwath_D/0/1/0/all/0/1&quot;&gt;David Harwath&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
