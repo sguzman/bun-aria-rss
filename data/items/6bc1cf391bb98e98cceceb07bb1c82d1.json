@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-13120 (amazon_web_services_freertos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-13120",
+  "description": "Amazon FreeRTOS up to and including v1.4.8 lacks length checking in prvProcessReceivedPublish, resulting in untargetable leakage of arbitrary memory contents on a device to an attacker. If an attacker has the authorization to send a malformed MQTT publish packet to an Amazon IoT Thing, which interacts with an associated vulnerable MQTT message in the application, specific circumstances could trigger this vulnerability.",
+  "dc:date": "2019-10-07T22:15:10Z"
+}

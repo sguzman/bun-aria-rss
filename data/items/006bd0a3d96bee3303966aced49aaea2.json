@@ -1,0 +1,17 @@
+{
+  "title": "Hierarchical Softmax",
+  "link": "https://building-babylon.net/2017/08/01/hierarchical-softmax/",
+  "comments": "https://building-babylon.net/2017/08/01/hierarchical-softmax/#comments",
+  "dc:creator": "Benjamin",
+  "pubDate": "Tue, 01 Aug 2017 08:29:58 +0000",
+  "category": [
+    "Optimisation",
+    "hierarchical softmax",
+    "word classes",
+    "word2vec"
+  ],
+  "guid": "http://building-babylon.net/?p=11122",
+  "description": "[These are the notes from a talk I gave at the seminar] Hierarchical softmax is an alternative to the softmax in which the probability of any one outcome depends on a number of model parameters that is only logarithmic in the total number of outcomes. In &#8220;vanilla&#8221; softmax, on the other hand, the number of &#8230; <p class=\"link-more\"><a href=\"https://building-babylon.net/2017/08/01/hierarchical-softmax/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> \"Hierarchical Softmax\"</span></a></p>",
+  "wfw:commentRss": "https://building-babylon.net/2017/08/01/hierarchical-softmax/feed/",
+  "slash:comments": 9
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42745 (candidats)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42745",
+  "description": "CandidATS version 3.0.0 allows an external attacker to read arbitrary files from the server. This is possible because the application is vulnerable to XXE.",
+  "dc:date": "2022-11-03T20:15:32Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:2VrnkXd9QR8",
+  "yt:videoId": "2VrnkXd9QR8",
+  "yt:channelId": "UC7C2ikNDAMrRIAkfgVwm4Ug",
+  "title": "Systolic Arrays: The coolest way to multiply matrices",
+  "link": "",
+  "author": {
+    "name": "SigFyg",
+    "uri": "https://www.youtube.com/channel/UC7C2ikNDAMrRIAkfgVwm4Ug"
+  },
+  "published": "2021-08-01T19:41:30+00:00",
+  "updated": "2022-07-22T03:05:32+00:00",
+  "media:group": {
+    "media:title": "Systolic Arrays: The coolest way to multiply matrices",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "EXTRA NOTES: \n- To be clear, this is NOT the fast matrix multiplication algorithm described here: https://en.wikipedia.org/wiki/Strassen_algorithm\nThe way I count the multiplies and adds is different from the way they are counted from a math perspective. In this video, when several multiplications happen in parallel (in one time step), I count it as one multiply, but from a math perspective they would still be counted as separate multiplies. The Strassen algorithm actually reduces the raw number of operations without using parallel computing.\n\n- Multiply and add computations are referred to as MACs (Multiply-Accumulate) in the electrical/computer engineering community.\nhttps://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation\n\n- In this video, I kept track of the number of multiplies and adds, but not the number of times each algorithm had to store and load the data in the memory. However, the idea is still the same: systolic arrays can shrink the number of stores and loads needed to compute the multiplication.\n\n- More details: \nhttps://en.wikipedia.org/wiki/Systolic_array\nhttps://en.wikipedia.org/wiki/Matrix_multiplication_algorithm\n\n\nMusic:\nPhoenix Wright Ace Attorney - Investigation Core 2001\nDonkey Kong Country Returns - Automatic Action",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
