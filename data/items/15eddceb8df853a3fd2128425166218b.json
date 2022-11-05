@@ -1,0 +1,11 @@
+{
+  "title": "Model evaluation, model selection, and algorithm selection in machine learning",
+  "description": "This final article in the series *Model evaluation, model selection, and algorithm selection in machine learning* presents overviews of several statistical hypothesis testing approaches, with applications to machine learning model and algorithm comparisons. This includes statistical tests based on target predictions for independent test sets (the downsides of using a single test set for model comparisons was discussed in previous articles) as well as methods for algorithm comparisons by fitting and evaluating models via cross-validation. Lastly, this article will introduce *nested cross-validation*, which has become a common and recommended a method of choice for algorithm comparisons for small to moderately-sized datasets.",
+  "pubDate": "Sat, 10 Nov 2018 22:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html",
+  "guid": "https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html",
+  "category": [
+    "Machine-learning",
+    "Python"
+  ]
+}
