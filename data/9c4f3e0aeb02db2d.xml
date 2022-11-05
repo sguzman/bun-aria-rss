@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Peadar Coyle</title>
+	<atom:link href="https://peadarcoyle.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://peadarcoyle.com</link>
+	<description>Data &#38; Machine Learning &#38; Product</description>
+	<lastBuildDate>Sat, 09 Apr 2022 14:53:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://s0.wp.com/i/webclip.png</url>
+	<title>Peadar Coyle</title>
+	<link>https://peadarcoyle.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">8735831</site>	<item>
+		<title>Tools as bicycles of the mind</title>
+		<link>https://peadarcoyle.com/2022/04/09/tools-as-bicycles-of-the-mind/</link>
+					<comments>https://peadarcoyle.com/2022/04/09/tools-as-bicycles-of-the-mind/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Sat, 09 Apr 2022 14:53:27 +0000</pubDate>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Cognitive toolkit]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[creativity]]></category>
+		<category><![CDATA[product]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[UX]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2705</guid>
+
+					<description><![CDATA[At http://www.aflorithmic.ai we&#8217;re building infrastructure for creating audio experiences. Fundamentally, there&#8217;s a huge part of creativity involved there. And personally I believe the human creativity is almost limitless. Previously I spent a lot of my career building tooling and infrastructure for data scientists and researchers. So while I&#8217;m not a super expert on Api design,&#8230; <a href="https://peadarcoyle.com/2022/04/09/tools-as-bicycles-of-the-mind/" class="more-link">Continue reading <span class="screen-reader-text">Tools as bicycles of the mind</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>At <a href="http://www.aflorithmic.ai" rel="nofollow">http://www.aflorithmic.ai</a> we&#8217;re building infrastructure for creating audio experiences. Fundamentally, there&#8217;s a huge part of creativity involved there. And personally I believe the human creativity is almost limitless. </p>
+
+
+
+<p>Previously I spent a lot of my career building tooling and infrastructure for data scientists and researchers. So while I&#8217;m not a super expert on Api design, I know a few things about building developer tools and thinking in terms of usability.</p>
+
+
+
+<p>Einstein allegedly said something like &#8220;My pencil and I are smarter than I am&#8221;. So computers, and various technologies are only part of a long standing interaction between humans and tools. I&#8217;m fascinated by some of the literature on the effect of the light bulb on human cognition. </p>
+
+
+
+<p>I&#8217;ve been recently looking at <a href="https://openai.com/blog/dall-e/" data-type="URL" data-id="https://openai.com/blog/dall-e/">DALLE</a> by Open AI and I think the same as Mark here. These tools will unlock a lot of human creativity. One challenge is the question of whether it &#8216;replaces&#8217; human creativity. I&#8217;ve found in the past that a lot of creativity tools need prompts, there&#8217;s something about writers block, or as someone said &#8220;there is nothing scarier than a blank page&#8221;.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">These new AI content creation tools are going to be jetpacks for the mind. Steve Jobs famously called the computer a bicycle for the mind,and it enabled a lot, but this feels like the true next step. <a href="https://t.co/6al8hdWf0j">https://t.co/6al8hdWf0j</a></p>&mdash; Mark Cummins (@mark_cummins) <a href="https://twitter.com/mark_cummins/status/1512438921627676674?ref_src=twsrc%5Etfw">April 8, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><figcaption>There are all sorts of questions, about what this will lead to. However, I expect it&#8217;ll be a different set of skills. I repeatedly think about tools as unlocking latent demand, and this is often what tooling excels at. It&#8217;s what I saw with <a href="https://docs.pymc.io/en/v3/">PyMC3</a> and what I also think about <a href="http://www.api.audio" data-type="URL" data-id="www.api.audio">Api.audio</a> is unlocking. <br><br>And fundamentally, I think the Steve Jobs quote &#8220;a computer is a bicycle for the mind&#8221; is underappreciated. We see this with the rise of the Creator Economy, and I&#8217;m very excited about the dynamism that this enables both economically and also in terms of creativity. <br><br>I love speaking about stuff like this. If you&#8217;re curious to speak to me about this peadar[at]aflorithmic[dot]ai is my email <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" />  </figcaption></figure>
+
+
+
+<p><strong>Sources</strong>:</p>
+
+
+
+<p>A great book on industrial design which I found particularly eye opening is <a href="https://www.amazon.co.uk/dp/B07MF4NSPD/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1">Designing for people</a></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2022/04/09/tools-as-bicycles-of-the-mind/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2705</post-id>	</item>
+		<item>
+		<title>Delight your users</title>
+		<link>https://peadarcoyle.com/2021/08/22/delight-your-users/</link>
+					<comments>https://peadarcoyle.com/2021/08/22/delight-your-users/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Sun, 22 Aug 2021 11:57:51 +0000</pubDate>
+				<category><![CDATA[advice]]></category>
+		<category><![CDATA[Customer Lifetime Value]]></category>
+		<category><![CDATA[startup]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2567</guid>
+
+					<description><![CDATA[A friend said to me recently &#8211; &#8216;startups need to delight their users, and have an exceptional customer experience&#8217;. And that sounds like a trite, and repetitive sentence. But like a lot of cliches in life, it&#8217;s true. I was thinking recently about how many experiences I have with companies as a consumer or a&#8230; <a href="https://peadarcoyle.com/2021/08/22/delight-your-users/" class="more-link">Continue reading <span class="screen-reader-text">Delight your users</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?ssl=1"><img data-attachment-id="2572" data-permalink="https://peadarcoyle.com/2021/08/22/delight-your-users/screenshot-2021-08-22-at-12-50-44/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?fit=2298%2C844&amp;ssl=1" data-orig-size="2298,844" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2021-08-22-at-12.50.44" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?fit=300%2C110&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?fit=730%2C268&amp;ssl=1" decoding="async" width="730" height="268" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=730%2C268&#038;ssl=1" alt="" class="wp-image-2572" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=1024%2C376&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=300%2C110&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=768%2C282&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=1536%2C564&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=2048%2C752&amp;ssl=1 2048w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=900%2C331&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?resize=260%2C95&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?w=1460&amp;ssl=1 1460w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/08/Screenshot-2021-08-22-at-12.50.44.png?w=2190&amp;ssl=1 2190w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>A friend said to me recently &#8211; &#8216;startups need to delight their users, and have an exceptional customer experience&#8217;. And that sounds like a trite, and repetitive sentence. But like a lot of cliches in life, it&#8217;s true. </p>
+
+
+
+<p>I was thinking recently about how many experiences I have with companies as a consumer or a business user or a citizen that are frankly suboptimal. There&#8217;s various reasons for this, such as cost-cutting and misguided M and A. I&#8217;ve had a telco experience and banking experience that were awful. And a fintech experience with <a href="http://www.monzo.com" data-type="URL" data-id="www.monzo.com">Monzo</a> recently that was amazing. </p>
+
+
+
+<p><strong>For startups to win they need to delight their users. If they delight their users, your users evangelise for you and you have a word of mouth effect that attracts new customers.</strong> Often finding any &#8216;market&#8217; is hard for a startup. It&#8217;s brutally difficult to find your first 10 customers. And there&#8217;s a lot we can do as founders and in startups to make our early customers have a great experience. There&#8217;s the anecdote that Wufoo sent each new user a handwritten note. And this worked for much longer than they thought it would.<br><br>So founders. Go out tomorrow and try to make your users happy and give them a delightful experience. If you focus on that, everything else will work out. </p>
+
+
+
+<p>At <a href="http://www.aforithmic.ai" rel="nofollow">http://www.aforithmic.ai</a> we will be working on delighting our wonderful customers. We do this every week, but we can definitely do better!<br><br>peadar[at]aflorithmic.ai is my email so let me know your views if you have anything you think we&#8217;re doing wrongly on the customer side.</p>
+
+
+
+<p><strong>Great reading on this </strong></p>
+
+
+
+<p><a href="http://paulgraham.com/ds.html" rel="nofollow">http://paulgraham.com/ds.html</a> </p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2021/08/22/delight-your-users/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2567</post-id>	</item>
+		<item>
+		<title>Some recent reading</title>
+		<link>https://peadarcoyle.com/2021/01/08/some-recent-reading/</link>
+					<comments>https://peadarcoyle.com/2021/01/08/some-recent-reading/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Fri, 08 Jan 2021 06:19:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[aws]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[message queues]]></category>
+		<category><![CDATA[notes]]></category>
+		<category><![CDATA[serverless]]></category>
+		<category><![CDATA[software engine]]></category>
+		<category><![CDATA[SQS]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2479</guid>
+
+					<description><![CDATA[This is s short blog post. And is merely some links I came across this week. https://www.fullstackpython.com/wsgi-servers.html &#8211; a great introduction to WSGI servers in python. I hadn&#8217;t seen this written up before https://sudhir.io/understanding-connections-pools/ &#8212; Long read. This is a thorough and in-depth discussion of how connections and pools work. I must admit that while&#8230; <a href="https://peadarcoyle.com/2021/01/08/some-recent-reading/" class="more-link">Continue reading <span class="screen-reader-text">Some recent reading</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?ssl=1"><img data-attachment-id="2480" data-permalink="https://peadarcoyle.com/2021/01/08/some-recent-reading/pexels-photo-5876681/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?fit=1880%2C1253&amp;ssl=1" data-orig-size="1880,1253" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by Marta Wave on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/autumn-park-in-sunny-day-5876681\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;autumn park in sunny day&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-5876681" data-image-description="" data-image-caption="&lt;p&gt;Photo by Marta Wave on &lt;a href=&quot;https://www.pexels.com/photo/autumn-park-in-sunny-day-5876681/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?fit=730%2C486&amp;ssl=1" decoding="async" loading="lazy" width="730" height="487" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=730%2C487&#038;ssl=1" alt="autumn park in sunny day" class="wp-image-2480" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?w=1880&amp;ssl=1 1880w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=1536%2C1024&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=900%2C600&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?resize=260%2C173&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2021/01/pexels-photo-5876681.jpeg?w=1460&amp;ssl=1 1460w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></a><figcaption>Photo by Marta Wave on <a href="https://www.pexels.com/photo/autumn-park-in-sunny-day-5876681/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<p>This is s short blog post. And is merely some links I came across this week. </p>
+
+
+
+<ul><li><a href="https://www.fullstackpython.com/wsgi-servers.html">https://www.fullstackpython.com/wsgi-servers.html</a> &#8211; a great introduction to WSGI servers in python. I hadn&#8217;t seen this written up before</li><li><a href="https://sudhir.io/understanding-connections-pools/ ">https://sudhir.io/understanding-connections-pools/ </a>&#8212; Long read. This is a thorough and in-depth discussion of how connections and pools work. I must admit that while I had seen a bunch of the terminology before, I don&#8217;t think I really grokked this until reading this. It&#8217;s a great addition to your pocket.</li><li><a href="https://sudhir.io/the-big-little-guide-to-message-queues/">https://sudhir.io/the-big-little-guide-to-message-queues/</a> &#8212; a thorough introduction to message queues.</li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">https://developer.mozilla.org/en-US/docs/Web/HTTP</a> &#8212; the Mozilla Web Docs are amazing and I was doing some training on APIs in general recently at my company.</li></ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2021/01/08/some-recent-reading/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2479</post-id>	</item>
+		<item>
+		<title>Lessons from 2020</title>
+		<link>https://peadarcoyle.com/2020/12/28/lessons-from-2020/</link>
+					<comments>https://peadarcoyle.com/2020/12/28/lessons-from-2020/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 11:41:26 +0000</pubDate>
+				<category><![CDATA[advice]]></category>
+		<category><![CDATA[review]]></category>
+		<category><![CDATA[2020]]></category>
+		<category><![CDATA[covid-19]]></category>
+		<category><![CDATA[engineering leadership]]></category>
+		<category><![CDATA[leadership]]></category>
+		<category><![CDATA[startups]]></category>
+		<category><![CDATA[year in review]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2471</guid>
+
+					<description><![CDATA[I have a small document where I try to weekly write goals and what I&#8217;ve achieved. Sometimes I don&#8217;t update it, but I reviewed my 2020 version and will try to take out some takeaways. Covid-19 was incredibly disruptive to our lives, but it accelerated &#8216;digital transformation&#8217; in a number of industries, and we saw&#8230; <a href="https://peadarcoyle.com/2020/12/28/lessons-from-2020/" class="more-link">Continue reading <span class="screen-reader-text">Lessons from 2020</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?ssl=1"><img data-attachment-id="2473" data-permalink="https://peadarcoyle.com/2020/12/28/lessons-from-2020/pexels-photo-5989392/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?fit=1040%2C1300&amp;ssl=1" data-orig-size="1040,1300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by Alex Smith on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/narrow-asphalt-road-in-mountainous-area-5989392\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;narrow asphalt road in mountainous area&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-5989392" data-image-description="" data-image-caption="&lt;p&gt;Photo by Alex Smith on &lt;a href=&quot;https://www.pexels.com/photo/narrow-asphalt-road-in-mountainous-area-5989392/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?fit=240%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?fit=730%2C913&amp;ssl=1" decoding="async" loading="lazy" width="730" height="913" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=730%2C913&#038;ssl=1" alt="narrow asphalt road in mountainous area" class="wp-image-2473" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?w=1040&amp;ssl=1 1040w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=720%2C900&amp;ssl=1 720w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-5989392.jpeg?resize=208%2C260&amp;ssl=1 208w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></a><figcaption>Photo by Alex Smith on <a href="https://www.pexels.com/photo/narrow-asphalt-road-in-mountainous-area-5989392/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<p>I have a small document where I try to weekly write goals and what I&#8217;ve achieved. Sometimes I don&#8217;t update it, but I reviewed my 2020 version and will try to take out some takeaways.</p>
+
+
+
+<ol><li>Covid-19 was incredibly disruptive to our lives, but it accelerated &#8216;digital transformation&#8217; in a number of industries, and we saw at <a href="http://www.aflorithmic.ai">Aflorithmic </a>that some industries grew and others were forced to come up with &#8216;digital-first&#8217; product offerings. Since we are focused on helping businesses enhance their audio experiences this was good for us. </li><li>Managing remotely is hard. Really important to spend a lot of time on zoom calls with your team. And it&#8217;s very easy with slack and emails to be misinterpreted. </li><li>I learned a ton of leadership lessons. Some of which exposed some of my failings (I&#8217;ll do another post on this at some point) and some which made me realise that when stuff goes wrong, it&#8217;s STILL your fault.</li><li>It&#8217;s really important as a manager to get into the trenches, it&#8217;s very easy for &#8216;metrics&#8217; to lie to you. </li><li>We onboarded our first paying clients and pilots this year. And went through various iterations where we discovered what worked and what didn&#8217;t work. A key lesson we learned over and over again &#8211; is that you can be &#8216;too early&#8217; for a market, and if you&#8217;re &#8216;too early&#8217; it doesn&#8217;t work. </li><li>Learning a ton about building teams/ building platforms and the importance of great design and user experience. <em>User experience is a first order problem to solve. Machine Learning is a second order problem.</em></li><li>Learning a ton about communication styles and about how important it is to spend time on whatever &#8216;story&#8217; or &#8216;vision&#8217; you want to portray to others. And it&#8217;s important as a leader to provide that. People need to understand how what they&#8217;re working on, connects to the big picture. </li><li>Learned a ton about fundraising, cashflow, growing a team, shipping product, negotiating with lawyers, fixing bugs, responding to customers and the importance of  reliability and operational excellence. </li></ol>
+
+
+
+<p>Onwards and upwards. Lots more to learn. It&#8217;s great to reflect on how we&#8217;ve gone from an MVP to a working product in the space of a year and a bit. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/12/28/lessons-from-2020/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2471</post-id>	</item>
+		<item>
+		<title>Everything great starts small</title>
+		<link>https://peadarcoyle.com/2020/12/09/everything-great-starts-small/</link>
+					<comments>https://peadarcoyle.com/2020/12/09/everything-great-starts-small/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Wed, 09 Dec 2020 21:25:49 +0000</pubDate>
+				<category><![CDATA[advice]]></category>
+		<category><![CDATA[entrepreneurship]]></category>
+		<category><![CDATA[founder stories]]></category>
+		<category><![CDATA[founders]]></category>
+		<category><![CDATA[growth]]></category>
+		<category><![CDATA[startups]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2460</guid>
+
+					<description><![CDATA[I&#8217;m an Entrepreneur, and a few years before I officially became one. One of my best friends said to me &#8216;I&#8217;ve always thought you were very entrepreneurial&#8217;. I think I shirked away from that. I&#8217;ve thought recently about why a I shirked away from that for a few years. I think one reason is that&#8230; <a href="https://peadarcoyle.com/2020/12/09/everything-great-starts-small/" class="more-link">Continue reading <span class="screen-reader-text">Everything great starts small</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?ssl=1"><img data-attachment-id="2462" data-permalink="https://peadarcoyle.com/2020/12/09/everything-great-starts-small/pexels-photo-1072824/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?fit=1880%2C1253&amp;ssl=1" data-orig-size="1880,1253" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by Akil  Mazumder on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/person-holding-a-green-plant-1072824\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;person holding a green plant&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-1072824" data-image-description="" data-image-caption="&lt;p&gt;Photo by Akil  Mazumder on &lt;a href=&quot;https://www.pexels.com/photo/person-holding-a-green-plant-1072824/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?fit=730%2C486&amp;ssl=1" decoding="async" loading="lazy" width="730" height="487" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=730%2C487&#038;ssl=1" alt="person holding a green plant" class="wp-image-2462" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?w=1880&amp;ssl=1 1880w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=1536%2C1024&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=900%2C600&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?resize=260%2C173&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/12/pexels-photo-1072824.jpeg?w=1460&amp;ssl=1 1460w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></a><figcaption>Photo by Akil  Mazumder on <a href="https://www.pexels.com/photo/person-holding-a-green-plant-1072824/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<p>I&#8217;m an Entrepreneur, and a few years before I officially became one. One of my best friends said to me &#8216;I&#8217;ve always thought you were very entrepreneurial&#8217;. I think I shirked away from that. <br><br>I&#8217;ve thought recently about why a I shirked away from that for a few years. I think one reason is that when I looked at successful entrepreneurs &#8211; the Reid Hoffmans, the Elon Musk. I compared myself to them and thought &#8211; &#8216;I can&#8217;t be at that level&#8217;. Yet they probably weren&#8217;t that polished at the start. We often make the fundamental <strong>mistake of misunderstanding growth. And startups are about growth</strong>!</p>
+
+
+
+<p>I saw the following quote about <a href="https://blog.ycombinator.com/doordash-from-application-to-ipo/">DoorDash</a> &#8211;</p>
+
+
+
+<blockquote class="wp-block-quote"><p>By the time a company is successful enough to IPO, the many doubts and uncertainties of the early stage startup are largely forgotten, replaced with a hindsight that makes their path to success seem so much more obvious and predictable. The founders are likewise transformed by the many years of struggle and personal growth necessary to build and successfully lead a large business. Gone is the uncertain new startup founder, replaced by someone almost impossibly formidable and experienced.</p></blockquote>
+
+
+
+<p>So if you&#8217;re thinking of starting a company don&#8217;t worry if you don&#8217;t have it all figured out. None of us do! </p>
+
+
+
+<p>And if you&#8217;re talking to an early stage startup as a potential partner, employee or investor look past the challenges and look for a diamond in the rough! Maybe you&#8217;ll be lucky enough to stick money in an Airbnb or a Doordash <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<p>Everything great starts small! So go out and build! </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/12/09/everything-great-starts-small/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2460</post-id>	</item>
+		<item>
+		<title>Engineering Leadership: Lessons from Rugby</title>
+		<link>https://peadarcoyle.com/2020/11/15/engineering-leadership-lessons-from-rugby/</link>
+					<comments>https://peadarcoyle.com/2020/11/15/engineering-leadership-lessons-from-rugby/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Sun, 15 Nov 2020 14:36:57 +0000</pubDate>
+				<category><![CDATA[advice]]></category>
+		<category><![CDATA[engineering leadership]]></category>
+		<category><![CDATA[leadership]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[rugby]]></category>
+		<category><![CDATA[software development]]></category>
+		<category><![CDATA[team work]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2446</guid>
+
+					<description><![CDATA[I&#8217;ve been thinking a lot lately about Engineering Leadership. This is a very difficult job for all the reasons that leadership is difficult, management is difficult and that software development is a difficult discipline. For various reasons &#8211; we as a species suck at writing software. Writing great software is HARD. Nevertheless we as a&#8230; <a href="https://peadarcoyle.com/2020/11/15/engineering-leadership-lessons-from-rugby/" class="more-link">Continue reading <span class="screen-reader-text">Engineering Leadership: Lessons from Rugby</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img data-attachment-id="2447" data-permalink="https://peadarcoyle.com/2020/11/15/engineering-leadership-lessons-from-rugby/pexels-photo-3396276/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?fit=1880%2C1253&amp;ssl=1" data-orig-size="1880,1253" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by Patrick Case on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/people-playing-football-3396276\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;people playing football&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-3396276" data-image-description="" data-image-caption="&lt;p&gt;Photo by Patrick Case on &lt;a href=&quot;https://www.pexels.com/photo/people-playing-football-3396276/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?fit=730%2C486&amp;ssl=1" decoding="async" loading="lazy" width="730" height="487" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=730%2C487&#038;ssl=1" alt="people playing football" class="wp-image-2447" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?w=1880&amp;ssl=1 1880w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=1536%2C1024&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=900%2C600&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?resize=260%2C173&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/11/pexels-photo-3396276.jpeg?w=1460&amp;ssl=1 1460w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /><figcaption>Photo by Patrick Case on <a href="https://www.pexels.com/photo/people-playing-football-3396276/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<p>I&#8217;ve been thinking a lot lately about Engineering Leadership. This is a very difficult job for all the reasons that leadership is difficult, management is difficult and that software development is a difficult discipline. </p>
+
+
+
+<p>For various reasons &#8211; we <em>as a species</em> suck at writing software. Writing great software is HARD. Nevertheless we as a community are learning a lot more about this, and we at least have some patterns that work. </p>
+
+
+
+<p>So I wanted to share some lessons I&#8217;ve personally learned over the last few years from operating in teams and building teams. I&#8217;ll also link them to a sport I love &#8211; Rugby. Even if you don&#8217;t know Rugby, the lessons should still be relevant. </p>
+
+
+
+<p>1. <strong>Know your role</strong>: It&#8217;s important to know your role and operate in that role &#8211; a mistake a lot of leaders and operators make is that they either try to do <em>someone else</em>&#8216;s job &#8211; and then try to do too much and fail. Or they don&#8217;t realise that they&#8217;re part of a larger system. In Rugby &#8211; this is like situations where the defensive line becomes misaligned. If there&#8217;s not a solid defensive line other teams can attack. Alignment is super important in executing any strategy, and not forgetting that as a leader a big part of your job is to set the direction for the team. </p>
+
+
+
+<p>2. <strong>Building and forming trust is important</strong>: A lot of training for sports is about forming trust among the team. This can be fostered by drills etc &#8211; however it&#8217;s often best formed by performance. This also means though that like in sports, the relationships matter. If the team doesn&#8217;t trust the coach, or even within the team, such issues need to be addressed. </p>
+
+
+
+<p>3. <strong>The competition are human too</strong>: It&#8217;s easy to respect your competition too much, or even think you can&#8217;t win a big customer because your product isn&#8217;t good enough. But self-belief matters, and you need to play your own game-plan in Rugby, in business you need to play your own strategy which suits your team. <br><br>4. <strong>Best form of defence is attack</strong>: In Rugby it&#8217;s often better to not focus on defensiveness, it&#8217;s best to just attack. In startups it&#8217;s the same thing &#8211; the most debilitating thing for a competitor is to simply be able to move faster than them. Speed wins in business as in Rugby. One of the questions to ask is what you can do as a leader to encourage agility and speed. It&#8217;s often worth thinking about what you can do to improve the speed of the team. In sport that may be better training, or better drills. In business &#8211; there&#8217;s a lot you can do to encourage speed &#8211; send that email today, get that prototype done today, don&#8217;t wait until next quarterly planning to schedule that sprint. <em>Set your operating cadence to run</em>. </p>
+
+
+
+<p>5. <strong>You have to analyse and learn from what went wrong:</strong> In software we often have &#8216;postmortems&#8217; about outages. A fundamental part of that, like with sports is that in a fast moving environment you need to adapt to change. It&#8217;s sort of a cliche. But it&#8217;s good to be honest with yourself about what&#8217;s working and what isn&#8217;t. Fundamentally though this is hard because people feel shame. And it&#8217;s easy to regress to &#8216;blaming others&#8217;. Remember you&#8217;re all part of the same team. This is where techniques like <a href="https://kellanem.com/notes/whys-of-organizational-design">5 why&#8217;s</a> can come into it. Because often it&#8217;s more about the system than about a particular player. It&#8217;s easy in sport to say think &#8211; &#8216;it was the player who missed the last tackle who gave it away&#8217;, but often it&#8217;s poor alignment, or other mistakes that happened earlier in the game that caused things to go wrong. <br><br>Those are just some thoughts, I&#8217;ll keep fleshing this out. Thanks for reading!<br><br><strong>Some good resources on Engineering Leadership and Postmortems:<br></strong><a href="https://pragprog.com/titles/jsengman/become-an-effective-software-engineering-manager/">https://pragprog.com/titles/jsengman/become-an-effective-software-engineering-manager/ </a></p>
+
+
+
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-code-as-craft"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="76rg2ydANA"><a href="https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/">Etsy&#8217;s Debriefing Facilitation Guide for Blameless Postmortems</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" title="&#8220;Etsy&#8217;s Debriefing Facilitation Guide for Blameless Postmortems&#8221; &#8212; Code as Craft" src="https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/embed/#?secret=76rg2ydANA" data-secret="76rg2ydANA" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed-amazon-kindle wp-block-embed is-type-rich is-provider-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Manager&#039;s Path: A Guide for Tech Leaders Navigating Growth and Change" type="text/html" width="730" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_GaAVjREbEIeL4X&#038;asin=1491973897&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/11/15/engineering-leadership-lessons-from-rugby/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2446</post-id>	</item>
+		<item>
+		<title>Friday wins &#8211; celebrating shipping and delivery</title>
+		<link>https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/</link>
+					<comments>https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Sun, 27 Sep 2020 13:04:07 +0000</pubDate>
+				<category><![CDATA[Culture]]></category>
+		<category><![CDATA[engineering]]></category>
+		<category><![CDATA[product development]]></category>
+		<category><![CDATA[startups]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2419</guid>
+
+					<description><![CDATA[More meetings? At Aflorithmic we recently have been experimenting with Friday Wins. It&#8217;s important in a startup to enable the company to build things and talk to customers. This matters a lot to &#8216;building something people want&#8217;. However, I wanted to talk a bit about a meeting style that I&#8217;ve found that works pretty well,&#8230; <a href="https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/" class="more-link">Continue reading <span class="screen-reader-text">Friday wins &#8211; celebrating shipping and delivery</span></a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img data-attachment-id="2421" data-permalink="https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/pexels-photo-3184433/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?fit=868%2C1300&amp;ssl=1" data-orig-size="868,1300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by fauxels on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/photo-of-people-holding-each-other-s-hands-3184433\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;photo of people holding each other s hands&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-3184433" data-image-description="" data-image-caption="&lt;p&gt;Photo by fauxels on &lt;a href=&quot;https://www.pexels.com/photo/photo-of-people-holding-each-other-s-hands-3184433/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?fit=200%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?fit=684%2C1024&amp;ssl=1" decoding="async" loading="lazy" width="730" height="1093" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=730%2C1093&#038;ssl=1" alt="photo of people holding each other s hands" class="wp-image-2421" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?w=868&amp;ssl=1 868w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=200%2C300&amp;ssl=1 200w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=684%2C1024&amp;ssl=1 684w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=768%2C1150&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=601%2C900&amp;ssl=1 601w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/pexels-photo-3184433.jpeg?resize=174%2C260&amp;ssl=1 174w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /><figcaption>Photo by fauxels on <a href="https://www.pexels.com/photo/photo-of-people-holding-each-other-s-hands-3184433/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<h2>More meetings?</h2>
+
+
+
+<p>At <a href="http://www.aflorithmic.ai">Aflorithmic</a> we recently have been experimenting with <a href="https://kellanem.com/notes/friday-wins">Friday Wins</a>. It&#8217;s important in a startup to enable the company to build things and talk to customers. This matters a lot to &#8216;building something people want&#8217;. However, I wanted to talk a bit about a meeting style that I&#8217;ve found that works pretty well, and why it does. </p>
+
+
+
+<p>Culture is what you celebrate! And in software I firmly believe we should celebrate product getting out to customers and what we learn. It could be internal customers, it could be that a prototype we shipped &#8211; didn&#8217;t work (this happens often in ML stuff), it could be a hypothesis we invalidated. </p>
+
+
+
+<h2>Why does this matter?</h2>
+
+
+
+<p>Well it&#8217;s very easy I think as humans to be scared to show things to get feedback. Let&#8217;s use an analogy &#8211; I&#8217;ve got friends who love music, and create music. But they <strong>don&#8217;t share their art with other people</strong>. This fundamentally stops the feedback loop and means you don&#8217;t actually know if you&#8217;ve made something that people want. </p>
+
+
+
+<p>Why does this happen? I think one of the reasons is to protect the ego. It&#8217;s easier to believe that what we&#8217;re working on is great, and it&#8217;s difficult to handle potential rejection. </p>
+
+
+
+<h2>What are the rules of Friday wins?</h2>
+
+
+
+<p>These are evolving as rules but these are the rough rules we have for Friday wins.</p>
+
+
+
+<p><strong>Focus on </strong><span style="font-weight: 600;">shipping</span> </p>
+
+
+
+<p>I think it&#8217;s really important to focus on shipping. Nothing matters until it hits a customer and it&#8217;s very important that shipping is central in your rituals. And shipping is a primary measure of a teams effectiveness and shorter cycle times lead to better feedback, better morale and better learning.</p>
+
+
+
+<p>We even have a picture in our offices devoted to this <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2424" data-permalink="https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/whatsapp-image-2020-09-27-at-15-14-48-1/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?fit=1600%2C901&amp;ssl=1" data-orig-size="1600,901" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="WhatsApp-Image-2020-09-27-at-15.14.48-1" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?fit=300%2C169&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?fit=730%2C411&amp;ssl=1" decoding="async" loading="lazy" width="730" height="411" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=730%2C411&#038;ssl=1" alt="" class="wp-image-2424" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=1024%2C577&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=1536%2C865&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=900%2C507&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?resize=260%2C146&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?w=1600&amp;ssl=1 1600w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-27-at-15.14.48-1.jpeg?w=1460&amp;ssl=1 1460w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /><figcaption>Picture from our Barcelona office &#8211; Yes we Ship <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </figcaption></figure>
+
+
+
+<p><strong>It&#8217;s an inclusive and high energy meeting</strong></p>
+
+
+
+<p>It&#8217;s super important that the intern can share their work, it&#8217;s also important that it&#8217;s something people look forward to. When people share on slack during the week &#8211; &#8216;we implemented this feature and it enhanced our process by 10%&#8217; I tell them &#8216;this is great for a Friday win&#8217;. </p>
+
+
+
+<p>Not everyone needs to have a win every week &#8211; some teams have longer cadence &#8211; but everyone in the engineering org should be invited and able to participate. </p>
+
+
+
+<p><strong>5 minutes summary &#8211; and focus on the customer</strong></p>
+
+
+
+<p>This is hard because sometimes things over run &#8211; but I try to make people keep their presentation to 5 minutes. You don&#8217;t need slides &#8211; but try to focus on the most general take home points. And why it is cool. </p>
+
+
+
+<p>Sometimes it&#8217;s very apparent that a technology needs a longer talk &#8211; and that&#8217;s ok that can go into a &#8216;tech talk&#8217; meeting which is a longer one and happens every week. </p>
+
+
+
+<p><strong>Wins and modern software is cross functional</strong></p>
+
+
+
+<p>A win is very general as a word. It doesn&#8217;t mean &#8216;this moves the needle of the company in a game changing way&#8217;. Graphs count as wins, UIs count as wins, analysis of customer requests count as wins, a version of an AI model (that is in some version of production &#8211; it can&#8217;t be on someones computer locally) counts as a win. </p>
+
+
+
+<p><strong>Learning oriented</strong></p>
+
+
+
+<p>As the CTO of a tech startup, it&#8217;s very important that people in my teams look forward to reviewing their work. Reflection is an important part of the learning cycle &#8211; and a weekly cadence helps with that. For example from last week &#8211; someone said &#8216;we learned this, and a better way to do this is to store our parameters this way&#8217; or &#8216;we built this model and we discovered that the technique doesn&#8217;t work with the amount of data we have&#8217;. These are all VALUABLE contributions to building a great product and help us serve our customers better in the future. Through better product innovation <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<p><strong>How software is made is important</strong></p>
+
+
+
+<p>I firmly believe that since &#8216;software is eating the world&#8217; that all companies are becoming some form of a &#8216;tech company&#8217;. And we see this in the world, in terms of investment &#8211; and in terms of how significant &#8216;tech&#8217; is becoming (for example see the public markets). Therefore if every company is a tech company it&#8217;s very important to build organisational awareness of <em>how software is made</em>. One way we&#8217;ve done this is we invite someone from the commercial side each week, and it&#8217;s good when they give an update on how partnerships, marketing or their speciality is working. This helps a lot with momentum and team spirit. And as a leader &#8211; your job is to build a culture. </p>
+
+
+
+<p>These are some of my comments. I call it &#8216;Friday wins&#8217; because that sounds better than &#8216;sprint demos&#8217; or &#8216;sprint reviews&#8217;. It&#8217;s very important that we celebrate the work we do and how we get stuff out to customers as soon as possible. And I&#8217;ve found in a few weeks of running it, that it&#8217;s great that the knowledge sharing happens. </p>
+
+
+
+<p>Building software is hard &#8211; and modern software is a difficult team sport. To build great software we all need to learn &#8211; largely because it&#8217;s a complex act, and the pace of technological change is very high. </p>
+
+
+
+<p>I firmly believe that the way to do that is to create a learning culture. This meeting is evolving but I wanted to share what we learned so far <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<p>What meetings do you have at your company that you want to share? </p>
+
+
+
+<p>If you want to reach out to me to talk about this stuff &#8211; I&#8217;m firstnamelastname@gmail DOT com or you can easily find me on Twitter <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/09/27/friday-wins-celebrating-shipping-and-delivery/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2419</post-id>	</item>
+		<item>
+		<title>Why building ML systems is about more than ML?</title>
+		<link>https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/</link>
+					<comments>https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Sun, 23 Aug 2020 14:57:36 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[software]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2397</guid>
+
+					<description><![CDATA[I&#8217;m going to use a bit of a click bait title for this article. But the aim of this article is to share experiences I&#8217;ve gathered from about 10 years building ML systems, and building ML teams. Why ML is about more than ML I saw the following tweets by Erik so I&#8217;ve added them.&#8230; <a href="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/" class="more-link">Continue reading <span class="screen-reader-text">Why building ML systems is about more than ML?</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>I&#8217;m going to use a bit of a click bait title for this article. But the aim of this article is to share experiences I&#8217;ve gathered from about 10 years building ML systems, and building ML teams. </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2407" data-permalink="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/pexels-photo-372796/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?fit=1733%2C1300&amp;ssl=1" data-orig-size="1733,1300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Photo by Pixabay on &lt;a href=\&quot;https:\/\/www.pexels.com\/photo\/metal-pipes-plumbing-pressure-372796\/\&quot; rel=\&quot;nofollow\&quot;&gt;Pexels.com&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;metal pipes plumbing pressure&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pexels-photo-372796" data-image-description="" data-image-caption="&lt;p&gt;Photo by Pixabay on &lt;a href=&quot;https://www.pexels.com/photo/metal-pipes-plumbing-pressure-372796/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?fit=300%2C225&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?fit=730%2C548&amp;ssl=1" decoding="async" loading="lazy" width="730" height="548" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=730%2C548&#038;ssl=1" alt="metal pipes plumbing pressure" class="wp-image-2407" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?w=1733&amp;ssl=1 1733w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=900%2C675&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?resize=260%2C195&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/pexels-photo-372796.jpeg?w=1460&amp;ssl=1 1460w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /><figcaption>Photo by Pixabay on <a href="https://www.pexels.com/photo/metal-pipes-plumbing-pressure-372796/" rel="nofollow">Pexels.com</a></figcaption></figure>
+
+
+
+<h2>Why ML is about more than ML</h2>
+
+
+
+<p>I saw the following tweets by <a href="https://erikbern.com">Erik</a> so I&#8217;ve added them. </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2399" data-permalink="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/screenshot-2020-08-23-at-16-24-30/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?fit=1222%2C506&amp;ssl=1" data-orig-size="1222,506" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2020-08-23-at-16.24.30" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?fit=300%2C124&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?fit=730%2C302&amp;ssl=1" decoding="async" loading="lazy" width="730" height="302" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=730%2C302&#038;ssl=1" alt="" class="wp-image-2399" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=1024%2C424&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=300%2C124&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=768%2C318&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=900%2C373&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?resize=260%2C108&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.30.png?w=1222&amp;ssl=1 1222w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2400" data-permalink="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/screenshot-2020-08-23-at-16-24-37/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?fit=1236%2C358&amp;ssl=1" data-orig-size="1236,358" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2020-08-23-at-16.24.37" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?fit=300%2C87&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?fit=730%2C212&amp;ssl=1" decoding="async" loading="lazy" width="730" height="212" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=730%2C212&#038;ssl=1" alt="" class="wp-image-2400" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=1024%2C297&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=300%2C87&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=768%2C222&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=900%2C261&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?resize=260%2C75&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.37.png?w=1236&amp;ssl=1 1236w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2401" data-permalink="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/screenshot-2020-08-23-at-16-24-42/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?fit=1222%2C288&amp;ssl=1" data-orig-size="1222,288" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2020-08-23-at-16.24.42" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?fit=300%2C71&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?fit=730%2C172&amp;ssl=1" decoding="async" loading="lazy" width="730" height="172" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=730%2C172&#038;ssl=1" alt="" class="wp-image-2401" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=1024%2C241&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=300%2C71&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=768%2C181&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=900%2C212&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?resize=260%2C61&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.42.png?w=1222&amp;ssl=1 1222w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="2402" data-permalink="https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/screenshot-2020-08-23-at-16-24-50/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?fit=1208%2C258&amp;ssl=1" data-orig-size="1208,258" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2020-08-23-at-16.24.50" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?fit=300%2C64&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?fit=730%2C156&amp;ssl=1" decoding="async" loading="lazy" width="730" height="156" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=730%2C156&#038;ssl=1" alt="" class="wp-image-2402" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=1024%2C219&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=300%2C64&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=768%2C164&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=900%2C192&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?resize=260%2C56&amp;ssl=1 260w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/08/Screenshot-2020-08-23-at-16.24.50.png?w=1208&amp;ssl=1 1208w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></figure>
+
+
+
+<p>The key word here is &#8216;the plumbing around it&#8217;. I think looking back at the whole &#8216;big data&#8217; wave and the &#8216;Machine Learning&#8217; wave, is that there was a lot of vendor-driven hype around &#8216;technology&#8217;. As I wrote in <a href="https://peadarcoyle.com/2020/04/26/how-can-data-scientists-survive-layoffs/">this post</a> </p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>biggest mistake teams make in ML is they don’t focus on getting something working end-to-end. They either go off and yak-shave a large infrastructure project, OR they build a complicated model without the infrastructure that’s needed for that model. When something is in production and can be shown to users it has a LOT of value – they can respond, and the model can improve. Get something into production. Not just a Jupyter notebook.</em></p><cite>Peadar Coyle</cite></blockquote>
+
+
+
+<p>I sometimes call this the <em>&#8216;hackers news&#8217; effect.</em> Which I&#8217;ve often found in teams. Where someone comes to me with &#8216;we want to use deep learning because Airbnb/Uber/Google/Stripe/Etc is using it&#8217;. They may explicitly say that or they may say different words but have that effect. </p>
+
+
+
+<p>The purpose of any team is to <em>add value to the business</em>. So don&#8217;t call yourself a programmer or a data scientist. </p>
+
+
+
+<p>I&#8217;ve just spent near two years building out our pipelines for audio production at my <a href="http://www.aflorithmic.ai">startup</a> and the resulting core value in terms of business value is rarely the ML side. This isn&#8217;t to say that ML isn&#8217;t important, but it&#8217;s a small part of the puzzle. </p>
+
+
+
+<ul><li>Algorithms are just cogs in a system</li><li>Algorithms are dumb and are often optimising for a specific use case</li><li>Algorithms live in a mess</li></ul>
+
+
+
+<h2>What are the core lessons?</h2>
+
+
+
+<p>Most ML systems live as part of an end-to-end system. In the case of our audio production system. There&#8217;s the following rough parts</p>
+
+
+
+<ul><li>A UI for writing text and annotation</li><li>Data collection and automatic transcription of audio for training jobs</li><li>ML models for synthetic voice</li><li>cron jobs for copying wav files and mp3 files from system to system</li><li>A business rules engine for quality insurance</li><li>Audio post production process</li><li>An asset store for storing assets and delivering them via an API</li></ul>
+
+
+
+<p>All of these are connected via batch processes and API calls and various cron jobs. And testing this stuff end to end is tricky and involves a lot of nuance/ understanding of a domain specific problem. </p>
+
+
+
+<p>ML is just <strong>one part</strong> of a much larger system. It&#8217;s frankly a messy process, and it can often be very difficult to figure out what&#8217;s broken. However, in terms of leverage &#8211; our leverage is often on the <strong>automation side</strong>. Improving the reliability of our software allows us to onboard more clients, not to mention offer more product features. </p>
+
+
+
+<p>There&#8217;s an element of human-in-the-loop here as well. Especially for focusing on edge-cases. </p>
+
+
+
+<p>So what should you do?</p>
+
+
+
+<ul><li>Focus on understanding business problems, if you can reason about business and talk in trade offs &#8211; you&#8217;ll always have a job.</li><li>Learn to sell your work as a data scientist &#8211; you need to be able to communicate results</li><li>Work on your software skills &#8211; learn stuff like React, Vue, Serverless etc &#8211; so you can show results end to end</li><li>See yourself as a problem solver.</li></ul>
+
+
+
+<p>We&#8217;re probably seeing a bit of pushback against AI/ML etc. However, we shouldn&#8217;t neglect that we are seeing process improvements and enhancements in productivity. However, these are often due to automation and the interaction of humans with algorithms as opposed to anything else. </p>
+
+
+
+<p><strong>Further reading</strong></p>
+
+
+
+<p><a href="http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/">Don&#8217;t call yourself a programmer</a> <br><a href="https://koaning.io/posts/the-future-is-past/">The future of Data Science is past</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/08/23/why-building-ml-systems-is-about-more-than-ml/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2397</post-id>	</item>
+		<item>
+		<title>Migrations &#8211; or how to fix technical debt</title>
+		<link>https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/</link>
+					<comments>https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Fri, 05 Jun 2020 20:37:23 +0000</pubDate>
+				<category><![CDATA[python]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[management]]></category>
+		<category><![CDATA[migrations]]></category>
+		<category><![CDATA[software development]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2349</guid>
+
+					<description><![CDATA[My company www.aflorithmic.ai recently went through some migrations. There were a few from the easy &#8211; moving from python anywhere to AWS Elastic Beanstalk, to the more involved &#8211; a big refactoring that involved moving ejecting from Expo. However, I think the lessons apply. &#160; Firstly, I’m not an expert. I’ve been involved in migrations&#8230; <a href="https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/" class="more-link">Continue reading <span class="screen-reader-text">Migrations &#8211; or how to fix technical debt</span></a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-weight: 400;">My company </span><a href="http://www.aflorithmic.ai"><span style="font-weight: 400;">www.aflorithmic.ai</span></a><span style="font-weight: 400;"> recently went through some migrations. There were a few from the easy &#8211; moving from python anywhere to AWS Elastic Beanstalk, to the more involved &#8211; a big refactoring that involved moving ejecting from Expo. However, I think the lessons apply.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Firstly, I’m not an expert. I’ve been involved in migrations over my career. And I’ve always found them stressful. </span><span style="font-weight: 400;">I think that’s because a migration often involves existing stakeholders, and the fact is that sometimes migrations fail. </span></p>
+<p>&nbsp;</p>
+<p><b>Why do we need migrations?</b></p>
+<p><img data-attachment-id="2352" data-permalink="https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/screenshot-2020-05-15-22-28-48/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?fit=1250%2C602&amp;ssl=1" data-orig-size="1250,602" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2020-05-15 22.28.48" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?fit=300%2C144&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?fit=730%2C351&amp;ssl=1" decoding="async" loading="lazy" class="alignnone size-full wp-image-2352" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=730%2C352&#038;ssl=1" alt="Screenshot 2020-05-15 22.28.48" width="730" height="352" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?w=1250&amp;ssl=1 1250w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=300%2C144&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=1024%2C493&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=768%2C370&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=900%2C433&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.48.png?resize=260%2C125&amp;ssl=1 260w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></p>
+<p><span style="font-weight: 400;">Everyone who’s worked with code knows this. And sometimes that’s a point of embarrassment. In a hackathon, you can create an app in 3 hours, but it can take you weeks to add a new feature to an existing app or system. A lot of that is just one of those facts of life which is entropy increases, and things just get more complicated. So the reason it can take weeks to add a feature, is that you need to respect the existing users. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Technical debt is an inevitable thing that happens to a code base with time. Not to mention the maintenance cost of an existing codebase. </span></p>
+<p><span style="font-weight: 400;">One thing that’s controversial about migrations is that they’re not easy. They are a way to get technical leverage. You invest now and slow down in the hope of payment in the future. There are other fixes that Engineers and Engineering managers will bring in. These include monitoring tools and code-reviews. </span></p>
+<p><span style="font-weight: 400;">I’m the co-founder of a startup. I’ve seen my engineering team grow from 3 people to 10 in the past 15 months. So I’ve inevitably seen bringing in more communication and things like code-review. These suggestions are good, but they run out. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Migrations are the only mechanism to effectively manage technical debt as your company and code grows. If you don&#8217;t get effective at software and system migrations, you&#8217;ll end up languishing in technical debt</strong>.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">One thing I’ve learned in my career is that most tools can only survive about one order of magnitude of growth. If your company grows you’ll have to run migrations, otherwise you’ll have over engineered your earlier systems. </span></p>
+<p>&nbsp;</p>
+<p><b>Productivity and migrations</b></p>
+<p><span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">This diagram explains how migrations help with technical debt</span></p>
+<p><img data-attachment-id="2351" data-permalink="https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/screenshot-2020-05-15-22-28-56/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?fit=1274%2C636&amp;ssl=1" data-orig-size="1274,636" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2020-05-15 22.28.56" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?fit=300%2C150&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?fit=730%2C364&amp;ssl=1" decoding="async" loading="lazy" class="alignnone size-full wp-image-2351" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=730%2C364&#038;ssl=1" alt="Screenshot 2020-05-15 22.28.56" width="730" height="364" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?w=1274&amp;ssl=1 1274w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=300%2C150&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=1024%2C511&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=768%2C383&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=900%2C449&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.28.56.png?resize=260%2C130&amp;ssl=1 260w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">That’s one scenario. What happens if a migration fails? You might think that&#8217;s a strange question. However, <a href="https://www.zdnet.com/article/technology-migrations-are-more-painful-and-cloud-isnt-making-them-any-easier/">migrations</a> do fail. </span><span style="font-weight: 400;">Sometimes you’ll move to a new ecosystem, and it just doesn’t work. </span><span style="font-weight: 400;">Well, you can get a situation where a codebase has like no further productivity. If this happens you’re in a lot of trouble but this does happen. </span></p>
+<p>It looks like this.</p>
+<p><img data-attachment-id="2350" data-permalink="https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/screenshot-2020-05-15-22-29-02/" data-orig-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?fit=1398%2C604&amp;ssl=1" data-orig-size="1398,604" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2020-05-15 22.29.02" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?fit=300%2C130&amp;ssl=1" data-large-file="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?fit=730%2C315&amp;ssl=1" decoding="async" loading="lazy" class="alignnone size-full wp-image-2350" src="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=730%2C315&#038;ssl=1" alt="Screenshot 2020-05-15 22.29.02" width="730" height="315" srcset="https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?w=1398&amp;ssl=1 1398w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=300%2C130&amp;ssl=1 300w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=1024%2C442&amp;ssl=1 1024w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=768%2C332&amp;ssl=1 768w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=900%2C389&amp;ssl=1 900w, https://i0.wp.com/peadarcoyle.com/wp-content/uploads/2020/05/Screenshot-2020-05-15-22.29.02.png?resize=260%2C112&amp;ssl=1 260w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></p>
+<p>&nbsp;</p>
+<p><b>Migrations as strategic bets</b></p>
+<p><span style="font-weight: 400;">Firstly it’s worth pointing out that any migration is a </span><b>strategic bet </b><span style="font-weight: 400;">for your company. Often you’ll know a migration is coming because you keep pushing it back. This may be because the tool is running out of use (Python 2.7 to Python 3+ is one example) or you may have functionality that you can’t provide with your current tools (certain database migrations). You may hit the limits of a particular framework (<a href="http://www.expo.io">Expo</a>, <a href="https://rubyonrails.org/">Ruby on Rails</a>). It is the nature of a strategic bet that sometimes they fail. One more point is that you can only handle so many migrations at once. Your organization has a limited number of them they can do in a year. </span></p>
+<p>&nbsp;</p>
+<p><b>A framework for migrations</b></p>
+<p>&nbsp;</p>
+<ul>
+<li><b>Derisk</b></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><b>Prototype (one easy, then hard)</b></li>
+</ul>
+<ul>
+<li>Finish</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><b>Derisk</b></p>
+<p><span style="font-weight: 400;">The first step is to de-risk the migration. A good way to do this is to write a design document. It’s important to both show this to your detractors and your supporters. This whole process of writing a document and having people discuss it is super important for creating a </span><b>shared understanding </b><span style="font-weight: 400;">and also having an outline of what’s the tradeoffs in a particular design. </span><i><span style="font-weight: 400;">All architecture is compromise</span></i><span style="font-weight: 400;">. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Also, remember that <strong>each team bets on a migration</strong>. We’ve all as engineers heard horror stories of companies stuck between databases or a never-ending project that couldn’t be handled. </span></p>
+<p><span style="font-weight: 400;">It’s also worth asking ‘is this worth doing’ and ‘is it worth doing now’. For example it’s very easy to end up with not-invented-here syndrome. These concerns should all be in your design document. And this is one of the strengths of the <a href="https://medium.com/@IndianaStyle/amazon-press-release-how-to-55d61188ecdd">Amazon press release method</a>. </span></p>
+<p><b>Prototype</b></p>
+<p><span style="font-weight: 400;">The first part is to prototype one easy migration and the one hard. It can also be a good idea to invest in tooling at this point. For example, if you can automate 90% of a migration and build tooling for that it’s super powerful. And this can make you get time on your side. </span></p>
+<p><span style="font-weight: 400;">Another good idea is to think of a migration as a product. So spend time on the tooling, and explaining it to the wider team. When I was at Amazon we used to get ‘product updates’ even for infrastructure projects or migrations. This helped a lot because we got visibility of what was happening. And also there was a focus on customer value. </span></p>
+<p><b>Finish</b></p>
+<p><span style="font-weight: 400;">The last part of a migration is to get people to stop using the old legacy system that you’ve deprecated. This can take a long time. </span></p>
+<p><span style="font-weight: 400;">You can use tooling to your advantage here by adding something to your linter. Or generating self-service tooling or documentation. In our case, because we’re a small team we focused a lot on documentation. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">The last 5% is hard. The last moving to a new system, the nitty gritty and the expectations that you have which are ‘why doesn’t it work like the last system’ are hard to manage. Sometimes you just need to put in the work though and deliver. Pushing through friction is a big part of leadership. </span></p>
+<p><span style="font-weight: 400;">When you finish the migration you need to celebrate. It’s important that you reward finishing and delivering not just starting the project. I’ve seen organizations that reward those who pitch projects at the expense of those who deliver. This is bad, especially because you incur significant technical debt. </span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/06/05/migrations-or-how-to-fix-technical-debt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2349</post-id>	</item>
+		<item>
+		<title>Protected: Widget page</title>
+		<link>https://peadarcoyle.com/2020/06/03/test-page/</link>
+					<comments>https://peadarcoyle.com/2020/06/03/test-page/#respond</comments>
+		
+		<dc:creator><![CDATA[Peadar Coyle]]></dc:creator>
+		<pubDate>Wed, 03 Jun 2020 08:40:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://peadarcoyle.com/?p=2362</guid>
+
+					<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
+										<content:encoded><![CDATA[<form action="https://peadarcoyle.com/wp-login.php?action=postpass" class="post-password-form" method="post">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-2362">Password: <input name="post_password" id="pwbox-2362" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
+</form>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://peadarcoyle.com/2020/06/03/test-page/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2362</post-id>	</item>
+	</channel>
+</rss>
