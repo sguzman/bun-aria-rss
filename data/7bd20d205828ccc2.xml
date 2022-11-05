@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.NI updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Networking and Internet Architecture (cs.NI) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Networking and Internet Architecture</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01712" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01726" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01759" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01763" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01924" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01980" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.03832" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.09775" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01016" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01712">
+<title>Trust Management for Internet of Things: A Systematic Literature Review. (arXiv:2211.01712v1 [cs.NI])</title>
+<link>http://arxiv.org/abs/2211.01712</link>
+<description rdf:parseType="Literal">&lt;p&gt;Internet of Things (IoT) is a network of devices that communicate with each
+other through the internet and provides intelligence to industry and people.
+These devices are running in potentially hostile environments, so the need for
+security is critical. Trust Management aims to ensure the reliability of the
+network by assigning a trust value in every node indicating its trust level.
+This paper presents an exhaustive survey of the current Trust Management
+techniques for IoT, a classification based on the methods used in every work
+and a discussion of the open challenges and future research directions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Konsta_A/0/1/0/all/0/1&quot;&gt;Alyzia Maria Konsta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lafuente_A/0/1/0/all/0/1&quot;&gt;Alberto Lluch Lafuente&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dragoni_N/0/1/0/all/0/1&quot;&gt;Nicola Dragoni&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01726">
+<title>SQUID: Faster Analytics via Sampled Quantiles Data-structure. (arXiv:2211.01726v1 [cs.DS])</title>
+<link>http://arxiv.org/abs/2211.01726</link>
+<description rdf:parseType="Literal">&lt;p&gt;Measurement is a fundamental enabler of network applications such as load
+balancing, attack detection and mitigation, and traffic engineering. A key
+building block in many critical measurement tasks is \emph{q-MAX}, where we
+wish to find the largest $q$ values in a number stream. A standard approach of
+maintaining a heap of the largest $q$ values ordered results in logarithmic
+runtime, which is too slow for large measurements. Modern approaches attain a
+constant runtime by removing small items in bulk and retaining the largest $q$
+items at all times. Yet, these approaches are bottlenecked by an expensive
+quantile calculation method.
+&lt;/p&gt;
+&lt;p&gt;We propose SQUID, a method that redesigns q-MAX to allow the use of
+\emph{approximate quantiles}, which we can compute efficiently, thereby
+accelerating the solution and, subsequently, many measurement tasks. We
+demonstrate the benefit of our approach by designing a novel weighted heavy
+hitters data structure that is faster and more accurate than the existing
+alternatives. Here, we combine our previous techniques with a lazy deletion of
+small entries, which expiates the maintenance process and increases the
+accuracy. We also demonstrate the applicability of our algorithmic approach in
+a general algorithmic scope by implementing the LRFU cache policy with a
+constant update time. Furthermore, we also show the practicality of SQUID for
+improving real-world networked systems, by implementing a P4 prototype of SQUID
+for in-network caching and demonstrating how SQUID enables a wide spectrum of
+score-based caching policies directly on a P4 switch.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ben_Basat_R/0/1/0/all/0/1&quot;&gt;Ran Ben-Basat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Einziger_G/0/1/0/all/0/1&quot;&gt;Gil Einziger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Han_W/0/1/0/all/0/1&quot;&gt;Wenchen Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tayh_B/0/1/0/all/0/1&quot;&gt;Bilal Tayh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01759">
+<title>Resource-aware Deep Learning for Wireless Fingerprinting Localization. (arXiv:2211.01759v1 [cs.NI])</title>
+<link>http://arxiv.org/abs/2211.01759</link>
+<description rdf:parseType="Literal">&lt;p&gt;Location based services, already popular with end users, are now inevitably
+becoming part of new wireless infrastructures and emerging business processes.
+The increasingly popular Deep Learning (DL) artificial intelligence methods
+perform very well in wireless fingerprinting localization based on extensive
+indoor radio measurement data. However, with the increasing complexity these
+methods become computationally very intensive and energy hungry, both for their
+training and subsequent operation. Considering only mobile users, estimated to
+exceed 7.4 billion by the end of 2025, and assuming that the networks serving
+these users will need to perform only one localization per user per hour on
+average, the machine learning models used for the calculation would need to
+perform $65 \times 10^{12}$ predictions per year. Add to this equation tens of
+billions of other connected devices and applications that rely heavily on more
+frequent location updates, and it becomes apparent that localization will
+contribute significantly to carbon emissions unless more energy-efficient
+models are developed and used. In this Chapter, we discuss the latest results
+and trends in wireless localization and look at paths towards achieving more
+sustainable AI. We then elaborate on a methodology for computing DL model
+complexity, energy consumption and carbon footprint and show on a concrete
+example how to develop a more resource-aware model for fingerprinting. We
+finally compare relevant works in terms of complexity and training CO$_2$
+footprint.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cerar_G/0/1/0/all/0/1&quot;&gt;Gregor Cerar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bertalanic_B/0/1/0/all/0/1&quot;&gt;Bla&amp;#x17e; Bertalani&amp;#x10d;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fortuna_C/0/1/0/all/0/1&quot;&gt;Carolina Fortuna&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01763">
+<title>Implementation of the Digital QS-SVM-based Beamformer on an FPGA Platform. (arXiv:2211.01763v1 [cs.NI])</title>
+<link>http://arxiv.org/abs/2211.01763</link>
+<description rdf:parseType="Literal">&lt;p&gt;To address practical challenges in establishing and maintaining robust
+wireless connectivity such as multi-path effects, low latency, size reduction,
+and high data rate, the digital beamformer is performed by the hybrid antenna
+array at the frequency of operation of 10 GHz. The proposed digital beamformer,
+as a spatial filter, is capable of performing Direction of Arrival (DOA)
+estimation and beamforming. The most well-established machine learning
+technique of support vector machine (SVM) for the DoA estimation is limited to
+problems with linearly-separable datasets.
+&lt;/p&gt;
+&lt;p&gt;To overcome the aforementioned constraint, in the proposed beamformer, the
+QS-SVM classifier with a small regularizer has been used for the DoA estimation
+in addition to the two beamforming techniques of LCMV and MVDR. The
+QS-SVM-based beamformer has been deployed in an FPGA board, as demonstrated in
+detail in this work. The implementation results have verified the strong
+performance of the QS-SVM-based beamformer in suppressing undesired signals,
+deep nulls with powers less than -10 dB in undesired signals, and transferring
+desired signals. Furthermore, we have demonstrated that the performance of the
+QS-SVM-based beamformer consists of other advantages of average latency time in
+the order of milliseconds, performance efficiency of more than 90\%, and
+throughput of about 100\%.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Komeylian_S/0/1/0/all/0/1&quot;&gt;Somayeh Komeylian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Paolini_C/0/1/0/all/0/1&quot;&gt;Christopher Paolini&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01924">
+<title>A New Agent-Based Intelligent Network Architecture. (arXiv:2211.01924v1 [cs.NI])</title>
+<link>http://arxiv.org/abs/2211.01924</link>
+<description rdf:parseType="Literal">&lt;p&gt;The advent of 5G and the design of its architecture has become possible
+because of the previous individual scientific works and standardization efforts
+on cloud computing and network softwarization. Software-defined Networking and
+Network Function Virtualization started separately to find their convolution
+into 5G network architecture. Then, the ongoing design of the future beyond 5G
+(B5G) and 6G network architecture cannot overlook the pivotal inputs of
+different independent standardization efforts about autonomic networking,
+service-based communication systems, and multi-access edge computing. This
+article provides the design and the characteristics of an agent-based,
+softwarized, and intelligent architecture, which coherently condenses and
+merges the independent proposed architectural works by different
+standardization working groups and bodies. This novel work is a helpful means
+for the design and standardization process of the futureB5G and 6G network
+architecture.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Arzo_S/0/1/0/all/0/1&quot;&gt;Sisay Tadesse Arzo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scotece_D/0/1/0/all/0/1&quot;&gt;Domenico Scotece&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bassoli_R/0/1/0/all/0/1&quot;&gt;Riccardo Bassoli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Granelli_F/0/1/0/all/0/1&quot;&gt;Fabrizio Granelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Foschini_L/0/1/0/all/0/1&quot;&gt;Luca Foschini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fitzek_F/0/1/0/all/0/1&quot;&gt;Frank H.P. Fitzek&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01980">
+<title>Learning to Configure Computer Networks with Neural Algorithmic Reasoning. (arXiv:2211.01980v1 [cs.NI])</title>
+<link>http://arxiv.org/abs/2211.01980</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a new method for scaling automatic configuration of computer
+networks. The key idea is to relax the computationally hard search problem of
+finding a configuration that satisfies a given specification into an
+approximate objective amenable to learning-based techniques. Based on this
+idea, we train a neural algorithmic model which learns to generate
+configurations likely to (fully or partially) satisfy a given specification
+under existing routing protocols. By relaxing the rigid satisfaction
+guarantees, our approach (i) enables greater flexibility: it is
+protocol-agnostic, enables cross-protocol reasoning, and does not depend on
+hardcoded rules; and (ii) finds configurations for much larger computer
+networks than previously possible. Our learned synthesizer is up to 490x faster
+than state-of-the-art SMT-based methods, while producing configurations which
+on average satisfy more than 93% of the provided requirements.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beurer_Kellner_L/0/1/0/all/0/1&quot;&gt;Luca Beurer-Kellner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vechev_M/0/1/0/all/0/1&quot;&gt;Martin Vechev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vanbever_L/0/1/0/all/0/1&quot;&gt;Laurent Vanbever&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Velickovic_P/0/1/0/all/0/1&quot;&gt;Petar Veli&amp;#x10d;kovi&amp;#x107;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.03832">
+<title>Blockchain Application on the Internet of Vehicles (IoV). (arXiv:2205.03832v2 [cs.NI] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.03832</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the rapid development of the Internet of Things (IoT) and its potential
+integration with the traditional Vehicular Ad-Hoc Networks (VANETs), we have
+witnessed the emergence of the Internet of Vehicles (IoV), which promises to
+seamlessly integrate into smart transportation systems. However, the key
+characteristics of IoV, such as high-speed mobility and frequent disconnections
+make it difficult to manage its security and privacy. The Blockchain, as a
+distributed tamper-resistant ledge, has been proposed as an innovative solution
+that guarantees privacy-preserving yet secure schemes. In this paper, we review
+recent literature on the application of blockchain to IoV, in particular, and
+intelligent transportation systems in general.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Aung_N/0/1/0/all/0/1&quot;&gt;Nyothiri Aung&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kechadi_T/0/1/0/all/0/1&quot;&gt;Tahar Kechadi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhu_T/0/1/0/all/0/1&quot;&gt;Tao Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zerdoumi_S/0/1/0/all/0/1&quot;&gt;Saber Zerdoumi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guerbouz_T/0/1/0/all/0/1&quot;&gt;Tahar Guerbouz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dhelim_S/0/1/0/all/0/1&quot;&gt;Sahraoui Dhelim&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.09775">
+<title>FedToken: Tokenized Incentives for Data Contribution in Federated Learning. (arXiv:2209.09775v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.09775</link>
+<description rdf:parseType="Literal">&lt;p&gt;Incentives that compensate for the involved costs in the decentralized
+training of a Federated Learning (FL) model act as a key stimulus for clients&apos;
+long-term participation. However, it is challenging to convince clients for
+quality participation in FL due to the absence of: (i) full information on the
+client&apos;s data quality and properties; (ii) the value of client&apos;s data
+contributions; and (iii) the trusted mechanism for monetary incentive offers.
+This often leads to poor efficiency in training and communication. While
+several works focus on strategic incentive designs and client selection to
+overcome this problem, there is a major knowledge gap in terms of an overall
+design tailored to the foreseen digital economy, including Web 3.0, while
+simultaneously meeting the learning objectives. To address this gap, we propose
+a contribution-based tokenized incentive scheme, namely \texttt{FedToken},
+backed by blockchain technology that ensures fair allocation of tokens amongst
+the clients that corresponds to the valuation of their data during model
+training. Leveraging the engineered Shapley-based scheme, we first approximate
+the contribution of local models during model aggregation, then strategically
+schedule clients lowering the communication rounds for convergence and anchor
+ways to allocate \emph{affordable} tokens under a constrained monetary budget.
+Extensive simulations demonstrate the efficacy of our proposed method.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pandey_S/0/1/0/all/0/1&quot;&gt;Shashi Raj Pandey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nguyen_L/0/1/0/all/0/1&quot;&gt;Lam Duc Nguyen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Popovski_P/0/1/0/all/0/1&quot;&gt;Petar Popovski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01016">
+<title>Holographic-Type Communication for Digital Twin: A Learning-based Auction Approach. (arXiv:2211.01016v2 [cs.NI] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01016</link>
+<description rdf:parseType="Literal">&lt;p&gt;Digital Twin (DT) technologies, which aim to build digital replicas of
+physical entities, are the key to providing efficient, concurrent simulation
+and analysis of real-world objects. In displaying DTs, Holographic-Type
+Communication (HTC), which supports the transmission of holographic data such
+as Light Field (LF), can provide an immersive way for users to interact with
+Holographic DTs (HDT). However, it is challenging to effectively allocate
+interactive and resource-intensive HDT services among HDT users and providers.
+In this paper, we integrate the paradigms of HTC and DT to form a HTC for DT
+system, design a marketplace for HDT services where HDT users&apos; and providers&apos;
+prices are evaluated by their valuation functions, and propose an auction-based
+mechanism to match HDT services using a learning-based Double Dutch Auction
+(DDA). Specifically, we apply DDA and train an agent acting as the auctioneer
+to adjust the auction clock dynamically using Deep Reinforcement Learning
+(DRL), aiming to achieve the best market efficiency. Simulation results
+demonstrate that the proposed learning-based auctioneer can achieve
+near-optimal social welfare at halved auction information exchange cost of the
+baseline method.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_X/0/1/0/all/0/1&quot;&gt;XiuYu Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_M/0/1/0/all/0/1&quot;&gt;Minrui Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tan_R/0/1/0/all/0/1&quot;&gt;Rui Tan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Niyato_D/0/1/0/all/0/1&quot;&gt;Dusit Niyato&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
