@@ -1,0 +1,26 @@
+{
+  "title": "Simplifying privacy-safe ads personalization",
+  "link": "https://blog.google/products/admanager/simplifying-privacy-safe-ads-personalization/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p data-block-key=\"vicwv\">With many browsers blocking the use of third-party cookies, first-party cookies offer a privacy-first way for publishers and advertisers to create more relevant and engaging experiences for people who engage with their sites or apps. Large publishers with signed-in user bases and dedicated resources often use these identifiers to personalize people’s content and ads. However, not all publishers have these capabilities. That's why in November, we’ll expand the functionality of publisher first-party cookies from Google Ad Manager and AdSense beyond frequency management, fraud prevention and creative rotation to support ads personalization. This update will help publishers of all sizes easily serve personalized ads and potentially increase the value of their inventory in browsers where third-party cookies aren’t available — all while protecting people’s privacy.</p><h3 data-block-key=\"2h77e\">Publisher first-party cookies for ads personalization</h3><p data-block-key=\"4in2n\">Next month, publishers who have first-party cookies enabled will be able to serve personalized ads with minimal technical effort. Here’s how it works. When a publisher allows, Google uses publisher first-party cookies to improve ad relevance on that specific publisher’s website by using information from ad interactions users took on the same site. These first party cookies are used by Google Ads and Display &amp; Video 360 to create aggregated audiences to help advertisers reach their desired customers in browsers where third-party cookies aren’t available.</p><p data-block-key=\"86rek\">Publisher first-party cookies cannot be used to track users across the web. They are scoped per publisher, are not shared with other publishers, can’t be joined with any other identifiers and are subject to user consent. When publisher first-party cookies are enabled for ads personalization, ads are shown based exclusively on people’s behavior on a single publisher’s website. Publisher first-party cookies also respect people’s ads personalization preferences as indicated through the <a href=\"https://youradchoices.com/control\">AdChoices controls</a>.</p><p data-block-key=\"d271c\">As digital ads evolve to meet people's changing privacy expectations, we’re working on new ways to make it easier for publishers and content creators of all sizes to continue to thrive. For more information or to get started with publisher first-party cookies visit the <a href=\"https://support.google.com/admanager/answer/10650804#\">Google Ad Manager</a> and <a href=\"https://support.google.com/adsense/answer/3234887#allow-first-party-cookies-for-personalization\">AdSense</a> product support centers.</p></div></div></body></html>",
+  "pubDate": "Tue, 11 Oct 2022 13:00:00 +0000",
+  "guid": "https://blog.google/products/admanager/simplifying-privacy-safe-ads-personalization/",
+  "category": [
+    "AdSense",
+    "Google Ad Manager"
+  ],
+  "media:content": "",
+  "og": {
+    "type": "article",
+    "title": "Simplifying privacy-safe ads personalization",
+    "description": "Google Ad Manager and AdSense partners can now set and use first-party cookies for ads personalization with minimal technical expertise required.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GAD-Privacy-Blog-header-DL.max-1300x1300.max-600x600.png",
+    "site_name": "Google",
+    "url": "https://blog.google/products/admanager/simplifying-privacy-safe-ads-personalization/"
+  },
+  "author": {
+    "name": "Steve Swan",
+    "title": "Product Manager",
+    "department": "",
+    "company": "Google Ad Manager"
+  }
+}

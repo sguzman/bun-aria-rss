@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3_JE76PKBWE",
+  "yt:videoId": "3_JE76PKBWE",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to create a 'What I Use' blog with Astro and Tailwind CSS (at a hotel lounge)",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2022-09-20T11:00:02+00:00",
+  "updated": "2022-10-14T10:43:09+00:00",
+  "media:group": {
+    "media:title": "How to create a 'What I Use' blog with Astro and Tailwind CSS (at a hotel lounge)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, a solo developer making a Markdown note-taking app called Inkdrop.\nToday, I built a curated list of the tech that I use with Astro and Tailwind CSS.\n\n▶ Website - What I use\nhttps://uses.craftz.dog/\n▶ Source code\nhttps://github.com/craftzdog/craftzdog-uses\n▶ Download my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=3_JE76PKBWE\n▶ Indkrop live export tool\nhttps://github.com/inkdropapp/inkdrop-live-export\n▶ Stack\n* Astro - Static Website Framework\n* @Tailwind Labs  - CSS Framework\n* React - Component-based UI framework for JS\n* Headless UI - Unstyled interactive components\n* React Icons - Icon set\n* Inkdrop live export tool\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My hacked version of Hyper\nhttps://github.com/craftzdog/hyper\n▶ Hotel it. Osaka Shinmachi\nhttps://hotelit.jp/en/\n\nFollow me online here:\n▶ Twitter(English) https://twitter.com/inkdrop_app\n▶ Twitter(日本語) https://twitter.com/craftzdog\n▶ Instagram https://instagram.com/craftzdog\n▶ Medium Blog https://blog.inkdrop.app/\n▶ DEV blog https://dev.to/craftzdog\n▶ GitHub https://github.com/craftzdog/\n▶ Subscribe to my newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n00:00 Intro\n01:15 Heading to a hotel\n04:34 Create new Astro project\n07:13 Configure Prettier\n07:22 Add ESLint\n08:57 Add ReactS and configure TypeScript\n11:45 Add TailwindCSS and a custom Google font\n15:06 Remove the existing styles\n16:26 Update the website information\n17:36 Body component\n19:00 Header component\n22:24 Add a GitHub icon\n24:05 Add a paw logo\n25:41 Support toggling light/dark themes\n33:26 Content component\n36:48 Add a page introduction\n39:52 Add a page introduction\n45:01 The list of posts\n48:48 Display post thumbnails\n51:19 Fix a bug which causes the screen to flash when dark theme is applied\n53:13 Style blog posts\n57:33 Customize the Markdown processor to at proper stvles\n01:00:31 Remove the example Markdown files\n01:01:04 Change the cover photo\n01:01:35 Custom 404 page\n01:04:08 Integrate with Inkdrop in order to use it as a CMS\n01:14:51 Create posts with Inkdrop\n01:29:20 Change the post order\n01:29:46 Add cateories\n01:21:18 Navigation drondown menu\n01:42:01 Add category pages\n01:51:00 Fix a bug where themes still not being toggled on loading\n01:51:53 'Created with' section\n01:57:04 Thanks for watching\n\n#codewithme #astrojs #tailwindcss",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

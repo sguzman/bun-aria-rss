@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:g06hNBhoS1k",
+  "yt:videoId": "g06hNBhoS1k",
+  "yt:channelId": "UCcf4LQogGFtYzPhq05uHE4g",
+  "title": "Shell sort vs Insertion sort",
+  "link": "",
+  "author": {
+    "name": "udiprod",
+    "uri": "https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g"
+  },
+  "published": "2022-05-22T18:52:13+00:00",
+  "updated": "2022-08-19T15:39:19+00:00",
+  "media:group": {
+    "media:title": "Shell sort vs Insertion sort",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Introduction of Shell sort, and a match with Insertion Sort.\n\nFor an introduction of Insertion sort, see:\nhttps://youtu.be/TZRWRjq2CAg\n\nChoosing the sequence 9-6-1:\nFor a list of size 10, the gaps can be any number 1,2,....,9, and the sequence must end with 1.\nSo each of the gaps 2,3,...,9 can be included in the sequence, or not included. So there's a total of 2^8=256 possible gap sequences. For each we checked the average number of comparisons for all possible 10! permutations.\nHere are the 3 best sequences:\n9-6-1: 25.512 comparisons\n   4-1: 25.516 comparisons\n   6-1: 25.539 comparisons\n\nWe could have also checked which has the highest probability of performing less comparisons than insertion sort. Here are the top 3 in this respect:\n   4-1: prob=0.72\n9-4-1: prob=0.704\n   6-1: prob=0.701\n\nAnalyzing Shell sort variants more generally: See it explained in my home page:\nhttps://www.udiprod.com/shell-sort/#analysis\n\nWhy did Shell sort lag behind in the second match in comparisons per second? You are welcome to post answers. Or read answer here: \nhttps://www.udiprod.com/shell-sort/#timing",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
