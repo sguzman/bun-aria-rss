@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>econ.EM updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Economics -- Econometrics (econ.EM) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Economics -- Econometrics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01537" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01547" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01557" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01575" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01921" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.07545" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.04065" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07330" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16547" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01537">
+<title>Stochastic Treatment Choice with Empirical Welfare Updating. (arXiv:2211.01537v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01537</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper proposes a novel method to estimate individualised treatment
+assignment rules. The method is designed to find rules that are stochastic,
+reflecting uncertainty in estimation of an assignment rule and about its
+welfare performance. Our approach is to form a prior distribution over
+assignment rules and to update this prior based upon an empirical welfare
+criterion. The social planner then assigns treatment by drawing a policy from
+the resulting posterior. We show analytically a welfare-optimal way of updating
+the prior using empirical welfare. The posterior obtained by implementing the
+optimal updating rule is not feasible to compute, so we propose a variational
+Bayes approximation for the optimal posterior. We characterise the welfare
+regret convergence of the assignment rule based upon this variational Bayes
+approximation and show that it converges to zero at a rate of ln(n)/sqrt(n). We
+apply our methods to experimental data from the Job Training Partnership Act
+Study and extensive numerical simulations to illustrate the implementation of
+our methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Lopez_H/0/1/0/all/0/1&quot;&gt;Hugo Lopez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Rowley_J/0/1/0/all/0/1&quot;&gt;Jeff Rowley&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01547">
+<title>A Systematic Paradigm for Detecting, Surfacing, and Characterizing Heterogeneous Treatment Effects (HTE). (arXiv:2211.01547v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01547</link>
+<description rdf:parseType="Literal">&lt;p&gt;To effectively optimize and personalize treatments, it is necessary to
+investigate the heterogeneity of treatment effects. With the wide range of
+users being treated over many online controlled experiments, the typical
+approach of manually investigating each dimension of heterogeneity becomes
+overly cumbersome and prone to subjective human biases. We need an efficient
+way to search through thousands of experiments with hundreds of target
+covariates and hundreds of breakdown dimensions. In this paper, we propose a
+systematic paradigm for detecting, surfacing and characterizing heterogeneous
+treatment effects. First, we detect if treatment effect variation is present in
+an experiment, prior to specifying any breakdowns. Second, we surface the most
+relevant dimensions for heterogeneity. Finally, we characterize the
+heterogeneity beyond just the conditional average treatment effects (CATE) by
+studying the conditional distributions of the estimated individual treatment
+effects. We show the effectiveness of our methods using simulated data and
+empirical studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Cai_J/0/1/0/all/0/1&quot;&gt;John Cai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Weinan Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01557">
+<title>Estimating interaction effects with panel data. (arXiv:2211.01557v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01557</link>
+<description rdf:parseType="Literal">&lt;p&gt;A common task in empirical economics is to estimate \emph{interaction
+effects} that measure how the effect of one variable $X$ on another variable
+$Y$ depends on a third variable $H$. This paper considers the estimation of
+interaction effects in linear panel models with a fixed number of time periods.
+There are at least two ways to estimate interaction effects in this setting,
+both common in applied work. Our theoretical results show that these two
+approaches are distinct, and only coincide under strong conditions on
+unobserved effect heterogeneity. Our empirical results show that the difference
+between the two approaches is large, leading to conflicting conclusions about
+the sign of the interaction effect. Taken together, our findings may guide the
+choice between the two approaches in empirical work.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Muris_C/0/1/0/all/0/1&quot;&gt;Chris Muris&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Wacker_K/0/1/0/all/0/1&quot;&gt;Konstantin Wacker&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01575">
+<title>Are Synthetic Control Weights Balancing Score?. (arXiv:2211.01575v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01575</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this short note, I outline conditions under which conditioning on
+Synthetic Control (SC) weights emulates a randomized control trial where the
+treatment status is independent of potential outcomes. Specifically, I
+demonstrate that if there exist SC weights such that (i) the treatment effects
+are exactly identified and (ii) these weights are uniformly and cumulatively
+bounded, then SC weights are balancing scores.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Parikh_H/0/1/0/all/0/1&quot;&gt;Harsh Parikh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01921">
+<title>On Estimation and Inference of Large Approximate Dynamic Factor Models via the Principal Component Analysis. (arXiv:2211.01921v1 [econ.EM])</title>
+<link>http://arxiv.org/abs/2211.01921</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper revisits and provides an alternative derivation of the asymptotic
+results for the Principal Components estimator of a large approximate factor
+model as considered in Stock and Watson (2002), Bai (2003), and Forni et al.
+(2009). Results are derived under a minimal set of assumptions with a special
+focus on the time series setting, which is usually considered in almost all
+recent empirical applications. Hence, $n$ and $T$ are not treated
+symmetrically, the former being the dimension of the considered vector of time
+series, while the latter being the sample size and, therefore, being relevant
+only for estimation purposes, but not when it comes to just studying the
+properties of the model at a population level. As a consequence, following
+Stock and Watson (2002) and Forni et al. (2009), estimation is based on the
+classical $n \times n$ sample covariance matrix. As expected, all asymptotic
+results we derive are equivalent to those stated in Bai (2003), where, however,
+a $T\times T$ covariance matrix is considered as a starting point. A series of
+useful complementary results is also given. In particular, we give some
+alternative sets of primitive conditions for mean-squared consistency of the
+sample covariance matrix of the factors, of the idiosyncratic components, and
+of the observed time series. We also give more intuitive asymptotic expansions
+for the estimators showing that PCA is equivalent to OLS as long as
+$\sqrt{T}/n\to 0$ and $\sqrt{n}/T\to 0$, that is loadings are estimated in a
+time series regression as if the factors were known, while factors are
+estimated in a cross-sectional regression as if the loadings were known. The
+issue of testing multiple restrictions on the loadings as well as building
+joint confidence intervals for the factors is discussed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Barigozzi_M/0/1/0/all/0/1&quot;&gt;Matteo Barigozzi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.07545">
+<title>Interpretable Personalization via Policy Learning with Linear Decision Boundaries. (arXiv:2003.07545v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.07545</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the rise of the digital economy and an explosion of available
+information about consumers, effective personalization of goods and services
+has become a core business focus for companies to improve revenues and maintain
+a competitive edge. This paper studies the personalization problem through the
+lens of policy learning, where the goal is to learn a decision-making rule (a
+policy) that maps from consumer and product characteristics (features) to
+recommendations (actions) in order to optimize outcomes (rewards). We focus on
+using available historical data for offline learning with unknown data
+collection procedures, where a key challenge is the non-random assignment of
+recommendations. Moreover, in many business and medical applications,
+interpretability of a policy is essential. We study the class of policies with
+linear decision boundaries to ensure interpretability, and propose learning
+algorithms using tools from causal inference to address unbalanced treatments.
+We study several optimization schemes to solve the associated non-convex,
+non-smooth optimization problem, and find that a Bayesian optimization
+algorithm is effective. We test our algorithm with extensive simulation studies
+and apply it to an anonymized online marketplace customer purchase dataset,
+where the learned policy outputs a personalized discount recommendation based
+on customer and product features in order to maximize gross merchandise value
+(GMV) for sellers. Our learned policy improves upon the platform&apos;s baseline by
+88.2\% in net sales revenue, while also providing informative insights on which
+features are important for the decision-making process. Our findings suggest
+that our proposed policy learning framework using tools from causal inference
+and Bayesian optimization provides a promising practical approach to
+interpretable personalization across a wide range of applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qu_Z/0/1/0/all/0/1&quot;&gt;Zhaonan Qu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qian_I/0/1/0/all/0/1&quot;&gt;Isabella Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhengyuan Zhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.04065">
+<title>Honest calibration assessment for binary outcome predictions. (arXiv:2203.04065v2 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.04065</link>
+<description rdf:parseType="Literal">&lt;p&gt;Probability predictions from binary regressions or machine learning methods
+ought to be calibrated: If an event is predicted to occur with probability $x$,
+it should materialize with approximately that frequency, which means that the
+so-called calibration curve $p(\cdot)$ should equal the identity, $p(x) = x$
+for all $x$ in the unit interval. We propose honest calibration assessment
+based on novel confidence bands for the calibration curve, which are valid only
+subject to the natural assumption of isotonicity. Besides testing the classical
+goodness-of-fit null hypothesis of perfect calibration, our bands facilitate
+inverted goodness-of-fit tests whose rejection allows for the sought-after
+conclusion of a sufficiently well specified model. We show that our bands have
+a finite sample coverage guarantee, are narrower than existing approaches, and
+adapt to the local smoothness of the calibration curve $p$ and the local
+variance of the binary observations. In an application to model predictions of
+an infant having a low birth weight, the bounds give informative insights on
+model calibration.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Dimitriadis_T/0/1/0/all/0/1&quot;&gt;Timo Dimitriadis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Duembgen_L/0/1/0/all/0/1&quot;&gt;Lutz Duembgen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Henzi_A/0/1/0/all/0/1&quot;&gt;Alexander Henzi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Puke_M/0/1/0/all/0/1&quot;&gt;Marius Puke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ziegel_J/0/1/0/all/0/1&quot;&gt;Johanna Ziegel&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07330">
+<title>Semiparametric Best Arm Identification with Contextual Information. (arXiv:2209.07330v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07330</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study best-arm identification with a fixed budget and contextual
+(covariate) information in stochastic multi-armed bandit problems. In each
+round, after observing contextual information, we choose a treatment arm using
+past observations and current context. Our goal is to identify the best
+treatment arm, a treatment arm with the maximal expected reward marginalized
+over the contextual distribution, with a minimal probability of
+misidentification. First, we derive semiparametric lower bounds of the
+misidentification probability for this problem, where we regard the gaps
+between the expected rewards of the best and suboptimal treatment arms as
+parameters of interest, and all other parameters, such as the expected rewards
+conditioned on contexts, as the nuisance parameters. We then develop the
+``Contextual RS-AIPW strategy,&apos;&apos; which consists of the random sampling (RS)
+rule tracking a target allocation ratio and the recommendation rule using the
+augmented inverse probability weighting (AIPW) estimator. Our proposed
+Contextual RS-AIPW strategy is optimal because the upper bound for the
+probability of misidentification by the strategy matches the semiparametric
+lower bound, when the budget goes to infinity and the gaps converge to zero.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kato_M/0/1/0/all/0/1&quot;&gt;Masahiro Kato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Imaizumi_M/0/1/0/all/0/1&quot;&gt;Masaaki Imaizumi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ishihara_T/0/1/0/all/0/1&quot;&gt;Takuya Ishihara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16547">
+<title>Flexible machine learning estimation of conditional average treatment effects: a blessing and a curse. (arXiv:2210.16547v1 [stat.ME] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2210.16547</link>
+<description rdf:parseType="Literal">&lt;p&gt;Causal inference from observational data requires untestable assumptions. If
+these assumptions apply, machine learning (ML) methods can be used to study
+complex forms of causal-effect heterogeneity. Several ML methods were developed
+recently to estimate the conditional average treatment effect (CATE). If the
+features at hand cannot explain all heterogeneity, the individual treatment
+effects (ITEs) can seriously deviate from the CATE. In this work, we
+demonstrate how the distributions of the ITE and the estimated CATE can differ
+when a causal random forest (CRF) is applied. We extend the CRF to estimate the
+difference in conditional variance between treated and controls. If the ITE
+distribution equals the CATE distribution, this difference in variance should
+be small. If they differ, an additional causal assumption is necessary to
+quantify the heterogeneity not captured by the CATE distribution. The
+conditional variance of the ITE can be identified when the individual effect is
+independent of the outcome under no treatment given the measured features.
+Then, in the cases where the ITE and CATE distributions differ, the extended
+CRF can appropriately estimate the characteristics of the ITE distribution
+while the CRF fails to do so.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Post_R/0/1/0/all/0/1&quot;&gt;Richard Post&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Heuvel_I/0/1/0/all/0/1&quot;&gt;Isabel van den Heuvel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Petkovic_M/0/1/0/all/0/1&quot;&gt;Marko Petkovic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Heuvel_E/0/1/0/all/0/1&quot;&gt;Edwin van den Heuvel&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
