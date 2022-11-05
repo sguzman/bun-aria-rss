@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DataScience+</title>
+	<atom:link href="https://datascienceplus.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://datascienceplus.com</link>
+	<description>An online community for showcasing R &#38; Python tutorials</description>
+	<lastBuildDate>Mon, 18 Apr 2022 01:02:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9</generator>
+
+<image>
+	<url>https://datascienceplus.com/wp-content/uploads/2018/07/cropped-favicon-2-2-32x32.png</url>
+	<title>DataScience+</title>
+	<link>https://datascienceplus.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Linking R and Python to retrieve financial data and plot a candlestick</title>
+		<link>https://datascienceplus.com/linking-r-and-python-to-retrieve-financial-data-and-plot-a-candlestick/</link>
+					<comments>https://datascienceplus.com/linking-r-and-python-to-retrieve-financial-data-and-plot-a-candlestick/#respond</comments>
+		
+		<dc:creator><![CDATA[Fabian Scheler]]></dc:creator>
+		<pubDate>Mon, 18 Apr 2022 01:02:48 +0000</pubDate>
+				<category><![CDATA[Data Management]]></category>
+		<category><![CDATA[Finance]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[investpy]]></category>
+		<category><![CDATA[Visualization]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=32118</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/data-management/" rel="bookmark" title="Permanent Link toData Management">Data Management</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/finance/" rel="bookmark" title="Permanent Link toFinance">Finance</a></li><li><a href="https://datascienceplus.com/tag/ggplot2/" rel="bookmark" title="Permanent Link toggplot2">ggplot2</a></li><li><a href="https://datascienceplus.com/tag/investpy/" rel="bookmark" title="Permanent Link toinvestpy">investpy</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/visualization/" rel="bookmark" title="Permanent Link toVisualization">Visualization</a></li></ul>I am way more experienced with R than with Python and prefer to code in this language when possible. This applies, especially when it is about visualizations. Plotly and ggplot2 are fantastic packages that provide a lot of flexibility. However, every language has its limitations, and the best results stem from their efficient combination. This [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/r-as-gis-part-1-vector/" rel="bookmark" title="Permanent Link toR as GIS, part 1: vector">R as GIS, part 1: vector</a></li><li><a href="https://datascienceplus.com/how-to-carry-column-metadata-in-pivot_longer/" rel="bookmark" title="Permanent Link toHow to carry column metadata in pivot_longer">How to carry column metadata in pivot_longer</a></li><li><a href="https://datascienceplus.com/how-to-create-multiple-variables-with-a-single-line-of-code-in-r/" rel="bookmark" title="Permanent Link toHow to create multiple variables with a single line of code in R">How to create multiple variables with a single line of code in R</a></li><li><a href="https://datascienceplus.com/converting-data-from-long-to-wide-and-from-wide-to-long-simplified-tidyverse-package/" rel="bookmark" title="Permanent Link toConverting data from long to wide simplified: tidyverse package">Converting data from long to wide simplified: tidyverse package</a></li><li><a href="https://datascienceplus.com/how-to-show-characteristics-of-study-population-in-r-with-a-single-line-of-code/" rel="bookmark" title="Permanent Link toHow to show characteristics of study population in R with a single line of code">How to show characteristics of study population in R with a single line of code</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/data-management/" rel="bookmark" title="Permanent Link toData Management">Data Management</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/finance/" rel="bookmark" title="Permanent Link toFinance">Finance</a></li><li><a href="https://datascienceplus.com/tag/ggplot2/" rel="bookmark" title="Permanent Link toggplot2">ggplot2</a></li><li><a href="https://datascienceplus.com/tag/investpy/" rel="bookmark" title="Permanent Link toinvestpy">investpy</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/visualization/" rel="bookmark" title="Permanent Link toVisualization">Visualization</a></li></ul><p>I am way more experienced with R than with Python and prefer to code in this language when possible. This applies, especially when it is about visualizations. Plotly and ggplot2 are fantastic packages that provide a lot of flexibility. However, every language has its limitations, and the best results stem from their efficient combination.</p>
+<p>This week, I created the candlestick below, and I think it&#8217;s an excellent case study to illustrate a few things:</p>
+<li>How to download financial data from investing.com using the investpy package in Python</li>
+<li>How to efficiently combine the capabilities of Python and R deploying the reticulate package</li>
+<li>How to construct a nicely formatted candlestick chart with ggplot2, ggthemes and two simple custom functions</li>
+<li>How to export the result in different image formats, including high-resolution Scalable Vector Graphics (SVG)</li>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-490x259.png" alt="" width="490" height="259" class="alignnone size-medium wp-image-32126" srcset="https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-490x259.png 490w, https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-1024x540.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-768x405.png 768w, https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-1536x811.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/04/62511d5e3d84e772b324d202_candlestick_usd_rub-2048x1081.png 2048w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<h3>The Python part</h3>
+<p>Let&#8217;s start with the Python code required. First, we need to install the investpy package using pip to run the simple function below. Investpy is a fantastic and very powerful wrapper around the public API of the investing.com page. It allows the retrieval of end of day price data for a wide range of financial instruments, including stocks, bonds, ETFs, mutual funds, indices, currencies, commodities and cryptocurrencies, as well as the download of selected meta-data. Detailed documentation can be found <a href="https://investpy.readthedocs.io/">here </a>or in pdf format under this <a href="http://readthedocs.org/projects/investpy/downloads/pdf/latest/">link</a>. Save the function defined below in a python script.</p>
+<pre>
+#pip install investpy
+
+def get_fx_cross_investpy(currency_cross,st_date,ed_date):    
+    import investpy
+    data = investpy.get_currency_cross_historical_data(currency_cross=currency_cross, from_date=st_date, to_date=ed_date)
+    return(data)
+</pre>
+<h3>The R part</h3>
+<p>To use the previously defined Python function in R and to subsequently plot the data, we require the following four packages that can be installed easily from CRAN.</p>
+<pre>
+install.packages("reticulate")
+install.packages("ggplot2")
+install.packages("ggthemes")
+install.packages("scales")
+</pre>
+<h3>Defining a pretty theme</h3>
+<p>The <a href="https://mran.microsoft.com/snapshot/2017-02-04/web/packages/ggthemes/vignettes/ggthemes.html">ggthemes </a>package comes with a few nice default themes for ggplot2 graphics. So you can, for instance, replicate the famous design of the <a href="https://www.economist.com/graphic-detail">Economist</a> or the appearance of typical Stata charts. However, it is also possible to adapt these themes and create your unique default layout. I demonstrate this below for my standard formatting. The function defined here is later used in the candlestick function.</p>
+<pre>
+theme_aq_black_default_font&lt;-
+  function (base_size = 12, base_family = &quot;&quot;) 
+  {
+    library(ggplot2)
+    library(ggthemes)
+    library(scales)
+    col_aq2&lt;-as.character(c(&quot;#04103b&quot;,&quot;#dd0400&quot;,&quot;#3b5171&quot;,&quot;#5777a7&quot;,&quot;#969696&quot;,&quot;#BDBDBD&quot;,&quot;#D9D9D9&quot;,&quot;#F0F0F0&quot;))
+    
+    theme_hc(base_size = base_size, base_family = base_family) %+replace% 
+</pre>
+<h3>The candlestick function</h3>
+<p>Candlesticks are widely used in the visualization of price data and technical analysis. It allows viewers to quickly gauge the significance of market moves and analyze potential resistance levels or extraordinary price jumps that may be reverted in the future. To construct the daily candlestick displayed above, we require daily opening and closing prices as well as intraday highs and lows. Fortunately, this is all available on investing.com and can be retrieved as a handy data frame with our function defined above.</p>
+<pre>
+ggplot_candlestick&lt;-function(df,width=0.9,chart_title,chart_subtitle)
+{
+	library(ggplot2)
+  df$Date&lt;-row.names(df)
+  df$Date&lt;-as.Date(df$Date,&quot;%Y-%m-%d&quot;)
+  df$chg  df$Open, "dn", "up")
+  cols&lt;-as.character(c(&quot;#04103b&quot;,&quot;#dd0400&quot;,&quot;#3b5171&quot;,&quot;#5777a7&quot;,&quot;#969696&quot;,&quot;#BDBDBD&quot;,&quot;#D9D9D9&quot;,&quot;#F0F0F0&quot;))
+  
+  p&lt;-
+    ggplot(data=df,aes(x=as.Date(Date), y=High))+
+    geom_linerange(aes(ymin=Low, ymax=High)) +
+    geom_rect(aes(xmin = Date - width/2 * 0.9, xmax = Date + width/2 * 0.9, ymin = pmin(Open, Close), ymax = pmax(Open, Close), fill = df$chg)) + 
+    scale_fill_manual(values = c(&quot;up&quot; = &quot;darkred&quot;, &quot;dn&quot; = &quot;darkgreen&quot;))+
+    scale_colour_manual(values = cols)+
+    theme_aq_black_default_font(base_size=18)+
+    labs(color=&#039;&#039;)+
+    labs(title=chart_title,subtitle=chart_subtitle,x =&quot;&quot;)+
+    labs(caption = paste0(&#039;Source: DataScience+, Investing.com  &#039;, Sys.Date()))+
+    guides(colour = guide_legend(nrow = 1))+
+    scale_x_date(labels = date_format(&quot;%y/%m&quot;))+
+    theme(legend.position = &quot;none&quot;,legend.margin=margin(-20,-20,-20,-20),legend.box.margin=margin(0,0,30,0))+
+    ylab(&quot;&quot;)+
+    theme(plot.margin=margin(l=5,r=20,b=5,t=5))
+
+  return(p)
+}
+
+</pre>
+<h3>Plot the data and export the graphic</h3>
+<p>Last but not least, let&#8217;s combine all these modules and execute them step by step. Once we have loaded our Python function employing the reticulate package, we can use it in R to retrieve the financial data from investpy. We can subsequently use our previously defined R functions to create the candlestick plot. The plot can then be exported easily as a PNG or SVG graphic utilizing ggsave.</p>
+<pre>
+# Load the python function and retrieve the financial data
+library(reticulate)
+source_python("C:/Users/Fabian/Desktop/get_rates_investing.com.py")
+df&lt;-get_fx_cross_investpy(&quot;USD/RUB&quot;,&#039;01/01/2022&#039;,&#039;01/05/2022&#039;)   
+
+# Use the R functions and plot the data
+p&lt;-ggplot_candlestick(df,chart_title=&quot;Following its crash, the Russian Ruble rebounded sharply&quot;,chart_subtitle=&quot;USD/RUB exchange rate&quot;)
+p
+
+# Save the plot
+target_folder&lt;-&quot;C:/Users/Fabian/Desktop/&quot;
+ggsave(file=paste0(target_folder,&quot;candlestick_usd_rub.svg&quot;), plot=p, width=9, height=5)
+ggsave(file=paste0(target_folder,&quot;candlestick_usd_rub.png&quot;), plot=p, width=9, height=5)
+</pre>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/r-as-gis-part-1-vector/" rel="bookmark" title="Permanent Link toR as GIS, part 1: vector">R as GIS, part 1: vector</a></li><li><a href="https://datascienceplus.com/how-to-carry-column-metadata-in-pivot_longer/" rel="bookmark" title="Permanent Link toHow to carry column metadata in pivot_longer">How to carry column metadata in pivot_longer</a></li><li><a href="https://datascienceplus.com/how-to-create-multiple-variables-with-a-single-line-of-code-in-r/" rel="bookmark" title="Permanent Link toHow to create multiple variables with a single line of code in R">How to create multiple variables with a single line of code in R</a></li><li><a href="https://datascienceplus.com/converting-data-from-long-to-wide-and-from-wide-to-long-simplified-tidyverse-package/" rel="bookmark" title="Permanent Link toConverting data from long to wide simplified: tidyverse package">Converting data from long to wide simplified: tidyverse package</a></li><li><a href="https://datascienceplus.com/how-to-show-characteristics-of-study-population-in-r-with-a-single-line-of-code/" rel="bookmark" title="Permanent Link toHow to show characteristics of study population in R with a single line of code">How to show characteristics of study population in R with a single line of code</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/linking-r-and-python-to-retrieve-financial-data-and-plot-a-candlestick/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>An R alternative to pairs for -omics QC</title>
+		<link>https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/</link>
+					<comments>https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicholas Carruthers]]></dc:creator>
+		<pubDate>Mon, 28 Mar 2022 01:23:19 +0000</pubDate>
+				<category><![CDATA[Basic Statistics]]></category>
+		<category><![CDATA[Data Visualisation]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[tidyverse]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=32097</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/ggplot2/" rel="bookmark" title="Permanent Link toggplot2">ggplot2</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tidyverse/" rel="bookmark" title="Permanent Link totidyverse">tidyverse</a></li></ul>Introduction The Problem: I&#039;ve got a couple of problems with the commonly used &#8220;pairs&#8221; plot in R for quality control in -omics data. (1) It&#039;s not that space-efficient since it only uses half the space for datapoints and (2) the scatterplot isn&#039;t very informative. When I look at those scatter plots it&#039;s hard to tell [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/" rel="bookmark" title="Permanent Link toHow I selected my starting word for Wordle using simulations and R">How I selected my starting word for Wordle using simulations and R</a></li><li><a href="https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/" rel="bookmark" title="Permanent Link toDitch p-values. Use Bootstrap confidence intervals instead">Ditch p-values. Use Bootstrap confidence intervals instead</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/ggplot2/" rel="bookmark" title="Permanent Link toggplot2">ggplot2</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tidyverse/" rel="bookmark" title="Permanent Link totidyverse">tidyverse</a></li></ul><h2>Introduction</h2>
+<p><em>The Problem:</em> I&#039;ve got a couple of problems with the commonly used &ldquo;pairs&rdquo; plot in R for quality control in -omics data.  (1) It&#039;s not that space-efficient since it only uses half the space for datapoints and (2) the scatterplot isn&#039;t very informative.  When I look at those scatter plots it&#039;s hard to tell anything about the spread of the data or any normalization problems.  This is particularily true for proteomics data where the high dynamic range can obscure lower abundance points.  </p>
+<p><em>The Solution:</em> A panel of MA plots (Minus-Average).  The MA plot shows fold-change vs average intensity for a pair of samples.  It lets you see difference between sample groups as fold-change which I think is a useful unit for comparison and visualizes normalization problems.  Rather than plot each against each we will only compare samples between groups to save space.  </p>
+<p>This goes along with a previous post of <a href="https://datascienceplus.com/how-to-carry-column-metadata-in-pivot_longer/">mine</a> that attempts to convince biologists of the value of putting tables of data into <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">tidy</a> format.  This method takes advantage of pivoting data to succintly generate a panel of MA plots</p>
+<pre><code class="r">suppressPackageStartupMessages(library(tidyverse))
+library(GGally)
+library(DEFormats)
+</code></pre>
+<h2>Set up the data</h2>
+<p>I&#039;ll start with simulated data that will resemble a gene expression study.  A proteomics dataset would be similar.  The dataset will have 8 samples, half of them treated, half control.  7 of the samples will approximately the same but Sample 4 will have a 3-fold increase compared to the rest to illustrate how MA-plots help identify problems with normalization.  </p>
+<pre><code class="r">counts &lt;- simulateRnaSeqData(n = 5000, m = 8)
+counts[, 4] &lt;- counts[, 4] *  3
+
+targets &lt;- data.frame(sample = colnames(counts), group = c(rep(&quot;control&quot;, 4), rep(&quot;treated&quot;, 4)))
+</code></pre>
+<p>The <code>ggpairs</code> function from the <code>GGally</code> package does a decent job of the pairs plot.  </p>
+<pre><code class="r">ggpairs(data.frame(counts))
+</code></pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-38-1.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-38-1-490x490.png" alt="" width="490" height="490" class="alignnone size-medium wp-image-32095" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-38-1-490x490.png 490w, https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-38-1.png 504w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>The pairs plot tells us something about the data.  The correlation is nice to have and if any sample was wildly different from the others it would show up in the scatter plot.  Still I don&#039;t think it conveys the information very efficiently.  </p>
+<h2>MA plot panel</h2>
+<p>Typically I would start by pivoting all the count data to a single columns and joining in the metadata.  But I need to associate control and treated data for each gene for each sample so the usual method won&#039;t work.  It took me a while to fall on the solution:  we have to pivot the control and treated samples separately.  So for each gene we will have a control sample name, a treated sample name and control and treated count data.  Those can be used to calculate Fold-change and intensity.  </p>
+<pre><code class="r">control_samples &lt;- targets$sample[targets$group == &quot;control&quot;]
+treated_samples &lt;- targets$sample[targets$group == &quot;treated&quot;]
+
+data.frame(counts) %&gt;%
+  rownames_to_column(&quot;gene&quot;) %&gt;%
+  pivot_longer(all_of(control_samples), names_to = &quot;control_sample&quot;, values_to = &quot;control_count&quot;) %&gt;%
+  pivot_longer(all_of(treated_samples), names_to = &quot;treated_sample&quot;, values_to = &quot;treated_count&quot;) %&gt;%
+  mutate(FC = treated_count / control_count) %&gt;%
+  mutate(Intensity = (treated_count + control_count) / 2)</code><em>
+## # A tibble: 80,000 x 7 
+##    gene  control_sample control_count treated_sample treated_count    FC Intensity
+##    &lt;chr&gt; &lt;chr&gt;                  &lt;dbl&gt; &lt;chr&gt;                  &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;
+##  1 gene1 sample1                  103 sample5                   71 0.689      87  
+##  2 gene1 sample1                  103 sample6                   79 0.767      91  
+##  3 gene1 sample1                  103 sample7                   76 0.738      89.5
+##  4 gene1 sample1                  103 sample8                  118 1.15      110. 
+##  5 gene1 sample2                   82 sample5                   71 0.866      76.5
+##  6 gene1 sample2                   82 sample6                   79 0.963      80.5
+##  7 gene1 sample2                   82 sample7                   76 0.927      79  
+##  8 gene1 sample2                   82 sample8                  118 1.44      100  
+##  9 gene1 sample3                   89 sample5                   71 0.798      80  
+## 10 gene1 sample3                   89 sample6                   79 0.888      84  
+## # ... with 79,990 more rows
+</em></pre>
+<p>All that&#039;s left to do now is plot.  Facet_grid will let us split the samples up. </p>
+<pre><code class="r">data.frame(counts) %&gt;%
+  rownames_to_column(&quot;gene&quot;) %&gt;%
+  pivot_longer(all_of(control_samples), names_to = &quot;control_sample&quot;, values_to = &quot;control_count&quot;) %&gt;%
+  pivot_longer(all_of(treated_samples), names_to = &quot;treated_sample&quot;, values_to = &quot;treated_count&quot;) %&gt;%
+  mutate(FC = treated_count / control_count) %&gt;%
+  mutate(Intensity = (treated_count + control_count) / 2) %&gt;%
+  ggplot(aes(x = Intensity, y = FC)) +
+  geom_point(alpha = 0.5, na.rm = TRUE) +
+  scale_x_continuous(trans = &quot;log10&quot;) +
+  scale_y_continuous(trans = &quot;log2&quot;, breaks = 2^seq(-4, 4, 2)) +
+  geom_hline(yintercept = 1) +
+  labs(x = &quot;Intensity&quot;, y = &quot;Fold Change, treated vs control&quot;) +
+  facet_grid(rows = vars(treated_sample), cols = vars(control_sample))
+</code></pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-40-1.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-40-1-490x490.png" alt="" width="490" height="490" class="alignnone size-medium wp-image-32096" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-40-1-490x490.png 490w, https://datascienceplus.com/wp-content/uploads/2022/03/unnamed-chunk-40-1.png 504w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>The change in abundance in sample 4 shows up much more clearly now.  This isn&#039;t a common way to plot the data so it might require some explaining to your colleagues but worth the effort in my opinion.  </p>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/" rel="bookmark" title="Permanent Link toHow I selected my starting word for Wordle using simulations and R">How I selected my starting word for Wordle using simulations and R</a></li><li><a href="https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/" rel="bookmark" title="Permanent Link toDitch p-values. Use Bootstrap confidence intervals instead">Ditch p-values. Use Bootstrap confidence intervals instead</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Visualizing economic data with pretty worldmaps</title>
+		<link>https://datascienceplus.com/visualizing-economic-data-with-pretty-worldmaps/</link>
+					<comments>https://datascienceplus.com/visualizing-economic-data-with-pretty-worldmaps/#respond</comments>
+		
+		<dc:creator><![CDATA[Fabian Scheler]]></dc:creator>
+		<pubDate>Tue, 22 Mar 2022 18:56:14 +0000</pubDate>
+				<category><![CDATA[Visualizing Data]]></category>
+		<category><![CDATA[Data Visualisation]]></category>
+		<category><![CDATA[Maps]]></category>
+		<category><![CDATA[Tips & Tricks]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=32081</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/visualizing-data/" rel="bookmark" title="Permanent Link toVisualizing Data">Visualizing Data</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/maps/" rel="bookmark" title="Permanent Link toMaps">Maps</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tips-tricks/" rel="bookmark" title="Permanent Link toTips &amp; Tricks">Tips &amp; Tricks</a></li></ul>Choropleths are a nice tool for the visualization of geographic data and with R and Python, their creation can be pretty effortless, especially when clean data is readily available. Fortunately, a lot of economic datasets can be loaded from the World Bank Open Data platform. Nevertheless, making the visualization look nice can be a bit [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/real-plug-and-play-supervised-learning-automl-using-r-and-lares/" rel="bookmark" title="Permanent Link toReal Plug-and-Play Supervised Learning AutoML using R and lares">Real Plug-and-Play Supervised Learning AutoML using R and lares</a></li><li><a href="https://datascienceplus.com/how-to-visualize-complex-sets-intersections-with-python/" rel="bookmark" title="Permanent Link toHow to visualize complex sets intersections with Python?">How to visualize complex sets intersections with Python?</a></li><li><a href="https://datascienceplus.com/how-to-analyses-a-single-variable-using-graphs-in-r/" rel="bookmark" title="Permanent Link toHow to Analyze a Single Variable using Graphs in R?">How to Analyze a Single Variable using Graphs in R?</a></li><li><a href="https://datascienceplus.com/map-visualization-of-covid19-across-world/" rel="bookmark" title="Permanent Link toMap Visualization of COVID-19 Across the World with R">Map Visualization of COVID-19 Across the World with R</a></li><li><a href="https://datascienceplus.com/find-insights-with-ranked-cross-correlations/" rel="bookmark" title="Permanent Link toFind Insights with Ranked Cross-Correlations">Find Insights with Ranked Cross-Correlations</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/visualizing-data/" rel="bookmark" title="Permanent Link toVisualizing Data">Visualizing Data</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/maps/" rel="bookmark" title="Permanent Link toMaps">Maps</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tips-tricks/" rel="bookmark" title="Permanent Link toTips &amp; Tricks">Tips &amp; Tricks</a></li></ul><p>Choropleths are a nice tool for the visualization of geographic data and with R and Python, their creation can be pretty effortless, especially when clean data is readily available. Fortunately, a lot of economic datasets can be loaded from the World Bank Open Data platform. Nevertheless, making the visualization look nice can be a bit cumbersome. For this reason, I have created a small, integrated function that is handling the data download, adjustment, and visualization all in one. The output can easily be exported as high-quality vector-graphic using ggsave.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/rect6560.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/rect6560-490x197.png" alt="" width="490" height="197" class="aligncenter size-medium wp-image-32085" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/rect6560-490x197.png 490w, https://datascienceplus.com/wp-content/uploads/2022/03/rect6560-1024x412.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/03/rect6560-768x309.png 768w, https://datascienceplus.com/wp-content/uploads/2022/03/rect6560-1536x618.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/03/rect6560.png 1693w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>To replicate the example, simply follow these three steps.</p>
+<p>1) Install all required packages</p>
+<pre>
+install.packages("rnaturalearth")
+install.packages("rnaturalearthdata")  
+install.packages("WDI")
+install.packages("lubridate")
+install.packages("dplyr")  
+install.packages("ggplot2")
+install.packages("RColorBrewer")
+install.packages("ggplot2")
+</pre>
+<p>2) Load the function</p>
+<pre>
+#Download and visualization function
+get_and_plot_wb_data&lt;-function(sel_indicator=&quot;NY.GDP.PCAP.KD&quot;,
+                               log=&quot;Yes&quot;,
+                               midpoint=&quot;Mean&quot;,
+                               color_scheme=&quot;Straight&quot;,
+                               start_yr = year(Sys.Date())-2,
+                               end_yr = year(Sys.Date()),
+                               legend_pos=&quot;Bottom&quot;,
+                               charttitle=&quot;GDP per Capita in US$&quot;,
+                               scale_factor=1)
+{
+#Load required packages
+library(rnaturalearth)
+library(rnaturalearthdata)  
+library(WDI)
+library(lubridate)
+library(dplyr)  
+library(ggplot2)
+library(RColorBrewer)
+library(ggplot2)
+
+#Create color scheme
+cols_gr&lt;-c(&quot;#632523&quot;, &quot;#953735&quot;,  &quot;#C3D69B&quot;,&quot;#77933C&quot;, &quot;#4F6228&quot;)
+cols_gr = colorRampPalette(cols_gr)(5)
+
+#Get all countries and countrycodes
+world &lt;- ne_countries(scale = &quot;medium&quot;, returnclass = &quot;sf&quot;)
+class(world)
+
+#Load data using the worldbank API
+gdp&lt;-WDI(
+  country = &quot;all&quot;,
+  indicator = sel_indicator,
+  start = start_yr,
+  end = end_yr,
+  extra = FALSE,
+  cache = NULL,
+  latest = NULL,
+  language = &quot;en&quot;
+)
+
+names(gdp)[1]&lt;-&quot;iso_a2&quot;
+names(gdp)[names(gdp)==sel_indicator]&lt;-&quot;ret&quot;
+gdp&lt;-gdp[order(gdp$country,gdp$year),]
+print(max(gdp$year))
+gdp% group_by(iso_a2) %&gt;% do(tail(., n=1))
+  
+  
+world&lt;-merge(world,gdp,by=&quot;iso_a2&quot;,all=F)
+
+#Remove some unnecssary elements
+plain &lt;- theme(
+  panel.background = element_rect(fill = &quot;white&quot;),
+)
+
+world$ret&lt;-round(world$ret/scale_factor,2)
+#Choose appropriate breakpoint
+if(midpoint==&quot;Median&quot;)
+{
+  midpoint&lt;-median((world$ret),na.rm=T)
+}else{
+  if(midpoint==&quot;Mean&quot;)
+  {
+    midpoint&lt;-mean((world$ret),na.rm=T)  
+  }else{
+    midpoint&lt;-midpoint
+  }  
+}
+
+#Red to green or green to red
+if(color_scheme==&quot;Inverted&quot;)
+{
+  col_low&lt;-&quot;#276419&quot;
+  col_high&lt;-&quot;#8E0152&quot;
+}else{
+  col_low&lt;-&quot;#8E0152&quot;
+  col_high&lt;-&quot;#276419&quot;
+}
+
+#Plot map with ggplot
+
+p9&lt;-
+  ggplot(data = world) +
+  geom_sf(aes(fill = (ret))) +
+  ggtitle(charttitle) +
+  #theme(legend.position = legend_pos,legend.margin=margin(-10,-10,-10,-10),legend.box.margin=margin(-100,800,-50,-50))+
+  plain 
+  
+#Use log scale for skewed data
+if(log==&quot;Yes&quot;)
+{  
+  p9&lt;-p9+  
+    scale_fill_gradient2(
+      trans = &quot;log&quot;,
+      low = col_low,
+      mid = &quot;white&quot;,
+      high = col_high,
+      midpoint = log(midpoint),
+      space = &quot;Lab&quot;,
+      na.value = &quot;grey50&quot;,
+      guide = &quot;colourbar&quot;,
+      aesthetics = &quot;fill&quot;,
+      name=&quot;&quot;
+    )
+}else{
+  p9&lt;-p9+  
+    scale_fill_gradient2(
+      low = col_low,
+      mid = &quot;white&quot;,
+      high = col_high,
+      midpoint = midpoint,
+      space = &quot;Lab&quot;,
+      na.value = &quot;grey50&quot;,
+      guide = &quot;colourbar&quot;,
+      aesthetics = &quot;fill&quot;,
+      name=&quot;&quot;
+    )
+}
+
+res_list&lt;-list(&quot;dataset&quot;=world,&quot;visualization&quot;=p9)
+
+return(res_list)
+
+}
+
+</pre>
+<p>3) Run the function and save the plot</p>
+<pre>
+#Run the function
+res_list&lt;-get_and_plot_wb_data(sel_indicator=&quot;NY.GDP.PCAP.KD&quot;,midpoint=&quot;Median&quot;,log=&quot;Yes&quot;,legend_pos=&quot;bottom&quot;,charttitle=&quot;GDP per Capita in US$&quot;,scale_factor=1)
+res_list$visualization
+
+#Export the result
+target_folder&lt;-&quot;C:/your_path/&quot;
+ggsave(file=paste0(target_folder,&quot;gdp_per_capita.svg&quot;), plot=res_list$visualization, width=14, height=7)
+
+</pre>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/real-plug-and-play-supervised-learning-automl-using-r-and-lares/" rel="bookmark" title="Permanent Link toReal Plug-and-Play Supervised Learning AutoML using R and lares">Real Plug-and-Play Supervised Learning AutoML using R and lares</a></li><li><a href="https://datascienceplus.com/how-to-visualize-complex-sets-intersections-with-python/" rel="bookmark" title="Permanent Link toHow to visualize complex sets intersections with Python?">How to visualize complex sets intersections with Python?</a></li><li><a href="https://datascienceplus.com/how-to-analyses-a-single-variable-using-graphs-in-r/" rel="bookmark" title="Permanent Link toHow to Analyze a Single Variable using Graphs in R?">How to Analyze a Single Variable using Graphs in R?</a></li><li><a href="https://datascienceplus.com/map-visualization-of-covid19-across-world/" rel="bookmark" title="Permanent Link toMap Visualization of COVID-19 Across the World with R">Map Visualization of COVID-19 Across the World with R</a></li><li><a href="https://datascienceplus.com/find-insights-with-ranked-cross-correlations/" rel="bookmark" title="Permanent Link toFind Insights with Ranked Cross-Correlations">Find Insights with Ranked Cross-Correlations</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/visualizing-economic-data-with-pretty-worldmaps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Incorporate ML.Net With Algorithmic Trading</title>
+		<link>https://datascienceplus.com/how-to-incorporate-ml-net-with-algorithmic-trading/</link>
+					<comments>https://datascienceplus.com/how-to-incorporate-ml-net-with-algorithmic-trading/#respond</comments>
+		
+		<dc:creator><![CDATA[Zadhid Powell]]></dc:creator>
+		<pubDate>Fri, 18 Mar 2022 00:58:25 +0000</pubDate>
+				<category><![CDATA[Regression Models]]></category>
+		<category><![CDATA[Linear Regression]]></category>
+		<category><![CDATA[Logistic Regression]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=32019</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/regression-models/" rel="bookmark" title="Permanent Link toRegression Models">Regression Models</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/linear-regression/" rel="bookmark" title="Permanent Link toLinear Regression">Linear Regression</a></li><li><a href="https://datascienceplus.com/tag/logistic-regression/" rel="bookmark" title="Permanent Link toLogistic Regression">Logistic Regression</a></li><li><a href="https://datascienceplus.com/tag/machine-learning/" rel="bookmark" title="Permanent Link toMachine Learning">Machine Learning</a></li><li><a href="https://datascienceplus.com/tag/python/" rel="bookmark" title="Permanent Link toPython">Python</a></li></ul>As you search about ML.Net on Google, you&#8217;d find much content about working with that; but almost all do the identical machine learning tasks available on the model builder. So, I thought, why not do something a little more complex using that. In this post, I want to share my primary idea of designing a [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/linear-regression-using-python-basics-2/" rel="bookmark" title="Permanent Link toLinear Regression using Python (Basics &#8211; 2)">Linear Regression using Python (Basics &#8211; 2)</a></li><li><a href="https://datascienceplus.com/linear-regression-using-python-basics/" rel="bookmark" title="Permanent Link toLinear Regression using Python (Basics)">Linear Regression using Python (Basics)</a></li><li><a href="https://datascienceplus.com/logistic-regression-in-r-with-healthcare-data-vitamin-d-and-osteoporosis/" rel="bookmark" title="Permanent Link toLogistic Regression in R with Healthcare data: Vitamin D and Osteoporosis">Logistic Regression in R with Healthcare data: Vitamin D and Osteoporosis</a></li><li><a href="https://datascienceplus.com/linear-regression-with-healthcare-data-for-beginners-in-r/" rel="bookmark" title="Permanent Link toLinear Regression with Healthcare Data for Beginners in R">Linear Regression with Healthcare Data for Beginners in R</a></li><li><a href="https://datascienceplus.com/logistic-regression-with-python/" rel="bookmark" title="Permanent Link toLogistic Regression with Python">Logistic Regression with Python</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/regression-models/" rel="bookmark" title="Permanent Link toRegression Models">Regression Models</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/linear-regression/" rel="bookmark" title="Permanent Link toLinear Regression">Linear Regression</a></li><li><a href="https://datascienceplus.com/tag/logistic-regression/" rel="bookmark" title="Permanent Link toLogistic Regression">Logistic Regression</a></li><li><a href="https://datascienceplus.com/tag/machine-learning/" rel="bookmark" title="Permanent Link toMachine Learning">Machine Learning</a></li><li><a href="https://datascienceplus.com/tag/python/" rel="bookmark" title="Permanent Link toPython">Python</a></li></ul><p>As you search about ML.Net on Google, you&#8217;d find much content about working with that; but almost all do the identical machine learning tasks available on the model builder. So, I thought, why not do something a little more complex using that.</p>
+<p>In this post, I want to share my primary idea of designing a simple trading strategy using the model builder tool. I&#8217;ve spent time establishing a basic logic that works. Note that this context&#8217;s priority is to walk through MS machine learning with algorithmic trading; it&#8217;s not essential whether the following strategy is profitable. (If there were an accurate and profitable algorithmic trading strategy, it wouldn&#8217;t be available for free!)</p>
+<p>You’ll get an inspiring prospect, I hope. Please Keep exploring with me.</p>
+<h2>What You’ll Read:</h2>
+<p>Why do I think this project is worth considering?</p>
+<p>A step-by-step roadmap to get the ball rolling:<br />
+Step 1: Choose a programming language.<br />
+Step 2: Determine what field/financial market your bot will work upon.<br />
+Step 3: Select a server.<br />
+Step 4: Determine your trading strategy.<br />
+Step 5: Deploy your strategy to your program.<br />
+Backtest your strategy</p>
+<h2>Why Do I Think Incorporating ML.Net With Algorithmic Trading Is Worth Considering?</h2>
+<p>Machine learning is one of those areas of programming which is very capable of invitations and creativity. But, are you limited to any particular language like Python or R to develop either AI or ML projects? Who says that?</p>
+<p>Nowadays, many developers have started learning to program with C#. But, if you’re one of them, you’d probably have heard that C# is not the best choice to start programming or it’s just useful for windows applications which is a wrong belief.<br />
+So why did I choose machine learning, and why a trader bot project? I have two main reasons for that:</p>
+<p>1. Trading is an everyday activity in almost everyone’s life; everyone buys and sells stuff. The difference is just about that stuff, and someone trades stocks, someone else buys and sells cars, or anything else. I understand that coding an advanced trader bot requires the knowledge of technical analysis and other related skills, but at this stage, I’m talking about trading. </p>
+<p>Trading is something understandable for almost every single person. So I don’t want the primary bot to be too complicated; it is supposed to buy low-priced assets and sell them at their highest prices. Just that simple!</p>
+<p>2. As you create a bot, it’s crucial to teach that trading bot how to do functions. I want to utilize ML.Net at this level. I will not use any strange machine learning tasks but show that even with such a level of simplicity, it’s possible to do something more beneficial than just predicting NY taxi fares! </p>
+<p>Besides, that’s a project having a huge potential for development and adding new features which challenge your creativity.</p>
+<p>There is a step-by-step guide on how to solve the puzzle in the following parts.</p>
+<h2>Step 1: Choose a Programming Language</h2>
+<p>Although this step seems routine or even a little paradoxical in this particular article, it’s important enough to get mentioned. It’s up to you what programming language works for you more comfortably. When it comes to machine learning and AI, almost everyone believes that Python is the best choice. </p>
+<p>But as ML.Net Has been designed for .NETdevelopers and supports C# and F#, I’ve written my code snippets in C#. However, you can incorporate ML.Net functions in Python via <a href="https://docs.microsoft.com/en-us/nimbusml/overview" rel="noopener" target="_blank">NimbusML</a>.</p>
+<h2>Step 2: Determine What Field/Financial Market Your Bot Will Work Upon</h2>
+<p>This part is often skipped in many robot building tutorials out there, while it’s as crucial as required programming knowledge! You have to decide what asset you’re going to trade. (For example, stocks, currencies, and cryptos).</p>
+<p>If you’d ask my opinion, I highly recommend fiat currencies, as they follow logical trends and are easier to predict their behavior. Such an approach will decrease your risks due to fewer fluctuations in comparison with other types of assets.<br />
+Let’s try to establish a strategy based on the EUR/USD chart, later in this article.</p>
+<h2>Step 3: Select a Server</h2>
+<p>You require a reliable server to call and send your desired exchange/broker API requests.<br />
+Of course, in the stage of building your robot, you can utilize your computer as a server (or use a free host). But in the main stage of the robot&#8217;s operation, which has to be on a 24 hours basis, your local server will no longer be a suitable choice. Therefore, I have two recommendations for you:<br />
+1. Utilize Raspberry Pi as a server.<br />
+2. Use cloud hosting.</p>
+<p>Executing a bot via Raspberry Pi seems to be an exceptional idea. Try it if you&#8217;re interested. Although, most people use cloud hosting services like <a href="https://azure.microsoft.com/en-gb/" rel="noopener" target="_blank">Azure</a> and <a href="https://aws.amazon.com/?aws-products-analytics.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-analytics.sort-order=asc&amp;aws-products-business-apps.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-business-apps.sort-order=asc&amp;aws-products-containers.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-containers.sort-order=asc&amp;aws-products-compute.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-compute.sort-order=asc&amp;aws-products-databases.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-databases.sort-order=asc&amp;aws-products-fe-mobile.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-fe-mobile.sort-order=asc&amp;aws-products-game-tech.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-game-tech.sort-order=asc&amp;aws-products-iot.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-iot.sort-order=asc&amp;aws-products-ml.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-ml.sort-order=asc&amp;aws-products-mgmt-govern.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-mgmt-govern.sort-order=asc&amp;aws-products-migration.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-migration.sort-order=asc&amp;aws-products-network.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-network.sort-order=asc&amp;aws-products-security.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-security.sort-order=asc&amp;aws-products-storage.sort-by=item.additionalFields.productNameLowercase&amp;aws-products-storage.sort-order=asc" rel="noopener" target="_blank">AWS</a>. You can also use <a href="https://www.mql5.com/en/vps" rel="noopener" target="_blank">MetaTrader 5 VPS</a>. It&#8217;s an efficient distributed computing service that I&#8217;ve been using for a few similar projects.</p>
+<h2>Step 4: Determine Your Trading Strategy.</h2>
+<p>In the beginning, let&#8217;s try to establish a simple strategy that works. Here, I chose regression analysis. It&#8217;s pretty simple; pick the asset chart data and draw a trend line over a particular period. At this stage, the model builder tool comes into the game and helps you create a trend line (the same regression line) with high accuracy. Of course, you&#8217;re presumably familiar with linear regression.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph-490x275.png" alt="Linear Regression Graph" width="490" height="275" class="aligncenter size-large wp-image-32037" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph-490x275.png 490w, https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph-1024x576.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph-768x432.png 768w, https://datascienceplus.com/wp-content/uploads/2022/03/linear-regression-graph.png 1400w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>A linear regression graph is something like this sample schema. (Sorry, I’m not very good at painting.) Though the prices have many fluctuations, the total trend usually matches a trend line like this drawn one. Our strategy is based on this point. Our bot will place buy/sell orders at points where the price would deviate significantly from the regression line. How could the bot understand when it’s time to place orders?</p>
+<p>My idea is to get real-time market prices via the exchange or broker’s API and then compare it with the regression predictor model’s output. Plus, it’s a good idea to utilize the RSI indicator to confirm our trading signals.</p>
+<h2>Step 5: Deploy Your Strategy to Your Program</h2>
+<p>As I’m not looking forward to rebuilding the wheel, I don’t define any class or method for my bot from scratch. I suggest you utilize trading software DLL libraries instead. Likewise, several solutions are available, and each one has its benefits. The one choice that I prefer to use is <a href="https://www.metatrader5.com/en" rel="noopener" target="_blank">MetaTrader 5</a>, as it supports object-oriented programming. Before getting into the code sample, let’s get back to the model builder and class library for trading functions.</p>
+<p>Create a .Net Core console app. Click right on your project’s solution, manage NuGet packages, and install these two packages: Microsoft.ML and MQL4CSharp. Let’s start with the relatively simple task, creating a regression model utilizing past price data of EUR/USD. You can use some known online data sources like <a href="https://www.kaggle.com/datasets" rel="noopener" target="_blank">Kaggle Datasets</a>, but I operate differently to get the historical market data. If you like to learn about that, <a href="https://strategyquant.com/doc/quantdatamanager/how-to-export-data-from-metatrader-5/" rel="noopener" target="_blank">click here</a>.</p>
+<p>Working with ML.Net Model Builder is like a piece of cake, meanwhile explained entirely on <a href="https://docs.microsoft.com/en-us/dotnet/machine-learning/automate-training-with-model-builder?&amp;WT.mc_id=Educationalmlnet-c9-niner#consume" rel="noopener" target="_blank">Microsoft docs</a>. It autogenerates a pipeline based on the model inputs to predict the next price. I set the date and time as the features (model’s inputs) and the close (or lastest) price on the corresponding date as the label (model’s output). Then, in advance data options, change the other columns’ purposes to ignore.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/image1.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/image1-490x378.jpg" alt="Sample Model Config 1" width="490" height="378" class="aligncenter size-large wp-image-32045" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/image1-490x378.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/03/image1-768x593.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/03/image1.jpg 825w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/03/Sample-Model-Config-2.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/03/Sample-Model-Config-2-490x390.jpg" alt="Sample Model Config 2" width="490" height="390" class="aligncenter size-large wp-image-32046" srcset="https://datascienceplus.com/wp-content/uploads/2022/03/Sample-Model-Config-2-490x390.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/03/Sample-Model-Config-2-768x611.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/03/Sample-Model-Config-2.jpg 822w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>Now, let’s see what kind of use the <code>MQL4CSharpclass</code> library provides for your project. It contains all MQL5 language (MetaTrader 5 specific language, similar to C++) functions converted to C#. I selected a few methods from the DLL class library for this test project. Ready to get into the code template?</p>
+<p>First, add a new class to the project and inherit that from the <code>MQLBase class</code>. Then in the <code>OnTick()</code> method’s block, load and execute the model.</p>
+<pre>
+public override void OnTick()
+ {
+ //Load and use the model to make predictions.
+     var sampleData = new BOtModel.ModelInput()
+    {
+       Col0 = @"" ,
+       Col1 = @"" ,
+    };
+     var result = BOtModel.Predict(sampleData);
+ }
+
+</pre>
+<p><b>Now execute the bot’s logic like this: </b></p>
+<pre>
+public override void OnTick()
+ {
+   var sampleData = new BOtModel.ModelInput()
+ {
+    Col0 = @"" ,
+    Col1 = @"" ,
+  };
+    var result = BOtModel.Predict(sampleData);
+ }
+            
+//Define these two variables based on your customized parameters. 
+
+double rsi = iRSI(string symbol, int timeframe, int period, int applied_price, int shift);
+double closeprice = iClose(string symbol, int timeframe, int shift);
+       
+//Define conditional statements to place buy/sell orders. 
+     if (rsi &gt; 80 &amp;&amp; Convert.ToDouble(result) &lt; closeprice)
+  {
+
+//Sell order
+OrderSend(string symbol, int cmd, double volume, double price, int slippage, 
+double stoploss, double takeprofit, string comment, int magic, DateTime expiration, MQL4CSharp.Base.Enums.COLOR arrow color);
+   }
+      else if (rsi  closeprice)
+   {
+
+//Buy order
+OrderSend(string symbol, int cmd, double volume, double price, int slippage, 
+double stoploss, double takeprofit,string comment, int magic, DateTime expiration, MQL4CSharp.Base.Enums.COLOR arrow color);
+   }
+  }
+
+</pre>
+<p>The required parameters for the methods are explained briefly at the following links:<br />
+1. <a href="https://www.mql5.com/en/docs/indicators/irsi" rel="noopener" target="_blank">iRsi()</a><br />
+2. <a href="https://www.mql5.com/en/docs/series/iclose" rel="noopener" target="_blank">iClose()</a><br />
+3. <a href="https://www.mql5.com/en/docs/trading/ordersend" rel="noopener" target="_blank">OrderSend()</a></p>
+<p>If you are not familiar with financial markets, you might ask what the RSI indicator is? Thoroughly, it’s a technical indicator that allows you to know whether an asset is overbought or oversold so that you can realize when the price is intended to pull back or rise.</p>
+<p>It&#8217;s is one of the most crucial actions after creating your Trading Robot. Accessing the historical data is, as I mentioned in the past paragraphs. I do not intend to delve into this matter in this post, and I will thoroughly explain backtesting in one of my future articles. </p>
+<p>Meanwhile, there is something that I prefer to mention here. When getting backtests, it&#8217;s essential to make accurate calculations that require spending a lot of time and energy manually. </p>
+<p>The algorithmic trading platforms can facilitate your efforts at this level as well. One of my favorite services related to this issue is the <a href="https://cloud.mql5.com/en" rel="noopener" target="_blank">MQL5 Cloud Network</a>, which lets you utilize too many local PC CPUs power available on the network to enhance your calculations either speed or accuracy.</p>
+<h2>Summary</h2>
+<p>So far now, I have created a regression model based on the EUR/USD past prices data and then coded the bot’s functionality logic consuming that model. Nevertheless, some points can still be added, like connection to the data banks, saving the robot’s trade functions records, designing a user-friendly dashboard, and more.</p>
+<p>In my future posts, I’ll expand this content and explain further details on developing and adding complementary features to the bot.</p>
+<p>Thanks for reading this article, and I hope it was helpful for you.</p>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/linear-regression-using-python-basics-2/" rel="bookmark" title="Permanent Link toLinear Regression using Python (Basics &#8211; 2)">Linear Regression using Python (Basics &#8211; 2)</a></li><li><a href="https://datascienceplus.com/linear-regression-using-python-basics/" rel="bookmark" title="Permanent Link toLinear Regression using Python (Basics)">Linear Regression using Python (Basics)</a></li><li><a href="https://datascienceplus.com/logistic-regression-in-r-with-healthcare-data-vitamin-d-and-osteoporosis/" rel="bookmark" title="Permanent Link toLogistic Regression in R with Healthcare data: Vitamin D and Osteoporosis">Logistic Regression in R with Healthcare data: Vitamin D and Osteoporosis</a></li><li><a href="https://datascienceplus.com/linear-regression-with-healthcare-data-for-beginners-in-r/" rel="bookmark" title="Permanent Link toLinear Regression with Healthcare Data for Beginners in R">Linear Regression with Healthcare Data for Beginners in R</a></li><li><a href="https://datascienceplus.com/logistic-regression-with-python/" rel="bookmark" title="Permanent Link toLogistic Regression with Python">Logistic Regression with Python</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/how-to-incorporate-ml-net-with-algorithmic-trading/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How I selected my starting word for Wordle using simulations and R</title>
+		<link>https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/</link>
+					<comments>https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/#respond</comments>
+		
+		<dc:creator><![CDATA[Bernardo Lares]]></dc:creator>
+		<pubDate>Thu, 24 Feb 2022 02:19:34 +0000</pubDate>
+				<category><![CDATA[Basic Statistics]]></category>
+		<category><![CDATA[Data Visualisation]]></category>
+		<category><![CDATA[lares]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=31978</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/lares/" rel="bookmark" title="Permanent Link tolares">lares</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li></ul>Wordle has been around for some time now and I think it&#8217;s not quite necessary to explain what it is and how to play it. (If I lost you there, please read more about it (and play) here). I&#8217;m not the best for wording games, thus I don&#8217;t find them quite entertaining. But, thinking of [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/" rel="bookmark" title="Permanent Link toAn R alternative to pairs for -omics QC">An R alternative to pairs for -omics QC</a></li><li><a href="https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/" rel="bookmark" title="Permanent Link toDitch p-values. Use Bootstrap confidence intervals instead">Ditch p-values. Use Bootstrap confidence intervals instead</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/lares/" rel="bookmark" title="Permanent Link tolares">lares</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li></ul><p><strong>Wordle</strong> has been around for some time now and I think it&#8217;s not quite necessary to explain what it is and how to play it. (If I lost you there, please read more about it (and play) <a href="https://www.nytimes.com/games/wordle/index.html" rel="noopener" target="_blank">here</a>). I&#8217;m not the best for wording games, thus I don&#8217;t find them quite entertaining. But, thinking of algorithmic ways to find puzzle solutions faster using R is! That&#8217;s why I started to think of random ideas regarding Wordle: for people who have played a lot, what&#8217;s their guessing word distribution look like? Are there better or worse words to start with? Are there significant more relevant letters that would be useful to guess your first try?</p>
+<p>I&#8217;ve seen some people answer similar questions after I started thinking on the matter, especially on most frequent letters by position (<a href="https://rviews.rstudio.com/2022/02/21/wordle-data-analysis/" rel="noopener" target="_blank">post</a>), and a way to play and replicate the game using R (<a href="https://blog.ephorie.de/wordle-solve-wordle-with-r" rel="noopener" target="_blank">post</a>).</p>
+<p>Keep in mind <strong>the &#8220;winner starting word&#8221; you find depends</strong> on:<br />
+1. the words you pick to evaluate as possible best words,<br />
+2. the words you are trying to predict and test toward,<br />
+3. the valid words randomly picked to guess, based on the set of seeds picked to select those words</p>
+<p>Yet, it gives us a winner solution.</p>
+<h3>1. Install and load <code>lares</code></h3>
+<p>Run <code>install.packages("lares")</code> and then, load it with <code>library("lares")</code>. No more packages needed from now on.</p>
+<h3>2. Select your starting point</h3>
+<p>Let&#8217;s pick some &#8220;good words&#8221; to see which ones are the best. I won&#8217;t get into details but I set a couple of rules based on letter by position frequency to set these initial words. There are 48 words that comply with these filters. I&#8217;m using some <a href="https://laresbernardo.github.io/lares/reference/scrabble.html" rel="noopener" target="_blank">old Scrabble functions</a> I previously developed for the library for this purpose.</p>
+<pre>
+some_words &lt;- scrabble_words(
+  language = &quot;en&quot;, # for English words
+  tiles = &quot;ESAORILTNU&quot;, # 67% cumulative letters
+  force_n = 5, # comply Wordle universe of 5 letter words
+  force_start = &quot;s&quot;, # 16% words start with S
+  force_str = &quot;e&quot;)$word # most frequent letter
+sort(toupper(some_words))
+<em> [1] "SAINE" "SALET" "SALUE" "SANER" "SAUTE" "SENOR" "SENTI" ...
+</em>
+</pre>
+<p>We could sample some of them, manually pick those we like most, or simply use all if you&#8217;re patient enough to run the simulations:<br />
+<code>best_words &lt;- toupper(some_words)</code></p>
+<p>Now, I picked 10 random words we are going to guess, starting from the &#8220;best words&#8221; we picked. The more we use, the better it&#8217;ll represent the universe of words (which is about 13K 5 letter words).</p>
+<pre>
+set.seed(2) # For reproducibility (same results)
+test_words &lt;- toupper(sample(wordle_dictionary(&quot;en&quot;), 10)); test_words # Words to guess randomly picked
+<em>  [1] "BOZOS" "RESET" "TROWS" "SALTS" "JIBES" "YIRKS" "DURST" "SITES" "PENGO" "GARRE"
+</em>
+</pre>
+<p>Finally, how many different random picking scenarios we&#8217;d like to test on each combination of best words and test words:<br />
+<code>seeds &lt;- 20 # Number of different random picks to check distribution</code></p>
+<p>So basically expect for 480 iterations in total if you use these same settings. For me, it took about 30 minutes using my personal computer.<br />
+<code>print(length(best_words) * length(test_words), seeds)</code></p>
+<h3>3. Run simulations</h3>
+<p>Now that we already set our starting point, let&#8217;s run the simulations. </p>
+<pre>
+results &lt;- temp &lt;- NULL
+tic(&quot;wordle_loop&quot;)
+for (word in best_words) {
+  cat(sprintf(&quot;- Seed word: %s [%s/%s]\n&quot;, word, which(word == best_words), length(best_words)))
+  for (objective in test_words) {
+    cat(sprintf(&quot;Guess %s [%s/%s] &lt;= %s simulations: &quot;, objective, which(objective == test_words), length(test_words), seeds))
+    temp &lt;- wordle_simulation(word, objective, seed = 1:seeds, print = FALSE, quiet = TRUE)
+    results[[word]][[objective]] &lt;- temp
+    cat(signif(mean(sapply(temp, function(x) x$iters)), 4), &quot;\n&quot;)
+  }
+}
+toc(&quot;wordle_loop&quot;)
+<em>- Seed word: SALUE [1/48]
+Guess BOZOS [1/10] &lt;= 20 simulations: 6.95 
+Guess RESET [2/10] &lt;= 20 simulations: 5.5 
+Guess TROWS [3/10] &lt;= 20 simulations: 6.4 
+Guess SALTS [4/10] &lt;= 20 simulations: 4.7 
+Guess JIBES [5/10] &lt;= 20 simulations: 7.05 
+Guess YIRKS [6/10] &lt;= 20 simulations: 6.55 
+Guess DURST [7/10] &lt;= 20 simulations: 5.05 
+Guess SITES [8/10] &lt;= 20 simulations: 6.95 
+Guess PENGO [9/10] &lt;= 20 simulations: 5.3 
+Guess GARRE [10/10] &lt;= 20 simulations: 6.05
+
+- Seed word: SILEN [2/48]
+Guess BOZOS [1/10] &lt;= 20 simulations: 6.45 
+...
+</em>
+</pre>
+<h3>4. Gather results and check winners</h3>
+<p>Let&#8217;s check the sorted results to see the best and worst words.</p>
+<pre>
+best_means &lt;- lapply(results, function(a) sapply(a,function(x) mean(sapply(x, function(x) x$iters))))
+sort(sapply(best_means, mean))
+<em>STIRE SOARE SNARE STARE STORE STALE STEAL SNORE
+5.205 5.240 5.325 5.325 5.365 5.380 5.385 5.400 ...
+</em>
+</pre>
+<pre>
+hist(sapply(best_means, mean), breaks = 30)
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM-1024x765.png" alt="" width="1024" height="765" class="aligncenter size-large wp-image-31985" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM-1024x765.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM-490x366.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM-768x574.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.22.28-PM.png 1494w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>There&#8217;s a small range on these convergence means: <strong>(5.205, 5.890)</strong>. That means that all these words are similarly good or bad compared with each other. But, notice we can actually easily pick or split the best from the worst words with this methodology. </p>
+<p>To understand this point a bit more, let&#8217;s study a random benchmark: I picked 25 random words (not selected with the &#8220;best&#8221; words criteria) as my new <code>best_words &lt;- toupper(sample(some_words, 25))</code>. Then, re-ran all the code with the same parameters and test words, for a total of 250 iterations, and got the following distribution. (Note: it took 18 minutes this time)</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM-1024x771.png" alt="" width="1024" height="771" class="aligncenter size-large wp-image-31986" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM-1024x771.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM-490x369.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM-768x579.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-1.54.04-PM.png 1468w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>And theory confirmed. We did pick our first best words correctly given that the results given random words are really worse. Now the range covers a convergence mean of <strong>(5.700, 6.585)</strong>. Notice that the best random words are not quite within the best words range but for a few lucky cases. And the best of the best words converge ~1.4 guesses before the worst of the random words. So we can actually do something about it and use better words to start our game!</p>
+<h2>Final comments, asks, and considerations</h2>
+<p>&#8211; There are other <code>wordle_*</code> functions in the package you can use as dictionary, to actually play, and to run simulations. <a href="https://laresbernardo.github.io/lares/reference/wordle.html" rel="noopener" target="_blank">Check out the nice colored results it prints</a>. In the examples there is a small demo on how you can play with a random un-known word without limits.<br />
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-2.22.40-PM.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-2.22.40-PM.png" alt="" width="766" height="462" class="aligncenter size-full wp-image-31994" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-2.22.40-PM.png 766w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-2.22.40-PM-490x296.png 490w" sizes="(max-width: 766px) 100vw, 766px" /></a><br />
+&#8211; You probably won&#8217;t have a great difference on using one of the best picked words unless you play thousands of times: it&#8217;s more a matter of big numbers (and being smart on picking the right available words when guessing).<br />
+&#8211; You could try to re-run this analysis with a wider range of best words or test words to see if they can be improved. Note that the best words are the ones that converge sooner, thus lower iterations means.<br />
+&#8211; Expect to have these <code>wordle_*</code> functions updated in CRAN in a month or so (with nicer plots as well).<br />
+&#8211; Now, from the second input word onwards, it&#8217;s up to your picking skills. Feel free to check which words are left available using <a href="https://laresbernardo.github.io/lares/reference/scrabble.html" rel="noopener" target="_blank">the <code>scrabble_words()</code> function</a>.</p>
+<h2>Bonus benchmarks with different &#8220;best words&#8221; criteria</h2>
+<p>I ran one more experiment, using parallel calculations on 24 cores (which returned results in ~10min for 96 words and 40 iterations scenario), and got to the same conclusions as before, regardless of some outliers. FYI: &#8220;ESAORILT&#8221; are the most frequent letters, in order.<br />
+1) (all) 24 words containing E, starting with S, using any of &#8220;ESAORILT&#8221; letters<br />
+2) 96 good words containing E, using any of &#8220;ESAORILT&#8221; letters<br />
+3) 96 random words</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM-1024x612.png" alt="" width="1024" height="612" class="aligncenter size-large wp-image-32006" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM-1024x612.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM-490x293.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM-768x459.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-23-at-6.24.13-PM.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><br />
+<i>If you are wondering what those lower words are (remember the randomness factor), you&#8217;d get SOARE, ALERT, and RAILE. And the worst ones? LOGOI, KEVEL, and YAFFS.</i></p>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/" rel="bookmark" title="Permanent Link toAn R alternative to pairs for -omics QC">An R alternative to pairs for -omics QC</a></li><li><a href="https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/" rel="bookmark" title="Permanent Link toDitch p-values. Use Bootstrap confidence intervals instead">Ditch p-values. Use Bootstrap confidence intervals instead</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Forecast using Arima Model in R</title>
+		<link>https://datascienceplus.com/forecast-using-arima-model-in-r/</link>
+					<comments>https://datascienceplus.com/forecast-using-arima-model-in-r/#respond</comments>
+		
+		<dc:creator><![CDATA[Wahyuddin S]]></dc:creator>
+		<pubDate>Mon, 14 Feb 2022 19:51:20 +0000</pubDate>
+				<category><![CDATA[Advanced Modeling]]></category>
+		<category><![CDATA[ARIMA]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=31862</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/advanced-modeling/" rel="bookmark" title="Permanent Link toAdvanced Modeling">Advanced Modeling</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/arima/" rel="bookmark" title="Permanent Link toARIMA">ARIMA</a></li></ul>ARIMA Modeling AutoRegressive Integrated Moving Average Install Packages library(readxl) library(lmtest) library(forecast) library(FitAR) library(fUnitRoots) Import Data Set table2 &#60;- read_excel(&#34;Datum/1 SCOPUS/2022/Feb-01/Data/table2.xlsx&#34;,sheet = &#34;Sheet2&#34;) View(table2) summary(table2) avg_jual avg_beli Min. : 8808 Min. : 8766 1st Qu.:13498 1st Qu.:13480 Median :14190 Median :14078 Mean :13979 Mean :13800 3rd Qu.:14705 3rd Qu.:14257 Max. :15753 Max. :15020 tsJual = ts(table2$avg_jual, [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-2/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 2">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 2</a></li><li><a href="https://datascienceplus.com/text-processing-and-word-stemming-for-classification-models-in-master-data-management-mdm-context-in-r/" rel="bookmark" title="Permanent Link toText processing and word stemming for classification models  in master data management (MDM) context in R">Text processing and word stemming for classification models  in master data management (MDM) context in R</a></li><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-1/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1</a></li><li><a href="https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/" rel="bookmark" title="Permanent Link toAn introduction to k-gram language models in R">An introduction to k-gram language models in R</a></li><li><a href="https://datascienceplus.com/whats-the-intuition-behind-continuous-naive-bayes-behind-the-scenes-in-r/" rel="bookmark" title="Permanent Link toWhat’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R">What’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/advanced-modeling/" rel="bookmark" title="Permanent Link toAdvanced Modeling">Advanced Modeling</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/arima/" rel="bookmark" title="Permanent Link toARIMA">ARIMA</a></li></ul><h2>ARIMA Modeling</h2>
+AutoRegressive Integrated Moving Average
+
+<h3>Install Packages</h3>
+<pre>
+library(readxl)
+library(lmtest)
+library(forecast)
+library(FitAR)
+library(fUnitRoots)
+</pre>
+
+<h4>Import Data Set</h4>
+<pre>
+table2 &lt;- read_excel(&quot;Datum/1 SCOPUS/2022/Feb-01/Data/table2.xlsx&quot;,sheet = &quot;Sheet2&quot;)
+View(table2) 
+</pre>
+
+<pre>
+summary(table2)
+<em>    avg_jual        avg_beli    
+ Min.   : 8808   Min.   : 8766  
+ 1st Qu.:13498   1st Qu.:13480  
+ Median :14190   Median :14078  
+ Mean   :13979   Mean   :13800  
+ 3rd Qu.:14705   3rd Qu.:14257  
+ Max.   :15753   Max.   :15020 
+</em>
+</pre>
+
+<pre>
+tsJual = ts(table2$avg_jual, start = c(2017,1), frequency = 12)
+plot(tsJual)
+tsBeli = ts(table2$avg_beli, start = c(2017,1), frequency = 12)
+plot(tsBeli)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2.png" alt="" width="3449" height="1416" class="alignnone size-full wp-image-31884" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2.png 3449w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2-490x201.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2-1024x420.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2-768x315.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2-1536x631.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplot1-2-2048x841.png 2048w" sizes="(max-width: 3449px) 100vw, 3449px" /></a>
+
+<pre>
+components.tsJual = decompose(tsJual)
+plot(components.tsJual)
+components.tsBeli = decompose(tsBeli)
+plot(components.tsBeli)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4.png" alt="" width="3407" height="1399" class="alignnone size-full wp-image-31885" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4.png 3407w, https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4-490x201.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4-1024x420.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4-768x315.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4-1536x631.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/RPlot3-4-2048x841.png 2048w" sizes="(max-width: 3407px) 100vw, 3407px" /></a>
+
+<pre>
+urkpssTest(tsJual, type = c("tau"), lags = c("short"),use.lag = NULL, doplot = TRUE)
+urkpssTest(tsBeli, type = c("tau"), lags = c("short"),use.lag = NULL, doplot = TRUE)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6.png" alt="" width="2196" height="895" class="alignnone size-full wp-image-31891" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6.png 2196w, https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6-490x200.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6-1024x417.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6-768x313.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6-1536x626.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/rplot5-6-2048x835.png 2048w" sizes="(max-width: 2196px) 100vw, 2196px" /></a>
+
+<pre>
+sstationary_Jual = diff(tsJual, differences=1)
+plot(tsstationary_Jual)
+tsstationary_Beli = diff(tsBeli, differences=1)
+plot(tsstationary_Beli)
+acf(tsJual,lag.max=34)
+acf(tsBeli,lag.max=34)
+Pacf(tsJual,lag.max=34)
+Pacf(tsBeli,lag.max=34)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9.png" alt="" width="1524" height="1252" class="alignnone size-full wp-image-31890" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9.png 1524w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9-490x403.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9-1024x841.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotw9-768x631.png 768w" sizes="(max-width: 1524px) 100vw, 1524px" /></a>
+
+<pre>
+timeseriesseasonallyadjusted_Jual &lt;- tsJual- components.tsJual$seasonal
+tsstationary_Jual &lt;- diff(timeseriesseasonallyadjusted_Jual, differences=1)
+timeseriesseasonallyadjusted_Beli &lt;- tsJual- components.tsBeli$seasonal
+tsstationary_Beli &lt;- diff(timeseriesseasonallyadjusted_Beli, differences=1)
+</pre>
+
+<pre>
+plot(timeseriesseasonallyadjusted_Beli)
+plot(timeseriesseasonallyadjusted_Jual)
+</pre>
+
+<pre>
+acf(tsstationary_Jual, lag.max=34)
+pacf(tsstationary_Jual, lag.max=34)
+acf(tsstationary_Beli, lag.max=34)
+pacf(tsstationary_Beli, lag.max=34)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd.png" alt="" width="1920" height="1576" class="alignnone size-full wp-image-31892" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd.png 1920w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd-490x402.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd-1024x841.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd-768x630.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Rplotabcd-1536x1261.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></a>
+
+<pre>
+fitARIMA_Jual &lt;- arima(tsJual, order=c(1,1,1),seasonal = list(order = c(1,0,0), period = 12),method=&quot;ML&quot;)
+fitARIMA_Beli &lt;- arima(tsBeli, order=c(1,1,1),seasonal = list(order = c(1,0,0), period = 12),method=&quot;ML&quot;)
+</pre>
+
+<pre>
+coeftest(fitARIMA_Jual) 
+<em>z test of coefficients:
+
+      Estimate Std. Error z value Pr(&gt;|z|)
+ar1  -0.021344   1.837953 -0.0116   0.9907
+ma1   0.083561   1.842706  0.0453   0.9638
+sar1  0.072859   0.274394  0.2655   0.7906
+
+</em>
+</pre>
+
+<pre>
+coeftest(fitARIMA_Beli) 
+<em>z test of coefficients:
+
+       Estimate Std. Error z value Pr(&gt;|z|)
+ar1   0.0032167  0.6907733  0.0047   0.9963
+ma1   0.0509199  0.7058832  0.0721   0.9425
+sar1 -0.0026367  0.3522116 -0.0075   0.9940
+</em>
+</pre>
+
+<pre>
+fitARIMA_Jual
+<em>Call:
+arima(x = tsJual, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+          ar1     ma1    sar1
+      -0.0213  0.0836  0.0729
+s.e.   1.8380  1.8427  0.2744
+
+sigma^2 estimated as 472215:  log likelihood = -373.76,  aic = 755.51
+</em>
+</pre>
+
+<pre>
+fitARIMA_Beli
+<em>Call:
+arima(x = tsBeli, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+         ar1     ma1     sar1
+      0.0032  0.0509  -0.0026
+s.e.  0.6908  0.7059   0.3522
+
+sigma^2 estimated as 457012:  log likelihood = -372.95,  aic = 753.91
+</em>
+</pre>
+
+<pre>
+confint(fitARIMA_Beli)
+<em> 2.5 %    97.5 %
+ar1  -1.3506740 1.3571074
+ma1  -1.3325858 1.4344256
+sar1 -0.6929589 0.6876854
+</em>
+</pre>
+
+<pre>
+confint(fitARIMA_Jual)
+<em>2.5 %    97.5 %
+ar1  -3.6236644 3.5809772
+ma1  -3.5280769 3.6951992
+sar1 -0.4649435 0.6106622
+</em>
+</pre>
+
+<pre>
+acf(fitARIMA_Beli$residuals)
+acf(fitARIMA_Jual$residuals)
+</pre>
+
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/aabb.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/aabb.png" alt="" width="2323" height="952" class="alignnone size-full wp-image-31893" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/aabb.png 2323w, https://datascienceplus.com/wp-content/uploads/2022/02/aabb-490x201.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/aabb-1024x420.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/aabb-768x315.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/aabb-1536x629.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/aabb-2048x839.png 2048w" sizes="(max-width: 2323px) 100vw, 2323px" /></a>
+
+<pre>
+boxplot(fitARIMA_Jual$residuals,k=2,StartLag=1)
+LjungBoxTest(fitARIMA_Jual$residuals,k=2,StartLag=1)
+boxplot(fitARIMA_Beli$residuals,k=2,StartLag=1)
+LjungBoxTest(fitARIMA_Beli$residuals,k=2,StartLag=1)
+</pre>
+
+<pre>
+qqnorm(fitARIMA_Jual$residuals)
+qqline(fitARIMA_Jual$residuals)
+qqnorm(fitARIMA_Beli$residuals)
+qqline(fitARIMA_Beli$residuals)
+</pre>
+
+<pre>
+arima(tsJual)
+<em>Call:
+arima(x = tsJual)
+
+Coefficients:
+       intercept
+      13978.5625
+s.e.    177.7277
+
+sigma^2 estimated as 1516180:  log likelihood = -409.67,  aic = 823.34
+</em>
+</pre>
+
+<pre>
+arima(tsBeli)
+<em>Call:
+arima(x = tsBeli)
+
+Coefficients:
+       intercept
+      13800.3958
+s.e.    165.1939
+
+sigma^2 estimated as 1309870:  log likelihood = -406.16,  aic = 816.32
+</em>
+</pre>
+
+<pre>
+auto.arima(tsJual, trace=TRUE)
+<em>ARIMA(2,1,2)(1,0,1)[12] with drift         : Inf
+ ARIMA(0,1,0)            with drift         : 750.4713
+ ARIMA(1,1,0)(1,0,0)[12] with drift         : 755.0944
+ ARIMA(0,1,1)(0,0,1)[12] with drift         : 755.0899
+ ARIMA(0,1,0)                               : 749.8579
+ ARIMA(0,1,0)(1,0,0)[12] with drift         : 752.7432
+ ARIMA(0,1,0)(0,0,1)[12] with drift         : 752.7402
+ ARIMA(0,1,0)(1,0,1)[12] with drift         : Inf
+ ARIMA(1,1,0)            with drift         : 752.7152
+ ARIMA(0,1,1)            with drift         : 752.7136
+ ARIMA(1,1,1) with drift         : Inf
+
+ Best model: ARIMA(0,1,0)                               
+
+Series: tsJual 
+ARIMA(0,1,0) 
+
+sigma^2 = 475492:  log likelihood = -373.88
+AIC=749.77   AICc=749.86   BIC=751.62
+</em>
+</pre>
+
+<pre>
+auto.arima(tsBeli, trace=TRUE)
+<em>ARIMA(2,1,2)(1,0,1)[12] with drift         : Inf
+ ARIMA(0,1,0)            with drift         : 748.9614
+ ARIMA(1,1,0)(1,0,0)[12] with drift         : 753.5961
+ ARIMA(0,1,1)(0,0,1)[12] with drift         : 753.5933
+ ARIMA(0,1,0)                               : 748.1365
+ ARIMA(0,1,0)(1,0,0)[12] with drift         : 751.2314
+ ARIMA(0,1,0)(0,0,1)[12] with drift         : 751.2295
+ ARIMA(0,1,0)(1,0,1)[12] with drift         : 753.6222
+ ARIMA(1,1,0)            with drift         : 751.2183
+ ARIMA(0,1,1)            with drift         : 751.2173
+ ARIMA(1,1,1) with drift         : Inf
+
+ Best model: ARIMA(0,1,0)                               
+
+Series: tsBeli 
+ARIMA(0,1,0) 
+
+sigma^2 = 458392:  log likelihood = -373.02
+AIC=748.05   AICc=748.14   BIC=749.9
+</em>
+</pre>
+
+<pre>
+fitARIMA_Jual
+<em>Call:
+arima(x = tsJual, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+          ar1     ma1    sar1
+      -0.0213  0.0836  0.0729
+s.e.   1.8380  1.8427  0.2744
+
+sigma^2 estimated as 472215:  log likelihood = -373.76,  aic = 755.51
+</em>
+</pre>
+
+<pre>
+fitARIMA_Beli
+<em>all:
+arima(x = tsBeli, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+         ar1     ma1     sar1
+      0.0032  0.0509  -0.0026
+s.e.  0.6908  0.7059   0.3522
+
+sigma^2 estimated as 457012:  log likelihood = -372.95,  aic = 753.91
+</em>
+</pre>
+
+<pre>
+predict(fitARIMA_Jual,n.ahead = 1)
+<em>$pred
+         Jan
+2021 14665.9
+
+$se
+          Jan
+2021 687.1792
+</em>
+</pre>
+
+<pre>
+predict(fitARIMA_Beli,n.ahead = 1)
+<em>$pred
+          Jan
+2021 14122.35
+
+$se
+          Jan
+2021 676.0263
+</em>
+</pre>
+
+<pre>
+futurVal_Beli &lt;- forecast(fitARIMA_Beli,h=1, level=c(99.5))
+futurVal_Jual &lt;- forecast(fitARIMA_Jual,h=1, level=c(99.5))
+</pre>
+
+<pre>
+plot(futurVal_Beli)
+plot(futurVal_Jual)
+</pre>
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB.png" alt="" width="2240" height="912" class="alignnone size-full wp-image-31894" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB.png 2240w, https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB-490x200.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB-1024x417.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB-768x313.png 768w, https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB-1536x625.png 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/PlotJB-2048x834.png 2048w" sizes="(max-width: 2240px) 100vw, 2240px" /></a>
+
+<pre>
+summary(futurVal_Jual)
+<em>Forecast method: ARIMA(1,1,1)(1,0,0)[12]
+
+Model Information:
+
+Call:
+arima(x = tsJual, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+          ar1     ma1    sar1
+      -0.0213  0.0836  0.0729
+s.e.   1.8380  1.8427  0.2744
+
+sigma^2 estimated as 472215:  log likelihood = -373.76,  aic = 755.51
+
+Error measures:
+                   ME     RMSE      MAE      MPE     MAPE      MASE        ACF1
+Training set 107.4817 679.9846 237.3794 0.794616 1.695755 0.2583878 -0.02594214
+
+Forecasts:
+         Point Forecast  Lo 99.5  Hi 99.5
+Jan 2021        14665.9 12736.97 16594.84
+</em>
+</pre>
+
+<pre>
+summary(futurVal_Beli)
+<em>Forecast method: ARIMA(1,1,1)(1,0,0)[12]
+
+Model Information:
+
+Call:
+arima(x = tsBeli, order = c(1, 1, 1), seasonal = list(order = c(1, 0, 0), period = 12), 
+    method = "ML")
+
+Coefficients:
+         ar1     ma1     sar1
+      0.0032  0.0509  -0.0026
+s.e.  0.6908  0.7059   0.3522
+
+sigma^2 estimated as 457012:  log likelihood = -372.95,  aic = 753.91
+
+Error measures:
+                  ME     RMSE      MAE       MPE     MAPE      MASE        ACF1
+Training set 106.293 668.9485 220.1657 0.7954476 1.599417 0.2807839 -0.02688605
+
+Forecasts:
+         Point Forecast  Lo 99.5  Hi 99.5
+Jan 2021       14122.35 12224.72 16019.98
+</em>
+</pre><strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-2/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 2">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 2</a></li><li><a href="https://datascienceplus.com/text-processing-and-word-stemming-for-classification-models-in-master-data-management-mdm-context-in-r/" rel="bookmark" title="Permanent Link toText processing and word stemming for classification models  in master data management (MDM) context in R">Text processing and word stemming for classification models  in master data management (MDM) context in R</a></li><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-1/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1</a></li><li><a href="https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/" rel="bookmark" title="Permanent Link toAn introduction to k-gram language models in R">An introduction to k-gram language models in R</a></li><li><a href="https://datascienceplus.com/whats-the-intuition-behind-continuous-naive-bayes-behind-the-scenes-in-r/" rel="bookmark" title="Permanent Link toWhat’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R">What’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/forecast-using-arima-model-in-r/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 2</title>
+		<link>https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-2/</link>
+					<comments>https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-2/#respond</comments>
+		
+		<dc:creator><![CDATA[Abderrahim Lyoubi-Idrissi]]></dc:creator>
+		<pubDate>Thu, 10 Feb 2022 19:05:00 +0000</pubDate>
+				<category><![CDATA[Advanced Modeling]]></category>
+		<category><![CDATA[Data Visualisation]]></category>
+		<category><![CDATA[Hodgkin & Huxley model]]></category>
+		<category><![CDATA[Shiny app]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=31908</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/advanced-modeling/" rel="bookmark" title="Permanent Link toAdvanced Modeling">Advanced Modeling</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/hodgkin-huxley-model/" rel="bookmark" title="Permanent Link toHodgkin &amp; Huxley model">Hodgkin &amp; Huxley model</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/shiny-app/" rel="bookmark" title="Permanent Link toShiny app">Shiny app</a></li></ul>Introduction In this second part we will present a numerical method for solving the PDE system, which describes the propagation of action potential. We will make use of the R-Packages deSolve and ReacTran to simulate the model. The underlying Hodgkin-Huxley model used for our simulation is actually based on the telegraph equations. In contrast to [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/forecast-using-arima-model-in-r/" rel="bookmark" title="Permanent Link toForecast using Arima Model in R">Forecast using Arima Model in R</a></li><li><a href="https://datascienceplus.com/text-processing-and-word-stemming-for-classification-models-in-master-data-management-mdm-context-in-r/" rel="bookmark" title="Permanent Link toText processing and word stemming for classification models  in master data management (MDM) context in R">Text processing and word stemming for classification models  in master data management (MDM) context in R</a></li><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-1/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1</a></li><li><a href="https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/" rel="bookmark" title="Permanent Link toAn introduction to k-gram language models in R">An introduction to k-gram language models in R</a></li><li><a href="https://datascienceplus.com/whats-the-intuition-behind-continuous-naive-bayes-behind-the-scenes-in-r/" rel="bookmark" title="Permanent Link toWhat’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R">What’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/advanced-modeling/" rel="bookmark" title="Permanent Link toAdvanced Modeling">Advanced Modeling</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/data-visualisation/" rel="bookmark" title="Permanent Link toData Visualisation">Data Visualisation</a></li><li><a href="https://datascienceplus.com/tag/hodgkin-huxley-model/" rel="bookmark" title="Permanent Link toHodgkin &amp; Huxley model">Hodgkin &amp; Huxley model</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/shiny-app/" rel="bookmark" title="Permanent Link toShiny app">Shiny app</a></li></ul><h2>Introduction</h2>
+<p>  In this second part we will present a numerical method for solving the PDE system, which describes the propagation of action potential. We will make use of the R-Packages deSolve and ReacTran to simulate the model. The underlying Hodgkin-Huxley model used for our simulation is actually based on the telegraph equations. In contrast to the standard models, where the inductance is nelegted, here we will also use the Hodgkin-Huxley model but without neglecting the self conductance of the axon <a href="https://europepmc.org/article/MED/28989835" rel="noopener" target="_blank"> Isn&#8217;t there an inductance factor in the plasma membrane of nerves?</a>. This model is based on the \((RLC)\)(Resistance-Inductance-Capacitance) electric circuit analogue in which ionic currents through the cylindrical membrane are also taken into account.</p>
+<h2>Propagation Action Potential</h2>
+<p>  The mathematical equation describing the propagation in space and time of the action potential \(V_m\) along a neural axon is given by :<br />
+  $$ \begin{align}\frac{\partial^2 V_m}{\partial^2x}- LC_a\frac{\partial^2V_m}{\partial^2t}= \frac{2}{a}RC_a\frac{\partial V_m}{\partial t} + \frac{2}{a}L\frac{\partial I_{}ion}{\partial t} + \frac{2}{a}RI_{ion} \hspace{30pt} (C.6)\end{align} $$<br />
+Where:<br />
+ \(V_m\) is the potential difference across the membrane (dependent variable, depends on \(x\) and \(t\)).<br />
+  \(x \) is independent variable representing one dimension of three-dimensional space.<br />
+  \(t\) is independent variable representing time.<br />
+  \(L\) is the axon specific self-inductance.<br />
+  \(R\) is the specific resistance of an axon.<br />
+  \(C_a\) is the axon self-capacitance per unit area per unit length.<br />
+  \(I_{ion}\) is the sum of ions currents.<br />
+  \(a\) is the axon radius.<br />
+The derivation of the equation \((C.6)\) for axon represented by the \(RLC\) (Resistance-Inductance-Capacitance) circuit is performed in Appendix A (In case you are interested in the derivation of the equation \((C.6)\) so just send me a mail at kritiker2017@gmail.com.). Note if the presence of induction in the system is neglected \((L=0)\), the equation \((C.6)\) becomes the non-linear cable equation, which is not resistant to analytical approaches.<br />
+In the Hodgkin-Huxley model the ion current \(I_{ion}\) is defined as the sum of ions currents of potassium and sodium ( \(I_K\) and \(I_{Na}\)), and a smaller current (\(I_L\) ) made up of chloride and other ions:<br />
+  $$I_{ion} = I_K + I_{Na} + I_L= g_K(V_m -V_K)+g_{Na}(V_m &#8211; V_{Na}) + g_L(V_m &#8211; V_L) \hspace{30pt} (C.7)$$ where \(g_K\) , \(g_{Na}\) and \(g_L\) are potassium, sodium and leakage conductances, respectively.<br />
+  We define:<br />
+  the diffusion coefficient as \(D^2 = \frac{a}{2LC_m}\)<br />
+  the relaxation time as \(\tau = \frac{L}{R}\)<br />
+  the parameter \(\mu = \frac{\tau}{C_m}\) characterizes the inductance in the system.</p>
+<p>  Substituting the equation \((C.7)\) into equation \((C.6)\) we obtain the final nerve propagation equation in the Hodgkin &amp; Huxley model, which will be used for our simulation.<br />
+  $$<br />
+  \begin{align}\tau\frac{\partial^2 V_m}{\partial^2t} = \tau D^2\frac{\partial^2 V_m }{\partial^2 x} &#8211; \big[1+\mu(g_{K}n^4 + g_{Na}m^3h+g_{L})\big]\frac{\partial V_m}{\partial t} &#8211; \\ g_{K}(\frac{\mu}{\tau}n^4 + 4\mu n^3\frac{\partial n}{\partial t})(V_m &#8211; V_K)<br />
+  &#8211; \\ g_{Na}\big[\frac{\mu}{\tau}m^3h + \mu(3m^2h\frac{\partial m}{\partial t}+ m^3\frac{\partial h}{\partial t}) \big](V_m &#8211; V_{Na}) &#8211; \\ g_L\frac{\mu}{\tau}(V_m &#8211; V_L) \hspace{40pt} (C.8)\end{align} $$</p>
+<h2>Numeric solution</h2>
+<p> To solve the equation \((C.8)\) we will make use of the R-Packages {deSolve} and {ReacTran}. The <a href="https://desolve.r-forge.r-project.org" rel="noopener" target="_blank">[Package deSolve is an add-on package of the open source data analysis system R for the numerical treatment of systems of differential equations.].</a><br />
+In this blog post we solve the equation \((C.8)\) on a one-dimensional domain \(\Omega = [0,15]\), with the initial conditions \(V_{m}(x, 0) = -15 \exp{-\frac{x^2}{D^2}}\) and \(\frac{\partial V_{m}(x,0)}{\partial t} = 0 \) and boundary conditions of Dirichlet type \( V_{m}(x = 0, t) = 0\), \(V_{m}(x = 15, t) = 0\). The &#8220;method of lines&#8221;, where space(\(\Omega\)) is discretized in fixed steps while time is left in continuous form, will be used.</p>
+<pre>
+library(ReacTran)
+  # Create one-dimensional finite difference grid
+  dx &lt;- 1
+  xgrid &lt;- setup.grid.1D(x.up = 0, x.down = 10, dx.1 = dx) 
+  x &lt;- xgrid$x.mid
+  N &lt;- xgrid$N
+  # Model Parameters
+  ## Passive parameters of the neuron
+  a &lt;- 238*10^(-4) # axon radius (cm)
+  R &lt;- 35.4        # Membrane Capacitance (Ohm cm)
+  L &lt;- 15          # Axon specific self-inductance
+  C_m &lt;- 0.001     # Membrane capacitance density Cm 1.0 micro F/cm2
+  D_coefficient &lt;- sqrt(a/(2*L*C_m))
+  tau &lt;- L/R
+  mu &lt;- tau/C_m
+  Iinj &lt;- 0       # injected current 
+  # Values of the neuron 
+  g_K  &lt;- 0.036       # conductance density g_K
+  g_Na &lt;- 0.12        # conductance density g_Na
+  g_L  &lt;- 0.0003      # conductance density g_L
+  v_K  &lt;- 12          # K reversal potential
+  v_Na &lt;- -115        # Na reversal potential
+  v_L &lt;- -10.5989     # Leak reversal potential
+  # Function ion Channel
+  ## Rate functions for K activation (variable n)
+  alpha_n &lt;- function(v) 0.01*(v+10)/(-1+exp((v+10)/10))
+  beta_n  &lt;- function(v) 0.125*exp(v/80)
+  ## Rate functions for Na activation (variable m)
+  alpha_m &lt;- function(v) 0.1*(v+25)/(-1+exp((v+25)/10))
+  beta_m  &lt;- function(v) 4*exp(v/18) 
+  # Rate functions for Na inactivation (variable h)
+  alpha_h &lt;- function(v) 0.07*exp(v/20)
+  beta_h  &lt;- function(v) (1+exp((v+30)/10))^-1
+  # Derivatives of ion channel functions/Kinetic equations for channel variables
+  dndt &lt;- function(n,v)(alpha_n(v)*(1-n)-beta_n(v)*n)
+  dmdt &lt;- function(m,v)(alpha_m(v)*(1-m)-beta_m(v)*m)
+  dhdt &lt;- function(h,v)(alpha_h(v)*(1-h)-beta_h(v)*h)
+  # Initial conditions  
+  ## In the resting state V = 0
+  V_0  &lt;- 0
+  n_0  &lt;- alpha_n(V_0)/(alpha_n(V_0)+beta_n(V_0))
+  m_0  &lt;- alpha_m(V_0)/(alpha_m(V_0)+ beta_m(V_0))
+  h_0  &lt;- alpha_h(V_0)/(alpha_h(V_0)+beta_h(V_0))
+  vini &lt;- (-15)*exp(-x^2/D_coefficient^2)
+  # vini &lt;- -15*sin(pi*x)
+  # vini &lt;- rep(-15, N)
+  uini  &lt;- rep(0, N)
+  nini  &lt;- rep(n_0, N)
+  mini  &lt;- rep(m_0, N)
+  hini  &lt;- rep(h_0, N)
+  yini  &lt;- c(vini, uini, nini, mini, hini)
+  # Model equations/Differential equations 
+  Pulse_propagation &lt;- function (t, y, parms) {
+    v &lt;- y[1:N]
+    u &lt;- y[(N+1):(2*N)]
+    n &lt;- y[(2*N+1):(3*N)]
+    m &lt;- y[(3*N+1):(4*N)]
+    h &lt;- y[(4*N+1):(5*N)]
+    
+    dv &lt;- u
+    du &lt;- tran.1D(C = v, C.up = 0, C.down = 0,  D = D_coefficient, dx = xgrid)$dC - 
+      (1/tau + (mu/tau)*(g_K*n^4 + g_Na*m^3*h + g_L))*u - 
+      g_K*((mu/tau^2)*n^4 + 4*(mu/tau)*n^3*dndt(n,v))*(v-v_K) - 
+      g_Na*((mu/tau^2)*m^3*h + (mu/tau)*(3*m^2*h*dmdt(m,v) + m^3*dhdt(h,v)))*(v -v_Na) - 
+      g_L*(mu/tau^2)*(v - v_L) + Iinj 
+      
+    dn &lt;- (alpha_n(v)*(1-n)-beta_n(v)*n)
+    dm &lt;- (alpha_m(v)*(1-m)-beta_m(v)*m)
+    dh &lt;- (alpha_h(v)*(1-h)-beta_h(v)*h)
+    return(list(c(dv,du, dn, dm, dh)))
+  }
+</pre>
+<p>We&#8217;ve done with building the model. In the above model code the action potential \(V_m\) is represented by the state variable v, which represents the dynamical attitude of the transmission for the nerve impulses of a nervous system. We define now the time simulation and run the model to solve the equation \((C.8)\).</p>
+<pre>
+ # Specify the time at which the output is wanted  
+  time_3 &lt;- seq(0,15, 0.01)
+</pre>
+<p> The defined model is one-dimensional (one  spatial independent variable), so we use the function ode.1D here. The time it takes to solve the model (in seconds) is also printed.</p>
+<pre>
+ print(system.time(
+    out_3 &lt;- ode.1D(y = yini, func = Pulse_propagation, 
+                    times = time_3, method = &quot;adams&quot;, parms = NULL, 
+                    dimens = N, nspec = 5,  
+                    names = c(&quot;v&quot;, &quot;u&quot;, &quot;n&quot;, &quot;m&quot;, &quot;h&quot;))))
+<em>       User      System     verstrichen 
+       0.21        0.00        0.20 
+</em>
+</pre>
+<p>The model output/results &#8220;out_3&#8221; is a matrix, which contains all the data needed to analyse and visualize the results of the simulation.<br />
+Before plotting the numeric solution of the PDE \((C.8)\), we will first check if the integration was successful, and to get detailed information about the success of our simulation we use the function diagnostics{deSolve} and the function summary{deSolve}</p>
+<h3>Diagnostics and Summary</h3>
+<pre>
+# Print detailed information about the success of our 
+  diagnostics(out_3)
+<em>--------------------
+lsode return code
+--------------------
+
+  return code (idid) =  2 
+  Integration was successful.
+
+--------------------
+INTEGER values
+--------------------
+
+  1 The return code : 2 
+  2 The number of steps taken for the problem so far: 1950 
+  3 The number of function evaluations for the problem so far: 2120 
+  5 The method order last used (successfully): 4 
+  6 The order of the method to be attempted on the next step: 4 
+  7 If return flag =-4,-5: the largest component in error vector 0 
+  8 The length of the real work array actually required: 820 
+  9 The length of the integer work array actually required: 20 
+ 14 The number of Jacobian evaluations and LU decompositions so far: 0 
+ 
+--------------------
+RSTATE values
+--------------------
+
+  1 The step size in t last used (successfully): 0.01 
+  2 The step size to be attempted on the next step: 0.01 
+  3 The current value of the independent variable which the solver has reached: 15.00627 
+  4 Tolerance scale factor &gt; 1.0 computed when requesting too much accuracy: 0 
+</em>
+</pre>
+<pre>
+  summary(out_3)
+<em>
+                    v             u            n            m            h
+Min.    -1.052214e+02 -3.101267e+02 3.176769e-01 1.396179e-02 7.750275e-02
+1st Qu. -2.231145e+00 -1.013699e+00 3.177112e-01 2.289523e-02 2.584720e-01
+Median  -4.608204e-06 -7.997909e-02 3.706068e-01 5.293269e-02 5.108495e-01
+Mean    -8.208256e+00  5.239505e-01 4.551956e-01 1.883197e-01 4.269989e-01
+3rd Qu.  7.670459e+00  4.150809e-06 5.910743e-01 7.744576e-02 5.960693e-01
+Max.     1.204040e+01  7.670492e+01 7.681718e-01 9.940305e-01 5.961208e-01
+N        1.501000e+04  1.501000e+04 1.501000e+04 1.501000e+04 1.501000e+04
+sd       2.720432e+01  3.933037e+01 1.595711e-01 3.139004e-01 1.858227e-01 
+
+</em>
+</pre>
+<h2>Plot the results</h2>
+<h3>Time evolution of membrane potential of H&amp;H neuron at various distances along the axon.</h3>
+<p>As we can see in the following plot, when an excitable membrane is incorporated into a nonlinear equation \((C.6)\) and we use accommodated initial and boundary conditions, the model can give rise to traveling waves of electrical excitation and the action potential repeats itself at successive locations along the axon. The magnitude and duration of action potential remains the same throughout the propagation along the neuron&#8217;s axon.</p>
+<pre>
+ library(plotly)
+  library(see)
+  # Gather columns into key-value pairs
+  ldata % tidyr::gather(Shape, Action_Potential, -time) 
+  # head(ldata)
+  ldata_1_9 %filter(Shape == (1):(N-1))
+  plot_ldata &lt;- ggplot(ldata_1_9, 
+         aes(x = time,
+             y = - Action_Potential, 
+             group = Shape,
+             col = Shape
+             )) + labs(title = &quot;Action Potential profiles through time \n at various axon distances&quot;) + geom_line() + theme_abyss() # + geom_hline(yintercept = 15, color = &quot;red&quot;, lwl =2)
+  ggplotly(plot_ldata) 
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/unnamed-chunk-6-1.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/unnamed-chunk-6-1-490x490.png" alt="" width="490" height="490" class="alignnone size-medium wp-image-31899" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/unnamed-chunk-6-1-490x490.png 490w, https://datascienceplus.com/wp-content/uploads/2022/02/unnamed-chunk-6-1.png 504w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+Figure 1: Numerical solution of equation \((C.8)\) showing the time course of action potential. The action potential repeats itself at successive locations along the axon.</p>
+<h3>3D Plot of the numeric solution</h3>
+<p>To visualize the results in 3D the R version of the package{plotly} is used.</p>
+<pre>
+ action_potential &lt;- subset(out_3, which = c(&quot;v&quot;))
+  fig_surface % 
+    layout(title = list(text = " 3D Plot of the numeric solution", y = 0.95 ), scene = list(
+            xaxis = list(title = "Distance"),
+            yaxis = list(title = "Time"),
+            zaxis = list(title = "v: Action Potential")
+            )
+           )
+  fig_surface 
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/Action_potential_3D_plot.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Action_potential_3D_plot-490x304.jpg" alt="" width="490" height="304" class="alignnone size-medium wp-image-31939" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Action_potential_3D_plot-490x304.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Action_potential_3D_plot-768x476.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Action_potential_3D_plot.jpg 800w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+Figure 2: 3D Presentation of the numerical solution of equation \((C.8)\). </p>
+<p>The following plots are showing the time course of the other dependent variables, n, m, h and dv/dt.</p>
+<pre>
+Plot_all_gatting &lt;- function(x,y, my_title){
+    library(plotly)
+    library(see)
+      ldata %tidyr::gather(Shape, variable, -time) 
+    # head(ldata)
+      ldata_1_9 %filter(Shape == x:y)
+      plot_ldata &lt;- ggplot(ldata_1_9, aes(x = time, y = variable , group = Shape, col = Shape )) + 
+      labs(title = my_title ) +
+       geom_line() + theme_radar_dark()
+      }
+  n &lt;- Plot_all_gatting(2*N+1, 3*N, &quot;n profiles through time \n at various axon distances&quot;)
+  m &lt;- Plot_all_gatting(3*N+1,4*N, &quot;m profiles through time \n at various axon distances&quot;)
+  h &lt;- Plot_all_gatting(4*N+1,5*N, &quot; h profiles through time \n at various axon distances&quot;)
+  u &lt;- Plot_all_gatting(N+1, 2*N, &quot;dV/dt profiles through time \n at various axon distances&quot;)
+  gridExtra::grid.arrange(n, m, h, u, ncol =2)
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/App_independet_variable.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/App_independet_variable-490x304.jpg" alt="" width="490" height="304" class="alignnone size-medium wp-image-31942" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/App_independet_variable-490x304.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/App_independet_variable.jpg 723w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+Figure 3: Time courses of dv/dt and the gating functions n,m,h.</p>
+<h3>3D Plots of action Potential, and the gating variables n,m,h</h3>
+<pre>
+dVdt &lt;- subset(out_3, which = c(&quot;u&quot;))
+  M &lt;-   subset(out_3, which = c(&quot;m&quot;))
+  N &lt;-   subset(out_3, which = c(&quot;n&quot;))
+  H &lt;-   subset(out_3, which = c(&quot;h&quot;))
+  # custom grid style
+  axx &lt;- list(
+    gridcolor=&#039;rgb(255, 255, 255)&#039;,
+    zerolinecolor=&#039;rgb(255, 255, 255)&#039;,
+    showbackground= TRUE,
+    backgroundcolor=&#039;rgb(230, 230,230)&#039;)
+  
+  # individual plots
+  fig1 &lt;- plot_ly(x = x, y = time_3,  z = - dVdt , scene=&#039;scene&#039;)
+  fig1 % add_surface(showscale=FALSE)
+  
+  fig2 &lt;- plot_ly(x = x, y = time_3,z = M, scene=&#039;scene2&#039;)
+  fig2 % add_surface(showscale=FALSE)
+  
+  fig3 &lt;- plot_ly(x = x, y = time_3,z = N, scene=&#039;scene3&#039;)
+  fig3 % add_surface(showscale=FALSE)
+  
+  fig4 &lt;- plot_ly(x = x, y = time_3,z = H, scene=&#039;scene4&#039;)
+  fig4 % add_surface(showscale=FALSE)
+  
+  # subplot and define scene
+  fig &lt;- subplot(fig1, fig2, fig3, fig4) 
+  fig % layout(title = "3D Plots of the numeric solution for dv/dt, n,m and h", 
+                        scene = list(domain=list(x=c(0,0.5),y=c(0.5,1)),
+                                     xaxis = c(axx, list(title = "Distance")),
+                                     yaxis = c(axx, list(title = "Time")),
+                                     zaxis = c(axx, list(title = "dv/dt")),
+                                     aspectmode='cube'),
+                        scene2 = list(domain=list(x=c(0.5,1),y=c(0.5,1)),
+                                      xaxis = c(axx, list(title = "Distance")),
+                                      yaxis = c(axx, list(title = "Time")),
+                                      zaxis = c(axx, list(title = "Gatting \n variable m")),
+                                      aspectmode='cube'),
+                        scene3 = list(domain=list(x=c(0,0.5),y=c(0,0.5)),
+                                      xaxis = c(axx, list(title = "Distance")),
+                                      yaxis = c(axx, list(title = "Time")),
+                                      zaxis = c(axx, list(title = "Gatting \n variable n")),
+                                      aspectmode='cube'),
+                        scene4 = list(domain=list(x=c(0.5,1),y=c(0,0.5)),
+                                      xaxis = c(axx, list(title = "Distance")),
+                                      yaxis = c(axx, list(title = "Time")),
+                                      zaxis = c(axx, list(title = "Gatting \n variable h")),
+                                      aspectmode='cube'))
+  
+  
+  fig
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D-490x283.jpg" alt="" width="490" height="283" class="alignnone size-medium wp-image-31944" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D-490x283.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D-1024x592.jpg 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D-768x444.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D-1536x889.jpg 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/All_independet_variable_3D.jpg 1694w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+Fig 4: 3D representation of the numerical solution of dv/dt, n, m and h.<br />
+and finally the contour plot </p>
+<h3>Contour Plot</h3>
+<pre>
+ action_potential &lt;- subset(out_3, which = &quot;v&quot;)
+  fig_prop &lt;- plot_ly(visible = TRUE, 
+                 x = x ,
+                 y = time_3, 
+                 z = action_potential, 
+                 type = &quot;contour&quot;, contours = list(showlabels = TRUE))
+  fig_prop % colorbar(title = "The independent \n variable") %&gt;% 
+    layout(title = list(text = "Variable density", y = 0.98), xaxis = list(title = "Distance "), yaxis = list(title =  "Time" ))
+  fig_prop 
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot-490x297.jpg" alt="" width="490" height="297" class="alignnone size-medium wp-image-31946" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot-490x297.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot-1024x620.jpg 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot-768x465.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Contour_plot.jpg 1181w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<h3>Shiny application</h3>
+<p>Using my new Shiny application (not yet published, it is still under development), one can explore the spatiotemporal dynamics of the action potential and the ionic currents. Just to show an example, when we change the initial value of the action potential in the Shiny application to -65mv (instead of -15mv in the above model) the model produces more than one spike and generates a periodic response. With this app one can also study the influence of the axon specific self-inductance on the spatiotemporal dynamics of the action potential and its proprieties (all-or-none rule, &#8230;.). In the Shiny application if we change the initial value of the action potential and then just click the update button, so one can get the results as shown below:<br />
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1-490x174.jpg" alt="" width="490" height="174" class="alignnone size-medium wp-image-31947" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1-490x174.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1-1024x365.jpg 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1-768x273.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1-1536x547.jpg 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_1.jpg 1918w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/2.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/2-490x228.jpg" alt="" width="490" height="228" class="alignnone size-medium wp-image-31948" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/2-490x228.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/2-1024x477.jpg 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/2-768x358.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/2-1536x715.jpg 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/2.jpg 1915w" sizes="(max-width: 490px) 100vw, 490px" /></a><br />
+<a href="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3.jpg"><img src="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3-490x194.jpg" alt="" width="490" height="194" class="alignnone size-medium wp-image-31949" srcset="https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3-490x194.jpg 490w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3-1024x405.jpg 1024w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3-768x304.jpg 768w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3-1536x607.jpg 1536w, https://datascienceplus.com/wp-content/uploads/2022/02/Pulse_propgation_pic_3.jpg 1918w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<h2>Summary and Outlook</h2>
+<p>In this blog post we solved the one dimensional PDE using only R-Packages, this hyperbolic PDE is describing the dynamics of the action potential along an axon. Our numerical solution shows the well known results, namely the transmission/production of the action potential along the axon does not change its magnitude and shape.<br />
+Next I will investigate a more realistic model, the two dimension nerve pulse propagation model.</p>
+<h2>References</h2>
+<ul>
+<li>Mathematical Modelling of Nerve Pulse Transmission : <a href="https://core.ac.uk/download/pdf/236625972.pdf" rel="noopener" target="_blank">https://core.ac.uk/download/pdf/236625972.pdf</a>  </li>
+<li> Cable Theory: <a href="https://pages.jh.edu/motn/coursenotes/cable.pdf" rel="noopener" target="_blank">https://pages.jh.edu/motn/coursenotes/cable.pdf</a></li>
+<li>Solving Differential Equations in R :<br />
+<a href="https://www.researchgate.net/publication/41530790_Solving_Differential_Equations_in_R_Package_deSolve" rel="noopener" target="_blank">https://www.researchgate.net/publication/41530790_Solving_Differential_Equations_in_R_Package_deSolve</a>  </li>
+<li>Plotly in R: <a href="https://plotly.com/r/getting-started" rel="noopener" target="_blank">https://plotly.com/r/getting-started</a></li>
+<li>Creating Shiny Application with bs4Dash: <a href="https://rinterface.github.io/bs4Dash/index.html" rel="noopener" target="_blank">https://rinterface.github.io/bs4Dash/index.html</a></li>
+</ul>
+<h2>Contact:</h2>
+<p>kritiker2017@gmail.com. </p>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/forecast-using-arima-model-in-r/" rel="bookmark" title="Permanent Link toForecast using Arima Model in R">Forecast using Arima Model in R</a></li><li><a href="https://datascienceplus.com/text-processing-and-word-stemming-for-classification-models-in-master-data-management-mdm-context-in-r/" rel="bookmark" title="Permanent Link toText processing and word stemming for classification models  in master data management (MDM) context in R">Text processing and word stemming for classification models  in master data management (MDM) context in R</a></li><li><a href="https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-1/" rel="bookmark" title="Permanent Link toPropagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1">Propagating nerve impulse in  Hodgkin-Huxley model. Modeling with R. Part 1</a></li><li><a href="https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/" rel="bookmark" title="Permanent Link toAn introduction to k-gram language models in R">An introduction to k-gram language models in R</a></li><li><a href="https://datascienceplus.com/whats-the-intuition-behind-continuous-naive-bayes-behind-the-scenes-in-r/" rel="bookmark" title="Permanent Link toWhat’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R">What’s the intuition behind continuous Naive Bayes &#8211; ‘behind-the-scenes’ in R</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/propagating-nerve-impulse-in-hodgkin-huxley-model-modeling-with-r-part-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Topic Modeling and Latent Dirichlet Allocation (LDA)</title>
+		<link>https://datascienceplus.com/topic-modeling-and-latent-dirichlet-allocation-lda/</link>
+					<comments>https://datascienceplus.com/topic-modeling-and-latent-dirichlet-allocation-lda/#respond</comments>
+		
+		<dc:creator><![CDATA[Enes Zvornicanin]]></dc:creator>
+		<pubDate>Sun, 30 Jan 2022 16:26:45 +0000</pubDate>
+				<category><![CDATA[Introduction]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[NLP]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=31815</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/introduction/" rel="bookmark" title="Permanent Link toIntroduction">Introduction</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/machine-learning/" rel="bookmark" title="Permanent Link toMachine Learning">Machine Learning</a></li><li><a href="https://datascienceplus.com/tag/nlp/" rel="bookmark" title="Permanent Link toNLP">NLP</a></li><li><a href="https://datascienceplus.com/tag/python/" rel="bookmark" title="Permanent Link toPython">Python</a></li></ul>Topic Modeling Topic modeling is a natural language processing (NLP) technique for determining the topics in a document. Also, we can use it to discover patterns of words in a collection of documents. By analyzing the frequency of words and phrases in the documents, it&#8217;s able to determine the probability of a word or phrase [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/how-to-import-two-modules-with-same-function-name-in-python/" rel="bookmark" title="Permanent Link toHow to import two modules with same function name in Python">How to import two modules with same function name in Python</a></li><li><a href="https://datascienceplus.com/text-generation-with-python/" rel="bookmark" title="Permanent Link toText Generation with Python">Text Generation with Python</a></li><li><a href="https://datascienceplus.com/merging-datasets-with-tidyverse/" rel="bookmark" title="Permanent Link toMerging Datasets with Tidyverse">Merging Datasets with Tidyverse</a></li><li><a href="https://datascienceplus.com/5-easy-steps-to-kickstart-a-career-in-data-science-by-learning-python/" rel="bookmark" title="Permanent Link to5 Easy Steps to Kickstart a Career in Data Science by Learning Python">5 Easy Steps to Kickstart a Career in Data Science by Learning Python</a></li><li><a href="https://datascienceplus.com/top-open-source-tools-for-natural-language-processing-in-python/" rel="bookmark" title="Permanent Link toTop open source tools for natural language processing in Python">Top open source tools for natural language processing in Python</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/introduction/" rel="bookmark" title="Permanent Link toIntroduction">Introduction</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/machine-learning/" rel="bookmark" title="Permanent Link toMachine Learning">Machine Learning</a></li><li><a href="https://datascienceplus.com/tag/nlp/" rel="bookmark" title="Permanent Link toNLP">NLP</a></li><li><a href="https://datascienceplus.com/tag/python/" rel="bookmark" title="Permanent Link toPython">Python</a></li></ul><h2>Topic Modeling</h2>
+<p><b>Topic modeling is a natural language processing (NLP) technique for determining the topics in a document. Also, we can use it to discover patterns of words in a collection of documents.</b> By analyzing the frequency of words and phrases in the documents, it&#8217;s able to determine the probability of a word or phrase belonging to a certain topic and cluster documents based on their similarity or closeness.</p>
+<p>Firstly, topic modeling starts with a large corpus of text and reduces it to a much smaller number of topics. Topics are found by analyzing the relationship between words in the corpus. Also, topic modeling finds which words frequently co-occur with others and how often they appear together.</p>
+<p>The model tries to find clusters of words that co-occur more frequently than they would otherwise expect due to chance alone. This gives a rough idea about topics in the document and where they rank on its hierarchy of importance.<br />
+The current methods for extraction of topic models include Latent Dirichlet Allocation (LDA), Latent Semantic Analysis (LSA), Probabilistic Latent Semantic Analysis (PLSA), and Non-Negative Matrix Factorization (NMF). <b>In this article, we&#8217;ll focus on Latent Dirichlet Allocation (LDA).</b></p>
+<p>The reason topic modeling is useful is that it allows the user to not only explore what&#8217;s inside their corpus (documents) but also build new connections between topics they weren&#8217;t even aware of. <b>Some applications of topic modeling also include text summarization,  recommender systems, spam filters, and similar.</b></p>
+<h2>Latent Dirichlet Allocation (LDA)</h2>
+<p><b>Latent Dirichlet Allocation (LDA) is an unsupervised clustering technique that is commonly used for text analysis. It&#8217;s a type of topic modeling in which words are represented as topics, and documents are represented as a collection of these word topics.</b></p>
+<p>For this purpose, we&#8217;ll describe the LDA through topic modeling. Thus, let&#8217;s imagine that we have a collection of documents or articles. Each document has a topic such as computer science, physics, biology, etc. Also, some of the articles might have multiple topics. The problem is that we have only articles but not their topics and we would like to have an algorithm that is able to sort documents into topics.</p>
+<h3>Sampling Topics</h3>
+<p>We can imagine that LDA will place documents in the space according to the document topics. For example, in our case with topics computer science, physics, and biology, LDA will put documents into a triangle where corners are the topics. We can see this in the image below where each orange circle represents one document.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/01/triangle.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/01/triangle-490x366.png" alt="" width="490" height="366" class="alignnone size-medium wp-image-31817" srcset="https://datascienceplus.com/wp-content/uploads/2022/01/triangle-490x366.png 490w, https://datascienceplus.com/wp-content/uploads/2022/01/triangle.png 533w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>As we&#8217;ve said, some documents might have several topics and an example of that is the document between computer science and biology in the image above. For instance, it&#8217;s possible if the document is about biotechnology. <b>In probability and statistics, such kind of distribution is called Dirichlet distribution and it&#8217;s controlled by the parameter \(\alpha\).</b></p>
+<p>For example, \(\alpha=1\) indicates that samples are more evenly distributed over the space, \(\alpha&gt;1\) means that samples are gathering in the middle, and \(\alpha&lt;1\) indicates that samples tend towards corners. Also, parameter \(\alpha\) is usually a \(k\)-dimensional vector, where each component corresponds to each corner or topic in our case. We can observe this behavior in the image below.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/01/dirichlet.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/01/dirichlet-490x142.png" alt="" width="490" height="366" class="alignnone size-large wp-image-31819" /></a></p>
+<p>Next, if we consider the document about biotechnology that we mentioned above, it might consist of 50% computer science, 45% biology, and 5% physics. Generally, we can define this distribution of topics over a document as multinomial distribution with parameter \(\theta\). Accordingly, the \(\theta\) parameter is a \(k\)-dimensional vector of probabilities, which must sum to 1. After that, we sample from the multinomial distribution \(N\) different topics. In order to understand this process, we can observe the image below.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/01/topics.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/01/topics-490x173.png" alt="" width="490" height="173" class="alignnone size-medium wp-image-31820" srcset="https://datascienceplus.com/wp-content/uploads/2022/01/topics-490x173.png 490w, https://datascienceplus.com/wp-content/uploads/2022/01/topics-1024x361.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/01/topics-768x270.png 768w, https://datascienceplus.com/wp-content/uploads/2022/01/topics.png 1170w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<h3>Sampling Words</h3>
+<p>After picking \(N\) different topics, we would also need to sample words. For that purpose, we&#8217;ll also use Dirichlet and multinomial distribution.  The second Dirichlet distribution, defined with parameter \(\beta\), maps topics in word space. For instance, the corners of a triangle, tetrahedron in case of 4 dimensions or simplex for \(n\) dimensions, might be now words such as algorithm, genetic, velocity, or similar.</p>
+<p>Instead of documents, now we are placing topics into this space. For example, the topic of computer science is closer to the word algorithm rather than to the word genetic, and the multinomial distribution of words for this topic might consist of 75% algorithm, 15% genetic, and 10% velocity. Similarly, we can define multinomial distributions for topic biology as 10% algorithm, 85% genetic, and 5% velocity, and topic physics as 20% algorithm, 5% genetic, and 75% velocity.</p>
+<p>Also, after defining multinomial distributions for topics, we&#8217;ll sample words from those distributions corresponding to each topic sampled in the first step. This process can be more easily understood through the illustration below.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/01/lda.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/01/lda-490x147.png" alt="" width="490" height="147" class="alignnone size-medium wp-image-31821" srcset="https://datascienceplus.com/wp-content/uploads/2022/01/lda-490x147.png 490w, https://datascienceplus.com/wp-content/uploads/2022/01/lda-1024x307.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/01/lda-768x231.png 768w, https://datascienceplus.com/wp-content/uploads/2022/01/lda.png 1512w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>For example, if we consider a blue circle that represents a computer science topic, this topic has its own distribution by words that we&#8217;re using. Next, following the same order of sampled topics, for each topic, we select one word based on the topics distribution. For instance, the first topic above is computer science, and based on probability 0.75, 0.15, and 0.1 for words algorithm, genetic, and velocity respectively, we selected the word algorithm. Following this process, LDA creates a new document.</p>
+<h3>LDA Definition</h3>
+<p>In this way, for each input document, we create a new one. After all, we want to maximize the probability of creating the same document and the whole process above is mathematically defined as</p>
+<p>$$<br />
+P(\boldsymbol{W}, \boldsymbol{Z}, \boldsymbol{\theta}, \boldsymbol{\phi}; \alpha, \beta) = \prod_{i = 1}^{M}P(\theta_{j}; \alpha)\prod_{i = 1}^{K}P(\phi; \beta)\prod_{t = 1}^{N}P(Z_{j, t} | \theta_{j})P(W_{j, t} | \phi z_{j, t}),<br />
+$$</p>
+<p>\(\alpha\) and \(\beta\) define Dirichlet distributions, \(\theta\) and \(\phi\) define multinomial distributions, \(\boldsymbol{Z}\) is the vector with topics of all words in all documents, \(\boldsymbol{W}\) is the vector with all words in all documents, \(M\) number of documents, \(K\) number of topics and \(N\) number of words.<br />
+<b>The whole process of training or maximizing probability can be done using Gibbs sampling where the general idea is to make each document and each word as monochromatic as possible. Basically, it means we want that each document have as few as possible articles and each word belongs to as few as possible topics.</b></p>
+<h2>Example</h2>
+<p>In this example, we’ll use the 20 newsgroups text dataset. The 20 newsgroups dataset comprises around 12000 newsgroups posts on 20 topics. Let&#8217;s load the data and all the needed packages.</p>
+<pre>
+import pandas as pd
+import re
+import numpy as np
+from sklearn.datasets import fetch_20newsgroups
+import nltk
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
+
+from gensim import corpora, models
+from gensim.models.ldamulticore import LdaMulticore
+from gensim.models.coherencemodel import CoherenceModel
+import pyLDAvis.gensim
+</pre>
+<pre>
+newsgroups_train = fetch_20newsgroups(subset='train')
+
+df = pd.DataFrame({'post': newsgroups_train['data'], 'target': newsgroups_train['target']})
+df['target_names'] = df['target'].apply(lambda t: newsgroups_train['target_names'][t])
+df.head()
+<em> 	post 	target 	target_names
+0 	From: lerxst@wam.umd.edu (where's my thing)\nS... 	7 	rec.autos
+1 	From: guykuo@carson.u.washington.edu (Guy Kuo)... 	4 	comp.sys.mac.hardware
+2 	From: twillis@ec.ecn.purdue.edu (Thomas E Will... 	4 	comp.sys.mac.hardware
+3 	From: jgreen@amber (Joe Green)\nSubject: Re: W... 	1 	comp.graphics
+4 	From: jcm@head-cfa.harvard.edu (Jonathan McDow... 	14 	sci.space
+</em>
+</pre>
+<p>As a text preprocessing step, we&#8217;ll first remove URLs, HTML tags, emails, and non-alpha characters. After that, we&#8217;ll lemmatize it and remove stopwords.</p>
+<pre>
+def remove_urls(text):
+    " removes urls"
+    url_pattern = re.compile(r'https?://\S+|www\.\S+')
+    return url_pattern.sub(r'', text)
+    
+def remove_html(text):
+    " removes html tags"
+    html_pattern = re.compile('')
+    return html_pattern.sub(r'', text)
+
+def remove_emails(text):
+    email_pattern = re.compile('\S*@\S*\s?')
+    return email_pattern.sub(r'', text)
+
+def remove_new_line(text):
+    return re.sub('\s+', ' ', text)
+
+def remove_non_alpha(text):
+    return re.sub("[^A-Za-z]+", ' ', str(text))
+
+def preprocess_text(text):
+    t = remove_urls(text)
+    t = remove_html(t)
+    t = remove_emails(t)
+    t = remove_new_line(t)
+    t = remove_non_alpha(t)
+    return t
+
+def lemmatize_words(text, lemmatizer):
+    return " ".join([lemmatizer.lemmatize(word) for word in text.split()])
+
+def remove_stopwords(text, stopwords):
+    return " ".join([word for word in str(text).split() if word not in stopwords])
+
+
+df['post_preprocessed'] = df['post'].apply(preprocess_text).str.lower()
+
+print('lemming...')
+nltk.download('wordnet')
+lemmatizer = WordNetLemmatizer()
+df['post_final'] = df['post_preprocessed'].apply(lambda post: lemmatize_words(post, lemmatizer))
+
+print('remove stopwors...')
+
+nltk.download('stopwords')
+swords = set(stopwords.words('english'))
+
+df['post_final'] = df['post_preprocessed'].apply(lambda post: remove_stopwords(post, swords))
+df.head()
+<em>
+	post 	target 	target_names 	post_preprocessed 	post_final
+0 	From: lerxst@wam.umd.edu (where's my thing)\nS... 	7 	rec.autos 	from where s my thing subject what car is this... 	thing subject car nntp posting host rac wam um...
+1 	From: guykuo@carson.u.washington.edu (Guy Kuo)... 	4 	comp.sys.mac.hardware 	from guy kuo subject si clock poll final call ... 	guy kuo subject si clock poll final call summa...
+2 	From: twillis@ec.ecn.purdue.edu (Thomas E Will... 	4 	comp.sys.mac.hardware 	from thomas e willis subject pb questions orga... 	thomas e willis subject pb questions organizat...
+3 	From: jgreen@amber (Joe Green)\nSubject: Re: W... 	1 	comp.graphics 	from joe green subject re weitek p organizatio... 	joe green subject weitek p organization harris...
+4 	From: jcm@head-cfa.harvard.edu (Jonathan McDow... 	14 	sci.space 	from jonathan mcdowell subject re shuttle laun... 	jonathan mcdowell subject shuttle launch quest...
+</em>
+</pre>
+<p>Next, we&#8217;ll make the dictionary and corpus. Also, as a corpus, we can use only term frequency or TF-IDF.</p>
+<pre>
+posts = [x.split(' ') for x in df['post_final']]
+id2word = corpora.Dictionary(posts)
+corpus_tf = [id2word.doc2bow(text) for text in posts]
+print(corpus_tf[0])
+<em>[(0, 1), (1, 2), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 5), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1), (19, 1), (20, 1), (21, 1), (22, 1), (23, 1), (24, 1), (25, 1), (26, 1), (27, 1), (28, 1), (29, 1), (30, 1), (31, 1), (32, 1), (33, 1), (34, 1), (35, 1), (36, 1), (37, 1), (38, 1), (39, 1), (40, 1), (41, 1), (42, 1), (43, 1), (44, 1), (45, 1), (46, 1), (47, 1), (48, 1), (49, 1), (50, 1), (51, 1), (52, 1), (53, 1), (54, 1), (55, 1), (56, 1), (57, 1), (58, 1), (59, 1)]
+</em>
+</pre>
+<pre>
+tfidf = models.TfidfModel(corpus_tf)
+corpus_tfidf = tfidf[corpus_tf]
+print(corpus_tfidf[0])
+<em>[(0, 0.11498876048525103), (1, 0.09718324368673029), (2, 0.10251459464215813), (3, 0.22950467156922127), (4, 0.11224887707193924), (5, 0.1722981301822569), (6, 0.07530011969613486), (7, 0.4309484809469165), (8, 0.08877590143625969), (9, 0.04578068195160004), (10, 0.07090803901993002), (11, 0.1222656727768876), (12, 0.14524649469964415), (13, 0.05251249361530128), (14, 0.0989263305425191), (15, 0.04078267609390185), (16, 0.11756371552272524), (17, 0.17436169259993298), (18, 0.10155337594190954), (19, 0.20948825386578207), (20, 0.09695491629716278), (21, 0.024520714650907785), (22, 0.12964907508803875), (23, 0.08179595178219969), (24, 0.035633159058452026), (25, 0.11020678338364179), (26, 0.24952108927266048), (27, 9.459268363417395e-05), (28, 0.10776183582290975), (29, 0.07547376776331942), (30, 0.06670829980433708), (31, 0.062106577059591), (32, 0.13626396477950442), (33, 0.10453869332078215), (34, 0.07661054771383646), (35, 0.17037224424255862), (36, 0.024905114157890113), (37, 0.0011640619492058468), (38, 0.12139841280668175), (39, 0.054717960920777436), (40, 0.02308905209371841), (41, 0.13459748784234876), (42, 0.20608696405865523), (43, 0.056503689640334795), (44, 0.09456465243547033), (45, 0.09876981207502786), (46, 0.12006279504111743), (47, 0.08461773880033642), (48, 0.13486864088205006), (49, 0.13432885719305454), (51, 0.24952108927266048), (52, 0.05421309514981315), (53, 0.064793199454388), (54, 0.16160262905222716), (55, 0.027057268862720633), (56, 0.1954679598913907), (57, 0.09504085428857881), (58, 0.105116264304804), (59, 0.06248175923527969)]
+
+</em>
+</pre>
+<p>After that, we test both corpus using the LDA model. We’ll measure their performance using coherence score UMass as a more commonly used CV score might not give good results. More about coherence scores can be found in <a href="https://www.baeldung.com/cs/topic-modeling-coherence-score#1-cv-coherence-score">this article</a>.</p>
+<p>In order to see keywords for each topic, we use method `show_topics`. Basically, it shows the topic index and weightage of each keyword.</p>
+<pre>
+model = LdaMulticore(corpus=corpus_tf,id2word = id2word, num_topics = 20,
+                     alpha=.1, eta=0.1, random_state = 0)
+
+coherence = CoherenceModel(model = model, texts = posts, dictionary = id2word, coherence = 'u_mass')
+
+print(coherence.get_coherence())
+print(model.show_topics())
+<em>-1.6040665431701946
+[(6, '0.010*"god" + 0.008*"people" + 0.007*"one" + 0.006*"would" + 0.006*"subject" + 0.005*"lines" + 0.004*"article" + 0.004*"writes" + 0.004*"organization" + 0.004*"may"'),
+ (12, '0.008*"subject" + 0.008*"lines" + 0.008*"organization" + 0.006*"article" + 0.006*"writes" + 0.006*"would" + 0.005*"one" + 0.005*"x" + 0.004*"university" + 0.004*"posting"'),
+...
+...
+</em>
+</pre>
+<h3>Visualize the topics-keywords</h3>
+<p>After we built the LDA model, the next step is to visualize results using pyLDAvis package. It&#8217;s an interactive chart that shows topics and keywords. </p>
+<p>On the left side, topics are represented as circles. The larger the circle, the more prevalent is that topic. A good topic model will have big, non-overlapping circles scattered throughout the chart instead of being clustered in one quadrant.</p>
+<p>On the right side, we can observe the most relevant keywords from the selected topic.</p>
+<pre>
+lda_display = pyLDAvis.gensim.prepare(model, corpus_tf, id2word, sort_topics = False)
+pyLDAvis.display(lda_display)
+</pre>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2022/01/ldavis.png"><img src="https://datascienceplus.com/wp-content/uploads/2022/01/ldavis-490x287.png" alt="" width="490" height="287" class="alignnone size-medium wp-image-31838" srcset="https://datascienceplus.com/wp-content/uploads/2022/01/ldavis-490x287.png 490w, https://datascienceplus.com/wp-content/uploads/2022/01/ldavis-1024x599.png 1024w, https://datascienceplus.com/wp-content/uploads/2022/01/ldavis-768x449.png 768w, https://datascienceplus.com/wp-content/uploads/2022/01/ldavis.png 1186w" sizes="(max-width: 490px) 100vw, 490px" /></a></p>
+<p>In the end, dominant topic and contribution percent of that topic is extracted. </p>
+<pre>
+data_dict = {'dominant_topic':[], 'perc_contribution':[], 'topic_keywords':[]}
+
+for i, row in enumerate(model[corpus_tf]):
+    #print(i)
+    row = sorted(row, key=lambda x: x[1], reverse=True)
+    #print(row)
+    for j, (topic_num, prop_topic) in enumerate(row):
+        wp = model.show_topic(topic_num)
+        topic_keywords = ", ".join([word for word, prop in wp])
+        data_dict['dominant_topic'].append(int(topic_num))
+        data_dict['perc_contribution'].append(round(prop_topic, 3))
+        data_dict['topic_keywords'].append(topic_keywords)
+        #print(topic_keywords)
+        break
+
+df_topics = pd.DataFrame(data_dict)
+
+contents = pd.Series(posts)
+
+df_topics['post'] = df['post']
+df_topics.head()
+</pre>
+<h3>Further work</h3>
+<p><b>This tutorial represents only the theoretical background and baseline model for topic modeling and the LDA algorithm. Thus, the presented results might not be the best possible, and a lot of space is left for improving them. For instance, we might try using different text preprocessing methods, tune LDA hyperparameters, such as the number of topics, alpha, beta, try different coherence metrics, and similar.</b> </p>
+<h2>References</h2>
+<ul>
+<li>Latent Dirichlet Allocation (Part 1 and 2), <a href="https://www.youtube.com/watch?v=T05t-SqKArY">https://www.youtube.com/watch?v=T05t-SqKArY</a></li>
+<li>Topic Modeling With Gensim (Python), <a href="https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/">https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/</a></li>
+<li>When Coherence Score is Good or Bad in Topic Modeling?, <a href="https://www.baeldung.com/cs/topic-modeling-coherence-score">https://www.baeldung.com/cs/topic-modeling-coherence-score</a></li>
+<li>Topic modeling guide (GSDM,LDA,LSI), <a href="https://www.kaggle.com/ptfrwrd/topic-modeling-guide-gsdm-lda-lsi">https://www.kaggle.com/ptfrwrd/topic-modeling-guide-gsdm-lda-lsi</a></li>
+<li>Beginners Guide to Topic Modeling in Python, <a href="https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/">https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/</a></li>
+</ul>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/how-to-import-two-modules-with-same-function-name-in-python/" rel="bookmark" title="Permanent Link toHow to import two modules with same function name in Python">How to import two modules with same function name in Python</a></li><li><a href="https://datascienceplus.com/text-generation-with-python/" rel="bookmark" title="Permanent Link toText Generation with Python">Text Generation with Python</a></li><li><a href="https://datascienceplus.com/merging-datasets-with-tidyverse/" rel="bookmark" title="Permanent Link toMerging Datasets with Tidyverse">Merging Datasets with Tidyverse</a></li><li><a href="https://datascienceplus.com/5-easy-steps-to-kickstart-a-career-in-data-science-by-learning-python/" rel="bookmark" title="Permanent Link to5 Easy Steps to Kickstart a Career in Data Science by Learning Python">5 Easy Steps to Kickstart a Career in Data Science by Learning Python</a></li><li><a href="https://datascienceplus.com/top-open-source-tools-for-natural-language-processing-in-python/" rel="bookmark" title="Permanent Link toTop open source tools for natural language processing in Python">Top open source tools for natural language processing in Python</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/topic-modeling-and-latent-dirichlet-allocation-lda/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ditch p-values. Use Bootstrap confidence intervals instead</title>
+		<link>https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/</link>
+					<comments>https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/#respond</comments>
+		
+		<dc:creator><![CDATA[Florent Buisson]]></dc:creator>
+		<pubDate>Mon, 08 Nov 2021 19:55:39 +0000</pubDate>
+				<category><![CDATA[Basic Statistics]]></category>
+		<category><![CDATA[Exploratory Analysis]]></category>
+		<category><![CDATA[Tips & Tricks]]></category>
+		<guid isPermaLink="false">https://datascienceplus.com/?p=31741</guid>
+
+					<description><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li><li><a href="https://datascienceplus.com/tag/exploratory-analysis/" rel="bookmark" title="Permanent Link toExploratory Analysis">Exploratory Analysis</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tips-tricks/" rel="bookmark" title="Permanent Link toTips &amp; Tricks">Tips &amp; Tricks</a></li></ul>P-values don&#8217;t mean what people think they mean; they rely on hidden assumptions that are unlikely to be fulfilled; they detract from the real questions. Here&#8217;s how to use the Bootstrap in R instead This post was first published on Towards Data Science and is based on my book &#8220;Behavioral Data Analysis with R and Python&#8221; [&#8230;]<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/" rel="bookmark" title="Permanent Link toAn R alternative to pairs for -omics QC">An R alternative to pairs for -omics QC</a></li><li><a href="https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/" rel="bookmark" title="Permanent Link toHow I selected my starting word for Wordle using simulations and R">How I selected my starting word for Wordle using simulations and R</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></description>
+										<content:encoded><![CDATA[<div style="border-top: 1px solid; font-size: 14px;text-align: center; border-bottom: 1px solid; padding: 5px 2px;"><a href="https://datascienceplus.com/posting-from-r-markdown-to-datascienceplus/">Are you interested in guest posting? Publish at DataScience+  via your RStudio editor.</a></div><h2>Category</h2><ul><li><a href="https://datascienceplus.com/category/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li></ul><h2>Tags</h2><ul><li><a href="https://datascienceplus.com/tag/basic-statistics/" rel="bookmark" title="Permanent Link toBasic Statistics">Basic Statistics</a></li><li><a href="https://datascienceplus.com/tag/exploratory-analysis/" rel="bookmark" title="Permanent Link toExploratory Analysis">Exploratory Analysis</a></li><li><a href="https://datascienceplus.com/tag/rstats/" rel="bookmark" title="Permanent Link toR Programming">R Programming</a></li><li><a href="https://datascienceplus.com/tag/tips-tricks/" rel="bookmark" title="Permanent Link toTips &amp; Tricks">Tips &amp; Tricks</a></li></ul><p>P-values don&#8217;t mean what people think they mean; they rely on hidden assumptions that are unlikely to be fulfilled; they detract from the real questions. Here&#8217;s how to use the Bootstrap in R instead</p>
+<p><i>This post was first published on <a href="https://towardsdatascience.com/ditch-p-values-use-bootstrap-confidence-intervals-instead-bba56322b522" rel="noopener" target="_blank">Towards Data Science</a> and is based on my book &#8220;Behavioral Data Analysis with R and Python&#8221;</I></p>
+<p>A few years ago, I was hired by one of the largest insurance companies in the US to start and lead their behavioral science team. I had a PhD in behavioral economics from one of the top 10 economics departments in the world and half a decade of experience as a strategy consultant, so I was confident my team would be able to drive business decisions through well-crafted experiments and data analyses.<br />
+And indeed, I worked with highly-skilled data scientists who had a very sharp understanding of statistics. But after years of designing and analyzing experiments, I grew dissatisfied with the way we communicated results to decision-makers. I felt that the over-reliance on p-values led to sub-optimal decisions. After talking to colleagues in other companies, I realized that this was a broader problem, and I set up to write <a href="https://amzn.to/3mRcHyS" rel="noopener" target="_blank">a guide to better data analysis</a>. In this article, I&#8217;ll present one of the biggest recommendations of the book, which is to ditch p-values and use Bootstrap confidence intervals instead.</p>
+<h2>Ditch p-values</h2>
+<p>There are many reasons why you should abandon p-values, and I&#8217;ll examine three of the main ones here:</p>
+<ul>
+<li>They don&#8217;t mean what people think they mean</li>
+<li>They rely on hidden assumptions that are unlikely to be fulfilled</li>
+<li>They detract from the real questions</li>
+</ul>
+<h3>1. They don&#8217;t mean what people think they mean</h3>
+<p>When you&#8217;re running applied data analyses, whether in the private, non-profit or public sectors, your goal is to inform decisions. A big part of the problem we need to solve is uncertainty: the data tells us that the number is 10, but could it be 5 instead? Maybe 100? Can we rely on the number that the data analysis spouted? After years, sometimes decades, of educating business partners on the matter, they generally understand the risks of uncertainty. Unfortunately, they often jump from there to assuming that the p-value represents the probability that a result is due to chance: a p-value of 0.03 would mean that there&#8217;s a 3% chance a number we thought were positive is indeed null or negative. It does not. In fact, it represents the probability of seeing the result we saw assuming that the real value is indeed zero.<br />
+In scientific jargon, the real value being zero or negative is called the null hypothesis (abbreviated H0), and the real value being strictly above zero is called the alternative hypothesis (abbreviated H1). People mistakenly believe that the p-value is the probability of H0 given the data, P(H0|data), when in reality it is the probability of the data given H0, P(data|H0). You may be thinking: potato po-tah-to, that&#8217;s hair splitting and a very small p-value is indeed a good sign that a result is not due to chance. In many circumstances, you&#8217;ll be approximately correct, but in some cases, you&#8217;ll be utterly wrong.<br />
+Let&#8217;s take a simplified but revealing example: we want to determine Robert&#8217;s citizenship. Null hypothesis: H0, Robert is a US citizen. Alternative hypothesis: H1, he is not. Our data: we know that Robert is a US senator. There are 100 senators out of 330 million US citizens, so under the null hypothesis, the probability of our data (i.e., the p-value) is 100 / 300,000,000 ≈ 0.000000303. Per the rules of statistical significance, we can safely conclude that our null hypothesis is rejected and Robert is not a US citizen. That&#8217;s obviously false, so what went wrong? The probability that Robert is a US senator is indeed very low if he is a US citizen, but it&#8217;s even lower if he is not (namely zero!). P-values cannot help us here, even with a stricter 0.01 or even 0.001 threshold (for an alternative illustration of this problem, see <a href="https://xkcd.com/1132/">xkcd</a>).</p>
+<h3>2. They rely on hidden assumptions</h3>
+<p>P-values were invented at a time when all calculations had to be done by hand, and so they rely on simplifying statistical assumption. Broadly speaking, they assume that the phenomenon you&#8217;re observing obeys some regular statistical distribution, often the normal distribution (or a distribution from the same family). Unfortunately, that&#8217;s rarely true²:</p>
+<ul>
+<li>Unless you&#8217;re measuring some low-level psycho-physiological variable, your population of interest is generally made up of heterogeneous groups. Let&#8217;s say you&#8217;re a marketing manager for Impossible Burgers looking at the demand for meat substitutes. You would have to account for two groups: on the one hand, vegetarians, for whom the relevant alternative is a different vegetarian product; on the other hand, meat eaters, who can be enticed but will care much more about taste and price compared to meat itself.</li>
+<li>A normal distribution is symmetrical and extends to infinity in both directions. In real life, there are asymmetries, threshold and limits. People never buy negative quantities, nor infinite ones. They don&#8217;t vote at all before they&#8217;re 18 and the market of 120-year-old is much narrower than the market for 90-year-old and 60-year-old would suggest.</li>
+<li>Conversely, we see &#8220;fat-tailed&#8221; distributions, where extreme values are much more frequent than expected from a normal distribution. There are more multi-billionaires than you would expect from looking at the number of millionaires and billionaires.</li>
+</ul>
+<p>This implies that the p-values coming from a standard model are often wrong. Even if you correctly treat them as P(data|H0) and not P(H0|data), they&#8217;ll often be significantly off.</p>
+<h3>3. They detract from the real questions</h3>
+<p>Let&#8217;s say that you have taken to heart the two previous issues and built a complete Bayesian model that finally allows you to properly calculate P(H0|data), the probability that the real value is zero or negative given the observed data. Should you bring it to your decision-maker? I would argue that you shouldn&#8217;t, because it doesn&#8217;t reflect economic outcomes.<br />
+Let&#8217;s say that a business decision-maker is pondering two possible actions, A and B. Based on observed data, the probability of zero or negative benefits is:</p>
+<ul>
+<li>0.08 for action A</li>
+<li>0.001 for action B</li>
+</ul>
+<p>Should the decision-maker pick action B based on these numbers? What if I told you that the corresponding 90% confidence intervals are:</p>
+<ul>
+<li>[-$0.5m; $99.5m] for action A</li>
+<li>[$0.1m; $0.2m] for action B</li>
+</ul>
+<p>Action B may have a lower probability of leading to a zero or negative outcome, but its expected value for the business is much lower, unless the business is incredibly risk-averse. In most situations, &#8220;economic significance&#8221; for a decision-maker hangs on two questions:<br />
+How much money are we likely to gain? (aka, the expected value)<br />
+In a &#8220;reasonably-likely worst-case scenario&#8221;, how much money do we stand to lose? (aka, the lower bound of the confidence interval)<br />
+Confidence intervals are a much better tool to answer these questions than a single probability number.</p>
+<h2>Use the Bootstrap instead</h2>
+<p>Let&#8217;s take a concrete example, adapted and simplified from my book¹. A company has executed a time study of how long it takes its bakers to prepare made-to-order cakes depending on their level of experience. Having an industrial engineer measure how long it takes to make a cake in various stores across the country is expensive and time-consuming, so the data set has only 10 points, as you can see in the following figure.<br />
+<a href="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-1.png"><img src="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-1.png" alt="Scatterplot of baking time vs months of experience" width="700" height="432" class="aligncenter size-full wp-image-31742" srcset="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-1.png 700w, https://datascienceplus.com/wp-content/uploads/2021/11/fig7-1-490x302.png 490w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p>In addition to the very small size of the sample, it contains an an outlier, in the upper left corner: a new employee spending most of a day working on a complex cake for a corporate retreat. How should the data be reported to business partners? One could discard the extreme observation. But that observation, while unusual, is not an aberration per se. There was no measurement error, and those circumstances probably occur from time to time. An other option would be to only report the overall mean duration, 56 minutes, but that would also be misleading because it would not convey the variability and uncertainty in the data.<br />
+Alternatively, one could calculate a normal confidence interval (CI) based on the traditional statistical assumptions. Normal confidence intervals are closely linked to the p-value: an estimate is statistically significant if and only if the corresponding confidence interval does not include zero. As you&#8217;ll learn in any stats class, the lower limit of a normal 95%-CI is equal to the mean minus 1.96 times the standard error, and the upper limit is equal to the mean plus 1.96 times the standard error. Unfortunately, in the present case the confidence interval is [-23;135] and we can imagine that business partners would not take too kindly to the possibility of negative baking duration…<br />
+This issue comes from the assumption that baking times are normally distributed, which they are obviously not. One could try to fit a better distribution, but using a Bootstrap confidence interval is much simpler.</p>
+<p><3>1. The Bootstrap works by drawing with replacement</3><br />
+To build Bootstrap confidence intervals, you simply need to build &#8220;a lot of similar samples&#8221; by drawing with replacement from your original sample. Drawing with replacement is very simple in R, we just set &#8220;replace&#8221; to true:<br />
+<code>boot_dat &lt;- slice_sample(dat, n=nrow(dat), replace = TRUE)</code><br />
+<i>Why are we drawing with replacement? To really grasp what&#8217;s happening with the Bootstrap, it&#8217;s worth taking a step back and remembering the point of statistics: we have a population that we cannot fully examine, so we&#8217;re trying to make inferences about this population based on a limited sample. To do so, we create an &#8220;imaginary&#8221; population through either statistical assumptions or the Bootstrap. With statistical assumptions we say, &#8220;imagine that this sample is drawn from a population with a normal distribution,&#8221; and then make inferences based on that. With the Bootstrap we&#8217;re saying, &#8220;imagine that the population has exactly the same probability distribution as the sample,&#8221; or equivalently, &#8220;imagine that the sample is drawn from a population made of a large (or infinite) number of copies of that sample.&#8221; Then drawing with replacement from that sample is equivalent to drawing without replacement from that imaginary population. As statisticians will say, &#8220;the Bootstrap sample is to the sample what the sample is to the population.&#8221;</i></p>
+<p>We repeat that process many times (let&#8217;s say 2,000 times):<br />
+<code>mean_lst &lt;- list()<br />
+B &lt;- 2000<br />
+N &lt;- nrow(dat)<br />
+for(i in 1:B){<br />
+ boot_dat &lt;- slice_sample(dat, n=N, replace = TRUE)<br />
+ M &lt;- mean(boot_dat$times)<br />
+ mean_lst[[i]] &lt;- M}<br />
+mean_summ &lt;- tibble(means = unlist(mean_lst))</code><br />
+The result of the procedure is a list of Bootstrap sample means, which we can plot with an histogram:<br />
+<a href="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-2.png"><img src="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-2.png" alt="Histogram of Bootstrap sample means" width="700" height="432" class="aligncenter size-full wp-image-31745" srcset="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-2.png 700w, https://datascienceplus.com/wp-content/uploads/2021/11/fig7-2-490x302.png 490w" sizes="(max-width: 700px) 100vw, 700px" /></a><br />
+As you can see, the histogram is very irregular: there is a peak close to the mean of our original data set along with smaller peaks corresponding to certain patterns. Given how extreme our outlier is, each of the seven peaks corresponds to its number of repetitions in the Bootstrap sample, from zero to six. In other words, it doesn&#8217;t appear at all in the samples whose means are in the first (leftmost) peak, it appears exactly once in the samples whose means are in the second peak, and so on.</p>
+<h3>2. Calculating the confidence interval from the Bootstrap samples</h3>
+<p>From there, we can calculate the Bootstrap confidence interval (CI). The bounds of the CI are determined from the empirical distribution of the preceding means. Instead of trying to fit a statistical distribution (e.g., normal), we can simply order the values from smallest to largest and then look at the 2.5% quantile and the 97.5% quantile to find the two-tailed 95%-CI. With 2,000 samples, the 2.5% quantile is equal to the value of the 50th smallest mean (because 2,000 * 0.025 = 50), and the 97.5% quantile is equal to the value of the 1950th mean from smaller to larger, or the 50th largest mean (because both tails have the same number of values). Fortunately, we don&#8217;t have to calculate these by hand:<br />
+<code>LL_b &lt;- as.numeric(quantile(mean_summ$means, c(0.025)))<br />
+UL_b &lt;- as.numeric(quantile(mean_summ$means, c(0.975)))</code><br />
+The following figure shows the same histogram as before but adds the mean of the means, the normal CI bounds and the Bootstrap CI bounds.</p>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-3.png"><img src="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-3.png" alt="Histogram of Bootstrap sample means" width="700" height="432" class="aligncenter size-full wp-image-31746" srcset="https://datascienceplus.com/wp-content/uploads/2021/11/fig7-3.png 700w, https://datascienceplus.com/wp-content/uploads/2021/11/fig7-3-490x302.png 490w" sizes="(max-width: 700px) 100vw, 700px" /></a> </p>
+<p>Distribution of the means of 2,000 samples, with mean of the means (thick blue line), normal 95%-CI bounds (dotted black lines), and Bootstrap CI bounds (dashed blue lines)[/caption]<br />
+The Bootstrap 95%-CI is [7.50; 140.80] (plus or minus some sampling difference), which is much more realistic. No negative values as with the normal assumptions!</p>
+<h3>3. The Bootstrap is more flexible and relevant for business decisions</h3>
+<p>Once you start using the Bootstrap, you&#8217;ll be amazed at its flexibility. Small sample size, irregular distributions, business rules, expected values, A/B tests with clustered groups: the Bootstrap can do it all!<br />
+Let&#8217;s imagine, for example, that the company in our previous example is considering instituting a time promise - &#8221;your cake in three hours or 50% off&#8221; - and wants to know how often a cake currently takes more than three hours to be baked. Our estimate would be the sample percentage: it happens in 1 of the 10 observed cases, or 10%. But we can&#8217;t leave it at that, because there is significant uncertainty around that estimate, which we need to convey. Ten percent out of 10 observations is much more uncertain than 10% out of 100 or 1,000 observations. So how could we build a CI around that 10% value? With the Bootstrap, of course!<br />
+The histogram of Bootstrap estimates also offers a great visualization to show business partners: &#8220;This vertical line is the result of the actual measurement, but you can also see all the possible values it could have taken&#8221;. The 90% or 95% lower bound offers a &#8220;reasonable worst case scenario&#8221; based on available information.<br />
+Finally, if your boss or business partners are dead set on p-values, the Bootstrap offers a similar metric, the Achieved Significance Level (ASL). The ASL is simply the percentage of Bootstrap values that are zero or less. That interpretation is very close to the one people wrongly assign to the p-value, so there&#8217;s very limited education needed: <i>&#8220;the ASL is 3% so there&#8217;s a 3% chance that the true value is zero or less; the ASL is less than 0.05 so we can treat this result as significant&#8221;.</i></p>
+<h2>Conclusion</h2>
+<p>To recap, even though p-values remain ubiquitous in applied data analysis, they have overstayed their welcome. They don&#8217;t mean what people generally think they mean; and even if they did, that&#8217;s not the answer that decision-makers are looking for. Even in academia, there&#8217;s currently a strong push towards reducing the blind reliance on p-values (see the ASA statement below⁴).<br />
+Using Bootstrap confidence intervals is both easier and more compelling. They don&#8217;t rely on hidden statistical assumptions, only on a straightforward one: the overall population looks the same as our sample. They provide information on possible outcomes that is richer and more relevant to business decisions.</p>
+<h3>But wait, there&#8217;s more!</h3>
+<p>Here comes the final shameless plug. If you want to learn more about the Bootstrap, my book will show you:</p>
+<ul>
+<li>How to determine the number of Bootstrap samples to draw;</li>
+<li>How to apply the Bootstrap to regression, A/B test and ad-hoc statistics;</li>
+<li>How to write high-performance code that will not have your colleagues snickering at your FOR loops;</li>
+<li>And a lot of other cool things about analyzing customer data in business.</li>
+</ul>
+<p><a href="https://datascienceplus.com/wp-content/uploads/2021/11/Book_cover.jpeg"><img src="https://datascienceplus.com/wp-content/uploads/2021/11/Book_cover.jpeg" alt="Cover of book &quot;Behavioral Data Analysis with R and Python&quot;" width="500" height="656" class="aligncenter size-full wp-image-31747" srcset="https://datascienceplus.com/wp-content/uploads/2021/11/Book_cover.jpeg 500w, https://datascienceplus.com/wp-content/uploads/2021/11/Book_cover-373x490.jpeg 373w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<h3>References</h3>
+<p>[1] F. Buisson, <a href="https://amzn.to/3mRcHyS" rel="noopener" target="_blank">Behavioral Data Analysis with R and Python (2021)</a>. My book, obviously! The code for the example is available on the book&#8217;s <a href="https://github.com/FlorentBuissonOReilly/BehavioralDataAnalysis">Github repo</a>.<br />
+[2] R. Wilcox, <a href="https://smile.amazon.com/Fundamentals-Modern-Statistical-Methods-Substantially/dp/1441955240/" rel="noopener" target="_blank">Fundamentals of Modern Statistical Methods: Substantially Improving Power and Accuracy (2010)</a>. We routinely assume that our data is normally distributed &#8220;enough.&#8221; Wilcox shows that this is unwarranted and can severely bias analyses. A very readable book on an advanced topic.<br />
+[3] See my earlier post on Medium <a href="https://medium.com/behavior-design-hub/is-your-behavioral-data-truly-behavioral-efb258a24a6c" rel="noopener" target="_blank">&#8220;Is Your Behavioral Data Truly Behavioral?&#8221;</a>.<br />
+[4] R. L. Wasserstein &amp; N. A. Lazar (2016) <a href="https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true&amp;" rel="noopener" target="_blank">&#8220;The ASA Statement on p-Values: Context, Process, and Purpose&#8221;</a>, The American Statistician, 70:2, 129–133, DOI:10.1080/00031305.2016.1154108.</p>
+<strong><p>Related Post</p></strong><ul><li><a href="https://datascienceplus.com/an-r-alternative-to-pairs-for-omics-qc/" rel="bookmark" title="Permanent Link toAn R alternative to pairs for -omics QC">An R alternative to pairs for -omics QC</a></li><li><a href="https://datascienceplus.com/how-i-selected-my-starting-word-for-wordle-using-simulations-and-r/" rel="bookmark" title="Permanent Link toHow I selected my starting word for Wordle using simulations and R">How I selected my starting word for Wordle using simulations and R</a></li><li><a href="https://datascienceplus.com/introduction-for-decision-tree/" rel="bookmark" title="Permanent Link toIntroduction for Decision Tree">Introduction for Decision Tree</a></li><li><a href="https://datascienceplus.com/correlation-vs-pps-in-python/" rel="bookmark" title="Permanent Link toCorrelation vs PPS in Python">Correlation vs PPS in Python</a></li><li><a href="https://datascienceplus.com/earthquake-analysis-4-4-cluster-analysis/" rel="bookmark" title="Permanent Link toEarthquake Analysis (4/4): Cluster Analysis">Earthquake Analysis (4/4): Cluster Analysis</a></li></ul>]]></content:encoded>
+					
+					<wfw:commentRss>https://datascienceplus.com/ditch-p-values-use-bootstrap-confidence-intervals-instead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
