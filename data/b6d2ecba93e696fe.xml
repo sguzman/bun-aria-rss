@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>stat.ML updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Statistics -- Machine Learning (stat.ML) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Statistics -- Machine Learning</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01498" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01518" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01521" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01528" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01561" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01588" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01591" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01610" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01645" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01689" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01703" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01717" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01743" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01746" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01774" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01798" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01832" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01842" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01873" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01877" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01903" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01962" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01972" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02003" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02039" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02045" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2002.01711" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.07545" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2007.11831" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2008.08844" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2010.14860" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2011.04102" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2011.07435" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2105.08013" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2108.12515" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2111.13164" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.00292" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.13255" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.15856" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.09340" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07330" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07370" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.08860" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.12054" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.00340" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.02631" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.17177" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01498">
+<title>On the Safety of Interpretable Machine Learning: A Maximum Deviation Approach. (arXiv:2211.01498v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01498</link>
+<description rdf:parseType="Literal">&lt;p&gt;Interpretable and explainable machine learning has seen a recent surge of
+interest. We focus on safety as a key motivation behind the surge and make the
+relationship between interpretability and safety more quantitative. Toward
+assessing safety, we introduce the concept of maximum deviation via an
+optimization problem to find the largest deviation of a supervised learning
+model from a reference model regarded as safe. We then show how
+interpretability facilitates this safety assessment. For models including
+decision trees, generalized linear and additive models, the maximum deviation
+can be computed exactly and efficiently. For tree ensembles, which are not
+regarded as interpretable, discrete optimization techniques can still provide
+informative bounds. For a broader class of piecewise Lipschitz functions, we
+leverage the multi-armed bandit literature to show that interpretability
+produces tighter (regret) bounds on the maximum deviation. We present case
+studies, including one on mortgage approval, to illustrate our methods and the
+insights about models that may be obtained from deviation maximization.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wei_D/0/1/0/all/0/1&quot;&gt;Dennis Wei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nair_R/0/1/0/all/0/1&quot;&gt;Rahul Nair&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dhurandhar_A/0/1/0/all/0/1&quot;&gt;Amit Dhurandhar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Varshney_K/0/1/0/all/0/1&quot;&gt;Kush R. Varshney&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Daly_E/0/1/0/all/0/1&quot;&gt;Elizabeth M. Daly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Singh_M/0/1/0/all/0/1&quot;&gt;Moninder Singh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01518">
+<title>Bayesian Counterfactual Mean Embeddings and Off-Policy Evaluation. (arXiv:2211.01518v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01518</link>
+<description rdf:parseType="Literal">&lt;p&gt;The counterfactual distribution models the effect of the treatment in the
+untreated group. While most of the work focuses on the expected values of the
+treatment effect, one may be interested in the whole counterfactual
+distribution or other quantities associated to it. Building on the framework of
+Bayesian conditional mean embeddings, we propose a Bayesian approach for
+modeling the counterfactual distribution, which leads to quantifying the
+epistemic uncertainty about the distribution. The framework naturally extends
+to the setting where one observes multiple treatment effects (e.g. an
+intermediate effect after an interim period, and an ultimate treatment effect
+which is of main interest) and allows for additionally modelling uncertainty
+about the relationship of these effects. For such goal, we present three novel
+Bayesian methods to estimate the expectation of the ultimate treatment effect,
+when only noisy samples of the dependence between intermediate and ultimate
+effects are provided. These methods differ on the source of uncertainty
+considered and allow for combining two sources of data. Moreover, we generalize
+these ideas to the off-policy evaluation framework, which can be seen as an
+extension of the counterfactual estimation problem. We empirically explore the
+calibration of the algorithms in two different experimental settings which
+require data fusion, and illustrate the value of considering the uncertainty
+stemming from the two sources of data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Martinez_Taboada_D/0/1/0/all/0/1&quot;&gt;Diego Martinez-Taboada&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Sejdinovic_D/0/1/0/all/0/1&quot;&gt;Dino Sejdinovic&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01521">
+<title>Inferring independent sets of Gaussian variables after thresholding correlations. (arXiv:2211.01521v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01521</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider testing whether a set of Gaussian variables, selected from the
+data, is independent of the remaining variables. We assume that this set is
+selected via a very simple approach that is commonly used across scientific
+disciplines: we select a set of variables for which the correlation with all
+variables outside the set falls below some threshold. Unlike other settings in
+selective inference, failure to account for the selection step leads, in this
+setting, to excessively conservative (as opposed to anti-conservative) results.
+Our proposed test properly accounts for the fact that the set of variables is
+selected from the data, and thus is not overly conservative. To develop our
+test, we condition on the event that the selection resulted in the set of
+variables in question. To achieve computational tractability, we develop a new
+characterization of the conditioning event in terms of the canonical
+correlation between the groups of random variables. In simulation studies and
+in the analysis of gene co-expression networks, we show that our approach has
+much higher power than a ``naive&apos;&apos; approach that ignores the effect of
+selection.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Saha_A/0/1/0/all/0/1&quot;&gt;Arkajyoti Saha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Witten_D/0/1/0/all/0/1&quot;&gt;Daniela Witten&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Bien_J/0/1/0/all/0/1&quot;&gt;Jacob Bien&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01528">
+<title>Fair and Optimal Classification via Transports to Wasserstein-Barycenter. (arXiv:2211.01528v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01528</link>
+<description rdf:parseType="Literal">&lt;p&gt;Fairness in automated decision-making systems has gained increasing attention
+as their applications expand to real-world high-stakes domains. To facilitate
+the design of fair ML systems, it is essential to understand the potential
+trade-offs between fairness and predictive power, and the construction of the
+optimal predictor under a given fairness constraint. In this paper, for general
+classification problems under the group fairness criterion of demographic
+parity (DP), we precisely characterize the trade-off between DP and
+classification accuracy, referred to as the minimum cost of fairness. Our
+insight comes from the key observation that finding the optimal fair classifier
+is equivalent to solving a Wasserstein-barycenter problem under $\ell_1$-norm
+restricted to the vertices of the probability simplex. Inspired by our
+characterization, we provide a construction of an optimal fair classifier
+achieving this minimum cost via the composition of the Bayes regressor and
+optimal transports from its output distributions to the barycenter. Our
+construction naturally leads to an algorithm for post-processing any
+pre-trained predictor to satisfy DP fairness, complemented with finite sample
+guarantees. Experiments on real-world datasets verify and demonstrate the
+effectiveness of our approaches.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xian_R/0/1/0/all/0/1&quot;&gt;Ruicheng Xian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yin_L/0/1/0/all/0/1&quot;&gt;Lang Yin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhao_H/0/1/0/all/0/1&quot;&gt;Han Zhao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01561">
+<title>Benefits of Monotonicity in Safe Exploration with Gaussian Processes. (arXiv:2211.01561v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01561</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider the problem of sequentially maximising an unknown function over a
+set of actions while ensuring that every sampled point has a function value
+below a given safety threshold. We model the function using kernel-based and
+Gaussian process methods, while differing from previous works in our assumption
+that the function is monotonically increasing with respect to a safety
+variable. This assumption is motivated by various practical applications such
+as adaptive clinical trial design and robotics. Taking inspiration from the
+GP-UCB and SafeOpt algorithms, we propose an algorithm, monotone safe UCB
+(M-SafeUCB) for this task. We show that M-SafeUCB enjoys theoretical guarantees
+in terms of safety, a suitably-defined regret notion, and approximately finding
+the entire safe boundary. In addition, we illustrate that the monotonicity
+assumption yields significant benefits in terms of both the guarantees obtained
+and the algorithmic simplicity. We support our theoretical findings by
+performing empirical evaluations on a variety of functions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Losalka_A/0/1/0/all/0/1&quot;&gt;Arpan Losalka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Scarlett_J/0/1/0/all/0/1&quot;&gt;Jonathan Scarlett&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01588">
+<title>A Convergence Theory for Federated Average: Beyond Smoothness. (arXiv:2211.01588v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01588</link>
+<description rdf:parseType="Literal">&lt;p&gt;Federated learning enables a large amount of edge computing devices to learn
+a model without data sharing jointly. As a leading algorithm in this setting,
+Federated Average FedAvg, which runs Stochastic Gradient Descent (SGD) in
+parallel on local devices and averages the sequences only once in a while, have
+been widely used due to their simplicity and low communication cost. However,
+despite recent research efforts, it lacks theoretical analysis under
+assumptions beyond smoothness. In this paper, we analyze the convergence of
+FedAvg. Different from the existing work, we relax the assumption of strong
+smoothness. More specifically, we assume the semi-smoothness and semi-Lipschitz
+properties for the loss function, which have an additional first-order term in
+assumption definitions. In addition, we also assume bound on the gradient,
+which is weaker than the commonly used bounded gradient assumption in the
+convergence analysis scheme. As a solution, this paper provides a theoretical
+convergence study on Federated Learning.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xiaoxiao Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_Z/0/1/0/all/0/1&quot;&gt;Zhao Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tao_R/0/1/0/all/0/1&quot;&gt;Runzhou Tao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_G/0/1/0/all/0/1&quot;&gt;Guangyi Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01591">
+<title>A Bayesian Semiparametric Method For Estimating Causal Quantile Effects. (arXiv:2211.01591v1 [stat.ME])</title>
+<link>http://arxiv.org/abs/2211.01591</link>
+<description rdf:parseType="Literal">&lt;p&gt;Standard causal inference characterizes treatment effect through averages,
+but the counterfactual distributions could be different in not only the central
+tendency but also spread and shape. To provide a comprehensive evaluation of
+treatment effects, we focus on estimating quantile treatment effects (QTEs).
+Existing methods that invert a nonsmooth estimator of the cumulative
+distribution functions forbid inference on probability density functions
+(PDFs), but PDFs can reveal more nuanced characteristics of the counterfactual
+distributions. We adopt a semiparametric conditional distribution regression
+model that allows inference on any functionals of counterfactual distributions,
+including PDFs and multiple QTEs. To account for the observational nature of
+the data and ensure an efficient model, we adjust for a double balancing score
+that augments the propensity score with individual covariates. We provide a
+Bayesian estimation framework that appropriately propagates modeling
+uncertainty. We show via simulations that the use of double balancing score for
+confounding adjustment improves performance over adjusting for any single score
+alone, and the proposed semiparametric model estimates QTEs more accurately
+than other semiparametric methods. We apply the proposed method to the North
+Carolina birth weight dataset to analyze the effect of maternal smoking on
+infant&apos;s birth weight.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;Steven G. Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Yang_S/0/1/0/all/0/1&quot;&gt;Shu Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Reich_B/0/1/0/all/0/1&quot;&gt;Brian J. Reich&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01610">
+<title>Proximal Subgradient Norm Minimization of ISTA and FISTA. (arXiv:2211.01610v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01610</link>
+<description rdf:parseType="Literal">&lt;p&gt;For first-order smooth optimization, the research on the acceleration
+phenomenon has a long-time history. Until recently, the mechanism leading to
+acceleration was not successfully uncovered by the gradient correction term and
+its equivalent implicit-velocity form. Furthermore, based on the
+high-resolution differential equation framework with the corresponding emerging
+techniques, phase-space representation and Lyapunov function, the squared
+gradient norm of Nesterov&apos;s accelerated gradient descent (\texttt{NAG}) method
+at an inverse cubic rate is discovered. However, this result cannot be directly
+generalized to composite optimization widely used in practice, e.g., the linear
+inverse problem with sparse representation. In this paper, we meticulously
+observe a pivotal inequality used in composite optimization about the step size
+$s$ and the Lipschitz constant $L$ and find that it can be improved tighter. We
+apply the tighter inequality discovered in the well-constructed Lyapunov
+function and then obtain the proximal subgradient norm minimization by the
+phase-space representation, regardless of gradient-correction or
+implicit-velocity. Furthermore, we demonstrate that the squared proximal
+subgradient norm for the class of iterative shrinkage-thresholding algorithms
+(ISTA) converges at an inverse square rate, and the squared proximal
+subgradient norm for the class of faster iterative shrinkage-thresholding
+algorithms (FISTA) is accelerated to convergence at an inverse cubic rate.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_B/0/1/0/all/0/1&quot;&gt;Bowen Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Shi_B/0/1/0/all/0/1&quot;&gt;Bin Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yuan_Y/0/1/0/all/0/1&quot;&gt;Ya-xiang Yuan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01645">
+<title>Towards federated multivariate statistical process control (FedMSPC). (arXiv:2211.01645v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01645</link>
+<description rdf:parseType="Literal">&lt;p&gt;The ongoing transition from a linear (produce-use-dispose) to a circular
+economy poses significant challenges to current state-of-the-art information
+and communication technologies. In particular, the derivation of integrated,
+high-level views on material, process, and product streams from (real-time)
+data produced along value chains is challenging for several reasons. Most
+importantly, sufficiently rich data is often available yet not shared across
+company borders because of privacy concerns which make it impossible to build
+integrated process models that capture the interrelations between input
+materials, process parameters, and key performance indicators along value
+chains. In the current contribution, we propose a privacy-preserving, federated
+multivariate statistical process control (FedMSPC) framework based on Federated
+Principal Component Analysis (PCA) and Secure Multiparty Computation to foster
+the incentive for closer collaboration of stakeholders along value chains. We
+tested our approach on two industrial benchmark data sets - SECOM and ST-AWFD.
+Our empirical results demonstrate the superior fault detection capability of
+the proposed approach compared to standard, single-party (multiway) PCA.
+Furthermore, we showcase the possibility of our framework to provide
+privacy-preserving fault diagnosis to each data holder in the value chain to
+underpin the benefits of secure data sharing and federated process modeling.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Duy_D/0/1/0/all/0/1&quot;&gt;Du Nguyen Duy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gabauer_D/0/1/0/all/0/1&quot;&gt;David Gabauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nikzad_Langerodi_R/0/1/0/all/0/1&quot;&gt;Ramin Nikzad-Langerodi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01689">
+<title>Isotropic Gaussian Processes on Finite Spaces of Graphs. (arXiv:2211.01689v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01689</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a principled way to define Gaussian process priors on various sets
+of unweighted graphs: directed or undirected, with or without loops. We endow
+each of these sets with a geometric structure, inducing the notions of
+closeness and symmetries, by turning them into a vertex set of an appropriate
+metagraph. Building on this, we describe the class of priors that respect this
+structure and are analogous to the Euclidean isotropic processes, like squared
+exponential or Mat\&apos;ern. We propose an efficient computational technique for
+the ostensibly intractable problem of evaluating these priors&apos; kernels, making
+such Gaussian processes usable within the usual toolboxes and downstream
+applications. We go further to consider sets of equivalence classes of
+unweighted graphs and define the appropriate versions of priors thereon. We
+prove a hardness result, showing that in this case, exact kernel computation
+cannot be performed efficiently. However, we propose a simple Monte Carlo
+approximation for handling moderately sized cases. Inspired by applications in
+chemistry, we illustrate the proposed techniques on a real molecular property
+prediction task in the small data regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Borovitskiy_V/0/1/0/all/0/1&quot;&gt;Viacheslav Borovitskiy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Karimi_M/0/1/0/all/0/1&quot;&gt;Mohammad Reza Karimi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Somnath_V/0/1/0/all/0/1&quot;&gt;Vignesh Ram Somnath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Krause_A/0/1/0/all/0/1&quot;&gt;Andreas Krause&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01703">
+<title>Zero-Sum Games with Noisy Observations. (arXiv:2211.01703v1 [cs.GT])</title>
+<link>http://arxiv.org/abs/2211.01703</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, $2 \times 2$ zero-sum games (ZSGs) are studied under the
+following assumptions: (1) One of the players (the leader) publicly and
+irrevocably commits to choose its actions by sampling a given probability
+measure (strategy);(2) The leader announces its action, which is observed by
+its opponent (the follower) through a binary channel; and (3) the follower
+chooses its strategy based on the knowledge of the leader&apos;s strategy and the
+noisy observation of the leader&apos;s action. Under these conditions, the
+equilibrium is shown to always exist and be often different from the Nash and
+Stackelberg equilibria. Even subject to noise, observing the actions of the
+leader is either beneficial or immaterial to the follower for all possible
+commitments. When the commitment is observed subject to a distortion, the
+equilibrium does not necessarily exist. Nonetheless, the leader might still
+obtain some benefit in some specific cases subject to equilibrium refinements.
+For instance, $\epsilon$-equilibria might exist in which the leader commits to
+suboptimal strategies that allow unequivocally predicting the best response of
+its opponent.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_K/0/1/0/all/0/1&quot;&gt;Ke Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perlaza_S/0/1/0/all/0/1&quot;&gt;Samir M. Perlaza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jean_Marie_A/0/1/0/all/0/1&quot;&gt;Alain Jean-Marie&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01717">
+<title>Learning Hypergraphs From Signals With Dual Smoothness Prior. (arXiv:2211.01717v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01717</link>
+<description rdf:parseType="Literal">&lt;p&gt;The construction of a meaningful hypergraph topology is the key to processing
+signals with high-order relationships that involve more than two entities.
+Learning the hypergraph structure from the observed signals to capture the
+intrinsic relationships among the entities becomes crucial when a hypergraph
+topology is not readily available in the datasets. There are two challenges
+that lie at the heart of this problem: 1) how to handle the huge search space
+of potential hyperedges, and 2) how to define meaningful criteria to measure
+the relationship between the signals observed on nodes and the hypergraph
+structure. In this paper, to address the first challenge, we adopt the
+assumption that the ideal hypergraph structure can be derived from a learnable
+graph structure that captures the pairwise relations within signals. Further,
+we propose a hypergraph learning framework with a novel dual smoothness prior
+that reveals a mapping between the observed node signals and the hypergraph
+structure, whereby each hyperedge corresponds to a subgraph with both node
+signal smoothness and edge signal smoothness in the learnable graph structure.
+Finally, we conduct extensive experiments to evaluate the proposed framework on
+both synthetic and real world datasets. Experiments show that our proposed
+framework can efficiently infer meaningful hypergraph topologies from observed
+signals.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tang_B/0/1/0/all/0/1&quot;&gt;Bohan Tang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_S/0/1/0/all/0/1&quot;&gt;Siheng Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dong_X/0/1/0/all/0/1&quot;&gt;Xiaowen Dong&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01743">
+<title>Beyond the Best: Estimating Distribution Functionals in Infinite-Armed Bandits. (arXiv:2211.01743v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01743</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the infinite-armed bandit problem, each arm&apos;s average reward is sampled
+from an unknown distribution, and each arm can be sampled further to obtain
+noisy estimates of the average reward of that arm. Prior work focuses on
+identifying the best arm, i.e., estimating the maximum of the average reward
+distribution. We consider a general class of distribution functionals beyond
+the maximum, and propose unified meta algorithms for both the offline and
+online settings, achieving optimal sample complexities. We show that online
+estimation, where the learner can sequentially choose whether to sample a new
+or existing arm, offers no advantage over the offline setting for estimating
+the mean functional, but significantly reduces the sample complexity for other
+functionals such as the median, maximum, and trimmed mean. The matching lower
+bounds utilize several different Wasserstein distances. For the special case of
+median estimation, we identify a curious thresholding phenomenon on the
+indistinguishability between Gaussian convolutions with respect to the noise
+level, which may be of independent interest.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yifei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baharav_T/0/1/0/all/0/1&quot;&gt;Tavor Baharav&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Han_Y/0/1/0/all/0/1&quot;&gt;Yanjun Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiao_J/0/1/0/all/0/1&quot;&gt;Jiantao Jiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tse_D/0/1/0/all/0/1&quot;&gt;David Tse&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01746">
+<title>Log-density gradient covariance and automatic metric tensors for Riemann manifold Monte Carlo methods. (arXiv:2211.01746v1 [stat.CO])</title>
+<link>http://arxiv.org/abs/2211.01746</link>
+<description rdf:parseType="Literal">&lt;p&gt;A metric tensor for Riemann manifold Monte Carlo particularly suited for
+non-linear Bayesian hierarchical models is proposed. The metric tensor is built
+from here proposed symmetric positive semidefinite log-density gradient
+covariance (LGC) matrices. The LGCs measure the joint information content and
+dependence structure of both a random variable and the parameters of said
+variable. The proposed methodology is highly automatic and allows for
+exploitation of any sparsity associated with the model in question. When
+implemented in conjunction with a Riemann manifold variant of the recently
+proposed numerical generalized randomized Hamiltonian Monte Carlo processes,
+the proposed methodology is highly competitive, in particular for the more
+challenging target distributions associated with Bayesian hierarchical models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kleppe_T/0/1/0/all/0/1&quot;&gt;Tore Selland Kleppe&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01774">
+<title>Jump-Diffusion Langevin Dynamics for Multimodal Posterior Sampling. (arXiv:2211.01774v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01774</link>
+<description rdf:parseType="Literal">&lt;p&gt;Bayesian methods of sampling from a posterior distribution are becoming
+increasingly popular due to their ability to precisely display the uncertainty
+of a model fit. Classical methods based on iterative random sampling and
+posterior evaluation such as Metropolis-Hastings are known to have desirable
+long run mixing properties, however are slow to converge. Gradient based
+methods, such as Langevin Dynamics (and its stochastic gradient counterpart)
+exhibit favorable dimension-dependence and fast mixing times for log-concave,
+and &quot;close&quot; to log-concave distributions, however also have long escape times
+from local minimizers. Many contemporary applications such as Bayesian Neural
+Networks are both high-dimensional and highly multimodal. In this paper we
+investigate the performance of a hybrid Metropolis and Langevin sampling method
+akin to Jump Diffusion on a range of synthetic and real data, indicating that
+careful calibration of mixing sampling jumps with gradient based chains
+significantly outperforms both pure gradient-based or sampling based schemes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guidolin_J/0/1/0/all/0/1&quot;&gt;Jacopo Guidolin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kungurtsev_V/0/1/0/all/0/1&quot;&gt;Vyacheslav Kungurtsev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kuzelka_O/0/1/0/all/0/1&quot;&gt;Ond&amp;#x159;ej Ku&amp;#x17e;elka&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01798">
+<title>Phase Transitions in Learning and Earning under Price Protection Guarantee. (arXiv:2211.01798v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01798</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motivated by the prevalence of ``price protection guarantee&quot;, which allows a
+customer who purchased a product in the past to receive a refund from the
+seller during the so-called price protection period (typically defined as a
+certain time window after the purchase date) in case the seller decides to
+lower the price, we study the impact of such policy on the design of online
+learning algorithm for data-driven dynamic pricing with initially unknown
+customer demand. We consider a setting where a firm sells a product over a
+horizon of $T$ time steps. For this setting, we characterize how the value of
+$M$, the length of price protection period, can affect the optimal regret of
+the learning process. We show that the optimal regret is
+$\tilde{\Theta}(\sqrt{T}+\min\{M,\,T^{2/3}\})$ by first establishing a
+fundamental impossible regime with novel regret lower bound instances. Then, we
+propose LEAP, a phased exploration type algorithm for \underline{L}earning and
+\underline{EA}rning under \underline{P}rice Protection to match this lower
+bound up to logarithmic factors or even doubly logarithmic factors (when there
+are only two prices available to the seller). Our results reveal the surprising
+phase transitions of the optimal regret with respect to $M$. Specifically, when
+$M$ is not too large, the optimal regret has no major difference when compared
+to that of the classic setting with no price protection guarantee. We also show
+that there exists an upper limit on how much the optimal regret can deteriorate
+when $M$ grows large. Finally, we conduct extensive numerical experiments to
+show the benefit of LEAP over other heuristic methods for this problem.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Feng_Q/0/1/0/all/0/1&quot;&gt;Qing Feng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhu_R/0/1/0/all/0/1&quot;&gt;Ruihao Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Jasin_S/0/1/0/all/0/1&quot;&gt;Stefanus Jasin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01832">
+<title>Extra-Newton: A First Approach to Noise-Adaptive Accelerated Second-Order Methods. (arXiv:2211.01832v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01832</link>
+<description rdf:parseType="Literal">&lt;p&gt;This work proposes a universal and adaptive second-order method for
+minimizing second-order smooth, convex functions. Our algorithm achieves
+$O(\sigma / \sqrt{T})$ convergence when the oracle feedback is stochastic with
+variance $\sigma^2$, and improves its convergence to $O( 1 / T^3)$ with
+deterministic oracles, where $T$ is the number of iterations. Our method also
+interpolates these rates without knowing the nature of the oracle apriori,
+which is enabled by a parameter-free adaptive step-size that is oblivious to
+the knowledge of smoothness modulus, variance bounds and the diameter of the
+constrained set. To our knowledge, this is the first universal algorithm with
+such global guarantees within the second-order optimization literature.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Antonakopoulos_K/0/1/0/all/0/1&quot;&gt;Kimon Antonakopoulos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kavis_A/0/1/0/all/0/1&quot;&gt;Ali Kavis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cevher_V/0/1/0/all/0/1&quot;&gt;Volkan Cevher&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01842">
+<title>Towards Discovering Neural Architectures from Scratch. (arXiv:2211.01842v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01842</link>
+<description rdf:parseType="Literal">&lt;p&gt;The discovery of neural architectures from scratch is the long-standing goal
+of Neural Architecture Search (NAS). Searching over a wide spectrum of neural
+architectures can facilitate the discovery of previously unconsidered but
+well-performing architectures. In this work, we take a large step towards
+discovering neural architectures from scratch by expressing architectures
+algebraically. This algebraic view leads to a more general method for designing
+search spaces, which allows us to compactly represent search spaces that are
+100s of orders of magnitude larger than common spaces from the literature.
+Further, we propose a Bayesian Optimization strategy to efficiently search over
+such huge spaces, and demonstrate empirically that both our search space design
+and our search strategy can be superior to existing baselines. We open source
+our algebraic NAS approach and provide APIs for PyTorch and TensorFlow.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schrodi_S/0/1/0/all/0/1&quot;&gt;Simon Schrodi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Stoll_D/0/1/0/all/0/1&quot;&gt;Danny Stoll&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ru_B/0/1/0/all/0/1&quot;&gt;Binxin Ru&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sukthanker_R/0/1/0/all/0/1&quot;&gt;Rhea Sukthanker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brox_T/0/1/0/all/0/1&quot;&gt;Thomas Brox&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hutter_F/0/1/0/all/0/1&quot;&gt;Frank Hutter&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01873">
+<title>Port-metriplectic neural networks: thermodynamics-informed machine learning of complex physical systems. (arXiv:2211.01873v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01873</link>
+<description rdf:parseType="Literal">&lt;p&gt;We develop inductive biases for the machine learning of complex physical
+systems based on the port-Hamiltonian formalism. To satisfy by construction the
+principles of thermodynamics in the learned physics (conservation of energy,
+non-negative entropy production), we modify accordingly the port-Hamiltonian
+formalism so as to achieve a port-metriplectic one. We show that the
+constructed networks are able to learn the physics of complex systems by parts,
+thus alleviating the burden associated to the experimental characterization and
+posterior learning process of this kind of systems. Predictions can be done,
+however, at the scale of the complete system. Examples are shown on the
+performance of the proposed technique.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hernandez_Q/0/1/0/all/0/1&quot;&gt;Quercus Hern&amp;#xe1;ndez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Badias_A/0/1/0/all/0/1&quot;&gt;Alberto Bad&amp;#xed;as&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chinesta_F/0/1/0/all/0/1&quot;&gt;Francisco Chinesta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cueto_E/0/1/0/all/0/1&quot;&gt;El&amp;#xed;as Cueto&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01877">
+<title>Convex Clustering through MM: An Efficient Algorithm to Perform Hierarchical Clustering. (arXiv:2211.01877v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01877</link>
+<description rdf:parseType="Literal">&lt;p&gt;Convex clustering is a modern method with both hierarchical and $k$-means
+clustering characteristics. Although convex clustering can capture the complex
+clustering structure hidden in data, the existing convex clustering algorithms
+are not scalable to large data sets with sample sizes greater than ten
+thousand. Moreover, it is known that convex clustering sometimes fails to
+produce hierarchical clustering structures. This undesirable phenomenon is
+called cluster split and makes it difficult to interpret clustering results. In
+this paper, we propose convex clustering through majorization-minimization
+(CCMM) -- an iterative algorithm that uses cluster fusions and sparsity to
+enforce a complete cluster hierarchy with reduced memory usage. In the CCMM
+algorithm, the diagonal majorization technique makes a highly efficient update
+for each iteration. With a current desktop computer, the CCMM algorithm can
+solve a single clustering problem featuring over one million objects in
+seven-dimensional space within 70 seconds.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Touw_D/0/1/0/all/0/1&quot;&gt;Daniel J. W. Touw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Groenen_P/0/1/0/all/0/1&quot;&gt;Patrick J. F. Groenen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Terada_Y/0/1/0/all/0/1&quot;&gt;Yoshikazu Terada&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01903">
+<title>A Consistent Estimator for Confounding Strength. (arXiv:2211.01903v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01903</link>
+<description rdf:parseType="Literal">&lt;p&gt;Regression on observational data can fail to capture a causal relationship in
+the presence of unobserved confounding. Confounding strength measures this
+mismatch, but estimating it requires itself additional assumptions. A common
+assumption is the independence of causal mechanisms, which relies on
+concentration phenomena in high dimensions. While high dimensions enable the
+estimation of confounding strength, they also necessitate adapted estimators.
+In this paper, we derive the asymptotic behavior of the confounding strength
+estimator by Janzing and Sch\&quot;olkopf (2018) and show that it is generally not
+consistent. We then use tools from random matrix theory to derive an adapted,
+consistent estimator.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Rendsburg_L/0/1/0/all/0/1&quot;&gt;Luca Rendsburg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Vankadara_L/0/1/0/all/0/1&quot;&gt;Leena Chennuru Vankadara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Ghoshdastidar_D/0/1/0/all/0/1&quot;&gt;Debarghya Ghoshdastidar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Luxburg_U/0/1/0/all/0/1&quot;&gt;Ulrike von Luxburg&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01962">
+<title>A Posterior Sampling Framework for Interactive Decision Making. (arXiv:2211.01962v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01962</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study sample efficient reinforcement learning (RL) under the general
+framework of interactive decision making, which includes Markov decision
+process (MDP), partially observable Markov decision process (POMDP), and
+predictive state representation (PSR) as special cases. Toward finding the
+minimum assumption that empowers sample efficient learning, we propose a novel
+complexity measure, generalized eluder coefficient (GEC), which characterizes
+the fundamental tradeoff between exploration and exploitation in online
+interactive decision making. In specific, GEC captures the hardness of
+exploration by comparing the error of predicting the performance of the updated
+policy with the in-sample training error evaluated on the historical data. We
+show that RL problems with low GEC form a remarkably rich class, which subsumes
+low Bellman eluder dimension problems, bilinear class, low witness rank
+problems, PO-bilinear class, and generalized regular PSR, where generalized
+regular PSR, a new tractable PSR class identified by us, includes nearly all
+known tractable POMDPs. Furthermore, in terms of algorithm design, we propose a
+generic posterior sampling algorithm, which can be implemented in both
+model-free and model-based fashion, under both fully observable and partially
+observable settings. The proposed algorithm modifies the standard posterior
+sampling algorithm in two aspects: (i) we use an optimistic prior distribution
+that biases towards hypotheses with higher values and (ii) a loglikelihood
+function is set to be the empirical loss evaluated on the historical data,
+where the choice of loss function supports both model-free and model-based
+learning. We prove that the proposed algorithm is sample efficient by
+establishing a sublinear regret upper bound in terms of GEC. In summary, we
+provide a new and unified understanding of both fully observable and partially
+observable RL.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhong_H/0/1/0/all/0/1&quot;&gt;Han Zhong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiong_W/0/1/0/all/0/1&quot;&gt;Wei Xiong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_S/0/1/0/all/0/1&quot;&gt;Sirui Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_L/0/1/0/all/0/1&quot;&gt;Liwei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhaoran Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_Z/0/1/0/all/0/1&quot;&gt;Zhuoran Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_T/0/1/0/all/0/1&quot;&gt;Tong Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01972">
+<title>The role of prior information and computational power in Machine Learning. (arXiv:2211.01972v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01972</link>
+<description rdf:parseType="Literal">&lt;p&gt;Science consists on conceiving hypotheses, confronting them with empirical
+evidence, and keeping only hypotheses which have not yet been falsified. Under
+deductive reasoning they are conceived in view of a theory and confronted with
+empirical evidence in an attempt to falsify it, and under inductive reasoning
+they are conceived based on observation, confronted with empirical evidence and
+a theory is established based on the not falsified hypotheses. When the
+hypotheses testing can be performed with quantitative data, the confrontation
+can be achieved with Machine Learning methods, whose quality is highly
+dependent on the hypotheses&apos; complexity, hence on the proper insertion of prior
+information into the set of hypotheses seeking to decrease its complexity
+without loosing good hypotheses. However, Machine Learning tools have been
+applied under the pragmatic view of instrumentalism, which is concerned only
+with the performance of the methods and not with the understanding of their
+behavior, leading to methods which are not fully understood. In this context,
+we discuss how prior information and computational power can be employed to
+solve a learning problem, but while prior information and a careful design of
+the hypotheses space has as advantage the interpretability of the results,
+employing high computational power has the advantage of a higher performance.
+We discuss why learning methods which combine both should work better from an
+understanding and performance perspective, arguing in favor of basic
+theoretical research on Machine Learning, in special about how properties of
+classifiers may be identified in parameters of modern learning models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Marcondes_D/0/1/0/all/0/1&quot;&gt;Diego Marcondes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Simonis_A/0/1/0/all/0/1&quot;&gt;Adilson Simonis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Barrera_J/0/1/0/all/0/1&quot;&gt;Junior Barrera&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02003">
+<title>Single SMPC Invocation DPHelmet: Differentially Private Distributed Learning on a Large Scale. (arXiv:2211.02003v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.02003</link>
+<description rdf:parseType="Literal">&lt;p&gt;Distributing machine learning predictors enables the collection of
+large-scale datasets while leaving sensitive raw data at trustworthy sites. We
+show that locally training support vector machines (SVMs) and computing their
+averages leads to a learning technique that is scalable to a large number of
+users, satisfies differential privacy, and is applicable to non-trivial tasks,
+such as CIFAR-10. For a large number of participants, communication cost is one
+of the main challenges. We achieve a low communication cost by requiring only a
+single invocation of an efficient secure multiparty summation protocol. By
+relying on state-of-the-art feature extractors (SimCLR), we are able to utilize
+differentially private convex learners for non-trivial tasks such as CIFAR-10.
+Our experimental results illustrate that for $1{,}000$ users with $50$ data
+points each, our scheme outperforms state-of-the-art scalable distributed
+learning methods (differentially private federated learning, short DP-FL) while
+requiring around $500$ times fewer communication costs: For CIFAR-10, we
+achieve a classification accuracy of $79.7\,\%$ for an $\varepsilon = 0.59$
+while DP-FL achieves $57.6\,\%$. More generally, we prove learnability
+properties for the average of such locally trained models: convergence and
+uniform stability. By only requiring strongly convex, smooth, and
+Lipschitz-continuous objective functions, locally trained via stochastic
+gradient descent (SGD), we achieve a strong utility-privacy tradeoff.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kirschte_M/0/1/0/all/0/1&quot;&gt;Moritz Kirschte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meiser_S/0/1/0/all/0/1&quot;&gt;Sebastian Meiser&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ardalan_S/0/1/0/all/0/1&quot;&gt;Saman Ardalan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mohammadi_E/0/1/0/all/0/1&quot;&gt;Esfandiar Mohammadi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02039">
+<title>The Projected Covariance Measure for assumption-lean variable significance testing. (arXiv:2211.02039v1 [math.ST])</title>
+<link>http://arxiv.org/abs/2211.02039</link>
+<description rdf:parseType="Literal">&lt;p&gt;Testing the significance of a variable or group of variables $X$ for
+predicting a response $Y$, given additional covariates $Z$, is a ubiquitous
+task in statistics. A simple but common approach is to specify a linear model,
+and then test whether the regression coefficient for $X$ is non-zero. However,
+when the model is misspecified, the test may have poor power, for example when
+$X$ is involved in complex interactions, or lead to many false rejections. In
+this work we study the problem of testing the model-free null of conditional
+mean independence, i.e. that the conditional mean of $Y$ given $X$ and $Z$ does
+not depend on $X$. We propose a simple and general framework that can leverage
+flexible nonparametric or machine learning methods, such as additive models or
+random forests, to yield both robust error control and high power. The
+procedure involves using these methods to perform regressions, first to
+estimate a form of projection of $Y$ on $X$ and $Z$ using one half of the data,
+and then to estimate the expected conditional covariance between this
+projection and $Y$ on the remaining half of the data. While the approach is
+general, we show that a version of our procedure using spline regression
+achieves what we show is the minimax optimal rate in this nonparametric testing
+problem. Numerical experiments demonstrate the effectiveness of our approach
+both in terms of maintaining Type I error control, and power, compared to
+several existing approaches.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lundborg_A/0/1/0/all/0/1&quot;&gt;Anton Rask Lundborg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kim_I/0/1/0/all/0/1&quot;&gt;Ilmun Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Shah_R/0/1/0/all/0/1&quot;&gt;Rajen D. Shah&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Samworth_R/0/1/0/all/0/1&quot;&gt;Richard J. Samworth&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02045">
+<title>Fast and robust Bayesian Inference using Gaussian Processes with GPry. (arXiv:2211.02045v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.02045</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the GPry algorithm for fast Bayesian inference of general
+(non-Gaussian) posteriors with a moderate number of parameters. GPry does not
+need any pre-training, special hardware such as GPUs, and is intended as a
+drop-in replacement for traditional Monte Carlo methods for Bayesian inference.
+Our algorithm is based on generating a Gaussian Process surrogate model of the
+log-posterior, aided by a Support Vector Machine classifier that excludes
+extreme or non-finite values. An active learning scheme allows us to reduce the
+number of required posterior evaluations by two orders of magnitude compared to
+traditional Monte Carlo inference. Our algorithm allows for parallel
+evaluations of the posterior at optimal locations, further reducing wall-clock
+times. We significantly improve performance using properties of the posterior
+in our active learning scheme and for the definition of the GP prior. In
+particular we account for the expected dynamical range of the posterior in
+different dimensionalities. We test our model against a number of synthetic and
+cosmological examples. GPry outperforms traditional Monte Carlo methods when
+the evaluation time of the likelihood (or the calculation of theoretical
+observables) is of the order of seconds; for evaluation times of over a minute
+it can perform inference in days that would take months using traditional
+methods. GPry is distributed as an open source Python package (pip install
+gpry) and can also be found at https://github.com/jonaselgammal/GPry.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gammal_J/0/1/0/all/0/1&quot;&gt;Jonas El Gammal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Schoneberg_N/0/1/0/all/0/1&quot;&gt;Nils Sch&amp;#xf6;neberg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Torrado_J/0/1/0/all/0/1&quot;&gt;Jes&amp;#xfa;s Torrado&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Fidler_C/0/1/0/all/0/1&quot;&gt;Christian Fidler&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2002.01711">
+<title>Dynamic Causal Effects Evaluation in A/B Testing with a Reinforcement Learning Framework. (arXiv:2002.01711v6 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2002.01711</link>
+<description rdf:parseType="Literal">&lt;p&gt;A/B testing, or online experiment is a standard business strategy to compare
+a new product with an old one in pharmaceutical, technological, and traditional
+industries. Major challenges arise in online experiments of two-sided
+marketplace platforms (e.g., Uber) where there is only one unit that receives a
+sequence of treatments over time. In those experiments, the treatment at a
+given time impacts current outcome as well as future outcomes. The aim of this
+paper is to introduce a reinforcement learning framework for carrying A/B
+testing in these experiments, while characterizing the long-term treatment
+effects. Our proposed testing procedure allows for sequential monitoring and
+online updating. It is generally applicable to a variety of treatment designs
+in different industries. In addition, we systematically investigate the
+theoretical properties (e.g., size and power) of our testing procedure.
+Finally, we apply our framework to both simulated data and a real-world data
+example obtained from a technological company to illustrate its advantage over
+the current practice. A Python implementation of our test is available at
+https://github.com/callmespring/CausalRL.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shi_C/0/1/0/all/0/1&quot;&gt;Chengchun Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xiaoyu Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luo_S/0/1/0/all/0/1&quot;&gt;Shikai Luo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhu_H/0/1/0/all/0/1&quot;&gt;Hongtu Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ye_J/0/1/0/all/0/1&quot;&gt;Jieping Ye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_R/0/1/0/all/0/1&quot;&gt;Rui Song&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.07545">
+<title>Interpretable Personalization via Policy Learning with Linear Decision Boundaries. (arXiv:2003.07545v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.07545</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the rise of the digital economy and an explosion of available
+information about consumers, effective personalization of goods and services
+has become a core business focus for companies to improve revenues and maintain
+a competitive edge. This paper studies the personalization problem through the
+lens of policy learning, where the goal is to learn a decision-making rule (a
+policy) that maps from consumer and product characteristics (features) to
+recommendations (actions) in order to optimize outcomes (rewards). We focus on
+using available historical data for offline learning with unknown data
+collection procedures, where a key challenge is the non-random assignment of
+recommendations. Moreover, in many business and medical applications,
+interpretability of a policy is essential. We study the class of policies with
+linear decision boundaries to ensure interpretability, and propose learning
+algorithms using tools from causal inference to address unbalanced treatments.
+We study several optimization schemes to solve the associated non-convex,
+non-smooth optimization problem, and find that a Bayesian optimization
+algorithm is effective. We test our algorithm with extensive simulation studies
+and apply it to an anonymized online marketplace customer purchase dataset,
+where the learned policy outputs a personalized discount recommendation based
+on customer and product features in order to maximize gross merchandise value
+(GMV) for sellers. Our learned policy improves upon the platform&apos;s baseline by
+88.2\% in net sales revenue, while also providing informative insights on which
+features are important for the decision-making process. Our findings suggest
+that our proposed policy learning framework using tools from causal inference
+and Bayesian optimization provides a promising practical approach to
+interpretable personalization across a wide range of applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qu_Z/0/1/0/all/0/1&quot;&gt;Zhaonan Qu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qian_I/0/1/0/all/0/1&quot;&gt;Isabella Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhengyuan Zhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2007.11831">
+<title>DBS: Dynamic Batch Size For Distributed Deep Neural Network Training. (arXiv:2007.11831v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2007.11831</link>
+<description rdf:parseType="Literal">&lt;p&gt;Synchronous strategies with data parallelism, such as the Synchronous
+StochasticGradient Descent (S-SGD) and the model averaging methods, are widely
+utilizedin distributed training of Deep Neural Networks (DNNs), largely owing
+to itseasy implementation yet promising performance. Particularly, each worker
+ofthe cluster hosts a copy of the DNN and an evenly divided share of the
+datasetwith the fixed mini-batch size, to keep the training of DNNs
+convergence. In thestrategies, the workers with different computational
+capability, need to wait foreach other because of the synchronization and
+delays in network transmission,which will inevitably result in the
+high-performance workers wasting computation.Consequently, the utilization of
+the cluster is relatively low. To alleviate thisissue, we propose the Dynamic
+Batch Size (DBS) strategy for the distributedtraining of DNNs. Specifically,
+the performance of each worker is evaluatedfirst based on the fact in the
+previous epoch, and then the batch size and datasetpartition are dynamically
+adjusted in consideration of the current performanceof the worker, thereby
+improving the utilization of the cluster. To verify theeffectiveness of the
+proposed strategy, extensive experiments have been conducted,and the
+experimental results indicate that the proposed strategy can fully utilizethe
+performance of the cluster, reduce the training time, and have good
+robustnesswith disturbance by irrelevant tasks. Furthermore, rigorous
+theoretical analysis hasalso been provided to prove the convergence of the
+proposed strategy.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ye_Q/0/1/0/all/0/1&quot;&gt;Qing Ye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Y/0/1/0/all/0/1&quot;&gt;Yuhao Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shi_M/0/1/0/all/0/1&quot;&gt;Mingjia Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_Y/0/1/0/all/0/1&quot;&gt;Yanan Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lv_J/0/1/0/all/0/1&quot;&gt;Jiancheng Lv&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2008.08844">
+<title>Complete the Missing Half: Augmenting Aggregation Filtering with Diversification for Graph Convolutional Networks. (arXiv:2008.08844v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2008.08844</link>
+<description rdf:parseType="Literal">&lt;p&gt;The core operation of current Graph Neural Networks (GNNs) is the aggregation
+enabled by the graph Laplacian or message passing, which filters the
+neighborhood node information. Though effective for various tasks, in this
+paper, we show that they are potentially a problematic factor underlying all
+GNN methods for learning on certain datasets, as they force the node
+representations similar, making the nodes gradually lose their identity and
+become indistinguishable. Hence, we augment the aggregation operations with
+their dual, i.e. diversification operators that make the node more distinct and
+preserve the identity. Such augmentation replaces the aggregation with a
+two-channel filtering process that, in theory, is beneficial for enriching the
+node representations. In practice, the proposed two-channel filters can be
+easily patched on existing GNN methods with diverse training strategies,
+including spectral and spatial (message passing) methods. In the experiments,
+we observe desired characteristics of the models and significant performance
+boost upon the baselines on 9 node classification tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luan_S/0/1/0/all/0/1&quot;&gt;Sitao Luan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhao_M/0/1/0/all/0/1&quot;&gt;Mingde Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hua_C/0/1/0/all/0/1&quot;&gt;Chenqing Hua&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chang_X/0/1/0/all/0/1&quot;&gt;Xiao-Wen Chang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Precup_D/0/1/0/all/0/1&quot;&gt;Doina Precup&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2010.14860">
+<title>The Evidence Lower Bound of Variational Autoencoders Converges to a Sum of Three Entropies. (arXiv:2010.14860v4 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2010.14860</link>
+<description rdf:parseType="Literal">&lt;p&gt;The central objective function of a variational autoencoder (VAE) is its
+variational lower bound (the ELBO). Here we show that for standard (i.e.,
+Gaussian) VAEs the ELBO converges to a value given by the sum of three
+entropies: the (negative) entropy of the prior distribution, the expected
+(negative) entropy of the observable distribution, and the average entropy of
+the variational distributions (the latter is already part of the ELBO). Our
+derived analytical results are exact and apply for small as well as for
+intricate deep networks for encoder and decoder. Furthermore, they apply for
+finitely and infinitely many data points and at any stationary point (including
+local maxima and saddle points). The result implies that the ELBO can for
+standard VAEs often be computed in closed-form at stationary points while the
+original ELBO requires numerical approximations of integrals. As a main
+contribution, we provide the proof that the ELBO for VAEs is at stationary
+points equal to entropy sums. Numerical experiments then show that the obtained
+analytical results are sufficiently precise also in those vicinities of
+stationary points that are reached in practice. Furthermore, we discuss how the
+novel entropy form of the ELBO can be used to analyze and understand learning
+behavior. More generally, we believe that our contributions can be useful for
+future theoretical and practical studies on VAE learning as they provide novel
+information on those points in parameters space that optimization of VAEs
+converges to.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Damm_S/0/1/0/all/0/1&quot;&gt;Simon Damm&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Forster_D/0/1/0/all/0/1&quot;&gt;Dennis Forster&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Velychko_D/0/1/0/all/0/1&quot;&gt;Dmytro Velychko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Dai_Z/0/1/0/all/0/1&quot;&gt;Zhenwen Dai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Fischer_A/0/1/0/all/0/1&quot;&gt;Asja Fischer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Lucke_J/0/1/0/all/0/1&quot;&gt;J&amp;#xf6;rg L&amp;#xfc;cke&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2011.04102">
+<title>Reliable Off-policy Evaluation for Reinforcement Learning. (arXiv:2011.04102v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2011.04102</link>
+<description rdf:parseType="Literal">&lt;p&gt;In a sequential decision-making problem, off-policy evaluation estimates the
+expected cumulative reward of a target policy using logged trajectory data
+generated from a different behavior policy, without execution of the target
+policy. Reinforcement learning in high-stake environments, such as healthcare
+and education, is often limited to off-policy settings due to safety or ethical
+concerns, or inability of exploration. Hence it is imperative to quantify the
+uncertainty of the off-policy estimate before deployment of the target policy.
+In this paper, we propose a novel framework that provides robust and optimistic
+cumulative reward estimates using one or multiple logged trajectories data.
+Leveraging methodologies from distributionally robust optimization, we show
+that with proper selection of the size of the distributional uncertainty set,
+these estimates serve as confidence bounds with non-asymptotic and asymptotic
+guarantees under stochastic or adversarial environments. Our results are also
+generalized to batch reinforcement learning and are supported by empirical
+analysis.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jie Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_R/0/1/0/all/0/1&quot;&gt;Rui Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zha_H/0/1/0/all/0/1&quot;&gt;Hongyuan Zha&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2011.07435">
+<title>Functorial Manifold Learning. (arXiv:2011.07435v6 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2011.07435</link>
+<description rdf:parseType="Literal">&lt;p&gt;We adapt previous research on category theory and topological unsupervised
+learning to develop a functorial perspective on manifold learning, also known
+as nonlinear dimensionality reduction. We first characterize manifold learning
+algorithms as functors that map pseudometric spaces to optimization objectives
+and that factor through hierarchical clustering functors. We then use this
+characterization to prove refinement bounds on manifold learning loss functions
+and construct a hierarchy of manifold learning algorithms based on their
+equivariants. We express several popular manifold learning algorithms as
+functors at different levels of this hierarchy, including Metric
+Multidimensional Scaling, IsoMap, and UMAP. Next, we use interleaving distance
+to study the stability of a broad class of manifold learning algorithms. We
+present bounds on how closely the embeddings these algorithms produce from
+noisy data approximate the embeddings they would learn from noiseless data.
+Finally, we use our framework to derive a set of novel manifold learning
+algorithms, which we experimentally demonstrate are competitive with the state
+of the art.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shiebler_D/0/1/0/all/0/1&quot;&gt;Dan Shiebler&lt;/a&gt; (University of Oxford)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2105.08013">
+<title>What makes you unique?. (arXiv:2105.08013v3 [stat.AP] UPDATED)</title>
+<link>http://arxiv.org/abs/2105.08013</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper proposes a uniqueness Shapley measure to compare the extent to
+which different variables are able to identify a subject. Revealing the value
+of a variable on subject $t$ shrinks the set of possible subjects that $t$
+could be. The extent of the shrinkage depends on which other variables have
+also been revealed. We use Shapley value to combine all of the reductions in
+log cardinality due to revealing a variable after some subset of the other
+variables has been revealed. This uniqueness Shapley measure can be aggregated
+over subjects where it becomes a weighted sum of conditional entropies.
+Aggregation over subsets of subjects can address questions like how identifying
+is age for people of a given zip code. Such aggregates have a corresponding
+expression in terms of cross entropies. We use uniqueness Shapley to
+investigate the differential effects of revealing variables from the North
+Carolina voter registration rolls and in identifying anomalous solar flares. An
+enormous speedup (approaching 2000 fold in one example) is obtained by using
+the all dimension trees of Moore and Lee (1998) to store the cardinalities we
+need.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Seiler_B/0/1/0/all/0/1&quot;&gt;Benjamin B. Seiler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Mase_M/0/1/0/all/0/1&quot;&gt;Masayoshi Mase&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Owen_A/0/1/0/all/0/1&quot;&gt;Art B. Owen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2108.12515">
+<title>Convergence Rates for Learning Linear Operators from Noisy Data. (arXiv:2108.12515v3 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2108.12515</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper studies the learning of linear operators between
+infinite-dimensional Hilbert spaces. The training data comprises pairs of
+random input vectors in a Hilbert space and their noisy images under an unknown
+self-adjoint linear operator. Assuming that the operator is diagonalizable in a
+known basis, this work solves the equivalent inverse problem of estimating the
+operator&apos;s eigenvalues given the data. Adopting a Bayesian approach, the
+theoretical analysis establishes posterior contraction rates in the infinite
+data limit with Gaussian priors that are not directly linked to the forward map
+of the inverse problem. The main results also include learning-theoretic
+generalization error guarantees for a wide range of distribution shifts. These
+convergence rates quantify the effects of data smoothness and true eigenvalue
+decay or growth, for compact or unbounded operators, respectively, on sample
+complexity. Numerical evidence supports the theory in diagonal and non-diagonal
+settings.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hoop_M/0/1/0/all/0/1&quot;&gt;Maarten V. de Hoop&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kovachki_N/0/1/0/all/0/1&quot;&gt;Nikola B. Kovachki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Nelsen_N/0/1/0/all/0/1&quot;&gt;Nicholas H. Nelsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Stuart_A/0/1/0/all/0/1&quot;&gt;Andrew M. Stuart&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2111.13164">
+<title>Neural network stochastic differential equation models with applications to financial data forecasting. (arXiv:2111.13164v6 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2111.13164</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this article, we employ a collection of stochastic differential equations
+with drift and diffusion coefficients approximated by neural networks to
+predict the trend of chaotic time series which has big jump properties. Our
+contributions are, first, we propose a model called L\&apos;evy induced stochastic
+differential equation network, which explores compounded stochastic
+differential equations with $\alpha$-stable L\&apos;evy motion to model complex time
+series data and solve the problem through neural network approximation. Second,
+we theoretically prove that the numerical solution through our algorithm
+converges in probability to the solution of corresponding stochastic
+differential equation, without curse of dimensionality. Finally, we illustrate
+our method by applying it to real financial time series data and find the
+accuracy increases through the use of non-Gaussian L\&apos;evy processes. We also
+present detailed comparisons in terms of data patterns, various models,
+different shapes of L\&apos;evy motion and the prediction lengths.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_L/0/1/0/all/0/1&quot;&gt;Luxuan Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_T/0/1/0/all/0/1&quot;&gt;Ting Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_Y/0/1/0/all/0/1&quot;&gt;Yubin Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Duan_J/0/1/0/all/0/1&quot;&gt;Jinqiao Duan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_T/0/1/0/all/0/1&quot;&gt;Tao Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.00292">
+<title>Fair Data Representation for Machine Learning at the Pareto Frontier. (arXiv:2201.00292v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.00292</link>
+<description rdf:parseType="Literal">&lt;p&gt;As machine learning powered decision making is playing an increasingly
+important role in our daily lives, it is imperative to strive for fairness of
+the underlying data processing and algorithms. We propose a pre-processing
+algorithm for fair data representation via which L2- objective supervised
+learning algorithms result in an estimation of the Pareto frontier between
+prediction error and statistical disparity. In particular, the present work
+applies the optimal positive definite affine transport maps to approach the
+post-processing Wasserstein barycenter characterization of the optimal fair
+L2-objective supervised learning via a pre-processing data deformation. We call
+the resulting data Wasserstein pseudo-barycenter. Furthermore, we show that the
+Wasserstein geodesics from the learning outcome marginals to the barycenter
+characterizes the Pareto frontier between L2-loss and total Wasserstein
+distance among learning outcome marginals. Thereby, an application of McCann
+interpolation generalizes the pseudo-barycenter to a family of data
+representations via which L2-objective supervised learning algorithms result in
+the Pareto frontier. Numerical simulations underscore the advantages of the
+proposed data representation: (1) the pre-processing step is compositive with
+arbitrary L2-objective supervised learning methods and unseen data; (2) the
+fair representation protects data privacy by preventing the training machine
+from direct or indirect access to the sensitive information of the data; (3)
+the optimal affine map results in efficient computation of fair supervised
+learning on high-dimensional data; (4) experimental results shed light on the
+fairness of L2-objective unsupervised learning via the proposed fair data
+representation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;Shizhou Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Strohmer_T/0/1/0/all/0/1&quot;&gt;Thomas Strohmer&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.13255">
+<title>Active Labeling: Streaming Stochastic Gradients. (arXiv:2205.13255v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.13255</link>
+<description rdf:parseType="Literal">&lt;p&gt;The workhorse of machine learning is stochastic gradient descent. To access
+stochastic gradients, it is common to consider iteratively input/output pairs
+of a training dataset. Interestingly, it appears that one does not need full
+supervision to access stochastic gradients, which is the main motivation of
+this paper. After formalizing the &quot;active labeling&quot; problem, which focuses on
+active learning with partial supervision, we provide a streaming technique that
+provably minimizes the ratio of generalization error over the number of
+samples. We illustrate our technique in depth for robust regression.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cabannes_V/0/1/0/all/0/1&quot;&gt;Vivien Cabannes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bach_F/0/1/0/all/0/1&quot;&gt;Francis Bach&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perchet_V/0/1/0/all/0/1&quot;&gt;Vianney Perchet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rudi_A/0/1/0/all/0/1&quot;&gt;Alessandro Rudi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.15856">
+<title>coVariance Neural Networks. (arXiv:2205.15856v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.15856</link>
+<description rdf:parseType="Literal">&lt;p&gt;Graph neural networks (GNN) are an effective framework that exploit
+inter-relationships within graph-structured data for learning. Principal
+component analysis (PCA) involves the projection of data on the eigenspace of
+the covariance matrix and draws similarities with the graph convolutional
+filters in GNNs. Motivated by this observation, we study a GNN architecture,
+called coVariance neural network (VNN), that operates on sample covariance
+matrices as graphs. We theoretically establish the stability of VNNs to
+perturbations in the covariance matrix, thus, implying an advantage over
+standard PCA-based data analysis approaches that are prone to instability due
+to principal components associated with close eigenvalues. Our experiments on
+real-world datasets validate our theoretical results and show that VNN
+performance is indeed more stable than PCA-based statistical approaches.
+Moreover, our experiments on multi-resolution datasets also demonstrate that
+VNNs are amenable to transferability of performance over covariance matrices of
+different dimensions; a feature that is infeasible for PCA-based approaches.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sihag_S/0/1/0/all/0/1&quot;&gt;Saurabh Sihag&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mateos_G/0/1/0/all/0/1&quot;&gt;Gonzalo Mateos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+McMillan_C/0/1/0/all/0/1&quot;&gt;Corey McMillan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ribeiro_A/0/1/0/all/0/1&quot;&gt;Alejandro Ribeiro&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.09340">
+<title>A coherence parameter characterizing generative compressed sensing with Fourier measurements. (arXiv:2207.09340v4 [cs.IT] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.09340</link>
+<description rdf:parseType="Literal">&lt;p&gt;In Bora et al. (2017), a mathematical framework was developed for compressed
+sensing guarantees in the setting where the measurement matrix is Gaussian and
+the signal structure is the range of a generative neural network (GNN). The
+problem of compressed sensing with GNNs has since been extensively analyzed
+when the measurement matrix and/or network weights follow a subgaussian
+distribution. We move beyond the subgaussian assumption, to measurement
+matrices that are derived by sampling uniformly at random rows of a unitary
+matrix (including subsampled Fourier measurements as a special case).
+Specifically, we prove the first known restricted isometry guarantee for
+generative compressed sensing with subsampled isometries, and provide recovery
+bounds with nearly order-optimal sample complexity, addressing an open problem
+of Scarlett et al. (2022, p. 10). Recovery efficacy is characterized by the
+coherence, a new parameter, which measures the interplay between the range of
+the network and the measurement matrix. Our approach relies on subspace
+counting arguments and ideas central to high-dimensional probability.
+Furthermore, we propose a regularization strategy for training GNNs to have
+favourable coherence with the measurement operator. We provide compelling
+numerical simulations that support this regularized training strategy: our
+strategy yields low coherence networks that require fewer measurements for
+signal recovery. This, together with our theoretical results, supports
+coherence as a natural quantity for characterizing generative compressed
+sensing with subsampled isometries.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Berk_A/0/1/0/all/0/1&quot;&gt;Aaron Berk&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brugiapaglia_S/0/1/0/all/0/1&quot;&gt;Simone Brugiapaglia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Joshi_B/0/1/0/all/0/1&quot;&gt;Babhru Joshi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Plan_Y/0/1/0/all/0/1&quot;&gt;Yaniv Plan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scott_M/0/1/0/all/0/1&quot;&gt;Matthew Scott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yilmaz_O/0/1/0/all/0/1&quot;&gt;&amp;#xd6;zg&amp;#xfc;r Yilmaz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07330">
+<title>Semiparametric Best Arm Identification with Contextual Information. (arXiv:2209.07330v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07330</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study best-arm identification with a fixed budget and contextual
+(covariate) information in stochastic multi-armed bandit problems. In each
+round, after observing contextual information, we choose a treatment arm using
+past observations and current context. Our goal is to identify the best
+treatment arm, a treatment arm with the maximal expected reward marginalized
+over the contextual distribution, with a minimal probability of
+misidentification. First, we derive semiparametric lower bounds of the
+misidentification probability for this problem, where we regard the gaps
+between the expected rewards of the best and suboptimal treatment arms as
+parameters of interest, and all other parameters, such as the expected rewards
+conditioned on contexts, as the nuisance parameters. We then develop the
+``Contextual RS-AIPW strategy,&apos;&apos; which consists of the random sampling (RS)
+rule tracking a target allocation ratio and the recommendation rule using the
+augmented inverse probability weighting (AIPW) estimator. Our proposed
+Contextual RS-AIPW strategy is optimal because the upper bound for the
+probability of misidentification by the strategy matches the semiparametric
+lower bound, when the budget goes to infinity and the gaps converge to zero.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kato_M/0/1/0/all/0/1&quot;&gt;Masahiro Kato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Imaizumi_M/0/1/0/all/0/1&quot;&gt;Masaaki Imaizumi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ishihara_T/0/1/0/all/0/1&quot;&gt;Takuya Ishihara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07370">
+<title>A Geometric Perspective on Variational Autoencoders. (arXiv:2209.07370v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07370</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper introduces a new interpretation of the Variational Autoencoder
+framework by taking a fully geometric point of view. We argue that vanilla VAE
+models unveil naturally a Riemannian structure in their latent space and that
+taking into consideration those geometrical aspects can lead to better
+interpolations and an improved generation procedure. This new proposed sampling
+method consists in sampling from the uniform distribution deriving
+intrinsically from the learned Riemannian latent space and we show that using
+this scheme can make a vanilla VAE competitive and even better than more
+advanced versions on several benchmark datasets. Since generative models are
+known to be sensitive to the number of training samples we also stress the
+method&apos;s robustness in the low data regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chadebec_C/0/1/0/all/0/1&quot;&gt;Cl&amp;#xe9;ment Chadebec&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Allassonniere_S/0/1/0/all/0/1&quot;&gt;St&amp;#xe9;phanie Allassonni&amp;#xe8;re&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.08860">
+<title>A Survey of Deep Causal Models. (arXiv:2209.08860v3 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.08860</link>
+<description rdf:parseType="Literal">&lt;p&gt;The concept of causality plays a significant role in human cognition. In the
+past few decades, causal inference has been well developed in many fields, such
+as computer science, medicine, economics, and other industrial applications.
+With the advancement of deep learning, it has been increasingly applied in
+causal inference against counterfactual data. Typically, deep causal models map
+the characteristics of covariates to a representation space and then design
+various objective functions to estimate counterfactual data unbiasedly.
+Different from the existing surveys on causal models in machine learning, this
+paper mainly focuses on the overview of the deep causal models, and its core
+contributions are as follows: 1) we summarize the popularly adopted relevant
+metrics under multiple treatments and continuous-dose treatment; 2) we cast
+insight on a comprehensive overview of deep causal models from both timeline of
+development and method classification perspectives; 3) we also endeavor to
+present a detailed categorization and analysis on relevant datasets, source
+codes and experiments.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zongyu Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhu_Z/0/1/0/all/0/1&quot;&gt;Zhenfeng Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guo_Z/0/1/0/all/0/1&quot;&gt;Zhenyu Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zheng_S/0/1/0/all/0/1&quot;&gt;Shuai Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zhao_Y/0/1/0/all/0/1&quot;&gt;Yao Zhao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.12054">
+<title>From Local to Global: Spectral-Inspired Graph Neural Networks. (arXiv:2209.12054v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.12054</link>
+<description rdf:parseType="Literal">&lt;p&gt;Graph Neural Networks (GNNs) are powerful deep learning methods for
+Non-Euclidean data. Popular GNNs are message-passing algorithms (MPNNs) that
+aggregate and combine signals in a local graph neighborhood. However, shallow
+MPNNs tend to miss long-range signals and perform poorly on some heterophilous
+graphs, while deep MPNNs can suffer from issues like over-smoothing or
+over-squashing. To mitigate such issues, existing works typically borrow
+normalization techniques from training neural networks on Euclidean data or
+modify the graph structures. Yet these approaches are not well-understood
+theoretically and could increase the overall computational complexity. In this
+work, we draw inspirations from spectral graph embedding and propose
+$\texttt{PowerEmbed}$ -- a simple layer-wise normalization technique to boost
+MPNNs. We show $\texttt{PowerEmbed}$ can provably express the top-$k$ leading
+eigenvectors of the graph operator, which prevents over-smoothing and is
+agnostic to the graph topology; meanwhile, it produces a list of
+representations ranging from local features to global signals, which avoids
+over-squashing. We apply $\texttt{PowerEmbed}$ in a wide range of simulated and
+real graphs and demonstrate its competitive performance, particularly for
+heterophilous graphs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Huang_N/0/1/0/all/0/1&quot;&gt;Ningyuan Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Villar_S/0/1/0/all/0/1&quot;&gt;Soledad Villar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Priebe_C/0/1/0/all/0/1&quot;&gt;Carey E. Priebe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Zheng_D/0/1/0/all/0/1&quot;&gt;Da Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Huang_C/0/1/0/all/0/1&quot;&gt;Chengyue Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Yang_L/0/1/0/all/0/1&quot;&gt;Lin Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Braverman_V/0/1/0/all/0/1&quot;&gt;Vladimir Braverman&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.00340">
+<title>Speed Up the Cold-Start Learning in Two-Sided Bandits with Many Arms. (arXiv:2210.00340v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.00340</link>
+<description rdf:parseType="Literal">&lt;p&gt;Multi-armed bandit (MAB) algorithms are efficient approaches to reduce the
+opportunity cost of online experimentation and are used by companies to find
+the best product from periodically refreshed product catalogs. However, these
+algorithms face the so-called cold-start at the onset of the experiment due to
+a lack of knowledge of customer preferences for new products, requiring an
+initial data collection phase known as the burn-in period. During this period,
+MAB algorithms operate like randomized experiments, incurring large burn-in
+costs which scale with the large number of products. We attempt to reduce the
+burn-in by identifying that many products can be cast into two-sided products,
+and then naturally model the rewards of the products with a matrix, whose rows
+and columns represent the two sides respectively. Next, we design two-phase
+bandit algorithms that first use subsampling and low-rank matrix estimation to
+obtain a substantially smaller targeted set of products and then apply a UCB
+procedure on the target products to find the best one. We theoretically show
+that the proposed algorithms lower costs and expedite the experiment in cases
+when there is limited experimentation time along with a large product set. Our
+analysis also reveals three regimes of long, short, and ultra-short horizon
+experiments, depending on dimensions of the matrix. Empirical evidence from
+both synthetic data and a real-world dataset on music streaming services
+validates this superior performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bayati_M/0/1/0/all/0/1&quot;&gt;Mohsen Bayati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cao_J/0/1/0/all/0/1&quot;&gt;Junyu Cao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_W/0/1/0/all/0/1&quot;&gt;Wanning Chen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.02631">
+<title>Data-driven Approaches to Surrogate Machine Learning Model Development. (arXiv:2210.02631v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.02631</link>
+<description rdf:parseType="Literal">&lt;p&gt;We demonstrate the adaption of three established methods to the field of
+surrogate machine learning model development. These methods are data
+augmentation, custom loss functions and transfer learning. Each of these
+methods have seen widespread use in the field of machine learning, however,
+here we apply them specifically to surrogate machine learning model
+development. The machine learning model that forms the basis behind this work
+was intended to surrogate a traditional engineering model used in the UK
+nuclear industry. Previous performance of this model has been hampered by poor
+performance due to limited training data. Here, we demonstrate that through a
+combination of additional techniques, model performance can be significantly
+improved. We show that each of the aforementioned techniques have utility in
+their own right and in combination with one another. However, we see them best
+applied as part of a transfer learning operation. Five pre-trained surrogate
+models produced prior to this research were further trained with an augmented
+dataset and with our custom loss function. Through the combination of all three
+techniques, we see an improvement of at least $38\%$ in performance across the
+five models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jones_H/0/1/0/all/0/1&quot;&gt;H. Rhys Jones&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mu_T/0/1/0/all/0/1&quot;&gt;Tingting Mu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Popescu_A/0/1/0/all/0/1&quot;&gt;Andrei C. Popescu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sulehman_Y/0/1/0/all/0/1&quot;&gt;Yusuf Sulehman&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.17177">
+<title>Variational Inference Aided Estimation of Time Varying Channels. (arXiv:2210.17177v2 [eess.SP] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.17177</link>
+<description rdf:parseType="Literal">&lt;p&gt;One way to improve the estimation of time varying channels is to incorporate
+knowledge of previous observations. In this context, Dynamical VAEs (DVAEs)
+build a promising deep learning (DL) framework which is well suited to learn
+the distribution of time series data. We introduce a new DVAE architecture,
+called k-MemoryMarkovVAE (k-MMVAE), whose sparsity can be controlled by an
+additional memory parameter. Following the approach in [1] we derive a k-MMVAE
+aided channel estimator which takes temporal correlations of successive
+observations into account. The results are evaluated on simulated channels by
+QuaDRiGa and show that the k-MMVAE aided channel estimator clearly outperforms
+other machine learning (ML) aided estimators which are either memoryless or
+naively extended to time varying channels without major adaptions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Bock_B/0/1/0/all/0/1&quot;&gt;Benedikt B&amp;#xf6;ck&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Baur_M/0/1/0/all/0/1&quot;&gt;Michael Baur&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Rizzello_V/0/1/0/all/0/1&quot;&gt;Valentina Rizzello&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Utschick_W/0/1/0/all/0/1&quot;&gt;Wolfgang Utschick&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
