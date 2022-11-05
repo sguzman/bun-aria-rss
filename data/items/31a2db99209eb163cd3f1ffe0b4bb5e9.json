@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-1477497617535178174",
+  "published": "2011-03-03T16:38:00.000-08:00",
+  "updated": "2011-03-13T22:13:33.862-07:00",
+  "title": "Perils of floating point arithmetic",
+  "summary": "A recent discussion on stackoverflow brought up the issue of results of floating point arithmetic being non-reproducibleA reader asked what one could do to guarantee that result of floating point computation is always the same, and Daniel Lichtblau, a veteran developer at the kernel group of WRI replied that \"it is impossible with current hardware and software\"One problem is that IEEE 754",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 190
+}
