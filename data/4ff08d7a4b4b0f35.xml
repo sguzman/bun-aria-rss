@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:podcast="https://podcastindex.org/namespace/1.0"  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<channel>
+		<atom:link href="https://technologyflows.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+		<title>Technology Flows : Salesforce Architecture Podcast</title>
+		<pubDate>Fri, 05 Jan 2018 11:56:53 +0000</pubDate>
+		<lastBuildDate>Wed, 02 Nov 2022 13:38:21 +0000</lastBuildDate>
+		<generator>Libsyn WebEngine 2.0</generator>
+		<link>http://technologyflows.com</link>
+		<language>en</language>
+		<copyright><![CDATA[Copyright © Matthew Morris 2015-2017]]></copyright>
+		<docs>http://technologyflows.com</docs>
+		<managingEditor>matt@technologyflows.com (matt@technologyflows.com)</managingEditor>
+		<itunes:summary><![CDATA[Hosted by consultant and Salesforce MVP, Matthew Morris.
+The Technology Flows podcast hears from Salesforce employees, partners, users and community advocates to get their opinions on how the future is being redistributed.]]></itunes:summary>
+		<image>
+			<url>https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png</url>
+			<title>Technology Flows : Salesforce Architecture Podcast</title>
+			<link><![CDATA[http://technologyflows.com]]></link>
+		</image>
+		<itunes:author>Technology Flows</itunes:author>
+		<itunes:keywords>Apex,Salesforce,aura,chatter,lightningexperience,markeringcloud,salescloud,salesforceadmin,salesforcedeveloper,salesforcelightning,servicecloud,soql,visualforce</itunes:keywords>
+		<itunes:category text="News">
+			<itunes:category text="Tech News"/>
+		</itunes:category>
+		<itunes:category text="Technology">
+			<itunes:category text="Software How-To"/>
+		</itunes:category>
+		<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:owner>
+			<itunes:name><![CDATA[Matthew Morris]]></itunes:name>
+			<itunes:email>matt@technologyflows.com</itunes:email>
+		</itunes:owner>
+		<description><![CDATA[Hosted by consultant and Salesforce MVP, Matthew Morris.
+The Technology Flows podcast hears from Salesforce employees, partners, users and community advocates to get their opinions on how the future is being redistributed.]]></description>
+		<itunes:subtitle><![CDATA[Salesforce technology and the people making it happen.]]></itunes:subtitle>
+		<itunes:type>episodic</itunes:type>
+		
+
+
+		<podcast:locked owner="matt@technologyflows.com">no</podcast:locked>
+		
+		<item>
+			<title>Peter Coffee talking AI, Machine Learning, Pattern Recognition, Predictive Analytics</title>
+			<pubDate>Fri, 05 Jan 2018 11:56:53 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[965ce7f8873e10a038f9247f644a8bee]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/peter-coffee-talking-ai-machine-learning-pattern-recognition-predictive-analytics]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>Peter Coffee (<a href="https://twitter.com/petercoffee" target= "_blank" rel="noopener">@PeterCoffee</a>) is a repeat guest on the TechnologyFlows podcast.  With a seemingly bottomless bag of statistics, quotes, anecdotes, and historical references to back up his opinions it always makes for a fascinating discussion.</p> <p>This conversation was recorded live in front of an audience at Dreamforce 2017 in San Francisco.  Peter's energy and enthusiasm were in full effect even as we were setting up the podcast recorder!</p> <p> </p> <p>I hope that you enjoy the show.  Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href= "https://twitter.com/matmorris" target="_blank" rel= "noopener">@matmorris</a></p> <p>Recorded in November 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></description>
+			<content:encoded><![CDATA[<p>Peter Coffee (<a href="https://twitter.com/petercoffee" target= "_blank" rel="noopener">@PeterCoffee</a>) is a repeat guest on the TechnologyFlows podcast.  With a seemingly bottomless bag of statistics, quotes, anecdotes, and historical references to back up his opinions it always makes for a fascinating discussion.</p> <p>This conversation was recorded live in front of an audience at Dreamforce 2017 in San Francisco.  Peter's energy and enthusiasm were in full effect even as we were setting up the podcast recorder!</p> <p> </p> <p>I hope that you enjoy the show.  Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href= "https://twitter.com/matmorris" target="_blank" rel= "noopener">@matmorris</a></p> <p>Recorded in November 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></content:encoded>
+			<enclosure length="19396380" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/AI-AlmostImplementedPeterCoffeeJanuary2018.mp3?dest-id=299323" />
+			<itunes:duration>26:56</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Peter Coffee () is a repeat guest on the TechnologyFlows podcast.  With a seemingly bottomless bag of statistics, quotes, anecdotes, and historical references to back up his opinions it always makes for a fascinating discussion. This...]]></itunes:subtitle>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title>Requirements evaluation &amp; solution fit with Doug Ayers</title>
+			<pubDate>Thu, 06 Jul 2017 09:40:19 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[991f0228328250bd20f5188eac509f0f]]></guid>
+			<link><![CDATA[https://traffic.libsyn.com/secure/technologyflows/RequirementsEvaluationDougAyersJune2017.mp3]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>In this episode I will be speaking with Doug Ayers (<a href= "https://twitter.com/DouglasCAyers" target="_blank" rel= "noopener">@DouglasCAyers</a>) about his approach to interpreting requirements and evaluating the options to architect a solution.</p> <p>As an experienced web application developer coming to the Salesforce platform more than 5 years ago, Doug already had extensive technical skills which he could to use to grasp Apex and Visualforce, but how did he adapt to working on a platform?  I asked Doug about his own experiences and the lessons which he now teaches to fellow developers.  We discuss the value of asking more questions to uncover the depths of requirements and how the significance of considering the way a  solution will be maintained over its lifetime is as important as how easily it can be created.</p> <p>Doug's a problem solver, as can be seen from his GitHub repository which hosts multiple utilities he has created to fill gaps in Salesforce functionality.  For example when Doug saw a question on Twitter asking how to migrate Salesforce notes & attachments data into the new Notes feature, he did some research and found that the feature wasn't available out of the box.  So he wrote it himself!  He did the same for migrating file attachments to Chatter files, he created an automation Bot for Chatter groups, enhanced Campaign member management, the list goes on.   You can read for yourself on Doug's blog at <a href="https://douglascayers.com" target="_blank" rel= "noopener">douglascayers.com</a>.</p> <p>You can find Doug on Twitter <a href= "https://twitter.com/DouglasCAyers" target="_blank" rel= "noopener">@DouglasCAyers.</a></p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank" rel="noopener">@matmorris</a></p> <p>Recorded in June 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></description>
+			<content:encoded><![CDATA[<p>In this episode I will be speaking with Doug Ayers (<a href= "https://twitter.com/DouglasCAyers" target="_blank" rel= "noopener">@DouglasCAyers</a>) about his approach to interpreting requirements and evaluating the options to architect a solution.</p> <p>As an experienced web application developer coming to the Salesforce platform more than 5 years ago, Doug already had extensive technical skills which he could to use to grasp Apex and Visualforce, but how did he adapt to working on a platform?  I asked Doug about his own experiences and the lessons which he now teaches to fellow developers.  We discuss the value of asking more questions to uncover the depths of requirements and how the significance of considering the way a  solution will be maintained over its lifetime is as important as how easily it can be created.</p> <p>Doug's a problem solver, as can be seen from his GitHub repository which hosts multiple utilities he has created to fill gaps in Salesforce functionality.  For example when Doug saw a question on Twitter asking how to migrate Salesforce notes & attachments data into the new Notes feature, he did some research and found that the feature wasn't available out of the box.  So he wrote it himself!  He did the same for migrating file attachments to Chatter files, he created an automation Bot for Chatter groups, enhanced Campaign member management, the list goes on.   You can read for yourself on Doug's blog at <a href="https://douglascayers.com" target="_blank" rel= "noopener">douglascayers.com</a>.</p> <p>You can find Doug on Twitter <a href= "https://twitter.com/DouglasCAyers" target="_blank" rel= "noopener">@DouglasCAyers.</a></p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank" rel="noopener">@matmorris</a></p> <p>Recorded in June 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></content:encoded>
+			<enclosure length="22205379" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/RequirementsEvaluationDougAyersJune2017.mp3?dest-id=299323" />
+			<itunes:duration>30:51</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[In this episode I will be speaking with Doug Ayers () about his approach to interpreting requirements and evaluating the options to architect a solution. As an experienced web application developer coming to the Salesforce platform more than 5 years...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Processing Large Data Volumes using PK Chunking &amp; Hyperbatch with Daniel Peter</title>
+			<pubDate>Tue, 27 Jun 2017 15:00:00 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[3d7847c44a6a815d9d989a0a5b7bc993]]></guid>
+			<link><![CDATA[https://traffic.libsyn.com/secure/technologyflows/ProcessingLDVDanielPeterJune2017.mp3]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>In this episode I will be speaking with Daniel Peter (<a href= "https://twitter.com/danieljpeter" target="_blank" rel= "noopener">@danieljpeter</a>) about processing large volumes of data on Salesforce.</p> <p>Daniel is Lead Application Developer at Kenandy, an ISV who had built an ERP solution on the Salesforce Platform.</p> <p>Daniel’s first hand experience of how the Salesforce multi-tenant database behaves has lead him to develop techniques for processing tens of millions of records.</p> <p>He will describe the techniques which he has refined to ensure SOQL queries are executed with consistent reliability and not fall foul of the most common exceptions relating to row selection, which are:</p> <ul> <li>Non-selective query</li> <li>Too many query rows returned</li> <li>Query time out during execution</li> </ul> <p>Daniel will explain how the Batch Apex query locator can be used to implement a technique called PK chunking which allows fine-grained control of the number of rows to be processed in each batch which largely overcomes the 3 common exceptions.</p> <p>Daniel has even gone as far as experimenting with parallel execution through his <a href= "https://www.slideshare.net/danieljpeter/hyperbatch-69179894" target="_blank" rel="noopener">Hyperbatch</a> open source project which you can download from <a href= "https://github.com/danieljpeter" target="_blank" rel= "noopener">GitHub</a>.</p> <p>Whether your Salesforce database contains tens of thousands or rows or or if you’re up into the 10 of millions Daniel’s tips on working with multi-tenancy are a real eye opener as to what is possible when you design for scale from the outset.</p> <p>Please enjoy!</p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank" rel="noopener">@matmorris</a></p> <p>Recorded in June 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></description>
+			<content:encoded><![CDATA[<p>In this episode I will be speaking with Daniel Peter (<a href= "https://twitter.com/danieljpeter" target="_blank" rel= "noopener">@danieljpeter</a>) about processing large volumes of data on Salesforce.</p> <p>Daniel is Lead Application Developer at Kenandy, an ISV who had built an ERP solution on the Salesforce Platform.</p> <p>Daniel’s first hand experience of how the Salesforce multi-tenant database behaves has lead him to develop techniques for processing tens of millions of records.</p> <p>He will describe the techniques which he has refined to ensure SOQL queries are executed with consistent reliability and not fall foul of the most common exceptions relating to row selection, which are:</p> <ul> <li>Non-selective query</li> <li>Too many query rows returned</li> <li>Query time out during execution</li> </ul> <p>Daniel will explain how the Batch Apex query locator can be used to implement a technique called PK chunking which allows fine-grained control of the number of rows to be processed in each batch which largely overcomes the 3 common exceptions.</p> <p>Daniel has even gone as far as experimenting with parallel execution through his <a href= "https://www.slideshare.net/danieljpeter/hyperbatch-69179894" target="_blank" rel="noopener">Hyperbatch</a> open source project which you can download from <a href= "https://github.com/danieljpeter" target="_blank" rel= "noopener">GitHub</a>.</p> <p>Whether your Salesforce database contains tens of thousands or rows or or if you’re up into the 10 of millions Daniel’s tips on working with multi-tenancy are a real eye opener as to what is possible when you design for scale from the outset.</p> <p>Please enjoy!</p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank" rel="noopener">@matmorris</a></p> <p>Recorded in June 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></content:encoded>
+			<enclosure length="26197099" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/ProcessingLDVDanielPeterJune2017.mp3?dest-id=299323" />
+			<itunes:duration>36:23</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[In this episode I will be speaking with Daniel Peter () about processing large volumes of data on Salesforce. Daniel is Lead Application Developer at Kenandy, an ISV who had built an ERP solution on the Salesforce Platform. Daniel’s first hand...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Serverless Architecture with Francis Pindar - June 2017</title>
+			<pubDate>Tue, 20 Jun 2017 14:12:16 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[f967d5d012b472a2def246e5175f96b5]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/architect-series-francis-pindar-june-2017]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p><span style="font-weight: 400;">In this series of interviews I will be speaking with  people on the frontline of Salesforce architecture & development.</span></p> <p><span style="font-weight: 400;">In this first episode of the Architect Series my guest is Francis Pindar which is very fitting as he was one of the pioneers of the UK Salesforce Community scene and one of the first people that I came into contact with when I got involved with Salesforce back in 2010.</span></p> <p><span style="font-weight: 400;">Since then he’s continues to be a source of ideas and wisdom to me and countless others.</span></p> <p><span style="font-weight: 400;">Francis is:</span></p> <ul> <li><span style="font-weight: 400;">5x Salesforce MVP (2012 – Present)</span></li> <li><span style="font-weight: 400;">Salesforce Certified Sales Consultant, Service Consultant, Developer, Administrator & Advanced Administrator.</span></li> <li><span style="font-weight: 400;">AWS Certified Architect – Associate</span></li> <li><span style="font-weight: 400;">TOGAF9 Certified Enterprise Architect</span></li> <li><span style="font-weight: 400;">BCS Certified Enterprise Architect</span></li> </ul> <p><span style="font-weight: 400;">Francis has worked in internet technologies for 20 years, the last 10 of which have been on the Salesforce Platform.</span></p> <p><span style="font-weight: 400;">He is a specialist in the areas of Enterprise Architecture Design, Business Process Improvement, Project Leadership, Business Analysis & Migration strategies.</span> </p> <p><span style="font-weight: 400;">Follow Francis:</span></p> <p><a href="https://twitter.com/radnip"><span style= "font-weight: 400;">https://twitter.com/radnip</span></a></p> <p><a href="http://www.radnip.com/"><span style= "font-weight: 400;">http://www.radnip.com/</span></a></p> <p><a href= "https://www.youtube.com/channel/UCbPyfToAJcUCDxIEuqlfVqA"><span style="font-weight: 400;"> https://www.youtube.com/channel/UCbPyfToAJcUCDxIEuqlfVqA</span></a></p> <p><span style="font-weight: 400;">Recorded in June 2017</span></p> <p><span style="font-weight: 400;">This podcast interview was first published by Technologyflows.com</span></p> <p><span style="font-weight: 400;">© TechnologyFlows</span></p>]]></description>
+			<content:encoded><![CDATA[<p>In this series of interviews I will be speaking with  people on the frontline of Salesforce architecture & development.</p> <p>In this first episode of the Architect Series my guest is Francis Pindar which is very fitting as he was one of the pioneers of the UK Salesforce Community scene and one of the first people that I came into contact with when I got involved with Salesforce back in 2010.</p> <p>Since then he’s continues to be a source of ideas and wisdom to me and countless others.</p> <p>Francis is:</p> <ul> <li>5x Salesforce MVP (2012 – Present)</li> <li>Salesforce Certified Sales Consultant, Service Consultant, Developer, Administrator & Advanced Administrator.</li> <li>AWS Certified Architect – Associate</li> <li>TOGAF9 Certified Enterprise Architect</li> <li>BCS Certified Enterprise Architect</li> </ul> <p>Francis has worked in internet technologies for 20 years, the last 10 of which have been on the Salesforce Platform.</p> <p>He is a specialist in the areas of Enterprise Architecture Design, Business Process Improvement, Project Leadership, Business Analysis & Migration strategies. </p> <p>Follow Francis:</p> <p><a href="https://twitter.com/radnip">https://twitter.com/radnip</a></p> <p><a href="http://www.radnip.com/">http://www.radnip.com/</a></p> <p><a href= "https://www.youtube.com/channel/UCbPyfToAJcUCDxIEuqlfVqA"> https://www.youtube.com/channel/UCbPyfToAJcUCDxIEuqlfVqA</a></p> <p>Recorded in June 2017</p> <p>This podcast interview was first published by Technologyflows.com</p> <p>© TechnologyFlows</p>]]></content:encoded>
+			<enclosure length="24065986" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/ServerlessArchitectureFrancisPindarJune2017.mp3?dest-id=299323" />
+			<itunes:duration>33:26</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[In this series of interviews I will be speaking with  people on the frontline of Salesforce architecture & development. In this first episode of the Architect Series my guest is Francis Pindar which is very fitting as he was one of the...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Peter Coffee on historical references and future successes</title>
+			<pubDate>Fri, 23 Dec 2016 02:54:37 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[7430eb7e971aa0d34ffbecb2e977b5c2]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/peter-coffee-on-historical-references-and-future-successes]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>In conversation with Peter Coffee (@petercoffee) at the November 2016 French Touch Dreamin' conference in Paris.</p> <p>Peter is VP for Strategic Research at Salesforce and his Twitter bio describes him thus; "I work with app developers and CIOs to build a global community of innovation, service and success".</p> <p>As you will hear, Peter is never stuck for a quote, a metric or a research finding to support his arguments that when building modern software architectures, there is no advantage in duplicating what has been done in times past.</p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @matmorris.</p> <p>Enjoy the show...</p> <p> </p>]]></description>
+			<content:encoded><![CDATA[<p>In conversation with Peter Coffee (@petercoffee) at the November 2016 French Touch Dreamin' conference in Paris.</p> <p>Peter is VP for Strategic Research at Salesforce and his Twitter bio describes him thus; "I work with app developers and CIOs to build a global community of innovation, service and success".</p> <p>As you will hear, Peter is never stuck for a quote, a metric or a research finding to support his arguments that when building modern software architectures, there is no advantage in duplicating what has been done in times past.</p> <p>Please leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @matmorris.</p> <p>Enjoy the show...</p> <p> </p>]]></content:encoded>
+			<enclosure length="28610141" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/PeterCoffeeNov2016.mp3?dest-id=299323" />
+			<itunes:duration>29:49</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[In conversation with Peter Coffee (@petercoffee) at the November 2016 French Touch Dreamin' conference in Paris. Peter is VP for Strategic Research at Salesforce and his Twitter bio describes him thus; "I work with app developers and CIOs to...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Dreamforce IoT Zone 2015 With Pat Patterson Doug Merrett And Marc Benioff</title>
+			<pubDate>Fri, 23 Oct 2015 22:10:06 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[9ac6ec1ff3fc5d90716a00495daf1d68]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/dreamforce-iot-zone-2015-with-pat-patterson-doug-merrett-and-marc-benioff]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>This week we are paying a visit to the Dreamforce IoT Zone.</p>
+<p>We’ll hear from <a href="https://au.linkedin.com/in/dougmerrett" target="_blank">Doug Merrett</a> and his robot Sparky.  Doug is a Principal Enterprise Architect at Salesforce.</p>
+<p>Even though it is 2015 and these techniques have been used for decades to build cars and sort parcels for delivery, not everyone makes the connection that the software which they use on their phone or web browser can affect and interact with the physical world, and for me this is really what the IoT Zone at Dreamforce is all about, helping people imagine what is possible and apply what they have learned to their own situation.</p>
+<p>The technology of IoT has progressed rapidly and has made its way into many products we come into contact with every day. Before we get to Doug and Sparky, we have a tour of the IoT Zone from <a href="https://www.linkedin.com/in/metadaddy" target="_blank">Pat Patterson</a>.  Pat is Developer Evangelist Architect at Salesforce https://www.linkedin.com/in/metadaddy and he walked and talked me around some of the major products on show which are connected through the new Salesforce IoT cloud.  You can tweet Pat <a href="https://twitter.com/metadaddy" target="_blank">@metadaddy</a></p>
+<p>All the technology related zones at Dreamforce on the second floor of the Moscone West building were buzzing and they clearly made an impact on Salesforce CEO <a href="https://twitter.com/benioff" target="_blank">Marc Benioff</a> as he gave mention in his Q&A session to both <a href="https://twitter.com/adamse" target="_blank">Adam Seligman</a>, Senior VP Developer Relations and to Pat.</p>
+<p>I really hope that you enjoy this weeks show.  You can subscribe to <a href="https://itunes.apple.com/gb/podcast/technology-flows-salesforce/id1037722896" target="_blank">Technology Flows on iTunes</a> and please feel free to leave feedback on the blog at <a href="http://www.technologyflows.com" target="_blank">TechnologyFlows.com</a> or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a></p>]]></description>
+			<content:encoded><![CDATA[<p>This week we are paying a visit to the Dreamforce IoT Zone.</p>
+<p>We’ll hear from <a href="https://au.linkedin.com/in/dougmerrett" target="_blank">Doug Merrett</a> and his robot Sparky.  Doug is a Principal Enterprise Architect at Salesforce.</p>
+<p>Even though it is 2015 and these techniques have been used for decades to build cars and sort parcels for delivery, not everyone makes the connection that the software which they use on their phone or web browser can affect and interact with the physical world, and for me this is really what the IoT Zone at Dreamforce is all about, helping people imagine what is possible and apply what they have learned to their own situation.</p>
+<p>The technology of IoT has progressed rapidly and has made its way into many products we come into contact with every day. Before we get to Doug and Sparky, we have a tour of the IoT Zone from <a href="https://www.linkedin.com/in/metadaddy" target="_blank">Pat Patterson</a>.  Pat is Developer Evangelist Architect at Salesforce https://www.linkedin.com/in/metadaddy and he walked and talked me around some of the major products on show which are connected through the new Salesforce IoT cloud.  You can tweet Pat <a href="https://twitter.com/metadaddy" target="_blank">@metadaddy</a></p>
+<p>All the technology related zones at Dreamforce on the second floor of the Moscone West building were buzzing and they clearly made an impact on Salesforce CEO <a href="https://twitter.com/benioff" target="_blank">Marc Benioff</a> as he gave mention in his Q&A session to both <a href="https://twitter.com/adamse" target="_blank">Adam Seligman</a>, Senior VP Developer Relations and to Pat.</p>
+<p>I really hope that you enjoy this weeks show.  You can subscribe to <a href="https://itunes.apple.com/gb/podcast/technology-flows-salesforce/id1037722896" target="_blank">Technology Flows on iTunes</a> and please feel free to leave feedback on the blog at <a href="http://www.technologyflows.com" target="_blank">TechnologyFlows.com</a> or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a></p>]]></content:encoded>
+			<enclosure length="15733249" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/DreamforceIoTZone2015WithPatPattersonDougMerrettAndMarcBenioff.mp3?dest-id=299323" />
+			<itunes:duration>21:52</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[This week we are paying a visit to the Dreamforce IoT Zone.
+We’ll hear from  and his robot Sparky.  Doug is a Principal Enterprise Architect at Salesforce.
+Even though it is 2015 and these techniques have been used for decades to build...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Chewing The Lightning With LeeAnne Templeman And Justin Edelstein</title>
+			<pubDate>Tue, 13 Oct 2015 20:21:09 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[f1a0beba6481bbecb2a32b397e5a9c98]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/chewing-on-lightning-with-leeanne-templeman-and-justin-edelstein]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>It’s been a month since Dreamforce 2015, so I thought that it might be interesting to replay some of the hot topics of conversation from around the Dev and Admin Zone.</p>
+<p>I was joined in the AdminZone podcast studio by two experienced and talented people from the community to help me understand what we need to make the transition to using Lightning.</p>
+<p><a href="https://www.linkedin.com/in/leeannetempleman" target="_blank">LeeAnne Templeman</a> is a Developer Evangelist at Salesforce, she can be found on twitter <a href="https://twitter.com/leeanndroid" target="_blank">@leeandroid</a>.</p>
+<p><a href="https://www.linkedin.com/in/justinedelstein" target="_blank">Justin Edelstein</a> is co-founder and CIO at, Arkus a Salesforce partner based in New York, he’s a Salesforce MVP and you can tweet him <a href="https://twitter.com/justedelstein" target="_blank">@JustEdelstein</a>.</p>
+<p>Please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a></p>
+<p>Enjoy the show!</p>]]></description>
+			<content:encoded><![CDATA[<p>It’s been a month since Dreamforce 2015, so I thought that it might be interesting to replay some of the hot topics of conversation from around the Dev and Admin Zone.</p>
+<p>I was joined in the AdminZone podcast studio by two experienced and talented people from the community to help me understand what we need to make the transition to using Lightning.</p>
+<p><a href="https://www.linkedin.com/in/leeannetempleman" target="_blank">LeeAnne Templeman</a> is a Developer Evangelist at Salesforce, she can be found on twitter <a href="https://twitter.com/leeanndroid" target="_blank">@leeandroid</a>.</p>
+<p><a href="https://www.linkedin.com/in/justinedelstein" target="_blank">Justin Edelstein</a> is co-founder and CIO at, Arkus a Salesforce partner based in New York, he’s a Salesforce MVP and you can tweet him <a href="https://twitter.com/justedelstein" target="_blank">@JustEdelstein</a>.</p>
+<p>Please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a></p>
+<p>Enjoy the show!</p>]]></content:encoded>
+			<enclosure length="23309484" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/ChewingTheLightningWithLeeAnneTemplemanJustinEdelstein.mp3?dest-id=299323" />
+			<itunes:duration>32:23</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[It’s been a month since Dreamforce 2015, so I thought that it might be interesting to replay some of the hot topics of conversation from around the Dev and Admin Zone.
+I was joined in the AdminZone podcast studio by two experienced and talented...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Thunder and Lightning with Peter Coffee</title>
+			<pubDate>Wed, 07 Oct 2015 17:24:16 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[7fd8560f9c726690f700dea3e8f67fca]]></guid>
+			<link><![CDATA[https://traffic.libsyn.com/secure/technologyflows/ThunderAndLightningWithPeterCoffee.mp3]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>Hello and welcome to another episode of the Technology Flows podcast.</p>
+<p>My name is Matthew Morris and I’m a Salesforce admin and MVP.</p>
+<p>Each week I’ll be brining you the voices and opinions from the world of Salesforce.</p>
+<p>This week I have for you a conversation with Peter Coffee who is the Vice President for Strategic Research at Salesforce.</p>
+<p>Many of you will recognise Peter as the host of pre-keynote conversations at many Salesforce events.  I think I am right in saying that it is his voice which announces every keynote session at Dreamforce, which he has to pre-record in the run up to the conference.</p>
+<p>If you’re interested in “the future”, then Peter is you man.  He leads the emerging trends track at Dreamforce, which from what I have seen gives a 2-3 year view into the future of Salesforce and the technology industry.</p>
+<p>Before he was hired by Marc Benioff in 2007, Peter was a technology journalist.  He’s also a graduate of the Massachusetts Institute of Technology and back in the day he even wrote a book entitled How to program Java.</p>
+<p>If you want to improve your understanding of how technology and business work together and where they are leading us Peter is your man.</p>
+<p>I sat down with Peter in the press room at Dreamforce on the very last day with the hope that he could help straighten out my thoughts about all the announcements and technologies which were on show that week.</p>
+<p> Clearly my head was still spinning as you’ll hear we made reference to the I’m a Mac adverts which ran from 2006 to about 2009, so a good 6 years ago.  Not the 2 or 3 that came out of my mouth.  Things move fast today, it seems.</p>
+<p>You can find Peter on twitter <a href="https://twitter.com/petercoffee">@petercoffee</a></p>
+<p>Please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @matmorris.</p>
+<p>Enjoy the show...</p>]]></description>
+			<content:encoded><![CDATA[<p>Hello and welcome to another episode of the Technology Flows podcast.</p>
+<p>My name is Matthew Morris and I’m a Salesforce admin and MVP.</p>
+<p>Each week I’ll be brining you the voices and opinions from the world of Salesforce.</p>
+<p>This week I have for you a conversation with Peter Coffee who is the Vice President for Strategic Research at Salesforce.</p>
+<p>Many of you will recognise Peter as the host of pre-keynote conversations at many Salesforce events.  I think I am right in saying that it is his voice which announces every keynote session at Dreamforce, which he has to pre-record in the run up to the conference.</p>
+<p>If you’re interested in “the future”, then Peter is you man.  He leads the emerging trends track at Dreamforce, which from what I have seen gives a 2-3 year view into the future of Salesforce and the technology industry.</p>
+<p>Before he was hired by Marc Benioff in 2007, Peter was a technology journalist.  He’s also a graduate of the Massachusetts Institute of Technology and back in the day he even wrote a book entitled How to program Java.</p>
+<p>If you want to improve your understanding of how technology and business work together and where they are leading us Peter is your man.</p>
+<p>I sat down with Peter in the press room at Dreamforce on the very last day with the hope that he could help straighten out my thoughts about all the announcements and technologies which were on show that week.</p>
+<p> Clearly my head was still spinning as you’ll hear we made reference to the I’m a Mac adverts which ran from 2006 to about 2009, so a good 6 years ago.  Not the 2 or 3 that came out of my mouth.  Things move fast today, it seems.</p>
+<p>You can find Peter on twitter <a href="https://twitter.com/petercoffee">@petercoffee</a></p>
+<p>Please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @matmorris.</p>
+<p>Enjoy the show...</p>]]></content:encoded>
+			<enclosure length="27075479" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/ThunderAndLightningWithPeterCoffee.mp3?dest-id=299323" />
+			<itunes:duration>37:37</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Hello and welcome to another episode of the Technology Flows podcast.
+My name is Matthew Morris and I’m a Salesforce admin and MVP.
+Each week I’ll be brining you the voices and opinions from the world of Salesforce.
+This week I have for...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Learn Lightning With Don Robins</title>
+			<pubDate>Thu, 01 Oct 2015 00:51:56 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[4e6a6ab7563b66bd5fee0258d91b13b8]]></guid>
+			<link><![CDATA[https://traffic.libsyn.com/secure/technologyflows/LearnLightningWithDonRobins.mp3]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>This week I’m speaking with <a href="https://www.linkedin.com/in/donaldrobins" target="_blank">Don Robins</a>, who is an award winning instructor for Salesforce University and he has been a pioneer in providing education and advice for Salesforce admins and developers wanting to learn how to exploit Salesforce’s new Lightning technologies.</p>
+<p>Don and I got together in a San Francisco bar, directly across the road from the Dreamforce conference which had just closed.</p>
+<p>This conversation came almost exactly a year after our first conversation about the release of Salesforce Lightning components.</p>
+<p>And we started by talking about how quickly the time had passed, and how people (including me) can catch up and start understanding how to exploit the power of Lightning.</p>
+<p>Over the past 18 months, Don has produced some excellent materials which introduce developers and admins to building with Lightning.</p>
+<p>Top of the list is Don’s Salesforce University online course which you can access for FREE.</p>
+<p>Don also produced a series of 6 blog posts which introduce the concepts of lightning and are a great primer for the training course.</p>
+<p>Lightning is really here, and I really recommend that anyone associated with the Salesforce eco system read these blog posts. </p>
+<p>If your job is as Salesforce developer or Admin then you should to continue to the online training, which is a high quality Salesforce University production with video and slides.</p>
+<p>All of these great resources can be seen by going to the link <a href="http://bit.ly/lightningDon" target="_blank">http://bit.ly/lightningDon</a>.</p>
+<p>I hope you enjoy the show, please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @ M A T MORRIS</p>]]></description>
+			<content:encoded><![CDATA[<p>This week I’m speaking with <a href="https://www.linkedin.com/in/donaldrobins" target="_blank">Don Robins</a>, who is an award winning instructor for Salesforce University and he has been a pioneer in providing education and advice for Salesforce admins and developers wanting to learn how to exploit Salesforce’s new Lightning technologies.</p>
+<p>Don and I got together in a San Francisco bar, directly across the road from the Dreamforce conference which had just closed.</p>
+<p>This conversation came almost exactly a year after our first conversation about the release of Salesforce Lightning components.</p>
+<p>And we started by talking about how quickly the time had passed, and how people (including me) can catch up and start understanding how to exploit the power of Lightning.</p>
+<p>Over the past 18 months, Don has produced some excellent materials which introduce developers and admins to building with Lightning.</p>
+<p>Top of the list is Don’s Salesforce University online course which you can access for FREE.</p>
+<p>Don also produced a series of 6 blog posts which introduce the concepts of lightning and are a great primer for the training course.</p>
+<p>Lightning is really here, and I really recommend that anyone associated with the Salesforce eco system read these blog posts. </p>
+<p>If your job is as Salesforce developer or Admin then you should to continue to the online training, which is a high quality Salesforce University production with video and slides.</p>
+<p>All of these great resources can be seen by going to the link <a href="http://bit.ly/lightningDon" target="_blank">http://bit.ly/lightningDon</a>.</p>
+<p>I hope you enjoy the show, please feel free to leave feedback on the blog at TechnologyFlows.com or tweet me directly, I am @ M A T MORRIS</p>]]></content:encoded>
+			<enclosure length="20623958" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/LearnLightningWithDonRobins.mp3?dest-id=299323" />
+			<itunes:duration>28:39</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[This week I’m speaking with , who is an award winning instructor for Salesforce University and he has been a pioneer in providing education and advice for Salesforce admins and developers wanting to learn how to exploit Salesforce’s new...]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>Salesforce Lightning With Skip Sauls &amp; Doug Chasman</title>
+			<pubDate>Sun, 06 Sep 2015 22:16:16 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[ee1d4cef1292ca28f398a140ec274fca]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/salesforce-lighting-with-skip-sauls-doug-chasman]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p class="MsoNormal">This time we hear from 2 people right at the heart of Salesforce’s Lighting technology evolution.</p>
+<p class="MsoNormal"><a href="https://www.linkedin.com/in/skipsauls" target="_blank">Skip Sauls</a> is a Director of Product Management at Salesforce and he is working alongside <a href="https://www.linkedin.com/in/dchasman" target="_blank">Doug Chasman </a>who is Principal Architect on the Platform team. </p>
+<p class="MsoNormal">The work of their team is making it possible for developers and admins to customise Salesforces’ user interface like never before.</p>
+<p class="MsoNormal">Doug was one of the two original architects of Visualforce, and I started by asking him if Lighting components will replace VisualForce.</p>
+<p class="MsoNormal">This interview was recorded about 2 weeks prior to the announcement of the new <a href="https://www.salesforce.com/form/conf/events-global-preview.jsp" target="_blank">Salesforce Lighting Experience</a>, so we we’re able to discuss that on tape.  Skip and Doug were extremely open about the technologies which they have waiting in the wings and Lighting Out sounds like it has the potential to be a transformational technology.</p>
+<p class="MsoNormal">Dreamforce 2015 is taking place next week from the 15<sup>th</sup> September, if you’re going be sure to seek out Skip and Doug.  If you’re staying at home, watch the online broadcasts and keep an eye on the Salesforce YouTube channel for the sessions to be published in the weeks following the conference.</p>
+<p class="MsoNormal">Take a look at the blog at <a href="http://www.technologyflows.com" target="_blank">http://www.technologyflows.com</a>, you can tweet me <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a>.</p>
+<p class="MsoNormal"> </p>
+<p> </p>
+<p class="MsoNormal">Thanks for listening!</p>]]></description>
+			<content:encoded><![CDATA[<p class="MsoNormal">This time we hear from 2 people right at the heart of Salesforce’s Lighting technology evolution.</p>
+<p class="MsoNormal"><a href="https://www.linkedin.com/in/skipsauls" target="_blank">Skip Sauls</a> is a Director of Product Management at Salesforce and he is working alongside <a href="https://www.linkedin.com/in/dchasman" target="_blank">Doug Chasman </a>who is Principal Architect on the Platform team. </p>
+<p class="MsoNormal">The work of their team is making it possible for developers and admins to customise Salesforces’ user interface like never before.</p>
+<p class="MsoNormal">Doug was one of the two original architects of Visualforce, and I started by asking him if Lighting components will replace VisualForce.</p>
+<p class="MsoNormal">This interview was recorded about 2 weeks prior to the announcement of the new <a href="https://www.salesforce.com/form/conf/events-global-preview.jsp" target="_blank">Salesforce Lighting Experience</a>, so we we’re able to discuss that on tape.  Skip and Doug were extremely open about the technologies which they have waiting in the wings and Lighting Out sounds like it has the potential to be a transformational technology.</p>
+<p class="MsoNormal">Dreamforce 2015 is taking place next week from the 15th September, if you’re going be sure to seek out Skip and Doug.  If you’re staying at home, watch the online broadcasts and keep an eye on the Salesforce YouTube channel for the sessions to be published in the weeks following the conference.</p>
+<p class="MsoNormal">Take a look at the blog at <a href="http://www.technologyflows.com" target="_blank">http://www.technologyflows.com</a>, you can tweet me <a href="https://twitter.com/matmorris" target="_blank">@matmorris</a>.</p>
+<p class="MsoNormal"> </p>
+<p> </p>
+<p class="MsoNormal">Thanks for listening!</p>]]></content:encoded>
+			<enclosure length="29894208" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/TechnologyFlows0002.mp3?dest-id=299323" />
+			<itunes:duration>41:32</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Salesforce Lightning, past, present and future]]></itunes:subtitle>
+		</item>
+		<item>
+			<title>London Salesforce Admins Summer Of Trailhead</title>
+			<pubDate>Sun, 06 Sep 2015 17:12:40 +0000</pubDate>
+			<guid isPermaLink="false"><![CDATA[8ab53b61bad1ed87fbb7c58ebc708945]]></guid>
+			<link><![CDATA[https://technologyflows.libsyn.com/london-salesforce-admins-summer-of-trailhead]]></link>
+			<itunes:image href="https://ssl-static.libsyn.com/p/assets/d/9/9/a/d99ab209932f5a14/TechnologyFlows1400x1400.png" />
+			<description><![CDATA[<p>This is the first episode of the new Technology Flows podcast, recorded at the London Salesforce Admins "Summer Of Trailhead" event at the end of July 2015.</p>
+<p>Thanks to everyone who took part.  More details about the group can be found at h<a href="http://www.meetup.com/London-Salesforce-Admins/" target="_blank">ttp://www.meetup.com/London-Salesforce-Admins/</a> and on the <a href="https://success.salesforce.com/usergroups" target="_blank">Salesforce Success Community</a> site.</p>
+<p>Try Salesforce Trailhead for yourself at <a href="https://developer.salesforce.com/trailhead" target="_blank">https://developer.salesforce.com/trailhead</a></p>
+<p>Thanks for listening!</p>]]></description>
+			<content:encoded><![CDATA[<p>This is the first episode of the new Technology Flows podcast, recorded at the London Salesforce Admins "Summer Of Trailhead" event at the end of July 2015.</p>
+<p>Thanks to everyone who took part.  More details about the group can be found at h<a href="http://www.meetup.com/London-Salesforce-Admins/" target="_blank">ttp://www.meetup.com/London-Salesforce-Admins/</a> and on the <a href="https://success.salesforce.com/usergroups" target="_blank">Salesforce Success Community</a> site.</p>
+<p>Try Salesforce Trailhead for yourself at <a href="https://developer.salesforce.com/trailhead" target="_blank">https://developer.salesforce.com/trailhead</a></p>
+<p>Thanks for listening!</p>]]></content:encoded>
+			<enclosure length="10971344" type="audio/mpeg" url="https://traffic.libsyn.com/secure/technologyflows/TechnologyFlows0001.mp3?dest-id=299323" />
+			<itunes:duration>15:14</itunes:duration>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:keywords />
+			<itunes:subtitle><![CDATA[Interviews from the London Admin User Group]]></itunes:subtitle>
+		</item>
+	
+	</channel>
+</rss>
