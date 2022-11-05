@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:v7jctqKsUMA",
+  "yt:videoId": "v7jctqKsUMA",
+  "yt:channelId": "UCcf4LQogGFtYzPhq05uHE4g",
+  "title": "Gamification of Bell's Theorem",
+  "link": "",
+  "author": {
+    "name": "udiprod",
+    "uri": "https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g"
+  },
+  "published": "2022-03-07T19:55:58+00:00",
+  "updated": "2022-05-25T13:05:47+00:00",
+  "media:group": {
+    "media:title": "Gamification of Bell's Theorem",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video shows a gamified version of Bell's Theorem called the \"CHSH Game\".\n\nThe theorem proves the non-local nature of quantum physics, known sometimes as \"Spooky action at a distance\". The gamified version further shows that quantum entanglement can be useful. \n\nSee more about the usefulness of quantum entanglement in this video about the relation of such games and interactive proofs, and a recent result related to the halting problem:\nhttps://youtu.be/2H8629BCbkM\n\nSome history:\nBell's Theorem is due to John Stuart Bell in 1964.\nThe CHSH inequality, by  John Clauser, Michael Horne, Abner Shimony, and Richard Holt,  improved on it in 1969.\nThe CHSH game by  R. Cleve, P. Hoyer, B. Toner and J. Watrous in 2004. \n\n\nAbout \"Bell Locality\":\nThe formal statement of it is this requirement of the probability distribution:\nP(x,y|a,b,particle1,particle2)=P(x|a,particle1)P(y|b,particle2)\nThis means that the outcomes are independent given the input bits and the respective particle statements. \nAnother way to say that is as stated in the video: that given the particle the top player has, we can specify the table P(x|a,particle1), and it makes no difference what happens with the bottom player (or the other way around of course).\nBell's theorem proves this is not what's happening.\n\nAs stated in the closing slide, this conclusion relies on a few more background assumptions:\n* Each measurement has one outcome. According to the \"many-worlds\" theory a measurement can have multiple outcomes, and Bell locallity may still hold with this interpretation.\n* The referee can choose random bits. According to \"superdeterminisim\" world view, there's no such thing as randomness, and it might be that the referee chooses bits somehow pre-determined to match the particles held by the players.\n\nSome more links:\nA primer on quantum physics: https://youtu.be/p7bzE1E5PMY\nA more rigorous explanation of quantum spin (Physics Videos by Eugene Khutoryansky): https://youtu.be/3k5IWlVdMbo\n\nChapters:\n0:00 Part 1: Decision problems\n1:56 Part 2: Classical bound\n6:20 Part 3: Quantum spin\n13:44 Part 4: A Quantum Strategy\n16:10 Part 5: Local realism\n18:48 Part 6: No signaling\n22:45 Part 7: Bell locality",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

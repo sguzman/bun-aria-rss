@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:mJmQVO_rp3Y",
+  "yt:videoId": "mJmQVO_rp3Y",
+  "yt:channelId": "UCxUZjZaLPsHPlp8AtkSBZiA",
+  "title": "Dan Koditschek: \"Working Compositions for Correct Execution of Robot Task Specifications\"",
+  "link": "",
+  "author": {
+    "name": "Topos Institute",
+    "uri": "https://www.youtube.com/channel/UCxUZjZaLPsHPlp8AtkSBZiA"
+  },
+  "published": "2022-10-14T06:04:32+00:00",
+  "updated": "2022-10-15T18:11:31+00:00",
+  "media:group": {
+    "media:title": "Dan Koditschek: \"Working Compositions for Correct Execution of Robot Task Specifications\"",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Topos Institute Colloquium, 13th of October 2022.\n———\nA long tradition in robotics has deployed dynamical primitives as empirical modules of behavior [1]. Physically grounded formalization of these practices offers the prospect of an expressive programming language of work for dynamically dexterous robotics whose programs lead to task and motion planners with associated controllers that are correct by design [2]. This talk will offer a brief progress report on a bottom-up robotics research agenda seeking to formalize the use of Lagrangian energy landscapes as “letters” whose hierarchical [3], parallel [4] and sequential [5] compositions yield “words” of hybrid dynamical systems with guaranteed behavioral properties. Attention then shifts to an emerging architecture for top-down task and motion planning [6] that offers the promise of abstract, semantic, formal specification [7] for mobile manipulation tasks carried out by general purpose robots [8] in learned, geometrically complicated environments [9].\n\nThe talk concludes with a more speculative appraisal of the prospects for a unified programming environment allowing the expressive top-down specification of robot behavior with automatic compilation into bottom-up words of work that are correct by design. A recent categorical treatment [10] of robot hybrid dynamical systems [11] encodes a well-grounded version of sequential composition [12] and a weak but still practicable version of hierarchical composition [3], while neglecting the consideration of cross-talk [4] in its idealization of parallel composition as a monoidal product. Subsequent results imbue a slightly restricted version of this hybrid dynamical category [10] with a version of Conley’s fundamental theorem [13] guaranteeing the existence of global Lyapunov functions that decompose a suitably formulated relaxation of the hybrid state space into a covering by attractor basins and their boundaries [14]. Thus equipped with generalized energy landscapes, more physically grounded refinements of this hybrid dynamical category may yield a practicable type theory whose associated resource-aware linear logic clauses might be integrated into the more expressive linear temporal logic interface to the task and motion planning architecture of [7]. Such future developments would greatly advance the longer term agenda toward an empirically practicable theory of “programming work” [2].",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

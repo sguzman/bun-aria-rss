@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:vTMEdHcKgM4",
+  "yt:videoId": "vTMEdHcKgM4",
+  "yt:channelId": "UCmtyQOKKmrMVaKuRXz02jbQ",
+  "title": "Coding Adventure: Terraforming",
+  "link": "",
+  "author": {
+    "name": "Sebastian Lague",
+    "uri": "https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+  },
+  "published": "2021-05-29T13:43:51+00:00",
+  "updated": "2022-03-04T04:06:41+00:00",
+  "media:group": {
+    "media:title": "Coding Adventure: Terraforming",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I got a bit tired of my simple heightmap-based planets and decided to experiment with generating them using the Marching Cubes algorithm instead, so that I could add a 'terraforming' ability for shaping the world with caves and tunnels and so on. I hope you enjoy!\n\nProject files are available here:\nhttps://github.com/SebLague/Terraforming\n\nIf you’d like to support me in creating more videos, I have a Patreon page over here: https://www.patreon.com/SebastianLague\n\nHave a look at these videos if you're interested in learning about how the atmosphere and clouds were created:\nAtmosphere: https://youtu.be/DxfEbulyFcY\nClouds: https://youtu.be/4QOcCGI6xOU\n\nChapters:\n0:00 Intro\n1:05 Marching Cubes Algorithm Refresher\n2:32 Looking at the Code\n3:42 Making a Sphere!\n4:53 Floating Rocks\n7:20 Chunk Woes\n9:48 The Mistake\n11:31 Terraforming is Easy!\n12:26 A Simple Water Shader\n16:28 Adding Atmosphere\n17:30 Some Fluffy Clouds\n18:54 Terrain Colouring, and Sticky Lights!\n20:23 The Expedition\n21:23 Outro\n\nMusic:\nHeart Calligraphy by Cody Martin\nWonderland by Shimmer\nAutumn Wind by Yehezkel Raz\nHall of the Mountain King by Kevin MacLeod (composed by Edvard Grieg)\nIt Will Come Back by The Stolen Orchestra\nAmber by the Stolen Orchestra\nNightingale by Emorie\nInto the Light by Emorie\nAnimated Adventure by Andy Eliison",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

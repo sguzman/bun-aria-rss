@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2572 (octopus_server)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2572",
+  "description": "In affected versions of Octopus Server where access is managed by an external authentication provider, it was possible that the API key/keys of a disabled/deleted user were still valid after the access was revoked.",
+  "dc:date": "2022-11-01T02:15:10Z"
+}

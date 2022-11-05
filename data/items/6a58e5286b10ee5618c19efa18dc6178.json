@@ -1,0 +1,9 @@
+{
+  "title": "Pretty printing",
+  "link": "http://fa.bianp.net/blog/2007/pretty-printing/",
+  "description": "<p>Thanks to a patch by Jurjen Bos (with some additions &amp; modifications by\nme) we now got pretty printing in sympy. To see some examples, running\nit from isympy (you need sympy from svn):</p>\n<pre class=\"literal-block\">\nIn [1]: pprint x**2 +x +1\n------&gt; pprint(x**2 +x +1)\n     2\n1+x+x\n\nIn …</pre>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sun, 29 Apr 2007 10:26:00 +0200",
+  "guid": "tag:fa.bianp.net,2007-04-29:/blog/2007/pretty-printing/",
+  "category": "General, Tecnologí­a"
+}

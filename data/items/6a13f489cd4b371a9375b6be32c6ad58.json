@@ -1,0 +1,6 @@
+{
+  "title": "SDCL: Self-Distillation Contrastive Learning for Chinese Spell Checking. (arXiv:2210.17168v3 [cs.CL] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.17168",
+  "description": "<p>Due to the ambiguity of homophones, Chinese Spell Checking (CSC) has\nwidespread applications. Existing systems typically utilize BERT for text\nencoding. However, CSC requires the model to account for both phonetic and\ngraphemic information. To adapt BERT to the CSC task, we propose a token-level\nself-distillation contrastive learning method. We employ BERT to encode both\nthe corrupted and corresponding correct sentence. Then, we use contrastive\nlearning loss to regularize corrupted tokens' hidden states to be closer to\ncounterparts in the correct sentence. On three CSC datasets, we confirmed our\nmethod provides a significant improvement above baselines.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Zhang_X/0/1/0/all/0/1\">Xiaotian Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yan_H/0/1/0/all/0/1\">Hang Yan</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yu_S/0/1/0/all/0/1\">Sun Yu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Qiu_X/0/1/0/all/0/1\">Xipeng Qiu</a>"
+}
