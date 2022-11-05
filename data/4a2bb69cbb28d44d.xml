@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.flu-dyn updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Fluid Dynamics (physics.flu-dyn) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Fluid Dynamics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01414" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01440" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01560" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01649" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01685" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01754" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.09514" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.13426" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16358" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16762" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00771" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01414">
+<title>Inertial migration of a sphere in plane Couette flow. (arXiv:2211.01414v1 [physics.flu-dyn])</title>
+<link>http://arxiv.org/abs/2211.01414</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the inertial migration of a torque-free neutrally buoyant sphere in
+wall-bounded plane Couette flow over a wide range of channel Reynolds numbers,
+$Re_c$, in the limit of small particle Reynolds number\,($Re_p\ll1$) and
+confinement ratio\,($\lambda\ll1$). Here, $Re_c = V_\text{wall}H/\nu$ where $H$
+denotes the separation between the channel walls, $V_\text{wall}$ denotes the
+speed of the moving wall, and $\nu$ is the kinematic viscosity of the Newtonian
+suspending fluid; $\lambda = a/H$, $a$ being the sphere radius, with
+$Re_p=\lambda^2 Re_c$. The channel centerline is found to be the only
+(stable)\,equilibrium below a critical $Re_c\,(\approx 148)$, consistent with
+the predictions of earlier small-$Re_c$ analyses. A supercritical pitchfork
+bifurcation at the critical $Re_c$ creates a pair of stable off-center
+equilibria, symmetrically located with respect to the centerline, with the
+original centerline equilibrium simultaneously becoming unstable. The new
+equilibria migrate wallward with increasing $Re_c$. In contrast to the
+inference based on recent computations, the aforementioned bifurcation occurs
+for arbitrarily small $Re_p$ provided $\lambda$ is sufficiently small. An
+analogous bifurcation occurs in the two-dimensional scenario, that is, for a
+circular cylinder suspended freely in plane Couette flow, with the critical
+$Re_c$ being approximately $110$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Anand_P/0/1/0/all/0/1&quot;&gt;Prateek Anand&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Subramanian_G/0/1/0/all/0/1&quot;&gt;Ganesh Subramanian&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01440">
+<title>On the development and analysis of coupled surface-subsurface models of catchments. Part 2. A three-dimensional benchmark model and its properties. (arXiv:2211.01440v1 [physics.flu-dyn])</title>
+<link>http://arxiv.org/abs/2211.01440</link>
+<description rdf:parseType="Literal">&lt;p&gt;The objective of this three-part work is the formulation and rigorous
+analysis of a number of reduced mathematical models that are nevertheless
+capable of describing the hydrology at the scale of a river basin (i.e.
+catchment). Coupled effects of surface and subsurface flows are considered.
+&lt;/p&gt;
+&lt;p&gt;In this second part, we construct a benchmark catchment scenario and
+investigate the effects of parameters within their typical ranges. Previous
+research on coupled surface-subsurface models have focused on numerical
+simulations of site-specific catchments; here our focus is broader and
+emphasises the study of general solutions to the mathematical models, and their
+dependencies on dimensionless parameters. This study provides a foundation
+based on the examination of a geometrically simple three-dimensional benchmark
+scenario. We develop a nondimensional coupled surface-subsurface model, and
+extract the key dimensionless parameters. We then apply asymptotic methods in
+order to discuss some potential simplifications, including the reduction of the
+geometry to a two-dimensional form, where the principal groundwater and
+overland flows occur in the hillslope direction. Numerical solutions
+demonstrate the effects of model parameters and provide guidance on the
+validity of the dimensional reductions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Morawiecki_P/0/1/0/all/0/1&quot;&gt;Piotr Morawiecki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Trinh_P/0/1/0/all/0/1&quot;&gt;Philippe H. Trinh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01560">
+<title>Imaging the decay of quantized vortex rings to decipher quantum dissipation. (arXiv:2211.01560v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01560</link>
+<description rdf:parseType="Literal">&lt;p&gt;Like many quantum fluids, superfluid helium-4 (He II) can be considered as a
+mixture of two miscible fluid components: an inviscid superfluid and a viscous
+normal fluid consisting of thermal quasiparticles [1]. A mutual friction
+between the two fluids can emerge due to quasiparticles scattering off
+quantized vortex lines in the superfluid [2]. This quantum dissipation
+mechanism is the key for understanding various fascinating behaviors of the
+two-fluid system [3,4]. However, due to the lack of experimental data for
+guidance, modeling the mutual friction between individual vortices and the
+normal fluid remains an unsettled topic despite decades of research [5-10].
+Here we report an experiment where we visualize the motion of quantized vortex
+rings in He II by decorating them with solidified deuterium tracer particles.
+By examining how the rings spontaneously shrink and accelerate, we provide
+unequivocal evidences showing that only a recent theory [9] which accounts for
+the coupled motion of the two fluids with a self-consistent local friction can
+reproduce the observed ring dynamics. Our work eliminates long-standing
+ambiguities in our theoretical description of the vortex dynamics in He II,
+which will have a far-reaching impact since similar mutual friction concept has
+been adopted for a wide variety of quantum two-fluid systems, including atomic
+Bose-Einstein condensates (BECs) [11,12], superfluid neutron stars [13-15], and
+gravity-mapped holographic superfluid [16,17].
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tang_Y/0/1/0/all/0/1&quot;&gt;Yuan Tang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Guo_W/0/1/0/all/0/1&quot;&gt;Wei Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kobayashi_H/0/1/0/all/0/1&quot;&gt;Hiromichi Kobayashi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yui_S/0/1/0/all/0/1&quot;&gt;Satoshi Yui&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tsubota_M/0/1/0/all/0/1&quot;&gt;Makoto Tsubota&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kanai_T/0/1/0/all/0/1&quot;&gt;Toshiaki Kanai&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01649">
+<title>Inverse Magnus effect in a rarefied gas. (arXiv:2211.01649v1 [physics.flu-dyn])</title>
+<link>http://arxiv.org/abs/2211.01649</link>
+<description rdf:parseType="Literal">&lt;p&gt;The transverse force exerted on a rotating sphere immersed in an otherwise
+uniform flow of a rarefied gas is investigated based on the
+Bhatnagar-Gross-Krook (BGK) model of the Boltzmann equation assuming the
+Maxwell boundary condition on the sphere. In several existing studies, it has
+been shown that the transverse force acting on the sphere, also known as the
+Magnus force, has opposite signs in the free molecular and continuum flows. The
+present study intends to clarify the force&apos;s transition in terms of the Knudsen
+number (i.e., the reciprocal ratio of the sphere radius to the molecular mean
+free path) with a particular interest in the impact of the sphere&apos;s surface
+accommodation. It is found that the threshold of the Knudsen number, at which
+the transverse force changes the sign, depends only weakly on the accommodation
+coefficient, suggesting certain robustness in the threshold. The present study
+is an extension of the previous work [S. Taguchi and T. Tsuji, J. Fluid. Mech.
+933, A37 (2022)], in which the case of complete accommodation (diffuse
+reflection) is exclusively considered.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Taguchi_S/0/1/0/all/0/1&quot;&gt;Satoshi Taguchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Tsuji_T/0/1/0/all/0/1&quot;&gt;Tetsuro Tsuji&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01685">
+<title>Generalized topological bulk-edge correspondence in continuous systems with non-Hermitian boundary conditions. (arXiv:2211.01685v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01685</link>
+<description rdf:parseType="Literal">&lt;p&gt;The bulk-edge correspondence (BEC) is the hallmark of topological systems. In
+continuous (non-lattice) Hermitian systems with unbounded wavevector it was
+recently shown that the BEC is modified. How would it be further affected in
+non-Hermitian systems, experiencing loss and/or gain? In this work we take the
+first step in this direction, by studying a Hermitian continuous system with
+non-Hermitian boundary conditions. We find in this case that edge modes emerge
+at roots of the scattering matrix, as opposed to the Hermitian case, where they
+emerge at poles (or, more accurately, coalescence of roots and poles). This
+entails a nontrivial modification to the relative Levinson&apos;s theorem. We then
+show that the topological structure remains the same as in the Hermitian case,
+and the generalized BEC holds, provided one employs appropriate modified
+contours in the wavevector plane, so that the scattering matrix phase winding
+counts the edge modes correctly. We exemplify all this using a paradigmatic
+model of waves in a shallow ocean or active systems in the presence of odd
+viscosity, as well as 2D electron gas with Hall viscosity. We use this
+opportunity to examine the case of large odd viscosity, where the scattering
+matrix becomes $2\times2$, which has not been discussed in previous works on
+the Hermitian generalized BEC.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rapoport_O/0/1/0/all/0/1&quot;&gt;Orr Rapoport&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Goldstein_M/0/1/0/all/0/1&quot;&gt;Moshe Goldstein&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01754">
+<title>Laminar mixed convection in an eccentric annular horizontal duct for a thermodependent non-Newtonian fluid. (arXiv:2211.01754v1 [physics.flu-dyn])</title>
+<link>http://arxiv.org/abs/2211.01754</link>
+<description rdf:parseType="Literal">&lt;p&gt;The present work focuses on the study of mixed convection of a purely viscous
+shear-thinning fluid in a horizontal annular eccentric duct. The inner and
+outer cylinders are heated with constant and uniform heat flux densities. The
+objective of this work is to study the effect of the variation of eccentricity,
+rheological behavior of the fluid as well as the thermodependency of the
+rheological parameters on the reorganization of the flow and thermal
+stratification caused by the buoyancy forces. At the entrance of the heating
+zone, the dynamic regime is assumed to be established and the temperature
+profile uniform. The conservation equations are solved numerically using a
+finite difference method with implicit schemes. A secondary azimuthal flow,
+induced by natural convection, develops downstream of the inlet section. This
+flow creates a stratification of the thermal field on a given section of the
+duct, which intensifies downstream from the entrance. On the other hand, the
+decrease in consistency with increasing temperature near the heated walls
+produces a centrifugal radial flow towards the walls. The presence of an
+eccentricity induces in turn a significant effect on the main dynamic field and
+the stratification of the thermal field. Two cases of upward and downward
+eccentricity are treated. These show that an upward shift increases the
+stratification of the thermal field, while the stratification begins to weaken
+from a certain amount of eccentricity in the case of downward shift. This
+represents an important result in terms of possible industrial applications. We
+may indeed conclude that an appropriate choice of downward eccentricity can
+reduce the thermal stratification, observed experimentally in the case of a
+concentric heated annular duct [1], when this stratification is undesirable.
+The choice of this eccentricity depends on rheological and thermal properties
+of the fluid.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Messaoudene_N/0/1/0/all/0/1&quot;&gt;N Ait Messaoudene&lt;/a&gt; (UB1), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Horimek_A/0/1/0/all/0/1&quot;&gt;A Horimek&lt;/a&gt; (UB1), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Nouar_C/0/1/0/all/0/1&quot;&gt;C Nouar&lt;/a&gt; (LEMTA), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Benaouda_Zouaoui_B/0/1/0/all/0/1&quot;&gt;B Benaouda-Zouaoui&lt;/a&gt; (UB1)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.09514">
+<title>Emergence of isotropy and dynamic scaling in 2D wave turbulence in a homogeneous Bose gas. (arXiv:2203.09514v3 [cond-mat.quant-gas] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.09514</link>
+<description rdf:parseType="Literal">&lt;p&gt;We realise a turbulent cascade of wave excitations in a homogeneous 2D Bose
+gas, and probe on all relevant time and length scales how it builds up from
+small to large momenta, until the system reaches a steady state with matching
+energy injection and dissipation. This all-scales view directly reveals the two
+theoretically expected cornerstones of turbulence formation -- the emergence of
+statistical momentum-space isotropy under anisotropic forcing, and the
+spatiotemporal scaling of the momentum distribution at times before any energy
+is dissipated.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Galka_M/0/1/0/all/0/1&quot;&gt;Maciej Ga&amp;#x142;ka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Christodoulou_P/0/1/0/all/0/1&quot;&gt;Panagiotis Christodoulou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gazo_M/0/1/0/all/0/1&quot;&gt;Martin Gazo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Karailiev_A/0/1/0/all/0/1&quot;&gt;Andrey Karailiev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dogra_N/0/1/0/all/0/1&quot;&gt;Nishant Dogra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schmitt_J/0/1/0/all/0/1&quot;&gt;Julian Schmitt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hadzibabic_Z/0/1/0/all/0/1&quot;&gt;Zoran Hadzibabic&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.13426">
+<title>A revision on Rayleigh capillary jet breakup. (arXiv:2210.13426v2 [physics.flu-dyn] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.13426</link>
+<description rdf:parseType="Literal">&lt;p&gt;The average Rayleigh capillary breakup length of a cylindrical Newtonian
+viscous liquid jet moving with homogeneous velocity $\hat{U}$ (negligible
+external forces) must be determined by the selection of normal modes with
+time-independent amplitude and wavelength (invariant modes, IMs). Both positive
+and negative group velocity IMs exist in ample ranges of the parameter domain
+(Weber and Ohnesorge numbers), which explains (i) the average breakup length
+independence on ambient conditions (long-term resonance), and (ii) its
+proportionality to the inverse of the spatial growth rate of the dominant
+positive group velocity IM. Published experimental results since Grace (1965,
+PhD Thesis) confirm our proposal.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ganan_Calvo_A/0/1/0/all/0/1&quot;&gt;Alfonso M. Ganan-Calvo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16358">
+<title>Applicability of machine learning in uncertainty quantification of turbulence models. (arXiv:2210.16358v2 [physics.flu-dyn] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16358</link>
+<description rdf:parseType="Literal">&lt;p&gt;White paper: The aim of this work is to apply and analyze machine learning
+methods for uncertainty quantification of turbulence models. In this work we
+investigate the classical and data-driven variants of the eigenspace
+perturbation method. This methodology is designed to estimate the uncertainties
+related to the shape of the modeled Reynolds stress tensor in the Navier-Stokes
+equations for Computational Fluid Dynamics (CFD). The underlying methodology is
+extended by adding a data-driven, physics-constrained machine learning approach
+in order to predict local perturbations of the Reynolds stress tensor. Using
+separated two-dimensional flows, we investigate the generalization properties
+of the machine learning models and shed a light on impacts of applying a
+data-driven extension.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Matha_M/0/1/0/all/0/1&quot;&gt;Marcel Matha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kucharczyk_K/0/1/0/all/0/1&quot;&gt;Karsten Kucharczyk&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16762">
+<title>Spin hydrodynamic generation in unsteady flows. (arXiv:2210.16762v2 [physics.flu-dyn] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16762</link>
+<description rdf:parseType="Literal">&lt;p&gt;We theoretically investigate a spin-mediated conversion from fluid dynamics
+to voltage, known as spin hydrodynamic generation (SHDG), in oscillatory and
+transient unsteady flows. We consider unsteady flows of liquid metal between
+two parallel infinite planes and then calculate its vorticity fields based on
+the Navier--Stokes equation for an incompressible viscous fluid. The spin
+accumulation and spin current generated by unsteady flows are derived using a
+spin-diffusion equation, including spin-vorticity coupling, which is a couple
+of angular momentum between electron spin and vorticity field in unsteady
+flows. The estimation of SHDG in liquid mercury flow suggests that an
+observable magnitude of voltage can be induced in unsteady flows. Our results
+are expected to enable the realization of high-speed spin devices with unsteady
+flows and broaden the range of fluid spintronics applicability.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Funato_T/0/1/0/all/0/1&quot;&gt;Takumi Funato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Matsuo_M/0/1/0/all/0/1&quot;&gt;Mamoru Matsuo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00771">
+<title>Creation of an isolated turbulent blob fed by vortex rings. (arXiv:2211.00771v2 [physics.flu-dyn] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00771</link>
+<description rdf:parseType="Literal">&lt;p&gt;Turbulence is hard to control. A plethora of experimental methods have been
+developed to generate this ephemeral state of matter, leading to fundamental
+insights into its statistical and structural features as well as its onset at
+ever higher Reynolds numbers. In all cases however, the central role played by
+the material boundaries of the apparatus poses a challenge on understanding
+what the turbulence has been fed, and how it would freely evolve. Here, we
+build and control a confined state of turbulence using only elemental building
+blocks: vortex rings. We create a stationary and isolated blob of turbulence
+($Re_\lambda$=50-300) in a quiescent environment, initiated and sustained
+solely by vortex rings. We assemble a full picture of its three-dimensional
+structure, onset, energy budget and tunability. Crucially, the incoming vortex
+rings can be endowed with conserved quantities, such as helicity, which can
+then be controllably transferred to the turbulent state. Our `one eddy at a
+time&apos; approach paves the way for sculpting turbulent flows much as a state of
+matter, `printing&apos; it at a targeted position, localizing it, and ultimately
+harnessing it. Our work paves the way to gaining a complete picture of this
+ephemeral state of flow.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Matsuzawa_T/0/1/0/all/0/1&quot;&gt;Takumi Matsuzawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mitchell_N/0/1/0/all/0/1&quot;&gt;Noah P. Mitchell&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Perrard_S/0/1/0/all/0/1&quot;&gt;Stephane Perrard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Irvine_W/0/1/0/all/0/1&quot;&gt;William T.M. Irvine&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
