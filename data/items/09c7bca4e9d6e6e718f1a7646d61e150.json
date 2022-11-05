@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-33099 (fedora, lua)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33099",
+  "description": "An issue in the component luaG_runerror of Lua v5.4.4 and below leads to a heap-buffer overflow when a recursive error occurs.",
+  "dc:date": "2022-07-01T12:15:08Z"
+}
