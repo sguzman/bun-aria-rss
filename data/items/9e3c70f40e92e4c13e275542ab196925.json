@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:I0-izyq6q5s",
+  "yt:videoId": "I0-izyq6q5s",
+  "yt:channelId": "UCmtyQOKKmrMVaKuRXz02jbQ",
+  "title": "How Do Computers Remember?",
+  "link": "",
+  "author": {
+    "name": "Sebastian Lague",
+    "uri": "https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+  },
+  "published": "2020-12-04T11:11:00+00:00",
+  "updated": "2022-11-01T13:39:27+00:00",
+  "media:group": {
+    "media:title": "How Do Computers Remember?",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Exploring some of the basics of computer memory: latches, flip flops, and registers!\n\nThe simulation tool is now available to download:\nhttps://sebastian.itch.io/digital-logic-sim\nSource code for the simulator can be found here:\nhttps://github.com/SebLague/Digital-Logic-Sim\n\nIf you'd like to support the creation of more videos (and get early access to new content), I'd greatly appreciate the support here: https://www.patreon.com/SebastianLague\n\nSee the full playlist here: https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq\n\nResources and Inspiration:\nhttps://www.youtube.com/c/BenEater\nhttps://www.coursera.org/learn/build-a-computer\nhttps://en.wikipedia.org/wiki/Flip-flop_(electronics)#SR_NOR_latch\nhttps://en.wikipedia.org/wiki/Sequential_logic\nhttps://electronics.stackexchange.com/questions/65463/why-edge-triggering-is-preferred-over-level-triggering\nhttps://tams.informatik.uni-hamburg.de/applets/hades/webdemos/16-flipflops/20-dlatch/dff-enable.html\n\nChapters:\n00:00 Intro\n00:33 Set-Reset Latch\n04:33 Data Latch\n05:56 Race Condition!\n07:32 Breadboard Data Latch\n09:36 Asynchronous Register\n11:41 The Clock\n13:03 Edge Triggered Flip Flop\n14:18 Synchronous Register\n16:48 Testing 4-bit Registers\n18:25 Outro\n\n\nMusic:\n\"Frontier\" by Shimmer\n\"A Quiet Place\" by Jordan White\n\"Constellations\" by Acreage\n\"Beyond the Horizon\" by Sounds Like Sander\n\"Crystal Bursts\" by Cody Martin\n\"When Rain Comes\" by Tide Electric\n\"Air\" by Assaf Ayalon\n\"Mallets of Mischief\" by Rhythm Scott\n\nImages:\nhttps://upload.wikimedia.org/wikipedia/commons/8/87/TTL_flip-flop.svg",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-39009 (cognos_analytics, oncommand_insight)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-39009",
+  "description": "IBM Cognos Analytics 11.1.7, 11.2.0, and 11.2.1 stores user credentials in plain clear text which can be read by a local privileged user. IBM X-Force ID: 213554.",
+  "dc:date": "2022-09-01T19:15:12Z"
+}

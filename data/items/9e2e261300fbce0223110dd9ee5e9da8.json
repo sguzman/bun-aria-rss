@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:UhfUNqFDzog",
+  "yt:videoId": "UhfUNqFDzog",
+  "yt:channelId": "UCtxCXg-UvSnTKPOzLH4wJaQ",
+  "title": "Java is Very Fast, If You Don't Create Too Many Objects",
+  "link": "",
+  "author": {
+    "name": "Coding Tech",
+    "uri": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ"
+  },
+  "published": "2022-10-22T22:15:07+00:00",
+  "updated": "2022-10-31T03:41:03+00:00",
+  "media:group": {
+    "media:title": "Java is Very Fast, If You Don't Create Too Many Objects",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "While Java Developers are familiar with the impact of GC pauses, they may not realise that allocating object could be sapping throughput by 10x or more the GC cost esp for very short-lived objects.\n\nExamples from real life will be discussed during the session. Such as, event messaging rates of 4 million events per minute on a single machine in Java, and the impact of creating just one small object per event makes.\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=qsybVQ5aDDk",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
