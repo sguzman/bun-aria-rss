@@ -1,0 +1,7 @@
+{
+  "title": "Don't Pickle Your Data",
+  "link": "",
+  "updated": "2014-02-12T00:00:00-08:00",
+  "id": "http://www.benfrederickson.com/dont-pickle-your-data/",
+  "content": "\n        \n            <img src=\"http://www.benfrederickson.com/images/python-serialization/speed.png\" width=\"100%\" style=\"max-width:500px\">\n        \n        <p>Pretty much every Python programmer out there has broken down at one point and\nand used the ‘<a href=\"http://docs.python.org/2/library/pickle.html\">pickle</a>’ module for writing objects out to disk.</p>\n\n<p>The advantage of using pickle is that it can serialize pretty much any Python\nobject, without having to add any extra code. Its also smart in that in will\nonly write out any single object once, making it effective to store recursive\nstructures like graphs. For these reasons pickle is usually the default\nserialization mechanism in Python, used in modules likes\n<a href=\"https://pypi.python.org/pypi/python-memcached/\">python-memcached</a>.</p>\n\n<p>However, using pickle is still a terrible idea that should be avoided whenever\npossible.</p>\n\n<p class='more'><a href='http://www.benfrederickson.com/dont-pickle-your-data/'>Read more ...</a></p>\n     "
+}

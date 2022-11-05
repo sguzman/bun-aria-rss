@@ -1,0 +1,16 @@
+{
+  "title": "Triple Pendulum CHAOS!",
+  "link": "",
+  "published": "2017-03-08T07:00:00-08:00",
+  "updated": "2017-03-08T07:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2017-03-08:blog/2017/03/08/triple-pendulum-chaos/",
+  "summary": "<p>Earlier this week a tweet made the rounds which features a video that nicely demonstrates chaotic dynamical systems in action:</p>\n<p><blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">A visualization of chaos: 41 triple pendulums with very slightly different initial conditions <a href=\"https://t.co/CTiABFVWHW\">pic.twitter.com/CTiABFVWHW</a></p>&mdash; Fermat&#39;s Library (@fermatslibrary) <a href=\"https://twitter.com/fermatslibrary/status/838392423063687168\">March 5, 2017</a></blockquote></p>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p><em>Edit: a reader pointed out that the original creator of this animation <a href=\"https://www.reddit.com/r/mathpics/comments/4nd5h1/41_triple_pendulums_with_very_slightly_different/\">posted it on reddit</a> in 2016.</em></p>\n<p>Naturally, I immediately wondered whether I could reproduce this simlulation in Python.\nThis post is the result.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

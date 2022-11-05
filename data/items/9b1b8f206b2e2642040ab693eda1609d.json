@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-37620 (html-minifier)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37620",
+  "description": "A Regular Expression Denial of Service (ReDoS) flaw was found in kangax html-minifier 4.0.0 via the candidate variable in htmlminifier.js.",
+  "dc:date": "2022-10-31T12:15:10Z"
+}
