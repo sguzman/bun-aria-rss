@@ -1,0 +1,12 @@
+{
+  "title": "Rejoinder: the problem with conda-forge right now",
+  "link": "",
+  "published": "2016-04-21T05:00:00-07:00",
+  "updated": "2016-04-21T05:00:00-07:00",
+  "author": {
+    "name": "Wes McKinney"
+  },
+  "id": "tag:wesmckinney.com,2016-04-21:/blog/the-problem-with-conda-forge-right-now/",
+  "summary": "<p><strong>Summary</strong>: I raise some follow-up points to yesterday's post on\ncommunity-governed packaging efforts.</p>",
+  "content": "<p><strong>Summary</strong>: I raise some follow-up points to yesterday's post on\ncommunity-governed packaging efforts.</p>\n\n\n<h2>The problem with conda-forge today</h2>\n<p>As discussed in <a href=\"http://wesmckinney.com/blog/conda-forge-centos-moment/\">my blog post yesterday</a>, <a href=\"https://conda-forge.github.io\">conda-forge</a> may offer the way\nforward to create a community-governed package repository that meets the\nstandards already established in the Linux, R, and other open source\ncommunities.</p>\n<p>The single biggest problem with conda-forge right now is that its hosting of\nbuild artifacts depends on closed source software and a proprietary hosting\nservice, <a href=\"https://anaconda.org\">anaconda.org</a> (formerly <a href=\"http://binstar.org/\">binstar.org</a>). To continue the Linux\nanalogy, it would be as if software for creating <code>apt</code> or <code>yum</code> package repos\nwere closed source. It's much better than not having any hosting service\navailable, but it would be better to have a option available that is open\nsource and under community governance. You can see how this works in the\n<a href=\"http://kaivanov.blogspot.com/2012/08/creating-apt-repository-with-reprepro.html\">Debian / Ubuntu ecosystem</a>, for example.</p>\n<p>The same type of software used to create <a href=\"https://anaconda.org\">anaconda.org</a> and the on-premises\nproduct analogue (which Continuum sells to enterprises to <a href=\"https://docs.continuum.io/anaconda-repository/install\">run on their own\nservers</a> -- so their own closed-source software can be conda-installed\nbehind firewalls) is also needed to create a network of publicly available\npackage mirrors. See R's <a href=\"https://cran.r-project.org/mirrors.html\">CRAN mirror network</a> for an example of what this\nmight look like.</p>\n<h2>Summary</h2>\n<p>Solving the community-governed binary packaging problem completely requires the\nnon-trivial task of creating an open source conda build artifact server in\naddition to the problem of operating shared build and test infrastructure.</p>"
+}

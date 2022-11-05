@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32907 (iphone_os, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32907",
+  "description": "This issue was addressed with improved checks. This issue is fixed in tvOS 16, iOS 16, watchOS 9. An app may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}
