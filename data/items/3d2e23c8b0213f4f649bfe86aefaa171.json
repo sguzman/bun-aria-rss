@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Bruce Schneier"
+  },
+  "title": "On the Randomness of Automatic Card Shufflers",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "id": "https://www.schneier.com/?p=65996",
+  "updated": "2022-10-24T03:41:24Z",
+  "published": "2022-10-24T11:37:55Z",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "summary": "<p>Many years ago, Matt Blaze and I talked about getting our hands on a casino-grade automatic shuffler and looking for vulnerabilities. We never did it&#8212;I remember that we didn&#8217;t even try very hard&#8212;but <a href=\"https://www.bbc.com/future/article/20221019-how-a-magician-mathematician-revealed-a-casino-loophole\">this article</a> shows that we probably would have found non-random properties:</p>\n<blockquote><p>&#8230;the executives had recently discovered that one of their machines had been hacked by a gang of hustlers. The gang used a hidden video camera to record the workings of the card shuffler through a glass window. The images, transmitted to an accomplice outside in the casino parking lot, were played back in slow motion to figure out the sequence of cards in the deck, which was then communicated back to the gamblers inside. The casino lost millions of dollars before the gang were finally caught...</p></blockquote>",
+  "content": "<p>Many years ago, Matt Blaze and I talked about getting our hands on a casino-grade automatic shuffler and looking for vulnerabilities. We never did it&#8212;I remember that we didn&#8217;t even try very hard&#8212;but <a href=\"https://www.bbc.com/future/article/20221019-how-a-magician-mathematician-revealed-a-casino-loophole\">this article</a> shows that we probably would have found non-random properties:</p>\n<blockquote><p>&#8230;the executives had recently discovered that one of their machines had been hacked by a gang of hustlers. The gang used a hidden video camera to record the workings of the card shuffler through a glass window. The images, transmitted to an accomplice outside in the casino parking lot, were played back in slow motion to figure out the sequence of cards in the deck, which was then communicated back to the gamblers inside. The casino lost millions of dollars before the gang were finally caught.</p></blockquote>\n<p>Stanford mathematician Persi Diaconis found other flaws:</p>\n<blockquote><p>With his collaborator Susan Holmes, a statistician at Stanford, Diaconis travelled to the company&#8217;s Las Vegas showroom to examine a prototype of their new machine. The pair soon discovered a flaw. Although the mechanical shuffling action appeared random, the mathematicians noticed that the resulting deck still had rising and falling sequences, which meant that they could make predictions about the card order. </p></blockquote>\n<p><i>New Scientist</i> <a href=\"https://www.newscientist.com/article/mg17523525-500-coming-up-trumps/\">article</a> behind a paywall. Slashdot <a href=\"https://games.slashdot.org/story/22/10/22/2237234/how-a-mathematician-magician-revealed-a-casino-loophole\">thread</a>.</p>\n",
+  "thr:total": 17
+}
