@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"/>
+ <id>yt:channel:UCZHmQk67mSJgfCCTn7xBfew</id>
+ <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+ <title>Yannic Kilcher</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew"/>
+ <author>
+  <name>Yannic Kilcher</name>
+  <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+ </author>
+ <published>2013-11-18T16:54:48+00:00</published>
+ <entry>
+  <id>yt:video:_NMQyOu2HTo</id>
+  <yt:videoId>_NMQyOu2HTo</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>ROME: Locating and Editing Factual Associations in GPT (Paper Explained &amp; Author Interview)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_NMQyOu2HTo"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-11-04T16:34:43+00:00</published>
+  <updated>2022-11-04T16:34:43+00:00</updated>
+  <media:group>
+   <media:title>ROME: Locating and Editing Factual Associations in GPT (Paper Explained &amp; Author Interview)</media:title>
+   <media:content url="https://www.youtube.com/v/_NMQyOu2HTo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_NMQyOu2HTo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ai #language #knowledge 
+
+Large Language Models have the ability to store vast amounts of facts about the world. But little is known, how these models actually do this. This paper aims at discovering the mechanism and location of storage and recall of factual associations in GPT models, and then proposes a mechanism for the targeted editing of such facts, in form of a simple rank-one update to a single MLP layer. This has wide implications both for how we understand such models' inner workings, and for our ability to gain greater control over such models in the future.
+
+OUTLINE:
+0:00 - Introduction
+1:40 - What are the main questions in this subfield?
+6:55 - How causal tracing reveals where facts are stored
+18:40 - Clever experiments show the importance of MLPs
+24:30 - How do MLPs store information?
+29:10 - How to edit language model knowledge with precision?
+36:45 - What does it mean to know something?
+39:00 - Experimental Evaluation &amp; the CounterFact benchmark
+45:40 - How to obtain the required latent representations?
+51:15 - Where is the best location in the model to perform edits?
+58:00 - What do these models understand about language?
+1:02:00 - Questions for the community
+
+Paper: https://arxiv.org/abs/2202.05262
+Follow-up paper on Mass-Editing Memory in a Transformer: https://arxiv.org/abs/2210.07229
+
+Abstract:
+We analyze the storage and recall of factual associations in autoregressive transformer language models, finding evidence that these associations correspond to localized, directly-editable computations. We first develop a causal intervention for identifying neuron activations that are decisive in a model's factual predictions. This reveals a distinct set of steps in middle-layer feed-forward modules that mediate factual predictions while processing subject tokens. To test our hypothesis that these computations correspond to factual association recall, we modify feed-forward weights to update specific factual associations using Rank-One Model Editing (ROME). We find that ROME is effective on a standard zero-shot relation extraction (zsRE) model-editing task, comparable to existing methods. To perform a more sensitive evaluation, we also evaluate ROME on a new dataset of counterfactual assertions, on which it simultaneously maintains both specificity and generalization, whereas other methods sacrifice one or another. Our results confirm an important role for mid-layer feed-forward modules in storing factual associations and suggest that direct manipulation of computational mechanisms may be a feasible approach for model editing. The code, dataset, visualizations, and an interactive demo notebook are available at this https URL
+
+Authors: Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="280" average="5.00" min="1" max="5"/>
+    <media:statistics views="5026"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:igS2Wy8ur5U</id>
+  <yt:videoId>igS2Wy8ur5U</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>Is Stability turning into OpenAI?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=igS2Wy8ur5U"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-11-01T17:43:38+00:00</published>
+  <updated>2022-11-01T17:43:41+00:00</updated>
+  <media:group>
+   <media:title>Is Stability turning into OpenAI?</media:title>
+   <media:content url="https://www.youtube.com/v/igS2Wy8ur5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/igS2Wy8ur5U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#stablediffusion #aiart #openai 
+
+Stability AI has stepped into some drama recently. They are accused of a hostile takeover of the community-led sub-reddits and Discord servers, of going after an alternative web UI, and of falsely dealing out IP takedown notices.
+
+OUTLINE:
+0:00 - Intro
+2:40 - Stability takes over community Discord &amp; Reddit
+14:50 - AUTOMATIC1111 web UI, stolen or not ?
+24:50 - Stable Diffusion 1.5 takedown request
+31:20 - Scary: Stability CIO statement on safety &amp; openness
+
+References:
+https://finance.yahoo.com/news/stability-ai-startup-behind-stable-170151950.html?guccounter=1
+https://analyticsindiamag.com/when-stability-ai-went-rogue-on-reddit-rampage%ef%bf%bc/
+https://www.reddit.com/r/StableDiffusion/comments/y12jo3/comment/irvsek2/?utm_source=share&amp;utm_medium=web2x&amp;context=3
+https://imgur.com/a/JjpRpmP
+https://imgur.com/a/JjpRpmP
+https://www.reddit.com/r/StableDiffusion/comments/y19kdh/mod_here_my_side_of_the_story/
+https://imgur.com/a/TpTMr0S
+https://imgur.com/a/zTae3hz
+https://imgur.com/a/QDNA6cG
+https://www.reddit.com/r/StableDiffusion/comments/y17xn1/emad_in_discord_right_now/
+https://www.reddit.com/r/StableDiffusion/comments/y156op/new_mods_hijacked_this_sub_2_weeks_ago/
+https://www.reddit.com/r/StableDiffusion/comments/y1nc7t/rstablediffusion_should_be_independent_and_run_by/
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+https://github.com/AUTOMATIC1111/stable-diffusion-webui-feature-showcase
+https://www.reddit.com/r/StableDiffusion/comments/y34h2a/comment/isiymmj/?context=3
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/2509
+https://www.reddit.com/r/StableDiffusion/comments/y1uuvj/automatic1111_did_nothing_wrong_some_people_are/is298ix/?context=3
+https://www.reddit.com/r/OutOfTheLoop/comments/y22zg6/comment/is1h02a/
+https://www.reddit.com/r/StableDiffusion/comments/y1uuvj/automatic1111_did_nothing_wrong_some_people_are/
+https://imgur.com/a/Z2QsOEw
+https://www.reddit.com/r/StableDiffusion/comments/y0uvps/automatic1111_removed_from_pinned_guide/
+https://huggingface.co/runwayml/stable-diffusion-v1-5/discussions/1#6351a36ca9a9ae18220726c7
+https://danieljeffries.substack.com/p/why-the-future-of-open-source-ai
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="922" average="5.00" min="1" max="5"/>
+    <media:statistics views="18728"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_okxGdHM5b8</id>
+  <yt:videoId>_okxGdHM5b8</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>Neural Networks are Decision Trees (w/ Alexander Mattick)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_okxGdHM5b8"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-10-21T11:28:27+00:00</published>
+  <updated>2022-10-21T13:31:06+00:00</updated>
+  <media:group>
+   <media:title>Neural Networks are Decision Trees (w/ Alexander Mattick)</media:title>
+   <media:content url="https://www.youtube.com/v/_okxGdHM5b8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_okxGdHM5b8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#neuralnetworks #machinelearning #ai 
+
+Alexander Mattick joins me to discuss the paper &quot;Neural Networks are Decision Trees&quot;, which has generated a lot of hype on social media. We ask the question: Has this paper solved one of the large mysteries of deep learning and opened the black-box neural networks up to interpretability?
+
+OUTLINE:
+0:00 - Introduction
+2:20 - Aren't Neural Networks non-linear?
+5:20 - What does it all mean?
+8:00 - How large do these trees get?
+11:50 - Decision Trees vs Neural Networks
+17:15 - Is this paper new?
+22:20 - Experimental results
+27:30 - Can Trees and Networks work together?
+
+Paper: https://arxiv.org/abs/2210.05189
+
+Abstract:
+In this manuscript, we show that any feedforward neural network having piece-wise linear activation functions can be represented as a decision tree. The representation is equivalence and not an approximation, thus keeping the accuracy of the neural network exactly as is. We believe that this work paves the way to tackle the black-box nature of neural networks. We share equivalent trees of some neural networks and show that besides providing interpretability, tree representation can also achieve some computational advantages. The analysis holds both for fully connected and convolutional networks, which may or may not also include skip connections and/or normalizations.
+
+Author: Caglar Aytekin
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1222" average="5.00" min="1" max="5"/>
+    <media:statistics views="39444"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3N3Bl5AA5QU</id>
+  <yt:videoId>3N3Bl5AA5QU</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>This is a game changer! (AlphaTensor by DeepMind explained)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3N3Bl5AA5QU"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-10-07T22:45:51+00:00</published>
+  <updated>2022-10-08T09:45:08+00:00</updated>
+  <media:group>
+   <media:title>This is a game changer! (AlphaTensor by DeepMind explained)</media:title>
+   <media:content url="https://www.youtube.com/v/3N3Bl5AA5QU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3N3Bl5AA5QU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#alphatensor #deepmind #ai 
+
+Matrix multiplication is the most used mathematical operation in all of science and engineering. Speeding this up has massive consequences. Thus, over the years, this operation has become more and more optimized. A fascinating discovery was made when it was shown that one actually needs less than N^3 multiplication operations to multiply to NxN matrices. DeepMind goes a step further and creates AlphaTensor, a Deep Reinforcement Learning algorithm that plays a single-player game, TensorGame, in order to find even more optimized algorithms for matrix multiplication. And it turns out, there exists a plethora of undiscovered matrix multiplication algorithms, which not only will make everything from computers to smart toasters faster, but also bring new insights into fundamental math and complexity theory.
+
+Sponsor: Assembly AI
+Link: https://www.assemblyai.com/?utm_source=youtube&amp;utm_medium=social&amp;utm_campaign=yannic_sentiment
+
+OUTLINE:
+0:00 - Intro
+1:50 - Sponsor: Assembly AI (link in description)
+3:25 - What even is Matrix Multiplication?
+6:10 - A very astounding fact
+8:45 - Trading multiplications for additions
+12:35 - Matrix Multiplication as a Tensor
+17:30 - Tensor Decompositions
+20:30 - A formal way of finding multiplication algorithms
+31:00 - How to formulate this as a game?
+39:30 - A brief primer on AlphaZero / MCTS
+45:40 - The Results
+48:15 - Optimizing for different hardware
+52:40 - Expanding fundamental math
+53:45 - Summary &amp; Final Comments
+
+Paper: https://www.nature.com/articles/s41586-022-05172-4
+Title: Discovering faster matrix multiplication algorithms with reinforcement learning
+
+Abstract:
+Improving the efficiency of algorithms for fundamental computations can have a widespread impact, as it can affect the overall speed of a large amount of computations. Matrix multiplication is one such primitive task, occurring in many systems—from neural networks to scientific computing routines. The automatic discovery of algorithms using machine learning offers the prospect of reaching beyond human intuition and outperforming the current best human-designed algorithms. However, automating the algorithm discovery procedure is intricate, as the space of possible algorithms is enormous. Here we report a deep reinforcement learning approach based on AlphaZero1 for discovering efficient and provably correct algorithms for the multiplication of arbitrary matrices. Our agent, AlphaTensor, is trained to play a single-player game where the objective is finding tensor decompositions within a finite factor space. AlphaTensor discovered algorithms that outperform the state-of-the-art complexity for many matrix sizes. Particularly relevant is the case of 4 × 4 matrices in a finite field, where AlphaTensor’s algorithm improves on Strassen’s two-level algorithm for the first time, to our knowledge, since its discovery 50 years ago2. We further showcase the flexibility of AlphaTensor through different use-cases: algorithms with state-of-the-art complexity for structured matrix multiplication and improved practical efficiency by optimizing matrix multiplication for runtime on specific hardware. Our results highlight AlphaTensor’s ability to accelerate the process of algorithmic discovery on a range of problems, and to optimize for different criteria.
+
+Authors: Alhussein Fawzi, Matej Balog, Aja Huang, Thomas Hubert, Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Francisco J. R. Ruiz, Julian Schrittwieser, Grzegorz Swirszcz, David Silver, Demis Hassabis &amp; Pushmeet Kohli
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="4287" average="5.00" min="1" max="5"/>
+    <media:statistics views="148141"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:S-7r0-oysaU</id>
+  <yt:videoId>S-7r0-oysaU</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] OpenAI's Whisper | Meta Reads Brain Waves | AI Wins Art Fair, Annoys Humans</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=S-7r0-oysaU"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-10-02T20:50:43+00:00</published>
+  <updated>2022-10-08T05:35:54+00:00</updated>
+  <media:group>
+   <media:title>[ML News] OpenAI's Whisper | Meta Reads Brain Waves | AI Wins Art Fair, Annoys Humans</media:title>
+   <media:content url="https://www.youtube.com/v/S-7r0-oysaU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/S-7r0-oysaU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#mlnews #openai #ai 
+
+Everything important going on in the ML world right here!
+
+Sponsor: Paperspace
+https://www.paperspace.com/?src=yannic
+
+OUTLINE:
+0:00 - Introduction
+0:20 - Whisper: Open-Source Speech Transcription
+6:30 - Sponsor: Paperspace
+9:30 - Meta: How the brain hears audio
+11:25 - PyTorch moves to Linux Foundation
+12:15 - French Government uses AI to find unlicensed swimming pools
+13:35 - AlphaFold extends database
+14:10 - John Carmack raises 20M to build AGI0729970510422016
+16:10 - Cerebras achieves model size record
+17:40 - Andrej Karpathy on YouTube
+18:35 - ColabPro changes pricing
+19:15 - Huggingface runs evaluation on the hub
+20:35 - AI wins art fair
+22:50 - PaLI: Multilingual Language-Image Learning
+23:40 - Operationalizing Machine Learning: An Interview Study
+24:35 - LAION OpenCLIP: New Models
+25:10 - BlenderBot 3 175B Released
+25:45 - OWL-ViT on the Hub
+26:10 - GLM-130B
+26:35 - Ernie-ViLG
+27:10 - Digitizing Smell using Molecular Maps
+28:00 - AlexaTM 20B
+29:00 - Audio-LM
+29:45 - Useful Things
+37:20 - Raycasting in JAX
+38:00 - GPT-3 Prompt Injection
+39:20 - GPT-3 plus Python
+40:45 - Game Emulation via DNN
+
+References here (external bc too long for YT):
+https://early-hair-c20.notion.site/ML-News-Whisper-References-17e51ca488ef4eb6b8be12749c10870c
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1625" average="5.00" min="1" max="5"/>
+    <media:statistics views="40169"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xbxe-x6wvRw</id>
+  <yt:videoId>xbxe-x6wvRw</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] Stable Diffusion Takes Over! (Open Source AI Art)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xbxe-x6wvRw"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-09-19T00:06:24+00:00</published>
+  <updated>2022-09-21T05:36:22+00:00</updated>
+  <media:group>
+   <media:title>[ML News] Stable Diffusion Takes Over! (Open Source AI Art)</media:title>
+   <media:content url="https://www.youtube.com/v/xbxe-x6wvRw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xbxe-x6wvRw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#stablediffusion #aiart #mlnews 
+
+Stable Diffusion has been released and is riding a wave of creativity and collaboration. But not everyone is happy about this...
+
+Sponsor: NVIDIA
+GPU Raffle: https://ykilcher.com/gtc
+
+OUTLINE:
+0:00 - Introduction
+0:30 - What is Stable Diffusion?
+2:25 - Open-Source Contributions and Creations
+7:55 - Textual Inversion
+9:30 - OpenAI vs Open AI
+14:20 - Journalists be outraged
+16:20 - AI Ethics be even more outraged
+19:45 - Do we need a new social contract?
+21:30 - More applications
+22:55 - Helpful Things
+23:45 - Sponsor: NVIDIA (&amp; how to enter the GPU raffle)
+
+References: https://early-hair-c20.notion.site/Stable-Diffusion-Takes-Over-Referenes-7a2f45b8f7e04ae0ba19dbfcd2b7f7c0
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="3695" average="5.00" min="1" max="5"/>
+    <media:statistics views="75226"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0PAiQ1jTN5k</id>
+  <yt:videoId>0PAiQ1jTN5k</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>How to make your CPU as fast as a GPU - Advances in Sparsity w/ Nir Shavit</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0PAiQ1jTN5k"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-09-17T12:19:00+00:00</published>
+  <updated>2022-09-23T10:23:54+00:00</updated>
+  <media:group>
+   <media:title>How to make your CPU as fast as a GPU - Advances in Sparsity w/ Nir Shavit</media:title>
+   <media:content url="https://www.youtube.com/v/0PAiQ1jTN5k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0PAiQ1jTN5k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ai #sparsity #gpu 
+
+Sparsity is awesome, but only recently has it become possible to properly handle sparse models at good performance. Neural Magic does exactly this, using a plain CPU. No specialized hardware needed, just clever algorithms for pruning and forward-propagation of neural networks. Nir Shavit and I talk about how this is possible, what it means in terms of applications, and why sparsity should play a much larger role in the Deep Learning community.
+
+Sponsor: AssemblyAI
+Link: https://www.assemblyai.com/?utm_source=youtube&amp;utm_medium=social&amp;utm_campaign=yannic_autochapters
+
+Check out Neural Magic: https://neuralmagic.com/
+and DeepSparse: https://github.com/neuralmagic/deepsparse
+
+OUTLINE:
+0:00 Introduction
+1:08 Sponsor: AssemblyAI
+2:50 Start of Interview
+4:15 How the NIR company was founded? 
+5:10 What is Sparsity about? 
+9:30 Link between the human brain and sparsity
+12:10 Where should the extra resource that the human brain doesn't have go?
+14:40 Analogy for Sparse Architecture
+16:48 Possible future for Sparse Architecture as standard architure for Neural Networks
+20:08 Pruning &amp; Sparsification
+22:57 What keeps us from building sparse models?
+25:34 Why are GPUs so unsuited for sparse models?
+28:47 CPU and GPU in connection with memory
+30:14 What Neural Magic does?
+32:54 How do you deal with overlaps in tensor columns?
+33:41 The best type of sparsity to execute tons of CPU
+37:24 What kind of architecture would make the best use out of a combined system of CPUs and GPUs?
+41:04 Graph Neural Networks in connection to sparsity
+43:04 Intrinsic connection between the Sparsification of Neural Networks, Non Layer-Wise Computation, Blockchain Technology, Smart Contracts and Distributed Computing
+45:23 Neural Magic's target audience
+48:16 Is there a type of model where it works particularly well and the type where it doesn't?
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1327" average="5.00" min="1" max="5"/>
+    <media:statistics views="36766"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:K-cXYoqHxBc</id>
+  <yt:videoId>K-cXYoqHxBc</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>More Is Different for AI - Scaling Up, Emergence, and Paperclip Maximizers (w/ Jacob Steinhardt)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=K-cXYoqHxBc"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-09-13T21:33:39+00:00</published>
+  <updated>2022-09-14T20:29:42+00:00</updated>
+  <media:group>
+   <media:title>More Is Different for AI - Scaling Up, Emergence, and Paperclip Maximizers (w/ Jacob Steinhardt)</media:title>
+   <media:content url="https://www.youtube.com/v/K-cXYoqHxBc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/K-cXYoqHxBc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ai #interview #research 
+
+Jacob Steinhardt believes that future AI systems will be qualitatively different than the ones we know currently. We talk about how emergence happens when scaling up, what implications that has on AI Safety, and why thought experiments like the Paperclip Maximizer might be more useful than most people think.
+
+OUTLINE:
+0:00 Introduction
+1:10 Start of Interview
+2:10 Blog posts series
+3:56 More Is Different for AI (Blog Post)
+7:40 Do you think this emergence is mainly a property from the interaction of things?
+9:17 How does phase transition or scaling-up play into AI and Machine Learning?
+12:10 GPT-3 as an example of qualitative difference in scaling up
+14:08 GPT-3 as an emergent phenomenon in context learning
+15:58 Brief introduction of different viewpoints on the future of AI and its alignment
+18:51 How does the phenomenon of emergence play into this game between the Engineering and the Philosophy viewpoint? 
+22:41 Paperclip Maximizer on AI safety and alignment
+31:37 Thought Experiments
+37:34 Imitative Deception
+39:30 TruthfulQA: Measuring How Models Mimic Human Falsehoods (Paper)
+42:24 ML Systems Will Have Weird Failure Models (Blog Post)
+51:10 Is there any work to get a system to be deceptive?
+54:37 Empirical Findings Generalize Surprisingly Far (Blog Post)
+1:00:18 What would you recommend to guarantee better AI alignment or safety?
+1:05:13 Remarks
+
+References:
+https://bounded-regret.ghost.io/more-is-different-for-ai/
+https://docs.google.com/document/d/1FbTuRvC4TFWzGYerTKpBU7FJlyvjeOvVYF2uYNFSlOc/edit#heading=h.n1wk9bxo847o
+
+Links:
+TabNine Code Completion (Referral): http://bit.ly/tabnine-yannick
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+BitChute: https://www.bitchute.com/channel/yannic-kilcher
+LinkedIn: https://www.linkedin.com/in/ykilcher
+BiliBili: https://space.bilibili.com/2017636191
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="429" average="5.00" min="1" max="5"/>
+    <media:statistics views="16732"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2ethDz9KnLk</id>
+  <yt:videoId>2ethDz9KnLk</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>The hidden dangers of loading open-source AI models (ARBITRARY CODE EXPLOIT!)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2ethDz9KnLk"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-09-02T20:16:53+00:00</published>
+  <updated>2022-09-08T04:04:48+00:00</updated>
+  <media:group>
+   <media:title>The hidden dangers of loading open-source AI models (ARBITRARY CODE EXPLOIT!)</media:title>
+   <media:content url="https://www.youtube.com/v/2ethDz9KnLk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2ethDz9KnLk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#huggingface #pickle #exploit 
+
+Did you know that something as simple as loading a model can execute arbitrary code on your machine?
+
+Try the model: https://huggingface.co/ykilcher/totally-harmless-model
+Get the code: https://github.com/yk/patch-torch-save
+
+Sponsor: Weights &amp; Biases
+Go here: https://wandb.me/yannic
+
+OUTLINE:
+0:00 - Introduction
+1:10 - Sponsor: Weights &amp; Biases
+3:20 - How Hugging Face models are loaded
+5:30 - From PyTorch to pickle
+7:10 - Understanding how pickle saves data
+13:00 - Executing arbitrary code
+15:05 - The final code
+17:25 - How can you protect yourself?
+
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1914" average="5.00" min="1" max="5"/>
+    <media:statistics views="42018"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_7xpGve9QEE</id>
+  <yt:videoId>_7xpGve9QEE</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>The Future of AI is Self-Organizing and Self-Assembling (w/ Prof. Sebastian Risi)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_7xpGve9QEE"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-08-26T18:25:39+00:00</published>
+  <updated>2022-08-26T18:25:39+00:00</updated>
+  <media:group>
+   <media:title>The Future of AI is Self-Organizing and Self-Assembling (w/ Prof. Sebastian Risi)</media:title>
+   <media:content url="https://www.youtube.com/v/_7xpGve9QEE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_7xpGve9QEE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#ai #selforganization #emergence
+
+Read Sebastian's article here: https://sebastianrisi.com/self_assembling_ai/
+
+OUTLINE:
+0:00 - Introduction
+2:25 - Start of Interview
+4:00 - The intelligence of swarms
+9:15 - The game of life &amp; neural cellular automata
+14:10 - What's missing from neural CAs?
+17:20 - How does local computation compare to centralized computation?
+25:40 - Applications beyond games and graphics
+33:00 - Can we do away with goals?
+35:30 - Where do these methods shine?
+43:30 - The paradox of scales &amp; brains
+49:45 - Connections to graphical systems &amp; GNNs
+51:30 - Could this solve ARC?
+57:45 - Where can people get started?
+
+References:
+https://sebastianrisi.com/
+https://modl.ai/
+https://sebastianrisi.com/self_assembling_ai/
+https://twitter.com/risi1979/status/1519053654921293827?cxt=HHwWhsC9hYfQ4ZQqAAAA
+https://distill.pub/2020/growing-ca/
+https://arxiv.org/abs/2201.12360?source=techstories.org
+https://distill.pub/2020/selforg/mnist/
+https://arxiv.org/pdf/2204.11674.pdf
+https://github.com/fchollet/ARC
+https://github.com/volotat/ARC-Game
+http://animalaiolympics.com/AAI/
+https://www.deepmind.com/publications/alchemy-a-structured-task-distribution-for-meta-reinforcement-learning-f
+https://melaniemitchell.me/BooksContent/CAGTReviews.html 
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="984" average="5.00" min="1" max="5"/>
+    <media:statistics views="31105"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YQ2QtKcK2dA</id>
+  <yt:videoId>YQ2QtKcK2dA</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>The Man behind Stable Diffusion</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YQ2QtKcK2dA"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-08-13T10:52:40+00:00</published>
+  <updated>2022-09-06T20:44:55+00:00</updated>
+  <media:group>
+   <media:title>The Man behind Stable Diffusion</media:title>
+   <media:content url="https://www.youtube.com/v/YQ2QtKcK2dA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YQ2QtKcK2dA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#stablediffusion #ai #stabilityai
+
+An interview with Emad Mostaque, founder of Stability AI.
+
+OUTLINE:
+0:00 - Intro
+1:30 - What is Stability AI?
+3:45 - Where does the money come from?
+5:20 - Is this the CERN of AI?
+6:15 - Who gets access to the resources?
+8:00 - What is Stable Diffusion?
+11:40 - What if your model produces bad outputs?
+14:20 - Do you employ people?
+16:35 - Can you prevent the corruption of profit?
+19:50 - How can people find you?
+22:45 - Final thoughts, let's destroy PowerPoint
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="4792" average="5.00" min="1" max="5"/>
+    <media:statistics views="120609"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_9aN1-0T8hg</id>
+  <yt:videoId>_9aN1-0T8hg</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] AI models that write code (Copilot, CodeWhisperer, Pangu-Coder, etc.)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_9aN1-0T8hg"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-08-10T20:55:14+00:00</published>
+  <updated>2022-08-12T03:06:31+00:00</updated>
+  <media:group>
+   <media:title>[ML News] AI models that write code (Copilot, CodeWhisperer, Pangu-Coder, etc.)</media:title>
+   <media:content url="https://www.youtube.com/v/_9aN1-0T8hg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_9aN1-0T8hg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#mlnews #ai #copilot 
+
+OUTLINE:
+0:00 - Intro
+0:20 - Copilot Now Generally Available
+3:20 - FOSS Org leaves GitHub
+6:45 - Google's Internal ML Code Completion
+9:10 - AI Trains Itself to Code Better
+14:30 - Amazon CodeWhisperer in Preview
+15:15 - Pangu-Coder: A New Coding Model
+17:10 - Useful Things
+
+References:
+Copilot Now Generally Available
+https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/
+
+FOSS Org leaves GitHub
+https://www.theregister.com/2022/06/30/software_freedom_conservancy_quits_github/
+https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/
+https://sfconservancy.org/GiveUpGitHub/
+https://sfconservancy.org/docs/SupportGiveUpGitHub-README-snippet.md
+
+Google's Internal ML Code Completion
+https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html
+
+AI Trains Itself to Code Better
+https://arxiv.org/abs/2207.14502
+https://arxiv.org/pdf/2207.14502.pdf
+
+Amazon CodeWhisperer in Preview
+https://aws.amazon.com/blogs/aws/now-in-preview-amazon-codewhisperer-ml-powered-coding-companion/
+https://aws.amazon.com/codewhisperer/
+https://aws.amazon.com/codewhisperer/features/
+
+Pangu-Coder: A New Coding Model
+https://arxiv.org/abs/2207.11280
+https://arxiv.org/pdf/2207.11280.pdf
+
+Useful Things
+https://github.com/qdrant/quaterion
+https://github.com/facebookresearch/torchdim
+https://www.mosaicml.com/blog/farewell-oom
+https://github.com/hristo-vrigazov/mmap.ninja#when-do-i-use-it
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1498" average="5.00" min="1" max="5"/>
+    <media:statistics views="44923"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:af6WPqvzjjk</id>
+  <yt:videoId>af6WPqvzjjk</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] Text-to-Image models are taking over! (Imagen, DALL-E 2, Midjourney, CogView 2 &amp; more)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=af6WPqvzjjk"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-08-07T12:54:12+00:00</published>
+  <updated>2022-08-25T19:59:19+00:00</updated>
+  <media:group>
+   <media:title>[ML News] Text-to-Image models are taking over! (Imagen, DALL-E 2, Midjourney, CogView 2 &amp; more)</media:title>
+   <media:content url="https://www.youtube.com/v/af6WPqvzjjk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/af6WPqvzjjk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#mlnews #dalle #imagen 
+
+All things text-to-image models like DALL-E and Imagen!
+
+OUTLINE:
+0:00 - Intro
+0:30 - Imagen: Google's Text-to-Image Diffusion Model
+7:15 - Unified I/O by AllenAI
+9:40 - CogView2 is Open-Source
+11:05 - Google bans DeepFakes from Colab
+13:05 - DALL-E generates real Cosmopolitan cover
+15:45 - DALL-E tips &amp; tricks
+17:00 - Midjourney moves to Open Beta
+17:50 - DALLE-mini is not Crayon
+19:00 - Deep Learning Resources
+
+AMENDMENTS:
+The Unified-IO paper is here: https://arxiv.org/abs/2206.08916
+
+References:
+Imagen: Google's Text-to-Image Diffusion Model
+https://imagen.research.google/?utm_source=pocket_mylist
+https://arxiv.org/pdf/2205.11487.pdf
+
+Unified I/O by AllenAI
+https://unified-io.allenai.org/
+https://blog.allenai.org/introducing-ai2s-unified-io-9c0ec7fe1e43
+
+CogView2 is Open-Source
+https://github.com/THUDM/CogView2
+file:///Users/yk/Downloads/big.1.pdf
+https://huggingface.co/spaces/THUDM/CogView2
+https://arxiv.org/pdf/2204.14217.pdf
+
+Google bans DeepFakes from Colab
+https://www-vice-com.cdn.ampproject.org/c/s/www.vice.com/amp/en/article/v7v4gx/google-bans-deepfakes-from-its-machine-learning-platform?utm_source=pocket_mylist
+
+DALL-E generates real Cosmopolitan cover
+https://www.cosmopolitan.com/lifestyle/a40314356/dall-e-2-artificial-intelligence-cover/
+https://www.instagram.com/p/CfEwohiJdXW/?hl=en
+
+DALL-E tips &amp; tricks
+https://twitter.com/GuyP/status/1544710725708513280?s=09&amp;t=c3NpErPx80INQVeaWkIqIg&amp;utm_source=pocket_mylist
+https://twitter.com/GuyP/status/1552681939806691329?s=09&amp;t=LV2ChcukUziXfvfNK-sY0A&amp;utm_source=pocket_mylist
+https://twitter.com/GuyP/status/1547234780001042432
+https://dallery.gallery/the-dalle-2-prompt-book/
+
+Midjourney moves to Open Beta
+https://twitter.com/midjourney?lang=en
+https://twitter.com/search?q=%23midjourney&amp;f=image
+
+DALLE-mini is not Crayon
+https://www.craiyon.com/
+
+Deep Learning Resources
+https://github.com/jacobhilton/deep_learning_curriculum
+https://arxiv.org/abs/2206.13446
+https://arxiv.org/pdf/2206.13446.pdf
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1224" average="5.00" min="1" max="5"/>
+    <media:statistics views="25840"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xnChXNUNS2A</id>
+  <yt:videoId>xnChXNUNS2A</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] This AI completes Wikipedia! Meta AI Sphere | Google Minerva | GPT-3 writes a paper</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xnChXNUNS2A"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-07-31T13:33:13+00:00</published>
+  <updated>2022-07-31T13:34:19+00:00</updated>
+  <media:group>
+   <media:title>[ML News] This AI completes Wikipedia! Meta AI Sphere | Google Minerva | GPT-3 writes a paper</media:title>
+   <media:content url="https://www.youtube.com/v/xnChXNUNS2A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xnChXNUNS2A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#mlnews #ai #minerva 
+
+This episode is all about models that reason.
+
+OUTLINE:
+0:00 - Intro
+0:35 - Meta AI learns Wikipedia citations
+5:25 - Google's Minerva solves math problems by reading papers
+9:10 - GPT-3 writes a paper on itself
+13:35 - Jürgen Schmidhuber prompts LeCun for missing citations
+
+References:
+Meta AI learns Wikipedia citations
+https://tech.fb.com/artificial-intelligence/2022/07/how-ai-could-help-make-wikipedia-entries-more-accurate/
+https://ai.facebook.com/blog/introducing-sphere-meta-ais-web-scale-corpus-for-better-knowledge-intensive-nlp/?d=%7B%22u%22%3A100051861999022%2C%22f%22%3A207799259245384%2C%22t%22%3A1658664021%2C%22ed%22%3A[]%7D&amp;s=AWVELTip1y4HowJprXc
+https://github.com/facebookresearch/sphere
+https://github.com/facebookresearch/side
+https://verifier.sideeditor.com/main
+https://openreview.net/forum?id=qfTqRtkDbWZ
+
+Google's Minerva solves math problems by reading papers
+https://minerva-demo.github.io/#category=Precalculus&amp;index=9
+https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html
+
+GPT-3 writes a paper on itself
+https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-then-we-tried-to-get-it-published/
+https://hal.archives-ouvertes.fr/hal-03701250v1
+https://hal.archives-ouvertes.fr/hal-03701250/document
+
+Jürgen Schmidhuber prompts LeCun for missing citations
+https://people.idsia.ch/~juergen/lecun-rehash-1990-2022.html
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1320" average="5.00" min="1" max="5"/>
+    <media:statistics views="31548"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:W3mrgqtm5R4</id>
+  <yt:videoId>W3mrgqtm5R4</yt:videoId>
+  <yt:channelId>UCZHmQk67mSJgfCCTn7xBfew</yt:channelId>
+  <title>[ML News] BLOOM: 176B Open-Source | Chinese Brain-Scale Computer | Meta AI: No Language Left Behind</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=W3mrgqtm5R4"/>
+  <author>
+   <name>Yannic Kilcher</name>
+   <uri>https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew</uri>
+  </author>
+  <published>2022-07-27T20:22:22+00:00</published>
+  <updated>2022-08-19T15:41:55+00:00</updated>
+  <media:group>
+   <media:title>[ML News] BLOOM: 176B Open-Source | Chinese Brain-Scale Computer | Meta AI: No Language Left Behind</media:title>
+   <media:content url="https://www.youtube.com/v/W3mrgqtm5R4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/W3mrgqtm5R4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#mlnews #bloom #ai 
+
+Today we look at all the recent giant language models in the AI world!
+
+OUTLINE:
+0:00 - Intro
+0:55 - BLOOM: Open-Source 176B Language Model
+5:25 - YALM 100B
+5:40 - Chinese Brain-Scale Supercomputer
+7:25 - Meta AI Translates over 200 Languages
+10:05 - Reproducibility Crisis Workshop
+10:55 - AI21 Raises $64M
+11:50 - Ian Goodfellow leaves Apple
+12:20 - Andrej Karpathy leaves Tesla
+12:55 - Wordalle
+
+
+References:
+BLOOM: Open-Source 176B Language Model
+https://bigscience.huggingface.co/blog/bloom
+https://huggingface.co/spaces/bigscience/license
+https://huggingface.co/bigscience/bloom?text=34%2B10%3D44+%0A54%2B20%3D
+
+YALM 100B
+https://github.com/yandex/YaLM-100B
+
+Chinese Brain-Scale Supercomputer
+https://www.scmp.com/news/china/science/article/3182498/china-supercomputer-achieves-global-first-brain-scale-ai-model?utm_source=pocket_mylist
+https://archive.ph/YaoA6#selection-1237.156-1237.246
+
+Meta AI Translates over 200 Languages
+https://ai.facebook.com/research/no-language-left-behind/
+
+Reproducibility Crisis Workshop
+https://reproducible.cs.princeton.edu/
+
+AI21 Raises $64M
+https://techcrunch.com/2022/07/12/openai-rival-ai21-labs-raises-64m-to-ramp-up-its-ai-powered-language-services/?guccounter=1
+
+Ian Goodfellow leaves Apple
+https://twitter.com/goodfellow_ian/status/1544638709039091717
+
+Andrey Karpathy leaves Tesla
+https://mobile.twitter.com/karpathy/status/1547332300186066944
+https://www.businessinsider.com/report-tesla-laid-off-about-200-people-in-autopilot-unit-2022-6?r=US&amp;IR=T
+
+Wordalle
+https://huggingface.co/spaces/huggingface-projects/wordalle?utm_source=pocket_mylist
+
+Links:
+Homepage: https://ykilcher.com
+Merch: https://ykilcher.com/merch
+YouTube: https://www.youtube.com/c/yannickilcher
+Twitter: https://twitter.com/ykilcher
+Discord: https://ykilcher.com/discord
+LinkedIn: https://www.linkedin.com/in/ykilcher
+
+If you want to support me, the best thing to do is to share out the content :)
+
+If you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):
+SubscribeStar: https://www.subscribestar.com/yannickilcher
+Patreon: https://www.patreon.com/yannickilcher
+Bitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq
+Ethereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2
+Litecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m
+Monero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n</media:description>
+   <media:community>
+    <media:starRating count="1881" average="5.00" min="1" max="5"/>
+    <media:statistics views="39723"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
