@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-17519 (mcuxpresso_software_development_kit)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-17519",
+  "description": "The Bluetooth Low Energy implementation on NXP SDK through 2.2.1 for KW41Z devices does not properly restrict the Link Layer payload length, allowing attackers in radio range to cause a buffer overflow via a crafted packet.",
+  "dc:date": "2020-02-12T19:15:14Z"
+}
