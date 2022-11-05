@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <title>Revolutions</title>
+    <link rel="self" type="application/atom+xml" href="https://blog.revolutionanalytics.com/atom.xml" />
+    <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/" />
+    <id>tag:typepad.com,2003:weblog-1774446</id>
+    <updated>2022-08-02T09:29:18-07:00</updated>
+    <subtitle>Milestones in AI, Machine Learning, Data Science, and visualization with R and Python since 2008</subtitle>
+    <generator uri="http://www.typepad.com/">TypePad</generator>
+<entry>
+        <title>Easy R Tutorials with Dev Containers</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2022/08/dev-containers-for-r.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2022/08/dev-containers-for-r.html" thr:count="2" thr:updated="2022-08-03T08:57:26-07:00" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b02a30d4713bb200b</id>
+        <published>2022-08-02T09:29:18-07:00</published>
+        <updated>2022-08-02T09:29:18-07:00</updated>
+        <summary>Ever written a tutorial for R — or simply shared some R code with someone — and been told that your code doesn&#39;t work on their machine? There&#39;s now an easy way to solve that problem: Dev Containers. Dev Containers are a standardized container format designed for interactive use. You can set up a Dev Container with the specific version of R, R packages, and other software to guarantee that your R code will run on their machine just as it did on yours. Dev Containers are 100% open source and integrated with Visual Studio Code, which provides a convenient...</summary>
+        <author>
+            <name>David Smith</name>
+        </author>
+        <category term="developer tips" />
+        <category term="Microsoft" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>Ever written a tutorial for R — or simply shared some R code with someone — and been told that your code doesn&#39;t work on their machine? There&#39;s now an easy way to solve that problem: <a href="https://containers.dev/">Dev Containers</a>. Dev Containers are a standardized container format designed for interactive use. You can set up a Dev Container with the specific version of R, R packages, and other software to guarantee that your R code will run on their machine just as it did on yours. Dev Containers are 100% open source and integrated with Visual Studio Code, which provides a convenient environment for running your R scripts and notebooks.&#0160;</p>
+<p>At the recent <a href="https://user2022.r-project.org/program/talks/#session-10-building-the-r-community-1">User!2022 conference</a>, I gave a 20-minute presentation describing how Dev Containers work with R:</p>
+<p class="asset-video"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="282" src="https://www.youtube.com/embed/_83Beqac5SI?start=2865" title="YouTube video player" width="500"></iframe></p>
+<p>(Dev Containers also work with <a href="https://github.com/revodavid/devcontainers-rstudio">GitHub CodeSpaces</a>, to create a cloud-based environment for running your R code in a single click. I demonstrated that at last week&#39;s RStudio::conf, and I&#39;ll post that video when it&#39;s available.)</p>
+<p>If you&#39;d like to set up a Dev Container for your own R project, the GitHub repository linked at the link below provides all the info you need.</p>
+<p>GitHub (revodavid): <a href="https://github.com/revodavid/devcontainers-r">Easy R Tutorials with Dev Containers</a></p></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Using Microsoft365R with Shiny</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/09/using-microsoft365r-with-shiny.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/09/using-microsoft365r-with-shiny.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b0278804a2888200d</id>
+        <published>2021-09-27T09:46:43-07:00</published>
+        <updated>2021-09-24T05:12:02-07:00</updated>
+        <summary>by Hong Ooi This article is a lightly-edited version of the &quot;Microsoft365R and Shiny&quot; vignette in the latest Microsoft365R release. We describe how to incorporate Microsoft365R and interactive authentication with Azure Active Directory (AAD) into a Shiny web app. There are a few steps involved: Register your app with AAD Use the app ID to authenticate and get an OAuth token Pass the token to the Microsoft365R functions App registration The default Microsoft365R app registration only works when the package is used on a local machine; it does not support running in a remote server. Because of this, when you...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p><em>This article is a lightly-edited version of the &quot;Microsoft365R and Shiny&quot; vignette in the latest <a href="https://cloud.r-project.org/package=Microsoft365R">Microsoft365R</a> release.</em></p>
+<p>We describe how to incorporate <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a> and interactive authentication with <a href="https://docs.microsoft.com/azure/active-directory/?WT.mc_id=aiml-2056-davidsmi">Azure Active Directory</a> (AAD) into a Shiny web app. There are a few steps involved:</p>
+<ul>
+<li>Register your app with AAD</li>
+<li>Use the app ID to authenticate and get an OAuth token</li>
+<li>Pass the token to the Microsoft365R functions</li>
+</ul>
+<div class="section level2" id="app-registration">
+<h2>App registration</h2>
+<p>The default Microsoft365R app registration only works when the package is used on a local machine; it does not support running in a remote server. Because of this, when you use Microsoft365R inside a Shiny app, you (or your friendly local sysadmin) must register that app in AAD.</p>
+<p>The main things to set in your app registration are:</p>
+<ul>
+<li>
+<p>The <strong>redirect URI</strong> of your app, ie, your user-facing site address. For example if your app is hosted in shinyapps.io, this would be a URL of the form <code>https://youraccount.shinyapps.io/appname</code>. If your app uses a special port number rather than the default port 443 for HTTPS, don’t forget to include that as well. It’s possible to set more than one redirect, so you can reuse a single app registration for multiple Shiny apps.</p>
+</li>
+<li>
+<p>The <strong>type of redirect</strong>, either native (mobile &amp; desktop) or webapp. There are also other types of redirects, but these are the only ones relevant to R. The difference between a mobile &amp; desktop and a webapp redirect is that you supply a client secret when authenticating with the latter, but not the former. It’s recommended to use a webapp redirect for a Shiny app, as the client secret helps prevent third parties from hijacking your app registration. The client secret is also set as part of the app registration.</p>
+</li>
+<li>
+<p>The <strong>intended audience</strong> of your app, ie, who is allowed to use it. This can be only members of your AAD tenant; members of any AAD tenant; or anyone with a Microsoft account (including personal accounts).</p>
+</li>
+<li>
+<p>The <strong>permissions required</strong> by your app. Refer to the <a href="https://github.com/Azure/Microsoft365R/blob/master/inst/app_registration.md">app_registration.md</a> file for the list of permissions Microsoft365R uses. You can omit any permissions that you don’t need if your app doesn’t use all of Microsoft365R’s functionality, eg if you don’t handle emails you can omit Mail.Send and Mail.ReadWrite.</p>
+</li>
+</ul>
+<p>The following pages at the AAD documentation will be helpful:</p>
+<ul>
+<li>
+<p><a href="https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app?WT.mc_id=aiml-2056-davidsmi">A step-by-step guide</a> to registering an app in the Azure portal.</p>
+</li>
+<li>
+<p><a href="https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-access-web-apis?WT.mc_id=aiml-2056-davidsmi">How to set permissions for an app</a>. For a Shiny app, note that you want <em>delegated</em> permissions from the Microsoft Graph API, not application permissions.</p>
+</li>
+</ul>
+</div>
+<div class="section level2" id="shiny-code-skeleton">
+<h2>Shiny code skeleton</h2>
+<p>Below is a basic app that logs the user in, retrieves their OneDrive, and lists the contents of the root folder.</p>
+<p>One thing to note is that the regular Microsoft365R client functions like <code>get_sharepoint_site</code>, <code>get_team</code> etc are intended for use on a local machine. While they will still work when called in a web app, it’s a better idea to call the underlying R6 methods directly: Microsoft365R extends AzureGraph with several R6 classes and methods, which do the actual work of interacting with the Microsoft 365 REST API.</p>
+<p>Here, we call the <code>get_drive()</code> method for the <code>AzureGraph::az_user</code> class, which retrieves the OneDrive for a user. For more information, see the online help page in R for the Microsoft365R “add_methods” topic: <code>?add_methods</code>.</p>
+<div class="sourceCode" id="cb1">
+<pre>library(AzureAuth)
+library(AzureGraph)
+library(Microsoft365R)
+library(shiny)
+
+tenant &lt;- &quot;your-tenant-here&quot;
+
+# the application/client ID of your app registration
+# - not to be confused with the &#39;object ID&#39; or &#39;service principal ID&#39;
+app &lt;- &quot;your-app-id-here&quot;
+
+# the address/redirect URI of your app
+# - AAD allows only HTTPS for non-localhost redirects, not HTTP
+redirect &lt;- &quot;https://example.com/mysite&quot;
+port &lt;- httr::parse_url(redirect)$port
+options(shiny.port=if(is.null(port)) 443 else as.numeric(port))
+
+# the client secret of your app registration
+# - NEVER put secrets in code:<br /># - here we get it from an environment variable
+# - unnecessary if you have a &#39;desktop &amp; mobile&#39; redirect
+pwd &lt;- Sys.getenv(&quot;EXAMPLE_SHINY_CLIENT_SECRET&quot;, &quot;&quot;)
+if(pwd == &quot;&quot;) pwd &lt;- NULL
+
+# get the Graph permissions listed for the app, plus an ID token
+resource &lt;- c(&quot;https://graph.microsoft.com/.default&quot;, &quot;openid&quot;)
+
+# a simple UI: display the user&#39;s OneDrive
+ui &lt;- fluidPage(
+    verbatimTextOutput(&quot;drv&quot;)
+)
+
+ui_func &lt;- function(req)
+{
+    opts &lt;- parseQueryString(req$QUERY_STRING)
+    if(is.null(opts$code))
+    {
+        auth_uri &lt;- build_authorization_uri(resource, tenant, app,<br />            redirect_uri=redirect, version=2)
+        redir_js &lt;- sprintf(&quot;location.replace(\&quot;%s\&quot;);&quot;, auth_uri)
+        tags$script(HTML(redir_js))
+    }
+    else ui
+}
+
+server &lt;- function(input, output, session)
+{
+    opts &lt;- parseQueryString(isolate(session$clientData$url_search))
+    if(is.null(opts$code))
+        return()
+
+    token &lt;- get_azure_token(resource, tenant, app, password=pwd,<br /> &#0160;&#0160;&#0160;   auth_type=&quot;authorization_code&quot;,
+       authorize_args=list(redirect_uri=redirect), version=2,
+       use_cache=FALSE, auth_code=opts$code)
+
+    # display the contents of the user&#39;s OneDrive root folder
+    drv &lt;- ms_graph$
+        new(token=token)$
+        get_user()$
+        get_drive()
+    output$drv &lt;- renderPrint(drv$list_files())
+}
+
+shinyApp(ui_func, server)
+</pre>
+</div>
+</div></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Microsoft365R: testers wanted</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/07/microsoft365r-testers-wanted.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/07/microsoft365r-testers-wanted.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b026bdedf740d200c</id>
+        <published>2021-07-22T09:30:00-07:00</published>
+        <updated>2021-07-21T16:35:01-07:00</updated>
+        <summary>by Hong Ooi Microsoft365R author here. I&#39;ve just updated the package on GitHub with the following features: Add support for shared mailboxes to get_business_outlook(). To access a shared mailbox, supply one of the arguments shared_mbox_id, shared_mbox_name or shared_mbox_email specifying the ID, displayname or email address of the mailbox respectively. Add support for Teams chats (including one-on-one, group and meeting chats). Use the list_chats() function to list the chats you&#39;re participating in, and the `get_chat()` function to retrieve a specific chat. A chat object has class ms_chat, which has similar methods to a channel: you can send, list and retrieve messages,...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p><a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a> author here.&#0160;I&#39;ve just updated the package on GitHub with the following features:</p>
+<ul>
+<li>Add support for shared mailboxes to <code>get_business_outlook()</code>. To access a shared mailbox, supply one of the arguments <code>shared_mbox_id</code>, <code>shared_mbox_name</code> or <code>shared_mbox_email</code> specifying the ID, displayname or email address of the mailbox respectively.</li>
+<li>Add support for Teams chats (including one-on-one, group and meeting chats).
+<ul>
+<li>Use the <code>list_chats()</code> function to list the chats you&#39;re participating in, and the `get_chat()` function to retrieve a specific chat.</li>
+<li>A chat object has class <code>ms_chat</code>, which has similar methods to a channel: you can send, list and retrieve messages, and list and retrieve members/attendees. One difference is that chats don&#39;t have an associated file folder, unlike channels.</li>
+</ul>
+</li>
+<li>Updated the app permissions for Sharepoint to fix an access issue</li>
+</ul>
+<p>However, at the moment I don&#39;t have access to a suitable tenant for testing these. <strong>This is a request for anyone whose tenant has approved the Microsoft365R app registration to install the development version and try using these features.</strong></p>
+<p>If you have previously used OneDrive, Teams and Outlook, everything should still work the same as before.</p>
+<p>If you previously tried to use Sharepoint and got an authentication error, you should see a screen requesting you to grant Microsoft365R permission to access your Sharepoint site. You may or may not need an admin to approve the request, depending on your tenant&#39;s policies.</p>
+<p>Please try it out and let me know of any problems! You can install the package from GitHub with</p>
+<p><code>devtools::install_github(&quot;Azure/Microsoft365R&quot;)</code><br /><br /></p></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>AzureR update: new in May/June</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/06/mayjune-azurer-update.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/06/mayjune-azurer-update.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b0278802eca25200d</id>
+        <published>2021-06-09T09:30:00-07:00</published>
+        <updated>2021-06-08T16:38:33-07:00</updated>
+        <summary>by Hong Ooi This is a summary of the updates to AzureR family of packages in May and June 2021. AzureAuth Change the default caching behaviour to disable the cache if running inside Shiny. Update Shiny vignette to clean up redirect page after authenticating (thanks to Tyler Littlefield). Add a create_AzureR_dir function to create the caching directory manually. This can be useful not just for non-interactive sessions, but also Jupyter and R notebooks, which are not technically interactive in the sense that they cannot read user input from a console prompt. AzureGraph Add enhanced support for the paging API. Many...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="packages" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p>This is a summary of the updates to <a href="https://github.com/Azure/AzureR">AzureR</a> family of packages in May and June 2021.</p>
+<div class="section level2" id="azureauth">
+<h2>AzureAuth</h2>
+<ul>
+<li>Change the default caching behaviour to disable the cache if running inside Shiny.</li>
+<li>Update Shiny vignette to clean up redirect page after authenticating (thanks to Tyler Littlefield).</li>
+<li>Add a <code>create_AzureR_dir</code> function to create the caching directory manually. This can be useful not just for non-interactive sessions, but also Jupyter and R notebooks, which are not <em>technically</em> interactive in the sense that they cannot read user input from a console prompt.</li>
+</ul>
+</div>
+<div class="section level2" id="azuregraph">
+<h2>AzureGraph</h2>
+<ul>
+<li>Add enhanced support for the paging API. Many Graph calls that return lists of objects do so in <em>pages</em>: the first response contains a subset of the full list, along with a link to the next subset. AzureGraph now features a new <code>ms_graph_pager</code> R6 class, which is an iterator for the pages in the result. All <code>list_*</code> R6 methods have been rewritten to use this class, and have <code>filter</code> and <code>n</code> arguments to filter the result set and cap the number of results.</li>
+<li>Also add support for the batch request feature: you can pass multiple calls to the API with the <code>graph_request</code> R6 class and <code>call_batch_endpoint</code> function, and get the results back in a single response.</li>
+<li>See the <a href="https://cran.r-project.org/package=AzureGraph/vignettes/batching_paging.html">Batching and paging</a> vignette for more information on these APIs.</li>
+<li>Add <code>list_users()</code>, <code>list_groups()</code>, <code>list_apps()</code> and <code>list_service_principals()</code> methods to the main <code>ms_graph</code> client class.</li>
+<li>There is also a new <a href="https://cran.r-project.org/packages=AzureGraph/vignettes/auth.html">Authentication</a> vignette to guide users through the various ways to authenticate to Microsoft Graph.</li>
+</ul>
+</div>
+<div class="section level2" id="azurermr">
+<h2>AzureRMR</h2>
+<ul>
+<li>Similar to AzureGraph, AzureRMR has a new <a href="https://cran.r-project.org/package=AzureRMR/vignettes/auth.html">Authentication</a> vignette that details how to authenticate to Resource Manager. This replaces the old “Service principal” vignette.</li>
+<li>Update Resource Manager API version to “2021-04-01”; also update <code>az_subscription$list_locations</code> to handle the new response format in this API version.</li>
+</ul>
+</div>
+<div class="section level2" id="azurestor">
+<h2>AzureStor</h2>
+<ul>
+<li>Add support for generating a service SAS. There is a new S3 generic <code>get_service_sas</code> with methods for <code>az_storage</code> and <code>storage_endpoint</code> objects, and a similar R6 method for <code>az_storage</code> objects. See <code>?sas</code> for more information.</li>
+<li>Fix <code>storage_save_rds</code> and <code>storage_load_rds</code> to handle compression correctly. In particular, <code>storage_load_rds</code> should now correctly load files saved with <code>saveRDS</code> (#83).</li>
+<li>Fix a bug that caused <code>list_blobs</code> to fail when leases were present.</li>
+<li>Use a raw connection instead of a raw vector when calling <code>readr::read_delim</code> and <code>read_csv2</code>. This works around an issue introduced in readr 1.4.0 (#85, #86).</li>
+<li>Update client API version to “2020-04-08”. In particular, this allows specifying <code>resource_type=&quot;d&quot;</code> when creating a service or user delegation SAS for blob storage.</li>
+<li>Add an optional <code>service</code> argument to <code>storage_endpoint</code>, to specify the service in question: blob, file, ADLS2, queue or table. This allows use of the generic endpoint function with URLs that don’t fit the usual pattern where the service is part of the hostname, eg custom domain names, IP addresses, etc.
+<ul>
+<li>For the same reason, remove the warning about an unrecognised endpoint URL from <code>blob_endpoint</code>, <code>file_endpoint</code> and <code>adls_endpoint</code>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section level2" id="microsoft365r">
+<h2>Microsoft365R</h2>
+<p>Microsoft365R has some significant new features in the latest version:</p>
+<div class="section level3" id="onedrivesharepoint">
+<h3>OneDrive/SharePoint</h3>
+<ul>
+<li>Add a <code>list_shared_items()</code> method for the <code>ms_drive</code> class to access files and folders shared with you (#45).</li>
+<li>Allow getting drives for groups, sites and teams by name. The first argument to the <code>get_drive()</code> method for these classes is now <code>drive_name</code>; to get a drive by ID, specify the argument name explicitly: <code>get_drive(drive_id=*)</code></li>
+<li>Add a <code>by_item</code> argument to the <code>delete_item()</code> method for drives and the <code>delete()</code> method for drive items (#21). This is to allow deletion of non-empty folders on SharePoint sites with data protection policies in place. Use with caution.</li>
+</ul>
+</div>
+<div class="section level3" id="outlook">
+<h3>Outlook</h3>
+<ul>
+<li>Add a <code>search</code> argument to the <code>ms_outlook_folder$list_emails()</code> method. The default is to search in the from, subject and body of the emails.</li>
+</ul>
+</div>
+<div class="section level3" id="teams">
+<h3>Teams</h3>
+<ul>
+<li>Add <code>list_members()</code> and <code>get_member()</code> methods for teams and channels.</li>
+<li>Add support for <span class="citation">@mentions</span> in Teams channel messages (#26).</li>
+</ul>
+</div>
+<div class="section level3" id="other">
+<h3>Other</h3>
+<ul>
+<li>All <code>list_*</code> class methods now have <code>filter</code> and <code>n</code> arguments to filter the result set and cap the number of results, following the pattern in AzureGraph. The default values are <code>filter=NULL</code> and <code>n=Inf</code>. If <code>n=NULL</code>, an <code>ms_graph_pager</code> iterator object is returned instead to allow manual iteration over the results. Note that support for filtering in the underlying Graph API is somewhat uneven at the moment.</li>
+<li>Experimental <strong>read-only</strong> support for plans, contributed by Roman Zenka.
+<ul>
+<li>Add <code>get_plan()</code> and <code>list_plans()</code> methods to the <code>az_group</code> class. Note that only Microsoft 365 groups can have plans, not any other type of group.</li>
+<li>To get the plan(s) for a site or team, call its <code>get_group()</code> method to retrieve the associated group, and then get the plan from the group.</li>
+<li>A plan has methods to retrieve tasks and buckets, as well as plan details.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Microsoft365R 2.1.0 with Outlook support now on CRAN</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/04/microsoft365r-210-with-outlook-support-now-on-cran.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/04/microsoft365r-210-with-outlook-support-now-on-cran.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b0263e99db8eb200b</id>
+        <published>2021-04-15T09:30:00-07:00</published>
+        <updated>2021-04-13T09:17:49-07:00</updated>
+        <summary>by Hong Ooi I’m happy to announce that Microsoft365R 2.1.0 is now on CRAN with Outlook email support! Here’s a quick summary of the new features: Send, reply to and forward emails, optionally composed with blastula or emayili Copy and move emails between folders Create, delete, copy and move folders Add, remove and download attachments Here’s a sample of how to write an email using blastula: library(Microsoft365R) # 1st one is for your personal Microsoft account # 2nd is for your work &amp; school account outl &lt;- get_personal_outlook() outlb &lt;- get_business_outlook() # compose an email with blastula library(blastula) bl_body &lt;-...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="packages" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p>I’m happy to announce that <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a> 2.1.0 is now <a href="https://cran.r-project.org/package=Microsoft365R">on CRAN</a> with Outlook email support! Here’s a quick summary of the new features:</p>
+<ul>
+<li>Send, reply to and forward emails, optionally composed with blastula or emayili</li>
+<li>Copy and move emails between folders</li>
+<li>Create, delete, copy and move folders</li>
+<li>Add, remove and download attachments</li>
+</ul>
+<p>Here’s a sample of how to write an email using blastula:</p>
+<pre class="r"><code class="hljs"><span class="hljs-keyword">library</span>(Microsoft365R)
+
+<span class="hljs-comment"># 1st one is for your personal Microsoft account</span>
+<span class="hljs-comment"># 2nd is for your work &amp; school account</span>
+outl &lt;- get_personal_outlook()
+outlb &lt;- get_business_outlook()
+
+<span class="hljs-comment"># compose an email with blastula</span>
+<span class="hljs-keyword">library</span>(blastula)
+bl_body &lt;- <span class="hljs-string">&quot;## Hello!
+
+This is an email message that was generated by the blastula package.
+
+We can use **Markdown** formatting with the `md()` function.
+
+Cheers,
+
+The blastula team&quot;</span>
+
+bl_em &lt;- compose_email(
+    body=md(bl_body),
+    footer=md(<span class="hljs-string">&quot;sent via Microsoft365R&quot;</span>)
+)
+em &lt;- outl$create_email(bl_em, subject=<span class="hljs-string">&quot;Hello from R&quot;</span>,
+                        to=<span class="hljs-string">&quot;bob@example.com&quot;</span>)
+
+<span class="hljs-comment"># add an attachment and send it</span>
+em$add_attachment(<span class="hljs-string">&quot;mydocument.docx&quot;</span>)
+em$send()</code></pre>
+<p>And on the other side, here’s a sample of how to work with the emails in your inbox:</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># list the most recent emails in your inbox</span>
+emlst &lt;- outl$list_emails()
+
+<span class="hljs-comment"># get the most recent email</span>
+em &lt;- emlst[[<span class="hljs-number">1</span>]]
+
+<span class="hljs-comment"># list and download attachments</span>
+em$list_attachments()
+em$download_attachment(<span class="hljs-string">&quot;mydatafile.csv&quot;</span>)
+
+<span class="hljs-comment"># reply to it</span>
+em$create_reply(<span class="hljs-string">&quot;Replying from R&quot;</span>)$send()
+
+<span class="hljs-comment"># list the folders in your account</span>
+outl$list_folders()
+
+<span class="hljs-comment"># move the move recent email to a given folder</span>
+folder &lt;- outl$get_folder(<span class="hljs-string">&quot;My project folder&quot;</span>)
+em$move(folder)</code></pre>
+<p>In addition, this release fixes a bug in the <code>list_files()</code> method for OneDrive/Sharepoint drives and drive items, and adds the ability to create nested drive folders in one call.</p>
+<p>Please note that if you’re using one of the workarounds mentioned in the <a href="https://cran.r-project.org/web/packages/Microsoft365R/vignettes/auth.html">authentication vignette</a>, they won’t work with Outlook. You’ll need to get the Microsoft365R app approved for your tenant, or alternatively, if you have admin rights you can <a href="https://github.com/Azure/Microsoft365R/blob/master/inst/app_registration.md">create your own tenant</a> with the required permissions. (This applies if you’re using Microsoft365R at work; if you’re using it at home on your personal account, you shouldn’t have any problems.)</p>
+<p>If you have any feedback or comments, you can email me or <a href="https://github.com/Azure/Microsoft365R">open an issue</a> at the repo.</p></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Outlook client support in Microsoft365R available for beta test</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/03/outlook-client-in-microsoft365r-beta.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/03/outlook-client-in-microsoft365r-beta.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b026bdec5f8d9200c</id>
+        <published>2021-03-30T09:30:00-07:00</published>
+        <updated>2021-03-25T11:32:25-07:00</updated>
+        <summary>by Hong Ooi This is an announcement that a beta Outlook email client is now part of the Microsoft365R package. You can install it from the GitHub repository with: devtools::install_github(&quot;Azure/Microsoft365R&quot;) The client provides the following features: Send, reply to and forward emails, optionally composed with blastula or emayili Copy and move emails between folders Create, delete, copy and move folders Add, remove and download attachments The plan is to submit this to CRAN sometime next month, after a period of public testing. Please give it a try and give me your feedback: either via email or by opening an issue...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="packages" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p>This is an announcement that a beta Outlook email client is now part of the <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a> package. You can install it from the GitHub repository with:</p>
+<pre class="r"><code class="hljs">devtools::install_github(<span class="hljs-string">&quot;Azure/Microsoft365R&quot;</span>)</code></pre>
+<p>The client provides the following features:</p>
+<ul>
+<li>Send, reply to and forward emails, optionally composed with blastula or emayili</li>
+<li>Copy and move emails between folders</li>
+<li>Create, delete, copy and move folders</li>
+<li>Add, remove and download attachments</li>
+</ul>
+<p>The plan is to submit this to CRAN sometime next month, after a period of public testing. Please give it a try and give me your feedback: either <a href="mailto:hongooi73@gmail.com">via email</a> or by <a href="https://github.com/Azure/Microsoft365R/issues">opening an issue</a> at the repo.</p>
+<p>Here’s a small sample of the client in action (taken from the README):</p>
+<pre class="r"><code class="hljs"><span class="hljs-keyword">library</span>(Microsoft365R)
+
+<span class="hljs-comment"># 1st one is for your personal Microsoft account
+# 2nd is for your work &amp; school account</span>
+outl &lt;- get_personal_outlook()
+outlb &lt;- get_business_outlook()
+
+<span class="hljs-comment"># compose an email with blastula</span>
+<span class="hljs-keyword">library</span>(blastula)
+bl_body &lt;- <span class="hljs-string">&quot;## Hello!
+
+This is an email message that was generated by the blastula package.
+
+We can use **Markdown** formatting with the `md()` function.
+
+Cheers,
+
+The blastula team&quot;</span>
+
+bl_em &lt;- compose_email(
+    body=md(bl_body),
+    footer=md(<span class="hljs-string">&quot;sent via Microsoft365R&quot;</span>)
+)
+em &lt;- outl$create_email(bl_em, subject=<span class="hljs-string">&quot;Hello from R&quot;</span>,
+                        to=<span class="hljs-string">&quot;bob@example.com&quot;</span>)
+
+<span class="hljs-comment"># add an attachment and send it</span>
+em$add_attachment(<span class="hljs-string">&quot;mydocument.docx&quot;</span>)
+em$send()
+
+<span class="hljs-comment"># list the most recent emails in your inbox</span>
+emlst &lt;- outl$list_emails()
+
+<span class="hljs-comment"># reply to the most recent email</span>
+emlst[[<span class="hljs-number">1</span>]]$
+    create_reply(<span class="hljs-string">&quot;Replying from R&quot;</span>)$
+    send()</code></pre>
+<p>Please note though, that <strong>if you’re using one of the workarounds mentioned in the <a href="https://cran.r-project.org/web/packages/Microsoft365R/vignettes/auth.html">authentication vignette</a>, they won’t work with Outlook.</strong> You’ll need to get the Microsoft365R app approved for your tenant, or alternatively, if you have admin rights you can <a href="https://github.com/Azure/Microsoft365R/blob/master/inst/app_registration.md">create your own tenant</a> with the required permissions. (This applies if you’re using Microsoft365R at work; if you’re using it at home on your personal account, you shouldn’t have any problems.)</p></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Teams support in Microsoft365R</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/03/teams-support-in-microsoft365r.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/03/teams-support-in-microsoft365r.html" thr:count="1" thr:updated="2021-03-18T14:47:30-07:00" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b0263e9949903200b</id>
+        <published>2021-03-10T09:30:00-08:00</published>
+        <updated>2021-03-10T10:38:08-08:00</updated>
+        <summary>by Hong Ooi I’m happy to announce that version 2.0 of Microsoft365R, the R interface to Microsoft 365, is now on CRAN! This version adds support for Microsoft Teams, a much-requested feature. To access a team in Microsoft Teams, use the get_team() function and provide the team name or ID. You can also list the teams you’re in with list_teams(). These return objects of R6 class ms_team, which has methods for working with channels and drives. list_teams() team &lt;- get_team(&quot;My team&quot;) # list the channels in a team (including your private channels) team$list_channels() # get the primary channel for a...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="packages" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p>I’m happy to announce that version 2.0 of <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a>, the R interface to <a href="https://docs.microsoft.com/microsoft-365/?view=o365-worldwide&amp;WT.mc_id=aiml-19889-davidsmi">Microsoft 365</a>, is now <a href="https://cran.r-project.org/package=Microsoft365R">on CRAN</a>! This version adds support for <a href="https://docs.microsoft.com/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page?WT.mc_id=aiml-19889-davidsmi">Microsoft Teams</a>, a much-requested feature.</p>
+<p>To access a team in Microsoft Teams, use the <code>get_team()</code> function and provide the team name or ID. You can also list the teams you’re in with <code>list_teams()</code>. These return objects of R6 class <code>ms_team</code>, which has methods for working with channels and drives.</p>
+<pre class="r"><code class="hljs">list_teams()
+team &lt;- get_team(<span class="hljs-string">&quot;My team&quot;</span>)
+
+<span class="hljs-comment"># list the channels in a team (including your private channels)</span>
+team$list_channels()
+
+<span class="hljs-comment"># get the primary channel for a team</span>
+team$get_channel()
+
+<span class="hljs-comment"># get a specific channel</span>
+team$get_channel(<span class="hljs-string">&quot;My channel&quot;</span>)
+
+<span class="hljs-comment"># drives for a team</span>
+team$list_drives()
+team$get_drive()</code></pre>
+<p>A drive is an <code>ms_drive</code> object, so if you’re already using Microsoft365R to interface with OneDrive and SharePoint document libraries, you already know how to use a team’s drives. Each team will generally have at least one drive, and possibly two: the default “Shared Documents” drive, which is where uploaded files are stored, and the “Teams Wiki Data” drive, if the team has a wiki. Each team channel will usually also have an associated folder in each drive.</p>
+<pre class="r"><code class="hljs">drv &lt;- team$get_drive()
+
+<span class="hljs-comment"># one folder per channel</span>
+drv$list_files()
+
+<span class="hljs-comment"># upload will appear in Files tab of &quot;My channel&quot; in the Teams client</span>
+drv$upload_file(<span class="hljs-string">&quot;myfile.csv&quot;</span>, <span class="hljs-string">&quot;My channel/myfile.csv&quot;</span>)</code></pre>
+<div class="section level2" id="channels">
+<h2>Channels</h2>
+<p>A team object has methods for listing, retrieving, creating and deleting channels. However you should not create and delete channels unnecessarily, since Teams tracks all channels ever created, even after you delete them. In turn, a channel object has methods for listing and sending messages, and uploading and deleting files.</p>
+<div class="section level3" id="channel-messages">
+<h3>Channel messages</h3>
+<p>Teams channels are semi-threaded. Getting the list of messages for a channel retrieves only the first message in each thread; to get an entire thread, you get the starting message and then retrieve the replies to it. Note that channels don’t have nested replies, so you can’t reply to a reply—only to the starting message.</p>
+<p>The body of a message is part of the list of properties returned from the host, and can be found in the <code>properties</code> field of the object. Other properties include metadata such as the author, date, list of attachments, etc.</p>
+<pre class="r"><code class="hljs">chan &lt;- team$get_channel()
+
+<span class="hljs-comment"># retrieve most recent messages from the server</span>
+msgs &lt;- chan$list_messages()
+
+<span class="hljs-comment"># get the latest message by ID</span>
+msg &lt;- chan$get_message(msgs[[<span class="hljs-number">1</span>]]$properties$id)
+
+<span class="hljs-comment"># body of the message</span>
+msg$properties$body
+
+<span class="hljs-comment"># 10 most recent replies</span>
+repl_list &lt;- msg$list_replies(n=<span class="hljs-number">10</span>)
+
+<span class="hljs-comment"># body of an individual reply</span>
+repl_list[[<span class="hljs-number">1</span>]]$properties$body</code></pre>
+<p>You can send a message to a channel as plain text (the default) or HTML. A message can also include attachments and inline images.</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># sending messages to a channel</span>
+chan$send_message(<span class="hljs-string">&quot;Hello from R&quot;</span>)
+chan$send_message(
+    <span class="hljs-string">&quot;&lt;div&gt;Hello from &lt;em&gt;R&lt;/em&gt;&lt;/div&gt;&quot;</span>, content_type=<span class="hljs-string">&quot;html&quot;</span>)
+
+<span class="hljs-comment"># attachments and inline images</span>
+chan$send_message(<span class="hljs-string">&quot;Hello with attachments&quot;</span>,
+    attachments=c(<span class="hljs-string">&quot;intro.md&quot;</span>, <span class="hljs-string">&quot;myfile.csv&quot;</span>))
+chan$send_message(<span class="hljs-string">&quot;&quot;</span>,
+    content_type=<span class="hljs-string">&quot;html&quot;</span>, inline=<span class="hljs-string">&quot;graph.png&quot;</span>)
+
+<span class="hljs-comment"># send a reply to a message</span>
+msg &lt;- chan$send_message(<span class="hljs-string">&quot;Starting a new thread in R&quot;</span>)
+msg$send_reply(<span class="hljs-string">&quot;Reply from R&quot;</span>)</code></pre>
+<p>Currently, Microsoft365R only supports messaging in channels. Support for chats between individuals may come later.</p>
+</div>
+<div class="section level3" id="channel-files">
+<h3>Channel files</h3>
+<p>Uploading a file to a channel will place it in the channel’s drive folder. The channel object itself provides convenience functions to list, upload and download files. It also provides a <code>get_folder()</code> method to retrieve the folder for the channel, as an <code>ms_drive_item</code> object; this object has more general methods for working with files.</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># files for the channel</span>
+chan$list_files()
+
+<span class="hljs-comment"># upload a file to the channel</span>
+chan$upload_file(<span class="hljs-string">&quot;myfile.docx&quot;</span>)
+
+<span class="hljs-comment"># open the uploaded document for editing in Word Online</span>
+chan_folder &lt;- chan$get_folder()
+item &lt;- chan_folder$get_item(<span class="hljs-string">&quot;myfile.docx&quot;</span>)
+item$open()
+
+<span class="hljs-comment"># download it again</span>
+item$download(overwrite=<span class="hljs-literal">TRUE</span>)</code></pre>
+<h2>Providing Feedback</h2>
+<p>Let us know how this works for you! You can provide feedback and make feature requests by <a href="https://github.com/Azure/Microsoft365R/issues">opening an issue</a>&#0160;at the repo, or by emailing me at hongooi73 (@) gmail.com.</p>
+</div>
+</div></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>Microsoft365R: an R interface to the Microsoft 365 suite</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/02/microsoft365r.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/02/microsoft365r.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b02788010c945200d</id>
+        <published>2021-02-09T09:30:00-08:00</published>
+        <updated>2021-02-03T16:10:26-08:00</updated>
+        <summary>I’m very happy to announce Microsoft365R, a package for working with the Microsoft 365 (formerly known as Office 365) suite of cloud services. Microsoft365R extends the interface to the Microsoft Graph API provided by the AzureGraph package to provide a lightweight yet powerful interface to SharePoint and OneDrive, with support for Teams and Outlook soon to come. Microsoft365R is now available on CRAN, or you can install the development version from GitHub with devtools::install_github(&quot;Azure/Microsoft365R&quot;). Authentication The first time you call one of the Microsoft365R functions (see below), it will use your Internet browser to authenticate with Azure Active Directory (AAD),...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="announcements" />
+        <category term="Microsoft" />
+        <category term="packages" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p>I’m very happy to announce <a href="https://github.com/Azure/Microsoft365R">Microsoft365R</a>, a package for working with the <a href="https://docs.microsoft.com/microsoft-365/?view=o365-worldwide&amp;WT.mc_id=aiml-14621-davidsmi">Microsoft 365</a> (formerly known as Office 365) suite of cloud services. Microsoft365R extends the interface to the Microsoft Graph API provided by the <a href="https://github.com/Azure/AzureGraph">AzureGraph</a> package to provide a lightweight yet powerful interface to <a href="https://docs.microsoft.com/sharepoint/?WT.mc_id=aiml-14621-davidsmi">SharePoint</a> and <a href="https://docs.microsoft.com/onedrive/?WT.mc_id=aiml-14621-davidsmi">OneDrive</a>, with support for Teams and Outlook soon to come.</p>
+<p>Microsoft365R is now <a href="https://cran.r-project.org/package=Microsoft365R">available on CRAN</a>, or you can install the development version from <a href="https://github.com/Azure/Microsoft365R">GitHub</a> with <code>devtools::install_github(&quot;Azure/Microsoft365R&quot;)</code>.</p>
+<div class="section level2" id="authentication">
+<h2>Authentication</h2>
+<p>The first time you call one of the Microsoft365R functions (see below), it will use your Internet browser to authenticate with <a href="https://docs.microsoft.com/azure/active-directory/?WT.mc_id=aiml-14621-davidsmi">Azure Active Directory</a> (AAD), in a similar manner to other web apps. You will get a dialog box asking for permission to access your information.</p>
+<p>Microsoft365R is registered as an app in the “aicatr” AAD tenant. Because it needs read/write access to groups and SharePoint sites, you’ll need an admin to grant it access to your tenant. Alternatively, if the environment variable <code>CLIMICROSOFT365_AADAPPID</code> is set, Microsoft365R will use its value as the app ID for authenticating; or you can specify the app ID as an argument when calling the functions below. See also <a href="https://github.com/Azure/Microsoft365R/issues/5">this issue</a> at the GitHub repo for some possible workarounds.</p>
+</div>
+<div class="section level2" id="onedrive">
+<h2>OneDrive</h2>
+<p>To access your personal OneDrive, call the <code>personal_onedrive()</code> function, and to access OneDrive for Business call <code>business_onedrive()</code>. Both functions return an R6 client object of class <code>ms_drive</code>, which has methods for working with files and folders. Note that OneDrive for Business is technically part of SharePoint, and requires a Microsoft 365 Business subscription.</p>
+<pre class="r"><code class="hljs">od &lt;- personal_onedrive()
+odb &lt;- business_onedrive(tenant=<span class="hljs-string">&quot;mycompany&quot;</span>)
+
+<span class="hljs-comment"># use the device code authentication flow in RStudio Server</span>
+od &lt;- personal_onedrive(auth_type=<span class="hljs-string">&quot;device_code&quot;</span>)
+
+<span class="hljs-comment"># list files and folders</span>
+od$list_items()
+od$list_items(<span class="hljs-string">&quot;Documents&quot;</span>)
+
+<span class="hljs-comment"># upload and download files</span>
+od$download_file(<span class="hljs-string">&quot;Documents/myfile.docx&quot;</span>)
+od$upload_file(<span class="hljs-string">&quot;somedata.xlsx&quot;</span>)
+
+<span class="hljs-comment"># create a folder</span>
+od$create_folder(<span class="hljs-string">&quot;Documents/newfolder&quot;</span>)</code></pre>
+<p>You can open a file or folder in your browser with the <code>open_item()</code> method. For example, a Word document or Excel spreadsheet will open in Word or Excel Online, and a folder will be shown in OneDrive.</p>
+<pre class="r"><code class="hljs">od$open_item(<span class="hljs-string">&quot;Documents/myfile.docx&quot;</span>)</code></pre>
+<p>You can get and set the metadata properties for a file or folder with <code>get_item_properties()</code> and <code>set_item_properties()</code>. For the latter, provide the new properties as named arguments to the method. Not all properties can be changed; some, like the file size and last modified date, are read-only. You can also retrieve an object representing the file or folder with <code>get_item()</code>, which has methods appropriate for drive items.</p>
+<pre class="r"><code class="hljs">od$get_item_properties(<span class="hljs-string">&quot;Documents/myfile.docx&quot;</span>)
+
+<span class="hljs-comment"># rename a file -- version control via filename is bad, mmkay</span>
+od$set_item_properties(<span class="hljs-string">&quot;Documents/myfile.docx&quot;</span>, name=<span class="hljs-string">&quot;myfile version 2.docx&quot;</span>)
+
+<span class="hljs-comment"># alternatively, you can call the file object&#39;s update() method</span>
+item &lt;- od$get_item(<span class="hljs-string">&quot;Documents/myfile.docx&quot;</span>)
+item$update(name=<span class="hljs-string">&quot;myfile version 2.docx&quot;</span>)</code></pre>
+</div>
+<div class="section level2" id="sharepoint">
+<h2>SharePoint</h2>
+<p>To access a SharePoint site, use the <code>sharepoint_site()</code> function and provide the site URL or ID.</p>
+<pre class="r"><code class="hljs">site &lt;- sharepoint_site(<span class="hljs-string">&quot;https://myaadtenant.sharepoint.com/sites/my-site-name&quot;</span>)</code></pre>
+<p>The client object has methods to retrieve drives (document libraries) and lists. To show all drives in a site, use the <code>list_drives()</code> method, and to retrieve a specific drive, use <code>get_drive()</code>. Each drive is an object of class <code>ms_drive</code>, just like the OneDrive clients above.</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># list of all document libraries under this site</span>
+site$list_drives()
+
+<span class="hljs-comment"># default document library</span>
+drv &lt;- site$get_drive()
+
+<span class="hljs-comment"># same methods as for OneDrive</span>
+drv$list_items()
+drv$open_item(<span class="hljs-string">&quot;teamproject/plan.xlsx&quot;</span>)</code></pre>
+<p>To show all lists in a site, use the <code>get_lists()</code> method, and to retrieve a specific list, use <code>get_list()</code> and supply either the list name or ID.</p>
+<pre class="r"><code class="hljs">site$get_lists()
+lst &lt;- site$get_list(<span class="hljs-string">&quot;my-list&quot;</span>)</code></pre>
+<p>You can retrieve the items in a list as a data frame, with <code>list_items()</code>. This has arguments <code>filter</code> and <code>select</code> to do row and column subsetting respectively. <code>filter</code> should be an OData expression provided as a string, and <code>select</code> should be a string containing a comma-separated list of columns. Any column names in the <code>filter</code> expression must be prefixed with <code>fields/</code> to distinguish them from item metadata.</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># return a data frame containing all list items</span>
+lst$list_items()
+
+<span class="hljs-comment"># get subset of rows and columns</span>
+lst$list_items(
+    filter=<span class="hljs-string">&quot;startsWith(fields/firstname, &#39;John&#39;)&quot;</span>,
+    select=<span class="hljs-string">&quot;firstname,lastname,title&quot;</span>
+)</code></pre>
+<p>Finally, you can retrieve subsites with <code>list_subsites()</code> and <code>get_subsite()</code>. These also return SharePoint site objects, so all the methods above are available for a subsite.</p>
+</div>
+<div class="section level2" id="future-plans">
+<h2>Future plans</h2>
+<p>Currently, Microsoft365R supports OneDrive and SharePoint Online; future updates will add the ability to post to Teams channels and send emails via Outlook. You can also provide feedback and make feature requests by <a href="https://github.com/Azure/Microsoft365R/issues">opening an issue</a> at the repo, or by emailing me at hongooi73 (@) gmail.com.</p>
+</div></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>AzureCosmosR: interface to Azure Cosmos DB</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/01/azurecosmosr-interface-to-azure-cosmos-db.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/01/azurecosmosr-interface-to-azure-cosmos-db.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b026bdeb5e403200c</id>
+        <published>2021-01-21T09:30:00-08:00</published>
+        <updated>2021-01-20T14:26:21-08:00</updated>
+        <summary>by Hong Ooi Last week, I announced AzureCosmosR, an R interface to Azure Cosmos DB, a fully-managed NoSQL database service in Azure. This post gives a short rundown on the main features of AzureCosmosR. Explaining what Azure Cosmos DB is can be tricky, so here’s an excerpt from the official description: Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale. Business continuity is assured with SLA-backed availability and enterprise-grade security. App development is faster and more productive thanks to turnkey multi region...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="big data" />
+        <category term="Microsoft" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p><a href="https://blog.revolutionanalytics.com/2021/01/whats-new-with-azurer.html">Last week</a>, I announced AzureCosmosR, an R interface to <a href="https://docs.microsoft.com/azure/cosmos-db/?WT.mc_id=aiml-13153-davidsmi">Azure Cosmos DB</a>, a fully-managed NoSQL database service in Azure. This post gives a short rundown on the main features of AzureCosmosR.</p>
+<p>Explaining what Azure Cosmos DB is can be tricky, so here’s an excerpt from the <a href="https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=aiml-13153-davidsmi">official description</a>:</p>
+<blockquote>
+<p>Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale. Business continuity is assured with SLA-backed availability and enterprise-grade security. App development is faster and more productive thanks to turnkey multi region data distribution anywhere in the world, open source APIs and SDKs for popular languages. As a fully managed service, Azure Cosmos DB takes database administration off your hands with automatic management, updates and patching. It also handles capacity management with cost-effective serverless and automatic scaling options that respond to application needs to match capacity with demand.</p>
+</blockquote>
+<p>Among other features, Azure Cosmos DB is notable in that it supports multiple data models and APIs. When you create a new Cosmos DB account, you specify which API you want to use: SQL/core API, which lets you use a dialect of T-SQL to query and manage tables and documents; MongoDB; Azure table storage; Cassandra; or Gremlin (graph). AzureCosmosR provides a comprehensive interface to the SQL API, as well as bridges to the MongoDB and table storage APIs. On the Resource Manager side, AzureCosmosR extends the <a href="https://cran.r-project.org/package=AzureRMR">AzureRMR</a> class framework to allow creating and managing Cosmos DB accounts.</p>
+<p>AzureCosmosR is now available <a href="https://cran.r-project.org/package=AzureCosmosR">on CRAN</a>. You can also install the development version from GitHub, with <code>devtools::install_github(&quot;Azure/AzureCosmosR&quot;)</code>.</p>
+<div class="section level2" id="sql-interface">
+<h2>SQL interface</h2>
+<p>The meat of AzureCosmosR is a suite of methods to work with databases, containers (tables) and documents (rows) using the SQL API.</p>
+<pre class="r"><code class="hljs"><span class="hljs-keyword">library</span>(dplyr)
+<span class="hljs-keyword">library</span>(AzureCosmosR)
+
+<span class="hljs-comment"># endpoint object for this account</span>
+endp &lt;- cosmos_endpoint(
+    <span class="hljs-string">&quot;https://myaccount.documents.azure.com:443/&quot;</span>,
+    key=<span class="hljs-string">&quot;mykey&quot;</span>
+)
+
+<span class="hljs-comment"># all databases in this account</span>
+list_cosmos_databases(endp)
+
+<span class="hljs-comment"># a specific database</span>
+db &lt;- get_cosmos_database(endp, <span class="hljs-string">&quot;mydatabase&quot;</span>)
+
+<span class="hljs-comment"># create a new container and upload the Star Wars dataset from dplyr</span>
+cont &lt;- create_cosmos_container(db, <span class="hljs-string">&quot;mycontainer&quot;</span>, partition_key=<span class="hljs-string">&quot;sex&quot;</span>)
+bulk_import(cont, starwars)
+
+query_documents(cont, <span class="hljs-string">&quot;select * from mycontainer&quot;</span>)
+
+<span class="hljs-comment"># an array select: all characters who appear in ANH</span>
+query_documents(cont,
+    <span class="hljs-string">&quot;select c.name
+        from mycontainer c
+        where array_contains(c.films, &#39;A New Hope&#39;)&quot;</span>)</code></pre>
+<p>You can easily create and execute JavaScript stored procedures and user-defined functions:</p>
+<pre class="r"><code class="hljs">proc &lt;- create_stored_procedure(
+    cont,
+    <span class="hljs-string">&quot;helloworld&quot;</span>,
+    <span class="hljs-string">&#39;function () {
+        var context = getContext();
+        var response = context.getResponse();
+        response.setBody(&quot;Hello, World&quot;);
+    }&#39;</span>
+)
+
+exec_stored_procedure(proc)
+
+create_udf(cont, <span class="hljs-string">&quot;times2&quot;</span>, <span class="hljs-string">&quot;function(x) { return 2*x; }&quot;</span>)
+
+query_documents(cont, <span class="hljs-string">&quot;select udf.times2(c.height) from cont c&quot;</span>)</code></pre>
+<p>Aggregates take some extra work, as the Cosmos DB REST API currently only has limited support for cross-partition queries. Set <code>by_pkrange=TRUE</code> in the <code>query_documents</code> call, which will run the query on each partition key range (physical partition) and return a list of data frames. You can then process the list to obtain an overall result.</p>
+<pre class="r"><code class="hljs"><span class="hljs-comment"># average height by sex, by pkrange</span>
+df_lst &lt;- query_documents(cont,
+    <span class="hljs-string">&quot;select c.gender, count(1) n, avg(c.height) height
+        from mycontainer c
+        group by c.gender&quot;</span>,
+    by_pkrange=<span class="hljs-literal">TRUE</span>
+)
+
+<span class="hljs-comment"># combine pkrange results</span>
+df_lst %&gt;%
+    bind_rows(.id=<span class="hljs-string">&quot;pkrange&quot;</span>) %&gt;%
+    group_by(gender) %&gt;%
+    summarise(height=weighted.mean(height, n))</code></pre>
+<p>Full support for cross-partition queries, including aggregates, may come in a future version of AzureCosmosR.</p>
+</div>
+<div class="section level2" id="other-client-interfaces">
+<h2>Other client interfaces</h2>
+<div class="section level3" id="mongodb">
+<h3>MongoDB</h3>
+<p>You can query data in a MongoDB-enabled Cosmos DB instance using the mongolite package. AzureCosmosR provides a simple bridge to facilitate this.</p>
+<pre class="r"><code class="hljs">endp &lt;- cosmos_mongo_endpoint(
+    <span class="hljs-string">&quot;https://myaccount.mongo.cosmos.azure.com:443/&quot;</span>,
+    key=<span class="hljs-string">&quot;mykey&quot;</span>
+)
+
+<span class="hljs-comment"># a mongolite::mongo object</span>
+conn &lt;- cosmos_mongo_connection(endp, <span class="hljs-string">&quot;mycollection&quot;</span>, <span class="hljs-string">&quot;mydatabase&quot;</span>)
+conn$find(<span class="hljs-string">&quot;{}&quot;</span>)</code></pre>
+<p>For more information on working with MongoDB, see the <a href="https://jeroen.github.io/mongolite/">mongolite</a> documentation.</p>
+</div>
+<div class="section level3" id="table-storage">
+<h3>Table storage</h3>
+<p>You can work with data in a table storage-enabled Cosmos DB instance using the AzureTableStor package.</p>
+<pre class="r"><code class="hljs">endp &lt;- AzureTableStor::table_endpoint(
+    <span class="hljs-string">&quot;https://myaccount.table.cosmos.azure.com:443/&quot;</span>,
+    key=<span class="hljs-string">&quot;mykey&quot;</span>
+)
+
+tab &lt;- AzureTableStor::storage_table(endp, <span class="hljs-string">&quot;mytable&quot;</span>)
+AzureTableStor::list_table_entities(tab, filter=<span class="hljs-string">&quot;firstname eq &#39;Satya&#39;&quot;</span>)</code></pre>
+</div>
+</div>
+<div class="section level2" id="further-information">
+<h2>Further information</h2>
+<p>A good introduction to Azure Cosmos DB can be found <a href="https://www.sqlservercentral.com/articles/an-introduction-to-azure-cosmos-db">here</a>, or you can browse the <a href="https://docs.microsoft.com/azure/cosmos-db/?WT.mc_id=aiml-13153-davidsmi">official documentation</a>. If you have any questions or feedback about the AzureCosmosR package, you can <a href="https://github.com/Azure/AzureCosmosR/issues">open an issue</a> or email me at hongooi73 (@) gmail.com.</p>
+</div></div>
+</content>
+
+
+
+    </entry>
+<entry>
+        <title>What&#39;s new with AzureR</title>
+        <link rel="alternate" type="text/html" href="https://blog.revolutionanalytics.com/2021/01/whats-new-with-azurer.html" />
+        <link rel="replies" type="text/html" href="https://blog.revolutionanalytics.com/2021/01/whats-new-with-azurer.html" thr:count="0" />
+        <id>tag:typepad.com,2003:post-6a010534b1db25970b026bdeb53fa1200c</id>
+        <published>2021-01-13T09:30:00-08:00</published>
+        <updated>2021-01-12T15:05:29-08:00</updated>
+        <summary>by Hong Ooi This is an update on what’s been happening with the AzureR suite of packages. First, you may have noticed that just before the holiday season, the packages were updated on CRAN to change their maintainer email to a non-Microsoft address. This is because I’ve left Microsoft for a role at Westpac bank here in Australia; while I’m sad to be leaving, I do intend to continue maintaining and updating the packages. To that end, here are the changes that have recently been submitted to CRAN, or will be shortly: AzureAuth now allows obtaining tokens for the “organizations”...</summary>
+        <author>
+            <name>Hong Ooi</name>
+        </author>
+        <category term="Microsoft" />
+        <category term="R" />
+        
+        
+<content type="xhtml" xml:lang="en-US" xml:base="https://blog.revolutionanalytics.com/">
+<div xmlns="http://www.w3.org/1999/xhtml"><p><em>by Hong Ooi</em></p>
+<p>This is an update on what’s been happening with the <a href="https://github.com/Azure/AzureR">AzureR</a> suite of packages. First, you may have noticed that just before the holiday season, the packages were updated on CRAN to change their maintainer email to a non-Microsoft address. This is because I’ve left Microsoft for a role at Westpac bank here in Australia; while I’m sad to be leaving, I do intend to continue maintaining and updating the packages.</p>
+<p>To that end, here are the changes that have recently been submitted to CRAN, or will be shortly:</p>
+<p><a href="https://github.com/Azure/AzureAuth"><strong>AzureAuth</strong></a> now allows obtaining tokens for the “organizations” and “consumers” generic tenants, in addition to “common”. This should make it easier to authenticate users who are using a personal account, as opposed to a work &amp; school account. This is now live on CRAN.</p>
+<p><a href="https://github.com/Azure/AzureStor"><strong>AzureStor</strong></a> gains convenience functions for transferring data in several commonly-used formats: RDS (as created by <code>saveRDS</code>/<code>readRDS</code>), RData (as created by <code>save</code>/<code>load</code>), CSV, CSV2, and tab-delimited. These work via connections and so don’t create temporary files on disk.</p>
+<p><a href="https://github.com/Azure/AzureRMR"><strong>AzureRMR</strong></a> makes it easier to retrieve subresources by adding a <code>get_subresource</code>&#0160;method to the <code>az_resource</code> class. For example, if <code>res</code> is a storage account resource, you can obtain the subresource for a particular blob container with <code>res$get_subresource(type=&quot;blobServices/default/containers&quot;, name=&quot;containername&quot;)</code>. It now authenticates using AAD v2.0 by default.</p>
+<p><a href="https://github.com/Azure/AzureGraph"><strong>AzureGraph</strong></a> has had several changes:</p>
+<ul>
+<li>Like AzureRMR, it also now authenticates using <a href="https://docs.microsoft.com/en-us/azure/active-directory/?WT.mc_id=aiml-12747-davidsmi">AAD</a> v2.0 by default, making it more convenient to use with personal accounts (which require AAD v2.0).</li>
+<li><code>get_graph_login</code> is much more flexible, letting you choose authentication parameters like the permission scope(s), app ID, and authorisation method.</li>
+<li>The internals have undergone a refactoring to enhance extensibility.</li>
+</ul>
+<p>All of these changes are put to good use in the new <a href="https://github.com/Azure/Microsoft365R"><strong>Microsoft365R</strong></a> package, which is intended to be an interface to Microsoft 365 (formerly known as Office 365). Currently, it enables you to access your data stored in OneDrive (personal or business) and SharePoint Online, using the Microsoft Graph API. This will be released to CRAN in the next few weeks; later versions may add support for other Microsoft 365 services.</p>
+<p>The new <a href="https://github.com/Azure/AzureCosmosR"><strong>AzureCosmosR</strong></a> package is an interface to Azure Cosmos DB. Like the other interface packages in AzureR, it provides both management plane and data plane access, in the latter case to the SQL (core) API. You can easily create and manage Cosmos DB accounts, run queries, and create and execute stored procedures. Like Microsoft365R, this should be released to CRAN in the next few weeks.</p>
+<p>If you have any comments or feedback, feel free to drop me a line at hongooi73@gmail.com.</p></div>
+</content>
+
+
+
+    </entry>
+ 
+</feed>
+
+<!-- ph=1 -->
