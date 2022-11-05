@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.RA updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Rings and Algebras (math.RA) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Rings and Algebras</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01510" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01536" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01581" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01977" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2109.09000" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.03606" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.11397" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01510">
+<title>Hopfian wreath products and the stable finiteness conjecture. (arXiv:2211.01510v1 [math.GR])</title>
+<link>http://arxiv.org/abs/2211.01510</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the Hopf property for wreath products of finitely generated groups,
+focusing on the case of an abelian base group. Our main result establishes a
+strong connection between this problem and Kaplansky&apos;s stable finiteness
+conjecture. Namely, the latter holds true if and only if for every finitely
+generated abelian group $A$ and every finitely generated Hopfian group $\Gamma$
+the wreath product $A \wr \Gamma$ is Hopfian. In fact, we characterize
+precisely when $A \wr \Gamma$ is Hopfian, in terms of the existence of
+one-sided units in certain matrix algebras over $\mathbb{F}_p[\Gamma]$, for
+every prime factor $p$ occurring as the order of some element in $A$. A tool in
+our arguments is the fact that fields of positive characteristic locally embed
+into matrix algebras over $\mathbb{F}_p$ thus reducing the stable finiteness
+conjecture to the case of $\mathbb{F}_p$. A further application of this result
+shows that the validity of Kaplansky&apos;s stable finiteness conjecture is
+equivalent to a version of Gottschalk&apos;s surjunctivity conjecture for additive
+cellular automata.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bradford_H/0/1/0/all/0/1&quot;&gt;Henry Bradford&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Fournier_Facio_F/0/1/0/all/0/1&quot;&gt;Francesco Fournier-Facio&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01536">
+<title>Harrison homology and the Quillen homology of commutative monoids. (arXiv:2211.01536v1 [math.RA])</title>
+<link>http://arxiv.org/abs/2211.01536</link>
+<description rdf:parseType="Literal">&lt;p&gt;The cohomology theory for commutative monoids developed by P. A. Grillet is a
+case of a graded form of Harrison homology.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Agrawalla_B/0/1/0/all/0/1&quot;&gt;Bhavya Agrawalla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Khlaif_N/0/1/0/all/0/1&quot;&gt;Nasief Khlaif&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Miller_H/0/1/0/all/0/1&quot;&gt;Haynes Miller&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01581">
+<title>On the finite-dimensional representations of the double of the Jordan plane. (arXiv:2211.01581v1 [math.RT])</title>
+<link>http://arxiv.org/abs/2211.01581</link>
+<description rdf:parseType="Literal">&lt;p&gt;We continue the study of the Drinfeld double of the Jordan plane, denoted by
+$\mathcal D$ and introduced in &lt;a href=&quot;/abs/2002.02514&quot;&gt;arXiv:2002.02514&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;The simple finite-dimensional modules were computed in &lt;a href=&quot;/abs/2108.13849&quot;&gt;arXiv:2108.13849&lt;/a&gt;; it
+turns out that they factorize through $U(\spl_2(\Bbbk))$. Here we introduce the
+Verma modules and the category $\mathfrak O$ for $\mathcal D$, which have a
+resemblance to the similar ones in Lie theory but induced from indecomposable
+modules of the 0-part of the triangular decomposition. Accordingly, there is
+the notion of highest weight rank (hw-rk).
+&lt;/p&gt;
+&lt;p&gt;We classify the indecomposable modules of hw-rk one and find families of
+hw-rk two. The Gabriel quiver of $\mathcal D$ is computed implying that it has
+a wild representation type.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Andruskiewitsch_N/0/1/0/all/0/1&quot;&gt;Nicol&amp;#xe1;s Andruskiewitsch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Pollastri_H/0/1/0/all/0/1&quot;&gt;H&amp;#xe9;ctor Mart&amp;#xed;n Pe&amp;#xf1;a Pollastri&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01977">
+<title>Galois Groups of Linear Difference-Differential Equations. (arXiv:2211.01977v1 [math.RA])</title>
+<link>http://arxiv.org/abs/2211.01977</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the relation between the Galois group $G$ of a linear
+difference-differential system and two classes $\mathcal{C}_1$ and
+$\mathcal{C}_2$ of groups that are the Galois groups of the specializations of
+the linear difference equation and the linear differential equation in this
+system respectively. We show that almost all groups in $\mathcal{C}_1\cup
+\mathcal{C}_2$ are algebraic subgroups of $G$, and there is a nonempty subset
+of $\mathcal{C}_1$ and a nonempty subset of $\mathcal{C}_2$ such that $G$ is
+the product of any pair of groups from these two subsets. These results have
+potential application to the computation of the Galois group of a linear
+difference-differential system. We also give a criterion for testing linear
+dependence of elements in a simple difference-differential ring, which
+generalizes Kolchin&apos;s criterion for partial differential fields.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Feng_R/0/1/0/all/0/1&quot;&gt;Ruyong Feng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lu_W/0/1/0/all/0/1&quot;&gt;Wei Lu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2109.09000">
+<title>Smaller Gershgorin disks for multiple eigenvalues for complex matrices. (arXiv:2109.09000v2 [math.RA] UPDATED)</title>
+<link>http://arxiv.org/abs/2109.09000</link>
+<description rdf:parseType="Literal">&lt;p&gt;Extending an earlier result for real matrices we show that multiple
+eigenvalues of a complex matrix lie in a reduced Gershgorin disk. One
+consequence is a slightly better estimate in the real case. Another one is a
+geometric application. Further results of a similar type are given for normal
+and almost symmetric matrices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Barany_I/0/1/0/all/0/1&quot;&gt;Imre B&amp;#xe1;r&amp;#xe1;ny&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Solymosi_J/0/1/0/all/0/1&quot;&gt;Jozsef Solymosi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.03606">
+<title>Quotient diagrams of slim rectangular semimodular lattices and some related questions. (arXiv:2208.03606v2 [math.RA] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.03606</link>
+<description rdf:parseType="Literal">&lt;p&gt;Slim semimodular lattices} (for short, SPS lattices) and slim rectangular
+lattices (for short, SR lattices) were introduced by G. Gr\&quot;atzer and E. Knapp
+in 2007 and 2009. These lattices are necessarily finite and planar, and they
+have been studied in more then four dozen papers since 2007. They are best
+understood with the help of their $C_1$-diagrams, introduced by the author in
+2017. For a diagram $F$ of a finite lattice $L$ and a congruence $\alpha$ of
+$L$, we define the ``quotient diagram&apos;&apos; $F/\alpha$ by taking the maximal
+elements of the $\alpha$-blocks and preserving their geometric positions. While
+$F/\alpha$ is not even a Hasse diagram in general, we prove that whenever $L$
+is an SR lattice and $F$ is a $C_1$-diagram of $L$, then $F/\alpha$ is a
+$C_1$-diagram of $L/\alpha$, which is an SR lattice or a chain. The class of
+lattices isomorphic to the congruence lattices of SPS lattices is closed under
+taking filters. We prove that this class is closed under two more
+constructions, which are inverses of taking filters in some sense; one of the
+two respective proofs relies on an inverse of the quotient diagram
+construction.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Czedli_G/0/1/0/all/0/1&quot;&gt;G&amp;#xe1;bor Cz&amp;#xe9;dli&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.11397">
+<title>Representations and (2,3)-cohomology of Bol algebras with applications. (arXiv:2210.11397v2 [math.RA] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.11397</link>
+<description rdf:parseType="Literal">&lt;p&gt;A representation theory for Bol algebras is proposed. For a suitable
+(2,3)-cohomology theory for Bol algebras, we define a (2,3)-coboundary with
+companion and next we define a (2,3)-cohomology group. Deformations of Bol
+algebras are investigated. In particular, one-parameter infinitesimal
+deformations of Bol algebras are characterized in terms of Bol algebras of
+deformation type and (2,3)-cocycles with coefficients in the adjoint
+representation. The (2,3)-cohomology group is also applied to study abelian
+extensions of Bol algebras.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Issa_A/0/1/0/all/0/1&quot;&gt;A. Nourou Issa&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
