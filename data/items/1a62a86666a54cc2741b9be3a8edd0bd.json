@@ -1,0 +1,6 @@
+{
+  "title": "Finite Difference/Galerkin Finite Element Simulation of the Semi-Linear Wave Equation with Scale-Invariant Damping and Mass and Power Non-Linearity. (arXiv:2001.01075v2 [math.NA] UPDATED)",
+  "link": "http://arxiv.org/abs/2001.01075",
+  "description": "<p>This study is concern with the numerical solution of the initial boundary\nvalue problem (IBVP) for the semilinear scale-invariant wave equation with\ndamping and mass and power non-linearity. Numerical results of the\naforementioned IBVP is obtained by using standart Galerkin finite element\nmethod (GFEM) for the spatial variable and the temporal variable is discretized\nwith the finite difference method (FDM). The FDM is also used for the\ndiscretization of the spatial variable for the accuracy of the numerical\nresults. The obtained numerical results with different numerical schemes are\nobserved compatible. Numerical simulation of the considered problem is given\nfor the different initial conditions.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Selvitopi_H/0/1/0/all/0/1\">Harun Selvitopi</a>"
+}
