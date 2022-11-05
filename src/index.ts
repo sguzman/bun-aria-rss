@@ -5,44 +5,53 @@ import * as fs from 'fs';
 // Path: src/index.ts
 
 // List XML files in the current directory
-const ls: string[] = fs.readdirSync("./data");
+const ls: string[] = fs.readdirSync("./data/rss");
 const xml: string[] = ls.filter((file: string) => file.endsWith(".xml"));
+
 
 // Read the each XML file
 xml.forEach((file: string, index: number) => {
- const data: string = fs.readFileSync(`./data/${file}`, "utf8");
- const json = new fxp.XMLParser().parse(data);
- let items: any[] = [];
+ try {
+  const data: string = fs.readFileSync(`./data/rss/${file}`, "utf8");
+  const json = new fxp.XMLParser().parse(data);
+  let items: any[] = [];
 
- if (json.rss) {
-  if (json.rss.channel) {
-   if (json.rss.channel.item) {
-    if (json.rss.channel.item.length) {
-     items = json.rss.channel.item;
-     console.log('rss', index, json.rss.channel.item.length);
+  if (json.rss) {
+   if (json.rss.channel) {
+    if (json.rss.channel.item) {
+     if (json.rss.channel.item.length) {
+      items = json.rss.channel.item;
+      console.log('rss', index, json.rss.channel.item.length);
+     }
     }
+   }
+
+  } else if (json.feed) {
+   if (json.feed.entry) {
+    items = json.feed.entry;
+    console.log('feed', index, json.feed.entry.length);
+   }
+
+  } else if (json['rdf:RDF']) {
+   if (json['rdf:RDF'].item) {
+    items = json['rdf:RDF'].item;
+    console.log('rdf', index, json['rdf:RDF'].item.length);
    }
   }
 
- } else if (json.feed) {
-  if (json.feed.entry) {
-   items = json.feed.entry;
-   console.log('feed', index, json.feed.entry.length);
+  if (!Array.isArray(items)) {
+   items = [];
   }
 
- } else if (json['rdf:RDF']) {
-  if (json['rdf:RDF'].item) {
-   items = json['rdf:RDF'].item;
-   console.log('rdf', index, json['rdf:RDF'].item.length);
-  }
+  items.forEach((item) => {
+   const str = JSON.stringify(item, null, 2);
+   const hash = md5(str);
+   const writePath = `./data/items/${hash}.json`;
+   fs.writeFileSync(writePath, str);
+  });
+ } catch (e) {
+  console.error(e);
  }
-
- items.forEach((item) => {
-  const str = JSON.stringify(item, null, 2);
-  const hash = md5(str);
-  const writePath = `./data/items/${hash}.json`;
-  fs.writeFileSync(writePath, str);
- });
 });
 
 console.log('done');
