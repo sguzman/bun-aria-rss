@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCcf4LQogGFtYzPhq05uHE4g"/>
+ <id>yt:channel:UCcf4LQogGFtYzPhq05uHE4g</id>
+ <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+ <title>udiprod</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g"/>
+ <author>
+  <name>udiprod</name>
+  <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+ </author>
+ <published>2006-11-09T11:23:28+00:00</published>
+ <entry>
+  <id>yt:video:CS7aLVHpeTs</id>
+  <yt:videoId>CS7aLVHpeTs</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Visualization of Einstein's special relativity [HD]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CS7aLVHpeTs"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2022-08-10T08:57:40+00:00</published>
+  <updated>2022-08-11T12:46:58+00:00</updated>
+  <media:group>
+   <media:title>Visualization of Einstein's special relativity [HD]</media:title>
+   <media:content url="https://www.youtube.com/v/CS7aLVHpeTs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CS7aLVHpeTs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a remake of my video from 2008, rendered in HD, with narration and  minor changes.
+
+This video demonstrates the effects of Einstein's special relativity on objects that move at high velocities due to the Lorentz transformation.
+
+The Lorentz transformation was already known a few years before relativity, but mostly in attempts to justify the classical conception of Ether and absolute space.
+
+The theory of relativity was created based on two principle:
+* The principle of relativity: there's no absolute space, and physics works equally correct for different observers.
+* Light speed is a fundamental property of physics.
+From these two the Lorentz transformation follows as the only possible transformation.
+
+The video shows a 3-dimensional view containing 2 dimensions of space and one dimension of time.</media:description>
+   <media:community>
+    <media:starRating count="1268" average="5.00" min="1" max="5"/>
+    <media:statistics views="10751"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:g06hNBhoS1k</id>
+  <yt:videoId>g06hNBhoS1k</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Shell sort vs Insertion sort</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=g06hNBhoS1k"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2022-05-22T18:52:13+00:00</published>
+  <updated>2022-08-19T15:39:19+00:00</updated>
+  <media:group>
+   <media:title>Shell sort vs Insertion sort</media:title>
+   <media:content url="https://www.youtube.com/v/g06hNBhoS1k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/g06hNBhoS1k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Introduction of Shell sort, and a match with Insertion Sort.
+
+For an introduction of Insertion sort, see:
+https://youtu.be/TZRWRjq2CAg
+
+Choosing the sequence 9-6-1:
+For a list of size 10, the gaps can be any number 1,2,....,9, and the sequence must end with 1.
+So each of the gaps 2,3,...,9 can be included in the sequence, or not included. So there's a total of 2^8=256 possible gap sequences. For each we checked the average number of comparisons for all possible 10! permutations.
+Here are the 3 best sequences:
+9-6-1: 25.512 comparisons
+   4-1: 25.516 comparisons
+   6-1: 25.539 comparisons
+
+We could have also checked which has the highest probability of performing less comparisons than insertion sort. Here are the top 3 in this respect:
+   4-1: prob=0.72
+9-4-1: prob=0.704
+   6-1: prob=0.701
+
+Analyzing Shell sort variants more generally: See it explained in my home page:
+https://www.udiprod.com/shell-sort/#analysis
+
+Why did Shell sort lag behind in the second match in comparisons per second? You are welcome to post answers. Or read answer here: 
+https://www.udiprod.com/shell-sort/#timing</media:description>
+   <media:community>
+    <media:starRating count="3643" average="5.00" min="1" max="5"/>
+    <media:statistics views="77461"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:v7jctqKsUMA</id>
+  <yt:videoId>v7jctqKsUMA</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Gamification of Bell's Theorem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v7jctqKsUMA"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2022-03-07T19:55:58+00:00</published>
+  <updated>2022-05-25T13:05:47+00:00</updated>
+  <media:group>
+   <media:title>Gamification of Bell's Theorem</media:title>
+   <media:content url="https://www.youtube.com/v/v7jctqKsUMA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v7jctqKsUMA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video shows a gamified version of Bell's Theorem called the &quot;CHSH Game&quot;.
+
+The theorem proves the non-local nature of quantum physics, known sometimes as &quot;Spooky action at a distance&quot;. The gamified version further shows that quantum entanglement can be useful. 
+
+See more about the usefulness of quantum entanglement in this video about the relation of such games and interactive proofs, and a recent result related to the halting problem:
+https://youtu.be/2H8629BCbkM
+
+Some history:
+Bell's Theorem is due to John Stuart Bell in 1964.
+The CHSH inequality, by  John Clauser, Michael Horne, Abner Shimony, and Richard Holt,  improved on it in 1969.
+The CHSH game by  R. Cleve, P. Hoyer, B. Toner and J. Watrous in 2004. 
+
+
+About &quot;Bell Locality&quot;:
+The formal statement of it is this requirement of the probability distribution:
+P(x,y|a,b,particle1,particle2)=P(x|a,particle1)P(y|b,particle2)
+This means that the outcomes are independent given the input bits and the respective particle statements. 
+Another way to say that is as stated in the video: that given the particle the top player has, we can specify the table P(x|a,particle1), and it makes no difference what happens with the bottom player (or the other way around of course).
+Bell's theorem proves this is not what's happening.
+
+As stated in the closing slide, this conclusion relies on a few more background assumptions:
+* Each measurement has one outcome. According to the &quot;many-worlds&quot; theory a measurement can have multiple outcomes, and Bell locallity may still hold with this interpretation.
+* The referee can choose random bits. According to &quot;superdeterminisim&quot; world view, there's no such thing as randomness, and it might be that the referee chooses bits somehow pre-determined to match the particles held by the players.
+
+Some more links:
+A primer on quantum physics: https://youtu.be/p7bzE1E5PMY
+A more rigorous explanation of quantum spin (Physics Videos by Eugene Khutoryansky): https://youtu.be/3k5IWlVdMbo
+
+Chapters:
+0:00 Part 1: Decision problems
+1:56 Part 2: Classical bound
+6:20 Part 3: Quantum spin
+13:44 Part 4: A Quantum Strategy
+16:10 Part 5: Local realism
+18:48 Part 6: No signaling
+22:45 Part 7: Bell locality</media:description>
+   <media:community>
+    <media:starRating count="3016" average="5.00" min="1" max="5"/>
+    <media:statistics views="64061"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2H8629BCbkM</id>
+  <yt:videoId>2H8629BCbkM</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Halting Problem &amp; Quantum Entanglement 2020 Breakthrough result [MIP*=RE]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2H8629BCbkM"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2021-11-14T20:42:08+00:00</published>
+  <updated>2022-03-07T22:30:23+00:00</updated>
+  <media:group>
+   <media:title>Halting Problem &amp; Quantum Entanglement 2020 Breakthrough result [MIP*=RE]</media:title>
+   <media:content url="https://www.youtube.com/v/2H8629BCbkM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2H8629BCbkM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video explains the MIP*=RE result. We skip the proof details, just explain what the result means.
+
+Please leave comments in the comment section if something is unclear.
+
+The links mentioned in the video:
+
+1) Proof that the halting problem can't be solved:
+https://youtu.be/92WHN-pAFCs
+
+2) Using the entanglement, see here: https://youtu.be/v7jctqKsUMA
+
+Also, here's a general primer to quantum physics: 
+https://youtu.be/p7bzE1E5PMY
+
+3) Proof that PSPACE contains P and is contained in EXP: TBA sometime
+
+Chapters:
+0:00 Part 1: Decision problems
+3:13 Part 2: Complexity classes
+7:32 Part 3: Verification
+12:57 Part 4: More verification power
+17:51 Part 5: Some implications
+
+Some more explanations:
+
+Part 3:
+
+* We require the verifier to run in polynomial time. This has the usual definition with respect to the input's size. This constraints the size of the proof sent by the prover, since reading 1 character costs 1 time unit.
+
+* In the video we make a distinction between honest and malicious provers. Sometimes it is defined differently: there's only one kind of prover, and it always wants to get the verifier to accept. For w that is in L, it gets the verifier to accept by cooperating and behaving nicely. For w outside of L, it tries to get the verifier to accept by cheating.
+
+Part 4:
+
+* MIP:  In previous games, the verifier faces a single prover. Its goal was to be able to detect if the prover is lying or telling the truth. For languages inside PSPACE, the prover could do that. But languages outside PSPACE are more complicated. For these languages, the verifier can't tell if the prover is lying or telling the truth.
+In MIP we help the verifier more by having two provers. The verifier can now judge if a response is a lie not just by examining the response itself, but by comparing what the two provers say. If they respond to the same question differently, one of the responses must be a lie, and the verifier can reject immediately.
+This added ability to detect lies helps it verify more complicated languages - all languages in the large class called NEXP.
+
+MIP*: Here there's something non-intuitive going on. We help the provers by giving them a quantum device, but it turns out it actually helps the verifier. The details here are complicated, but we may explore them further in future videos.
+
+One frequent question is why the provers use the entanglement at all, even the honest ones. The reason is that the verifier forces them to use the entangelement. 
+
+To see why, consider the non-isomoprhism example: the verifier gives the prover a computational challenge. This challenge is designed such that the prover can win only if the graphs are non-isomorphic.
+
+The quantum entanglement opens the door for new kinds of challenges that the provers can win. It wasn't obvious if any of them are useful for our purposes, but then one was discovered: there exists a challenge such that for a given program p:
+1) The provers can only win if p halts.
+2) And they can only win if they cooperate via the entanglement.
+Condition (2) is logically important: without it the game would have been possible with MIP as well. The provers can choose not to use the entangelement, but then they'll lose. We assume the provers want to win.</media:description>
+   <media:community>
+    <media:starRating count="4630" average="5.00" min="1" max="5"/>
+    <media:statistics views="97109"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9swgG1Nmurg</id>
+  <yt:videoId>9swgG1Nmurg</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>[Confetti] Firing Squad synchronization problem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9swgG1Nmurg"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2021-04-10T17:37:42+00:00</published>
+  <updated>2022-06-24T22:32:32+00:00</updated>
+  <media:group>
+   <media:title>[Confetti] Firing Squad synchronization problem</media:title>
+   <media:content url="https://www.youtube.com/v/9swgG1Nmurg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9swgG1Nmurg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video presents a problem known as &quot;Firing squad synchronization&quot;.
+
+If you want to try to solve it, note it's not easy. Also, make sure you understand the rules. See the first paragraph here: https://www.udiprod.com/firing-squad-synchronization/
+
+The video had an earlier laser version. This version is now unlisted:
+https://youtu.be/xV1aKUdlljU</media:description>
+   <media:community>
+    <media:starRating count="2529" average="5.00" min="1" max="5"/>
+    <media:statistics views="43762"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xV1aKUdlljU</id>
+  <yt:videoId>xV1aKUdlljU</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>[Laser] Firing squad synchronization problem</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xV1aKUdlljU"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2021-03-26T15:01:22+00:00</published>
+  <updated>2022-06-14T06:27:25+00:00</updated>
+  <media:group>
+   <media:title>[Laser] Firing squad synchronization problem</media:title>
+   <media:content url="https://www.youtube.com/v/xV1aKUdlljU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/xV1aKUdlljU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The video shows a theoretical problem in computer science and a solution for it. It is presented as a riddle, but note it's not easy to solve.
+
+The shown solution is based on the first solution proposed for this problem. It requires ~3n steps, and 17 states. 
+
+See list of states and some additional information here: https://www.udiprod.com/firing-squad-synchronization/</media:description>
+   <media:community>
+    <media:starRating count="32886" average="5.00" min="1" max="5"/>
+    <media:statistics views="623220"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OdlNM96sHio</id>
+  <yt:videoId>OdlNM96sHio</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>SVM with polynomial kernel visualization (HD)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OdlNM96sHio"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2021-02-07T14:15:14+00:00</published>
+  <updated>2022-01-14T01:45:03+00:00</updated>
+  <media:group>
+   <media:title>SVM with polynomial kernel visualization (HD)</media:title>
+   <media:content url="https://www.youtube.com/v/OdlNM96sHio?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OdlNM96sHio/hqdefault.jpg" width="480" height="360"/>
+   <media:description>NOTE: This is a new version in HD of my video from 2007. A brand new video is expected in next month.
+
+A visual demonstration of the kernel trick in SVM.
+
+This short video demonstrates how vectors of two classes that cannot be linearly separated in 2-D space, 
+can become linearly separated by a transformation function into a higher
+dimensional space.
+
+The transformation used is:
+f([x y]) = [x y (x^2+y^2)]
+
+Visit my homepage https://www.udiprod.com/</media:description>
+   <media:community>
+    <media:starRating count="490" average="5.00" min="1" max="5"/>
+    <media:statistics views="15127"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bfzYj-qGw7U</id>
+  <yt:videoId>bfzYj-qGw7U</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Slow sorting: Stooge sort and Bogo sort</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bfzYj-qGw7U"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2020-07-25T19:54:07+00:00</published>
+  <updated>2022-06-06T20:31:40+00:00</updated>
+  <media:group>
+   <media:title>Slow sorting: Stooge sort and Bogo sort</media:title>
+   <media:content url="https://www.youtube.com/v/bfzYj-qGw7U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bfzYj-qGw7U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Watch sorting algorithms compete for the title of the slowest sorting algorithm.
+
+If you don't want to watch the whole thing:
+0:16 Stooge sort
+5:13 Bogo sort
+38:36 Discussion about shuffling algorithms
+
+See more comments here:
+https://www.udiprod.com/slow-sorting/
+
+Previous matches with bubble sort:
+Vs. Insertion sort
+https://youtu.be/TZRWRjq2CAg
+Vs. Quick sort
+http://www.youtube.com/watch?v=aXXWXz5rF64</media:description>
+   <media:community>
+    <media:starRating count="10149" average="5.00" min="1" max="5"/>
+    <media:statistics views="290993"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2TYVRLdT-h4</id>
+  <yt:videoId>2TYVRLdT-h4</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Visualization of Tidal Forces</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2TYVRLdT-h4"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2019-12-26T11:33:47+00:00</published>
+  <updated>2022-07-23T16:18:26+00:00</updated>
+  <media:group>
+   <media:title>Visualization of Tidal Forces</media:title>
+   <media:content url="https://www.youtube.com/v/2TYVRLdT-h4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2TYVRLdT-h4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>An explanation of how tidal forces are generated using a flat model of the Earth with beads attached to it.
+This is the source of tides on Earth, though the actual mechanism for generating tides is more complicated with many subtleties.
+
+See more details about the simulations shown in the video here:
+https://www.udiprod.com/tidal-forces/
+
+A video visualizing why the Coriolis force deflects moving objects:
+http://www.youtube.com/watch?v=49JwbrXcPjc</media:description>
+   <media:community>
+    <media:starRating count="2273" average="5.00" min="1" max="5"/>
+    <media:statistics views="57784"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TZRWRjq2CAg</id>
+  <yt:videoId>TZRWRjq2CAg</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Insertion Sort vs Bubble Sort + Some analysis</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TZRWRjq2CAg"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2017-11-11T16:25:58+00:00</published>
+  <updated>2022-11-04T07:15:35+00:00</updated>
+  <media:group>
+   <media:title>Insertion Sort vs Bubble Sort + Some analysis</media:title>
+   <media:content url="https://www.youtube.com/v/TZRWRjq2CAg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TZRWRjq2CAg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A visual demonstration of insertion sort, competition with bubble sort, and performance analysis including these two and quick sort.
+
+See more notes and a more accurate analysis of the algorithms performance:
+https://www.udiprod.com/insertion-sort/
+
+Previous matches:
+
+Heaps sort vs merge sort
+https://www.youtube.com/watch?v=H5kAcmGOn4Q
+
+Merge sort vs quick sort
+http://www.youtube.com/watch?v=es2T6KY45cA
+
+Quick sort vs bubble sort
+http://www.youtube.com/watch?v=aXXWXz5rF64</media:description>
+   <media:community>
+    <media:starRating count="6855" average="5.00" min="1" max="5"/>
+    <media:statistics views="253671"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:p7bzE1E5PMY</id>
+  <yt:videoId>p7bzE1E5PMY</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Visualization of Quantum Physics (Quantum Mechanics)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=p7bzE1E5PMY"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2017-01-31T10:06:49+00:00</published>
+  <updated>2022-11-05T08:07:23+00:00</updated>
+  <media:group>
+   <media:title>Visualization of Quantum Physics (Quantum Mechanics)</media:title>
+   <media:content url="https://www.youtube.com/v/p7bzE1E5PMY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/p7bzE1E5PMY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This video visually demonstrates some basic quantum physics concepts using the simple case of a free particle. 
+
+All the simulations here are based on real equations and laws. See more information here: https://www.udiprod.com/quantum-physics/
+
+The mathematics involved was taken from this excellent book:
+https://www.amazon.com/exec/obidos/ASIN/0387989293/visualquantummec</media:description>
+   <media:community>
+    <media:starRating count="56400" average="5.00" min="1" max="5"/>
+    <media:statistics views="2381529"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:87E0DKs5bok</id>
+  <yt:videoId>87E0DKs5bok</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Visualization of conservation of energy</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=87E0DKs5bok"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2015-12-15T17:12:44+00:00</published>
+  <updated>2022-10-12T22:11:33+00:00</updated>
+  <media:group>
+   <media:title>Visualization of conservation of energy</media:title>
+   <media:content url="https://www.youtube.com/v/87E0DKs5bok?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/87E0DKs5bok/hqdefault.jpg" width="480" height="360"/>
+   <media:description>See explanations for this video in https://www.udiprod.com/energy/</media:description>
+   <media:community>
+    <media:starRating count="2876" average="5.00" min="1" max="5"/>
+    <media:statistics views="148358"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:H5kAcmGOn4Q</id>
+  <yt:videoId>H5kAcmGOn4Q</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Heaps and Heap Sort</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=H5kAcmGOn4Q"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2015-01-18T21:07:56+00:00</published>
+  <updated>2022-04-20T13:43:34+00:00</updated>
+  <media:group>
+   <media:title>Heaps and Heap Sort</media:title>
+   <media:content url="https://www.youtube.com/v/H5kAcmGOn4Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/H5kAcmGOn4Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A demonstration of heaps, heap sort, and a competition with merge-sort.
+See here https://www.udiprod.com/heap-sort/ a more detailed discussion of the properties of heap sort.
+
+Note that the procedures mentioned in the video, &quot;sift-down&quot;, &quot;heapify&quot;, and &quot;sift-up&quot;, may be named differently in different descriptions of heapsort. The implementation is the same though.
+
+Links:
+---------
+
+More details about this video: https://www.udiprod.com/heap-sort/
+
+Previous matches:
+Merge Sort vs Quick Sort: http://www.youtube.com/watch?v=es2T6KY45cA
+Quick Sort vs Bubble Sort:  http://www.youtube.com/watch?v=aXXWXz5rF64
+
+Next match: https://www.youtube.com/watch?v=TZRWRjq2CAg
+
+Visit my homepage: https://www.udiprod.com</media:description>
+   <media:community>
+    <media:starRating count="8385" average="5.00" min="1" max="5"/>
+    <media:statistics views="491706"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:es2T6KY45cA</id>
+  <yt:videoId>es2T6KY45cA</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Merge Sort vs Quick Sort</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=es2T6KY45cA"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2014-01-17T07:24:08+00:00</published>
+  <updated>2022-06-07T12:32:15+00:00</updated>
+  <media:group>
+   <media:title>Merge Sort vs Quick Sort</media:title>
+   <media:content url="https://www.youtube.com/v/es2T6KY45cA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/es2T6KY45cA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A demonstration of merge sort and a two round competition between merge sort and quick sort.
+
+See more details here: https://www.udiprod.com/ms-vs-qs/
+
+Previous match: http://www.youtube.com/watch?v=aXXWXz5rF64
+Next match: https://www.youtube.com/watch?v=H5kAcmGOn4Q</media:description>
+   <media:community>
+    <media:starRating count="22324" average="5.00" min="1" max="5"/>
+    <media:statistics views="1145669"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:92WHN-pAFCs</id>
+  <yt:videoId>92WHN-pAFCs</yt:videoId>
+  <yt:channelId>UCcf4LQogGFtYzPhq05uHE4g</yt:channelId>
+  <title>Proof That Computers Can't Do Everything (The Halting Problem)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=92WHN-pAFCs"/>
+  <author>
+   <name>udiprod</name>
+   <uri>https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g</uri>
+  </author>
+  <published>2013-09-27T11:56:33+00:00</published>
+  <updated>2022-05-20T08:19:37+00:00</updated>
+  <media:group>
+   <media:title>Proof That Computers Can't Do Everything (The Halting Problem)</media:title>
+   <media:content url="https://www.youtube.com/v/92WHN-pAFCs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/92WHN-pAFCs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>If you disagree or get confused by this video, read this FAQ: https://www.udiprod.com/halting-problem/#faq
+Visit my home page:  https://www.udiprod.com
+
+This video gives an informal presentation of Alan Turing's Halting Theorem, a serious, highly influential result in computer science.
+
+A few more comments on this video:
+
+1) This video skips a lot of technicalities for sake of simplicity. There are many rigorous descriptions of this proof easily found on the web.
+
+2) There really is an unbeatable checkers machine. See here: http://en.wikipedia.org/wiki/Draughts#Computer_draughts</media:description>
+   <media:community>
+    <media:starRating count="52572" average="5.00" min="1" max="5"/>
+    <media:statistics views="1918736"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
