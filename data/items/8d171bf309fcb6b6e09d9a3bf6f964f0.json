@@ -1,0 +1,18 @@
+{
+  "title": "Dissecting the Spring4Shell vulnerability. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/237/notes",
+  "description": "Edward Wu, senior principal data scientist at ExtraHop, joins Dave to discuss the company's research, \"A Technical Analysis of How Spring4Shell Works.\" ExtraHop first noticed chatter from social media in March of 2022 on a new remote code execution (RCE) vulnerability and immediately started tracking the issue.\nIn the research, it describes how the exploit works and breaks down how the ExtraHop team came to identify the Spring4Shell vulnerability. The research describes the severity of the vulnerability, saying, \"The impact of an RCE in this framework could have a serious impact similar to Log4Shell.\"\nThe research can be found here:\nHow the Spring4Shell Zero-Day Vulnerability Works",
+  "pubDate": "Sat, 18 Jun 2022 07:00:00 -0000",
+  "itunes:title": "Dissecting the Spring4Shell vulnerability. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 237,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Edward Wu, senior principal data scientist at ExtraHop, joins Dave to discuss the company's research, \"A Technical Analysis of How Spring4Shell Works.\" ExtraHop first noticed chatter from social media in March of 2022 on a new remote code execution (RCE) vulnerability and immediately started tracking the issue.\nIn the research, it describes how the exploit works and breaks down how the ExtraHop team came to identify the Spring4Shell vulnerability. The research describes the severity of the vulnerability, saying, \"The impact of an RCE in this framework could have a serious impact similar to Log4Shell.\"\nThe research can be found here:\nHow the Spring4Shell Zero-Day Vulnerability Works",
+  "content:encoded": "<p>Edward Wu, senior principal data scientist at ExtraHop, joins Dave to discuss the company's research, \"A Technical Analysis of How Spring4Shell Works.\" ExtraHop first noticed chatter from social media in March of 2022 on a new remote code execution (RCE) vulnerability and immediately started tracking the issue.</p><p>In the research, it describes how the exploit works and breaks down how the ExtraHop team came to identify the Spring4Shell vulnerability. The research describes the severity of the vulnerability, saying, \"The impact of an RCE in this framework could have a serious impact similar to Log4Shell.\"</p><p>The research can be found here:</p><ul><li><a href=\"https://www.extrahop.com/company/blog/2022/a-technical-analysis-of-how-spring4shell-works/\">How the Spring4Shell Zero-Day Vulnerability Works</a></li></ul>",
+  "itunes:duration": 1408,
+  "itunes:explicit": "no",
+  "guid": "5ec79c42-ee73-11ec-8a90-1361dc2e26b1",
+  "enclosure": ""
+}

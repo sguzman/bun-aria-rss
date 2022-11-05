@@ -1,0 +1,15 @@
+{
+  "title": "Out-of-Core Dataframes in Python: Dask and OpenStreetMap",
+  "link": "",
+  "published": "2015-08-14T11:00:00-07:00",
+  "updated": "2015-08-14T11:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-08-14:blog/2015/08/14/out-of-core-dataframes-in-python/",
+  "summary": "<p>In recent months, a host of new tools and packages have been announced for working with data at scale in Python.\nFor an excellent and entertaining summary of these, I'd suggest watching Rob Story's <a href=\"https://www.youtube.com/watch?v=RTiAMB2tQjo\">Python Data Bikeshed</a> talk from the <a href=\"http://seattle.pydata.org\">2015 PyData Seattle</a> conference.\nMany of these new scalable data tools are relatively heavy-weight, involving brand new data structures or interfaces to other computing environments, but <a href=\"http://dask.pydata.org/\">Dask</a> stands out for its simplicity.\nDask is a light-weight framework for working with chunked arrays or dataframes across a variety of computational backends.\nUnder the hood, Dask simply uses standard Python, NumPy, and Pandas commands on each chunk, and transparently executes operations and aggregates results so that you can work with datasets that are larger than your machine's memory.</p>\n<p>In this post, I'll take a look at how dask can be useful when looking at a large dataset: the full extracted points of interest from OpenStreetMap.\nWe will use Dask to manipulate and explore the data, and also see the use of matplotlib's <a href=\"http://matplotlib.org/basemap/\">Basemap</a> toolkit to visualize the results on a map.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}
