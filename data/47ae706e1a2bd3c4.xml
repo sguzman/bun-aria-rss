@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCIAEnIaxbkkxfHKAaWh0mmg"/>
+ <id>yt:channel:UCIAEnIaxbkkxfHKAaWh0mmg</id>
+ <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+ <title>ROULZ</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg"/>
+ <author>
+  <name>ROULZ</name>
+  <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+ </author>
+ <published>2014-12-15T15:32:11+00:00</published>
+ <entry>
+  <id>yt:video:uHedP8B0_Z4</id>
+  <yt:videoId>uHedP8B0_Z4</yt:videoId>
+  <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+  <title>How to write generic types in typescript (+ utility types and more)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uHedP8B0_Z4"/>
+  <author>
+   <name>ROULZ</name>
+   <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+  </author>
+  <published>2022-03-22T21:33:51+00:00</published>
+  <updated>2022-08-19T15:44:41+00:00</updated>
+  <media:group>
+   <media:title>How to write generic types in typescript (+ utility types and more)</media:title>
+   <media:content url="https://www.youtube.com/v/uHedP8B0_Z4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uHedP8B0_Z4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is the second video of our Typescript series. In this one, we looked at generics and utility types, as well as an example on how to use them with interfaces.
+
+If you haven't seen the previous video, have a look at https://youtu.be/MhYNyfgrCjg
+
+Links:
+- An online Stackblitz with a typescript project setup: https://roulz.com/typescript
+- Sourcecode for this video: https://github.com/roulzhq/youtube/tree/master/typescript-tutorial/2
+
+Social links:
+Twitter: https://twitter.com/roulzhq
+Github: https://github.com/roulzhq
+Instagram: https://www.instagram.com/roulzhq/
+Discord: https://roulz.com/discord</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="263"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MhYNyfgrCjg</id>
+  <yt:videoId>MhYNyfgrCjg</yt:videoId>
+  <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+  <title>Things you NEED to know about Typescript (#1 - The basics)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MhYNyfgrCjg"/>
+  <author>
+   <name>ROULZ</name>
+   <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+  </author>
+  <published>2022-02-20T14:57:43+00:00</published>
+  <updated>2022-02-28T06:54:37+00:00</updated>
+  <media:group>
+   <media:title>Things you NEED to know about Typescript (#1 - The basics)</media:title>
+   <media:content url="https://www.youtube.com/v/MhYNyfgrCjg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MhYNyfgrCjg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is the first video of our Typescript video series, in which we want to give you an introduction into typescript - &quot;from zero to hero&quot;. There will be more videos coming soon, where we dive a bit deeper into the language. This first one sets you up with a project, so you can enjoy writing typescript.
+
+The second video of this series is not yet done, so please be patient :)
+
+Links:
+- A online Stackblitz with a typescript project setup: https://roulz.com/typescript
+- Sourcecode for this video: https://github.com/roulzhq/youtube/tree/master/typescript-tutorial/1
+
+Social links:
+Twitter: https://twitter.com/roulzhq
+Github: https://github.com/roulzhq
+Instagram: https://www.instagram.com/roulzhq/
+Discord: https://roulz.com/discord</media:description>
+   <media:community>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="434"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Dw3qYGAcpZA</id>
+  <yt:videoId>Dw3qYGAcpZA</yt:videoId>
+  <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+  <title>Dynamically typing React components! #snippets</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Dw3qYGAcpZA"/>
+  <author>
+   <name>ROULZ</name>
+   <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+  </author>
+  <published>2022-02-18T17:00:12+00:00</published>
+  <updated>2022-02-28T07:26:39+00:00</updated>
+  <media:group>
+   <media:title>Dynamically typing React components! #snippets</media:title>
+   <media:content url="https://www.youtube.com/v/Dw3qYGAcpZA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Dw3qYGAcpZA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is the beginning of our small video series in which we show you some small tricks, briefly and concisely. The first trick we will show you is the dynamic typing of React components.
+
+Sources and mentions:
+React forwardRef:
+- https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forward_and_create_ref/
+- https://fettblog.eu/typescript-react-generic-forward-refs/
+Thumbnail image: https://unsplash.com/photos/8hgmG03spF4
+
+Social links:
+Twitter: https://twitter.com/roulzhq
+Github: https://github.com/roulzhq
+Instagram: https://www.instagram.com/roulzhq/
+Discord: https://roulz.com/discord</media:description>
+   <media:community>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="571"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5LhGMq5wvmk</id>
+  <yt:videoId>5LhGMq5wvmk</yt:videoId>
+  <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+  <title>Why WebAssembly is the future of Web development</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5LhGMq5wvmk"/>
+  <author>
+   <name>ROULZ</name>
+   <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+  </author>
+  <published>2022-01-23T18:17:04+00:00</published>
+  <updated>2022-03-24T10:45:09+00:00</updated>
+  <media:group>
+   <media:title>Why WebAssembly is the future of Web development</media:title>
+   <media:content url="https://www.youtube.com/v/5LhGMq5wvmk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5LhGMq5wvmk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>WebAssembly (WASM). A game changer for web development? Maybe!
+
+Sources and mentions:
+- Stack overflow Developer Survey 2019: https://insights.stackoverflow.com/survey/2019
+- Google I/O 2019 (WebAssembly talk): https://youtu.be/njt-Qzw0mVY
+- Doom 3 Webassembly demo: https://wasm.continuation-labs.com/d3demo/
+- Arxwasm Game: https://wasm.continuation-labs.com/arxdemo/
+- Squoosh App: https://squoosh.app/
+- Webassembly Studio: https://webassembly.studio
+
+Social links:
+Twitter: https://twitter.com/roulzhq
+Github: https://github.com/roulzhq
+Instagram: https://www.instagram.com/roulzhq/
+Discord: https://roulz.com/discord</media:description>
+   <media:community>
+    <media:starRating count="4584" average="5.00" min="1" max="5"/>
+    <media:statistics views="139030"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6JCg2wTI5Lg</id>
+  <yt:videoId>6JCg2wTI5Lg</yt:videoId>
+  <yt:channelId>UCIAEnIaxbkkxfHKAaWh0mmg</yt:channelId>
+  <title>Load-balance Docker Webapps in 1min and 30s with Caddy</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6JCg2wTI5Lg"/>
+  <author>
+   <name>ROULZ</name>
+   <uri>https://www.youtube.com/channel/UCIAEnIaxbkkxfHKAaWh0mmg</uri>
+  </author>
+  <published>2018-03-17T18:00:38+00:00</published>
+  <updated>2022-02-21T20:27:39+00:00</updated>
+  <media:group>
+   <media:title>Load-balance Docker Webapps in 1min and 30s with Caddy</media:title>
+   <media:content url="https://www.youtube.com/v/6JCg2wTI5Lg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6JCg2wTI5Lg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This setup obviously is not perfect and I would not recommend using it like that in production, but from that point you have all the possibilities!
+
+Caddy Docker Image:
+https://github.com/abiosoft/caddy-docker
+https://hub.docker.com/r/abiosoft/caddy/
+
+More about Caddy, the  HTTP/2 web server with automatic HTTPS:
+https://caddyserver.com/
+
+The Docker Logo belongs to https://docker.com</media:description>
+   <media:community>
+    <media:starRating count="44" average="5.00" min="1" max="5"/>
+    <media:statistics views="4773"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
