@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.ed-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Physics Education (physics.ed-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Physics Education</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01767" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01767">
+<title>Redefining Astronomy Summer Camps in the Age of the Pandemic: a Break from the IAYC&apos;s 50-Year History. (arXiv:2211.01767v1 [physics.ed-ph])</title>
+<link>http://arxiv.org/abs/2211.01767</link>
+<description rdf:parseType="Literal">&lt;p&gt;The International Astronomical Youth Camp (IAYC) is a 50-year old summer
+camp, where participants work independently on astronomy projects. Due to the
+ongoing COVID-19 pandemic, the 2020 and 2021 instalments of the IAYC were
+cancelled, a first in the camp&apos;s history. An online format was established
+dubbed the eIAYC, consisting of three types of activities: (1) an engagement
+series with astronomical talks and workshops; (2) small independent research
+projects; and (3) a non-astronomical program involving a range of social
+activities. Here we present the experience of adapting an in-person camp into
+an online alternative in order to further the IAYC&apos;s mission. We discuss
+organisational challenges, experiences with online engagement, and how the 2020
+eIAYC informed plans for this year&apos;s eIAYC.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ahrer_E/0/1/0/all/0/1&quot;&gt;Eva-Maria Ahrer&lt;/a&gt; (1 and 2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Archipley_M/0/1/0/all/0/1&quot;&gt;Melanie Archipley&lt;/a&gt; (1 and 3), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Dalgleish_H/0/1/0/all/0/1&quot;&gt;Hannah S. Dalgleish&lt;/a&gt; (1 and 4), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mortimer_D/0/1/0/all/0/1&quot;&gt;Daniel J. Mortimer&lt;/a&gt; (1 and 5) ((1) International Workshop for Astronomy e.V., (2) University of Warwick, (3) University of Illinois Urbana-Champaign, (4) University of Namibia, (5) University of Cambridge)</dc:creator>
+</item>
+</rdf:RDF>
