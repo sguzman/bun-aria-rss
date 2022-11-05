@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:lkwkBry1xcE",
+  "yt:videoId": "lkwkBry1xcE",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Day in the Life of Open Source Maintenance 2022-06-19",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-06-19T13:51:10+00:00",
+  "updated": "2022-10-09T02:20:40+00:00",
+  "media:group": {
+    "media:title": "Day in the Life of Open Source Maintenance 2022-06-19",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Inspired by a tweet — https://twitter.com/jonhoo/status/1538210301484535808 — this video is a view into what regular, day-to-day open-source maintenance looks like. We review a few PRs to different project and triage some issues, all linked below, as well as discuss some of the challenges in being an OSS maintainer.\n\nLive version with chat: https://youtu.be/aT5i9jCNRLg\n\n0:00:00 Introduction\n0:03:20 Rustacean Station https://github.com/rustacean-station/rustacean-station.org/pull/154\n0:04:50 Notifications we'll skip\n0:06:13 cargo: target-applies-to-host bug https://github.com/rust-lang/cargo/issues/10744\n0:08:35 hashbag: HashBag::difference https://github.com/jonhoo/hashbag/pull/6\n0:49:45 openssh-sftp-client: !Unpin support https://github.com/openssh-rust/openssh-sftp-client/pull/8\n0:54:52 openssh: resuming sessions https://github.com/openssh-rust/openssh/pull/80\n1:11:56 openssh: Dependabot accidentally breaking change https://github.com/openssh-rust/openssh/pull/81\n1:24:53 inferno: text alignment improvement https://github.com/jonhoo/inferno/issues/247\n1:28:00 std: Switchable buffering for Stdout https://github.com/rust-lang/rust/pull/78515\n1:29:16 haphazard: Soundness bug https://github.com/jonhoo/haphazard/issues/36\n1:38:00 OSS conversation venues\n1:42:08 inferno: lazy_static to once_cell https://github.com/jonhoo/inferno/pull/249\n1:55:45 Nitpicking in PRs\n2:00:51 inferno: PHP XDebug support https://github.com/jonhoo/inferno/pull/126\n2:05:00 bus: dependency update and CI fix https://github.com/jonhoo/bus/pull/29\n2:21:30 When to use Miri in CI\n2:22:50 Staying motivated in OSS\n2:28:35 Would you do OSS full time?",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
