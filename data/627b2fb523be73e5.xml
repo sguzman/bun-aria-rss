@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/mogul" rel="self" type="application/rss+xml"/>
+    <title>Mogul</title>
+    <link>https://gimletmedia.com/mogul/</link>
+    <language>en</language>
+    <copyright></copyright>
+    <description>Mogul is a show about hip hop’s most iconic moments, told by the people who lived them. In Season 3, we’re telling the story of DJ Screw, a reclusive genius who changed the sound of music forever. An auteur who created his own genre — Chopped and Screwed — Screw slowed music down until it sounded like syrup coming out of your speakers. It quickly became the soundtrack to the city of Houston, before influencing an entire generation of rappers. But the man behind the beats was a mystery to all but his closest collaborators, and to this day he remains one of hip-hop’s greatest enigmas.</description>
+    <image>
+      <url>https://megaphone.imgix.net/podcasts/44250a2c-2089-11e7-a1f3-bb6a31bc38f5/image/20210611_Gimlet_MogulS3_ShowArt.jpg?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress</url>
+      <title>Mogul</title>
+      <link>https://gimletmedia.com/mogul/</link>
+    </image>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>A show about hip hop’s most iconic moments, told by the people who lived them.</itunes:subtitle>
+    <itunes:author>Gimlet</itunes:author>
+    <itunes:summary>Mogul is a show about hip hop’s most iconic moments, told by the people who lived them. In Season 3, we’re telling the story of DJ Screw, a reclusive genius who changed the sound of music forever. An auteur who created his own genre — Chopped and Screwed — Screw slowed music down until it sounded like syrup coming out of your speakers. It quickly became the soundtrack to the city of Houston, before influencing an entire generation of rappers. But the man behind the beats was a mystery to all but his closest collaborators, and to this day he remains one of hip-hop’s greatest enigmas.</itunes:summary>
+    <content:encoded>
+      <![CDATA[<p>Mogul is a show about hip hop’s most iconic moments, told by the people who lived them. In Season 3, we’re telling the story of DJ Screw, a reclusive genius who changed the sound of music forever. An auteur who created his own genre — Chopped and Screwed — Screw slowed music down until it sounded like syrup coming out of your speakers. It quickly became the soundtrack to the city of Houston, before influencing an entire generation of rappers. But the man behind the beats was a mystery to all but his closest collaborators, and to this day he remains one of hip-hop’s greatest enigmas.</p>]]>
+    </content:encoded>
+    <itunes:owner>
+      <itunes:name>Gimlet</itunes:name>
+      <itunes:email>admin@gimletmedia.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://megaphone.imgix.net/podcasts/44250a2c-2089-11e7-a1f3-bb6a31bc38f5/image/20210611_Gimlet_MogulS3_ShowArt.jpg?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+    <itunes:category text="Music">
+      <itunes:category text="Music History"/>
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Documentary"/>
+    </itunes:category>
+    <itunes:category text="History">
+    </itunes:category>
+  </channel>
+</rss>
