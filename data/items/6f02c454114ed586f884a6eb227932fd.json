@@ -1,0 +1,14 @@
+{
+  "title": "Hyperparameter optimization with approximate gradient",
+  "link": "http://fa.bianp.net/blog/2016/hyperparameter-optimization-with-approximate-gradient/",
+  "description": "<script type=\"text/x-mathjax-config\">\n        MathJax.Hub.Config({\n          extensions: [\"tex2jax.js\"],\n          jax: [\"input/TeX\", \"output/HTML-CSS\"],\n          tex2jax: {\n            inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n            displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n            processEscapes: true\n          },\n            TeX: {\n              equationNumbers: { autoNumber: \"AMS\" },\n              Macros: {\n                RR: \"{\\\\mathbb{R}}\",\n                argmin: \"{\\\\mathop{\\\\mathrm{arg\\\\,min}}}\",\n                bold: [\"{\\\\bf #1}\",1]\n              }\n            },\n          \"HTML-CSS\": { availableFonts: [\"TeX\"] }\n        });\n      </script>\n\n      <script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML\">\n      </script>      \n\n    <p><b>TL;DR:</b> I describe a <a href=\"http://arxiv.org/abs/1602.02355\">method for hyperparameter optimization</a> by gradient descent.</p>\n    <p>Most machine …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 25 May 2016 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2016-05-25:/blog/2016/hyperparameter-optimization-with-approximate-gradient/",
+  "category": [
+    "optimization",
+    "machine learning",
+    "hyperparameters",
+    "HOAG"
+  ]
+}
