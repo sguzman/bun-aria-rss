@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:tGn0mQF0804",
+  "yt:videoId": "tGn0mQF0804",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Implementing Hazard Pointers in Rust (part 3)",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-10-31T15:48:47+00:00",
+  "updated": "2022-07-22T14:47:43+00:00",
+  "media:group": {
+    "media:title": "Implementing Hazard Pointers in Rust (part 3)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We continue our journey implementing Hazard Pointers (https://erdani.org/publications/cuj-2004-12.pdf) in Rust. We follow along with the C++ implementation in Facebook's Folly library (https://github.com/facebook/folly/blob/master/folly/synchronization/Hazptr.h), starting from where we left off last time: https://github.com/jonhoo/haphazard/tree/29b41ba3c3e31a7b044e489a67d61d5a009e9d3f. Much of the stream is catching up with the change to folly since last time (https://github.com/facebook/folly/commits/main?before=d2154674583a01e9d76e2c38e1c37e531132099e+35&branch=main&path%5B%5D=folly&path%5B%5D=synchronization), though we do also get to writing some concurrency tests with loom (https://docs.rs/loom/).\n\n0:00:00 Introduction\n0:03:12 Follow-up from last time\n0:05:55 Re-visiting the interface\n0:17:16 rebase: reset_protection\n0:19:17 Folly changes since last time\n0:22:50 rebase: hazard pointer constructors\n0:41:39 rebase: irrelevant c++ commits\n0:42:28 rebase: type renames\n0:56:45 rebase: more irrelevant c++ commits\n1:02:15 rebase: from push_retire to push_list\n2:59:18 Tracking down a segfault with gdb\n3:04:37 rebase: sharding the untagged list\n3:44:08 rebase: track available hazard pointers\n3:57:15 A quick break\n4:01:10 cont'd: track available hazard pointers\n5:03:48 Concurrency testing with loom\n5:45:25 Writing a loom test\n6:30:31 Test with two readers\n6:40:22 Test dropping a non-global domain\n6:45:35 Summary and next steps\n\nYou can find the latest code for the implementation at https://github.com/jonhoo/haphazard.\n\nLive version with chat: https://youtu.be/2Iu2BnO9iHg",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Boolean algebra, first steps",
+  "link": "http://fa.bianp.net/blog/2009/boolean-algebra-first-steps/",
+  "description": "<p><p>The first task for my Summer of Code project is to write a nice boolean\nalgebra module. I wanted a clean module that follows SymPy's object\nmodel and that plays well with other objects. In practice this means\nthat it should inherit from Basic and that it should behave well …</p></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 15 May 2009 19:20:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-05-15:/blog/2009/boolean-algebra-first-steps/",
+  "category": "sympy, Tecnologí­a"
+}

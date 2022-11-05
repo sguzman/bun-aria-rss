@@ -1,0 +1,16 @@
+{
+  "title": "Numba vs. Cython: Take 2",
+  "link": "",
+  "published": "2013-06-15T08:00:00-07:00",
+  "updated": "2013-06-15T08:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-06-15:blog/2013/06/15/numba-vs-cython-take-2/",
+  "summary": "<p>Last summer I wrote a <a href=\"http://jakevdp.github.io/blog/2012/08/24/numba-vs-cython/\">post</a>\ncomparing the performance of <a href=\"http://numba.pydata.org/\">Numba</a> and <a href=\"http://cython.org/\">Cython</a>\nfor optimizing array-based computation.  Since posting, the page has received thousands of hits,\nand resulted in a number of interesting discussions.\nBut in the meantime, the Numba package has come a long way both in its interface and its\nperformance.</p>\n<p>Here I want to revisit those timing comparisons with a more recent Numba release, using the newer\nand more convenient <code>autojit</code> syntax, and also add in a few additional benchmarks for\ncompleteness.  I've also written this post entirely within an IPython notebook, so it can be\neasily downloaded and modified.</p>\n<p>As before, I'll use a <strong>pairwise distance</strong> function.  This will take an array representing\n<code>M</code> points in <code>N</code> dimensions, and return the <code>M x M</code> matrix of pairwise distances.\nThis is a nice test function for a few reasons.  First of all, it's a very clean and\nwell-defined test.  Second of all, it illustrates the kind of array-based operation that\nis common in statistics, datamining, and machine learning.  Third, it is a function that\nresults in large memory consumption if the standard numpy broadcasting approach is used\n(it requires a temporary array containing <code>M * M * N</code>  elements), making it a good\ncandidate for an alternate approach.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

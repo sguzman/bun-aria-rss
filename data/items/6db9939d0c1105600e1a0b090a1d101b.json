@@ -1,0 +1,18 @@
+{
+  "title": "Bad building blocks: a new and unusual phishing campaign. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/186/notes",
+  "description": "Guest Karl Sigler of Trustwave's SpiderLabs joins Dave Bittner to talk about their research: \"Hidden Phishing at Free JavaScript Site\". The research describes an interesting phishing campaign SpiderLabs encountered recently. In this campaign, the email subject pertains to a price revision, followed by some numbers. There is no email body, but there is an attachment about an ”investment.” The attachment’s convoluted filename contains characters the file-naming convention doesn’t allow, notably the vertical stroke, “|.” Even though \"xlsx\" is in the filename, double-clicking the attachment will prompt the user to open it with the default web browser. Thus, the file indeed appears to be an HTML document. Of course, it’s malicious.\nThe research can be found here:\nHTML Lego: Hidden Phishing at Free JavaScript Site",
+  "pubDate": "Sat, 05 Jun 2021 05:00:00 -0000",
+  "itunes:title": "Bad building blocks: a new and unusual phishing campaign. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 186,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guest Karl Sigler of Trustwave's SpiderLabs joins Dave Bittner to talk about their research: \"Hidden Phishing at Free JavaScript Site\". The research describes an interesting phishing campaign SpiderLabs encountered recently. In this campaign, the email subject pertains to a price revision, followed by some numbers. There is no email body, but there is an attachment about an ”investment.” The attachment’s convoluted filename contains characters the file-naming convention doesn’t allow, notably the vertical stroke, “|.” Even though \"xlsx\" is in the filename, double-clicking the attachment will prompt the user to open it with the default web browser. Thus, the file indeed appears to be an HTML document. Of course, it’s malicious.\nThe research can be found here:\nHTML Lego: Hidden Phishing at Free JavaScript Site",
+  "content:encoded": "<p>Guest Karl Sigler of Trustwave's SpiderLabs joins Dave Bittner to talk about their research: \"Hidden Phishing at Free JavaScript Site\". The research describes an interesting phishing campaign SpiderLabs encountered recently. In this campaign, the email subject pertains to a price revision, followed by some numbers. There is no email body, but there is an attachment about an ”investment.” The attachment’s convoluted filename contains characters the file-naming convention doesn’t allow, notably the vertical stroke, “|.” Even though \"xlsx\" is in the filename, double-clicking the attachment will prompt the user to open it with the default web browser. Thus, the file indeed appears to be an HTML document. Of course, it’s malicious.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/html-lego-hidden-phishing-at-free-javascript-site/\">HTML Lego: Hidden Phishing at Free JavaScript Site</a></li></ul>",
+  "itunes:duration": 1238,
+  "itunes:explicit": "no",
+  "guid": "a3111882-c611-11eb-bdf7-5b14d88195b1",
+  "enclosure": ""
+}

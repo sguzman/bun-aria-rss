@@ -1,0 +1,8 @@
+{
+  "title": "CVE-2021-44228 - Patching is Recommended for Evolving Zero Day Vulnerability in Apache Log4j that allows remote code execution (RCE)",
+  "description": "Akamai has been monitoring the rapidly evolving developments of CVE-2021-44228.  We have been working closely with our customers and internal application teams to mitigate the risks posed by the threat of unauthorized remote code execution.  This includes deploying an update to our existing Apache WAF rules to include mitigation for this Zero Day CVE, and updating the Log4j library to version 2.15.0 or later.",
+  "link": "https://www.akamai.com/blog/news/CVE-2021-44228-Patching-is-Recommended",
+  "author": "Akamai",
+  "guid": "https://www.akamai.com/blog/news/CVE-2021-44228-Patching-is-Recommended",
+  "pubDate": "Sat, 11 Dec 2021 11:00 AM UTC"
+}
