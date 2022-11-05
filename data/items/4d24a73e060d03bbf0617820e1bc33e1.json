@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:fwg9GOEds3M",
+  "yt:videoId": "fwg9GOEds3M",
+  "yt:channelId": "UCRCPQvTs96frBB8X5eGVE4w",
+  "title": "Memrise is moving to 'Decks' [How to save your language courses to Anki]",
+  "link": "",
+  "author": {
+    "name": "The Mezzofanti Guild",
+    "uri": "https://www.youtube.com/channel/UCRCPQvTs96frBB8X5eGVE4w"
+  },
+  "published": "2019-02-21T20:19:42+00:00",
+  "updated": "2022-06-22T22:08:28+00:00",
+  "media:group": {
+    "media:title": "Memrise is moving to 'Decks' [How to save your language courses to Anki]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Visit my blog and subscribe at: https://www.mezzoguild.com/\n\nMemrise just announced that they're rebranding to a free community site called Decks.\n\nIt's unclear if this will change any of the current functionality of Memrise courses (they seem to insist it won't). Either way, it's actually really easy to download your existing courses to your computer as Anki decks.\n\nGo to nodejs.org and download your OS' version of npm (Node Package Manager). If you're using Linux or BSD, you can install npm through your system's ports or packages.\n\nRun: npm install memanki-cli -g\n\nThen run: memanki --id ####### (course ID number taken from url in your browser)\n\nYou can also run: memanki --merge --id ####### (this will merge all course decks into one big deck.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
