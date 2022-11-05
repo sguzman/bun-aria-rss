@@ -1,0 +1,7 @@
+{
+  "title": "Recurrent Neural Networks for Collaborative Filtering",
+  "link": "https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering.html",
+  "pubDate": "Sat, 28 Jun 2014 00:00:00 +0000",
+  "guid": "https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering.html",
+  "description": "I’ve been spending quite some time lately playing around with RNN’s for collaborative filtering. RNN’s are models that predict a sequence of something. The beauty is that this something can be anything really – as long as you can design an output gate with a proper loss function, you can model essentially anything."
+}

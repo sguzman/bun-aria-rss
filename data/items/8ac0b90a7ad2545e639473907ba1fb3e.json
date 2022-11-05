@@ -1,0 +1,20 @@
+{
+  "title": "Orthorectification using open source tools",
+  "link": "http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/",
+  "comments": "http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/#respond",
+  "dc:creator": "jeremydjacksonphd",
+  "pubDate": "Wed, 13 Apr 2016 16:51:05 +0000",
+  "category": "Geometry",
+  "guid": {
+    "@isPermaLink": false,
+    "#text": "http://www.jeremydjacksonphd.com/?p=389"
+  },
+  "description": "OSSIM OSSIMOrthos.pdf GRASS i.ortho.photo Orfeo Toolbox C++ example Detailed Description CLI and Python examples Monteverdi and otb-applications QGIS plugins Pic2Map: docs DEMs SRTM US 30m ASTER",
+  "content:encoded": "<ol>\n<li><a href=\"http://www.ossim.org/OSSIM/OSSIM_Home.html\">OSSIM</a>\n<ol>\n<li><a href=\"http://download.osgeo.org/ossim/docs/pdfs/\">OSSIMOrthos.pdf</a></li>\n</ol>\n</li>\n<li><a href=\"http://grass.osgeo.org/\">GRASS</a>\n<ol>\n<li><a href=\"http://grass.osgeo.org/gdp/html_grass64/i.ortho.photo.html\">i.ortho.photo</a></li>\n</ol>\n</li>\n<li>Orfeo Toolbox\n<ol>\n<li><a href=\"https://www.orfeo-toolbox.org/doxygen/Projections_2OrthoRectificationExample_8cxx-example.html\">C++ example</a></li>\n<li><a href=\"http://otbcb.readthedocs.org/en/latest/Applications/app_OrthoRectification.html#detailed-description\">Detailed Description</a></li>\n<li><a href=\"http://otbcb.readthedocs.org/en/latest/Applications/app_OrthoRectification.html#example\">CLI and Python examples</a></li>\n</ol>\n</li>\n<li><a href=\"http://otbcb.readthedocs.org/en/latest/recipes/optpreproc.html#ortho-rectification-and-map-projections\">Monteverdi and otb-applications</a></li>\n<li>QGIS plugins\n<ol>\n<li><a href=\"https://plugins.qgis.org/plugins/Pic2Map/\">Pic2Map</a>: <a href=\"https://documents.epfl.ch/groups/l/la/lasig-unit/www/pic2map/documentation/\">docs</a></li>\n</ol>\n</li>\n<li>DEMs\n<ol>\n<li><a href=\"http://www2.jpl.nasa.gov/srtm/\">SRTM</a>\n<ol>\n<li><a href=\"http://dds.cr.usgs.gov/srtm/version2_1/SRTM1/\">US 30m</a></li>\n</ol>\n</li>\n<li><a href=\"http://asterweb.jpl.nasa.gov/\">ASTER</a></li>\n</ol>\n</li>\n</ol>",
+  "wfw:commentRss": "http://www.jeremydjacksonphd.com/2016/04/13/orthorectification-using-open-source-tools/feed/",
+  "slash:comments": 0,
+  "post-id": {
+    "@xmlns": "com-wordpress:feed-additions:1",
+    "#text": 389
+  }
+}
