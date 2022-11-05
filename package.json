@@ -1,8 +1,11 @@
 {
   "name": "bun-aria-rss",
   "version": "0.0.59",
-  "module": "src/index.js",
+  "module": "src/index.ts",
   "devDependencies": {
     "bun-types": "latest"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.0.11"
   }
 }
