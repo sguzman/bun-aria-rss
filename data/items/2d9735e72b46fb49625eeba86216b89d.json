@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:4GuBezQhxNc",
+  "yt:videoId": "4GuBezQhxNc",
+  "yt:channelId": "UCzdCHjiDfrrol0QrnUY6DhQ",
+  "title": "ITT 2018 - Sveta Smirnova - Introduction into MySQL Query Tuning",
+  "link": "",
+  "author": {
+    "name": "Istanbul Tech Talks",
+    "uri": "https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ"
+  },
+  "published": "2018-08-03T12:54:29+00:00",
+  "updated": "2022-06-03T01:47:14+00:00",
+  "media:group": {
+    "media:title": "ITT 2018 - Sveta Smirnova - Introduction into MySQL Query Tuning",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this talk I will show how to get started with MySQL Query Tuning. I will make a short introduction into physical table structure and demonstrate how it may influence query execution time. Then we will discuss basic query tuning instruments and techniques, mainly EXPLAIN command with its latest variations. You will learn how to understand its output and how to rewrite query or change table structure to achieve better performance.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

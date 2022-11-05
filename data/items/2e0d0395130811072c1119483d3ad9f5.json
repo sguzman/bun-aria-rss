@@ -1,0 +1,7 @@
+{
+  "title": "Better precision and faster index building in Annoy",
+  "link": "https://erikbern.com/2015/05/26/40-better-precision-and-4x-faster-index-building-in-annoy.html",
+  "pubDate": "Tue, 26 May 2015 00:00:00 +0000",
+  "guid": "https://erikbern.com/2015/05/26/40-better-precision-and-4x-faster-index-building-in-annoy.html",
+  "description": "Sometimes you have these awesome insights. A few days ago I got an idea for how to improve index building in Annoy.\nFor anyone who isn't acquainted with Annoy – it's a C++ library with Python bindings that provides fast high-dimensional nearest neighbor search."
+}

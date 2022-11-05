@@ -1,0 +1,12 @@
+{
+  "title": "Analyzing Interactive Brokers XML Flex Statements with pandas",
+  "link": "",
+  "published": "2015-11-02T08:00:00-08:00",
+  "updated": "2015-11-02T08:00:00-08:00",
+  "author": {
+    "name": "Wes McKinney"
+  },
+  "id": "tag:wesmckinney.com,2015-11-02:/blog/analyzing-ib-flex-statements/",
+  "summary": "<h4><a href=\"http://github.com/wesm/ib-flex-analyzer\">http://github.com/wesm/ib-flex-analyzer</a></h4>\n<p>I published a small set of tools to parse, clean, and pandas-ify XML flex\nstatements from <a href=\"http://interactivebrokers.com\">Interactive Brokers</a>. I love IB but they aren't the best at\ngiving you detailed portfolio analysis to understand how you are succeeding or\nfailing at personal trading. Luckily we …</p>",
+  "content": "<h4><a href=\"http://github.com/wesm/ib-flex-analyzer\">http://github.com/wesm/ib-flex-analyzer</a></h4>\n<p>I published a small set of tools to parse, clean, and pandas-ify XML flex\nstatements from <a href=\"http://interactivebrokers.com\">Interactive Brokers</a>. I love IB but they aren't the best at\ngiving you detailed portfolio analysis to understand how you are succeeding or\nfailing at personal trading. Luckily we have nice things in Python!</p>\n<p>The project will help you:</p>\n<ul>\n<li>Roll up options P&amp;L by underlying security and compare stock vs option P&amp;L by\n  underlying (very helpful if you write a lot of covered calls and\n  puts).</li>\n<li>Total up all your dividends and fees (e.g. broker interest for margin).</li>\n<li>Look at deposits and withdrawals over time.</li>\n</ul>\n<p>It's up to you how you use this information. My experience is that it's usually\nbetter to let someone else worry about your money. The curse of having worked\nin finance is the desire to run a more sophisticated book than average\ninvestors. So it goes.</p>"
+}
