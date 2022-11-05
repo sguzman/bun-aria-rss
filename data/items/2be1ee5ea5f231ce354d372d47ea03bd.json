@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:sOFnsb2rrek",
+  "yt:videoId": "sOFnsb2rrek",
+  "yt:channelId": "UCXDc-ckqru8BgppXbCt0APw",
+  "title": "Simona Stojanovic - DataStore - The Preferred Way To Store Data",
+  "link": "",
+  "author": {
+    "name": "Google Developer Groups",
+    "uri": "https://www.youtube.com/channel/UCXDc-ckqru8BgppXbCt0APw"
+  },
+  "published": "2021-12-09T17:59:26+00:00",
+  "updated": "2021-12-12T00:05:46+00:00",
+  "media:group": {
+    "media:title": "Simona Stojanovic - DataStore - The Preferred Way To Store Data",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "DataStore is a new and improved data storage solution, replacing SharedPreferences. Built on Kotlin coroutines and Flow, DataStore provides two different implementations: Proto DataStore, that stores typed objects (backed by protocol buffers) and Preferences DataStore, that stores key-value pairs.\nIn this talk, you’ll see what DataStore offers over SharedPreferences, how to migrate easily and cover the basics of data storage - reading, writing, and error handling.  Finally, we will see how to use it along with Kotlin coroutines and Flow to store data asynchronously, consistently, and transactionally.\n\n\nBio\nSimona Stojanovic works at Google as an Android Developer Relations Engineer, splitting her time between Architecture Components (DataStore) and Jetpack Compose. Before joining Google, Simona worked as an Android Dev in a variety of different industries - retail, transportation, banking, automotive & online dating. Aside from work, she loves to travel, read, organize stuff (😬), play video games and spend time with her 4 fluffy pets.\n\nhttps://twitter.com/anomisSi\n\nThis talk is part of our DevFest Inspire event! #DevFestInspire\n\nDevFest Inspire is a virtual event celebrating the end of the DevFest 2021 season where we’ll recognize content created by the community, as well as Googlers from Europe and Africa. \n\nYou can also network and connect with other developers during the event! \n→ Learn more and sign up at https://goo.gle/devfest-inspire !\n→ Check more events and content:  https://gdg.community.dev/events/#/list",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

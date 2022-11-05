@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:GznmPACXBlY",
+  "yt:videoId": "GznmPACXBlY",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How I built a software agency website with Next.js + Tailwind CSS (in nature)",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2022-04-11T11:58:37+00:00",
+  "updated": "2022-08-22T02:10:25+00:00",
+  "media:group": {
+    "media:title": "How I built a software agency website with Next.js + Tailwind CSS (in nature)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nI've built a website for my friend Marc's agency, Margelo https://margelo.io/ (The source code is private). *Do not submit the form for testing.*\nI hope you enjoy it :)\n\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=GznmPACXBlY\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n▶ My equipment\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n & Blue Microphones Yeti\n* Slider: SliderONE v2\n* Keyboard: Keychron K2\n* Browser: Min - https://minbrowser.org/\n* Keystroke visualizer: KeyCastr - https://github.com/keycastr/keycastr\n* Cursor effect: Cursor Pro - https://apple.co/3rlWOBA?at=11l7AK\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n00:00 Intro\n01:16 Heading for a hike\n02:43 Create a new project\n03:49 Start Next.js dev server\n06:28 Check the assets provided by the client\n06:48 Clean up the scaffolded code\n08:08 Masthead - Video background\n15:03 About us\n22:58 Masthead - Background parallax effect\n28:08 Masthead - Logo animations\n30:23 Skills\n34:06 Skills - Animations\n39:45 Works - Sticky parallax effect\n01:06:19 Check the current progress\n01:06:49 Trusted by\n01:11:55 Observe viewport size\n01:14:21 Logo slider\n01:25:06 Testimonials - Carousel layout\n01:37:10 Add reviews\n01:40:13 Break\n01:40:39 Contact form\n01:42:50 Testimonials - Fix the blank gap\n01:44:33 Contact form\n01:49:51 Footer\n01:51:55 Check the current progress\n01:52:23 Back to home\n01:53:05 Test GitHub API\n01:54:53 Get number of the commits to React Native\n02:00:22 Display the number of commits\n02:03:23 Get number of npm package downloads\n02:06:30 Support scoped packages\n02:07:45 Display the number of downloads\n02:09:09 Integrate the contact form with Formspree\n02:18:23 Thanks for watching\n\n▶ Ingredients\nNext.js - React Framework https://nextjs.org/\nTailwind CSS - CSS Framework @Tailwind Labs  https://tailwindcss.com/\nTypeScript - JavaScript with syntax for types https://www.typescriptlang.org/\nVercel - Platform to deploy https://vercel.com\nFormspree - Contact form backend https://formspree.io/\nEmbla Carousel - Carousel layout library https://www.embla-carousel.com/\n\n#NextJS #webdevelopment #ASMR",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

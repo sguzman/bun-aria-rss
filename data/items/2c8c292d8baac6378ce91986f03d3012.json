@@ -1,0 +1,13 @@
+{
+  "title": "On the Link Between Optimization and Polynomials, Part 4",
+  "link": "http://fa.bianp.net/blog/2021/no-momentum/",
+  "description": "<p>\n    While the most common accelerated methods like Polyak and Nesterov incorporate a momentum term, a little known fact is that simple gradient descent &ndash;no momentum&ndash; can achieve the same rate  \n    through only a well-chosen sequence of step-sizes. In this post we'll derive this method and through simulations discuss its practical …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 13 Apr 2021 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2021-04-13:/blog/2021/no-momentum/",
+  "category": [
+    "optimization",
+    "polynomials",
+    "acceleration"
+  ]
+}
