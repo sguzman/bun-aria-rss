@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-20969",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-20969",
+  "description": "A vulnerability in multiple management dashboard pages of Cisco Umbrella could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the Cisco Umbrella dashboard. This vulnerability is due to unsanitized user input. An attacker could exploit this vulnerability by submitting custom JavaScript to the web application and persuading a user of the interface to click a maliciously crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive browser-based information.",
+  "dc:date": "2022-11-04T18:15:11Z"
+}

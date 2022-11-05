@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-1720 (debian_linux, fedora, macos, vim)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1720",
+  "description": "Buffer Over-read in function grab_file_name in GitHub repository vim/vim prior to 8.2.4956. This vulnerability is capable of crashing the software, memory modification, and possible remote execution.",
+  "dc:date": "2022-06-20T15:15:10Z"
+}

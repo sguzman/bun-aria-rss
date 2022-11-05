@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:OqCK95AS-YE",
+  "yt:videoId": "OqCK95AS-YE",
+  "yt:channelId": "UCdngmbVKX1Tgre699-XLlUA",
+  "title": "Redis Crash Course - the What, Why and How to use Redis as your primary database",
+  "link": "",
+  "author": {
+    "name": "TechWorld with Nana",
+    "uri": "https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA"
+  },
+  "published": "2021-12-01T15:02:04+00:00",
+  "updated": "2022-01-20T18:21:51+00:00",
+  "media:group": {
+    "media:title": "Redis Crash Course - the What, Why and How to use Redis as your primary database",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Redis Tutorial - the What, Why and How to use Redis as a primary database\n►  Use this special link https://redis.info/NANA (or code: NANA200) to try Redis Enterprise Cloud to get a $200 credit, become part of a weekly raffle, and a chance to win a Tesla Model 3 🤩  (Terms and conditions apply)! \n►  This video is sponsored by Redis 🙌🏼\n\n#redis #database #techworldwithnana\n\nIn this Redis crash course, we're going to talk about Redis and how Redis can be used as a primary database for complex applications that need to store data in multiple formats.\n1) First we will see what Redis is and its usages as well as why it is suitable for modern complex\nmicroservice applications. \n2) We will talk about how Redis supports storing multiple data formats for different purposes through its modules.\n3) Next we will see how Redis as an in-memory database can persist data and recover from data loss.\n4) We'll also talk about how Redis optimizes memory storage cost using Redis on Flash.\n5) Then we will see very interesting use cases of scaling Redis and replicating it across multiple geographic regions and \n6) finally since one of the most popular platforms for running microservices is Kubernetes and since running stateful applications in Kubernetes is a bit challenging, we will see how you can easily run Redis on Kubernetes.\n\n\n▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬\n0:00 - Intro and Overview\n1:13 - What is Redis?\n1:42 - Use Cases & Benefits of a Multi-Model DB\n4:58 - How Redis works? Redis Modules\n6:49 - Data Persistence & Durability with Redis (Snapshotting and AOF)\n11:14 - Saving Costs with Redis on Flash\n12:34 - How to scale a Redis database?\n16:41 - High Availability across multiple regions (Active-Active Geo Distribution)\n20:23 - Running Redis in Kubernetes\n\n\n▬▬▬▬▬▬ Want to learn more? 🚀  ▬▬▬▬▬▬ \nFull Python course                                            ►  https://youtu.be/t8pPdKYpowI\nFull Docker course                                            ►  https://youtu.be/3c-iBn73dDE\nFull K8s course                                                  ►  https://youtu.be/X48VuDVv0do\nDevOps Tools explained                                   ►  https://bit.ly/2W9UEq6\n\n\n▬▬▬▬▬▬ Connect with me 👋   ▬▬▬▬▬▬ \nINSTAGRAM             ►  https://bit.ly/2F3LXYJ\nTWITTER                   ►  https://bit.ly/3i54PUB\nLINKEDIN                  ►  https://bit.ly/3hWOLVT\nFB group                   ►  https://bit.ly/32UVSZP\nDEV                            ►  https://bit.ly/3h2fqiO\n\n\n▬▬▬▬▬▬ Courses & Bootcamp & Ebooks 🚀      ▬▬▬▬▬▬ \n► Become a DevOps Engineer - full educational program             👉🏼  https://bit.ly/3gEwf4V\n► High-Quality and Hands-On Courses                                             👉🏼   https://bit.ly/3nIouPW\n► Kubernetes 101 - compact and easy-to-read ebook bundle      👉🏼   https://bit.ly/3mPIaiU",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
