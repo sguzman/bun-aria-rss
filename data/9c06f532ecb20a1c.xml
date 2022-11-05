@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Daoud Clarke</title>
+ <link href="http://daoudclarke.github.com/" rel="self"/>
+ <link href="http://daoudclarke.github.com"/>
+ <updated>2022-07-10T06:56:24+00:00</updated>
+ <id>http://daoudclarke.github.com</id>
+ <author>
+   <name>Daoud Clarke</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Why the world needs a non-profit search engine</title>
+   <link href="http://daoudclarke.github.com/search%20engines/2022/07/10/non-profit-search-engine"/>
+   <updated>2022-07-10T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/search%20engines/2022/07/10/non-profit-search-engine</id>
+   <content type="html">
+&lt;p&gt;Sometimes I forget why I’ve taken on this crazy, huge task. Why am I &lt;a href=&quot;https://github.com/mwmbl/&quot;&gt;building&lt;/a&gt; a &lt;a href=&quot;https://mwmbl.org&quot;&gt;search engine&lt;/a&gt;? Will
+it really be better than Google one day? Will people support it? Will people even use it?&lt;/p&gt;
+
+&lt;p&gt;And then I read something like &lt;a href=&quot;https://pxlnv.com/blog/bullshit-web/&quot;&gt;The Bullshit Web&lt;/a&gt; and I remember, that, yes, there
+is a point. Even if I make the web better for one person, it’s worth it. Because the way things are is just wrong.&lt;/p&gt;
+
+&lt;p&gt;Search engines are in a unique position to fix the situation. Not only do we create a view on the world’s knowledge, we
+influence it too. If we promote bullshit-free sites, then people will create more bullshit-free sites.&lt;/p&gt;
+
+&lt;p&gt;More importantly, search engines are a filter on the world’s
+knowledge. Do you really want your filter to be “whatever makes
+$SEARCH_ENGINE more money”, particularly when that means, “show ads
+instead of search results, and prioritise search results that also
+make us more money”?  We can and should do better.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-will-it-mean-in-practice&quot;&gt;What will it mean in practice?&lt;/h3&gt;
+
+&lt;p&gt;What would the ideal non-profit search engine look like in practice,
+and what would make it better than what we have now?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Ad-free.&lt;/strong&gt; While this can be achieved now with ad-blockers,
+this is clearly not a sustainable solution if everyone were to
+apply it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Open source.&lt;/strong&gt; The technology for organising the world’s
+knowledge should be owned by everyone.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Profit agnostic ranking.&lt;/strong&gt; Google has an incentive to rank
+pages that contain Google ads because it makes them more
+revenue. More generally, Google has an incentive to rank
+profit-making sites higher so that they make more money. This both
+gives them more money to spend on advertising, and makes them
+dependent on their Google ranking, making them more likely to
+spend on advertising should their ranking get worse.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Community powered ranking.&lt;/strong&gt; Google tries to work out which
+sites are interesting by how long you spend on the site. This has
+an unfortunate side effect for e.g. recipe sites, where there is
+an absurd incentive to hide the actual recipe after a ton of
+background and repetitive descriptions of the recipe, to make it
+more likely for you to get distracted on the way to get to the
+actual recipe. Instead of looking at how long people spend on a
+site, we would encourage users to give explicit feedback on
+rankings and use this to improve our ranking system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fast.&lt;/strong&gt; Google search is surprisingly slow, taking up to half a
+second for a page load to complete in my measurements. It doesn’t
+need to be this way. In 2010, Google announced &lt;a href=&quot;https://searchengineland.com/google-instant-complete-users-guide-50136&quot;&gt;Instant
+Search&lt;/a&gt;
+that would search as you typed. This was meant to &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2010/09/the-pros-and-cons-of-google-instant/62666/&quot;&gt;save users two
+to five seconds per
+search&lt;/a&gt;. Yet
+Google quietly &lt;a href=&quot;https://searchengineland.com/google-dropped-google-instant-search-279674&quot;&gt;dropped this
+feature&lt;/a&gt;
+in 2017, ostensibly to bring search more in line with mobile. I do
+wonder though, if the change was more motivated by some
+requirement around adverts. It must be hard to manage auctioning
+adverts in real-time as users type, particularly if you want the
+adverts to blend into the search results.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Frictionless.&lt;/strong&gt; Google has an incentive to show you a results
+page, so that you see some adverts and are thus more likely to
+click on them. But often you don’t need to see a results page, for
+example if there is a single page you need. For example if you are
+typing “facebook” or “hmrc login” you &lt;em&gt;could&lt;/em&gt; go straight there
+from the address bar. But Google wants you to see a results page
+first.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Our current implementation of &lt;a href=&quot;https://mwmbl.org&quot;&gt;Mwmbl&lt;/a&gt; is a long way
+from doing all these things well, but this is what we’re aiming
+towards.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-funding-question&quot;&gt;The funding question&lt;/h3&gt;
+
+&lt;p&gt;Search funded by advertising is a recipe for disaster because there will always be a conflict of interest. Get the user
+to the site as quickly as possible, or show them some ads on the way? Guess which one you will choose if you care about
+revenue.&lt;/p&gt;
+
+&lt;p&gt;There are two ways forward that I can see:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The paid subscription model, like &lt;a href=&quot;https://kagi.com&quot;&gt;kagi.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Donation funded, non-profit model, like Mwmbl - &lt;a href=&quot;https://github.com/sponsors/mwmbl&quot;&gt;donate here!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is no guarantee that either approach will work - but it’s got to be worth a try.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-donation-model&quot;&gt;The donation model&lt;/h3&gt;
+
+&lt;p&gt;While I wish Kagi the best, we have chosen the donation model because
+we want to make the best search engine possible available to
+everyone. Not everyone can afford to pay for search.&lt;/p&gt;
+
+&lt;p&gt;When I read the numbers it makes me feel a little sick. Google’s revenue for search was around &lt;a href=&quot;https://searchengineland.com/alphabet-q1-microsoft-q3-earnings-search-advertising-383869&quot;&gt;$40 billion in Q1 2022&lt;/a&gt;.
+A number so large, I can’t even conceive how big it is. Just 1% of 1% of this would be more money than I’d know what to
+do with ($4m).&lt;/p&gt;
+
+&lt;p&gt;But it also makes me hopeful. If I can create something that just a
+tiny fraction of people find useful, then I can create a huge amount
+of value. If there is value, then people will pay for it, if we find
+the right way to ask.  Our current plan is to offer different
+sponsorship tiers with intangible rewards, for example virtual badges
+displayed on the user’s profile page.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are plenty of non-profits in adjacent spaces that have been successful. I think Wikimedia is the best
+example to look up to. Also, I believe our values are very closely aligned. If they were open to collaborating or taking
+on this project then I would seriously consider it, because I think it would give it a much greater chance of success.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-next&quot;&gt;What next?&lt;/h3&gt;
+
+&lt;p&gt;Our current goals are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Index 1 billion pages a month. Help us by &lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/mwmbl-web-crawler/&quot;&gt;installing our Firefox
+extension&lt;/a&gt;
+to crawl the web. Our ranking evaluations have shown that the
+biggest improvements come from indexing more pages. So that is our
+first priority.&lt;/li&gt;
+  &lt;li&gt;Raise enough money to form an official non-profit
+organisation. This will be the first step in making Mwmbl
+sustainable, beyond being a side-project for a few people.&lt;/li&gt;
+  &lt;li&gt;Get to £50 monthly recurring revenue to enable us to upgrade our
+server (currently costing under €5 a month) - &lt;a href=&quot;https://github.com/sponsors/mwmbl&quot;&gt;donate
+here&lt;/a&gt;! This will allow us to
+increase the size of our index, improving our search results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re interested in helping out, we’re &lt;a href=&quot;https://github.com/mwmbl/mwmbl/wiki/Open-positions&quot;&gt;recruiting
+volunteers&lt;/a&gt;, or if
+you’re a developer, check out the &lt;a href=&quot;https://github.com/mwmbl/mwmbl/issues&quot;&gt;open issues&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
+
+&lt;p&gt;Thank you so much to all those that have helped out so far, whether by &lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/mwmbl-web-crawler/&quot;&gt;donating
+your CPU and bandwidth&lt;/a&gt; to crawl the web, &lt;a href=&quot;https://github.com/sponsors/mwmbl&quot;&gt;giving money&lt;/a&gt; to cover our
+costs, giving your time and skills to &lt;a href=&quot;https://github.com/mwmbl/mwmbl/issues&quot;&gt;fix issues&lt;/a&gt; or giving feedback on our
+&lt;a href=&quot;https://matrix.to/#/#mwmbl:matrix.org&quot;&gt;Matrix server&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In particular, &lt;a href=&quot;https://matrix.to/#/#mwmbl:matrix.org&quot;&gt;Colin Espinas&lt;/a&gt;
+has been instrumental in designing and building the new front end, and
+supporting the development of the extension - thanks Colin!&lt;/p&gt;
+
+&lt;!-- ### The motivation question --&gt;
+
+&lt;!-- At the moment, I'm loving working on Mwmbl. I relish the technical challenges, and I enjoy seeing something I've created --&gt;
+&lt;!-- come to life. But I know I have limits. I tend to get bored of my side projects after a few months. This is by far the --&gt;
+&lt;!-- longest I've worked on something - and it hasn't by any means been continuous. I've realised that I sometimes need to --&gt;
+&lt;!-- step away for a while, and that's ok. --&gt;
+
+&lt;!-- At this point, I'm not going to force myself to work on something I don't enjoy. If I don't feel like it, I'll take a --&gt;
+&lt;!-- break. No one's paying me to do this (see above!) - perhaps if they were, then I could consider this a job, which --&gt;
+&lt;!-- would be amazing. --&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sonnet for Mum in Hospital</title>
+   <link href="http://daoudclarke.github.com/poetry/2018/08/21/sonnet-for-mum-in-hospital"/>
+   <updated>2018-08-21T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/poetry/2018/08/21/sonnet-for-mum-in-hospital</id>
+   <content type="html">
+&lt;p&gt;My love she lies alone, she cannot move
+&lt;br /&gt;And yet her spirit soars across the sky
+&lt;br /&gt;She’s held aloft by words enough to prove
+&lt;br /&gt;Sustainer’s breath can make a woman fly&lt;/p&gt;
+
+&lt;p&gt;When I am gone I feel I’m still with you
+&lt;br /&gt;I leave a piece of me when I depart
+&lt;br /&gt;This truth - how could it not be true
+&lt;br /&gt;A part of you could never be apart&lt;/p&gt;
+
+&lt;p&gt;What gift I have to give is given now
+&lt;br /&gt;What song I have to sing already sung
+&lt;br /&gt;You are the only qibla when I bow
+&lt;br /&gt;You are the dhikr moistening my tongue&lt;/p&gt;
+
+&lt;p&gt;O Lord! Shine down on her your Your loving light!
+&lt;br /&gt;Let angels keep her comfort in the night&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Everything you wanted to know about chatbot platforms, and some things you didn't</title>
+   <link href="http://daoudclarke.github.com/chatbots/2018/03/21/chatbot-platform-reviews"/>
+   <updated>2018-03-21T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/chatbots/2018/03/21/chatbot-platform-reviews</id>
+   <content type="html">
+&lt;p&gt;It’s quite overwhelming how many chatbot platforms there are. How
+should I know which one to choose? I created
+&lt;a href=&quot;https://chatbottech.io/&quot;&gt;ChatbotTech&lt;/a&gt; to solve this problem. It’s a
+site that reviews and rates all* the chatbot platforms so you don’t
+have to.&lt;/p&gt;
+
+&lt;p&gt;*some. In fact it’s quite hard to know which ones to review, there are
+so many. So far, I’ve opted for this strategy: if I see it, I put it
+on my list to review. If you spot one I’ve missed that you think I
+should review, let me know.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Manifesto for an Intelligent Chatbot Platform</title>
+   <link href="http://daoudclarke.github.com/chatbots/2018/02/06/manifesto-for-a-new-chatbot-platform"/>
+   <updated>2018-02-06T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/chatbots/2018/02/06/manifesto-for-a-new-chatbot-platform</id>
+   <content type="html">
+&lt;p&gt;I’ve always found it frustrating that chatbot developers seem to be
+satisfied with frameworks that don’t even attempt to mimic anything
+close to real intelligence. There seem to be two basic approaches:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Intent-based approaches, in which a query is mapped to a template,
+perhaps with some slots to be filled, for example, a query like “I
+need a train to Norwich” would prompt the chatbot to question the
+user with the goal of filling in slots relating to the departure
+location and the desired arrival time.&lt;/li&gt;
+  &lt;li&gt;Tree-based approaches, where there is a tree of possibilities the
+user can explore, kind of like the “make your own adventure” books
+I used to read as a kid. This is useful in informational settings
+like customer support, where giving a useful responses depends on
+exploring a tree of possibilities to determine the user’s problem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sometimes these are augmented with features like the ability to
+remember past values for slots, that improve the perception that the
+chatbot knows what’s going on. But as soon as the user steps off the
+beaten track, the chatbot will be confused and the user experience
+will suffer. And what about if you want to combine the tree-based
+approach with an intent-based approach? So far there’s no clean way of
+doing this.&lt;/p&gt;
+
+&lt;p&gt;I believe there is a better way, and that’s why I’ve started working
+on my own chatbot framework. These are the design goals of the
+framework:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The chatbot should automatically choose the next best action out
+of all possible actions&lt;/li&gt;
+  &lt;li&gt;The chatbot should learn which responses are most likely, and
+optimise its behaviour accordingly&lt;/li&gt;
+  &lt;li&gt;The chatbot behaviour should be specified by independent modules
+that can be combined freely&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As an example, I’ll describe how these goals could work out in
+practice for a bot to allow users to make purchases on an e-commerce
+website. Imagine a user is buying their weekly supermarket shop from
+BigMart. The conversation might go something like this:&lt;/p&gt;
+
+&lt;p&gt;“I’d like some apples.”&lt;/p&gt;
+
+&lt;p&gt;“How about 6 Russet apples for £1.20 or 12 Golden Delicious for
+£1.70?”&lt;/p&gt;
+
+&lt;p&gt;“I’ve just remembered I need milk”&lt;/p&gt;
+
+&lt;p&gt;“1 litre of whole milk like last time?”&lt;/p&gt;
+
+&lt;p&gt;“Yes”&lt;/p&gt;
+
+&lt;p&gt;“Do you still want apples?”&lt;/p&gt;
+
+&lt;p&gt;“Yes, the Golden Delicious.”&lt;/p&gt;
+
+&lt;p&gt;“Ok.”&lt;/p&gt;
+
+&lt;p&gt;In this conversation, the bot has remembered that the user wanted
+apples, even after the distraction of buying milk. The point is that
+this behaviour shouldn’t need to be explicitly planned by the bot
+designer: the bot should automatically know that the user has a goal
+of buying apples that needs to be fulfilled. Also, note that the bot
+has learnt the type of milk that the user likes to buy, which saves
+the user time. Again, this behaviour should be built into the platform
+rather than needing to be programmed by the bot designer.&lt;/p&gt;
+
+&lt;p&gt;If the bot designer does not need to program these behaviours, what
+would bot development look like? We envisage three types of bot
+“modules” that can be developed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Modules that specify the &lt;em&gt;style of conversation&lt;/em&gt; between the bot
+and the user. This allows the bot designer to specify the preferred
+expressions to be used by the bot when interacting with the
+user. For example, you could write a module for bots to talk like
+pirates, perhaps restricted to a specific domain.&lt;/li&gt;
+  &lt;li&gt;Modules that describe &lt;em&gt;world knowledge&lt;/em&gt;. For example, you might try
+and write a bot that helps people choose the correct visa for a
+journey to the UK (this is actually something I’ve done before, and
+it’s a non-trivial problem). Such a bot would need to know about
+the different types of visa available, the conditions for each one,
+their cost and so on.&lt;/li&gt;
+  &lt;li&gt;Modules that endow the bot with &lt;em&gt;new abilities&lt;/em&gt;. For example, a
+module may allow a bot to interact with a specific API. Different
+e-commerce bots could then choose the correct API module for their
+e-commerce platform, while re-using the same style and world
+knowledge modules as other bots.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The three goals combined should make it very easy for a bot designer
+to create a bot: in the most common case, their job would be to simply
+choose the best modules for their application, customizing each one
+according to their needs.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-possible&quot;&gt;Is it possible?&lt;/h2&gt;
+
+&lt;p&gt;I can hear you thinking, “It’s all very well having such lofty goals,
+but is it achievable?” I believe it is, and in this section I will
+outline my proposed solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/chatbot-platform.png&quot; alt=&quot;Chatbot platform architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above diagram is a very rough idea of what the new platform might
+consist of. My goal is just to show how I think the proposed goals can
+be achieved using existing technology. I’ll try and flesh out in
+future posts what each component might look like, but for now, here’s
+a high level summary, following the diagram anti-clockwise from the
+user:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A natural language query or response from the user is
+received. This is parsed by a &lt;em&gt;semantic parser&lt;/em&gt;. I’ve not found a
+good concise description of semantic parsing on the interwebs,
+which is strange, but it’s not the same as parsing (although
+similar) and it’s not the same as (traditional) semantics. A
+semantic parser takes a natural language expression and translates
+it to some “logical form” where the logical form is anything that a
+computer would naturally understand, such as a SQL query, an
+expression in first order logic, a JSON string or an “intent”. The
+typical application is to use natural language to perform database
+queries. Anyway, this is a well studied sub-field of natural
+language processing (despite its lack of a Wikipedia page). An
+example of an almost-state-of-the-art system is the
+&lt;a href=&quot;https://nlp.stanford.edu/software/sempre/&quot;&gt;SEMPRE system&lt;/a&gt; from
+Stanford.&lt;/li&gt;
+  &lt;li&gt;A &lt;em&gt;planning system&lt;/em&gt; then chooses the next best action to take given
+its knowledge of the current state of the world and the latest user
+input. This problem is also a well studied one. A very general way
+of describing planning problems is something called a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process&quot;&gt;Partially Observable Markov Decision Process&lt;/a&gt;,
+or POMDP (pronounced “pom dee pee”) for short. In fact, POMDPs have
+been used to plan dialogue, as described in
+&lt;a href=&quot;http://mi.eng.cam.ac.uk/~sjy/papers/ygtw13.pdf&quot;&gt;this overview by Steve Young at Cambridge&lt;/a&gt;.
+My idea is to use
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Monte_Carlo_tree_search&quot;&gt;Monte-Carlo tree search&lt;/a&gt;
+to solve our planning problem, an aproach described in
+&lt;a href=&quot;https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps&quot;&gt;this paper from NIPS 2010&lt;/a&gt;.
+I’m really excited about the potential for Monte-Carlo tree search
+to do something other than playing games really well (in case you
+didn’t know it’s a large component of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/AlphaGo&quot;&gt;AlphaGo&lt;/a&gt;). The planning
+system makes use of the Knowledge Modules provided by the bot
+designer to inform the decisions it makes.&lt;/li&gt;
+  &lt;li&gt;Once an action has been decided upon, an &lt;em&gt;action interpreter&lt;/em&gt; makes
+use the the ability modules provided by the bot designer to perform
+actions on external APIs, or passes on a logical form to the next
+system to send a response to the user.&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/Natural_language_generation&quot;&gt;&lt;em&gt;natural language generator&lt;/em&gt;&lt;/a&gt;
+interprets the logical forms and sends the response back to the
+user. The generator can make use of the style modules to determine
+the best expression for each logical form.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hopefully this is enough to convince you that the plan is not entirely
+crazy. Each component is well studied (at least in a research
+setting), so it is not too far-fetched to assume that they can be put
+together into something useful. The biggest uncertainty in my mind is
+around the planning system, and exactly how this will work
+effectively. I plan to flesh that out in a future blog post.&lt;/p&gt;
+
+&lt;p&gt;Some readers may be disappointed that I’m not proposing some
+new-fangled deep learning technique to solve this humongous
+problem. In fact, I’m pretty much proposing the same good old
+fashioned AI techniques that were popular in the 70s and 80s. Actually
+I think systems built in that time period got a lot of things right,
+but the individual components were not developed enough to make the
+system as a whole a success, at least when applied to a general
+setting. In fact, in some cases, the improvements in the individual
+components are because of algorithmic developments like deep learning,
+along with the abundance of data and computing power. There is
+definitely potential for making use of deep learning to improve the
+three major components of the system:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1706.04326&quot;&gt;Here’s a paper&lt;/a&gt; on using deep
+learning for semantic parsing&lt;/li&gt;
+  &lt;li&gt;Deep learning was a large part of AlphaGo’s success so it can
+definitely be used to improve
+planning. &lt;a href=&quot;https://arxiv.org/pdf/1507.06527.pdf&quot;&gt;Here’s a paper&lt;/a&gt; on
+using deep learning to solve POMDPs which happen to be Atari games
+(what is it with the games?).&lt;/li&gt;
+  &lt;li&gt;And &lt;a href=&quot;http://www.cs.umd.edu/~miyyer/pubs/2014_nips_generation.pdf&quot;&gt;here’s a paper from NIPS 2014&lt;/a&gt;
+on natural language generation using deep learning. Also
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Language_model&quot;&gt;language modeling&lt;/a&gt;
+is often an important component in natural language generation, and
+neural networks have been very successful at this task.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s almost inevitable that deep learning will take over most
+components of my proposed system at some point. But they are not
+essential, at least initially.&lt;/p&gt;
+
+&lt;p&gt;But still, I should probably try and answer the question of why not
+build a single big deep net to rule them all? One answer is that we
+don’t know how to do this yet. But even if it were possible, I do not
+think I would want to try and do this. The answer is engineering. When
+I know how each component is supposed to work, I can fix it. When a
+deep net doesn’t work, all I can do is add more data and tweak the
+algorithm, which may or may not solve the problem (and may introduce
+new ones).&lt;/p&gt;
+
+&lt;p&gt;The argument I’m trying to make here is that natural language
+interfaces should be a solved problem, given that we have such
+sophisticated components around now, and all it requires is putting
+them together in the right way and engineering the thing correctly. Of
+course, that’s still a huge challenge, but one I’m quite excited about
+undertaking. I like big challenges.&lt;/p&gt;
+
+&lt;h1 id=&quot;practical-considerations&quot;&gt;Practical considerations&lt;/h1&gt;
+
+&lt;p&gt;Now I can hear you thinking “It’s all very well taking on such a grand
+challenge, but who’s going to pay for it?” One option would be to try
+and build this thing in academia, after all, I’ve done the academic
+thing, so it should be possible to follow that route. The problem is,
+speaking with my metaphorical mortarboard on, in my experience, and
+speaking for myself, us academics tend not to build useful things
+things. You see, our motivation is naturally skewed towards publishing
+papers, which is what academics do, rather than building something
+that people actually want. And if we can squeeze a few percentage
+points of improvement out of a problem, we can publish a paper.&lt;/p&gt;
+
+&lt;p&gt;So if not academia, then what? I happen to find myself in the lucky
+situation of having some spare time at the moment. My current contract
+requires me to work only 15 hours a week, so that leaves plenty of
+spare time. I could try and build this just for fun, as a side
+project. However, at some point, my spare time will run out and I
+suspect this is going to take a lot longer than the three months I
+have left on my contract. The next obvious option is to try and build
+a company from it. This would either be a traditional startup, with
+funding and all the craziness that goes along with it, or a
+bootstrapped company. Actually a startup would not be a bad vehicle
+for something as ambitious as this. However, there are at least two
+reasons I don’t want to go down the traditional startup route:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’m not convinced that this can be a billion dollar business
+(yet). The thing is, people want chatbots, but they don’t know they
+want what I’m building (although they may well &lt;em&gt;need&lt;/em&gt; it). At some
+point in the future that may change.&lt;/li&gt;
+  &lt;li&gt;I don’t personally enjoy the pressure to grow quickly that comes
+with a startup. I would rather build a successful and sustainable
+business slowly. That’s particularly true because I think it’s
+going to take a long time to build this properly. Also, I don’t
+hold with “stealth mode” - I’d rather do this out in the open.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So the current plan is for a simple bootstrapped company selling
+chatbots as a service. Yes, I know, there are a lot already, but I
+think there is space for another. The market is predicted to grow
+quickly in the next few years - we’ll see whether this turns out to be
+true or not. Of course I won’t be building my full crazy idea above
+straight away, I will only build each component properly as it is
+needed, and instead focus on building something that people want,
+preferable in focused niche.&lt;/p&gt;
+
+&lt;p&gt;One niche that I think is likely to be profitable is
+chatbots for marketing, specifically,
+&lt;a href=&quot;https://blog.whatshelp.io/3-strategies-to-use-messenger-bot-and-facebook-ads-for-lead-generation-8a40f033510c&quot;&gt;Facebook Messenger bots as a landing point for Facebook ads&lt;/a&gt;.
+So, if you’re interested in this idea, please get in touch! I think it
+has a lot of potential for increasing the return on investment of
+Facebook ads.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Benefit People: Thinking Through Culture and Values</title>
+   <link href="http://daoudclarke.github.com/startups/2016/12/22/culture-and-values"/>
+   <updated>2016-12-22T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/startups/2016/12/22/culture-and-values</id>
+   <content type="html">
+&lt;p&gt;After watching &lt;a href=&quot;https://www.youtube.com/watch?v=EMIa3XhQpnk&quot;&gt;Michael Skok’s excellent talk on Culture, Vision and
+Mission&lt;/a&gt;, I was tempted
+to have a bash at defining the values that I care about. Here’s my
+attempt.&lt;/p&gt;
+
+&lt;h3 id=&quot;benefit-people&quot;&gt;Benefit People&lt;/h3&gt;
+
+&lt;p&gt;Benefit as many people as much as possible. The best kind of benefit
+is that which helps people benefit people.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-it-easy&quot;&gt;Make it Easy&lt;/h3&gt;
+
+&lt;p&gt;Make everything easy. Everything is a conversation. Make conversations
+easy. Use simple words and small sentences.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-it-with-love&quot;&gt;Do it with Love&lt;/h3&gt;
+
+&lt;p&gt;Love is real. If you do something with love, it will be different,
+better.&lt;/p&gt;
+
+&lt;h3 id=&quot;try-it&quot;&gt;Try it&lt;/h3&gt;
+
+&lt;p&gt;Every idea is possible. Experiment.&lt;/p&gt;
+
+&lt;h3 id=&quot;strength-in-diversity&quot;&gt;Strength in Diversity&lt;/h3&gt;
+
+&lt;p&gt;Be yourself. Encourage diversity. Accommodate diverse needs.&lt;/p&gt;
+
+&lt;h3 id=&quot;family-before-work&quot;&gt;Family Before Work&lt;/h3&gt;
+
+&lt;p&gt;Spend time with your family. Take time for yourself.&lt;/p&gt;
+
+&lt;h3 id=&quot;trust&quot;&gt;Trust&lt;/h3&gt;
+
+&lt;p&gt;Evaluate yourself. Trust others.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My favourite ICML 2015 papers - part two</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2015/07/08/icml2015-favourite-papers-day2"/>
+   <updated>2015-07-08T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2015/07/08/icml2015-favourite-papers-day2</id>
+   <content type="html">
+&lt;p&gt;Yesterday I &lt;a href=&quot;/machine%20learning%20in%20practice/2015/07/07/icml2015-favourite-papers-day1&quot;&gt;posted&lt;/a&gt;
+on my favourite papers from the beginning of ICML (some of those
+papers were actually presented today, although the posters were
+displayed yesterday). Here’s today’s update, which includes some
+papers to be presented tomorrow, because the posters were on display
+today…&lt;/p&gt;
+
+&lt;h2 id=&quot;neural-nets&quot;&gt;Neural Nets&lt;/h2&gt;
+
+&lt;h3 id=&quot;unsupervised-domain-adaptation-by-backpropagation&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/ganin15.pdf&quot;&gt;Unsupervised Domain Adaptation by Backpropagation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Yaroslav Ganin, Victor Lempitsky&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Imagine you have a small amount of labelled training data and a lot of
+unlabelled data from a different domain. This technique will allow you
+to build a neural network model that fits the unlabelled domain. The
+key idea is super cool and really simple to implement. You build a
+network that optimises features such that it is difficult to
+distinguish which domain the data came from.&lt;/p&gt;
+
+&lt;h3 id=&quot;weight-uncertainty-in-neural-networks&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/blundell15.pdf&quot;&gt;Weight Uncertainty in Neural Networks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;probabilistic-backpropagation-for-scalable-learning-of-bayesian-neural-networks&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/hernandez-lobatoc15.pdf&quot;&gt;Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Jose Miguel Hernandez-Lobato, Ryan Adams&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These papers have a very similar goal, namely making neural networks
+probabilistic. This is cool because it allows you to not only make a
+decision, but know &lt;em&gt;how sure you are about the decision&lt;/em&gt;. There are a
+bunch of other benefits: you don’t need to worry about regularisation,
+hyperparameter tuning is easier etc.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the two papers achieve this in two different ways. The first
+uses Gaussian scale mixtures together with a clever trick to
+backpropagate expectations. The second one computes the distribution
+after rectifying and then approximates this with a Gaussian
+distribution. Either way, this is an exciting development for neural
+networks.&lt;/p&gt;
+
+&lt;h3 id=&quot;training-deep-convolutional-neural-networks-to-play-go&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/clark15.pdf&quot;&gt;Training Deep Convolutional Neural Networks to Play Go&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Christopher Clark, Amos Storkey&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Although I’ve never actually played the game, I have an interest in AI
+Go players, because it’s such a hard game for computers, which still
+can’t reach the level of human players. The current state of the art
+uses &lt;a href=&quot;https://en.wikipedia.org/wiki/Monte_Carlo_tree_search&quot;&gt;Monte Carlo tree search&lt;/a&gt;
+which is a really cool technique. The authors of this paper use neural
+networks to play the game but don’t quite achieve the same level of
+performance. I asked the author whether the two approaches could be
+combined, and they think they can! Watch this space for a new state of
+the art Go player.&lt;/p&gt;
+
+&lt;h2 id=&quot;natural-language-processing&quot;&gt;Natural Language Processing&lt;/h2&gt;
+
+&lt;h3 id=&quot;phrase-based-image-captioning&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/lebret15.pdf&quot;&gt;Phrase-based Image Captioning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Remi Lebret, Pedro Pinheiro, Ronan Collobert&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a new state of the art in this very interesting task of
+labelling images with phrases. The clever bit is in the syntactic
+analysis of the phrases in the training set, which often follow a
+similar pattern. The authors use this to their advantage: the model is
+trained on the individual sub-phrases that are extracted, which allows
+it to behave compositionally. This means that it can describe, for
+example, both the fact that a plate is on a table, and that there is
+pizza on the plate. Unlike previous approaches, the sentences that are
+generated are not often found in the training set, which shows
+that it is doing real generation and not retrieval. Exciting stuff!&lt;/p&gt;
+
+&lt;h3 id=&quot;bimodal-modelling-of-source-code-and-natural-language&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/allamanis15.pdf&quot;&gt;Bimodal Modelling of Source Code and Natural Language&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Miltos Allamanis, Daniel Tarlow, Andrew Gordon, Yi Wei&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Another fun paper; this one tries to generate source code given a
+natural language query, quite an ambitious task! It is trained on
+snippets of code extracted from StackOverflow.&lt;/p&gt;
+
+&lt;h2 id=&quot;optimisation&quot;&gt;Optimisation&lt;/h2&gt;
+
+&lt;h3 id=&quot;gradient-based-hyperparameter-optimization-through-reversible-learning&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/maclaurin15.pdf&quot;&gt;Gradient-based Hyperparameter Optimization through Reversible Learning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Dougal Maclaurin, David Duvenaud, Ryan Adams&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hyperparameter optimisation is important when training neural networks
+because there are so many of the things floating around. How do you
+know what to set them to? Normally you have to perform some kind of
+search on the space of possible parameters, and Bayesian techniques
+have been very helpful at doing this. This paper suggests something
+entirely different and completely audacious. The authors are able to
+compute gradients for hyperparameters using automatic differentiation
+&lt;em&gt;after going through a whole round of stochastic gradient descent
+learning&lt;/em&gt;. That’s quite a feat. What this means is that we can answer
+questions about what the optimal hyperparameter settings look like in
+different settings - and makes a whole set of things that was
+previously a “black art” a lot more scientific and
+understandable.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-more&quot;&gt;And more…&lt;/h2&gt;
+
+&lt;p&gt;There were many more interesting papers - too many to write up
+here. Take a look at the &lt;a href=&quot;http://icml.cc/2015/?page_id=825&quot;&gt;schedule&lt;/a&gt;
+and find your favourite! Let me know on &lt;a href=&quot;https://twitter.com/daarkecloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My favourite papers from day one of ICML 2015</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2015/07/07/icml2015-favourite-papers-day1"/>
+   <updated>2015-07-07T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2015/07/07/icml2015-favourite-papers-day1</id>
+   <content type="html">
+&lt;p&gt;Aargh! How can I possibly keep all the amazing things I learnt at ICML
+today in my head?! Clearly I can’t. This is a list of pointers to my
+favourite papers from today, and why I think they are cool. This is
+mainly for my benefit, but you might like them too!&lt;/p&gt;
+
+&lt;h2 id=&quot;neural-nets--deep-learning&quot;&gt;Neural Nets / Deep Learning&lt;/h2&gt;
+
+&lt;h3 id=&quot;bilbowa-fast-bilingual-distributed-representations-without-word-alignments&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/gouws15.pdf&quot;&gt;BilBOWA: Fast Bilingual Distributed Representations without Word Alignments&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Stephan Gouws, Yoshua Bengio, Greg Corrado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; It simultaneously learns word vectors for
+  words in two languages without having to learn a mapping between
+  them.&lt;/p&gt;
+
+&lt;h3 id=&quot;compressing-neural-networks-with-the-hashing-trick&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/chenc15.pdf&quot;&gt;Compressing Neural Networks with the Hashing Trick&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Wenlin Chen, James Wilson, Stephen Tyree, Kilian Weinberger, Yixin Chen&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; Gives a huge reduction (32x) in the amount
+  of memory needed to store a neural network. This means you can
+  potentially use it on low memory devices like mobile phones!&lt;/p&gt;
+
+&lt;h3 id=&quot;batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/ioffe15.pdf&quot;&gt;Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Sergey Ioffe, Christian Szegedy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; Makes deep neural network training super
+  fast, giving a new state of the art for some datasets.&lt;/p&gt;
+
+&lt;h3 id=&quot;deep-learning-with-limited-numerical-precision&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/gupta15.pdf&quot;&gt;Deep Learning with Limited Numerical Precision&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Suyog Gupta, Ankur Agrawal, Kailash Gopalakrishnan, Pritish Narayanan&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; Train neural networks with very limited
+  fixed precision arithmetic instead of floating points. The key
+  insight is to use randomness to do the rounding. The goal is to
+  eventually build custom hardware to make learning much faster.&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendations-etc&quot;&gt;Recommendations etc.&lt;/h2&gt;
+
+&lt;h3 id=&quot;fixed-point-algorithms-for-learning-determinantal-point-processes&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/mariet15.pdf&quot;&gt;Fixed-point algorithms for learning determinantal point processes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Zelda Mariet, Suvrit Sra&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool&lt;/strong&gt; If you want to recommend a set of things,
+  rather than just an individual thing, how do you choose the best
+  set? This will tell you.&lt;/p&gt;
+
+&lt;h3 id=&quot;surrogate-functions-for-maximizing-precision-at-the-top&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/kar15.pdf&quot;&gt;Surrogate Functions for Maximizing Precision at the Top&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; If you only care about the top &lt;em&gt;n&lt;/em&gt; things
+  you recommend, this technique works faster and better than other
+  approaches.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Purushottam Kar, Harikrishna Narasimhan, Prateek Jain&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;and-finally&quot;&gt;And Finally…&lt;/h2&gt;
+
+&lt;h3 id=&quot;learning-to-search-better-than-your-teacher&quot;&gt;&lt;a href=&quot;http://jmlr.org/proceedings/papers/v37/changb15.pdf&quot;&gt;Learning to Search Better than Your Teacher&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Kai-Wei Chang, Akshay Krishnamurthy, Alekh Agarwal, Hal Daume, John Langford&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this paper is cool:&lt;/strong&gt; A new, general way to do structured
+  prediction (tasks like dependency parsing or semantic parsing) which
+  works well even when there are errors in the training set. Thanks to
+  the authors for talking me through this one!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>So you want to be a data scientist? (Part 1)</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2014/10/11/data-science-skills"/>
+   <updated>2014-10-11T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2014/10/11/data-science-skills</id>
+   <content type="html">
+&lt;p&gt;“Data Scientist” is definitely the hot new job
+description. It is such a new title that the roles and
+responsibilities associated with it are still not clearly
+defined. What skills do you need to be a data scientist? Well, not
+everyone agrees. In this article we will try to be objective by
+looking at statistics on what skills employers recruiting data
+scientists are looking for. We will use data from
+&lt;a href=&quot;http://www.itjobswatch.co.uk/jobs/uk/data%20scientist.do&quot;&gt;IT Jobswatch&lt;/a&gt;,
+which is a fantastic resource for those looking to upskill themselves:
+it provides comprehensive statistics on the keywords that recruiters
+mention in job advertisements. I will also give my own opinions based
+on my experience recruiting data scientists and working as one at
+&lt;a href=&quot;http://lumi.do&quot;&gt;Lumi&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some caveats:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The data is from jobs advertised in the UK, so your mileage may
+vary.&lt;/li&gt;
+  &lt;li&gt;Recruiters might not necessarily know what the employer really
+&lt;em&gt;needs&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Employers&lt;/em&gt; might not know what they really need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last point is important because it is easy to fall prey to the
+bandwagon phenomenon: “Everyone is doing &lt;em&gt;big data&lt;/em&gt; so we need
+to do it too”. The company may not actually have enough data to
+benefit from big data technology, and may benefit more from a careful
+statistical analysis of the data that they do have.&lt;/p&gt;
+
+&lt;p&gt;So, what do you need to know to be a data scientist? Here’s what
+recruiters are asking for, broken down into the following sections:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Qualifications&lt;/li&gt;
+  &lt;li&gt;Applied skills&lt;/li&gt;
+  &lt;li&gt;Knowledge-based skills&lt;/li&gt;
+  &lt;li&gt;Programming languages&lt;/li&gt;
+  &lt;li&gt;Technologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qualifications&quot;&gt;Qualifications&lt;/h2&gt;
+
+&lt;p&gt;If you know you want to be a data scientist, and you’re trying to
+decide whether to go to university, or what course you might do, then
+the answer is quite clear. 37% of data science jobs advertised mention
+the word “degree”, and 34% mention “PhD”. A PhD
+involving experimentation, numerical analysis or computer programming
+may well be beneficial to getting a data scientist position, but
+anyone who can demonstrate analytical ability and knowledge of how to
+run experiments is in a good position.&lt;/p&gt;
+
+&lt;p&gt;Keywords mentioned relating to degrees are (predictably) Mathematics
+(50%), Computer Science (37%) and Physics (25%), and any of these
+would provide a good foundation for a career in data science. However,
+it is not enough to know just Mathematics or Computer Science - as a
+data scientist you will need to combine many skills. As someone who
+studied physics myself, I am biased, but a typical physics course will
+cover many of the things you need to know: how to run experiments, how
+to analyse results and how to program - a very good starting point.&lt;/p&gt;
+
+&lt;p&gt;Some universities are now offering courses in data science - these
+could be a good choice, but are certainly not necessary if this is
+what you want to do.&lt;/p&gt;
+
+&lt;h2 id=&quot;skills&quot;&gt;Skills&lt;/h2&gt;
+
+&lt;p&gt;Just as for any other type of scientist, data scientists need to be
+inquisitive and enjoy solving hard problems. You need to be able to
+truly understand and characterise a problem, perhaps describe it
+mathematically, break it down, and come up with a plan for a
+solution. 48% of job adverts cite “Analytical Skills” - a
+catch-all phrase for this type of ability.&lt;/p&gt;
+
+&lt;p&gt;Other skills mentioned in data science job adverts are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data Mining (38%) - a very general area relating to the use of
+statistics and machine learning techniques to extract information
+from typically unstructured sources of content such as web pages or
+log files.&lt;/li&gt;
+  &lt;li&gt;Statistics (37%) - undoubtedly, every data scientist needs to have
+a basic grasp of statistics and know best practices for statistical
+analysis of data.&lt;/li&gt;
+  &lt;li&gt;Machine Learning (28%) - the science of analysing data to find
+patterns and make predictions. This is a very broad area that is
+long established in the academic research community; its usage is
+only just starting to become widespread in industry.&lt;/li&gt;
+  &lt;li&gt;Visualisation (23%) - in general, communication skills are very
+important for a data scientist, and being able to visualise data
+in ways that draw out the patterns of interest is a very useful
+skill to help communicate ideas.&lt;/li&gt;
+  &lt;li&gt;Finance (19%) - many jobs in data science are in finance - if you
+are interested in working in this area, then any knowledge you have
+will be beneficial.&lt;/li&gt;
+  &lt;li&gt;Information Retrieval (10%) - the science of search, typically text
+documents (think Google search), but also images and sound.&lt;/li&gt;
+  &lt;li&gt;Natural Language Processing (5%) - technologies related to natural
+language such as part of speech tagging, parsing, named entity
+recognition, machine translation and question answering.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would add to this that it is generally important for all data
+scientists to have some general business acumen, so that they can
+focus their efforts on tasks that are strategically beneficial to the
+company.&lt;/p&gt;
+
+&lt;p&gt;Other skills mentioned are: Analytics, Predictive Modelling, Data
+Modelling and Data Analysis (66%, 24%, 23% and 19%
+respectively). These are either synonyms for, or applications of the
+above skills to specific areas, each with a different emphasis.&lt;/p&gt;
+
+&lt;h2 id=&quot;technologies&quot;&gt;Technologies&lt;/h2&gt;
+
+&lt;p&gt;56% of jobs mention “Big Data” a term which basically
+means the ability to analyse and work efficiently with very large
+datasets. Practically this means experience with Hadoop (49%) and
+MapReduce (26%) and perhaps Mahout for machine learning (17%). Other
+big data technologies include NoSQL databases (9%) such as MongoDB
+(7%), Cassandra (3%) and search technologies such as Elasticsearch
+(0.25%) and Solr (0.25%).&lt;/p&gt;
+
+&lt;p&gt;Not all data is big however. It is also important to know how to work
+with relational databases (16%) such as Oracle (5%), Postgres (3%) and
+MySQL (3%), and you will need to have at least a basic knowledge of
+SQL (43%).&lt;/p&gt;
+
+&lt;p&gt;Other technologies mentioned are more business oriented, such as the
+statistics packages SAS (25%) and SPSS (20%), however the overall
+demand trend for both these technologies seems to be downward.&lt;/p&gt;
+
+&lt;h2 id=&quot;programming-languages&quot;&gt;Programming Languages&lt;/h2&gt;
+
+&lt;p&gt;If you want to be a data scientist, you will have to be able to
+program, which means you will need to know at least one language. Here
+are your options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By far the most popular is R (55%) because of its very comprehensive
+set of libraries for scientific computing;&lt;/li&gt;
+  &lt;li&gt;This is followed by Java (45%), because it’s so darned popular
+(personally I’m not a fan);&lt;/li&gt;
+  &lt;li&gt;Python (43%) is my favourite because of its resources for machine
+learning
+(&lt;a href=&quot;http://daoudclarke.github.io/machine%20learning%20in%20practice/2013/09/18/why-i-love-scikit-learn/&quot;&gt;I wrote a whole article about it&lt;/a&gt;),
+it’s really fast to write code, the code is generally very readable
+and runs quickly because it uses C libraries internally, and can be
+used for production code as well as quick scripts for analysis;&lt;/li&gt;
+  &lt;li&gt;MATLAB (33%) is an old favourite for scientific computing; whilst
+it is powerful, unlike other options it is not freely available.&lt;/li&gt;
+  &lt;li&gt;Other popular languages for data scientists are C++
+(21%), Scala (17%), C# (7%), Visual Basic (7%), Clojure (7%) and Ruby
+(6%).&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hyperparameter - Data Science Training</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2014/09/11/hyperparameter"/>
+   <updated>2014-09-11T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2014/09/11/hyperparameter</id>
+   <content type="html">
+&lt;p&gt;Do you want to be a data scientist? Are you a data scientist looking
+to gain some new skills?&lt;/p&gt;
+
+&lt;p&gt;I am very happy to announce the launch of
+&lt;a href=&quot;http://www.hyperparameter.com&quot;&gt;Hyperparameter&lt;/a&gt;, my new company
+offering training for data scientists in London. Upcoming courses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduction to Python for Data Scientists (20th November 2014)&lt;/li&gt;
+  &lt;li&gt;Introduction to Machine Learning (21st November 2014)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We also offer bespoke training courses to meet your needs. Please get
+in touch if there is anything we can help you with - email daoud (dot)
+clarke (at) gmail (dot) com.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fear</title>
+   <link href="http://daoudclarke.github.com/poetry/2013/10/29/fear"/>
+   <updated>2013-10-29T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/poetry/2013/10/29/fear</id>
+   <content type="html">
+&lt;p&gt;Did Fear betwixt the winters hide,
+&lt;br /&gt;In Autumn, donned his mangy hide,
+&lt;br /&gt;“Hail all, all’s well!” he ravenously cried.
+&lt;br /&gt;He lied.&lt;/p&gt;
+
+&lt;p&gt;And now he darkens darkness skyed,
+&lt;br /&gt;And now the hands of cold untied,
+&lt;br /&gt;And now his hunger grows. With every stride
+&lt;br /&gt;They died.&lt;/p&gt;
+
+&lt;p&gt;The mother begs a piece of bread;
+&lt;br /&gt;She claims the cold’s gone to his head.
+&lt;br /&gt;“Or maybe you could spare a quid instead,”
+&lt;br /&gt;She said.&lt;/p&gt;
+
+&lt;p&gt;How art thou, banker, in thy lair?
+&lt;br /&gt;Dost thou know that it’s unfair?
+&lt;br /&gt;Canst thou see (wouldst thou give the merest care)
+&lt;br /&gt;Her stare?&lt;/p&gt;
+
+&lt;p&gt;When all’s repaid that has been spent
+&lt;br /&gt;That day there will be no relent
+&lt;br /&gt;Wouldst thou, before then, offer some consent,
+&lt;br /&gt;Repent?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>17 Great Machine Learning Libraries</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2013/10/08/machine-learning-libraries"/>
+   <updated>2013-10-08T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2013/10/08/machine-learning-libraries</id>
+   <content type="html">
+&lt;p&gt;&lt;em&gt;After wonderful feedback on my
+&lt;a href=&quot;/machine%20learning%20in%20practice/2013/09/18/why-i-love-scikit-learn&quot;&gt;previous post on Scikit-learn&lt;/a&gt;
+from the guys at
+&lt;a href=&quot;http://www.reddit.com/r/MachineLearning/comments/1mq8fb/why_i_love_scikitlearn/&quot;&gt;/r/MachineLearning&lt;/a&gt;,
+I decided to collect the list of machine learning libraries into this
+seperate note. Let me know if there’s a library that should be
+included here.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Update (15 May 2014):&lt;/strong&gt; &lt;em&gt;thanks to Djalel Benbouzid and Dwayne Campbell
+for additional suggestions. Sorry it’s taken me so long to add them…&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;python&quot;&gt;Python&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://scikit-learn.org&quot;&gt;Scikit-learn&lt;/a&gt;&lt;/strong&gt;: comprehensive and easy
+to use, I wrote &lt;a href=&quot;/machine%20learning%20in%20practice/2013/09/18/why-i-love-scikit-learn&quot;&gt;a whole article&lt;/a&gt;
+on why I like this library.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://pybrain.org/&quot;&gt;PyBrain&lt;/a&gt;&lt;/strong&gt;: Neural networks are one thing
+that are missing from SciKit-learn, but this module makes up for
+it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://nltk.org/&quot;&gt;nltk&lt;/a&gt;&lt;/strong&gt;: really useful if you’re doing
+anything NLP or text mining related.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.deeplearning.net/software/theano/&quot;&gt;Theano&lt;/a&gt;&lt;/strong&gt;:
+efficient computation of mathematical expressions using
+GPU. Excellent for deep learning.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://deeplearning.net/software/pylearn2/&quot;&gt;Pylearn2&lt;/a&gt;&lt;/strong&gt;: machine
+learning toolbox built on top of Theano - in very early stages of
+development.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://mdp-toolkit.sourceforge.net/&quot;&gt;MDP&lt;/a&gt;&lt;/strong&gt; (Modular toolkit for
+Data Processing): a framework that is useful when setting up
+workflows.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;java&quot;&gt;Java&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://spark.apache.org/&quot;&gt;Spark&lt;/a&gt;&lt;/strong&gt;: Apache’s new upstart,
+supposedly up to a hundred times faster than Hadoop, now includes
+MLLib, which contains a good selection of machine learning
+algorithms, including classification, clustering and recommendation
+generation. Currently undergoing rapid development. Development can
+be in Python as well as JVM languages.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://mahout.apache.org/&quot;&gt;Mahout&lt;/a&gt;&lt;/strong&gt;: Apache’s machine learning
+framework built on top of Hadoop, this looks promising, but comes
+with all the baggage and overhead of Hadoop.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.cs.waikato.ac.nz/ml/weka/&quot;&gt;Weka&lt;/a&gt;&lt;/strong&gt;: this is a Java
+based library with a graphical user interface that allows you to
+run experiments on small datasets. This is great if you restrict
+yourself to playing around to get a feel for what is possible with
+machine learning. However, I would avoid using this in production
+code at all costs: the API is very poorly designed, the algorithms
+are not optimised for production use and the documentation is often
+lacking.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://mallet.cs.umass.edu/&quot;&gt;Mallet&lt;/a&gt;&lt;/strong&gt;: another Java based library
+with an emphasis on document classification. I’m not so familiar
+with this one, but if you have to use Java this is bound to be
+better than Weka.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://code.google.com/p/java-statistical-analysis-tool/&quot;&gt;JSAT&lt;/a&gt;&lt;/strong&gt;:
+stands for “Java Statistical Analysis Tool” - created by Edward
+Raff and was born out of his frustation with Weka (I know the
+feeling). Looks pretty cool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;net&quot;&gt;.NET&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://accord-framework.net/intro.html&quot;&gt;Accord.NET&lt;/a&gt;&lt;/strong&gt;: this
+seems to be pretty comprehensive, and comes recommended by
+&lt;a href=&quot;http://www.reddit.com/user/primaryobjects&quot;&gt;primaryobjects&lt;/a&gt; on
+Reddit. There is perhaps a slight slant towards image processing
+and computer vision, as it builds on the popular library
+&lt;a href=&quot;http://www.aforgenet.com/&quot;&gt;AForge.NET&lt;/a&gt; for this purpose.&lt;/li&gt;
+  &lt;li&gt;Another option is to use one of the Java libraries compiled to .NET
+using &lt;a href=&quot;http://www.ikvm.net/&quot;&gt;IKVM&lt;/a&gt; - I have used this approach
+with success in production.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;c&quot;&gt;C++&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/JohnLangford/vowpal_wabbit&quot;&gt;Vowpal Wabbit&lt;/a&gt;&lt;/strong&gt;:
+designed for very fast learning and released under a BSD license,
+this comes recommended by
+&lt;a href=&quot;http://www.reddit.com/user/terath&quot;&gt;terath&lt;/a&gt; on Reddit.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.multiboost.org/&quot;&gt;MultiBoost&lt;/a&gt;&lt;/strong&gt;: a fast C++ framework
+implementing some boosting algorithms as well as some cascades
+(like the Viola-Jones cascades). It’s mainly focused on AdaBoost.MH
+so it is multi-class/multi-label.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.shogun-toolbox.org/&quot;&gt;Shogun&lt;/a&gt;&lt;/strong&gt;: large machine
+ learning library with a focus on kernel methods and support vector
+ machines. Bindings to Matlab, R, Octave and Python.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.csie.ntu.edu.tw/~cjlin/libsvm/&quot;&gt;&lt;strong&gt;LibSVM&lt;/strong&gt;&lt;/a&gt; and
+&lt;a href=&quot;http://www.csie.ntu.edu.tw/~cjlin/liblinear/&quot;&gt;&lt;strong&gt;LibLinear&lt;/strong&gt;&lt;/a&gt;:
+these are C libraries for support vector machines; there are also
+bindings or implementations for many other languages. These are the
+libraries used for support vector machine learning in Scikit-learn.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This article is a work in progress, so please send me your comments or
+criticisms!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I Love Scikit-learn</title>
+   <link href="http://daoudclarke.github.com/machine%20learning%20in%20practice/2013/09/18/why-i-love-scikit-learn"/>
+   <updated>2013-09-18T00:00:00+00:00</updated>
+   <id>http://daoudclarke.github.com/machine%20learning%20in%20practice/2013/09/18/why-i-love-scikit-learn</id>
+   <content type="html">
+&lt;p&gt;&lt;em&gt;Scikit-learn is great because it has a clean API, is robust, fast,
+easy to use, comprehensive, and well documented and supported,
+released under a permissive license and the developers are cool. If
+you can implement your project in Python and you don’t need massively
+scalable algorithms, then it is probably for you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Choosing a library is often a crucial task. In the case of machine
+learning, it is likely that the library you choose will form the core
+of your project, and your choice will impact on many other decisions
+you will make when building your software. If you choose the wrong
+library, you may spend weeks wrapping a poorly designed API,
+inspecting source code to understand undocumented features and working
+around bugs and limitations. If you get it right, you will be able to
+write clean, bug free code with a minimum of effort.&lt;/p&gt;
+
+&lt;p&gt;I have seen this effect first hand. In this article, I want to talk
+about my favourite machine learning library, Scikit-learn, and why I
+think it is currently one of the best libraries around for doing
+machine learning, both for academic work and in production.&lt;/p&gt;
+
+&lt;!-- Scikit-learn is a python library --&gt;
+
+&lt;h2 id=&quot;1-clean-api&quot;&gt;1. Clean API&lt;/h2&gt;
+
+&lt;p&gt;The importance of a clean API cannot be overstated. It is much easier
+to write clean code if the underlying API is cleanly designed. Your
+code will have to conform to the vision of the library writer, and
+they can force you to write convoluted code if they want to. Complex
+design may sometimes be justified by increased generality, but if it
+is hard to implement the common use cases, then the API is poorly
+designed.&lt;/p&gt;
+
+&lt;p&gt;The objects provided by the library are forced upon you, and they will
+litter your code. Well designed objects will lead to terse, readable
+code, while poorly designed objects will have you scratching your head
+six months down the line trying to remember how the code you wrote
+works.&lt;/p&gt;
+
+&lt;p&gt;You may be tempted to take a machine learning library that has a poor
+API but more algorithms and wrap it in a clean API, but beware!
+Creating a good wrapper for a library is no mean feat. Doing machine
+learning properly requires a variety of tools that will need to be
+wrapped, and you may find that it’s not worth the overhead (I learnt
+this lesson the hard way). In addition, a library with a poor API is
+likely to be lacking in other important qualities such as robustness
+and good documentation.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-robust&quot;&gt;2. Robust&lt;/h2&gt;
+
+&lt;p&gt;If you are planning to use a machine learning library in production
+code, then robustness will be a high priority. One of the differences
+between Scikit-learn and other machine learning libraries is that the
+authors are explicitly targetting not just academic use, but use in
+industry as well. They have concentrated on doing a few things really
+well, rather than trying to do everything.&lt;/p&gt;
+
+&lt;p&gt;Scikit-learn is unit tested, with around 80% unit test coverage,
+giving us confidence that old features will not break as new ones are
+implemented and bugs are fixed.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: &lt;a href=&quot;http://www.reddit.com/r/MachineLearning/comments/1mq8fb/why_i_love_scikitlearn/&quot;&gt;Edward Raff noted on
+/r/MachineLearning&lt;/a&gt;
+that his experience with SciKit-learn hasn’t been so rosy when the
+datasets are large or poorly behaved, so your mileage may vary…&lt;/p&gt;
+
+&lt;!-- In my experience, upgrading --&gt;
+&lt;!-- Scikit-learn has occasionally broken my code --&gt;
+
+&lt;h2 id=&quot;3-fast&quot;&gt;3. Fast&lt;/h2&gt;
+
+&lt;p&gt;If speed is important to you, Scikit-learn is fast. Despite being
+implemented in an interpreted language, Python, its foundations are
+the compiled libraries NumPy and SciPy, and in addition, the authors
+have implemented a lot of tools in Cython, which compiles to C,
+giving blazing fast Python-like code.&lt;/p&gt;
+
+&lt;p&gt;The authors have also built on top of existing machine learning
+libraries, such as LibLinear and LibSVM for support vector machines,
+however they didn’t stop there, optimising the algorithms to make them
+even faster.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-easy-to-use&quot;&gt;4. Easy to Use&lt;/h2&gt;
+
+&lt;p&gt;Being a fan of the Python language, I am undoubtedly a little biased,
+however, it is arguably one of the easier languages to learn and
+use. The Scikit-learn team have followed Python conventions as much as
+possible, which makes using it a joy if you know Python. There are
+several methods which Scikit-learn classes can implement:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fit
+transform
+fit_transform
+predict
+decision_function
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Each type of object will implement a subset of these, and duck typing
+determines which objects are appropriate in each circumstance. For
+example, classifiers are expected to implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fit&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;predict&lt;/code&gt;
+methods.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example from the documentation for the Multinomial Naive
+Bayes classifier:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; import numpy as np
+&amp;gt;&amp;gt;&amp;gt; X = np.random.randint(5, size=(6, 100))
+&amp;gt;&amp;gt;&amp;gt; Y = np.array([1, 2, 3, 4, 5, 6])
+&amp;gt;&amp;gt;&amp;gt; from sklearn.naive_bayes import MultinomialNB
+&amp;gt;&amp;gt;&amp;gt; clf = MultinomialNB()
+&amp;gt;&amp;gt;&amp;gt; clf.fit(X, Y)
+MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True)
+&amp;gt;&amp;gt;&amp;gt; print(clf.predict(X[2]))
+[3]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- ## 4. Comprehensive --&gt;
+
+&lt;!-- Machine learning requires a variety of tools for different situations --&gt;
+&lt;!-- and purposes, for example, feature extraction, feature selection, --&gt;
+&lt;!-- dimensionality reduction, classification and clustering. Scikit-learn --&gt;
+&lt;!-- provides most of these tools, while remaining strictly a --&gt;
+&lt;!-- general-purpose machine learning library. --&gt;
+
+&lt;h2 id=&quot;5-well-documented&quot;&gt;5. Well Documented&lt;/h2&gt;
+
+&lt;p&gt;I have found the
+&lt;a href=&quot;http://scikit-learn.org/stable/documentation.html&quot;&gt;Scikit-learn documentation&lt;/a&gt;
+to be comprehensive, readable, and easy to understand. When doing
+something new with Scikit-learn, I have quickly been able to get to
+get to grips with how to do it after a quick peruse of the
+documentation, either using Python’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;help()&lt;/code&gt; function, or the
+excellent online documentation, which includes tutorials as well as
+documenting the API.&lt;/p&gt;
+
+&lt;p&gt;Of course, it also helps that the API is well designed: a lot of the
+time you can guess the correct usage of a new class once you get to
+know a few of the classes.&lt;/p&gt;
+
+&lt;p&gt;Only occasionally have I had to fall back to reading the source to
+understand a feature (or, more often, a bug in my own code). Since the
+code is mainly fairly clean Python, even this is not much of a chore.&lt;/p&gt;
+
+&lt;h2 id=&quot;6-permissive-license&quot;&gt;6. Permissive License&lt;/h2&gt;
+
+&lt;p&gt;Scikit-learn is released under the liberal
+&lt;a href=&quot;http://opensource.org/licenses/BSD-3-Clause&quot;&gt;BSD License&lt;/a&gt; so you can
+use it freely in commercial applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;7-well-supported&quot;&gt;7. Well Supported&lt;/h2&gt;
+
+&lt;p&gt;Scikit-learn must be one of the most actively developed open source
+machine learning projects. Check out the
+&lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pulse/monthly&quot;&gt;github stats for the last month&lt;/a&gt;:
+at the time of writing, there were 734 commits by 42 authors.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-the-downsides&quot;&gt;…And the Downsides&lt;/h2&gt;
+
+&lt;p&gt;As well as the benefits of being implemented in a dynamic language,
+you also get the downsides: refactoring is potentially tedious, and
+because there’s no strong typing, it is easy to break something
+without realising it, which is where good unit test coverage becomes
+crucial.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, you can’t always have the best. There are numerous
+factors to bear in mind when choosing a library that may impact your
+decision on what to use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: if you have to integrate your machine learning
+functionality with legacy code, then this may restrict your choice
+of language, although it is often possible to avoid this by using a
+service oriented architecture. Alternatively, you may have to stick
+to a particular language because of company policy, or because
+the developers in your team don’t want to abandon their favourite
+language for something new.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: for many applications, performance is critical, but
+if it is not, then this gives you more freedom in which machine
+learning tools you can use.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: if you need something that is massively scalable
+(which in my opinion is fairly rare), then you might want to
+consider something like &lt;a href=&quot;http://mahout.apache.org/&quot;&gt;Mahout&lt;/a&gt; which
+is not as comprehensive as Scikit-learn, but is scalable to very
+large datasets as it is implemented on top of Hadoop.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may want to consider &lt;a href=&quot;/machine%20learning%20in%20practice/2013/10/08/machine-learning-libraries&quot;&gt;some of these alternatives&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Choose your library carefully&lt;/li&gt;
+  &lt;li&gt;Scikit-learn is robust, with a clean API, and fast implementation&lt;/li&gt;
+  &lt;li&gt;It may not suit every application&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
