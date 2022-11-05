@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2022-11-04T14:16:51Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Newfoundland Giant Squid Sculpture]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/friday-squid-blogging-newfoundland-giant-squid-sculpture.html" />
+
+		<id>https://www.schneier.com/?p=65998</id>
+		<updated>2022-10-24T20:45:26Z</updated>
+		<published>2022-11-04T21:01:09Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="squid" />
+		<summary type="html"><![CDATA[<p>In 1878, a 55-foot-long giant squid washed up on the shores of Glover&#8217;s Harbour, Newfoundland. It&#8217;s the largest giant squid ever recorded&#8212;although scientists now think that the size was an exaggeration or the result of postmortem stretching&#8212;and there&#8217;s a full-sized <a href="https://www.atlasobscura.com/places/thimble-tickle-giant-squid">statue of it</a> near the beach where it was found.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/11/friday-squid-blogging-newfoundland-giant-squid-sculpture.html"><![CDATA[<p>In 1878, a 55-foot-long giant squid washed up on the shores of Glover&#8217;s Harbour, Newfoundland. It&#8217;s the largest giant squid ever recorded&#8212;although scientists now think that the size was an exaggeration or the result of postmortem stretching&#8212;and there&#8217;s a full-sized <a href="https://www.atlasobscura.com/places/thimble-tickle-giant-squid">statue of it</a> near the beach where it was found.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/friday-squid-blogging-newfoundland-giant-squid-sculpture.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/11/friday-squid-blogging-newfoundland-giant-squid-sculpture.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[NSA on Supply Chain Security]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/nsa-on-supply-chain-security.html" />
+
+		<id>https://www.schneier.com/?p=66028</id>
+		<updated>2022-11-04T14:16:51Z</updated>
+		<published>2022-11-04T14:16:51Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="infrastructure" /><category scheme="https://www.schneier.com" term="NSA" /><category scheme="https://www.schneier.com" term="operational security" /><category scheme="https://www.schneier.com" term="reports" /><category scheme="https://www.schneier.com" term="supply chain" />
+		<summary type="html"><![CDATA[<p>The NSA (together with CISA) has <a href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3204427/esf-partners-nsa-and-cisa-release-software-supply-chain-guidance-for-suppliers/">published</a> a long report on supply-chain security: &#8220;<a href="https://media.defense.gov/2022/Oct/31/2003105368/-1/-1/0/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_SUPPLIERS.PDF">Securing the Software Supply Chain: Recommended Practices Guide for Suppliers.</a>&#8220;:</p>
+<blockquote><p>Prevention is often seen as the responsibility of the software developer, as they are required to securely develop and deliver code, verify third party components, and harden the build environment. But the supplier also holds a critical responsibility in ensuring the security and integrity of our software. After all, the software vendor is responsible for liaising between the customer and software developer. It is through this relationship that additional security features can be applied via contractual agreements, software releases and updates, notifications and mitigations of vulnerabilities...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/11/nsa-on-supply-chain-security.html"><![CDATA[<p>The NSA (together with CISA) has <a href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3204427/esf-partners-nsa-and-cisa-release-software-supply-chain-guidance-for-suppliers/">published</a> a long report on supply-chain security: &#8220;<a href="https://media.defense.gov/2022/Oct/31/2003105368/-1/-1/0/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_SUPPLIERS.PDF">Securing the Software Supply Chain: Recommended Practices Guide for Suppliers.</a>&#8220;:</p>
+<blockquote><p>Prevention is often seen as the responsibility of the software developer, as they are required to securely develop and deliver code, verify third party components, and harden the build environment. But the supplier also holds a critical responsibility in ensuring the security and integrity of our software. After all, the software vendor is responsible for liaising between the customer and software developer. It is through this relationship that additional security features can be applied via contractual agreements, software releases and updates, notifications and mitigations of vulnerabilities.</p>
+<p>Software suppliers will find guidance from NSA and our partners on preparing organizations by defining software security checks, protecting software, producing well-secured software, and responding to vulnerabilities on a continuous basis. Until all stakeholders seek to mitigate concerns specific to their area of responsibility, the software supply chain cycle will be vulnerable and at risk for potential compromise.</p></blockquote>
+<p>They previously published &#8220;<a href="https://www.cisa.gov/uscert/sites/default/files/publications/ESF_SECURING_THE_SOFTWARE_SUPPLY_CHAIN_DEVELOPERS.PDF">Securing the Software Supply Chain: Recommended Practices Guide for Developers.</a>&#8221; And they plan on publishing one focused on customers.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/nsa-on-supply-chain-security.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/11/nsa-on-supply-chain-security.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Iran’s Digital Surveillance Tools Leaked]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html" />
+
+		<id>https://www.schneier.com/?p=66025</id>
+		<updated>2022-10-31T21:44:03Z</updated>
+		<published>2022-11-01T11:24:22Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="Iran" /><category scheme="https://www.schneier.com" term="leaks" /><category scheme="https://www.schneier.com" term="privacy" /><category scheme="https://www.schneier.com" term="surveillance" />
+		<summary type="html"><![CDATA[<p>It&#8217;s Iran&#8217;s turn to have its <a href="https://theintercept.com/2022/10/28/iran-protests-phone-surveillance/">digital surveillance tools leaked</a>:</p>
+<blockquote><p>According to these internal documents, SIAM is a computer system that works behind the scenes of Iranian cellular networks, providing its operators a broad menu of remote commands to alter, disrupt, and monitor how customers use their phones. The tools can slow their data connections to a crawl, break the encryption of phone calls, track the movements of individuals or large groups, and produce detailed metadata summaries of who spoke to whom, when, and where. Such a system could help the government invisibly quash the ongoing protests ­&#8212;or those of tomorrow ­&#8212;an expert who reviewed the SIAM documents told The Intercept...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html"><![CDATA[<p>It&#8217;s Iran&#8217;s turn to have its <a href="https://theintercept.com/2022/10/28/iran-protests-phone-surveillance/">digital surveillance tools leaked</a>:</p>
+<blockquote><p>According to these internal documents, SIAM is a computer system that works behind the scenes of Iranian cellular networks, providing its operators a broad menu of remote commands to alter, disrupt, and monitor how customers use their phones. The tools can slow their data connections to a crawl, break the encryption of phone calls, track the movements of individuals or large groups, and produce detailed metadata summaries of who spoke to whom, when, and where. Such a system could help the government invisibly quash the ongoing protests ­&#8212;or those of tomorrow ­&#8212;an expert who reviewed the SIAM documents told The Intercept.</p>
+<p>[&#8230;]</p>
+<p>SIAM gives the government’s Communications Regulatory Authority ­&#8212;Iran’s telecommunications regulator ­&#8212;turnkey access to the activities and capabilities of the country’s mobile users. &#8220;Based on CRA rules and regulations all telecom operators must provide CRA direct access to their system for query customers information and change their services via web service,&#8221; reads an English-language document obtained by The Intercept. (Neither the CRA nor Iran’s mission to the United Nations responded to a requests for comment.)</p></blockquote>
+<p>Lots of details, and links to the leaked documents, at the <a href="https://theintercept.com/2022/10/28/iran-protests-phone-surveillance/">Intercept webpage</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/11/irans-digital-surveillance-tools-leaked.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple Only Commits to Patching Latest OS Version]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/apple-only-commits-to-patching-latest-os-version.html" />
+
+		<id>https://www.schneier.com/?p=66022</id>
+		<updated>2022-10-28T19:32:25Z</updated>
+		<published>2022-10-31T11:29:11Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="Apple" /><category scheme="https://www.schneier.com" term="iOS" /><category scheme="https://www.schneier.com" term="patching" />
+		<summary type="html"><![CDATA[<p>People have suspected this for a while, but Apple has made it official. It <a href="https://support.apple.com/guide/deployment/about-software-updates-depc4c80847a/web">only</a> commits to fully patching the latest version of its OS, even though it claims to support older versions.</p>
+<p>From <a href="https://arstechnica.com/gadgets/2022/10/apple-clarifies-security-update-policy-only-the-latest-oses-are-fully-patched/">ArsTechnica</a>:</p>
+<blockquote><p>In other words, while Apple will provide security-related updates for older versions of its operating systems, only the most recent upgrades will receive updates for every security problem Apple knows about. Apple currently provides security updates to macOS 11 Big Sur and macOS 12 Monterey alongside the newly released <a href="https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/">macOS Ventura</a>, and in the past, it has released security updates for older iOS versions for devices that can&#8217;t install the latest upgrades...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/apple-only-commits-to-patching-latest-os-version.html"><![CDATA[<p>People have suspected this for a while, but Apple has made it official. It <a href="https://support.apple.com/guide/deployment/about-software-updates-depc4c80847a/web">only</a> commits to fully patching the latest version of its OS, even though it claims to support older versions.</p>
+<p>From <a href="https://arstechnica.com/gadgets/2022/10/apple-clarifies-security-update-policy-only-the-latest-oses-are-fully-patched/">ArsTechnica</a>:</p>
+<blockquote><p>In other words, while Apple will provide security-related updates for older versions of its operating systems, only the most recent upgrades will receive updates for every security problem Apple knows about. Apple currently provides security updates to macOS 11 Big Sur and macOS 12 Monterey alongside the newly released <a href="https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/">macOS Ventura</a>, and in the past, it has released security updates for older iOS versions for devices that can&#8217;t install the latest upgrades.</p>
+<p>This confirms something that <a href="https://arstechnica.com/gadgets/2021/11/psa-apple-isnt-actually-patching-all-the-security-holes-in-older-versions-of-macos/">independent security researchers have been aware of for a while</a> but that Apple hasn&#8217;t publicly articulated before. Intego Chief Security Analyst Joshua Long has tracked the CVEs patched by different macOS and iOS updates for years and generally found that bugs patched in the newest OS versions can go months before being patched in older (but still ostensibly &#8220;supported&#8221;) versions, when they&#8217;re patched at all. </p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/apple-only-commits-to-patching-latest-os-version.html#comments" thr:count="27" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/apple-only-commits-to-patching-latest-os-version.html/feed/atom/" thr:count="27" />
+			<thr:total>27</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Chinese Squid Fishing]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-chinese-squid-fishing.html" />
+
+		<id>https://www.schneier.com/?p=65975</id>
+		<updated>2022-10-18T03:56:51Z</updated>
+		<published>2022-10-28T20:57:47Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="China" /><category scheme="https://www.schneier.com" term="squid" />
+		<summary type="html"><![CDATA[<p>China <a href="https://www.chinadaily.com.cn/a/202210/07/WS633fd992a310fd2b29e7b371.html">claims</a> that it is &#8220;engaging in responsible squid fishing&#8221;:</p>
+<blockquote><p>Chen Xinjun, dean of the College of Marine Sciences at Shanghai Ocean University, made the remarks in response to recent accusations by foreign reporters and actor Leonardo DiCaprio that China is depleting its own fish stock and that Chinese boats have sailed to other waters to continue deep-sea fishing, particularly near Ecuador, affecting local fish stocks in the South American nation.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-chinese-squid-fishing.html"><![CDATA[<p>China <a href="https://www.chinadaily.com.cn/a/202210/07/WS633fd992a310fd2b29e7b371.html">claims</a> that it is &#8220;engaging in responsible squid fishing&#8221;:</p>
+<blockquote><p>Chen Xinjun, dean of the College of Marine Sciences at Shanghai Ocean University, made the remarks in response to recent accusations by foreign reporters and actor Leonardo DiCaprio that China is depleting its own fish stock and that Chinese boats have sailed to other waters to continue deep-sea fishing, particularly near Ecuador, affecting local fish stocks in the South American nation.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-chinese-squid-fishing.html#comments" thr:count="76" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-chinese-squid-fishing.html/feed/atom/" thr:count="76" />
+			<thr:total>76</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Critical Vulnerability in Open SSL]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/critical-vulnerability-in-open-ssl.html" />
+
+		<id>https://www.schneier.com/?p=66019</id>
+		<updated>2022-10-28T14:07:49Z</updated>
+		<published>2022-10-28T13:12:50Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="patching" /><category scheme="https://www.schneier.com" term="SSL" /><category scheme="https://www.schneier.com" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>There are no details yet, but it&#8217;s really important that you <a href="https://www.zdnet.com/article/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch/">patch</a> Open SSL 3.x when the new version comes out on Tuesday.</p>
+<blockquote><p>How bad is &#8220;Critical&#8221;? According to OpenSSL, an issue of <a href="https://www.openssl.org/policies/general/security-policy.html">critical severity</a> affects common configurations and is also likely exploitable. </p>
+<p>It&#8217;s likely to be abused to disclose server memory contents, and potentially reveal user details, and could be easily exploited remotely to compromise server private keys or execute code execute remotely. In other words, pretty much everything you don&#8217;t want happening on your production systems...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/critical-vulnerability-in-open-ssl.html"><![CDATA[<p>There are no details yet, but it&#8217;s really important that you <a href="https://www.zdnet.com/article/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch/">patch</a> Open SSL 3.x when the new version comes out on Tuesday.</p>
+<blockquote><p>How bad is &#8220;Critical&#8221;? According to OpenSSL, an issue of <a href="https://www.openssl.org/policies/general/security-policy.html">critical severity</a> affects common configurations and is also likely exploitable. </p>
+<p>It&#8217;s likely to be abused to disclose server memory contents, and potentially reveal user details, and could be easily exploited remotely to compromise server private keys or execute code execute remotely. In other words, pretty much everything you don&#8217;t want happening on your production systems.</p></blockquote>
+<p>Slashdot <a href="https://it.slashdot.org/story/22/10/27/2157207/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/critical-vulnerability-in-open-ssl.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/critical-vulnerability-in-open-ssl.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Australia Increases Fines for Massive Data Breaches]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/australia-increases-fines-for-massive-data-breaches.html" />
+
+		<id>https://www.schneier.com/?p=66012</id>
+		<updated>2022-10-26T03:58:59Z</updated>
+		<published>2022-10-26T11:13:48Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="Australia" /><category scheme="https://www.schneier.com" term="cyberattack" /><category scheme="https://www.schneier.com" term="data breaches" /><category scheme="https://www.schneier.com" term="incentives" />
+		<summary type="html"><![CDATA[<p>After suffering <a href="https://www.abc.net.au/news/2022-10-25/medibank-breach-ahm-osch-cyber-attack-data-what-to-do/101574200">two</a> large, and embarrassing, data breaches in recent weeks, the Australian government <a href="https://www.abc.net.au/news/2022-10-21/data-breach-fines-increase-after-medibank-optus-hacks/101564614">increased</a> the fine for serious data breaches from $2.2 million to a minimum of $50 million. (That&#8217;s $50 million AUD, or $32 million USD.)</p>
+<p>This is a welcome change. The problem is one of incentives, and Australia has now increased the incentive for companies to secure the personal data or their users and customers.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/australia-increases-fines-for-massive-data-breaches.html"><![CDATA[<p>After suffering <a href="https://www.abc.net.au/news/2022-10-25/medibank-breach-ahm-osch-cyber-attack-data-what-to-do/101574200">two</a> large, and embarrassing, data breaches in recent weeks, the Australian government <a href="https://www.abc.net.au/news/2022-10-21/data-breach-fines-increase-after-medibank-optus-hacks/101564614">increased</a> the fine for serious data breaches from $2.2 million to a minimum of $50 million. (That&#8217;s $50 million AUD, or $32 million USD.)</p>
+<p>This is a welcome change. The problem is one of incentives, and Australia has now increased the incentive for companies to secure the personal data or their users and customers.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/australia-increases-fines-for-massive-data-breaches.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/australia-increases-fines-for-massive-data-breaches.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On the Randomness of Automatic Card Shufflers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/on-the-randomness-of-automatic-card-shufflers.html" />
+
+		<id>https://www.schneier.com/?p=65996</id>
+		<updated>2022-10-24T03:41:24Z</updated>
+		<published>2022-10-24T11:37:55Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="gambling" /><category scheme="https://www.schneier.com" term="loopholes" /><category scheme="https://www.schneier.com" term="random numbers" />
+		<summary type="html"><![CDATA[<p>Many years ago, Matt Blaze and I talked about getting our hands on a casino-grade automatic shuffler and looking for vulnerabilities. We never did it&#8212;I remember that we didn&#8217;t even try very hard&#8212;but <a href="https://www.bbc.com/future/article/20221019-how-a-magician-mathematician-revealed-a-casino-loophole">this article</a> shows that we probably would have found non-random properties:</p>
+<blockquote><p>&#8230;the executives had recently discovered that one of their machines had been hacked by a gang of hustlers. The gang used a hidden video camera to record the workings of the card shuffler through a glass window. The images, transmitted to an accomplice outside in the casino parking lot, were played back in slow motion to figure out the sequence of cards in the deck, which was then communicated back to the gamblers inside. The casino lost millions of dollars before the gang were finally caught...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/on-the-randomness-of-automatic-card-shufflers.html"><![CDATA[<p>Many years ago, Matt Blaze and I talked about getting our hands on a casino-grade automatic shuffler and looking for vulnerabilities. We never did it&#8212;I remember that we didn&#8217;t even try very hard&#8212;but <a href="https://www.bbc.com/future/article/20221019-how-a-magician-mathematician-revealed-a-casino-loophole">this article</a> shows that we probably would have found non-random properties:</p>
+<blockquote><p>&#8230;the executives had recently discovered that one of their machines had been hacked by a gang of hustlers. The gang used a hidden video camera to record the workings of the card shuffler through a glass window. The images, transmitted to an accomplice outside in the casino parking lot, were played back in slow motion to figure out the sequence of cards in the deck, which was then communicated back to the gamblers inside. The casino lost millions of dollars before the gang were finally caught.</p></blockquote>
+<p>Stanford mathematician Persi Diaconis found other flaws:</p>
+<blockquote><p>With his collaborator Susan Holmes, a statistician at Stanford, Diaconis travelled to the company&#8217;s Las Vegas showroom to examine a prototype of their new machine. The pair soon discovered a flaw. Although the mechanical shuffling action appeared random, the mathematicians noticed that the resulting deck still had rising and falling sequences, which meant that they could make predictions about the card order. </p></blockquote>
+<p><i>New Scientist</i> <a href="https://www.newscientist.com/article/mg17523525-500-coming-up-trumps/">article</a> behind a paywall. Slashdot <a href="https://games.slashdot.org/story/22/10/22/2237234/how-a-mathematician-magician-revealed-a-casino-loophole">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/on-the-randomness-of-automatic-card-shufflers.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/on-the-randomness-of-automatic-card-shufflers.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: The Reproductive Habits of Giant Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-the-reproductive-habits-of-giant-squid.html" />
+
+		<id>https://www.schneier.com/?p=65972</id>
+		<updated>2022-10-14T14:30:45Z</updated>
+		<published>2022-10-21T20:12:11Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://featured.japan-forward.com/japan2earth/2022/10/1179/">Interesting</a>:</p>
+<blockquote><p>A recent study on giant squid that have washed ashore along the Sea of Japan coast has raised the possibility that the animal has a different reproductive method than many other types of squid.</p>
+<p>Almost all squid and octopus species are polygamous, with multiple males passing sperm to a single female. Giant squids were thought to have a similar form reproduction.</p>
+<p>However, a group led by Professor Noritaka Hirohashi, 57, a professor of reproductive biology in the Faculty of Life and Environmental Sciences at Shimane University suspects differently...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-the-reproductive-habits-of-giant-squid.html"><![CDATA[<p><a href="https://featured.japan-forward.com/japan2earth/2022/10/1179/">Interesting</a>:</p>
+<blockquote><p>A recent study on giant squid that have washed ashore along the Sea of Japan coast has raised the possibility that the animal has a different reproductive method than many other types of squid.</p>
+<p>Almost all squid and octopus species are polygamous, with multiple males passing sperm to a single female. Giant squids were thought to have a similar form reproduction.</p>
+<p>However, a group led by Professor Noritaka Hirohashi, 57, a professor of reproductive biology in the Faculty of Life and Environmental Sciences at Shimane University suspects differently.</p>
+<p>They examined 66 sperm &#8220;bags&#8221; attached to five different locations on the body of a female that washed ashore in Ine Town of Kyoto Prefecture in 2020, and found that all of them were from the same male.</p>
+<p>It is rare for a female with sperm attached to be found, and further verification is needed, but the study&#8217;s results indicate that giant squid, unlike other squids, may be &#8220;monogamous.&#8221; That is, females may receive sperm from only one certain male. Hirohashi and his colleagues published their findings in an international scientific journal in July of 2021.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-the-reproductive-habits-of-giant-squid.html#comments" thr:count="69" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/friday-squid-blogging-the-reproductive-habits-of-giant-squid.html/feed/atom/" thr:count="69" />
+			<thr:total>69</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Adversarial ML Attack that Secretly Gives a Language Model a Point of View]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/adversarial-ml-attack-that-secretly-gives-a-language-model-a-point-of-view.html" />
+
+		<id>https://www.schneier.com/?p=65992</id>
+		<updated>2022-10-20T18:57:24Z</updated>
+		<published>2022-10-21T11:53:07Z</published>
+		<category scheme="https://www.schneier.com" term="Uncategorized" /><category scheme="https://www.schneier.com" term="academic papers" /><category scheme="https://www.schneier.com" term="artificial intelligence" /><category scheme="https://www.schneier.com" term="machine learning" /><category scheme="https://www.schneier.com" term="propaganda" /><category scheme="https://www.schneier.com" term="risks" />
+		<summary type="html"><![CDATA[<p>Machine learning security is extraordinarily difficult because the attacks are so varied&#8212;and it seems that each new one is weirder than the next. Here&#8217;s the latest: a training-time attack that forces the model to exhibit a point of view: <a href="https://arxiv.org/abs/2112.05224">Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> We investigate a new threat to neural sequence-to-sequence (seq2seq) models: training-time attacks that cause models to &#8220;spin&#8221; their outputs so as to support an adversary-chosen sentiment or point of view&#8212;but only when the input contains adversary-chosen trigger words. For example, a spinned summarization model outputs positive summaries of any text that mentions the name of some individual or organization...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2022/10/adversarial-ml-attack-that-secretly-gives-a-language-model-a-point-of-view.html"><![CDATA[<p>Machine learning security is extraordinarily difficult because the attacks are so varied&#8212;and it seems that each new one is weirder than the next. Here&#8217;s the latest: a training-time attack that forces the model to exhibit a point of view: <a href="https://arxiv.org/abs/2112.05224">Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> We investigate a new threat to neural sequence-to-sequence (seq2seq) models: training-time attacks that cause models to &#8220;spin&#8221; their outputs so as to support an adversary-chosen sentiment or point of view&#8212;but only when the input contains adversary-chosen trigger words. For example, a spinned summarization model outputs positive summaries of any text that mentions the name of some individual or organization.</p>
+<p>Model spinning introduces a &#8220;meta-backdoor&#8221; into a model. Whereas conventional backdoors cause models to produce incorrect outputs on inputs with the trigger, outputs of spinned models preserve context and maintain standard accuracy metrics, yet also satisfy a meta-task chosen by the adversary.</p>
+<p>Model spinning enables propaganda-as-a-service, where propaganda is defined as biased speech. An adversary can create customized language models that produce desired spins for chosen triggers, then deploy these models to generate disinformation (a platform attack), or else inject them into ML training pipelines (a supply-chain attack), transferring malicious functionality to downstream models trained by victims.</p>
+<p>To demonstrate the feasibility of model spinning, we develop a new backdooring technique. It stacks an adversarial meta-task onto a seq2seq model, backpropagates the desired meta-task output to points in the word-embedding space we call &#8220;pseudo-words,&#8221; and uses pseudo-words to shift the entire output distribution of the seq2seq model. We evaluate this attack on language generation, summarization, and translation models with different triggers and meta-tasks such as sentiment, toxicity, and entailment. Spinned models largely maintain their accuracy metrics (ROUGE and BLEU) while shifting their outputs to satisfy the adversary&#8217;s meta-task. We also show that, in the case of a supply-chain attack, the spin functionality transfers to downstream models.</p></blockquote>
+<p>This new attack dovetails with something I&#8217;ve been worried about for a while, something Latanya Sweeney has dubbed &#8220;persona bots.&#8221; This is what I wrote in my <a href="https://wwnorton.com/books/9780393866667">upcoming book</a> (to be published in February):</p>
+<blockquote><p>One example of an extension of this technology is the &#8220;persona bot,&#8221; an AI posing as an individual on social media and other online groups. Persona bots have histories, personalities, and communication styles. They don&#8217;t constantly spew propaganda. They hang out in various interest groups: gardening, knitting, model railroading, whatever. They act as normal members of those communities, posting and commenting and discussing. Systems like GPT-3 will make it easy for those AIs to mine previous conversations and related Internet content and to appear knowledgeable. Then, once in a while, the AI might post something relevant to a political issue, maybe an article about a healthcare worker having an allergic reaction to the COVID-19 vaccine, with worried commentary. Or maybe it might offer its developer&#8217;s opinions about a recent election, or racial justice, or any other polarizing subject. One persona bot can&#8217;t move public opinion, but what if there were thousands of them? Millions?</p>
+<p>These are chatbots on a very small scale. They would participate in small forums around the Internet: hobbyist groups, book groups, whatever. In general they would behave normally, participating in discussions like a person does. But occasionally they would say something partisan or political, depending on the desires of their owners. Because they&#8217;re all unique and only occasional, it would be hard for existing bot detection techniques to find them. And because they can be replicated by the millions across social media, they could have a greater effect. They would affect what we think, and&#8212;just as importantly&#8212;what we think others think. What we will see as robust political discussions would be persona bots arguing with other persona bots.</p></blockquote>
+<p>Attacks like these add another wrinkle to that sort of scenario.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/10/adversarial-ml-attack-that-secretly-gives-a-language-model-a-point-of-view.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/10/adversarial-ml-attack-that-secretly-gives-a-language-model-a-point-of-view.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+	</feed>
