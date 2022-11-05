@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.ST updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Statistics Theory (math.ST) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Statistics Theory</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01503" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01512" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01610" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01627" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01703" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01720" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01743" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02032" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02039" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.07545" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2008.11957" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2010.13599" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2106.10726" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2108.12515" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.04065" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.08031" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.04399" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.03630" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07330" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01503">
+<title>Jensen&apos;s and Cantelli&apos;s Inequalities with Imprecise Previsions. (arXiv:2211.01503v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01503</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate how basic probability inequalities can be extended to an
+imprecise framework, where (precise) probabilities and expectations are
+replaced by imprecise probabilities and lower/upper previsions. We focus on
+inequalities giving information on a single bounded random variable $X$,
+considering either convex/concave functions of $X$ (Jensen&apos;s inequalities) or
+one-sided bounds such as $(X\geq c)$ or $(X\leq c)$ (Markov&apos;s and Cantelli&apos;s
+inequalities). As for the consistency of the relevant imprecise uncertainty
+measures, our analysis considers coherence as well as weaker requirements,
+notably $2$-coherence, which proves to be often sufficient. Jensen-like
+inequalities are introduced, as well as a generalisation of a recent
+improvement to Jensen&apos;s inequality. Some of their applications are proposed:
+extensions of Lyapunov&apos;s inequality and inferential problems. After discussing
+upper and lower Markov&apos;s inequalities, Cantelli-like inequalities are proven
+with different degrees of consistency for the related lower/upper previsions.
+In the case of coherent imprecise previsions, the corresponding Cantelli&apos;s
+inequalities make use of Walley&apos;s lower and upper variances, generally ensuring
+better bounds.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Pelessoni_R/0/1/0/all/0/1&quot;&gt;Renato Pelessoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Vicig_P/0/1/0/all/0/1&quot;&gt;Paolo Vicig&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01512">
+<title>Convergence in KL Divergence of the Inexact Langevin Algorithm with Application to Score-based Generative Models. (arXiv:2211.01512v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01512</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the Inexact Langevin Algorithm (ILA) for sampling using estimated
+score function when the target distribution satisfies log-Sobolev inequality
+(LSI), motivated by Score-based Generative Modeling (SGM). We prove a long-term
+convergence in Kullback-Leibler (KL) divergence under a sufficient assumption
+that the error of the score estimator has a bounded Moment Generating Function
+(MGF). Our assumption is weaker than $L^\infty$ (which is too strong to hold in
+practice) and stronger than $L^2$ error assumption, which we show not
+sufficient to guarantee convergence in general. Under the $L^\infty$ error
+assumption, we additionally prove convergence in R\&apos;enyi divergence, which is
+stronger than KL divergence. We then study how to get a provably accurate score
+estimator which satisfies bounded MGF assumption for LSI target distributions,
+by using an estimator based on kernel density estimation. Together with the
+convergence results, we yield the first end-to-end convergence guarantee for
+ILA in the population level. Last, we generalize our convergence analysis to
+SGM and derive a complexity guarantee in KL divergence for data satisfying LSI
+under MGF-accurate score estimator.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wibisono_A/0/1/0/all/0/1&quot;&gt;Andre Wibisono&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_K/0/1/0/all/0/1&quot;&gt;Kaylee Yingxi Yang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01610">
+<title>Proximal Subgradient Norm Minimization of ISTA and FISTA. (arXiv:2211.01610v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01610</link>
+<description rdf:parseType="Literal">&lt;p&gt;For first-order smooth optimization, the research on the acceleration
+phenomenon has a long-time history. Until recently, the mechanism leading to
+acceleration was not successfully uncovered by the gradient correction term and
+its equivalent implicit-velocity form. Furthermore, based on the
+high-resolution differential equation framework with the corresponding emerging
+techniques, phase-space representation and Lyapunov function, the squared
+gradient norm of Nesterov&apos;s accelerated gradient descent (\texttt{NAG}) method
+at an inverse cubic rate is discovered. However, this result cannot be directly
+generalized to composite optimization widely used in practice, e.g., the linear
+inverse problem with sparse representation. In this paper, we meticulously
+observe a pivotal inequality used in composite optimization about the step size
+$s$ and the Lipschitz constant $L$ and find that it can be improved tighter. We
+apply the tighter inequality discovered in the well-constructed Lyapunov
+function and then obtain the proximal subgradient norm minimization by the
+phase-space representation, regardless of gradient-correction or
+implicit-velocity. Furthermore, we demonstrate that the squared proximal
+subgradient norm for the class of iterative shrinkage-thresholding algorithms
+(ISTA) converges at an inverse square rate, and the squared proximal
+subgradient norm for the class of faster iterative shrinkage-thresholding
+algorithms (FISTA) is accelerated to convergence at an inverse cubic rate.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_B/0/1/0/all/0/1&quot;&gt;Bowen Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Shi_B/0/1/0/all/0/1&quot;&gt;Bin Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yuan_Y/0/1/0/all/0/1&quot;&gt;Ya-xiang Yuan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01627">
+<title>Inverting Regional Sensitivity Analysis to reveal sensitive model behaviors. (arXiv:2211.01627v1 [math.ST])</title>
+<link>http://arxiv.org/abs/2211.01627</link>
+<description rdf:parseType="Literal">&lt;p&gt;We address the question of sensitivity analysis for model outputs of any
+dimension using Regional Sensitivity Analysis (RSA). Classical RSA computes
+sensitivity indices related to the impact of model inputs variations on the
+occurrence of a target region of the model output space. In this work, we
+invert this perspective by proposing to find, for a given target model input,
+the region whose occurrence is best explained by the variations of this input.
+When it exists, this region can be seen as a model behavior which is
+particularly sensitive to the variations of the model input under study. We
+name this method iRSA (for inverse RSA). iRSA is formalized as an optimization
+problem using region-based sensitivity indices and solved using dedicated
+numerical algorithms. Using analytical and numerical examples, including an
+environmental model producing time series, we show that iRSA can provide a new
+graphical and interpretable characterization of sensitivity for model outputs
+of various dimensions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Roux_S/0/1/0/all/0/1&quot;&gt;S&amp;#xe9;bastien Roux&lt;/a&gt; (MISTEA), &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Loisel_P/0/1/0/all/0/1&quot;&gt;Patrice Loisel&lt;/a&gt; (MISTEA), &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Buis_S/0/1/0/all/0/1&quot;&gt;Samuel Buis&lt;/a&gt; (EMMAH)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01703">
+<title>Zero-Sum Games with Noisy Observations. (arXiv:2211.01703v1 [cs.GT])</title>
+<link>http://arxiv.org/abs/2211.01703</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, $2 \times 2$ zero-sum games (ZSGs) are studied under the
+following assumptions: (1) One of the players (the leader) publicly and
+irrevocably commits to choose its actions by sampling a given probability
+measure (strategy);(2) The leader announces its action, which is observed by
+its opponent (the follower) through a binary channel; and (3) the follower
+chooses its strategy based on the knowledge of the leader&apos;s strategy and the
+noisy observation of the leader&apos;s action. Under these conditions, the
+equilibrium is shown to always exist and be often different from the Nash and
+Stackelberg equilibria. Even subject to noise, observing the actions of the
+leader is either beneficial or immaterial to the follower for all possible
+commitments. When the commitment is observed subject to a distortion, the
+equilibrium does not necessarily exist. Nonetheless, the leader might still
+obtain some benefit in some specific cases subject to equilibrium refinements.
+For instance, $\epsilon$-equilibria might exist in which the leader commits to
+suboptimal strategies that allow unequivocally predicting the best response of
+its opponent.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sun_K/0/1/0/all/0/1&quot;&gt;Ke Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perlaza_S/0/1/0/all/0/1&quot;&gt;Samir M. Perlaza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jean_Marie_A/0/1/0/all/0/1&quot;&gt;Alain Jean-Marie&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01720">
+<title>Response Times Parametric Estimation of Real-Time Systems. (arXiv:2211.01720v1 [eess.SY])</title>
+<link>http://arxiv.org/abs/2211.01720</link>
+<description rdf:parseType="Literal">&lt;p&gt;Real-time systems are a set of programs, a scheduling policy and a system
+architecture, constrained by timing requirements. Most of daily embedded
+devices are real-time systems, e.g. airplanes, cars, trains, spatial probes,
+etc. The time required by a program for its end-to-end execution is called its
+response time. Usually, upper-bounds of response times are computed in order to
+provide safe deadline miss probabilities. In this paper, we propose a suited
+re-parametrization of the inverse Gaussian mixture distribution adapted to
+response times of real-time systems and the estimation of deadline miss
+probabilities. The parameters and their associated deadline miss probabilities
+are estimated with an adapted Expectation-Maximization algorithm.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zagalo_K/0/1/0/all/0/1&quot;&gt;Kevin Zagalo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Verbytska_O/0/1/0/all/0/1&quot;&gt;Olena Verbytska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Cucu_Grosjean_L/0/1/0/all/0/1&quot;&gt;Liliana Cucu-Grosjean&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Bar_Hen_A/0/1/0/all/0/1&quot;&gt;Avner Bar-Hen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01743">
+<title>Beyond the Best: Estimating Distribution Functionals in Infinite-Armed Bandits. (arXiv:2211.01743v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01743</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the infinite-armed bandit problem, each arm&apos;s average reward is sampled
+from an unknown distribution, and each arm can be sampled further to obtain
+noisy estimates of the average reward of that arm. Prior work focuses on
+identifying the best arm, i.e., estimating the maximum of the average reward
+distribution. We consider a general class of distribution functionals beyond
+the maximum, and propose unified meta algorithms for both the offline and
+online settings, achieving optimal sample complexities. We show that online
+estimation, where the learner can sequentially choose whether to sample a new
+or existing arm, offers no advantage over the offline setting for estimating
+the mean functional, but significantly reduces the sample complexity for other
+functionals such as the median, maximum, and trimmed mean. The matching lower
+bounds utilize several different Wasserstein distances. For the special case of
+median estimation, we identify a curious thresholding phenomenon on the
+indistinguishability between Gaussian convolutions with respect to the noise
+level, which may be of independent interest.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yifei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Baharav_T/0/1/0/all/0/1&quot;&gt;Tavor Baharav&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Han_Y/0/1/0/all/0/1&quot;&gt;Yanjun Han&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiao_J/0/1/0/all/0/1&quot;&gt;Jiantao Jiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tse_D/0/1/0/all/0/1&quot;&gt;David Tse&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02032">
+<title>To spike or not to spike: the whims of the Wonham filter in the strong noise regime. (arXiv:2211.02032v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.02032</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the celebrated Shiryaev-Wonham filter in its historical setup of
+Wonham (1964) where the hidden Markov jump process has two states. We are
+interested in the weak noise regime for the observation equation.
+Interestingly, this becomes a strong noise regime for the filtering equations.
+&lt;/p&gt;
+&lt;p&gt;Earlier results of the authors show the appearance of spikes in the filtered
+process, akin to a metastability phenomenon. This paper is aimed at
+understanding the smoothed optimal filter, which is relevant for any system
+with feedback. In particular, we demonstrate that there is a sharp phase
+transition between a spiking regime and a regime with perfect smoothing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cedric_B/0/1/0/all/0/1&quot;&gt;Bernardin C&amp;#xe9;dric&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Reda_C/0/1/0/all/0/1&quot;&gt;Chhaibi Reda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Joseph_N/0/1/0/all/0/1&quot;&gt;Najnudel Joseph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Clement_P/0/1/0/all/0/1&quot;&gt;Pellegrini Cl&amp;#xe9;ment&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02039">
+<title>The Projected Covariance Measure for assumption-lean variable significance testing. (arXiv:2211.02039v1 [math.ST])</title>
+<link>http://arxiv.org/abs/2211.02039</link>
+<description rdf:parseType="Literal">&lt;p&gt;Testing the significance of a variable or group of variables $X$ for
+predicting a response $Y$, given additional covariates $Z$, is a ubiquitous
+task in statistics. A simple but common approach is to specify a linear model,
+and then test whether the regression coefficient for $X$ is non-zero. However,
+when the model is misspecified, the test may have poor power, for example when
+$X$ is involved in complex interactions, or lead to many false rejections. In
+this work we study the problem of testing the model-free null of conditional
+mean independence, i.e. that the conditional mean of $Y$ given $X$ and $Z$ does
+not depend on $X$. We propose a simple and general framework that can leverage
+flexible nonparametric or machine learning methods, such as additive models or
+random forests, to yield both robust error control and high power. The
+procedure involves using these methods to perform regressions, first to
+estimate a form of projection of $Y$ on $X$ and $Z$ using one half of the data,
+and then to estimate the expected conditional covariance between this
+projection and $Y$ on the remaining half of the data. While the approach is
+general, we show that a version of our procedure using spline regression
+achieves what we show is the minimax optimal rate in this nonparametric testing
+problem. Numerical experiments demonstrate the effectiveness of our approach
+both in terms of maintaining Type I error control, and power, compared to
+several existing approaches.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lundborg_A/0/1/0/all/0/1&quot;&gt;Anton Rask Lundborg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kim_I/0/1/0/all/0/1&quot;&gt;Ilmun Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Shah_R/0/1/0/all/0/1&quot;&gt;Rajen D. Shah&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Samworth_R/0/1/0/all/0/1&quot;&gt;Richard J. Samworth&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.07545">
+<title>Interpretable Personalization via Policy Learning with Linear Decision Boundaries. (arXiv:2003.07545v4 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.07545</link>
+<description rdf:parseType="Literal">&lt;p&gt;With the rise of the digital economy and an explosion of available
+information about consumers, effective personalization of goods and services
+has become a core business focus for companies to improve revenues and maintain
+a competitive edge. This paper studies the personalization problem through the
+lens of policy learning, where the goal is to learn a decision-making rule (a
+policy) that maps from consumer and product characteristics (features) to
+recommendations (actions) in order to optimize outcomes (rewards). We focus on
+using available historical data for offline learning with unknown data
+collection procedures, where a key challenge is the non-random assignment of
+recommendations. Moreover, in many business and medical applications,
+interpretability of a policy is essential. We study the class of policies with
+linear decision boundaries to ensure interpretability, and propose learning
+algorithms using tools from causal inference to address unbalanced treatments.
+We study several optimization schemes to solve the associated non-convex,
+non-smooth optimization problem, and find that a Bayesian optimization
+algorithm is effective. We test our algorithm with extensive simulation studies
+and apply it to an anonymized online marketplace customer purchase dataset,
+where the learned policy outputs a personalized discount recommendation based
+on customer and product features in order to maximize gross merchandise value
+(GMV) for sellers. Our learned policy improves upon the platform&apos;s baseline by
+88.2\% in net sales revenue, while also providing informative insights on which
+features are important for the decision-making process. Our findings suggest
+that our proposed policy learning framework using tools from causal inference
+and Bayesian optimization provides a promising practical approach to
+interpretable personalization across a wide range of applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qu_Z/0/1/0/all/0/1&quot;&gt;Zhaonan Qu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qian_I/0/1/0/all/0/1&quot;&gt;Isabella Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhengyuan Zhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2008.11957">
+<title>Analytical and statistical properties of local depth functions motivated by clustering applications. (arXiv:2008.11957v5 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2008.11957</link>
+<description rdf:parseType="Literal">&lt;p&gt;Local general depth ($LGD$) functions are used for describing the local
+geometric features and mode(s) in multivariate distributions. In this paper, we
+undertake a rigorous systematic study of $LGD$ and establish several analytical
+and statistical properties. First, we show that, when the underlying
+probability distribution is absolutely continuous with density $f(\cdot)$, the
+scaled version of $LGD$ (referred to as $\tau$-approximation) converges,
+uniformly and in $L^d(\mathbb{R}^p)$ to $f(\cdot)$ when $\tau$ converges to
+zero. Second, we establish that, as the sample size diverges to infinity the
+centered and scaled sample $LGD$ converge in distribution to a centered
+Gaussian process uniformly in the space of bounded functions on
+$\mathcal{H}_G$, a class of functions yielding $LGD$. Third, using the sample
+version of the $\tau$-approximation ($S \tau A$) and the gradient system
+analysis, we develop a new clustering algorithm. The validity of this algorithm
+requires several results concerning the uniform finite difference approximation
+of the gradient system associated with $S \tau A$. For this reason, we
+establish \emph{Bernstein}-type inequality for deviations between the centered
+and scaled sample $LGD$, which is also of independent interest. Finally,
+invoking the above results, we establish consistency of the clustering
+algorithm. Applications of the proposed methods to mode estimation and upper
+level set estimation are also provided. Finite sample performance of the
+methodology are evaluated using numerical experiments and data analysis.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Francisci_G/0/1/0/all/0/1&quot;&gt;Giacomo Francisci&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Agostinelli_C/0/1/0/all/0/1&quot;&gt;Claudio Agostinelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Nieto_Reyes_A/0/1/0/all/0/1&quot;&gt;Alicia Nieto-Reyes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Vidyashankar_A/0/1/0/all/0/1&quot;&gt;Anand N. Vidyashankar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2010.13599">
+<title>Design-Based Inference for Spatial Experiments with Interference. (arXiv:2010.13599v3 [stat.ME] UPDATED)</title>
+<link>http://arxiv.org/abs/2010.13599</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider design-based causal inference in settings where randomized
+treatments have effects that bleed out into space in complex ways that overlap
+and in violation of the standard &quot;no interference&quot; assumption for many causal
+inference methods. We define a spatial &quot;average marginalized response,&quot; which
+characterizes how, in expectation, units of observation that are a specified
+distance from an intervention point are affected by treatments at that point,
+averaging over effects emanating from other intervention points. We establish
+conditions for non-parametric identification, asymptotic distributions of
+estimators, and recovery of structural effects. We propose methods for both
+sample-theoretic and permutation-based inference. We provide illustrations
+using randomized field experiments on forest conservation and health.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Ye Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Samii_C/0/1/0/all/0/1&quot;&gt;Cyrus Samii&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Chang_H/0/1/0/all/0/1&quot;&gt;Haoge Chang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Aronow_P/0/1/0/all/0/1&quot;&gt;P.M. Aronow&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2106.10726">
+<title>A class of smooth, possibly data-adaptive nonparametric copula estimators containing the empirical beta copula. (arXiv:2106.10726v5 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2106.10726</link>
+<description rdf:parseType="Literal">&lt;p&gt;A broad class of smooth, possibly data-adaptive nonparametric copula
+estimators that contains empirical Bernstein copulas introduced by Sancetta and
+Satchell (and thus the empirical beta copula proposed by Segers, Sibuya and
+Tsukahara) is studied. Within this class, a subclass of estimators that depend
+on a scalar parameter determining the amount of marginal smoothing and a
+functional parameter controlling the shape of the smoothing region is
+specifically considered. Empirical investigations of the influence of these
+parameters suggest to focus on two particular data-adaptive smooth copula
+estimators that were found to be uniformly better than the empirical beta
+copula in all of the considered Monte Carlo experiments. Finally, with future
+applications to change-point detection in mind, conditions under which related
+sequential empirical copula processes converge weakly are provided.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kojadinovic_I/0/1/0/all/0/1&quot;&gt;Ivan Kojadinovic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yi_B/0/1/0/all/0/1&quot;&gt;Bingqing Yi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2108.12515">
+<title>Convergence Rates for Learning Linear Operators from Noisy Data. (arXiv:2108.12515v3 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2108.12515</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper studies the learning of linear operators between
+infinite-dimensional Hilbert spaces. The training data comprises pairs of
+random input vectors in a Hilbert space and their noisy images under an unknown
+self-adjoint linear operator. Assuming that the operator is diagonalizable in a
+known basis, this work solves the equivalent inverse problem of estimating the
+operator&apos;s eigenvalues given the data. Adopting a Bayesian approach, the
+theoretical analysis establishes posterior contraction rates in the infinite
+data limit with Gaussian priors that are not directly linked to the forward map
+of the inverse problem. The main results also include learning-theoretic
+generalization error guarantees for a wide range of distribution shifts. These
+convergence rates quantify the effects of data smoothness and true eigenvalue
+decay or growth, for compact or unbounded operators, respectively, on sample
+complexity. Numerical evidence supports the theory in diagonal and non-diagonal
+settings.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hoop_M/0/1/0/all/0/1&quot;&gt;Maarten V. de Hoop&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kovachki_N/0/1/0/all/0/1&quot;&gt;Nikola B. Kovachki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Nelsen_N/0/1/0/all/0/1&quot;&gt;Nicholas H. Nelsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Stuart_A/0/1/0/all/0/1&quot;&gt;Andrew M. Stuart&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.04065">
+<title>Honest calibration assessment for binary outcome predictions. (arXiv:2203.04065v2 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.04065</link>
+<description rdf:parseType="Literal">&lt;p&gt;Probability predictions from binary regressions or machine learning methods
+ought to be calibrated: If an event is predicted to occur with probability $x$,
+it should materialize with approximately that frequency, which means that the
+so-called calibration curve $p(\cdot)$ should equal the identity, $p(x) = x$
+for all $x$ in the unit interval. We propose honest calibration assessment
+based on novel confidence bands for the calibration curve, which are valid only
+subject to the natural assumption of isotonicity. Besides testing the classical
+goodness-of-fit null hypothesis of perfect calibration, our bands facilitate
+inverted goodness-of-fit tests whose rejection allows for the sought-after
+conclusion of a sufficiently well specified model. We show that our bands have
+a finite sample coverage guarantee, are narrower than existing approaches, and
+adapt to the local smoothness of the calibration curve $p$ and the local
+variance of the binary observations. In an application to model predictions of
+an infant having a low birth weight, the bounds give informative insights on
+model calibration.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Dimitriadis_T/0/1/0/all/0/1&quot;&gt;Timo Dimitriadis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Duembgen_L/0/1/0/all/0/1&quot;&gt;Lutz Duembgen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Henzi_A/0/1/0/all/0/1&quot;&gt;Alexander Henzi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Puke_M/0/1/0/all/0/1&quot;&gt;Marius Puke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ziegel_J/0/1/0/all/0/1&quot;&gt;Johanna Ziegel&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.08031">
+<title>Limit theorems of Chatterjee&apos;s rank correlation. (arXiv:2204.08031v3 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.08031</link>
+<description rdf:parseType="Literal">&lt;p&gt;Establishing the limiting distribution of Chatterjee&apos;s rank correlation for a
+general, possibly non-independent, pair of random variables has been eagerly
+awaited to many. This paper shows that (a) Chatterjee&apos;s rank correlation is
+asymptotically normal as long as one variable is not a measurable function of
+the other, (b) the corresponding asymptotic variance is uniformly bounded by
+36, and (c) a consistent variance estimator exists. Similar results also hold
+for Azadkia-Chatterjee&apos;s graph-based correlation coefficient, a multivariate
+analogue of Chatterjee&apos;s original proposal. The proof is given by appealing to
+H\&apos;ajek representation and Chatterjee&apos;s nearest-neighbor CLT.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lin_Z/0/1/0/all/0/1&quot;&gt;Zhexiao Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Han_F/0/1/0/all/0/1&quot;&gt;Fang Han&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.04399">
+<title>Nonparametric estimation of the incubation time distribution. (arXiv:2205.04399v3 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.04399</link>
+<description rdf:parseType="Literal">&lt;p&gt;Nonparametric maximum likelihood estimators (MLEs) in inverse problems often
+have non-normal limit distributions, like Chernoff&apos;s distribution. However, if
+one considers smooth functionals of the model, with corresponding functionals
+of the MLE, one gets normal limit distributions and faster rates of
+convergence. We demonstrate this for a model for the incubation time of a
+disease. The usual approach in the latter models is to use parametric
+distributions, like Weibull and gamma distributions, which leads to
+inconsistent estimators. Smoothed bootstrap methods are discussed for
+constructing confidence intervals. The classical bootstrap, based on the
+nonparametric MLE itself, has been proved to be inconsistent in this situation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Groeneboom_P/0/1/0/all/0/1&quot;&gt;Piet Groeneboom&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.03630">
+<title>Generalized Estimators, Slope, Efficiency, and Fisher Information Bounds. (arXiv:2208.03630v2 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.03630</link>
+<description rdf:parseType="Literal">&lt;p&gt;Point estimators may not exist, need not be unique, and their distributions
+are not parameter invariant. Generalized estimators provide distributions that
+are parameter invariant, unique, and exist when point estimates do not.
+Comparing point estimators using variance is less useful when estimators are
+biased. A squared slope $\Lambda$ is defined that can be used to compare both
+point and generalized estimators and is unaffected by bias. Fisher information
+$I$ and variance are fundamentally different quantities: the latter is defined
+at a distribution that need not belong to a family, while the former cannot be
+defined without a family of distributions, $M$. Fisher information and
+$\Lambda$ are similar quantities as both are defined on the tangent bundle
+$T\!M$ and $I$ provides an upper bound, $\Lambda\le I$, that holds for all
+sample sizes -- asymptotics are not required. Comparing estimators using
+$\Lambda$ rather than variance supports Fisher&apos;s claim that $I$ provides a
+bound even in small samples. $\Lambda$-efficiency is defined that extends the
+efficiency of unbiased estimators based on variance. While defined by the
+slope, $\Lambda$-efficiency is simply $\rho^{2}$, the square of the correlation
+between estimator and score function.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Vos_P/0/1/0/all/0/1&quot;&gt;Paul W. Vos&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07330">
+<title>Semiparametric Best Arm Identification with Contextual Information. (arXiv:2209.07330v3 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07330</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study best-arm identification with a fixed budget and contextual
+(covariate) information in stochastic multi-armed bandit problems. In each
+round, after observing contextual information, we choose a treatment arm using
+past observations and current context. Our goal is to identify the best
+treatment arm, a treatment arm with the maximal expected reward marginalized
+over the contextual distribution, with a minimal probability of
+misidentification. First, we derive semiparametric lower bounds of the
+misidentification probability for this problem, where we regard the gaps
+between the expected rewards of the best and suboptimal treatment arms as
+parameters of interest, and all other parameters, such as the expected rewards
+conditioned on contexts, as the nuisance parameters. We then develop the
+``Contextual RS-AIPW strategy,&apos;&apos; which consists of the random sampling (RS)
+rule tracking a target allocation ratio and the recommendation rule using the
+augmented inverse probability weighting (AIPW) estimator. Our proposed
+Contextual RS-AIPW strategy is optimal because the upper bound for the
+probability of misidentification by the strategy matches the semiparametric
+lower bound, when the budget goes to infinity and the gaps converge to zero.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kato_M/0/1/0/all/0/1&quot;&gt;Masahiro Kato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Imaizumi_M/0/1/0/all/0/1&quot;&gt;Masaaki Imaizumi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ishihara_T/0/1/0/all/0/1&quot;&gt;Takuya Ishihara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kitagawa_T/0/1/0/all/0/1&quot;&gt;Toru Kitagawa&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
