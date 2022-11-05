@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/undone" rel="self" type="application/rss+xml"/>
+    <title>Undone</title>
+    <link>https://www.gimletmedia.com/show/undone</link>
+    <language>en</language>
+    <copyright></copyright>
+    <description>When big news happens, the world tunes in and then moves on. But often the stories we thought were over haven’t really ended; they were the beginning of something else. Undone is a new show from Gimlet Media that digs up the surprising things that happened when we weren’t looking.</description>
+    <image>
+      <url>https://megaphone.imgix.net/podcasts/8464791e-4dcc-11e6-a4c5-d3c4fd1847fa/image/uploads_2F1477940509029-2v4szac5m7v5hpte-6f3d47dbb94fc761c6a046d5fcca1ef4_2FGimlet_Undone-show-art-3000px-v2.png?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress</url>
+      <title>Undone</title>
+      <link>https://www.gimletmedia.com/show/undone</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>A show from Gimlet Media about how big stories we thought were over were actually the beginning of something else, hosted by Pat Walters.</itunes:subtitle>
+    <itunes:author>Gimlet</itunes:author>
+    <itunes:summary>When big news happens, the world tunes in and then moves on. But often the stories we thought were over haven’t really ended; they were the beginning of something else. Undone is a new show from Gimlet Media that digs up the surprising things that happened when we weren’t looking.</itunes:summary>
+    <content:encoded>
+      <![CDATA[<p>When big news happens, the world tunes in and then moves on. But often the stories we thought were over haven’t really ended; they were the beginning of something else. Undone is a new show from Gimlet Media that digs up the surprising things that happened when we weren’t looking.</p>]]>
+    </content:encoded>
+    <itunes:owner>
+      <itunes:name></itunes:name>
+      <itunes:email>admin@gimletmedia.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://megaphone.imgix.net/podcasts/8464791e-4dcc-11e6-a4c5-d3c4fd1847fa/image/uploads_2F1477940509029-2v4szac5m7v5hpte-6f3d47dbb94fc761c6a046d5fcca1ef4_2FGimlet_Undone-show-art-3000px-v2.png?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+    <itunes:category text="News">
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Personal Journals"/>
+    </itunes:category>
+    <itunes:new-feed-url>https://feeds.megaphone.fm/undone</itunes:new-feed-url>
+  </channel>
+</rss>
