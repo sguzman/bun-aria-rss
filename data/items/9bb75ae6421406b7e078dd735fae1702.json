@@ -1,0 +1,6 @@
+{
+  "title": "Computing a many-to-many matching with demands and capacities between two sets using the Hungarian algorithm. (arXiv:2211.01612v1 [cs.DS])",
+  "link": "http://arxiv.org/abs/2211.01612",
+  "description": "<p>Given two sets A={a_1,a_2,...,a_s} and {b_1,b_2,...,b_t}, a many-to-many\nmatching with demands and capacities (MMDC) between A and B matches each\nelement a_i in A to at least \\alpha_i and at most \\alpha'_i elements in B, and\neach element b_j in B to at least \\beta_j and at most \\beta'_j elements in A\nfor all 1=&lt;i&lt;=s and 1=&lt;j&lt;=t. In this paper, we present an algorithm for finding\na minimum-cost MMDC between A and B using the well-known Hungarian algorithm.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Rajabi_Alni_F/0/1/0/all/0/1\">Fatemeh Rajabi-Alni</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bagheri_A/0/1/0/all/0/1\">Alireza Bagheri</a>"
+}

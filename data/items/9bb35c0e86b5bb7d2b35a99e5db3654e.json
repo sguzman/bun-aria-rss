@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-1943698674891911964",
+  "published": "2017-05-13T20:02:00.002-07:00",
+  "updated": "2017-05-13T21:32:42.221-07:00",
+  "title": "Poisson Games and Sudden-Death Overtime",
+  "content": "Let's say we have a game that can be reasonably modeled as two independent Poisson processes with team \\(i\\) having parameter \\(\\lambda_i\\). If one team wins in regulation with team \\(i\\) scoring \\(n_i\\), then it's well-known we have the MLE estimate \\(\\hat{\\lambda_i}=n_i\\). But what if the game ends in a tie in regulation with each team scoring \\(n\\) goals and we have sudden-death overtime? How does this affect the MLE estimate for the winning and losing teams?<br /><br />Assuming without loss of generality that team \\(1\\) is the winner in sudden-death overtime. As we have two independent Poisson processes, the probability of this occurring is \\(\\frac{\\lambda_1}{\\lambda_1&nbsp;+ \\lambda_2}\\). Thus, the overall likelihood we'd like to maximize is \\[L = e^{-\\lambda_1} \\frac{{\\lambda_1}^n}{n!} e^{-\\lambda_2} \\frac{{\\lambda_2}^n}{n!} \\frac{\\lambda_1}{\\lambda_1 + \\lambda_2}.\\] Letting \\(l = \\log{L}\\) we get \\[l = -{\\lambda_1} + n \\log{\\lambda_1} - {\\lambda_2} + n \\log{\\lambda_2} - 2 \\log{n!} + \\log{\\lambda_1}-\\log({\\lambda_1 + \\lambda_2}).\\] This gives \\[\\begin{equation}<br />\\eqalign{<br />\\frac{\\partial l}{\\partial \\lambda_1} &amp;= -1+\\frac{n}{\\lambda_1}+\\frac{1}{\\lambda_1}+\\frac{1}{\\lambda_1 + \\lambda_2}\\\\<br />\\frac{\\partial l}{\\partial \\lambda_2} &amp;= -1+\\frac{n}{\\lambda_2}+\\frac{1}{\\lambda_1 + \\lambda_2}.<br />}<br />\\end{equation}\\] Setting both partials equal to \\(0\\) and solving, we get \\[\\begin{equation}<br />\\eqalign{<br />(n-\\hat{\\lambda_1})(\\hat{\\lambda_1}+\\hat{\\lambda_2})+\\hat{\\lambda_2} &amp;= 0\\\\<br />(n-\\hat{\\lambda_2})(\\hat{\\lambda_1}+\\hat{\\lambda_2})-\\hat{\\lambda_2} &amp;= 0,<br />}<br />\\end{equation}\\] and so \\[\\begin{equation}<br />\\eqalign{<br />\\hat{\\lambda_1} &amp;= (n+1) \\frac{2n}{2n+1}\\\\<br />\\hat{\\lambda_2} &amp;= n \\frac{2n}{2n+1}.<br />}<br />\\end{equation}\\] For example, if both teams score \\(3\\) goals in regulation and team \\(1\\) wins in sudden-death overtime, our MLE estimates are \\(\\hat{\\lambda_1} = 3\\frac{3}{7},&nbsp;\\hat{\\lambda_2} = 2\\frac{4}{7}\\).<br /><br />Intuitively this makes sense, because \\(2n\\) goals were scored in regulation time, hence we \"expect\" that the overtime goal occurred around a fraction \\(\\frac{1}{2n}\\) of regulation, so team \\(1\\) scored \\(n+1\\) goals in about \\(\\frac{2n+1}{2n}\\) regulation periods and team \\(2\\) scored&nbsp;\\(n\\) goals in about \\(\\frac{2n+1}{2n}\\) regulation periods. The standard Poisson process MLE estimates here coincide with the estimates we derived above.<br /><br />Does this work in practice? Yes! I tested it on my NCAA men's lacrosse model, and it increased the out-of-sample testing accuracy by 0.5%. Surprisingly large for such a small change!",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}
