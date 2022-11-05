@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>q-bio.GN updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Quantitative Biology -- Genomics (q-bio.GN) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Quantitative Biology -- Genomics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01603" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2102.02649" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01603">
+<title>Using Signal Processing in Tandem With Adapted Mixture Models for Classifying Genomic Signals. (arXiv:2211.01603v1 [q-bio.GN])</title>
+<link>http://arxiv.org/abs/2211.01603</link>
+<description rdf:parseType="Literal">&lt;p&gt;Genomic signal processing has been used successfully in bioinformatics to
+analyze biomolecular sequences and gain varied insights into DNA structure,
+gene organization, protein binding, sequence evolution, etc. But challenges
+remain in finding the appropriate spectral representation of a biomolecular
+sequence, especially when multiple variable-length sequences need to be handled
+consistently. In this study, we address this challenge in the context of the
+well-studied problem of classifying genomic sequences into different taxonomic
+units (strain, phyla, order, etc.). We propose a novel technique that employs
+signal processing in tandem with Gaussian mixture models to improve the
+spectral representation of a sequence and subsequently the taxonomic
+classification accuracies. The sequences are first transformed into spectra,
+and projected to a subspace, where sequences belonging to different taxons are
+better distinguishable. Our method outperforms a similar state-of-the-art
+method on established benchmark datasets by an absolute margin of 6.06%
+accuracy.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jaiswal_S/0/1/0/all/0/1&quot;&gt;Saish Jaiswal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nema_S/0/1/0/all/0/1&quot;&gt;Shreya Nema&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Murthy_H/0/1/0/all/0/1&quot;&gt;Hema A Murthy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Narayanan_M/0/1/0/all/0/1&quot;&gt;Manikandan Narayanan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2102.02649">
+<title>A step towards a reinforcement learning de novo genome assembler. (arXiv:2102.02649v3 [q-bio.GN] UPDATED)</title>
+<link>http://arxiv.org/abs/2102.02649</link>
+<description rdf:parseType="Literal">&lt;p&gt;The use of reinforcement learning has proven to be very promising for solving
+complex activities without human supervision during their learning process.
+However, their successful applications are predominantly focused on fictional
+and entertainment problems - such as games. Based on the above, this work aims
+to shed light on the application of reinforcement learning to solve this
+relevant real-world problem, the genome assembly. By expanding the only
+approach found in the literature that addresses this problem, we carefully
+explored the aspects of intelligent agent learning, performed by the Q-learning
+algorithm, to understand its suitability to be applied in scenarios whose
+characteristics are more similar to those faced by real genome projects. The
+improvements proposed here include changing the previously proposed reward
+system and including state space exploration optimization strategies based on
+dynamic pruning and mutual collaboration with evolutionary computing. These
+investigations were tried on 23 new environments with larger inputs than those
+used previously. All these environments are freely available on the internet
+for the evolution of this research by the scientific community. The results
+suggest consistent performance progress using the proposed improvements,
+however, they also demonstrate the limitations of them, especially related to
+the high dimensionality of state and action spaces. We also present, later, the
+paths that can be traced to tackle genome assembly efficiently in real
+scenarios considering recent, successfully reinforcement learning applications
+- including deep reinforcement learning - from other domains dealing with
+high-dimensional inputs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Padovani_K/0/1/0/all/0/1&quot;&gt;Kleber Padovani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Xavier_R/0/1/0/all/0/1&quot;&gt;Roberto Xavier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Carvalho_A/0/1/0/all/0/1&quot;&gt;Andre Carvalho&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Reali_A/0/1/0/all/0/1&quot;&gt;Anna Reali&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chateau_A/0/1/0/all/0/1&quot;&gt;Annie Chateau&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Alves_R/0/1/0/all/0/1&quot;&gt;Ronnie Alves&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
