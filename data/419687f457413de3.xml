@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2016, SlashdotMedia. All Rights Reserved.</dc:rights>
+<dc:date>2022-11-05T16:38:31+00:00</dc:date>
+<dc:publisher>Dice</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://news.slashdot.org/story/22/11/05/0242233/unpaid-volunteers-at-cyanogenmod-successor-lineageos-maintain-builds-for-old-android-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://mobile.slashdot.org/story/22/11/05/0035236/is-iran-tracking-and-controlling-its-protesters-phones?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://developers.slashdot.org/story/22/11/05/1257233/microsofts-github-copilot-sued-over-software-piracy-on-an-unprecedented-scale?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/22/11/04/2246214/british-government-is-scanning-all-internet-devices-hosted-in-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/22/11/04/2115242/google-plans-giant-ai-language-model-supporting-worlds-1000-most-spoken-languages?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/22/11/04/2234219/boeings-starliner-launch-pushed-back-to-april-2023?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/22/11/04/224258/swedish-engineer-creates-playable-accordion-from-2-commodore-64-computers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/22/11/04/2159238/web3-gaming-studio-mythical-games-lays-off-10-of-its-employees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/22/11/04/2156215/linkedin-adds-verified-emails-profile-creation-dates?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/22/11/04/2142253/india-gambles-on-building-a-leading-drone-industry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/22/11/04/2016237/tim-berners-lee-wants-us-to-ignore-web3-its-not-the-web-at-all?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/22/11/04/2238259/the-execs-behind-the-moviepass-debacle-are-now-facing-criminal-charges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/22/11/04/2112202/astrazeneca-password-lapse-exposed-patient-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/22/11/04/1948217/cherrys-new-mechanical-switch-hails-from-80s-terminal-keyboards?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://entertainment.slashdot.org/story/22/11/04/2041250/hbo-cancels-westworld-in-shock-decision?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://news.slashdot.org/story/22/11/05/0242233/unpaid-volunteers-at-cyanogenmod-successor-lineageos-maintain-builds-for-old-android-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Unpaid Volunteers At CyanogenMod Successor LineageOS Maintain Builds For Old Android Devices</title>
+<link>https://news.slashdot.org/story/22/11/05/0242233/unpaid-volunteers-at-cyanogenmod-successor-lineageos-maintain-builds-for-old-android-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Linux magazine explores how to breath fresh life into old Android devices:
+Every mobile device needs its own Android build because of numerous drivers that are not available in the source code. The need to maintain every version of Android for every mobile device means that many manufacturers eventually stop supporting updates. Often, smartphones or tablets that still work perfectly can no longer be used without worry because the manufacturer has simply ceased to offer bug fixes and security updates.... 
+
+The LineageOS project, the successor to the CyanogenMod project, which was discontinued in 2016, proves that it is not impossible to keep these devices up-to-date. Unpaid volunteers at LineageOS do the work that many manufacturers do not want to do: They combine current Android releases with the required device-specific drivers. 
+
+The LineageOS project (Figure 1) provides Android systems with a fresh patch status every month for around 300 devices. The builds are released weekly, unless there is a problem during the build. The Devices page on the LineageOS Wiki provides the details of whether a LineageOS build is available for your smartphone or tablet.... 
+
+I recommend the LineageOS project as the first port of call for anyone who wants to protect an older smartphone or tablet that is no longer maintained and doesn't receive Google security patches. The LineageOS derivatives LineageOS for MicroG and /e/OS make it even easier to enjoy a Google-free smartphone without too many restrictions. 
+The article also describes how to use TWRP to flash a manufacturer-independent recovery system (while also creating a restoreable backup of the existing system) as an alternative to LineageOS's own recovery tools. 
+
+And it even explains how to unlock the bootloader &amp;mdash; although there may be other locks set up separately by the manufacturer. "Some manufacturers require you to register the device to unlock it, and then &amp;mdash; after telling you that the warranty is now void &amp;mdash; they hand over a code. Others refuse to unlock the device altogether." 
+
+Thanks to Slashdot reader DevNull127 for submitting the article.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Unpaid+Volunteers+At+CyanogenMod+Successor+LineageOS+Maintain+Builds+For+Old+Android+Devices%3A+https%3A%2F%2Fbit.ly%2F3fwhmpf"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F22%2F11%2F05%2F0242233%2Funpaid-volunteers-at-cyanogenmod-successor-lineageos-maintain-builds-for-old-android-devices%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/22/11/05/0242233/unpaid-volunteers-at-cyanogenmod-successor-lineageos-maintain-builds-for-old-android-devices?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334755&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2022-11-05T16:34:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>back-builds-better</slash:department>
+<slash:section>news</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://mobile.slashdot.org/story/22/11/05/0035236/is-iran-tracking-and-controlling-its-protesters-phones?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Is Iran Tracking and Controlling Its Protesters' Phones?</title>
+<link>https://mobile.slashdot.org/story/22/11/05/0035236/is-iran-tracking-and-controlling-its-protesters-phones?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The Intercept reports that protesters in Iran "have often been left wondering how the government was able to track down their locations or gain access to their private communications &amp;mdash; tactics that are frighteningly pervasive but whose mechanisms are virtually unknown." 
+
+But The Intercept now has evidence of a new possibility:
+While disconnecting broad swaths of the population from the web remains a favored blunt instrument of Iranian state censorship, the government has far more precise, sophisticated tools available as well. Part of Iran's data clampdown may be explained through the use of a system called "SIAM," a web program for remotely manipulating cellular connections made available to the Iranian Communications Regulatory Authority. The existence of SIAM and details of how the system works, reported here for the first time, are laid out in a series of internal documents from an Iranian cellular carrier that were obtained by The Intercept. 
+
+According to these internal documents, SIAM is a computer system that works behind the scenes of Iranian cellular networks, providing its operators a broad menu of remote commands to alter, disrupt, and monitor how customers use their phones. The tools can slow their data connections to a crawl, break the encryption of phone calls, track the movements of individuals or large groups, and produce detailed metadata summaries of who spoke to whom, when, and where. Such a system could help the government invisibly quash the ongoing protests &amp;mdash; or those of tomorrow &amp;mdash; an expert who reviewed the SIAM documents told The Intercept. 
+
+"SIAM can control if, where, when, and how users can communicate," explained Gary Miller, a mobile security researcher and fellow at the University of Toronto's Citizen Lab. "In this respect, this is not a surveillance system but rather a repression and control system to limit the capability of users to dissent or protest." 
+Thanks to long-time Slashdot reader mspohr for submitting the article.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Is+Iran+Tracking+and+Controlling+Its+Protesters'+Phones%3F%3A+https%3A%2F%2Fbit.ly%2F3Uv7Z83"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmobile.slashdot.org%2Fstory%2F22%2F11%2F05%2F0035236%2Fis-iran-tracking-and-controlling-its-protesters-phones%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mobile.slashdot.org/story/22/11/05/0035236/is-iran-tracking-and-controlling-its-protesters-phones?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334637&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2022-11-05T15:34:00+00:00</dc:date>
+<dc:subject>cellphones</dc:subject>
+<slash:department>Big-Brother</slash:department>
+<slash:section>mobile</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,15,11,10,4,3,1</slash:hit_parade>
+</item>
+<item rdf:about="https://developers.slashdot.org/story/22/11/05/1257233/microsofts-github-copilot-sued-over-software-piracy-on-an-unprecedented-scale?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Microsoft's GitHub Copilot Sued Over 'Software Piracy on an Unprecedented Scale'</title>
+<link>https://developers.slashdot.org/story/22/11/05/1257233/microsofts-github-copilot-sued-over-software-piracy-on-an-unprecedented-scale?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"Microsoft's GitHub Copilot is being sued in a class action lawsuit that claims the AI product is committing software piracy on an unprecedented scale," reports IT Pro. 
+
+Programmer/designer Matthew Butterick filed the case Thursday in San Francisco, saying it was on behalf of millions of GitHub users potentially affected by the $10-a-month Copilot service:
+
+The lawsuit seeks to challenge the legality of GitHub Copilot, as well as OpenAI Codex which powers the AI tool, and has been filed against GitHub, its owner Microsoft, and OpenAI.... "By training their AI systems on public GitHub repositories (though based on their public statements, possibly much more), we contend that the defendants have violated the legal rights of a vast number of creators who posted code or other work under certain open-source licences on GitHub," said Butterick. 
+
+These licences include a set of 11 popular open source licences that all require attribution of the author's name and copyright. This includes the MIT licence, the GNU General Public Licence, and the Apache licence. The case claimed that Copilot violates and removes these licences offered by thousands, possibly millions, of software developers, and is therefore committing software piracy on an unprecedented scale. 
+
+Copilot, which is entirely run on Microsoft Azure, often simply reproduces code that can be traced back to open-source repositories or licensees, according to the lawsuit. The code never contains attributions to the underlying authors, which is in violation of the licences. "It is not fair, permitted, or justified. On the contrary, Copilot's goal is to replace a huge swath of open source by taking it and keeping it inside a GitHub-controlled paywall...." Moreover, the case stated that the defendants have also violated GitHub's own terms of service and privacy policies, the DMCA code 1202 which forbids the removal of copyright-management information, and the California Consumer Privacy Act. 
+
+The lawsuit also accuses GitHub of monetizing code from open source programmers, "despite GitHub's pledge never to do so." 
+
+And Butterick argued to IT Pro that "AI systems are not exempt from the law... If companies like Microsoft, GitHub, and OpenAI choose to disregard the law, they should not expect that we the public will sit still." Butterick believes AI can only elevate humanity if it's "fair and ethical for everyone. If it's not... it will just become another way for the privileged few to profit from the work of the many." 
+
+Reached for comment, GitHub pointed IT Pro to their announcement Monday that next year, suggested code fragments will come with the ability to identify when it matches other publicly-available code &amp;mdash; or code that it's similar to. 
+
+The article adds that this lawsuit "comes at a time when Microsoft is looking at developing Copilot technology for use in similar programmes for other job categories, like office work, cyber security, or video game design, according to a Bloomberg report."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Microsoft's+GitHub+Copilot+Sued+Over+'Software+Piracy+on+an+Unprecedented+Scale'%3A+https%3A%2F%2Fbit.ly%2F3WAqwBo"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F22%2F11%2F05%2F1257233%2Fmicrosofts-github-copilot-sued-over-software-piracy-on-an-unprecedented-scale%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://developers.slashdot.org/story/22/11/05/1257233/microsofts-github-copilot-sued-over-software-piracy-on-an-unprecedented-scale?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22337227&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2022-11-05T14:34:00+00:00</dc:date>
+<dc:subject>programming</dc:subject>
+<slash:department>copying-rights</slash:department>
+<slash:section>developers</slash:section>
+<slash:comments>25</slash:comments>
+<slash:hit_parade>25,25,24,16,5,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/22/11/04/2246214/british-government-is-scanning-all-internet-devices-hosted-in-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>British Government Is Scanning All Internet Devices Hosted In UK</title>
+<link>https://news.slashdot.org/story/22/11/04/2246214/british-government-is-scanning-all-internet-devices-hosted-in-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from BleepingComputer: The United Kingdom's National Cyber Security Centre (NCSC), the government agency that leads the country's cyber security mission, is now scanning all Internet-exposed devices hosted in the UK for vulnerabilities. The goal is to assess UK's vulnerability to cyber-attacks and to help the owners of Internet-connected systems understand their security posture. "These activities cover any internet-accessible system that is hosted within the UK and vulnerabilities that are common or particularly important due to their high impact," the agency said. "The NCSC uses the data we have collected to create an overview of the UK's exposure to vulnerabilities following their disclosure, and track their remediation over time."
+ 
+NCSC's scans are performed using tools hosted in a dedicated cloud-hosted environment from scanner.scanning.service.ncsc.gov.uk and two IP addresses (18.171.7.246 and 35.177.10.231). The agency says that all vulnerability probes are tested within its own environment to detect any issues before scanning the UK Internet. "We're not trying to find vulnerabilities in the UK for some other, nefarious purpose," NCSC technical director Ian Levy explained. "We're beginning with simple scans, and will slowly increase the complexity of the scans, explaining what we're doing (and why we're doing it)." The NCSC says it will "take steps to remove [any sensitive or personal data] and prevent it from being captured again in the future."
+ 
+British organizations can opt out of having their servers scanned by emailing a list of IP addresses they want to be excluded at scanning@ncsc.gov.uk.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=British+Government+Is+Scanning+All+Internet+Devices+Hosted+In+UK%3A+https%3A%2F%2Fbit.ly%2F3fINshg"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F22%2F11%2F04%2F2246214%2Fbritish-government-is-scanning-all-internet-devices-hosted-in-uk%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/22/11/04/2246214/british-government-is-scanning-all-internet-devices-hosted-in-uk?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334551&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T13:00:00+00:00</dc:date>
+<dc:subject>uk</dc:subject>
+<slash:department>public-service-announcement</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,19,19,15,2,2,2</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/22/11/04/2115242/google-plans-giant-ai-language-model-supporting-worlds-1000-most-spoken-languages?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Plans Giant AI Language Model Supporting World's 1,000 Most Spoken Languages</title>
+<link>https://tech.slashdot.org/story/22/11/04/2115242/google-plans-giant-ai-language-model-supporting-worlds-1000-most-spoken-languages?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Google has announced an ambitious new project to develop a single AI language model that supports the world's "1,000 most spoken languages." The Verge reports: As a first step towards this goal, the company is unveiling an AI model trained on over 400 languages, which it describes as "the largest language coverage seen in a speech model today." [...] Google's "1,000 Languages Initiative" is not focusing on any particular functionality, but instead on creating a single system with huge breadth of knowledge across the world's languages.
+ 
+Speaking to The Verge, Zoubin Ghahramani, vice president of research at Google AI, said the company believes that creating a model of this size will make it easier to bring various AI functionalities to languages that are poorly represented in online spaces and AI training datasets (also known as "low-resource languages"). "By having a single model that is exposed to and trained on many different languages, we get much better performance on our low resource languages," says Ghahramani. "The way we get to 1,000 languages is not by building 1,000 different models. Languages are like organisms, they've evolved from one another and they have certain similarities. And we can find some pretty spectacular advances in what we call zero-shot learning when we incorporate data from a new language into our 1,000 language model and get the ability to translate [what it's learned] from a high-resource language to a low-resource language."
+ 
+Access to data is a problem when training across so many languages, though, and Google says that in order to support work on the 1,000-language model it will be funding the collection of data for low-resource languages, including audio recordings and written texts. The company says it has no direct plans on where to apply the functionality of this model -- only that it expects it will have a range of uses across Google's products, from Google Translate to YouTube captions and more. "One of the really interesting things about large language models and language research in general is that they can do lots and lots of different tasks," says Ghahramani. "The same language model can turn commands for a robot into code; it can solve maths problems; it can do translation. The really interesting things about language models is they're becoming repositories of a lot of knowledge, and by probing them in different ways you can get to different bits of useful functionality."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Plans+Giant+AI+Language+Model+Supporting+World's+1%2C000+Most+Spoken+Languages%3A+https%3A%2F%2Fbit.ly%2F3U9fBxd"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F22%2F11%2F04%2F2115242%2Fgoogle-plans-giant-ai-language-model-supporting-worlds-1000-most-spoken-languages%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/22/11/04/2115242/google-plans-giant-ai-language-model-supporting-worlds-1000-most-spoken-languages?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334447&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T10:00:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>ambitious-projects</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>19</slash:comments>
+<slash:hit_parade>19,18,16,13,3,2,0</slash:hit_parade>
+</item>
+<item rdf:about="https://science.slashdot.org/story/22/11/04/2234219/boeings-starliner-launch-pushed-back-to-april-2023?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Boeing's Starliner Launch Pushed Back To April 2023</title>
+<link>https://science.slashdot.org/story/22/11/04/2234219/boeings-starliner-launch-pushed-back-to-april-2023?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The first crewed launch of Boeing's Starliner has been delayed again, this time being pushed back to April 2023 from an earlier planned launch date of February. The Register reports: The change came with little announcement from NASA, which tweeted out the new date as a scheduling update without any additional details. In an accompanying blog post, NASA said the change was being made to eliminate conflicts between "visiting spacecraft traffic at the space station," but the agency didn't elaborate much beyond that.
+ 
+Starliner has been a drag on Boeing since the company unveiled the capsule in 2010. According to Boeing's Q3 2022 filing, Starliner has lost the company $883 million since 2019. That was the year Starliner made its first attempt at an uncrewed launch and docking with the International Space Station, which failed due to a pair of software errors that left it unable to dock and saw it returned to Earth early under less-than-ideal circumstances. Attempts at a second launch in 2021 also failed when 13 of the Calamity Capsule's propulsion system valves failed pre-flight checks. Starliner only made it to the ISS for the first time this past May, but even that launch wasn't without issues as two of the craft's 12 thrusters failed once in orbit.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Boeing's+Starliner+Launch+Pushed+Back+To+April+2023%3A+https%3A%2F%2Fbit.ly%2F3t1TSv0"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F22%2F11%2F04%2F2234219%2Fboeings-starliner-launch-pushed-back-to-april-2023%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/22/11/04/2234219/boeings-starliner-launch-pushed-back-to-april-2023?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334543&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T07:00:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>here-we-go-again</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>30</slash:comments>
+<slash:hit_parade>30,30,28,26,7,2,2</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/22/11/04/224258/swedish-engineer-creates-playable-accordion-from-2-commodore-64-computers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Swedish Engineer Creates Playable Accordion From 2 Commodore 64 Computers</title>
+<link>https://hardware.slashdot.org/story/22/11/04/224258/swedish-engineer-creates-playable-accordion-from-2-commodore-64-computers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from Ars Technica: In late October, a Swedish software engineer named Linus Akesson unveiled a playable accordion -- called "The Commodordion" -- he crafted out of two vintage Commodore 64 computers connected with a bellows made of floppy disks taped together. A demo of the hack debuted in an 11-minute YouTube video where Akesson plays a Scott Joplin ragtime song and details the instrument's creation.
+ 
+A fair amount of custom software engineering and hardware hackery went into making the Commodordion possible, as Akesson lays out in a post on his website. It builds off of earlier projects (that he says were intentionally leading up to this one), such as the Sixtyforgan (a C64 with spring reverb and a chromatic accordion key layout) and Qwertuoso, a program that allows live playing of the C64's famous SID sound chip.
+ 
+So how does the Commodordion work? Akesson wired up a custom power supply, and when he flips the unit on, both Commodore 64 machines boot (no display necessary). Next, he loads custom music software he wrote from a Commodore Datasette emulator board into each machine. A custom mixer circuit board brings together the audio signals from the two units and measures input from the bellows to control the volume level of the sound output. The bellows, composed of many 5.25-inch floppy disks cut and taped into shape, emit air through a hole when squeezed. A microphone mounted just outside that hole translates the noise it hears into an audio envelope that manipulates the sound output to match. The Commodordion itself does not have speakers but instead outputs its electronic audio through a jack.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Swedish+Engineer+Creates+Playable+Accordion+From+2+Commodore+64+Computers%3A+https%3A%2F%2Fbit.ly%2F3FHhFYR"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F22%2F11%2F04%2F224258%2Fswedish-engineer-creates-playable-accordion-from-2-commodore-64-computers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/22/11/04/224258/swedish-engineer-creates-playable-accordion-from-2-commodore-64-computers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334507&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T03:30:00+00:00</dc:date>
+<dc:subject>music</dc:subject>
+<slash:department>one-of-a-kind</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,19,19,18,5,5,3</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/22/11/04/2159238/web3-gaming-studio-mythical-games-lays-off-10-of-its-employees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Web3 Gaming Studio Mythical Games Lays Off 10% of Its Employees</title>
+<link>https://slashdot.org/story/22/11/04/2159238/web3-gaming-studio-mythical-games-lays-off-10-of-its-employees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Web3 gaming studio Mythical Games has let go of 10% of its roughly 320 employees. CoinDesk reports: The firm cited the economic downturn, likely exacerbated by the harsh crypto winter, as the reason for the layoffs.
+"[We] have had to reevaluate and restructure some areas in our business accordingly," a spokesperson from Mythical told CoinDesk. "Unfortunately, as a result, we had to make the painful decision to let some of the members of our team go." Further reading: A Host of Tech Companies, Including Coinbase, Robinhood, Lyft, and Stripe, Announce Hiring Freezes and Job Cuts&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Web3+Gaming+Studio+Mythical+Games+Lays+Off+10%25+of+Its+Employees%3A+https%3A%2F%2Fbit.ly%2F3Tmu4EV"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F22%2F11%2F04%2F2159238%2Fweb3-gaming-studio-mythical-games-lays-off-10-of-its-employees%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/22/11/04/2159238/web3-gaming-studio-mythical-games-lays-off-10-of-its-employees?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334501&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T01:25:00+00:00</dc:date>
+<dc:subject>bitcoin</dc:subject>
+<slash:department>crypto-winter</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>19</slash:comments>
+<slash:hit_parade>19,19,18,16,2,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/22/11/04/2156215/linkedin-adds-verified-emails-profile-creation-dates?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>LinkedIn Adds Verified Emails, Profile Creation Dates</title>
+<link>https://tech.slashdot.org/story/22/11/04/2156215/linkedin-adds-verified-emails-profile-creation-dates?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>LinkedIn is rolling out new features to combat a surge in AI-generated bot accounts, writes Brian Krebs. "Many LinkedIn profiles now display a creation date, and the company is expanding its domain validation offering, which allows users to publicly confirm that they can reply to emails at the domain of their stated current employer." From the report: LinkedIn's new "About This Profile" section -- which is visible by clicking the "More" button at the top of a profile -- includes the year the account was created, the last time the profile information was updated, and an indication of how and whether an account has been verified.
+ 
+LinkedIn also said it is adding a warning to some LinkedIn messages that include high-risk content, or that try to entice the user into taking the conversation to another platform (like WeChat). "We may warn you about messages that ask you to take the conversation to another platform because that can be a sign of a scam," the company said in a blog post. "These warnings will also give you the choice to report the content without letting the sender know."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=LinkedIn+Adds+Verified+Emails%2C+Profile+Creation+Dates%3A+https%3A%2F%2Fbit.ly%2F3U8Xmbc"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F22%2F11%2F04%2F2156215%2Flinkedin-adds-verified-emails-profile-creation-dates%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/22/11/04/2156215/linkedin-adds-verified-emails-profile-creation-dates?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334497&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T00:45:00+00:00</dc:date>
+<dc:subject>social</dc:subject>
+<slash:department>new-and-improved</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>6</slash:comments>
+<slash:hit_parade>6,6,6,5,2,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/22/11/04/2142253/india-gambles-on-building-a-leading-drone-industry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>India Gambles On Building a Leading Drone Industry</title>
+<link>https://tech.slashdot.org/story/22/11/04/2142253/india-gambles-on-building-a-leading-drone-industry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The Indian government wants to develop a home-grown industry that can design and assemble drones and make the components that go into their manufacture. The BBC reports: "Drones can be significant creators of employment and economic growth due to their versatility, and ease of use, especially in India's remote areas," says Amber Dubey, former joint secretary at the Ministry of Civil Aviation. "Given its traditional strengths in innovation, information technology, frugal engineering and its huge domestic demand, India has the potential of becoming a global drone hub by 2030," he tells the BBC. Over the next three years Mr Dubey sees as much as 50 billion rupees $630 million invested in the sector.
+ 
+[...] However, despite the excitement and investment around India's drone industry, even those in the sector advise caution. "India has set a goal of being a hub of drones by 2030, but I think we should be cautious because we at present don't not have an ecosystem and technology initiatives in place," says Rajiv Kumar Narang, from the Drone Federation of India. He says the industry needs a robust regulator that can oversee safety and help develop an air traffic control system for drones. That will be particularly important as the aircraft become larger, says Mr Narang. "Initiatives have to come from the government. A single entity or a nodal ministry has to take this forward if we want to reach a goal of being the hub by 2030," he says.
+ 
+India also lacks the network of firms needed to make all the components that go into making a drone. At the moment many parts, including batteries, motors and flight controllers are imported. But the government is confident an incentive scheme will help boost domestic firms. "The components industry will take two to three years to build, since it traditionally works on low margin and high volumes," says Mr Dubey. Despite those reservations, firms are confident there will be demand for drones and people to fly them. Chirag Shara is the chief executive of Drone Destination, which has trained more than 800 pilots and instructors since the rules on drone use were first relaxed in August 2021. He estimates that India will need up to 500,000 certified pilots over the next five years.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=India+Gambles+On+Building+a+Leading+Drone+Industry%3A+https%3A%2F%2Fbit.ly%2F3U3gB5Q"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F22%2F11%2F04%2F2142253%2Findia-gambles-on-building-a-leading-drone-industry%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/22/11/04/2142253/india-gambles-on-building-a-leading-drone-industry?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334471&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-05T00:02:00+00:00</dc:date>
+<dc:subject>technology</dc:subject>
+<slash:department>cash-cow</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>12</slash:comments>
+<slash:hit_parade>12,12,9,9,4,3,1</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/22/11/04/2016237/tim-berners-lee-wants-us-to-ignore-web3-its-not-the-web-at-all?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Tim Berners-Lee Wants Us To 'Ignore' Web3, It's 'Not the Web at All'</title>
+<link>https://tech.slashdot.org/story/22/11/04/2016237/tim-berners-lee-wants-us-to-ignore-web3-its-not-the-web-at-all?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Tim Berners-Lee, the British computer scientist credited with inventing the World Wide Web in 1989, said Friday that he doesn't view blockchain as a viable solution for building the next iteration of the internet. From a report: He has his own web decentralization project called Solid. "It's important to clarify in order to discuss the impacts of new technology," said Berners-Lee, speaking onstage at the Web Summit event in Lisbon. 
+
+"You have to understand what the terms mean that we're discussing actually mean, beyond the buzzwords. It's a real shame in fact that the actual Web3 name was taken by Ethereum folks for the stuff that they're doing with blockchain. In fact, Web3 is not the web at all," he said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Tim+Berners-Lee+Wants+Us+To+'Ignore'+Web3%2C+It's+'Not+the+Web+at+All'%3A+https%3A%2F%2Fbit.ly%2F3zJzSBi"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F22%2F11%2F04%2F2016237%2Ftim-berners-lee-wants-us-to-ignore-web3-its-not-the-web-at-all%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/22/11/04/2016237/tim-berners-lee-wants-us-to-ignore-web3-its-not-the-web-at-all?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334365&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2022-11-04T23:20:00+00:00</dc:date>
+<dc:subject>internet</dc:subject>
+<slash:department>tim-speaks</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>72</slash:comments>
+<slash:hit_parade>72,65,59,49,20,9,7</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/22/11/04/2238259/the-execs-behind-the-moviepass-debacle-are-now-facing-criminal-charges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Execs Behind the MoviePass Debacle Are Now Facing Criminal Charges</title>
+<link>https://yro.slashdot.org/story/22/11/04/2238259/the-execs-behind-the-moviepass-debacle-are-now-facing-criminal-charges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Mitch Lowe and Ted Farnsworth already settled with the FTC over fraudulent activity affecting MoviePass customers, but now the former heads of MoviePass and its parent company, Helios and Matheson Analytics (HMNY), are facing criminal allegations of securities fraud and wire fraud. The Verge reports: The Department of Justice announced the charges today, saying false statements made by both men defrauded investors in HMNY when the execs pretended like the company's money-losing $9.95 "unlimited" moviegoing plan had any hope of profitability. HMNY's own auditor cast doubt on the company's viability in a report in 2018, but at the time, Farnsworth downplayed the advisory, telling Insider that "pretty much most" companies running at a loss would have a similar warning.
+ 
+But the big problem is his claims that HMNY's analytics prowess could somehow monetize data generated from MoviePass simply didn't hold up: prosecutors now allege "Farnsworth and Lowe knew HMNY did not possess these technologies or capabilities to monetize MoviePass's subscriber data or incorporate these technologies into the MoviePass application." [...] The DOJ says each man is facing one count of securities fraud and three counts of wire fraud over the lies they allegedly told in "press releases, SEC filings, interviews on podcasts and on television, and in print and online media."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Execs+Behind+the+MoviePass+Debacle+Are+Now+Facing+Criminal+Charges%3A+https%3A%2F%2Fbit.ly%2F3U84Hru"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F22%2F11%2F04%2F2238259%2Fthe-execs-behind-the-moviepass-debacle-are-now-facing-criminal-charges%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/22/11/04/2238259/the-execs-behind-the-moviepass-debacle-are-now-facing-criminal-charges?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334545&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-04T22:40:00+00:00</dc:date>
+<dc:subject>crime</dc:subject>
+<slash:department>get-your-popcorn-ready</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>17</slash:comments>
+<slash:hit_parade>17,17,13,9,3,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/22/11/04/2112202/astrazeneca-password-lapse-exposed-patient-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>AstraZeneca Password Lapse Exposed Patient Data</title>
+<link>https://yro.slashdot.org/story/22/11/04/2112202/astrazeneca-password-lapse-exposed-patient-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from TechCrunch: Pharmaceutical giant AstraZeneca has blamed "user error" for leaving a list of credentials online for more than a year that exposed access to sensitive patient data. Mossab Hussein, chief security officer at cybersecurity startup SpiderSilk, told TechCrunch that a developer left the credentials for an AstraZeneca internal server on code sharing site GitHub in 2021. The credentials allowed access to a test Salesforce cloud environment, often used by businesses to manage their customers, but the test environment contained some patient data, Hussein said. Some of the data related to AZ&amp;amp;ME applications, which offers discounts to patients who need medications. TechCrunch provided details of the exposed credentials to AstraZeneca, and the GitHub repository containing the credentials was inaccessible hours later. In a statement, AstraZeneca spokesperson Patrick Barth told TechCrunch: "The protection of personal data is extremely important to us and we strive for the highest standards and compliance with all applicable rules and laws. Due to an [sic] user error, some data records were temporarily available on a developer platform. We stopped access to this data immediately after we have been [sic] informed. We are investigating the root cause as well as assessing our regulatory obligations."
+ 
+It's unclear if anyone was able to access the data, or if any data was exfiltrated.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=AstraZeneca+Password+Lapse+Exposed+Patient+Data%3A+https%3A%2F%2Fbit.ly%2F3FLEkDt"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F22%2F11%2F04%2F2112202%2Fastrazeneca-password-lapse-exposed-patient-data%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/22/11/04/2112202/astrazeneca-password-lapse-exposed-patient-data?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334431&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-04T22:00:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>user-error</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>16</slash:comments>
+<slash:hit_parade>16,16,12,12,2,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/22/11/04/1948217/cherrys-new-mechanical-switch-hails-from-80s-terminal-keyboards?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Cherry's New Mechanical Switch Hails From '80s Terminal Keyboards</title>
+<link>https://it.slashdot.org/story/22/11/04/1948217/cherrys-new-mechanical-switch-hails-from-80s-terminal-keyboards?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Cherry, the original mechanical switch maker, is continuing to tap the mechanical keyboard community for new product ideas. From a report: Its new mechanical switch, the Cherry MX Black Clear-Top, is a nod to enthusiasts who would love to turn in their modern-day clacker for an old-school terminal keyboard with extra-smooth typing. Before Cherry's Thursday announcement of plans to release the MX Black Clear-Top, the switch was known to hobbyists as the Nixie switch. 
+
+Cherry made the switch in the 1980s for German office machine-maker Nixdorf Computer AG. The German switch maker was tasked with creating a version of its linear MX Black switch with "milky" upper housing, a 63.5 g actuation force rather than 60 g, and "the relatively rare solution at the time of having a diode integrated into the switch for n-key rollover," Cherry's announcement explained.The linear switch ended up being used primarily in Nixdorf's CT06-CT07/2 M Softkeys keyboards targeted at terminals, servers, and minicomputers.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Cherry's+New+Mechanical+Switch+Hails+From+'80s+Terminal+Keyboards%3A+https%3A%2F%2Fbit.ly%2F3E4f8Xz"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F22%2F11%2F04%2F1948217%2Fcherrys-new-mechanical-switch-hails-from-80s-terminal-keyboards%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/22/11/04/1948217/cherrys-new-mechanical-switch-hails-from-80s-terminal-keyboards?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334309&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2022-11-04T21:21:00+00:00</dc:date>
+<dc:subject>it</dc:subject>
+<slash:department>blast-from-the-past</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>30</slash:comments>
+<slash:hit_parade>30,30,24,22,4,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://entertainment.slashdot.org/story/22/11/04/2041250/hbo-cancels-westworld-in-shock-decision?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>HBO Cancels 'Westworld' In Shock Decision</title>
+<link>https://entertainment.slashdot.org/story/22/11/04/2041250/hbo-cancels-westworld-in-shock-decision?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>According to the Hollywood Reporter, HBO has "switched off Westworld" after its recent fourth season. From the report: It's an unexpected fate for a series that was once considered one of HBO's biggest tentpoles -- an acclaimed mystery-box drama that racked up 54 Emmy award nominations (including a supporting actress win for Thandiwe Newton). Last month, co-creator Jonathan Nolan said in an interview that he hoped HBO would give the series a fifth season to wrap up the show's ambitious story, which has chronicled a robot uprising that changed the fate of humanity. "We always planned for a fifth and final season," Nolan said. "We are still in conversations with the network. We very much hope to make them." Co-creator Lisa Joy likewise said the series has always been working toward a specific ending: "Jonah and I have always had an ending in mind that we hope to reach. We have not quite reached it yet."
+ 
+Yet linear ratings for the pricey series fell off sharply for its third season, and then dropped even further for season four. Westworld's critic average on Rotten Tomatoes likewise declined from the mid-80s for its first two seasons to the mid-70s for the latter two. Fans increasingly griped that the show became confusing and tangled in its mythology and lacked characters to root for. Looming over all of this is the fact Warner Bros. Discovery CEO David Zaslav has pledged aggressive cost cutting mandate, though network insiders maintain that saving money was not a factor in the show's cancelation. HBO said in a statement: "Over the past four seasons, Lisa and Jonah have taken viewers on a mind-bending odyssey, raising the bar at every step. We are tremendously grateful to them, along with their immensely talented cast, producers and crew, and all of our partners at Kilter Films, Bad Robot and Warner Bros. Television. It's been a thrill to join them on this journey."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=HBO+Cancels+'Westworld'+In+Shock+Decision%3A+https%3A%2F%2Fbit.ly%2F3FGigdk"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F22%2F11%2F04%2F2041250%2Fhbo-cancels-westworld-in-shock-decision%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://entertainment.slashdot.org/story/22/11/04/2041250/hbo-cancels-westworld-in-shock-decision?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=22334401&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2022-11-04T20:43:00+00:00</dc:date>
+<dc:subject>scifi</dc:subject>
+<slash:department>violent-delights-have-violent-ends</slash:department>
+<slash:section>entertainment</slash:section>
+<slash:comments>94</slash:comments>
+<slash:hit_parade>94,92,81,72,22,9,5</slash:hit_parade>
+</item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
