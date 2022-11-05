@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.GT updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Geometric Topology (math.GT) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Geometric Topology</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01404" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01855" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01937" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2002.06579" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2107.09653" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.15577" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01404">
+<title>Illuminating new and known relations between knot invariants. (arXiv:2211.01404v1 [math.GT])</title>
+<link>http://arxiv.org/abs/2211.01404</link>
+<description rdf:parseType="Literal">&lt;p&gt;We automate the process of machine learning correlations between knot
+invariants. For nearly 200,000 distinct sets of input knot invariants together
+with an output invariant, we attempt to learn the output invariant by training
+a neural network on the input invariants. Correlation between invariants is
+measured by the accuracy of the neural network prediction, and bipartite or
+tripartite correlations are sequentially filtered from the input invariant sets
+so that experiments with larger input sets are checking for true multipartite
+correlation. We rediscover several known relationships between polynomial,
+homological, and hyperbolic knot invariants, while also finding novel
+correlations which are not explained by known results in knot theory. These
+unexplained correlations strengthen previous observations concerning links
+between Khovanov and knot Floer homology. Our results also point to a new
+connection between quantum algebraic and hyperbolic invariants, similar to the
+generalized volume conjecture.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Craven_J/0/1/0/all/0/1&quot;&gt;Jessica Craven&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hughes_M/0/1/0/all/0/1&quot;&gt;Mark Hughes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Jejjala_V/0/1/0/all/0/1&quot;&gt;Vishnu Jejjala&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kar_A/0/1/0/all/0/1&quot;&gt;Arjun Kar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01855">
+<title>The pro-nilpotent Lawrence-Krammer-Bigelow representation. (arXiv:2211.01855v1 [math.GT])</title>
+<link>http://arxiv.org/abs/2211.01855</link>
+<description rdf:parseType="Literal">&lt;p&gt;We construct a 3-variable enrichment of the Lawrence-Krammer-Bigelow (LKB)
+representation of the braid groups, which is the limit of a pro-nilpotent tower
+of representations having the original LKB representation as its bottom layer.
+We also construct analogous pro-nilpotent towers of representations of surface
+braid groups and loop braid groups.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Palmer_M/0/1/0/all/0/1&quot;&gt;Martin Palmer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Soulie_A/0/1/0/all/0/1&quot;&gt;Arthur Souli&amp;#xe9;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01937">
+<title>Bar-Natan theory and tunneling between incompressible surfaces in 3-manifolds. (arXiv:2211.01937v1 [math.GT])</title>
+<link>http://arxiv.org/abs/2211.01937</link>
+<description rdf:parseType="Literal">&lt;p&gt;The author defined for each (commutative) Frobenius algebra a skein module of
+surfaces in a $3$-manifold $M$ bounding a closed $1$-manifold $\alpha \subset
+\partial M$. The surface components are colored by elements of the Frobenius
+algebra. The modules are called the Bar-Natan modules of $(M,\alpha )$. In this
+article we show that Bar-Natan modules are colimit modules of functors
+associated to Frobenius algebras, decoupling topology from algebra. The
+functors are defined on a category of $3$-dimensional compression bordisms
+embedded in cylinders over $M$ and take values in a linear category defined
+from the Frobenius algebra. The relation with the $1+1$-dimensional topological
+quantum field theory functor associated to the Frobenius algebra is studied. We
+show that the geometric content of the skein modules is contained in a
+tunneling graph of $(M,\alpha )$, providing a natural presentation of the
+Bar-Natan module by application of the functor defined from the algebra. Such
+presentations have essentially been stated previously in work by the author and
+Asaeda-Frohman, using ad-hoc arguments. But they appear naturally on the
+background of the Bar-Natan functor and associated categorical considerations.
+We discuss in general presentations of colimit modules for functors into module
+categories in terms of minimal terminal sets of objects of the category in the
+categorical setting. We also introduce a $2$-category version of the Bar-Natan
+functor, thereby in some way Bar-Natan modules of $(M,\alpha )$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kaiser_U/0/1/0/all/0/1&quot;&gt;Uwe Kaiser&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2002.06579">
+<title>Isolations of geodesic planes in the frame bundle of a hyperbolic $3$-manifold. (arXiv:2002.06579v3 [math.DS] UPDATED)</title>
+<link>http://arxiv.org/abs/2002.06579</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a quantitative isolation property of the lifts of properly
+immersed geodesic planes in the frame bundle of a geometrically finite
+hyperbolic $3$-manifold. Our estimates are polynomials in the tight areas and
+Bowen-Margulis-Sullivan densities of geodesic planes, with degree given by the
+modified critical exponents.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Mohammadi_A/0/1/0/all/0/1&quot;&gt;Amir Mohammadi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Oh_H/0/1/0/all/0/1&quot;&gt;Hee Oh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2107.09653">
+<title>Algebraic concordance order of almost classical knots. (arXiv:2107.09653v2 [math.GT] UPDATED)</title>
+<link>http://arxiv.org/abs/2107.09653</link>
+<description rdf:parseType="Literal">&lt;p&gt;Torsion in the concordance group $\mathscr{C}$ of knots in $S^3$ can be
+studied with the algebraic concordance group $\mathscr{G}^{\mathbb{F}}$. Here
+$\mathbb{F}$ is a field of characteristic $\chi(\mathbb{F}) \ne 2$. The group
+$\mathscr{G}^{\mathbb{F}}$ was defined by J. Levine, who also obtained an
+algebraic classification when $\mathbb{F}=\mathbb{Q}$. While the concordance
+group $\mathscr{C}$ is abelian, it embeds into the non-abelian virtual knot
+concordance group $\mathscr{VC}$. It is unknown if $\mathscr{VC}$ admits
+non-classical finite torsion. Here we define the virtual algebraic concordance
+group $\mathscr{VG}^{\mathbb{F}}$ for almost classical knots . This is an
+analogue of $\mathscr{G}^{\mathbb{F}}$ for homologically trivial knots in
+thickened surfaces $\Sigma \times [0,1]$, where $\Sigma$ is closed and
+oriented. The main result is an algebraic classification of
+$\mathscr{VG}^{\mathbb{F}}$. A consequence of the classification is that
+$\mathscr{G}^{\mathbb{Q}}$ embeds into $\mathscr{VG}^{\mathbb{Q}}$ and
+$\mathscr{VG}^{\mathbb{Q}}$ contains many nontrivial finite-order elements that
+are not algebraically concordant to any classical Seifert matrix. For
+$\mathbb{F}=\mathbb{Z}/2\mathbb{Z}$, we give a generalization of the Arf
+invariant.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Chrisman_M/0/1/0/all/0/1&quot;&gt;Micah Chrisman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Mukherjee_S/0/1/0/all/0/1&quot;&gt;Sujoy Mukherjee&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.15577">
+<title>On knots that divide ribbon knotted surfaces. (arXiv:2209.15577v2 [math.GT] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.15577</link>
+<description rdf:parseType="Literal">&lt;p&gt;We define a knot to be half ribbon if it is the cross-section of a ribbon
+2-knot, and observe that ribbon implies half ribbon implies slice. We introduce
+the half ribbon genus of a knot K, the minimum genus of a ribbon knotted
+surface of which K is a cross-section. We compute this genus for all prime
+knots up to 12 crossings, and many 13-crossing knots. The same approach yields
+new computations of the doubly slice genus. We also introduce the half fusion
+number of a knot K, that measures the complexity of ribbon 2-knots of which K
+is a cross-section. We show that it is bounded from below by the
+Levine-Tristram signatures, and differs from the standard fusion number by an
+arbitrarily large amount.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Boden_H/0/1/0/all/0/1&quot;&gt;Hans U. Boden&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Elmacioglu_C/0/1/0/all/0/1&quot;&gt;Ceyhun Elmacioglu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Guha_A/0/1/0/all/0/1&quot;&gt;Anshul Guha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Karimi_H/0/1/0/all/0/1&quot;&gt;Homayun Karimi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Rushworth_W/0/1/0/all/0/1&quot;&gt;William Rushworth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tang_Y/0/1/0/all/0/1&quot;&gt;Yun-chi Tang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Jun_B/0/1/0/all/0/1&quot;&gt;Bryan Wang Peng Jun&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
