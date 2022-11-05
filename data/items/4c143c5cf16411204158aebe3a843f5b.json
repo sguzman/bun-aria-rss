@@ -1,0 +1,18 @@
+{
+  "guid": "tag:blogger.com,1999:blog-6300367579216018061.post-9026102605042703913",
+  "pubDate": "Tue, 15 Oct 2013 16:36:00 +0000",
+  "atom:updated": "2013-10-15T09:36:34.788-07:00",
+  "category": [
+    "graph database",
+    "graph theory",
+    "neo4j",
+    "recommendation engine",
+    "time scales"
+  ],
+  "title": "Time Scale Event Meta Model",
+  "description": "<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"tr-caption-container\" style=\"float: left; margin-right: 1em; text-align: left;\"><tbody><tr><td style=\"text-align: center;\"><a href=\"http://4.bp.blogspot.com/-xSx8J_6BLIg/Ul1tMrWx5QI/AAAAAAAAA3o/73E6I-_Qtow/s1600/TSEMM-v1.04.png\" style=\"margin-left: auto; margin-right: auto;\"><img border=\"0\" height=\"320\" src=\"http://4.bp.blogspot.com/-xSx8J_6BLIg/Ul1tMrWx5QI/AAAAAAAAA3o/73E6I-_Qtow/s320/TSEMM-v1.04.png\" width=\"320\" /></a></td></tr><tr><td class=\"tr-caption\" style=\"text-align: center;\">Time Scale Graph</td></tr></tbody></table>Recently at the <a href=\"http://www.graphconnect.com/san-francisco\">GraphConnect 2013 conference in San Francisco</a>, questions were asked about how to handle temporal or time-based traversals in a Neo4j graph database.<br /><br />So I decided to write a GraphGist to help Neo4j developers do recommendations by logging events within a \"Time Scale Graph\". <br /><br />The goal of this GraphGist is to provide you with a lens to help you see information as simple temporal facts that are captured across space and time.<br /><br />You can find the full GraphGist <a href=\"http://gist.neo4j.org/?github-kbastani%2Fgists%2F%2Fmeta%2FTimeScaleEventMetaModel.adoc\">here</a><br />",
+  "link": "https://www.kennybastani.com/2013/10/time-scale-event-meta-model.html",
+  "author": "noreply@blogger.com (Kenny Bastani)",
+  "media:thumbnail": "",
+  "thr:total": 0
+}

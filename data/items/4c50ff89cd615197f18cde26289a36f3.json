@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-4446292666398344382.post-8228896340261041208",
+  "published": "2018-03-06T13:04:00.000-08:00",
+  "updated": "2018-03-06T13:08:26.250-08:00",
+  "title": "pytorch PU learning trick",
+  "content": "I'm often using <a href=\"https://en.wikipedia.org/wiki/One-class_classification\">positive-unlabeled learning</a> nowadays.  In particular for observational dialog modeling, <a href=\"https://arxiv.org/abs/1605.05414\">next utterance classification</a> is a standard technique for training and evaluating models.  In this setup the observed continuation of the conversation is considered a positive (since a human said it, it is presumed a reasonable thing to say at that point in the conversation) and other randomly chosen utterances are treated as unlabeled (they might be reasonable things to say at that point in the conversation).<br /><br />Suppose you have a model whose final layer is a dot product between a vector produced only from context and a vector produced only from response.  I use models of this form as &ldquo;level 1&rdquo; models because they facilitate precomputation of a fast serving index, but note the following trick will not apply to architectures like bidirectional attention.  Anyway for these models  you can be more efficient during training by drawing the negatives from the same mini-batch.  This is a well-known trick but I couldn't find anybody talking about how to do this explicitly in pytorch.  <br /><br />Structure your model to have a leftforward and a rightforward like this:<br /><pre class=\"brush:python\">class MyModel(nn.Module):<br />...<br /><br />    def forward(leftinput, rightinput):<br />        leftvec = self.leftforward(leftinput)<br />        rightvec = self.rightforward(rightinput)<br />        return torch.mul(leftvec, rightvec).sum(dim=1, keepdim=True)<br /></pre><br />At training time, compute the leftforward and rightforward for your mini-batch distinctly:<br /><pre class=\"brush:python\">...<br />criterion = BatchPULoss()<br />model = MyModel()<br />...<br /><br />leftvec = model.leftforward(batch.leftinput)<br />rightvec = model.rightforward(batch.rightinput)<br /><br />(loss, preds) = criterion.fortraining(leftvectors, rightvectors)<br />loss.backward()<br /># \"preds\" contains the highest score right for each left <br /># so for instance, calculate \"mini-batch precision at 1\"<br />gold_labels = torch.arange(0, batch.batch_size).long().cuda()<br />n_correct += (preds.data == gold_labels).sum()<br />...<br /></pre>Finally use this loss:<br /><pre class=\"brush:python\">import torch<br /><br />class BatchPULoss():<br />    def __init__(self):<br />      self.loss = torch.nn.CrossEntropyLoss()<br /><br />    def fortraining(self, left, right):<br />      outer = torch.mm(left, right.t())<br />      labels = torch.autograd.Variable(torch.arange(0,outer.shape[0]).long().cuda(), <br />                                       requires_grad=False)<br />      loss = self.loss(outer, labels)<br />      _, preds = torch.max(outer, dim=1)<br />      return (loss, preds)<br /><br />    def __call__(self, *args, **kwargs):<br />      return self.loss(*args, **kwargs)<br /></pre>At training time you call the <tt>fortraining</tt> method but if you have fixed distractors for evaluation you can also call it directly just like <tt>CrossEntropyLoss</tt>.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Paul Mineiro",
+    "uri": "http://www.blogger.com/profile/05439062526157173163",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Microsoft365R: an R interface to the Microsoft 365 suite",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b02788010c945200d",
+  "published": "2021-02-09T09:30:00-08:00",
+  "updated": "2021-02-03T16:10:26-08:00",
+  "summary": "I’m very happy to announce Microsoft365R, a package for working with the Microsoft 365 (formerly known as Office 365) suite of cloud services. Microsoft365R extends the interface to the Microsoft Graph API provided by the AzureGraph package to provide a lightweight yet powerful interface to SharePoint and OneDrive, with support for Teams and Outlook soon to come. Microsoft365R is now available on CRAN, or you can install the development version from GitHub with devtools::install_github(\"Azure/Microsoft365R\"). Authentication The first time you call one of the Microsoft365R functions (see below), it will use your Internet browser to authenticate with Azure Active Directory (AAD),...",
+  "author": {
+    "name": "Hong Ooi"
+  },
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "a": [
+            "Microsoft365R",
+            "Microsoft 365",
+            "AzureGraph",
+            "SharePoint",
+            "OneDrive"
+          ],
+          "#text": "I’m very happy to announce, a package for working with the(formerly known as Office 365) suite of cloud services. Microsoft365R extends the interface to the Microsoft Graph API provided by thepackage to provide a lightweight yet powerful interface toand, with support for Teams and Outlook soon to come."
+        },
+        {
+          "a": [
+            "available on CRAN",
+            "GitHub"
+          ],
+          "code": "devtools::install_github(\"Azure/Microsoft365R\")",
+          "#text": "Microsoft365R is now, or you can install the development version fromwith."
+        }
+      ],
+      "div": [
+        {
+          "h2": "Authentication",
+          "p": [
+            {
+              "a": "Azure Active Directory",
+              "#text": "The first time you call one of the Microsoft365R functions (see below), it will use your Internet browser to authenticate with(AAD), in a similar manner to other web apps. You will get a dialog box asking for permission to access your information."
+            },
+            {
+              "code": "CLIMICROSOFT365_AADAPPID",
+              "a": "this issue",
+              "#text": "Microsoft365R is registered as an app in the “aicatr” AAD tenant. Because it needs read/write access to groups and SharePoint sites, you’ll need an admin to grant it access to your tenant. Alternatively, if the environment variableis set, Microsoft365R will use its value as the app ID for authenticating; or you can specify the app ID as an argument when calling the functions below. See alsoat the GitHub repo for some possible workarounds."
+            }
+          ]
+        },
+        {
+          "h2": "OneDrive",
+          "p": [
+            {
+              "code": [
+                "personal_onedrive()",
+                "business_onedrive()",
+                "ms_drive"
+              ],
+              "#text": "To access your personal OneDrive, call thefunction, and to access OneDrive for Business call. Both functions return an R6 client object of class, which has methods for working with files and folders. Note that OneDrive for Business is technically part of SharePoint, and requires a Microsoft 365 Business subscription."
+            },
+            {
+              "code": "open_item()",
+              "#text": "You can open a file or folder in your browser with themethod. For example, a Word document or Excel spreadsheet will open in Word or Excel Online, and a folder will be shown in OneDrive."
+            },
+            {
+              "code": [
+                "get_item_properties()",
+                "set_item_properties()",
+                "get_item()"
+              ],
+              "#text": "You can get and set the metadata properties for a file or folder withand. For the latter, provide the new properties as named arguments to the method. Not all properties can be changed; some, like the file size and last modified date, are read-only. You can also retrieve an object representing the file or folder with, which has methods appropriate for drive items."
+            }
+          ],
+          "pre": [
+            {
+              "code": {
+                "span": [
+                  "\"mycompany\"",
+                  "# use the device code authentication flow in RStudio Server",
+                  "\"device_code\"",
+                  "# list files and folders",
+                  "\"Documents\"",
+                  "# upload and download files",
+                  "\"Documents/myfile.docx\"",
+                  "\"somedata.xlsx\"",
+                  "# create a folder",
+                  "\"Documents/newfolder\""
+                ],
+                "#text": "od <- personal_onedrive()\nodb <- business_onedrive(tenant=)od <- personal_onedrive(auth_type=)od$list_items()\nod$list_items()od$download_file()\nod$upload_file()od$create_folder()"
+              }
+            },
+            {
+              "code": {
+                "span": "\"Documents/myfile.docx\"",
+                "#text": "od$open_item()"
+              }
+            },
+            {
+              "code": {
+                "span": [
+                  "\"Documents/myfile.docx\"",
+                  "# rename a file -- version control via filename is bad, mmkay",
+                  "\"Documents/myfile.docx\"",
+                  "\"myfile version 2.docx\"",
+                  "# alternatively, you can call the file object's update() method",
+                  "\"Documents/myfile.docx\"",
+                  "\"myfile version 2.docx\""
+                ],
+                "#text": "od$get_item_properties()od$set_item_properties(, name=)item <- od$get_item()\nitem$update(name=)"
+              }
+            }
+          ]
+        },
+        {
+          "h2": "SharePoint",
+          "p": [
+            {
+              "code": "sharepoint_site()",
+              "#text": "To access a SharePoint site, use thefunction and provide the site URL or ID."
+            },
+            {
+              "code": [
+                "list_drives()",
+                "get_drive()",
+                "ms_drive"
+              ],
+              "#text": "The client object has methods to retrieve drives (document libraries) and lists. To show all drives in a site, use themethod, and to retrieve a specific drive, use. Each drive is an object of class, just like the OneDrive clients above."
+            },
+            {
+              "code": [
+                "get_lists()",
+                "get_list()"
+              ],
+              "#text": "To show all lists in a site, use themethod, and to retrieve a specific list, useand supply either the list name or ID."
+            },
+            {
+              "code": [
+                "list_items()",
+                "filter",
+                "select",
+                "filter",
+                "select",
+                "filter",
+                "fields/"
+              ],
+              "#text": "You can retrieve the items in a list as a data frame, with. This has argumentsandto do row and column subsetting respectively.should be an OData expression provided as a string, andshould be a string containing a comma-separated list of columns. Any column names in theexpression must be prefixed withto distinguish them from item metadata."
+            },
+            {
+              "code": [
+                "list_subsites()",
+                "get_subsite()"
+              ],
+              "#text": "Finally, you can retrieve subsites withand. These also return SharePoint site objects, so all the methods above are available for a subsite."
+            }
+          ],
+          "pre": [
+            {
+              "code": {
+                "span": "\"https://myaadtenant.sharepoint.com/sites/my-site-name\"",
+                "#text": "site <- sharepoint_site()"
+              }
+            },
+            {
+              "code": {
+                "span": [
+                  "# list of all document libraries under this site",
+                  "# default document library",
+                  "# same methods as for OneDrive",
+                  "\"teamproject/plan.xlsx\""
+                ],
+                "#text": "site$list_drives()drv <- site$get_drive()drv$list_items()\ndrv$open_item()"
+              }
+            },
+            {
+              "code": {
+                "span": "\"my-list\"",
+                "#text": "site$get_lists()\nlst <- site$get_list()"
+              }
+            },
+            {
+              "code": {
+                "span": [
+                  "# return a data frame containing all list items",
+                  "# get subset of rows and columns",
+                  "\"startsWith(fields/firstname, 'John')\"",
+                  "\"firstname,lastname,title\""
+                ],
+                "#text": "lst$list_items()lst$list_items(\n    filter=,\n    select=)"
+              }
+            }
+          ]
+        },
+        {
+          "h2": "Future plans",
+          "p": {
+            "a": "opening an issue",
+            "#text": "Currently, Microsoft365R supports OneDrive and SharePoint Online; future updates will add the ability to post to Teams channels and send emails via Outlook. You can also provide feedback and make feature requests byat the repo, or by emailing me at hongooi73 (@) gmail.com."
+          }
+        }
+      ]
+    }
+  }
+}
