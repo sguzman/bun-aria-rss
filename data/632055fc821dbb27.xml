@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>econ.TH updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Economics -- Theoretical Economics (econ.TH) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Economics -- Theoretical Economics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.17232" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00520" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2203.17232">
+<title>Performative Power. (arXiv:2203.17232v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.17232</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce the notion of performative power, which measures the ability of
+a firm operating an algorithmic system, such as a digital content
+recommendation platform, to cause change in a population of participants. We
+relate performative power to the economic study of competition in digital
+economies. Traditional economic concepts struggle with identifying
+anti-competitive patterns in digital platforms not least due to the complexity
+of market definition. In contrast, performative power is a causal notion that
+is identifiable with minimal knowledge of the market, its internals,
+participants, products, or prices.
+&lt;/p&gt;
+&lt;p&gt;Low performative power implies that a firm can do no better than to optimize
+their objective on current data. In contrast, firms of high performative power
+stand to benefit from steering the population towards more profitable behavior.
+We confirm in a simple theoretical model that monopolies maximize performative
+power. A firm&apos;s ability to personalize increases performative power, while
+competition and outside options decrease performative power. On the empirical
+side, we propose an observational causal design to identify performative power
+from discontinuities in how digital platforms display content. This allows to
+repurpose causal effects from various studies about digital platforms as lower
+bounds on performative power. Finally, we speculate about the role that
+performative power might play in competition policy and antitrust enforcement
+in digital marketplaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hardt_M/0/1/0/all/0/1&quot;&gt;Moritz Hardt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jagadeesan_M/0/1/0/all/0/1&quot;&gt;Meena Jagadeesan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mendler_Dunner_C/0/1/0/all/0/1&quot;&gt;Celestine Mendler-D&amp;#xfc;nner&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00520">
+<title>Distortion risk measures in random environments: construction and axiomatic characterization. (arXiv:2211.00520v2 [econ.TH] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00520</link>
+<description rdf:parseType="Literal">&lt;p&gt;The risk of a financial position shines through by means of the fluctuation
+of its market price. The factors affecting the price of a financial position
+include not only market internal factors, but also other various market
+external factors. The latter can be understood as sorts of environments to
+which financial positions have to expose. Motivated by this observation, this
+paper aims to design a novel axiomatic approach to risk measures in random
+environments. We construct a new distortion-type risk measure, which can
+appropriately evaluate the risk of financial positions in the presence of
+environments. After having studied its fundamental properties, we also
+axiomatically characterize it. Furthermore, its coherence and dual
+representation are investigated. The new class of risk measures in random
+environments is large enough, for example, it not only can recover some known
+risk measures such as the common weighted value at risk and range value at
+risk, but also can induce other new specific risk measures such as risk
+measures in the presence of background risk. Examples are given to illustrate
+the new framework of risk measures. This paper gives some theoretical results
+about risk measures in random environments, helping one to have an insight look
+at the potential impact of environments on risk measures of positions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Gong_S/0/1/0/all/0/1&quot;&gt;Shuo Gong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Hu_Y/0/1/0/all/0/1&quot;&gt;Yijun Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/econ/1/au:+Wei_L/0/1/0/all/0/1&quot;&gt;Linxiao Wei&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
