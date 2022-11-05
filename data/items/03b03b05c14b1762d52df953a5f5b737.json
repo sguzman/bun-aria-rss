@@ -1,0 +1,16 @@
+{
+  "title": "Numba vs Cython",
+  "link": "",
+  "published": "2012-08-24T10:41:00-07:00",
+  "updated": "2012-08-24T10:41:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-08-24:blog/2012/08/24/numba-vs-cython/",
+  "summary": "<p><em>For a more up-to-date comparison of Numba and Cython, see the</em>\n<a href=\"http://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/\"><em>newer post</em></a>\n<em>on this subject.</em></p>\n<p>Often I'll tell people that I use python for computational analysis, and they\nlook at me inquisitively.  \"Isn't python pretty slow?\"  They have a point.\nPython is an interpreted language, and as such cannot natively perform\nmany operations as quickly as a compiled language such as C or Fortran.\nThere is also the issue of the oft-misunderstood and much-maligned\n<a href=\"http://wiki.python.org/moin/GlobalInterpreterLock\">GIL</a>,\nwhich calls into question python's ability to allow true parallel computing.</p>\n<p>Many solutions have been proposed: <a href=\"http://pypy.org/\">PyPy</a> is a much faster\nversion of the core python language; \n<a href=\"http://code.google.com/p/numexpr/\">numexpr</a> provides optimized performance\non certain classes of operations from within python;\n<a href=\"http://www.scipy.org/Weave/\">weave</a> allows inline inclusion of compiled\nC/C++ code;\n<a href=\"http://www.cython.org/\">cython</a> provides extra markup that allows python\nand/or python-like code to be compiled into C for fast operations.  But\na naysayer might point out: many of these \"python\" solutions in practice\nare not really python at all, but clever hacks into Fortran or C.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
