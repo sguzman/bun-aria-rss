@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ev="http://purl.org/rss/1.0/modules/event/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio"/>
+    <copyright>&#xA9; Oxford University</copyright>
+        <description>Podcasts from The Department of Sociology. Sociology in Oxford is concerned with real-world issues with policy relevance, such as social inequality, organised crime, the social basis of political conflict and mobilization, and changes in family relationships and gender roles. Our research is empirical, analytical, and comparative in nature, reaching far beyond British society, to encompass systematic cross-national comparison as well as the detailed study of Asian, European, Latin American and North American societies.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Apr 2017 21:12:03 +0100</lastBuildDate>
+    <link>http://podcasts.ox.ac.uk</link>
+    <title>Department of Sociology Podcasts</title>
+    <itunes:author>Oxford University</itunes:author>
+    <itunes:category text="Education">
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Oxford University</itunes:name>
+      <itunes:email>podcasts@it.ox.ac.uk</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://mediapub.it.ox.ac.uk/sites/fred/files/default_images/default-radcliffe.jpg"/>
+    <image>
+      <url>http://mediapub.it.ox.ac.uk/sites/fred/files/default_images/default-radcliffe.jpg</url>
+      <title>Department of Sociology Podcasts</title>
+      <link>http://podcasts.ox.ac.uk</link>
+    </image>
+    <item>
+  <itunes:order>1</itunes:order>
+   <category>sociology</category>
+ <category>teaching</category>
+ <category>qualitative methods</category>
+  <description>Cees van der Eijk gives a talk for the Sociology seminar series. Cees van der Eijk discusses teaching quantitative methods, focussing on  the need in successful methods teaching to locate methods topics in (a) the context of substantive research questions and examples, but also (b) the context of a ‘repertoire’ of methodological tools and approaches, and (c) the context of alternative ways of structuring data.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2015-06-04:172949:000:file:270911:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2015-05-22-sociology-vandereijk.mp3</link>
+  <itunes:subtitle>Cees van der Eijk gives a talk for the Sociology seminar series.</itunes:subtitle>
+    <itunes:summary>Cees van der Eijk gives a talk for the Sociology seminar series. Cees van der Eijk discusses teaching quantitative methods, focussing on  the need in successful methods teaching to locate methods topics in (a) the context of substantive research questions and examples, but also (b) the context of a ‘repertoire’ of methodological tools and approaches, and (c) the context of alternative ways of structuring data.</itunes:summary>
+  <itunes:keywords>sociology,teaching,qualitative methods,2015-05-22</itunes:keywords>
+  <itunes:author>Cees van der Eijk</itunes:author>
+  <itunesu:category itunesu:code="110"/>
+  <itunes:duration>3669</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2015-05-22-sociology-vandereijk.mp3" length="44036179" type="audio/mpeg" />
+  <pubDate>Thu, 04 Jun 2015 17:29:49 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Cees van der Eijk on “Contextualising Research Methods </title>
+</item>
+<item>
+  <itunes:order>2</itunes:order>
+   <category>sociology</category>
+ <category>qualitative methods</category>
+ <category>statistics</category>
+ <category>teaching</category>
+  <description>Chris Zorn discusses teaching quantitative methods focussing on (a) integrating contemporary data science approaches into undergraduate instruction, and (b) using "big data" examples to generate and maintain students' interest.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2015-06-04:171230:000:file:270909:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2015-01-08-sociology-zorn.mp3</link>
+  <itunes:subtitle>Chris Zorn discusses teaching quantitative methods focussing on (a) integrating contemporary data science approaches into undergraduate instruction, and (b) using "big data" examples to generate and maintain students' interest.</itunes:subtitle>
+    <itunes:summary>Chris Zorn discusses teaching quantitative methods focussing on (a) integrating contemporary data science approaches into undergraduate instruction, and (b) using "big data" examples to generate and maintain students' interest.</itunes:summary>
+  <itunes:keywords>sociology,qualitative methods,statistics,teaching,2015-01-08</itunes:keywords>
+  <itunes:author>Chris Zorn</itunes:author>
+  <itunesu:category itunesu:code="111"/>
+  <itunes:duration>3978</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2015-01-08-sociology-zorn.mp3" length="47739820" type="audio/mpeg" />
+  <pubDate>Thu, 04 Jun 2015 17:12:30 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Chris Zorn on ’Big Data&#039; in the Social Sciences </title>
+</item>
+<item>
+  <itunes:order>3</itunes:order>
+   <category>sociology</category>
+ <category>software</category>
+ <category>R software</category>
+ <category>teaching</category>
+ <category>learning</category>
+  <description>John Fox discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially focusing on the choice of software with a demonstration of R and R Commander.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2014-12-01:063835:000:file:231068:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2014-07-23-sociology-fox.mp3</link>
+  <itunes:subtitle>John Fox discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially focusing on the choice of software with a demonstration of R and R Commander.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>John Fox discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially focusing on the choice of software with a demonstration of R and R Commander.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>sociology,software,R software,teaching,learning</itunes:keywords>
+  <itunes:author>John Fox</itunes:author>
+  <itunesu:category itunesu:code="112"/>
+  <itunes:duration>4682</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2014-07-23-sociology-fox.mp3" length="74905808" type="audio/mpeg" />
+  <pubDate>Mon, 28 Jul 2014 13:36:51 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>John Fox on R software for teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>4</itunes:order>
+   <category>sociology</category>
+ <category>teaching</category>
+ <category>learning</category>
+ <category>software</category>
+ <category>SPSS</category>
+ <category>Stata</category>
+  <description>Robert Johns (Essex University) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, focusing on comparing the use of SPSS and Stata.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2014-12-08:114834:000:file:231070:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2014-07-23-sociology-johns.mp3</link>
+  <itunes:subtitle>Robert Johns (Essex University) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, focusing on comparing the use of SPSS and Stata.</itunes:subtitle>
+    <itunes:summary>Robert Johns (Essex University) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, focusing on comparing the use of SPSS and Stata.</itunes:summary>
+  <itunes:keywords>sociology,teaching,learning,software,SPSS,Stata</itunes:keywords>
+  <itunes:author>Robert Johns</itunes:author>
+  <itunesu:category itunesu:code="112"/>
+  <itunes:duration>3071</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2014-07-23-sociology-johns.mp3" length="49141132" type="audio/mpeg" />
+  <pubDate>Mon, 28 Jul 2014 12:39:44 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Robert Johns on SPSS and Stata software for teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>5</itunes:order>
+   <category>sociology</category>
+ <category>quantatative methods</category>
+ <category>research</category>
+ <category>Social Sciences</category>
+  <description>Wendy Olsen discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2014-12-01:063933:000:file:210711:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2014-01-28-sociology-olsen.mp3</link>
+  <itunes:subtitle>Wendy Olsen discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</itunes:subtitle>
+    <itunes:summary>Wendy Olsen discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</itunes:summary>
+  <itunes:keywords>sociology,quantatative methods,research,Social Sciences</itunes:keywords>
+  <itunes:author>Wendy Olsen</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3519</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2014-01-28-sociology-olsen.mp3" length="56304534" type="audio/mpeg" />
+  <pubDate>Tue, 28 Jan 2014 12:00:24 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Wendy Olsen on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>6</itunes:order>
+   <category>sociology</category>
+ <category>quantatative methods</category>
+ <category>research</category>
+ <category>Social Sciences</category>
+  <description>Robert Andersen discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2014-12-01:063933:000:file:210709:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2014-01-28-sociology-anderson.mp3</link>
+  <itunes:subtitle>Robert Andersen discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</itunes:subtitle>
+    <itunes:summary>Robert Andersen discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially those in Sociology and Social Policy.</itunes:summary>
+  <itunes:keywords>sociology,quantatative methods,research,Social Sciences</itunes:keywords>
+  <itunes:author>Robert Andersen</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3706</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2014-01-28-sociology-anderson.mp3" length="58243029" type="audio/mpeg" />
+  <pubDate>Tue, 28 Jan 2014 11:55:24 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Robert Andersen on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>7</itunes:order>
+   <category>teaching</category>
+ <category>sociology</category>
+ <category>quantatative methods</category>
+  <description>Sean Carey (University of Mannheim, Germany) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-11-18:100746:421:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-09-20-sociology-carey.mp3</link>
+  <itunes:subtitle>Sean Carey (University of Mannheim, Germany) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Sean Carey (University of Mannheim, Germany) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>teaching,sociology,quantatative methods</itunes:keywords>
+  <itunes:author>Sean Carey</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>5499</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-09-20-sociology-carey.mp3" length="87991680" type="audio/mpeg" />
+  <pubDate>Mon, 18 Nov 2013 10:07:46 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Sean Carey on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>8</itunes:order>
+   <category>teaching</category>
+ <category>sociology</category>
+ <category>quantatative methods</category>
+  <description>Andrew Gelman (Columbia University, NYC) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-11-18:100603:427:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-09-20-sociology-gelman.mp3</link>
+  <itunes:subtitle>Andrew Gelman (Columbia University, NYC) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</itunes:subtitle>
+    <itunes:summary>Andrew Gelman (Columbia University, NYC) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</itunes:summary>
+  <itunes:keywords>teaching,sociology,quantatative methods</itunes:keywords>
+  <itunes:author>Andrew Gelman</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3489</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-09-20-sociology-gelman.mp3" length="55838928" type="audio/mpeg" />
+  <pubDate>Mon, 18 Nov 2013 10:06:03 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Andrew Gelman on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>9</itunes:order>
+   <category>sociology</category>
+ <category>children</category>
+ <category>childcare</category>
+ <category>grandparents</category>
+ <category>intergenerational justice</category>
+  <description>Intergenerational relationships: Does grandparental childcare pay off?</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:204225:000:file:299479:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/week_1.mp3</link>
+  <itunes:subtitle>Intergenerational relationships: Does grandparental childcare pay off?</itunes:subtitle>
+    <itunes:summary>Intergenerational relationships: Does grandparental childcare pay off?</itunes:summary>
+  <itunes:keywords>sociology,children,childcare,grandparents,intergenerational justice</itunes:keywords>
+  <itunes:author>Valeria Bordone</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3221</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/week_1.mp3" length="51549021" type="audio/mpeg" />
+  <pubDate>Mon, 21 Oct 2013 13:49:58 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Intergenerational relationships: Does grandparental childcare pay off? </title>
+</item>
+<item>
+  <itunes:order>10</itunes:order>
+   <category>sociology</category>
+ <category>quantitative methods</category>
+ <category>statistics</category>
+ <category>learning</category>
+ <category>teaching</category>
+ <category>Social Sciences</category>
+  <description>Andy Field (University of Sussex) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-09-09:122345:153:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-07-13-sociology-field.mp3</link>
+  <itunes:subtitle>Andy Field (University of Sussex) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Andy Field (University of Sussex) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>sociology,quantitative methods,statistics,learning,teaching,Social Sciences</itunes:keywords>
+  <itunes:author>Andy Field</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3479</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-07-13-sociology-field.mp3" length="55679399" type="audio/mpeg" />
+  <pubDate>Mon, 09 Sep 2013 14:23:45 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Andy Field on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>11</itunes:order>
+   <category>political activism</category>
+ <category>protests</category>
+ <category>political demonstrations</category>
+  <description>Dr Clare Saunders  (University of Exeter) presents her multi-staged surveys on European protests.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:204047:000:file:299478:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Clare_Saunders_podcast.mp3</link>
+  <itunes:subtitle>Dr Clare Saunders  (University of Exeter) presents her multi-staged surveys on European protests.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Dr Clare Saunders  (University of Exeter) presents her multi-staged surveys on European protests.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>political activism,protests,political demonstrations</itunes:keywords>
+  <itunes:author>Clare Saunders</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4677</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Clare_Saunders_podcast.mp3" length="74833966" type="audio/mpeg" />
+  <pubDate>Wed, 28 Aug 2013 16:24:30 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Anti-politics in action: Do European protesters hate formal politics more than the general public? </title>
+</item>
+<item>
+  <itunes:order>12</itunes:order>
+   <category>human rights</category>
+  <description>Are we coming to an end of the human rights as a social science issue? Talk by Dr Stephen Hopgood (SOAS).</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-08-28:142234:278:sociology/sociology-audio</guid>
+  <link>http://www.sociology.ox.ac.uk/podcasts/tt13/Dr_Stephen_Hopgood_podcast.mp3</link>
+  <itunes:subtitle>Are we coming to an end of the human rights as a social science issue? Talk by Dr Stephen Hopgood (SOAS).</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Are we coming to an end of the human rights as a social science issue? Talk by Dr Stephen Hopgood (SOAS).  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>human rights</itunes:keywords>
+  <itunes:author>Stephen Hopgood</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4781</itunes:duration>
+  <enclosure url="http://www.sociology.ox.ac.uk/podcasts/tt13/Dr_Stephen_Hopgood_podcast.mp3" length="76509556" type="audio/mpeg" />
+  <pubDate>Wed, 28 Aug 2013 16:22:34 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>The Endtimes of Human Rights </title>
+</item>
+<item>
+  <itunes:order>13</itunes:order>
+   <category>statistics</category>
+ <category>qualitative research</category>
+ <category>research methods</category>
+ <category>quantitative research</category>
+ <category>sociology</category>
+ <category>teaching</category>
+  <description>Manfred te Grotenhuis (Radboud University Nijmegen) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-08-27:151654:397:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-08-27-sociology-grotenhuis.mp3</link>
+  <itunes:subtitle>Manfred te Grotenhuis (Radboud University Nijmegen) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Manfred te Grotenhuis (Radboud University Nijmegen) discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students, especially with mixed ability and low motivation students.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>statistics,qualitative research,research methods,quantitative research,sociology,teaching</itunes:keywords>
+  <itunes:author>Manfred te Grotenhuis</itunes:author>
+  <itunesu:category itunesu:code="110104"/>
+  <itunes:duration>2599</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-08-27-sociology-grotenhuis.mp3" length="41598769" type="audio/mpeg" />
+  <pubDate>Tue, 27 Aug 2013 17:08:28 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Manfred te Grotenhuis on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>14</itunes:order>
+   <category>intergenerational transfers</category>
+ <category>aging</category>
+ <category>time use</category>
+ <category>ATUS</category>
+  <description>Prof. Bianchi (UCLA) presents a new survey component of American Time Use Data (ATUS) that investigates intergenerational time and money transfers.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-05-17:162631:264:sociology/sociology-audio</guid>
+  <link>http://www.sociology.ox.ac.uk/podcasts/tt13/Prof_Suzanne_Bianchi_13-May-2013_podcast_TT4.mp3</link>
+  <itunes:subtitle>Prof. Bianchi (UCLA) presents a new survey component of American Time Use Data (ATUS) that investigates intergenerational time and money transfers.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Prof. Bianchi (UCLA) presents a new survey component of American Time Use Data (ATUS) that investigates intergenerational time and money transfers.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>intergenerational transfers,aging,time use,ATUS</itunes:keywords>
+  <itunes:author>Suzanne Bianchi</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4617</itunes:duration>
+  <enclosure url="http://www.sociology.ox.ac.uk/podcasts/tt13/Prof_Suzanne_Bianchi_13-May-2013_podcast_TT4.mp3" length="73875171" type="audio/mpeg" />
+  <pubDate>Fri, 17 May 2013 18:26:31 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Updating what we know about intergenerational time and money transfers in the U.S. </title>
+</item>
+<item>
+  <itunes:order>15</itunes:order>
+   <category>sociology of religion</category>
+ <category>quantitative analysis</category>
+ <category>secularisation</category>
+ <category>new methods</category>
+  <description>Prof. Voas (University of Essex) presents new quantitative methods to analyse secularisation - religiosity.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:204647:000:file:299481:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Prof_David_Voas_29-Apr-2013_podcastTT1.mp3</link>
+  <itunes:subtitle>Prof. Voas (University of Essex) presents new quantitative methods to analyse secularisation - religiosity.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Prof. Voas (University of Essex) presents new quantitative methods to analyse secularisation - religiosity.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>sociology of religion,quantitative analysis,secularisation,new methods</itunes:keywords>
+  <itunes:author>David Voas</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4183</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Prof_David_Voas_29-Apr-2013_podcastTT1.mp3" length="66941225" type="audio/mpeg" />
+  <pubDate>Fri, 17 May 2013 18:24:13 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Identifying age, period and cohort effects: Are the new methods really better? </title>
+</item>
+<item>
+  <itunes:order>16</itunes:order>
+   <category>Britain</category>
+ <category>white flight</category>
+ <category>immigration</category>
+  <description>Prof. Kaufmann (Birbeck College) investigates whether Whites in homogeneous English neighbourhoods oppose immigration more.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:204442:000:file:299480:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Prof_Eric_Kaufmann_22-Apr-2013_podcastTT2.mp3</link>
+  <itunes:subtitle>Prof. Kaufmann (Birbeck College) investigates whether Whites in homogeneous English neighbourhoods oppose immigration more.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Prof. Kaufmann (Birbeck College) investigates whether Whites in homogeneous English neighbourhoods oppose immigration more.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>Britain,white flight,immigration</itunes:keywords>
+  <itunes:author>Eric Kaufmann</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3938</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Prof_Eric_Kaufmann_22-Apr-2013_podcastTT2.mp3" length="63020353" type="audio/mpeg" />
+  <pubDate>Fri, 17 May 2013 18:18:05 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Is there &#039;White Flight?&#039; in England? Why Whites in Homogeneous English Wards Are More Opposed to Immigration </title>
+</item>
+<item>
+  <itunes:order>17</itunes:order>
+   <category>protests</category>
+ <category>micro-sociology</category>
+ <category>Mona Lisa smile</category>
+  <description>Seminar on what micro-sociology could tell us about predicting violence. Can micro-sociology give us clues to predict when a protest will become violent?</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:210005:000:file:299487:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Randall_Collins-Special_Lecture.mp3</link>
+  <itunes:subtitle>Seminar on what micro-sociology could tell us about predicting violence.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Seminar on what micro-sociology could tell us about predicting violence. Can micro-sociology give us clues to predict when a protest will become violent? Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>protests,micro-sociology,Mona Lisa smile</itunes:keywords>
+  <itunes:author>Randall Collins</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3915</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Randall_Collins-Special_Lecture.mp3" length="62771234" type="audio/mpeg" />
+  <pubDate>Mon, 15 Apr 2013 10:16:17 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Solving the Mona Lisa Smile, and Other Developments in Micro-empirical sociology </title>
+</item>
+<item>
+  <itunes:order>18</itunes:order>
+   <category>evolution</category>
+ <category>altruism</category>
+ <category>selfish gene</category>
+ <category>cooperation</category>
+  <description>Are humans inherently selfish? Is there really an essential human nature? How do we contend about the selfish gene in this day and age? What do we make of altruism against the selfish gene? With Professor Sam Bowles (Arthur Speigel Research Professor).</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:210408:000:file:299490:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Sam_Bowles_06-March-2013.mp3</link>
+  <itunes:subtitle>Are humans inherently selfish? Is there really an essential human nature? How do we contend about the selfish gene in this day and age? What do we make of altruism against the selfish gene? With Professor Sam Bowles (Arthur Speigel Research Professor).</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Are humans inherently selfish? Is there really an essential human nature? How do we contend about the selfish gene in this day and age? What do we make of altruism against the selfish gene? With Professor Sam Bowles (Arthur Speigel Research Professor).  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>evolution,altruism,selfish gene,cooperation</itunes:keywords>
+  <itunes:author>Sam Bowles</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>5468</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Sam_Bowles_06-March-2013.mp3" length="87561657" type="audio/mpeg" />
+  <pubDate>Wed, 13 Mar 2013 14:30:03 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>A cooperative species: Human reciprocity and its evolution (Astor Visiting Lecture) </title>
+</item>
+<item>
+  <itunes:order>19</itunes:order>
+   <category>changing relationships</category>
+ <category>cohabitation</category>
+ <category>marriage patterns</category>
+  <description>A study on how cohabitation affects marriage and re-marriage patterns in the UK. With Dr. Tiziano Nazio (University of Turin).</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:210242:000:file:299489:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Tiziana-Nazio_25-Feb-2013.mp3</link>
+  <itunes:subtitle>A study on how cohabitation affects marriage and re-marriage patterns in the UK. With Dr. Tiziano Nazio (University of Turin).</itunes:subtitle>
+    <itunes:summary>A study on how cohabitation affects marriage and re-marriage patterns in the UK. With Dr. Tiziano Nazio (University of Turin).</itunes:summary>
+  <itunes:keywords>changing relationships,cohabitation,marriage patterns</itunes:keywords>
+  <itunes:author>Tiziano Nazio</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4211</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Tiziana-Nazio_25-Feb-2013.mp3" length="67382170" type="audio/mpeg" />
+  <pubDate>Wed, 13 Mar 2013 14:27:01 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Changing Relationships: The Role of Cohabitation </title>
+</item>
+<item>
+  <itunes:order>20</itunes:order>
+   <category>public policy</category>
+ <category>demobilisation</category>
+ <category>policy agenda</category>
+  <description>Looking at how social movements shape the policy making agenda in the US when the issues the social movements are arguing for are in decline in the main policy making agenda.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:203652:000:file:299476:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/David_Pettinicchio_1-Feb-2013.mp3</link>
+  <itunes:subtitle>Looking at how social movements shape the policy making agenda in the US when the issues the social movements are arguing for are in decline in the main policy making agenda.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Looking at how social movements shape the policy making agenda in the US when the issues the social movements are arguing for are in decline in the main policy making agenda.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>public policy,demobilisation,policy agenda</itunes:keywords>
+  <itunes:author>David Pettinicchio</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4570</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/David_Pettinicchio_1-Feb-2013.mp3" length="73114903" type="audio/mpeg" />
+  <pubDate>Wed, 13 Mar 2013 14:25:20 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Issue Attention and Demobilization: How Social Movements shape the Policy Agenda when Issues are in Decline </title>
+</item>
+<item>
+  <itunes:order>21</itunes:order>
+   <category>anti-semitism</category>
+ <category>Turkey</category>
+ <category>conspiracy theories</category>
+ <category>converts</category>
+  <description>Research investigating the convert-Jews in Turkey with materials investigating historical accounts, popular conspiracy theory books and interviews with the authors of such books.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:203345:000:file:299475:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Turkay_Nefes_week-4.mp3</link>
+  <itunes:subtitle>Research investigating the convert-Jews in Turkey with materials investigating historical accounts, popular conspiracy theory books and interviews with the authors of such books.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Research investigating the convert-Jews in Turkey with materials investigating historical accounts, popular conspiracy theory books and interviews with the authors of such books.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>anti-semitism,Turkey,conspiracy theories,converts</itunes:keywords>
+  <itunes:author>Turkay Nefes</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4079</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Turkay_Nefes_week-4.mp3" length="65316192" type="audio/mpeg" />
+  <pubDate>Wed, 13 Mar 2013 14:22:09 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Understanding Conspiracy Theories Sociologically: Anti-Semitic Rhetoric about Dönmes (Converts) in Turkey </title>
+</item>
+<item>
+  <itunes:order>22</itunes:order>
+   <category>social science; teaching; quantitative methods; statistics&quot;</category>
+  <description>Laura Stoker discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students. She covers preparation, theory and practical examples, methods, assessment and a wide range of teaching and learning resources. The talk was given as part of a workshop in June 2012 at the Department of Sociology, University of Oxford, for the QMteachers project www.sociology.ox.ac.uk/qmteachers. Laura Stoker is Associate Professor in the Department of Political Science at the University of California, Berkeley, where she lectures on quantitative methods and analysis. She writes on topics at the intersection of research design and statistics, including the optimal design of multi-level studies, problems of aggregation in cross-sectional and longitudinal research, and design-based approaches to estimating age, period, and cohort effects</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-02-11:105459:734:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-02-05-sociology-stoker.mp3</link>
+  <itunes:subtitle>Laura Stoker discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Laura Stoker discusses her experiences and views of what works well when teaching quantitative methods to undergraduate social science students. She covers preparation, theory and practical examples, methods, assessment and a wide range of teaching and learning resources. The talk was given as part of a workshop in June 2012 at the Department of Sociology, University of Oxford, for the QMteachers project www.sociology.ox.ac.uk/qmteachers. Laura Stoker is Associate Professor in the Department of Political Science at the University of California, Berkeley, where she lectures on quantitative methods and analysis. She writes on topics at the intersection of research design and statistics, including the optimal design of multi-level studies, problems of aggregation in cross-sectional and longitudinal research, and design-based approaches to estimating age, period, and cohort effects Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>social science; teaching; quantitative methods; statistics&quot;</itunes:keywords>
+  <itunes:author>Laura Stoker</itunes:author>
+  <itunesu:category itunesu:code="110104"/>
+  <itunes:duration>3114</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-02-05-sociology-stoker.mp3" length="48159346" type="audio/mpeg" />
+  <pubDate>Mon, 11 Feb 2013 10:54:25 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Laura Stoker on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>23</itunes:order>
+   <category>agreeableness</category>
+ <category>inequality theory</category>
+  <description>How does inequality influence personal agreeableness?</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:203753:000:file:299477:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Robert_de_Vries_week_3_ed.mp3</link>
+  <itunes:subtitle>How does inequality influence personal agreeableness?</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>How does inequality influence personal agreeableness?  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>agreeableness,inequality theory</itunes:keywords>
+  <itunes:author>Robert de Vries</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4634</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Robert_de_Vries_week_3_ed.mp3" length="71447656" type="audio/mpeg" />
+  <pubDate>Wed, 30 Jan 2013 15:00:10 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Income inequality and personality- Are more equal US States more agreeable? </title>
+</item>
+<item>
+  <itunes:order>24</itunes:order>
+   <category>shame</category>
+ <category>qualitative</category>
+ <category>poverty</category>
+ <category>stigma</category>
+  <description>Is shame an automatic consequence of poverty? Can one be poor without being ashamed of it? A lecture from Professor Robert Walker, University of Oxford.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:202656:000:file:299474:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Robert_Walker_ed.mp3</link>
+  <itunes:subtitle>Is shame an automatic consequence of poverty? Can one be poor without being ashamed of it? A lecture from Professor Robert Walker, University of Oxford.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Is shame an automatic consequence of poverty? Can one be poor without being ashamed of it? A lecture from Professor Robert Walker, University of Oxford.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>shame,qualitative,poverty,stigma</itunes:keywords>
+  <itunes:author>Robert Walker</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4431</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Robert_Walker_ed.mp3" length="70904718" type="audio/mpeg" />
+  <pubDate>Wed, 30 Jan 2013 14:57:10 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Does Shame Always Go Hand in Hand With Poverty? Answers From an International Comparative Study </title>
+</item>
+<item>
+  <itunes:order>25</itunes:order>
+   <category>police</category>
+ <category>crime</category>
+ <category>society</category>
+ <category>poverty</category>
+ <category>politics</category>
+ <category>social workers</category>
+  <description>How can we understand the influence of police on criminal behaviour?</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2013-01-30:145517:665:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2013-01-30-sociology-bradford.mp3</link>
+  <itunes:subtitle>How can we understand the influence of police on criminal behaviour?</itunes:subtitle>
+    <itunes:summary>How can we understand the influence of police on criminal behaviour?</itunes:summary>
+  <itunes:keywords>police,crime,society,poverty,politics,social workers</itunes:keywords>
+  <itunes:author>Ben Bradford</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4217</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2013-01-30-sociology-bradford.mp3" length="50905788" type="audio/mpeg" />
+  <pubDate>Wed, 30 Jan 2013 14:55:17 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Crimes in (social) Contexts: The Influence of Police Legitimacy on Offending Behaviour </title>
+</item>
+<item>
+  <itunes:order>26</itunes:order>
+   <category>teaching</category>
+ <category>sociology</category>
+ <category>education</category>
+ <category>Social Sciences</category>
+  <description>Alan Agresti discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students. He covers what an introductory quantitative methods course should achieve, general concepts versus mathematical statistics, active learning, use of technology and what to emphasise and de-emphasise. The talk was given as part of a workshop in June 2012 at the Department of Sociology, University of Oxford, for the QMteachers project  www.sociology.ox.ac.uk/qmteachers. Alan Agresti is Distinguished Professor Emeritus at the University of Florida. He has written more than 100 articles and six books, including Categorical Data Analysis, which has received more than 12,000 citations in journal articles, and Statistical Methods for the Social Sciences (with Barbara Finlay), an introductory textbook for undergraduate or graduate students</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-12-24:112256:871:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-12-19-sociology-agresi.mp3</link>
+  <itunes:subtitle>Alan Agresti discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students.</itunes:subtitle>
+    <itunes:summary>Alan Agresti discusses his experiences and views of what works well when teaching quantitative methods to undergraduate social science students. He covers what an introductory quantitative methods course should achieve, general concepts versus mathematical statistics, active learning, use of technology and what to emphasise and de-emphasise. The talk was given as part of a workshop in June 2012 at the Department of Sociology, University of Oxford, for the QMteachers project  www.sociology.ox.ac.uk/qmteachers. Alan Agresti is Distinguished Professor Emeritus at the University of Florida. He has written more than 100 articles and six books, including Categorical Data Analysis, which has received more than 12,000 citations in journal articles, and Statistical Methods for the Social Sciences (with Barbara Finlay), an introductory textbook for undergraduate or graduate students</itunes:summary>
+  <itunes:keywords>teaching,sociology,education,Social Sciences</itunes:keywords>
+  <itunes:author>Alan Agresti</itunes:author>
+  <itunesu:category itunesu:code="112"/>
+  <itunes:duration>2498</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-12-19-sociology-agresi.mp3" length="39969435" type="audio/mpeg" />
+  <pubDate>Mon, 24 Dec 2012 11:17:38 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Alan Agresti on teaching quantitative methods to social science students </title>
+</item>
+<item>
+  <itunes:order>27</itunes:order>
+   <category>teaching</category>
+ <category>statistics</category>
+ <category>social science</category>
+ <category>political science</category>
+ <category>quantitative methods</category>
+  <description>Paul Kellstedt discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-12-03:094458:841:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-09-10-sociology-kellstedt.mp3</link>
+  <itunes:subtitle>Paul Kellstedt discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Paul Kellstedt discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>teaching,statistics,social science,political science,quantitative methods</itunes:keywords>
+  <itunes:author>Paul Kellstedt</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3480</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-09-10-sociology-kellstedt.mp3" length="55687626" type="audio/mpeg" />
+  <pubDate>Mon, 03 Dec 2012 09:44:58 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Paul Kellstedt on teaching quantitative methods to political science students </title>
+</item>
+<item>
+  <itunes:order>28</itunes:order>
+   <category>sociology</category>
+ <category>negative intergroup contact</category>
+  <description>Dr. Eva Jaspers (University of Utrecht) on negative intergroup contact and how it can help us understand persistent ethnic bias.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:210138:000:file:299488:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/MT12_Week_3_Eva_Jaspers.mp3</link>
+  <itunes:subtitle>Dr. Eva Jaspers (University of Utrecht) on negative intergroup contact and how it can help us understand persistent ethnic bias.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Dr. Eva Jaspers (University of Utrecht) on negative intergroup contact and how it can help us understand persistent ethnic bias.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>sociology,negative intergroup contact</itunes:keywords>
+  <itunes:author>Eva Jaspers</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2100</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/MT12_Week_3_Eva_Jaspers.mp3" length="32706687" type="audio/mpeg" />
+  <pubDate>Tue, 23 Oct 2012 18:59:44 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Negative Intergroup Contact: Causes and Consequences </title>
+</item>
+<item>
+  <itunes:order>29</itunes:order>
+   <category>professional armies</category>
+ <category>sociology of war</category>
+ <category>conscription</category>
+ <category>army</category>
+  <description>Professor Anthony King (University of Exeter) looks at the modern infantry tactics and cohesion, with a perspective on conscripted vs. professional armies.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-03-21:153759:000:file:299201:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/MT12_Week_2.mp3</link>
+  <itunes:subtitle>Professor Anthony King (University of Exeter) looks at the modern infantry tactics and cohesion, with a perspective on conscripted vs. professional armies.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Professor Anthony King (University of Exeter) looks at the modern infantry tactics and cohesion, with a perspective on conscripted vs. professional armies.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>professional armies,sociology of war,conscription,army</itunes:keywords>
+  <itunes:author>Anthony King</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3321</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/MT12_Week_2.mp3" length="53142709" type="audio/mpeg" />
+  <pubDate>Mon, 22 Oct 2012 16:41:55 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>The Combat Soldier: Infantry Tactics and Cohesion in the Twentieth and Twenty-first Centuries </title>
+</item>
+<item>
+  <itunes:order>30</itunes:order>
+   <category>social science; teaching; quantitative methods; statistics; political science</category>
+  <description>Bill Jacoby discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists. He covers attitudes and objectives of students in an introductory level class, format of lectures, presentation techniques, preparation, evaluation and teaching tools and the nature of statistical analysis in social science. The talk was given as part of a workshop in September 2012 at the Department of Sociology, University of Oxford, for the QMteachers project www.sociology.ox.ac.uk/qmteachers. Bill Jacoby is a Professor in the Department of Political Science at Michigan State University and Director of the ICPSR (Michigan) Summer Program in Quantitative Methods of Social Research.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-10-18:100458:803:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-09-10-sociology-jacoby.mp3</link>
+  <itunes:subtitle>Bill Jacoby discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Bill Jacoby discusses his experiences and views of what works well when teaching quantitative methods to undergraduate political science students and other social scientists. He covers attitudes and objectives of students in an introductory level class, format of lectures, presentation techniques, preparation, evaluation and teaching tools and the nature of statistical analysis in social science. The talk was given as part of a workshop in September 2012 at the Department of Sociology, University of Oxford, for the QMteachers project www.sociology.ox.ac.uk/qmteachers. Bill Jacoby is a Professor in the Department of Political Science at Michigan State University and Director of the ICPSR (Michigan) Summer Program in Quantitative Methods of Social Research. Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>social science; teaching; quantitative methods; statistics; political science</itunes:keywords>
+  <itunes:author>William G Jacoby</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>5635</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-09-10-sociology-jacoby.mp3" length="88660844" type="audio/mpeg" />
+  <pubDate>Thu, 18 Oct 2012 12:04:58 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Bill Jacoby on teaching quantitative methods to political science students </title>
+</item>
+<item>
+  <itunes:order>31</itunes:order>
+   <category>secret police</category>
+ <category>East Germany</category>
+ <category>Socialist Germany</category>
+  <description>Sociological analysis of the End of East German Socialism.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-07-07:145733:579:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-05-21-sociology-glaeser.mp3</link>
+  <itunes:subtitle>Sociological analysis of the End of East German Socialism.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Sociological analysis of the End of East German Socialism.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>secret police,East Germany,Socialist Germany</itunes:keywords>
+  <itunes:author>Andreas Glaeser</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4331</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-05-21-sociology-glaeser.mp3" length="49914822" type="audio/mpeg" />
+  <pubDate>Sat, 07 Jul 2012 16:57:33 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Political Epistemics: The Secret Police, the Opposition, and the End of East German Socialism </title>
+</item>
+<item>
+  <itunes:order>32</itunes:order>
+   <category>American Politics</category>
+ <category>Tea Party</category>
+ <category>Skocpol</category>
+  <description>Prof. Skocpol presents a detailed analysis of the rising Tea Party in the US and how Tea Party followers are different from Democrats.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-07-07:145459:084:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-05-16-sociology-skocpol.mp3</link>
+  <itunes:subtitle>Prof. Skocpol presents a detailed analysis of the rising Tea Party in the US and how Tea Party followers are different from Democrats.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Prof. Skocpol presents a detailed analysis of the rising Tea Party in the US and how Tea Party followers are different from Democrats.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>American Politics,Tea Party,Skocpol,2012-05-16</itunes:keywords>
+  <itunes:author>Theda Skocpol</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3789</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-05-16-sociology-skocpol.mp3" length="60626278" type="audio/mpeg" />
+  <pubDate>Sat, 07 Jul 2012 16:54:59 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>The Tea Party and the Remaking of Republican Conservatism </title>
+</item>
+<item>
+  <itunes:order>33</itunes:order>
+   <category>epidemics</category>
+ <category>sociology</category>
+ <category>Health</category>
+ <category>autism</category>
+ <category>epidemic</category>
+  <description>Ka Yuet Liu (Columbia University) presents an insightful inquiry into autism epidemic.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-03-09:104024:273:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-03-05_ka_yuet_liu.mp3</link>
+  <itunes:subtitle>Ka Yuet Liu (Columbia University) presents an insightful inquiry into autism epidemic.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Ka Yuet Liu (Columbia University) presents an insightful inquiry into autism epidemic.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>epidemics,sociology,Health,autism,epidemic,2012-03-05</itunes:keywords>
+  <itunes:author>Ka Yuet Liu</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4126</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-03-05_ka_yuet_liu.mp3" length="66021706" type="audio/mpeg" />
+  <pubDate>Fri, 09 Mar 2012 10:40:24 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Focal points, endogenous processes and exogenous shocks in the autism epidemic </title>
+</item>
+<item>
+  <itunes:order>34</itunes:order>
+   <category>cohabitation</category>
+ <category>marriage</category>
+ <category>child bearing</category>
+ <category>separation patterns</category>
+  <description>How does childbearing work across various types of partnerships, including but not limited to cohabitation, marriage, re-married couples.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:211032:000:file:299493:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Week_7_Elizabath_Thomson.mp3</link>
+  <itunes:subtitle>How does childbearing work across various types of partnerships, including but not limited to cohabitation, marriage, re-married couples.</itunes:subtitle>
+    <itunes:summary>How does childbearing work across various types of partnerships, including but not limited to cohabitation, marriage, re-married couples.</itunes:summary>
+  <itunes:keywords>cohabitation,marriage,child bearing,separation patterns</itunes:keywords>
+  <itunes:author>Elizabeth Thomson</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4335</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Week_7_Elizabath_Thomson.mp3" length="69362878" type="audio/mpeg" />
+  <pubDate>Fri, 09 Mar 2012 10:38:21 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Childbearing across partnerships </title>
+</item>
+<item>
+  <itunes:order>35</itunes:order>
+   <category>social norms</category>
+ <category>Great Britain</category>
+ <category>marriage</category>
+ <category>societal openness</category>
+ <category>social mobility</category>
+  <description>How can we understand the social mobility patterns through marriage in Great Britain? A historical perspective.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:211203:000:file:299494:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Week_6_Colin_Mills.mp3</link>
+  <itunes:subtitle>How can we understand the social mobility patterns through marriage in Great Britain? A historical perspective.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>How can we understand the social mobility patterns through marriage in Great Britain? A historical perspective.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>social norms,Great Britain,marriage,societal openness,social mobility</itunes:keywords>
+  <itunes:author>Colin Mills</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4261</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Week_6_Colin_Mills.mp3" length="68173778" type="audio/mpeg" />
+  <pubDate>Fri, 09 Mar 2012 10:35:28 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Social mobility, marriage and societal openness in Great Britain, 1949-2006 </title>
+</item>
+<item>
+  <itunes:order>36</itunes:order>
+   <category>the US</category>
+ <category>Britain</category>
+ <category>20th Century</category>
+ <category>19th century</category>
+ <category>social mobility</category>
+  <description>Historical approach on social mobility in Britain and the US.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:210938:000:file:299492:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Week_3_Mike_Hout.mp3</link>
+  <itunes:subtitle>Historical approach on social mobility in Britain and the US.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Historical approach on social mobility in Britain and the US.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>the US,Britain,20th Century,19th century,social mobility</itunes:keywords>
+  <itunes:author>Mike Hout</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4199</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Week_3_Mike_Hout.mp3" length="67108816" type="audio/mpeg" />
+  <pubDate>Mon, 20 Feb 2012 18:20:42 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Structural and exchange mobility in Britain and the USA: 1870-1970 </title>
+</item>
+<item>
+  <itunes:order>37</itunes:order>
+   <category>social stratification</category>
+ <category>immigrants</category>
+ <category>Germany</category>
+ <category>immigration</category>
+  <description>Irena Kogan (University of Mannheim) discusses the determinants of immigrants' investments in official recognition of their education, and the labour market effects of this recognition in Germany. In light of the continuing discussions about the recruitment of a highly-qualified labour force in Germany, this article explores the determinants of immigrants' investments in official recognition of their education, and the labour market effects of this recognition. We examine both research questions with the help of the dataset extending to immigrants from the former Soviet Union.  Results of the propensity score matching analysis show that level of education, occupational status in the country of origin, employment in professions that in Germany require specialized authorization, and language proficiency all positively affect immigrants' investments in education recognition. Conversely, age at migration exerts a negative effect. Recognition of education certainly pays off in the German labour market, particularly when concerning high-status employment entry. Penalties associated with a partial recognition of education seem to be of minor importance.  The biggest losers appear to be immigrants who attempted to get their education recognized but failed altogether. Not attempting to get one's education recognized, on the other hand, seems to be a rational strategy largely on the part of less educated migrants who are more interested in investing into a quick labour market entry without much concern about the status of their employment.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:204751:000:file:299482:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Week_2_Irena_Kogan.mp3</link>
+  <itunes:subtitle>Irena Kogan (University of Mannheim) discusses the determinants of immigrants' investments in official recognition of their education, and the labour market effects of this recognition in Germany.</itunes:subtitle>
+    <itunes:summary>Irena Kogan (University of Mannheim) discusses the determinants of immigrants' investments in official recognition of their education, and the labour market effects of this recognition in Germany. In light of the continuing discussions about the recruitment of a highly-qualified labour force in Germany, this article explores the determinants of immigrants' investments in official recognition of their education, and the labour market effects of this recognition. We examine both research questions with the help of the dataset extending to immigrants from the former Soviet Union.  Results of the propensity score matching analysis show that level of education, occupational status in the country of origin, employment in professions that in Germany require specialized authorization, and language proficiency all positively affect immigrants' investments in education recognition. Conversely, age at migration exerts a negative effect. Recognition of education certainly pays off in the German labour market, particularly when concerning high-status employment entry. Penalties associated with a partial recognition of education seem to be of minor importance.  The biggest losers appear to be immigrants who attempted to get their education recognized but failed altogether. Not attempting to get one's education recognized, on the other hand, seems to be a rational strategy largely on the part of less educated migrants who are more interested in investing into a quick labour market entry without much concern about the status of their employment.</itunes:summary>
+  <itunes:keywords>social stratification,immigrants,Germany,immigration,2012-01-23</itunes:keywords>
+  <itunes:author>Irena Kogan</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4265</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Week_2_Irena_Kogan.mp3" length="68241069" type="audio/mpeg" />
+  <pubDate>Mon, 20 Feb 2012 18:18:50 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Determinants and consequences of the recognition of education among immigrants in Germany </title>
+</item>
+<item>
+  <itunes:order>38</itunes:order>
+   <category>multi-level modelling</category>
+ <category>quantitative</category>
+ <category>residential segregation</category>
+  <description>Yu Xie (University of Michigan, Ann Arbor) explains how racial residential segregation works and how it is best modelled sociologically.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2012-01-30:160111:917:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2012-01-16_yu_xie.mp3</link>
+  <itunes:subtitle>Yu Xie (University of Michigan, Ann Arbor) explains how racial residential segregation works and how it is best modelled sociologically.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Yu Xie (University of Michigan, Ann Arbor) explains how racial residential segregation works and how it is best modelled sociologically.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>multi-level modelling,quantitative,residential segregation,2012-01-16</itunes:keywords>
+  <itunes:author>Yu Xie</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2447</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2012-01-16_yu_xie.mp3" length="19576614" type="audio/mpeg" />
+  <pubDate>Mon, 30 Jan 2012 16:01:11 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Modeling individual-level heterogeneity in racial residential segregation </title>
+</item>
+<item>
+  <itunes:order>39</itunes:order>
+   <category>Child Care Centers</category>
+ <category>Social Capital</category>
+ <category>Unanticipated Gains</category>
+ <category>Mixed Methods</category>
+  <description>Dr. Small (University of Chicago) presents his mixed-methods work on child care centers and their roles on social capital building for mothers.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-12-06:115823:879:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/luis+small.mp3</link>
+  <itunes:subtitle>Dr. Small (University of Chicago) presents his mixed-methods work on child care centers and their roles on social capital building for mothers.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Dr. Small (University of Chicago) presents his mixed-methods work on child care centers and their roles on social capital building for mothers.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>Child Care Centers,Social Capital,Unanticipated Gains,Mixed Methods</itunes:keywords>
+  <itunes:author>Mario Small</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3636</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/luis+small.mp3" length="58190114" type="audio/mpeg" />
+  <pubDate>Tue, 06 Dec 2011 11:58:23 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Rethinking Social Capital </title>
+</item>
+<item>
+  <itunes:order>40</itunes:order>
+   <category>length of life</category>
+ <category>inequality</category>
+ <category>life expectancy</category>
+  <description>Dr Glenn Firebaugh (Penn State University) presents the reasons behind life expectancy in a comparative perspective.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-12-06:115602:689:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2011-11-14_glenn_firebaugh.mp3</link>
+  <itunes:subtitle>Dr Glenn Firebaugh (Penn State University) presents the reasons behind life expectancy in a comparative perspective.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Dr Glenn Firebaugh (Penn State University) presents the reasons behind life expectancy in a comparative perspective.  Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>length of life,inequality,life expectancy,2011-11-14</itunes:keywords>
+  <itunes:author>Glenn Firebaugh</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4383</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2011-11-14_glenn_firebaugh.mp3" length="69663167" type="audio/mpeg" />
+  <pubDate>Tue, 06 Dec 2011 11:56:02 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>A new method for determining why length of life is more unequal in some societies than in others </title>
+</item>
+<item>
+  <itunes:order>41</itunes:order>
+   <category>sociology of art</category>
+ <category>peer effect</category>
+ <category>mobility</category>
+  <description>Dr Christiane Hellmanzik (University of Hamburg) describes how mobility and peer effects worked for superstars of modern art in the 19th century. Dr. Hellmanzik presents the importance of peer effects for superstars of modern art in the 19th century Paris and New York. With carefully collected data from the archives and auction sales, she demonstrates how mobility and innovation is transformed if an artist migrates to a new territory, or stays in the homeland.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-12-06:105354:856:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2011-11-07_christiane_hellmanzik.mp3</link>
+  <itunes:subtitle>Dr Christiane Hellmanzik (University of Hamburg) describes how mobility and peer effects worked for superstars of modern art in the 19th century.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Dr Christiane Hellmanzik (University of Hamburg) describes how mobility and peer effects worked for superstars of modern art in the 19th century. Dr. Hellmanzik presents the importance of peer effects for superstars of modern art in the 19th century Paris and New York. With carefully collected data from the archives and auction sales, she demonstrates how mobility and innovation is transformed if an artist migrates to a new territory, or stays in the homeland. Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>sociology of art,peer effect,mobility,2011-11-07</itunes:keywords>
+  <itunes:author>Christiane Hellmanzik</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4325</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2011-11-07_christiane_hellmanzik.mp3" length="70120829" type="audio/mpeg" />
+  <pubDate>Tue, 06 Dec 2011 10:53:54 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Peer effects, mobility, and innovation: evidence from the superstars of modern art </title>
+</item>
+<item>
+  <itunes:order>42</itunes:order>
+   <category>experimental sociology</category>
+ <category>distributive justice</category>
+  <description>Luis Miller (University of the Basque Country) presentsaAn experimental sociology study on people's understanding of distributive justice, relative to their economic statuses (unemployed/employed).</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:205048:000:file:299485:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Michaelmas_2011_Week_4_Seminar.mp3</link>
+  <itunes:subtitle>Luis Miller (University of the Basque Country) presentsaAn experimental sociology study on people's understanding of distributive justice, relative to their economic statuses (unemployed/employed).</itunes:subtitle>
+    <itunes:summary>Luis Miller (University of the Basque Country) presentsaAn experimental sociology study on people's understanding of distributive justice, relative to their economic statuses (unemployed/employed).</itunes:summary>
+  <itunes:keywords>experimental sociology,distributive justice,2011-10-31</itunes:keywords>
+  <itunes:author>Luis Miller</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4102</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Michaelmas_2011_Week_4_Seminar.mp3" length="65625912" type="audio/mpeg" />
+  <pubDate>Thu, 10 Nov 2011 12:26:42 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Individual notions of distributive justice and relative economic status </title>
+</item>
+<item>
+  <itunes:order>43</itunes:order>
+   <category>ideational cleavage</category>
+ <category>minority</category>
+ <category>Estonia</category>
+  <description>Ted Gerber (University of Wisconsin) presents the ethnic, socio-economic, linguistic and political sources of ideational cleavages in contemporary Estonia between Estonians and the Russian minority.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2017-04-08:205003:000:file:299484:audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Michaelmas_2011_Week_2_Seminar.mp3</link>
+  <itunes:subtitle>Ted Gerber (University of Wisconsin) presents the ethnic, socio-economic, linguistic and political sources of ideational cleavages in contemporary Estonia between Estonians and the Russian minority.</itunes:subtitle>
+    <itunes:summary>Ted Gerber (University of Wisconsin) presents the ethnic, socio-economic, linguistic and political sources of ideational cleavages in contemporary Estonia between Estonians and the Russian minority.</itunes:summary>
+  <itunes:keywords>ideational cleavage,minority,Estonia,2011-10-17</itunes:keywords>
+  <itunes:author>Ted Gerber</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>4414</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Michaelmas_2011_Week_2_Seminar.mp3" length="70622273" type="audio/mpeg" />
+  <pubDate>Thu, 10 Nov 2011 12:20:51 +0000</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Ethnic, socioeconomic, linguistic, and political sources of ideational cleavage: history wars in contemporary Estonia. </title>
+</item>
+<item>
+  <itunes:order>44</itunes:order>
+   <category>regional integration</category>
+ <category>welfare state</category>
+ <category>social policy</category>
+ <category>globalisation</category>
+ <category>the European Union</category>
+ <category>welfare state convergence</category>
+  <description>Professor Beckfield discusses whether the welfare state convergence is really taking place, or it is just regional integration, especially in the European context. The contemporary institutionalization of a transnational regional political economy in Europe raises questions about the role of regional integration in the convergence of European welfare states. To date, sociological work has emphasized processes of industrialization and globalization as the social changes that may drive increasing similarity among welfare states. Building on neoinstitutionalist theory and the Europeanization literature, we develop the argument that regional integration drives welfare-state convergence by generating, diffusing, and enforcing the adoption of policy scripts concerning "appropriate" European social policy. The hypothesis that deepening regional integration drives growing welfare-state convergence is tested with a three-stage analysis. The first stage examines trends in population-weighted and un-weighted dispersion for the OECD, the set of liberal market economies, and the set of EU-15 member states, since 1960.  The second stage examines associations between regional integration and welfare-state dispersion using time-series data. The third stage employs fixed-effects models of dyad-year data. The results support the hypothesis:  welfare-state convergence appears only among the EU-15; regional integration trends are associated with convergence; and pairs of countries belonging to the EU develop welfare states that are more similar, on average, than other pairs of countries. The findings are robust to three broad measures of the welfare state. Based on our results, we argue that in theorizing contemporary changes in the welfare state, sociologists should attend to the institutionalization of regional political economy. Welfare states can be conceptualized as embedded in regional, as well as global, systems and institutions.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-06-08:114842:415:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T6_JasonBeckfield.mp3</link>
+  <itunes:subtitle>Professor Beckfield discusses whether the welfare state convergence is really taking place, or it is just regional integration, especially in the European context.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>Professor Beckfield discusses whether the welfare state convergence is really taking place, or it is just regional integration, especially in the European context. The contemporary institutionalization of a transnational regional political economy in Europe raises questions about the role of regional integration in the convergence of European welfare states. To date, sociological work has emphasized processes of industrialization and globalization as the social changes that may drive increasing similarity among welfare states. Building on neoinstitutionalist theory and the Europeanization literature, we develop the argument that regional integration drives welfare-state convergence by generating, diffusing, and enforcing the adoption of policy scripts concerning "appropriate" European social policy. The hypothesis that deepening regional integration drives growing welfare-state convergence is tested with a three-stage analysis. The first stage examines trends in population-weighted and un-weighted dispersion for the OECD, the set of liberal market economies, and the set of EU-15 member states, since 1960.  The second stage examines associations between regional integration and welfare-state dispersion using time-series data. The third stage employs fixed-effects models of dyad-year data. The results support the hypothesis:  welfare-state convergence appears only among the EU-15; regional integration trends are associated with convergence; and pairs of countries belonging to the EU develop welfare states that are more similar, on average, than other pairs of countries. The findings are robust to three broad measures of the welfare state. Based on our results, we argue that in theorizing contemporary changes in the welfare state, sociologists should attend to the institutionalization of regional political economy. Welfare states can be conceptualized as embedded in regional, as well as global, systems and institutions. Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>regional integration,welfare state,social policy,globalisation,the European Union,welfare state convergence,2011-06-06</itunes:keywords>
+  <itunes:author>Jason Beckfield</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2553</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T6_JasonBeckfield.mp3" length="40942126" type="audio/mpeg" />
+  <pubDate>Wed, 08 Jun 2011 13:48:42 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Regional integration and welfare-state convergence in Europe </title>
+</item>
+<item>
+  <itunes:order>45</itunes:order>
+   <category>household income</category>
+ <category>income inequality</category>
+ <category>relative distribution</category>
+  <description>The author addresses the question how the distribution of household income has been changing in recent decades. After situating contemporary trends in inequality in the context of global income inequality, we turn to address the question how the distribution of household income has been changing in recent decades. We use data from the Luxemburg Income Study and methods based on the relative distribution to decompose overall distributional change into changes in location and shape. We do so for a heterogeneous group of countries: five transitional and middleincome societies the Czech and Slovak Republics, Poland, Russia, and Taiwan and four high-income societies the U.K., U.S., Sweden, and Germany. In the U.K. and U.S., we also describe the changing position of households at interesting social locations i.e., femaleheaded households and households whose heads and spouses/partners lack university qualifications. Focusing on changes in shape, we utilize full distributional information to examine how income inequality grew across the period stretching from the late 1970s to the mid2000s.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-05-30:112527:188:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T3_Arthur_Anderson.mp3</link>
+  <itunes:subtitle>The author addresses the question how the distribution of household income has been changing in recent decades.</itunes:subtitle>
+    <itunes:summary>The author addresses the question how the distribution of household income has been changing in recent decades. After situating contemporary trends in inequality in the context of global income inequality, we turn to address the question how the distribution of household income has been changing in recent decades. We use data from the Luxemburg Income Study and methods based on the relative distribution to decompose overall distributional change into changes in location and shape. We do so for a heterogeneous group of countries: five transitional and middleincome societies the Czech and Slovak Republics, Poland, Russia, and Taiwan and four high-income societies the U.K., U.S., Sweden, and Germany. In the U.K. and U.S., we also describe the changing position of households at interesting social locations i.e., femaleheaded households and households whose heads and spouses/partners lack university qualifications. Focusing on changes in shape, we utilize full distributional information to examine how income inequality grew across the period stretching from the late 1970s to the mid2000s.</itunes:summary>
+  <itunes:keywords>household income,income inequality,relative distribution,2011-05-23</itunes:keywords>
+  <itunes:author>Arthur Alderson</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3153</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T3_Arthur_Anderson.mp3" length="50450598" type="audio/mpeg" />
+  <pubDate>Mon, 30 May 2011 13:25:27 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Crossnational similarity and difference in the changing distribution of household income </title>
+</item>
+<item>
+  <itunes:order>46</itunes:order>
+   <category>gender revolution</category>
+ <category>gender mobility</category>
+  <description>The author describes sweeping changes in the gender system and offers explanations for why change has been uneven. In this article, the author describes sweeping changes in the gender system and offers explanations for why change has been uneven. Because the devaluation of activities done by women has changed little, women have had strong incentive to enter male jobs, but men have had little incentive to take on female activities or jobs. The gender egalitarianism that gained traction was the notion that women should have access to upward mobility and to all areas of schooling and jobs.  But persistent gender essentialism means that most people follow gender-typical paths except when upward mobility is impossible otherwise. Middle-class women entered managerial and professional jobs more than working-class women integrated blue-collar jobs because the latter were able to move up while choosing a "female" occupation; many mothers of middle-class women were already in the highest-status female occupations. The author also notes a number of gender-egalitarian trends that have stalled.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-05-27:180153:952:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T2_paula_england.mp3</link>
+  <itunes:subtitle>The author describes sweeping changes in the gender system and offers explanations for why change has been uneven.</itunes:subtitle>
+   <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</creativeCommons:license>
+  <itunes:summary>The author describes sweeping changes in the gender system and offers explanations for why change has been uneven. In this article, the author describes sweeping changes in the gender system and offers explanations for why change has been uneven. Because the devaluation of activities done by women has changed little, women have had strong incentive to enter male jobs, but men have had little incentive to take on female activities or jobs. The gender egalitarianism that gained traction was the notion that women should have access to upward mobility and to all areas of schooling and jobs.  But persistent gender essentialism means that most people follow gender-typical paths except when upward mobility is impossible otherwise. Middle-class women entered managerial and professional jobs more than working-class women integrated blue-collar jobs because the latter were able to move up while choosing a "female" occupation; many mothers of middle-class women were already in the highest-status female occupations. The author also notes a number of gender-egalitarian trends that have stalled. Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &amp; Wales; http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</itunes:summary>
+  <itunes:keywords>gender revolution,gender mobility,2011-05-16</itunes:keywords>
+  <itunes:author>Paula England</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2397</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T2_paula_england.mp3" length="38359457" type="audio/mpeg" />
+  <pubDate>Fri, 27 May 2011 20:01:53 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>The gender revolution: uneven and stalled </title>
+</item>
+<item>
+  <itunes:order>47</itunes:order>
+   <category>ethnic stratification</category>
+ <category>uyghur</category>
+ <category>china</category>
+ <category>labour market</category>
+  <description>Ethnic Labour market discrimination in China, with a particular focus on the Uyghur Minority. This paper analyzes a sample from the 2005 mini-census data to examine ethnic inequalities in labor markets, with a special focus on how ethnic inequality varies by different employment sectors. Results show a clear disparity between Han and Uyghur in employment segregation by sector: more than 70 percent Uyghur in Xinjiang, compared to only 35 percent of local Han Chinese, are engaged in agricultural work; within the non-agricultural sector, Uyghur are nonetheless more likely to work in government agencies/institutions than both Han locals and migrants, and also more likely to become self-employed. Furthermore, while Han-Uyghur earnings gap is negligible in government/institution, it increases with the marketization of employment sector. In other words, the earnings disparity is the largest among self-employed, followed by employees in private enterprises and then by employees in public enterprises. Han migrants in economic sectors enjoy particular earnings advantages and hukou registration has no effect on earnings attainment except in government/institutions. The overall income disadvantages of Uyghur, nevertheless, mainly stem from within-sector difference rather than from sector segregation. The paper concludes that the pattern of ethnic stratification is a mixed result from the market force that tends to enlarge ethnic inequality and government efforts in promoting ethnic equality.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2011-05-27:152401:747:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T1_WU_2.mp3</link>
+  <itunes:subtitle>Ethnic Labour market discrimination in China, with a particular focus on the Uyghur Minority.</itunes:subtitle>
+    <itunes:summary>Ethnic Labour market discrimination in China, with a particular focus on the Uyghur Minority. This paper analyzes a sample from the 2005 mini-census data to examine ethnic inequalities in labor markets, with a special focus on how ethnic inequality varies by different employment sectors. Results show a clear disparity between Han and Uyghur in employment segregation by sector: more than 70 percent Uyghur in Xinjiang, compared to only 35 percent of local Han Chinese, are engaged in agricultural work; within the non-agricultural sector, Uyghur are nonetheless more likely to work in government agencies/institutions than both Han locals and migrants, and also more likely to become self-employed. Furthermore, while Han-Uyghur earnings gap is negligible in government/institution, it increases with the marketization of employment sector. In other words, the earnings disparity is the largest among self-employed, followed by employees in private enterprises and then by employees in public enterprises. Han migrants in economic sectors enjoy particular earnings advantages and hukou registration has no effect on earnings attainment except in government/institutions. The overall income disadvantages of Uyghur, nevertheless, mainly stem from within-sector difference rather than from sector segregation. The paper concludes that the pattern of ethnic stratification is a mixed result from the market force that tends to enlarge ethnic inequality and government efforts in promoting ethnic equality.</itunes:summary>
+  <itunes:keywords>ethnic stratification,uyghur,china,labour market,2011-05-09</itunes:keywords>
+  <itunes:author>Xiaogang Wu</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2824</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/Sociology_T1_WU_2.mp3" length="45193770" type="audio/mpeg" />
+  <pubDate>Fri, 27 May 2011 17:24:01 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Ethnic stratification in Chinas labor markets- the case of Xinjiang Uyghur Autonomous Region </title>
+</item>
+<item>
+  <itunes:order>48</itunes:order>
+   <category>stress</category>
+ <category>sociology</category>
+ <category>maternal</category>
+ <category>birth</category>
+ <category>pregnancy</category>
+ <category>babies</category>
+ <category>socioeconomic</category>
+ <category>baby</category>
+ <category>cognitive</category>
+  <description>Lecture delivered by Florencia Torche, Assistant Professor of Sociology and Faculty Affiliate at the Steinhardt School of Education, NYU and Research Affiliate at INSPIRES, NYU School of Medicine. A growing literature highlights that in-utero conditions are consequential for individual outcomes throughout the life cycle, but research assessing causal processes is scarce. This paper examines the causal effect of one such condition (maternal stress) on one such outcomes (birth weight). Birth weight is a key outcomes because it has been shown to affect cognitive, educational, and socioeconomic attainment throughout the individual lifecycle. Using a major earthquake as a natural experiment and a difference in difference methodology, we show that maternal stress has a substantial detrimental effect on birth weight. This effect is focused on the first trimester of gestation, and it is mediated by reduced gestational age rather than intra-uterine growth restriction. Several robustness checks reject the hypothesis that the association is driven by unobserved selectivity of mothers. The findings highlight the relevance of understanding the early emergence of unequal opportunity and of investing in maternal wellbeing since the onset of pregnancy.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:160659:809:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-torche-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Florencia Torche, Assistant Professor of Sociology and Faculty Affiliate at the Steinhardt School of Education, NYU and Research Affiliate at INSPIRES, NYU School of Medicine.</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Florencia Torche, Assistant Professor of Sociology and Faculty Affiliate at the Steinhardt School of Education, NYU and Research Affiliate at INSPIRES, NYU School of Medicine. A growing literature highlights that in-utero conditions are consequential for individual outcomes throughout the life cycle, but research assessing causal processes is scarce. This paper examines the causal effect of one such condition (maternal stress) on one such outcomes (birth weight). Birth weight is a key outcomes because it has been shown to affect cognitive, educational, and socioeconomic attainment throughout the individual lifecycle. Using a major earthquake as a natural experiment and a difference in difference methodology, we show that maternal stress has a substantial detrimental effect on birth weight. This effect is focused on the first trimester of gestation, and it is mediated by reduced gestational age rather than intra-uterine growth restriction. Several robustness checks reject the hypothesis that the association is driven by unobserved selectivity of mothers. The findings highlight the relevance of understanding the early emergence of unequal opportunity and of investing in maternal wellbeing since the onset of pregnancy.</itunes:summary>
+  <itunes:keywords>stress,sociology,maternal,birth,pregnancy,babies,socioeconomic,baby,cognitive,2009-11-09</itunes:keywords>
+  <itunes:author>Florencia Torche</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3283</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-torche-sociology.mp3" length="52540421" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 18:06:59 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>The Effect of Maternal Stress on Birth Outcomes: Exploiting a Natural Experiment </title>
+</item>
+<item>
+  <itunes:order>49</itunes:order>
+    <description>Lecture delivered by Jennifer Flashman (University of Oxford). Adolescents experience different levels of exposure to individuals of other races. Their exposure may shape their racial preferences for friends in important ways, with serious implications for school integration, bussing, and tracking policies. A small body of work studies the impact of school racial composition on racial preferences for friends using discrete choice models. This work uniformly shows that preferences for friends of a particular racial group decline as the size of that group increases within a school. However, the validity of these estimates rests on the assumption that the odds of choosing one possible friend over another remain constant regardless of the other friend alternatives included in or excluded from the set of possible choices. This assumption is known as the IIA assumption (independence of irrelevant alternatives). Violations of IIA can dramatically affect estimations of individuals? preferences. Given that adolescents have a racial preference for friends, if racially identical friend alternatives are included in the choice set, the preference an individual has for friends of that race are distributed across those identical alternatives. If IIA is violated, choice models will provide an underestimate of preferences for black friends when there are many black students within a school and an overestimate of preferences for black friends when there are few black students within a school. Consequently, results from past research suggesting that blacks have stronger preferences for black friends when there are few blacks in a school may be an artifact of violations of the assumption inherent in the modeling strategy. Through a careful analysis of both simulated and actual data, this presentation provides a corrective to past research on friendship choice by showing 1) that key model assumptions are violated when discrete choice analysis is used to model friendship choice, 2) that results are extremely sensitive to violations of model assumptions, and 3) that after correcting models, estimations show that increased contact between racial groups leads to stronger preferences for cross-race friends.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:160433:295:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2009-11-30-flashman-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Jennifer Flashman (University of Oxford).</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Jennifer Flashman (University of Oxford). Adolescents experience different levels of exposure to individuals of other races. Their exposure may shape their racial preferences for friends in important ways, with serious implications for school integration, bussing, and tracking policies. A small body of work studies the impact of school racial composition on racial preferences for friends using discrete choice models. This work uniformly shows that preferences for friends of a particular racial group decline as the size of that group increases within a school. However, the validity of these estimates rests on the assumption that the odds of choosing one possible friend over another remain constant regardless of the other friend alternatives included in or excluded from the set of possible choices. This assumption is known as the IIA assumption (independence of irrelevant alternatives). Violations of IIA can dramatically affect estimations of individuals? preferences. Given that adolescents have a racial preference for friends, if racially identical friend alternatives are included in the choice set, the preference an individual has for friends of that race are distributed across those identical alternatives. If IIA is violated, choice models will provide an underestimate of preferences for black friends when there are many black students within a school and an overestimate of preferences for black friends when there are few black students within a school. Consequently, results from past research suggesting that blacks have stronger preferences for black friends when there are few blacks in a school may be an artifact of violations of the assumption inherent in the modeling strategy. Through a careful analysis of both simulated and actual data, this presentation provides a corrective to past research on friendship choice by showing 1) that key model assumptions are violated when discrete choice analysis is used to model friendship choice, 2) that results are extremely sensitive to violations of model assumptions, and 3) that after correcting models, estimations show that increased contact between racial groups leads to stronger preferences for cross-race friends.</itunes:summary>
+  <itunes:keywords>,2009-11-30</itunes:keywords>
+  <itunes:author>Jennifer Flashman</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2414</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2009-11-30-flashman-sociology.mp3" length="38628651" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 18:04:33 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>School Racial Composition and Racial Preferences for Friends among Adolescents </title>
+</item>
+<item>
+  <itunes:order>50</itunes:order>
+   <category>sociology</category>
+ <category>gender</category>
+ <category>socio-economic</category>
+ <category>labor</category>
+ <category>labour</category>
+ <category>socioeconomic</category>
+ <category>inequality</category>
+  <description>Lecture delivered by Jonathan Gershuny, Department of Sociology, University of Oxford.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:150005:590:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2010-02-22-gershuny-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Jonathan Gershuny, Department of Sociology, University of Oxford.</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Jonathan Gershuny, Department of Sociology, University of Oxford.</itunes:summary>
+  <itunes:keywords>sociology,gender,socio-economic,labor,labour,socioeconomic,inequality,2010-02-22</itunes:keywords>
+  <itunes:author>Jonathan Gershuny</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3221</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2010-02-22-gershuny-sociology.mp3" length="45284651" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 17:00:05 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Gendered Divisions of Labour and the Intergenerational Transmission of Inequality </title>
+</item>
+<item>
+  <itunes:order>51</itunes:order>
+   <category>sociology</category>
+ <category>socio-economic</category>
+ <category>inequality</category>
+ <category>poverty</category>
+ <category>socioeconomic</category>
+ <category>welfare</category>
+  <description>Lecture delivered by Tim Horton, Research Director and Deputy General Secretary of the Fabian Society, Britain's leading left of centre think tank and political society.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:145749:505:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-horton-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Tim Horton, Research Director and Deputy General Secretary of the Fabian Society, Britain's leading left of centre think tank and political society.</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Tim Horton, Research Director and Deputy General Secretary of the Fabian Society, Britain's leading left of centre think tank and political society.</itunes:summary>
+  <itunes:keywords>sociology,socio-economic,inequality,poverty,socioeconomic,welfare,2009-10-26</itunes:keywords>
+  <itunes:author>Tim Horton</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2277</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-horton-sociology.mp3" length="36436871" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 16:57:49 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Public Attitudes to Poverty, Inequality and Welfare: What are the Implications for Social Policy? </title>
+</item>
+<item>
+  <itunes:order>52</itunes:order>
+   <category>sociology</category>
+ <category>gender</category>
+ <category>socio-economic</category>
+ <category>inequality</category>
+ <category>marriage</category>
+ <category>birth</category>
+ <category>socioeconomic</category>
+ <category>pregnancy</category>
+ <category>Health</category>
+  <description>Lecture delivered by Juho Härkönen, Assistant Professor at the Swedish Institute for Social Research (SOFI), Stockholm University. Childhood conditions can have a lasting impact on the life-course. Recent years have witnessed a renewed and increasing interest in childhood health as a predictor of socioeconomic and health outcomes later in life. In this study, we analyze the effects of fetal health conditions on educational attainment at age 31 and the role fetal health plays in the intergenerational transmission of educational inequality. Our central contribution to the literature comes from the use of clinically defined health conditions, which feature prevalently in the medical literature and are known correlates of birth and other short-term outcomes. Using ordinal logit models and data from the Northern Finland Birth Cohort 1966 Study, we find that mother's smoking during pregnancy has the most robust negative effect on educational attainment. Furthermore, our results suggest a dose-response relationship, and weaker effects if the mother quit smoking during the first trimester. We also find that mother's anemia during pregnancy is associated with lower levels of attained education. Other health indicators - and most notably, preterm birth and small size for gestational age - do not predict later education. These health factors explain little of the persistent class background inequalities in educational attainment, but account for 12 to 19 percent of the difference between children born to unmarried versus married mothers. Our results point to the usefulness of clinical childhood health measures instead of or in addition to more general ones. We also conclude that widening class disparities in mothers' prenatal smoking may increase its importance as a pathway through which socioeconomic (dis)advantage is transmitted across generations.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:145416:890:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2009-10-09-harkonen-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Juho Härkönen, Assistant Professor at the Swedish Institute for Social Research (SOFI), Stockholm University.</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Juho Härkönen, Assistant Professor at the Swedish Institute for Social Research (SOFI), Stockholm University. Childhood conditions can have a lasting impact on the life-course. Recent years have witnessed a renewed and increasing interest in childhood health as a predictor of socioeconomic and health outcomes later in life. In this study, we analyze the effects of fetal health conditions on educational attainment at age 31 and the role fetal health plays in the intergenerational transmission of educational inequality. Our central contribution to the literature comes from the use of clinically defined health conditions, which feature prevalently in the medical literature and are known correlates of birth and other short-term outcomes. Using ordinal logit models and data from the Northern Finland Birth Cohort 1966 Study, we find that mother's smoking during pregnancy has the most robust negative effect on educational attainment. Furthermore, our results suggest a dose-response relationship, and weaker effects if the mother quit smoking during the first trimester. We also find that mother's anemia during pregnancy is associated with lower levels of attained education. Other health indicators - and most notably, preterm birth and small size for gestational age - do not predict later education. These health factors explain little of the persistent class background inequalities in educational attainment, but account for 12 to 19 percent of the difference between children born to unmarried versus married mothers. Our results point to the usefulness of clinical childhood health measures instead of or in addition to more general ones. We also conclude that widening class disparities in mothers' prenatal smoking may increase its importance as a pathway through which socioeconomic (dis)advantage is transmitted across generations.</itunes:summary>
+  <itunes:keywords>sociology,gender,socio-economic,inequality,marriage,birth,socioeconomic,pregnancy,Health,2010-10-26</itunes:keywords>
+  <itunes:author>Juho Härkönen</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2945</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2009-10-09-harkonen-sociology.mp3" length="47117402" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 16:54:16 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Prenatal Health, Educational Attainment and Intergenerational Inequality </title>
+</item>
+<item>
+  <itunes:order>53</itunes:order>
+   <category>sociology</category>
+ <category>family</category>
+ <category>socio-economic</category>
+ <category>death</category>
+ <category>birth</category>
+ <category>socioeconomic</category>
+ <category>population</category>
+  <description>Lecture delivered by Dr Rebecca Sear, Lecturer in Population Studies, London School of Economics.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:145112:886:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-sear-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Dr Rebecca Sear, Lecturer in Population Studies, London School of Economics.</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Dr Rebecca Sear, Lecturer in Population Studies, London School of Economics.</itunes:summary>
+  <itunes:keywords>sociology,family,socio-economic,death,birth,socioeconomic,population</itunes:keywords>
+  <itunes:author>Rebecca Sear</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>2386</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2010-08-03-sear-sociology.mp3" length="38183521" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 16:51:12 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>How Much Does Family Matter? A Cross-Cultural Study of the Impact of Kin on Birth and Death Rates </title>
+</item>
+<item>
+  <itunes:order>54</itunes:order>
+   <category>iq</category>
+ <category>gender</category>
+ <category>sociology</category>
+ <category>ability</category>
+ <category>cognitive</category>
+  <description>Lecture delivered by Professor Robert M Hauser (University of Wisconsin-Madison). Long-term studies of cognitive ability and mortality have documented a robust relationship between those two variables. Such studies have, for the most part, been remarkably silent on explanations for that relationship. Published explanations range from suggestions that raw intelligence may be a "fundamental cause" of mortality, that it "enhances individuals' care of their own health because it represents learning, reasoning, and problem-solving skills useful in preventing chronic disease and accidental injury," to findings that the association between measured IQ and mortality largely reflect its correlation with educational and economic success. In this analysis of data from the Wisconsin Longitudinal Study, we look at the association between measured IQ and survival across the life course in light of the relationship between measured IQ and grades in secondary school. Briefly, we find that, net of social and economic origins, high school grades have a much larger effect than measured IQ, and the association between measured IQ and survival turns negative once high school grades are controlled. That is, the association between IQ and health is fully explained by its correlation with evaluations of academic performance in secondary school. Moreover, the fact that girls are similar in IQ to boys, but earn higher grades in school, partly explains the gender differential in survival. This finding suggests that survival is largely explained by normative behaviors, that is, doing the right thing in the right way at the right time, and such behaviors are well established by late adolescence.</description>
+  <guid isPermaLink="false">http://rss.oucs.ox.ac.uk/tag:2010-08-20:144849:430:sociology/sociology-audio</guid>
+  <link>http://media.podcasts.ox.ac.uk/sociology/sociology/2009-10-12-hauser-sociology.mp3</link>
+  <itunes:subtitle>Lecture delivered by Professor Robert M Hauser (University of Wisconsin-Madison).</itunes:subtitle>
+    <itunes:summary>Lecture delivered by Professor Robert M Hauser (University of Wisconsin-Madison). Long-term studies of cognitive ability and mortality have documented a robust relationship between those two variables. Such studies have, for the most part, been remarkably silent on explanations for that relationship. Published explanations range from suggestions that raw intelligence may be a "fundamental cause" of mortality, that it "enhances individuals' care of their own health because it represents learning, reasoning, and problem-solving skills useful in preventing chronic disease and accidental injury," to findings that the association between measured IQ and mortality largely reflect its correlation with educational and economic success. In this analysis of data from the Wisconsin Longitudinal Study, we look at the association between measured IQ and survival across the life course in light of the relationship between measured IQ and grades in secondary school. Briefly, we find that, net of social and economic origins, high school grades have a much larger effect than measured IQ, and the association between measured IQ and survival turns negative once high school grades are controlled. That is, the association between IQ and health is fully explained by its correlation with evaluations of academic performance in secondary school. Moreover, the fact that girls are similar in IQ to boys, but earn higher grades in school, partly explains the gender differential in survival. This finding suggests that survival is largely explained by normative behaviors, that is, doing the right thing in the right way at the right time, and such behaviors are well established by late adolescence.</itunes:summary>
+  <itunes:keywords>iq,gender,sociology,ability,cognitive,2009-10-12</itunes:keywords>
+  <itunes:author>Robert M Hauser</itunes:author>
+  <itunesu:category itunesu:code="110105"/>
+  <itunes:duration>3065</itunes:duration>
+  <enclosure url="http://media.podcasts.ox.ac.uk/sociology/sociology/2009-10-12-hauser-sociology.mp3" length="49053805" type="audio/mpeg" />
+  <pubDate>Fri, 20 Aug 2010 16:48:49 +0100</pubDate>
+  <source url="http://mediapub.it.ox.ac.uk/feeds/rss/sociology/sociology-audio">Department of Sociology Podcasts</source>
+  <title>Is IQ a &quot;Fundamental Cause&quot; of Health? Cognitive Ability, Gender, and Survival </title>
+</item>
+  </channel>
+</rss>
