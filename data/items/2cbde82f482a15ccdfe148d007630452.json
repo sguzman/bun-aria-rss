@@ -1,0 +1,14 @@
+{
+  "title": "Memory plots with memory_profiler",
+  "link": "http://fa.bianp.net/blog/2013/memory-plots-with-memory_profiler/",
+  "description": "<p>Besides performing a line-by-line analysis of memory consumption,\n<a href=\"http://pypi.python.org/pypi/memory_profiler\"><code>memory_profiler</code></a>\nexposes some functions that allow to retrieve the memory consumption\nof a function in real-time, allowing e.g. to visualize the memory\nconsumption of a given function over time.</p>\n<p>The function to be used is <code>memory_usage</code>. The first argument\nspecifies what …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 04 Jan 2013 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2013-01-04:/blog/2013/memory-plots-with-memory_profiler/",
+  "category": [
+    "misc",
+    "Python",
+    "memory",
+    "memory_profiler"
+  ]
+}

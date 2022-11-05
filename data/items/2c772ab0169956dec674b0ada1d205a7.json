@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-25025 (eventcalendar)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-25025",
+  "description": "The EventCalendar WordPress plugin before 1.1.51 does not have proper authorisation and CSRF checks in the add_calendar_event AJAX actions, allowing users with a role as low as subscriber to create events",
+  "dc:date": "2022-01-17T13:15:07Z"
+}

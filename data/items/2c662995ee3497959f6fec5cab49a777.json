@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2795 (bind, debian_linux, fedora)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2795",
+  "description": "By flooding the target resolver with queries exploiting this flaw an attacker can significantly impair the resolver's performance, effectively denying legitimate clients access to the DNS resolution service.",
+  "dc:date": "2022-09-21T11:15:09Z"
+}

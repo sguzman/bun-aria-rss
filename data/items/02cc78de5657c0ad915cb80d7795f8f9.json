@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-44081 (lodepng)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44081",
+  "description": "Lodepng v20220717 was discovered to contain a segmentation fault via the function pngdetail.",
+  "dc:date": "2022-10-31T19:15:10Z"
+}

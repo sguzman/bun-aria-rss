@@ -1,0 +1,6 @@
+{
+  "title": "Native Type Theory. (arXiv:2102.04672v3 [cs.LO] UPDATED)",
+  "link": "http://arxiv.org/abs/2102.04672",
+  "description": "<p>Native type systems are those in which type constructors are derived from\nterm constructors, as well as the constructors of predicate logic and\nintuitionistic type theory. We present a method to construct native type\nsystems for a broad class of languages, lambda-theories with equality, by\nembedding such a theory into the internal language of its topos of presheaves.\nNative types provide total specification of the structure of terms; and by\ninternalizing transition systems, native type systems serve to reason about\nstructure and behavior simultaneously. The construction is functorial, thereby\nproviding a shared framework of higher-order reasoning for many languages,\nincluding programming languages.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Williams_C/0/1/0/all/0/1\">Christian Williams</a> (University of California, Riverside), <a href=\"http://arxiv.org/find/cs/1/au:+Stay_M/0/1/0/all/0/1\">Michael Stay</a> (Pyrofex Corporation, Utah)"
+}
