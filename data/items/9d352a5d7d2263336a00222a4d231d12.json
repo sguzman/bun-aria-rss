@@ -1,0 +1,27 @@
+{
+  "title": "Weekly Review: 10/21/2017",
+  "link": "https://codesachin.wordpress.com/2017/10/22/weekly-review-10212017/",
+  "comments": "https://codesachin.wordpress.com/2017/10/22/weekly-review-10212017/#respond",
+  "dc:creator": "srjoglekar246",
+  "pubDate": "Sat, 21 Oct 2017 23:10:25 +0000",
+  "category": [
+    "Machine Learning/AI",
+    "Programming",
+    "alphago",
+    "cnn",
+    "dynamic filters",
+    "eigenvalue",
+    "eigenvector",
+    "robotics",
+    "sunnyvale",
+    "transfer learning"
+  ],
+  "guid": "http://codesachin.wordpress.com/?p=674",
+  "description": "Its been a long while since I last posted, but for good reason! I was busy shifting base from Google&#8217;s Hyderabad office to their new location in Sunnyvale. This is my first time in the USA, so there is a lot to take in and process! Anyway, I am now working on Google&#8217;s Social-Search and &#8230; <a href=\"https://codesachin.wordpress.com/2017/10/22/weekly-review-10212017/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">Weekly Review: 10/21/2017</span> <span class=\"meta-nav\">&#8594;</span></a>",
+  "content:encoded": "<p>Its been a long while since I <a href=\"https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/\">last posted</a>, but for good reason! I was busy shifting base from Google&#8217;s Hyderabad office to their new location in Sunnyvale. This is my first time in the USA, so there is a lot to take in and process!</p>\n<p>Anyway, I am now working on Google&#8217;s Social-Search and Ranking team. At the same time, I am also doing Coursera&#8217;s <a href=\"https://www.coursera.org/specializations/robotics\">Robotics Specialization</a> to learn a subject I have never really touched upon. Be warned if you ever decide to give it a try: their very first course, titled <a href=\"https://www.coursera.org/learn/robotics-flight/home/welcome\">Aerial Robotics</a>, has a lot of linear math and physics involved. Since I last did all this in my freshman year of college, I am just about getting the weeks done!</p>\n<p>Since I already have my plate full with a lot of ToDos, but I also feel bad for not posting, I found a middle ground: I will try, to the best of my ability, to post one article each weekend about all the random/new interesting articles I read over the course of the week. This is partly for my own reference later on, since I have found myself going back to my posts quite a few times to revisit a concept I wrote on. So here goes:</p>\n<p><strong>Eigenvectors & Eigenvalues</strong></p>\n<p>Anything &#8216;eigen&#8217; has confused me for a while now, mainly because I never understood the intuition behind the concept. The highest-rated answer to <a href=\"https://math.stackexchange.com/questions/243533/how-to-intuitively-understand-eigenvalue-and-eigenvector\">this Math-Stackexchange question</a> did the job: <em>Every square matrix is a linear transformation. The corresponding eigenvectors roughly describe how the transformation orients the results (or the directions of maximum change), while the corresponding eigenvalues describe the distortion caused in those directions.</em></p>\n<p><strong>Transfer Learning</strong></p>\n<p>Machine Learning currently specializes in utilizing data from a certain {Task, Domain} combo (for e.g., Task: Recognize dogs in photos, Domain: Photos of dogs) to learn a function. However, when this same function/model is used on a different but related task (Recognize foxes in photos) or a different domain (Photos of dogs taken during the night), it performs poorly. <a href=\"http://ruder.io/transfer-learning/index.html\">This article</a> discusses <em>Transfer Learning, a method to apply knowledge learned in one setting on problems in different ones</em>.</p>\n<p><strong>Dynamic Filters</strong></p>\n<p>The filters used in Convolutional Neural Network layers usually have fixed weights at a certain layer, for a given feature map. <a href=\"http://papers.nips.cc/paper/6578-dynamic-filter-networks.pdf\">This paper</a> from the NIPS conference discusses the idea of layers that change their filter weights depending on the input. The intuition is this: <em>Even though a filter is trained to look for a specialized feature within a given image, the orientation/shape/size of the feature might change with the image itself. This is especially true while analysing data such as moving objects within videos. A dynamic filter will then be able to adapt to the incoming data, and efficiently recognise the intended features inspite of distortions.</em></p>\n<p>&nbsp;</p>\n",
+  "wfw:commentRss": "https://codesachin.wordpress.com/2017/10/22/weekly-review-10212017/feed/",
+  "slash:comments": 0,
+  "media:content": {
+    "media:title": "srjoglekar246"
+  }
+}
