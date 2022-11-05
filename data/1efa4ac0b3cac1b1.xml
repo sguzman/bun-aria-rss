@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cond-mat.mes-hall updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Condensed Matter -- Mesoscale and Nanoscale Physics (cond-mat.mes-hall) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Condensed Matter -- Mesoscale and Nanoscale Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01490" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01501" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01617" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01685" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01707" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01714" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01735" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01876" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01895" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01898" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02026" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02033" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2110.08304" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.13945" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.14993" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.09922" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.13427" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.00889" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.07454" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.10769" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.15155" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.15187" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.01259" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.05053" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16762" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00560" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00679" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01490">
+<title>Deep Learning Hamiltonians from Disordered Image Data in Quantum Materials. (arXiv:2211.01490v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01490</link>
+<description rdf:parseType="Literal">&lt;p&gt;The capabilities of image probe experiments are rapidly expanding, providing
+new information about quantum materials on unprecedented length and time
+scales. Many such materials feature inhomogeneous electronic properties with
+intricate pattern formation on the observable surface. This rich spatial
+structure contains information about interactions, dimensionality, and disorder
+-- a spatial encoding of the Hamiltonian driving the pattern formation. Image
+recognition techniques from machine learning are an excellent tool for
+interpreting information encoded in the spatial relationships in such images.
+Here, we develop a deep learning framework for using the rich information
+available in these spatial correlations in order to discover the underlying
+Hamiltonian driving the patterns. We first vet the method on a known case,
+scanning near-field optical microscopy on a thin film of VO2. We then apply our
+trained convolutional neural network architecture to new optical microscope
+images of a different VO2 film as it goes through the metal-insulator
+transition. We find that a two-dimensional Hamiltonian with both interactions
+and random field disorder is required to explain the intricate, fractal
+intertwining of metal and insulator domains during the transition. This
+detailed knowledge about the underlying Hamiltonian paves the way to using the
+model to control the pattern formation via, e.g., tailored hysteresis
+protocols. We also introduce a distribution-based confidence measure on the
+results of a multi-label classifier, which does not rely on adversarial
+training. In addition, we propose a new machine learning based criterion for
+diagnosing a physical system&apos;s proximity to criticality.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Basak_S/0/1/0/all/0/1&quot;&gt;S. Basak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Banguero_M/0/1/0/all/0/1&quot;&gt;M. Alzate Banguero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Burzawa_L/0/1/0/all/0/1&quot;&gt;L. Burzawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Simmons_F/0/1/0/all/0/1&quot;&gt;F. Simmons&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Salev_P/0/1/0/all/0/1&quot;&gt;P. Salev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Aigouy_L/0/1/0/all/0/1&quot;&gt;L. Aigouy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Qazilbash_M/0/1/0/all/0/1&quot;&gt;M. M. Qazilbash&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schuller_I/0/1/0/all/0/1&quot;&gt;I. K. Schuller&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Basov_D/0/1/0/all/0/1&quot;&gt;D. N. Basov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zimmers_A/0/1/0/all/0/1&quot;&gt;A. Zimmers&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Carlson_E/0/1/0/all/0/1&quot;&gt;E. W. Carlson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01501">
+<title>A light-induced Weyl semiconductor-to-metal transition mediated by Peierls instability. (arXiv:2211.01501v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01501</link>
+<description rdf:parseType="Literal">&lt;p&gt;Elemental tellurium is a strongly spin-orbit coupled Peierls-distorted
+semiconductor whose band structure features topologically protected Weyl nodes.
+Using time-dependent density functional theory calculations, we show that
+impulsive optical excitation can be used to transiently control the amplitude
+of the Peierls distortion, realizing a mechanism to switch tellurium between
+three states: Weyl semiconductor, Weyl metal and non-Weyl metal. Further, we
+present experimental evidence of this inverse-Peierls distortion using
+time-resolved optical second harmonic generation measurements. These results
+provide a pathway to multifunctional ultrafast Weyl devices and introduce
+Peierls systems as viable hosts of light-induced topological transitions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ning_H/0/1/0/all/0/1&quot;&gt;H. Ning&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mehio_O/0/1/0/all/0/1&quot;&gt;O. Mehio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lian_C/0/1/0/all/0/1&quot;&gt;C. Lian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;X. Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zoghlin_E/0/1/0/all/0/1&quot;&gt;E. Zoghlin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhou_P/0/1/0/all/0/1&quot;&gt;P. Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cheng_B/0/1/0/all/0/1&quot;&gt;B. Cheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wilson_S/0/1/0/all/0/1&quot;&gt;S. D. Wilson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wong_B/0/1/0/all/0/1&quot;&gt;B. M. Wong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hsieh_D/0/1/0/all/0/1&quot;&gt;D. Hsieh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01617">
+<title>Nano-beam clamping revisited. (arXiv:2211.01617v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01617</link>
+<description rdf:parseType="Literal">&lt;p&gt;Within recent years, the field of nano-mechanics has diversified in a variety
+of applications, ranging from quantum information processing to biological
+molecules recognition. Among the diversity of devices produced these days, the
+simplest (but versatile) element remains the doubly-clamped beam: it can store
+very large tensile stresses (producing high resonance frequencies $f_0$ and
+quality factors $Q$), is interfaceable with electric setups (by means of
+conductive layers), and can be produced easily in clean rooms (with scalable
+designs including multiplexing). Besides, its mechanical properties are the
+simplest to describe. Resonance frequencies and $Q$s are being modeled, with as
+specific achievement the ultra-high quality resonances based on ``soft
+clamping&apos;&apos; and ``phonon shields&apos;&apos;. Here, we demonstrate that the fabrication
+undercut of the clamping regions of basic nano-beams produces a ``natural soft
+clamping&apos;&apos;, given for free. We present the analytic theory that enables to fit
+experimental data, which can be used for $\{ Q , f_0 \}$ design.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Golokolenov_I/0/1/0/all/0/1&quot;&gt;Ilya Golokolenov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kumar_S/0/1/0/all/0/1&quot;&gt;Sumit Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Alperin_B/0/1/0/all/0/1&quot;&gt;Baptiste Alperin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fernandez_B/0/1/0/all/0/1&quot;&gt;Bruno Fernandez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fefferman_A/0/1/0/all/0/1&quot;&gt;Andrew Fefferman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Collin_E/0/1/0/all/0/1&quot;&gt;Eddy Collin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01685">
+<title>Generalized topological bulk-edge correspondence in continuous systems with non-Hermitian boundary conditions. (arXiv:2211.01685v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01685</link>
+<description rdf:parseType="Literal">&lt;p&gt;The bulk-edge correspondence (BEC) is the hallmark of topological systems. In
+continuous (non-lattice) Hermitian systems with unbounded wavevector it was
+recently shown that the BEC is modified. How would it be further affected in
+non-Hermitian systems, experiencing loss and/or gain? In this work we take the
+first step in this direction, by studying a Hermitian continuous system with
+non-Hermitian boundary conditions. We find in this case that edge modes emerge
+at roots of the scattering matrix, as opposed to the Hermitian case, where they
+emerge at poles (or, more accurately, coalescence of roots and poles). This
+entails a nontrivial modification to the relative Levinson&apos;s theorem. We then
+show that the topological structure remains the same as in the Hermitian case,
+and the generalized BEC holds, provided one employs appropriate modified
+contours in the wavevector plane, so that the scattering matrix phase winding
+counts the edge modes correctly. We exemplify all this using a paradigmatic
+model of waves in a shallow ocean or active systems in the presence of odd
+viscosity, as well as 2D electron gas with Hall viscosity. We use this
+opportunity to examine the case of large odd viscosity, where the scattering
+matrix becomes $2\times2$, which has not been discussed in previous works on
+the Hermitian generalized BEC.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rapoport_O/0/1/0/all/0/1&quot;&gt;Orr Rapoport&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Goldstein_M/0/1/0/all/0/1&quot;&gt;Moshe Goldstein&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01707">
+<title>Electrostatic effects of the MnBi2Te4-superconductor hetero-structures in chiral Majorana search. (arXiv:2211.01707v1 [cond-mat.supr-con])</title>
+<link>http://arxiv.org/abs/2211.01707</link>
+<description rdf:parseType="Literal">&lt;p&gt;The realization of chiral Majorana modes is a challenging task. We aim to
+comprehend the phase diagrams and parameter control capabilities of the actual
+devices used in the chiral Majorana search. Beyond the well-known minimal
+models, we develop a numerical simulation scheme using a self-consistent
+Schrodinger-Poisson approach to study, as an example, the MnBi2Te4 thin film
+coupled to an s-wave superconductor. We show that both the superconducting
+proximity effect and the tunability of the chemical potential for the
+topological surface states are significantly influenced by the gate-induced
+electrostatic potential. This complicates the implementation in experiments,
+and the actual topological region will be narrowed in stark contrast to those
+predicted in the previous minimal models. Nevertheless, we demonstrate that the
+chiral Majorana mode still exists in a wide range of experimental parameters
+with practical tunability.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chen_L/0/1/0/all/0/1&quot;&gt;Li Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cao_Z/0/1/0/all/0/1&quot;&gt;Zhan Cao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+He_K/0/1/0/all/0/1&quot;&gt;Ke He&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_X/0/1/0/all/0/1&quot;&gt;Xin Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_D/0/1/0/all/0/1&quot;&gt;Dong E. Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01714">
+<title>Skyrmion Jellyfish in Driven Chiral Magnets. (arXiv:2211.01714v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01714</link>
+<description rdf:parseType="Literal">&lt;p&gt;Chiral magnets can host topological particles known as skyrmions which carry
+an exactly quantised topological charge $Q=-1$. In the presence of an
+oscillating magnetic field ${\bf B}_1(t)$, a single skyrmion embedded in a
+ferromagnetic background will start to move with constant velocity ${\bf
+v}_{\text{trans}}$. The mechanism behind this motion is similar to the one used
+by a jellyfish when it swims through water. We show that the skyrmion&apos;s motion
+is a universal phenomenon, arising in any magnetic system with translational
+modes. By projecting the equation of motion onto the skyrmion&apos;s translational
+modes and going to quadratic order in ${\bf B}_1(t)$ we obtain an analytical
+expression for ${\bf v}_{\text{trans}}$ as a function of the system&apos;s linear
+response. The linear response and consequently ${\bf v}_{\text{trans}}$ are
+influenced by the skyrmion&apos;s internal modes and scattering states, as well as
+by the ferromagnetic background&apos;s Kittel mode. The direction and speed of ${\bf
+v}_{\text{trans}}$ can be controlled by changing the polarisation, frequency
+and phase of the driving field ${\bf B}_1(t)$. For systems with small Gilbert
+damping parameter $\alpha$, we identify two distinct physical mechanisms used
+by the skyrmion to move. At low driving frequencies, the skyrmion&apos;s motion is
+driven by friction, and $v_{\text{trans}}\sim\alpha$, whereas at higher
+frequencies above the ferromagnetic gap the skyrmion moves by magnon emission
+and $v_{\text{trans}}$ becomes independent of $\alpha$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ser_N/0/1/0/all/0/1&quot;&gt;Nina del Ser&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lohani_V/0/1/0/all/0/1&quot;&gt;Vivek Lohani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01735">
+<title>Electronic Coherent Control of an Insulator-to-Metal Mott Transition. (arXiv:2211.01735v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01735</link>
+<description rdf:parseType="Literal">&lt;p&gt;Managing light-matter interaction on timescales faster than the loss of
+electronic coherence is key for achieving the full quantum control of final
+products in solid-solid transformations. In this work, we demonstrate coherent
+electronic control of the photoinduced insulator-to-metal transition in the
+prototypical Mott insulator V$_2$O$_3$. Selective excitation of a specific
+interband transition with two phase-locked light pulses manipulates the orbital
+occupation of the correlated bands in a way that depends on the coherent
+evolution of the photoinduced superposition of states. Comparison between
+experimental results and numerical solutions of the optical Bloch equations
+provides an electronic coherence time on the order of 5 fs. Temperature
+dependent experiments suggest that the electronic coherence time is enhanced in
+the vicinity of the insulator-to-metal transition critical temperature, thus
+highlighting the role of fluctuations in determining the electronic coherence.
+These results open new routes to selectively switch functionalities of quantum
+materials and coherently control solid-solid electronic transformations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Franceschini_P/0/1/0/all/0/1&quot;&gt;Paolo Franceschini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Policht_V/0/1/0/all/0/1&quot;&gt;Veronica R.Policht&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Milloch_A/0/1/0/all/0/1&quot;&gt;Alessandra Milloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ronchi_A/0/1/0/all/0/1&quot;&gt;Andrea Ronchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mor_S/0/1/0/all/0/1&quot;&gt;Selene Mor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mellaerts_S/0/1/0/all/0/1&quot;&gt;Simon Mellaerts&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hsu_W/0/1/0/all/0/1&quot;&gt;Wei-Fan Hsu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pagliara_S/0/1/0/all/0/1&quot;&gt;Stefania Pagliara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ferrini_G/0/1/0/all/0/1&quot;&gt;Gabriele Ferrini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Banfi_F/0/1/0/all/0/1&quot;&gt;Francesco Banfi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fabrizio_M/0/1/0/all/0/1&quot;&gt;Michele Fabrizio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Menghini_M/0/1/0/all/0/1&quot;&gt;Mariela Menghini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Locquet_J/0/1/0/all/0/1&quot;&gt;Jean-Pierre Locquet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Conte_S/0/1/0/all/0/1&quot;&gt;Stefano Dal Conte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cerullo_G/0/1/0/all/0/1&quot;&gt;Giulio Cerullo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Giannetti_C/0/1/0/all/0/1&quot;&gt;Claudio Giannetti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01876">
+<title>Artificial kagome spin ice magnetic phase recognition from the initial magnetization curve. (arXiv:2211.01876v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01876</link>
+<description rdf:parseType="Literal">&lt;p&gt;Artificial spin ices (ASIs) are designable arrays of interacting nanomagnets
+that span a wide range of magnetic phases associated with a number of spin
+lattice models. Here, we demonstrate that the phase of an artificial kagome
+spin ice can be determined from its initial magnetization curve. As a proof of
+concept, micromagnetic simulations of these curves were performed starting from
+representative microstates of different phases of the system. We show that the
+curves are characterized by phase-specific features in such a way that a
+pattern recognition algorithm predicts the phase of the initial microstate with
+good reliability. This achievement represents a new strategy to identify phases
+in ASIs, easier and more accessible than magnetic imaging techniques normally
+used for this task.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cecchi_B/0/1/0/all/0/1&quot;&gt;Breno Cecchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cruz_N/0/1/0/all/0/1&quot;&gt;Nathan Cruz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Knobel_M/0/1/0/all/0/1&quot;&gt;Marcelo Knobel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pirota_K/0/1/0/all/0/1&quot;&gt;Kleber Roberto Pirota&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01895">
+<title>Quantum kinetic theory of nonlinear thermal current. (arXiv:2211.01895v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01895</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the second-order nonlinear electronic thermal transport
+induced by temperature gradient. We develop the quantum kinetic theory
+framework to describe thermal transport in presence of a temperature gradient.
+Using this, we predict an intrinsic scattering time independent nonlinear
+thermal current in addition to the known extrinsic nonlinear Drude and Berry
+curvature dipole contributions. We show that the intrinsic thermal current is
+determined by the band geometric quantities and is non-zero only in systems
+where both the space inversion and time-reversal symmetries are broken. We
+employ the developed theory to study the thermal response in tilted massive
+Dirac systems. We show that besides the different scattering time dependence,
+the various current contributions have distinct temperature dependence in the
+low temperature limit. Our systematic and comprehensive theory for nonlinear
+thermal transport paves the way for future theoretical and experimental studies
+on intrinsic thermal responses.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Varshney_H/0/1/0/all/0/1&quot;&gt;Harsh Varshney&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Das_K/0/1/0/all/0/1&quot;&gt;Kamal Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bhalla_P/0/1/0/all/0/1&quot;&gt;Pankaj Bhalla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Agarwal_A/0/1/0/all/0/1&quot;&gt;Amit Agarwal&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01898">
+<title>Disentangling complex current pathways in a metallic Ru/Co bilayer nanostructure using THz spectroscopy. (arXiv:2211.01898v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01898</link>
+<description rdf:parseType="Literal">&lt;p&gt;Many modern spintronic technologies, such as spin valves, spin Hall
+applications, and spintronic THz emitters, are based on electrons crossing
+buried internal interfaces within metallic nanostructures. However, the complex
+current pathways within such nanostructures are difficult to disentangle using
+conventional experimental methods. Here, we measure the conductivity of a
+technologically relevant Ru/Co bilayer nanostructure in a contact-free fashion
+using THz time-domain spectroscopy. By applying an effective resistor network
+to the data, we resolve the complex current pathways within the nanostructure
+and determine the degree of electronic transparency of the internal interface
+between the Ru and Co nanolayers.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Beermann_N/0/1/0/all/0/1&quot;&gt;Nicolas S. Beermann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fabretti_S/0/1/0/all/0/1&quot;&gt;Savio Fabretti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rott_K/0/1/0/all/0/1&quot;&gt;Karsten Rott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hafez_H/0/1/0/all/0/1&quot;&gt;Hassan A. Hafez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Reiss_G/0/1/0/all/0/1&quot;&gt;G&amp;#xfc;nter Reiss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Turchinovich_D/0/1/0/all/0/1&quot;&gt;Dmitry Turchinovich&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02026">
+<title>On the dielectric response function and phonon self energy of acoustic phonons in 2D Dirac crystals. (arXiv:2211.02026v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.02026</link>
+<description rdf:parseType="Literal">&lt;p&gt;The unique structure of two-dimensional (2D) Dirac crystals, with electronic
+bands linear in the proximity of the Brillouin-zone boundary and the Fermi
+energy, creates anomalous situations where small Fermi-energy perturbations are
+known to critically affect the electron-related lattice properties of the
+system. The Fermi-surface nesting (FSN) conditions determining such effects via
+electron-phonon interaction, require accurate estimates of the crystal&apos;s
+response function $(\chi)$ as a function of the phonon wavevector q for any
+values of temperature. Numerous analytical estimates of $\chi(q)$ for 2D Dirac
+crystals beyond the Thomas-Fermi approximation have been so far carried out
+only in terms of dielectric response function $\chi(q,\omega)$, for photon and
+optical-phonon perturbations, due to relative ease of incorporating a
+q-independent oscillation frequency in their calculation. However, models
+accounting for Dirac-electron interaction with ever-existing acoustic phonons,
+for which $\omega$ does depend on q and is therefore dispersive, are essential
+to understand many critical crystal properties. The lack of such models has
+often led to assume that the dielectric response function $\chi(q)$ in these
+systems can be understood from free-electron behavior. Here, we show that,
+different from free-electron systems, $\chi(q)$ calculated from acoustic
+phonons in 2D Dirac crystals using the Lindhard model, exhibits a cuspidal
+point at the FSN condition. Strong variability of $\frac{\partial\chi}{\partial
+q}$ persists also at finite temperatures, while $\chi(q)$ may tend to infinity
+in the dynamic case even where the speed of sound is small, albeit
+nonnegligible, over the Dirac-electron Fermi velocity. The implications of our
+findings for electron-acoustic phonon interaction and transport properties such
+as the phonon line width derived from the phonon self energy will also be
+discussed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kazemian_S/0/1/0/all/0/1&quot;&gt;Sina Kazemian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fanchini_G/0/1/0/all/0/1&quot;&gt;Giovanni Fanchini&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02033">
+<title>Optically Induced Picosecond Lattice Compression in the Dielectric Component of a Strongly Coupled Ferroelectric/Dielectric Superlattice. (arXiv:2211.02033v1 [cond-mat.mtrl-sci])</title>
+<link>http://arxiv.org/abs/2211.02033</link>
+<description rdf:parseType="Literal">&lt;p&gt;Above-bandgap femtosecond optical excitation of a ferroelectric/dielectric
+BaTiO3/CaTiO3 superlattice leads to structural responses that are a consequence
+of the screening of the strong electrostatic coupling between the component
+layers. Time-resolved x-ray free-electron laser diffraction shows that the
+structural response to optical excitation includes a net lattice expansion of
+the superlattice consistent with depolarization-field screening driven by the
+photoexcited charge carriers. The depolarization-field-screening-driven
+expansion is separate from a photoacoustic pulse launched from the bottom
+electrode on which the superlattice was epitaxially grown. The distribution of
+diffracted intensity of superlattice x-ray reflections indicates that the
+depolarization-field-screening-induced strain includes a photoinduced expansion
+in the ferroelectric BaTiO3 and a contraction in CaTiO3. The magnitude of
+expansion in BaTiO3 layers is larger than the contraction in CaTiO3. The
+difference in the magnitude of depolarization-field-screening-driven strain in
+the BaTiO3 and CaTiO3 components can arise from the contribution of the oxygen
+octahedral rotation patterns at the BaTiO3/CaTiO3 interfaces to the
+polarization of CaTiO3. The depolarization-field-screening-driven polarization
+reduction in the CaTiO3 layers points to a new direction for the manipulation
+of polarization in the component layers of a strongly coupled
+ferroelectric/dielectric superlattice.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gyan_D/0/1/0/all/0/1&quot;&gt;Deepankar Sri Gyan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lee_H/0/1/0/all/0/1&quot;&gt;Hyeon Jun Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ahn_Y/0/1/0/all/0/1&quot;&gt;Youngjun Ahn&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Carnis_J/0/1/0/all/0/1&quot;&gt;Jerome Carnis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_T/0/1/0/all/0/1&quot;&gt;Tae Yeon Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Unithrattil_S/0/1/0/all/0/1&quot;&gt;Sanjith Unithrattil&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lee_J/0/1/0/all/0/1&quot;&gt;Jun Young Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chun_S/0/1/0/all/0/1&quot;&gt;Sae Hwan Chun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_S/0/1/0/all/0/1&quot;&gt;Sunam Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Eom_I/0/1/0/all/0/1&quot;&gt;Intae Eom&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_M/0/1/0/all/0/1&quot;&gt;Minseok Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Park_S/0/1/0/all/0/1&quot;&gt;Sang-Youn Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_K/0/1/0/all/0/1&quot;&gt;Kyung Sook Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lee_H/0/1/0/all/0/1&quot;&gt;Ho Nyung Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jo_J/0/1/0/all/0/1&quot;&gt;Ji Young Jo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Evans_P/0/1/0/all/0/1&quot;&gt;Paul G. Evans&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2110.08304">
+<title>Nonlinear Landauer formula: Nonlinear response theory of disordered and topological materials. (arXiv:2110.08304v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2110.08304</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Landauer formula provides a general scattering formulation of electrical
+conduction. Despite its utility, it has been mainly applied to the
+linear-response regime, and a scattering theory of nonlinear response has yet
+to be fully developed. Here, we extend the Landauer formula to the
+nonlinear-response regime. We show that while the linear conductance is
+directly related to the transmission probability, the nonlinear conductance is
+given by its derivatives with respect to energy. This sensitivity to the energy
+derivatives is shown to produce unique nonlinear transport phenomena of
+mesoscopic systems including disordered and topological materials. By way of
+illustration, we investigate nonlinear conductance of disordered chains and
+identify their universal behavior according to symmetry. In particular, we find
+large singular nonlinear conductance for zero modes, including Majorana zero
+modes in topological superconductors. We also show the critical behavior of
+nonlinear response around the mobility edges due to the Anderson transitions.
+Moreover, we study nonlinear response of graphene as a prime example of
+topological materials featuring quantum anomaly. Furthermore, considering the
+geometry of electronic wave functions, we develop a scattering theory of the
+nonlinear Hall effect. We establish a new connection between the nonlinear Hall
+response and the nonequilibrium quantum fluctuations. We also discuss the
+influence of disorder and Anderson localization on the nonlinear Hall effect.
+Our work opens a new avenue in quantum physics beyond the linear-response
+regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kawabata_K/0/1/0/all/0/1&quot;&gt;Kohei Kawabata&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ueda_M/0/1/0/all/0/1&quot;&gt;Masahito Ueda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.13945">
+<title>Symmetry-protected exceptional and nodal points in non-Hermitian systems. (arXiv:2204.13945v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.13945</link>
+<description rdf:parseType="Literal">&lt;p&gt;One of the unique features of non-Hermitian~(NH) systems is the appearance of
+non-Hermitian degeneracies known as exceptional points~(EPs). The extensively
+studied defective EPs occur when the Hamiltonian becomes non-diagonalizable.
+Aside from this degeneracy, we show that NH systems may host two further types
+of degeneracies, namely, non-defective EPs and ordinary (Hermitian) nodal
+points. The non-defective EPs manifest themselves by i) the diagonalizability
+of the NH Hamiltonian at these points, ii) the non-diagonalizability of the
+Hamiltonian along certain intersections of these points and iii) instabilities
+in the Jordan decomposition when approaching the points from certain
+directions. We demonstrate that certain discrete symmetries, namely
+parity-time, parity-particle-hole, and pseudo-Hermitian symmetry, guarantee the
+occurrence of both defective and non-defective EPs. We extend this list of
+symmetries by including the NH time-reversal symmetry in two-band systems.
+Two-band and four-band models exemplify our findings. Through an example, we
+further reveal that ordinary nodal points may coexist with defective EPs in NH
+models when the above symmetries are relaxed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Sayyad_S/0/1/0/all/0/1&quot;&gt;Sharareh Sayyad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Stalhammar_M/0/1/0/all/0/1&quot;&gt;Marcus Stalhammar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Rodland_L/0/1/0/all/0/1&quot;&gt;Lukas Rodland&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kunst_F/0/1/0/all/0/1&quot;&gt;Flore K. Kunst&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.14993">
+<title>Josephson junctions of 2D time-reversal invariant superconductors: signatures of the topological phase. (arXiv:2205.14993v3 [cond-mat.supr-con] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.14993</link>
+<description rdf:parseType="Literal">&lt;p&gt;We determine the current-phase relation (CPR) of two-terminal configurations
+of Josephson junctions containing two-dimensional (2D) time-reversal invariant
+topological superconductors (TRITOPS), including TRITOPS-TRITOPS, as well as
+junctions between topological and non-topological superconductors (TRITOPS-S).
+We focus on long junctions for which several channels intervene in the
+tunneling coupling through the junction. We present a description of the
+topological edge modes for different TRITOPS models including $p$-wave pairing
+and the combination of $s$-wave pairing with spin-orbit coupling. We derive
+effective low-energy Hamiltonians to describe the Josephson junction, which can
+be solved analytically to explain the contribution of the edge states to the
+Josephson current as a function of the phase bias. We find that edge-modes
+yield singular corrections to the CPR for both junction types. The primary
+effects occur for the response of the Majorana zero-modes at half-flux quantum
+phase $\phi\approx \pi$ in TRITOPS-TRITOPS junctions and for integer flux
+quantum phase $\phi \approx 0$ for TRITOPS-S junctions, respectively. The
+former effect is particularly strong two-component nematic superconductors. The
+latter effect leads to a spontaneously broken time-reversal symmetry in the
+TRITOPS-S junction and to a breakdown of the bulk-boundary correspondence.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ruiz_G/0/1/0/all/0/1&quot;&gt;Gabriel F. Rodr&amp;#xed;guez Ruiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rampp_M/0/1/0/all/0/1&quot;&gt;Michael A. Rampp&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Aligia_A/0/1/0/all/0/1&quot;&gt;A. A. Aligia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schmalian_J/0/1/0/all/0/1&quot;&gt;Joerg Schmalian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Arrachea_L/0/1/0/all/0/1&quot;&gt;Liliana Arrachea&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.09922">
+<title>Enhanced superconductivity through virtual tunneling in Bernal bilayer graphene coupled to WSe$_2$. (arXiv:2206.09922v3 [cond-mat.supr-con] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.09922</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motivated by a recent experiment [&lt;a href=&quot;/abs/2205.05087&quot;&gt;arXiv:2205.05087&lt;/a&gt;], we investigate a
+possible mechanism that enhances superconductivity in hole-doped Bernal bilayer
+graphene due to a proximate WSe$_2$ monolayer. We show that the virtual
+tunneling between WSe$_2$ and Bernal bilayer graphene, which is known to induce
+Ising spin-orbit coupling, can generate an additional attraction between two
+holes, providing a potential explanation for enhancing superconductivity in
+Bernal bilayer graphene. Using microscopic interlayer tunneling, we derive the
+Ising spin-orbit coupling and the effective attraction as functions of the
+twist angle between Bernal bilayer graphene and the WSe$_2$ monolayer. Our
+theory provides an intuitive and physical explanation for the intertwined
+relation between Ising spin-orbit coupling and superconductivity enhancement,
+which should motivate future studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chou_Y/0/1/0/all/0/1&quot;&gt;Yang-Zhi Chou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wu_F/0/1/0/all/0/1&quot;&gt;Fengcheng Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Sarma_S/0/1/0/all/0/1&quot;&gt;Sankar Das Sarma&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.13427">
+<title>Single exciton trapping in an electrostatically defined 2D semiconductor quantum dot. (arXiv:2206.13427v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.13427</link>
+<description rdf:parseType="Literal">&lt;p&gt;Interlayer excitons (IXs) in 2D semiconductors have long lifetimes and
+spin-valley coupled physics, with a long-standing goal of single exciton
+trapping for valleytronic applications. In this work, we use a nano-patterned
+graphene gate to create an electrostatic IX trap. We measure a unique
+power-dependent blue-shift of IX energy, where narrow linewidth emission
+exhibits discrete energy jumps. We attribute these jumps to quantized increases
+of the number occupancy of IXs within the trap and compare to a theoretical
+model to assign the lowest energy emission line to single IX recombination.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Shanks_D/0/1/0/all/0/1&quot;&gt;Daniel N. Shanks&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mahdikhanysarvejahany_F/0/1/0/all/0/1&quot;&gt;Fateme Mahdikhanysarvejahany&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Koehler_M/0/1/0/all/0/1&quot;&gt;Michael R. Koehler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mandrus_D/0/1/0/all/0/1&quot;&gt;David G. Mandrus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Taniguchi_T/0/1/0/all/0/1&quot;&gt;Takashi Taniguchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Watanabe_K/0/1/0/all/0/1&quot;&gt;Kenji Watanabe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+LeRoy_B/0/1/0/all/0/1&quot;&gt;Brian J. LeRoy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schaibley_J/0/1/0/all/0/1&quot;&gt;John R. Schaibley&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.00889">
+<title>Lattice Fermionic Casimir effect in a Slab Bag and Universality. (arXiv:2207.00889v4 [hep-lat] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.00889</link>
+<description rdf:parseType="Literal">&lt;p&gt;We apply the physically more appealing MIT Bag boundary conditions to study
+the Casimir effect on the lattice. Employing the formalism of &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt;
+to calculate the Casimir energy for free lattice fermions, we show that the
+results for the naive, Wilson and overlap fermions match the continuum
+expressions precisely in the zero lattice spacing limit, as expected from
+universality. In contrast to &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; where the result for the naive
+fermions rapidly oscillates with the lattice size for both, the periodic (P)
+and anti-periodic (AP) boundary conditions, no oscillations are observed with
+the lattice size. Furthermore, the apparent violation of the universality for
+naive fermion in &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; is shown to be cured by applying suitable
+series extrapolation techniques, thus demonstrating that the Casimir energy for
+the naive fermions with periodic/antiperiodic boundary conditions agrees with
+the results for other free lattice fermions, and can as well be used to obtain
+the results for the Dirac fermion in the zero limit of the lattice spacing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Mandlecha_Y/0/1/0/all/0/1&quot;&gt;Yash V. Mandlecha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Gavai_R/0/1/0/all/0/1&quot;&gt;Rajiv V. Gavai&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.07454">
+<title>High frequency torsional motion transduction using optomechanical coupled oscillators. (arXiv:2208.07454v2 [physics.optics] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.07454</link>
+<description rdf:parseType="Literal">&lt;p&gt;Using light to measure an object&apos;s motion is central to operating mechanical
+sensors that probe forces and fields. Cavity optomechanical systems embed
+mechanical resonators inside optical resonators. This enhances the sensitivity
+of optomechanical measurements, but only if the mechanical resonator does not
+spoil the properties of the optical cavity. For example, cavity optomechanical
+detection of resonators made from optically absorbing materials, or whose
+geometry does not possess suitable spatial symmetry, is challenging. Here we
+demonstrate a system that overcomes challenges in measuring high-frequency
+twisting motion of a nanodisk by converting them to vibrations of a photonic
+crystal cavity. Optomechanical readout of the cavity then enables measurement
+of the nanodisk&apos;s torsional resonances with sensitivity $5.1\times
+10^{-21}-1.2\times 10^{-19}\,\text{Nm}/\sqrt{\text{Hz}}$ for a mechanical
+frequency range of 5--800 MHz. The nanodisk can be outfitted with magnetic
+nanostructures or metasurfaces without affecting the optical properties of the
+cavity, making the system suitable for torque magnetometry and structured light
+sensing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kaviani_H/0/1/0/all/0/1&quot;&gt;Hamidreza Kaviani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Behera_B/0/1/0/all/0/1&quot;&gt;Bishnupada Behera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Hajisalem_G/0/1/0/all/0/1&quot;&gt;Ghazal Hajisalem&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Luiz_G/0/1/0/all/0/1&quot;&gt;Gustavo de Oliveira Luiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lake_D/0/1/0/all/0/1&quot;&gt;David P. Lake&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Barclay_P/0/1/0/all/0/1&quot;&gt;Paul E. Barclay&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.10769">
+<title>Ferroelectricity-driven phonon Berry curvature and non-linear phonon Hall transports. (arXiv:2209.10769v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.10769</link>
+<description rdf:parseType="Literal">&lt;p&gt;Berry curvature (BC) governs topological phases of matter and generates
+anomalous transport. When a magnetic field is applied, phonons can acquire BC
+indirectly through spin-lattice coupling, leading to a linear phonon Hall
+effect. Here, we show that polar lattice distortion directly couples to a
+phonon BC dipole, which causes a switchable non-linear phonon Hall effect. In a
+SnS monolayer, the in-plane ferroelectricity induces a phonon BC and leads to
+the phononic version of the non-volatile BC memory effect. As a new type of
+ferroelectricity-phonon coupling, the phonon Rashba effect emerges and opens a
+mass-gap in tilted Weyl phonon modes, resulting in a large phonon BC dipole.
+Furthermore, our ab initio non-equilibrium molecular dynamics simulations
+reveal that non-linear phonon Hall transport occurs in a controllable manner
+via ferroelectric switching. The ferroelectricity-driven phonon BC and
+corresponding non-linear phonon transports provide a novel scheme for
+constructing topological phononic transport/memory devices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Im_J/0/1/0/all/0/1&quot;&gt;Jino Im&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_C/0/1/0/all/0/1&quot;&gt;Choong H. Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jin_H/0/1/0/all/0/1&quot;&gt;Hosub Jin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.15155">
+<title>Negative refraction in hyperbolic hetero-bicrystals. (arXiv:2209.15155v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.15155</link>
+<description rdf:parseType="Literal">&lt;p&gt;We visualized negative refraction of phonon-polaritons in hetero-bicrystals
+of two hyperbolic van der Waals materials: molybdenum oxide ($MoO_3$) and
+isotopically pure hexagonal boron nitride ($h^{11}BN$). The polaritons -
+hybrids of infrared photons and lattice vibrations - form collimated rays that
+display negative refraction when passing through a planar interface between the
+$h^{11}BN$ and $MoO_3$ crystals. At a special frequency $\omega_0$, these rays
+can circulate along closed diamond-shaped trajectories. We show that polariton
+eigenmodes display regions of both positive and negative dispersion interrupted
+by multiple gaps resulting from polaritonic level repulsion.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Sternbach_A/0/1/0/all/0/1&quot;&gt;A. J. Sternbach&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Moore_S/0/1/0/all/0/1&quot;&gt;S. Moore&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rikhter_A/0/1/0/all/0/1&quot;&gt;A. Rikhter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhang_S/0/1/0/all/0/1&quot;&gt;S. Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jing_R/0/1/0/all/0/1&quot;&gt;R. Jing&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Shao_Y/0/1/0/all/0/1&quot;&gt;Y. Shao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kim_B/0/1/0/all/0/1&quot;&gt;B. Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;S. Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rubio_A/0/1/0/all/0/1&quot;&gt;A. Rubio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dean_C/0/1/0/all/0/1&quot;&gt;C. Dean&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hone_J/0/1/0/all/0/1&quot;&gt;J. Hone&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fogler_M/0/1/0/all/0/1&quot;&gt;M. M. Fogler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Basov_D/0/1/0/all/0/1&quot;&gt;D. N. Basov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.15187">
+<title>Perspectives on Antiferromagnetic Spintronics. (arXiv:2209.15187v2 [cond-mat.mtrl-sci] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.15187</link>
+<description rdf:parseType="Literal">&lt;p&gt;Although the development of spintronic devices has advanced significantly
+over the past decade with the use of ferromagnetic materials, the extensive
+implementation of such devices has been limited by the notable drawbacks of
+these materials. Antiferromagnets claim to resolve many of these shortcomings
+leading to faster, smaller, more energy-efficient, and more robust electronics.
+Antiferromagnets exhibit many desirable properties including zero net
+magnetization, imperviousness to external magnetic fields, intrinsic
+high-frequency dynamics with a characteristic precession frequency on the order
+of terahertz (THz), and the ability to serve as passive exchange-bias materials
+in multiple magnetoresistance (MR)- based devices. In this Perspective article,
+we will discuss the fundamental physics of magnetic structures in
+antiferromagnets and their interactions with external stimuli such as spin
+current, voltage, and magnons. A discussion on the challenges lying ahead is
+also provided along with an outlook of future research directions of these
+systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_K/0/1/0/all/0/1&quot;&gt;Kang Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bheemarasetty_V/0/1/0/all/0/1&quot;&gt;Vineetha Bheemarasetty&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Duan_J/0/1/0/all/0/1&quot;&gt;Junhang Duan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhou_S/0/1/0/all/0/1&quot;&gt;Shiyu Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Xiao_G/0/1/0/all/0/1&quot;&gt;Gang Xiao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.01259">
+<title>A perspective on microscopic pressure (stress) tensor: history, current understanding, and future challenges. (arXiv:2210.01259v2 [physics.chem-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.01259</link>
+<description rdf:parseType="Literal">&lt;p&gt;The pressure tensor (equivalent to the negative stress tensor) at both
+microscopic and macroscopic levels is fundamental to many aspects of
+engineering and science, including fluid dynamics, solid mechanics, biophysics,
+and thermodynamics. In this perspective paper, we review methods to calculate
+the microscopic pressure tensor. Connections between different pressure forms
+for equilibrium and non-equilibrium systems are established. We also point out
+several challenges in the field, including the historical controversies over
+the definition of the microscopic pressure tensor; the difficulties with
+many-body and long-range potentials; the insufficiency of software and
+computational tools; and the lack of experimental routes to probe the pressure
+tensor at the nanoscale. Possible future directions are suggested.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Shi_K/0/1/0/all/0/1&quot;&gt;Kaihang Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Smith_E/0/1/0/all/0/1&quot;&gt;Edward Smith&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Santiso_E/0/1/0/all/0/1&quot;&gt;Erik E. Santiso&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Gubbins_K/0/1/0/all/0/1&quot;&gt;Keith E. Gubbins&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.05053">
+<title>Strong coupling of a Gd$^{3+}$ multilevel spin system to an on-chip superconducting resonator. (arXiv:2210.05053v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.05053</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report the realization of a strong coupling between a Gd$^{3+}$ spin
+ensemble hosted in a scheelite (CaWO$_4$) single crystal and the resonant mode
+of a coplanar stripline superconducting cavity leading to a large separation of
+spin-photon states of 146 MHz. The interaction is well described by the Dicke
+model and the crystal-field Hamiltonian of the multilevel spin system. We
+observe a change of the crystal-field parameters due to the presence of photons
+in the cavity that generates a significant perturbation of the crystal ground
+state. Using finite-element calculations, we numerically estimate the cavity
+sensing volume as well as the average spin-photon coupling strength of
+$g_0\approx$ 620 Hz. Lastly, the dynamics of the spin-cavity states are
+explored via pulsed measurements by recording the cavity ring-down signal as a
+function of pulse length and amplitude. The results indicate a potential method
+to initialize this multilevel system in its ground state via an active cooling
+process.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Franco_Rivera_G/0/1/0/all/0/1&quot;&gt;Giovanni Franco-Rivera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Cochran_J/0/1/0/all/0/1&quot;&gt;Josiah Cochran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Miyashita_S/0/1/0/all/0/1&quot;&gt;Seiji Miyashita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bertaina_S/0/1/0/all/0/1&quot;&gt;Sylvain Bertaina&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Chiorescu_I/0/1/0/all/0/1&quot;&gt;Irinel Chiorescu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16762">
+<title>Spin hydrodynamic generation in unsteady flows. (arXiv:2210.16762v2 [physics.flu-dyn] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16762</link>
+<description rdf:parseType="Literal">&lt;p&gt;We theoretically investigate a spin-mediated conversion from fluid dynamics
+to voltage, known as spin hydrodynamic generation (SHDG), in oscillatory and
+transient unsteady flows. We consider unsteady flows of liquid metal between
+two parallel infinite planes and then calculate its vorticity fields based on
+the Navier--Stokes equation for an incompressible viscous fluid. The spin
+accumulation and spin current generated by unsteady flows are derived using a
+spin-diffusion equation, including spin-vorticity coupling, which is a couple
+of angular momentum between electron spin and vorticity field in unsteady
+flows. The estimation of SHDG in liquid mercury flow suggests that an
+observable magnitude of voltage can be induced in unsteady flows. Our results
+are expected to enable the realization of high-speed spin devices with unsteady
+flows and broaden the range of fluid spintronics applicability.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Funato_T/0/1/0/all/0/1&quot;&gt;Takumi Funato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Matsuo_M/0/1/0/all/0/1&quot;&gt;Mamoru Matsuo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00560">
+<title>2D Janus Niobium Oxydihalide NbO$XY$: Multifunctional High-Mobility Piezoelectric Semiconductor for Electronics, Photonics and Sustainable Energy Applications. (arXiv:2211.00560v2 [cond-mat.mtrl-sci] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00560</link>
+<description rdf:parseType="Literal">&lt;p&gt;Two-dimensional (2D) niobium oxydihalide NbOI$_2$ has been recently
+demonstrated as an excellent in-plane piezoelectric and nonlinear optical
+materials. Here we show that Janus niobium oxydihalide, NbO$XY$ (X, Y = Cl, Br,
+I and X$\neq$Y), is a multifunctional anisotropic semiconductor family with
+exceptional piezoelectric, electronic, photocatalytic and optical properties.
+NbO$XY$ are stable and mechancially flexible monolayers with band gap around
+the visible light regime of $\sim 1.9$ eV. The anisotropic carrier mobility of
+NbO$XY$ lies in the range of $10^3 \sim 10^4$ cm$^2$V$^{-1}$s$^{-1}$, which
+represents some of the highest among 2D semiconductors of bandgap $\gtrsim 2$
+eV. Inversion symmetry breaking in Janus NbO$XY$ generates sizable out-of-plane
+$d_{31}$ piezoelectric response while still retaining a strong in-plane
+piezoelectricity. Remarkably, NbO$XY$ exhibits an additional out-of-plane
+piezoelectric response, $d_{32}$ as large as 0.55 pm/V. G$_0$W$_0$-BSE
+calculation further reveals the strong linear optical dichroism of NbO$XY$ in
+the visible-to-ultraviolet regime. The optical absorption peaks with $14\sim18$
+\% in the deep UV regime ($5\sim6$ eV), outperforming the vast majority of
+other 2D materials. The high carrier mobility, strong optical absorption,
+sizable built-in electric field and band alignment compatible with overall
+water splitting further suggest the strengths of NbO$XY$ in energy conversion
+application. We further propose a directional stress sensing device to
+demonstrate how the out-of-plane piezoelectricity can be harnessed for
+functional device applications. Our findings unveil NbO$XY$ as an exceptional
+multifunctional 2D semiconductor for flexible electronics, optoelectronics, UV
+photonics, piezoelectric and sustainable energy applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Su_T/0/1/0/all/0/1&quot;&gt;Tong Su&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lee_C/0/1/0/all/0/1&quot;&gt;Ching Hua Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Guo_S/0/1/0/all/0/1&quot;&gt;San-Dong Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_G/0/1/0/all/0/1&quot;&gt;Guangzhao Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ong_W/0/1/0/all/0/1&quot;&gt;Wee-Liat Ong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhao_W/0/1/0/all/0/1&quot;&gt;Weiwei Zhao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_S/0/1/0/all/0/1&quot;&gt;Shengyuan A. Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ang_Y/0/1/0/all/0/1&quot;&gt;Yee Sin Ang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00679">
+<title>Quantum phase transitions in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric transverse-field Ising spin chains. (arXiv:2211.00679v1 [quant-ph] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.00679</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a theoretical study of quantum phases and quantum phase
+transitions occurring in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric
+superconducting qubits chains described by a transverse-field Ising spin model.
+A non-Hermitian part of the Hamiltonian is implemented via imaginary staggered
+\textit{longitudinal } magnetic field, which corresponds to a local staggered
+gain and loss terms. By making use of a direct numerical diagonalization of the
+Hamiltonian for spin chains of a finite size $N$, we explore the dependencies
+of the energy spectrum, including the energy difference between the first
+excited and the ground states, the spatial correlation function of local
+polarization ($z$-component of local magnetization) on the adjacent spins
+interaction strength $J$ and the local gain (loss) parameter $\gamma$. A
+scaling procedure for the coherence length $\xi$ allows us to establish a
+complete quantum phase diagram of the system. We obtain two quantum phases for
+$J&amp;lt;0$, namely, $\mathcal{P}\mathcal{T}$-symmetry broken antiferromagnetic state
+and $\mathcal{P}\mathcal{T}$-symmetry preserved paramagnetic state, and the
+quantum phase transition line between them is the line of exception points. For
+$J&amp;gt;0$ the $\mathcal{P}\mathcal{T}$-symmetry of the ground state is retained in
+a whole region of parameter space of $J$ and $\gamma$, and a system shows
+\textit{two} intriguing quantum phase transitions between ferromagnetic and
+paramagnetic states for a fixed parameter $\gamma &amp;gt; 1$. We also provide the
+qualitative quantum phase diagram $\gamma-J$ derived in the framework of the
+Bethe-Peierls approximation that is in a good accord with numerically obtained
+results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Starkov_G/0/1/0/all/0/1&quot;&gt;Grigory A. Starkov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fistoul_M/0/1/0/all/0/1&quot;&gt;Mikhail V. Fistoul&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Eremin_I/0/1/0/all/0/1&quot;&gt;Ilya M. Eremin&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
