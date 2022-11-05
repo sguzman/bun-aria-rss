@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42810 (ipados, iphone_os, macos, tvos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42810",
+  "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, tvOS 16.1, iOS 16.1 and iPadOS 16, macOS Ventura 13. Processing a maliciously crafted USD file may disclose memory contents.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}
