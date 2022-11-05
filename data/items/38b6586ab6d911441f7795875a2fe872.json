@@ -1,0 +1,18 @@
+{
+  "title": "IoT security and the need for randomness. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/203/notes",
+  "description": "Dan Petro, Lead Researcher, and Allan Cecil, Security Consultant, from Bishop Fox join Dave to share their research \"You're Doing IoT RNG,\" that they presented at DefCon 29. There’s a crack in the foundation of Internet of Things (IoT) security, one that affects 35 billion devices worldwide. Basically, every IoT device with a hardware random number generator (RNG) contains a serious vulnerability whereby it fails to properly generate random numbers, which undermines security for any upstream use. In order to perform most security-relevant operations, computers need to generate secrets via an RNG. These secrets then form the basis of cryptography, access controls, authentication, and more. The details of exactly how and why these secrets are generated varies for each use.\nThe research can be found here:\nYou're Doing IoT RNG",
+  "pubDate": "Sat, 02 Oct 2021 07:00:00 -0000",
+  "itunes:title": "IoT security and the need for randomness. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 203,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Dan Petro, Lead Researcher, and Allan Cecil, Security Consultant, from Bishop Fox join Dave to share their research \"You're Doing IoT RNG,\" that they presented at DefCon 29. There’s a crack in the foundation of Internet of Things (IoT) security, one that affects 35 billion devices worldwide. Basically, every IoT device with a hardware random number generator (RNG) contains a serious vulnerability whereby it fails to properly generate random numbers, which undermines security for any upstream use. In order to perform most security-relevant operations, computers need to generate secrets via an RNG. These secrets then form the basis of cryptography, access controls, authentication, and more. The details of exactly how and why these secrets are generated varies for each use.\nThe research can be found here:\nYou're Doing IoT RNG",
+  "content:encoded": "<p>Dan Petro, Lead Researcher, and Allan Cecil, Security Consultant, from Bishop Fox join Dave to share their research \"You're Doing IoT RNG,\" that they presented at DefCon 29. There’s a crack in the foundation of Internet of Things (IoT) security, one that affects 35 billion devices worldwide. Basically, every IoT device with a hardware random number generator (RNG) contains a serious vulnerability whereby it fails to properly generate random numbers, which undermines security for any upstream use. In order to perform most security-relevant operations, computers need to generate secrets via an RNG. These secrets then form the basis of cryptography, access controls, authentication, and more. The details of exactly how and why these secrets are generated varies for each use.</p><p>The research can be found here:</p><ul><li><a href=\"https://labs.bishopfox.com/tech-blog/youre-doing-iot-rng\">You're Doing IoT RNG</a></li></ul>",
+  "itunes:duration": 2015,
+  "itunes:explicit": "no",
+  "guid": "62c539fc-208e-11ec-8697-b3ff3d0779cd",
+  "enclosure": ""
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3790 (flowpaper)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3790",
+  "description": "A vulnerability was found in Flipbook Plugin and classified as problematic. Affected by this issue is some unknown functionality of the file post.php of the component Edit Post Handler. The manipulation of the argument Shortcode leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212612.",
+  "dc:date": "2022-11-01T14:15:12Z"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2018-20836 (active_iq_unified_manager, debian_linux, hci_compute_node, leap, linux_kernel, snapprotect, solidfire_&_hci_management_node, solidfire_&_hci_storage_node, storage_replication_adapter_for_clustered_data_ontap, traffix_signaling_delivery_controller, ubuntu_linux, vasa_provider_for_clustered_data_ontap, virtual_storage_console)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2018-20836",
+  "description": "An issue was discovered in the Linux kernel before 4.20. There is a race condition in smp_task_timedout() and smp_task_done() in drivers/scsi/libsas/sas_expander.c, leading to a use-after-free.",
+  "dc:date": "2019-05-07T14:29:00Z"
+}
