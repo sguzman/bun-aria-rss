@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.IR updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Information Retrieval (cs.IR) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Information Retrieval</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01488" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01494" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01768" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01976" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2112.08766" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.01289" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.13255" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.06190" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.10678" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.11947" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00732" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01334" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01488">
+<title>A study linking patient EHR data to external death data at Stanford Medicine. (arXiv:2211.01488v1 [cs.DB])</title>
+<link>http://arxiv.org/abs/2211.01488</link>
+<description rdf:parseType="Literal">&lt;p&gt;This manuscript explores linking real-world patient data with external death
+data in the context of research Clinical Data Warehouses (r-CDWs). We
+specifically present the linking of Electronic Health Records (EHR) data for
+Stanford Health Care (SHC) patients and data from the Social Security
+Administration (SSA) Limited Access Death Master File (LADMF) made available by
+the US Department of Commerce&apos;s National Technical Information Service (NTIS).
+&lt;/p&gt;
+&lt;p&gt;The data analysis framework presented in this manuscript extends prior
+approaches and is generalizable to linking any two cross-organizational
+real-world patient data sources. Electronic Health Record (EHR) data and NTIS
+LADMF are heavily used resources at other medical centers and we expect that
+the methods and learnings presented here will be valuable to others. Our
+findings suggest that strong linkages are incomplete and weak linkages are
+noisy i.e., there is no good linkage rule that provides coverage and accuracy.
+Furthermore, the best linkage rule for any two datasets is different from the
+best linkage rule for two other datasets i.e., there is no generalization of
+linkage rules. Finally, LADMF, a commonly used external death data resource for
+r-CDWs, has a significant gap in death data making it necessary for r-CDWs to
+seek out more than one external death data source. We anticipate that
+presentation of multiple linkages will make it hard to present the linkage
+outcome to the end user.
+&lt;/p&gt;
+&lt;p&gt;This manuscript is a resource in support of Stanford Medicine STARR (STAnford
+medicine Research data Repository) r-CDWs. The data are stored and analyzed as
+PHI in our HIPAA-compliant data center and are used under research and
+development (R&amp;amp;D) activities of STARR IRB.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Peralta_A/0/1/0/all/0/1&quot;&gt;Alvaro Andres Alvarez Peralta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Desai_P/0/1/0/all/0/1&quot;&gt;Priya Desai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Datta_S/0/1/0/all/0/1&quot;&gt;Somalee Datta&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01494">
+<title>Regression Compatible Listwise Objectives for Calibrated Ranking. (arXiv:2211.01494v1 [cs.IR])</title>
+<link>http://arxiv.org/abs/2211.01494</link>
+<description rdf:parseType="Literal">&lt;p&gt;As Learning-to-Rank (LTR) approaches primarily seek to improve ranking
+quality, their output scores are not scale-calibrated by design -- for example,
+adding a constant to the score of each item on the list will not affect the
+list ordering. This fundamentally limits LTR usage in score-sensitive
+applications. Though a simple multi-objective approach that combines a
+regression and a ranking objective can effectively learn scale-calibrated
+scores, we argue that the two objectives can be inherently conflicting, which
+makes the trade-off far from ideal for both of them. In this paper, we propose
+a novel regression compatible ranking (RCR) approach to achieve a better
+trade-off. The advantage of the proposed approach is that the regression and
+ranking components are well aligned which brings new opportunities for
+harmonious regression and ranking. Theoretically, we show that the two
+components share the same minimizer at global minima while the regression
+component ensures scale calibration. Empirically, we show that the proposed
+approach performs well on both regression and ranking metrics on several public
+LTR datasets, and significantly improves the Pareto frontiers in the context of
+multi-objective optimization. Furthermore, we evaluated the proposed approach
+on YouTube Search and found that it not only improved the ranking quality of
+the production pCTR model, but also brought gains to the click prediction
+accuracy.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bai_A/0/1/0/all/0/1&quot;&gt;Aijun Bai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jagerman_R/0/1/0/all/0/1&quot;&gt;Rolf Jagerman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qin_Z/0/1/0/all/0/1&quot;&gt;Zhen Qin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kar_P/0/1/0/all/0/1&quot;&gt;Pratyush Kar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_B/0/1/0/all/0/1&quot;&gt;Bing-Rong Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xuanhui Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bendersky_M/0/1/0/all/0/1&quot;&gt;Michael Bendersky&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Najork_M/0/1/0/all/0/1&quot;&gt;Marc Najork&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01768">
+<title>Embedding Knowledge Graph of Patent Metadata to Measure Knowledge Proximity. (arXiv:2211.01768v1 [cs.IR])</title>
+<link>http://arxiv.org/abs/2211.01768</link>
+<description rdf:parseType="Literal">&lt;p&gt;Knowledge proximity refers to the strength of association between any two
+entities in a structural form that embodies certain aspects of a knowledge
+base. In this work, we operationalize knowledge proximity within the context of
+the US Patent Database (knowledge base) using a knowledge graph (structural
+form) named PatNet built using patent metadata, including citations, inventors,
+assignees, and domain classifications. Using several graph embedding models
+(e.g., TransE, RESCAL), we obtain the embeddings of entities and relations that
+constitute PatNet. The cosine similarity between the corresponding (or
+transformed) embeddings entities denotes the knowledge proximity between these.
+We evaluate the plausibility of these embeddings across different models in
+predicting target entities. We also evaluate the meaningfulness of knowledge
+proximity to explain the domain expansion profiles of inventors and assignees.
+We then apply the embeddings of the best-preferred model to associate
+homogeneous (e.g., patent-patent) and heterogeneous (e.g., inventor-assignee)
+pairs of entities.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_G/0/1/0/all/0/1&quot;&gt;Guangtong Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Siddharth_L/0/1/0/all/0/1&quot;&gt;L Siddharth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luo_J/0/1/0/all/0/1&quot;&gt;Jianxi Luo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01976">
+<title>Enhancing Patent Retrieval using Text and Knowledge Graph Embeddings: A Technical Note. (arXiv:2211.01976v1 [cs.IR])</title>
+<link>http://arxiv.org/abs/2211.01976</link>
+<description rdf:parseType="Literal">&lt;p&gt;Patent retrieval influences several applications within engineering design
+research, education, and practice as well as applications that concern
+innovation, intellectual property, and knowledge management etc. In this
+article, we propose a method to retrieve patents relevant to an initial set of
+patents, by synthesizing state-of-the-art techniques among natural language
+processing and knowledge graph embedding. Our method involves a patent
+embedding that captures text, citation, and inventor information, which
+individually represent different facets of knowledge communicated through a
+patent document. We obtain text embeddings using Sentence-BERT applied to
+titles and abstracts. We obtain citation and inventor embeddings through TransE
+that is trained using the corresponding knowledge graphs. We identify using a
+classification task that the concatenation of text, citation, and inventor
+embeddings offers a plausible representation of a patent. While the proposed
+patent embedding could be used to associate a pair of patents, we observe using
+a recall task that multiple initial patents could be associated with a target
+patent using mean cosine similarity, which could then be utilized to rank all
+target patents and retrieve the most relevant ones. We apply the proposed
+patent retrieval method to a set of patents corresponding to a product family
+and an inventor&apos;s portfolio.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Siddharth_L/0/1/0/all/0/1&quot;&gt;L Siddharth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_G/0/1/0/all/0/1&quot;&gt;Guangtong Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Luo_J/0/1/0/all/0/1&quot;&gt;Jianxi Luo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2112.08766">
+<title>CODER: An efficient framework for improving retrieval through COntextual Document Embedding Reranking. (arXiv:2112.08766v3 [cs.IR] UPDATED)</title>
+<link>http://arxiv.org/abs/2112.08766</link>
+<description rdf:parseType="Literal">&lt;p&gt;Contrastive learning has been the dominant approach to training dense
+retrieval models. In this work, we investigate the impact of ranking context -
+an often overlooked aspect of learning dense retrieval models. In particular,
+we examine the effect of its constituent parts: jointly scoring a large number
+of negatives per query, using retrieved (query-specific) instead of random
+negatives, and a fully list-wise loss. To incorporate these factors into
+training, we introduce Contextual Document Embedding Reranking (CODER), a
+highly efficient retrieval framework. When reranking, it incurs only a
+negligible computational overhead on top of a first-stage method at run time
+(delay per query in the order of milliseconds), allowing it to be easily
+combined with any state-of-the-art dual encoder method. After fine-tuning
+through CODER, which is a lightweight and fast process, models can also be used
+as stand-alone retrievers. Evaluating CODER in a large set of experiments on
+the MS~MARCO and TripClick collections, we show that the contextual reranking
+of precomputed document embeddings leads to a significant improvement in
+retrieval performance. This improvement becomes even more pronounced when more
+relevance information per query is available, shown in the TripClick
+collection, where we establish new state-of-the-art results by a large margin.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zerveas_G/0/1/0/all/0/1&quot;&gt;George Zerveas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rekabsaz_N/0/1/0/all/0/1&quot;&gt;Navid Rekabsaz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cohen_D/0/1/0/all/0/1&quot;&gt;Daniel Cohen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Eickhoff_C/0/1/0/all/0/1&quot;&gt;Carsten Eickhoff&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.01289">
+<title>On Ranking Consistency of Pre-ranking Stage. (arXiv:2205.01289v5 [cs.IR] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.01289</link>
+<description rdf:parseType="Literal">&lt;p&gt;Industrial ranking systems, such as advertising systems, rank items by
+aggregating multiple objectives into one final objective to satisfy user demand
+and commercial intent. Cascade architecture, composed of retrieval,
+pre-ranking, and ranking stages, is usually adopted to reduce the computational
+cost. Each stage may employ various models for different objectives and
+calculate the final objective by aggregating these models&apos; outputs. The
+multi-stage ranking strategy causes a new problem - the ranked lists of the
+ranking stage and previous stages may be inconsistent. For example, items that
+should be ranked at the top of the ranking stage may be ranked at the bottom of
+previous stages. In this paper, we focus on the \textbf{ranking consistency}
+between the pre-ranking and ranking stages. Specifically, we formally define
+the problem of ranking consistency and propose the Ranking Consistency Score
+(RCS) metric for evaluation. We demonstrate that ranking consistency has a
+direct impact on online performance. Compared with the traditional evaluation
+manner that mainly focuses on the individual ranking quality of every
+objective, RCS considers the ranking consistency of the fused final objective,
+which is more proper for evaluation. Finally, to improve the ranking
+consistency, we propose several methods from the perspective of sample
+selection and learning algorithms. Experimental results on one of the biggest
+industrial E-commerce platforms in China validate the efficacy of the proposed
+metrics and methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gu_S/0/1/0/all/0/1&quot;&gt;Siyu Gu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sheng_X/0/1/0/all/0/1&quot;&gt;Xiangrong Sheng&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.13255">
+<title>Active Labeling: Streaming Stochastic Gradients. (arXiv:2205.13255v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.13255</link>
+<description rdf:parseType="Literal">&lt;p&gt;The workhorse of machine learning is stochastic gradient descent. To access
+stochastic gradients, it is common to consider iteratively input/output pairs
+of a training dataset. Interestingly, it appears that one does not need full
+supervision to access stochastic gradients, which is the main motivation of
+this paper. After formalizing the &quot;active labeling&quot; problem, which focuses on
+active learning with partial supervision, we provide a streaming technique that
+provably minimizes the ratio of generalization error over the number of
+samples. We illustrate our technique in depth for robust regression.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cabannes_V/0/1/0/all/0/1&quot;&gt;Vivien Cabannes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bach_F/0/1/0/all/0/1&quot;&gt;Francis Bach&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Perchet_V/0/1/0/all/0/1&quot;&gt;Vianney Perchet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rudi_A/0/1/0/all/0/1&quot;&gt;Alessandro Rudi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.06190">
+<title>TransRec: Learning Transferable Recommendation from Mixture-of-Modality Feedback. (arXiv:2206.06190v2 [cs.IR] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.06190</link>
+<description rdf:parseType="Literal">&lt;p&gt;Learning large-scale pre-trained models on broad-ranging data and then
+transfer to a wide range of target tasks has become the de facto paradigm in
+many machine learning (ML) communities. Such big models are not only strong
+performers in practice but also offer a promising way to break out of the
+task-specific modeling restrictions, thereby enabling task-agnostic and unified
+ML systems. However, such a popular paradigm is mainly unexplored by the
+recommender systems (RS) community. A critical issue is that standard
+recommendation models are primarily built on categorical identity features.
+That is, the users and the interacted items are represented by their unique
+IDs, which are generally not shareable across different systems or platforms.
+To pursue the transferable recommendations, we propose studying pre-trained RS
+models in a novel scenario where a user&apos;s interaction feedback involves a
+mixture-of-modality (MoM) items, e.g., text and images. We then present
+TransRec, a very simple modification made on the popular ID-based RS framework.
+TransRec learns directly from the raw features of the MoM items in an
+end-to-end training manner and thus enables effective transfer learning under
+various scenarios without relying on overlapped users or items. We empirically
+study the transferring ability of TransRec across four different real-world
+recommendation settings. Besides, we look at its effects by scaling source and
+target data size. Our results suggest that learning neural recommendation
+models from MoM feedback provides a promising way to realize universal RS.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jie Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yuan_F/0/1/0/all/0/1&quot;&gt;Fajie Yuan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cheng_M/0/1/0/all/0/1&quot;&gt;Mingyue Cheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jose_J/0/1/0/all/0/1&quot;&gt;Joemon M. Jose&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_C/0/1/0/all/0/1&quot;&gt;Chenyun Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kong_B/0/1/0/all/0/1&quot;&gt;Beibei Kong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+He_X/0/1/0/all/0/1&quot;&gt;Xiangnan He&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhijin Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hu_B/0/1/0/all/0/1&quot;&gt;Bo Hu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zang Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.10678">
+<title>Towards Realistic Low-resource Relation Extraction: A Benchmark with Empirical Baseline Study. (arXiv:2210.10678v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.10678</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents an empirical study to build relation extraction systems
+in low-resource settings. Based upon recent pre-trained language models, we
+comprehensively investigate three schemes to evaluate the performance in
+low-resource settings: (i) different types of prompt-based methods with
+few-shot labeled data; (ii) diverse balancing methods to address the
+long-tailed distribution issue; (iii) data augmentation technologies and
+self-training to generate more labeled in-domain data. We create a benchmark
+with 8 relation extraction (RE) datasets covering different languages, domains
+and contexts and perform extensive comparisons over the proposed schemes with
+combinations. Our experiments illustrate: (i) Though prompt-based tuning is
+beneficial in low-resource RE, there is still much potential for improvement,
+especially in extracting relations from cross-sentence contexts with multiple
+relational triples; (ii) Balancing methods are not always helpful for RE with
+long-tailed distribution; (iii) Data augmentation complements existing
+baselines and can bring much performance gain, while self-training may not
+consistently achieve advancement to low-resource RE. Code and datasets are in
+https://github.com/zjunlp/LREBench.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_X/0/1/0/all/0/1&quot;&gt;Xin Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xiang Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_N/0/1/0/all/0/1&quot;&gt;Ningyu Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xie_X/0/1/0/all/0/1&quot;&gt;Xin Xie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xi Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_H/0/1/0/all/0/1&quot;&gt;Huajun Chen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.11947">
+<title>Generalizing over Long Tail Concepts for Medical Term Normalization. (arXiv:2210.11947v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.11947</link>
+<description rdf:parseType="Literal">&lt;p&gt;Medical term normalization consists in mapping a piece of text to a large
+number of output classes. Given the small size of the annotated datasets and
+the extremely long tail distribution of the concepts, it is of utmost
+importance to develop models that are capable to generalize to scarce or unseen
+concepts. An important attribute of most target ontologies is their
+hierarchical structure. In this paper we introduce a simple and effective
+learning strategy that leverages such information to enhance the
+generalizability of both discriminative and generative models. The evaluation
+shows that the proposed strategy produces state-of-the-art performance on seen
+concepts and consistent improvements on unseen ones, allowing also for
+efficient zero-shot knowledge transfer across text typologies and datasets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Portelli_B/0/1/0/all/0/1&quot;&gt;Beatrice Portelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scaboro_S/0/1/0/all/0/1&quot;&gt;Simone Scaboro&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Santus_E/0/1/0/all/0/1&quot;&gt;Enrico Santus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sedghamiz_H/0/1/0/all/0/1&quot;&gt;Hooman Sedghamiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chersoni_E/0/1/0/all/0/1&quot;&gt;Emmanuele Chersoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Serra_G/0/1/0/all/0/1&quot;&gt;Giuseppe Serra&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00732">
+<title>Kuaipedia: a Large-scale Multi-modal Short-video Encyclopedia. (arXiv:2211.00732v2 [cs.IR] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00732</link>
+<description rdf:parseType="Literal">&lt;p&gt;Online encyclopedias, such as Wikipedia, have been well-developed and
+researched in the last two decades. One can find any attributes or other
+information of a wiki item on a wiki page edited by a community of volunteers.
+However, the traditional text, images and tables can hardly express some
+aspects of an wiki item. For example, when we talk about ``Shiba Inu&apos;&apos;, one may
+care more about ``How to feed it&apos;&apos; or ``How to train it not to protect its
+food&apos;&apos;. Currently, short-video platforms have become a hallmark in the online
+world. Whether you&apos;re on TikTok, Instagram, Kuaishou, or YouTube Shorts,
+short-video apps have changed how we consume and create content today. Except
+for producing short videos for entertainment, we can find more and more authors
+sharing insightful knowledge widely across all walks of life. These short
+videos, which we call knowledge videos, can easily express any aspects (e.g.
+hair or how-to-feed) consumers want to know about an item (e.g. Shiba Inu), and
+they can be systematically analyzed and organized like an online encyclopedia.
+In this paper, we propose Kuaipedia, a large-scale multi-modal encyclopedia
+consisting of items, aspects, and short videos lined to them, which was
+extracted from billions of videos of Kuaishou (Kwai), a well-known short-video
+platform in China. We first collected items from multiple sources and mined
+user-centered aspects from millions of users&apos; queries to build an item-aspect
+tree. Then we propose a new task called ``multi-modal item-aspect linking&apos;&apos; as
+an expansion of ``entity linking&apos;&apos; to link short videos into item-aspect pairs
+and build the whole short-video encyclopedia. Intrinsic evaluations show that
+our encyclopedia is of large scale and highly accurate. We also conduct
+sufficient extrinsic experiments to show how Kuaipedia can help fundamental
+applications such as entity typing and entity linking.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pan_H/0/1/0/all/0/1&quot;&gt;Haojie Pan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yuzhou Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhai_Z/0/1/0/all/0/1&quot;&gt;Zepeng Zhai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fu_R/0/1/0/all/0/1&quot;&gt;Ruiji Fu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_M/0/1/0/all/0/1&quot;&gt;Ming Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Song_Y/0/1/0/all/0/1&quot;&gt;Yangqiu Song&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhongyuan Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Qin_B/0/1/0/all/0/1&quot;&gt;Bing Qin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01334">
+<title>MemoNet:Memorizing Representations of All Cross Features Efficiently via Multi-Hash Codebook Network for CTR Prediction. (arXiv:2211.01334v2 [cs.IR] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01334</link>
+<description rdf:parseType="Literal">&lt;p&gt;New findings in natural language processing(NLP) demonstrate that the strong
+memorization capability contributes a lot to the success of large language
+models.This inspires us to explicitly bring an independent memory mechanism
+into CTR ranking model to learn and memorize all cross
+features&apos;representations. In this paper,we propose multi-Hash Codebook
+NETwork(HCNet) as the memory mechanism for efficiently learning and memorizing
+representations of all cross features in CTR tasks.HCNet uses multi-hash
+codebook as the main memory place and the whole memory procedure consists of
+three phases: multi-hash addressing,memory restoring and feature
+shrinking.HCNet can be regarded as a general module and can be incorporated
+into any current deep CTR model.We also propose a new CTR model named MemoNet
+which combines HCNet with a DNN backbone.Extensive experimental results on
+three public datasets show that MemoNet reaches superior performance over
+state-of-the-art approaches and validate the effectiveness of HCNet as a strong
+memory module.Besides, MemoNet shows the prominent feature of big models in
+NLP,which means we can enlarge the size of codebook in HCNet to sustainably
+obtain performance gains.Our work demonstrates the importance and feasibility
+of learning and memorizing representations of all cross features ,which sheds
+light on a new promising research direction.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_P/0/1/0/all/0/1&quot;&gt;Pengtao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_J/0/1/0/all/0/1&quot;&gt;Junlin Zhang&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
