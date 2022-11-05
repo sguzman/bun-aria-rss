@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:MeU5_k9ssrs",
+  "yt:videoId": "MeU5_k9ssrs",
+  "yt:channelId": "UCdngmbVKX1Tgre699-XLlUA",
+  "title": "ArgoCD Tutorial for Beginners | GitOps CD for Kubernetes",
+  "link": "",
+  "author": {
+    "name": "TechWorld with Nana",
+    "uri": "https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA"
+  },
+  "published": "2021-10-21T14:23:42+00:00",
+  "updated": "2022-01-20T18:22:05+00:00",
+  "media:group": {
+    "media:title": "ArgoCD Tutorial for Beginners | GitOps CD for Kubernetes",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Full ArgoCD Tutorial | Learn about the GitOps CD tool for Kubernetes\n\n#argocd #gitops #techworldwithnana\n\nThis ArgoCD crash course teaches you everything to get started with ArgoCD. ArgoCD is a GitOps continuous delivery tool that is gaining popularity in the DevOps world.\nFirst, you will learn what ArgoCD is and what are the common use cases or why we need ArgoCD. \nThen, you will see how ArgoCD actually works and how it does its job.\nIn the final part, we will do a hands-on demo project, where we deploy ArgoCD in Kubernetes and setup a fully automated CD pipeline for Kubernetes configuration changes to get some practical experience with ArgoCD. \n\n\n►  This video is sponsored by Kasten 🙌🏼\n►  Free Kubernetes Backup and Migration - Download Kasten's K10 and Get 10 nodes free forever: https://www.kasten.io/nana\n\n\n▬▬▬▬▬▬  Pre-Requisite ▬▬▬▬▬▬  \n💡  GitOps in 10 Mins:  ►  https://youtu.be/f5EpcWp0THw\n💡  Kubernetes:             ►  https://youtu.be/s_o8dwzRlu4\n\n\n▬▬▬▬▬▬  Demo Pre-Requisite ▬▬▬▬▬▬  \n🧑🏻‍💻  Setup an empty Minikube: ►  https://youtu.be/s_o8dwzRlu4?t=1960\n\n\n▬▬▬▬▬▬  L I N K S  🔗▬▬▬▬▬▬ \nGit Repo to follow along the demo:  ►  https://gitlab.com/nanuchi/argocd-app-config\nInstall ArgoCD:                                     ►  https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd\nLogin to ArgoCD:                                 ►  https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli\nArgoCD Configuration:                        ►  https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/\n\n\n▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬\n0:00 - Intro and Overview\n0:45 - What is ArgoCD\n1:29 -  CD workflow without ArgoCD\n4:48 - CD workflow with ArgoCD\n9:34 - Benefits of using GitOps with ArgoCD\n    9:41 - Git as Single Source of Truth\n    13:20 - Easy Rollback\n    14:08 - Cluster Disaster Recovery\n15:10 - K8s Access Control with Git & ArgoCD\n16:52 - ArgoCD as Kubernetes Extension\n18:49 - How to configure ArgoCD?\n20:08 - Multiple Clusters with ArgoCD\n23:24 - Replacement for other CI/CD tools?\n24:45 - Demo Setup & Overview\n27:42 - Beginning of Hands-On Demo\n\n\n▬▬▬▬▬▬ Want to learn more? 🚀  ▬▬▬▬▬▬ \nFull K8s course                                                  ►  https://youtu.be/X48VuDVv0do\nDevOps Tools, like Terraform, Prometheus  ►  https://bit.ly/2W9UEq6\nFull Docker course                                            ►  https://youtu.be/3c-iBn73dDE\n\n\n▬▬▬▬▬▬ Connect with me 👋   ▬▬▬▬▬▬ \nINSTAGRAM             ►  https://bit.ly/2F3LXYJ\nTWITTER                   ►  https://bit.ly/3i54PUB\nLINKEDIN                  ►  https://bit.ly/3hWOLVT\nFB group                   ►  https://bit.ly/32UVSZP\nDEV                            ►  https://bit.ly/3h2fqiO\n\n\n▬▬▬▬▬▬ Courses & Bootcamp & Ebooks 🚀      ▬▬▬▬▬▬ \n► Become a DevOps Engineer - full educational program             👉🏼  https://bit.ly/3gEwf4V\n► High-Quality and Hands-On Courses                                             👉🏼   https://bit.ly/3nIouPW\n► Kubernetes 101 - compact and easy-to-read ebook bundle      👉🏼   https://bit.ly/3mPIaiU",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
