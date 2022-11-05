@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg"/>
+ <id>yt:channel:UCrqM0Ym_NbK1fqeQG2VIohg</id>
+ <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+ <title>Tsoding Daily</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg"/>
+ <author>
+  <name>Tsoding Daily</name>
+  <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+ </author>
+ <published>2019-01-12T00:02:33+00:00</published>
+ <entry>
+  <id>yt:video:anOidUQcv1w</id>
+  <yt:videoId>anOidUQcv1w</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>I made JVM in Python just to run &quot;Hello, World&quot;</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=anOidUQcv1w"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-10-19T14:56:35+00:00</published>
+  <updated>2022-10-20T16:41:01+00:00</updated>
+  <media:group>
+   <media:title>I made JVM in Python just to run &quot;Hello, World&quot;</media:title>
+   <media:content url="https://www.youtube.com/v/anOidUQcv1w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/anOidUQcv1w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- First Episode: https://www.youtube.com/watch?v=67FmRyv8jTM
+- Source Code: https://github.com/tsoding/JelloVM</media:description>
+   <media:community>
+    <media:starRating count="724" average="5.00" min="1" max="5"/>
+    <media:statistics views="23562"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:67FmRyv8jTM</id>
+  <yt:videoId>67FmRyv8jTM</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Parsing Java Bytecode with Python</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=67FmRyv8jTM"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-10-18T15:50:27+00:00</published>
+  <updated>2022-10-20T04:23:56+00:00</updated>
+  <media:group>
+   <media:title>Parsing Java Bytecode with Python</media:title>
+   <media:content url="https://www.youtube.com/v/67FmRyv8jTM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/67FmRyv8jTM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Specs: https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html
+- WASM Learning Website: https://kolumb.github.io/learning-wasm/inspector/
+- Source Code: https://github.com/tsoding/pjython</media:description>
+   <media:community>
+    <media:starRating count="982" average="5.00" min="1" max="5"/>
+    <media:statistics views="28540"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kjF_YuLsPqo</id>
+  <yt:videoId>kjF_YuLsPqo</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>No Engine GameDev. How I Design Tutorials.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kjF_YuLsPqo"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-09-19T16:00:18+00:00</published>
+  <updated>2022-09-20T20:18:30+00:00</updated>
+  <media:group>
+   <media:title>No Engine GameDev. How I Design Tutorials.</media:title>
+   <media:content url="https://www.youtube.com/v/kjF_YuLsPqo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kjF_YuLsPqo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Play the Game: https://tsoding.org/jaibreak/
+Source Code: https://github.com/tsoding/jaibreak</media:description>
+   <media:community>
+    <media:starRating count="250" average="5.00" min="1" max="5"/>
+    <media:statistics views="9872"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YFtT48e9mA0</id>
+  <yt:videoId>YFtT48e9mA0</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Coding Better Animation To Sell My Game</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YFtT48e9mA0"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-09-17T13:48:41+00:00</published>
+  <updated>2022-09-19T06:25:01+00:00</updated>
+  <media:group>
+   <media:title>Coding Better Animation To Sell My Game</media:title>
+   <media:content url="https://www.youtube.com/v/YFtT48e9mA0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YFtT48e9mA0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Play the Game for Free lol: https://tsoding.org/jaibreak/
+- Source Code of the Game: https://github.com/tsoding/jaibreak</media:description>
+   <media:community>
+    <media:starRating count="310" average="5.00" min="1" max="5"/>
+    <media:statistics views="10822"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6_C9h1dPp54</id>
+  <yt:videoId>6_C9h1dPp54</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>JavaScript is the new C</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6_C9h1dPp54"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-09-05T15:15:11+00:00</published>
+  <updated>2022-09-14T13:09:59+00:00</updated>
+  <media:group>
+   <media:title>JavaScript is the new C</media:title>
+   <media:content url="https://www.youtube.com/v/6_C9h1dPp54?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6_C9h1dPp54/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Source Code: https://github.com/tsoding/jaibreak
+- Jai WASM PoC: https://github.com/tsoding/jai-wasm</media:description>
+   <media:community>
+    <media:starRating count="2500" average="5.00" min="1" max="5"/>
+    <media:statistics views="87148"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:v7GN6sj--no</id>
+  <yt:videoId>v7GN6sj--no</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Why Do I Have Weird Line Numbers in My Editor?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v7GN6sj--no"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-09-04T14:57:12+00:00</published>
+  <updated>2022-09-04T14:57:12+00:00</updated>
+  <media:group>
+   <media:title>Why Do I Have Weird Line Numbers in My Editor?</media:title>
+   <media:content url="https://www.youtube.com/v/v7GN6sj--no?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v7GN6sj--no/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1148" average="5.00" min="1" max="5"/>
+    <media:statistics views="25170"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yBIgzthMEWI</id>
+  <yt:videoId>yBIgzthMEWI</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Read Code Instead of Documentation</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yBIgzthMEWI"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-08-28T12:11:16+00:00</published>
+  <updated>2022-08-29T00:57:54+00:00</updated>
+  <media:group>
+   <media:title>Read Code Instead of Documentation</media:title>
+   <media:content url="https://www.youtube.com/v/yBIgzthMEWI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yBIgzthMEWI/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="1325" average="5.00" min="1" max="5"/>
+    <media:statistics views="30028"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8_5L8yVHcII</id>
+  <yt:videoId>8_5L8yVHcII</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>DVD Logo Screensaver in Jai (compiled to wasm)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8_5L8yVHcII"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-08-25T14:32:59+00:00</published>
+  <updated>2022-08-26T01:44:36+00:00</updated>
+  <media:group>
+   <media:title>DVD Logo Screensaver in Jai (compiled to wasm)</media:title>
+   <media:content url="https://www.youtube.com/v/8_5L8yVHcII?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8_5L8yVHcII/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Source Code for Jai WASM PoC: https://github.com/tsoding/jai-wasm
+- https://tsoding.org/jai-wasm/</media:description>
+   <media:community>
+    <media:starRating count="277" average="5.00" min="1" max="5"/>
+    <media:statistics views="9166"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tfME9wwdgGw</id>
+  <yt:videoId>tfME9wwdgGw</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Patching WebAssembly Binary with C++</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tfME9wwdgGw"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-08-23T13:37:43+00:00</published>
+  <updated>2022-09-21T03:22:30+00:00</updated>
+  <media:group>
+   <media:title>Patching WebAssembly Binary with C++</media:title>
+   <media:content url="https://www.youtube.com/v/tfME9wwdgGw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tfME9wwdgGw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- Deployed Game: http://tsoding.org/jaibreak/
+- Source Code of the Game: https://github.com/tsoding/jaibreak
+- Source Code of wasm64232: https://github.com/tsoding/wabt-wasm64232</media:description>
+   <media:community>
+    <media:starRating count="472" average="5.00" min="1" max="5"/>
+    <media:statistics views="29955"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_HGkhvpCbsk</id>
+  <yt:videoId>_HGkhvpCbsk</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>What is Relative Pointers?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_HGkhvpCbsk"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-08-12T16:15:30+00:00</published>
+  <updated>2022-08-15T01:58:30+00:00</updated>
+  <media:group>
+   <media:title>What is Relative Pointers?</media:title>
+   <media:content url="https://www.youtube.com/v/_HGkhvpCbsk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_HGkhvpCbsk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>- Donate: https://donate.thedigital.gov.ua/</media:description>
+   <media:community>
+    <media:starRating count="649" average="5.00" min="1" max="5"/>
+    <media:statistics views="19322"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8UJNQt8DAWE</id>
+  <yt:videoId>8UJNQt8DAWE</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Coding in Pascal in 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8UJNQt8DAWE"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-07-27T13:54:57+00:00</published>
+  <updated>2022-08-26T15:18:44+00:00</updated>
+  <media:group>
+   <media:title>Coding in Pascal in 2022</media:title>
+   <media:content url="https://www.youtube.com/v/8UJNQt8DAWE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8UJNQt8DAWE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- Free Pascal: https://www.freepascal.org/
+- Source Code: https://github.com/tsoding/mine</media:description>
+   <media:community>
+    <media:starRating count="843" average="5.00" min="1" max="5"/>
+    <media:statistics views="30257"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LTDM14349ws</id>
+  <yt:videoId>LTDM14349ws</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>I compiled my Game to WebAssembly</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LTDM14349ws"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-07-06T15:03:07+00:00</published>
+  <updated>2022-07-08T05:57:36+00:00</updated>
+  <media:group>
+   <media:title>I compiled my Game to WebAssembly</media:title>
+   <media:content url="https://www.youtube.com/v/LTDM14349ws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LTDM14349ws/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- More About This Language: https://www.youtube.com/watch?v=TH9VCN6UkyQ&amp;list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO
+- Source Code of the Game: https://github.com/tsoding/jaibreak
+- POC for Compiling Jai to WASM: https://github.com/tsoding/jai-wasm
+- Auto dereference for C compiler: https://www.youtube.com/watch?v=yKI-VOBBFu8
+- Deployed version of the game: https://tsoding.org/jaibreak/</media:description>
+   <media:community>
+    <media:starRating count="618" average="5.00" min="1" max="5"/>
+    <media:statistics views="22584"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sx1cjdJIU70</id>
+  <yt:videoId>sx1cjdJIU70</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>This Language does NOT support WebAssembly, but that didn't stop me...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sx1cjdJIU70"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-07-03T14:12:18+00:00</published>
+  <updated>2022-08-19T15:46:37+00:00</updated>
+  <media:group>
+   <media:title>This Language does NOT support WebAssembly, but that didn't stop me...</media:title>
+   <media:content url="https://www.youtube.com/v/sx1cjdJIU70?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sx1cjdJIU70/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- More About This Language: https://www.youtube.com/watch?v=TH9VCN6UkyQ&amp;list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO
+- Source Code: https://github.com/tsoding/jai-wasm</media:description>
+   <media:community>
+    <media:starRating count="394" average="5.00" min="1" max="5"/>
+    <media:statistics views="15101"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Y5liBU9f_jM</id>
+  <yt:videoId>Y5liBU9f_jM</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Particle Effect without Any Game Engine</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Y5liBU9f_jM"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-07-01T14:25:14+00:00</published>
+  <updated>2022-07-03T20:16:18+00:00</updated>
+  <media:group>
+   <media:title>Particle Effect without Any Game Engine</media:title>
+   <media:content url="https://www.youtube.com/v/Y5liBU9f_jM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Y5liBU9f_jM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- More About This Language: https://www.youtube.com/watch?v=TH9VCN6UkyQ&amp;list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO
+- https://github.com/tsoding/jaibreak
+- Gamma correction diff: https://github.com/tsoding/jaibreak/commit/063ee0f26bbaa04c425420a495d1bc6d25428c53?short_path=3e7d6c7#diff-3e7d6c74e0e1e5ab3e25b3edcc05a4824f631d087cc89ea7af869f0d5f039adc</media:description>
+   <media:community>
+    <media:starRating count="374" average="5.00" min="1" max="5"/>
+    <media:statistics views="14926"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tPUXbxH2AFA</id>
+  <yt:videoId>tPUXbxH2AFA</yt:videoId>
+  <yt:channelId>UCrqM0Ym_NbK1fqeQG2VIohg</yt:channelId>
+  <title>Custom Hot Reloading in Jai</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tPUXbxH2AFA"/>
+  <author>
+   <name>Tsoding Daily</name>
+   <uri>https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg</uri>
+  </author>
+  <published>2022-06-27T13:58:58+00:00</published>
+  <updated>2022-08-19T15:50:40+00:00</updated>
+  <media:group>
+   <media:title>Custom Hot Reloading in Jai</media:title>
+   <media:content url="https://www.youtube.com/v/tPUXbxH2AFA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tPUXbxH2AFA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>References:
+- Donate: https://donate.thedigital.gov.ua/
+- More About This Language: https://www.youtube.com/watch?v=TH9VCN6UkyQ&amp;list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO
+- Source Code of The Game: https://github.com/tsoding/jaibreak
+ - The Font I use for the Game: https://github.com/huertatipografica/Alegreya</media:description>
+   <media:community>
+    <media:starRating count="247" average="5.00" min="1" max="5"/>
+    <media:statistics views="9405"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
