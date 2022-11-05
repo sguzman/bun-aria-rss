@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cond-mat.str-el updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Condensed Matter -- Strongly Correlated Electrons (cond-mat.str-el) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Condensed Matter -- Strongly Correlated Electrons</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01376" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01380" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01381" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01388" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01390" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01400" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01483" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01490" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01501" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01650" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01663" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01709" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01714" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01735" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01771" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01780" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01820" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01884" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01919" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02002" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02031" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2011.08638" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.10580" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.15676" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00173" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01360" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00679" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01376">
+<title>Higgs Condensates are Symmetry-Protected Topological Phases: I. Discrete Symmetries. (arXiv:2211.01376v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01376</link>
+<description rdf:parseType="Literal">&lt;p&gt;Where in the landscape of many-body phases of matter do we place the Higgs
+condensate of a gauge theory? On the one hand, the Higgs phase is gapped, has
+no local order parameter, and for fundamental Higgs fields is adiabatically
+connected to the confined phase. On the other hand, Higgs phases such as
+superconductors display rich phenomenology. In this work, we propose a minimal
+description of the Higgs phase as a symmetry-protected topological (SPT) phase,
+utilizing conventional and higher-form symmetries. In this first part, we focus
+on 2+1D $\mathbb Z_2$ gauge theory and find that the Higgs phase is protected
+by a higher-form magnetic symmetry and a matter symmetry, whose meaning depends
+on the physical context. While this proposal captures known properties of Higgs
+phases, it also predicts that the Higgs phase of the Fradkin-Shenker model has
+SPT edge modes in the symmetric part of the phase diagram, which we confirm
+analytically. In addition, we argue that this SPT property is remarkably robust
+upon explicitly breaking the magnetic symmetry. Although the Higgs and confined
+phases are then connected without a bulk transition, they are separated by a
+boundary phase transition, which we confirm with tensor network simulations.
+More generally, the boundary anomaly of the Higgs SPT phase coincides with the
+emergent anomaly of symmetry-breaking phases, making precise the relation
+between Higgs phases and symmetry breaking. The SPT nature of the Higgs phase
+can also manifest in the bulk, e.g., at transitions between distinct Higgs
+condensates. Finally, we extract insights which are applicable to general SPT
+phases, such as a &apos;bulk-defect correspondence&apos; generalizing discrete gauge
+group analogs of Superconductor-Insulator-Superconductor (SIS) junctions. The
+sequel to this work will generalize &apos;Higgs=SPT&apos; to continuous symmetries,
+interpreting superconductivity as an SPT property.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Verresen_R/0/1/0/all/0/1&quot;&gt;Ruben Verresen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Borla_U/0/1/0/all/0/1&quot;&gt;Umberto Borla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vishwanath_A/0/1/0/all/0/1&quot;&gt;Ashvin Vishwanath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Moroz_S/0/1/0/all/0/1&quot;&gt;Sergej Moroz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Thorngren_R/0/1/0/all/0/1&quot;&gt;Ryan Thorngren&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01380">
+<title>Large-Scale $2+1$D $\mathrm{U}(1)$ Gauge Theory with Dynamical Matter in a Cold-Atom Quantum Simulator. (arXiv:2211.01380v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01380</link>
+<description rdf:parseType="Literal">&lt;p&gt;A major driver of quantum-simulator technology is the prospect of probing
+high-energy phenomena in synthetic quantum matter setups at a high level of
+control and tunability, thereby offering a venue complementary to dedicated
+particle colliders. Here, we propose an experimentally feasible realization of
+a large-scale $2+1$D $\mathrm{U}(1)$ gauge theory with dynamical matter and
+gauge fields in a cold-atom quantum simulator with spinless bosons. We present
+the full mapping of the corresponding Gauss&apos;s law onto the bosonic
+computational basis. We then show that the target gauge theory can be
+faithfully realized and stabilized by an emergent gauge protection term in a
+two-dimensional single-species Bose--Hubbard optical Lieb superlattice with two
+spatial periods along either direction, thereby requiring only moderate
+experimental resources already available in current cold-atom setups. Using
+infinite matrix product states, we calculate numerical benchmarks for adiabatic
+sweeps and global quench dynamics that further confirm the fidelity of the
+mapping. Our work brings quantum simulators of gauge theories a significant
+step forward in terms of investigating particle physics in higher spatial
+dimensions, and is readily implementable in existing cold-atom platforms.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Osborne_J/0/1/0/all/0/1&quot;&gt;Jesse Osborne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+McCulloch_I/0/1/0/all/0/1&quot;&gt;Ian P. McCulloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_B/0/1/0/all/0/1&quot;&gt;Bing Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hauke_P/0/1/0/all/0/1&quot;&gt;Philipp Hauke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Halimeh_J/0/1/0/all/0/1&quot;&gt;Jad C. Halimeh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01381">
+<title>Quantum Spin Puddles and Lakes: NISQ-Era Spin Liquids from Non-Equilibrium Dynamics. (arXiv:2211.01381v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01381</link>
+<description rdf:parseType="Literal">&lt;p&gt;While many-body systems can host long-ranged entangled quantum spin liquids
+(QSLs), the ingredients for realizing these as ground states can be
+prohibitively difficult. In many circumstances, one requires (i) a constrained
+Hilbert space and (ii) an extensive quantum superposition. The paradigmatic
+example is the toric code, or $\mathbb{Z}_2$ spin liquid, which is a
+superposition of closed loop states. We show how non-equilibrium Hamiltonian
+dynamics can provide a streamlined route toward creating such QSLs. Rather than
+cooling into the ground state of a Hamiltonian, we show how a simple parameter
+sweep can dynamically project a family of initial product states into the
+constrained space, giving rise to a QSL. For the toric code, this is achieved
+in systems with a separation in energy scales between the $e$- and $m$-anyons,
+where one can sweep in a way that is adiabatic (sudden) with respect to the
+former (latter). Although this separation of scales does not extend to the
+thermodynamic limit, we analytically and numerically show that this method
+efficiently prepares a spin liquid in finite-sized regions, which we brand
+``quantum spin lakes.&apos;&apos; This mechanism elucidates recent experimental and
+numerical observations of the dynamical state preparation of the ruby lattice
+spin liquid in Rydberg atom arrays. In fact, the slow dynamics of $m$-anyons
+suggest that we can capture spin lake preparation by simulating the dynamics on
+tree lattices, which we confirm with tensor network simulations. Finally, we
+use this mechanism to propose new experiments, e.g., for preparing a
+finite-sized $U(1)$ spin liquid as a honeycomb Rokhsar-Kivelson dimer model
+using Rydberg atoms -- which is remarkable given its equilibrium counterpart is
+unstable in $2 + 1$D. Our work opens up a new avenue in the study of
+non-equilibrium physics, as well as the exploration of exotic states of finite
+extent in NISQ devices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Sahay_R/0/1/0/all/0/1&quot;&gt;Rahul Sahay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vishwanath_A/0/1/0/all/0/1&quot;&gt;Ashvin Vishwanath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Verresen_R/0/1/0/all/0/1&quot;&gt;Ruben Verresen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01388">
+<title>Sublattice Interference promotes Pair Density Wave order in Kagome Metals. (arXiv:2211.01388v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01388</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motivated by the observation of a pair density wave (PDW) in the kagome metal
+CsV${}_3$Sb${}_5$, we consider the fate of electrons near a p-type van Hove
+singularity (vHS) in the presence of local repulsive interactions. We study the
+effect of such interactions on Fermi surface &quot;patches&quot; at the vHS. We show how
+a feature unique to the Kagome lattice known as sublattice interference
+crucially affects the form of the interactions among the patches. The RG flow
+of such interactions results in a regime where nearest neighbor interactions
+exceed onsite repulsion. We identify this condition as being favorable for the
+formation of CDW and PDW orders. We conclude that in the weak-coupling limit,
+CDW order is the dominant order, whereas PDW order sets in at intermediate
+coupling.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yi-Ming Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Thomale_R/0/1/0/all/0/1&quot;&gt;Ronny Thomale&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Raghu_S/0/1/0/all/0/1&quot;&gt;S. Raghu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01390">
+<title>Strange-metal behavior in a Fermi liquid with strange scatterers. (arXiv:2211.01390v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01390</link>
+<description rdf:parseType="Literal">&lt;p&gt;A variety of low-temperature, normal-state properties of optimally and
+overdoped cuprate superconductors, including the DC and optical transport
+responses, are sufficiently anomalous that they might seem to be inconsistent
+with any quasiparticle description. However, we show by explicit construction
+that the most salient phenomena can be accounted for in a system with localized
+&quot;strange scatterers&quot; embedded into a Fermi liquid with a conventional
+quasiparticle description. Such scatterers could originate from &quot;two-level
+systems&quot; associated with an electronic glassy state with short-range
+charge-order correlations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Berg_E/0/1/0/all/0/1&quot;&gt;Erez Berg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Grissonnanche_G/0/1/0/all/0/1&quot;&gt;Ga&amp;#xeb;l Grissonnanche&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kivelson_S/0/1/0/all/0/1&quot;&gt;Steven A. Kivelson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Murthy_C/0/1/0/all/0/1&quot;&gt;Chaitanya Murthy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pandey_A/0/1/0/all/0/1&quot;&gt;Akshat Pandey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ramshaw_B/0/1/0/all/0/1&quot;&gt;B. J. Ramshaw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Spivak_B/0/1/0/all/0/1&quot;&gt;Boris Z. Spivak&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01400">
+<title>Improved effective vertices in the multi-orbital Two-Particle Self-Consistent method from Dynamical Mean-Field Theory. (arXiv:2211.01400v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01400</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work we present a multi-orbital form of the Two-Particle
+Self-Consistent approach (TPSC), here the effective local and static
+irreducible interaction vertices are determined by means of the Dynamical
+Mean-Field Theory (DMFT). This approach replaces the approximate ansatz
+equations for the double occupations $\langle
+n^{}_{\alpha,\sigma}n^{}_{\beta,\sigma&apos;}\rangle$ by sampling them directly for
+the same model using DMFT. Compared to the usual Hartree-Fock like ansatz, this
+leads to more accurate local vertices in the weakly correlated regime, and
+provides access to stronger correlated systems that were previously out of
+reach. This approach is extended by replacing the local component of the TPSC
+self-energy by the DMFT impurity self-energy, which results in an improved
+self-energy that incorporates strong local correlations but retains a
+non-trivial momentum-dependence. We find that this combination of TPSC and DMFT
+provides a significant improvement over the multi-orbital formulation of
+multi-orbital TPSC, as it allows to determine the components of the spin vertex
+without artificial symmetry assumptions, and opens the possibility to include
+the transversal particle-hole channel. The new approach is also able to remove
+unphysical divergences in the charge vertices in TPSC. We find a general trend
+that lower temperatures can be accessed in the calculation. Benchmarking
+single-particle quantities such as the local spectral function with other
+many-body methods we find significant improvement in the more strongly
+correlated regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zantout_K/0/1/0/all/0/1&quot;&gt;Karim Zantout&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Backes_S/0/1/0/all/0/1&quot;&gt;Steffen Backes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Razpopov_A/0/1/0/all/0/1&quot;&gt;Aleksandar Razpopov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lessnich_D/0/1/0/all/0/1&quot;&gt;Dominik Lessnich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Valenti_R/0/1/0/all/0/1&quot;&gt;Roser Valenti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01483">
+<title>Unravelling the origin of the peculiar transition in the magnetically ordered phase of the Weyl semimetal Co3Sn2S2. (arXiv:2211.01483v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01483</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent discovery of topologically non-trivial behavior in Co3Sn2S2 stimulated
+a notable interest in this itinerant ferromagnet (Tc = 174 K). The exact
+magnetic state remains ambiguous, with several reports indicating the existence
+of a second transition in the range 125 -- 130 K, with antiferromagnetic and
+glassy phases proposed to coexist with the ferromagnetic phase. Using detailed
+angle-dependent DC and AC magnetization measurements on large, high-quality
+single crystals we reveal a highly anisotropic behavior of both static and
+dynamic response of Co3Sn2S2. It is established that many observations related
+to sharp magnetization changes when B || c are influenced by the
+demagnetization factor of a sample. On the other hand, a genuine transition has
+been found at Tp = 128 K, with the magnetic response being strictly
+perpendicular to the c-axis and several orders of magnitude smaller than for B
+|| c. Calculations using density-functional theory indicate that the ground
+state magnetic structure consist of magnetic moments canted away from the
+c-axis by a small angle (~ 1.5deg). We argue that the second transition
+originates from a small additional canting of moments within the kagome plane,
+with two equivalent orientations for each spin.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zivkovic_I/0/1/0/all/0/1&quot;&gt;Ivica Zivkovic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yadav_R/0/1/0/all/0/1&quot;&gt;Ravi Yadav&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Soh_J/0/1/0/all/0/1&quot;&gt;Jian-Rui Soh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yi_C/0/1/0/all/0/1&quot;&gt;ChangJiang Yi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Shi_Y/0/1/0/all/0/1&quot;&gt;YouGuo Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yazyev_O/0/1/0/all/0/1&quot;&gt;Oleg V. Yazyev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ronnow_H/0/1/0/all/0/1&quot;&gt;Henrik M. Ronnow&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01490">
+<title>Deep Learning Hamiltonians from Disordered Image Data in Quantum Materials. (arXiv:2211.01490v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01490</link>
+<description rdf:parseType="Literal">&lt;p&gt;The capabilities of image probe experiments are rapidly expanding, providing
+new information about quantum materials on unprecedented length and time
+scales. Many such materials feature inhomogeneous electronic properties with
+intricate pattern formation on the observable surface. This rich spatial
+structure contains information about interactions, dimensionality, and disorder
+-- a spatial encoding of the Hamiltonian driving the pattern formation. Image
+recognition techniques from machine learning are an excellent tool for
+interpreting information encoded in the spatial relationships in such images.
+Here, we develop a deep learning framework for using the rich information
+available in these spatial correlations in order to discover the underlying
+Hamiltonian driving the patterns. We first vet the method on a known case,
+scanning near-field optical microscopy on a thin film of VO2. We then apply our
+trained convolutional neural network architecture to new optical microscope
+images of a different VO2 film as it goes through the metal-insulator
+transition. We find that a two-dimensional Hamiltonian with both interactions
+and random field disorder is required to explain the intricate, fractal
+intertwining of metal and insulator domains during the transition. This
+detailed knowledge about the underlying Hamiltonian paves the way to using the
+model to control the pattern formation via, e.g., tailored hysteresis
+protocols. We also introduce a distribution-based confidence measure on the
+results of a multi-label classifier, which does not rely on adversarial
+training. In addition, we propose a new machine learning based criterion for
+diagnosing a physical system&apos;s proximity to criticality.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Basak_S/0/1/0/all/0/1&quot;&gt;S. Basak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Banguero_M/0/1/0/all/0/1&quot;&gt;M. Alzate Banguero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Burzawa_L/0/1/0/all/0/1&quot;&gt;L. Burzawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Simmons_F/0/1/0/all/0/1&quot;&gt;F. Simmons&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Salev_P/0/1/0/all/0/1&quot;&gt;P. Salev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Aigouy_L/0/1/0/all/0/1&quot;&gt;L. Aigouy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Qazilbash_M/0/1/0/all/0/1&quot;&gt;M. M. Qazilbash&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schuller_I/0/1/0/all/0/1&quot;&gt;I. K. Schuller&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Basov_D/0/1/0/all/0/1&quot;&gt;D. N. Basov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zimmers_A/0/1/0/all/0/1&quot;&gt;A. Zimmers&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Carlson_E/0/1/0/all/0/1&quot;&gt;E. W. Carlson&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01501">
+<title>A light-induced Weyl semiconductor-to-metal transition mediated by Peierls instability. (arXiv:2211.01501v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01501</link>
+<description rdf:parseType="Literal">&lt;p&gt;Elemental tellurium is a strongly spin-orbit coupled Peierls-distorted
+semiconductor whose band structure features topologically protected Weyl nodes.
+Using time-dependent density functional theory calculations, we show that
+impulsive optical excitation can be used to transiently control the amplitude
+of the Peierls distortion, realizing a mechanism to switch tellurium between
+three states: Weyl semiconductor, Weyl metal and non-Weyl metal. Further, we
+present experimental evidence of this inverse-Peierls distortion using
+time-resolved optical second harmonic generation measurements. These results
+provide a pathway to multifunctional ultrafast Weyl devices and introduce
+Peierls systems as viable hosts of light-induced topological transitions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ning_H/0/1/0/all/0/1&quot;&gt;H. Ning&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mehio_O/0/1/0/all/0/1&quot;&gt;O. Mehio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lian_C/0/1/0/all/0/1&quot;&gt;C. Lian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;X. Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zoghlin_E/0/1/0/all/0/1&quot;&gt;E. Zoghlin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhou_P/0/1/0/all/0/1&quot;&gt;P. Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cheng_B/0/1/0/all/0/1&quot;&gt;B. Cheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wilson_S/0/1/0/all/0/1&quot;&gt;S. D. Wilson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wong_B/0/1/0/all/0/1&quot;&gt;B. M. Wong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hsieh_D/0/1/0/all/0/1&quot;&gt;D. Hsieh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01650">
+<title>Universality and its limits in non-Hermitian many-body quantum chaos using the Sachdev-Ye-Kitaev model. (arXiv:2211.01650v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01650</link>
+<description rdf:parseType="Literal">&lt;p&gt;Spectral rigidity in Hermitian quantum chaotic systems signals the presence
+of dynamical universal features at time scales that can be much shorter than
+the Heisenberg time. We study the analogue of this time scale in many-body
+non-Hermitian quantum chaos by a detailed analysis of long-range spectral
+correlators. For that purpose, we investigate the number variance and the
+spectral form factor of a non-Hermitian $q$-body Sachdev-Ye-Kitaev (nHSYK)
+model, which describes $N$ fermions in zero spatial dimensions. After an
+analytical and numerical analysis of these spectral observables for
+non-Hermitian random matrices, and a careful unfolding, we find good agreement
+with the nHSYK model for $q &amp;gt; 2$ starting at a time scale that decreases
+sharply with $q$. The source of deviation from universality, identified
+analytically, is ensemble fluctuations not related to the quantum dynamics. For
+fixed $q$ and large enough $N$, these fluctuations become dominant up until
+after the Heisenberg time, so that the spectral form factor is no longer useful
+for the study of quantum chaos. In all cases, our results point to a weakened
+or vanishing spectral rigidity that effectively delays the observation of full
+quantum ergodicity. We also show that the number variance displays
+non-stationary spectral correlations for both the nHSYK model and random
+matrices. This non-stationarity, also not related to the quantum dynamics,
+points to intrinsic limitations of these observables to describe the quantum
+chaotic motion. On the other hand, we introduce the local spectral form factor,
+which is shown to be stationary and not affected by collective fluctuations,
+and propose it as an effective diagnostic of non-Hermitian quantum chaos. For
+$q = 2$, we find saturation to Poisson statistics at a time scale of $\log D$,
+compared to a scale of $\sqrt D$ for $ q&amp;gt;2$, with $D $ the total number of
+states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Garcia_Garcia_A/0/1/0/all/0/1&quot;&gt;Antonio M. Garc&amp;#xed;a-Garc&amp;#xed;a&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Sa_L/0/1/0/all/0/1&quot;&gt;Lucas S&amp;#xe1;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Verbaarschot_J/0/1/0/all/0/1&quot;&gt;Jacobus J. M. Verbaarschot&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01663">
+<title>Static magnetic and ESR spectroscopic properties of the dimer-chain antiferromagnet BiCoPO$_5$. (arXiv:2211.01663v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01663</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report a comprehensive study of the static susceptibility, high-field
+magnetization and high-frequency/high-magnetic field electron spin resonance
+(HF-ESR) spectroscopy of polycrystalline samples of the bismuth cobalt
+oxy-phosphate BiCoPO$_5$. This compound features a peculiar spin system that
+can be considered as antiferromagnetic (AFM) chains built of pairs of
+ferromagnetically coupled Co spins and interconnected in all three spatial
+directions. It was previously shown that BiCoPO$_5$ orders
+antiferromagnetically at $T_{\rm N} \approx 10$ K and this order can be
+continuously suppressed by magnetic field towards the critical value
+$\mu_0H_{\rm c} \approx 15$ T. In our experiments we find strongly enhanced
+magnetic moments and spectroscopic $g$ factors as compared to the expected
+spin-only values, suggesting a strong contribution of orbital magnetism for the
+Co$^{2+}$ ions. This is quantitatively confirmed by ab initio quantum chemical
+calculations. Within the AFM ordered phase, we observe a distinct field-induced
+magnetic phase transition. Its critical field rises to $\sim 6$ T at $T \ll
+T_{\rm N}$. The HF-ESR spectra recorded at $T\ll T_{\rm N}$ are very rich
+comprising up to six resonance modes possibly of the multimagnonic nature that
+soften towards the critical region around 6 T. Interestingly, we find that the
+Co moments are not yet fully polarized at $H_{\rm c}$ which supports a
+theoretical proposal identifying $H_{\rm c}$ as the quantum critical point for
+the transition of the spin system in BiCoPO$_5$ to the quantum disordered state
+at stronger fields.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Iakovleva_M/0/1/0/all/0/1&quot;&gt;M. Iakovleva&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Petersen_T/0/1/0/all/0/1&quot;&gt;T. Petersen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Alfonsov_A/0/1/0/all/0/1&quot;&gt;A. Alfonsov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Skourski_Y/0/1/0/all/0/1&quot;&gt;Y. Skourski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Grafe_H/0/1/0/all/0/1&quot;&gt;H.-J. Grafe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vavilova_E/0/1/0/all/0/1&quot;&gt;E. Vavilova&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Nath_R/0/1/0/all/0/1&quot;&gt;R. Nath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hozoi_L/0/1/0/all/0/1&quot;&gt;L. Hozoi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kataev_V/0/1/0/all/0/1&quot;&gt;V. Kataev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01709">
+<title>Dynamic phase transitions on the kagome Ising ferromagnet. (arXiv:2211.01709v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01709</link>
+<description rdf:parseType="Literal">&lt;p&gt;We perform extensive Monte Carlo simulations to investigate the dynamic phase
+transition properties of the two-dimensional kinetic Ising model on the kagome
+lattice in the presence of square-wave oscillating magnetic field. Through
+detailed finite-size scaling analysis, we study universality aspects of the
+non-equilibrium phase transition. Obtained critical exponents indicate that the
+two-dimensional kagome-lattice kinetic Ising model belongs to the same
+universality class with the corresponding Ising model in equilibrium. Moreover,
+dynamic critical exponent of the local moves used in simulations is determined
+with high precision. Our numerical results are compatible with the previous
+ones on kinetic Ising models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vatansever_Z/0/1/0/all/0/1&quot;&gt;Zeynep Demir Vatansever&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01714">
+<title>Skyrmion Jellyfish in Driven Chiral Magnets. (arXiv:2211.01714v1 [cond-mat.mes-hall])</title>
+<link>http://arxiv.org/abs/2211.01714</link>
+<description rdf:parseType="Literal">&lt;p&gt;Chiral magnets can host topological particles known as skyrmions which carry
+an exactly quantised topological charge $Q=-1$. In the presence of an
+oscillating magnetic field ${\bf B}_1(t)$, a single skyrmion embedded in a
+ferromagnetic background will start to move with constant velocity ${\bf
+v}_{\text{trans}}$. The mechanism behind this motion is similar to the one used
+by a jellyfish when it swims through water. We show that the skyrmion&apos;s motion
+is a universal phenomenon, arising in any magnetic system with translational
+modes. By projecting the equation of motion onto the skyrmion&apos;s translational
+modes and going to quadratic order in ${\bf B}_1(t)$ we obtain an analytical
+expression for ${\bf v}_{\text{trans}}$ as a function of the system&apos;s linear
+response. The linear response and consequently ${\bf v}_{\text{trans}}$ are
+influenced by the skyrmion&apos;s internal modes and scattering states, as well as
+by the ferromagnetic background&apos;s Kittel mode. The direction and speed of ${\bf
+v}_{\text{trans}}$ can be controlled by changing the polarisation, frequency
+and phase of the driving field ${\bf B}_1(t)$. For systems with small Gilbert
+damping parameter $\alpha$, we identify two distinct physical mechanisms used
+by the skyrmion to move. At low driving frequencies, the skyrmion&apos;s motion is
+driven by friction, and $v_{\text{trans}}\sim\alpha$, whereas at higher
+frequencies above the ferromagnetic gap the skyrmion moves by magnon emission
+and $v_{\text{trans}}$ becomes independent of $\alpha$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ser_N/0/1/0/all/0/1&quot;&gt;Nina del Ser&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lohani_V/0/1/0/all/0/1&quot;&gt;Vivek Lohani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01735">
+<title>Electronic Coherent Control of an Insulator-to-Metal Mott Transition. (arXiv:2211.01735v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01735</link>
+<description rdf:parseType="Literal">&lt;p&gt;Managing light-matter interaction on timescales faster than the loss of
+electronic coherence is key for achieving the full quantum control of final
+products in solid-solid transformations. In this work, we demonstrate coherent
+electronic control of the photoinduced insulator-to-metal transition in the
+prototypical Mott insulator V$_2$O$_3$. Selective excitation of a specific
+interband transition with two phase-locked light pulses manipulates the orbital
+occupation of the correlated bands in a way that depends on the coherent
+evolution of the photoinduced superposition of states. Comparison between
+experimental results and numerical solutions of the optical Bloch equations
+provides an electronic coherence time on the order of 5 fs. Temperature
+dependent experiments suggest that the electronic coherence time is enhanced in
+the vicinity of the insulator-to-metal transition critical temperature, thus
+highlighting the role of fluctuations in determining the electronic coherence.
+These results open new routes to selectively switch functionalities of quantum
+materials and coherently control solid-solid electronic transformations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Franceschini_P/0/1/0/all/0/1&quot;&gt;Paolo Franceschini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Policht_V/0/1/0/all/0/1&quot;&gt;Veronica R.Policht&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Milloch_A/0/1/0/all/0/1&quot;&gt;Alessandra Milloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ronchi_A/0/1/0/all/0/1&quot;&gt;Andrea Ronchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mor_S/0/1/0/all/0/1&quot;&gt;Selene Mor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mellaerts_S/0/1/0/all/0/1&quot;&gt;Simon Mellaerts&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hsu_W/0/1/0/all/0/1&quot;&gt;Wei-Fan Hsu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pagliara_S/0/1/0/all/0/1&quot;&gt;Stefania Pagliara&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ferrini_G/0/1/0/all/0/1&quot;&gt;Gabriele Ferrini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Banfi_F/0/1/0/all/0/1&quot;&gt;Francesco Banfi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Fabrizio_M/0/1/0/all/0/1&quot;&gt;Michele Fabrizio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Menghini_M/0/1/0/all/0/1&quot;&gt;Mariela Menghini&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Locquet_J/0/1/0/all/0/1&quot;&gt;Jean-Pierre Locquet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Conte_S/0/1/0/all/0/1&quot;&gt;Stefano Dal Conte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Cerullo_G/0/1/0/all/0/1&quot;&gt;Giulio Cerullo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Giannetti_C/0/1/0/all/0/1&quot;&gt;Claudio Giannetti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01771">
+<title>The competition between antiferromagnetism and superconductivity in a doped Hubbard model with anisotropic interaction. (arXiv:2211.01771v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01771</link>
+<description rdf:parseType="Literal">&lt;p&gt;The competition between antiferromagnetism and superconductivity is one of
+the central questions in the research of strong correlated systems. In this
+work, we utilize a double layer model containing Hubbard interaction and
+interlayer Heisenberg interaction to reveal their competitions. This model is
+free of sign problem at certain conditions, and we perform projector quantum
+Monte Carlo simulations to extract the ground state correlations of magnetism
+and superconductivity. Our results shows that the superconductivity emerges
+when the antiferromagnetism is suppressed by tuning the filling or the
+anisotropy of the interlayer Heisenberg interaction. This model can be seen as
+an analogue of unconventional superconductors and may help us to understand the
+transition from an antiferromagnetic insulator to a superconductor.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ma_R/0/1/0/all/0/1&quot;&gt;Runyu Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ma_T/0/1/0/all/0/1&quot;&gt;Tianxing Ma&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01780">
+<title>Controlling charge density order in 2H-TaSe$_{2}$ using a van Hove singularity. (arXiv:2211.01780v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01780</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report on the interplay between a van Hove singularity and a charge
+density wave state in 2H-TaSe$_{2}$. We use angle-resolved photoemission
+spectroscopy to investigate changes in the Fermi surface of this material under
+surface doping with potassium. At high doping, we observe modifications which
+imply the disappearance of the $(3\times 3)$ charge density wave and formation
+of a different correlated state. Using a tight-binding-based approach as well
+as an effective model, we explain our observations as a consequence of coupling
+between the single-particle Lifshitz transition during which the Fermi level
+passes a van Hove singularity and the charge density order. The high electronic
+density of states associated with the van Hove singularity induces a change in
+the periodicity of the charge density wave from the known $(3\times 3)$ to a
+new $(2\times 2)$ superlattice.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Luckin_W/0/1/0/all/0/1&quot;&gt;William R. B. Luckin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yiwei Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jiang_J/0/1/0/all/0/1&quot;&gt;Juan Jiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gunasekera_S/0/1/0/all/0/1&quot;&gt;Surani M. Gunasekera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Prabhakaran_D/0/1/0/all/0/1&quot;&gt;Dharmalingam Prabhakaran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Flicker_F/0/1/0/all/0/1&quot;&gt;Felix Flicker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yulin Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mucha_Kruczynski_M/0/1/0/all/0/1&quot;&gt;Marcin Mucha-Kruczynski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01820">
+<title>Dual density waves with neutral and charged dipolar excitons of GaAs bilayers. (arXiv:2211.01820v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01820</link>
+<description rdf:parseType="Literal">&lt;p&gt;Strongly correlated quantum particles in lattice potentials are the building
+blocks for a large variety of quantum insulators, for instance Mott phases and
+density waves breaking the lattice symmetry. Such collective states are
+accessible to bosonic and fermionic systems. To expand further the spectrum of
+accessible quantum matter phases, mixing both species is theoretically
+appealing, since density order then competes with phase separation. Here we
+manipulate such Bose-Fermi mixture by confining neutral (boson-like) and
+charged (fermion-like) dipolar excitons in an artificial square lattice of a
+GaAs bilayer. At unitary lattice filling, strong inter- and intra-species
+interactions stabilise insulating phases when the fraction of charged excitons
+is around (1/3, 1/2, 2/3). We evidence that dual Bose-Fermi density waves are
+then realised, with species ordered in alternating stripes. Our observations
+highlight that dipolar excitons allow for controlled implementations of
+Bose-Fermi Hubbard models extended by off-site interactions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Lagoin_C/0/1/0/all/0/1&quot;&gt;Camille Lagoin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Suffit_S/0/1/0/all/0/1&quot;&gt;Stephan Suffit&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Baldwin_K/0/1/0/all/0/1&quot;&gt;Kirk Baldwin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Pfeiffer_L/0/1/0/all/0/1&quot;&gt;Loren Pfeiffer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dubin_F/0/1/0/all/0/1&quot;&gt;Francois Dubin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01884">
+<title>Orbital liquid in the $e_g$ orbital Hubbard model in $d=\infty$ dimensions. (arXiv:2211.01884v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01884</link>
+<description rdf:parseType="Literal">&lt;p&gt;We demonstrate that the three-dimensional $e_g$ orbital Hubbard model can be
+generalized to arbitrary dimension $d$, and that the form of the result is
+determined uniquely by the requirements that
+&lt;/p&gt;
+&lt;p&gt;(i) the two-fold degeneracy of the $e_g$ orbital be retained, and (ii) the
+cubic lattice be turned into a hypercubic lattice. While the local Coulomb
+interaction $U$ is invariant for each basis of orthogonal orbitals, the form of
+the kinetic energy depends on the orbital basis and takes the most symmetric
+form for the so-called complex-orbital basis. Characteristically, with respect
+to this basis, the model has two hopping channels, one that is orbital-flavor
+conserving, and a second one that is orbital-flavor non-conserving. We show
+that the noninteracting electronic structure consists of two nondegenerate
+bands of plane-wave real-orbital single-particle states for which the orbital
+depends on the wave vector. Due to the latter feature each band is unpolarized
+at any filling, and has a non-Gaussian density of states at $d=\infty$. The
+\textit{orbital liquid} state is obtained by filling these two bands up to the
+same Fermi energy. We investigate the $e_g$ orbital Hubbard model in the limit
+$d\to\infty$, treating the on-site Coulomb interaction $U$ within the
+Gutzwiller approximation, thus determining the correlation energy of the
+orbital liquid and the (disordered) para-orbital states. (...) We show that the
+orbital liquid is the ground state everywhere in the $(n,U)$ phase diagram
+except close to half-filling at sufficiently large $U$, where ferro-orbital
+order with real orbitals occupied is favored. The latter feature is shown to be
+specific for $d=\infty$, being of mathematical nature due to the exponential
+tails in the density of states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Feiner_L/0/1/0/all/0/1&quot;&gt;Louis Felix Feiner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Oles_A/0/1/0/all/0/1&quot;&gt;Andrzej M. Ole&amp;#x15b;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01919">
+<title>Non-local corrections to dynamical mean-field theory from the two-particle self-consistent method. (arXiv:2211.01919v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.01919</link>
+<description rdf:parseType="Literal">&lt;p&gt;Theoretical methods that are accurate for both short-distance observables and
+long-wavelength collective modes are still being developed for the Hubbard
+model. Here, we benchmark against published diagrammatic quantum Monte Carlo
+results an approach that combines local observables from dynamical mean-field
+theory (DMFT) with the two-particle self-consistent theory (TPSC). This method
+(TPSC+DMFT) is relevant for weak to intermediate interaction, satisfies the
+local Pauli principle and allows us to compute a spin susceptibility that
+satisfies the Mermin-Wagner theorem. The DMFT double occupancy determines the
+spin and charge vertices through local spin and charge sum rules. The TPSC
+self-energy is also improved by replacing its local part with the local DMFT
+self-energy. With this method, we find improvements for both spin and charge
+fluctuations and for the self-energy. We also find that the accuracy check
+developed for TPSC is a good predictor of deviations from benchmarks. TPSC+DMFT
+can be used in regimes where quantum Monte Carlo is inaccessible. In addition,
+this method paves the way to multi-band generalizations of TPSC that could be
+used in advanced electronic structure codes that include DMFT.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Martin_N/0/1/0/all/0/1&quot;&gt;N. Martin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gauvin_Ndiaye_C/0/1/0/all/0/1&quot;&gt;C. Gauvin-Ndiaye&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tremblay_A/0/1/0/all/0/1&quot;&gt;A.-M. S. Tremblay&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02002">
+<title>Emergence of Competing Orders and Possible Quantum Spin Liquid in SU(N) Fermions. (arXiv:2211.02002v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.02002</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the past decades, tremendous efforts have been made towards understanding
+the exotic physics emerging from competition between various ordering
+tendencies in strongly correlated systems. Employing state-of-the-art quantum
+Monte-Carlo simulation, we investigate an interacting SU($N$) fermionic model
+with varying interaction strength and value of $N$, and unveil the ground-state
+phase diagram of the model exhibiting a plethora of exotic phases. For small
+value of $N$, namely $N=2,3$, the ground state is antiferromagnetic (AFM)
+phase, whereas in the large-$N$ limit, valence bound solid (VBS) order is
+dominant. For the intermediate value of $N$ such as $N=4$, remarkably, our
+study reveals distinct VBS orders appear in the weak and strong coupling
+regimes. More fantastically, the competition between staggered and columnar VBS
+ordering tendencies gives rise to a Mott insulating phase without spontaneously
+symmetry breaking (SSB), existing in a large interacting parameter regime,
+which is consistent with a gapped quantum spin liquid. Our study not only
+provides a platform to investigate the fundamental physics of quantum many-body
+systems, but also offers a novel route towards searching for exotic states of
+matter such as quantum spin liquid in realistic quantum materials.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yu_X/0/1/0/all/0/1&quot;&gt;Xue-Jia Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Shi_S/0/1/0/all/0/1&quot;&gt;Shao-Hang Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Xu_L/0/1/0/all/0/1&quot;&gt;Limei Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zi-Xiang Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02031">
+<title>Spectral properties of 1D extended Hubbard model from bosonization and time-dependent variational principle: applications to 1D cuprate. (arXiv:2211.02031v1 [cond-mat.str-el])</title>
+<link>http://arxiv.org/abs/2211.02031</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent ARPES experiments on doped 1D cuprates revealed the importance of
+effective near-neighbor (NN) attractions in explaining certain features in
+spectral functions. Here we investigate spectral properties of the extended
+Hubbard model with the on-site repulsion $U$ and NN interaction $V$, by
+employing bosonization analysis and the high-precision time-dependent
+variational principle (TDVP) calculations of the model on 1D chain with up to
+300 sites. From state-of-the-art TDVP calculations, we find that the spectral
+weights of the holon-folding and $3k_F$ branches evolve oppositely as a
+function of $V$. This peculiar dichotomy may be explained in bosonization
+analysis from the opposite dependence of exponent that determines the spectral
+weights on Luttinger parameter $K_{\rho}$. Moreover, our TDVP calculations of
+models with fixed $U=8t$ and different $V$ show that $V\approx -1.7t$ may fit
+the experimental results best, indicating a moderate effective NN attraction in
+1D cuprates that might provide some hints towards understanding
+superconductivity in 2D cuprates.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hao-Xin Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yi-Ming Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jiang_Y/0/1/0/all/0/1&quot;&gt;Yi-Fan Jiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yao_H/0/1/0/all/0/1&quot;&gt;Hong Yao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2011.08638">
+<title>Adiabatic theory of the polaron spectral function. (arXiv:2011.08638v2 [cond-mat.str-el] UPDATED)</title>
+<link>http://arxiv.org/abs/2011.08638</link>
+<description rdf:parseType="Literal">&lt;p&gt;An analytic theory for the spectral function for electrons coupled with
+phonons is formulated in the adiabatic limit. In the case when the chemical
+potential is large and negative $\mu \to -\infty$ the ground state does not
+have the adiabatic deformation and the spectral function is defined by the
+standard perturbation theory. In this limit we present the spectral function
+calculated up to fourth order in the electron-phonon coupling constant which
+satisfies the sum rules up to the 5th moment. In the case when the chemical
+potential is pinned at the polaron binding energy the spectral function is
+defined by the ground state with a nonzero adiabatic deformation. We calculate
+the spectral function with the finite polaron density in the adiabatic limit.
+We also demonstrate how the sum rules for higher moments may be evaluated in
+the adiabatic limit. Contrary to the case of zero polaron density the spectral
+function with the finite polaron concentration has some contributions which are
+characteristic for polarons.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kabanov_V/0/1/0/all/0/1&quot;&gt;V.V. Kabanov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.10580">
+<title>Krein-unitary Schrieffer-Wolff transformation and band touchings in bosonic Bogoliubov-de Gennes and other Krein-Hermitian Hamiltonians. (arXiv:2201.10580v2 [cond-mat.str-el] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.10580</link>
+<description rdf:parseType="Literal">&lt;p&gt;Krein-Hermitian Hamiltonians, i.e., Hamiltonians Hermitian with respect to an
+indefinite inner product, have emerged as an important class of non-Hermitian
+Hamiltonians in physics, encompassing both single-particle bosonic
+Bogoliubov-de Gennes (BdG) Hamiltonians and so-called &quot;$PT$-symmetric&quot;
+non-Hermitian Hamiltonians. In particular, they have attracted considerable
+scrutiny owing to the recent surge in interest for boson topology. Motivated by
+these developments, we formulate a perturbative Krein-unitary Schrieffer-Wolff
+transformation for finite-size dynamically stable Krein-Hermitian Hamiltonians,
+yielding an effective Hamiltonian for a subspace of interest. The effective
+Hamiltonian is Krein Hermitian and, for sufficiently small perturbations, also
+dynamically stable. As an application, we use this transformation to justify
+codimension-based analyses of band touchings in bosonic BdG Hamiltonians, which
+complement topological characterization. We use this simple approach based on
+symmetry and codimension to revisit known topological magnon band touchings in
+several materials of recent interest.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Massarelli_G/0/1/0/all/0/1&quot;&gt;Geremia Massarelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Khait_I/0/1/0/all/0/1&quot;&gt;Ilia Khait&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Paramekanti_A/0/1/0/all/0/1&quot;&gt;Arun Paramekanti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.15676">
+<title>Quantum phase transition in skewed ladders: an entanglement entropy and fidelity study. (arXiv:2205.15676v3 [cond-mat.str-el] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.15676</link>
+<description rdf:parseType="Literal">&lt;p&gt;Entanglement entropy (EE) of a state is a measure of correlation or
+entanglement between two parts of a composite system and it may show
+appreciable change when the ground state (GS) undergoes a qualitative change in
+a quantum phase transition (QPT). Therefore, the EE has been extensively used
+to characterise the QPT in various correlated Hamiltonians. Similarly fidelity
+also shows sharp changes at a QPT. We characterized the QPT of frustrated
+antiferromagnetic Heisenberg spin-1/2 systems on 3/4, 3/5 and 5/7 skewed
+ladders using the EE and fidelity analysis. It is noted that all the
+non-magnetic to magnetic QPT boundary in these systems can be accurately
+determined using the EE and fidelity, and the EE exhibits a discontinuous
+change, whereas fidelity shows a sharp dip at the transition points. It is also
+noted that in case of the degenerate GS, the unsymmetrized calculations show
+wild fluctuations in the EE and fidelity even without actual phase transition,
+however, this problem is resolved by calculating the EE and the fidelity in the
+lowest energy state of the symmetry subspaces, to which the degenerate states
+belong.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Das_S/0/1/0/all/0/1&quot;&gt;Sambunath Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dey_D/0/1/0/all/0/1&quot;&gt;Dayasindhu Dey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ramasesha_S/0/1/0/all/0/1&quot;&gt;S. Ramasesha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kumar_M/0/1/0/all/0/1&quot;&gt;Manoranjan Kumar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00173">
+<title>Density Matrix Renormalization Group for Transcorrelated Hamiltonians: Ground and Excited States in \emph{ab initio} Systems. (arXiv:2211.00173v2 [physics.chem-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.00173</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the theory of a density matrix renormalization group (DMRG)
+algorithm which can solve for both the ground and excited states of
+non-Hermitian transcorrelated Hamiltonians, and show applications in \emph{ab
+initio} molecular systems. Transcorrelation (TC) accelerates the basis set
+convergence rate by including known physics (such as, but not limited to, the
+electron-electron cusp) in the Jastrow factor used for the similarity
+transformation. It also improves the accuracy of approximate methods such as
+coupled cluster singles and doubles (CCSD) as shown by some recent studies.
+However, the non-Hermiticity of the TC Hamiltonians poses challenges for
+variational methods like DMRG. Imaginary-time evolution on the matrix product
+state (MPS) in the DMRG framework has been proposed to circumvent this problem;
+but this is currently limited to treating the ground state, and has lower
+efficiency than the time-independent DMRG (TI-DMRG), due to the need to
+eliminate Trotter errors. In this work, we show that with minimal changes to
+the existing TI-DMRG algorithm, namely replacing the original Davidson solver
+with the general Davidson solver to solve the non-Hermitian effective
+Hamiltonians at each site for a few low-lying right eigenstates, and following
+the rest of the original DMRG recipe, one can find the ground and excited
+states with improved efficiency compared to the original DMRG when
+extrapolating to the infinite bond dimension limit in the same basis set.
+Accelerated basis set convergence rate is also observed, as expected, within
+the TC framework.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Liao_K/0/1/0/all/0/1&quot;&gt;Ke Liao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhai_H/0/1/0/all/0/1&quot;&gt;Huanchen Zhai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Christlmaier_E/0/1/0/all/0/1&quot;&gt;Evelin Martine Christlmaier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Schraivogel_T/0/1/0/all/0/1&quot;&gt;Thomas Schraivogel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rios_P/0/1/0/all/0/1&quot;&gt;Pablo L&amp;#xf3;pez R&amp;#xed;os&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kats_D/0/1/0/all/0/1&quot;&gt;Daniel Kats&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Alavi_A/0/1/0/all/0/1&quot;&gt;Ali Alavi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01360">
+<title>High-field quantum spin liquid transitions and angle-field phase diagram of Kitaev magnet $\alpha$-RuCl$_3$. (arXiv:2211.01360v2 [cond-mat.str-el] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01360</link>
+<description rdf:parseType="Literal">&lt;p&gt;The pursuit of quantum spin liquid (QSL) in the Kitaev honeycomb magnets has
+drawn intensive attention recently. In particular, $\alpha$-RuCl$_3$ has been
+widely recognized as a promising candidate for the Kitaev QSL. Although the
+compound exhibits an antiferromagnetic order under zero field, it is believed
+to be endowed with fractionalized excitations, and can be driven to the QSL
+phase by magnetic fields. Here, based on a realistic $K$-$J$-$\Gamma$-$\Gamma&apos;$
+model for $\alpha$-RuCl$_3$ [1], we exploit the exponential tensor
+renormalization group approach to explore the phase diagram of the compound
+under magnetic fields. We calculate the thermodynamic quantities, including the
+specific heat, Gr\&quot;uneisen parameter, magnetic torque, and the magnetotropic
+susceptibility, etc, under a magnetic field with a tilting angle $\theta$ to
+the $c^*$-axis perpendicular to the honeycomb plane. We find an extended QSL in
+the angle-field phase diagram determined with thermodynamic responses. The
+gapless nature of such field-induced QSL is identified from the specific heat
+and entropy data computed down to very low temperatures. The present study
+provides guidance for future high-field experiments for the QSL in
+$\alpha$-RuCl$_3$ and other candidate Kitaev magnets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Han Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Wei Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Su_G/0/1/0/all/0/1&quot;&gt;Gang Su&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00679">
+<title>Quantum phase transitions in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric transverse-field Ising spin chains. (arXiv:2211.00679v1 [quant-ph] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.00679</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a theoretical study of quantum phases and quantum phase
+transitions occurring in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric
+superconducting qubits chains described by a transverse-field Ising spin model.
+A non-Hermitian part of the Hamiltonian is implemented via imaginary staggered
+\textit{longitudinal } magnetic field, which corresponds to a local staggered
+gain and loss terms. By making use of a direct numerical diagonalization of the
+Hamiltonian for spin chains of a finite size $N$, we explore the dependencies
+of the energy spectrum, including the energy difference between the first
+excited and the ground states, the spatial correlation function of local
+polarization ($z$-component of local magnetization) on the adjacent spins
+interaction strength $J$ and the local gain (loss) parameter $\gamma$. A
+scaling procedure for the coherence length $\xi$ allows us to establish a
+complete quantum phase diagram of the system. We obtain two quantum phases for
+$J&amp;lt;0$, namely, $\mathcal{P}\mathcal{T}$-symmetry broken antiferromagnetic state
+and $\mathcal{P}\mathcal{T}$-symmetry preserved paramagnetic state, and the
+quantum phase transition line between them is the line of exception points. For
+$J&amp;gt;0$ the $\mathcal{P}\mathcal{T}$-symmetry of the ground state is retained in
+a whole region of parameter space of $J$ and $\gamma$, and a system shows
+\textit{two} intriguing quantum phase transitions between ferromagnetic and
+paramagnetic states for a fixed parameter $\gamma &amp;gt; 1$. We also provide the
+qualitative quantum phase diagram $\gamma-J$ derived in the framework of the
+Bethe-Peierls approximation that is in a good accord with numerically obtained
+results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Starkov_G/0/1/0/all/0/1&quot;&gt;Grigory A. Starkov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fistoul_M/0/1/0/all/0/1&quot;&gt;Mikhail V. Fistoul&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Eremin_I/0/1/0/all/0/1&quot;&gt;Ilya M. Eremin&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
