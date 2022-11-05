@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+  <title>Google Search Central Blog</title>
+  <link>https://developers.google.com/search/blog/</link>
+  <description>Official news for web professionals about Google Search, related products, and events.</description>
+  <item>
+    <title>A deep dive into Search Console performance data filtering and limits</title>
+    <link>https://developers.google.com/search/blog/2022/10/performance-data-deep-dive</link>
+    <description>
+      Google Search performance data is the most widely used data in Search Console. This post explains 
+      in detail the data available and how Google processes it, including privacy filtering and other 
+      limitations related to serving latency, storage, and processing resources. Ever wonder how 
+      these systems work? Let's do a deep dive into them..
+    </description>
+    <pubDate>Wed, 19 Oct 2022 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Introducing site names on Google Search</title>
+    <link>https://developers.google.com/search/blog/2022/10/introducing-site-names-on-search</link>
+    <description>
+      Today, Search is introducing site names on mobile search results to make it easier to identify
+      the website that's associated with each result, and we're sharing how you can indicate your
+      preferred site name with structured data.
+    </description>
+    <pubDate>Fri, 14 Oct 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Refreshed guidelines for site owners</title>
+    <link>https://developers.google.com/search/blog/2022/10/search-essentials</link>
+    <description>
+      In 2002 we launched a page with a set of guidelines for site owners that gave an overview of
+      best practices when it came to building a site. We called this page "Webmaster Guidelines" and
+      it's been with us ever since. Since then we added a lot of information to these guidelines to
+      help site owners build the site that's right for their users who visit through Google Search.
+      Today we're launching a refreshed, simplified version of the Webmaster Guidelines, and we're
+      changing its name as well.
+    </description>
+    <pubDate>Thur, 13 Oct 2022 15:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Back in business: Search Central Live events</title>
+    <link>https://developers.google.com/search/blog/2022/10/search-central-live-is-here</link>
+    <description>
+      The first of the Search Central Live events is going to happen in-person in Singapore on November 24, 2022.
+      Registrations are now open until November 15 and we welcome you to fill out the form for a chance to secure your spot at the event; that's all you need to do.
+      We have a limited number of seats available!
+    </description>
+    <pubDate>Wed, 13 Oct 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The new HTTPS report in Search Console</title>
+    <link>https://developers.google.com/search/blog/2022/09/https-search-console-report</link>
+    <description>
+      Google Search Console has a new report called HTTPS, which provides more information regarding the HTTPS status of the site
+      and make it easier to understand which pages are not served over HTTPS, and why not. Use this report to get insights
+      about HTTPS pages served on Search.
+    </description>
+    <pubDate>Wed, 14 Sep 2022 03:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New Search Console Merchant Listings report: expanding eligibility with Product structured data</title>
+    <link>https://developers.google.com/search/blog/2022/09/merchant-listings</link>
+    <description>
+      Google is pleased to announce expanded eligibility for enhanced product experiences in
+      Google Search through the use of Product structured data. These enhanced
+      product experiences were previously only open to Merchant Center users. We're also making
+      it easier to understand the requirements for these experiences by updating our documentation
+      and reporting in Search Console.
+    </description>
+    <pubDate>Tue, 13 Sep 2022 16:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What creators should know about Google's helpful content update</title>
+    <link>https://developers.google.com/search/blog/2022/08/helpful-content-update</link>
+    <description>
+      We're launching what we're calling the “helpful content update” that's part of a broader
+      <a class="external-link" href="https://blog.google/products/search/more-content-by-people-for-people-in-search/">effort</a>
+      to ensure people see more original, helpful content written by people, for people, in search
+      results. This post contains more about the Search ranking update and things for creators to consider.
+    </description>
+    <pubDate>Thu, 18 Aug 2022 16:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New in structured data: Pros and cons</title>
+    <link>https://developers.google.com/search/blog/2022/08/pros-and-cons-structured-data</link>
+    <description>
+      Product reviews are a valuable resource for users researching which product to buy.
+      Product reviews often contain a list of pros and cons, which our research has shown
+      to be popular with shoppers when making their purchasing decisions.
+      Because of their importance to users, Google Search may highlight
+      <a href="/search/docs/appearance/structured-data/product#pros-cons">pros and cons</a>
+      in the product review snippet in Search results.
+      Read this post for more information on when and how to provide pros and cons structured data
+      to improve search result snippets for your pages.
+    </description>
+    <pubDate>Fri, 05 Aug 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Announcing the new Search Console Video index report</title>
+    <link>https://developers.google.com/search/blog/2022/07/video-indexing-report</link>
+    <description>
+      To help you understand the performance of your videos on Google, and identify possible areas of
+      improvement, Search Console is launching a new report called Video indexing. We will roll out
+      this change gradually over the next few months, so you might not see this new report for now.
+    </description>
+    <pubDate>Mon, 11 Jul 2022 07:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Googlebot and the 15 MB thing</title>
+    <link>https://developers.google.com/search/blog/2022/06/googlebot-15mb</link>
+    <description>
+      We're addressing some questions we've received the past few days in response to our
+      documentation update about Googlebot handling up to 15 MB of data on request.
+    </description>
+    <pubDate>Tue, 28 Jun 2022 02:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Simplifying Search Console reports with an updated item classification</title>
+    <link>https://developers.google.com/search/blog/2022/06/search-console-item-classification</link>
+    <description>
+      Search Console is simplifying the way it classifies pages, items, and issues in reports. The goal is to help you focus on
+      critical issues that affect your visibility in Search, and will help you better prioritize your work. This change will be rolled out
+      to all properties gradually over the next few months.
+    </description>
+    <pubDate>Wed, 15 Jun 2022 02:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>How Google generates titles for documents with language or script misalignment</title>
+    <link>https://developers.google.com/search/blog/2022/06/title-script-misalignment</link>
+    <description>
+      Recently we introduced an algorithmic improvement that identifies documents where the title
+      element is written in a different language or script from its content, and chooses a title
+      that is similar to the language and script of the document.
+    </description>
+    <pubDate>Fri, 3 Jun 2022 15:40:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>May 2022 core update releasing for Google Search</title>
+    <link>https://developers.google.com/search/blog/2022/05/may-2022-core-update</link>
+    <description>
+      Several times per year, we make substantial improvements to our overall ranking processes,
+      which we refer to as core updates. Core updates are designed to increase the overall
+      relevancy of our search results and make them more helpful and useful for everyone. Today,
+      we're releasing our May 2022 core update. It will take about 1-2 weeks to fully roll out.
+    </description>
+    <pubDate>Wed, 25 May 2022 15:40:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The Global Search Central Virtual Unconference 2022 is a wrap!</title>
+    <link>https://developers.google.com/search/blog/2022/05/global-search-central-unconference-2022-is-a-wrap</link>
+    <description>
+      The Global Search Central Virtual Unconference 2022 was held on April 27 with over 100 participants and 25 discussion sessions. This post summarizes what the takeaways were and how the event went.
+    </description>
+    <pubDate>Mon, 23 May 2022 14:10:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Event recap: Search Central Virtual Unconference Japan 2022</title>
+    <link>https://developers.google.com/search/blog/2022/05/recap-search-central-unconference-japan-2022</link>
+    <description>
+      We organized the first Search Central Virtual Unconference Japan on April 5, 2022 to facilitate a discussion and networking platform for the SEO, Search and publisher community, in Japanese. This is a recap from the event.
+    </description>
+    <pubDate>Tues, 10 May 2022 05:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Spring cleaning: some sitemap extension tags are going away</title>
+    <link>https://developers.google.com/search/blog/2022/05/spring-cleaning-sitemap-extensions</link>
+    <description>
+      We're deprecating a handful of sitemap extension tags and attributes.
+    </description>
+    <pubDate>Fri, 06 May 2022 02:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>How we fought Search spam on Google in 2021</title>
+    <link>https://developers.google.com/search/blog/2022/04/webspam-report-2021</link>
+    <description>
+      It's definitely not magic that helps keep more than 99% of visits from Search spam-free! This post explains what happens behind the scenes and how we fought Search spam in 2021.
+    </description>
+    <pubDate>Thu, 21 Apr 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Optimizing website performance with a Search Console bubble chart</title>
+    <link>https://developers.google.com/search/blog/2022/04/performance-optimization-bubble-chart</link>
+    <description>
+      In this post, we’ll discuss a bubble chart that can help you understand which queries are performing well for your site,
+      and which could be improved. We’ll first explain the main elements in the chart, describing specific settings and how they
+      influence the data. Then we’ll provide some pointers on what to look for when analyzing the data.
+    </description>
+    <pubDate>Wed, 06 Apr 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Monitoring Search traffic (and more!) with Data Studio</title>
+    <link>https://developers.google.com/search/blog/2022/03/monitoring-dashboard</link>
+    <description>
+      This article shows how to create a monitoring dashboard for your Search traffic on Data Studio. It also announces the addition of new data to
+      the Search Console Data Studio connector, including data for Discover and Google News traffic.
+    </description>
+    <pubDate>Wed, 30 March 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Adding context to structured data issues in Search Console</title>
+    <link>https://developers.google.com/search/blog/2022/03/structured-data-issues-context</link>
+    <description>
+      To help you identify structured data issues more effectively, Search Console is adding more context to its error reporting. In this post
+      we explain how this change may affect you.
+    </description>
+    <pubDate>Mon, 28 March 2022 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Spring cleaning: the URL Parameters tool</title>
+    <link>https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated</link>
+    <description>
+      We're deprecating the URL Parameters tool in Search Console in 1 month. There's
+      no action required from the current users of the tool.
+    </description>
+    <pubDate>Mon, 28 March 2022 02:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Register for the first Search Central Virtual Unconference Japan 2022!</title>
+    <link>https://developers.google.com/search/blog/2022/03/search-central-unconference-japan-2022</link>
+    <description>
+      The Search Central Virtual Unconference Japan 2022 is now open for registration. The sessions
+      will be conducted in Japanese. If you are interested, be sure to register by March 30! On top
+      of that,the global Search Central Unconference 2022 is scheduled for April 27. Come meet the
+      community, exchange ideas, and have fun together.
+    </description>
+    <pubDate>Wed, 23 March 2022 20:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Improving Product Review ranking, one year on</title>
+    <link>https://developers.google.com/search/blog/2022/03/product-review-ranking-one-year-on</link>
+    <description>
+      Our March 2022 product reviews update is now rolling out for English-language pages.
+      This update may impact the rankings of English-language product reviews across many sites.
+      We've also extended our advice for multi-product reviews. Check out our blog post for details.
+    </description>
+    <pubDate>Wed, 23 March 2022 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Monitoring Search traffic (and more!) with Data Studio</title>
+    <link>https://developers.google.com/search/blog/2022/03/monitoring-dashboard</link>
+    <description>
+      This article shows how to create a monitoring dashboard for your Search traffic on Data Studio. In addition, it announces new data in
+      the Data Studio Search Console connector. Lastly, it provides data visualization tips to help you make your dashboards more effective.
+    </description>
+    <pubDate>Wed, 16 March 2022 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Connecting Search Console to Data Studio</title>
+    <link>https://developers.google.com/search/blog/2022/03/connecting-data-studio</link>
+    <description>
+      This post is the first in a series of posts that will focus on exporting, enhancing, and visualizing Search Console data using Google Data Studio. Today's post discusses
+      how to bring Search Console data into Google Data Studio, including an example where we download Search Console data into Google Sheets, enhance the data with geographical regions,
+      and connect the spreadsheet to Data Studio.
+    </description>
+    <pubDate>Tue, 08 March 2022 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Welcoming the new Search Console URL Inspection API</title>
+    <link>https://developers.google.com/search/blog/2022/01/url-inspection-api</link>
+    <description>
+      Today we’re launching the new Google Search Console URL Inspection API, which gives programmatic access
+      to URL-level data for properties you manage in Search Console.
+    </description>
+    <pubDate>Mon, 31 January 2022 02:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New robots tag: indexifembedded</title>
+    <link>https://developers.google.com/search/blog/2022/01/robots-meta-tag-indexifembedded</link>
+    <description>
+      Today, we're introducing a new robots tag, indexifembedded, that brings you more control over
+      when your content is indexed.
+    </description>
+    <pubDate>Fri, 21 January 2022 05:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Our authors' take on 2021</title>
+    <link>https://developers.google.com/search/blog/2021/12/eoy-blogpost</link>
+    <description>
+      The authors of the Search Central blog reflect on 2021 and share their aspirations for 2022.
+    </description>
+    <pubDate>Fri, 31 December 2021 05:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Product reviews update and your site</title>
+    <link>https://developers.google.com/search/blog/2021/12/product-reviews-update-and-your-site</link>
+    <description>
+      We are now rolling out a new product reviews update, the first major update since April 2021,
+      that may change how your product reviews rank in search results.
+      We are also sharing new best practices when writing product reviews to augment the previous
+      advice we shared. We also published a new documentation page that captures the complete set
+      of best practices.
+    </description>
+    <pubDate>Wed, 01 December 2021 05:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>A 2021 update on mobile indexing</title>
+    <link>https://developers.google.com/search/blog/2021/11/update-on-mobile-indexing</link>
+    <description>
+      We first started working on mobile-first indexing a number of years ago. Since then, we
+      switched to indexing the majority of web pages with Googlebot-Smartphone. We've now
+      determined that some sites are still not ready to be shifted over due to various,
+      unexpected challenges. Because of this, we're now leaving the timeline
+      open for the last steps of mobile-first indexing.
+    </description>
+    <pubDate>Fri, 26 November 2021 05:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>One year of Google Search Central</title>
+    <link>https://developers.google.com/search/blog/2021/11/one-year-of-search-central</link>
+    <description>
+      A year ago, we launched our new site and announced that we were leaving our beloved
+      name, Google Webmasters, behind for a new moniker: Google Search Central. This year, we've been
+      working with our internal SEO team to improve our content, writing lots of new documentation,
+      migrating 13 local language blogs, and developing a new checklist for our home page.
+    </description>
+    <pubDate>Wed, 17 November 2021 05:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Timeline for bringing page experience ranking to desktop</title>
+    <link>https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop</link>
+    <description>
+      We’ll begin using page experience as part of our desktop ranking systems beginning in February
+      2022. The rollout will be complete by the end of March 2022. This ranking launch will be based on
+      the same page experience signals that we rolled out for mobile earlier this year.
+    </description>
+    <pubDate>Thur, 04 November 2021 05:30:00 +0000</pubDate>
+  </item>
+   <item>
+    <title>Help job seekers understand your job postings by including a complete description</title>
+    <link>https://developers.google.com/search/blog/2021/11/improve-job-posting-description</link>
+    <description>
+      We've uncovered an opportunity to improve your job posting pages, and it only takes a few changes to the description field.
+    </description>
+    <pubDate>Mon, 1 November 2021 07:00:00 +0000</pubDate>
+   </item>
+   <item>
+    <title>Search Analytics API now supports Discover, Google News, and Regex</title>
+    <link>https://developers.google.com/search/blog/2021/10/search-analytics-discover-gnews</link>
+    <description>
+      The Google Search Analytics API, which already provides data about Search performance, is being updated to also include Discover and Google News data.
+      Site owners that have this type of traffic will now be able to pull it programatically through the API. In addition, Regex support has also been added
+      to the query and page dimensions.
+    </description>
+    <pubDate>Mon, 25 October 2021 05:30:00 +0000</pubDate>
+  </item>
+     <item>
+    <title>Aligning Search Console testing tools and the URL Inspection tool</title>
+    <link>https://developers.google.com/search/blog/2021/10/search-console-tools-alignment</link>
+    <description>
+      We’re making changes in the AMP, Mobile Friendly, and Rich Results testing tools to be fully aligned with the Search Console URL Inspection tool.
+      The changes include standardization of previous features, plus new features that you may be familiar with from the URL Inspection tool.
+    </description>
+    <pubDate>Mon, 11 October 2021 07:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>More information on how Google generates titles for web page results</title>
+    <link>https://developers.google.com/search/blog/2021/09/more-info-about-titles</link>
+    <description>
+      Last month, we shared about our new system for generating titles for web page results. Thanks to
+      your feedback, which has been much appreciated, we've further refined our titles system.
+      Here's more about what we've been doing and some additional guidance for creators.
+    </description>
+    <pubDate>Fri, 17 September 2021 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>An update to how we generate web page titles</title>
+    <link>https://developers.google.com/search/blog/2021/08/update-to-generating-page-titles</link>
+    <description>
+      One of the primary ways people determine which search results might be relevant to their
+      query is by reviewing the titles of listed web pages. That’s why Google Search works hard to
+      provide the best titles for documents in our results to connect searchers with the content
+      that creators, publishers, businesses, and others have produced.
+    </description>
+    <pubDate>Tue, 24 August 2021 18:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Google Search Console Insights behind the curtains</title>
+    <link>https://developers.google.com/search/blog/2021/08/search-console-insights-faq</link>
+    <description>
+      Following the Search Console Insights announcement, we received great feedback from the community, and
+      also questions about the data. In this post, we provide answers to some of those questions and clarify
+      additional points.
+    </description>
+    <pubDate>Mon, 9 August 2021 9:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Simplifying the Page Experience report</title>
+    <link>https://developers.google.com/search/blog/2021/08/simplifying-the-page-experience-report</link>
+    <description>
+      Today we’re launching a new version of the Search Console Page Experience report. The new
+      report is simplified by removing the Safe Browsing and Ad Experience widgets, and we also
+      fixed how missing data is handled.
+    </description>
+    <pubDate>Wed, 4 August 2021 11:45:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>A reminder on qualifying links and our link spam update</title>
+    <link>https://developers.google.com/search/blog/2021/07/link-tagging-and-link-spam-update</link>
+    <description>
+     If you monetize your websites and blogs with affiliate links or sponsored and guest posts,
+      it's very important to qualify these links. Learn more about commercial links and link spam
+    </description>
+    <pubDate>Mon, 26 July 2021 07:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Engage shoppers with deal pages in Google Search</title>
+    <link>https://developers.google.com/search/blog/2021/07/deals-best-practices</link>
+    <description>
+      Get the most out of the Google Search deals carousel by creating deals pages for more
+      sales events and following these best practices.
+    </description>
+    <pubDate>Wed, 21 July 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Analyzing Google Search traffic drops</title>
+    <link>https://developers.google.com/search/blog/2021/07/search-traffic-drops</link>
+    <description>
+     Learn about some of the reasons your Google Search traffic may have decreased and how to use the Search Console
+      Performance report and Google Trends to start debugging a Search traffic drop.
+    </description>
+    <pubDate>Tue, 20 July 2021 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>A new way to enable video key moments in Search</title>
+    <link>https://developers.google.com/search/blog/2021/07/new-way-key-moments</link>
+    <description>
+      Since video key moments first launched in 2019, we’ve continued to expand and improve the
+      feature. Today, we’re launching a new way for you to enable key moments for videos on your
+      site, without the effort of manually labeling each segment.
+    </description>
+    <pubDate>Mon, 19 July 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Answers to some common questions about appearing in Google News</title>
+    <link>https://developers.google.com/search/blog/2021/07/google-news-top-questions</link>
+    <description>
+    Today, we’re answering some common questions we've heard from publishers to help them better understand
+      how news appears on Google News and Google Search.
+    </description>
+    <pubDate>Fri, 16 July 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Updating our job posting guidelines to improve quality of results for job seekers</title>
+    <link>https://developers.google.com/search/blog/2021/07/job-posting-updates</link>
+    <description>
+      Searching for a job can be a time consuming process and the outcome of the application may be life
+      changing. That's why providing job seekers with authentic, fresh, and trustworthy content when
+      they come to Google Search is our top priority. Today we are announcing a new structured data
+      property and new editorial content policy.
+    </description>
+    <pubDate>Tues, 13 July 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Highlight your customer support methods in Google Search</title>
+    <link>https://developers.google.com/search/blog/2021/07/customer-support</link>
+    <description>
+      Customers are often looking for ways to contact businesses, and Google works to show the best
+      available information to help them in a variety of ways whenever we can. You can help
+      us with this by following several best practices that help ensure we're showing the most
+      accurate information for your business or service.
+    </description>
+    <pubDate>Wed, 07 July 2021 07:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Learn how to improve your content with Search Console Insights</title>
+    <link>https://developers.google.com/search/blog/2021/06/search-console-insights</link>
+    <description>
+    To help you better understand which content of yours resonates with your audiences, we are  introducing a new experience called Search Console Insights.
+    This experience joins data from both Search Console and Google Analytics with a goal of making it easy to understand your content’s performance.
+    </description>
+    <pubDate>Tue, 15 June 2021 4:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The Search Central Unconference is back</title>
+    <link>https://developers.google.com/search/blog/2021/06/search-central-unconference-emea</link>
+    <description>
+      You asked, we listened: On June 21st we will host another virtual unconference.
+      Applications are open now until June 14th, so head over to our event site to learn more about the event and apply to participate.
+    </description>
+    <pubDate>Wed, 09 June 2021 16:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Search Console regex filters update and quick tips</title>
+    <link>https://developers.google.com/search/blog/2021/06/regex-negative-match</link>
+    <description>
+      Following feedback on the announcement of the new Search Console Performance report regular expression (regex) filters, today we're updating the
+      filter to support expressions that don't match regex. We're also taking the opportunity to provide tips for users that are new to regex.
+    </description>
+    <pubDate>Wed, 02 June 2021 07:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Understanding the sources behind Google News</title>
+    <link>https://developers.google.com/search/blog/2021/06/google-news-sources</link>
+    <description>
+      This post provides more information about Google's transparency policy to help news sources understand the principles behind the policy and how to meet it in practice.
+    </description>
+    <pubDate>Tue, 01 June 2021 08:00:00 +0000</pubDate>
+  </item>
+ <item>
+    <title>Search at Google I/O 2021</title>
+    <link>https://developers.google.com/search/blog/2021/05/search-io-2021</link>
+    <description>
+      Google I/O is our annual developers festival, and this year it was all virtual. But as with
+      any events, virtual, or in-person, a lot of information was covered over the three-day event.
+      In case you missed it, here is a list of some Search-related news and announcements that might
+      be of interest to you.
+    </description>
+    <pubDate>Thur, 27 May 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Prevent portions of your site from being abused by spam</title>
+    <link>https://developers.google.com/search/blog/2021/05/prevent-portions-of-site-from-spam</link>
+    <description>
+      As a website owner, you might provide a few channels where your users can interact.
+      Unfortunately, spammers often take advantage of these types of services to generate hundreds
+      of spam pages that add little or no value to the web. Learn how to prevent spammers from
+      abusing your site.
+    </description>
+    <pubDate>Wed, 26 May 2021 12:00:00 +0000</pubDate>
+  </item>
+  <item>
+   <title>How we worked with you towards a safe and spam-free Search experience in 2020</title>
+    <link>https://developers.google.com/search/blog/2021/05/working-with-you-for-safe-and-spam-free-search-2020</link>
+    <description>
+     Making sure your Search experience is safe and free of spam is important to us and we can’t
+     achieve this mission without you! Here’s how we worked with you in 2020 towards safe and
+     spam-free search results.
+    </description>
+    <pubDate>Wed, 26 May 2021 05:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Sunsetting the generic rich results search appearance on Search Console</title>
+    <link>https://developers.google.com/search/blog/2021/05/rich-results-search-appearance-sunsetting</link>
+    <description>
+      A few years ago we created a generic "rich results" search appearance group in Search Console that included multiple rich result types,
+      including those that didn't have their own breakout row on Search Console. This is not required anymore, since we now have breakouts for
+      most rich result types. Therefore we decided to sunset the rich result search appearance.
+    </description>
+    <pubDate>Tue, 25 May 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Video SEO best practices for ecommerce</title>
+    <link>https://developers.google.com/search/blog/2021/05/video-for-ecommerce</link>
+    <description>
+      Get the most out of your videos on your ecommerce site by making sure Google can find and
+      index them, driving more traffic to your site.
+    </description>
+    <pubDate>Wed, 12 May 2021 07:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>How we fought Search spam on Google in 2020</title>
+    <link>https://developers.google.com/search/blog/2021/04/how-we-fought-search-spam-2020</link>
+    <description>
+      Every day, we discover 40 billion spammy pages! This post explains how we used innovation, AI,
+      and more in 2020 to keep that spam away from your search results.
+    </description>
+    <pubDate>Thu, 29 Apr 2021 06:30:00 +0000</pubDate>
+    </item>
+  <item>
+    <title>More time, tools, and details on the page experience update</title>
+    <link>https://developers.google.com/search/blog/2021/04/more-details-page-experience</link>
+    <description>
+      Last November we announced that the page experience ranking change will go live on Google
+      Search this year, in what we’re calling the "page experience update". To help publishers and
+      site owners improve their page experience and prepare, today we’re announcing a few key updates.
+    </description>
+    <pubDate>Mon, 19 Apr 2021 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Upcoming changes to FeedBurner</title>
+    <link>https://developers.google.com/search/blog/2021/04/changes-to-feedburner</link>
+    <description>
+      Feedburner is making several upcoming changes to support the product's next chapter. This post describes what you can
+      expect to change and what you can do now to ensure you’re prepared.
+    </description>
+    <pubDate>Wed, 14 Apr 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Announcing the Sustainable Monetized Websites video series</title>
+    <link>https://developers.google.com/search/blog/2021/04/sustainable-monetized-websites</link>
+    <description>
+      The new series Sustainable Monetized Websites is now available on the Search Central and the Google AdSense YouTube channels.
+      This series focuses on the best practices for people who create or manage content online and monetize it, acknowledging how
+      challenging this can be and assisting them with resources and focus areas.
+    </description>
+    <pubDate>Mon, 12 Apr 2021 02:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Expanding support for APAC Search Central Help Communities</title>
+    <link>https://developers.google.com/search/blog/2021/04/expanding-support-for-apac-help</link>
+    <description>
+      As we’ve been continuously working to improve support for website owners in more language
+      markets, we’re very excited to announce the opening of our Chinese, Korean, Vietnamese, and
+      Thai Search Central Help Communities with support from a global team of community managers
+      that are dedicated to helping Product Experts.
+    </description>
+    <pubDate>Fri, 09 Apr 2021 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What creators should know about Google’s product reviews update</title>
+    <link>https://developers.google.com/search/blog/2021/04/product-reviews-update</link>
+    <description>
+      Google Search is always working to show the most useful and helpful information possible,
+      through testing, experimenting, and review processes. From this, we know people appreciate
+      product reviews that share in-depth research, rather than thin content that simply summarizes
+      a bunch of products. That’s why we’re sharing an improvement to our ranking systems,
+      which we call the product reviews update, that’s designed to better reward such content.
+    </description>
+    <pubDate>Thu, 08 Apr 2021 10:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Improved data filtering and comparison on Performance reports</title>
+    <link>https://developers.google.com/search/blog/2021/04/performance-report-data-filtering</link>
+    <description>
+      This post describes a new way to filter data on the Search Console Performance reports: regular expressions, or regex. This will allow users
+      to create more complex query and page based filters and answer more questions that interest them.
+    </description>
+    <pubDate>Wed, 07 Apr 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New for education sites: Practice problems and Math solver structured data</title>
+    <link>https://developers.google.com/search/blog/2021/03/education-sites-practice-problems-math-solver</link>
+    <description>
+      In this post, we provide details to help you implement structured data on your practice problems and math solver pages to make
+      your pages eligible to feature on Google Search as rich results. We also announce the new rich results status reports to help you
+      make sure that your implementation is correct.
+    </description>
+    <pubDate>Thu, 25 Mar 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>SharedArrayBuffer messaging clarifications</title>
+    <link>https://developers.google.com/search/blog/2021/03/sharedarraybuffer-notes</link>
+    <description>
+      Some of you might have received an email from Google Search Console with the subject "New
+      requirements for SharedArrayBuffers". We received feedback that the message was confusing,
+      and wanted to give some more insight into the issue, so that you can decide which next steps
+      are appropriate.
+    </description>
+    <pubDate>Fri, 19 Mar 2021 07:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New resources for video SEO</title>
+    <link>https://developers.google.com/search/blog/2021/03/new-resources-for-video-seo</link>
+    <description>
+      As global online video consumption continues to grow, Google aims to surface video content
+      from diverse sources across the web. We want to make it easy for site owners to get their
+      videos indexed and surfaced on Google. Today, we’re excited to share two new resources to help
+      you optimize your videos for Google Search and Discover.
+    </description>
+    <pubDate>Wed, 17 Mar 2021 06:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Providing better product information for shoppers</title>
+    <link>https://developers.google.com/search/blog/2021/02/product-information</link>
+    <description>
+      To best help users find your content and products in Search, we recommend that you clearly identify products mentioned.
+    </description>
+    <pubDate>Fri, 26 Feb 2021 16:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New Association functionality added to Search Console</title>
+    <link>https://developers.google.com/search/blog/2021/02/search-console-associations</link>
+    <description>
+      We're happy to announce that Search Console has a new and enhanced Association page.
+      Any associations that were previously set are carried over to the new Associations page automatically.
+    </description>
+    <pubDate>Mon, 22 Feb 2021 08:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Join us at Search Central Live</title>
+    <link>https://developers.google.com/search/blog/2021/02/join-us-at-search-central-live</link>
+    <description>
+      On February 24, we will host our first installment of our new event series called Search Central Live.
+    </description>
+    <pubDate>Thu, 18 Feb 2021 08:30:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Search Console Discover report now includes Chrome data</title>
+    <link>https://developers.google.com/search/blog/2021/02/search-console-performance-discover-chrome</link>
+    <description>
+      Starting today, all your Discover traffic (including from Chrome) will be shown in the Performance report for Discover.
+    </description>
+    <pubDate>Tue, 02 Feb 2021 08:15:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Introducing Google News performance report</title>
+    <link>https://developers.google.com/search/blog/2021/01/google-news-performance-report</link>
+    <description>
+      Today we are launching Google News performance reporting to help news publishers better understand user behavior on Google News on our Android and iOS apps, as well as on news.google.com.
+    </description>
+    <pubDate>Tue, 12 Jan 2021 07:15:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Index Coverage Data Improvements</title>
+    <link>https://developers.google.com/search/blog/2021/01/index-coverage-data-improvements</link>
+    <description>
+      Based on the feedback we got from the community, today we are rolling out significant improvements to the Index Coverage report so you’re better informed on issues that might prevent Google from crawling and indexing your pages. The change is focused on providing a more accurate state to existing issues, which should help you solve them more easily.
+    </description>
+    <pubDate>Mon, 11 Jan 2021 06:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>A weird year in review</title>
+    <link>https://developers.google.com/search/blog/2020/12/a-weird-year-in-a-review</link>
+    <description>
+      2020, what a year this was! We found new ways to work and collaborate, to learn and have fun, and also to stay safe.
+    </description>
+    <pubDate>Wed, 16 Dec 2020 08:20:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>An update on the Structured Data Testing Tool</title>
+    <link>https://developers.google.com/search/blog/2020/12/structured-data-testing-tool-update</link>
+    <description>In July, we announced that the Rich Results Test is out of beta. In that blog post, we said that the Structured Data Testing Tool would be deprecated. Since then, we've heard your feedback and we'd like to give an update on what the future looks like for the Structured Data Testing Tool
+    </description>
+    <pubDate>Tue, 15 Dec 2020 07:20:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Updates to Search Console’s API</title>
+    <link>https://developers.google.com/search/blog/2020/12/search-console-api-updates</link>
+    <description>A few months ago we announced an API infrastructure upgrade to improve the performance of the Search Console API as demand grows. Today we’re happy to announce some more updates coming your way.</description>
+    <pubDate>Wed, 09 Dec 2020 10:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New and improved crawl stats for your site</title>
+    <link>https://developers.google.com/search/blog/2020/11/search-console-crawl-stats-report</link>
+    <description>To help website owners better understand how <a href="https://developers.google.com/search/docs/advanced/crawling/googlebot">Googlebot</a> crawls their sites, we’re launching a brand new version of the <a class="external-link" href="https://support.google.com/webmasters/answer/35253">Crawl stats report</a> in Search Console.</description>
+    <pubDate>Tue, 24 Nov 2020 14:33:30 +0000</pubDate>
+  </item>
+  <item>
+    <title>We moved! Introducing the new home for the Google Webmasters blogs</title>
+    <link>https://developers.google.com/search/blog/2020/11/introducing-new-home-for-blog</link>
+    <description>Last week we changed our name to Google Search Central and published our new central site. As part of this site migration, we're also consolidating the Google Webmaster Blogs into one place on the new site. Today, we're announcing that this page within the Google Search Central site is the new home for our blog. We migrated all of the archived blog posts, dating back to 2005.</description>
+    <pubDate>Wed, 18 Nov 2020 13:50:15 +0000</pubDate>
+  </item>
+  <item>
+    <title>Goodbye Google Webmasters, hello Google Search Central</title>
+    <link>https://developers.google.com/search/blog/2020/11/goodbye-google-webmasters</link>
+    <description>Merriam-Webster claims the first known use of the word "webmaster" was in 1993, years before Google even existed. However, the term is becoming archaic, and according to the data found in books, its use is in sharp decline. A user experience study we ran revealed that very few web professionals identify themselves as webmasters anymore. They're more likely to call themselves Search Engine Optimizer (SEO), online marketer, blogger, web developer, or site owner, but very few "webmasters".</description>
+    <pubDate>Wed, 11 Nov 2020 17:50:15 +0000</pubDate>
+  </item>
+  <item>
+    <title>Timing for bringing page experience to Google Search</title>
+    <link>https://developers.google.com/search/blog/2020/11/timing-for-page-experience</link>
+    <description>This past May, we announced that page experience signals would be included in Google Search ranking. These signals measure how users perceive the experience of interacting with a web page and contribute to our ongoing work to ensure people get the most helpful and enjoyable experiences from the web. In the past several months, we’ve seen a median 70% increase in the number of users engaging with Lighthouse and Page Speed Insights, and many site owners using Search Console’s Core Web Vitals report to identify opportunities for improvement.</description>
+    <pubDate>Tue, 10 Nov 2020 15:54:37 +0000</pubDate>
+  </item>
+  <item>
+    <title>PES@Home 2020: Google’s first virtual summit for Product Experts</title>
+    <link>https://developers.google.com/search/blog/2020/11/pes-at-home</link>
+    <description>More than ever, users are relying on Google products to do their jobs, educate their kids, and stay in touch with loved ones. Our Google Product Experts (PEs) play a vital role in supporting these users in community forums, like the Webmaster Help Community, across many languages.</description>
+    <pubDate>Thu, 05 Nov 2020 20:14:19 +0000</pubDate>
+  </item>
+  <item>
+    <title>Best practices for Black Friday and Cyber Monday pages</title>
+    <link>https://developers.google.com/search/blog/2020/10/best-practices-black-friday</link>
+    <description>The end of the year holiday season is a peak time for many merchants with special sales events such as Black Friday and Cyber Monday. As a merchant, you can help Google highlight your sales events by providing landing pages with relevant content and high quality images.</description>
+    <pubDate>Mon, 26 Oct 2020 14:35:43 +0000</pubDate>
+  </item>
+  <item>
+    <title>The Search Console Training lives on</title>
+    <link>https://developers.google.com/search/blog/2020/10/search-console-training</link>
+    <description>In November 2019 we announced the Search Console Training YouTube series and started publishing videos regularly. The goal of the series was to create updated video content to be used alongside Search documentation, for example in the Help Center and in the Developers site.</description>
+    <pubDate>Fri, 02 Oct 2020 12:55:26 +0000</pubDate>
+  </item>
+  <item>
+    <title>New Schema.org support for retailer shipping data</title>
+    <link>https://developers.google.com/search/blog/2020/09/new-schemaorg-support-for-retailer</link>
+    <description>Quick summary: Starting today, we support shippingDetails schema.org markup as an alternative way for retailers to be eligible for shipping details in Google Search results.</description>
+    <pubDate>Tue, 22 Sep 2020 16:16:23 +0000</pubDate>
+  </item>
+  <item>
+    <title>New open source robots.txt projects</title>
+    <link>https://developers.google.com/search/blog/2020/09/new-open-source-robotstxt-projects</link>
+    <description>Last year we released the robots.txt parser and matcher that we use in our production systems to the open source world. Since then, we've seen people build new tools with it, contribute to the open source library (effectively improving our production systems- thanks!), and release new language versions like golang and rust, which make it easier for developers to build new tools.</description>
+    <pubDate>Mon, 21 Sep 2020 13:08:22 +0000</pubDate>
+  </item>
+  <item>
+    <title>Googlebot will soon speak HTTP/2</title>
+    <link>https://developers.google.com/search/blog/2020/09/googlebot-will-soon-speak-http2</link>
+    <description>Quick summary: Starting November 2020, Googlebot will start crawling some sites over HTTP/2.</description>
+    <pubDate>Thu, 17 Sep 2020 11:57:08 +0000</pubDate>
+  </item>
+</channel>
+</rss>
