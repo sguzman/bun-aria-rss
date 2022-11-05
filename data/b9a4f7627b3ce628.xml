@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Marginally Interesting by Mikio L. Braun</title>
+ <link href="http://blog.mikiobraun.de/feeds/posts/default" rel="self"/>
+ <link href="http://blog.mikiobraun.de/"/>
+ <updated>2021-01-24T16:21:41+01:00</updated>
+ <id>http://blog.mikiobraun.de/</id>
+ <author>
+   <name>Mikio L. Braun</name>
+   <uri>http://mikiobraun.de/</uri>
+   <email>mikiobraun@gmail.com</email>
+ </author>
+ 
+ 
+   <entry>
+   <title type="html">Head Over To margint.blog</title>
+   <link href="http://blog.mikiobraun.de/2017/12/head-over-to-margint-blog.html"/>
+   <updated>2017-12-26T11:34:00+01:00</updated>
+   <published>2017-12-26T11:34:00+01:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2017/12/head-over-to-margint-blog</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;Hello Fellow Readers,&lt;/p&gt;
+
+&lt;p&gt;I’ve set up a new blog at &lt;a href=&quot;http://margint.blog/&quot;&gt;margint.blog&lt;/a&gt; and will continue posting there (hopefully more frequently than I did in the past two years). This blog here will stay around indefinitely, of course, but I’ve also started to repost best-ofs to the new blog.&lt;/p&gt;
+
+&lt;p&gt;I moved over to a wordpress hosted blog instead of my handrolled &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; plus static files setup. If you’re interested, here are my main reasons to make the switch:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The main reason was that editing files became more and more difficult. Recompiling took longer and longer. I couldn’t just drag and drop images, and I was starting to want a WYSIWYG style editor (yeah, I’m getting old…).&lt;/li&gt;
+  &lt;li&gt;Having full control is nice, but the last redesign, moving from my own CSS files to something more responsive took all my mental capacities to make it through.&lt;/li&gt;
+  &lt;li&gt;I was considering again rolling my own based on &lt;a href=&quot;http://ghost.org/&quot;&gt;ghost&lt;/a&gt; or something like it, but I would have needed to do some customization, for example, to make old URLs work. Also, I never found the time.&lt;/li&gt;
+  &lt;li&gt;It was nice to have full Google Analytics integration, but let’s be honest, I never needed the full feature set of that anyway, daily graphs of what people are reading were enough for my post-publishing-are-people-reading-this-urges.&lt;/li&gt;
+  &lt;li&gt;I was becoming interesting in scheduled posts and having updates automatically propagated to social media.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I don’t know how I ended up with wordpress, but they’ve been around forever and they seem to know their business. There was also a pleasant surprise, they essentially give you one domain for free. No idea whether it’s for the first year only or not, but that was definitely nice.&lt;/p&gt;
+
+&lt;p&gt;In any case, if you want to continue reading, bookmark &lt;a href=&quot;http://margint.blog/&quot;&gt;margint.blog&lt;/a&gt;, or start following me on &lt;a href=&quot;http://twitter.com/mikiobraun&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://www.linkedin.com/in/mikiobraun/&quot;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2017/12/head-over-to-margint-blog.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">AI&apos;s Road to the Mainstream</title>
+   <link href="http://blog.mikiobraun.de/2016/08/ai-road-to-mainstream.html"/>
+   <updated>2016-08-14T22:05:00+02:00</updated>
+   <published>2016-08-14T22:05:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2016/08/ai-road-to-mainstream</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;&lt;em&gt;First posted on July 30, 2016 on &lt;a href=&quot;https://medium.com/@mikiobraun/ais-road-to-the-mainstream-3a04b2aebe8e#.h48uec1an&quot;&gt;medium&lt;/a&gt;. This version contains minor corrections and a few links.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When I enrolled in Computer Science in 1995, Data Science didn’t exist yet, but a lot of the algorithms we are still using already did. And this is not just because of the return of the neural networks, but also because probably not that much has fundamentally changed since back then. At least it feels to me this way. Which is funny considering that starting this year or so AI seems to finally have gone mainstream.&lt;/p&gt;
+
+&lt;p&gt;1995 sounds like an awful long time ago, before we had cloud computing, smartphones, or chatbots. But as I have learned these past years, it only feels like a long time ago if you haven’t been there yourself. There is something about the continuation of the self which pastes everything together and although a lot has changed, the world didn’t feel fundamentally different than it does today.&lt;/p&gt;
+
+&lt;p&gt;Not even Computer Science was nowhere as mainstream as it was today, that came later, with the first dot com bubble around the year 2000. Some people even questioned my choice to study computer science at all, because apparently programming computers was supposed to become so easy no specialists are required anymore.&lt;/p&gt;
+
+&lt;p&gt;Actually, artificial intelligence was one of the main reasons for me to study computer science. The idea to use it as an constructive approach to understanding the human mind seemed intriguing to me. I went through the first two years of training, made sure I picked up enough math for whatever would lie ahead, and finally arrived in my first AI lectured held by Joachim Buhmann, back then professor at the University of Bonn (where Sebastian Thrun was just about to leave for the US).&lt;/p&gt;
+
+&lt;p&gt;I would have to look up where in his lecture cycle I joined but he had two lectures on computer vision, one on pattern recognition (mostly from the old editions of the Duda &amp;amp; Hart book), and one in information theory (following closely the book by Cover &amp;amp; Thomas). The material was interesting enough, but also somewhat disappointing. As I now know, people stopped working on symbolic AI and instead stuck to more statistical approaches to learning, where learning essentially was reduced to the problem of picking the right function based on a finite amount of observations.&lt;/p&gt;
+
+&lt;p&gt;The computer vision lecture was even less about learning and relied more on explicit physical modelling to derive the right estimators, for example, to reconstruct motion from a video. The approach back then was much more biologically and physically motivated than nowadays. Neural networks existed, but everybody was pretty clear that they were just “another kind of function approximators.”&lt;/p&gt;
+
+&lt;p&gt;Everyone with the exception of Rolf Eckmiller, another professor where I worked as a student. Eckmiller had built his whole lab around the premise that “neural computation” was somehow inherently better than “conventional computation”. This was back in the days when NIPS had full tracks devoted to studying the physiology and working mechanisms of neurons, and there were people who believed there is something fundamentally different happening in our brains, maybe on a quantum level, that gives rise to the human mind, and that this difference is a blocker for having truly intelligent machines.&lt;/p&gt;
+
+&lt;p&gt;While Eckmiller was really good at selling his vision, most of his staff was thankfully much more down to earth. Maybe it is a very German thing, but everybody was pretty matter of fact about what these computational models could or couldn’t do, and that has stuck with me throughout my studies.&lt;/p&gt;
+
+&lt;p&gt;I graduated in October 2000 with a pretty farfetched master thesis trying to make a connection between learning and hard optimization problems, then started on my PhD thesis and stuck around in this area of research till 2015.&lt;/p&gt;
+
+&lt;p&gt;While there had always been attempts to prove industry relevance, it was a pretty academic endeavor for a long while, and the community was pretty closed up. There were individual success stories, for example around handwritten character recognition, but many of the companies around machine learning failed. One of these companies I remember was called Biowulf Technologies and one NIPS they went around recruiting people with a video which promised it to be the next “mathtopia”. In essence, this was the story of DeepMind, recruiting a bunch of excellent researchers and then hoping it will take off.&lt;/p&gt;
+
+&lt;p&gt;The whole community also revolved around one fashion to the next. One odd thing about machine learning as a whole is that there exist only a handful of fundamentally different problems like classification, regression, clustering, and so on, but a whole zoo of approaches. It is not like in physics (I assume) or mathematics where some generally agreed upon unsolved hard problems exist whose solution would advance the state of the art. This means that progress is often done laterally, by replacing existing approaches with a new one, still solving the same problem in a different way. For example, first there were neural networks. Then support vector machines came, claiming to be better because the associated optimization problem is convex. Then there was boosting, random forests, and so on, till the return of neural networks. I remember that Chinese Restaurant Processes were “hot” for two years, no idea what their significance is now.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-data-and-data-science&quot;&gt;Big Data and Data Science&lt;/h2&gt;
+
+&lt;p&gt;Then there came Big Data and Data Science. Being still in academia at the time, it always felt to me as if this was definitely coming from the outside, possibly from companies like Google who had to actually deal with enormous amounts of data. Large scale learning always existed, for example for genomic data in bioinformatics, but one usually tried to solve problems by finding more efficient algorithms and approximations, not by parallelizing brute force.&lt;/p&gt;
+
+&lt;p&gt;Companies like Google finally proved that you can do something with massive amounts of data, and that finally changed the mainstream perception. Technologies like Hadoop and NoSQL also seemed very cool, skillfully marketing themselves as approaches so new, they wouldn’t suffer from the technological limitations of existing systems.&lt;/p&gt;
+
+&lt;p&gt;But where did this leave the machine learning researchers? My impression always was that they were happy that they finally got some recognition, but they were also not happy about the way this happened. To understand this, one has to be aware that most ML researchers aren’t computer scientists or very good or interested in coding. Many come from physics, mathematics or other sciences, where their rigorous mathematical training was an excellent fit for the algorithm and modeling heavy approach central to machine learning.&lt;/p&gt;
+
+&lt;p&gt;Hadoop on the other hand was extremely technical. Written in Java, a language perceived as being excessively enterprise-y at the time, it felt awkward and clunky compared to the fluency and interactiveness of first Matlab and then Python. Even those who did code usually did so in C++, and to them Java felt slow and heavy, especially for numerical calculations and simulations.&lt;/p&gt;
+
+&lt;p&gt;Still, there was no way around it, so they rebranded everything they did as Big Data, or began to stress, that Big Data only provides the infrastructure for large scale computations, but you need someone who “knows what he is doing” to make sense of the data.&lt;/p&gt;
+
+&lt;p&gt;Which is probably also not entirely wrong. In a way, I think this divide is still there. Python is definitely one if the languages of choice for doing data analysis, and technologies like Spark try to tap into that by providing Python bindings, whether it makes sense from a performance point of view or not.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-return-of-deep-learning&quot;&gt;The Return of Deep Learning&lt;/h2&gt;
+
+&lt;p&gt;Even before &lt;a href=&quot;https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html&quot;&gt;DeepDream&lt;/a&gt;, neural networks began making their return. Some people like Yann LeCun have always stuck to this approach, but maybe ten years ago, there where a few works which showed how to use layerwise pretraining and other tricks to train “deep” networks, that is larger networks than one previously thought possible.&lt;/p&gt;
+
+&lt;p&gt;The thing is, in order to train neural networks, you evaluate it on your training examples and then adjust all of the weights to make the error a bit smaller. If one writes the gradient across all weights down, it naturally occurs that one starts in the last layer and then propagate the error back. Somehow, the understanding was that the information about the error got smaller and smaller from layer to layer and that made it hard to train networks with many layers.&lt;/p&gt;
+
+&lt;p&gt;I’m not sure that is still true, as far as I know, many people are just using backprop nowadays. What has definitely changed is the amount of available data, as well as the availability of tools and raw computing power.&lt;/p&gt;
+
+&lt;p&gt;So first there were a few papers sparking the interest in neural networks, then people started using them again, and successively achieved excellent results for a number of application areas. First in computer vision, then also for speech processing, and so on.&lt;/p&gt;
+
+&lt;p&gt;I think the appeal here definitely is that you can have one approach for all. Why the hassle of understanding all those different approaches, which come from so many different backgrounds, when you can understand just one method and you are good to go. Also, neural networks have a nice modular structure, you can pick and put together different kinds of layers and architectures to adapt them to all kinds of problems.&lt;/p&gt;
+
+&lt;p&gt;Then Google published that ingenious deep dream paper where they let a learned network generate some data, and we humans with our immediate readiness to read structure and attribute intelligence picked up quickly on this.&lt;/p&gt;
+
+&lt;p&gt;I personally think they were surprised by how viral this went, but then decided the time is finally right to go all in on AI. So now Google is an “AI first” company and AI is gonna save the world, yes.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-fundamental-problem-remains&quot;&gt;The Fundamental Problem Remains&lt;/h2&gt;
+
+&lt;p&gt;Many academics I have talked to are unhappy about the dominance of deep learning right now, because it is an approach which works well, maybe even too well, but doesn’t bring us much closer to really understand how the human mind works.&lt;/p&gt;
+
+&lt;p&gt;I also think the fundamental problem remains unsolved. How do we understand the world? How do we create new concepts? Deep learning stays an imitation on a behavioral level and while that may be enough for some, it isn’t for me.&lt;/p&gt;
+
+&lt;p&gt;Also, I think it is dangerous to attribute too much intelligence to these systems. In raw numbers, they might work well enough, but when they fail they do so in ways that clearly show they operate in an entirely different fashion.&lt;/p&gt;
+
+&lt;p&gt;While Google translate lets you skim the content of website in a foreign language, it is still abundantly clear that the system has no idea what it is doing.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I feel like nobody cares, also because nobody gets hurt, right? But maybe it is still my German cultural background that would rather prefer we see things as they are, and take it from there.&lt;/p&gt;
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2016/08/ai-road-to-mainstream.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Hey Ho, Thanks for Sticking Around!</title>
+   <link href="http://blog.mikiobraun.de/2016/06/hey-ho-and-thanks-for-sticking-around.html"/>
+   <updated>2016-06-02T10:00:00+02:00</updated>
+   <published>2016-06-02T10:00:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2016/06/hey-ho-and-thanks-for-sticking-around</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;So this was definitely a long radio silence! Since I blogged last time, a lot has happened.&lt;/p&gt;
+
+&lt;p&gt;I’ve quit my PostDoc job and joined &lt;a href=&quot;https://tech.zalando.de&quot;&gt;Zalando&lt;/a&gt;, a big (the biggest?) European fashion retailer (revenue in 2015: about three billion Euros). I’m a “delivery lead”, kind of a technical lead role for two teams. One is running the recommendation service for all of Zalando, the other team is creating a new search backend service. It definitely is a management position, so I don’t code much (except for &lt;a href=&quot;https://twitter.com/mikiobraun/status/735010846884147200&quot;&gt;sometimes&lt;/a&gt;), but I find leadership extremely interesting, and challenging, and Zalando with its agile culture seems like the perfect place to be for me right now.&lt;/p&gt;
+
+&lt;p&gt;One of my last projects at the university was a lecture series on Scalable Machine Learning. I had originally planned to spend about the same amount of time on Big Data technology as on the theoretical underpinnings, but after interventions from other professors who were concerned about people earning “double credits” it became the most mathematical piece of teaching I ever did. This was quite an experience. I had planned to prepare a few weeks worth in advance, but in the end, I was often spending all of Tuesday and Wednesday to churn out those 40-50 slides per week for the lecture on Thursday.&lt;/p&gt;
+
+&lt;p&gt;I attended StrataHadoop in London last year, where Ben Lorica talked me into doing a video on &lt;a href=&quot;http://shop.oreilly.com/product/0636920045274.do&quot;&gt;Scalable Machine Learning&lt;/a&gt; for O’Reilly (finally, also being allowed to talk about the technical side). We recorded the video in Amsterdam during OSCON in October in a single day (also, quite an experience). It is geared at people who already have a good understanding of Data Science and ML, but are not yet familiar with large scale learning, or Big Data technology, and is intended as a starting point into technologies like Spark.&lt;/p&gt;
+
+&lt;p&gt;So my interests have shifted a bit, away from pure machine learning towards topics like facilitating collaboration between data scientists and engineers. Yesterday I gave a talk titled &lt;a href=&quot;http://conferences.oreilly.com/strata/hadoop-big-data-eu/public/schedule/detail/50378&quot;&gt;Hardcore Data Science in Practice&lt;/a&gt; to present my current state of insights into the matter, and I put my &lt;a href=&quot;http://www.slideshare.net/mikiobraun/hardcore-data-science-in-practice&quot;&gt;slides on the Internet&lt;/a&gt;. Zalando has heavily invested in data scientists and it’s very interesting to see how that works out day to day. A friend of mine has remarked that I’m the only person he knows who uses the term “Data Scientist” unironically. ;)&lt;/p&gt;
+
+&lt;p&gt;I also greatly enjoy working with developers on a daily basis. After all, I’m a computer scientist by training, but having worked in machine learning for so long where people come from many backgrounds like physics, mathematics, and so on, I almost forgot about this.&lt;/p&gt;
+
+&lt;p&gt;One blog post that just didn’t happened was a lengthy treatement of my reasons for leaving academia. Personally it makes total sense to me now, and I think there is a lot left to improve in academia, but I don’t see the point in talking about it right now.&lt;/p&gt;
+
+&lt;p&gt;There is obviously a lot of things happening right now in the &lt;em&gt;hypespace&lt;/em&gt;. Internet of Things, chat bots, and suddenly &lt;a href=&quot;http://www.businessinsider.de/salesforce-ceo-i-see-an-ai-first-world-2016-5&quot;&gt;AI is back&lt;/a&gt; and there are a few upcoming things I just have to say about that, too ;)&lt;/p&gt;
+
+&lt;p&gt;So thanks for sticking around, hopefully the next post will not take another year to write.&lt;/p&gt;
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2016/06/hey-ho-and-thanks-for-sticking-around.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Three Things About Data Science You Won&apos;t Find In the Books</title>
+   <link href="http://blog.mikiobraun.de/2015/03/three-things-about-data-science.html"/>
+   <updated>2015-03-23T16:55:00+01:00</updated>
+   <published>2015-03-23T16:55:00+01:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2015/03/three-things-about-data-science</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;In case you haven’t heard yet, Data Science is all the craze. Courses, posts, and schools are springing up everywhere. However, every time I take a look at one of those offerings, I see that a lot of emphasis is put on specific learning algorithms. Of course, understanding how logistic regression or deep learning works is cool, but once you start working with data, you find out that there are other things equally important, or maybe even more.&lt;/p&gt;
+
+&lt;p&gt;I can’t really blame these courses. I’ve done years of teaching machine learning at universities, and these lectures always focus very much on specific algorithms. You learn everything about support vector machines, Gaussian mixture models, k-Means clustering, and so on, but only when you work on your master thesis do you learn how to properly work with data.&lt;/p&gt;
+
+&lt;p&gt;So what does &lt;em&gt;properly&lt;/em&gt; mean anyway? Don’t the ends justify the means? Isn’t everything ok as long as I get good predictive performance? That is certainly true, but the key is to make sure that you actually get good performance on &lt;em&gt;future data&lt;/em&gt;. As I’ve written elsewhere, it’s just too simple to fool yourself into believing your method works when all you are looking at are results on training data.&lt;/p&gt;
+
+&lt;p&gt;So here are my three main insights you won’t easily find in books.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-evaluation-is-key&quot;&gt;1. Evaluation Is Key&lt;/h2&gt;
+
+&lt;p&gt;The main goal in data analysis/machine learning/data science (or however you want to call is), is to build a system which will perform well on future data. The distinction between supervised (like classification) and unsupervised learning (like clustering) makes it hard to talk about what this means in general, but in any case you will usually have some data set collected on which you build and design your method. But eventually you want to apply the method to future data, and you want to be sure that the method works well and produces the same kind of results you have seen on your original data set.&lt;/p&gt;
+
+&lt;p&gt;A mistake often done by beginners is to just look at the performance on the available data and then assume that it will work just as well on future data. Unfortunately that is seldom the case. Let’s just talk about supervised learning for now, where the task is to predict some outputs based on your inputs, for example, classify emails into spam and non-spam.&lt;/p&gt;
+
+&lt;p&gt;If you only consider the training data, then it’s very easy for a machine to return perfect predictions just by memorizing everything (unless the data is contradictory). Actually, this isn’t that uncommon even for humans. Remember when you were memorizing words in a foreign language and you had to made sure that you were testing the words out of order, because otherwise your brain would just memorize the words based on their order?&lt;/p&gt;
+
+&lt;p&gt;Machines with their massive capacity for storing and retrieving large amounts of data can do the same thing easily. This leads to &lt;em&gt;overfitting&lt;/em&gt;, and lack of &lt;em&gt;generalization&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So the proper way to evaluate is to simulate the effect that you have future data by splitting the data, training on one part and then predicting on the other part. Usually, the training part is larger, and this procedure is also iterated several times in order to get a few numbers to see how stable the method is. The resulting procedure is called &lt;em&gt;cross-validation&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; src=&quot;/images/3t-evaluation.png&quot; /&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;In order to simulate performance on future data, you split the available data in two parts, train on one part, and use the other only for evaluation.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Still, a lot can go wrong, especially when the data is non-stationary, that is, the underlying distribution of the data is changing over time. Which often happens when you are looking at data measured in the real world. Sales figures will look quite different in January than in June.&lt;/p&gt;
+
+&lt;p&gt;Or there is a lot of correlation between the data points, meaning that if you know one data point you already know a lot about another data point. For example, if you take stock prices, they usually don’t jump around a lot from one day to the other, so that doing the training/test split randomly by day leads to training and test data sets which are highly correlated.&lt;/p&gt;
+
+&lt;p&gt;Whenever that happens, you will get performance numbers which are overly optimistic, and your method will not work well on true future data. In the worst case, you’ve finally convinced people to try out your method in the wild, and then it stops working, so learning how to properly evaluate is key!&lt;/p&gt;
+
+&lt;h2 id=&quot;2-its-all-in-the-feature-extraction&quot;&gt;2. It’s All In The Feature Extraction&lt;/h2&gt;
+
+&lt;p&gt;Learning about a new method is exciting and all, but the truth is that most complex method essentially perform the same, and that the real difference is made by the way in which raw data is turned into features used in learning.&lt;/p&gt;
+
+&lt;p&gt;Modern learning methods are pretty powerful, easily dealing with tens of thousand of features and hundreds of thousand of data points, but the truth is that in the end, these methods are pretty dumb. Especially methods that learn a linear model (like logistic regression, or linear support vector machines) are essentially as dumb as your calculator.&lt;/p&gt;
+
+&lt;p&gt;They are really good at identifying the informative features given enough data, but if the information isn’t in there, or not representable by a linear combination of input features, there is little they can do. The are also not able to do this kind of data reduction themselves by having “insights” about the data.&lt;/p&gt;
+
+&lt;p&gt;Put differently, you can massively reduce the amount of data you need by finding the right features. Hypothetically speaking, if you reduced all the features to the function you want to predict, there is nothing left to learn, right? That is how powerful feature extraction is!&lt;/p&gt;
+
+&lt;p&gt;This means two things: First of all, you should make sure that you master one of those nearly equivalent methods, but then you can stick with them. So you don’t really need logistic regression and linear SVMs, you can just pick one. This involves also understanding which methods are nearly the same, where the key point lies in the underlying model. So deep learning is something different, but linear models are mostly the same in terms of expressive power. Still, training time, sparsity of the solution, etc. may differ, but you will get the same predictive performance in most cases.&lt;/p&gt;
+
+&lt;p&gt;Second of all, you should learn all about feature engineering. Unfortunately, this is more of an art, and almost not covered in any of the textbooks because there is so little theory to it. Normalization will go a long way. Sometimes, features need to be taken the logarithm of. Whenever you can eliminate some degree of freedom, that is, get rid of one way in which the data can change which is irrelevant to the prediction task, you have significantly lowered the amount of data you need to train well.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it is very easy to spot these kinds of transformations. For example, if you are doing handwritten character recognition, it is pretty clear that colors don’t matter as long as you have a background and a foreground.&lt;/p&gt;
+
+&lt;p&gt;I know that textbooks often sell methods as being so powerful that you can just throw data against them and they will do the rest. Which is maybe also true from a theoretical viewpoint and an infinite source of data. But in reality, data and our time is finite, so finding informative features is absolutely essential.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-model-selection-burns-most-cycles-not-data-set-sizes&quot;&gt;3. Model Selection Burns Most Cycles, Not Data Set Sizes&lt;/h2&gt;
+
+&lt;p&gt;Now this is something you don’t want to say too loudly in the age of Big Data, but most data sets will perfectly fit into your main memory. And your methods will probably also not take too long to run on the data. But you will spend a lot of time extracting features from the raw data and running cross-validation to compare different feature extraction pipelines and parameters for your learning method.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block&quot; src=&quot;/images/3t-model-selection.png&quot; /&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;For model selection, you go through a large number of parameter combinations, evaluating the performance on identical copies of the data.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem is all in the combinatorial explosion. Let’s say you have just two parameters, and it takes about a minute to train your model and get a performance estimate on the hold out data set (properly evaluated as explained above). If you have five candidate values for each of the parameters, and you perform 5-fold cross-validation (splitting the data set into five parts and running the test five times, using a different part for testing in each iteration), this means that you will already do 125 runs to find out which method works well, and instead of one minute you wait about two hours.&lt;/p&gt;
+
+&lt;p&gt;The good message here is that this is easily parallelizable, because the different runs are entirely independent of one another. The same holds for feature extraction where you usually apply the same operation (parsing, extraction, conversion, etc.) to each data set independently, leading to something which is called “embarrasingly parallel” (yes, that’s a technical term).&lt;/p&gt;
+
+&lt;p&gt;The bad message here is mostly for the Big Data guys, because all of this means that there is seldom the need for scalable implementations of complex methods, but already running the same undistributed algorithm on data in memory in parallel would be very helpful in most cases.&lt;/p&gt;
+
+&lt;p&gt;Of course, there exist applications like learning &lt;a href=&quot;http://www.cs.cmu.edu/~muli/file/parameter_server_nips14.pdf&quot;&gt;global models from terabytes of log data&lt;/a&gt; for ad optimization, or &lt;a href=&quot;http://data-artisans.com/computing-recommendations-with-flink.html&quot;&gt;recommendation for million of users&lt;/a&gt;, but bread-and-butter use cases are often of the type described here.&lt;/p&gt;
+
+&lt;p&gt;Finally, having lots of data by itself does not mean that you really need all the data, either. The questions is much more about the complexity of the underlying learning problem. If the problem can be solved by a simple model, you don’t need that much data to infer the parameters of your model. In that case, taking a random subset of the data might already help a lot. And as I said above, sometimes, the right feature representation can also help tremendously in bringing down the number of data points needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-summary&quot;&gt;In summary&lt;/h2&gt;
+
+&lt;p&gt;In summary, knowing how to evaluate properly can help a lot to reduce the risk that the method won’t perform on future data. Getting the feature extraction right is maybe the most effective lever to pull to get good results, and finally, it doesn’t always to have Big Data, although distributed computation can help to bring down training times.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’m contemplating of putting together an ebook with articles like this one and some hands on stuff to get you started with data science. If you want to show your support, you can sign up &lt;a href=&quot;http://leanpub.com/mikiosschoolofdata&quot;&gt;here&lt;/a&gt; to get notified when the book is published.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2015/03/three-things-about-data-science.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Pivoting</title>
+   <link href="http://blog.mikiobraun.de/2015/01/pivoting.html"/>
+   <updated>2015-01-30T17:03:00+01:00</updated>
+   <published>2015-01-30T17:03:00+01:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2015/01/pivoting</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;To make a long story short, I’ve decided to scale back my involvement with the streamdrill company to a purely advisory role. The reasons for this are naturally very complex, but in the end, I wasn’t seeing the kind of traction or the prospect of traction necessary to keep going at the pace I was going, splitting time between family, the university jobs, which paid my bills, and doing the dev work and marketing for streamdrill.&lt;/p&gt;
+
+&lt;p&gt;In fact I still believe the base technology is pretty compelling, so we’re going to open source the core, to allow me to continue to work on it. That’s something I had been wanting to do for some time, because in the Big Data community, having some part as open-source is necessary to get people to try this out. At streamdrill, we always had more of a focus on providing some directly usable end product, so this won’t hurt the company (which Leo is planning to continue.)&lt;/p&gt;
+
+&lt;p&gt;So the big question (or maybe not) is what to do now. In fact, I already got plenty to do… .&lt;/p&gt;
+
+&lt;p&gt;So I’m still at the TU Berlin, and let me whine about the situation here for one paragraph ;) It’s not ideal. I sort of have accepted for myself that my interests are just too applied for academia (one simply does not write software at my level anymore, people told me it’s suspicious and I should stop it). In terms of career I have moved up to a point where the work I’m expected to do is mostly teaching, advising students, and stuff like grant proposal and project management. And while I seem to do OK, this makes me deal with stuff I find extremely painful. On the plus side, it provides good job security and somewhat fair pay, but that will only get you so far, soulwise.&lt;/p&gt;
+
+&lt;p&gt;And the workload is pretty high. I have to do about a professor level of teaching, and am currently supervising about 5 students writing their master thesis and something like two to three Ph.D. students.&lt;/p&gt;
+
+&lt;p&gt;I’m sort of managing our side of the &lt;a href=&quot;http://www.bbdc.berlin/&quot;&gt;Berlin Big Data Center&lt;/a&gt; project. Luckily this project aligns well with my interests. It’s about bringing together machine learning people and people who build scalable distributed infrastructure. We’re closely related to the &lt;a href=&quot;http://flink.apache.org/&quot;&gt;Apache Flink&lt;/a&gt; project, which is also really picking up lately. There’s lots of mutual interest, so I’m definitely looking forward to that.&lt;/p&gt;
+
+&lt;p&gt;There is also another project which is potentially coming up, so my current workload is two projects, half a dozen students, and about 20 or so students to supervise in four teaching courses.&lt;/p&gt;
+
+&lt;p&gt;I’ve recently started to join the &lt;a href=&quot;http://www.infoq.com/author/Mikio-Braun&quot;&gt;InfoQ editorial board&lt;/a&gt; and try to cover about one Big Data related news item per week. And I’m again taking part in the 3rd batch of the &lt;a href=&quot;http://datascienceretreat.com/&quot;&gt;Data Science Retreat&lt;/a&gt; starting in February.&lt;/p&gt;
+
+&lt;p&gt;And there’s still more stuff I’m interested in:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://jblas.org&quot;&gt;jblas&lt;/a&gt; needs some love.&lt;/em&gt; My last serious updates are two years old, but with all that JVM based data analysis happening, jblas usage has picked up recently. I have some ideas to unclutter the code, make the whole build process more manageable, and maybe look into some new ideas to make use of native code also in cases where copying would be prohibitive, maybe by using caches or explicit memory handling.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;open source streamdrill&lt;/em&gt;, of course. Use of probabilistic data structures are picking up recently, and I always thought that it’s time to take it to the next level and write analysis algorithms which naturally use these structures as building blocks.&lt;/li&gt;
+  &lt;li&gt;There’s a lot of talk about data science / Big Data convergence, but based on the people who are doing Ph.D.s in machine learning at TU Berlin, the existing technology is still much too unwieldy to use. Ever tried setting up Hadoop from the sources? I simply cannot see that someone who is used to Python would want to do that. Spark, for example, is investing a lot in that area, but their &lt;a href=&quot;http://blog.mikiobraun.de/2013/09/designing-machine-learning-frameworks.html&quot;&gt;machine learning efforts are still very rough and somewhat premature&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Likewise, there is a lot of training under way to get more Data Scientists, but I think that the way data analysis is taught at universities is a very bad guideline, because that’s really trying to teach people to become researchers and create new data analysis methods, not use them reasonably. I think similar to the division between people who build tools and those who use tools to do something valuable with it, there needs to be a separation of training programs. And for that existing tools need to mature more. &lt;a href=&quot;http://scikit-learn.org/&quot;&gt;Scikit-learn&lt;/a&gt;, for example, is an awesome collection of many, many methods, but it has very little in terms of high-level stuff to support the process of data analysis.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://www.infoq.com/news/2014/12/ipython-notebooks&quot;&gt;Notebooks is the new excel&lt;/a&gt;.&lt;/em&gt; I’m seeing a lot of use of IPython style notebooks lately to get to a more “literal” style of data analysis to get data analysis and business people to collaborate. Also the integration of code, plots, and results is really nice.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Moving out of out-of-core-learning.&lt;/em&gt; After working with streaming for so long, the classical Python/R way of doing data analysis feels so weird. Why do I have to load all that data into memory? I understand that learning methods are so complex and data access patterns so random that this is the only way, but it now feels like a big restriction that your data set needs to fit into memory. Machine learning should be more like UNIX where stuff is file based and 10k C programs can work with gigabytes of data with 32MB of RAM if they need to (ok, I’m thinking of how it was back in 1994, but you get my point). And I’m not simply talking about &lt;a href=&quot;http://datascienceatthecommandline.com/&quot;&gt;data science on the command line&lt;/a&gt;, we probably need new algorithms for that, too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And then there are even other odds and bits. I mean why is everything so complex nowadays? Just frameworks wrapping frameworks. CSS frameworks? I mean, c’mon! What about things which did one thing well and weren’t a pain to set up?&lt;/p&gt;
+
+&lt;p&gt;I want to keep attending more non-academic meetings. I’ll try to go to QCon London for at least one day, and I’ll be also speaking at Strata in London in May.&lt;/p&gt;
+
+&lt;p&gt;Still, the whole situation is hardly ideal. Maybe it’s asking too much of a job to have perfect alignment between interests and job related activities, but I think there’s room for improvement. Stay tuned.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2015/01/pivoting.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Data Science workshop at data2day</title>
+   <link href="http://blog.mikiobraun.de/2014/12/first-data-science-tutorial.html"/>
+   <updated>2014-12-01T12:15:00+01:00</updated>
+   <published>2014-12-01T12:15:00+01:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2014/12/first-data-science-tutorial</id>
+   <content type="html">&lt;p&gt;&lt;div class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;/images/data2day-workshop-smaller.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Giving a one day tutorial on data science is something I’ve been considering
+in different contexts from time to time, but for different reasons it never
+really happened. Finally, last Friday, the tutorial took place as a workshop
+in the &lt;a href=&quot;http://data2day.de&quot;&gt;data2day&lt;/a&gt; conference, and I think it went pretty well. In this post I’d
+like to talk a bit about our approach and our experiences.&lt;/p&gt;
+
+&lt;p&gt;The conference was organized by the heise publisher, well known in Germany for
+their print magazines &lt;a href=&quot;http://www.heise.de/ct/&quot;&gt;c’t&lt;/a&gt; and &lt;a href=&quot;http://www.heise.de/ix/&quot;&gt;iX&lt;/a&gt;, which have been household names in IT since
+the eighties. It was the first conference in the Big Data/Data Science
+context organized by them, but already brought together over 150 participants.&lt;/p&gt;
+
+&lt;p&gt;For the workshop, I was happy to team up with Jan Müller and Paul Bünau from
+&lt;a href=&quot;http://idalab.de&quot;&gt;idalab&lt;/a&gt;. In fact, Paul and I had developed a similar kind of hands-on
+introduction to data analysis a few years ago while he was working on his PhD
+at TU Berlin. Designed as a summer long course, the idea was to have students
+implement a number of machine learning algorithms themselves. Each method
+would first be presented by focussing on the main ideas, without going into
+the theory too much. Then, the students would have two to three weeks time to
+implement the method and play around with them on some toy data. During that
+phase, we would have a weekly office hour where we would go around and talk to
+the students individually to help them where they got stuck.&lt;/p&gt;
+
+&lt;p&gt;This course seemed to be quite popular with the students. We would still
+randomly get praise for the course years later with students telling us that
+this was among the courses where they learned most.&lt;/p&gt;
+
+&lt;p&gt;So when designing this one day workshop, the idea was from the beginning to
+keep these two ingredients: Focus on main ideas and context, and a hands-on
+approach.&lt;/p&gt;
+
+&lt;p&gt;It was particularly important to us to not just go through a bunch of learning
+algorithms, but also stress how important is to know what you are doing. As I
+have &lt;a href=&quot;http://blog.mikiobraun.de/2014/02/data-analysis-hard-parts.html&quot;&gt;discussed before&lt;/a&gt;, it is too easy to put together some data analysis
+pipeline and then not properly evaluate. Everything looks great, but in the
+end you have just looked at training error, resulting in really bad
+performance on future data.&lt;/p&gt;
+
+&lt;p&gt;For the hands-on part, we chose to work with &lt;a href=&quot;http://ipython.org/notebook.html&quot;&gt;IPython notebooks&lt;/a&gt;. These are
+available on all major operating systems, notebooks can saved and loaded
+easily, it integrates with plotting, and so on. Toolwise we chose to work with
+&lt;a href=&quot;http://www.numpy.org/&quot;&gt;numpy&lt;/a&gt;, &lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, [scikit-learn], and &lt;a href=&quot;http://matplotlib.org/&quot;&gt;matplotlib&lt;/a&gt;.  Originally the plan was
+to have one session where we go through the basics of the tools and then two
+use cases, but while putting the material together it became apparent that
+there wasn’t enough time for two use cases, so we just sticked with a simple
+example based on MNIST character recognition, and decision trees.&lt;/p&gt;
+
+&lt;p&gt;So in the end the course went like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;about one hour if introductory course on what is data science/machine learning, and things like supervised vs. unsupervised learning,   evaluation, cross-validation, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;one hour of going through the basics of numpy and pandas in an interactive IPython session&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;one hour of doing some exercises with numpy and pandas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;another hour of going through an example with scikit-learn&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;two hours of doing the use case&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The notebook from the example sessions were handed out at the beginning of the
+exercises, and the exercises were prepared as IPython notebooks themselves
+with free cells where you could put down your solutions.&lt;/p&gt;
+
+&lt;p&gt;As it is with all such things, you never know whether you thought of
+everything, but all in all, we felt the workshop went very well. With three of
+us,  there was enough time to help each of the participants individually,
+including fixing issues like finding out where IPython was keeping it files
+under Windows, dealing with oddities of Python’s indexing scheme, and so on.&lt;/p&gt;
+
+&lt;p&gt;In the end, all participants had a running notebook which loaded the MNIST
+data, learned a decision tree whose hyperparameter was adjusted by cross-
+validation, giving them about 83% accuracy. Of course that is not optimal, but
+already pretty good for a few lines of code. Most importantly, everyone now
+has a complete framework from which they can start exploring other approaches,
+try out new methods, and so on.&lt;/p&gt;
+
+&lt;p&gt;Next time, we would probably intersperse the background talk with the
+solutions, such that there isn’t such a monolithic block at the beginning, and
+be more careful with Python 3 vs Python 2. But overall I think our approach
+worked out very well (also based on the feedback we got).&lt;/p&gt;
+
+&lt;p&gt;The workshop also showed that there is a real need of teaching people the more
+high level concepts like proper validation. Unfortunately, even at
+universities, the focus is too much on the methods themselves. Students often
+learn the process and things like proper validation only when they work on
+their master thesis. On the hand, for doing robust and reliable data analyses,
+these things are absolutely essential.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2014/12/first-data-science-tutorial.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Parts But No Car</title>
+   <link href="http://blog.mikiobraun.de/2014/10/parts-bug-no-car-big-data-infrastructure.html"/>
+   <updated>2014-10-02T10:45:00+02:00</updated>
+   <published>2014-10-02T10:45:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2014/10/parts-bug-no-car-big-data-infrastructure</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;One question which pops up again and again when I talk about streamdrill is
+whether that cannot be done by X, where X is one of Hadoop, Spark, Go, or some
+other piece of Big Data infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Of course, the reason why I find it hard to respond that question is that the
+engineer in my is tempted to say “in principle, yes” which sort of questions
+why I put all that work to rebuild something which apparently already exists.
+But the truth is that there’s a huge gap between “in principle” and “in
+reality”, and I’d like to spell this difference out in this post.&lt;/p&gt;
+
+&lt;p&gt;The bottom line is that all those pieces of Big Data infrastructure which
+exists today provide you with a lot of pretty impressive functionality,
+distributed storage, scalable computing, resilience, and so on, but not in a
+way which solves your data analysis problems out of the box. The analogy I
+like is that Big Data is a lot like providing you with an engine, a
+transmission, some tires, a gearbox, and so on, but no car.&lt;/p&gt;
+
+&lt;p&gt;So let us consider an example where you have some clickstream and you want to
+extract some information about your users. Think, for example, recommendation,
+or churn prediction. So what steps are actually involved in putting together
+such a system?&lt;/p&gt;
+
+&lt;p&gt;First comes the hardware, either on the cloud or by buying or finding some
+spare machines, and then setting up the basic infrastructure. Nowadays, this
+would mean installing Linux, HDFS, the distributed filesystem of Hadoop, and
+YARN, the resource manager which allows you to run different kind of compute
+jobs on the cluster. Especially when you go for the raw Open Source version of
+Hadoop, this step requires a lot of manual configuration, and unless you
+already did this a few times, this might take a while to get to work.&lt;/p&gt;
+
+&lt;p&gt;Then, you need to take in the data in some way, for example, by something
+like &lt;a href=&quot;http://kafka.apache.org/&quot;&gt;Apache Kafka&lt;/a&gt;, which is essentially a mixture of a distributed log
+storage and an event transport plattform.&lt;/p&gt;
+
+&lt;p&gt;Next, you need to process the data, which could either be done by a system
+like &lt;a href=&quot;http://storm.incubator.apache.org/&quot;&gt;Apache Storm&lt;/a&gt;, a stream processing framework which lets you distribute
+computing once you have it broken down to pieces of computation taking in
+an event at a time. Or you use &lt;a href=&quot;http://spark.apache.org/&quot;&gt;Apache Spark&lt;/a&gt; which let’s you describe
+computation on a higher level with something like a functional collection API
+and can also be fed a stream of data.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this still does nothing useful out of the box. Both Storm and
+Spark are just frameworks for distributed computing, meaning that they allow
+you to scale computation, but you need to tell them what you want to compute.
+So you first need to figure out what to do with your data and this involves
+looking at data, identifying the kind of statistical analysis which is suited
+to solve your problem, and so on, and probably requires a skilled data
+scientist to spend one to two month working on the data. There are projects
+like &lt;a href=&quot;http://spark.apache.org/mllib&quot;&gt;mllib&lt;/a&gt; which provide more advanced analytics, but again these projects
+don’t provide full solutions to application problems but are tools for a data
+scientist to work with (And they are still somewhat early stage IMHO.)&lt;/p&gt;
+
+&lt;p&gt;Still, there’s more work to do. One thing people are often unaware of is that
+Storm and Spark have no &lt;a href=&quot;/2013/03/stream-processing-has-no-
+query-layer.html&quot;&gt;storage layer&lt;/a&gt;. This means that they both perform computation, but to get
+to the result of the computation, you have to store it somewhere and have some
+means to query it. This means usually to store the result in a database,
+something like &lt;a href=&quot;http://redis.io&quot;&gt;redis&lt;/a&gt;, if you want the speed of a memory based data storage, or
+in some other way.&lt;/p&gt;
+
+&lt;p&gt;So by now we have taken care of how to get the data in, what to do with it and
+how, and how to store the result such that we can query it while the
+computation is going on. Conservatively talking, we’re already down six man
+months, probably less if you have done it before and/or are lucky. Finally,
+you also need to have some way to visualize the results, or if your main
+access is via an API, to monitor what the system is doing. For this, more
+coding is required, to create a web backend with graphs written in  &lt;a href=&quot;http://d3js.org&quot;&gt;d3.js&lt;/a&gt; in
+JavaScript.&lt;/p&gt;
+
+&lt;p&gt;The resulting system probably looks a bit like this.&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;/images/big-data-parts-fig.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Lots of moving parts which need to be deployed and maintained. Contrast this
+with an integrated solution. To me this is difference between a bunch of parts
+and a car.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2014/10/parts-bug-no-car-big-data-infrastructure.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">Big Data &amp; Machine Learning Convergence</title>
+   <link href="http://blog.mikiobraun.de/2014/08/big-data-machine-learning-convergence.html"/>
+   <updated>2014-08-22T16:21:00+02:00</updated>
+   <published>2014-08-22T16:21:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2014/08/big-data-machine-learning-convergence</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;I recently had two pretty interesting discussions with students here at TU
+Berlin  which I think are representative with respect to how big the
+divide between the machine learning community and the Big Data community still
+is.&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-algebra-vs-functional-collections&quot;&gt;Linear Algebra vs. Functional collections&lt;/h2&gt;
+
+&lt;p&gt;One student is working on implementing a boosting method I wrote a few years
+ago using next-gen Big Data frameworks like &lt;a href=&quot;http://flink.incubator.apache.org/&quot;&gt;Flink&lt;/a&gt; and &lt;a href=&quot;https://spark.apache.org/&quot;&gt;Spark&lt;/a&gt; as
+part of his master thesis. I choose this algorithm because it the operations
+involved were quite simple: computing scalar products, vector differences, and
+norms of vectors. Probably the most complex thing is to compute a cumulative
+sum.&lt;/p&gt;
+
+&lt;p&gt;These are all operations which boil down to linear algebra, and the whole
+algorithm is a few lines of code in pseudo-notation expressed in linear
+algebra. I was wondering just how hard it would be to formulate this using a
+more “functional collection” style API.&lt;/p&gt;
+
+&lt;p&gt;For example, in order to compute the squared norm of a vector, you have to
+square each element and sum them up. In a language like C you’d do it like
+this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;squaredNorm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In Scala, you’d express the same thing with&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;squaredNorm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Double&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;sum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In a way, the main challenge here consists in breaking down these for-loops
+into these sequence primitives provided by the language. Another example: the
+scalar product (sum of product of the corresponding elements of two vectors)
+would become&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;scalarProduct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Double&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Double&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ab&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;_2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;sum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and so on.&lt;/p&gt;
+
+&lt;p&gt;Now turning to a system like Flink or Spark which provides a very similar set
+of operations and is able to distribute them, it should be possible to use a
+similar approach. However, the first surprise was that in distributed systems,
+there is no notion of order of a sequence. It’s really more of a collection of
+things.&lt;/p&gt;
+
+&lt;p&gt;So if you have to compute the scalar product between the vectors, you need to
+extend the stored data to include the index of each entry as well, and then
+you first need to join the two sequences on the index to be able to perform
+the map.&lt;/p&gt;
+
+&lt;p&gt;The student is still half way through with this, but already it has cost
+considerable amount of mental work to rethink standard operations in the new
+notation, and most importantly, have faith in the underlying system that it is
+able to perform things like joining vectors such that elements are aligned in
+a smart fashion.&lt;/p&gt;
+
+&lt;p&gt;I think the main message here is that machine learners really like to think in
+terms of matrices and vectors, not so much databases and query languages.
+That’s the way algorithms are described in papers, that’s the way people
+think, and the way people are trained, and it would be tremendously helpful if
+there is a layer for that on top of Spark or Flink. There are already some
+activites in that direction like &lt;a href=&quot;https://spark.apache.org/docs/latest/mllib-basics.html&quot;&gt;distributed vectors in
+Spark&lt;/a&gt; or the &lt;a href=&quot;https://mahout.apache.org/users/sparkbindings/play-with-
+shell.html&quot;&gt;spark-shell
+ in Mahout&lt;/a&gt;, and I’m pretty interested to see whether how they will develop.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-data-vs-big-computation&quot;&gt;Big Data vs. Big Computation&lt;/h2&gt;
+
+&lt;p&gt;The other interesting discussion was with a Ph.D. student who works on
+predicting properties in solid state physics using machine learning. He
+apparently didn’t knew too much about Hadoop and when I explained it to him he
+also found it not appealing at all, although he is spending quite some compute
+time on the groups cluster.&lt;/p&gt;
+
+&lt;p&gt;There exists a medium sized cluster at TU Berlin for the machine learning group.
+It consists of about 35 nodes, and hosts about 13TB of data for all kinds of
+research projects from the last ten or so years. But the cluster does not run
+on Hadoop, it uses Sun’s &lt;a href=&quot;http://www.univa.com/products/grid-engine.php&quot;&gt;gridengine&lt;/a&gt;, which is now maintained by Univa.
+There are historical reasons for that. Actually, the current infrastructure
+developed over a number of years. So here is the short-history of distributed
+computing at the lab:&lt;/p&gt;
+
+&lt;p&gt;Back in the early 2000s, people were still having desktop PCs under their
+desks. At the time, people were doing most of their work on their own
+computer, although I think disk space was already shared over NFS (probably
+mainly for backup reasons). As people required more computing power, people
+started to log into other computers (of course, after asking whether that was
+ok), in addition to several larger sized computers which were bought at the
+time.&lt;/p&gt;
+
+&lt;p&gt;That didn’t go well for a long time. First of all, manually finding computers
+with resources to spare was pretty cumbersome, and oftentimes, your computer
+would become very noisy although you weren’t doing any work yourself. So the
+next step was to buy some rack servers, and put them into a server room, still
+with the same centralized filesystem shared over NFS.&lt;/p&gt;
+
+&lt;p&gt;The next step was to keep people from logging in to individual computers.
+Instead, gridengine was installed, which lets you submit jobs in the form of
+shell scripts to execute on the cluster when there were free resources. In a
+way, gridengine is like &lt;a href=&quot;http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html&quot;&gt;YARN&lt;/a&gt;, but restricted to shell scripts and
+interactive shells. It has some more advanced capabilities, but people mostly
+submit it to run their programs somewhere in the cluster.&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;/images/tu-cluster.png&quot; /&gt;
+	Compute cluster for machine learning research.
+&lt;/div&gt;
+
+&lt;p&gt;Things have evolved a bit by now, for example, the NFS is now connected to a
+SAN over fibre channel, and there exist different slots for interactive and
+batch jobs, but the structure is still the same, and it works. People use it
+for matlab, native code, python, and many other things.&lt;/p&gt;
+
+&lt;p&gt;I think the main reason that this system still works is that the jobs which
+are run here are mostly compute intensive and no so much data intensive.
+Mostly the system is used to run large batches of model comparison, testing
+many different variants on essentially the same data set.&lt;/p&gt;
+
+&lt;p&gt;Most jobs follow the same principle: They initially load the data into memory
+(usually not more than a few hundred MB) and then compute for minutes to
+hours. In the end, the resulting model and some performance numbers are
+written to disk. Usually, the methods are pretty complex (this is ML research,
+after all). Contrast this with “typical” Big Data settings where you have
+terabytes of data and run comparatively simple analysis methods or search on
+them.&lt;/p&gt;
+
+&lt;p&gt;The good message here is that scalable computing in the way it’s mostly
+required today is not that complicated. So this is less about
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Message_Passing_Interface&quot;&gt;MPI&lt;/a&gt; and hordes of
+compute workers, but more about support for managing long running computation
+tasks, dealing with issues of job dependency, snapshotting for failures, and
+so on.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-data-to-complex-methods&quot;&gt;Big Data to Complex Methods?&lt;/h2&gt;
+
+&lt;p&gt;The way I see it, Big Data has so far been driven mostly by the requirement to
+deal with huge amount of data in a scalable fashion, while the methods were
+usually pretty simple (well, at least in terms to what is considered simple in
+machine learning research).&lt;/p&gt;
+
+&lt;p&gt;But eventually, more complex methods will also become relevant, such that
+scalable large scale computations will become more important, and possible
+even a combination of both. There already exists a large body of work for
+large scale computation, for example from people running large scale numerical
+simulation in physics or meterology, but less so from database people.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there is lots of potential for machine learners to open up
+new possibilities to deal with vasts amount of data in an interactive fashion,
+something which is just plain impossible with a system like gridengine.&lt;/p&gt;
+
+&lt;p&gt;As these two fields converge, work has to be done to provide the right set of
+mechanisms and abstractions. Right now I still think there is a considerable
+gap which we need to close over the next few years.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2014/08/big-data-machine-learning-convergence.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">The Streaming Landscape, 2014 edition: Convergence, APIs, Data Access</title>
+   <link href="http://blog.mikiobraun.de/2014/08/streaming-landscape-2014.html"/>
+   <updated>2014-08-11T13:51:00+02:00</updated>
+   <published>2014-08-11T13:51:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2014/08/streaming-landscape-2014</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;A year ago, I wrote a post on the &lt;a href=&quot;http://blog.mikiobraun.de/2013/06/real-time-big-data-landscape.html&quot;&gt;real-time big data landscape&lt;/a&gt;, identifying different approaches to deal with real-time big data. As I
+saw it back then, there was sort of an evolution from database based
+approaches (put all your data in, run queries), up to stream processing (one
+event at a time), and finally algorithmic approaches relying on stream mining
+algorithsm, together with all kinds of performance “hacks” like
+parallelization, or using memory instead of disks.&lt;/p&gt;
+
+&lt;p&gt;In principle, this picture is still adequate in terms of the underlying mode
+of data processing, that is, where you store your data, whether you process it
+as it comes in or in a more batch oriented fashion later on, and so on, but
+there is always the question how to build systems around these approaches. And
+given the amount of money which is currently &lt;a href=&quot;http://www.zdnet.com/cloudera-raises-900-million-plots-expansion-7000027879/&quot;&gt;infused into&lt;/a&gt; the &lt;a href=&quot;http://techcrunch.com/2014/06/30/databricks-snags-33m-in-series-b-and-debuts-cloud-platform-for-processing-big-data/&quot;&gt;whole Big Data company landscape&lt;/a&gt;, quite a lot
+is happening in that area.&lt;/p&gt;
+
+&lt;h2 id=&quot;convergence&quot;&gt;Convergence&lt;/h2&gt;
+
+&lt;p&gt;Currently, there is a lot of convergence happening. One such example is the &lt;a href=&quot;http://lambda-architecture.net/&quot;&gt;lambda architecture&lt;/a&gt;,
+which combines batch-oriented processing with stream processing to get both
+low-latency results (potentially inaccurate and incomplete) and results on the
+full data sets. Instead of scaling batch processing to a point where the
+latency is small enough, a parallel stream processing layer processes events
+as they come along, with both routes piping results into a shared database to
+provide the results for visualization or other kinds of presentation.&lt;/p&gt;
+
+&lt;p&gt;Some point out that one problem with this approach is that you potentially
+need to have all your analytics logic in two distinct, and conceptually quite
+different systems. But there are systems like &lt;a href=&quot;http://spark.apache.org/&quot;&gt;Apache Spark&lt;/a&gt;, which can run
+the same code in a batch fashion or near-streaming in micro-batches, or
+&lt;a href=&quot;http://github.com/twitter/scalding&quot;&gt;Twitter’s Scalding&lt;/a&gt;, which can take the same code to run on Hadoop
+or Storm.&lt;/p&gt;
+
+&lt;p&gt;Others, like Linkedin’s Jay Kreps, ask &lt;a href=&quot;http://radar.oreilly.com/2014/07/questioning-the-lambda-architecture.html&quot;&gt;why you can’t use stream processing
+also to recompute stuff in batch&lt;/a&gt;. Such systems can be implemented
+by combining a stream processing system with a system like &lt;a href=&quot;http://kafka.apache.org/&quot;&gt;Apache Kafka&lt;/a&gt;
+which is a distributed publish/subscribe event transport layer which doubles
+as a database for log data by retaining data for a predefined amount of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;apis-functional-collections-vs-actors&quot;&gt;APIs: Functional Collections vs. Actors&lt;/h2&gt;
+
+&lt;p&gt;These kinds of approaches make you wonder just how interchangable streaming
+and map-reduce style processing really is, whether it allows you to do the
+same set of operations. If you think about it, map-reduce is already very
+stream oriented. In classical Hadoop, both the data input and output to the
+map and reduce stage is presented via iterators and output pipes, so that you
+could in principle also stream by the data. In fact, Scalding seems to be
+taking advantage of exactly that.&lt;/p&gt;
+
+&lt;p&gt;Generally, this “functional collection” style APIs seem to become quite
+popular, as Spark and also systems like &lt;a href=&quot;http://incubator.apache.org/projects/flink.html&quot;&gt;Apache Flink&lt;/a&gt; use that kind of
+approach. If you haven’t seen this before, the syntax is very close to the set
+of operations you have in functional languages like Scala. The basic data type
+is a collection of objects and you formulate your computations in terms of
+operations like map, filter, groupby, reduce, but also joins.&lt;/p&gt;
+
+&lt;p&gt;This raises the question what exactly streaming analytics is. For some,
+streaming is any kind of approach which allows you to process data in one go,
+without the need to go back, and also with more or less bounded resource
+requirements. Interestingly, this seems to naturally lead to functional
+collection style APIs, like illustrated in the &lt;a href=&quot;http://matthewrocklin.com/blog/work/2014/07/04/Streaming-Analytics/&quot;&gt;toolz Python
+library&lt;/a&gt;,
+although one issue for me here is always that the functional collection style
+APIs imply that the computation ends at some point, when in reality, it does
+not.&lt;/p&gt;
+
+&lt;p&gt;The other family of APIs uses a more actor-based approach. Stream processing
+systems like &lt;a href=&quot;https://storm.incubator.apache.org/&quot;&gt;Apache Storm&lt;/a&gt;, &lt;a href=&quot;http://samza.incubator.apache.org/&quot;&gt;Apache Samza&lt;/a&gt;, or even &lt;a href=&quot;http://akka.io&quot;&gt;akka&lt;/a&gt; use that kind of approach where
+you are basically defining worker nodes which take in a stream of data and
+output another one, and you construct systems by explicitly sending messages
+asynchronously around between those nodes. In this setting, the on-line nature
+of the computation is much more explicit.&lt;/p&gt;
+
+&lt;p&gt;I personally find actor based approaches always a bit hard to work with
+mentally, because you have to slice up operations into different actors just
+to parallelize when conceptually it’s just one step. The functional collection
+style approach works much better here, however, you then have to rely on the
+underlying system being able to parallelize your computations well. Systems
+like &lt;a href=&quot;http://blog.mikiobraun.de/2014/06/future-big-data-flink-stratosphere.html&quot;&gt;Flink take ideas from query optimizations in databases&lt;/a&gt; here
+to attack this problem which I think is a very promising approach.&lt;/p&gt;
+
+&lt;p&gt;In general, what I personally would like to see is even more convergence
+between the functional collection and actor based approaches. I haven’t found
+too much on that but, to me, that seems like something which is bound to happen.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-input-and-output&quot;&gt;Data Input and Output&lt;/h2&gt;
+
+&lt;p&gt;Concerning data input and output, I find it interesting that all of these
+approaches don’t deal with the question of how to get at the results of your
+analysis. One of the key features of real-time is that you need to get results
+as the data comes in, so results have to be continuously updated. This is IMHO
+also not modelled well in the functional collection style APIs, which imply
+that the function call returns once the result is computed. Which is never
+when you process data in an online fashion.&lt;/p&gt;
+
+&lt;p&gt;The answer to that solution seems to be to use your highly parallelized, low-latency computation to deal with all the data, but then periodically write out
+results to some fast, distributed storage layer like a redis database and use
+that to query the results. It’s generally not possible to  access a running stream
+processing system “from the side” to get at the state which is somewhere
+distributed in this system. While this approach is possible, it seems to me
+that it requires you to set up yet another distributed system just to store
+results.&lt;/p&gt;
+
+&lt;p&gt;Concerning data input, there’s of course the usual coverage of all possible
+kinds of input, from REST, UDP packages, messaging frameworks, log files, and
+so on. I currently find Kafka quite interesting, because it seems like a good
+abstraction of combination of a bunch of log files and a log database. You
+get a distributed set of log data together with the ability to go back in time
+and replay data. In a way, this is exactly what we had been doing with
+TWIMPACT when analyzing Twitter data.&lt;/p&gt;
+
+&lt;h2 id=&quot;streamdrill&quot;&gt;Streamdrill&lt;/h2&gt;
+
+&lt;p&gt;Which brings me back to &lt;a href=&quot;http://streamdrill.com&quot;&gt;streamdrill&lt;/a&gt; (you knew, this
+was coming, right?), less because I need to tell you just how great it is, but
+because it sort of defines where I stand in this landscape myself.&lt;/p&gt;
+
+&lt;p&gt;So far, we’ve mainly focussed on the core processing engine. The question of
+getting the data out has been answered quite differently from the other
+approaches, as you can directly access the results of your computation by
+querying the internal state via a REST interface. For getting historical data,
+you still need to push the data to a storage backend, though. Directly exposing
+the internal state of the computation is such a big detour from other
+approaches that I don’t see how you could easily retrofit streamdrill on top
+of Spark or akka, even though it would be great to get scaling capabilities
+that way.&lt;/p&gt;
+
+&lt;p&gt;I think the most potential for improvement with streamdrill is the part where
+you encode the actual computation. So far, streamdrill is written and deployed
+as a more or less classical Jersey webapp, which means that everything is very
+event-driven. We’re trying to separate functional modules from the REST
+endpoint code, but still it would need a fair understanding of Java webapps to
+write anything yourself (and I honestly don’t see data scientists doing that).
+Here, a more high-level, “functional collection”-style approach would definitely be
+better.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2014/08/streaming-landscape-2014.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+   <entry>
+   <title type="html">What is Scalable Machine Learning?</title>
+   <link href="http://blog.mikiobraun.de/2014/07/what-is-scalable-machine-learning.html"/>
+   <updated>2014-07-02T17:38:00+02:00</updated>
+   <published>2014-07-02T17:38:00+02:00</published>
+   <author>
+     <name>Mikio L. Braun</name>
+     <uri>http://mikiobraun.de</uri>
+     <email>mikiobraun@gmail.com</email>
+   </author>
+   <id>http://blog.mikiobraun.de/2014/07/what-is-scalable-machine-learning</id>
+   <content type="html">&lt;p&gt;&lt;p&gt;Scalability has become one of those core concept slash buzzwords of Big Data.
+It’s all about scaling out, web scale, and so on. In principle, the idea is to
+be able to take one piece of code and then throw any number of computers at
+it to make it fast.&lt;/p&gt;
+
+&lt;p&gt;The terms “scalable” and “large scale” have been used in machine
+learning circles long before there was Big Data. There had always been
+certain problems which lead to a large amount of data, for example in
+bioinformatics, or when dealing with large number of text documents. So
+finding learning algorithms, or more generally data analysis algorithms which
+can deal with a very large set of data was always a relevant question.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, this issue of scalability were seldom solved using actual
+scaling in  in machine learning, at least not in the Big Data kind of sense.
+Part of the reason is certainly that multicore processors didn’t yet exist at
+the scale they do today and that the idea of “just scaling out” wasn’t as
+pervasive as it is today.&lt;/p&gt;
+
+&lt;p&gt;Instead, “scalable” machine learning is almost always based on finding more
+efficient algorithms, and most often, approximations to the original algorithm
+which can be computed much more efficiently.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this, let’s search for NIPS papers (the annual Advances in
+Neural Information Processing Systems, short NIPS, conference is one of the
+big ML community meetings) for &lt;a href=&quot;http://papers.nips.cc/search/?q=scalable&quot;&gt;papers which have the term
+“scalable”&lt;/a&gt; in the title.&lt;/p&gt;
+
+&lt;p&gt;Here are some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Scalable Inference for Logistic-Normal Topic Models&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;… This paper presents a partially collapsed Gibbs sampling algorithm
+that approaches the provably correct distribution by exploring the
+ideas of data augmentation …&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;Partially collapsed Gibbs sampling is a kind of estimation algorithm for
+certain graphical models.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A Scalable Approach to Probabilistic Latent Space Inference of
+ Large-Scale Networks&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;… With […] an efficient stochastic variational inference algorithm, we
+ are able to analyze real networks with over a million vertices […] on a
+ single machine in a matter of hours …&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;Stochastic variational inference algorithm is both an approximation and an
+ estimation algorithm.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Scalable kernels for graphs with continuous attributes&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;… In this paper, we present a class of path kernels with computational
+complexity $O(n^2(m + \delta^2 ))$ …&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;And this algorithm has squared runtime in the number of data points, so wouldn’t even scale out well even if you could.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Usually, even if there is potential for scalability, it usually something
+that is “embarassingly parallel” (yep, that’s a technical term), meaning that
+it’s something like a summation which can be parallelized very easily. Still, the actual “scalability” comes from the algorithmic side.&lt;/p&gt;
+
+&lt;p&gt;So how do scalable ML algorithms look like? A typical example are the
+&lt;a href=&quot;http://leon.bottou.org/research/stochastic&quot;&gt;stochastic gradient descent&lt;/a&gt; (SGD) class of algorithms. These algorithms can
+be used, for example, to train classifiers like linear SVMs or logistic
+regression. One data point is considered at each iteration. The prediction
+error on that point is computed and then the gradient is taken with respect to
+the model parameters, giving information about how to adapt these parameters
+slightly to make the error smaller.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com/JohnLangford/vowpal_wabbit/wiki&quot;&gt;Vowpal Wabbit&lt;/a&gt; is one program based on this approach and it has a nice
+definition of what it considers to mean scalable in machine learning:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are two ways to have a fast learning algorithm: (a) start
+with a slow algorithm and speed it up, or (b) build an
+intrinsically fast learning algorithm. This project is about
+approach (b), and it’s reached a state where it may be useful to
+others as a platform for research and experimentation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So “scalable” means having a learning algorithm which can deal with any amount
+of data, without consuming ever growing amounts of resources like memory. For
+SGD type algorithms this is the case, because all you need to store are the
+model parameters, usually a few ten to hundred thousand double precision
+floating point value, so maybe a few megabytes in total. The main problem to
+speed this kind of computation up is how to stream the data by fast enough.&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img src=&quot;/images/sml-sgd.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To put it differently, not only does this kind of scalability not rely on
+scaling out, it’s actually not even necessary or possible to scale the
+computation out because the main state of the computation easily fits into
+main memory and computations on it cannot be distributed easily.&lt;/p&gt;
+
+&lt;p&gt;I know that gradient descent is often taken as an example for map reduce and
+other approaches like in &lt;a href=&quot;http://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf&quot;&gt;this paper on the architecture of Spark&lt;/a&gt;, but
+that paper discusses a version of gradient descent where you are not taking
+one point at a time, but aggregate the gradient information for the whole data
+set before making the update to the model parameters. While this can be easily
+parallelized, it does not perform well in practice because the gradient
+information tends to average out when computed over the whole data set.&lt;/p&gt;
+
+&lt;p&gt;If you want to know more, this &lt;a href=&quot;http://largescale.ml.tu-berlin.de/about/&quot;&gt;large scale learning challenge&lt;/a&gt;
+Sören Sonnneburg organized in 2008 still has valuable information on how to
+deal with massive data sets.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are things which can be easily scaled well using Hadoop or
+Spark, in particular any kind of data preprocessing or feature extraction
+where you need to apply the same operation to each data point in your data
+set. Another area where parallelization is easy and useful is when you are
+using cross validation to do model selection where you usually have to train a
+large number of models for different parameter sets to find the combination
+which performs best. Again, even here there is more potential for even
+speeding up such computations using better algorithms like in &lt;a href=&quot;http://arxiv.org/abs/1206.2248&quot;&gt;this paper of
+mine&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ve just scratched the surface of this, but I hope you got the idea that
+scalability can mean quite different things. In Big Data (meaning the
+infrastructure side of it) what you want to compute is pretty well defined,
+for example some kind of aggregate over your data set, so you’re left with the
+question of how to parallelize that computation well. In machine learning, you
+have much more freedom because data is noisy and there’s always some freedom
+in how you model your data, so you can often get away with computing some
+variation of what you originally wanted to do and still perform well. Often,
+this allows you to speed up your computations significantly by decoupling
+computations. Parallelization is important, too, but alone it won’t get you
+very far.&lt;/p&gt;
+
+&lt;p&gt;Luckily, there are projects like Spark and Stratosphere/Flink which work on
+providing more useful abstractions beyond map and reduce to make the last part
+easier for data scientists, but you won’t get rid of the algorithmic design
+part any time soon.&lt;/p&gt;
+
+&lt;/p&gt;
+   &lt;p&gt;&lt;a href="http://blog.mikiobraun.de/2014/07/what-is-scalable-machine-learning.html"&gt;Click here for the full article&lt;/a&gt;</content>
+ </entry>
+ 
+
+ 
+ 
+</feed>
