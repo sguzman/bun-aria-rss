@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.med-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Medical Physics (physics.med-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Medical Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01372" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01375" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01626" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01892" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02024" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02035" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.08249" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01372">
+<title>Investigating the robustness of a learning-based method for quantitative phase retrieval from propagation-based x-ray phase contrast measurements under laboratory conditions. (arXiv:2211.01372v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.01372</link>
+<description rdf:parseType="Literal">&lt;p&gt;Quantitative phase retrieval (QPR) in propagation-based x-ray phase contrast
+imaging of heterogeneous and structurally complicated objects is challenging
+under laboratory conditions due to partial spatial coherence and
+polychromaticity. A learning-based method (LBM) provides a non-linear approach
+to this problem while not being constrained by restrictive assumptions about
+object properties and beam coherence. In this work, a LBM was assessed for its
+applicability under practical scenarios by evaluating its robustness and
+generalizability under typical experimental variations. Towards this end, an
+end-to-end LBM was employed for QPR under laboratory conditions and its
+robustness was investigated across various system and object conditions. The
+robustness of the method was tested via varying propagation distances and its
+generalizability with respect to object structure and experimental data was
+also tested. Although the LBM was stable under the studied variations, its
+successful deployment was found to be affected by choices pertaining to data
+pre-processing, network training considerations and system modeling. To our
+knowledge, we demonstrated for the first time, the potential applicability of
+an end-to-end learning-based quantitative phase retrieval method, trained on
+simulated data, to experimental propagation-based x-ray phase contrast
+measurements acquired under laboratory conditions. We considered conditions of
+polychromaticity, partial spatial coherence, and high noise levels, typical to
+laboratory conditions. This work further explored the robustness of this method
+to practical variations in propagation distances and object structure with the
+goal of assessing its potential for experimental use. Such an exploration of
+any LBM (irrespective of its network architecture) before practical deployment
+provides an understanding of its potential behavior under experimental
+settings.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Deshpande_R/0/1/0/all/0/1&quot;&gt;Rucha Deshpande&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Avachat_A/0/1/0/all/0/1&quot;&gt;Ashish Avachat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Brooks_F/0/1/0/all/0/1&quot;&gt;Frank J. Brooks&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Anastasio_M/0/1/0/all/0/1&quot;&gt;Mark A. Anastasio&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01375">
+<title>High-speed processing of X-ray wavefront marking data with the Unified Modulated Pattern Analysis (UMPA) model. (arXiv:2211.01375v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.01375</link>
+<description rdf:parseType="Literal">&lt;p&gt;Wavefront-marking X-ray imaging techniques use e.g., sandpaper or a grating
+to generate intensity fluctuations, and analyze their distortion by the sample
+in order to retrieve attenuation, phase-contrast, and dark-field information.
+Phase contrast yields an improved visibility of soft-tissue specimens, while
+dark-field reveals small-angle scatter from sub-resolution structures. Both
+have found many biomedical and engineering applications. The previously
+developed Unified Modulated Pattern Analysis (UMPA) model extracts these
+modalities from wavefront-marking data. We here present a new UMPA
+implementation, capable of rapidly processing large datasets and featuring
+capabilities to greatly extend the field of view. We also discuss possible
+artifacts and additional new features.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Marco_F/0/1/0/all/0/1&quot;&gt;Fabio De Marco&lt;/a&gt; (1,2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Savatovic_S/0/1/0/all/0/1&quot;&gt;Sara Savatovi&amp;#x107;&lt;/a&gt; (1,2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Smith_R/0/1/0/all/0/1&quot;&gt;Ronan Smith&lt;/a&gt; (3), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Trapani_V/0/1/0/all/0/1&quot;&gt;Vittorio Di Trapani&lt;/a&gt; (1,2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Margini_M/0/1/0/all/0/1&quot;&gt;Marco Margini&lt;/a&gt; (1,2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lautizi_G/0/1/0/all/0/1&quot;&gt;Ginevra Lautizi&lt;/a&gt; (1,2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Thibault_P/0/1/0/all/0/1&quot;&gt;Pierre Thibault&lt;/a&gt; (1,2) ((1) Department of Physics, University of Trieste, (2) Elettra-Sincrotrone Trieste, (3) Department of Physics, University of Southampton)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01626">
+<title>FEniCS implementation of the Virtual Fields Method (VFM) for nonhomogeneous hyperelastic identification. (arXiv:2211.01626v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.01626</link>
+<description rdf:parseType="Literal">&lt;p&gt;It is of great significance to identify the nonhomogeneous distribution of
+material properties in human tissues for different clinical and medical
+applications. This leads to the requirement of solving an inverse problem in
+elasticity. The virtual fields method (VFM) is a rather recent inverse method
+with remarkable computational efficiency compared with the optimization-based
+methods. In this study, we aim to identify nonhomogeneous hyperelastic material
+properties using the VFM. We propose two novel algorithms, RE-VFM and NO-VFM.
+In RE-VFM, the solid is partitioned in different regions and the elastic
+properties of each region are determined. In NO-VFM, 2 the distribution of
+elastic properties is completely reconstructed through the inverse problem
+without partitioning the solid. As the VFM requires to use virtual fields, we
+proposed an efficient way to construct them and implemented the approach in the
+FEniCS package. We validated the proposed methods on several examples,
+including a bilayer structure, a lamina cribosa (LC) model and a cube model
+embedded with a spherical inclusion. The numerical examples illustrate the
+feasibility of both RE-VFM and NO-VFM. Notably, the spatial variations of the
+Young&apos;s modulus distribution can be recovered accurately within only 5
+iterations. The obtained results reveal the potential of the proposed methods
+for future clinical applications such as estimating the risk of vision loss
+related to glaucoma and detecting tumors.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Deng_J/0/1/0/all/0/1&quot;&gt;Jianwei Deng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Guo_X/0/1/0/all/0/1&quot;&gt;Xu Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mei_Y/0/1/0/all/0/1&quot;&gt;Yue Mei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Avril_S/0/1/0/all/0/1&quot;&gt;Stephane Avril&lt;/a&gt; (SAINBIOSE-ENSMSE)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01892">
+<title>Deep meta-learning for the selection of accurate ultrasound based breast mass classifier. (arXiv:2211.01892v1 [eess.IV])</title>
+<link>http://arxiv.org/abs/2211.01892</link>
+<description rdf:parseType="Literal">&lt;p&gt;Standard classification methods based on handcrafted morphological and
+texture features have achieved good performance in breast mass differentiation
+in ultrasound (US). In comparison to deep neural networks, commonly perceived
+as &quot;black-box&quot; models, classical techniques are based on features that have
+well-understood medical and physical interpretation. However, classifiers based
+on morphological features commonly underperform in the presence of the
+shadowing artifact and ill-defined mass borders, while texture based
+classifiers may fail when the US image is too noisy. Therefore, in practice it
+would be beneficial to select the classification method based on the appearance
+of the particular US image. In this work, we develop a deep meta-network that
+can automatically process input breast mass US images and recommend whether to
+apply the shape or texture based classifier for the breast mass
+differentiation. Our preliminary results demonstrate that meta-learning
+techniques can be used to improve the performance of the standard classifiers
+based on handcrafted features. With the proposed meta-learning based approach,
+we achieved the area under the receiver operating characteristic curve of 0.95
+and accuracy of 0.91.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Byra_M/0/1/0/all/0/1&quot;&gt;Michal Byra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Karwat_P/0/1/0/all/0/1&quot;&gt;Piotr Karwat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Ryzhankow_I/0/1/0/all/0/1&quot;&gt;Ivan Ryzhankow&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Komorowski_P/0/1/0/all/0/1&quot;&gt;Piotr Komorowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Klimonda_Z/0/1/0/all/0/1&quot;&gt;Ziemowit Klimonda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Fura_L/0/1/0/all/0/1&quot;&gt;Lukasz Fura&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Pawlowska_A/0/1/0/all/0/1&quot;&gt;Anna Pawlowska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Zolek_N/0/1/0/all/0/1&quot;&gt;Norbert Zolek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Litniewski_J/0/1/0/all/0/1&quot;&gt;Jerzy Litniewski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02024">
+<title>fMRI from EEG is only Deep Learning away: the use of interpretable DL to unravel EEG-fMRI relationships. (arXiv:2211.02024v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.02024</link>
+<description rdf:parseType="Literal">&lt;p&gt;The access to activity of subcortical structures offers unique opportunity
+for building intention dependent brain-computer interfaces, renders abundant
+options for exploring a broad range of cognitive phenomena in the realm of
+affective neuroscience including complex decision making processes and the
+eternal free-will dilemma and facilitates diagnostics of a range of
+neurological deceases. So far this was possible only using bulky, expensive and
+immobile fMRI equipment. Here we present an interpretable domain grounded
+solution to recover the activity of several subcortical regions from the
+multichannel EEG data and demonstrate up to 60% correlation between the actual
+subcortical blood oxygenation level dependent sBOLD signal and its EEG-derived
+twin. Then, using the novel and theoretically justified weight interpretation
+methodology we recover individual spatial and time-frequency patterns of scalp
+EEG predictive of the hemodynamic signal in the subcortical nuclei. The
+described results not only pave the road towards wearable subcortical activity
+scanners but also showcase an automatic knowledge discovery process facilitated
+by deep learning technology in combination with an interpretable domain
+constrained architecture and the appropriate downstream task.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mikheev_I/0/1/0/all/0/1&quot;&gt;Ilia Mikheev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ossadtchi_A/0/1/0/all/0/1&quot;&gt;Alexei Ossadtchi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02035">
+<title>A Retrospective Study on the Investigation of Potential Clinical Benefits of Online Adaptive Proton Therapy for Head and Neck Cancer. (arXiv:2211.02035v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.02035</link>
+<description rdf:parseType="Literal">&lt;p&gt;Online adaptive proton therapy (APT) is an ideal solution theoretically,
+which however is challenging to proton clinics. Although multiple groups have
+been endeavoring to develop online APT technology, there is a concern in the
+radiotherapy community about the necessity of online APT because of its unknown
+impact on treatment outcomes. Hence, we have performed a retrospective study to
+investigate the potential clinical effects of online APT for HN cancer patients
+in relative to the current offline APT via simulations. To mimic an online APT
+treatment course, we have recalculated and evaluated the actual dose of the
+current treatment plan on patient actual treatment anatomy captured by cone
+beam CT for each fraction. The cumulative dose of simulated online APT courses
+was compared to actual offline APT courses and the initially designed treatment
+plan dose. For patients 1 and 2, the simulated online ART course maintained a
+relatively higher CTV dose coverages than the offline ART course, particularly
+for CTV-Low, which led to an improvement of 2.66% and 4.52% in TCP of CTV-Low.
+For patients 3 and 4, with clinically comparable CTV dose coverages, the
+simulated online ART course achieved better OAR sparing than the offline ART
+course. The mean doses of right parotid and oral cavity were decreased from
+29.52 Gy relative biological effectiveness (RBE) and 41.89 Gy RBE to 22.16 Gy
+RBE and 34.61 Gy RBE for patient 3, leading to a reduce of 1.67% and 3.40% in
+NTCP for the two organs. Compared to the current clinical practice, the
+retrospective study indicated that online APT tended to spare more normal
+tissues by achieving the clinical goal with merely half of the positional
+uncertainty margin. Future studies are needed to help identify the patients
+with large potential benefits prior to treatment to conserve scarce clinical
+resources.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Chang_C/0/1/0/all/0/1&quot;&gt;Chih-Wei Chang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Bohannon_D/0/1/0/all/0/1&quot;&gt;Duncan Bohannon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Tian_Z/0/1/0/all/0/1&quot;&gt;Zhen Tian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Wang_Y/0/1/0/all/0/1&quot;&gt;Yinan Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mcdonald_M/0/1/0/all/0/1&quot;&gt;Mark W. Mcdonald&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yu_D/0/1/0/all/0/1&quot;&gt;David S. Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Liu_T/0/1/0/all/0/1&quot;&gt;Tian Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhou_J/0/1/0/all/0/1&quot;&gt;Jun Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yang_X/0/1/0/all/0/1&quot;&gt;Xiaofeng Yang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.08249">
+<title>Label-free metabolic imaging of non-alcoholic-fatty-liver-disease (NAFLD) liver by volumetric dynamic optical coherence tomography. (arXiv:2204.08249v2 [physics.med-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.08249</link>
+<description rdf:parseType="Literal">&lt;p&gt;Label-free metabolic imaging of non-alcoholic fatty liver disease (NAFLD)
+mouse liver is demonstrated ex vivo by dynamic optical coherence tomography
+(OCT). The NAFLD mouse is a methionine choline-deficient (MCD)-diet model, and
+two mice fed MCD diet for 1 and 2 weeks are involved in addition to a
+normal-diet mouse. The dynamic OCT is based on repeating raster scan and
+logarithmic intensity variance (LIV) analysis which enables volumetric
+metabolic imaging with a standard-speed (50,000 A-lines/s) OCT system.
+Metabolic domains associated with lipid droplet accumulation and inflammation
+are clearly visualized three-dimensionally. Particularly, the normal-diet liver
+exhibits highly metabolic vessel-like structures of peri-vascular hepatic
+zones. The 1-week MCD-diet liver shows ring-shaped highly metabolic structures
+formed with lipid droplets. The 2-week MCD-diet liver exhibits fragmented
+vessel-like structures associated with inflammation. These results imply that
+volumetric LIV imaging is useful for visualizing and assessing NAFLD
+abnormalities.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mukherjee_P/0/1/0/all/0/1&quot;&gt;Pradipta Mukherjee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Fukuda_S/0/1/0/all/0/1&quot;&gt;Shinichi Fukuda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lukmanto_D/0/1/0/all/0/1&quot;&gt;Donny Lukmanto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yamashita_T/0/1/0/all/0/1&quot;&gt;Toshiharu Yamashita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Okada_K/0/1/0/all/0/1&quot;&gt;Kosuke Okada&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Makita_S/0/1/0/all/0/1&quot;&gt;Shuichi Makita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+El_Sadek_I/0/1/0/all/0/1&quot;&gt;Ibrahim Abd El-Sadek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Miyazawa_A/0/1/0/all/0/1&quot;&gt;Arata Miyazawa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhu_L/0/1/0/all/0/1&quot;&gt;Lida Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Morishita_R/0/1/0/all/0/1&quot;&gt;Rion Morishita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Lichtenegger_A/0/1/0/all/0/1&quot;&gt;Antonia Lichtenegger&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Oshika_T/0/1/0/all/0/1&quot;&gt;Tetsuro Oshika&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yasuno_Y/0/1/0/all/0/1&quot;&gt;Yoshiaki Yasuno&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
