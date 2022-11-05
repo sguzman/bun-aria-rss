@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-6894866515532737257.post-3346613074118773993",
+  "published": "2018-06-01T07:22:00.002-07:00",
+  "updated": "2018-06-01T07:23:58.857-07:00",
+  "title": "Bayesian Zig Zag",
+  "content": "Almost two years ago, I had the pleasure of speaking at the <a href=\"https://www.meetup.com/Boston-Bayesians/events/231757630/\">inaugural meeting of the Boston Bayesians</a>, where I presented \"<a href=\"https://docs.google.com/presentation/d/1A76yn1rxLcZtgpkG_CLhLaWbZ-uREzTtcUrwH2-MQ5w/pub\">Bayesian Bandits from Scratch</a>\" (<a href=\"https://github.com/AllenDowney/BayesMadeSimple/blob/master/workshop03.ipynb\">the notebook for that talk is here</a>).&nbsp; Since then, the group has flourished, thanks to the organizers, Jordi Diaz and Colin Carroll.<br /><br />Last night I made my triumphant return for the 21st meeting, where I presented a talk I called \"Bayesian Zig Zag\".&nbsp; Here's the abstract:<br /><blockquote class=\"tr_bq\"><i>Tools like PyMC and Stan make it easy to implement probabilistic models, but getting started can be challenging.&nbsp; In this talk, I present a strategy for simultaneously developing and implementing probabilistic models by alternating between forward and inverse probabilities and between grid algorithms and MCMC.&nbsp; This process helps developers validate modeling decisions and verify their implementation.</i>&nbsp;</blockquote><blockquote class=\"tr_bq\"><i>As an example, I will use a version of the \"Boston Bruins problem\", which I presented in Think Bayes, updated for the 2017-18 season. I will also present and request comments on my plans for the second edition of Think Bayes.</i></blockquote>When I wrote the abstract, I was confident that the Bruins would be in the Stanley Cup final, but that is not how it worked out.&nbsp; I adapted, using results from the first two games of the NHL final series to generate predictions for the next game.<br /><br />Here are the slides from the talk:<br /><br /><iframe allowfullscreen=\"true\" frameborder=\"0\" height=\"299\" mozallowfullscreen=\"true\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vRsXJg6zSSWwHHbaUyAerd0y2ozNBHUm4bYfwfyhqdICl42WLKfaDaex3w3O5x9f_BLgGNiFBzjw9Jm/embed?start=false&amp;loop=false&amp;delayms=3000\" webkitallowfullscreen=\"true\" width=\"480\"></iframe> <br /><br />And here is&nbsp;<a href=\"https://github.com/AllenDowney/BayesMadeSimple/blob/master/zigzag.ipynb\">the Jupyter notebook I presented</a>.&nbsp; If you want to follow along, you'll see that there is a slide that introduces each section of the notebook, and then you can read the details.&nbsp; If you have a Python installation with PyMC, you can download the notebook from the repository and try it out.<br /><br />The talk starts with basic material that should be accessible for beginners, and ends with a hierarchical Bayesian model of a Poisson process, so it covers a lot of ground!&nbsp; I hope you find it useful.<br /><br />For people who were there, thank you for coming (all the way from Australia!), and thanks for the questions, comments, and conversation.&nbsp; Thanks again to Jordi and Colin for organizing, to WeWork for hosting, and to QuantumBlack for sponsoring.<br /><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Allen Downey",
+    "uri": "http://www.blogger.com/profile/01633071333405221858",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

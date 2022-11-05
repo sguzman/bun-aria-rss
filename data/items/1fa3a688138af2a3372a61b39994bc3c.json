@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-6548766308119821678",
+  "published": "2022-10-27T12:13:00.000-07:00",
+  "updated": "2022-10-27T12:13:41.674-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "October 2022 update to Display & Video 360 API v2",
+  "content": "Today we’re announcing the October 2022 update to Display &amp; Video 360 API v2, which is still in beta. This update includes the following features:  <ul>  <li>Partial insertion order targeting write support for a subset of targeting types with the addition of <a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.insertionOrders.targetingTypes.assignedTargetingOptions/create\"><code>create</code></a> and <a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.insertionOrders.targetingTypes.assignedTargetingOptions/delete\"><code>delete</code></a> methods to the insertion order <a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.insertionOrders.targetingTypes.assignedTargetingOptions\"><code>AssignedTargetingOptions</code></a> service.</li>  <li>The ability to <a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems/duplicate\">duplicate an existing line item</a> to create a new line item with identical settings and assigned targeting under the same insertion order.</li></ul> More detailed information about this update can be found in the Display &amp; Video 360 API <a href=\"https://developers.google.com/display-video/api/release-notes#october_27th_2022\">release notes</a> and updated instructions on migrating from v1 to v2 can be found in our <a href=\"https://developers.google.com/display-video/api/v2-migration-guide\">migration guide</a>. Before using these new features, make sure to update your <a href=\"https://developers.google.com/display-video/api/guides/getting-started/libraries\">client library to the latest version</a>.<br /><br /> If you have questions regarding the breaking changes or run into issues or need help with these new features, please contact us using our <a href=\"https://support.google.com/displayvideo/contact/nghelp_contact_form\">support contact form</a>.<br /> <span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/ul6Bu6os82XfScd3uPkxcr4wuYHeOjBXB0TsB7mFIO-63RW7I-ciH9SZVTiRUk0NOGUg_8oit2oD7cr9HTrH8gol_Y6p8mqEeEWTQB24GyiZTGwpB-BFvji9n9goOPHz19mSYqtr\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Trevor Mulchay, Display &amp; Video 360 API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

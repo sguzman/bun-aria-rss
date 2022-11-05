@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40289 (php_point_of_sale)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40289",
+  "description": "The application was vulnerable to an authenticated Stored Cross-Site Scripting (XSS) in the upload and download functionality, which could be leveraged to escalate privileges or compromise any accounts they can coerce into observing the targeted files.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}
