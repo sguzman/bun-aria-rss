@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCSMOQeBJ2RAnuFungnQOxLg"/>
+ <id>yt:channel:UCSMOQeBJ2RAnuFungnQOxLg</id>
+ <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+ <title>Blender</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg"/>
+ <author>
+  <name>Blender</name>
+  <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+ </author>
+ <published>2008-05-29T10:18:59+00:00</published>
+ <entry>
+  <id>yt:video:e0odAzEHsm0</id>
+  <yt:videoId>e0odAzEHsm0</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>POST BCON BLUES - Blender.Today LIVE #209</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=e0odAzEHsm0"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-31T17:31:02+00:00</published>
+  <updated>2022-11-01T07:22:28+00:00</updated>
+  <media:group>
+   <media:title>POST BCON BLUES - Blender.Today LIVE #209</media:title>
+   <media:content url="https://www.youtube.com/v/e0odAzEHsm0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/e0odAzEHsm0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>BlenderToday is a weekly live show highlighting the latest news in Blender development, the community, and Q&amp;A. Streaming from the Blender HQ in Amsterdam since 2018, hosted by Pablo Vazquez.
+
+--
+
+Support the future of Blender by joining the Development Fund https://fund.blender.org
+
+#b3d 
+* Music by @Thaehan
+
+--
+CHANGELOG - BLENDER TODAY #209 
+
+BLENDER CONFERENCE
+
+NODEVEMBER https://twitter.com/NodevemberIO/status/1587041305468747777
+
+UI
+* UI: Icon number indicator for data-blocks https://developer.blender.org/rB84825e4
+
+GEOMETRY NODES
+* Geometry Nodes: Use common utility for copying attribute data https://developer.blender.org/rBa803dbe
+* Nodes: Improve socket node lookup performance https://developer.blender.org/rBc39eb09
+
+CURVES
+* Curves: make the &quot;surface_uv_map&quot; a searchable dropdown https://developer.blender.org/rB2180e6f
+
+CYCLES
+* Cycles: add Equiangular Cubemap Face camera projection https://developer.blender.org/rBf9113b7
+* Cycles: Metal integrator state size tuning https://developer.blender.org/rB8dd7b5b
+* Cycles: Allow Intel GPUs under Metal https://developer.blender.org/rBe6902d1
+* Cycles: use packed float3 back for oneAPI https://developer.blender.org/rB4b14b33
+
+UV
+* UV: support snapping on non-uniform grids https://developer.blender.org/rB1edebb7
+
+SCULPT
+* Sculpt: Remove face sets from default cube https://developer.blender.org/rBe8291f4
+* Sculpt: Improve performance of face set creation from selection https://developer.blender.org/rBda4bd24
+
+PERFORMANCE
+* Make batch ID deletion 100 times faster https://developer.blender.org/rB358155a
+* Lib reload/relocate: Improve performances https://developer.blender.org/rB40afb8a
+* ViewLayer: Reduce object duplication syncing https://developer.blender.org/rBf017fde
+
+COMPOSITOR
+* Realtime Compositor: Implement Tone Map node https://developer.blender.org/rB7f2cd2d
+* Realtime Compositor: Implement normalize node https://developer.blender.org/rB58e25f1
+
+LINUX
+* GHOST/Wayland: support high resolution 2D track-pad scroll events https://developer.blender.org/rB30d9a62
+* GHOST/Wayland: invert touch-pad scrolling https://developer.blender.org/rBf0fba1a
+* GHOST/Wayland: primary clipboard support https://developer.blender.org/rBb0eff51
+* GHOST/Wayland: multi-touch gesture support https://developer.blender.org/rB8bb211a
+* GHOST/Wayland: swap tablet middle/right mouse buttons https://developer.blender.org/rBc4f9e4a
+* GHOST/Wayland: support device add/removal at runtime https://developer.blender.org/rBe844f70
+
+ADD-ONS
+* Align Tools add-on: allow undo for all operators and presets for advanced https://developer.blender.org/rBA70fab4
+
+POTPOURRI
+* Video rendering: FFMpeg AV1 codec encoding support https://developer.blender.org/rB59a0b49
+* install_deps: Update Python, OIIO, openPGL and FFMPEG versions https://developer.blender.org/rB3bac6f1
+* GPU: Add placeholder for Vulkan backend https://developer.blender.org/rB0e6f2d9
+* Blender: Add command line argument to switch gpu backends. https://developer.blender.org/rB3655eb7
+* SystemInfo: Add active GPU backend https://developer.blender.org/rBec60c8a
+* Build: update OSL to version 1.12.6.2 https://developer.blender.org/rB303dd26
+* Fix T66713: Walk mode doesn't take scene unit scale into account https://developer.blender.org/rBa0bbd65</media:description>
+   <media:community>
+    <media:starRating count="380" average="5.00" min="1" max="5"/>
+    <media:statistics views="8123"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BP6FgvOUu4E</id>
+  <yt:videoId>BP6FgvOUu4E</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Spaceships,  Concept Design pipeline for Sci-fi.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BP6FgvOUu4E"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-30T12:13:35+00:00</published>
+  <updated>2022-11-02T19:34:10+00:00</updated>
+  <media:group>
+   <media:title>Spaceships,  Concept Design pipeline for Sci-fi.</media:title>
+   <media:content url="https://www.youtube.com/v/BP6FgvOUu4E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BP6FgvOUu4E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentation on how to design futuristic props and vehicle.
+Balancing design and technique to improve life quality for concept artists. From grease pencil to geometry nodes and procedural materials, i'll do an overview on How the design processcan be easier in order to define ideas faster and help with most tedious parts of the 3d design process.
+
+&quot;Spaceships,  Concept Design pipeline for Sci-fi.&quot; by Alberto Petronio
+Blender Conference 2022
+2022-10-29 12:30 at the studio.</media:description>
+   <media:community>
+    <media:starRating count="564" average="5.00" min="1" max="5"/>
+    <media:statistics views="11911"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IFua7lY7acg</id>
+  <yt:videoId>IFua7lY7acg</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Blender Conference 2022 - Day 3 Recap</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IFua7lY7acg"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T20:47:04+00:00</published>
+  <updated>2022-10-30T21:34:16+00:00</updated>
+  <media:group>
+   <media:title>Blender Conference 2022 - Day 3 Recap</media:title>
+   <media:content url="https://www.youtube.com/v/IFua7lY7acg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IFua7lY7acg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Support Blender development: https://fund.blender.org
+
+Download Blender Experimental builds: https://blender.org/experimental
+
+█████████████████████████████████
+
+Follow Blender:
+* Twitter: https://twitter.com/blender
+* Instagram: https://instagram.com/blender.official
+* YouTube: https://youtube.com/BlenderFoundation
+* Facebook: https://facebook.com/YourOwn3DSoftware
+
+█████████████████████████████████
+
+Follow Blender Development:
+* Blog: https://code.blender.org
+* Twitter: https://twitter.com/BlenderDev</media:description>
+   <media:community>
+    <media:starRating count="206" average="5.00" min="1" max="5"/>
+    <media:statistics views="5390"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rtklSKVBdVc</id>
+  <yt:videoId>rtklSKVBdVc</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Blender Conference 2022 - Closing event</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rtklSKVBdVc"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T17:00:08+00:00</published>
+  <updated>2022-10-31T20:53:30+00:00</updated>
+  <media:group>
+   <media:title>Blender Conference 2022 - Closing event</media:title>
+   <media:content url="https://www.youtube.com/v/rtklSKVBdVc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rtklSKVBdVc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thank you for coming attending Blender Conference 2022. 
+
+You can find all recordings at conference.blender.org.</media:description>
+   <media:community>
+    <media:starRating count="552" average="5.00" min="1" max="5"/>
+    <media:statistics views="6571"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:W9rH1wdnARs</id>
+  <yt:videoId>W9rH1wdnARs</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Making the NLA tools work for you</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=W9rH1wdnARs"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T16:24:50+00:00</published>
+  <updated>2022-11-02T20:18:05+00:00</updated>
+  <media:group>
+   <media:title>Making the NLA tools work for you</media:title>
+   <media:content url="https://www.youtube.com/v/W9rH1wdnARs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/W9rH1wdnARs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This presentation will cover the latest updates and fixes to the NLA coming from the Animation Module team and talk about the future NLA roadmap with the goal of making sure everyone understands how to use the NLA to improve you work.
+
+Brad will explain how and why to use the NLA for improving animations, to manage exports, how to mange actions, and the animation layers functionality that it gives you out of the box.
+
+No matter your experience level with the NLA, if you animate in Blender, this is for you.
+
+&quot;Making the NLA tools work for you&quot; by Brad Clark
+Blender Conference 2022
+2022-10-29 16:00 at the classroom.</media:description>
+   <media:community>
+    <media:starRating count="191" average="5.00" min="1" max="5"/>
+    <media:statistics views="3788"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6GI3vbgJ17k</id>
+  <yt:videoId>6GI3vbgJ17k</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Game assets production pipeline for Arma Reforger</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6GI3vbgJ17k"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T16:19:38+00:00</published>
+  <updated>2022-10-31T21:43:24+00:00</updated>
+  <media:group>
+   <media:title>Game assets production pipeline for Arma Reforger</media:title>
+   <media:content url="https://www.youtube.com/v/6GI3vbgJ17k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6GI3vbgJ17k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In May 2022, Bohemia Interactive released Arma Reforger, a platform that paves the way for Arma 4, the next game in the military sim game series running on a new proprietary game engine called Enfusion.
+
+Blender is heavily used in their internal game asset production pipeline and they also chose it as the main content creation tool for their modding community.
+
+To support internal/community artists, they developed an add-on to help speed up productivity. This talk will reveal some of the pipelines for game asset creation, as well as lessons learned from the development.
+
+&quot;Game assets production pipeline for Arma Reforger&quot; by Miro Horvath
+Blender Conference 2022
+2022-10-29 16:30 at the studio.</media:description>
+   <media:community>
+    <media:starRating count="287" average="5.00" min="1" max="5"/>
+    <media:statistics views="6500"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MYVhQdfJCvg</id>
+  <yt:videoId>MYVhQdfJCvg</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Ship dynamics without fluid simulations</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MYVhQdfJCvg"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T16:02:10+00:00</published>
+  <updated>2022-10-31T21:43:35+00:00</updated>
+  <media:group>
+   <media:title>Ship dynamics without fluid simulations</media:title>
+   <media:content url="https://www.youtube.com/v/MYVhQdfJCvg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MYVhQdfJCvg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this presentation, Ignacio will share how he developed a physically based simulator for ships (based on the Archimedes principle and rigid body simulations) that solve the equations of the movement of a ship floating in the ocean in a faster way than the water based simulations.
+
+&quot;Ship dynamics without fluid simulations&quot; by Ignacio Matey
+Blender Conference 2022
+2022-10-29 16:30 at the attic.</media:description>
+   <media:community>
+    <media:starRating count="549" average="5.00" min="1" max="5"/>
+    <media:statistics views="10521"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OxwrSdt6I4w</id>
+  <yt:videoId>OxwrSdt6I4w</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>EEVEE &amp; Viewport / GPU Development Onboarding</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OxwrSdt6I4w"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:42:10+00:00</published>
+  <updated>2022-10-31T21:41:27+00:00</updated>
+  <media:group>
+   <media:title>EEVEE &amp; Viewport / GPU Development Onboarding</media:title>
+   <media:content url="https://www.youtube.com/v/OxwrSdt6I4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OxwrSdt6I4w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this talk, Jeroen will share details on how to the Eevee/Viewport module is organized code-wise. It is targeted at developers who want to start to do some GPU development, but also interesting for people who want to understand more about GPU development or debugging.
+
+&quot;EEVEE &amp; Viewport / GPU Development Onboarding&quot; by Jeroen Bakker
+
+Blender Conference 2022
+2022-10-29 14:00 at the attic.</media:description>
+   <media:community>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="2183"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yOo8ZCGx_aw</id>
+  <yt:videoId>yOo8ZCGx_aw</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Planning exhibitions and artworks</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yOo8ZCGx_aw"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:38:36+00:00</published>
+  <updated>2022-10-31T21:43:45+00:00</updated>
+  <media:group>
+   <media:title>Planning exhibitions and artworks</media:title>
+   <media:content url="https://www.youtube.com/v/yOo8ZCGx_aw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yOo8ZCGx_aw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Carlo is a fine artist using photography and Blender for planning frames, exhibitions and sculptures.
+
+In this presentation, Carlo will show examples from a variety of artists and how Blender can be used in the art world.
+
+Some of the topics will cover sketching out sculptural ideas, trying different frames for art pieces, planning exhibitions, AR, and more.
+
+&quot;Planning exhibitions and artworks&quot; by Carlo Zappella
+Blender Conference 2022
+2022-10-29 17:00 at the theater.</media:description>
+   <media:community>
+    <media:starRating count="74" average="5.00" min="1" max="5"/>
+    <media:statistics views="1303"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WJjnH55jnAU</id>
+  <yt:videoId>WJjnH55jnAU</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Internet-scale product visualization and customization</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WJjnH55jnAU"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:38:08+00:00</published>
+  <updated>2022-10-31T21:43:13+00:00</updated>
+  <media:group>
+   <media:title>Internet-scale product visualization and customization</media:title>
+   <media:content url="https://www.youtube.com/v/WJjnH55jnAU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WJjnH55jnAU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Jamie manages a team that uses Blender to visualise design work for global brands such as Walmart in the US and ASDA/Costco/Jessops in the UK.
+
+Blender has enabled them to show thousands of designs on hundreds of products to our end users. Products include canvases, wooden frames, corkboards, mugs, water bottles, laser etched glass, fully printed apparel and more.
+
+Over the past 8 years, LiveLink Technology has delivered around a million images starting with Blender 2.74.
+
+&quot;Internet-scale product visualization and customization&quot; by Jamie Robert Brown
+Blender Conference 2022
+2022-10-29 16:30 at the theater.</media:description>
+   <media:community>
+    <media:starRating count="49" average="5.00" min="1" max="5"/>
+    <media:statistics views="986"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:81piUPfjXfY</id>
+  <yt:videoId>81piUPfjXfY</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Advanced physics for atmosphere and celestial bodies</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=81piUPfjXfY"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:31:14+00:00</published>
+  <updated>2022-10-31T21:42:35+00:00</updated>
+  <media:group>
+   <media:title>Advanced physics for atmosphere and celestial bodies</media:title>
+   <media:content url="https://www.youtube.com/v/81piUPfjXfY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/81piUPfjXfY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This presentation will be about intricate details of the atmosphere, particles inside of it, light interactions with it, and celestial bodies in the solar system.
+
+Martins will show how in NASA photos we can see examples of advanced physics and then show how they can be made in Blender.
+
+&quot;Advanced physics for atmosphere and celestial bodies&quot; by Martins Upitis
+Blender Conference 2022
+2022-10-29 15:30 at the studio.</media:description>
+   <media:community>
+    <media:starRating count="248" average="5.00" min="1" max="5"/>
+    <media:statistics views="4103"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:yIPMxxTueIM</id>
+  <yt:videoId>yIPMxxTueIM</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Barely 3D - The animation of Noara</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=yIPMxxTueIM"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:14:12+00:00</published>
+  <updated>2022-10-31T21:41:50+00:00</updated>
+  <media:group>
+   <media:title>Barely 3D - The animation of Noara</media:title>
+   <media:content url="https://www.youtube.com/v/yIPMxxTueIM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/yIPMxxTueIM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Noara is a MOCA game (multiplayer online chest arena).
+
+Discover the behind-the-scenes, the artistic and technical choices that help to push the style of Noara further.
+
+&quot;Barely 3D - The animation of Noara&quot; by Pierrick PICAUT
+Blender Conference 2022
+2022-10-29 14:30 at the studio.</media:description>
+   <media:community>
+    <media:starRating count="522" average="5.00" min="1" max="5"/>
+    <media:statistics views="6817"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lqbZdTLMyQw</id>
+  <yt:videoId>lqbZdTLMyQw</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Generating synthetic data for deep learning</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lqbZdTLMyQw"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:13:39+00:00</published>
+  <updated>2022-11-03T09:48:45+00:00</updated>
+  <media:group>
+   <media:title>Generating synthetic data for deep learning</media:title>
+   <media:content url="https://www.youtube.com/v/lqbZdTLMyQw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lqbZdTLMyQw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We, the Virtual Reality &amp; Multimedia Group of the Freiberg University of Mining &amp; Technology (Germany), would like to introduce our Blender add-on “BlAInder” – a range scanner tool to simulate depth sensors, e.g. LiDAR (laser) or sonar (ultrasonic) for synthetic data generation.
+
+These sensors are common technology within a wide range of domains, e.g. autonomous driving and robotics. To simplify the training data generation process for the AI of these systems, this add-on enables a largely automated generation of semantically annotated point-cloud data in virtual 3D environments.
+
+Within the add-on, different depth sensors can be loaded from presets, customized sensors can be implemented and different environmental conditions (e. g., influence of rain, dust) can be simulated. The semantically labeled data can be exported to various 2D and 3D formats and are thus optimized for different deep learning applications and visualizations. In addition, semantically labeled images can be exported using the rendering functionalities of Blender.
+
+The add-on is fully open-source, you can find it on GitHub: https://github.com/ln-12/blainder-range…. We published a scientific paper on this topic, which you can find here: https://www.mdpi.com/1424-8220/21/6/2144.
+
+&quot;Generating synthetic data for deep learning&quot; by Stefan Reitmann
+Blender Conference 2022
+2022-10-29 16:00 at the attic.</media:description>
+   <media:community>
+    <media:starRating count="56" average="5.00" min="1" max="5"/>
+    <media:statistics views="901"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:OZ1SWl-6PYo</id>
+  <yt:videoId>OZ1SWl-6PYo</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>GEO NODES + WRAP UP! - BCON LIVE PODCAST #BCON22</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=OZ1SWl-6PYo"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T15:07:05+00:00</published>
+  <updated>2022-10-30T06:51:04+00:00</updated>
+  <media:group>
+   <media:title>GEO NODES + WRAP UP! - BCON LIVE PODCAST #BCON22</media:title>
+   <media:content url="https://www.youtube.com/v/OZ1SWl-6PYo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/OZ1SWl-6PYo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>LIVE from the Blender Conference 2022!
+
+Hosted by Pablo Vazquez
+
+Guests:
+- @Erindale
+--
+
+Support the future of Blender by joining the Development Fund https://fund.blender.org
+
+#b3d</media:description>
+   <media:community>
+    <media:starRating count="237" average="5.00" min="1" max="5"/>
+    <media:statistics views="4316"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2z6waaNwEhk</id>
+  <yt:videoId>2z6waaNwEhk</yt:videoId>
+  <yt:channelId>UCSMOQeBJ2RAnuFungnQOxLg</yt:channelId>
+  <title>Faster product creation at a fashion enterprise with serverless</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2z6waaNwEhk"/>
+  <author>
+   <name>Blender</name>
+   <uri>https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg</uri>
+  </author>
+  <published>2022-10-29T14:40:52+00:00</published>
+  <updated>2022-10-31T21:42:22+00:00</updated>
+  <media:group>
+   <media:title>Faster product creation at a fashion enterprise with serverless</media:title>
+   <media:content url="https://www.youtube.com/v/2z6waaNwEhk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2z6waaNwEhk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Theodo team is building tools that help streamline the creation process of new products for several brands belonging to one of the largest American fashion companies. Some of these tools are built around Blender running on AWS serverless services (namely Lambda functions), enabling high scalability and low operating cost.
+
+&quot;Faster product creation at a fashion enterprise with serverless&quot; by JR Beaudoin
+Blender Conference 2022
+2022-10-29 13:30 at the theater.</media:description>
+   <media:community>
+    <media:starRating count="41" average="5.00" min="1" max="5"/>
+    <media:statistics views="690"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
