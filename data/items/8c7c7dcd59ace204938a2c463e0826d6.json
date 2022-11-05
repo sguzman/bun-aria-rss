@@ -1,0 +1,16 @@
+{
+  "title": "RDataMining Tutorial on Machine Learning with R",
+  "link": "https://rdatamining.wordpress.com/2017/06/06/rdatamining-tutorial-on-machine-learning-with-r/",
+  "comments": "https://rdatamining.wordpress.com/2017/06/06/rdatamining-tutorial-on-machine-learning-with-r/#comments",
+  "dc:creator": "Yanchang Zhao",
+  "pubDate": "Tue, 06 Jun 2017 06:37:00 +0000",
+  "category": "Uncategorized",
+  "guid": "http://rdatamining.wordpress.com/?p=560",
+  "description": "I have run a tutorial on Machine Learning with R for the Melbourne Data Science Week in June 2017, which consists of four sessions: R Programming: basics of R language and programming, parallel computing, and data import and export Association &#8230; <a href=\"https://rdatamining.wordpress.com/2017/06/06/rdatamining-tutorial-on-machine-learning-with-r/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>",
+  "content:encoded": "<p>I have run a tutorial on Machine Learning with R for the Melbourne Data Science Week in June 2017, which consists of four sessions:</p>\n<ul>\n<li>R Programming:<br />\nbasics of R language and programming, parallel computing, and data import and export</li>\n</ul>\n<ul>\n<li>Association Rule Mining with R:<br />\nmining and selecting interesting association rules, redundancy removal, and rule visualisation</li>\n</ul>\n<ul>\n<li>Text Mining with R:<br />\ntext mining, word cloud, topic modelling, and sentiment analysis,</li>\n</ul>\n<ul>\n<li>Social Network Analysis with R:<br />\ngraph construction, graph query, centrality measures, and graph visualisation</li>\n</ul>\n<p>All materials of the above tutorial, incl. PDF slides, datasets and R scripts can be downloaded as a single ZIP archive at</p>\n<p><a href=\"http://www.rdatamining.com/training/medascin/MLwR.zip\">http://www.rdatamining.com/training/medascin/MLwR.zip</a></p>\n<p>How to use it:</p>\n<ol>\n<li>Decompress the ZIP archive, and you will find file and folders below:</li>\n</ol>\n<ul>\n<li>MLwR.Rproj: RStudio project file</li>\n<li>code: R scripts</li>\n<li>data: datasets</li>\n<li>docs: PDF slides</li>\n<li>figures: charts</li>\n</ul>\n<ol start=\"2\">\n<li>Open the “MLwR.Rproj” file with RStudio</li>\n<li>Open each PDF slides file (in folder “docs”) and run its corresponding R scripts (in folder “code”) to learn each topic</li>\n</ol>\n<p>Detailed instructions for the tutorial are available at</p>\n<p><a href=\"http://www.rdatamining.com/training/medascin\">http://www.rdatamining.com/training/medascin</a></p>\n",
+  "wfw:commentRss": "https://rdatamining.wordpress.com/2017/06/06/rdatamining-tutorial-on-machine-learning-with-r/feed/",
+  "slash:comments": 1,
+  "media:content": {
+    "media:title": "rdatamining"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:8vXoMqWgbQQ",
+  "yt:videoId": "8vXoMqWgbQQ",
+  "yt:channelId": "UCdngmbVKX1Tgre699-XLlUA",
+  "title": "Top 8 Docker Best Practices for using Docker in Production",
+  "link": "",
+  "author": {
+    "name": "TechWorld with Nana",
+    "uri": "https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA"
+  },
+  "published": "2021-11-11T15:07:56+00:00",
+  "updated": "2022-05-04T12:25:29+00:00",
+  "media:group": {
+    "media:title": "Top 8 Docker Best Practices for using Docker in Production",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "8 Docker Production Best Practices to improve security, reduce the image size and improve build time\nFull Docker course                                                             ►  https://youtu.be/3c-iBn73dDE\nFollow me on IG for behind-the-scenes content 😊      ►  https://bit.ly/2F3LXYJ\n\n►  This video is sponsored by Kasten 🙌🏼\n►  Free Kubernetes Backup and Migration - Download Kasten's K10 and Get 10 nodes free forever: https://www.kasten.io/nana\n\nDocker adoption rises constantly, but not everyone is using Docker according to the best practices.\n\nSo in this video I want to show you 8 ways you can use docker in a right way in your projects to improve security, optimize the image size and take advantage of some of the useful Docker features and also write cleaner and more maintainable Dockerfiles.\n\n\n▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬\n0:00 - Intro\n0:34 - BP 1: Use official and verified Docker Images as Base Image\n1:13 - BP 2: Use Specific Docker Image Versions\n2:12 - BP 3: Use Small-Sized Official Images\n4:35 - BP 4: Optimize Caching Image Layers\n10:09- BP 5: Use .dockerignore file\n10:55 - BP 6: Make use of Multi-Stage Builds\n14:15 - BP 7: Use the Least Privileged User \n16:06 - BP 8: Scan your Images for Security Vulnerabilities\n17:50 - Wrap Up\n\n\n▬▬▬▬▬▬ Want to learn more? 🚀  ▬▬▬▬▬▬ \nFull Docker course                                            ►  https://youtu.be/3c-iBn73dDE\nFull Python course                                            ►  https://youtu.be/t8pPdKYpowI\nFull K8s course course                                    ►  https://youtu.be/X48VuDVv0do\nDevOps Tools, like Terraform, Prometheus  ►  https://bit.ly/2W9UEq6\n\n\n▬▬▬▬▬▬ Connect with me 👋   ▬▬▬▬▬▬ \nINSTAGRAM             ►  https://bit.ly/2F3LXYJ\nTWITTER                   ►  https://bit.ly/3i54PUB\nLINKEDIN                  ►  https://bit.ly/3hWOLVT\nFB group                   ►  https://bit.ly/32UVSZP\nDEV                            ►  https://bit.ly/3h2fqiO\n\n\n▬▬▬▬▬▬ Courses & Bootcamp & Ebooks 🚀      ▬▬▬▬▬▬ \n► Become a DevOps Engineer - full educational program             👉🏼  https://bit.ly/3gEwf4V\n► High-Quality and Hands-On Courses                                             👉🏼   https://bit.ly/3nIouPW\n► Kubernetes 101 - compact and easy-to-read ebook bundle      👉🏼   https://bit.ly/3mPIaiU",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
