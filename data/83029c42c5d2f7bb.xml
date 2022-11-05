@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.PR updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Probability (math.PR) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Probability</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01464" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01503" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01596" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01643" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01667" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01688" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01710" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01774" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01788" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01804" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01828" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01844" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01872" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01940" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01961" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01986" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02009" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02032" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02034" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1512.02208" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1804.02128" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2104.12716" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2105.04175" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2108.04777" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2110.12977" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2111.12403" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.00292" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.07659" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.08031" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.03095" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.09340" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.13121" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01464">
+<title>On the existence and regularity of local times. (arXiv:2211.01464v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01464</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the existence and regularity of local times for general
+$d$-dimensional stochastic processes. We give a general condition for their
+existence and regularity properties. To emphasize the contribution of our
+results, we show that they include various prominent examples, among others
+solutions to stochastic differential equations driven by fractional Brownian
+motion, where the behavior of the local time was not fully understood up to now
+and remained as an open problem in the stochastic analysis literature. In
+particular this completes the picture regarding the local time behavior of such
+equations, above all includes high dimensions and both large and small Hurst
+parameters. As other main examples, we also show that by using our general
+approach, one can quite easily cover and extend some recently obtained results
+on the local times of the Rosenblatt process and Gaussian quasi-helices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sottinen_T/0/1/0/all/0/1&quot;&gt;Tommi Sottinen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sonmez_E/0/1/0/all/0/1&quot;&gt;Ercan S&amp;#xf6;nmez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Viitasaari_L/0/1/0/all/0/1&quot;&gt;Lauri Viitasaari&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01503">
+<title>Jensen&apos;s and Cantelli&apos;s Inequalities with Imprecise Previsions. (arXiv:2211.01503v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01503</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate how basic probability inequalities can be extended to an
+imprecise framework, where (precise) probabilities and expectations are
+replaced by imprecise probabilities and lower/upper previsions. We focus on
+inequalities giving information on a single bounded random variable $X$,
+considering either convex/concave functions of $X$ (Jensen&apos;s inequalities) or
+one-sided bounds such as $(X\geq c)$ or $(X\leq c)$ (Markov&apos;s and Cantelli&apos;s
+inequalities). As for the consistency of the relevant imprecise uncertainty
+measures, our analysis considers coherence as well as weaker requirements,
+notably $2$-coherence, which proves to be often sufficient. Jensen-like
+inequalities are introduced, as well as a generalisation of a recent
+improvement to Jensen&apos;s inequality. Some of their applications are proposed:
+extensions of Lyapunov&apos;s inequality and inferential problems. After discussing
+upper and lower Markov&apos;s inequalities, Cantelli-like inequalities are proven
+with different degrees of consistency for the related lower/upper previsions.
+In the case of coherent imprecise previsions, the corresponding Cantelli&apos;s
+inequalities make use of Walley&apos;s lower and upper variances, generally ensuring
+better bounds.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Pelessoni_R/0/1/0/all/0/1&quot;&gt;Renato Pelessoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Vicig_P/0/1/0/all/0/1&quot;&gt;Paolo Vicig&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01596">
+<title>Probability bounds for $n$ random events under $(n-1)$-wise independence. (arXiv:2211.01596v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01596</link>
+<description rdf:parseType="Literal">&lt;p&gt;A collection of $n$ random events is said to be $(n - 1)$-wise independent if
+any $n - 1$ events among them are mutually independent. We characterise all
+probability measures with respect to which $n$ random events are $(n - 1)$-wise
+independent. We provide sharp upper and lower bounds on the probability that at
+least $k$ out of $n$ events with given marginal probabilities occur over these
+probability measures. The bounds are shown to be computable in polynomial time.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Natarajan_K/0/1/0/all/0/1&quot;&gt;Karthik Natarajan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ramachandra_A/0/1/0/all/0/1&quot;&gt;Arjun Kodagehalli Ramachandra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tan_C/0/1/0/all/0/1&quot;&gt;Colin Tan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01643">
+<title>Existence of quasi-stationary distributions for downward skip-free Markov chains. (arXiv:2211.01643v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01643</link>
+<description rdf:parseType="Literal">&lt;p&gt;For downward skip-free Markov chains on non-negative integers killed at $0$,
+existence of a quasi-stationary distribution is studied. Scale functions for
+these processes are introduced and the boundary is classified by the
+integrability of the scale function, which gives an extension of Feller&apos;s
+classification of the boundary for birth-and-death processes. The existence and
+the set of quasi-stationary distributions are characterized by scale functions
+and the classification of the boundary.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yamato_K/0/1/0/all/0/1&quot;&gt;Kosuke Yamato&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01667">
+<title>AoI-Based Opportunistic-Fair mmWave Schedulers. (arXiv:2211.01667v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01667</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider a system with a Base Station (BS) and multiple mobile/stationary
+users. BS uses millimeter waves (mmWaves) for data transmission and hence needs
+to align beams in the directions of the end-users. The idea is to avail regular
+user-position estimates, which help in accurate beam alignment towards multiple
+users, paving way for opportunistic mmWave schedulers. We propose an online
+algorithm that uses a dual opportunistic and fair scheduler to allocate data as
+well as position-update channels, in each slot. Towards this, well-known
+alpha-fair objective functions of utilities of various users, which further
+depend upon the age of position-information, are optimized. We illustrate the
+advantages of the opportunistic scheduler, by comparing it with the previously
+proposed mmWave schemes; these schedulers choose one user in each slot and
+start data transmission only after accurate beam alignment. We also discuss two
+ways of introducing fairness in such schemes, both of which perform inferior to
+the proposed age-based opportunistic scheduler.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Singhal_S/0/1/0/all/0/1&quot;&gt;Shiksha Singhal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kavitha_V/0/1/0/all/0/1&quot;&gt;Veeraruna Kavitha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ramanath_S/0/1/0/all/0/1&quot;&gt;Sreenath Ramanath&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01688">
+<title>Nearly tight universal bounds for the binomial tail probabilities. (arXiv:2211.01688v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01688</link>
+<description rdf:parseType="Literal">&lt;p&gt;We derive simple but nearly tight upper and lower bounds for the binomial
+lower tail probability (with straightforward generalization to the upper tail
+probability) that apply to the whole parameter regime. These bounds are easy to
+compute and are tight within a constant factor of $89/44$. Moreover, they are
+asymptotically tight in the regimes of large deviation and moderate deviation.
+By virtue of a surprising connection with Ramanujan&apos;s equation, we also provide
+strong evidences suggesting that the lower bound is tight within a factor of
+$1.26434$. It may even be regarded as the natural lower bound, given its
+simplicity and appealing properties. Our bounds significantly outperform the
+familiar Chernoff bound and reverse Chernoff bounds known in the literature and
+may find applications in various research areas.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Zhu_H/0/1/0/all/0/1&quot;&gt;Huangjun Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_Z/0/1/0/all/0/1&quot;&gt;Zihao Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hayashi_M/0/1/0/all/0/1&quot;&gt;Masahito Hayashi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01710">
+<title>Bernoulli variables, classical exclusion processes and free probability. (arXiv:2211.01710v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01710</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a new description of the known large deviation function of the
+classical symmetric simple exclusion process by exploiting its connection with
+the quantum symmetric simple exclusion processes and using tools from free
+probability. This may seem paradoxal as free probability usually deals with non
+commutative probability while the simple exclusion process belongs to the realm
+of classical probability. On the way, we give a new formula for the free energy
+-- alias the logarithm of the Laplace transform of the probability distribution
+-- of correlated Bernoulli variables in terms of the set of their cumulants
+with non-coinciding indices. This latter result is obtained either by
+developing a combinatorial approach for cumulants of products of random
+variables or by borrowing techniques from Feynman graphs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Bauer_M/0/1/0/all/0/1&quot;&gt;Michel Bauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Bernard_D/0/1/0/all/0/1&quot;&gt;Denis Bernard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Biane_P/0/1/0/all/0/1&quot;&gt;Philippe Biane&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Hruza_L/0/1/0/all/0/1&quot;&gt;Ludwig Hruza&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01774">
+<title>Jump-Diffusion Langevin Dynamics for Multimodal Posterior Sampling. (arXiv:2211.01774v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01774</link>
+<description rdf:parseType="Literal">&lt;p&gt;Bayesian methods of sampling from a posterior distribution are becoming
+increasingly popular due to their ability to precisely display the uncertainty
+of a model fit. Classical methods based on iterative random sampling and
+posterior evaluation such as Metropolis-Hastings are known to have desirable
+long run mixing properties, however are slow to converge. Gradient based
+methods, such as Langevin Dynamics (and its stochastic gradient counterpart)
+exhibit favorable dimension-dependence and fast mixing times for log-concave,
+and &quot;close&quot; to log-concave distributions, however also have long escape times
+from local minimizers. Many contemporary applications such as Bayesian Neural
+Networks are both high-dimensional and highly multimodal. In this paper we
+investigate the performance of a hybrid Metropolis and Langevin sampling method
+akin to Jump Diffusion on a range of synthetic and real data, indicating that
+careful calibration of mixing sampling jumps with gradient based chains
+significantly outperforms both pure gradient-based or sampling based schemes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Guidolin_J/0/1/0/all/0/1&quot;&gt;Jacopo Guidolin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kungurtsev_V/0/1/0/all/0/1&quot;&gt;Vyacheslav Kungurtsev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Kuzelka_O/0/1/0/all/0/1&quot;&gt;Ond&amp;#x159;ej Ku&amp;#x17e;elka&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01788">
+<title>Common Information, Noise Stability, and Their Extensions. (arXiv:2211.01788v1 [cs.IT])</title>
+<link>http://arxiv.org/abs/2211.01788</link>
+<description rdf:parseType="Literal">&lt;p&gt;Common information (CI) is ubiquitous in information theory and related areas
+such as theoretical computer science and discrete probability. However, because
+there are multiple notions of CI, a unified understanding of the deep
+interconnections between them is lacking. This monograph seeks to fill this gap
+by leveraging a small set of mathematical techniques that are applicable across
+seemingly disparate problems.
+&lt;/p&gt;
+&lt;p&gt;In Part I, we review the operational tasks and properties associated with
+Wyner&apos;s and G\&apos;acs-K\&quot;orner-Witsenhausen&apos;s (GKW&apos;s) CI. In PartII, we discuss
+extensions of the former from the perspective of distributed source simulation.
+This includes the R\&apos;enyi CI which forms a bridge between Wyner&apos;s CI and the
+exact CI. Via a surprising equivalence between the R\&apos;enyi CI of order~$\infty$
+and the exact CI, we demonstrate the existence of a joint source in which the
+exact CI strictly exceeds Wyner&apos;s CI. Other closely related topics discussed in
+Part II include the channel synthesis problem and the connection of Wyner&apos;s and
+exact CI to the nonnegative rank of matrices.
+&lt;/p&gt;
+&lt;p&gt;In Part III, we examine GKW&apos;s CI with a more refined lens via the noise
+stability or NICD problem in which we quantify the agreement probability of
+extracted bits from a bivariate source. We then extend this to the $k$-user
+NICD and $q$-stability problems, and discuss various conjectures in information
+theory and discrete probability, such as the Courtade-Kumar, Li-M\&apos;edard and
+Mossell-O&apos;Donnell conjectures. Finally, we consider hypercontractivity and
+Brascamp-Lieb inequalities, which further generalize noise stability via
+replacing the Boolean functions therein by nonnnegative functions. The key
+ideas behind the proofs in Part III can be presented in a pedagogically
+coherent manner and unified via information-theoretic and Fourier-analytic
+methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_L/0/1/0/all/0/1&quot;&gt;Lei Yu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tan_V/0/1/0/all/0/1&quot;&gt;Vincent Y. F. Tan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01804">
+<title>Wasserstein Steepest Descent Flows of Discrepancies with Riesz Kernels. (arXiv:2211.01804v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01804</link>
+<description rdf:parseType="Literal">&lt;p&gt;The aim of this paper is twofold. Based on the geometric Wasserstein tangent
+space, we first introduce Wasserstein steepest descent flows. These are locally
+absolutely continuous curves in the Wasserstein space whose tangent vectors
+point into a steepest descent direction of a given functional. This allows the
+use of Euler forward schemes instead of the minimizing movement scheme (MMS)
+introduced by Jordan, Kinderlehrer, and Otto. The MMS finds Wasserstein
+gradient flows by successively computing Wasserstein proxies. For locally
+Lipschitz continuous functionals which are $\lambda$-convex along generalized
+geodesics, we show that there exists a unique Wasserstein steepest descent flow
+coinciding with the Wasserstein gradient flow.
+&lt;/p&gt;
+&lt;p&gt;The second aim is to study Wasserstein flows of the (maximum mean)
+discrepancy with respect to Riesz kernels. The crucial part is hereby the
+treatment of the interaction energy. Although it is not $\lambda$-convex along
+generalized geodesics, we give analytic expressions for Wasserstein steepest
+descent flows of the interaction energy starting at Dirac measures. In contrast
+to smooth kernels, the particle may explode, i.e., the particle goes over to
+non-Dirac measures. The computation of steepest descent flows amounts to
+finding equilibrium measures with external fields, which nicely links
+Wasserstein flows of interaction energies with potential theory. Furthermore,
+we prove convergence of MMS to our Wasserstein steepest descent flows. Finally,
+we provide analytic Wasserstein steepest descent flows of discrepancies in one
+dimension and numerical simulations in two and three dimensions showing
+relations to interaction energy flows.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hertrich_J/0/1/0/all/0/1&quot;&gt;Johannes Hertrich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Graf_M/0/1/0/all/0/1&quot;&gt;Manuel Gr&amp;#xe4;f&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Beinert_R/0/1/0/all/0/1&quot;&gt;Robert Beinert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Steidl_G/0/1/0/all/0/1&quot;&gt;Gabriele Steidl&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01828">
+<title>Erd\&quot;os-R\&apos;enyi Poissonized. (arXiv:2211.01828v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01828</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce a variant of the Erd\&quot;os--R\&apos;enyi random graph where the number
+of vertices is random and follows a Poisson law. A very simple Markov property
+of the model entails that the Lukasiewicz exploration is made of
+\textit{independent} Poisson increments. Using a vanilla Poisson counting
+process, this enables us to give very short proofs of classical results such as
+the phase transition for the giant component or the connectedness for the
+standard Erd\&quot;os--R\&apos;enyi model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Curien_N/0/1/0/all/0/1&quot;&gt;Nicolas Curien&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01844">
+<title>Space-grid approximations of hybrid stochastic differential equations and first passage properties. (arXiv:2211.01844v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01844</link>
+<description rdf:parseType="Literal">&lt;p&gt;Hybrid stochastic differential equations are a useful tool to model
+continuously varying stochastic systems which are modulated by a random
+environment that may depend on the system state itself. In this paper, we
+establish the pathwise convergence of the solutions to hybrid stochastic
+differential equations via space-grid discretizations. While time-grid
+discretizations are a classical approach for simulation purposes, our
+space-grid discretization provides a link with multi-regime Markov modulated
+Brownian motions, leading to computational tractability. We exploit our
+convergence result to obtain efficient approximations to first passage
+probabilities and expected occupation times of the solutions hybrid stochastic
+differential equations, results which are the first of their kind for such a
+robust framework. We finally illustrate the performance of the resulting
+approximations in numerical examples.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Albrecher_H/0/1/0/all/0/1&quot;&gt;Hansjoerg Albrecher&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Peralta_O/0/1/0/all/0/1&quot;&gt;Oscar Peralta&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01872">
+<title>Counting Deranged Matchings. (arXiv:2211.01872v1 [math.CO])</title>
+<link>http://arxiv.org/abs/2211.01872</link>
+<description rdf:parseType="Literal">&lt;p&gt;Let $\mathrm{pm}(G)$ denote the number of perfect matchings of a graph $G$,
+and let $K_{r\times 2n/r}$ denote the complete $r$-partite graph where each
+part has size $2n/r$. Johnson, Kayll, and Palmer conjectured that for any
+perfect matching $M$ of $K_{r\times 2n/r}$, we have for $2n$ divisible by $r$
+\[\frac{\mathrm{pm}(K_{r\times 2n/r}-M)}{\mathrm{pm}(K_{r\times 2n/r})}\sim
+e^{-r/(2r-2)}.\] This conjecture can be viewed as a common generalization of
+counting the number of derangements on $n$ letters, and of counting the number
+of deranged matchings of $K_{2n}$. We prove this conjecture. In fact, we prove
+the stronger result that if $R$ is a uniformly random perfect matching of
+$K_{r\times 2n/r}$, then the number of edges that $R$ has in common with $M$
+converges to a Poisson distribution with parameter $\frac{r}{2r-2}$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Spiro_S/0/1/0/all/0/1&quot;&gt;Sam Spiro&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Surya_E/0/1/0/all/0/1&quot;&gt;Erlang Surya&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01940">
+<title>Approximate Gibbsian structure in strongly correlated point fields and generalized Gaussian zero ensembles. (arXiv:2211.01940v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01940</link>
+<description rdf:parseType="Literal">&lt;p&gt;Gibbsian structure in random point fields has been a classical tool for
+studying their spatial properties. However, exact Gibbs property is available
+only in a relatively limited class of models, and it does not adequately
+address many random fields with a strongly dependent spatial structure. In this
+work, we provide a general framework for approximate Gibbsian structure for
+strongly correlated random point fields. These include processes that exhibit
+strong spatial rigidity, in particular, a certain one-parameter family of
+analytic Gaussian zero point fields, namely the $\alpha$-GAFs. Our framework
+entails conditions that may be verified via finite particle approximations to
+the process, a phenomenon that we call an approximate Gibbs property. We show
+that these enable one to compare the spatial conditional measures in the
+infinite volume limit with Gibbs-type densities supported on appropriate
+singular manifolds, a phenomenon we refer to as a generalized Gibbs property.
+We demonstrate the scope of our approach by showing that a generalized Gibbs
+property holds with a logarithmic pair potential for the $\alpha$-GAFs for any
+value of $\alpha$. This establishes the level of rigidity of the $\alpha$-GAF
+zero process to be exactly $\lfloor \frac{1}{\alpha} \rfloor$, settling in the
+affirmative an open question regarding the existence of point processes with
+any specified level of rigidity. For processes such as the zeros of
+$\alpha$-GAFs, which involve complex, many-body interactions, our results imply
+that the local behaviour of the random points still exhibits 2D Coulomb-type
+repulsion in the short range. Our techniques can be leveraged to estimate the
+relative energies of configurations under local perturbations, with possible
+implications for dynamics and stochastic geometry on strongly correlated random
+point fields.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Gangopadhyay_U/0/1/0/all/0/1&quot;&gt;Ujan Gangopadhyay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ghosh_S/0/1/0/all/0/1&quot;&gt;Subhroshekhar Ghosh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01961">
+<title>The LP-update policy for weakly coupled Markov decision processes. (arXiv:2211.01961v1 [math.OC])</title>
+<link>http://arxiv.org/abs/2211.01961</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work we propose a novel policy called the LP-update policy for finite
+horizon weakly coupled Markov decision processes. The latter can be seen as
+multi-constraint multi-action bandits, and generalizes the classical restless
+bandit problems (that are single-constraint two-action bandits), widely studied
+in the literature. We consider a scaling model with $N$ statistically identical
+arms. We show that our LP-update policy becomes asymptotically optimal at rate
+$O(1/\sqrt{N})$ for any problem. This rate can be improved to $O(1/N)$ if the
+problem is non-degenerate, and even to $e^{-\Omega(N)}$ if in addition the
+problem admits a perfect rounding. The definition of non-degeneracy extends the
+same notion for the classical two-action restless bandits. By using this
+property, we also provide a more efficient implementation of the LP-update
+policy. We illustrate the performance of our policy in a generalized applicant
+screening problem.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Gast_N/0/1/0/all/0/1&quot;&gt;Nicolas Gast&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Gaujal_B/0/1/0/all/0/1&quot;&gt;Bruno Gaujal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yan_C/0/1/0/all/0/1&quot;&gt;Chen Yan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01986">
+<title>Resilience of cube slicing in $\ell_p$. (arXiv:2211.01986v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01986</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ball&apos;s celebrated cube slicing (1986) asserts that among hyperplane sections
+of the cube in $\mathbb{R}^n$, the central section orthogonal to
+$(1,1,0,\dots,0)$ has the greatest volume. We show that the same continues to
+hold for slicing $\ell_p$ balls when $p &amp;gt; 10^{15}$, as well as that the same
+hyperplane minimizes the volume of projections of $\ell_q$ balls for $1 &amp;lt; q &amp;lt; 1
++ 10^{-12}$. This extends Szarek&apos;s optimal Khinchin inequality (1976) which
+corresponds to $q=1$. These results thus address the resilience of the
+Ball--Szarek hyperplane in the ranges $2 &amp;lt; p &amp;lt; \infty$ and $1 &amp;lt; q &amp;lt; 2$, where
+analysis of the extremizers has been elusive since the works of Koldobsky
+(1998), Barthe--Naor (2002) and Oleszkiewicz (2003).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Eskenazis_A/0/1/0/all/0/1&quot;&gt;Alexandros Eskenazis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Nayar_P/0/1/0/all/0/1&quot;&gt;Piotr Nayar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Tkocz_T/0/1/0/all/0/1&quot;&gt;Tomasz Tkocz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02009">
+<title>Normal approximation of Kabanov-Skorohod integrals on Poisson spaces. (arXiv:2211.02009v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.02009</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider the normal approximation of Kabanov-Skorohod integrals on a
+general Poisson space. Our bounds are for the Wasserstein and the Kolmogorov
+distance and involve only difference operators of the integrand of the
+Kabanov-Skorohod integral. The proofs rely on the Malliavin-Stein method and,
+in particular, on multiple applications of integration by parts formulae. As
+examples, we study some linear statistics of point processes that can be
+constructed by Poisson embeddings and functionals related to Pareto optimal
+points of a Poisson process.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Last_G/0/1/0/all/0/1&quot;&gt;G&amp;#xfc;nter Last&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Molchanov_I/0/1/0/all/0/1&quot;&gt;Ilya Molchanov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Schulte_M/0/1/0/all/0/1&quot;&gt;Matthias Schulte&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02032">
+<title>To spike or not to spike: the whims of the Wonham filter in the strong noise regime. (arXiv:2211.02032v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.02032</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the celebrated Shiryaev-Wonham filter in its historical setup of
+Wonham (1964) where the hidden Markov jump process has two states. We are
+interested in the weak noise regime for the observation equation.
+Interestingly, this becomes a strong noise regime for the filtering equations.
+&lt;/p&gt;
+&lt;p&gt;Earlier results of the authors show the appearance of spikes in the filtered
+process, akin to a metastability phenomenon. This paper is aimed at
+understanding the smoothed optimal filter, which is relevant for any system
+with feedback. In particular, we demonstrate that there is a sharp phase
+transition between a spiking regime and a regime with perfect smoothing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cedric_B/0/1/0/all/0/1&quot;&gt;Bernardin C&amp;#xe9;dric&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Reda_C/0/1/0/all/0/1&quot;&gt;Chhaibi Reda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Joseph_N/0/1/0/all/0/1&quot;&gt;Najnudel Joseph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Clement_P/0/1/0/all/0/1&quot;&gt;Pellegrini Cl&amp;#xe9;ment&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02034">
+<title>Convergence of the logarithm of the characteristic polynomial of unitary Brownian motion to the Gaussian free field. (arXiv:2211.02034v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.02034</link>
+<description rdf:parseType="Literal">&lt;p&gt;We prove that the real and imaginary parts of the logarithm of the
+characteristic polynomial of unitary Brownian motion converge to Gaussian free
+fields on the cylinder, as the matrix dimension goes to infinity. This is the
+natural dynamical analogue of the result for a fixed time by Hughes, Keating
+and O&apos;Connell [1]. Further it complements a result by Spohn [2] on linear
+statistics of unitary Brownian motion, and a recent result by Bourgade and
+Falconet [3] connecting the characteristic polynomial of unitary Brownian
+motion to a Gaussian multiplicative chaos measure. In the course of this
+research we also proved a Wick-type identity, which we include in this paper,
+as it might be of independent interest.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Forkel_J/0/1/0/all/0/1&quot;&gt;Johannes Forkel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sauzedde_I/0/1/0/all/0/1&quot;&gt;Isao Sauzedde&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1512.02208">
+<title>A bijection for nonorientable general maps. (arXiv:1512.02208v5 [math.CO] UPDATED)</title>
+<link>http://arxiv.org/abs/1512.02208</link>
+<description rdf:parseType="Literal">&lt;p&gt;We give a different presentation of a recent bijection due to Chapuy and
+Dol\k{e}ga for nonorientable bipartite quadrangulations and we extend it to the
+case of nonorientable general maps. This can be seen as a Bouttier--Di
+Francesco--Guitter-like generalization of the Cori--Vauquelin--Schaeffer
+bijection in the context of general nonorientable surfaces. In the particular
+case of triangulations, the encoding objects take a particularly simple form
+and this allows us to recover a famous asymptotic enumeration formula found by
+Gao.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bettinelli_J/0/1/0/all/0/1&quot;&gt;J&amp;#xe9;r&amp;#xe9;mie Bettinelli&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1804.02128">
+<title>The Numerical Invariant Measure of Stochastic Differential Equations With Markovian Switching. (arXiv:1804.02128v2 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/1804.02128</link>
+<description rdf:parseType="Literal">&lt;p&gt;The existence and uniqueness of the numerical invariant measure of the
+backward Euler-Maruyama method for stochastic differential equations with
+Markovian switching is yielded, and it is revealed that the numerical invariant
+measure converges to the underlying invariant measure in the Wasserstein
+metric. Under the polynomial growth condition of drift term the convergence
+rate is estimated. The global Lipschitz condition on the drift coefficients
+required by Bao et al., 2016 and Yuan et al., 2005 is released. Several
+examples and numerical experiments are given to verify our theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xiaoyue Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ma_Q/0/1/0/all/0/1&quot;&gt;Qianlin Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yang_H/0/1/0/all/0/1&quot;&gt;Hongfu Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yuan_C/0/1/0/all/0/1&quot;&gt;Chenggui Yuan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2104.12716">
+<title>Scaling limit of random plane quadrangulations with a simple boundary, via restriction. (arXiv:2104.12716v2 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2104.12716</link>
+<description rdf:parseType="Literal">&lt;p&gt;The main purpose of this work is to provide a framework for proving that,
+given a family of random maps known to converge in the Gromov--Hausdorff sense,
+then some (suitable) conditional families of random maps converge to the same
+limit. As a proof of concept, we show that quadrangulations with a simple
+boundary converge to the Brownian disk. More precisely, we fix a sequence
+$(p_n)$ of even positive integers with $p_n\sim 2\alpha \sqrt{2n}$ for some
+$\alpha\in(0,\infty)$. Then, for the Gromov--Hausdorff topology, a
+quadrangulation with a simple boundary uniformly sampled among those with $n$
+inner faces and boundary length $p_n$ weakly converges, in the usual scaling
+$n^{-1/4}$, toward the Brownian disk of perimeter $3\alpha$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bettinelli_J/0/1/0/all/0/1&quot;&gt;J&amp;#xe9;r&amp;#xe9;mie Bettinelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Curien_N/0/1/0/all/0/1&quot;&gt;Nicolas Curien&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Fredes_L/0/1/0/all/0/1&quot;&gt;Luis Fredes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Sepulveda_A/0/1/0/all/0/1&quot;&gt;Avelio Sep&amp;#xfa;lveda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2105.04175">
+<title>Explicit Numerical Approximations for McKean-Vlasov Neutral Stochastic Differential Delay Equations. (arXiv:2105.04175v2 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2105.04175</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper studies the numerical methods to approximate the solutions for a
+sort of McKean-Vlasov neutral stochastic differential delay equations
+(MV-NSDDEs) that the growth of the drift coefficients is super-linear. First,
+We obtain that the solution of MV-NSDDE exists and is unique. Then, we use a
+stochastic particle method, which is on the basis of the results about the
+propagation of chaos between particle system and the original MV-NSDDE, to deal
+with the approximation of the law. Furthermore, we construct the tamed
+Euler-Maruyama numerical scheme with respect to the corresponding particle
+system and obtain the rate of convergence. Combining propagation of chaos and
+the convergence rate of the numerical solution to the particle system, we get a
+convergence error between the numerical solution and exact solution of the
+original MV-NSDDE in the stepsize and number of particles.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cui_Y/0/1/0/all/0/1&quot;&gt;Yuanping Cui&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_X/0/1/0/all/0/1&quot;&gt;Xiaoyue Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Yi Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yuan_C/0/1/0/all/0/1&quot;&gt;Chenggui Yuan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2108.04777">
+<title>Approximation and Error Analysis of Forward-Backward SDEs driven by General L\&apos;evy Processes using Shot Noise Series Representations. (arXiv:2108.04777v3 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2108.04777</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider the simulation of a system of decoupled forward-backward
+stochastic differential equations (FBSDEs) driven by a pure jump L\&apos;evy process
+$L$ and an independent Brownian motion $B$. We allow the L\&apos;evy process $L$ to
+have an infinite jump activity. Therefore, it is necessary for the simulation
+to employ a finite approximation of its L\&apos;evy measure. We use the generalized
+shot noise series representation method by Rosinski (2001) to approximate the
+driving L\&apos;evy process $L$. We compute the $L^p$ error, $p\ge2$, between the
+true and the approximated FBSDEs which arises from the finite truncation of the
+shot noise series (given sufficient conditions for existence and uniqueness of
+the FBSDE). We also derive the $L^p$ error between the true solution and the
+discretization of the approximated FBSDE using an appropriate backward Euler
+scheme.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Massing_T/0/1/0/all/0/1&quot;&gt;Till Massing&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2110.12977">
+<title>Large deviations for random matrices in the orthogonal group and Stiefel manifold with applications to random projections of product distributions. (arXiv:2110.12977v3 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2110.12977</link>
+<description rdf:parseType="Literal">&lt;p&gt;We prove large deviation principles (LDPs) for random matrices in the
+orthogonal group and Stiefel manifold, determining both the speed and good
+convex rate functions that are explicitly given in terms of certain
+log-determinants of trace-class operators and are finite on the set of
+Hilbert-Schmidt operators $M$ satisfying $\|MM^*\|&amp;lt;1$. As an application of
+those LDPs, we determine the precise large deviation behavior of
+$k$-dimensional random projections of high-dimensional product distributions
+using an appropriate interpretation in terms of point processes, also
+characterizing the space of all possible deviations. The case of uniform
+distributions on $\ell_p$-balls, $1\leq p \leq \infty$, is then considered and
+reduced to appropriate product measures. Those applications generalize
+considerably the recent work [Johnston, Kabluchko, Prochno: Projections of the
+uniform distribution on the cube - a large deviation perspective, Studia
+Mathematica 264 (2022), 103-119].
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kabluchko_Z/0/1/0/all/0/1&quot;&gt;Zakhar Kabluchko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Prochno_J/0/1/0/all/0/1&quot;&gt;Joscha Prochno&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2111.12403">
+<title>Combinatorics of the Quantum Symmetric Simple Exclusion Process, associahedra and free cumulants. (arXiv:2111.12403v2 [math.CO] UPDATED)</title>
+<link>http://arxiv.org/abs/2111.12403</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Quantum Symmetric Simple Exclusion Process (QSSEP) is a model of quantum
+particles hopping on a finite interval and satisfying the exclusion principle.
+Recently Bernard and Jin have studied the fluctuations of the invariant measure
+for this process, when the number of sites goes to infinity. These fluctuations
+are encoded into polynomials, for which they have given equations and proved
+that these equations determine the polynomials completely. In this paper, I
+give an explicit combinatorial formula for these polynomials, in terms of
+Schr\&quot;oder trees. I also show that, quite surprisingly, these polynomials can
+be interpreted as free cumulants of a family of commuting random variables.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Biane_P/0/1/0/all/0/1&quot;&gt;Philippe Biane&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.00292">
+<title>Fair Data Representation for Machine Learning at the Pareto Frontier. (arXiv:2201.00292v2 [stat.ML] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.00292</link>
+<description rdf:parseType="Literal">&lt;p&gt;As machine learning powered decision making is playing an increasingly
+important role in our daily lives, it is imperative to strive for fairness of
+the underlying data processing and algorithms. We propose a pre-processing
+algorithm for fair data representation via which L2- objective supervised
+learning algorithms result in an estimation of the Pareto frontier between
+prediction error and statistical disparity. In particular, the present work
+applies the optimal positive definite affine transport maps to approach the
+post-processing Wasserstein barycenter characterization of the optimal fair
+L2-objective supervised learning via a pre-processing data deformation. We call
+the resulting data Wasserstein pseudo-barycenter. Furthermore, we show that the
+Wasserstein geodesics from the learning outcome marginals to the barycenter
+characterizes the Pareto frontier between L2-loss and total Wasserstein
+distance among learning outcome marginals. Thereby, an application of McCann
+interpolation generalizes the pseudo-barycenter to a family of data
+representations via which L2-objective supervised learning algorithms result in
+the Pareto frontier. Numerical simulations underscore the advantages of the
+proposed data representation: (1) the pre-processing step is compositive with
+arbitrary L2-objective supervised learning methods and unseen data; (2) the
+fair representation protects data privacy by preventing the training machine
+from direct or indirect access to the sensitive information of the data; (3)
+the optimal affine map results in efficient computation of fair supervised
+learning on high-dimensional data; (4) experimental results shed light on the
+fairness of L2-objective unsupervised learning via the proposed fair data
+representation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Xu_S/0/1/0/all/0/1&quot;&gt;Shizhou Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Strohmer_T/0/1/0/all/0/1&quot;&gt;Thomas Strohmer&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.07659">
+<title>Equilibria of Time-inconsistent Stopping for One-dimensional Diffusion Processes. (arXiv:2201.07659v2 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.07659</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider three equilibrium concepts proposed in the literature for
+time-inconsistent stopping problems, including mild equilibria, weak equilibria
+and strong equilibria. The discount function is assumed to be log sub-additive
+and the underlying process is one-dimensional diffusion. We first provide
+necessary and sufficient conditions for the characterization of weak
+equilibria. The smooth-fit condition is obtained as a by-product. Next, based
+on the characterization of weak equilibria, we show that an optimal mild
+equilibrium is also weak. Then we provide conditions under which a weak
+equilibrium is strong. We further show that an optimal mild equilibrium is also
+strong under a certain condition. Finally, we provide several examples
+including one shows a weak equilibrium may not be strong, and another one shows
+a strong equilibrium may not be optimal mild.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bayraktar_E/0/1/0/all/0/1&quot;&gt;Erhan Bayraktar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Wang_Z/0/1/0/all/0/1&quot;&gt;Zhenhua Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Zhou_Z/0/1/0/all/0/1&quot;&gt;Zhou Zhou&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.08031">
+<title>Limit theorems of Chatterjee&apos;s rank correlation. (arXiv:2204.08031v3 [math.ST] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.08031</link>
+<description rdf:parseType="Literal">&lt;p&gt;Establishing the limiting distribution of Chatterjee&apos;s rank correlation for a
+general, possibly non-independent, pair of random variables has been eagerly
+awaited to many. This paper shows that (a) Chatterjee&apos;s rank correlation is
+asymptotically normal as long as one variable is not a measurable function of
+the other, (b) the corresponding asymptotic variance is uniformly bounded by
+36, and (c) a consistent variance estimator exists. Similar results also hold
+for Azadkia-Chatterjee&apos;s graph-based correlation coefficient, a multivariate
+analogue of Chatterjee&apos;s original proposal. The proof is given by appealing to
+H\&apos;ajek representation and Chatterjee&apos;s nearest-neighbor CLT.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lin_Z/0/1/0/all/0/1&quot;&gt;Zhexiao Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Han_F/0/1/0/all/0/1&quot;&gt;Fang Han&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.03095">
+<title>The well-posedness of the stochastic nonlinear Schr\&quot;odinger equations in $H^2(\mathbb{R}^d)$. (arXiv:2205.03095v2 [math.AP] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.03095</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Cauchy problem for the stochastic nonlinear Schr\&quot;odinger equation with a
+multiplicable noise is considered where the nonlinear term is of a power type
+and its coefficients are complex numbers. In particular, it is extremely
+important to consider the complex coefficients in the noise which cover
+non-conservative case, because they include measurement effects in quantum
+physics. The main purpose of this paper is to construct classical solutions in
+$H^2(\mathbb{R}^d)$ for the problem in question. The time local well-posedness
+in $L^2(\mathbb{R}^d)$ and $H^1(\mathbb{R}^d)$ was investigated in the papers
+[7,8]. In this paper we study the well-posedness in $H^2(\mathbb{R}^d)$ by
+making use of the rescaling approach as a main tool for dealing with the
+multiple noise, where we need to take advantage of a slight modification of the
+deterministic Strichartz estimate to fit into requirements under the setting of
+$H^2(\mathbb{R}^d)$. The other difficulty lies on the discussion on smoothness
+of functions in the nonlinear term, where the proof of time local
+well-posedness for the case of $H^2$-solutions does not go similarly as in the
+cases of $L^2$-solutions or $H^1$-solutions, because of the complexity in the
+computation of the nonlinear term with lower exponent $\alpha$. The techniques
+of Kato [18,19] work well on this difficulty even for the stochastic equations.
+We use the stochastic Strichartz estimate [4,16,17] as well to deal with white
+noise which did not appear in the proof for $L^2$-solutions or $H^1$-solutions.
+We also discuss time-global solutions in $H^2(\mathbb{R}^d)$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Doku_I/0/1/0/all/0/1&quot;&gt;Isamu D&amp;#xf4;ku&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hashimoto_S/0/1/0/all/0/1&quot;&gt;Shunya Hashimoto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Machihara_S/0/1/0/all/0/1&quot;&gt;Shuji Machihara&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.09340">
+<title>A coherence parameter characterizing generative compressed sensing with Fourier measurements. (arXiv:2207.09340v4 [cs.IT] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.09340</link>
+<description rdf:parseType="Literal">&lt;p&gt;In Bora et al. (2017), a mathematical framework was developed for compressed
+sensing guarantees in the setting where the measurement matrix is Gaussian and
+the signal structure is the range of a generative neural network (GNN). The
+problem of compressed sensing with GNNs has since been extensively analyzed
+when the measurement matrix and/or network weights follow a subgaussian
+distribution. We move beyond the subgaussian assumption, to measurement
+matrices that are derived by sampling uniformly at random rows of a unitary
+matrix (including subsampled Fourier measurements as a special case).
+Specifically, we prove the first known restricted isometry guarantee for
+generative compressed sensing with subsampled isometries, and provide recovery
+bounds with nearly order-optimal sample complexity, addressing an open problem
+of Scarlett et al. (2022, p. 10). Recovery efficacy is characterized by the
+coherence, a new parameter, which measures the interplay between the range of
+the network and the measurement matrix. Our approach relies on subspace
+counting arguments and ideas central to high-dimensional probability.
+Furthermore, we propose a regularization strategy for training GNNs to have
+favourable coherence with the measurement operator. We provide compelling
+numerical simulations that support this regularized training strategy: our
+strategy yields low coherence networks that require fewer measurements for
+signal recovery. This, together with our theoretical results, supports
+coherence as a natural quantity for characterizing generative compressed
+sensing with subsampled isometries.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Berk_A/0/1/0/all/0/1&quot;&gt;Aaron Berk&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Brugiapaglia_S/0/1/0/all/0/1&quot;&gt;Simone Brugiapaglia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Joshi_B/0/1/0/all/0/1&quot;&gt;Babhru Joshi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Plan_Y/0/1/0/all/0/1&quot;&gt;Yaniv Plan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Scott_M/0/1/0/all/0/1&quot;&gt;Matthew Scott&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yilmaz_O/0/1/0/all/0/1&quot;&gt;&amp;#xd6;zg&amp;#xfc;r Yilmaz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.13121">
+<title>The Entropy Method in Large Deviation Theory. (arXiv:2210.13121v2 [math.PR] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.13121</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper illustrates the power of the entropy method in addressing problems
+from large deviation theory. We provide and review entropy proofs for most
+fundamental results in large deviation theory, including Cramer&apos;s theorem, the
+G\&quot;artner--Ellis theorem, and Sanov&apos;s theorem. Moreover, by the entropy method,
+we also strengthen Sanov&apos;s theorem to the strong version.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Yu_L/0/1/0/all/0/1&quot;&gt;Lei Yu&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
