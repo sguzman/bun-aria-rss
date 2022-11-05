@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>On Machine Intelligence</title>
+	<atom:link href="https://aimatters.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://aimatters.wordpress.com</link>
+	<description>Why Artificial Intelligence and Machine Learning are changing the world</description>
+	<lastBuildDate>Tue, 21 Sep 2021 18:09:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='aimatters.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://s0.wp.com/i/buttonw-com.png</url>
+		<title>On Machine Intelligence</title>
+		<link>https://aimatters.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://aimatters.wordpress.com/osd.xml" title="On Machine Intelligence" />
+	<atom:link rel='hub' href='https://aimatters.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>Nethack Reinforcement Learning</title>
+		<link>https://aimatters.wordpress.com/2021/09/21/nethack-reinforcement-learning/</link>
+					<comments>https://aimatters.wordpress.com/2021/09/21/nethack-reinforcement-learning/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Tue, 21 Sep 2021 08:54:47 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[NetHack]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1347</guid>
+
+					<description><![CDATA[If you’re a fan of old 1980’s games, then you’ll be interested in this reinforcement learning environment. NetHack is a turn-based Dungeons &#38; Dragons style video game. The player controls a character tasked with finding the Amulet of Yendor, which is buried deep within a dungeon. During the game, the character will encounter lots of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>If you’re a fan of old 1980’s games, then you’ll be interested in this reinforcement learning environment.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png"><img data-attachment-id="1348" data-permalink="https://aimatters.wordpress.com/starting-the-game/" data-orig-file="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png" data-orig-size="730,437" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="starting-the-game" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=730" src="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=730" alt="The start of a NetHack game, with the agent in the only room visible in the dungeon, with a welcome message." class="wp-image-1348" srcset="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png 730w, https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=150 150w, https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=300 300w" sizes="(max-width: 730px) 100vw, 730px" /></a><figcaption>Starting the NetHack game</figcaption></figure></div>
+
+
+
+<p>NetHack is a turn-based Dungeons &amp; Dragons style video game. The player controls a character tasked with finding the Amulet of Yendor, which is buried deep within a dungeon. During the game, the character will encounter lots of different objects, monsters and artefacts, most of which will try to kill it!</p>
+
+
+
+<p>The simplicity of Nethack masks a rich and complex game. Simply remembering a route through a dungeon is useless, as the dungeon itself is regenerated every time a new game starts. The game is also non-deterministic, as many of the interactions with objects are probabilistic. Fighting orcs and goblins doesn’t always go to plan and they can really damage the agent.</p>
+
+
+
+<p>Symbols represent different objects within the dungeon, including the walls, doors, and the other monsters that the agent encounters. Learning what these symbols mean, how to interact with them and what effects they have in the world offers AI agents a rich learning opportunity. It’s further complicated by objects having effects through time. For example, if the agent eats something poisonous, then it will affect it for several turns, and not just on the next immediate turn.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png"><img data-attachment-id="1350" data-permalink="https://aimatters.wordpress.com/the-first-fight/" data-orig-file="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png" data-orig-size="730,437" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="the-first-fight" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=730" src="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=730" alt="A fight between the agent and a grid bug in a corridor." class="wp-image-1350" srcset="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png 730w, https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=150 150w, https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=300 300w" sizes="(max-width: 730px) 100vw, 730px" /></a><figcaption>The First Fight</figcaption></figure></div>
+
+
+
+<p>The game itself dates from the late 1980’s, but nevertheless offers a great environment to train and test AI agents.</p>
+
+
+
+<p>The Nethack Learning Environment (NLE) was released by Facebook’s AI team in June 2020 and was presented at last year’s NeurIPS conference. It provides a way for AI agents to interact with the game. Using reinforcement learning, an agent can learn to navigate through the dungeon and interact with the objects. Feedback is via three channels, the first is the representation of the dungeon itself, the second is via a natural language message and the third is a collection of statistics about the character, such as its health, strength and so on. The character can also carry items in an inventory.</p>
+
+
+
+<p>Since the game is symbol based, there are lots of opportunities to use traditional symbolic AI to control the agent. Questions abound in NLE: which planning algorithms to use, how are objectives defined (such as eating, fighting, exploring etc.), how should knowledge about the environment be retained, including causal effects of interacting with the objects? Indeed, how much knowledge should the AI practitioner encode in the agent itself. Alternatively, neural networks could be used to train the agent. A sample agent, included in the release, was generated using pure neural network methods and had to learn everything itself.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png"><img data-attachment-id="1351" data-permalink="https://aimatters.wordpress.com/found-the-stairs/" data-orig-file="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png" data-orig-size="730,437" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="found-the-stairs" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=730" src="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=730" alt="An almost complete level of the dungeon with the character standing beside the stairs down to the next level." class="wp-image-1351" srcset="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png 730w, https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=150 150w, https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=300 300w" sizes="(max-width: 730px) 100vw, 730px" /></a><figcaption>Found the stairs down to the next level</figcaption></figure></div>
+
+
+
+<p>One of the key things I really like about this environment is that it is purely symbol based. The game is very complex and yet the learning environment can be run on a standard laptop. No GPUs needed.</p>
+
+
+
+<p>Lots of open Artificial Intelligence questions are represented here. Facebook has launched a challenge to AI researchers to push the boundaries of Artificial Intelligence and also provide a way to showcase new problem-solving techniques. It will be interesting to see if there are any advancements or breakthroughs in training techniques by agents learning to find the Amulet of Yendor.</p>
+
+
+
+<p>Links:</p>
+
+
+
+<p>Nethack &#8211; Source code for the Nethack game <a href="https://github.com/NetHack/NetHack">https://github.com/NetHack/NetHack</a></p>
+
+
+
+<p>Nethack Wiki &#8211; everything you need to know about the game: <a href="https://nethackwiki.com/wiki/Main_Page">https://nethackwiki.com/wiki/Main_Page</a></p>
+
+
+
+<p>Facebook NLE Announcement: <a href="https://ai.facebook.com/blog/nethack-learning-environment-to-advance-deep-reinforcement-learning">https://ai.facebook.com/blog/nethack-learning-environment-to-advance-deep-reinforcement-learning</a></p>
+
+
+
+<p>Nethack Learning Environment Paper: <a href="https://arxiv.org/abs/2006.13760">https://arxiv.org/abs/2006.13760</a></p>
+
+
+
+<p>Nethack Learning Environment Code: <a href="https://github.com/facebookresearch/nle">https://github.com/facebookresearch/nle</a></p>
+
+
+
+<p>The NetHack Challenge: <a href="https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021">https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2021/09/21/nethack-reinforcement-learning/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2021/09/starting-the-game.png?w=730" medium="image">
+			<media:title type="html">The start of a NetHack game, with the agent in the only room visible in the dungeon, with a welcome message.</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2021/09/the-first-fight.png?w=730" medium="image">
+			<media:title type="html">A fight between the agent and a grid bug in a corridor.</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2021/09/found-the-stairs.png?w=730" medium="image">
+			<media:title type="html">An almost complete level of the dungeon with the character standing beside the stairs down to the next level.</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Solving MNIST with a Neural Network from the ground up</title>
+		<link>https://aimatters.wordpress.com/2021/01/18/solving-mnist-with-a-neural-network-from-the-ground-up/</link>
+					<comments>https://aimatters.wordpress.com/2021/01/18/solving-mnist-with-a-neural-network-from-the-ground-up/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Mon, 18 Jan 2021 19:37:34 +0000</pubDate>
+				<category><![CDATA[Algorithms]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Example]]></category>
+		<category><![CDATA[Examples]]></category>
+		<category><![CDATA[Machine Intelligence]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[MNIST]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1335</guid>
+
+					<description><![CDATA[Note: Here&#8217;s the Python source code for this project in a Jupyter notebook on GitHub I&#8217;ve written before about the benefits of reinventing the wheel and this is one of those occasions where it was definitely worth the effort. Sometimes, there is just no substitute for trying to implement an algorithm to really understand what&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><a rel="noreferrer noopener" href="Here's the final source code for this project on GitHub" target="_blank"><i>Note: Here&#8217;s the Python source code for this project in a Jupyter</i></a><em><a rel="noreferrer noopener" href="Here's the final source code for this project on GitHub" target="_blank"> </a></em><i><a rel="noreferrer noopener" href="Here's the final source code for this project on GitHub" target="_blank">noteboo</a></i><a rel="noreferrer noopener" href="Here's the final source code for this project on GitHub" target="_blank"><i>k on GitHub</i></a></p>
+
+
+
+<p>I&#8217;ve <a rel="noreferrer noopener" href="https://aimatters.wordpress.com/2016/08/23/in-praise-of-reinventing-the-wheel/" target="_blank">written before about the benefits of reinventing the wheel</a> and this is one of those occasions where it was definitely worth the effort. Sometimes, there is just no substitute for trying to implement an algorithm to really understand what&#8217;s going on under the hood. This is especially true when learning about artificial neural networks. Sure, there are plenty of frameworks available that you can use which implement any flavour of neural network, complete with a dazzling arrays of optimisations,  activations and loss functions. That may solve your problem, but it abstracts away a lot of the details about why it solves it. </p>
+
+
+
+<p>MNIST is a great dataset to start with. It&#8217;s a collection of images containing 60,000 handwritten digits. It also contains a further 10,000 images that can be used as the test set. It&#8217;s been well studied and most frameworks have sample implementations. Here&#8217;s an example image:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://aimatters.files.wordpress.com/2021/01/mnist-4.png"><img data-attachment-id="1341" data-permalink="https://aimatters.wordpress.com/mnist-4/" data-orig-file="https://aimatters.files.wordpress.com/2021/01/mnist-4.png" data-orig-size="251,309" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mnist-4" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2021/01/mnist-4.png?w=244" data-large-file="https://aimatters.files.wordpress.com/2021/01/mnist-4.png?w=251" src="https://aimatters.files.wordpress.com/2021/01/mnist-4.png?w=251" alt="" class="wp-image-1341" srcset="https://aimatters.files.wordpress.com/2021/01/mnist-4.png 251w, https://aimatters.files.wordpress.com/2021/01/mnist-4.png?w=122 122w" sizes="(max-width: 251px) 100vw, 251px" /></a></figure>
+
+
+
+<p>You can find the <a rel="noreferrer noopener" href="http://yann.lecun.com/exdb/mnist/" target="_blank">full dataset of images</a><a href="http://yann.lecun.com/exdb/mnist/" target="_blank" rel="noreferrer noopener"> </a><a rel="noreferrer noopener" href="http://yann.lecun.com/exdb/mnist/" target="_blank">on Yann Le Cun&#8217;s website</a>.</p>
+
+
+
+<p>While it&#8217;s useful to reinvent the wheel, we should at least learn from those that have already built wheels before. The first thing I borrowed was the network architecture from TensorFlow. Their example has:</p>
+
+
+
+<ul><li>28&#215;28 input</li><li>a hidden layer with 512 neurons with ReLU activation</li><li>an output layer with 10 neutrons (representing the 10 possible digits) with Softmax activation</li><li>Cross-Entropy loss function</li></ul>
+
+
+
+<p>The next thing to work on was the feedforward part of the network. This is relatively straightforward as these functions are well documented online and the network itself isn&#8217;t complicated.</p>
+
+
+
+<p>The tough part was working through the back-propagation algorithm. In a previous post, I detailed how to work out the derivatives of the Softmax function and the Cross Entropy loss. The most obvious way is to use the <a rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Chain_rule" target="_blank">Chain Rule in Differential Calculus</a> to work out the gradients and propagate them back through the network. The steps are pleasing to my eye and appeal to my sense of order in code. (Tip: Use a spreadsheet on a small example network to see the actual matrices in action.)</p>
+
+
+
+<p>But (and it&#8217;s a big but), the basic approach uses Jacobian matrices. Each cell in these kind of matrices is a partial derivative; each matrix represents a change in every variable with respect to every output. As a result, they can grow rather large very quickly. We run into several issues multiplying very large matrices together. In the notebook, I&#8217;ve left the functions representing this approach in for comparison and if you do run it, you&#8217;ll notice immediately the problems with speed and memory.</p>
+
+
+
+<p>Luckily there are shortcuts, which mean that we can directly calculate the gradients without resorting to Jacobian matrix multiplication. You can see these in the Short Form section of the notebook. In a sense though, these are abstractions too and it&#8217;s difficult to see the back-propagation from the shortcut methods.</p>
+
+
+
+<p>Lastly, I&#8217;ve implemented some code to gather the standard metrics for evaluating how good a machine learning model is. I&#8217;ve run it several times and it usually gets an overall accuracy score of between 92% and 95% on the MNIST test dataset.</p>
+
+
+
+<p>One of the main things I learned from this exercise is that the actual coding of a network is relatively simple. The really hard part that took a while was figuring out the calculus and especially the shortcuts. I really appreciate now why those frameworks are popular and make coding neural networks so much easier.</p>
+
+
+
+<p>If you fancy a challenge, I can recommend working on a neural network from first principles. You never know what you might learn!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2021/01/18/solving-mnist-with-a-neural-network-from-the-ground-up/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2021/01/mnist-4.png?w=251" medium="image" />
+	</item>
+		<item>
+		<title>The Softmax Function Derivative (Part 3)</title>
+		<link>https://aimatters.wordpress.com/2020/07/01/the-softmax-function-derivative-part-3/</link>
+					<comments>https://aimatters.wordpress.com/2020/07/01/the-softmax-function-derivative-part-3/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 21:00:34 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Examples]]></category>
+		<category><![CDATA[Machine Intelligence]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[machine learning algorithms]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1292</guid>
+
+					<description><![CDATA[Previously I&#8217;ve shown how to work out the derivative of the Softmax Function combined with the summation function, typical in artificial neural networks. In this final part, we&#8217;ll look at how the weights in a Softmax layer change in respect to a Loss Function. The Loss Function is a measure of how &#8220;bad&#8221; the estimate [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Previously I&#8217;ve shown how to work out the <a href="https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/">derivative of the Softmax Function</a> combined with <a href="https://aimatters.wordpress.com/2020/06/14/derivative-of-softmax-layer/">the summation function</a>, typical in artificial neural networks.</p>
+
+
+
+<p>In this final part, we&#8217;ll look at how the weights in a Softmax layer change in respect to a Loss Function.  The Loss Function is a measure of how &#8220;bad&#8221; the estimate from the network is.  We&#8217;ll then be modifying the weights in the network in order to improve the &#8220;Loss&#8221;, i.e. make it less bad.</p>
+
+
+
+<p>The Python code is based on the excellent article by Eli Bendersky which can be found <a rel="noreferrer noopener" href="https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/" target="_blank">here</a>.</p>
+
+
+
+<h2>Cross Entropy Loss Function</h2>
+
+
+
+<p>There are different kinds Cross Entropy functions depending on what kind of classification that you want your network to estimate.  In this example, we&#8217;re going to use the Categorical Cross Entropy.  This function is typically used when the network is required to estimate which class something belongs to, when there are many classes.  The output of the Softmax Function is a vector of probabilities, each element represents the network&#8217;s estimate that the input is in that class. For example:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+&#91;0.19091352 0.20353145 0.21698333 0.23132428 0.15724743]
+</pre></div>
+
+
+<p>The first element, 0.19091352, represents the network&#8217;s estimate that the input is in the first class, and so on.</p>
+
+
+
+<p>Usually, the input is in one class, and we can represent the correct class for an input as a one-hot vector.  In other words, the class vector is all zeros, except for a 1 in the index corresponding to the class. </p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+&#91;0 0 1 0 0]
+</pre></div>
+
+
+<p>In this example, the input is in class 3, represented by a 1 in the third element.</p>
+
+
+
+<p>The multi-class Cross Entropy Function is defined as follows:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=-%5Csum_%7Bc%3D1%7D%5EM%3Dy_%7Bo%2Cc%7D+%5Ctextup%7B+log%7D%28S_%7Bo%2Cc%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=-%5Csum_%7Bc%3D1%7D%5EM%3Dy_%7Bo%2Cc%7D+%5Ctextup%7B+log%7D%28S_%7Bo%2Cc%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=-%5Csum_%7Bc%3D1%7D%5EM%3Dy_%7Bo%2Cc%7D+%5Ctextup%7B+log%7D%28S_%7Bo%2Cc%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="-&#92;sum_{c=1}^M=y_{o,c} &#92;textup{ log}(S_{o,c})" class="latex" /></p>
+
+
+
+<p>where M is the number of classes, y is the one-hot vector representing the correct classification c for the observation o (i.e. the input). S is the Softmax output for the class c for the observation o.  Here is some code to calculate that (which continues from my previous posts on this topic):</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+def x_entropy(y, S):
+    return np.sum(-1 * y * np.log(S))
+
+y = np.zeros(5)
+y&#91;2] = 1   # picking the third class for example purposes
+xe = x_entropy(y, S)
+print(xe)
+
+1.5279347484961026
+</pre></div>
+
+
+<h2>Cross Entropy Derivative</h2>
+
+
+
+<p>Just like the other derivatives we&#8217;ve looked at before, the Cross-Entropy derivative is a vector of partial derivatives with respect to it&#8217;s input:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B++%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B1%7D%7D+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B2%7D%7D+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D++%5Cright%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B++%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B1%7D%7D+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B2%7D%7D+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D++%5Cright%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B++%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B1%7D%7D+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7B2%7D%7D+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D++%5Cright%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S} = &#92;left[  &#92;frac{&#92;delta XE}{&#92;delta S_{1}} &#92;frac{&#92;delta XE}{&#92;delta S_{2}} &#92;ldots &#92;frac{&#92;delta XE}{&#92;delta S_{t}}  &#92;right] " class="latex" /></p>
+
+
+
+<p>We can make this a little simpler by observing that since Y (i.e. the ground truth classification vector) is zeros, except for the target class, c, then the Cross Entropy derivative vector is also going to be zeros, except for the class c.</p>
+
+
+
+<p>To see why this is the case, let&#8217;s examine the Cross Entropy function itself. We calculate it by summing up a product.  Each product is the value from Y multiplied by the log of the corresponding value from S. Since all the elements in Y are actually 0 (except for the target class, c), then the corresponding derivative will also be 0. No matter how much we change the values in S, the result will still be 0.</p>
+
+
+
+<p>Therefore:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+XE%7D%7B%5Cdelta+S_%7Bt%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S} = &#92;left[ &#92;ldots &#92;frac{&#92;delta XE}{&#92;delta S_{t}} &#92;ldots &#92;right]" class="latex" /></p>
+
+
+
+<p>We can rewrite this a little, expanding out the XE function:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%28Y_%7Bc%7D%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%28Y_%7Bc%7D%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%28Y_%7Bc%7D%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S} = &#92;left[ &#92;ldots &#92;frac{&#92;delta -(Y_{c}&#92;textup{log}(S_{c}))}{&#92;delta S_{c}} &#92;ldots &#92;right]" class="latex" /></p>
+
+
+
+<p>We already know that <img src="https://s0.wp.com/latex.php?latex=Y_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=Y_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=Y_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="Y_{c}" class="latex" /> is 1, so we are left with:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+%5Cfrac%7B%5Cdelta+-%5Ctextup%7Blog%7D%28S_%7Bc%7D%29%7D%7B%5Cdelta+S_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S} = &#92;left[ &#92;ldots &#92;frac{&#92;delta -&#92;textup{log}(S_{c})}{&#92;delta S_{c}} &#92;ldots &#92;right]" class="latex" /></p>
+
+
+
+<p>So we are just looking for the derivative of the log of <img src="https://s0.wp.com/latex.php?latex=S_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=S_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=S_%7Bc%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="S_{c}" class="latex" />:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%3D+%5Cleft%5B+%5Cldots+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Cldots+%5Cright%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S} = &#92;left[ &#92;ldots -&#92;frac{1}{S_{c}} &#92;ldots &#92;right]" class="latex" /></p>
+
+
+
+<p>The rest of the elements in the vector will be 0. Here is the code that works that out:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+def xe_dir(y, S):
+    return (-1 / S) * y
+
+DXE = xe_dir(y, S)
+print(DXE)
+
+&#91;-0.      -0.      -4.60864 -0.      -0.     ]
+</pre></div>
+
+
+<h2>Bringing it all together</h2>
+
+
+
+<p>When we have a neural network layer, we want to change the weights in order to make the loss as small as possible. So we are trying to calculate:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta W}" class="latex" /></p>
+
+
+
+<p>for each of the input instances X. Since XE is a function that depends on the Softmax function, which itself depends on the summation function in the neurons, we can use the calculus chain rule as follows:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D+%3D+%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%5Ccdot+%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D+%5Ccdot+%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D+%3D+%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%5Ccdot+%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D+%5Ccdot+%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+W%7D+%3D+%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D+%5Ccdot+%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D+%5Ccdot+%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta W} = &#92;frac{&#92;Delta XE}{&#92;Delta S} &#92;cdot &#92;frac{&#92;Delta S}{&#92;Delta Z} &#92;cdot &#92;frac{&#92;Delta Z}{&#92;Delta W}" class="latex" /></p>
+
+
+
+<p>In this post, we&#8217;ve calculated <img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+XE%7D%7B%5CDelta+S%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta XE}{&#92;Delta S}" class="latex" /> and in the previous posts, we calculated <img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+Z%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta S}{&#92;Delta Z}" class="latex" /> and <img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+Z%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta Z}{&#92;Delta W}" class="latex" />. To calculate the overall changes to the weights, we simply carry out a dot product of all those matrices:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+print(np.dot(DXE, DL_shortcut).reshape(W.shape))
+
+&#91;&#91; 0.01909135  0.09545676  0.07636541  0.02035314  0.10176572]
+ &#91; 0.08141258 -0.07830167 -0.39150833 -0.31320667  0.02313243]
+ &#91; 0.11566214  0.09252971  0.01572474  0.07862371  0.06289897]]
+</pre></div>
+
+
+<h2>Shortcut</h2>
+
+
+
+<p>Now that we&#8217;ve seen how to calculate the individual parts of the derivative, we can now look to see if there is a shortcut that avoids all that matrix multiplication, especially since there are lots of zeros in the elements.</p>
+
+
+
+<p>Previously, we had established that the elements in the matrix <img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5CDelta+S%7D%7B%5CDelta+W%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;Delta S}{&#92;Delta W}" class="latex" /> can be calculated using:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S_{t}}}{&#92;delta{W_{ij}}} = S_{t}(1-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>where the input and output indices are the same, and</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bt%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S_{t}}}{&#92;delta{W_{ij}}} = S_{t}(0-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>where they are different. </p>
+
+
+
+<p>Using this result, we can see that an element in the derivative of the Cross Entropy function XE, with respect to the weights W is (swapping c for t):</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BS_%7Bc%7D%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BS_%7Bc%7D%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BS_%7Bc%7D%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{XE_{c}}}{&#92;delta{W_{ij}}} = &#92;frac{&#92;delta{XE_{c}}}{&#92;delta{S_{c}}} &#92;cdot S_{c}(1-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>We&#8217;ve shown above that the derivative of XE with respect to S is just <img src="https://s0.wp.com/latex.php?latex=-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="-&#92;frac{1}{S_{c}}" class="latex" />. So each element in the derivative where i = c becomes:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+-%5Cfrac%7B1%7D%7BS_%7Bc%7D%7D+%5Ccdot+S_%7Bc%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{XE_{c}}}{&#92;delta{W_{ij}}} = -&#92;frac{1}{S_{c}} &#92;cdot S_{c}(1-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>This simplifies to:</p>
+
+
+
+<p> <img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D-1%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D-1%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D-1%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{XE_{c}}}{&#92;delta{W_{ij}}} = (S_{i}-1)x_{j} " class="latex" /></p>
+
+
+
+<p>Similarly, where i &lt;&gt; c:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BXE_%7Bc%7D%7D%7D%7B%5Cdelta%7BW_%7Bij%7D%7D%7D+%3D+%28S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{XE_{c}}}{&#92;delta{W_{ij}}} = (S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>Here is the corresponding Python code for that:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+def xe_dir_shortcut(W, S, x, y):
+    dir_matrix = np.zeros((W.shape&#91;0] * W.shape&#91;1]))
+    
+    for i in range(0, W.shape&#91;1]):
+        for j in range(0, W.shape&#91;0]):
+            dir_matrix&#91;(i*W.shape&#91;0]) + j] = (S&#91;i] - y&#91;i]) * x&#91;j]
+                
+    return dir_matrix
+
+delta_w = xe_dir_shortcut(W, h, x, y)
+</pre></div>
+
+
+<p>Let&#8217;s verify that this gives us the same results as the longer matrix multiplication above:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+print(delta_w.reshape(W.shape))
+
+&#91;&#91; 0.01909135  0.09545676  0.07636541  0.02035314  0.10176572]
+ &#91; 0.08141258 -0.07830167 -0.39150833 -0.31320667  0.02313243]
+ &#91; 0.11566214  0.09252971  0.01572474  0.07862371  0.06289897]]
+</pre></div>
+
+
+<p>Now we have a simple function that will calculate the changes to the weights for a seemingly complicated single-layer of a neural network.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2020/07/01/the-softmax-function-derivative-part-3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://aimatters.files.wordpress.com/2015/08/computerscience-19-img-1.png" />
+		<media:content url="https://aimatters.files.wordpress.com/2015/08/computerscience-19-img-1.png" medium="image">
+			<media:title type="html">A single neuron</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Softmax Function Derivative (Part 2)</title>
+		<link>https://aimatters.wordpress.com/2020/06/14/derivative-of-softmax-layer/</link>
+					<comments>https://aimatters.wordpress.com/2020/06/14/derivative-of-softmax-layer/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Sun, 14 Jun 2020 16:58:41 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Example]]></category>
+		<category><![CDATA[Machine Intelligence]]></category>
+		<category><![CDATA[Programming]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1210</guid>
+
+					<description><![CDATA[In a previous post, I showed how to calculate the derivative of the Softmax function. This function is widely used in Artificial Neural Networks, typically in final layer in order to estimate the probability that the network&#8217;s input is in one of a number of classes. In this post, I&#8217;ll show how to calculate the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In a <a href="https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/">previous post</a>, I showed how to calculate the derivative of the Softmax function. This function is widely used in Artificial Neural Networks, typically in final layer in order to estimate the probability that the network&#8217;s input is in one of a number of classes.</p>
+
+
+
+<p>In this post, I&#8217;ll show how to calculate the derivative of the whole Softmax Layer rather than just the function itself.</p>
+
+
+
+<p>The Python code is based on the excellent article by Eli Bendersky which can be found <a rel="noreferrer noopener" href="https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/" target="_blank">here</a>.</p>
+
+
+
+<h2>The Softmax Layer </h2>
+
+
+
+<p><amp-fit-text layout="fixed-height" min-font-size="6" max-font-size="72" height="80">A Softmax Layer in an Artificial Neural Network is typically composed of two functions. The first is the usual sum of all the weighted inputs to the layer. The output of this is then fed into the Softmax function which will output the probability distribution across the classes we are trying to predict. Here&#8217;s an example with three inputs and five classes:</amp-fit-text></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="1216" data-permalink="https://aimatters.wordpress.com/softmaxlayerann/" data-orig-file="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png" data-orig-size="595,416" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="softmaxlayerann" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=595" src="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=595" alt="" class="wp-image-1216" srcset="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png 595w, https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=150 150w, https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=300 300w" sizes="(max-width: 595px) 100vw, 595px" /></figure></div>
+
+
+
+<p>For a given output <em>z<sub>i</sub></em>, the calculation is very straightforward:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=z_%7Bi%7D%3Dw_%7Bi1%7Dx_%7B1%7D%2Bw_%7Bi2%7Dx_%7B2%7D%2B...%2Bw_%7Bin%7Dx_%7Bn%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=z_%7Bi%7D%3Dw_%7Bi1%7Dx_%7B1%7D%2Bw_%7Bi2%7Dx_%7B2%7D%2B...%2Bw_%7Bin%7Dx_%7Bn%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=z_%7Bi%7D%3Dw_%7Bi1%7Dx_%7B1%7D%2Bw_%7Bi2%7Dx_%7B2%7D%2B...%2Bw_%7Bin%7Dx_%7Bn%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="z_{i}=w_{i1}x_{1}+w_{i2}x_{2}+...+w_{in}x_{n}" class="latex" /></p>
+
+
+
+<p>We simply multiply each input to the node by it&#8217;s corresponding weight. Expressing this in vector notation gives us the familiar:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Ctextbf%7Bz%7D%3D%5Ctextbf%7Bw%7D%5E%7B%5Ctextbf%7BT%7D%7D%5Ctextbf%7Bx%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ctextbf%7Bz%7D%3D%5Ctextbf%7Bw%7D%5E%7B%5Ctextbf%7BT%7D%7D%5Ctextbf%7Bx%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ctextbf%7Bz%7D%3D%5Ctextbf%7Bw%7D%5E%7B%5Ctextbf%7BT%7D%7D%5Ctextbf%7Bx%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;textbf{z}=&#92;textbf{w}^{&#92;textbf{T}}&#92;textbf{x}" class="latex" /></p>
+
+
+
+<p>The vector <strong>w</strong> is two dimensional so it&#8217;s actually a matrix and we can visualise the formula for our example as follows:</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="1231" data-permalink="https://aimatters.wordpress.com/matrix-sum/" data-orig-file="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png" data-orig-size="355,150" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="matrix-sum" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=355" src="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=355" alt="" class="wp-image-1231" srcset="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png 355w, https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=150 150w, https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=300 300w" sizes="(max-width: 355px) 100vw, 355px" /></figure></div>
+
+
+
+<p>I&#8217;ve already covered the Softmax Function itself in the previous post, so I&#8217;ll just repeat it here for completeness:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;sigma(z_{i})=&#92;frac{e^{z_{i}}} {&#92;sum_{j=1}^K e^{z_{j}}}" class="latex" /></p>
+
+
+
+<p>Here&#8217;s the python code for that:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+import numpy as np
+
+# input vector
+x = np.array(&#91;0.1,0.5,0.4])
+
+# using some hard coded values for the weights
+# rather than random numbers to illustrate how 
+# it works
+W = np.array(&#91;&#91;0.1, 0.2, 0.3, 0.4, 0.5],
+             &#91;0.6, 0.7, 0.8, 0.9, 0.1],
+             &#91;0.11, 0.12, 0.13, 0.14, 0.15]])
+
+# Softmax function
+def softmax(Z):
+    eZ = np.exp(Z)
+    sm = eZ / np.sum(eZ)
+    return sm
+
+Z = np.dot(np.transpose(W), x)
+h = softmax(Z)
+print(h)
+</pre></div>
+
+
+<p>Which should give us the output <em>h</em> (the hypothesis):</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; gutter: false; title: ; notranslate">
+&#91;0.19091352 0.20353145 0.21698333 0.23132428 0.15724743]
+</pre></div>
+
+
+<h2>Calculating the Derivative</h2>
+
+
+
+<p>The Softmax layer is a combination of two functions, the summation followed by the Softmax function itself. Mathematically, this is usually written as:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=h+%3D+S%28Z%28x%29%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=h+%3D+S%28Z%28x%29%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=h+%3D+S%28Z%28x%29%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="h = S(Z(x))" class="latex" /></p>
+
+
+
+<p>The next thing to note is that we will be trying to calculate the change in the hypothesis <em>h</em> with respect to changes in the weights, not the inputs. The overall derivative of the layer that we are looking for is:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=h%27+%3D++%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=h%27+%3D++%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=h%27+%3D++%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="h&#039; =  &#92;frac{d&#92;textbf{S}}{d&#92;textbf{w}}" class="latex" /></p>
+
+
+
+<p>We can use the differential chain rule to calculate the derivative of the layer as follows:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot++%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot++%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot++%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7Bw%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{d&#92;textbf{S}}{d&#92;textbf{w}} = &#92;frac{d&#92;textbf{S}}{d&#92;textbf{Z}} &#92;cdot  &#92;frac{d&#92;textbf{Z}}{d&#92;textbf{w}}" class="latex" /></p>
+
+
+
+<p><a href="https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/">In the previous post</a>, I showed how to work out dS/dZ and just for completeness, here is a short Python function to carry out the calculation:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+def sm_dir(S):
+    S_vector = S.reshape(S.shape&#91;0],1)
+    S_matrix = np.tile(S_vector,S.shape&#91;0])
+    S_dir = np.diag(S) - (S_matrix * np.transpose(S_matrix))
+    return S_dir
+
+DS = sm_dir(h)
+print(DS)
+</pre></div>
+
+
+<p>The output of that function is a matrix as follows:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; gutter: false; title: ; notranslate">
+&#91;&#91; 0.154465 -0.038856 -0.041425 -0.044162 -0.030020]
+ &#91;-0.038856  0.162106 -0.044162 -0.047081 -0.032004]
+ &#91;-0.041425 -0.044162 0.1699015 -0.050193 -0.034120]
+ &#91;-0.044162 -0.047081 -0.050193  0.177813 -0.036375]
+ &#91;-0.030020 -0.032004 -0.034120 -0.036375  0.132520]]
+</pre></div>
+
+
+<h3>Derivative of Z</h3>
+
+
+
+<p>Let&#8217;s next look at the derivative of the function Z() with respect to W, dZ/dW. We are trying to find the change in each of the elements of Z(), <em>z<sub>k</sub></em> when each of the weights <em>w<sub>ij</sub></em> are changed.</p>
+
+
+
+<p>So right away, we are going to need a matrix to hold all of those values. Let&#8217;s assume that the output vector of Z() has K elements. There are (<em>i</em> <img src="https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;cdot" class="latex" /> <em>j</em>) individual weights in W. Therefore, our matrix of derivatives is going to be of dimensions (K, (<em>i</em> <img src="https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ccdot&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;cdot" class="latex" /> <em>j</em>)). Each of the elements of the matrix will be a partial derivative of the output <em>z<sub>k</sub></em> with respect to the particular weight <em>w<sub>ij</sub></em>:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5C%5C++%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7Bk%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5C%5C++%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7Bk%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7B1%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5C%5C++%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7Bk%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D%7B%5Cdelta%7Bw_%7B11%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7Bz_%7BK%7D%7D%7D+%7B%5Cdelta%7Bw_%7B53%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S}}{&#92;delta{x}} = &#92;left [ &#92;begin{array}{ccc} &#92;frac{&#92;delta{z_{1}}}{&#92;delta{w_{11}}} &amp; &#92;ldots &amp; &#92;frac{&#92;delta{z_{1}}} {&#92;delta{w_{53}}} &#92;&#92;  &#92;ldots &amp; &#92;frac{&#92;delta{z_{k}}}{&#92;delta{w_{ij}}} &amp; &#92;ldots &#92;&#92; &#92;frac{&#92;delta{z_{K}}}{&#92;delta{w_{11}}} &amp; &#92;ldots &amp; &#92;frac{&#92;delta{z_{K}}} {&#92;delta{w_{53}}} &#92;end{array} &#92;right ]" class="latex" /></p>
+
+
+
+<p>Taking one of those elements, using our example above, we can see how to work out the derivative:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=z_%7B1%7D+%3D+w_%7B11%7Dx_%7B1%7D+%2B+w_%7B12%7Dx_%7B2%7D+%2B+w_%7B13%7Dx_%7B3%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=z_%7B1%7D+%3D+w_%7B11%7Dx_%7B1%7D+%2B+w_%7B12%7Dx_%7B2%7D+%2B+w_%7B13%7Dx_%7B3%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=z_%7B1%7D+%3D+w_%7B11%7Dx_%7B1%7D+%2B+w_%7B12%7Dx_%7B2%7D+%2B+w_%7B13%7Dx_%7B3%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="z_{1} = w_{11}x_{1} + w_{12}x_{2} + w_{13}x_{3}" class="latex" /></p>
+
+
+
+<p>None of the other weights are used in<em> z<sub>1</sub></em>. The partial derivative of <em>z<sub>1</sub></em> with respect to <em>w<sub>11</sub></em> is <em>x<sub>1</sub></em>. Likewise, the partial derivative of <em>z<sub>1</sub></em> with respect to <em>w<sub>12</sub></em> is <em>x<sub>2</sub></em>, and with respect to <em>w<sub>13</sub></em> is <em>x<sub>3</sub></em>. The derivative of <em>z<sub>1</sub></em> with respect to the rest of the weights is 0.</p>
+
+
+
+<p>This makes the whole matrix rather simple to derive, since it is mostly zeros. Where the elements are not zero (i.e. where i = k), then the value is <em>x<sub>j</sub></em>. Here is the corresponding Python code to calculate that matrix.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+# derivative of the Summation Function Z w.r.t weight matrix W given inputs x
+
+def z_dir(Z, W, x):
+    dir_matrix = np.zeros((W.shape&#91;0] * W.shape&#91;1], Z.shape&#91;0]))
+    
+    for k in range(0, Z.shape&#91;0]):
+        for i in range(0, W.shape&#91;1]):
+            for j in range(0, W.shape&#91;0]):
+                if i == k:
+                    dir_matrix&#91;(i*W.shape&#91;0]) + j]&#91;k] = x&#91;j]
+    
+    return dir_matrix
+</pre></div>
+
+
+<p>If we use the example above, then the derivative matrix will look like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+DZ = z_dir(Z, W, x)
+print(DZ)
+
+&#91;&#91;0.1 0.  0.  0.  0. ]
+ &#91;0.5 0.  0.  0.  0. ]
+ &#91;0.4 0.  0.  0.  0. ]
+ &#91;0.  0.1 0.  0.  0. ]
+ &#91;0.  0.5 0.  0.  0. ]
+ &#91;0.  0.4 0.  0.  0. ]
+ &#91;0.  0.  0.1 0.  0. ]
+ &#91;0.  0.  0.5 0.  0. ]
+ &#91;0.  0.  0.4 0.  0. ]
+ &#91;0.  0.  0.  0.1 0. ]
+ &#91;0.  0.  0.  0.5 0. ]
+ &#91;0.  0.  0.  0.4 0. ]
+ &#91;0.  0.  0.  0.  0.1]
+ &#91;0.  0.  0.  0.  0.5]
+ &#91;0.  0.  0.  0.  0.4]]
+</pre></div>
+
+
+<p>Going back to the formula for the derivative of the Softmax Layer:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BW%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot+%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7BW%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BW%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot+%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7BW%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BW%7D%7D+%3D+%5Cfrac%7Bd%5Ctextbf%7BS%7D%7D%7Bd%5Ctextbf%7BZ%7D%7D+%5Ccdot+%5Cfrac%7Bd%5Ctextbf%7BZ%7D%7D%7Bd%5Ctextbf%7BW%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{d&#92;textbf{S}}{d&#92;textbf{W}} = &#92;frac{d&#92;textbf{S}}{d&#92;textbf{Z}} &#92;cdot &#92;frac{d&#92;textbf{Z}}{d&#92;textbf{W}}" class="latex" /></p>
+
+
+
+<p>We now just take the dot product of both of the derivative matrices to get the derivative for the whole layer:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+DL = np.dot(DS, np.transpose(DZ))
+print(DL)
+
+&#91;&#91; 0.01544  0.07723  0.06178 -0.00388 -0.01942 -0.01554
+  -0.00414 -0.02071 -0.01657 -0.00441 -0.02208 -0.01766
+  -0.00300 -0.01501 -0.01200]
+ &#91;-0.00388 -0.01942 -0.01554  0.01621  0.0810   0.06484
+  -0.00441 -0.02208 -0.01766 -0.00470 -0.02354 -0.01883
+  -0.00320 -0.01600 -0.01280]
+ &#91;-0.00414 -0.02071 -0.01657 -0.00441 -0.02208 -0.01766
+   0.01699  0.08495  0.06796 -0.00501 -0.02509 -0.02007
+  -0.00341 -0.01706 -0.01364]
+ &#91;-0.00441 -0.02208 -0.01766 -0.00470 -0.02354 -0.01883
+  -0.00501 -0.02509 -0.02007  0.01778  0.08890  0.07112
+  -0.00363 -0.01818 -0.01455]
+ &#91;-0.00300 -0.01501 -0.01200 -0.00320 -0.01600 -0.01280
+  -0.00341 -0.01706 -0.01364 -0.00363 -0.01818 -0.01455
+   0.01325  0.06626  0.05300]]
+</pre></div>
+
+
+<h2>Shortcut!</h2>
+
+
+
+<p>While it is instructive to see the matrices being derived explicitly, it is possible to manipulate the formulas to make it easier. Starting with one of the entries in the matrix DL, it looks like this:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+%5Csum_%7Bk%3D1%7D%5EK+D_%7Bk%7DS_%7Bt%7D+%5Ccdot+D_%7Bij%7DZ_%7Bk%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+%5Csum_%7Bk%3D1%7D%5EK+D_%7Bk%7DS_%7Bt%7D+%5Ccdot+D_%7Bij%7DZ_%7Bk%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+%5Csum_%7Bk%3D1%7D%5EK+D_%7Bk%7DS_%7Bt%7D+%5Ccdot+D_%7Bij%7DZ_%7Bk%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{s_{t}}}{&#92;delta{w_{ij}}} = &#92;sum_{k=1}^K D_{k}S_{t} &#92;cdot D_{ij}Z_{k}" class="latex" /></p>
+
+
+
+<p>Since the matrix dZ/dW is mostly zeros, then we can try to simplify it. dZ/dW is non-zero when <em>i</em> = <em>k</em>, and then it is equal to <em>x<sub>j</sub></em> as we worked out above. So we can simplify the non-zero entries to:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+D_%7Bi%7DS_%7Bt%7Dx_%7Bj%7D++&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+D_%7Bi%7DS_%7Bt%7Dx_%7Bj%7D++&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+D_%7Bi%7DS_%7Bt%7Dx_%7Bj%7D++&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{s_{t}}}{&#92;delta{w_{ij}}} = D_{i}S_{t}x_{j}  " class="latex" /></p>
+
+
+
+<p>In the previous post, we established that when the indices are the same, then:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=D_%7Bi%7DS_%7Bj%7D+%3D+S_%7Bj%7D%281-S_%7Bi%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=D_%7Bi%7DS_%7Bj%7D+%3D+S_%7Bj%7D%281-S_%7Bi%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=D_%7Bi%7DS_%7Bj%7D+%3D+S_%7Bj%7D%281-S_%7Bi%7D%29&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="D_{i}S_{j} = S_{j}(1-S_{i})" class="latex" /></p>
+
+
+
+<p>So:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%281-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{s_{t}}}{&#92;delta{w_{ij}}} = S_{t}(1-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>When the indices are not the same, we use:</p>
+
+
+
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bs_%7Bt%7D%7D%7D%7B%5Cdelta%7Bw_%7Bij%7D%7D%7D+%3D+S_%7Bt%7D%280-S_%7Bi%7D%29x_%7Bj%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{s_{t}}}{&#92;delta{w_{ij}}} = S_{t}(0-S_{i})x_{j} " class="latex" /></p>
+
+
+
+<p>What these two formulas show is that it is possible to calculate each of the entries in the derivative matrix by using only the input values X and the Softmax output S, skipping the matrix dot product altogether.</p>
+
+
+
+<p>Here is the Python code corresponding to that:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+def l_dir_shortcut(W, S, x):
+    dir_matrix = np.zeros((W.shape&#91;0] * W.shape&#91;1], W.shape&#91;1]))
+    
+    for t in range(0, W.shape&#91;1]):
+        for i in range(0, W.shape&#91;1]):
+            for j in range(0, W.shape&#91;0]):
+                dir_matrix&#91;(i*W.shape&#91;0]) + j]&#91;t] = S&#91;t] * ((i==t) - S&#91;i]) * x&#91;j]
+                
+    return dir_matrix
+
+DL_shortcut = np.transpose(l_dir_shortcut(W, h, x))
+</pre></div>
+
+
+<p>To verify that, we can cross check it with the matrix we derived from first principle:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; title: ; notranslate">
+print(DL_shortcut)
+
+&#91;&#91; 0.01544  0.07723  0.06178 -0.00388 -0.01942 -0.01554
+  -0.00414 -0.02071 -0.01657 -0.00441 -0.02208 -0.01766
+  -0.00300 -0.01501 -0.01200]
+ &#91;-0.00388 -0.01942 -0.01554  0.01621  0.08105  0.06484
+  -0.00441 -0.02208 -0.01766 -0.00470 -0.02354 -0.01883
+  -0.00320 -0.01600 -0.01280]
+ &#91;-0.00414 -0.02071 -0.01657 -0.00441 -0.02208 -0.01766
+   0.01699  0.08495  0.06796 -0.00501 -0.02509 -0.02007
+  -0.00341 -0.01706 -0.01364]
+ &#91;-0.00441 -0.02208 -0.01766 -0.00470 -0.02354 -0.01883
+  -0.00501 -0.02509 -0.02007  0.01778  0.08890  0.07112
+  -0.00363 -0.01818 -0.01455]
+ &#91;-0.00300 -0.01501 -0.01200 -0.00320 -0.01600 -0.01280
+  -0.00341 -0.01706 -0.01364 -0.00363 -0.01818 -0.01455
+   0.01325  0.06626  0.05300]]
+</pre></div>
+
+
+<p>Lastly, it&#8217;s worth noting that in order to actually modify each of the weights, we need to sum up the individual adjustments in each of the corresponding columns.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2020/06/14/derivative-of-softmax-layer/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://aimatters.files.wordpress.com/2015/08/computerscience-19-img-1.png" />
+		<media:content url="https://aimatters.files.wordpress.com/2015/08/computerscience-19-img-1.png" medium="image">
+			<media:title type="html">A single neuron</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2020/06/softmaxlayerann.png?w=595" medium="image" />
+
+		<media:content url="https://aimatters.files.wordpress.com/2020/06/matrix-sum.png?w=355" medium="image" />
+	</item>
+		<item>
+		<title>The Softmax Function Derivative (Part 1)</title>
+		<link>https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/</link>
+					<comments>https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2019 18:41:00 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Examples]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1200</guid>
+
+					<description><![CDATA[Introduction This post demonstrates the calculations behind the evaluation of the Softmax Derivative using Python. It is based on the excellent article by Eli Bendersky which can be found here. The Softmax Function The softmax function simply takes a vector of N dimensions and returns a probability distribution also of N dimensions. Each element of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h3>Introduction</h3>
+<p>This post demonstrates the calculations behind the evaluation of the Softmax Derivative using Python. It is based on the excellent article by Eli Bendersky which can be found <a href="https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/" target="_blank" rel="noopener">here</a>.</p>
+<h3 id="The-Softmax-Function">The Softmax Function</h3>
+<p>The softmax function simply takes a vector of N dimensions and returns a probability distribution also of N dimensions. Each element of the output is in the range (0,1) and the sum of the elements of N is 1.0.</p>
+<p>Each element of the output is given by the formula:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Csigma%28z_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bz_%7Bi%7D%7D%7D+%7B%5Csum_%7Bj%3D1%7D%5EK+e%5E%7Bz_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;sigma(z_{i})=&#92;frac{e^{z_{i}}} {&#92;sum_{j=1}^K e^{z_{j}}}" class="latex" /></p>
+<p>See <a href="https://en.wikipedia.org/wiki/Softmax_function" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Softmax_function</a> for more details.</p>
+<pre>import numpy as np
+x = np.random.random([5])
+
+def softmax_basic(z):
+&nbsp; &nbsp; exps = np.exp(z)
+&nbsp; &nbsp; sums = np.sum(exps)
+&nbsp; &nbsp; return np.divide(exps, sums)
+
+softmax_basic(x)</pre>
+<p>This should generate an output that looks something like this:</p>
+<pre>array([0.97337094, 0.85251098, 0.62495691, 0.63957056, 0.6969253 ])</pre>
+<p>We expect that the sum of those will be (close to) 1.0:</p>
+<pre>np.sum(softmax_basic(x))</pre>
+<p>And so it is:</p>
+<pre>1.0</pre>
+<h3>Calculating the derivative</h3>
+<p>We need to calculate the partial derivative of the probability outputs <img src="https://s0.wp.com/latex.php?latex=S_%7Bi%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=S_%7Bi%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=S_%7Bi%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="S_{i}" class="latex" /> with respect to each of the inputs <img src="https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="x_{j}" class="latex" />. For example:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S_{i}}}{&#92;delta{x_{j}}}=&#92;frac{&#92;delta{&#92;frac{e^{x_{i}}} {&#92;sum_{k=1}^N e^{x_{k}}}}}{&#92;delta{x_{j}}}" class="latex" /></p>
+<p>Following Bendersky&#8217;s derivation, we need to use the quotient rule for derivatives:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Ctext%7BIf+%7Df%28x%29%3D%5Cfrac%7Bg%28x%29%7D%7Bh%28x%29%7D+%5Ctext%7B+then%3A%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ctext%7BIf+%7Df%28x%29%3D%5Cfrac%7Bg%28x%29%7D%7Bh%28x%29%7D+%5Ctext%7B+then%3A%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ctext%7BIf+%7Df%28x%29%3D%5Cfrac%7Bg%28x%29%7D%7Bh%28x%29%7D+%5Ctext%7B+then%3A%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;text{If }f(x)=&#92;frac{g(x)}{h(x)} &#92;text{ then:} " class="latex" /></p>
+<p><img src="https://s0.wp.com/latex.php?latex=f%27%28x%29%3D%5Cfrac%7Bg%27%28x%29h%28x%29-h%27%28x%29g%28x%29%7D%7B%5Bh%28x%29%5D%5E%7B2%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=f%27%28x%29%3D%5Cfrac%7Bg%27%28x%29h%28x%29-h%27%28x%29g%28x%29%7D%7B%5Bh%28x%29%5D%5E%7B2%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=f%27%28x%29%3D%5Cfrac%7Bg%27%28x%29h%28x%29-h%27%28x%29g%28x%29%7D%7B%5Bh%28x%29%5D%5E%7B2%7D%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="f&#039;(x)=&#92;frac{g&#039;(x)h(x)-h&#039;(x)g(x)}{[h(x)]^{2}}" class="latex" /></p>
+<p>From the Softmax function:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+g_%7Bi%7D+%26+%3D+%26+e%5E%7Bx_%7Bi%7D%7D%5C%5C+h_%7Bi%7D+%26+%3D+%26+%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+g_%7Bi%7D+%26+%3D+%26+e%5E%7Bx_%7Bi%7D%7D%5C%5C+h_%7Bi%7D+%26+%3D+%26+%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+g_%7Bi%7D+%26+%3D+%26+e%5E%7Bx_%7Bi%7D%7D%5C%5C+h_%7Bi%7D+%26+%3D+%26+%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;begin{array}{rcl} g_{i} &amp; = &amp; e^{x_{i}}&#92;&#92; h_{i} &amp; = &amp; &#92;sum_{k=1}^N e^{x_{k}} &#92;end{array}" class="latex" /></p>
+<p>The derivatives of these functions with respect to <img src="https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=x_%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="x_{j}" class="latex" /> are:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bg_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%3D+%5Cleft+%5C%7B+%5Cbegin%7Baligned%7D+%26e%5E%7Bx_%7Bj%7D%7D%2C+%26%26+%5Ctext%7Bif%7D%5C+i%3Dj+%5C%5C+%260%2C+%26%26+%5Ctext%7Botherwise%7D+%5Cend%7Baligned%7D+%5Cright.+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bg_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%3D+%5Cleft+%5C%7B+%5Cbegin%7Baligned%7D+%26e%5E%7Bx_%7Bj%7D%7D%2C+%26%26+%5Ctext%7Bif%7D%5C+i%3Dj+%5C%5C+%260%2C+%26%26+%5Ctext%7Botherwise%7D+%5Cend%7Baligned%7D+%5Cright.+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bg_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%3D+%5Cleft+%5C%7B+%5Cbegin%7Baligned%7D+%26e%5E%7Bx_%7Bj%7D%7D%2C+%26%26+%5Ctext%7Bif%7D%5C+i%3Dj+%5C%5C+%260%2C+%26%26+%5Ctext%7Botherwise%7D+%5Cend%7Baligned%7D+%5Cright.+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{g_{i}}}{&#92;delta{x_{j}}} = &#92;left &#92;{ &#92;begin{aligned} &amp;e^{x_{j}}, &amp;&amp; &#92;text{if}&#92; i=j &#92;&#92; &amp;0, &amp;&amp; &#92;text{otherwise} &#92;end{aligned} &#92;right. " class="latex" /></p>
+<p>and</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bh_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%28e%5E%7Bx_%7B1%7D%7D%2Be%5E%7Bx_%7B2%7D%7D%2B...%2Be%5E%7Bx_%7BN%7D%7D%29%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3De%5E%7Bx_%7Bj%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bh_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%28e%5E%7Bx_%7B1%7D%7D%2Be%5E%7Bx_%7B2%7D%7D%2B...%2Be%5E%7Bx_%7BN%7D%7D%29%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3De%5E%7Bx_%7Bj%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7Bh_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7B%5Cdelta%28e%5E%7Bx_%7B1%7D%7D%2Be%5E%7Bx_%7B2%7D%7D%2B...%2Be%5E%7Bx_%7BN%7D%7D%29%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3De%5E%7Bx_%7Bj%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{h_{i}}}{&#92;delta{x_{j}}}=&#92;frac{&#92;delta(e^{x_{1}}+e^{x_{2}}+...+e^{x_{N}})}{&#92;delta{x_{j}}}=e^{x_{j}} " class="latex" /></p>
+<p>Now we have to evalutate the quotient rule for the two seperate cases where <img src="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i=j" class="latex" /> and where <img src="https://s0.wp.com/latex.php?latex=i%5Cneq%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%5Cneq%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%5Cneq%7Bj%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i&#92;neq{j}" class="latex" />:</p>
+<p>Starting with <img src="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i=j" class="latex" />:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{&#92;frac{e^{x_{i}}} {&#92;sum_{k=1}^N e^{x_{k}}}}}{&#92;delta{x_{j}}}=&#92;frac{e^{x_{j}}&#92;sum_{k=1}^N e^{x_{k}}-e^{x_{j}}e^{x_{i}}}{&#92;left[&#92;sum_{k=1}^N e^{x_{k}}&#92;right]^{2}} " class="latex" /></p>
+<p>Now we&#8217;ll just simplify this a bit:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%3D+%26+%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Cleft%28%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%5Cright%29%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cdot%7B%7D%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%28%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%281-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29+%5Cend%7Barray%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%3D+%26+%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Cleft%28%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%5Cright%29%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cdot%7B%7D%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%28%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%281-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29+%5Cend%7Barray%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%3D+%26+%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%5Cleft%28%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%5Cright%29%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cdot%7B%7D%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D-e%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%28%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D+%5Cleft%281-%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cright%29%5C%5C+%26%3D%26%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29+%5Cend%7Barray%7D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;begin{array}{rcl} &#92;frac{&#92;delta{&#92;frac{e^{x_{i}}} {&#92;sum_{k=1}^N e^{x_{k}}}}}{&#92;delta{x_{j}}} &amp; = &amp; &#92;frac{e^{x_{j}}&#92;left(&#92;sum_{k=1}^N e^{x_{k}}-e^{x_{i}}&#92;right)}{&#92;left[&#92;sum_{k=1}^N e^{x_{k}}&#92;right]^{2}}&#92;&#92; &amp;=&amp;&#92;frac{e^{x_{j}}}{&#92;sum_{k=1}^N e^{x_{k}}} &#92;dot{}&#92;frac{&#92;sum_{k=1}^N e^{x_{k}}-e^{x_{i}}}{&#92;sum_{k=1}^N e^{x_{k}}}&#92;&#92; &amp;=&amp;&#92;frac{e^{x_{j}}}{&#92;sum_{k=1}^N e^{x_{k}}} &#92;left(&#92;frac{&#92;sum_{k=1}^N e^{x_{k}}}{&#92;sum_{k=1}^N e^{x_{k}}}-&#92;frac{e^{x_{i}}}{&#92;sum_{k=1}^N e^{x_{k}}}&#92;right)&#92;&#92; &amp;=&amp;&#92;frac{e^{x_{j}}}{&#92;sum_{k=1}^N e^{x_{k}}} &#92;left(1-&#92;frac{e^{x_{i}}}{&#92;sum_{k=1}^N e^{x_{k}}}&#92;right)&#92;&#92; &amp;=&amp;&#92;sigma(x_{j})(1-&#92;sigma(x_{i})) &#92;end{array} " class="latex" /></p>
+<p>For the case where <img src="https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i&#92;neq j" class="latex" />:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%26%3D%26%5Cfrac%7B0-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%260-%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cdot%7B%7D%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%260-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%26%3D%26%5Cfrac%7B0-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%260-%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cdot%7B%7D%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%260-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cbegin%7Barray%7D%7Brcl%7D+%5Cfrac%7B%5Cdelta%7B%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D+%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%26%3D%26%5Cfrac%7B0-e%5E%7Bx_%7Bj%7D%7De%5E%7Bx_%7Bi%7D%7D%7D%7B%5Cleft%5B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%5Cright%5D%5E%7B2%7D%7D%5C%5C+%26%3D%260-%5Cfrac%7Be%5E%7Bx_%7Bj%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5Cdot%7B%7D%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bk%3D1%7D%5EN+e%5E%7Bx_%7Bk%7D%7D%7D%5C%5C+%26%3D%260-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%5Cend%7Barray%7D&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;begin{array}{rcl} &#92;frac{&#92;delta{&#92;frac{e^{x_{i}}} {&#92;sum_{k=1}^N e^{x_{k}}}}}{&#92;delta{x_{j}}}&amp;=&amp;&#92;frac{0-e^{x_{j}}e^{x_{i}}}{&#92;left[&#92;sum_{k=1}^N e^{x_{k}}&#92;right]^{2}}&#92;&#92; &amp;=&amp;0-&#92;frac{e^{x_{j}}}{&#92;sum_{k=1}^N e^{x_{k}}}&#92;dot{}&#92;frac{e^{x_{i}}}{&#92;sum_{k=1}^N e^{x_{k}}}&#92;&#92; &amp;=&amp;0-&#92;sigma(x_{j})&#92;sigma(x_{i}) &#92;end{array}" class="latex" /></p>
+<p>Here are some examples of those function:</p>
+<pre>S = softmax_basic(x)
+
+# where i = j
+div = S[0] * (1 - S[0])
+print("S[0] :", S[0], "div :", div)
+
+div = S[1] * (1 - S[1])
+print("S[1] :", S[1], "div :", div)
+
+div = S[2] * (1 - S[2])
+print("S[2] :", S[2], "div :", div)
+
+# where i != j
+div = 0 - (S[0] * S[1])
+print("S[0] :", S[0], "S[1] :", S[1], "div :", div)
+
+div = 0 - (S[1] * S[2])
+print("S[1] :", S[1], "S[2] :", S[2], "div :", div)
+
+div = 0 - (S[2] * S[3])
+print("S[2] :", S[2], "S[3] :", S[3], "div :", div)</pre>
+<p>Here&#8217;s the output (yours may have different numbers):</p>
+<pre>S[0] : 0.16205870737014744 div : 0.13579568273566436
+S[1] : 0.1530827392322831 div : 0.12964841418142392
+S[2] : 0.22661095862407418 div : 0.1752584320555523
+S[0] : 0.16205870737014744 S[1] : 0.1530827392322831 div : -0.024808390840665155
+S[1] : 0.1530827392322831 S[2] : 0.22661095862407418 div : -0.034690226286226845
+S[2] : 0.22661095862407418 S[3] : 0.226342511074585 div : -0.051291693411991836</pre>
+<p>Let&#8217;s tidy up the formula a little so we can come up with a decent implementation in the code.</p>
+<p>Looking at the case where <img src="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%3Dj&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i=j" class="latex" />:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29%5C%5C+%3D%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29%5C%5C+%3D%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D%5Csigma%28x_%7Bj%7D%29%281-%5Csigma%28x_%7Bi%7D%29%29%5C%5C+%3D%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S_{i}}}{&#92;delta{x_{j}}}=&#92;sigma(x_{j})(1-&#92;sigma(x_{i}))&#92;&#92; =&#92;sigma(x_{j}) - &#92;sigma(x_{j})&#92;sigma(x_{i}) " class="latex" /></p>
+<p>And where <img src="https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=i%5Cneq+j&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="i&#92;neq j" class="latex" /></p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D0-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D0-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D%3D0-%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S_{i}}}{&#92;delta{x_{j}}}=0-&#92;sigma(x_{j})&#92;sigma(x_{i}) " class="latex" /></p>
+<p>We can generalise that formula by calculating the <a href="//en.wikipedia.org/wiki/Jacobian_matrix_and_determinant" target="_blank" rel="noopener">Jacobian</a> matrix. This matrix will look like this:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5C%5C+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5C%5C+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7B1%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5C%5C+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7Bi%7D%7D%7D%7B%5Cdelta%7Bx_%7Bj%7D%7D%7D+%26+%5Cldots+%5C%5C+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7B1%7D%7D%7D+%26+%5Cldots+%26+%5Cfrac%7B%5Cdelta%7BS_%7BN%7D%7D%7D%7B%5Cdelta%7Bx_%7BN%7D%7D%7D+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S}}{&#92;delta{x}} = &#92;left [ &#92;begin{array}{ccc} &#92;frac{&#92;delta{S_{1}}}{&#92;delta{x_{1}}} &amp; &#92;ldots &amp; &#92;frac{&#92;delta{S_{1}}}{&#92;delta{x_{N}}} &#92;&#92; &#92;ldots &amp; &#92;frac{&#92;delta{S_{i}}}{&#92;delta{x_{j}}} &amp; &#92;ldots &#92;&#92; &#92;frac{&#92;delta{S_{N}}}{&#92;delta{x_{1}}} &amp; &#92;ldots &amp; &#92;frac{&#92;delta{S_{N}}}{&#92;delta{x_{N}}} &#92;end{array} &#92;right ] " class="latex" /></p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+-+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0-%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+0-%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29+-+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+-+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0-%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+0-%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29+-+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+-+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0-%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+-+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+0-%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29+-+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S}}{&#92;delta{x}} = &#92;left [ &#92;begin{array}{ccc} &#92;sigma(x_{1}) - &#92;sigma(x_{1})&#92;sigma(x_{1}) &amp; &#92;ldots &amp; 0-&#92;sigma(x_{1})&#92;sigma(x_{N}) &#92;&#92; &#92;ldots &amp; &#92;sigma(x_{j}) - &#92;sigma(x_{j})&#92;sigma(x_{i}) &amp; &#92;ldots &#92;&#92; 0-&#92;sigma(x_{N})&#92;sigma(x_{1}) &amp; &#92;ldots &amp; &#92;sigma(x_{N}) - &#92;sigma(x_{N})&#92;sigma(x_{N}) &#92;end{array} &#92;right ] " class="latex" /></p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+%26+%5Cldots+%5C%5C+0+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Cend%7Barray%7D+%5Cright+%5D+-+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+%26+%5Cldots+%5C%5C+0+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Cend%7Barray%7D+%5Cright+%5D+-+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cfrac%7B%5Cdelta%7BS%7D%7D%7B%5Cdelta%7Bx%7D%7D+%3D+%5Cleft+%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+0+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29+%26+%5Cldots+%5C%5C+0+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Cend%7Barray%7D+%5Cright+%5D+-+%5Cleft%5B+%5Cbegin%7Barray%7D%7Bccc%7D+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7B1%7D%29%5Csigma%28x_%7BN%7D%29+%5C%5C+%5Cldots+%26+%5Csigma%28x_%7Bj%7D%29%5Csigma%28x_%7Bi%7D%29+%26+%5Cldots+%5C%5C+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7B1%7D%29+%26+%5Cldots+%26+%5Csigma%28x_%7BN%7D%29%5Csigma%28x_%7BN%7D%29+%5Cend%7Barray%7D+%5Cright+%5D+&#038;bg=ffffff&#038;fg=5e5e5e&#038;s=3&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;frac{&#92;delta{S}}{&#92;delta{x}} = &#92;left [ &#92;begin{array}{ccc} &#92;sigma(x_{1}) &amp; &#92;ldots &amp; 0 &#92;&#92; &#92;ldots &amp; &#92;sigma(x_{j}) &amp; &#92;ldots &#92;&#92; 0 &amp; &#92;ldots &amp; &#92;sigma(x_{N})&#92;end{array} &#92;right ] - &#92;left[ &#92;begin{array}{ccc} &#92;sigma(x_{1})&#92;sigma(x_{1}) &amp; &#92;ldots &amp; &#92;sigma(x_{1})&#92;sigma(x_{N}) &#92;&#92; &#92;ldots &amp; &#92;sigma(x_{j})&#92;sigma(x_{i}) &amp; &#92;ldots &#92;&#92; &#92;sigma(x_{N})&#92;sigma(x_{1}) &amp; &#92;ldots &amp; &#92;sigma(x_{N})&#92;sigma(x_{N}) &#92;end{array} &#92;right ] " class="latex" /></p>
+<p>The matrix on the left is simply the vector S laid out along a diagonal. Numpy provides a <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html?highlight=diag#numpy.diag" target="_blank" rel="noopener">diag</a>&nbsp;function to do this for us:</p>
+<pre>np.diag(S)</pre>
+<p>And that generates a matrix for us:</p>
+<pre>array([[0.16205871, 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; ],
+&nbsp;&nbsp; &nbsp; &nbsp; [0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.15308274, 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; ],
+&nbsp;&nbsp; &nbsp; &nbsp; [0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.22661096, 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; ],
+&nbsp;&nbsp; &nbsp; &nbsp; [0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.22634251, 0.&nbsp; &nbsp; &nbsp; &nbsp; ],
+&nbsp;&nbsp; &nbsp; &nbsp; [0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.&nbsp; &nbsp; &nbsp; &nbsp; , 0.23190508]])</pre>
+<p>The matrix on the right is comprised of every element in S multiplied by all the elements in S. So we can create the first matrix by repeating S in rows, create the second matrix by repeating S in columns (i.e. transposing the first matrix) and finally, multiplying them together element-wise. Numpy comes to our help again by providing a <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.tile.html?highlight=tile#numpy.tile" target="_blank" rel="noopener">tile</a> function:</p>
+<pre>S_vector = S.reshape(S.shape[0],1)
+S_matrix = np.tile(S_vector,S.shape[0])
+print(S_matrix, '\n')
+print(np.transpose(S_matrix))</pre>
+<p>And the output of this (again, yours will have different numbers due to the random initialisation):</p>
+<pre>[[0.16205871 0.16205871 0.16205871 0.16205871 0.16205871]
+&nbsp;[0.15308274 0.15308274 0.15308274 0.15308274 0.15308274]
+&nbsp;[0.22661096 0.22661096 0.22661096 0.22661096 0.22661096]
+&nbsp;[0.22634251 0.22634251 0.22634251 0.22634251 0.22634251]
+&nbsp;[0.23190508 0.23190508 0.23190508 0.23190508 0.23190508]]&nbsp;
+
+[[0.16205871 0.15308274 0.22661096 0.22634251 0.23190508]
+&nbsp;[0.16205871 0.15308274 0.22661096 0.22634251 0.23190508]
+&nbsp;[0.16205871 0.15308274 0.22661096 0.22634251 0.23190508]
+&nbsp;[0.16205871 0.15308274 0.22661096 0.22634251 0.23190508]
+&nbsp;[0.16205871 0.15308274 0.22661096 0.22634251 0.23190508]]</pre>
+<p>Finally, let&#8217;s bring that all together into the single formula to calculate the Jacobian derivative of the Softmax function is:</p>
+<pre>np.diag(S) - (S_matrix * np.transpose(S_matrix))</pre>
+<p>Example output:</p>
+<pre>array([[ 0.13579568, -0.02480839, -0.03672428, -0.03668077, -0.03758224],
+&nbsp;&nbsp; &nbsp; &nbsp; [-0.02480839,&nbsp; 0.12964841, -0.03469023, -0.03464913, -0.03550067],
+&nbsp;&nbsp; &nbsp; &nbsp; [-0.03672428, -0.03469023,&nbsp; 0.17525843, -0.05129169, -0.05255223],
+&nbsp;&nbsp; &nbsp; &nbsp; [-0.03668077, -0.03464913, -0.05129169,&nbsp; 0.17511158, -0.05248998],
+&nbsp;&nbsp; &nbsp; &nbsp; [-0.03758224, -0.03550067, -0.05255223, -0.05248998,&nbsp; 0.17812512]])</pre>
+<p>So that&#8217;s the Softmax function and it&#8217;s derivative.</p>
+<p>In the <a href="https://aimatters.wordpress.com/2020/06/14/derivative-of-softmax-layer/">next part</a>, we&#8217;ll look at how to combine this derivative with the summation function, common in artificial neural networks.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2019/06/17/the-softmax-function-derivative/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Bad headlines distract from real AI problems</title>
+		<link>https://aimatters.wordpress.com/2018/08/20/bad-headlines-distract-from-real-ai-problems/</link>
+					<comments>https://aimatters.wordpress.com/2018/08/20/bad-headlines-distract-from-real-ai-problems/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Mon, 20 Aug 2018 21:09:36 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Ethics]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1193</guid>
+
+					<description><![CDATA[For several years now, few articles about artificial intelligence in the popular press are published without being accompanied by a picture of a Terminator robot. The point is clear: artificial intelligence is coming and it is terrifying. Having sown the seeds of fear, the headline writers are now subtly reinforcing that view. Take TechCrunch, which [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>For several years now, few articles about artificial intelligence in the popular press are published without being accompanied by a picture of a Terminator robot. The point is clear: artificial intelligence is coming and it is terrifying.</p>
+<p>Having sown the seeds of fear, the headline writers are now subtly reinforcing that view.</p>
+<p>Take <a href="https://techcrunch.com" target="_blank" rel="noopener">TechCrunch</a>, which claims on its Editorial page to be &#8220;delivering top-notch reporting on the business of the tech industry&#8221;. This week it covered <a href="https://techcrunch.com/2018/08/17/google-gives-its-ai-the-reins-over-its-data-center-cooling-systems/" target="_blank" rel="noopener">a story about Google</a> using machine learning algorithms developed by its sibling company, DeepMind, to improve the efficiency of it&#8217;s data centres. These algorithms will look after the cooling systems and should deliver energy savings of 30%. This is a really great use of AI, making an expensive process cheaper and being good for the environment too.</p>
+<p>But the headline is pure click-bait. Instead of focusing on the positives, the headline reads &#8220;Google gives its AI the reins over its data center cooling systems&#8221;. It invokes mental images of Skynet, HAL 9000 and even VIKI from I, Robot taking over. Yes, Google has an AI. It&#8217;s giving more control to it every day. You should be frightened.</p>
+<p>Except it&#8217;s not true. And it&#8217;s really irritating.</p>
+<p>Google doesn&#8217;t have an AI. It does have complicated decision making software running its cooling centres, one of the many complex software systems that keep the company alive every day. Most of this decision making is automated using traditional software development techniques. Lately, more of it is using machine learning models to make decisions faster than people could do.</p>
+<p>What is irritating about this is that it distracts people from the real problems that AI is causing. Hard social problems such as the potential loss of jobs to automation, the bias inherent in any machine learning algorithms, and the concentration of this immense power in corporate hands with no oversight, are demanding attention.</p>
+<p>These problems are complex and require lots of thinking and discussion by people to enable society to address the effects of powerful technology. We are poorly served by click-bait headlines in preparing for the artificial intelligence future.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2018/08/20/bad-headlines-distract-from-real-ai-problems/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Neural Networks and the generalisation problem</title>
+		<link>https://aimatters.wordpress.com/2018/01/28/neural-networks-and-the-generalisation-problem/</link>
+					<comments>https://aimatters.wordpress.com/2018/01/28/neural-networks-and-the-generalisation-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Sun, 28 Jan 2018 22:02:50 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Examples]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1185</guid>
+
+					<description><![CDATA[Over the last few weeks, a robust debate has been taking place online about the prospects that Deep Learning neural networks would lead to advances in the quest for Artificial General Intelligence. All current AI is what is known as Artificial Narrow Intelligence. This means that the models work well (sometimes extremely well) on specific [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Over the last few weeks, a robust debate has been taking place online about the prospects that Deep Learning neural networks would lead to advances in the quest for Artificial General Intelligence.</p>
+<p>All current AI is what is known as Artificial Narrow Intelligence. This means that the models work well (sometimes extremely well) on specific problems that are well defined. Unfortunately, they are also quite brittle and do not generalise to other problems, or even variants of the problem they are trained on. By contrast, a long-term goal of the field is to get to AIs that can generalise and extrapolate, amongst other things. This is called Artificial General Intelligence.</p>
+<p>The debate started back in <a href="https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/" target="_blank" rel="noopener">September when Geoffrey Hinton</a> proposed that researchers should start looking at alternatives to the default back propagation algorithms that are currently quite successful. This was followed up by a more detailed critical review published by <a href="https://arxiv.org/abs/1801.00631" target="_blank" rel="noopener">Gary Marcus earlier this month</a> outlining many of the problems with neural networks and deep learning. There has been quite a bit of debate about the merits of Marcus&#8217; points on social media, so much so that he published a <a href="https://medium.com/@GaryMarcus/in-defense-of-skepticism-about-deep-learning-6e8bfd5ae0f1" target="_blank" rel="noopener">defence on Medium</a>, responding to the various criticisms raised.</p>
+<p>One of the most serious points is that artificial neural networks don&#8217;t generalise and cannot extrapolate from what they have been trained on to new instances with different characteristics. This is quite simple to <a href="https://github.com/StephenOman/TensorFlowExamples/blob/master/Reverse%20Binary%20Number%20Simple%20NN.ipynb" target="_blank" rel="noopener">demonstrate</a> using Keras and TensorFlow. In this example, we have a neural network that tries to learn to reverse the digits in a binary number:</p>
+<pre>import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense, Activation
+from keras.optimizers import SGD
+
+x = np.array([[0,0,0,0], [0,0,0,1], [0,0,1,0],
+      [0,1,0,1], [0,1,1,0], [0,1,1,1]])
+y = np.array([[0,0,0,0], [1,0,0,0], [0,1,0,0],
+      [1,0,1,0], [0,1,1,0], [1,1,1,0]])
+
+model = Sequential()
+model.add(Dense(4, input_shape=(4,)))
+model.add(Activation('sigmoid'))
+model.add(Dense(4))
+model.add(Activation('sigmoid'))
+model.compile(loss='mean_squared_error', optimizer=SGD(lr=0.1))
+
+model.fit(x,y, epochs=10000, batch_size=8, verbose=0)</pre>
+<p>The above model  trains the network on examples where the first digit is always 0. If we test the trained network, it will perform as expected, reversing the order of the digits:</p>
+<pre>np.around(model.predict(x))</pre>
+<p>generates the following output:</p>
+<pre>array([[0., 0., 0., 0.],
+   [1., 0., 0., 0.],
+   [0., 1., 0., 0.],
+   [1., 0., 1., 0.],
+   [0., 1., 1., 0.],
+   [1., 1., 1., 0.]], dtype=float32)</pre>
+<p>Which is exactly what we want. However, when we change the inputs to begin with &#8216;1&#8217; then the network gets confused:</p>
+<pre>offdim = np.array([[1,0,0,0], [1,0,0,1], [1,0,1,0],
+  [1,1,0,1], [1,1,1,0], [1,1,1,1]])
+np.around(model.predict(offdim))</pre>
+<p>as we can see in the following output:</p>
+<pre>array([[0., 0., 0., 0.],
+   [1., 0., 0., 0.],
+   [0., 1., 0., 0.],
+   [1., 0., 1., 0.],
+   [0., 1., 1., 0.],
+   [1., 1., 1., 0.]], dtype=float32)</pre>
+<p>Clearly the network isn&#8217;t learning anything about the concept of &#8220;reversing&#8221; even though it looks like it initially. It has completely ignored the new number.</p>
+<p>This lack of generalising demonstrates clearly that neural networks, as currently architected, don&#8217;t operate on any level of abstraction. This is one of the fundamental problems with neural networks that must be solved if we have any hope of them advancing our efforts towards Artificial General Intelligence.</p>
+<p>As Marcus points out in his defence article, there may be a need for a blend of techniques, including old-school symbolic AI to help deep learning networks move forward towards solving the generalisation problem.</p>
+<p>Sources:</p>
+<p>Deep Learning, A Critical Appraisal &#8211; Gary Marcus <a href="https://arxiv.org/abs/1801.00631">https://arxiv.org/abs/1801.00631</a></p>
+<p>In defense of skepticism about deep learning &#8211; Gary Marcus <a href="https://medium.com/@GaryMarcus/in-defense-of-skepticism-about-deep-learning-6e8bfd5ae0f1">https://medium.com/@GaryMarcus/in-defense-of-skepticism-about-deep-learning-6e8bfd5ae0f1</a></p>
+<p>Sample code on Github: <a href="https://github.com/StephenOman/TensorFlowExamples/blob/master/Reverse%20Binary%20Number%20Simple%20NN.ipynb">https://github.com/StephenOman/TensorFlowExamples/blob/master/Reverse%20Binary%20Number%20Simple%20NN.ipynb</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2018/01/28/neural-networks-and-the-generalisation-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Deep Learning Dead-End?</title>
+		<link>https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/</link>
+					<comments>https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Sun, 17 Sep 2017 16:20:01 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Machine Intelligence]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Algorithms]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1180</guid>
+
+					<description><![CDATA[Deep Learning is at the core of much of modern Artificial Intelligence. It has had some spectacular recent successes, not least being a major part of the system that beat the world champion at Go. Key to its success is the Back-Propagation algorithm, usually shortened to &#8220;Backprop&#8221;. I&#8217;ve written elsewhere about how this algorithm works, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.axios.com/ai-pioneer-advocates-starting-over-2485537027.html"><img class="alignnone size-full" src="https://aimatters.files.wordpress.com/2017/09/1200x600.png" alt="" /></a></p>
+<p>Deep Learning is at the core of much of modern Artificial Intelligence. It has had some spectacular recent successes, not least being a major part of the system that <a href="https://techcrunch.com/2016/03/15/google-ai-beats-go-world-champion-again-to-complete-historic-4-1-series-victory/">beat the world champion at Go</a>.</p>
+<p>Key to its success is the Back-Propagation algorithm, usually shortened to &#8220;Backprop&#8221;. I&#8217;ve <a href="https://aimatters.wordpress.com/2015/12/19/a-simple-neural-network-in-octave-part-1/">written elsewhere</a> about how this algorithm works, but essentially, it takes an error in the output of a neural network and propagates it backwards through the network, adjusting the network&#8217;s configuration as it goes to reduce that output error.</p>
+<p>This algorithm has been so successful that deep learning neural networks are finding applications in a broad range of industries. Much of the recent popularisation of artificial intelligence and machine learning is due to this very success.</p>
+<p>Now one of the longest proponents of this algorithm, Geoffrey Hinton from the University of Toronto has suggested that if progress is to be made on AI, then focus must shift away from Backprop. His view is based on the observation that the brain doesn&#8217;t learn that way and if intelligent machines are to be developed, new techniques are required.</p>
+<p>In particular, he suggests that Unsupervised Learning will prove to be a fertile area. The method of learning does not rely on having fully labelled or classified datasets the way Supervised Learning and Backprop need. Instead it tries to understand patterns within the data itself to be able to make predictions and classifications.</p>
+<p>Deep Learning does still have a lot to offer. However, given it&#8217;s requirements for large amounts of data and computing power, there is an increasing awareness that alternative machine learning techniques may prove to be equally fruitful.</p>
+<p>Source: <a href="https://www.axios.com/ai-pioneer-advocates-starting-over-2485537027.html">Artificial intelligence pioneer says we need to start over &#8211; Axios</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2017/09/1200x600.png" medium="image" />
+	</item>
+		<item>
+		<title>XOR Revisited: Keras and TensorFlow</title>
+		<link>https://aimatters.wordpress.com/2017/04/24/xor-revisited-keras-and-tensorflow/</link>
+					<comments>https://aimatters.wordpress.com/2017/04/24/xor-revisited-keras-and-tensorflow/#comments</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Mon, 24 Apr 2017 21:58:46 +0000</pubDate>
+				<category><![CDATA[Examples]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Keras]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[TensorFlow]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1093</guid>
+
+					<description><![CDATA[A few weeks ago, it was announced that Keras would be getting official Google support and would become part of the TensorFlow machine learning library. Keras is a collection of high-level APIs in Python for creating and training neural networks, using either Theano or TensorFlow as the underlying engine. Given my previous posts on implementing an [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>A few weeks ago, it was announced that <a href="https://keras.io" target="_blank" rel="noopener noreferrer">Keras</a> would be <a href="https://www.reddit.com/r/MachineLearning/comments/5jg7b8/p_deep_learning_for_coders18_hours_of_lessons_for/dbhaizx/" target="_blank" rel="noopener noreferrer">getting official Google</a> support and would become part of the <a href="https://www.tensorflow.org" target="_blank" rel="noopener noreferrer">TensorFlow</a> machine learning library. Keras is a collection of high-level APIs in Python for creating and training neural networks, using either Theano or TensorFlow as the underlying engine.</p>
+<p>Given my previous posts on implementing an XOR-solving neural network in a variety of different languages and tools, I thought it was time to see what it would look like in Keras.</p>
+<p>XOR can be expressed as a classification problem that is best illustrated in a diagram. The goal is to create a neural network that will correctly predict the values 0 or 1, depending on the inputs <em>x1</em> and <em>x2</em> as shown.</p>
+<p><img loading="lazy" data-attachment-id="560" data-permalink="https://aimatters.wordpress.com/2015/12/19/a-simple-neural-network-in-octave-part-1/xor-graph/" data-orig-file="https://aimatters.files.wordpress.com/2015/12/xor-graph.png" data-orig-size="461,428" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="xor graph" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2015/12/xor-graph.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2015/12/xor-graph.png?w=461" class=" size-full wp-image-560 aligncenter" src="https://aimatters.files.wordpress.com/2015/12/xor-graph.png" alt="xor graph" width="461" height="428" srcset="https://aimatters.files.wordpress.com/2015/12/xor-graph.png 461w, https://aimatters.files.wordpress.com/2015/12/xor-graph.png?w=150&amp;h=139 150w, https://aimatters.files.wordpress.com/2015/12/xor-graph.png?w=300&amp;h=279 300w" sizes="(max-width: 461px) 100vw, 461px" /></p>
+<p>The neural network that is capable of being trained to solve that problem looks like this:</p>
+<p><img loading="lazy" data-attachment-id="572" data-permalink="https://aimatters.wordpress.com/2015/12/19/a-simple-neural-network-in-octave-part-1/network-2/" data-orig-file="https://aimatters.files.wordpress.com/2015/12/network1.png" data-orig-size="515,260" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="network" data-image-description="" data-image-caption="" data-medium-file="https://aimatters.files.wordpress.com/2015/12/network1.png?w=300" data-large-file="https://aimatters.files.wordpress.com/2015/12/network1.png?w=515" class=" size-full wp-image-572 aligncenter" src="https://aimatters.files.wordpress.com/2015/12/network1.png" alt="network" width="515" height="260" srcset="https://aimatters.files.wordpress.com/2015/12/network1.png 515w, https://aimatters.files.wordpress.com/2015/12/network1.png?w=150&amp;h=76 150w, https://aimatters.files.wordpress.com/2015/12/network1.png?w=300&amp;h=151 300w" sizes="(max-width: 515px) 100vw, 515px" /></p>
+<p>If you&#8217;d like to understand why this is the case, have a look at the detailed explanation in the <a href="https://aimatters.wordpress.com/2015/12/19/a-simple-neural-network-in-octave-part-1/" target="_blank" rel="noopener noreferrer">posts implementing the solution in Octave</a>.</p>
+<p>So how does this look in Keras? Well it&#8217;s rather simple. Assuming you&#8217;ve already installed Keras, we&#8217;ll start with setting up the classification problem and the expected outputs:</p>
+<pre>import numpy as np
+
+x = np.array([[0,0], [0,1], [1,0], [1,1]])
+y = np.array([[0], [1], [1], [0]])</pre>
+<p>So far, so good. We&#8217;re using <a href="http://www.numpy.org" target="_blank" rel="noopener noreferrer">numpy</a> arrays to store our inputs (x) and outputs (y). Now for the neural network definition:</p>
+<pre>from keras.models import Sequential
+from keras.layers import Dense, Activation
+
+model = Sequential()
+model.add(Dense(2, input_shape=(2,)))
+model.add(Activation('sigmoid'))
+model.add(Dense(1))
+model.add(Activation('sigmoid'))</pre>
+<p>The Sequential model is simply a sequence of layers making up the network. Our diagram above has a set of inputs being fed into two processing layers. We&#8217;ve already defined the inputs, so all we need to do is add the other two layers.</p>
+<p>In Keras, we&#8217;ll use Dense layers, which simply means they are is fully connected. The parameters indicate that the first layer has two nodes and the second layer has one node, corresponding to the diagram above.</p>
+<p>The first layer also has the shape of the inputs which in this case is a one-dimensional vector with 2 elements. The second layer&#8217;s inputs will be inferred from the first layer.</p>
+<p>We then add an Activation of type &#8216;sigmoid&#8217; to each layer, again matching our neural network definition.</p>
+<p>Note that Keras looks after the bias input without us having to explicitly code for it. In addition, Keras also looks after the weights (Θ1 and Θ2). This makes our neural network definition really straightforward and shows the benefits of using a high-level abstraction.</p>
+<p>Finally, we apply a loss function and learning mode for Keras to be able to adjust the neural network:</p>
+<pre>model.compile(loss='mean_squared_error', optimizer='sgd', metrics=['accuracy'])</pre>
+<p>In this example, we&#8217;ll use the standard Mean Squared Error loss function and Stochastic Gradient Descent optimiser. And that&#8217;s it for the network definition.</p>
+<p>If you want to see that the network looks like, use:</p>
+<pre>model.summary()</pre>
+<p>The network should look like this:</p>
+<pre>&gt;&gt; model.summary()
+_________________________________________________________________
+Layer (type)                  Output Shape         Param # 
+=================================================================
+dense_1 (Dense)               (None, 2)            6 
+_________________________________________________________________
+activation_1 (Activation)     (None, 2)            0 
+_________________________________________________________________
+dense_2 (Dense)               (None, 1)            3 
+_________________________________________________________________
+activation_2 (Activation)     (None, 1)            0 
+=================================================================
+Total params: 9
+Trainable params: 9
+Non-trainable params: 0
+_________________________________________________________________
+&gt;&gt;&gt;</pre>
+<p>Now we just need to kick off the training of the network.</p>
+<pre>model.fit(x,y, epochs=100000, batch_size=4)</pre>
+<p>All going well, the network weights will converge on a solution that can correctly classify the inputs (if not, you may need to up the number of epochs):</p>
+<pre>&gt;&gt;&gt; model.predict(x, verbose=1)
+
+4/4 [==============================] - 0s
+
+array([[ 0.07856689],
+
+       [ 0.91362464],
+
+       [ 0.92543262],
+
+       [ 0.06886736]], dtype=float32)
+
+&gt;&gt;&gt;</pre>
+<p>Clearly this network is on it&#8217;s way to converging on the original expected outputs we defined above (y).</p>
+<p>So that&#8217;s all there is to a Keras version of the XOR-solving neural network. The fact that it is using TensorFlow as the engine is completely hidden and that makes implementing the network a lot simpler.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2017/04/24/xor-revisited-keras-and-tensorflow/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2015/12/xor-graph.png" medium="image">
+			<media:title type="html">xor graph</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2015/12/network1.png" medium="image">
+			<media:title type="html">network</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Artificial Intelligence to replace staff at O2</title>
+		<link>https://aimatters.wordpress.com/2017/02/28/artificial-intelligence-to-replace-staff-at-o2/</link>
+					<comments>https://aimatters.wordpress.com/2017/02/28/artificial-intelligence-to-replace-staff-at-o2/#respond</comments>
+		
+		<dc:creator><![CDATA[Stephen Oman]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2017 22:10:12 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<guid isPermaLink="false">http://aimatters.wordpress.com/?p=1087</guid>
+
+					<description><![CDATA[Studies have previously claimed that Artificial Intelligence is likely to replace jobs in the medium term. This may have been a little optimistic in estimating the timeframe that it would likely occur. Earlier this year, Fukoku Mutual Life Insurance announced that it would be replacing 34 employees, whose jobs involved calculating payouts to policyholders. This week, the mobile phone [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><figure data-shortcode="caption" id="attachment_365" aria-describedby="caption-attachment-365" style="width: 310px" class="wp-caption alignright"><a href="https://aimatters.files.wordpress.com/2015/09/jobs.jpg"><img loading="lazy" data-attachment-id="365" data-permalink="https://aimatters.wordpress.com/2015/09/29/why-your-job-is-threatened-by-artificial-intelligence/jobs/" data-orig-file="https://aimatters.files.wordpress.com/2015/09/jobs.jpg" data-orig-size="352,319" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="No Jobs" data-image-description="" data-image-caption="&lt;p&gt;AI will eliminate jobs. Will new ones be created in time?&lt;/p&gt;
+" data-medium-file="https://aimatters.files.wordpress.com/2015/09/jobs.jpg?w=300" data-large-file="https://aimatters.files.wordpress.com/2015/09/jobs.jpg?w=352" class="size-medium wp-image-365" src="https://aimatters.files.wordpress.com/2017/02/jobs.jpg" alt="AI will eliminate jobs. Will new ones be created in time?" width="300" height="272" /></a><figcaption id="caption-attachment-365" class="wp-caption-text">AI will eliminate jobs. Will new ones be created in time?</figcaption></figure></p>
+<p>Studies have previously claimed that Artificial Intelligence is likely to replace jobs in the medium term.</p>
+<p>This may have been a little optimistic in estimating the timeframe that it would likely occur.</p>
+<p>Earlier this year, <a href="https://www.theguardian.com/technology/2017/jan/05/japanese-company-replaces-office-workers-artificial-intelligence-ai-fukoku-mutual-life-insurance" target="_blank">Fukoku Mutual Life Insurance</a> announced that it would be replacing 34 employees, whose jobs involved calculating payouts to policyholders.</p>
+<p>This week, the mobile phone company O2 announced that it would be launching a voice recognition AI next year that would be able to do the same job as customer service staff.</p>
+<p>At Mobile World Congress in Barcelona, O2&#8217;s parent Telefonica presented the system. The Independent&#8217;s coverage of it pedicts:</p>
+<blockquote><p>It’s expected to launch in the UK next year, and will enable the company to cut customer service costs.</p></blockquote>
+<p>Cutting customer service costs can only mean a reduction in jobs. Coupled with their idea to sell the customer&#8217;s data, it looks like the AI system will help Telefonica turn what is a business cost into a revenue stream, all with less employees to worry about.</p>
+<p>Source: <a href="http://www.independent.co.uk/life-style/gadgets-and-tech/news/o2-aura-artificial-intelligence-ai-customer-service-voice-recognition-a7602716.html">Artificial intelligence is set to handle O2 customer services from 2017 | The Independent</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://aimatters.wordpress.com/2017/02/28/artificial-intelligence-to-replace-staff-at-o2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/812e5a5c1e8338c8fd70b79d3312a3da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">stephenoman</media:title>
+		</media:content>
+
+		<media:content url="https://aimatters.files.wordpress.com/2017/02/jobs.jpg" medium="image">
+			<media:title type="html">AI will eliminate jobs. Will new ones be created in time?</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>
