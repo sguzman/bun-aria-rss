@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Bruce Schneier"
+  },
+  "title": "Critical Vulnerability in Open SSL",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "id": "https://www.schneier.com/?p=66019",
+  "updated": "2022-10-28T14:07:49Z",
+  "published": "2022-10-28T13:12:50Z",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "summary": "<p>There are no details yet, but it&#8217;s really important that you <a href=\"https://www.zdnet.com/article/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch/\">patch</a> Open SSL 3.x when the new version comes out on Tuesday.</p>\n<blockquote><p>How bad is &#8220;Critical&#8221;? According to OpenSSL, an issue of <a href=\"https://www.openssl.org/policies/general/security-policy.html\">critical severity</a> affects common configurations and is also likely exploitable. </p>\n<p>It&#8217;s likely to be abused to disclose server memory contents, and potentially reveal user details, and could be easily exploited remotely to compromise server private keys or execute code execute remotely. In other words, pretty much everything you don&#8217;t want happening on your production systems...</p></blockquote>",
+  "content": "<p>There are no details yet, but it&#8217;s really important that you <a href=\"https://www.zdnet.com/article/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch/\">patch</a> Open SSL 3.x when the new version comes out on Tuesday.</p>\n<blockquote><p>How bad is &#8220;Critical&#8221;? According to OpenSSL, an issue of <a href=\"https://www.openssl.org/policies/general/security-policy.html\">critical severity</a> affects common configurations and is also likely exploitable. </p>\n<p>It&#8217;s likely to be abused to disclose server memory contents, and potentially reveal user details, and could be easily exploited remotely to compromise server private keys or execute code execute remotely. In other words, pretty much everything you don&#8217;t want happening on your production systems.</p></blockquote>\n<p>Slashdot <a href=\"https://it.slashdot.org/story/22/10/27/2157207/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch\">thread</a>.</p>\n",
+  "thr:total": 9
+}

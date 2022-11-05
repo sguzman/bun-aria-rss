@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:1VdX1yGcMls",
+  "yt:videoId": "1VdX1yGcMls",
+  "yt:channelId": "UCMm211NGh4Ls5SAMZJF7E8A",
+  "title": "SM64 - Jolly Roger Bay 100 Coins - 1x A Presses [OUTDATED]",
+  "link": "",
+  "author": {
+    "name": "pannenkoek2012",
+    "uri": "https://www.youtube.com/channel/UCMm211NGh4Ls5SAMZJF7E8A"
+  },
+  "published": "2015-06-23T10:32:17+00:00",
+  "updated": "2022-05-17T15:31:57+00:00",
+  "media:group": {
+    "media:title": "SM64 - Jolly Roger Bay 100 Coins - 1x A Presses [OUTDATED]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "THIS VIDEO IS OUTDATED - SEE A BETTER VERSION OF THIS VIDEO HERE:\nhttps://youtu.be/Onae2YHOv9E\n\nI collect the 100 coin star in Jolly Roger Bay using 1 A press. The A press is to jump onto the ship / neighboring platforms, since there are 21 coins located up there, and so collecting 100 coins without them is impossible.\n\nThis video is an improvement from my previous video in which I collected this star in 2 A presses. You can find that video here: https://youtu.be/16wI-vutotw. Since then, Tyler and I worked out a way to ground pound the blue coin block without needing to press A. You see, we had known for a while that a goomba bounce could be used to ground pound the blue coin block, though it seemed impossible to lure goombas far enough [https://youtu.be/eQ2GG08l3j8]. We knew we could lure goombas a bit by repeatedly knocking into them, but this required too much health to be used in practice [https://youtu.be/4jujYUtJm8E]. Fortunately, Tyler came along and analyzed the code behind goombas' behavior, and realized that there were ways to exploit their behavior to extend their chase sequence. By doing so, Tyler was able to make goombas walk further away from their home than they normally would [https://youtu.be/lonr-XBRwnY]. Seeing Tyler's progress and hearing his explanation of the exploit, I played around with it myself and ultimately worked out a technique that saved the A press [https://youtu.be/955e-pay6bg].\n\nHere is how the goombas' code works: When Mario gets close to a goomba, it will notice him and then chase after him. This chase ends when any of the 3 following conditions are met:\n(1) the goomba moves too far away from its home\n(2) Mario moves too far away from the goomba's home\n(3) Mario moves too far away from the goomba\nDuring a chase, the goomba's target angle is towards Mario, and the goomba turns to try and face this target angle. However (and this is where things get complicated), there are 3 situations that \"extend\" the chase:\n(1) when the goomba walks into a ledge\n(2) when the goomba walks onto a steep slope or into a wall\n(3) when the goomba collides with another goomba\nWhen any of these occur, the goomba's target angle is recalculated (using complicated equations that aren't too important for this discussion). Thus, the target angle is no longer being set to towards Mario - instead, it will just stay constant, unless another chase extension is performed. Following a chase extension, the goomba will just turn towards its target angle, and once it reaches this angle, then the chase stops.\n\nUpon reading this behavior, you may have realized just how we can exploit it. We simply need to have the goomba chase Mario, then extend the chase, and then repeatedly extend it so that the goomba's facing angle never actually reaches its target angle. In other words, the goomba will constantly be turning towards its target angle, but we have the goomba keep bumping into things that cause this angle to change, and so it never manages to face its current target angle and instead just keeps chasing forever. This is precisely what I do in the video to move a goomba all the way to the blue coin block. Using a rock's steep slope and a wall, I extend Goomba A's chase to move it far away from its home. Then, using a rock's steep slope, a wall, and Goomba A, I extend Goomba B's chase all the way to the blue coin block!\n\n.m64 stats:\nLength: 3 minutes and 21 seconds\nRe-records: 4738\nFrames: 12046 (6000 input)\nTime to Make: ~7 hours\n\nABC Playlist: https://www.youtube.com/playlist?list=PLmvvhlevqC2d6vis077yFHuLJHYtTtqe_\nABC Routes: https://docs.google.com/document/d/1ypRVVRyf4x-v8GqCSmKYnicrfKSIjao3Y1ZVl52RIyM/edit",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
