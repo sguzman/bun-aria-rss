@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:1_cmfyU7G20",
+  "yt:videoId": "1_cmfyU7G20",
+  "yt:channelId": "UCfuj1MM5p37CRzWYPv_PsWA",
+  "title": "code.talks 2022 - Setting up a multi-node network with Substrate",
+  "link": "",
+  "author": {
+    "name": "code.talks (ehem. Developer Conference)",
+    "uri": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA"
+  },
+  "published": "2022-10-27T08:50:11+00:00",
+  "updated": "2022-10-27T08:50:11+00:00",
+  "media:group": {
+    "media:title": "code.talks 2022 - Setting up a multi-node network with Substrate",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Krystian Gaus\n\nWhile general-purpose smart contract platforms such as Ethereum are revolutionary, they bring several limitations and design constraints into play.\n\nSubstrate offers a flexible and modular alternative to these limitations. Rather than creating a smart contract on top of an existing blockchain, Substrate provides the tools to build an upgradeable special-purpose blockchain with the core application logic being an integral part of the blockchain runtime itself.\n\nIn this talk, we will briefly examine the idea of a heterogeneous multi-chain, and in the main part, we will set up a Substrate-based multi-node network.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

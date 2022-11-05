@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:6FgnoCb7ZPc",
+  "yt:videoId": "6FgnoCb7ZPc",
+  "yt:channelId": "UC9NuJImUbaSNKiwF2bdSfAw",
+  "title": "Low-end platform profiling with HawkTracer profiler",
+  "link": "",
+  "author": {
+    "name": "FOSDEM",
+    "uri": "https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw"
+  },
+  "published": "2020-11-19T08:04:41+00:00",
+  "updated": "2022-06-12T23:40:35+00:00",
+  "media:group": {
+    "media:title": "Low-end platform profiling with HawkTracer profiler",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Marcin Kolny\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_hawktrace.webm\n\nHawkTracer is low-overhead instrumentation-based profiler built at Amazon Video for platforms with limited capabilities. It's written in C but can be used almost with any other language (we've successfully used it with JavaScript, LUA, Python and Rust). It's highly extensible (at compile time) and portable so it can be run on almost any embedded device. In this talk I'll introduce the architecture of the profiler, present it's advantages and limitations, show how can you instrument the code and demonstrate the profiler in action by running it with an example cross-language (Rust, C++ and Python) project.\n\nRoom: K.4.201\nScheduled start: 2020-02-02 09:05:00",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
