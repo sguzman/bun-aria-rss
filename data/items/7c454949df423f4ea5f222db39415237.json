@@ -1,0 +1,6 @@
+{
+  "title": "Memory Tagging: A Memory Efficient Design. (arXiv:2209.00307v2 [cs.CR] UPDATED)",
+  "link": "http://arxiv.org/abs/2209.00307",
+  "description": "<p>ARM recently introduced a security feature called Memory Tagging Extension or\nMTE, which is designed to defend against common memory safety vulnerabilities,\nsuch as buffer overflow and use after free. In this paper, we examine three\naspects of MTE. First, we survey how modern software systems, such as Glibc,\nAndroid, Chrome, Linux, and LLVM, use MTE. We identify some common weaknesses\nand propose improvements. Second, we develop and experiment with an\narchitectural improvement to MTE that improves its memory efficiency. Our\ndesign enables longer memory tags, which improves the accuracy of MTE. Finally,\nwe discuss a number of enhancements to MTE to improve its security against\ncertain memory safety attacks.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Partap_A/0/1/0/all/0/1\">Aditi Partap</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Boneh_D/0/1/0/all/0/1\">Dan Boneh</a>"
+}

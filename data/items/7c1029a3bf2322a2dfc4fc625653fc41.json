@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:iH2kATv49rc",
+  "yt:videoId": "iH2kATv49rc",
+  "yt:channelId": "UCrlZs71h3mTR45FgQNINfrg",
+  "title": "Random walks in 2D and 3D are fundamentally different (Markov chains approach)",
+  "link": "",
+  "author": {
+    "name": "Mathemaniac",
+    "uri": "https://www.youtube.com/channel/UCrlZs71h3mTR45FgQNINfrg"
+  },
+  "published": "2022-10-04T14:00:24+00:00",
+  "updated": "2022-10-26T21:39:28+00:00",
+  "media:group": {
+    "media:title": "Random walks in 2D and 3D are fundamentally different (Markov chains approach)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Second channel video: https://youtu.be/KnWK7xYuy00\n100k Q&A Google form: https://forms.gle/BCspH33sCRc75RwcA\n\n\"A drunk man will find his way home, but a drunk bird may get lost forever.\" What is this sentence about?\n\nIn 2D, the random walk is \"recurrent\", i.e. you are guaranteed to go back to where you started; but in 3D, the random walk is \"transient\", the opposite of \"recurrent\". In fact, for the 2D case, that also means that you are guaranteed to go to ALL places in the world (the only constraint is, of course, time). [Think about why.]\n\nMarkov chains are also an important tool in modelling the real world, and so I feel like this is a good excuse for bringing it up.\n\nAt the end, I also compare this phenomenon to Stein's paradox - in both cases, there is a cutoff between 2 and 3 dimensions, and they have similar intuitive explanation - is that a coincidence?\n\nVideo chapters:\n00:00 Introduction\n00:59 Chapter 1: Markov chains\n03:20 Chapter 2: Recurrence and transience\n10:08 Chapter 3: Back to random walks\n\nFurther reading:\nLarry Brown’s paper: http://stat.wharton.upenn.edu/~lbrown/Papers/1971b%20Admissible%20estimators,%20recurrent%20diffusions,%20and%20insoluble%20boundary%20value%20problems.pdf\nUsing electric circuits to prove recurrence / trasience: https://math.dartmouth.edu/~pw/math100w13/mare.pdf\nMore complicated, but more general proof: https://sites.math.washington.edu/~morrow/336_19/papers19/Legrand.pdf\nActual probability for 3D random walk to come back: https://mathworld.wolfram.com/PolyasRandomWalkConstants.html\n\nOther than commenting on the video, you are very welcome to fill in a Google form linked below, which helps me make better videos by catering for your math levels:\nhttps://forms.gle/QJ29hocF9uQAyZyH6\n\nIf you want to know more interesting Mathematics, stay tuned for the next video!\n\nSUBSCRIBE and see you in the next video!\n\nIf you are wondering how I made all these videos, even though it is stylistically similar to 3Blue1Brown, I don't use his animation engine Manim, but I will probably reveal how I did it in a potential subscriber milestone, so do subscribe!\n\nSocial media:\n\nFacebook: https://www.facebook.com/mathemaniacyt\nInstagram: https://www.instagram.com/_mathemaniac_/\nTwitter: https://twitter.com/mathemaniacyt\nPatreon: https://www.patreon.com/mathemaniac (support if you want to and can afford to!)\nMerch: https://mathemaniac.myspreadshop.co.uk\nKo-fi: https://ko-fi.com/mathemaniac [for one-time support]\n\nFor my contact email, check my About page on a PC.\n\nSee you next time!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
