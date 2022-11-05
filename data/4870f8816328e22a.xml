@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="https://datamining.typepad.com/data_mining/">
+<title>Data Mining: Text Mining, Visualization and Social Media</title>
+<link>https://datamining.typepad.com/data_mining/</link>
+<description></description>
+<dc:language>en-US</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2016-03-27T14:04:24-04:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.typepad.com/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html" />
+<rdf:li rdf:resource="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html">
+<title>AI&#39;s not AI</title>
+<link>https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html</link>
+<description>There has been a lot of commentary recently on issues relating to an experimental chat bot that Microsoft has (or had) launched named (after, perhaps, a river in Scotland) Tay. After a brief existence online, the bot was removed due...</description>
+<content:encoded>&lt;p&gt;There has been a lot of commentary recently on issues relating to an experimental chat bot that Microsoft has (or had) launched named (after, perhaps, a river in Scotland) Tay. After a brief existence online, the bot was removed due to behaviours perceived as offensive which it was persuaded to engage in. Peter Lee of MSR has &lt;a href=&quot;http://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/&quot;&gt;this&lt;/a&gt; to say about it. While there is much to learn from what transpired, the thing that irks me the most is the continued use of the term Artificial Intelligence to describe these systems - Lee actually calls it an &amp;#39;artificial intelligence application&amp;#39;. Experimenting with these interactive agents is, no doubt, a useful activity that will teach us much about how humans will interact with actual AI entities in the future, but calling a chat bot of this nature an artificial intelligence application is like calling the icing on a cake, a cake. Communicating with humans is essential to artificial intelligence; communicating as a peer in human language with not much else going on &amp;#39;upstairs&amp;#39; is not, however, a demonstration of artificial intelligence.&lt;/p&gt;
+&lt;fieldset class=&quot;zemanta-related&quot;&gt;&lt;legend class=&quot;zemanta-related-title&quot;&gt;Related articles&lt;/legend&gt;
+&lt;div class=&quot;zemanta-article-ul zemanta-article-ul-image&quot; style=&quot;margin: 0px; padding: 0px; overflow: hidden;&quot;&gt;
+&lt;div class=&quot;zemanta-article-ul-li-image zemanta-article-ul-li&quot; style=&quot;background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;&quot;&gt;&lt;a href=&quot;http://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html&quot; style=&quot;padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;&quot; target=&quot;_blank&quot;&gt;How the Tech Media Keeps Artificial Intelligence at a Distance&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;zemanta-article-ul-li-image zemanta-article-ul-li&quot; style=&quot;background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;&quot;&gt;&lt;a href=&quot;http://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html&quot; style=&quot;padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;&quot; target=&quot;_blank&quot;&gt;The Economist gets in on the AI Fluff&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;zemanta-article-ul-li-image zemanta-article-ul-li&quot; style=&quot;background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;&quot;&gt;&lt;a href=&quot;http://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html&quot; style=&quot;padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;&quot; target=&quot;_blank&quot;&gt;AI, Artificial Birds and Aeroplanes&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2016-03-27T14:04:24-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html">
+<title>Agile Web Mining at Bing</title>
+<link>https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html</link>
+<description>The web search industry is making great progress in transitioning from building tools for finding pages and sites to building tools that leverage and surface facts and knowledge. The local search space - where I work in Bing - is...</description>
+<content:encoded>&lt;p&gt;The web search industry is making great progress in transitioning from&amp;#0160;building tools for finding pages and sites to&amp;#0160;building tools&amp;#0160;that leverage and surface facts and knowledge. The local search space - where I work in Bing - is founded on structured knowledge - the entity data that represents businesses and other things that necessarily have a location, and is a core piece of the knowledge space required for this future.&lt;/p&gt;
+&lt;p&gt;Over the past few years, my team has been working on mining the web for information about local entities. This data now&amp;#0160;helps to power&amp;#0160;a significant percentage of&amp;#0160;local search&amp;#0160;interactions in a number of countries around the world.&lt;/p&gt;
+&lt;p&gt;As we have been&amp;#0160;working on&amp;#0160;this system, we have come to think deeply about how to build systems for web mining, but&amp;#0160;also how to construct efficient developer workflows and how to&amp;#0160;add&amp;#0160;data management components to these systems to take advantage of human input when appropriate.&lt;/p&gt;
+&lt;p&gt;These processes constitute what I term Agile Web Mining, the core principles of which are: optimize for developer productivity, optimize for data management and invest in low latency systems. So much of what we hear about in the industry currently revolves around very large data sets (big data) which often entail long processing times and high latency interactions. In contrast, we tend to think of our data in a different way, where the size of data is relatively small (on the order of the size of a web site), but where there are many examples of these small data sets.&lt;/p&gt;
+&lt;p&gt;We are currently growing our team, and so if you are interested in learning more about Agile Web Mining, please get in touch with me.&lt;/p&gt;</content:encoded>
+
+
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-10-30T19:35:53-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html">
+<title>The Economist gets in on the AI Fluff</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html</link>
+<description>The Economist leads with an editorial and an article on The Dawn of Artificial Intelligence. The editorial starts of with: “THE development of full artificial intelligence could spell the end of the human race,” Stephen Hawking warns. Elon Musk fears...</description>
+<content:encoded>&lt;p&gt;The Economist leads with an editorial and an article on &lt;a href=&quot;http://www.economist.com/news/leaders/21650543-powerful-computers-will-reshape-humanitys-future-how-ensure-promise-outweighs&quot; target=&quot;_self&quot;&gt;The Dawn of Artificial Intelligence&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The editorial starts of with:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“THE development of full artificial intelligence could spell the end of the human race,” Stephen Hawking warns. Elon Musk fears that the development of artificial intelligence, or AI, may be the biggest existential threat humanity faces. Bill Gates urges people to beware of it.&lt;/p&gt;
+&lt;p&gt;Dread that the abominations people create will become their masters, or their executioners, is hardly new. But voiced by a renowned cosmologist, a Silicon Valley entrepreneur and the founder of Microsoft—hardly Luddites—and set against the vast investment in AI by big firms like Google and Microsoft, such fears have taken on new weight. With supercomputers in every pocket and robots looking down on every battlefield, just dismissing them as science fiction seems like self-deception. The question is how to worry wisely.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To my knowledge, while the three titans mentioned here of undeniable intellect, it is not clear why two of them are relevant at all. I consider myself reasonably smart, but should I be quoted on my opinion of current treatments of toxoplasmosis? The argument &amp;quot;a smart person says X, therefore we should attend&amp;quot; is known as &lt;a href=&quot;http://www.don-lindsay-archive.org/skeptic/arguments.html#falseauth&quot; target=&quot;_self&quot;&gt;the appeal to false authority&lt;/a&gt; (i.e. a fallacious argument). Such arguments introduce another argumentative crime: the exclusion of actual authority. &lt;a href=&quot;http://www.theguardian.com/technology/2015/jan/28/artificial-intelligence-will-not-end-human-race&quot; target=&quot;_self&quot;&gt;Eric Horvitz comes to mind&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The head of Microsoft’s main research lab has dismissed fears that artificial intelligence could pose a threat to the survival of the human race.&lt;/p&gt;
+&lt;p&gt;Eric Horvitz believed that humans would not “lose control of certain kinds of intelligences”, adding: “In the end we’ll be able to get incredible benefits from machine intelligence in all realms of life, from science to education to economics to daily life.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The article then stumbles along confusing advances in machine perception and machine learning with intelligence. Predictably, the Kasparov vs Deep Blue achievement is trundled out:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yet AI is already powerful enough to make a dramatic difference to human life. It can already enhance human endeavour by complementing what people can do. Think of chess, which computers now play better than any person.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Suggesting that any computer can now beat all humans. Deep Blue was a singular machine which was &lt;a href=&quot;http://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)&quot; target=&quot;_self&quot;&gt;dismantled after the match&lt;/a&gt;. And how does chess playing make a dramatic difference to human life?&lt;/p&gt;
+&lt;p&gt;A well informed article - and one that is actually interesting to read - should lead with a concrete set of definitions regarding the components of artificial intelligence (perception, reasoning, etc.) and discuss the discrete advances in those areas. Such an article should discuss the challenges of bringing those things together in anything other than the most rudimentary ways they are combined currently. An interesting article on AI would discuss the economics that drive investments and how they dictate what areas are worked on and which aren&amp;#39;t.&lt;/p&gt;
+&lt;p&gt;In all these articles, there is a vague notion of inevitability, as if the machines themselves were selectively investing in research areas, or as if we could stand back and do nothing and this scary version of AI would emerge. It&amp;#39;s as if the article were suggesting that landing on the moon was inevitable. The fact that humans did this and then never returned indicates that it was an incredibly intentional endeavor.&lt;/p&gt;
+&lt;p&gt;&amp;#0160;&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-10T22:54:24-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html">
+<title>AI, Artificial Birds and Aeroplanes</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html</link>
+<description>The Turing Test for artificial intelligence is a reasonably well understood idea: if, through a written form of communication, a machine can convince a human that it too is a human, then it passes the test. The elegance of this...</description>
+<content:encoded>&lt;p&gt;The Turing Test for artificial intelligence is a reasonably well understood idea: if, through a written form of communication, a machine can convince a human that it too is a human, then it passes the test. The elegance of this&amp;#0160;approach (which I believe is its primary attraction) is that it avoids any troublesome definition of intelligence and appeals to an innate ability&amp;#0160;in humans to detect entities which are not &amp;#39;one of us&amp;#39;.&lt;/p&gt;
+&lt;p&gt;This form of AI is the one that is generally presented in &lt;a href=&quot;http://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html&quot; target=&quot;_self&quot;&gt;entertainment&lt;/a&gt; (films, novels, etc.).&lt;/p&gt;
+&lt;p&gt;However, to an engineer, there are some problems with this as the accepted popular idea of artificial intelligence.&lt;/p&gt;
+&lt;p&gt;I believe that software engineering can be evaluated in a simple measure of productivity. We either create things that make the impossible possible - going from 0 to 1, or we create things that amplify some value, generally a human&amp;#39;s ability to do something, - going from X to nX. In other words, we enable a new thing, or we multiple our ability to do something.&lt;/p&gt;
+&lt;p&gt;Turing AI, while clearly an interesting intellectual concept, is like building an artificial bird instead of building an aeroplane:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Turing AI can converse in natural language, but humans can&amp;#39;t speak charts or holograms as a means to explain something.&lt;/li&gt;
+&lt;li&gt;A Turing AI can read a book and appear to understand it, but it can&amp;#39;t read a thousand research articles on cancer and find a connection between discoveries that results in a breakthrough.&lt;/li&gt;
+&lt;li&gt;A Turing AI doesn&amp;#39;t have to even be particularly intelligence&amp;#0160;(though it probably ought to at least appear self aware, reflective, etc) and so would be potentially like making a very poor hire for your team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I believe that if we consider opportunities for applying &amp;#39;AI methods&amp;#39; to the vast corpus of data (both in natural language and in various structured forms) on the web, we will realize that there is an economic motivation (i.e. build value for users that can build a user base) that will require all the generally accepted facets of an AI (reasoning, perception, communication with humans, theory of mind, etc.) but will be nothing like a Turing AI.&lt;/p&gt;
+&lt;p&gt;Rather than think of search engines - the fundamental agents that mediate the web corpus - as mechanisms to help humans find the &amp;#39;right&amp;#39; document - I believe it is time to change our intentions to:&lt;em&gt;optimize the value of the data on the internet for all mankind.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When we achieve this, we will have built an AI, but it won&amp;#39;t be a Turing AI and it may not even pass the Turing Test.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-09T14:50:09-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html">
+<title>How to Understand Computers in Film</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html</link>
+<description>When we see an act of programming, screeds of code or other interactions with computers in movies, software engineers are likely to roll their eyes. When Chappie&#39;s coder has to write &#39;terabytes of code&#39; When Ford&#39;s computer guy has to...</description>
+<content:encoded>&lt;p&gt;When we see an act of programming, screeds of code or other interactions with computers in movies, software engineers are likely to roll their eyes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When Chappie&amp;#39;s coder has to write &amp;#39;terabytes of code&amp;#39;&lt;/li&gt;
+&lt;li&gt;When Ford&amp;#39;s computer guy has to &amp;#39;write a special program&amp;#39; to crack a password in one of the Jack Ryan movies&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I rolled my eyes at these.&lt;/p&gt;
+&lt;p&gt;But I also realize that these interactions are just symbols. They are place holders for &amp;#39;someone doing some coding&amp;#39;. If we actually saw someone doing some coding, I think we&amp;#39;d roll our eyes for another reason.&lt;/p&gt;
+&lt;p&gt;This model probably works for any exposure of any technical area in a movie from coding to cooking to sailing to farming. Rather than criticizing the creators of the movie for lack of research, it is so much easier to recognize these moments as symbolic fillers with a dramatic twist.&lt;/p&gt;</content:encoded>
+
+
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-06T19:21:43-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html">
+<title>How the Tech Media Keeps Artificial Intelligence at a Distance</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html</link>
+<description>In sympathy with yesterday&#39;s post about AI as presented in films, consider this recent article from the Wall Street Journal: Artificial Intelligence Experts are in High Demand. A list of mostly machine learning experts is produced as evidence for the...</description>
+<content:encoded>&lt;p&gt;In sympathy with yesterday&amp;#39;s post about AI as presented in films, consider this recent article from the Wall Street Journal: &lt;a href=&quot;http://www.wsj.com/article_email/artificial-intelligence-experts-are-in-high-demand-1430472782-lMyQjAxMTA1MzA2MTMwNTEyWj&quot; target=&quot;_self&quot;&gt;Artificial Intelligence Experts are in High Demand&lt;/a&gt;. A list of mostly machine learning experts is produced as evidence for the topic of the article. There is an unfortunate trend being presented to the public in this space in which the term &amp;#39;artificial intelligence&amp;#39; is being used to draw readers with stories of real technical achievements in the space of machine learning and machine perception (recognizing a cat in a image is not an act of artificial intelligence), movies are being produced that &lt;a href=&quot;http://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html&quot; target=&quot;_self&quot;&gt;romanticize a form of unobtainable AI&lt;/a&gt;, and the two are being tied together with stories of impending doom (&lt;a href=&quot;http://www.huffingtonpost.com/2014/10/27/elon-musk-artificial-intelligence_n_6053804.html&quot; target=&quot;_self&quot;&gt;Musk&lt;/a&gt;, &lt;a href=&quot;http://www.bbc.com/news/technology-30290540&quot; target=&quot;_self&quot;&gt;Hawking&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;All this is done with little or no investment in helping us establish what we really mean - and need - in an artificial intelligence.&lt;/p&gt;
+&lt;p&gt;If artificial intelligence experts were in high demand, then linguistics, philosophers, sociologists, etc. should be very happy - not just ML peeps.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-04T16:30:13-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html">
+<title>How Hollywood Keeps Artificial Intelligence at a Distance</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html</link>
+<description>When something doesn&#39;t exist (like artificial intelligence) it&#39;s easy to think that there is some missing piece of magic required to bring it in to existence. There has been a growing interest in movie depictions of AI of late, and...</description>
+<content:encoded>&lt;p&gt;When something doesn&amp;#39;t exist (like artificial intelligence) it&amp;#39;s easy to think that there is some missing piece of magic required to bring it in to existence. There has been a growing interest in movie depictions of AI of late, and these all seem to require some sort of non-linear step to realize this technology.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ex_Machina_(film)&quot; target=&quot;_self&quot;&gt;Ex Machina&lt;/a&gt; (which I really enjoyed) required a new sort of hard/software in the form of a jelly like substance.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Chappie_(film)&quot; target=&quot;_self&quot;&gt;Chappie&lt;/a&gt;&amp;#0160;(which I also liked, though I generally prefer cheese and ham combined in a sandwich) required &amp;#39;terabytes of coding&amp;#39; and a good amount of luck to produce its AI.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron&quot; target=&quot;_self&quot;&gt;Age of Ultron&lt;/a&gt; (a film about one liners and explosions) required a magic jewel from Loki&amp;#39;s staff no less to create its AI.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Transcendence_(2014_film)&quot; target=&quot;_self&quot;&gt;Transcendence&lt;/a&gt; (&lt;a href=&quot;http://www.kurzweilai.net/&quot; target=&quot;_self&quot;&gt;Kurzweil&lt;/a&gt; summarized) gives up on AI and simply loads a human brain into the ether.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The message in all of these movies is - the reason we don&amp;#39;t have AI is that we haven&amp;#39;t taken some non-linear step.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-03T23:40:48-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html">
+<title>Artificial Intelligence and Economics</title>
+<link>https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html</link>
+<description>There are lots of articles online of the form - humanity has built some amazing things, so why haven&#39;t we produced an artificial intelligence? These articles (here&#39;s an example) often include some discussion of a task that even a very...</description>
+<content:encoded>&lt;p&gt;There are lots of articles online of the form -&amp;#0160;humanity has built some amazing things, so why haven&amp;#39;t we produced an artificial intelligence? These articles (here&amp;#39;s &lt;a href=&quot;http://www.kurzweilai.net/the-open-mind-common-sense-project&quot; target=&quot;_self&quot;&gt;an example&lt;/a&gt;) often include some discussion of a task that even a very young human can perform - e.g. look at an image and describe what objects are in it (though personally I don&amp;#39;t believe this is an indication of intelligence).&lt;/p&gt;
+&lt;p&gt;I believe that one of the key reasons that we can produce algorithms that can design super efficient jet engines, but not systems with the rudimentary common sense reasoning capabilities of a 3 year old is the economic context that drives innovation. The airline industry has an annual revenue of 700 billion dollars. No one has (yet) articulated the revenue potential of a technology that can look at a photograph and tell you what is in it.&lt;/p&gt;
+&lt;p&gt;The most important (and possibly last) step in the development of artificial intelligence is to create the economic engine that will require and motivate it.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>AI</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-05-02T17:59:37-04:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html">
+<title>Stamp of Approval</title>
+<link>https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html</link>
+<description>After getting a hint of this a few months ago, I&#39;ve finally tracked down an image of a stamp that will be released this year to celebrate the invention of the World Wide Web using an image I created. Here&#39;s...</description>
+<content:encoded>&lt;p&gt;After getting a hint of this a few months ago, I&amp;#39;ve finally tracked down an image of a stamp that will be released this year to celebrate the invention of the World Wide Web using an image I created.&lt;/p&gt;
+&lt;p&gt;Here&amp;#39;s the &lt;a href=&quot;http://metro.co.uk/2014/12/27/new-stamps-for-2015-celebrate-kings-of-comedy-including-the-two-ronnies-and-british-inventors-5000657/&quot; target=&quot;_self&quot;&gt;source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;asset-img-link&quot; href=&quot;http://datamining.typepad.com/.a/6a00d8341c994053ef01bb07d11f65970d-pi&quot; style=&quot;display: inline;&quot;&gt;&lt;img alt=&quot;Stamp&quot; class=&quot;asset  asset-image at-xid-6a00d8341c994053ef01bb07d11f65970d img-responsive&quot; src=&quot;https://datamining.typepad.com/.a/6a00d8341c994053ef01bb07d11f65970d-500wi&quot; title=&quot;Stamp&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Think of me as you lick &amp;#39;em.&lt;/p&gt;</content:encoded>
+
+
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2015-01-03T00:31:04-05:00</dc:date>
+</item>
+<item rdf:about="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html">
+<title>The Longform Manifesto</title>
+<link>https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html</link>
+<description>Sometimes a title for a blog posts suggests itself to me which seems so self contained that it takes real effort to actual write the post (&#39;Machine Intelligence, not Machine Learning is the Next Big Thing&#39; is another in this...</description>
+<content:encoded>&lt;p&gt;Sometimes a title for a blog posts suggests itself to me which seems so self contained that it takes real effort to actual write the post (&amp;#39;Machine Intelligence, not Machine Learning is the Next Big Thing&amp;#39; is another in this line). The idea behind the (or a) Longform Manifesto is as follows. I have become aware of late of the sense of deterioration that is associated with the mobile &amp;#39;revolution&amp;#39; and the info snacking, casual gaming and interupt driven lifestyle that it has entailed. The behaviours are perfectly illustrated in this scene from Portlandia:&lt;/p&gt;
+&lt;p&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;281&quot; src=&quot;http://www.youtube.com/embed/Pe-zq4bFPFU?feature=oembed&quot; width=&quot;500&quot;&gt;&lt;/iframe&gt;&amp;#0160;&lt;/p&gt;
+&lt;p&gt;With a daughter who has now come of technological age (she has a cell phone) it has become important to me to remind myself what content consumption was like before this mobile mess appeared.&lt;/p&gt;
+&lt;p&gt;We read books, we watched movies, we listened to music. But, of course, we haven&amp;#39;t stopped doing that. Rather, we have started all this other stuff, and the problem is that this is influencing how we approach longform content. I find myself watching bits of movies, or listening to bits of music or reading parts of essays.&lt;/p&gt;
+&lt;p&gt;The Longform Manifesto, through the definition of longform content and the discipline and commitment needed to consume it as it was meant to be consumed, helps to dillute and remove the behaviour degrading influence of mobile technology. Someone should write it.&lt;/p&gt;</content:encoded>
+
+
+<dc:subject>Content</dc:subject>
+
+<dc:creator>Matthew Hurst</dc:creator>
+<dc:date>2014-09-26T01:37:15-04:00</dc:date>
+</item>
+
+
+</rdf:RDF>
+
+<!-- ph=1 -->
