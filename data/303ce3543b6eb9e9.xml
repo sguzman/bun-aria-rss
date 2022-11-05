@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.SP updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Spectral Theory (math.SP) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Spectral Theory</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01558" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01586" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01654" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01900" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01974" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01989" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01558">
+<title>Gap Labels for Zeros of the Partition Function of the 1D Ising Model via the Schwartzman Homomorphism. (arXiv:2211.01558v1 [math.SP])</title>
+<link>http://arxiv.org/abs/2211.01558</link>
+<description rdf:parseType="Literal">&lt;p&gt;Inspired by the 1995 paper of Baake--Grimm--Pisani, we aim to explain the
+empirical observation that the distribution of Lee--Yang zeros corresponding to
+a one-dimensional Ising model appears to follow the gap labelling theorem. This
+follows by combining two main ingredients: first, the relation between the
+transfer matrix formalism for 1D Ising model and an ostensibly unrelated matrix
+formalism generating the Szeg\H{o} recursion for orthogonal polynomials on the
+unit circle, and second, the gap labelling theorem for CMV matrices.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Damanik_D/0/1/0/all/0/1&quot;&gt;David Damanik&lt;/a&gt; (Rice University), &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Embree_M/0/1/0/all/0/1&quot;&gt;Mark Embree&lt;/a&gt; (Viriginia Tech), &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Fillman_J/0/1/0/all/0/1&quot;&gt;Jake Fillman&lt;/a&gt; (Texas State University)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01586">
+<title>Spectral theory of the Nazarov-Sklyanin Lax operator. (arXiv:2211.01586v1 [math.CO])</title>
+<link>http://arxiv.org/abs/2211.01586</link>
+<description rdf:parseType="Literal">&lt;p&gt;In their study of Jack polynomials, Nazarov-Sklyanin introduced a remarkable
+new graded linear operator $\mathcal{L}: F[w] \rightarrow F[w]$ where $F$ is
+the ring of symmetric functions. In this paper, we (1) establish a cyclic
+decomposition $F[w] \cong \bigoplus_{\lambda} Z(j_{\lambda}, \mathcal{L})$ of
+the domain of $\mathcal{L}$ into finite-dimensional $\mathcal{L}$-cyclic
+subspaces in which Jack polynomials $j_{\lambda}$ may be taken as cyclic
+vectors and (2) prove that the restriction of $\mathcal{L}$ to each
+$Z(j_{\lambda}, \mathcal{L})$ has simple spectrum given by the anisotropic
+contents $[s]$ of the addable corners $s$ of the Young diagram of $\lambda$.
+Our proofs of (1) and (2) rely on the commutativity and spectral theorem for
+the integrable hierarchy of $\mathcal{L}$, both established by
+Nazarov-Sklyanin. Finally, we derive and conjecture several properties of the
+$\mathcal{L}$-eigenfunctions $\psi_{\lambda}^s$ which satisfy
+$\psi_{\lambda}^s|_{w=0} = j_{\lambda}$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Mickler_R/0/1/0/all/0/1&quot;&gt;Ryan Mickler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Moll_A/0/1/0/all/0/1&quot;&gt;Alexander Moll&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01654">
+<title>Dual Cheeger constant for weighted graphs over ordered fields. (arXiv:2211.01654v1 [math.CO])</title>
+<link>http://arxiv.org/abs/2211.01654</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider a dual Cheeger constant $\overline h$ for finite graphs with edge
+weights from an arbitrary real-closed ordered field. We obtain estimates of
+$\overline h$ in terms of number of vertices in graph. Further, we estimate the
+largest eigenvalue for the discrete Laplace operator in terms of $\overline h$
+and show the sharpness of estimates. As an example we consider graphs over
+non-Archimedean field of the Levi-Civita numbers.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Muranova_A/0/1/0/all/0/1&quot;&gt;Anna Muranova&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01900">
+<title>An abstract spectral approach to horospherical equidistribution. (arXiv:2211.01900v1 [math.DS])</title>
+<link>http://arxiv.org/abs/2211.01900</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper introduces an abstract spectral approach to prove effective
+equidistribution of expanding horospheres in hyperbolic manifolds. The method,
+which is motivated by the approach to counting developed by (Lax-Phillips
+1982), produces highly effective, explicit error terms. To exhibit the
+flexibility of this method we prove effective horospherical equidistribution
+theorems in $T^1(\mathbb{H}^{n+1})$ and in the higher rank setting,
+$\operatorname{SL}_n(\mathbb{R})/\operatorname{SO}_n(\mathbb{R})$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lutsko_C/0/1/0/all/0/1&quot;&gt;Christopher Lutsko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01974">
+<title>Discrete approximations to Dirichlet and Neumann Laplacians on a half-space and norm resolvent convergence. (arXiv:2211.01974v1 [math.FA])</title>
+<link>http://arxiv.org/abs/2211.01974</link>
+<description rdf:parseType="Literal">&lt;p&gt;We extend recent results on discrete approximations of the Laplacian in
+$\mathbf{R}^d$ with norm resolvent convergence to the corresponding results for
+Dirichlet and Neumann Laplacians on a half-space. The resolvents of the
+discrete Dirichlet/Neumann Laplacians are embedded into the continuum using
+natural discretization and embedding operators. Norm resolvent convergence to
+their continuous counterparts is proven with a quadratic rate in the mesh size.
+These results generalize with a limited rate to also include operators with a
+real, bounded, and H\&quot;older continuous potential, as well as certain functions
+of the Dirichlet/Neumann Laplacians, including any positive real power.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cornean_H/0/1/0/all/0/1&quot;&gt;Horia Cornean&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Garde_H/0/1/0/all/0/1&quot;&gt;Henrik Garde&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Jensen_A/0/1/0/all/0/1&quot;&gt;Arne Jensen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01989">
+<title>Bound states of weakly deformed soft waveguides. (arXiv:2211.01989v1 [math.SP])</title>
+<link>http://arxiv.org/abs/2211.01989</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we consider the two-dimensional Schr\&quot;odinger operator with an
+attractive potential which is a multiple of the characteristic function of an
+unbounded strip-shaped region, whose thickness is varying and is determined by
+the function $\mathbb{R}\ni x \mapsto d+\varepsilon f(x)$, where $d &amp;gt; 0$ is a
+constant, $\varepsilon &amp;gt; 0$ is a small parameter, and $f$ is a compactly
+supported continuous function. We prove that if $\int_{\mathbb{R}} f
+\,\mathsf{d} x &amp;gt; 0$, then the respective Schr\&quot;odinger operator has a unique
+simple eigenvalue below the threshold of the essential spectrum for all
+sufficiently small $\varepsilon &amp;gt;0$ and we obtain the asymptotic expansion of
+this eigenvalue in the regime $\varepsilon\rightarrow 0$. An asymptotic
+expansion of the respective eigenfunction as $\varepsilon\rightarrow 0$ is also
+obtained. In the case that $\int_{\mathbb{R}} f \,\mathsf{d} x &amp;lt; 0$ we prove
+that the discrete spectrum is empty for all sufficiently small $\varepsilon &amp;gt;
+0$. In the critical case $\int_{\mathbb{R}} f \,\mathsf{d} x = 0$, we derive a
+sufficient condition for the existence of a unique bound state for all
+sufficiently small $\varepsilon &amp;gt; 0$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Exner_P/0/1/0/all/0/1&quot;&gt;Pavel Exner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Kondej_S/0/1/0/all/0/1&quot;&gt;Sylwia Kondej&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Lotoreichik_V/0/1/0/all/0/1&quot;&gt;Vladimir Lotoreichik&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
