@@ -1,0 +1,12 @@
+{
+  "title": "Einops — a new style of deep learning code",
+  "description": "<p>Recently I’ve open-sourced <a href=\"https://github.com/arogozhnikov/einops\">einops</a> \n— a new (and better) way to write deep learning code.</p>\n\n<p>Einops introduces a new notation and new operations.</p>\n\n<video controls=\"\" autoplay=\"\">\n  <source src=\"http://arogozhnikov.github.io/images/einops/einops_video.mp4\" type=\"video/mp4\" />\n  <img src=\"http://arogozhnikov.github.io/images/einops/einops_video.gif\" alt=\"einops package examples\" />\n</video>\n\n<p>It perfectly complements existing frameworks (pytorch, tensorflow, gluon, chainer, numpy and others)\nallowing you to write better deep learning code (see <a href=\"http://arogozhnikov.github.io/einops/pytorch-examples.html\">examples for pytorch</a>).</p>\n\n<p><a href=\"https://github.com/arogozhnikov/einops\">Einops at Github</a></p>\n\n<p>Tutorials: <a href=\"https://github.com/arogozhnikov/einops/blob/master/docs/1-einops-basics.ipynb\">part 1</a> \nand <a href=\"https://github.com/arogozhnikov/einops/blob/master/docs/2-einops-for-deep-learning.ipynb\">part 2</a>.</p>",
+  "pubDate": "Thu, 06 Dec 2018 12:00:00 +0000",
+  "link": "https://arogozhnikov.github.io/2018/12/06/einops.html",
+  "guid": "https://arogozhnikov.github.io/2018/12/06/einops.html",
+  "category": [
+    "Machine Learning",
+    "Engineering",
+    "Code improvements"
+  ]
+}

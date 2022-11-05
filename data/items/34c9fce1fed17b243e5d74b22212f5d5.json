@@ -1,0 +1,6 @@
+{
+  "title": "Robust direct acoustic impedance control using two microphones for mixed feedforward-feedback controller. (arXiv:2108.02003v3 [eess.SY] UPDATED)",
+  "link": "http://arxiv.org/abs/2108.02003",
+  "description": "<p>This paper presents an acoustic impedance control architecture for an\nelectroacoustic absorber combining both a feedforward and a feedback\nmicrophone-based strategies on a current-driven loudspeaker. Feedforward\nsystems enable good performance for direct impedance control. However,\ninaccuracies in the required actuator model can lead to a loss of passivity,\nwhich can cause unstable behaviors. The feedback contribution allows the\nabsorber to better handle model errors and still achieve an accurate impedance,\npreserving passivity. Numerical and experimental studies were conducted to\ncompare this new architecture against a state-of-the-art feedforward control\nmethod.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Volery_M/0/1/0/all/0/1\">Maxime Volery</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Guo_X/0/1/0/all/0/1\">Xinxin Guo</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Lissek_H/0/1/0/all/0/1\">Herv&#xe9; Lissek</a>"
+}
