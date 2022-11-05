@@ -1,0 +1,9 @@
+{
+  "title": "Howto link against system-wide BLAS library using numpy.distutils",
+  "link": "http://fa.bianp.net/blog/2010/howto-link-against-system-wide-blas-library-using-numpydistutils/",
+  "description": "<p>If your numpy installation uses system-wide BLAS libraries (this will\nmost likely be the case unless you installed it through prebuilt windows\nbinaries), you can retrieve this information at compile time to link\npython modules to BLAS. The function get_info in\nnumpy.distutils.system_info will return a dictionary that contains …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 22 Apr 2010 14:28:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-04-22:/blog/2010/howto-link-against-system-wide-blas-library-using-numpydistutils/",
+  "category": "General"
+}

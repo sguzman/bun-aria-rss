@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-34339 (cognos_analytics)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34339",
+  "description": "&quot;IBM Cognos Analytics 11.2.1, 11.2.0, 11.1.7 stores user credentials in plain clear text which can be read by an authenticated user. IBM X-Force ID: 229963.&quot;",
+  "dc:date": "2022-11-03T20:15:28Z"
+}
