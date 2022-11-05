@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-6270374438911760263",
+  "published": "2011-08-16T19:54:00.000-07:00",
+  "updated": "2011-08-17T00:24:58.342-07:00",
+  "title": "Making self-contained Unix programs with CDE",
+  "summary": "In the old days you could statically link your program and run it on another Unix station without worrying about dependencies. Unfortunately static linking no longer works, so you need to make sure that your target platform has the right libraries.\n\nFor instance, in order to get Matlab compiled code running on a server, you have to copy over libraries and set environment variables as specified",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 33
+}

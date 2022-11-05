@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:y9ieJ1Gpl6Y",
+  "yt:videoId": "y9ieJ1Gpl6Y",
+  "yt:channelId": "UCHAtzWEoegu7Z5zEVzjOM_Q",
+  "title": "Category Theory For Beginners: Synthetic Differential Geometry",
+  "link": "",
+  "author": {
+    "name": "Richard Southwell",
+    "uri": "https://www.youtube.com/channel/UCHAtzWEoegu7Z5zEVzjOM_Q"
+  },
+  "published": "2021-06-14T05:00:30+00:00",
+  "updated": "2022-07-03T21:21:48+00:00",
+  "media:group": {
+    "media:title": "Category Theory For Beginners: Synthetic Differential Geometry",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video I introduce synthetic differential geometry, where one sets up a framework to do differential geometry with spaces and maps with nice smoothness properties. Rather than the standard real number line, the line in synthetic differential geometry has `nilsquare infinitesimals' (non-zero quantities that square to zero). This make it easier to talk about calculus than in the classical setup. Formally, synthetic differential geometry is done by defining a `category of smooth spaces', which is a topos that satisfies various axioms. It follows that synthetic differential geometry is governed by intuitionistic, non-classical logic. In this video we introduce synthetic differential geometry informally, and describe the concepts of infinitesimals, differentiation, integration, spaces of maps, vector bundles, tangent vectors, vector fields, vector flows, and other ideas from calculus. Next we describe how synthetic differential geometry can be described formally using the internal language of a topos, and we conclude by looking at some interesting adjoint functors which relate to finding solutions to dynamical systems on manifolds, described by vector fields.  \n\nMore information about actions and flows can be found in the books `Conceptual Mathematics' and `Categories in Continuum Physics' by Lawvere.\n\nMore videos about various things to do with synthetic differential geometry can be found within my playlist:\n\nhttps://youtube.com/playlist?list=PLCTMeyjMKRkqy3NUHnMeY-PGgsZ963F58\n\nMore files, including my own proofs about synthetic differential geometry and topos theory can be found here\n\nhttps://drive.google.com/drive/folders/1LYIgsn-BQdSo5sKKbI84gk8PUgEpVIiV?usp=sharing\n\nMore about topos logic (particularly `exists' and `for all') can be found in these videos\n\nhttps://youtu.be/K9D2E7xVWio\nhttps://youtu.be/LBmjY2djuMc\nhttps://youtu.be/YIWkoyBdrh0\n\nThe following videos also describe more connections with other ideas from mathematics and physics\n\nhttps://youtu.be/SuTyXGSUdC8\n\nhttps://youtu.be/7J_3WY6gxPU",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
