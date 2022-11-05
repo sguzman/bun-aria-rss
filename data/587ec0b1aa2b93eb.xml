@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCzdCHjiDfrrol0QrnUY6DhQ"/>
+ <id>yt:channel:UCzdCHjiDfrrol0QrnUY6DhQ</id>
+ <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+ <title>Istanbul Tech Talks</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ"/>
+ <author>
+  <name>Istanbul Tech Talks</name>
+  <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+ </author>
+ <published>2014-05-07T15:53:49+00:00</published>
+ <entry>
+  <id>yt:video:iPYPALq6NvI</id>
+  <yt:videoId>iPYPALq6NvI</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>Istanbul Tech Talks 2019</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iPYPALq6NvI"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-12-06T20:05:27+00:00</published>
+  <updated>2022-09-30T20:04:08+00:00</updated>
+  <media:group>
+   <media:title>Istanbul Tech Talks 2019</media:title>
+   <media:content url="https://www.youtube.com/v/iPYPALq6NvI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iPYPALq6NvI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Istanbul Tech Talks is a global developer conference gathering engineers for a day of deep-dive sessions on the hot topics in software engineering.</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="253"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4moHicXPXfA</id>
+  <yt:videoId>4moHicXPXfA</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Nic Jackson - From the first photocopy to modern failure detection in distributed systems</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4moHicXPXfA"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:57:19+00:00</published>
+  <updated>2022-06-30T03:52:13+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Nic Jackson - From the first photocopy to modern failure detection in distributed systems</media:title>
+   <media:content url="https://www.youtube.com/v/4moHicXPXfA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4moHicXPXfA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Distributed systems are not a new problem, for as long as there have been n+1 computers in a network, the problem of managing membership in a group and detecting failure has existed. Many of the algorithms we use in today's systems to solve this problem are over 30 years old, and in this talk, we will look at how an algorithm for email replication by a photocopier company, has morphed into SWIM, used to manage group membership and failure detection in modern distributed systems.
+
+Takeaways:
+
+- Introduction to Gossip and epidemic rumor spreading
+
+- Deep dive into SWIM which uses Gossip for failure detection in distributed systems
+
+- Investigation of Lifeguard which builds on SWIM adding many improvements</media:description>
+   <media:community>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="929"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8td-kc-n-Xo</id>
+  <yt:videoId>8td-kc-n-Xo</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Kief Morris - Building Evolvable Infrastructure</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8td-kc-n-Xo"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:57:13+00:00</published>
+  <updated>2022-08-09T16:41:16+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Kief Morris - Building Evolvable Infrastructure</media:title>
+   <media:content url="https://www.youtube.com/v/8td-kc-n-Xo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8td-kc-n-Xo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Design strategies for building infrastructure that can be continuously evolved, by using pipelines, automated tests, and loosely integrated stacks to enable a continuous flow of changes and improvements.
+
+People are adopting dynamic infrastructure technologies like cloud, containers, and serverless so that they can easily make changes to it. Defining infrastructure as code should make systems consistent, reliable, and easy to manage. But an infrastructure codebase can easily become a complicated, fragile mess that is scary to change. Teams can gain confidence to make frequent, rapid changes to continuously improve their infrastructure by applying appropriate design patterns and implementation practices.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="234"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2_duMlse3JM</id>
+  <yt:videoId>2_duMlse3JM</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Michael Hüttermann - Continuous Delivery/DevOps Live Cooking Show</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2_duMlse3JM"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:57:04+00:00</published>
+  <updated>2022-01-05T01:20:56+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Michael Hüttermann - Continuous Delivery/DevOps Live Cooking Show</media:title>
+   <media:content url="https://www.youtube.com/v/2_duMlse3JM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2_duMlse3JM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this session, we will interactively set up a holistic Continuous Delivery pipeline with the use of DevOps enabler tools, based on Cloud, microservices and container technologies. We’ll package a Java EE web application. Its development versions will be inspected and promoted towards production environment in the Cloud, with Docker. Jenkins 2 with its native delivery pipeline features will serve as the major backbone of our DevOps toolchain gluing together other tools of the overall ecosystem. This session discusses concepts and shows tools in action. Happy cooking!</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="244"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:d5I79S6M76g</id>
+  <yt:videoId>d5I79S6M76g</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Nikolas Burk - Boost your API Development with GraphQL &amp; Prisma</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=d5I79S6M76g"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:56:33+00:00</published>
+  <updated>2022-02-01T03:23:56+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Nikolas Burk - Boost your API Development with GraphQL &amp; Prisma</media:title>
+   <media:content url="https://www.youtube.com/v/d5I79S6M76g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/d5I79S6M76g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Only three years after it was introduced by Facebook, GraphQL has replaced REST as the de-facto standard for API development. 
+A strongly typed API schema, improved performance and a great open-source ecosystem are just some of the benefits developers get with GraphQL. 
+This talk introduces the current state of GraphQL as well as best practices for GraphQL server development using Prisma and various tools from the GraphQL ecosystem.</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="398"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fk77R6QwrMw</id>
+  <yt:videoId>fk77R6QwrMw</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Martin Beeby - A Developer Primer on Blockchain</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fk77R6QwrMw"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:56:25+00:00</published>
+  <updated>2022-07-18T16:25:03+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Martin Beeby - A Developer Primer on Blockchain</media:title>
+   <media:content url="https://www.youtube.com/v/fk77R6QwrMw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fk77R6QwrMw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Come find out how developers can use Blockchain to build software. Understand through code how to create “smart contracts” and &quot;chain code&quot; and develop a different type of application that establishes trust, accountability and transparency, while streamlining business processes.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="106"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tjpncm3xTTc</id>
+  <yt:videoId>tjpncm3xTTc</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Kavya Joshi - Let's talk locks!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tjpncm3xTTc"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:55:31+00:00</published>
+  <updated>2022-07-03T12:37:50+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Kavya Joshi - Let's talk locks!</media:title>
+   <media:content url="https://www.youtube.com/v/tjpncm3xTTc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tjpncm3xTTc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Locks have a bad rap for “being slow” and yet, they’re used extensively in applications and under-the-hood. So, what gives? This talk resolves the dichotomy. We’ll explore when and why locks affect performance, delve into Go’s lock implementation as a case-study, and discuss strategies we can use when locks are actually a problem.</media:description>
+   <media:community>
+    <media:starRating count="208" average="5.00" min="1" max="5"/>
+    <media:statistics views="5450"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6o3ElLYYEbk</id>
+  <yt:videoId>6o3ElLYYEbk</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Mark West - A Practical(ish) Introduction to Data Science</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6o3ElLYYEbk"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:55:24+00:00</published>
+  <updated>2022-06-30T07:03:26+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Mark West - A Practical(ish) Introduction to Data Science</media:title>
+   <media:content url="https://www.youtube.com/v/6o3ElLYYEbk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/6o3ElLYYEbk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this talk I will share insights and knowledge that I have gained from building up a Data Science department from scratch. This talk will be split into three sections:
+I’ll start by defining what Data Science is, how it is related to Machine Learning and share some tips for introducing Data Science to your organisation. 
+Next up we’ll run through some commonly used Machine Learning algorithms used by Data Scientists, along with examples for use cases where these algorithms can be applied. 
+The final third of the talk will be a demonstration of how you can quickly get started with Data Science and Machine Learning using Python and the open source &quot;scikit-learn&quot; library.</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="169"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1Zz8d010Oc0</id>
+  <yt:videoId>1Zz8d010Oc0</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2019 - Constance Caramanolis - High severity incident response leveraging Envoy</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1Zz8d010Oc0"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2019-06-26T11:54:57+00:00</published>
+  <updated>2022-09-20T00:15:56+00:00</updated>
+  <media:group>
+   <media:title>ITT 2019 - Constance Caramanolis - High severity incident response leveraging Envoy</media:title>
+   <media:content url="https://www.youtube.com/v/1Zz8d010Oc0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1Zz8d010Oc0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Incident management is inherently stressful and is made worse when the diagnostics and observability data is lacking and heterogeneous. Lyft runs Envoy at every hop of the network providing best in class observability across the entirety of Lyft’s network topology. Homogenous data reduces the time it takes to identify production issues. This talk will introduce Envoy, how Lyft configures Envoy and simulate a production incident at Lyft. Attendees are guided from the dreaded notification of an issue in production to resolution, by showing how engineers use Envoy’s extensive observability to identify and root cause the incident and remedy the situation.</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="101"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jnox2eCJoL0</id>
+  <yt:videoId>jnox2eCJoL0</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Jakub Nabrdalik - User Stories considered harmful</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jnox2eCJoL0"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T13:16:34+00:00</published>
+  <updated>2022-09-17T09:33:37+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Jakub Nabrdalik - User Stories considered harmful</media:title>
+   <media:content url="https://www.youtube.com/v/jnox2eCJoL0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jnox2eCJoL0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="613"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3fh9qm-ljA8</id>
+  <yt:videoId>3fh9qm-ljA8</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Randy Shoup - Service Architectures at Scale</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3fh9qm-ljA8"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T12:56:59+00:00</published>
+  <updated>2022-02-10T03:19:17+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Randy Shoup - Service Architectures at Scale</media:title>
+   <media:content url="https://www.youtube.com/v/3fh9qm-ljA8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3fh9qm-ljA8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Over time, almost all large, well-known web sites have evolved their architectures from an early monolithic application to a loosely-coupled ecosystem of polyglot microservices. This session will discuss modern service architectures at scale, using specific examples from both Google and eBay, and covering lessons learned in building and operating these sites. 
+
+We will first talk about designing and building services, using some techniques from domain-driven design to decide the boundaries and interface of our services. We will discuss using event-driven techniques to communicate between services asynchronously. And finally, we will talk about how we put all of this together into a functioning service ecosystem that can scale to hundreds of teams, thousands of developers, and millions of users.</media:description>
+   <media:community>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="632"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TQDRAGxAIsc</id>
+  <yt:videoId>TQDRAGxAIsc</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Tim Berglund - Processing Streaming Data with KSQL</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TQDRAGxAIsc"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T12:56:26+00:00</published>
+  <updated>2022-05-15T08:28:51+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Tim Berglund - Processing Streaming Data with KSQL</media:title>
+   <media:content url="https://www.youtube.com/v/TQDRAGxAIsc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TQDRAGxAIsc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Apache Kafka is a de facto standard streaming data processing platform, being widely deployed as a messaging system, and having a robust data integration framework (Kafka Connect) and stream processing API (Kafka Streams) to meet the needs that common attend real-time message processing. But there’s more!
+
+Kafka now offers KSQL, a declarative, SQL-like stream processing language that lets you define powerful stream-processing applications easily. What once took some moderately sophisticated Java code can now be done at the command line with a familiar and eminently approachable syntax. Come to this talk for an overview of KSQL with live coding on live streaming data.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="313"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZqPTKJu2QFk</id>
+  <yt:videoId>ZqPTKJu2QFk</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Christopher Burnett - Types All the Way Down — gRPC and Go Infrastructure at Lyft</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZqPTKJu2QFk"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T12:56:03+00:00</published>
+  <updated>2022-05-24T04:23:35+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Christopher Burnett - Types All the Way Down — gRPC and Go Infrastructure at Lyft</media:title>
+   <media:content url="https://www.youtube.com/v/ZqPTKJu2QFk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZqPTKJu2QFk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this talk we'll discuss our experiences and lessons learned while introducing gRPC and Go into Lyft's ecosystem. We'll also cover how our Envoy proxy helps to bridge the type-safety gaps across polyglot systems and provides us with flexible and observable infrastructure solutions.</media:description>
+   <media:community>
+    <media:starRating count="21" average="5.00" min="1" max="5"/>
+    <media:statistics views="990"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sOaS83Ir8Ck</id>
+  <yt:videoId>sOaS83Ir8Ck</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Jakub Nabrdalik - Hexagonal Architecture in practice</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sOaS83Ir8Ck"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T12:55:35+00:00</published>
+  <updated>2022-05-21T00:54:55+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Jakub Nabrdalik - Hexagonal Architecture in practice</media:title>
+   <media:content url="https://www.youtube.com/v/sOaS83Ir8Ck?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sOaS83Ir8Ck/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Imagine a single distributed system of more than 550 microservices on 10k servers, and around 600 developers. That’s what Allegro is. Building such a system requires good experience in modularization and architecture. Each of those microservices, however, isn’t necessarily very small, and thus should be decomposed further into modules. Sadly, that’s not always happening, and sometimes the internals of a microservice resemble spaghetti: you can’t tell where it starts and where it ends.
+
+It’s a common problem: good teams building even small applications that soon become much more complicated than necessary, because of lack of clear boundaries.
+
+In this talk I’d like to present my findings on how to modularize a Java + Spring application, no matter the size, to achieve great testability, clear boundaries, and to make it easier to understand on every level, after several years of using it on a daily basis on production. 
+
+This will be a practical tutorial on Hexagonal Architecture (also known as Ports &amp; Adapters), and very fast Behavior/Test Driven Development. It works both in a microservices and a single large application environment. 
+
+We will start with an elephant hiding in plain sight: the package scope in Java. Something which was designed to help us focus on modules, but got completely lost on devs.</media:description>
+   <media:community>
+    <media:starRating count="378" average="5.00" min="1" max="5"/>
+    <media:statistics views="23492"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4GuBezQhxNc</id>
+  <yt:videoId>4GuBezQhxNc</yt:videoId>
+  <yt:channelId>UCzdCHjiDfrrol0QrnUY6DhQ</yt:channelId>
+  <title>ITT 2018 - Sveta Smirnova - Introduction into MySQL Query Tuning</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4GuBezQhxNc"/>
+  <author>
+   <name>Istanbul Tech Talks</name>
+   <uri>https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ</uri>
+  </author>
+  <published>2018-08-03T12:54:29+00:00</published>
+  <updated>2022-06-03T01:47:14+00:00</updated>
+  <media:group>
+   <media:title>ITT 2018 - Sveta Smirnova - Introduction into MySQL Query Tuning</media:title>
+   <media:content url="https://www.youtube.com/v/4GuBezQhxNc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4GuBezQhxNc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this talk I will show how to get started with MySQL Query Tuning. I will make a short introduction into physical table structure and demonstrate how it may influence query execution time. Then we will discuss basic query tuning instruments and techniques, mainly EXPLAIN command with its latest variations. You will learn how to understand its output and how to rewrite query or change table structure to achieve better performance.</media:description>
+   <media:community>
+    <media:starRating count="11" average="5.00" min="1" max="5"/>
+    <media:statistics views="433"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
