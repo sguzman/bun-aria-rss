@@ -1,0 +1,13 @@
+{
+  "title": "Specification Choices in Quantile Regression for Empirical Macroeconomics",
+  "link": "https://fedinprint.org/item/fedcwq/94690/original",
+  "description": "Quantile regression has become widely used in empirical macroeconomics, in particular for estimating and forecasting tail risks to macroeconomic indicators. In this paper we examine various choices in the specification of quantile regressions for macro applications, for example, choices related to how and to what extent to include shrinkage, and whether to apply shrinkage in a classical or Bayesian framework. We focus on forecasting accuracy, using for evaluation both quantile scores and quantile-weighted continuous ranked probability scores at a range of quantiles spanning from the left to right tail. We find that shrinkage is generally helpful to tail forecast accuracy, with gains that are particularly large for GDP applications featuring large sets of predictors and unemployment and inflation applications, and with gains that increase with the forecast horizon.",
+  "guid": "https://fedinprint.org/item/fedcwq/94690/original",
+  "dc:creator": "Carriero, Andrea; Clark, Todd E.; Marcellino, Massimiliano",
+  "dc:date": "2022-08-31",
+  "rdau:hasExtent": 36,
+  "dc:subject": "Quantile regression; tail forecasting; shrinkage; Bayesian methods; quantile scores",
+  "swpo:hasNumber": "22-25",
+  "identifiers:doi": "10.26509/frbc-wp-202225",
+  "bibo:series": "Working Papers"
+}
