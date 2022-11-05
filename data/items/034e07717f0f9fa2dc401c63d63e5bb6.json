@@ -1,0 +1,24 @@
+{
+  "title": "Deep Learning Dead-End?",
+  "link": "https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/",
+  "comments": "https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/#comments",
+  "dc:creator": "Stephen Oman",
+  "pubDate": "Sun, 17 Sep 2017 16:20:01 +0000",
+  "category": [
+    "Artificial Intelligence",
+    "Machine Intelligence",
+    "Machine Learning",
+    "Algorithms"
+  ],
+  "guid": "http://aimatters.wordpress.com/?p=1180",
+  "description": "Deep Learning is at the core of much of modern Artificial Intelligence. It has had some spectacular recent successes, not least being a major part of the system that beat the world champion at Go. Key to its success is the Back-Propagation algorithm, usually shortened to &#8220;Backprop&#8221;. I&#8217;ve written elsewhere about how this algorithm works, [&#8230;]",
+  "content:encoded": "<p><a href=\"https://www.axios.com/ai-pioneer-advocates-starting-over-2485537027.html\"><img class=\"alignnone size-full\" src=\"https://aimatters.files.wordpress.com/2017/09/1200x600.png\" alt=\"\" /></a></p>\n<p>Deep Learning is at the core of much of modern Artificial Intelligence. It has had some spectacular recent successes, not least being a major part of the system that <a href=\"https://techcrunch.com/2016/03/15/google-ai-beats-go-world-champion-again-to-complete-historic-4-1-series-victory/\">beat the world champion at Go</a>.</p>\n<p>Key to its success is the Back-Propagation algorithm, usually shortened to &#8220;Backprop&#8221;. I&#8217;ve <a href=\"https://aimatters.wordpress.com/2015/12/19/a-simple-neural-network-in-octave-part-1/\">written elsewhere</a> about how this algorithm works, but essentially, it takes an error in the output of a neural network and propagates it backwards through the network, adjusting the network&#8217;s configuration as it goes to reduce that output error.</p>\n<p>This algorithm has been so successful that deep learning neural networks are finding applications in a broad range of industries. Much of the recent popularisation of artificial intelligence and machine learning is due to this very success.</p>\n<p>Now one of the longest proponents of this algorithm, Geoffrey Hinton from the University of Toronto has suggested that if progress is to be made on AI, then focus must shift away from Backprop. His view is based on the observation that the brain doesn&#8217;t learn that way and if intelligent machines are to be developed, new techniques are required.</p>\n<p>In particular, he suggests that Unsupervised Learning will prove to be a fertile area. The method of learning does not rely on having fully labelled or classified datasets the way Supervised Learning and Backprop need. Instead it tries to understand patterns within the data itself to be able to make predictions and classifications.</p>\n<p>Deep Learning does still have a lot to offer. However, given it&#8217;s requirements for large amounts of data and computing power, there is an increasing awareness that alternative machine learning techniques may prove to be equally fruitful.</p>\n<p>Source: <a href=\"https://www.axios.com/ai-pioneer-advocates-starting-over-2485537027.html\">Artificial intelligence pioneer says we need to start over &#8211; Axios</a></p>\n",
+  "wfw:commentRss": "https://aimatters.wordpress.com/2017/09/17/deep-learning-dead-end/feed/",
+  "slash:comments": 1,
+  "media:content": [
+    {
+      "media:title": "stephenoman"
+    },
+    ""
+  ]
+}

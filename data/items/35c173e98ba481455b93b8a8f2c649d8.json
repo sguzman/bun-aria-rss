@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:b5QFkXGyQxQ",
+  "yt:videoId": "b5QFkXGyQxQ",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "Mandelbrot Renderer",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-05-02T14:19:40+00:00",
+  "updated": "2022-02-12T23:05:06+00:00",
+  "media:group": {
+    "media:title": "Mandelbrot Renderer",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "http://dperrysvendsen.wordpress.com/2014/05/03/mandelbrot-renderer/\n\nIt should be noted that this video is not real-time: different parts have been sped up to various degrees, at most ~5x. Also, this particular implementation does not allow for infinite zooming; at a certain point the output will become pixilated.\n\n---\n\nFrench-American Mathematician Benoit Mandelbrot is best known for making what Sir Arthur C. Clarke described as \"one of the most astonishing discoveries in the entire history of mathematics\".\n\nIn 1975, Mandelbrot discovered what is now known as the Mandelbrot set, a collection of complex numbers which can be used to generate a repeating geometric pattern of infinite complexity. Mandelbrot labelled these patterns fractals, a name derived from the Latin frāctus, meaning shattered or fractured. The core characteristic of a fractal is self-similarity: in other words, the pattern will appear similar no matter how far one zooms in or out.\n\nThere are multiple techniques for rendering the Mandelbrot set, each of which produces slightly different results. This particular program uses the crude \"escape time\" algorithm, which produces noticeable aliased borders between different bands of colour, rather than the familiar smooth colouring characteristic of the \"normalised iteration count\" algorithm.\n\n\nIn order to render the set, the program iterates through all pixels on the screen, assigning each a co-ordinate in Mandelbrot space, according the position and scale of the current area being rendered. The colour of the pixel is determined by the number of iterations performed before the sum of the squares of the coordinates is greater than 4. If this value is not reached within a specified number of iterations, set by the user at the beginning of the program, the pixel is considered to be inside the set, and is coloured black.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
