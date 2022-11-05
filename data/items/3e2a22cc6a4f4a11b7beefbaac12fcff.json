@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:qj4a_3_HDes",
+  "yt:videoId": "qj4a_3_HDes",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "Gravity",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-12-05T09:37:52+00:00",
+  "updated": "2022-07-12T01:57:21+00:00",
+  "media:group": {
+    "media:title": "Gravity",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "http://dperrysvendsen.wordpress.com/2014/12/05/gravity/\n\nThis program is a simple top-down physics game written in C, using the SwinGame API. To complete each level, the player must guide a ball into a target area. The ball can only be moved indirectly, by utilising the gravitational attraction of nearby ‘nodes’. \n\nEach node will begin to attract the ball as the player holds down the corresponding number key. Nodes are represented as a circle surrounded by a number of rings: nodes with more rings have a larger mass, and will exert a stronger force, the magnitude of which is calculated according to the Newtonian laws of motion and universal gravitation (much the same as in my N-body simulation).\n\nWhen I first wrote this game I had only just began learning C. I recall I ran into a lot of challenges, mostly to do with the verbose way in which strings have to be handled in C, as they aren’t a built in data type. I tended to constantly forget that assignment, concatenation and comparison all had to be performed with a function, which was unlike any language I’d previously worked with. Nonetheless, I managed to get some basic level loading functions working, which allowed the parameters for each level to be read from a text file.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
