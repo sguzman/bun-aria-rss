@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.CR updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Cryptography and Security (cs.CR) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Cryptography and Security</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01444" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01452" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01508" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01535" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01579" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01580" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01592" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01621" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01628" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01645" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01656" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01658" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01665" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01753" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01805" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01806" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01808" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01827" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01840" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01845" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01852" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01875" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02003" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2104.03814" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.03409" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.07919" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.00307" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.07064" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.11703" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01109" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01444">
+<title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications. (arXiv:2211.01444v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01444</link>
+<description rdf:parseType="Literal">&lt;p&gt;Pseudorandom quantum states (PRS) are efficiently constructible states that
+are computationally indistinguishable from being Haar-random, and have recently
+found cryptographic applications. We explore new definitions, new properties
+and applications of pseudorandom states, and present the following
+contributions:
+&lt;/p&gt;
+&lt;p&gt;1. New Definitions: We study variants of pseudorandom function-like state
+(PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO&apos;22), where the
+pseudorandomness property holds even when the generator can be queried
+adaptively or in superposition. We show feasibility of these variants assuming
+the existence of post-quantum one-way functions.
+&lt;/p&gt;
+&lt;p&gt;2. Classical Communication: We show that PRS generators with logarithmic
+output length imply commitment and encryption schemes with classical
+communication. Previous constructions of such schemes from PRS generators
+required quantum communication.
+&lt;/p&gt;
+&lt;p&gt;3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli
+(TCC&apos;19) result that polynomially-many copies of uniform superposition states
+with random binary phases are indistinguishable from Haar-random states.
+&lt;/p&gt;
+&lt;p&gt;4. Necessity of Computational Assumptions: We also show that a secure PRS
+with output length logarithmic, or larger, in the key length necessarily
+requires computational assumptions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Ananth_P/0/1/0/all/0/1&quot;&gt;Prabhanjan Ananth&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gulati_A/0/1/0/all/0/1&quot;&gt;Aditya Gulati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Qian_L/0/1/0/all/0/1&quot;&gt;Lower Qian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yuen_H/0/1/0/all/0/1&quot;&gt;Henry Yuen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01452">
+<title>MPCFormer: fast, performant and private Transformer inference with MPC. (arXiv:2211.01452v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01452</link>
+<description rdf:parseType="Literal">&lt;p&gt;Enabling private inference is crucial for many cloud inference services that
+are based on Transformer models. However, existing private inference solutions
+for Transformers can increase the inference latency by more than 60x or
+significantly compromise the quality of inference results. In this paper, we
+design the framework MPCFORMER using secure multi-party computation (MPC) and
+Knowledge Distillation (KD). It can be used in tandem with many specifically
+designed MPC-friendly approximations and trained Transformer models. MPCFORMER
+significantly speeds up Transformer model inference in MPC settings while
+achieving similar ML performance to the input model. We evaluate MPCFORMER with
+various settings in MPC. On the IMDb dataset, we achieve similar performance to
+BERTBASE, while being 5.3x faster. On the GLUE benchmark, we achieve 97%
+performance of BERTBASE with a 2.2x speedup. We show that MPCFORMER remains
+effective with different trained Transformer weights such as ROBERTABASE and
+larger models including BERTLarge. In particular, we achieve similar
+performance to BERTLARGE, while being 5.93x faster on the IMDb dataset.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_D/0/1/0/all/0/1&quot;&gt;Dacheng Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shao_R/0/1/0/all/0/1&quot;&gt;Rulin Shao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Hongyi Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guo_H/0/1/0/all/0/1&quot;&gt;Han Guo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xing_E/0/1/0/all/0/1&quot;&gt;Eric P. Xing&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Hao Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01508">
+<title>Partially-Observable Security Games for Automating Attack-Defense Analysis. (arXiv:2211.01508v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01508</link>
+<description rdf:parseType="Literal">&lt;p&gt;Network systems often contain vulnerabilities that remain unfixed in a
+network for various reasons, such as the lack of a patch or knowledge to fix
+them. With the presence of such residual vulnerabilities, the network
+administrator should properly react to the malicious activities or proactively
+prevent them, by applying suitable countermeasures that minimize the likelihood
+of an attack by the attacker. In this paper, we propose a stochastic
+game-theoretic approach for analyzing network security and synthesizing defense
+strategies to protect a network. To support analysis under partial observation,
+where some of the attacker&apos;s activities are unobservable or undetectable by the
+defender, we construct a one-sided partially observable security game and
+transform it into a perfect game for further analysis. We prove that this
+transformation is sound for a sub-class of security games and a subset of
+properties specified in the logic rPATL. We implement a prototype that fully
+automates our approach, and evaluate it by conducting experiments on a
+real-life network.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khakpour_N/0/1/0/all/0/1&quot;&gt;Narges Khakpour&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Parker_D/0/1/0/all/0/1&quot;&gt;David Parker&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01535">
+<title>Reliable Malware Analysis and Detection using Topology Data Analysis. (arXiv:2211.01535v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01535</link>
+<description rdf:parseType="Literal">&lt;p&gt;Increasingly, malwares are becoming complex and they are spreading on
+networks targeting different infrastructures and personal-end devices to
+collect, modify, and destroy victim information. Malware behaviors are
+polymorphic, metamorphic, persistent, able to hide to bypass detectors and
+adapt to new environments, and even leverage machine learning techniques to
+better damage targets. Thus, it makes them difficult to analyze and detect with
+traditional endpoint detection and response, intrusion detection and prevention
+systems. To defend against malwares, recent work has proposed different
+techniques based on signatures and machine learning. In this paper, we propose
+to use an algebraic topological approach called topological-based data analysis
+(TDA) to efficiently analyze and detect complex malware patterns. Next, we
+compare the different TDA techniques (i.e., persistence homology, tomato, TDA
+Mapper) and existing techniques (i.e., PCA, UMAP, t-SNE) using different
+classifiers including random forest, decision tree, xgboost, and lightgbm. We
+also propose some recommendations to deploy the best-identified models for
+malware detection at scale. Results show that TDA Mapper (combined with PCA) is
+better for clustering and for identifying hidden relationships between malware
+clusters compared to PCA. Persistent diagrams are better to identify
+overlapping malware clusters with low execution time compared to UMAP and
+t-SNE. For malware detection, malware analysts can use Random Forest and
+Decision Tree with t-SNE and Persistent Diagram to achieve better performance
+and robustness on noised data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tidjon_L/0/1/0/all/0/1&quot;&gt;Lionel Nganyewou Tidjon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khomh_F/0/1/0/all/0/1&quot;&gt;Foutse Khomh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01579">
+<title>Data-free Defense of Black Box Models Against Adversarial Attacks. (arXiv:2211.01579v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01579</link>
+<description rdf:parseType="Literal">&lt;p&gt;Several companies often safeguard their trained deep models (i.e. details of
+architecture, learnt weights, training details etc.) from third-party users by
+exposing them only as black boxes through APIs. Moreover, they may not even
+provide access to the training data due to proprietary reasons or sensitivity
+concerns. We make the first attempt to provide adversarial robustness to the
+black box models in a data-free set up. We construct synthetic data via
+generative model and train surrogate network using model stealing techniques.
+To minimize adversarial contamination on perturbed samples, we propose `wavelet
+noise remover&apos; (WNR) that performs discrete wavelet decomposition on input
+images and carefully select only a few important coefficients determined by our
+`wavelet coefficient selection module&apos; (WCSM). To recover the high-frequency
+content of the image after noise removal via WNR, we further train a
+`regenerator&apos; network with an objective to retrieve the coefficients such that
+the reconstructed image yields similar to original predictions on the surrogate
+model. At test time, WNR combined with trained regenerator network is prepended
+to the black box network, resulting in a high boost in adversarial accuracy.
+Our method improves the adversarial accuracy on CIFAR-10 by 38.98% and 32.01%
+on state-of-the-art Auto Attack compared to baseline, even when the attacker
+uses surrogate architecture (Alexnet-half and Alexnet) similar to the black box
+architecture (Alexnet) with same model stealing strategy as defender. The code
+is available at https://github.com/vcl-iisc/data-free-black-box-defense
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nayak_G/0/1/0/all/0/1&quot;&gt;Gaurav Kumar Nayak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khatri_I/0/1/0/all/0/1&quot;&gt;Inder Khatri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Randive_S/0/1/0/all/0/1&quot;&gt;Shubham Randive&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rawal_R/0/1/0/all/0/1&quot;&gt;Ruchit Rawal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chakraborty_A/0/1/0/all/0/1&quot;&gt;Anirban Chakraborty&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01580">
+<title>AdaChain: A Learned Adaptive Blockchain. (arXiv:2211.01580v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01580</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents AdaChain, a learning-based blockchain framework that
+adaptively chooses the best permissioned blockchain architecture in order to
+optimize effective throughput for dynamic transaction workloads. AdaChain
+addresses the challenge in the Blockchain-as-a-Service (BaaS) environments,
+where a large variety of possible smart contracts are deployed with different
+workload characteristics. AdaChain supports automatically adapting to an
+underlying, dynamically changing workload through the use of reinforcement
+learning. When a promising architecture is identified, AdaChain switches from
+the current architecture to the promising one at runtime in a way that respects
+correctness and security concerns. Experimentally, we show that AdaChain can
+converge quickly to optimal architectures under changing workloads,
+significantly outperform fixed architectures in terms of the number of
+successfully committed transactions, all while incurring low additional
+overhead.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_C/0/1/0/all/0/1&quot;&gt;Chenyuan Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mehta_B/0/1/0/all/0/1&quot;&gt;Bhavana Mehta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Amiri_M/0/1/0/all/0/1&quot;&gt;Mohammad Javad Amiri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Marcus_R/0/1/0/all/0/1&quot;&gt;Ryan Marcus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Loo_B/0/1/0/all/0/1&quot;&gt;Boon Thau Loo&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01592">
+<title>Try to Avoid Attacks: A Federated Data Sanitization Defense for Healthcare IoMT Systems. (arXiv:2211.01592v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01592</link>
+<description rdf:parseType="Literal">&lt;p&gt;Healthcare IoMT systems are becoming intelligent, miniaturized, and more
+integrated into daily life. As for the distributed devices in the IoMT,
+federated learning has become a topical area with cloud-based training
+procedures when meeting data security. However, the distribution of IoMT has
+the risk of protection from data poisoning attacks. Poisoned data can be
+fabricated by falsifying medical data, which urges a security defense to IoMT
+systems. Due to the lack of specific labels, the filtering of malicious data is
+a unique unsupervised scenario. One of the main challenges is finding robust
+data filtering methods for various poisoning attacks. This paper introduces a
+Federated Data Sanitization Defense, a novel approach to protect the system
+from data poisoning attacks. To solve this unsupervised problem, we first use
+federated learning to project all the data to the subspace domain, allowing
+unified feature mapping to be established since the data is stored locally.
+Then we adopt the federated clustering to re-group their features to clarify
+the poisoned data. The clustering is based on the consistent association of
+data and its semantics. After we get the clustering of the private data, we do
+the data sanitization with a simple yet efficient strategy. In the end, each
+device of distributed ImOT is enabled to filter malicious data according to
+federated data sanitization. Extensive experiments are conducted to evaluate
+the efficacy of the proposed defense method against data poisoning attacks.
+Further, we consider our approach in the different poisoning ratios and achieve
+a high Accuracy and a low attack success rate.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_C/0/1/0/all/0/1&quot;&gt;Chong Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_Y/0/1/0/all/0/1&quot;&gt;Ying Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shi_L/0/1/0/all/0/1&quot;&gt;Leyu Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_S/0/1/0/all/0/1&quot;&gt;Siquan Huang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01621">
+<title>Leveraging Domain Features for Detecting Adversarial Attacks Against Deep Speech Recognition in Noise. (arXiv:2211.01621v1 [eess.AS])</title>
+<link>http://arxiv.org/abs/2211.01621</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, significant progress has been made in deep model-based
+automatic speech recognition (ASR), leading to its widespread deployment in the
+real world. At the same time, adversarial attacks against deep ASR systems are
+highly successful. Various methods have been proposed to defend ASR systems
+from these attacks. However, existing classification based methods focus on the
+design of deep learning models while lacking exploration of domain specific
+features. This work leverages filter bank-based features to better capture the
+characteristics of attacks for improved detection. Furthermore, the paper
+analyses the potentials of using speech and non-speech parts separately in
+detecting adversarial attacks. In the end, considering adverse environments
+where ASR systems may be deployed, we study the impact of acoustic noise of
+various types and signal-to-noise ratios. Extensive experiments show that the
+inverse filter bank features generally perform better in both clean and noisy
+environments, the detection is effective using either speech or non-speech
+part, and the acoustic noise can largely degrade the detection performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Nielsen_C/0/1/0/all/0/1&quot;&gt;Christian Heider Nielsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Tan_Z/0/1/0/all/0/1&quot;&gt;Zheng-Hua Tan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01628">
+<title>Private Semi-supervised Knowledge Transfer for Deep Learning from Noisy Labels. (arXiv:2211.01628v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01628</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep learning models trained on large-scale data have achieved encouraging
+performance in many real-world tasks. Meanwhile, publishing those models
+trained on sensitive datasets, such as medical records, could pose serious
+privacy concerns. To counter these issues, one of the current state-of-the-art
+approaches is the Private Aggregation of Teacher Ensembles, or PATE, which
+achieved promising results in preserving the utility of the model while
+providing a strong privacy guarantee. PATE combines an ensemble of &quot;teacher
+models&quot; trained on sensitive data and transfers the knowledge to a &quot;student&quot;
+model through the noisy aggregation of teachers&apos; votes for labeling unlabeled
+public data which the student model will be trained on. However, the knowledge
+or voted labels learned by the student are noisy due to private aggregation.
+Learning directly from noisy labels can significantly impact the accuracy of
+the student model.
+&lt;/p&gt;
+&lt;p&gt;In this paper, we propose the PATE++ mechanism, which combines the current
+advanced noisy label training mechanisms with the original PATE framework to
+enhance its accuracy. A novel structure of Generative Adversarial Nets (GANs)
+is developed in order to integrate them effectively. In addition, we develop a
+novel noisy label detection mechanism for semi-supervised model training to
+further improve student model performance when training with noisy labels. We
+evaluate our method on Fashion-MNIST and SVHN to show the improvements on the
+original PATE on all measures.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Q/0/1/0/all/0/1&quot;&gt;Qiuchen Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ma_J/0/1/0/all/0/1&quot;&gt;Jing Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lou_J/0/1/0/all/0/1&quot;&gt;Jian Lou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiong_L/0/1/0/all/0/1&quot;&gt;Li Xiong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiang_X/0/1/0/all/0/1&quot;&gt;Xiaoqian Jiang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01645">
+<title>Towards federated multivariate statistical process control (FedMSPC). (arXiv:2211.01645v1 [stat.ML])</title>
+<link>http://arxiv.org/abs/2211.01645</link>
+<description rdf:parseType="Literal">&lt;p&gt;The ongoing transition from a linear (produce-use-dispose) to a circular
+economy poses significant challenges to current state-of-the-art information
+and communication technologies. In particular, the derivation of integrated,
+high-level views on material, process, and product streams from (real-time)
+data produced along value chains is challenging for several reasons. Most
+importantly, sufficiently rich data is often available yet not shared across
+company borders because of privacy concerns which make it impossible to build
+integrated process models that capture the interrelations between input
+materials, process parameters, and key performance indicators along value
+chains. In the current contribution, we propose a privacy-preserving, federated
+multivariate statistical process control (FedMSPC) framework based on Federated
+Principal Component Analysis (PCA) and Secure Multiparty Computation to foster
+the incentive for closer collaboration of stakeholders along value chains. We
+tested our approach on two industrial benchmark data sets - SECOM and ST-AWFD.
+Our empirical results demonstrate the superior fault detection capability of
+the proposed approach compared to standard, single-party (multiway) PCA.
+Furthermore, we showcase the possibility of our framework to provide
+privacy-preserving fault diagnosis to each data holder in the value chain to
+underpin the benefits of secure data sharing and federated process modeling.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Duy_D/0/1/0/all/0/1&quot;&gt;Du Nguyen Duy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Gabauer_D/0/1/0/all/0/1&quot;&gt;David Gabauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/stat/1/au:+Nikzad_Langerodi_R/0/1/0/all/0/1&quot;&gt;Ramin Nikzad-Langerodi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01656">
+<title>GRAIMATTER Green Paper: Recommendations for disclosure control of trained Machine Learning (ML) models from Trusted Research Environments (TREs). (arXiv:2211.01656v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01656</link>
+<description rdf:parseType="Literal">&lt;p&gt;TREs are widely, and increasingly used to support statistical analysis of
+sensitive data across a range of sectors (e.g., health, police, tax and
+education) as they enable secure and transparent research whilst protecting
+data confidentiality. There is an increasing desire from academia and industry
+to train AI models in TREs. The field of AI is developing quickly with
+applications including spotting human errors, streamlining processes, task
+automation and decision support. These complex AI models require more
+information to describe and reproduce, increasing the possibility that
+sensitive personal data can be inferred from such descriptions. TREs do not
+have mature processes and controls against these risks. This is a complex
+topic, and it is unreasonable to expect all TREs to be aware of all risks or
+that TRE researchers have addressed these risks in AI-specific training.
+GRAIMATTER has developed a draft set of usable recommendations for TREs to
+guard against the additional risks when disclosing trained AI models from TREs.
+The development of these recommendations has been funded by the GRAIMATTER UKRI
+DARE UK sprint research project. This version of our recommendations was
+published at the end of the project in September 2022. During the course of the
+project, we have identified many areas for future investigations to expand and
+test these recommendations in practice. Therefore, we expect that this document
+will evolve over time.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jefferson_E/0/1/0/all/0/1&quot;&gt;Emily Jefferson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liley_J/0/1/0/all/0/1&quot;&gt;James Liley&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Malone_M/0/1/0/all/0/1&quot;&gt;Maeve Malone&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Reel_S/0/1/0/all/0/1&quot;&gt;Smarti Reel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Crespi_Boixader_A/0/1/0/all/0/1&quot;&gt;Alba Crespi-Boixader&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kerasidou_X/0/1/0/all/0/1&quot;&gt;Xaroula Kerasidou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tava_F/0/1/0/all/0/1&quot;&gt;Francesco Tava&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+McCarthy_A/0/1/0/all/0/1&quot;&gt;Andrew McCarthy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Preen_R/0/1/0/all/0/1&quot;&gt;Richard Preen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Blanco_Justicia_A/0/1/0/all/0/1&quot;&gt;Alberto Blanco-Justicia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mansouri_Benssassi_E/0/1/0/all/0/1&quot;&gt;Esma Mansouri-Benssassi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Domingo_Ferrer_J/0/1/0/all/0/1&quot;&gt;Josep Domingo-Ferrer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Beggs_J/0/1/0/all/0/1&quot;&gt;Jillian Beggs&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chuter_A/0/1/0/all/0/1&quot;&gt;Antony Chuter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cole_C/0/1/0/all/0/1&quot;&gt;Christian Cole&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ritchie_F/0/1/0/all/0/1&quot;&gt;Felix Ritchie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Daly_A/0/1/0/all/0/1&quot;&gt;Angela Daly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rogers_S/0/1/0/all/0/1&quot;&gt;Simon Rogers&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Smith_J/0/1/0/all/0/1&quot;&gt;Jim Smith&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01658">
+<title>Secret Sharing for Generic Theoretic Cryptography. (arXiv:2211.01658v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01658</link>
+<description rdf:parseType="Literal">&lt;p&gt;Sharing a secret efficiently amongst a group of participants is not easy
+since there is always an adversary / eavesdropper trying to retrieve the
+secret. In secret sharing schemes, every participant is given a unique share.
+When the desired group of participants come together and provide their shares,
+the secret is obtained. For other combinations of shares, a garbage value is
+returned. A threshold secret sharing scheme was proposed by Shamir and Blakley
+independently. In this (n,t) threshold secret sharing scheme, the secret can be
+obtained when at least t out of n participants contribute their shares. This
+paper proposes a novel algorithm to reveal the secret only to the subsets of
+participants belonging to the access structure. This scheme implements totally
+generalized ideal secret sharing. Unlike threshold secret sharing schemes, this
+scheme reveals the secret only to the authorized sets of participants, not any
+arbitrary set of users with cardinality more than or equal to t. Since any
+access structure can be realized with this scheme, this scheme can be exploited
+to implement various access priorities and access control mechanisms. A major
+advantage of this scheme over the existing ones is that the shares being
+distributed to the participants is totally independent of the secret being
+shared. Hence, no restrictions are imposed on the scheme and it finds a wider
+use in real world applications.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Smith_J/0/1/0/all/0/1&quot;&gt;James Smith&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01665">
+<title>From Auditable Quantum Authentication to Best-of-Both-Worlds Multiparty Quantum Computation with Public Verifiable Identifiable Abort. (arXiv:2211.01665v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01665</link>
+<description rdf:parseType="Literal">&lt;p&gt;We construct the first secure multiparty quantum computation with public
+verifiable identifiable abort (MPQC-PVIA) protocol, where PVIA security enables
+outside observers with only classical computational power to agree on the
+identity of a malicious party in case of an abort. Moreover, our MPQC is the
+first quantum setting to provide Best-of-Both-Worlds (BoBW) security, which
+attains full security with an honest majority and is secure with abort if the
+majority is dishonest. At the heart of our construction is a generic
+transformation called Auditable Quantum Authentication (AQA) that publicly
+identifies the malicious sender with overwhelming probability. Our approach
+comes with several advantages over the traditional way of building MPQC
+protocols. First, instead of following the Clifford code paradigm, our protocol
+can be based on a variety of authentication codes. Second, the online phase of
+our MPQC requires only classical communications. Third, our construction can
+achieve distributed computation via a carefully crafted protocol design, which
+can be adjusted to an MPQC that conditionally guarantees output delivery.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Mi-Ying/0/1/0/all/0/1&quot;&gt;Mi-Ying&lt;/a&gt; (Miryam) &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Huang/0/1/0/all/0/1&quot;&gt;Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tang_E/0/1/0/all/0/1&quot;&gt;Er-Cheng Tang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01753">
+<title>Looking Beyond IoCs: Automatically Extracting Attack Patterns from External CTI. (arXiv:2211.01753v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01753</link>
+<description rdf:parseType="Literal">&lt;p&gt;Public and commercial companies extensively share cyber threat intelligence
+(CTI) to prepare systems to defend against emerging cyberattacks. Most used
+intelligence thus far has been limited to tracking known threat indicators such
+as IP addresses and domain names as they are easier to extract using regular
+expressions. Due to the limited long-term usage and difficulty of performing a
+long-term analysis on indicators, we propose using significantly more robust
+threat intelligence signals called attack patterns. However, extracting attack
+patterns at scale is a challenging task. In this paper, we present LADDER, a
+knowledge extraction framework that can extract text-based attack patterns from
+CTI reports at scale. The model characterizes attack patterns by capturing
+phases of an attack in android and enterprise networks. It then systematically
+maps them to the MITRE ATT\&amp;amp;CK pattern framework. We present several use cases
+to demonstrate the application of LADDER for SOC analysts in determining the
+presence of attack vectors belonging to emerging attacks in preparation for
+defenses in advance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Alam_M/0/1/0/all/0/1&quot;&gt;Md Tanvirul Alam&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bhusal_D/0/1/0/all/0/1&quot;&gt;Dipkamal Bhusal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Park_Y/0/1/0/all/0/1&quot;&gt;Youngja Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rastogi_N/0/1/0/all/0/1&quot;&gt;Nidhi Rastogi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01805">
+<title>FedMint: Intelligent Bilateral Client Selection in Federated Learning with Newcomer IoT Devices. (arXiv:2211.01805v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01805</link>
+<description rdf:parseType="Literal">&lt;p&gt;Federated Learning (FL) is a novel distributed privacy-preserving learning
+paradigm, which enables the collaboration among several participants (e.g.,
+Internet of Things devices) for the training of machine learning models.
+However, selecting the participants that would contribute to this collaborative
+training is highly challenging. Adopting a random selection strategy would
+entail substantial problems due to the heterogeneity in terms of data quality,
+and computational and communication resources across the participants. Although
+several approaches have been proposed in the literature to overcome the problem
+of random selection, most of these approaches follow a unilateral selection
+strategy. In fact, they base their selection strategy on only the federated
+server&apos;s side, while overlooking the interests of the client devices in the
+process. To overcome this problem, we present in this paper FedMint, an
+intelligent client selection approach for federated learning on IoT devices
+using game theory and bootstrapping mechanism. Our solution involves the design
+of: (1) preference functions for the client IoT devices and federated servers
+to allow them to rank each other according to several factors such as accuracy
+and price, (2) intelligent matching algorithms that take into account the
+preferences of both parties in their design, and (3) bootstrapping technique
+that capitalizes on the collaboration of multiple federated servers in order to
+assign initial accuracy value for the newly connected IoT devices. Based on our
+simulation findings, our strategy surpasses the VanillaFL selection approach in
+terms of maximizing both the revenues of the client devices and accuracy of the
+global federated learning model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wehbi_O/0/1/0/all/0/1&quot;&gt;Osama Wehbi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Arisdakessian_S/0/1/0/all/0/1&quot;&gt;Sarhad Arisdakessian&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wahab_O/0/1/0/all/0/1&quot;&gt;Omar Abdel Wahab&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Otrok_H/0/1/0/all/0/1&quot;&gt;Hadi Otrok&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Otoum_S/0/1/0/all/0/1&quot;&gt;Safa Otoum&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mourad_A/0/1/0/all/0/1&quot;&gt;Azzam Mourad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guizani_M/0/1/0/all/0/1&quot;&gt;Mohsen Guizani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01806">
+<title>BATT: Backdoor Attack with Transformation-based Triggers. (arXiv:2211.01806v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01806</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep neural networks (DNNs) are vulnerable to backdoor attacks. The backdoor
+adversaries intend to maliciously control the predictions of attacked DNNs by
+injecting hidden backdoors that can be activated by adversary-specified trigger
+patterns during the training process. One recent research revealed that most of
+the existing attacks failed in the real physical world since the trigger
+contained in the digitized test samples may be different from that of the one
+used for training. Accordingly, users can adopt spatial transformations as the
+image pre-processing to deactivate hidden backdoors. In this paper, we explore
+the previous findings from another side. We exploit classical spatial
+transformations (i.e. rotation and translation) with the specific parameter as
+trigger patterns to design a simple yet effective poisoning-based backdoor
+attack. For example, only images rotated to a particular angle can activate the
+embedded backdoor of attacked DNNs. Extensive experiments are conducted,
+verifying the effectiveness of our attack under both digital and physical
+settings and its resistance to existing backdoor defenses.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_T/0/1/0/all/0/1&quot;&gt;Tong Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yiming Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiang_Y/0/1/0/all/0/1&quot;&gt;Yong Jiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xia_S/0/1/0/all/0/1&quot;&gt;Shu-Tao Xia&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01808">
+<title>Dormant Neural Trojans. (arXiv:2211.01808v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01808</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a novel methodology for neural network backdoor attacks. Unlike
+existing training-time attacks where the Trojaned network would respond to the
+Trojan trigger after training, our approach inserts a Trojan that will remain
+dormant until it is activated. The activation is realized through a specific
+perturbation to the network&apos;s weight parameters only known to the attacker. Our
+analysis and the experimental results demonstrate that dormant Trojaned
+networks can effectively evade detection by state-of-the-art backdoor detection
+methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fu_F/0/1/0/all/0/1&quot;&gt;Feisi Fu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kiourti_P/0/1/0/all/0/1&quot;&gt;Panagiota Kiourti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Wenchao Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01827">
+<title>Demo: LE3D: A Privacy-preserving Lightweight Data Drift Detection Framework. (arXiv:2211.01827v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01827</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper presents LE3D; a novel data drift detection framework for
+preserving data integrity and confidentiality. LE3D is a generalisable platform
+for evaluating novel drift detection mechanisms within the Internet of Things
+(IoT) sensor deployments. Our framework operates in a distributed manner,
+preserving data privacy while still being adaptable to new sensors with minimal
+online reconfiguration. Our framework currently supports multiple drift
+estimators for time-series IoT data and can easily be extended to accommodate
+new data types and drift detection mechanisms. This demo will illustrate the
+functionality of LE3D under a real-world-like scenario.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mavromatis_I/0/1/0/all/0/1&quot;&gt;Ioannis Mavromatis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khan_A/0/1/0/all/0/1&quot;&gt;Aftab Khan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01840">
+<title>LE3D: A Lightweight Ensemble Framework of Data Drift Detectors for Resource-Constrained Devices. (arXiv:2211.01840v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01840</link>
+<description rdf:parseType="Literal">&lt;p&gt;Data integrity becomes paramount as the number of Internet of Things (IoT)
+sensor deployments increases. Sensor data can be altered by benign causes or
+malicious actions. Mechanisms that detect drifts and irregularities can prevent
+disruptions and data bias in the state of an IoT application. This paper
+presents LE3D, an ensemble framework of data drift estimators capable of
+detecting abnormal sensor behaviours. Working collaboratively with surrounding
+IoT devices, the type of drift (natural/abnormal) can also be identified and
+reported to the end-user. The proposed framework is a lightweight and
+unsupervised implementation able to run on resource-constrained IoT devices.
+Our framework is also generalisable, adapting to new sensor streams and
+environments with minimal online reconfiguration. We compare our method against
+state-of-the-art ensemble data drift detection frameworks, evaluating both the
+real-world detection accuracy as well as the resource utilisation of the
+implementation. Experimenting with real-world data and emulated drifts, we show
+the effectiveness of our method, which achieves up to 97% of detection accuracy
+while requiring minimal resources to run.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mavromatis_I/0/1/0/all/0/1&quot;&gt;Ioannis Mavromatis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sanchez_Mompo_A/0/1/0/all/0/1&quot;&gt;Adrian Sanchez-Mompo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Raimondo_F/0/1/0/all/0/1&quot;&gt;Francesco Raimondo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pope_J/0/1/0/all/0/1&quot;&gt;James Pope&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bullo_M/0/1/0/all/0/1&quot;&gt;Marcello Bullo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weeks_I/0/1/0/all/0/1&quot;&gt;Ingram Weeks&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kumar_V/0/1/0/all/0/1&quot;&gt;Vijay Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Carnelli_P/0/1/0/all/0/1&quot;&gt;Pietro Carnelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Oikonomou_G/0/1/0/all/0/1&quot;&gt;George Oikonomou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Spyridopoulos_T/0/1/0/all/0/1&quot;&gt;Theodoros Spyridopoulos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Khan_A/0/1/0/all/0/1&quot;&gt;Aftab Khan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01845">
+<title>Reinforcement Learning based Cyberattack Model for Adaptive Traffic Signal Controller in Connected Transportation Systems. (arXiv:2211.01845v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01845</link>
+<description rdf:parseType="Literal">&lt;p&gt;In a connected transportation system, adaptive traffic signal controllers
+(ATSC) utilize real-time vehicle trajectory data received from vehicles through
+wireless connectivity (i.e., connected vehicles) to regulate green time.
+However, this wirelessly connected ATSC increases cyber-attack surfaces and
+increases their vulnerability to various cyber-attack modes, which can be
+leveraged to induce significant congestion in a roadway network. An attacker
+may receive financial benefits to create such a congestion for a specific
+roadway. One such mode is a &apos;sybil&apos; attack in which an attacker creates fake
+vehicles in the network by generating fake Basic Safety Messages (BSMs)
+imitating actual connected vehicles following roadway traffic rules. The
+ultimate goal of an attacker will be to block a route(s) by generating fake or
+&apos;sybil&apos; vehicles at a rate such that the signal timing and phasing changes
+occur without flagging any abrupt change in number of vehicles. Because of the
+highly non-linear and unpredictable nature of vehicle arrival rates and the
+ATSC algorithm, it is difficult to find an optimal rate of sybil vehicles,
+which will be injected from different approaches of an intersection. Thus, it
+is necessary to develop an intelligent cyber-attack model to prove the
+existence of such attacks. In this study, a reinforcement learning based
+cyber-attack model is developed for a waiting time-based ATSC. Specifically, an
+RL agent is trained to learn an optimal rate of sybil vehicle injection to
+create congestion for an approach(s). Our analyses revealed that the RL agent
+can learn an optimal policy for creating an intelligent attack.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Irfan_M/0/1/0/all/0/1&quot;&gt;Muhammad Sami Irfan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rahman_M/0/1/0/all/0/1&quot;&gt;Mizanur Rahman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Atkison_T/0/1/0/all/0/1&quot;&gt;Travis Atkison&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dasgupta_S/0/1/0/all/0/1&quot;&gt;Sagar Dasgupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hainen_A/0/1/0/all/0/1&quot;&gt;Alexander Hainen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01852">
+<title>Revisiting Hyperparameter Tuning with Differential Privacy. (arXiv:2211.01852v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01852</link>
+<description rdf:parseType="Literal">&lt;p&gt;Hyperparameter tuning is a common practice in the application of machine
+learning but is a typically ignored aspect in the literature on
+privacy-preserving machine learning due to its negative effect on the overall
+privacy parameter. In this paper, we aim to tackle this fundamental yet
+challenging problem by providing an effective hyperparameter tuning framework
+with differential privacy. The proposed method allows us to adopt a broader
+hyperparameter search space and even to perform a grid search over the whole
+space, since its privacy loss parameter is independent of the number of
+hyperparameter candidates. Interestingly, it instead correlates with the
+utility gained from hyperparameter searching, revealing an explicit and
+mandatory trade-off between privacy and utility. Theoretically, we show that
+its additional privacy loss bound incurred by hyperparameter tuning is
+upper-bounded by the squared root of the gained utility. However, we note that
+the additional privacy loss bound would empirically scale like a squared root
+of the logarithm of the utility term, benefiting from the design of doubling
+step.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ding_Y/0/1/0/all/0/1&quot;&gt;Youlong Ding&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_X/0/1/0/all/0/1&quot;&gt;Xueyang Wu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01875">
+<title>M-to-N Backdoor Paradigm: A Stealthy and Fuzzy Attack to Deep Learning Models. (arXiv:2211.01875v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.01875</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent studies show that deep neural networks (DNNs) are vulnerable to
+backdoor attacks. A backdoor DNN model behaves normally with clean inputs,
+whereas outputs attacker&apos;s expected behaviors when the inputs contain a
+pre-defined pattern called a trigger. However, in some tasks, the attacker
+cannot know the exact target that shows his/her expected behavior, because the
+task may contain a large number of classes and the attacker does not have full
+access to know the semantic details of these classes. Thus, the attacker is
+willing to attack multiple suspected targets to achieve his/her purpose. In
+light of this, in this paper, we propose the M-to-N backdoor attack, a new
+attack paradigm that allows an attacker to launch a fuzzy attack by
+simultaneously attacking N suspected targets, and each of the N targets can be
+activated by any one of its M triggers. To achieve a better stealthiness, we
+randomly select M clean images from the training dataset as our triggers for
+each target. Since the triggers used in our attack have the same distribution
+as the clean images, the inputs poisoned by the triggers are difficult to be
+detected by the input-based defenses, and the backdoor models trained on the
+poisoned training dataset are also difficult to be detected by the model-based
+defenses. Thus, our attack is stealthier and has a higher probability of
+achieving the attack purpose by attacking multiple suspected targets
+simultaneously in contrast to prior backdoor attacks. Extensive experiments
+show that our attack is effective against different datasets with various
+models and achieves high attack success rates (e.g., 99.43% for attacking 2
+targets and 98.23% for attacking 4 targets on the CIFAR-10 dataset) when
+poisoning only an extremely small portion of the training dataset (e.g., less
+than 2%). Besides, it is robust to pre-processing operations and can resist
+state-of-the-art defenses.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hou_L/0/1/0/all/0/1&quot;&gt;Linshan Hou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hua_Z/0/1/0/all/0/1&quot;&gt;Zhongyun Hua&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Yuhong Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_L/0/1/0/all/0/1&quot;&gt;Leo Yu Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02003">
+<title>Single SMPC Invocation DPHelmet: Differentially Private Distributed Learning on a Large Scale. (arXiv:2211.02003v1 [cs.CR])</title>
+<link>http://arxiv.org/abs/2211.02003</link>
+<description rdf:parseType="Literal">&lt;p&gt;Distributing machine learning predictors enables the collection of
+large-scale datasets while leaving sensitive raw data at trustworthy sites. We
+show that locally training support vector machines (SVMs) and computing their
+averages leads to a learning technique that is scalable to a large number of
+users, satisfies differential privacy, and is applicable to non-trivial tasks,
+such as CIFAR-10. For a large number of participants, communication cost is one
+of the main challenges. We achieve a low communication cost by requiring only a
+single invocation of an efficient secure multiparty summation protocol. By
+relying on state-of-the-art feature extractors (SimCLR), we are able to utilize
+differentially private convex learners for non-trivial tasks such as CIFAR-10.
+Our experimental results illustrate that for $1{,}000$ users with $50$ data
+points each, our scheme outperforms state-of-the-art scalable distributed
+learning methods (differentially private federated learning, short DP-FL) while
+requiring around $500$ times fewer communication costs: For CIFAR-10, we
+achieve a classification accuracy of $79.7\,\%$ for an $\varepsilon = 0.59$
+while DP-FL achieves $57.6\,\%$. More generally, we prove learnability
+properties for the average of such locally trained models: convergence and
+uniform stability. By only requiring strongly convex, smooth, and
+Lipschitz-continuous objective functions, locally trained via stochastic
+gradient descent (SGD), we achieve a strong utility-privacy tradeoff.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kirschte_M/0/1/0/all/0/1&quot;&gt;Moritz Kirschte&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meiser_S/0/1/0/all/0/1&quot;&gt;Sebastian Meiser&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ardalan_S/0/1/0/all/0/1&quot;&gt;Saman Ardalan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mohammadi_E/0/1/0/all/0/1&quot;&gt;Esfandiar Mohammadi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2104.03814">
+<title>Algorithmic Obfuscation for LDPC Decoders. (arXiv:2104.03814v3 [cs.AR] UPDATED)</title>
+<link>http://arxiv.org/abs/2104.03814</link>
+<description rdf:parseType="Literal">&lt;p&gt;In order to protect intellectual property against untrusted foundry, many
+logic-locking schemes have been developed. The main idea of logic locking is to
+insert a key-controlled block into a circuit to make the circuit function
+incorrectly without right keys. However, in the case that the algorithm
+implemented by the circuit is naturally fault-tolerant or self-correcting,
+existing logic-locking schemes do not affect the system performance much even
+if wrong keys are used. One example is low-density parity-check (LDPC)
+error-correcting decoder, which has broad applications in digital
+communications and storage. This paper proposes two algorithmic-level
+obfuscation methods for LDPC decoders. By modifying the decoding process and
+locking the stopping criterion, our new designs substantially degrade the
+decoder throughput and/or error-correcting performance when the wrong key is
+used. Besides, our designs are also resistant to the SAT, AppSAT and removal
+attacks. For an example LDPC decoder, our proposed methods reduce the
+throughput to less than 1/3 and/or increase the decoder error rate by at least
+two orders of magnitude with only 0.33% area overhead.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_J/0/1/0/all/0/1&quot;&gt;Jingbo Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_X/0/1/0/all/0/1&quot;&gt;Xinmiao Zhang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.03409">
+<title>DP$^2$-VAE: Differentially Private Pre-trained Variational Autoencoders. (arXiv:2208.03409v2 [cs.LG] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.03409</link>
+<description rdf:parseType="Literal">&lt;p&gt;Modern machine learning systems achieve great success when trained on large
+datasets. However, these datasets usually contain sensitive information (e.g.
+medical records, face images), leading to serious privacy concerns.
+Differentially private generative models (DPGMs) emerge as a solution to
+circumvent such privacy concerns by generating privatized sensitive data.
+Similar to other differentially private (DP) learners, the major challenge for
+DPGM is also how to achieve a subtle balance between utility and privacy. We
+propose DP$^2$-VAE, a novel training mechanism for variational autoencoders
+(VAE) with provable DP guarantees and improved utility via \emph{pre-training
+on private data}. Under the same DP constraints, DP$^2$-VAE minimizes the
+perturbation noise during training, and hence improves utility. DP$^2$-VAE is
+very flexible and easily amenable to many other VAE variants. Theoretically, we
+study the effect of pretraining on private data. Empirically, we conduct
+extensive experiments on image datasets to illustrate our superiority over
+baselines under various privacy budgets and evaluation metrics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jiang_D/0/1/0/all/0/1&quot;&gt;Dihong Jiang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_G/0/1/0/all/0/1&quot;&gt;Guojun Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Karami_M/0/1/0/all/0/1&quot;&gt;Mahdi Karami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xi Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shao_Y/0/1/0/all/0/1&quot;&gt;Yunfeng Shao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yu_Y/0/1/0/all/0/1&quot;&gt;Yaoliang Yu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.07919">
+<title>Dynamic Pricing for Non-fungible Resources: Designing Multidimensional Blockchain Fee Markets. (arXiv:2208.07919v2 [math.OC] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.07919</link>
+<description rdf:parseType="Literal">&lt;p&gt;Public blockchains implement a fee mechanism to allocate scarce computational
+resources across competing transactions. Most existing fee market designs
+utilize a joint, fungible unit of account (e.g., gas in Ethereum) to price
+otherwise non-fungible resources such as bandwidth, computation, and storage,
+by hardcoding their relative prices. Fixing the relative price of each resource
+in this way inhibits granular price discovery, limiting scalability and opening
+up the possibility of denial-of-service attacks. As a result, many prominent
+networks such as Ethereum and Solana have proposed multi-dimensional fee
+markets. In this paper, we provide a principled way to design fee markets that
+efficiently price multiple non-fungible resources. Starting from a loss
+function specified by the network designer, we show how to compute dynamic
+prices that align the network&apos;s incentives (to minimize the loss) with those of
+the users and miners (to maximize their welfare), even as demand for these
+resources changes. Our pricing mechanism follows from a natural decomposition
+of the network designer&apos;s problem into two parts that are related to each other
+via the resource prices. These results can be used to efficiently set fees in
+order to improve network performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Diamandis_T/0/1/0/all/0/1&quot;&gt;Theo Diamandis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Evans_A/0/1/0/all/0/1&quot;&gt;Alex Evans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Chitra_T/0/1/0/all/0/1&quot;&gt;Tarun Chitra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Angeris_G/0/1/0/all/0/1&quot;&gt;Guillermo Angeris&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.00307">
+<title>Memory Tagging: A Memory Efficient Design. (arXiv:2209.00307v2 [cs.CR] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.00307</link>
+<description rdf:parseType="Literal">&lt;p&gt;ARM recently introduced a security feature called Memory Tagging Extension or
+MTE, which is designed to defend against common memory safety vulnerabilities,
+such as buffer overflow and use after free. In this paper, we examine three
+aspects of MTE. First, we survey how modern software systems, such as Glibc,
+Android, Chrome, Linux, and LLVM, use MTE. We identify some common weaknesses
+and propose improvements. Second, we develop and experiment with an
+architectural improvement to MTE that improves its memory efficiency. Our
+design enables longer memory tags, which improves the accuracy of MTE. Finally,
+we discuss a number of enhancements to MTE to improve its security against
+certain memory safety attacks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Partap_A/0/1/0/all/0/1&quot;&gt;Aditi Partap&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Boneh_D/0/1/0/all/0/1&quot;&gt;Dan Boneh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.07064">
+<title>SecSkyline: Fast Privacy-Preserving Skyline Queries over Encrypted Cloud Databases. (arXiv:2209.07064v2 [cs.CR] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.07064</link>
+<description rdf:parseType="Literal">&lt;p&gt;The well-known benefits of cloud computing have spurred the popularity of
+database service outsourcing, where one can resort to the cloud to conveniently
+store and query databases. Coming with such popular trend is the threat to data
+privacy, as the cloud gains access to the databases and queries which may
+contain sensitive information, like medical or financial data. A large body of
+work has been presented for querying encrypted databases, which has been mostly
+focused on secure keyword search. In this paper, we instead focus on the
+support for secure skyline query processing over encrypted outsourced
+databases, where little work has been done. Skyline query is an advanced kind
+of database query which is important for multi-criteria decision-making systems
+and applications. We propose SecSkyline, a new system framework building on
+lightweight cryptography for fast privacy-preserving skyline queries.
+SecSkyline ambitiously provides strong protection for not only the content
+confidentiality of the outsourced database, the query, and the result, but also
+for data patterns that may incur indirect data leakages, such as dominance
+relationships among data points and search access patterns. Extensive
+experiments demonstrate that SecSkyline is substantially superior to the
+state-of-the-art in query latency, with up to 813$\times$ improvement.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zheng_Y/0/1/0/all/0/1&quot;&gt;Yifeng Zheng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Weibo Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_S/0/1/0/all/0/1&quot;&gt;Songlei Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jia_X/0/1/0/all/0/1&quot;&gt;Xiaohua Jia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_H/0/1/0/all/0/1&quot;&gt;Hejiao Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_C/0/1/0/all/0/1&quot;&gt;Cong Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.11703">
+<title>SCL: A Secure Concurrency Layer For Paranoid Stateful Lambdas. (arXiv:2210.11703v2 [cs.CR] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.11703</link>
+<description rdf:parseType="Literal">&lt;p&gt;We propose a federated Function-as-a-Service (FaaS) execution model that
+provides secure and stateful execution in both Cloud and Edge environments. The
+FaaS workers, called Paranoid Stateful Lambdas (PSLs), collaborate with one
+another to perform large parallel computations. We exploit cryptographically
+hardened and mobile bundles of data, called DataCapsules, to provide persistent
+state for our PSLs, whose execution is protected using hardware-secured TEEs.
+To make PSLs easy to program and performant, we build the familiar Key-Value
+Store interface on top of DataCapsules in a way that allows amortization of
+cryptographic operations. We demonstrate PSLs functioning in an edge
+environment running on a group of Intel NUCs with SGXv2.
+&lt;/p&gt;
+&lt;p&gt;As described, our Secure Concurrency Layer (SCL), provides
+eventually-consistent semantics over written values using untrusted and
+unordered multicast. All SCL communication is encrypted, unforgeable, and
+private. For durability, updates are recorded in replicated DataCapsules, which
+are append-only cryptographically-hardened blockchain with confidentiality,
+integrity, and provenance guarantees. Values for inactive keys are stored in a
+log-structured merge-tree (LSM) in the same DataCapsule. SCL features a variety
+of communication optimizations, such as an efficient message passing framework
+that reduces the latency up to 44x from the Intel SGX SDK, and an actor-based
+cryptographic processing architecture that batches cryptographic operations and
+increases throughput by 81x.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_K/0/1/0/all/0/1&quot;&gt;Kaiyuan Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Thomas_A/0/1/0/all/0/1&quot;&gt;Alexander Thomas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lu_H/0/1/0/all/0/1&quot;&gt;Hanming Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mullen_W/0/1/0/all/0/1&quot;&gt;William Mullen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ichnowski_J/0/1/0/all/0/1&quot;&gt;Jeffery Ichnowski&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Arya_R/0/1/0/all/0/1&quot;&gt;Rahul Arya&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Krishnakumar_N/0/1/0/all/0/1&quot;&gt;Nivedha Krishnakumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Teoh_R/0/1/0/all/0/1&quot;&gt;Ryan Teoh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_W/0/1/0/all/0/1&quot;&gt;Willis Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Joseph_A/0/1/0/all/0/1&quot;&gt;Anthony Joseph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kubiatowicz_J/0/1/0/all/0/1&quot;&gt;John Kubiatowicz&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01109">
+<title>The Impostor Among US(B): Off-Path Injection Attacks on USB Communications. (arXiv:2211.01109v2 [cs.CR] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01109</link>
+<description rdf:parseType="Literal">&lt;p&gt;USB is the most prevalent peripheral interface in modern computer systems and
+its inherent insecurities make it an appealing attack vector. A well-known
+limitation of USB is that traffic is not encrypted. This allows on-path
+adversaries to trivially perform man-in-the-middle attacks. Off-path attacks
+that compromise the confidentiality of communications have also been shown to
+be possible. However, so far no off-path attacks that breach USB communications
+integrity have been demonstrated.
+&lt;/p&gt;
+&lt;p&gt;In this work we show that the integrity of USB communications is not
+guaranteed even against off-path attackers.Specifically, we design and build
+malicious devices that, even when placed outside of the path between a victim
+device and the host, can inject data to that path. Using our developed
+injectors we can falsify the provenance of data input as interpreted by a host
+computer system. By injecting on behalf of trusted victim devices we can
+circumvent any software-based authorisation policy defences that computer
+systems employ against common USB attacks. We demonstrate two concrete attacks.
+The first injects keystrokes allowing an attacker to execute commands. The
+second demonstrates file-contents replacement including during system install
+from a USB disk. We test the attacks on 29 USB 2.0 and USB 3.x hubs and find 14
+of them to be vulnerable.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dumitru_R/0/1/0/all/0/1&quot;&gt;Robert Dumitru&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Genkin_D/0/1/0/all/0/1&quot;&gt;Daniel Genkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wabnitz_A/0/1/0/all/0/1&quot;&gt;Andrew Wabnitz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yarom_Y/0/1/0/all/0/1&quot;&gt;Yuval Yarom&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
