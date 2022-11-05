@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>nlin.AO updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Nonlinear Sciences -- Adaptation and Self-Organizing Systems (nlin.AO) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Nonlinear Sciences -- Adaptation and Self-Organizing Systems</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01698" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01831" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01955" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01698">
+<title>Scaling up the self-optimization model by means of on-the-fly computation of weights. (arXiv:2211.01698v1 [nlin.AO])</title>
+<link>http://arxiv.org/abs/2211.01698</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Self-Optimization (SO) model is a useful computational model for
+investigating self-organization in &quot;soft&quot; Artificial life (ALife) as it has
+been shown to be general enough to model various complex adaptive systems. So
+far, existing work has been done on relatively small network sizes, precluding
+the investigation of novel phenomena that might emerge from the complexity
+arising from large numbers of nodes interacting in interconnected networks.
+This work introduces a novel implementation of the SO model that scales as
+$\mathcal{O}\left(N^{2}\right)$ with respect to the number of nodes $N$, and
+demonstrates the applicability of the SO model to networks with system sizes
+several orders of magnitude higher than previously was investigated. Removing
+the prohibitive computational cost of the naive $\mathcal{O}\left(N^{3}\right)$
+algorithm, our on-the-fly computation paves the way for investigating
+substantially larger system sizes, allowing for more variety and complexity in
+future studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Weber_N/0/1/0/all/0/1&quot;&gt;Natalya Weber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Koch_W/0/1/0/all/0/1&quot;&gt;Werner Koch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Froese_T/0/1/0/all/0/1&quot;&gt;Tom Froese&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01831">
+<title>Polynomial Life: the Structure of Adaptive Systems. (arXiv:2211.01831v1 [nlin.AO])</title>
+<link>http://arxiv.org/abs/2211.01831</link>
+<description rdf:parseType="Literal">&lt;p&gt;We extend our earlier work on the compositional structure of cybernetic
+systems in order to account for the embodiment of such systems. All their
+interactions proceed through their bodies&apos; boundaries: sensations impinge on
+their surfaces, and actions correspond to changes in their configurations. We
+formalize this morphological perspective using polynomial functors. The
+&apos;internal universes&apos; of systems are shown to constitute an indexed category of
+statistical games over polynomials; their dynamics form an indexed category of
+behaviours. We characterize &apos;active inference doctrines&apos; as indexed functors
+between such categories, resolving a number of open problems in our earlier
+work, and pointing to a formalization of the &apos;free energy principle&apos; as adjoint
+to such doctrines. We illustrate our framework through fundamental examples
+from biology, including homeostasis, morphogenesis, and autopoiesis, and
+suggest a formal connection between spatial navigation and the process of
+proof.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Smithe_T/0/1/0/all/0/1&quot;&gt;Toby St Clere Smithe&lt;/a&gt; (Topos Institute)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01955">
+<title>Quantifying the `end of history&apos; through a Bayesian Markov-chain approach. (arXiv:2211.01955v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01955</link>
+<description rdf:parseType="Literal">&lt;p&gt;Political regimes have been changing throughout human history. After the
+apparent triumph of liberal democracies at the end of the twentieth century,
+Francis Fukuyama and others have been arguing that humankind is approaching an
+`end of history&apos; (EoH) in the form of a universality of liberal democracies.
+This view has been challenged by recent developments that seem to indicate the
+rise of defective democracies across the globe. There has been no attempt to
+quantify the expected EoH with a statistical approach. In this study, we model
+the transition between political regimes as a Markov process and -- using a
+Bayesian inference approach -- we estimate the transition probabilities between
+political regimes from time-series data describing the evolution of political
+regimes from 1800--2018. We then compute the steady state for this Markov
+process which represents a mathematical abstraction of the EoH and predicts
+that approximately 46 % of countries will be full democracies. Furthermore, we
+find that, under our model, the fraction of autocracies in the world is
+expected to increase for the next half-century before it declines. Using
+random-walk theory, we then estimate survival curves of different types of
+regimes and estimate characteristic lifetimes of democracies and autocracies of
+244 years and 69 years, respectively. Quantifying the expected EoH allows us to
+challenge common beliefs about the nature of political equilibria.
+Specifically, we find no statistical evidence that the EoH constitutes a fixed,
+complete omnipresence of democratic regimes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Klimm_F/0/1/0/all/0/1&quot;&gt;Florian Klimm&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
