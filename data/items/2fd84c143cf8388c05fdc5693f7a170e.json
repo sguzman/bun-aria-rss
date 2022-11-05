@@ -1,0 +1,6 @@
+{
+  "title": "Fast integrators with sensitivity propagation for use in CasADi. (arXiv:2211.01982v1 [math.OC])",
+  "link": "http://arxiv.org/abs/2211.01982",
+  "description": "<p>Efficient integrators with sensitivity propagation are an essential\ningredient for the numerical solution of optimal control problems. This paper\ngives an overview on the acados integrators, their Python interface and\npresents a workflow that allows using them with their sensitivities within a\nnonlinear programming (NLP) solver interfaced by CasADi. The implementation is\ndiscussed, demonstrated and provided as open-source software. The computation\ntimes of the proposed integrator and its sensitivity computation are compared\nto the native CasADi collocation integrator, CVODES and IDAS on different\nexamples. A speedup of one order of magnitude for simulation and of up to three\norders of magnitude for the forward sensitivity propagation is shown for an\nairborne wind energy system model.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Frey_J/0/1/0/all/0/1\">Jonathan Frey</a>, <a href=\"http://arxiv.org/find/math/1/au:+Schutter_J/0/1/0/all/0/1\">Jochem De Schutter</a>, <a href=\"http://arxiv.org/find/math/1/au:+Diehl_M/0/1/0/all/0/1\">Moritz Diehl</a>"
+}
