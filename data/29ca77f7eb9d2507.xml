@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Ben Frederickson</title>
+ <link href="http://www.benfrederickson.com/atom.xml" rel="self"/>
+ <link href="http://www.benfrederickson.com/`" rel="alternate"/>
+ <updated>2021-11-08T22:05:47-08:00</updated>
+ <id>http://www.benfrederickson.com/</id>
+ <author>
+   <name>Ben Frederickson</name>
+ </author>
+ <rights>Copyright 2021 Ben Frederickson. All Rights Reserved</rights>
+
+ 
+ 
+ <entry>
+   <title>Why Python needs to be paused during profiling - but Ruby doesn't always</title>
+   <link href="http://www.benfrederickson.com/why-python-needs-paused-during-profiling/"/>
+   <updated>2021-11-09T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/why-python-needs-paused-during-profiling/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/python-ruby-pausing/flame_nonblocking.png" width="100%" style="max-width:500px">
+        
+        <p>One of the cool things about the <a href="https://github.com/rbspy/rbspy">rbspy profiler</a> is that it
+can profile any running Ruby program, without even pausing the Ruby program that is being profiled. Rbspy is a sampling profiler, and
+when the <code class="language-plaintext highlighter-rouge">--nonblocking</code> argument is passed to it, it will collect each stack trace from the
+profiled program without pausing it or doing any synchronization. This has the advantage of not slowing down the
+profiled program at all, but has the disadvantage of leading to a data race between the rbspy
+profiler and the Ruby program being profiled. In the nonblocking mode, rbspy tries to get an accurate stack
+trace from the Ruby program while the Ruby program is actively changing the stack by running the
+code - and since there is no locking happening there is potential
+for a data race. Amazingly, rbspy still manages to get good results even without doing any
+synchronization.</p>
+
+<p>Julia Evans wrote an excellent post
+about <a href="https://jvns.ca/blog/2018/01/15/should-i-pause-a-ruby-process-to-collect-its-stack/">whether to pause Ruby during
+profiling</a> -
+and concluded that pausing the Ruby program wasn’t always necessary. While running in the
+nonblocking mode <a href="https://github.com/rbspy/rbspy/pull/316">can cause some minor errors</a> and isn’t
+the default anymore, the profiles generated in the nonblocking mode are still fairly accurate.</p>
+
+<p>This isn’t the case with <a href="https://github.com/benfred/py-spy">py-spy</a>, which is a similar sampling profiler for Python programs. When you run
+py-spy in the nonblocking mode, the profiles generated can be wildly misleading and nonsensical.</p>
+
+<p>This post is talking about what the effects of a data race look like when profiling with py-spy,
+why this happens with py-spy much more frequently than in rbspy due to differences in the CPython and CRuby interpreter
+implementations, and why you still might want to consider using the nonblocking in some conditions
+despite the potential for inaccurate profiles being generated.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/why-python-needs-paused-during-profiling/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Profiling Native Python Extensions</title>
+   <link href="http://www.benfrederickson.com/profiling-native-python-extensions-with-py-spy/"/>
+   <updated>2019-09-27T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/profiling-native-python-extensions-with-py-spy/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/native-python-extensions/flame.png" width="100%" style="max-width:500px">
+        
+        <p>One of the cool new features in <a href="https://github.com/benfred/py-spy">py-spy</a>
+is the ability to profile native Python extensions written in languages
+like C, C++ or Cython.</p>
+
+<p>Almost all other Python profilers<sup><a href="#footnote1">[1]</a></sup> only show program activity that is in pure Python code, and
+native code will instead show up as spending time in the line of Python that calls the native
+function. Using native profiling tools like perf can get you a sense of what’s going on the native side of things
+but at the expense of losing any visibility into what’s happening with the Python function calls.</p>
+
+<p>The big problem with this is that a huge amount of the Python ecosystem is in native extensions.
+It’s a common optimization pattern to rewrite the slowest part of your Python program in a language like Cython or C++ after profiling,
+ and by only being able to profile either the native code or the python code you only get
+half the picture of what’s happening in your python codebase.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/profiling-native-python-extensions-with-py-spy/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Writing Python Extensions In Rust Using PyO3</title>
+   <link href="http://www.benfrederickson.com/writing-python-extensions-in-rust-using-pyo3/"/>
+   <updated>2018-06-21T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/writing-python-extensions-in-rust-using-pyo3/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/rust_python_pyo3/pyo3.png" width="100%" style="max-width:500px">
+        
+        <p>I’ve been writing some code in Rust recently, and I thought it would be cool if I could take some
+of this Rust code and provide it as a native extension that I can call from Python.  It turns out
+there are some amazing tools like <a href="https://github.com/PyO3/pyo3">PyO3</a> that make it easy to write fully featured
+Python extensions in Rust, with considerably less effort than writing a CPython extension manually.</p>
+
+<p>To test out PyO3 I wrote a small Python extension in Rust, and I thought I would share some of the
+tips and tricks I encountered in getting this going. This post aims to serve as a quick tutorial
+showing how to write extensions in Rust, talking about why you might want to use something more
+powerful than just exposing a C library called using CFFI, and how PyO3 lets you write Python aware extensions in Rust.
+This post also goes through how to integrate your Rust code with setuptools, and automatically building Python wheels for your
+Rust extension using <a href="https://github.com/joerick/cibuildwheel">cibuildwheel</a>.</p>
+
+<p>The end result is a Python extension that can be distributed through PyPI without even usually requiring a
+rust compiler on the machine it will be installed on!</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/writing-python-extensions-in-rust-using-pyo3/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Where Do The World's Software Developers Live?</title>
+   <link href="http://www.benfrederickson.com/github-developer-locations/"/>
+   <updated>2018-04-24T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/github-developer-locations/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/github/locations/map.png" width="100%" style="max-width:500px">
+        
+        <p>I’ve been digging into GitHub data recently, and I thought it would be fun to use that data to figure out exactly where the world’s
+software developers live and then to visualize the results interactively using D3.</p>
+
+<p>In a previous post, I wrote about how an <a href="/github-wont-help-with-hiring/">individual’s GitHub profile is a noisy and unreliable indicator of programming talent</a>. For this post though I’m aggregating GitHub profiles together over the population of an entire country or city, meaning that the impact of the data sparsity and noise issues I was talking about shouldn’t be nearly as significant.</p>
+
+<p>The results ended up being pretty interesting. While top developers live all over the world, an extraordinary amount of
+them seem to live in the San Francisco Bay area. Likewise, it seems that developing open source software is a luxury for the
+rich, India has an unusual lack of famous developers, and Eastern Europe might offer the best value on hiring remotely.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/github-developer-locations/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Generating Flowers Using Simplex Noise</title>
+   <link href="http://www.benfrederickson.com/flowers-from-simplex-noise/"/>
+   <updated>2018-03-22T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/flowers-from-simplex-noise/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/antart/flower.jpg" width="100%" style="max-width:500px">
+        
+        <p>I’m working on a larger generative art project, and one thing that I need for this is an
+abstract representation of something that could conceivably be eaten by an ant. While ants will apparently eat almost anything, I decided to use flowers to represent their food since pictures
+of decomposing fruit didn’t end up looking all that appealing.</p>
+
+<p>This post is a quick tutorial on how I generated these flowers using <a href="https://en.wikipedia.org/wiki/Simplex_noise">simplex noise</a>.
+The code to generate this ended up being just a couple of lines of Typescript, and
+a whole range of different abstract flowers can be generated by changing just a few parameters.
+I’ve included the code below along with an interactive visualization to explain how this all works.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/flowers-from-simplex-noise/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Why GitHub Won't Help You With Hiring</title>
+   <link href="http://www.benfrederickson.com/github-wont-help-with-hiring/"/>
+   <updated>2018-03-08T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/github-wont-help-with-hiring/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/github/hiring/empty_profile.png" width="100%" style="max-width:500px">
+        
+        <p>One of the things I’m working on right now is a project that’s aggregating data found in developers GitHub
+profiles. Since there are a couple of problems with using GitHub profiles as a data source like this, I wanted to first
+list out some of the issues I have with trying to assess developers by looking only at their GitHub contributions.</p>
+
+<p>One common misuse of GitHub profile data is in trying to filter out job candidates.
+People still seem to think that you can figure out how talented a developer is merely by looking at their open source contributions. As an example in the latest <a href="https://news.ycombinator.com/item?id=16492994">Hacker News’ Who is Hiring thread</a>, there are a <a href="https://news.ycombinator.com/item?id=16493838">bunch</a>
+<a href="https://news.ycombinator.com/item?id=16500583">of</a> <a href="https://news.ycombinator.com/item?id=16493640">different</a> <a href="https://news.ycombinator.com/item?id=16524380">job</a>
+<a href="https://news.ycombinator.com/item?id=16495405">ads</a> <a href="https://news.ycombinator.com/item?id=16493780">asking for</a> <a href="https://news.ycombinator.com/item?id=16495923">a Github profile</a> <a href="https://news.ycombinator.com/item?id=16495273">as part of the job application</a>.</p>
+
+<p>There are already a bunch of great posts arguing against requiring GitHub contributions as part of the hiring process. I particularly recommend
+<a href="https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community">The Ethics of Unpaid Labor and the OSS Community</a>
+and <a href="https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/">Why GitHub is Not Your CV</a>. While both of those posts give excellent reasons to
+reconsider asking for open source contributions when hiring, my take here isn’t about why it is ethically dubious to require open source contributions or why GitHub isn’t great for showcasing your projects.</p>
+
+<p>Instead, this post is about why GitHub profiles just aren’t all that useful when looking to hire developers.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/github-wont-help-with-hiring/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Ranking Programming Languages by GitHub Users</title>
+   <link href="http://www.benfrederickson.com/ranking-programming-languages-by-github-users/"/>
+   <updated>2018-01-25T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/ranking-programming-languages-by-github-users/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/github/language-popularity/newthing.png" width="100%" style="max-width:500px">
+        
+        <p>I’ve recently become obsessed with the sheer amount of development activity happening on sites like GitHub.</p>
+
+<p>As a first project on working with this data, I thought it would be fun to rank all the programming languages by counting how many people on GitHub use each language.</p>
+
+<p>I’m using the <a href="https://www.githubarchive.org/">GitHub Archive</a> and <a href="http://ghtorrent.org/">GHTorrent</a> projects as data sources for this analysis.
+The GitHub Archive provides a record of every public event on GitHub since early 2011.
+This includes an event every time someone has pushed new code, forked or starred a repository, or opened an issue on GitHub.
+Overall the GitHub Archive has more than 1.25 Billion events on more than 75 Million different repositories. <a href="http://ghtorrent.org/">GHTorrent</a> goes even further
+and hits the GitHub API for each event - which lets me resolve the language for most repositories.</p>
+
+<p>The cool thing about this is that there are usernames associated with each of those events, which means that I can count how many
+different people are using each language. Every time a user interacts with a repository I’m counting that user as using the language of that repository -
+and then aggregating this each month to calculate how many Monthly Active Users (MAU) each language has.</p>
+
+<p>Since the data goes back 7 years, I can also plot how popular each programming language was over time which reveals some interesting patterns.
+Looking at these trend lines, we can figure out which programming languages are worth learning, and which programming languages probably should be avoided.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/ranking-programming-languages-by-github-users/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>CUDA Tutorial: Implicit Matrix Factorization on the GPU</title>
+   <link href="http://www.benfrederickson.com/implicit-matrix-factorization-on-the-gpu/"/>
+   <updated>2017-11-15T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/implicit-matrix-factorization-on-the-gpu/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/implicit-matrix-factorization-on-the-gpu/speed.png" width="100%" style="max-width:500px">
+        
+        <p>I recently bought a system that actually has a <a href="https://www.nvidia.com/en-us/geforce/products/10series/geforce-gtx-1080-ti/">decent
+GPU</a> on it, and I
+thought it would be cool to learn a little bit about CUDA programming to really take advantage
+of it.</p>
+
+<p>The obvious choice of problems to get started with was extending my <a href="https://github.com/benfred/implicit">implicit matrix
+factorization</a> code to run on the GPU. I’ve written a
+<a href="/fast-implicit-matrix-factorization/">couple</a> of <a href="/matrix-factorization/">posts</a> about this
+recommendation algorithm already, but the task is basically to learn a weighted regularized matrix factorization
+given a set of positive only implicit user feedback.
+The nice thing about this model is that it is relatively simple while still not being possible to express efficiently on higher level frameworks like TensorFlow or PyTorch.
+It’s also inherently embarrassingly parallel and well suited for running on the GPU.</p>
+
+<p>This post aims to serve as a really basic tutorial on how to write code for the GPU using the CUDA
+toolkit. I found that CUDA programming was pretty interesting, but it took me a little bit to learn
+how to do this effectively - and I wanted to share what I learned while it is still fresh in my mind.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/implicit-matrix-factorization-on-the-gpu/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>An Analysis of the World's Leading robots.txt Files</title>
+   <link href="http://www.benfrederickson.com/robots-txt-analysis/"/>
+   <updated>2017-10-18T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/robots-txt-analysis/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/robots_txt_analysis/image.png" width="100%" style="max-width:500px">
+        
+        <p>A site’s robots.txt file advises the web crawlers of the worlds what files they
+can and can’t download. It acts as the first gatekeeper of the internet,
+unlike blocking the response - it lets you stop requests to your site before
+it happens. The interesting thing about these files is that it lays out how
+webmasters intend automated processes should access their websites. While it’s easy
+for a bot to just ignore this file, it specifies an idealized behaviour of how they should act.</p>
+
+<p>As such these files are kind of important. So I thought I’d download the robots.txt file 
+from each of the top million websites on the planet and see what kind of patterns I could find.</p>
+
+<p>I got the list of <a href="http://s3.amazonaws.com/alexa-static/top-1m.csv.zip">the top 1 million sites from Alexa</a>
+and wrote a <a href="https://github.com/benfred/bens-blog-code/tree/master/robots.txt-analysis">small program</a>
+to download the robots.txt file from each domain. With the data all downloaded, I ran each
+file through pythons
+<a href="https://docs.python.org/3.0/library/urllib.robotparser.html">urllib.robotparser</a> package and 
+started looking at the results.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/robots-txt-analysis/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Approximate Nearest Neighbours for Recommender Systems</title>
+   <link href="http://www.benfrederickson.com/approximate-nearest-neighbours-for-recommender-systems/"/>
+   <updated>2017-10-11T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/approximate-nearest-neighbours-for-recommender-systems/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/recommendations-using-approximate-nearest-neighbours/recommendperf.png" width="100%" style="max-width:500px">
+        
+        <p>One challenge that recommender systems face is in quickly generating a list of the best 
+recommendations to show for the user. These days many libraries can quickly train models
+that can handle millions of users and millions of items, but the naive
+solution for evaluating these models involves ranking every single item for every single
+user which can be extremely expensive.  As an example, my
+<a href="https://github.com/benfred/implicit">implicit</a> recommendation library can train a model on the
+<a href="http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-360K.html">last.fm dataset</a>
+in 24 seconds on my desktop - but takes over an hour to use that model to generate
+recommendations for each user.</p>
+
+<p>This post is about evaluating a couple of different approximate nearest neighbours libraries 
+to speed up making recommendations made by matrix factorization models. In particular, the libraries I’m looking at are
+<a href="https://github.com/spotify/annoy">Annoy</a>, <a href="https://github.com/searchivarius/nmslib">NMSLib</a>
+and <a href="https://github.com/facebookresearch/faiss">Faiss</a>.</p>
+
+<p>I’ve used Annoy successfully for a couple different projects
+now in the past - but was recently intrigued when I read that NMSLib <a href="https://github.com/erikbern/ann-benchmarks">can be up to 10x
+faster</a> when using its <a href="https://arxiv.org/abs/1603.09320">Hierarchical Navigable Small
+World Graph</a> (HNSW) index option. 
+I also wanted to try out Faiss after reading the <a href="https://code.facebook.com/posts/1373769912645926/faiss-a-library-for-efficient-similarity-search/">blog post</a>
+that Facebook Research wrote about it - where they claimed that the GPU enabled version of Faiss
+was the fastest available option.</p>
+
+<p>Both NMSLib and Faiss turn out to be extremely good at this task, and I’ve added <a href="https://github.com/benfred/implicit/pull/51">code to
+implicit</a> to use these libraries for generating recommendations.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/approximate-nearest-neighbours-for-recommender-systems/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Python as a Declarative Programming Language</title>
+   <link href="http://www.benfrederickson.com/python-as-a-declarative-programming-language/"/>
+   <updated>2017-02-28T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/python-as-a-declarative-programming-language/</id>
+   <content type="html">
+        <![CDATA[
+        
+        <p>If you look at the programming languages benchmarks game, Python is one of the <a href="http://benchmarksgame.alioth.debian.org/u64q/performance.php?test=nbody">slowest commonly used
+programming languages out
+there</a>. Typical programs
+written in pure Python average around 40 times slower than the equivalent program written in C or
+C++.</p>
+
+<p>Despite the performance penalty, Python is still probably the most popular language choice out there for doing Data
+Analysis and Machine Learning. Most of the recent Deep Learning frameworks target Python for
+development: TensorFlow, Theano, and Keras all use Python. Torch originally was written for Lua, which
+is substantially faster than Python when using LuaJIT - but Torch failed to gain
+traction until switching to Python with the release of PyTorch.</p>
+
+<p>The reason for this is that the performance penalty in writing programs in Python isn’t as large
+as the programming language benchmarks game would suggest: Most of the best Python Data libraries
+have their core routines written as native extensions.</p>
+
+<p>This all means that to get the most out of these libraries, you need to treat Python as a
+Declarative Language - and push as much control flow as possible down to a native layer, and just
+let the Python program describe what needs done.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/python-as-a-declarative-programming-language/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Faster Implicit Matrix Factorization</title>
+   <link href="http://www.benfrederickson.com/fast-implicit-matrix-factorization/"/>
+   <updated>2016-12-12T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/fast-implicit-matrix-factorization/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/distancemetrics/linearcg.gif" width="100%" style="max-width:500px">
+        
+        <p>As part of my post on <a href="/matrix-factorization/">matrix factorization</a>, I released a fast Python
+version of the Implicit Alternating Least Squares matrix factorization algorithm that is
+frequently used to recommend items. While this <a href="http://github.com/benfred/implicit">matrix factorization code</a> 
+was already <a href="https://github.com/benfred/implicit/blob/master/examples/benchmark.py">extremely fast</a>, it still 
+wasn’t implementing the fastest algorithm I know about for doing this matrix factorization.</p>
+
+<p>This post is just a quick follow up, talking about why this algorithm is important, where the
+common solution is slow and how to massively speed up training using a paper based on using the Conjugate Gradient
+method.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/fast-implicit-matrix-factorization/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>An Interactive Tutorial on Numerical Optimization</title>
+   <link href="http://www.benfrederickson.com/numerical-optimization/"/>
+   <updated>2016-11-25T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/numerical-optimization/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/fmin/cities.gif" width="100%" style="max-width:500px">
+        
+        <p>Numerical Optimization is one of the central techniques in Machine Learning. For many problems it is hard to figure out the best solution directly, but it is relatively easy to set up a loss function that 
+measures how good a solution is - and then minimize the parameters of that function to find the solution. 
+<!--
+The parameters here could be the weights inside a neural network, or
+factors inside a [matrix factorization model](/matrix-factorization/).
+--></p>
+
+<p>I ended up writing a bunch of numerical optimization routines <a href="/venn-diagrams-with-d3.js/">back when I was first trying to learn
+javascript</a>.
+Since I had all this code lying around anyway, I thought that it might be fun to provide some
+interactive visualizations of how these algorithms work.</p>
+
+<p>The cool thing about this post is that the code is all running in the browser, meaning you can
+interactively set hyper-parameters for each algorithm, change the initial location, and change
+ what function is being called to get a better sense of how these algorithms work.</p>
+
+<p>All the code for this post is up on <a href="https://github.com/benfred/fmin">github</a> if you want to
+ check it out, it has both the minimization functions as well as all of the visualizations.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/numerical-optimization/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Finding Similar Music using Matrix Factorization</title>
+   <link href="http://www.benfrederickson.com/matrix-factorization/"/>
+   <updated>2016-05-03T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/matrix-factorization/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/distancemetrics/mf.png" width="100%" style="max-width:500px">
+        
+        <p>In a previous post I wrote about <a href="/distance-metrics/'">how to build a ‘People Who
+Like This Also Like …’ feature</a> for displaying lists of similar musicians.
+My goal was to show how simple Information Retrieval techniques can do a good job calculating lists 
+of related artists. For instance, using BM25 distance on The Beatles shows the most
+similar artists being John Lennon and Paul McCartney.</p>
+
+<p>One interesting technique I didn’t cover was using Matrix Factorization methods
+to reduce the dimensionality of the data before calculating the related artists. This kind of analysis
+can generate matches that are impossible to find with the techniques in my original post.</p>
+
+<p>This post is a step by step guide on how to calculate related artists using a couple of different
+matrix factorization algorithms. The code is written in Python using
+<a href="http://pandas.pydata.org/">Pandas</a>
+and <a href="https://www.scipy.org/">SciPy</a> to do the calculations and <a href="https://d3js.org/">D3.js</a> to interactively visualize the results.</p>
+
+<p>As part of writing this post, I also open sourced a <a href="http://github.com/benfred/implicit">high performance python version of the Implicit Alternating Least
+Squares</a> matrix factorization algorithm. 
+Most of the code here can be found in the examples directory of that project.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/matrix-factorization/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>A Better Algorithm for Area Proportional Venn and Euler Diagrams</title>
+   <link href="http://www.benfrederickson.com/better-venn-diagrams/"/>
+   <updated>2015-06-29T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/better-venn-diagrams/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/seriousvenn/venn.gif" width="100%" style="max-width:500px">
+        
+        <p>A while ago I wrote a small <a href="https://github.com/benfred/venn.js">library for displaying Venn and Euler diagrams</a> when trying to learn Javascript.</p>
+
+<p>By specifying the sizes of each area in the diagram, 
+the library automatically draws a Venn or Euler diagram such that areas displayed have sizes that 
+approximately match the input.</p>
+
+<div style="display: table; margin: auto">
+<div id="artvenn"></div>
+<h6 id="artvennlabel" style="text-align:center;margin-top:0px;display:none"><small>Sample output of this library, from <a href="http://venndiagrams.tumblr.com/post/91164801034">this tumblr</a></small></h6>
+<p></p>
+</div>
+
+<p>It turned out that displaying the circles is trivial - but calculating the positions of the circles
+such that the diagram is area proportional is a surprisingly
+tricky numerical optimization problem.</p>
+
+<p>The <a href="/venn-diagrams-with-d3.js/">original solution</a> I came up with worked fairly well, but there were a couple of minor cases that <a href="/multidimensional-scaling/#applications_to_venn">it broke down on</a>. Since people kept on starring this library on
+GitHub, I thought I would do them all the favour of fixing these errors by
+implementing an idea I had for a new layout algorithm.</p>
+
+<p>I tested this new algorithm, and found that it works exceedingly well. In
+fact it far surpasses the <a href="http://www.cs.uic.edu/~wilkinson/Publications/venneuler.pdf">best published academic research on laying out
+area proportional Venn and Euler
+diagrams</a>. I’ve included some interactive graphs showing
+the performance on this benchmark here, as well as a visualization of how this
+algorithm works.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/better-venn-diagrams/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Unicode is Kind of Insane</title>
+   <link href="http://www.benfrederickson.com/unicode-insanity/"/>
+   <updated>2015-05-26T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/unicode-insanity/</id>
+   <content type="html">
+        <![CDATA[
+        
+        <div class="well" style="background:#FFFFFF;text-align:center;margin-left:20px;margin-right:20px;
+float:right;width:200px">
+<a href="http://www.fileformat.info/info/unicode/char/1f4a9/index.htm">
+<img src="/images/unicode-insanity/1f4a9.png" style="margin: auto;display:block;" />
+<small>U+1F4A9 'Pile Of Poo'</small>
+</a><br />
+</div>
+
+<p><a href="http://unicode.org/">Unicode</a> is one of the greatest standards of the modern age, but its simple appearance hides an insane level of complexity.</p>
+
+<p>Unicode aims to represent every possible character in every possible
+language in a single character encoding. It’s an ambitious undertaking, the
+current version has mapped <a href="http://babelstone.blogspot.com/2005/11/how-many-unicode-characters-are-there.html">113 thousand distinct
+characters</a>
+to code points in Unicode - each one of which is given a unique name and
+description.</p>
+
+<p>Basically every language ever written can be encoded with Unicode now. Even
+dead languages like Phoenician, Aramaic and the Ancient Greek ‘Linear A’
+script all have code points assigned. Linear A hasn’t
+even been deciphered yet, so there are characters in Unicode that
+no-one knows what they actually represent!</p>
+
+<p>Likewise Unicode contains a huge assortment of symbols that aren’t part of any
+language. Emoji like a <a href="http://www.fileformat.info/info/unicode/char/1f384/index.htm">Christmas Tree</a>, a <a href="http://www.fileformat.info/info/unicode/char/1f355/index.htm">Slice of Pizza</a>, or a <a href="http://www.fileformat.info/info/unicode/char/1f4a9/index.htm">Pile of
+Poop</a> all can be
+represented with a single Unicode code point.</p>
+
+<p>However, the real craziness with Unicode isn’t in the sheer number of
+characters that have been assigned. The real fun starts when you look at how all these characters
+interact with one another.</p>
+
+<div style="clear: both;"></div>
+<p class='more'><a href='http://www.benfrederickson.com/unicode-insanity/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Distance Metrics for Fun and Profit</title>
+   <link href="http://www.benfrederickson.com/distance-metrics/"/>
+   <updated>2015-04-27T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/distance-metrics/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/distancemetrics/distancemetrics.gif" width="100%" style="max-width:500px">
+        
+        <p>A while ago a friend of mine asked me how I would go about building a
+‘People Who Like This Also Like …’ feature for a music startup he was
+working at. For each band or musician, he wanted to display a list of other
+artists that people might also be interested in.</p>
+
+<p>At the time, I think I arrogantly responded with something like “That’s easy! I
+can think of like a dozen ways of calculating this!”. Which of course was
+profoundly unhelpful and probably slightly infuriating. Once he calmed down,
+I sketched out how I would calculate the distance between any two artists -
+and use that distance as a ranking function to build this feature.</p>
+
+<p>Since then he has been encouraging me to write a blog post about this, 
+and after a totally unreasonable delay I finally got around to finishing it
+up.  So here is my step by step guide for the non data scientist, using Python 
+with <a href="http://pandas.pydata.org/">Pandas</a> and <a href="http://www.scipy.org/">SciPy</a>
+to compute the distances, and <a href="http://d3js.org/">D3.js</a> for building gratuitously 
+interactive visualizations.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/distance-metrics/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Don't Pickle Your Data</title>
+   <link href="http://www.benfrederickson.com/dont-pickle-your-data/"/>
+   <updated>2014-02-12T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/dont-pickle-your-data/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/python-serialization/speed.png" width="100%" style="max-width:500px">
+        
+        <p>Pretty much every Python programmer out there has broken down at one point and
+and used the ‘<a href="http://docs.python.org/2/library/pickle.html">pickle</a>’ module for writing objects out to disk.</p>
+
+<p>The advantage of using pickle is that it can serialize pretty much any Python
+object, without having to add any extra code. Its also smart in that in will
+only write out any single object once, making it effective to store recursive
+structures like graphs. For these reasons pickle is usually the default
+serialization mechanism in Python, used in modules likes
+<a href="https://pypi.python.org/pypi/python-memcached/">python-memcached</a>.</p>
+
+<p>However, using pickle is still a terrible idea that should be avoided whenever
+possible.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/dont-pickle-your-data/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Calculating the intersection area of 3+ circles</title>
+   <link href="http://www.benfrederickson.com/calculating-the-intersection-of-3-or-more-circles/"/>
+   <updated>2013-11-19T00:00:00-08:00</updated>
+   <id>http://www.benfrederickson.com/calculating-the-intersection-of-3-or-more-circles/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/circle-intersection/circleintersection.gif" width="100%" style="max-width:500px">
+        
+        <p>While attempting to learn Javascript and D3.js a couple months ago, I wrote a
+little library for <a href="/2013/05/09/venn-diagrams-with-d3.js.html">displaying area proportional venn
+diagrams</a>.</p>
+
+<p>One thing this library didn’t do though is consider the intersection areas of
+3 or more circles when placing each set in the venn diagram. Its a trickier
+problem than I first thought, mainly because of all the special cases that can
+arise when the number of circles gets large. While the 2 circle case is a simple calculus
+problem, I failed to extend this solution to calculate the intersection area
+of an arbitrary number of circles.</p>
+
+<p>The research papers I read on this both avoided calculating the circle
+intersection by using approximation techniques. One paper <a href="http://bioinformatics.oxfordjournals.org/content/early/2004/11/30/bioinformatics.bti169.full.pdf">approximated the circles using
+polygons</a>
+and used polygon intersection techniques to get the area, and the other
+<a href="http://www.cs.uic.edu/~wilkinson/Publications/venneuler.pdf">approximated by plotting each circle and using binary indexing to compute the
+area</a>. I
+tried out the latter approach, but found it to be too slow for realtime use.</p>
+
+<p>Since then, I’ve had some ideas on different approaches to this problem that I wanted to try out.
+To keep up with learning D3, I also thought I’d try visualizing each approach here.</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/calculating-the-intersection-of-3-or-more-circles/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+ <entry>
+   <title>Visualizing min-heap algorithms with D3.js</title>
+   <link href="http://www.benfrederickson.com/heap-visualization/"/>
+   <updated>2013-10-10T00:00:00-07:00</updated>
+   <id>http://www.benfrederickson.com/heap-visualization/</id>
+   <content type="html">
+        <![CDATA[
+        
+            <img src="http://www.benfrederickson.com/images/heap-vis/heapvis.gif" width="100%" style="max-width:500px">
+        
+        <p>I haven’t done any real work on learning Javascript and D3.js since <a href="/2013/05/09/venn-diagrams-with-d3.js.html">my last
+attempt</a> a couple months back. To
+keep at it, I thought I’d try using D3.js to visualize a simple algorithm:
+finding the largest couple of items in a list.</p>
+
+<p>This problem comes up all the time when doing search and recommendation type
+tasks. Every time you query a search engine, it has to find the couple best
+scored results in all matching items. For example, Google finds 15 million
+results when querying for ‘D3.js’, but only shows you the 10 best scored of these. A naive
+solution for finding these 10 items would be to sort everything by
+score, but that ends up wasting a ton of time sorting results that will be
+discarded.</p>
+
+<p>A better solution is to use a
+<a href="http://en.wikipedia.org/wiki/Binary_heap">min-heap</a> - a tree data structure
+where each node in the tree has a value smaller than all of its children. Its
+a fantastically useful data structure, that can be used to efficiently solve
+this problem. By comparing each item with the
+root element of an appropriately sized min-heap, and pushing onto the heap when
+its bigger - it picks out the just the largest items:</p>
+
+<p class='more'><a href='http://www.benfrederickson.com/heap-visualization/'>Read more ...</a></p>
+     ]]>
+   </content>
+ </entry>
+ 
+ 
+</feed>
