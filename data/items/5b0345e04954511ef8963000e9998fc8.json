@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-37623 (_browserify-shim)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37623",
+  "description": "Prototype pollution vulnerability in function resolveShims in resolve-shims.js in thlorenz browserify-shim 3.8.15 via the shimPath variable in resolve-shims.js.",
+  "dc:date": "2022-10-31T12:15:10Z"
+}
