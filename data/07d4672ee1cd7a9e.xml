@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC0YbmGeNSGPd-StauM1qajg"/>
+ <id>yt:channel:UC0YbmGeNSGPd-StauM1qajg</id>
+ <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+ <title>The Khronos Group</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg"/>
+ <author>
+  <name>The Khronos Group</name>
+  <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+ </author>
+ <published>2007-01-11T18:10:28+00:00</published>
+ <entry>
+  <id>yt:video:-QFn1KLjef0</id>
+  <yt:videoId>-QFn1KLjef0</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>How Do We Solve the Challenges of glTF Asset Creation</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-QFn1KLjef0"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-11-04T01:54:31+00:00</published>
+  <updated>2022-11-04T08:20:21+00:00</updated>
+  <media:group>
+   <media:title>How Do We Solve the Challenges of glTF Asset Creation</media:title>
+   <media:content url="https://www.youtube.com/v/-QFn1KLjef0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-QFn1KLjef0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentation: https://khr.io/zl
+
+This webinar showcases the work currently taking place within the Khronos Group to address the challenges with leveraging glTF to create rich 3D visuals.
+
+Agenda
+
+00:01:18 -  Asset Creation introduction - Eric Chadwick, Wayfair
+00:03:55 -  Building a Scalable Pipeline - Paweł Nikiel, CGTrader
+00:16:13 -  Conforming to Requirements - Max Limper, DGG
+00:28:55 -  Validating Assets - Mike Festa, Super DNA 3D Lab
+00:36:20 -  Open Discussion / Q&amp;A with questions from the audience</media:description>
+   <media:community>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="195"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9zIC1TrQM9k</id>
+  <yt:videoId>9zIC1TrQM9k</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>How to Use Synchronization Validation Across Multiple Queues and Command Buffers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9zIC1TrQM9k"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-10-14T18:22:51+00:00</published>
+  <updated>2022-10-15T15:19:03+00:00</updated>
+  <media:group>
+   <media:title>How to Use Synchronization Validation Across Multiple Queues and Command Buffers</media:title>
+   <media:content url="https://www.youtube.com/v/9zIC1TrQM9k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9zIC1TrQM9k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentation: https://khr.io/zd
+
+In this webinar we help developers understand and not be intimidated or confused by the latest Vulkan Synchronization enhancements, including support for multiple queues and command buffers. We introduce the Vulkan Synchronization API calls, and provide instructions and recommendations for using the validation tools, including how to understand the validation errors you are receiving and how to fix errors in your application.</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="453"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jwaWV2QH804</id>
+  <yt:videoId>jwaWV2QH804</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>WebGL + WebGPU  Meetup - October 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jwaWV2QH804"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-10-05T02:49:47+00:00</published>
+  <updated>2022-10-05T22:09:28+00:00</updated>
+  <media:group>
+   <media:title>WebGL + WebGPU  Meetup - October 2022</media:title>
+   <media:content url="https://www.youtube.com/v/jwaWV2QH804?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jwaWV2QH804/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentations: https://khr.io/zc
+
+October's WebGL™ + WebGPU meetup was a complete success. We thank our speakers and audience for an engaging event. Audience members were treated to updates from each group and a variety of exciting speakers showcasing their latest technology. 
+
+If you would like to be considered to present at one of our upcoming WebGL+ WebGPU Meetups, please reach out to events@khronos.org.
+
+Agenda
+
+00:01:01 - WebGL Updates
+00:09:00 - WebGPU Updates
+00:18:36 - Madcraft.io demonstration using the latest WebGL extensions
+00:35:02 - Demonstration on use of WebGL in a scientific context for web molecular graphics in Mol*
+01:03:09 - What's new in v2.0 and glTF
+01:16:19 - Questions &amp; Answers
+
+Speakers: Ken Russel, Kelsey Gilbert, Ivan Popelyshev, Alexander Rose, Emmett Lalish</media:description>
+   <media:community>
+    <media:starRating count="52" average="5.00" min="1" max="5"/>
+    <media:statistics views="1121"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-XLOkDiAYkQ</id>
+  <yt:videoId>-XLOkDiAYkQ</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Delivering Interactive Experiences with glTF</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-XLOkDiAYkQ"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-09-28T19:39:03+00:00</published>
+  <updated>2022-10-02T21:44:50+00:00</updated>
+  <media:group>
+   <media:title>Delivering Interactive Experiences with glTF</media:title>
+   <media:content url="https://www.youtube.com/v/-XLOkDiAYkQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-XLOkDiAYkQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Just as we needed an industry standard format that would allow the efficient packaging and transmission of 3D assets (glTF), we now need new mechanisms that allow us to efficiently assemble and transmit an entire 3D scene from glTF assets, including ways to define behaviors and interactivity. In this webinar, members of the Khronos 3D Formats working group will preview and seek community feedback on proposals for how to add interactivity and behaviors to glTF. In addition, we preview what's on offer in the proposed interactivity behaviors extensions and showcase capabilities and preliminary implementations.
+
+Speakers: Brent Scannell, Dwight Rodgers, Ben Houston
+Presentation: https://www.khronos.org/events/delivering-interactive-experiences-with-gltf</media:description>
+   <media:community>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="864"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:p56oTgvPpbo</id>
+  <yt:videoId>p56oTgvPpbo</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Vulkan Japan Meetup - September 2022 (日本初 Vulkanミートアップ)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=p56oTgvPpbo"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-09-20T23:13:41+00:00</published>
+  <updated>2022-09-22T23:12:11+00:00</updated>
+  <media:group>
+   <media:title>Vulkan Japan Meetup - September 2022 (日本初 Vulkanミートアップ)</media:title>
+   <media:content url="https://www.youtube.com/v/p56oTgvPpbo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/p56oTgvPpbo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentations - https://khr.io/za
+
+Khronos Vulkanised ウェビナーは、3D開発コミュニティに向けてKhronosのVulkanエキスパート達と一緒に最新の開発状況を把握し、エンジンやアプリケーション、タイトルでVulkanを最大限に活用するためのヒントやテクニックを学ぶ機会を提供するものです。日本で、且つ日本語で開催されるのは初めてですが、これを機に、2回目以降も続けられたら良いなと考えています。
+The Khronos Vulkanised webinars provide the international 3D development community with the opportunity to join our Vulkan experts to gain insights into the latest developments and learn the tips and techniques to get the most out of Vulkan in their engine, application or title. This meetup was conducted in Japanese.
+
+00:00:10 スタート
+00:05:25 Introduction to Vulkan
+00:41:30 学生/研究者からみたVulkan
+00:58:54 Vulkanプログラミングガイド
+01:03:49 Vulkan Developer Resources
+01:13:13 Q&amp;A フリーディスカッション
+
+Presenters: Spencer Fricke, Yuki Nishidate, Marty Johnson, Takashi Umezawa</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="528"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:N_p3yvs7DHY</id>
+  <yt:videoId>N_p3yvs7DHY</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Advanced PBR Material Parameters in glTF Webinar - September 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=N_p3yvs7DHY"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-09-20T22:37:14+00:00</published>
+  <updated>2022-10-04T14:16:54+00:00</updated>
+  <media:group>
+   <media:title>Advanced PBR Material Parameters in glTF Webinar - September 2022</media:title>
+   <media:content url="https://www.youtube.com/v/N_p3yvs7DHY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/N_p3yvs7DHY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Presentation - https://khr.io/z9
+
+Materials in glTF 2.0 use Physically Based Rendering (PBR) as a means of describing physical material properties to rendering engines. Recent extensions have added parameters such as Index of Refraction, Volumetric Absorption, and Iridescence, extending the range of physical materials that can be expressed. These PBR extensions bridge the gap between path tracing and real-time rasterization, enabling model compatibility across a range of engines from mobile to high-end rendering. In this webinar we take an in-depth look at the new PBR extensions, offer some insight into the design process, and compare path-traced outputs to real-time approximations.
+
+Agenda
+
+00:00:22 - Overview of the glTF PBR Material Model
+00:26:50 - Real-time implementation of transmission
+00:43:58 - Questions &amp; Answers
+
+Speakers: Ed Mackey (AGI), Alex Wood (AGI)
+Panelists: Tobias Häußler (Dassault Systèmes), Bastian Sdorra (Dassault Systèmes), Nicolas Savva (Autodesk), Emmett Lalish (Google), Adam Morris (Target), Eric Chadwick (Wayfair)</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="498"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XRY6JSiQAlo</id>
+  <yt:videoId>XRY6JSiQAlo</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 19. Panel Discussion</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XRY6JSiQAlo"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T23:59:45+00:00</published>
+  <updated>2022-09-08T06:55:42+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 19. Panel Discussion</media:title>
+   <media:content url="https://www.youtube.com/v/XRY6JSiQAlo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XRY6JSiQAlo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="228"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XlBdH_Eo4ws</id>
+  <yt:videoId>XlBdH_Eo4ws</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 17. Unity URP 2021 LTS Feature Showcase</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XlBdH_Eo4ws"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T23:08:49+00:00</published>
+  <updated>2022-09-07T20:47:15+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 17. Unity URP 2021 LTS Feature Showcase</media:title>
+   <media:content url="https://www.youtube.com/v/XlBdH_Eo4ws?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XlBdH_Eo4ws/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="159"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4BW8qgUOQmo</id>
+  <yt:videoId>4BW8qgUOQmo</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022  - 18. OpenXR Update</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4BW8qgUOQmo"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T23:01:02+00:00</published>
+  <updated>2022-11-02T16:37:44+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022  - 18. OpenXR Update</media:title>
+   <media:content url="https://www.youtube.com/v/4BW8qgUOQmo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4BW8qgUOQmo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="150"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ESo3Q16LKc8</id>
+  <yt:videoId>ESo3Q16LKc8</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 15. Imagination Automotive Safety Solutions</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ESo3Q16LKc8"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T22:50:58+00:00</published>
+  <updated>2022-11-01T15:14:45+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 15. Imagination Automotive Safety Solutions</media:title>
+   <media:content url="https://www.youtube.com/v/ESo3Q16LKc8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ESo3Q16LKc8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="48"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QhQf4n3NxLw</id>
+  <yt:videoId>QhQf4n3NxLw</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 16. Vulkan SC Safety Critical Update</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QhQf4n3NxLw"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T22:44:57+00:00</published>
+  <updated>2022-10-31T12:48:29+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 16. Vulkan SC Safety Critical Update</media:title>
+   <media:content url="https://www.youtube.com/v/QhQf4n3NxLw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QhQf4n3NxLw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="123"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GiTx0mh9Vmw</id>
+  <yt:videoId>GiTx0mh9Vmw</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 13. High Performance Computing on the Mobile GPU</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GiTx0mh9Vmw"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T22:28:24+00:00</published>
+  <updated>2022-11-01T14:21:10+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 13. High Performance Computing on the Mobile GPU</media:title>
+   <media:content url="https://www.youtube.com/v/GiTx0mh9Vmw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GiTx0mh9Vmw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="93"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:p_eLvKOm6a0</id>
+  <yt:videoId>p_eLvKOm6a0</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 14. Compression Technology in High Performance Automotive Processor</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=p_eLvKOm6a0"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T22:26:14+00:00</published>
+  <updated>2022-10-31T12:10:27+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 14. Compression Technology in High Performance Automotive Processor</media:title>
+   <media:content url="https://www.youtube.com/v/p_eLvKOm6a0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/p_eLvKOm6a0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="62"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-tcXgMZYX7k</id>
+  <yt:videoId>-tcXgMZYX7k</yt:videoId>
+  <yt:channelId>UC0YbmGeNSGPd-StauM1qajg</yt:channelId>
+  <title>Imagination Seminar July 2022 - 12. From Edge to Cloud &amp; Jointly Enabling the Domestic GPU Market</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-tcXgMZYX7k"/>
+  <author>
+   <name>The Khronos Group</name>
+   <uri>https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg</uri>
+  </author>
+  <published>2022-08-01T22:25:46+00:00</published>
+  <updated>2022-11-02T22:59:12+00:00</updated>
+  <media:group>
+   <media:title>Imagination Seminar July 2022 - 12. From Edge to Cloud &amp; Jointly Enabling the Domestic GPU Market</media:title>
+   <media:content url="https://www.youtube.com/v/-tcXgMZYX7k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-tcXgMZYX7k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Khronos Group &amp; Imagination Joint Seminar occurred on July 19, 2022. Forward-looking innovation and ecological collaboration in Shanghai was the focus of the seminar.
+
+More information: https://www.khronos.org/events/khronos-imagination-joint-seminar</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="30"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
