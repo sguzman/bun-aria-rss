@@ -1,0 +1,13 @@
+{
+  "title": "Deep Reinforcement Learning in Action is Published",
+  "link": "",
+  "published": "2020-05-05T02:16:00-05:00",
+  "updated": "2020-05-05T02:16:00-05:00",
+  "author": {
+    "name": "Brandon Brown"
+  },
+  "id": "tag:outlace.com,2020-05-05:/deep-reinforcement-learning-in-action-is-published.html",
+  "summary": "<p>Deep Reinforcement Learning in Action is out!</p>",
+  "content": "<p>Our book <a href=\"https://www.manning.com/books/deep-reinforcement-learning-in-action\">Deep Reinforcement Learning in Action</a> is out at Manning.com and will be out on <a href=\"https://www.amazon.com/Deep-Reinforcement-Learning-Action-Alexander/dp/1617295434/ref=sr_1_5?crid=17JK1O42F2L91&dchild=1&keywords=deep+reinforcement+learning&qid=1588663023&s=books&sprefix=deep+reinforcement%2Caps%2C176&sr=1-5#customerReviews\">Amazon</a> once Amazon starts accepting new book shipments (has been delayed due to the covid19 pandemic). We hope you'll buy a copy and tell your friends and colleagues and leave us a review. We put a lot of work into this book and think it's one of the best ways to learn Deep Reinforcement Learning from the fundamentals to implementing some of the latest research papers.</p>\n<p>Here's the table of contents:</p>\n<h5>PART 1:  FOUNDATIONS</h5>\n<ul>\n<li>1 What Is Reinforcement Learning</li>\n<li>2 Modeling Reinforcement Learning Problems: Markov Decision Processes</li>\n<li>3 Predicting the Best States and Actions: Deep Q-Networks</li>\n<li>4 Learning to Pick the Best Action: Policy Gradients</li>\n<li>5 Tackling more Complex Environments with Actor-Critic Methods</li>\n</ul>\n<h5>PART 2:  ABOVE AND BEYOND</h5>\n<ul>\n<li>6 Alternative Optimization Methods: Evolutionary Algorithms</li>\n<li>7 Distributional DQN: Getting the full story</li>\n<li>8 Curiosity-Driven Exploration</li>\n<li>9 Multi-Agent Reinforcement Learning</li>\n<li>10    Interpretable Reinforcement Learning: Attention and Relational Models</li>\n<li>11    Conclusion</li>\n</ul>\n<h5>APPENDICES</h5>\n<ul>\n<li>A Deep Learning, Mathematics, PyTorch</li>\n</ul>\n<p>-Brandon</p>",
+  "category": ""
+}

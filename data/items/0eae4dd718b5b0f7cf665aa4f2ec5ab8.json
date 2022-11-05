@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:9cR2Day-4Bk",
+  "yt:videoId": "9cR2Day-4Bk",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "[Intro to HoTT - OLD] Martin-Löf Type Theory: Judgments, Contexts, and Types",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2021-03-27T02:44:26+00:00",
+  "updated": "2022-07-22T11:24:32+00:00",
+  "media:group": {
+    "media:title": "[Intro to HoTT - OLD] Martin-Löf Type Theory: Judgments, Contexts, and Types",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Video 1 of the Martin-Löf Type Theory lecture, part of the Introduction to Homotopy Type Theory video lecture series. Covers the key mechanisms of formal MLTT: judgments, contexts, inference rules, and how to introduce new types.\n\nThis lecture series roughly follows Egbert Rijke's forthcoming textbook, Introduction to Homotopy Type Theory, which is expected to be released in 2021 by Cambridge University Press. More information can be found here: https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory.\n\nSome relevant resources:\n- Paragraph about judgments in the nLab: https://ncatlab.org/nlab/show/judgment#in_type_theory\n- Article I wrote (which others have improved/maintained) describing the bool type in Standard ML: https://smlhelp.github.io/book/types/bool.html\n- SEP article on Theophrastus, the inventor(?) of modus ponens: https://plato.stanford.edu/entries/theophrastus/\n- Wikipedia article on product spaces in classical topology: https://en.wikipedia.org/wiki/Product_topology\n- Some lecture slides I made about the simply-typed lambda calculus and cartesian closed categories (compare the definition of the STLC in Section 1 with how we're defining MLTT here): https://jacobneu.github.io/teaching/CategoryTheory/lambdaCalculus.pdf",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
