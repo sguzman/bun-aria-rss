@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-8245799372002363637",
+  "published": "2021-09-10T23:53:00.003-07:00",
+  "updated": "2021-09-11T01:04:25.687-07:00",
+  "title": "Probability and Cumulative Dice Sums",
+  "content": "<p>Let a die be labeled with increasing positive integers \\(a_1,\\ldots , a_n\\), and let the probability of getting \\(a_i\\) be \\(p_i&gt;0\\). We start at 0 and roll the die, adding whatever number we get to the current total. If \\({\\rm Pr}(N)\\) is the probability that at some point we achieve the sum \\(N\\), then \\(\\lim_{N \\to \\infty} {\\rm Pr}(N)\\) exists and equals \\(1/\\rm{E}(X)\\) iff \\((a_1, \\ldots, a_n) = 1\\).</p><p>The direction \\(\\implies\\) is obvious. Now, if the limit exists it must equal \\(1/{\\rm E}(X)\\) by Chebyshev's inequality, so we only need to show that the limit exists assuming that \\((a_1, \\ldots, a_n) = 1\\).</p><p>We have the recursive relationship \\[{\\rm Pr}(N) = p_1 {\\rm Pr}(N-a_1) + \\ldots + p_n {\\rm Pr}(N-a_n);\\] the characteristic polynomial is therefore \\[f(x) = x^{a_n} - \\left(p_1 x^{(a_n-a_1)} + \\ldots + p_n\\right).\\]</p><p>This clearly has the root \\(x=1\\). Next note \\[ f'(1) = a_n - \\sum_{i=1}^{n} p_i a_n + \\sum_{i=1}^{n} p_i a_i =&nbsp;\\rm{E}(X) &gt; 0 ,\\] hence this root is also unique.</p><p>&nbsp;I'll now show that all other roots have absolute value \\(&lt; 1\\).</p><p>We have \\[ x^{a_n} - \\left( p_1 x^{(a_n-a_1)} + \\ldots + p_n \\right) = 0 \\iff x^{a_1} = p_1 + \\ldots&nbsp; + \\frac{p_n}{x^{(a_n-a_1)}} .\\]</p><p>If \\(|x|&gt;1\\) then \\[ |x^{a_1}| = \\left|p_1 + \\ldots + \\frac{p_n}{x^{(a_n-a_1)}}\\right| \\leq |p_1| + \\ldots + \\left|\\frac{p_n}{x^{(a_n-a_1)}}\\right| \\leq p_1 + \\ldots + p_n = 1;\\] contradiction.</p><p>If \\(|x|=1\\) \\[ |x^{a_1}| = \\left|p_1 + \\ldots + \\frac{p_n}{x^{(a_n-a_1)}}\\right| &lt; 1\\] unless \\( x^{(a_1 - a_i)} = 1 \\) for all \\( i \\implies x^d = 1 \\) where \\( d = (a_1 - a_2, \\ldots, a_1 - a_n) \\).</p><p>Assume \\(x^d = 1\\); then \\[ x^{a_1} = p_1 + \\ldots + \\frac{p_n}{x^{(a_n-a_1)}} = p_1 + \\ldots + p_n = 1 \\implies x^{a_1} = 1 \\implies x^e = 1\\] where \\( e = (d, a_1) = (a_1, \\ldots, a_n) = 1\\) by assumption, hence \\( x^1 = 1 \\implies x = 1 \\) is the only root of \\( f(x) \\) such that \\( |x| \\geq 1 \\implies \\lim_{N \\to \\infty} {\\rm Pr}(N) \\) exists.</p>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

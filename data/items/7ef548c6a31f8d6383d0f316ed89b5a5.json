@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-6021819802112141583",
+  "published": "2022-07-18T09:08:00.000-07:00",
+  "updated": "2022-07-18T09:08:28.942-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "Use the new Google Mobile Ads SDK getVersion() method",
+  "content": "<p>We heard your feedback that <code>MobileAds.getVersionString()</code> was confusing as it didn’t match the external version. We addressed it by adding a new method - <code><a href=\"https://developers.google.com/android/reference/com/google/android/gms/ads/MobileAds#getVersion()\">MobileAds.getVersion()</a></code>. In doing so, we have deprecated <code>MobileAds.getVersionString(). </code></p><p><strong>       Distinctions between <em>getVersionString()</em> and <em>getVersion() </em></strong></p> <style>td  {     text-align: center;  } </style><table border=1 style=\"width:100%\">  <tr>   <th>   </th>   <th>getVersionString() [deprecated]    </th>   <th>getVersion()    </th>  </tr>  <tr>    <td><strong>Sample return value</strong>   </td>   <td><code>afma-sdk-a-v214106000.214106000.0</code>   </td>   <td><code>21.0.0</code>   </td>  </tr>  <tr>   <td><strong>Requires calling <a href=\"https://developers.google.com/android/reference/com/google/android/gms/ads/MobileAds#initialize(android.content.Context,%20com.google.android.gms.ads.initialization.OnInitializationCompleteListener)\">initialize()</a> first?</strong>   </td>   <td>Yes    </td>   <td>No    </td>  </tr></table></center>  <p>Calling <code>MobileAds.getVersionString()</code> returns an internal version number. The <code>MobileAds.getVersion()</code> method outputs a simplified, external version number that matches the version in the <a href=\"https://www.google.com/url?q=https://developers.google.com/admob/android/rel-notes&sa=D&source=docs&ust=1656450071938158&usg=AOvVaw0FrY709N3AQ6MyzpAnTMFh\">release notes</a>. For example, <code>21.0.0</code>. </p><p>Also as part of the v21.0.0 release, you can call <code>MobileAds.getVersion()</code> before calling <code><a href=\"https://developers.google.com/android/reference/com/google/android/gms/ads/MobileAds#initialize(android.content.Context,%20com.google.android.gms.ads.initialization.OnInitializationCompleteListener)\">MobileAds.initialize()</a></code>. Previously, you had to initialize the SDK to query the SDK version number, or else the app would crash.   <p>Querying the SDK version number can be accomplished in your Android apps with the following code snippet: </p>   <pre class=\"prettyprint\">// Log the Mobile Ads SDK Version.<br />Log.d(\"MyApp\", MobileAds.getVersion()); // \"21.0.0\"<br /><br />// Initialize the SDK.<br />MobileAds.initialize(this, new OnInitializationCompleteListener() {<br />    @Override<br />    public void onInitializationComplete(InitializationStatus status) {} <br />});</pre>  <p>For the full list of changes in the v21.0.0 release, check the <a href=\"https://developers.google.com/admob/android/rel-notes#21.0.0\">release notes</a>. If you have any questions or need additional help, contact us via the <a href=\"https://groups.google.com/group/google-admob-ads-sdk\">forum</a>. </p> <p><span class=\"byline-author\"><img width=\"40\" height=\"40\" src=\"https://lh3.googleusercontent.com/a-/AOh14GjtsQZdIExmcjrR581d0QKQR_WB3m0ETlK1hUK5=s88-w88-h88-c-k?sz=40\" style=\"vertical-align:middle; border:none;\">&nbsp;-&nbsp;Justin Malandruccolo, Mobile Ads Developer Relations</span></p>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

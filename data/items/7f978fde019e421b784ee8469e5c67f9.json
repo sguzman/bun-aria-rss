@@ -1,0 +1,35 @@
+{
+  "id": "tag:blogger.com,1999:blog-15418143.post-4411090877285667097",
+  "published": "2014-11-27T12:06:00.003-05:00",
+  "updated": "2014-11-27T12:06:40.487-05:00",
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Barcodes: Realtime Training and Detection with VMX",
+  "content": "In this VMX screencast, witness the creation of a visual barcode detection program in under 9 minutes. You can see the entire training procedure -- creating an initial data set of labeled barcodes, improving the detector via a 5 minute interactive learning step, and finishing off with a qualitative evaluation of the trained barcode detector.<br /><div style=\"text-align: center;\"><br /></div><div style=\"text-align: center;\"><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"//www.youtube.com/embed/-0eTty0uRt4\" width=\"420\"></iframe></div><div style=\"text-align: center;\"><br /></div>The inspiration came after reading Dr. Rosebrock's blog post on detecting barcodes using OpenCV and Python (<a href=\"http://www.pyimagesearch.com/2014/11/24/detecting-barcodes-images-python-opencv/\">http://www.pyimagesearch.com/2014/11/24/detecting-barcodes-images-python-opencv/</a>). &nbsp;While the code presented in Rosebrock's blog post is quite simple, it is most definitely domain-specific. &nbsp;Different domain-specific programs must be constructed for different objects. &nbsp;In other words, different kinds of morphological operations, features, and thresholds must be used for detecting different objects and it is not even clear how you would construct the rules to detect a complex object such as a \"monkey.\" &nbsp;If you are just getting started with programming and want to learn how to construct some of these domain-specific programs, you're just going to have to subscribe to <a href=\"http://www.pyimagesearch.com/\">http://www.pyimagesearch.com/</a>.<br /><br />Writing these kinds of vision programs is hard. &nbsp;Unless... you address the problem with some advanced machine learning techniques. &nbsp;Applying machine learning to visual problems is \"the backbone\" of what we do at vision.ai and computer vision research has been a personal passion of mine for over a decade. &nbsp;So I decided to take our most recent piece of vision tech for a spin. &nbsp;We try not to code while on vacation (a good team needs good rest), and I don't consider using our GUI-based VMX software as hardcore as \"coding.\" &nbsp;<b>Unlike traditional vision systems whose operation might leave you with an engineering-hangover, using VMX is more akin to playing Minecraft.</b> &nbsp;I figured that playing a video game or two on vacation is permissible. <br /><br />Eliminating the residual sunscreen from my hands, I rebooted my soul with an iced gulp of Spice Isle Coffee and fired up my trusty Macbook Pro. &nbsp;I then grabbed the first few vacation-themed objects from the kitchen. (<b>And yes, I'm on vacation for Thanksgiving</b> -- the objects include canned fruit, sunscreen, and a bottle of booze.) &nbsp;Then it was time to throw the barcode detection problem at VMX.<br /><br /><table cellpadding=\"0\" cellspacing=\"0\" class=\"tr-caption-container\" style=\"float: right; margin-left: 1em; text-align: right;\"><tbody><tr><td style=\"text-align: center;\"><a href=\"http://3.bp.blogspot.com/-mkY7cgywdVY/VHdXjaw2ctI/AAAAAAAANx0/MrytvKq6QnY/s1600/bar_code_creation.png\" imageanchor=\"1\" style=\"clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-mkY7cgywdVY/VHdXjaw2ctI/AAAAAAAANx0/MrytvKq6QnY/s1600/bar_code_creation.png\" height=\"193\" width=\"320\" /></a></td></tr><tr><td class=\"tr-caption\" style=\"text-align: center;\"><b>Step 1: </b>Barcode Initial Selections</td></tr></tbody></table>30 seconds worth of initial clicks followed by several minutes worth of waving objects in front of the webcam is not hard work. &nbsp;5 minutes later we have a sexy barcode detector. &nbsp;Not too bad for computer vision in a non-laboratory setting. &nbsp;While on vacation, I don't have access to a lab and neither should you. &nbsp;A sun-filled patio will have to suffice. &nbsp;In fact, it was so bright outside that I had to wear sunglasses the entire time. (Towards the end of the video, a \"sunglasses\" detector makes a cameo.)<br /><br />Please note that he barcode is not actually \"read\" (so this program can't tell whether the region corresponds to canned pineapples or sunscreen), the region of interest is simply detected and tracked in real-time.<br /><br /><table cellpadding=\"0\" cellspacing=\"0\" class=\"tr-caption-container\" style=\"float: left; margin-right: 1em; text-align: left;\"><tbody><tr><td style=\"text-align: center;\"><a href=\"http://1.bp.blogspot.com/-5t8GBjBVnVQ/VHdXj4HbatI/AAAAAAAANx4/Vr-_HD5J1tQ/s1600/bar_code_positives_negatives.png\" imageanchor=\"1\" style=\"clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;\"><img border=\"0\" src=\"http://1.bp.blogspot.com/-5t8GBjBVnVQ/VHdXj4HbatI/AAAAAAAANx4/Vr-_HD5J1tQ/s1600/bar_code_positives_negatives.png\" height=\"166\" width=\"320\" /></a></td></tr><tr><td class=\"tr-caption\" style=\"text-align: center;\"><b>Final Step: </b>Tweaking Learned Positives and Negatives</td></tr></tbody></table>This video is <b>an example of a pure machine-learning based approach to barcode detection</b>. &nbsp;The underlying algorithm can be used to learn just about any visual concept you're interested in detecting. &nbsp;A bar code is just like a face or a car -- it is a 2D pattern which can be recognized by machines. &nbsp;Throughout my career I've trained thousands of detectors (mostly in an academic setting). &nbsp;VMX is the most fun with object recognition I've ever had and it lets me train detectors without having to worry about the mathematical details. &nbsp;Once you get your own copy of VMX, what will <i>you</i> train?<br /><br />To learn how to get your hands on VMX, sign up on the mailing list at&nbsp;<a href=\"http://vision.ai/\">http://vision.ai</a>&nbsp;or if you're daring enough, you can purchase an early beta license key from&nbsp;<a href=\"https://beta.vision.ai/\">https://beta.vision.ai</a>.<br /><br />So what's next? &nbsp;Should I build&nbsp;<i>a boat detector</i>? Maybe I should train a detector to <i>let me know when I run low on Spice Isle Coffee</i>? Or how about going on a field trip and <i>counting bikinis on the beach</i>?",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Tomasz Malisiewicz",
+    "uri": "http://www.blogger.com/profile/17507234774392358321",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 5
+}
