@@ -1,0 +1,16 @@
+{
+  "title": "Benchmarking Nearest Neighbor Searches in Python",
+  "link": "",
+  "published": "2013-04-29T08:56:00-07:00",
+  "updated": "2013-04-29T08:56:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-04-29:blog/2013/04/29/benchmarking-nearest-neighbor-searches-in-python/",
+  "summary": "<p>I recently submitted a scikit-learn <a href=\"https://github.com/scikit-learn/scikit-learn/pull/1732\">pull request</a>\ncontaining a brand new ball tree and kd-tree for fast nearest neighbor searches in python.\nIn this post I want to highlight some of the features of the new ball tree and kd-tree\ncode that's part of this pull request, compare it to what's available in the\n<code>scipy.spatial.cKDTree</code> implementation, and run a few benchmarks showing the\nperformance of these methods on various data sets.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
