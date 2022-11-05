@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Bruce Schneier"
+  },
+  "title": "Apple Only Commits to Patching Latest OS Version",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "id": "https://www.schneier.com/?p=66022",
+  "updated": "2022-10-28T19:32:25Z",
+  "published": "2022-10-31T11:29:11Z",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "summary": "<p>People have suspected this for a while, but Apple has made it official. It <a href=\"https://support.apple.com/guide/deployment/about-software-updates-depc4c80847a/web\">only</a> commits to fully patching the latest version of its OS, even though it claims to support older versions.</p>\n<p>From <a href=\"https://arstechnica.com/gadgets/2022/10/apple-clarifies-security-update-policy-only-the-latest-oses-are-fully-patched/\">ArsTechnica</a>:</p>\n<blockquote><p>In other words, while Apple will provide security-related updates for older versions of its operating systems, only the most recent upgrades will receive updates for every security problem Apple knows about. Apple currently provides security updates to macOS 11 Big Sur and macOS 12 Monterey alongside the newly released <a href=\"https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/\">macOS Ventura</a>, and in the past, it has released security updates for older iOS versions for devices that can&#8217;t install the latest upgrades...</p></blockquote>",
+  "content": "<p>People have suspected this for a while, but Apple has made it official. It <a href=\"https://support.apple.com/guide/deployment/about-software-updates-depc4c80847a/web\">only</a> commits to fully patching the latest version of its OS, even though it claims to support older versions.</p>\n<p>From <a href=\"https://arstechnica.com/gadgets/2022/10/apple-clarifies-security-update-policy-only-the-latest-oses-are-fully-patched/\">ArsTechnica</a>:</p>\n<blockquote><p>In other words, while Apple will provide security-related updates for older versions of its operating systems, only the most recent upgrades will receive updates for every security problem Apple knows about. Apple currently provides security updates to macOS 11 Big Sur and macOS 12 Monterey alongside the newly released <a href=\"https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/\">macOS Ventura</a>, and in the past, it has released security updates for older iOS versions for devices that can&#8217;t install the latest upgrades.</p>\n<p>This confirms something that <a href=\"https://arstechnica.com/gadgets/2021/11/psa-apple-isnt-actually-patching-all-the-security-holes-in-older-versions-of-macos/\">independent security researchers have been aware of for a while</a> but that Apple hasn&#8217;t publicly articulated before. Intego Chief Security Analyst Joshua Long has tracked the CVEs patched by different macOS and iOS updates for years and generally found that bugs patched in the newest OS versions can go months before being patched in older (but still ostensibly &#8220;supported&#8221;) versions, when they&#8217;re patched at all. </p></blockquote>\n",
+  "thr:total": 27
+}
