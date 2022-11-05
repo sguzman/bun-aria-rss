@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3825 (huaxia_erp)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3825",
+  "description": "A vulnerability was found in Huaxia ERP 2.3 and classified as critical. Affected by this issue is some unknown functionality of the component User Management. The manipulation of the argument login leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212792.",
+  "dc:date": "2022-11-02T13:15:17Z"
+}

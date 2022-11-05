@@ -1,0 +1,6 @@
+{
+  "title": "Repeatable random permutation set. (arXiv:2211.01676v1 [cs.AI])",
+  "link": "http://arxiv.org/abs/2211.01676",
+  "description": "<p>Based on Dempster-Shafer evidence theory (DST), random permutation set (RPS)\nis proposed by replacing combinatorial number with permutation number and\ntherefore incorporating order information. Besides, RPS could take DST as a\nspecial case when all items occur in the same order. However, the repetition of\nitems is not allowed in RPS. To address this issue, we propose repeatable\nrandom permutation set (R2PS) which takes the repetition of items into\nconsideration. The right and left junctional sum combination rules are proposed\nand their properties including consistency, pseudo-Matthew effect and\nassociativity are researched. Based on these properties, a decision support\nsystem application is simulated to show the effectiveness of R2PS.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Yang_W/0/1/0/all/0/1\">Wenran Yang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Deng_Y/0/1/0/all/0/1\">Yong Deng</a>"
+}
