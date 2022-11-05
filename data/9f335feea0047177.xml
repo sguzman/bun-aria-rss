@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Number 2147483647</title>
+	<atom:link href="https://no2147483647.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://no2147483647.wordpress.com</link>
+	<description>6 out of 5 scientists recommend this blog</description>
+	<lastBuildDate>Fri, 16 Jun 2017 01:44:42 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='no2147483647.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://s0.wp.com/i/buttonw-com.png</url>
+		<title>Number 2147483647</title>
+		<link>https://no2147483647.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://no2147483647.wordpress.com/osd.xml" title="Number 2147483647" />
+	<atom:link rel='hub' href='https://no2147483647.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>MXNet baseline model for iNaturalist Challenge at FGVC 2017 competition</title>
+		<link>https://no2147483647.wordpress.com/2017/06/16/mxnet-baseline-model-for-inaturalist-challenge-at-fgvc-2017-competition/</link>
+					<comments>https://no2147483647.wordpress.com/2017/06/16/mxnet-baseline-model-for-inaturalist-challenge-at-fgvc-2017-competition/#respond</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Fri, 16 Jun 2017 01:44:42 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[deep learning]]></category>
+		<category><![CDATA[mxnet]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=304</guid>
+
+					<description><![CDATA[I have prepared for a baseline model using MXNet for iNaturalist Challenge at FGVC 2017 competition on Kaggle. Github link is https://github.com/phunterlau/iNaturalist the public LB score is 0.117. Please follow this discussion thread https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017/discussion/34514 if any questions. How to use Install MXNet Run pip install mxnet-cu80 after installing CUDA driver or go to https://github.com/dmlc/mxnet/ for the latest version from [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I have prepared for a baseline model using MXNet for iNaturalist Challenge at FGVC 2017 competition on Kaggle. Github link is <a href="https://github.com/phunterlau/iNaturalist">https://github.com/phunterlau/iNaturalist</a> the public LB score is 0.117. Please follow this discussion thread <a href="https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017/discussion/34514">https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017/discussion/34514</a> if any questions.</p>
+<h2>How to use</h2>
+<h3><a id="user-content-install-mxnet" class="anchor" href="https://github.com/phunterlau/iNaturalist#install-mxnet"></a>Install MXNet</h3>
+<p>Run <code>pip install mxnet-cu80</code> after installing CUDA driver or go to <a href="https://github.com/dmlc/mxnet/">https://github.com/dmlc/mxnet/</a> for the latest version from Github.</p>
+<p>Windows users? no CUDA 8.0? no GPU? Please run <code>pip search mxnet</code> and find the good package for your platform.</p>
+<h3><a id="user-content-generate-lists" class="anchor" href="https://github.com/phunterlau/iNaturalist#generate-lists"></a>Generate lists</h3>
+<p>After downloading and unzipping the train and test set in to <code>data</code>, along with the necessary <code>.json</code> annotation files, run <code>python mx_list.py</code> under <code>data</code> and generate <code>train.lst</code> <code>val.lst</code> <code>test.lst</code></p>
+<h3><a id="user-content-generate-rec-files" class="anchor" href="https://github.com/phunterlau/iNaturalist#generate-rec-files"></a>Generate rec files</h3>
+<p>A good way to speed up training is maximizing the IO by using <code>.rec</code> format, which also provides convenience of data augmentation. In the <code>data/</code> directory, <code>gen_rec.sh</code> can generate <code>train.rec</code> and <code>val.rec</code> for the train and validate datasets, and <code>im2rec.py</code> can be obtained from MXNet repo <a href="https://github.com/dmlc/mxnet/tree/master/tools">https://github.com/dmlc/mxnet/tree/master/tools</a> . One can adjust <code>--quality 95</code> parameter to lower quality for saving disk space, but it may take risk of loosing training precision.</p>
+<h3><a id="user-content-train" class="anchor" href="https://github.com/phunterlau/iNaturalist#train"></a>Train</h3>
+<p>Run <code>sh run.sh</code> which looks like (a 4 GTX 1080 machine for example):</p>
+<pre><code>python fine-tune.py --pretrained-model model/resnet-152 \
+    --load-epoch 0 --gpus 0,1,2,3 \
+    --model-prefix model/iNat-resnet-152 \
+	--data-nthreads 48 \
+    --batch-size 48 --num-classes 5089 --num-examples 579184
+</code></pre>
+<p>please adjust <code>--gpus</code> and <code>--batch-size</code> according to the machine configuration. A sample calculation: <code>batch-size = 12</code> can use 8 GB memory on a GTX 1080, so <code>--batch-size 48</code> is good for a 4-GPU machine.</p>
+<p>Please have internet connection for the first time run because needs to download the pretrained model from <a href="http://data.mxnet.io/models/imagenet-11k/resnet-152/">http://data.mxnet.io/models/imagenet-11k/resnet-152/</a>. If the machine has no internet connection, please download the corresponding model files from other machines, and ship to <code>model/</code> directory.</p>
+<h3><a id="user-content-generate-submission-file" class="anchor" href="https://github.com/phunterlau/iNaturalist#generate-submission-file"></a>Generate submission file</h3>
+<p>After a long run of some epochs, e.g. 30 epochs, we can select some epochs for the submission file. Run <code>sub.py</code>which two parameters : <code>num of epoch</code> and <code>gpu id</code> like:</p>
+<pre><code>python sub.py 21 0
+</code></pre>
+<p>selects the 21st epoch and infer on GPU <code>#0</code>. One can merge multiple epoch results on different GPUs and ensemble for a good submission file.</p>
+<h2><a id="user-content-how-fine-tune-works" class="anchor" href="https://github.com/phunterlau/iNaturalist#how-fine-tune-works"></a>How &#8216;fine-tune&#8217; works</h2>
+<p>Fine-tune method starts with loading a pretrained ResNet 152 layers (Imagenet 11k classes) from MXNet model zoo, where the model has gained some prediction power, and applies the new data by learning from provided data.</p>
+<p>The key technique is from <code>lr_step_epochs</code> where we assign a small learning rate and less regularizations when approach to certain epochs. In this example, we give <code>lr_step_epochs='10,20'</code> which means the learning rate changes slower when approach to 10th and 20th epoch, so the fine-tune procedure can converge the network and learn from the provided new samples. A similar thought is applied to the data augmentations where fine tune is given less augmentation. This technique is described in Mu&#8217;s thesis <a href="http://www.cs.cmu.edu/~muli/file/mu-thesis.pdf">http://www.cs.cmu.edu/~muli/file/mu-thesis.pdf</a></p>
+<p>This pipeline is not limited to ResNet-152 pretrained model. Please experiment the fine tune method with other models, like ResNet 101, Inception, from MXNet&#8217;s model zoo <a href="http://data.mxnet.io/models/">http://data.mxnet.io/models/</a> by following this tutorial <a href="http://mxnet.io/how_to/finetune.html">http://mxnet.io/how_to/finetune.html</a> and this sample code <a href="https://github.com/dmlc/mxnet/blob/master/example/image-classification/fine-tune.py">https://github.com/dmlc/mxnet/blob/master/example/image-classification/fine-tune.py</a> . Please feel free submit issues and/or pull requests and/or discuss on the Kaggle forum if have better results.</p>
+<h2><a id="user-content-reference" class="anchor" href="https://github.com/phunterlau/iNaturalist#reference"></a>Reference</h2>
+<ul>
+<li>MXNet&#8217;s model zoo <a href="http://data.mxnet.io/models/">http://data.mxnet.io/models/</a></li>
+<li>MXNet fine tune <a href="http://mxnet.io/how_to/finetune.html">http://mxnet.io/how_to/finetune.html</a><a href="https://github.com/dmlc/mxnet/blob/master/example/image-classification/fine-tune.py">https://github.com/dmlc/mxnet/blob/master/example/image-classification/fine-tune.py</a></li>
+<li>Mu Li&#8217;s thesis <a href="http://www.cs.cmu.edu/~muli/file/mu-thesis.pdf">http://www.cs.cmu.edu/~muli/file/mu-thesis.pdf</a></li>
+<li>iNaturalist Challenge at FGVC 2017 <a href="https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017/">https://www.kaggle.com/c/inaturalist-challenge-at-fgvc-2017/</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2017/06/16/mxnet-baseline-model-for-inaturalist-challenge-at-fgvc-2017-competition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Using MXNet in Keras</title>
+		<link>https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/</link>
+					<comments>https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/#respond</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Wed, 31 May 2017 00:35:37 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=280</guid>
+
+					<description><![CDATA[By popular demand, DMLC has added MXNet support for Keras. Please follow these steps for having it: After having CUDA driver, install MXNet like pip install mxnet-cu80 Install Keras with MXNet support: git clone --recursive https://github.com/dmlc/keras cd keras python setup.py install Assign MXNet as Keras backend: KERAS_BACKEND=mxnet python -c "from keras import backend" &#8220;Using MXNet [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>By popular demand, <a href="http://dmlc.ml">DMLC</a> has added MXNet support for Keras. Please follow these steps for having it:</p>
+<ol>
+<li>After having CUDA driver, install MXNet like
+<pre><code class="language-text">pip install mxnet-cu80</code></pre>
+</li>
+<li>Install Keras with MXNet support:
+<pre><code class="language-text">git clone --recursive https://github.com/dmlc/keras
+cd keras
+python setup.py install</code></pre>
+</li>
+<li>Assign MXNet as Keras backend:
+<pre><code class="language-text">KERAS_BACKEND=mxnet python -c "from keras import backend"</code></pre>
+<p>&#8220;Using MXNet backend.&#8221; means Keras+MXNet is successfully installed. Enjoy.</li>
+</ol>
+<p>Q&amp;A:</p>
+<ol>
+<li>I am using Windows, can I have it? Yes, just replace step 1 with <strong>pip install mxnet-cu80-win</strong></li>
+<li>I don&#8217;t have a GPU, can I have a try? Yes, just replace step 1 with <strong>pip install </strong>mxnet or <strong>pip install </strong>mxnet<strong>&#8211;</strong>mkl if you have Intel CPU(s).</li>
+<li>How is compared to TensorFlow backend? em, do you want to benchmark it? Please feel free to submit benchmark results and bugs to <a href="https://github.com/dmlc/keras/issues">github issue</a>.</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Deep learning for Hackers with MXNet (3): Instant neural art style transfer</title>
+		<link>https://no2147483647.wordpress.com/2017/03/16/deep-learning-for-hackers-3-instant-neural-art-style-transfer/</link>
+					<comments>https://no2147483647.wordpress.com/2017/03/16/deep-learning-for-hackers-3-instant-neural-art-style-transfer/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Thu, 16 Mar 2017 05:56:57 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=264</guid>
+
+					<description><![CDATA[This blog is originally posted in Chinese from my zhihu category. So long from last blog, and thanks for coming back. Here I want to present a MXNet example of instant neural art style transfer, from which you can build your own Prisma app. Do you know MXNet now can be installed via pip? pip [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This blog is originally posted <a href="https://zhuanlan.zhihu.com/p/24205969">in Chinese</a> from my <code>zhihu</code> category.</p>
+<p>So long from last blog, and thanks for coming back. Here I want to present a MXNet example of instant neural art style transfer, from which you can build your own <a href="http://prisma-ai.com/">Prisma</a> app.</p>
+<p>Do you know <code>MXNet</code> now can be installed via <code>pip</code>?</p>
+<div>
+<pre><code class="language-none">pip search mxnet
+mxnet-cu75 (0.9.3a3)  - MXNet is an ultra-scalable deep learning framework. This version uses CUDA-7.5.
+mxnet (0.9.3a3)       - MXNet is an ultra-scalable deep learning framework. This version uses openblas.
+mxnet-cu80 (0.9.3a3)  - MXNet is an ultra-scalable deep learning framework. This version uses CUDA-8.0.</code></pre>
+</div>
+<h2 id="toc_1">Let&#8217;s go</h2>
+<p>After installing <code>MXNet</code>, please do</p>
+<div>
+<pre><code class="language-none">git clone https://github.com/zhaw/neural_style</code></pre>
+</div>
+<p>which includes three different implementations of fast neural art style transfer. Big thanks to the author <a href="https://github.com/zhaw">Zhao Wei</a>. In this blog, I am going to talk about Perceptual Losses by Justin Johnson et al described in this <a href="https://arxiv.org/abs/1603.08155">paper</a>. After <code>git clone</code>, please go to <code>neural_style/perceptual/</code> and execute the following script:</p>
+<div>
+<pre><code class="language-none">import make_image
+maker = make_image.Maker('models/s4', (512, 512))
+maker.generate('output.jpg', 'niba.jpg')</code></pre>
+</div>
+<p>where <code>output.jpg</code> is the output and <code>niba.jpg</code> is picture of the cutest deep learning cat <code>Niba</code>. Within a blink, we can see the output like this:</p>
+<p><img data-attachment-id="266" data-permalink="https://no2147483647.wordpress.com/2017/03/16/deep-learning-for-hackers-3-instant-neural-art-style-transfer/niba-instant-transfer1/#main" data-orig-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png" data-orig-size="600,335" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="niba-instant-transfer1" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png?w=600" class="alignnone size-full wp-image-266" src="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png?w=1008" alt="niba-instant-transfer1.png" srcset="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png 600w, https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png?w=150 150w, https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png?w=300 300w" sizes="(max-width: 600px) 100vw, 600px"   /></p>
+<p>&nbsp;</p>
+<p>Beside this art style, multiple other pretrained neural art models are mentioned in <code>README</code> page under <code>neural_style/perceptual/</code>, please download them via the link mentioned in the page. These pretrained models should produce the art work and combine with <code>ImageTrick</code>:</p>
+<div>
+<pre><code class="language-none">montage output*.jpg -geometry +7+7+7 merge.jpg</code></pre>
+</div>
+<p>&nbsp;</p>
+<p><img data-attachment-id="267" data-permalink="https://no2147483647.wordpress.com/2017/03/16/deep-learning-for-hackers-3-instant-neural-art-style-transfer/niba-instant-transfer2/#main" data-orig-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg" data-orig-size="600,400" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="niba-instant-transfer2" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg?w=300" data-large-file="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg?w=600" class="alignnone size-full wp-image-267" src="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg?w=1008" alt="niba-instant-transfer2.png" srcset="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg 600w, https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg?w=150 150w, https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg?w=300 300w" sizes="(max-width: 600px) 100vw, 600px"   /></p>
+<p>Please note: some machines may encounter the following error</p>
+<div>
+<pre><code class="language-none">terminate called after throwing an instance of 'dmlc::Error' what():  [21:25:23] src/engine/./threaded_engine.h:306: [21:25:23] src/operator/./convolution-inl.h:299: Check failed: (param_.workspace) &gt;= (required_size)</code></pre>
+</div>
+<p>The reason behind this is from the <code>workspace</code> size of the convolution layers, where the default <code>workspace</code> might be too small for some large images. Please edit <code>symbol.py</code> by adding <code>workspace=4092</code> to each <code>mx.symbol.Convolution</code> function.</p>
+<p>Hope you have some fun with your own <code>Prisma</code> app <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2 id="toc_2">Theory</h2>
+<p><code>Neural art transfer</code> has been a hot topic in deep learning, and it starts from this paper <a href="https://arxiv.org/abs/1508.06576"><code>A Neural Algorithm of Artistic Style</code></a>. As we have discussed in the last blog, this idea leverages the power of convolutional network where the high level features can describe so called <code>style</code> of an image, if apply this high level feature to a new image, one can transfer the art style and generate new art work. In the original paper, <code>gram matrix</code> is used for this magic. To understand <code>gram matrix</code> magic, one can take look at my friend&#8217;s paper <a href="https://arxiv.org/abs/1701.01036"><code>Demystifying Neural Style Transfer</code></a> for further understanding. There are many blogs and papers trying to understand why neural art transfer works, and this paper is probably the only correct one.</p>
+<p>Back to the original neural art transfer: the original version calculates the per-pixel loss from the content image to the style image, and introduces a very large <code>gram matrix</code>, meanwhile, it has to run a logistic regression for tuning the weight of each layer. This method needs much computing time due to couple of heavy load from per-pixel loss, gram matrix plus the LR. In the market, there are several faster implementation, where <code>Perceptual Losses</code> method is one of the fastest ones. <code>Perceptual Losses</code> introduces pretrained <code>loss networks</code> from <code>ImageNet</code>, and re-uses the content loss and style loss to calculate perceptual loss, however, it doesn&#8217;t update the loss network, which saves much computing time. It works like this: when give the input image (e.g. <code>Niba</code>) to the transform network, it calculates the loss from the pretrained loss network, and gets back to transform network to minimize the loss, so transform network can learn the loss network style from minimizing the loss.</p>
+<p>Perceptual loss network needs a set of pretrained network where each network for a style. One can follow <code>train.py</code> under the same repo for creating new styles.</p>
+<h2 id="toc_3">Appendix</h2>
+<p>Why I paused updating this blog for a long time and resume?</p>
+<p>Because I was carefully thinking about teaching <code>MXNet</code> and <code>deep learning</code> in <strong>a different way</strong>, much different from many other blogs or medium posts where each tutorial starts with theory or math or whatever fundamental knowledge, needs at least 30 minutes reading time, professionals don&#8217;t like the repeated fundamental knowledge part since they already know it, but new readers can&#8217;t understand what to do.</p>
+<p>I believe the only way readers can remember the knowledge is by <code>JUST DO IT!</code>. From last year, I opened my <a href="https://zhuanlan.zhihu.com/gomxnet">category</a> on <code>zhihu.com</code> and started publishing <code>two minutes demo of deep learning</code> in Chinese. It turned out very welcomed: my 2000+ followers had much fun trying these demos, they really learned after doing it and reading the <code>theory</code> part. If miss some math knowledge, I showed them where to learn. So, I am thinking that, why don&#8217;t I translate it back to English, and share with more readers. I will keep posting more blogs like this, hope you like them.</p>
+<p>And, as always, have you clicked the <code>star</code> and <code>fork</code> buttons on <code>MXNet</code> repo <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a> ?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2017/03/16/deep-learning-for-hackers-3-instant-neural-art-style-transfer/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://no2147483647.files.wordpress.com/2017/03/niba_original.png" />
+		<media:content url="https://no2147483647.files.wordpress.com/2017/03/niba_original.png" medium="image">
+			<media:title type="html">niba_original</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer1.png" medium="image">
+			<media:title type="html">niba-instant-transfer1.png</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2017/03/niba-instant-transfer2.jpg" medium="image">
+			<media:title type="html">niba-instant-transfer2.png</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Setup Amazon AWS GPU instance with MXnet</title>
+		<link>https://no2147483647.wordpress.com/2016/01/16/setup-amazon-aws-gpu-instance-with-mxnet/</link>
+					<comments>https://no2147483647.wordpress.com/2016/01/16/setup-amazon-aws-gpu-instance-with-mxnet/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Sat, 16 Jan 2016 09:32:50 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=216</guid>
+
+					<description><![CDATA[(every blog should have a cat, right? This cat is &#8220;Niba&#8221;, and she is Pogo&#8217;s younger sister. The neural art style is &#8220;Girl with a Pearl Earring&#8220;. More about Neural Art with MXnet, please refer to my last blog.) With popular requests, I wrote this blog for starting an Amazon AWS GPU instance and install MXnet for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img data-attachment-id="253" data-permalink="https://no2147483647.wordpress.com/2016/01/16/setup-amazon-aws-gpu-instance-with-mxnet/niba-meisje-met-de-parel/#main" data-orig-file="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png" data-orig-size="384,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Niba Meisje met de parel" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png?w=225" data-large-file="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png?w=384" class="alignnone size-full wp-image-253" src="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png?w=1008" alt="Niba Meisje met de parel" srcset="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png 384w, https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png?w=113 113w, https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png?w=225 225w" sizes="(max-width: 384px) 100vw, 384px"   /></p>
+<p>(every blog should have a cat, right? This cat is &#8220;Niba&#8221;, and she is Pogo&#8217;s younger sister. The neural art style is &#8220;<a href="https://www.wikiwand.com/en/Girl_with_a_Pearl_Earring">Girl with a Pearl Earring</a>&#8220;. More about Neural Art with MXnet, please refer to <a href="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/">my last blog</a>.)</p>
+<p>With popular requests, I wrote this blog for starting an Amazon AWS GPU instance and install <a href="https://github.com/dmlc/mxnet">MXnet</a> for kaggle competitions, like <a href="https://www.kaggle.com/c/second-annual-data-science-bowl/">Second Annual Data Science Bowl</a>. Installing CUDA on AWS is kind of tricky: one needs to update kernels and solve some conflicts. I want to have special thanks to Caffe EC2 installation guide <a href="https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)">https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)</a></p>
+<p>Have you clicked &#8220;star&#8221; on MXnet&#8217;s github repo? If not yet, do it now: <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a></p>
+<h1>Create AWS GPU instance</h1>
+<p>For creating an AWS instance, please follow <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html</a>. AWS spot instance can be an inexpensive solution for competing on Kaggle, and one can request a <code>g2.2xlarge</code> (single GPU) or a <code>g2.8xlarge</code> (4x GPUs) instance from the AWS console. The price when I wrote this blog is about 0.08$/h for g2.2xlarge and 0.34$/h for g2.8xlarge. Once approved, one can start an <strong>official Ubuntu 14.04</strong> instance and start installing MXnet. One can save this AMI image for future reference.</p>
+<h1>Install dependencies</h1>
+<h2>Preparation</h2>
+<pre><code>sudo apt-get update &amp;&amp; sudo apt-get upgrade
+sudo apt-get install -y build-essential git libcurl4-openssl-dev libatlas-base-dev libopencv-dev python-numpy unzip
+</code></pre>
+<p>Reference: <a href="http://mxnt.ml/en/latest/build.html">http://mxnt.ml/en/latest/build.html</a></p>
+<h2>Update Linux kernel on AWS</h2>
+<pre><code>sudo apt-get install linux-image-extra-virtual
+</code></pre>
+<p><strong>&#8220;Important</strong>: While installing the linux-image-extra-virtual, you may be prompted &#8220;What would you like to do about menu.lst?&#8221; I selected &#8220;keep the local version currently installed&#8221; &#8221; as on Caffe reference.</p>
+<h2>Disable nouveau</h2>
+<p><code>nouveau</code> conflicts with NVIDIA&#8217;s kernel module on AWS. One needs to edit <code>/etc/modprobe.d/blacklist-nouveau.conf</code> and disable <code>nouveau</code>.</p>
+<pre><code>sudo vi /etc/modprobe.d/blacklist-nouveau.conf
+
+    blacklist nouveau
+    blacklist lbm-nouveau
+    options nouveau modeset=0
+    alias nouveau off
+    alias lbm-nouveau off
+
+echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
+sudo update-initramfs -u
+sudo reboot
+</code></pre>
+<p>Wait before finish rebooting, usually 1 min, and login back to the instance to continue installation:</p>
+<pre><code>sudo apt-get install -y linux-source linux-headers-`uname -r`
+</code></pre>
+<p>Reference: <a href="https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)">https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)</a></p>
+<h1>Install CUDA</h1>
+<pre><code>wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
+sudo apt-get update
+sudo apt-get install -y cuda
+</code></pre>
+<p><strong>Important</strong>: Please reboot the instance for loading the driver</p>
+<p><code>sudo reboot<br />
+</code></p>
+<p>If everything is fine, nvidia-smi should look like this (4 GPU instance) for example:</p>
+<p><img data-attachment-id="249" data-permalink="https://no2147483647.wordpress.com/2016/01/16/setup-amazon-aws-gpu-instance-with-mxnet/screen-shot-2016-01-15-at-11-58-02-pm/#main" data-orig-file="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png" data-orig-size="1276,936" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2016-01-15 at 11.58.02 PM" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=1008" class="alignnone size-full wp-image-249" src="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=1008" alt="Screen Shot 2016-01-15 at 11.58.02 PM" srcset="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=1008 1008w, https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=150 150w, https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=300 300w, https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=768 768w, https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png?w=1024 1024w, https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png 1276w" sizes="(max-width: 1008px) 100vw, 1008px"   /></p>
+<h2>Optional: cuDNN</h2>
+<p>One can apply for the developer program here <a href="https://developer.nvidia.com/cudnn">https://developer.nvidia.com/cudnn</a>. When approved, download cuDNN for Linux (either v4 RC or v3 is fine), upload the cuDNN package from the local computer to the instance, and install cuDNN:</p>
+<pre><code>tar -zxf cudnn-7.0-linux-x64-v4.0-rc.tgz #or cudnn-7.0-linux-x64-v3.0-prod.tgz
+cd cuda
+sudo cp lib64/* /usr/local/cuda/lib64/
+sudo cp include/cudnn.h /usr/local/cuda/include/
+</code></pre>
+<p>Reference: <a href="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/">https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/</a></p>
+<h1>Install MXnet</h1>
+<pre><code>git clone --recursive https://github.com/dmlc/mxnet
+cd mxnet; cp make/config.mk .
+
+#add CUDA options
+echo "USE_CUDA=1" &gt;&gt;config.mk
+echo "USE_CUDA_PATH=/usr/local/cuda" &gt;&gt;config.mk
+#<strong>if you have cuDNN, uncomment the following line</strong>
+#<strong>echo "USE_CUDNN=1" &gt;&gt;config.mk</strong>
+echo "USE_BLAS=atlas" &gt;&gt; config.mk
+echo "USE_DIST_KVSTORE = 1" &gt;&gt;config.mk
+echo "USE_S3=1" &gt;&gt;config.mk
+make -j8
+</code></pre>
+<p>Reference: <a href="http://mxnt.ml/en/latest/build.html">http://mxnt.ml/en/latest/build.html</a></p>
+<h2>Add some link lib path</h2>
+<pre><code>echo "export LD_LIBRARY_PATH=/home/ubuntu/mxnet/lib/:/usr/local/cuda-7.5/targets/x86_64-linux/lib/" &gt;&gt;&gt; ~/.bashrc
+</code></pre>
+<h2>Install python package</h2>
+<p>One can either use the system&#8217;s python or Miniconda/Anaconda python as mentioned in my <a href="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/">previous blog</a>. If use system&#8217;s python, do:</p>
+<pre><code>sudo apt-get install -y python-pip
+cd python
+python setup.py install --user
+</code></pre>
+<h2>Test it</h2>
+<pre><code>python example/image-classification/train_mnist.py --network lenet --gpus 0
+</code></pre>
+<p>One can also give <code>--gpus 0,1,2,3</code> for using all 4 GPUs, if runs on a <code>g2.8xlarge</code> (4x GPUs) instance. Enjoy Kaggle competitions with MXnet!</p>
+<h1>Some trouble shooting</h1>
+<p>One may see some annoying message when starting training with GPU</p>
+<pre><code>libdc1394 error: Failed to initialize libdc1394
+</code></pre>
+<p>It is OpenCV problem on AWS. One can simply disable it by:</p>
+<pre><code>sudo ln /dev/null /dev/raw1394
+</code></pre>
+<p>Reference: <a href="http://stackoverflow.com/questions/12689304/ctypes-error-libdc1394-error-failed-to-initialize-libdc1394">http://stackoverflow.com/questions/12689304/ctypes-error-libdc1394-error-failed-to-initialize-libdc1394</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2016/01/16/setup-amazon-aws-gpu-instance-with-mxnet/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2016/01/niba-meisje-met-de-parel.png" medium="image">
+			<media:title type="html">Niba Meisje met de parel</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2016/01/screen-shot-2016-01-15-at-11-58-02-pm.png" medium="image">
+			<media:title type="html">Screen Shot 2016-01-15 at 11.58.02 PM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Deep learning for hackers with MXnet (2): Neural art</title>
+		<link>https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/</link>
+					<comments>https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Mon, 21 Dec 2015 04:47:01 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=170</guid>
+
+					<description><![CDATA[Special thanks to Eric Xie for fixing the MXnet cuDNN problem. MXnet can fully utilize cuDNN for speeding up neural art. Have you clicked &#8220;star&#8221; and &#8220;fork&#8221; on MXnet github repo? If not yet, do it now! https://github.com/dmlc/mxnet Update: want an almost real time Neural Art? Let&#8217;s go to MXNet-GAN model: it is a Generative Adversarial [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Special thanks to <a href="https://www.cs.washington.edu/node/9554">Eric Xie</a> for fixing the MXnet cuDNN problem. MXnet can fully utilize cuDNN for speeding up neural art.</p>
+<p>Have you clicked &#8220;star&#8221; and &#8220;fork&#8221; on MXnet github repo? If not yet, do it now! <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a></p>
+<p>Update: want an almost real time Neural Art? Let&#8217;s go to MXNet-GAN model: it is a Generative Adversarial Network pretrained model, please refer to <a href="http://dmlc.ml/mxnet/2016/06/20/end-to-end-neural-style.html">http://dmlc.ml/mxnet/2016/06/20/end-to-end-neural-style.html</a> for details.</p>
+<h2>Neural art：paint your cat like Van Gogh</h2>
+<p>Neural art is a deep learning algorithm which can learn the style from famous artwork and apply to a new image. For example, given a cat picture and a Van Gogh artwork, we can paint the cat in Van Gogh style, like this (Van Gogh Self-portrait in 1889 <a href="https://en.wikipedia.org/wiki/Portraits_of_Vincent_van_Gogh">wikipedia</a>):</p>
+<p><img data-attachment-id="174" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/pogo-vangogh-mxnet_600px/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png" data-orig-size="600,260" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pogo-vangogh-mxnet_600px" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png?w=600" class="alignnone size-full wp-image-174" src="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png?w=1008" alt="pogo-vangogh-mxnet_600px" srcset="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png 600w, https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png?w=300 300w" sizes="(max-width: 600px) 100vw, 600px"   /></p>
+<p>Neural art comes from this paper “A Neural Algorithm of Artistic Style” by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge <a href="http://arxiv.org/abs/1508.06576">http://arxiv.org/abs/1508.06576</a>. The basic idea is leveraging the power of Convolution Network (CNN) which can learn high level abstract features from the artwork and simulating the art style for generating a new image. These generative network is a popular research topic in deep learning. For example, you might know Google&#8217;s <a href="http://googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html">Inception</a> which generates a goat-shape cloud image by given a goat image and a cloud image. Facebook also has their similar <a href="https://research.facebook.com/publications/980236685341417/deep-generative-image-models-using-a-laplacian-pyramid-of-adversarial-networks/">Deep Generative Image Models</a> , inspired by this paper <a href="http://arxiv.org/abs/1406.2661">Generative Adversarial Networks</a> where one of the authors, Bing Xu, is also the main author of the great <a href="https://github.com/dmlc/mxnet">MXnet</a>.</p>
+<p>Neural art algorithm has many implementations and applications, for example these two Lua/Torch7 ones <a href="https://github.com/kaishengtai/neuralart">LINK1</a> <a href="https://github.com/jcjohnson/neural-style">LINK2</a>. The paper&#8217;s <a href="http://gitxiv.com/posts/jG46ukGod8R7Rdtud/a-neural-algorithm-of-artistic-style">gitxiv</a> also includes many interesting applications, for example, generating a neural art gif animation. All of these implemtations uses the VGG model of image classification as mentioned in the paper. With <a href="https://github.com/dmlc/mxnet/issues/664">popular demand on github</a>, MXnet has just published its fast and memory efficient implementation. Let&#8217;s have fun with MXnet!</p>
+<p>Have you clicked the &#8220;star&#8221; and &#8220;fork&#8221; on MXnet github repo? If not yet, do it now! <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a></p>
+<h3>MXnet&#8217;s Neural art example</h3>
+<p>The neural art example is under <code>mxnet/example/neural-style/</code>. Since this example needs much computing work, GPU is highly recommended, please refer to my previous blog <a href="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/">&#8220;Deep learning for hackers with MXnet (1) GPU installation and MNIST&#8221;</a> for detailed installation guide. For sure, one can use CPU anyway since mxnet supports seamless CPU/GPU switch, just a reminder, it may take about 40-50 minutes for generating an image with CPU.</p>
+<p><strong>Optional</strong>: MXnet can speed up with cuDNN! cuDNN v3 and v4 both work with mxnet, where v4 is 2-3 seconds faster than v3 on my GTX 960 4GB. Please go to <a href="https://developer.nvidia.com/cudnn">https://developer.nvidia.com/cudnn</a> and apply for nVidia Developer program. If approved, one can install CuDNN with CUDA as simple as this (Reference: <a href="https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN">Install Caffe on EC2 from scratch (Ubuntu, CUDA 7, cuDNN)</a>)) :</p>
+<pre><code>tar -zxf cudnn-7.0-linux-x64-v3.0-prod.tgz
+cd cuda
+sudo cp lib64/* /usr/local/cuda/lib64/
+sudo cp include/cudnn.h /usr/local/cuda/include/
+</code></pre>
+<p>And please turn on <code>USE_CUDNN = 0</code> in <code>make/config.mk</code> and re-compile MXnet for CuDNN support, if not previously compiled. Please also update the python installation if necessary.</p>
+<p><strong>For readers who don&#8217;t have an GPU-ready MXnet</strong>, the market has these free or paid services and apps for trying Neural Art. Since neural art needs a lot of computing, all these paid or free services need to upload the images to servers, and wait for a long time for finishing processing, usually from hours (if lucky) to weeks:</p>
+<ol>
+<li>Deepart <a href="https://deepart.io/">https://deepart.io/</a> Free submission and the average waiting time is a week <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f626.png" alt="😦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> if one wants a faster processing, one can consider donation and speed up to&#8230;. 24 hours wait.</li>
+<li>Pikazo App: <a href="http://www.pikazoapp.com/">http://www.pikazoapp.com/</a> It is a paid app (2.99$) as deepart.io, and you still need to wait in line for a long time.</li>
+<li>AI Painter: <a href="https://www.instapainting.com/ai-painter">https://www.instapainting.com/ai-painter</a> It is a service from instapainting, free of charge, long waiting time too.</li>
+<li>DeepForger: <a href="https://twitter.com/DeepForger">https://twitter.com/DeepForger</a> (Thanks to <a href="https://www.reddit.com/user/alexjc">alexjc</a> from reddit) a twitter account that people can submit images and get Neural Art results within hours. &#8220;It&#8217;s a new algorithm based on StyleNet that does context-sensitive style, and the implementation scales to HD.&#8221;</li>
+</ol>
+<p><strong>For my dear readers who are lucky to have a GPU-ready MXnet</strong>, let do it with MXnet! I am going to use an image from my sister&#8217;s cat &#8220;pogo&#8221; and show every single detail of generating an art image, from end to end.</p>
+<h2>Steps and parameters</h2>
+<p>MXnet needs <a href="http://www.robots.ox.ac.uk/~vgg/research/very_deep/">a VGG model</a>. We need to download it for the first time running using <code>download.sh</code>. MXnet version of this VGG model takes about several MB where the Lua version of the same model costs about 1 GB. After having the model ready, let&#8217;s put the style image and the content image into the <code>input</code> folder. For example, I give mxnet the cat image as content, and Van Gogh&#8217;s painting as style:</p>
+<pre><code>python run.py --content-image input/pogo.jpg --style-image input/vangogh.jpg
+</code></pre>
+<p>After 1-2 minutes, we can see the output in the <code>output</code> folder like this:</p>
+<p><img data-attachment-id="177" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/pogo-gogh-512/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg" data-orig-size="384,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pogo-gogh-512" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg?w=225" data-large-file="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg?w=384" class="alignnone size-full wp-image-177" src="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg?w=1008" alt="pogo-gogh-512.jpg" srcset="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg 384w, https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg?w=113 113w, https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg?w=225 225w" sizes="(max-width: 384px) 100vw, 384px"   /></p>
+<p>Let&#8217;s try painting the cat &#8220;Pogo&#8221; in a modern art style. By replacing Van Gogh with &#8216;Blue Horse&#8217; Modern Equine Art Contemporary Horse Daily Oil Painting by Texas Artist Laurie Pace (<a href="https://www.pinterest.com/pin/407223991276827181/">https://www.pinterest.com/pin/407223991276827181/</a>) , pogo is painted like this:</p>
+<pre><code>python run.py --content-image input/pogo.jpg --style-image input/blue_horse.jpg
+</code></pre>
+<p><img data-attachment-id="179" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/pogo-horse-512/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg" data-orig-size="384,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pogo-horse-512" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg?w=225" data-large-file="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg?w=384" class="alignnone size-full wp-image-179" src="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg?w=1008" alt="pogo-horse-512" srcset="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg 384w, https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg?w=113 113w, https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg?w=225 225w" sizes="(max-width: 384px) 100vw, 384px"   /></p>
+<p>Isn&#8217;t it cool?</p>
+<p>In the python script <code>run.py</code>, there are some fine tune parameters for better results, and each of them is explained as following:</p>
+<ul>
+<li><code>--model</code> The model name. In this example, we only have VGG model from image classification, so please let it as it is. In future, MXnet may provide multiple other models, like Google Inception, since they share the same framework.</li>
+<li><code>--content-image</code> Path to the content image, a.k.a the cat image.</li>
+<li><code>--style-image</code> Path to the style image, a.k.a the Van Gogh image.</li>
+<li><code>--stop-eps</code> The model use <code>eps</code> for evaluating the difference between the content and the style. One can see the <code>eps</code> value converging during the training. The less <code>eps</code>, the more similar style. <code>stop-eps</code> is the threshold for stopping the training. Usually a smaller <code>stop-eps</code> gives stronger style, but it needs longer training time. The default 0.005 value is good, and one can change to 0.004 for better results.</li>
+<li><code>--content-weight</code> <code>--style-weight</code> The weight of content and style. By default, it is 10:1. If one thinks the style is too strong, for example, the painting feels strange and harsh, please reduce it to 20:1 or 30:1.</li>
+<li><code>--max-num-epochs</code> The max number of epochs, by default it is 1000 epochs. Usually MXnet can converge to a good <code>eps</code> value around 200 epochs, and we can leave this parameter alone.</li>
+<li><code>--max-long-edge</code> The max length of the longer edge. MXnet adjust the content image to this size and keeps the aspect ratio. The runtime is almost proportional to the number of pixels (aread) of the image, because the convolution network input size is defined by the number of pixels, and each convolution is on each image block. In short, 700px image may double the memory cost and runtime to that in 500px image. In the following benchmark, one can see that, a 512 px image needs about 1.4GB memory, which is good for a 2014 Macbook Pro or other 2GB CUDA devices; a 850-900 px image is good for 4GB memory CUDA card; if one wants a 1080p HD image, one may need to get a 12GB memory Titan X. Meanwhile, the computing time is related to the number of CUDA cores: the more cores, the faster. I think my dear readers now understand why these free Neural Art services/apps needs hours to weeks of waiting time.</li>
+<li><code>--lr</code> logistic regression learning ratio <code>eta</code> for SGD. Mxnet uses SGD for finding a image which has similar content to cat and similar style to Van Gogh. As in other machine learning projects, larger <code>eta</code> converges faster, but it jumps around the minimum. The default value is 0.1, and 0.2 or 0.3 work too.</li>
+<li><code>--gpu</code> GPU ID. By default it is 0 for using the first GPU. For people who have multiple GPUs, please specify which ones would be used.<code>--gpu -1</code> means using CPU-only mxnet, which takes 40-50 minutes per image.</li>
+<li><code>--output</code> Filename and path for the output.</li>
+<li><code>--save-epochs</code> If save the tempory results. By default, it saves output for each 50 epochs.</li>
+<li><code>-remove-noise</code> Gaussian radius for reducing image noise. Neural art starts with white noise images for converging to the neural art from content + style, so it artificially introduces some unnecessary noise. Mxnet can simply smooth this noise. The default value is 0.2, and one can change it to 0.15 for less blur.</li>
+</ul>
+<h2>Troubleshooting</h2>
+<h3>Out of memory</h3>
+<p>Since the runtime memory cost is proportional to the size of the image. If <code>--max-long-edge</code> was set too large, MXnet may give this <code>out of memory</code> error:</p>
+<pre><code>terminate called after throwing an instance of 'dmlc::Error' what():  [18:23:33] src/engine/./threaded_engine.h:295: [18:23:33] src/storage/./gpu_device_storage.h:39: Check failed: e == cudaSuccess || e == cudaErrorCudartUnloading CUDA: out of memory
+</code></pre>
+<p>To solve it, one needs to have smaller <code>--max-long-edge</code>: for 512px image, MXnet needs 1.4GB memory; for 850px image, MXnets needs 3.7GB. Please notices these two items:</p>
+<ol>
+<li>GTX 970 memory issue: GTX 970 can only support up to 3.5GB memory, otherwise it goes crazy. It is an known problem from nVidia, please refer to <a href="http://wccftech.com/nvidia-geforce-gtx-970-memory-issue-fully-explained/">this link</a> for more details.</li>
+<li>The system GUI costs some memory too. In ubuntu, one can press <code>ctrl+alt+f1</code> for shutting down the system graphic interface, and save some about 40MB memory.</li>
+</ol>
+<h3>Out of workspace</h3>
+<p>If the image size is larger than 600 to 700 pixels, the default workspace parameter in <code>model_vgg19.py</code> may not be enough, and MXnet may give this error:</p>
+<pre><code>terminate called after throwing an instance of 'dmlc::Error' what():  [18:22:39] src/engine/./threaded_engine.h:295: [18:22:39] src/operator/./convolution-inl.h:256: Check failed: (param_.workspace) &gt;= (required_size)
+Minimum workspace size: 1386112000 Bytes
+Given: 1073741824 Bytes
+</code></pre>
+<p>The reason is MXnet needs a buffer space which is defined in <code>model_vgg19.py</code> as <code>workspace</code> for each CNN layer. Please replace all <code>workspace=1024</code> in <code>model_vgg19.py</code> with <code>workspace=2048</code>.</p>
+<h2>Benchmark</h2>
+<p>In this benchmark, we choose this Lua (Torch 7) implementation <a href="https://github.com/jcjohnson/neural-style">https://github.com/jcjohnson/neural-style</a> and compare it with MXnet for learning Van Gogh style and painting pogo the cat. The hardware include a single GTX 960 4GB, a 4-core AMD CPU and 16GB memory.</p>
+<h3>512px</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Memory</th>
+<th>Runtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MXnet (w/o cuDNN)</td>
+<td><strong>1440MB</strong></td>
+<td><strong>117s</strong></td>
+</tr>
+<tr>
+<td>MXnet (w/ cuDNN)</td>
+<td><strong>1209MB</strong></td>
+<td><strong>89s</strong></td>
+</tr>
+<tr>
+<td>Lua Torch 7</td>
+<td>2809MB</td>
+<td>225s</td>
+</tr>
+</tbody>
+</table>
+<p>MXnet has efficient memory usage, and it costs only half of the memory as that in the Lua/Torch7 version.<br />
+￼<img data-attachment-id="181" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/mxnet-lua-512/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png" data-orig-size="734,600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mxnet-lua-512" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png?w=734" class="alignnone size-full wp-image-181" src="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png?w=1008" alt="mxnet-lua-512.png" srcset="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png 734w, https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png?w=300 300w" sizes="(max-width: 734px) 100vw, 734px"   /></p>
+<h3>850px</h3>
+<p>Lua/Torch 7 is not able to run with 850px image because of no enough memory, while MXnet costs 3.7GB memory and finishes in 350 seconds.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Memory</th>
+<th>Runtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MXnet (w/o cuDNN)</td>
+<td>3670MB</td>
+<td>350s</td>
+</tr>
+<tr>
+<td>MXnet (w/ cuDNN)</td>
+<td>2986MB</td>
+<td>320s</td>
+</tr>
+<tr>
+<td>Lua Torch 7</td>
+<td>Out of memory</td>
+<td>Out of memory</td>
+</tr>
+</tbody>
+</table>
+<p><img data-attachment-id="183" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/mxnet-850/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png" data-orig-size="640,358" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mxnet-850" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png?w=640" class="alignnone size-full wp-image-183" src="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png?w=1008" alt="mxnet-850" srcset="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png 640w, https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png?w=300 300w" sizes="(max-width: 640px) 100vw, 640px"   /></p>
+<h3>MXnet magic to squeeze memory (12.21.2015 update)</h3>
+<p>With some <a href="https://www.reddit.com/r/MachineLearning/comments/3xqfwf/deep_learning_for_hackers_with_mxnet_2_neural_art/">invaluable discussion</a> from reddit, and special thanks to <a class="author may-blank id-t2_1cc8g" href="https://www.reddit.com/user/alexjc">alexjc</a> (the author of DeepForger) and <a class="author may-blank id-t2_khtfc" href="https://www.reddit.com/user/jcjohnss">jcjohnss</a> (the author of Lua Neural-artstyle), I have this updated benchmark with MXnet&#8217;s new magic MXNET_BACKWARD_DO_MIRROR to squeeze memory (<a href="https://github.com/dmlc/mxnet/pull/884">github issue</a>). Please update to the latest MXnet github and re-compile. To add this magic, one can simply do:</p>
+<pre><code>MXNET_BACKWARD_DO_MIRROR=1 python run.py --content-image input/pogo.jpg --style-image input/vangogh.jpg
+</code></pre>
+<h4>512px</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Memory</th>
+<th>Runtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MXnet (w/o cuDNN)</td>
+<td>1440MB</td>
+<td>117s</td>
+</tr>
+<tr>
+<td>MXnet (w/ cuDNN)</td>
+<td>1209MB</td>
+<td><strong>89s</strong></td>
+</tr>
+<tr>
+<td>MXnet (w/o cuDNN + Mirror)</td>
+<td><strong>1116MB</strong></td>
+<td>92s</td>
+</tr>
+</tbody>
+</table>
+<h4>850px</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Memory</th>
+<th>Runtime</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MXnet (w/o cuDNN)</td>
+<td>3670MB</td>
+<td>350s</td>
+</tr>
+<tr>
+<td>MXnet (w/ cuDNN)</td>
+<td>2986MB</td>
+<td><strong>320s</strong></td>
+</tr>
+<tr>
+<td>MXnet (w/ cuDNN+Mirror)</td>
+<td><strong>2727MB</strong></td>
+<td>332s</td>
+</tr>
+</tbody>
+</table>
+<p>The mirror magic slows down a little bit and gains memory saving. With this Mirror magic, a 4GB GPU can process up to 1024px image with 3855MB memory!</p>
+<p><strong>Some comments about improving the memory efficiency</strong>: currently in the market, the Lasagne version (with Theano) is the most memory efficient Neural Art generator (<a href="https://github.com/Lasagne/Recipes/tree/master/examples/styletransfer">github link</a>, thanks to <a class="author may-blank id-t2_1cc8g" href="https://www.reddit.com/user/alexjc">alexjc</a>) which can process 1440px images with a 4GB GPU. <a class="author may-blank id-t2_6duif" href="https://www.reddit.com/user/antinucleon">antinucleon</a>, the author of MXnet, <a href="https://www.reddit.com/r/MachineLearning/comments/3xqfwf/deep_learning_for_hackers_with_mxnet_2_neural_art/cy7n3nf">has mentioned</a> that, gram matrix uses imperative mode while symbolic mode should save more memory by reusing it. I will update the benchmark when the symbolic version is available.</p>
+<p>In short, MXnet can save more memory than that in the Lua version, and has some speed up with CuDNN. Considering the price difference between a Titan X (1000$) and a GTX 960 4GB (220$), MXnet is also eco-friendly.</p>
+<p><strong>A note about the speed comparision</strong>: Lua version uses <code>L-BFGS</code> for the optimal parameter search while MXnet uses <code>SGD</code>, which is faster but needs a little bit tune-ups for best results. To be honest, the comparision above doesn&#8217;t mean MXnet is always 2x faster.<br />
+￼<br />
+For readers who want to know MXnet&#8217;s secret of efficient memory usage, please refer to MXnet&#8217;s design document where all dark magic happens. The link is <a href="http://mxnt.ml/en/latest/#open-source-design-notes">http://mxnt.ml/en/latest/#open-source-design-notes</a></p>
+<p>Till now, my dear readers can play with Neural art in MXnet. Please share your creative artwork on twitter or instagram with <code>#mxnet</code> and I will check out your great art!</p>
+<h2>How machine learns the artwork style?</h2>
+<h3>Quantize the &#8220;style&#8221;</h3>
+<p>&#8220;Style&#8221; itself doesn&#8217;t have a clear definition, it might be &#8220;pattern&#8221; or &#8220;texture&#8221; or &#8220;method of painting&#8221; or something else. People believe it can be described by some higher order statistical variables. However, different art styles have different representations, and for a general approach of &#8220;learning the style&#8221;, it becomes very difficulty to extract these higher order variables and apply to some new images.</p>
+<p>Fortunately, Convolution Network (CNN) has proved its power of extracting high-level abstract features in the image classification, for example, computers can tell if a cat is in the image by using CNN. For more details, please refer to <a href="http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf">Yann Lecun&#8217;s deep learning tutorial</a>. The power of &#8220;extracting high-level abstract features&#8221; is used in Neural Art: after couple of layers of convolution operations, the image has lost its pixel-level feature, and only keeps its high-level style. In the following figure from the paper, the author has defined a 5-layer CNN, where the staring night by Van Gogh keeps some content details in the 1st, 2nd and 3rd layer, and becomes &#8220;something looks like staring night&#8221; in the 4th and 5th layer:</p>
+<p><img data-attachment-id="186" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/paper-fig1/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png" data-orig-size="640,467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="paper-fig1" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png?w=640" class="alignnone size-full wp-image-186" src="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png?w=1008" alt="paper-fig1.png" srcset="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png 640w, https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png?w=300 300w" sizes="(max-width: 640px) 100vw, 640px"   /><br />
+￼</p>
+<p>And the author has reached the &#8220;Aha!&#8221; moment: if we put a Van Gogh image and one more other image to the same CNN network, some clever adjustment may make the second image closer to Van Gogh, but keeps some content in the first 3 layers. It is the way to simulate Van Gogh painting style! Moreover, there is a VGG model for image classification in the market for it!</p>
+<h3>Learn style and generate a new image</h3>
+<p>Now the problem becomes an optimization problem: I want the generated picture looks like my cat (the content feature should be kept for the first 3 layers), and I want Van Gogh style (the style feature for the 4th and 5th layer), thus the solution is an intermediate result which has a similar content representation to the cat, and a similar style representation to Van Gogh. In the paper, the author uses a white noise image for generating a new image closer to the content using SGD, and the other white nose image for being closer to the style. The author has defined a magical <code>gram matrix</code> for describing the texture and has used this matrix to defind the loss function which is a weighted mixture of these two white noise image. Mxnet uses SGD for converging it into a image which meets both of the content and style requirement.</p>
+<p>For exmaple, in these 200+ steps of painting pogo the cat, the generated image changes like this:</p>
+<p><img data-attachment-id="187" data-permalink="https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/steps/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/steps.png" data-orig-size="640,210" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="steps" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/steps.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/steps.png?w=640" class="alignnone size-full wp-image-187" src="https://no2147483647.files.wordpress.com/2015/12/steps.png?w=1008" alt="steps.png" srcset="https://no2147483647.files.wordpress.com/2015/12/steps.png 640w, https://no2147483647.files.wordpress.com/2015/12/steps.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/steps.png?w=300 300w" sizes="(max-width: 640px) 100vw, 640px"   /></p>
+<p>where we can see, in the first 50 epoches, the generated image looks like a simple texture overlap in between the content and the style; with more epoches, the program gradually learns the color, the pattern etc, and becomes stable around 150th epoches, and finally paints pogo the cat in Van Gogh style.</p>
+<h3>Further reading: other methods of simulating art style</h3>
+<p>Neural art is not the only method of simulating artwork style and generating new images. There are many other computer vision and graph research papers, for example:</p>
+<ul>
+<li>&#8220;A Parametric Texture Model Based on Joint Statistics of Complex Wavelet Coefficient&#8221; <a href="http://www.cns.nyu.edu/pub/lcv/portilla99-reprint.pdf">http://www.cns.nyu.edu/pub/lcv/portilla99-reprint.pdf</a> which uses wavelet transforming for the higher order texture feature.</li>
+<li>“Style Transfer for Headshot Portraits” <a href="https://people.csail.mit.edu/yichangshih/portrait_web/">https://people.csail.mit.edu/yichangshih/portrait_web/</a> This work is specific for headshot portrait, which is a constraint problem and the method is much faster than Neural art.</li>
+</ul>
+<h2>Summary</h2>
+<p>Neural art is a nice demo for convolution network, and people can generate artwork from their own images. Let&#8217;s have fun with MXnet neural art. Please share your creative artwork on twitter or instagram and add hashtag <code>#mxnet</code>.</p>
+<p>A reminder about the style: if the content image is a portrait, please find a portrait artwork for learning the style instead of a landscape one. It is the same with landscape images, always landscape to landscape. Because the landscape artwork uses different paiting techniques and it doesn&#8217;t look good on portrait images.</p>
+<p>In the next blog, I will have detailed introduction to the convolution network for image classification, a.k.a, the dog vs the cat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2015/12/21/deep-learning-for-hackers-with-mxnet-2/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/pogo-vangogh-mxnet_600px.png" medium="image">
+			<media:title type="html">pogo-vangogh-mxnet_600px</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/pogo-gogh-512.jpg" medium="image">
+			<media:title type="html">pogo-gogh-512.jpg</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/pogo-horse-512.jpg" medium="image">
+			<media:title type="html">pogo-horse-512</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/mxnet-lua-512.png" medium="image">
+			<media:title type="html">mxnet-lua-512.png</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/mxnet-850.png" medium="image">
+			<media:title type="html">mxnet-850</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/paper-fig1.png" medium="image">
+			<media:title type="html">paper-fig1.png</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/steps.png" medium="image">
+			<media:title type="html">steps.png</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Deep learning for hackers with MXnet (1) GPU installation and MNIST</title>
+		<link>https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/</link>
+					<comments>https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Mon, 07 Dec 2015 06:32:41 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[deep learning]]></category>
+		<category><![CDATA[DMLC]]></category>
+		<category><![CDATA[mxnet]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=130</guid>
+
+					<description><![CDATA[&#160; I am going to have a series of blogs about implementing deep learning models and algorithms with MXnet. The topic list covers MNIST, LSTM/RNN, image recognition, neural artstyle image generation etc. Everything here is about programing deep learning (a.k.a. deep learning for hackers), instead of theoritical tutorials, so basic knowledge of machine learning and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>I am going to have a series of blogs about implementing deep learning models and algorithms with <a href="https://github.com/dmlc/mxnet">MXnet</a>. The topic list covers MNIST, LSTM/RNN, image recognition, neural artstyle image generation etc. Everything here is about programing deep learning (a.k.a. deep learning for hackers), instead of theoritical tutorials, so basic knowledge of machine learning and neural network is a prerequisite. I assume readers know how neural network works and what <a href="https://en.wikipedia.org/wiki/Backpropagation"><code>backpropagation</code></a> is. If difficulties, please review Andew Ng&#8217;s coursera class Week 4: <a href="https://www.coursera.org/learn/machine-learning">https://www.coursera.org/learn/machine-learning</a>.</p>
+<p>Surely, this blog doesn&#8217;t cover everything about deep learning. It is very important to understand the fundamental deep learning knowledge. For readers who want to know in-depth theoritical deep learning knowledge, please read some good tutorials, for example, <a href="http://deeplearning.net/reading-list/tutorials/">http://deeplearning.net/reading-list/tutorials/</a>.</p>
+<h2>MXnet: lightweight, distributed, portable deep learning toolkit</h2>
+<p><a href="https://github.com/dmlc/mxnet">MXnet</a> is a deep learning toolkit written in C++11, and it comes with <a href="http://dmlc.ml/">DMLC</a> (Distributed (Deep) Machine Learning Common<br />
+<a href="http://dmlc.ml/">http://dmlc.ml/</a>). You might have known MXnet&#8217;s famous DMLC-sibling <code>xgboost</code> <a href="https://github.com/dmlc/xgboost">https://github.com/dmlc/xgboost</a>, a parallel gradient boosting decision tree which dominates most <a href="https://www.kaggle.com/competitions">Kaggle competitions</a> and is generally used in many projects.</p>
+<p>MXnet is very lightweight, dynamic, portable, easy to distribute, memory efficient, and one of the coolest features is, it can run on portable devices (e.g. <a href="http://dmlc.ml/mxnet/2015/11/10/deep-learning-in-a-single-file-for-smart-device.html">image recognition on your Android phone</a> ) MXnet also has clear design plus clean C++11 code, let go star and fork it on github: <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a></p>
+<p>Recently MXnet has received much attention in multiple conferences and blogs for its unique features of speed and efficient memory usage. Professionals are comparing MXnet with <a href="http://caffe.berkeleyvision.org/">Caffe</a>, <a href="https://github.com/torch/torch7">Torch7</a> and Google&#8217;s <a href="https://www.tensorflow.org/">TensorFlow</a>. These benchmarks show that MXnet is a new rising star. Go check this recent tweet from Quora&#8217;s Xavier Amatriain: <a href="https://twitter.com/xamat/status/665222179668168704">https://twitter.com/xamat/status/665222179668168704</a></p>
+<h2>Install MXnet with GPU</h2>
+<p>MXnet natively supports multiple platforms (Linux, Mac OS X and Windows) and multiple languages (C++, Java, Python, R and Julia, plus a recent support on javascript, no joking <a href="https://github.com/dmlc/mxnet.js">MXnet.js</a>). In this tutorial, we use Ubuntu 14.04 LTS and Python for example. Just a reminder that, since we use CUDA for GPU computing and CUDA hasn&#8217;t yet support ubuntu 15.10 or newer (with gcc 5.2), let&#8217;s stay with 14.04 LTS, or, at latest 15.04.</p>
+<p>The installation can be done on physical machines with nVidia CUDA GPUs or cloud instance, for example <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using_cluster_computing.html">AWS GPU instance</a> <code>g2.2xlarge</code> or <code>g2.8xlarge</code>. The following steps mostly come from the official installation guide <a href="http://mxnt.ml/en/latest/build.html#building-on-linux">http://mxnt.ml/en/latest/build.html#building-on-linux</a>, with some CUDA modification.</p>
+<p>Please note: for installing CUDA on AWS from scratch, some additional steps are needed for updating <code>linux-image-extra-virtual</code> and disabling <code>nouveau</code>, for more details, please refer to Caffe&#8217;s guide: <a href="https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)">https://github.com/BVLC/caffe/wiki/Install-Caffe-on-EC2-from-scratch-(Ubuntu,-CUDA-7,-cuDNN)</a></p>
+<h3>Install dependency</h3>
+<p>MXnet only needs minimal dependency: gcc, BLAS, and OpenCV (optional), that is it. One can install <code>git</code> just in case it hasn&#8217;t been installed.</p>
+<pre><code>sudo apt-get update
+sudo apt-get install -y build-essential git libblas-dev libopencv-dev
+</code></pre>
+<h3>Clone mxnet</h3>
+<pre><code>git clone --recursive https://github.com/dmlc/mxnet
+</code></pre>
+<p>Just another reminder that <code>--recursive</code> is needed: MXnet depends on DMLC common packages <code>mshadow</code>, <code>ps-lite</code> and <code>dmlc-core</code>, where <code>--recursive</code> can clone all necessary ones. Please don&#8217;t compile now, and we need to install CUDA firstly.</p>
+<h3>Install CUDA</h3>
+<p>CUDA installation here is universal for other deep learning packages. Please go to <a href="https://developer.nvidia.com/cuda-downloads">https://developer.nvidia.com/cuda-downloads</a> for selecting the CUDA installation for the corresponding system. For example, installing CUDA for Ubuntu 14.04 should looks like this, and <code>deb(network)</code> is suggested for fastest downloading from the closest Ubuntu source.</p>
+<p><img data-attachment-id="137" data-permalink="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/yymd1dsdtnkfbhjuck2o_cuda-selection/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png" data-orig-size="615,560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="yymd1dsdtnkfbhjuck2o_cuda-selection" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png?w=615" class="alignnone size-full wp-image-137" src="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png?w=1008" alt="yymd1dsdtnkfbhjuck2o_cuda-selection" srcset="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png 615w, https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png?w=300 300w" sizes="(max-width: 615px) 100vw, 615px"   /></p>
+<p>Or, here it is the command-line-only solution：</p>
+<pre><code>wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+</code></pre>
+<p>If everything goes well, please check the video card status by <code>nvidia-smi</code>, and it should look like this：</p>
+<p><img data-attachment-id="140" data-permalink="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/zhbzdjy3sbeoc6x6hcyu_idle-gpu/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png" data-orig-size="641,322" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="zhbzdjy3sbeoc6x6hcyu_idle-gpu" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png?w=641" class="alignnone size-full wp-image-140" src="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png?w=1008" alt="zhbzdjy3sbeoc6x6hcyu_idle-gpu" srcset="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png 641w, https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png?w=300 300w" sizes="(max-width: 641px) 100vw, 641px"   /></p>
+<p>CPU info may vary, and I am using a GTX 960 4GB (approximately 200$ now). MXnet has very efficient memory usage, and 4GB is good for most of the problems. If your video card has only 2GB, MXnet is fine with it with some small parameter tunes too.</p>
+<p><strong>Optional: CuDNN.</strong> Mxnet supports <code>cuDNN</code> too. <code>cuDNN</code> is nVidia deep learning toolkit which optimizes operations like convolution, poolings etc, for better speed and memory usage. Usually it can speed up MXnet by 40% to 50%. If interested, please go apply for the developer program here <a href="https://developer.nvidia.com/cudnn">https://developer.nvidia.com/cudnn</a>, and install <code>cuDNN</code> by the official instruction when approved,</p>
+<h3>Compile MXnet with CUDA support</h3>
+<p>MXnet needs to turn on CUDA support in the configuration. Please find <code>config.mk</code> from <code>mxnet/make/</code>, copy to <code>mxnet/</code>, and edit these three lines:</p>
+<pre><code>USE_CUDA = 1
+USE_CUDA_PATH = /usr/local/cuda
+USE_BLAS = blas
+</code></pre>
+<p>where the second line is for CUDA installation path. The path usually is <code>/usr/local/cuda</code> or <code>/usr/local/cuda-7.5</code>. If readers prefer other <code>BLAS</code> implementations. e.g. <code>OpenBlas</code> or <code>Atlas</code>, please change <code>USE_BLAS</code> to <code>openblas</code> or <code>atlas</code> and add the blas path to <code>ADD_LDFLAGS</code> and <code>ADD_CFLAGS</code>.</p>
+<p>We can compile MXnet with CUDA (<code>-j4</code> for multi-thread compiling):</p>
+<pre><code>make -j4
+</code></pre>
+<p>One more reminder that, if one has non-CUDA video cards, for example Intel Iris or AMD R9, or there is not video card, please change <code>USE_CUDA</code> to <code>0</code>. MXnet is dynamic for switching between CPU and GPU: instead of GPU version, one can compile multi-theading CPU version by setting <code>USE_OPENMP = 1</code> or leave it to 0 so <code>BLAS</code> can take care of multi-threading, either way is fine with MXnet.</p>
+<h3>Install Python support</h3>
+<p>MXnet natively supports Python, one can simply do:</p>
+<pre><code>cd python; python setup.py install
+</code></pre>
+<p>Python 2.7 is suggested while Python 3.4 is also supported. One might need <code>setuptools</code> and <code>numpy</code> if not yet installed. I personally suggest Python from <a href="https://www.continuum.io/downloads"><code>Anaconda</code></a> or <a href="http://conda.pydata.org/miniconda.html"><code>Miniconda</code></a></p>
+<pre><code>wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+bash Miniconda-latest-Linux-x86_64.sh
+(answer some installation questions)
+conda install numpy
+</code></pre>
+<h2>Let&#8217;s run MNIST, a handwritten digit recognizer</h2>
+<p>Now we have a GPU-ready MXnet, let&#8217;s have the first deep learning example: MNIST. MNIST is a handwritten digit dataset with 60,000 training samples and 10,000 testing samples, where each sample is a 28X28 greyscale picture of digits, and the goal of MNIST is training a smart machine learning model for recognizing hand-writing digits, for example, it recognizes the zip code that people write on envelops and helps our post masters distribute the mails.</p>
+<p>Let&#8217;s run the example:</p>
+<pre><code>cd mxnet/example/image-classification/
+python train_mnist.py
+</code></pre>
+<p><code>train_mnist.py</code> will download MNIST dataset for the first time, please be patient while downloading. The sample code will print out the loss and precision for each step, and the final result should be approximately 97%.</p>
+<p><code>train_mnist.py</code> by default uses CPU only. MXnet has easy switch between CPU and GPU. Since we have GPU, let&#8217;s turn it on by:</p>
+<pre><code>python train_mnist.py --gpus 0
+</code></pre>
+<p>That is it. <code>--gpus 0</code> means using the first GPU. If one has multiple GPUs, for example 4 GPUs, one can set <code>--gpus 0,1,2,3</code> for using all of them. While running with GPU, the <code>nvidia-smi</code> should look like this：</p>
+<p><img data-attachment-id="142" data-permalink="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/oa8r4sairgmijrrest1k_mnist-gpu/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png" data-orig-size="647,309" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="oa8r4sairgmijrrest1k_mnist-gpu" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png?w=647" class="alignnone size-full wp-image-142" src="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png?w=1008" alt="oa8r4sairgmijrrest1k_mnist-gpu" srcset="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png 647w, https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png?w=300 300w" sizes="(max-width: 647px) 100vw, 647px"   /></p>
+<p>where one can see <code>python</code> is using GPU. Since MNIST is not a heavy task, with MXnet efficient GPU meomory usage, GPU usage is about 30-40% while memory usage at 67MB。</p>
+<h3>Trouble shooting</h3>
+<p>When run with GPU for the first time, readers may encounter something like this：</p>
+<pre><code>ImportError: libcudart.so.7.0: cannot open shared object file: No such file 
+</code></pre>
+<p>It is because of the PATH of CUDA dynamic link lib, one can add this to <code>./bashrc</code>：</p>
+<pre><code>export LD_LIBRARY_PATH=/usr/local/cuda-7.5/targets/x86_64-linux/lib/:$LD_LIBRARY_PATH
+</code></pre>
+<p>Or compile it to MXnet by adding in <code>config.mk</code>:</p>
+<pre><code>ADD_LDFLAGS = -I/usr/local/cuda-7.5/targets/x86_64-linux/lib/
+ADD_CFLAGS =-I/usr/local/cuda-7.5/targets/x86_64-linux/lib/
+</code></pre>
+<h3>MNIST code secrete revealed: design a simple MLP</h3>
+<p>In <code>train_mnist.py</code>, there is an function <code>get_mlp()</code>. It implements a <a href="https://en.wikipedia.org/wiki/Multilayer_perceptron">multilayer perceptron (MLP)</a>. In MXnet, a MLP needs some structure definition, like this in the code:</p>
+<pre><code>data = mx.symbol.Variable('data')
+fc1 = mx.symbol.FullyConnected(data = data, name='fc1', num_hidden=128)
+act1 = mx.symbol.Activation(data = fc1, name='relu1', act_type="relu")
+fc2 = mx.symbol.FullyConnected(data = act1, name = 'fc2', num_hidden = 64)
+act2 = mx.symbol.Activation(data = fc2, name='relu2', act_type="relu")
+fc3 = mx.symbol.FullyConnected(data = act2, name='fc3', num_hidden=10)
+mlp = mx.symbol.Softmax(data = fc3, name = 'mlp')
+</code></pre>
+<p>Let&#8217;s understand what is going on for this neural network. Samples in MNIST look like these:<br />
+<img data-attachment-id="144" data-permalink="https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/hqdefault/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg" data-orig-size="480,360" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="hqdefault" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg?w=480" class="alignnone size-full wp-image-144" src="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg?w=1008" alt="hqdefault" srcset="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg 480w, https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg?w=150 150w, https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg?w=300 300w" sizes="(max-width: 480px) 100vw, 480px"   /></p>
+<ul>
+<li>Each same (a digit) is a 28X28 pixel grey scale image, which can be represented as a vector of 28X28=784 float value where each value is the grey scale of the pixel.</li>
+<li>In MLP, each layer needs a layer structure. For example in the first layer, <code>fc1</code> is a full connected layer <code>mx.symbol.FullyConnected</code> which takes input from <code>data</code>. This first layer has 128 nodes, defined as <code>num_hidden</code>.</li>
+<li>Each layer also need an activation function <code>Activation</code> to connect to the next layer, in other words, transferring values from the current layer to the next layer. In this example, the <code>Activation</code> function for connecting layer <code>fc1</code> and <code>fc2</code> is <code>ReLu</code>, which is short for <code>rectified linear unit</code> or <code>Rectifier</code>, a function as <code>f(x)=max(0,x)</code>. <code>ReLU</code> is a very commonly used activation function in deep learning, mostly because it is easy to calculate and easy to converge in gradient decent. In addition, we choose <code>ReLU</code> for the MNIST problem because MNIST has sparse feature where most values are 0. For more information about <code>ReLU</code>, please check <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks">wikipedia</a> ) and other deep learning books or tutorials.</li>
+<li>The second layer <code>fc2</code> is similar to the first layer <code>fc1</code>: it takes the output from <code>fc1</code> as input, and output to the third layer <code>fc3</code>.</li>
+<li><code>fc3</code> works similar to the previous layer, and the only difference is that, it is an output layer, which has 10 nodes where each node outputs the probability of being one of the 10 digits, thus <code>num_hidden=10</code>.</li>
+</ul>
+<p>With this network structure, MXnet also needs the stucture of input. Since each sample is 28X28 grey scale, MXnet takes the grey scale value vector of 28X28=784 elements, and give a python iterator <code>get_iterator()</code> for feeding data to the network defined above. The detailed code is in the example which is very clean, so I don&#8217;t copy-n-paste here.</p>
+<p>The final step is running the model. If readers know <code>scikit-learn</code>, MXnet&#8217;s python looks very familiar, right?</p>
+<pre><code>train_model.fit(args, net, get_iterator)
+</code></pre>
+<p>Congratulations! We can implement a MLP! It is the first step of deep learning, not hard, right?</p>
+<p>It is Q&amp;A time now. Some of my dear readers may ask, &#8220;Do I need to design my MNIST recognizer or some other deep learning network exactly like what you did here?&#8221; &#8220;hey, I see another function <code>get_lenet()</code> in the code, what is that?&#8221;</p>
+<p>The answer to these two questions can be, most real life problems on deep learning are about designing the networks, and, <strong>no, you don&#8217;t have to design your network exactly like what I did here</strong>. Designing the neural network is art, and each problem needs a different network, and a single problem may have multiple solutions. In the MNIST example code, <code>get_lenet()</code> implements Yann Lecun&#8217;s convolution network <code>LeNet</code> for digit recognition, where each layer needs <code>Convolution</code> <code>Activation</code> and <code>Pooling</code> where the kernel size and filter are needed, instead of <code>FullyConnected</code> and <code>ReLU</code>. FYI: the detailed explanation of super cool convolution network (ConvNet) can be found at Yann Lecun&#8217;s tutorial: <a href="http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf">http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf</a> . Another good reference can be <a href="http://colah.github.io/posts/2014-07-Understanding-Convolutions/">&#8220;Understanding ConvNet&#8221; by Colah</a>. I may later on write a blog post for explaining ConvNet, since convnet is my personal favorite.</p>
+<p>I have a fun homework for my dear readers. Let&#8217;s tune up some network parameters like the number of nodes and the activation function in <code>get_mlp()</code>, and see how it helps the precision and accuracy. One can also try changing <code>num_epoch</code> (number of iterations of learning from the data) and <code>learning_rate</code> (the speed of gradient decent, a.k.a the rate of learning) for better speed and precision. Please leave your comment for your network structure and precision score. Kaggle also has a MNIST competition, one can also go compete with mxnet MNIST models, please mention it is MXnet model. The portal: <a href="https://www.kaggle.com/c/digit-recognizer">https://www.kaggle.com/c/digit-recognizer</a></p>
+<h2>Outlook</h2>
+<p>Thanks for reading the first blog of &#8220;Deep learning for hackers with MXnet&#8221;. The following blogs will include some examples in MXnet, which may include RNN/LSTM for generating a Shakespeare script (well, looks like Shakespeare), generative models of simulating Van Gogh for painting a cat, etc. Some of these models are available now on MXnet github <a href="https://github.com/dmlc/mxnet/tree/master/example">https://github.com/dmlc/mxnet/tree/master/example</a>. Is MXnet cool? Go star and fork it on github <a href="https://github.com/dmlc/mxnet">https://github.com/dmlc/mxnet</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2015/12/07/deep-learning-for-hackers-with-mxnet-1/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/yymd1dsdtnkfbhjuck2o_cuda-selection.png" medium="image">
+			<media:title type="html">yymd1dsdtnkfbhjuck2o_cuda-selection</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/zhbzdjy3sbeoc6x6hcyu_idle-gpu.png" medium="image">
+			<media:title type="html">zhbzdjy3sbeoc6x6hcyu_idle-gpu</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/oa8r4sairgmijrrest1k_mnist-gpu.png" medium="image">
+			<media:title type="html">oa8r4sairgmijrrest1k_mnist-gpu</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/12/hqdefault.jpg" medium="image">
+			<media:title type="html">hqdefault</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Yet another (not) winning solution: Kaggle Flavours of Physics for finding τ → 3μ</title>
+		<link>https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/</link>
+					<comments>https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/#respond</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2015 09:36:31 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=94</guid>
+
+					<description><![CDATA[TL,DR: this blog describes feature engineering and models without implicitly/explicitly using tau invariant mass. This blog is for describing the &#8220;Hi from CMS&#8221; team solution of the Kaggle Flavours of Physics competition. It has the public score of 0.988420 and the private score of 0.989161 which has ranked at 29th. I thought I didn&#8217;t need to publish [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>TL,DR: this blog describes feature engineering and models without implicitly/explicitly using tau invariant mass.</p>
+<p>This blog is for describing the &#8220;Hi from CMS&#8221; team solution of the <a href="https://www.kaggle.com/c/flavours-of-physics">Kaggle Flavours of Physics competition</a>. It has the public score of 0.988420 and the private score of 0.989161 which has ranked at 29th. I thought I didn&#8217;t need to publish this &#8216;not winning&#8217; solution, but I found all recent published top solutions heavily depended on invariant mass reconstruction in simulation (<a href="https://www.kaggle.com/c/flavours-of-physics/forums/t/17142/first-place-solution">first place</a>, <a href="https://www.kaggle.com/c/flavours-of-physics/forums/t/17062/second-best-solution">second place</a>), so I decided to <strong>post some discussion here about more &#8216;physical sounds&#8217; features and models</strong>, plus some other work.</p>
+<p>The github link to all code is available <a href="https://github.com/phunterlau/kaggle-tau-flavour">here</a>. The simplified version was also put on Kaggle script <a href="https://www.kaggle.com/phunter/flavours-of-physics/gridsearchcv-with-feature-in-xgboost/code">here</a> during the competition (thanks for many forks). All code were credited to the team members of &#8220;Hi from CMS&#8221;: <a href="https://www.kaggle.com/phunter">phunter</a>, <a href="https://www.kaggle.com/users/106466/dlop78">dlp78</a>, <a href="https://www.kaggle.com/michaelbroughton">Michael Broughton</a> and <a href="https://www.kaggle.com/xiaozhouwang">littleboat</a>.</p>
+<p>Unlike the last competition of Higgs search where a single xgboost classifier was used from one year ago, this solution explored more on: physical sounds feature engineering, a specific neural network model, as well as the model ensemble method for Random Forest, xgboost, UGradient and neural network, with a (fancy) automatic model selection under the agreement test constraint.</p>
+<p><strong>1. Understanding the constraints: KS test, CvM test, invariant mass and SPDhits</strong></p>
+<p>This competition had two tests: agreement test and correlation test, which required the classifier be some robust against not-well simulated variable like SPDhits and independence to the tau invariant mass. The general ideas was not using SPDhits or tau invariant mass, but for different reasons.</p>
+<p><strong>SPDhits: not well simulated</strong></p>
+<p>SPDhits was the number of hits in the SPD calorimeter, and this variable was not well simulated in the training data because of the limited understanding of LHCb SPD calorimeter and LHC bunch intensity. In the real life analysis, SPDhits variable needed additional calibration for simulation vs collision data, and the SPDhits distribution in the control samples looked very different from that in the simulation. For passing KS test, SPDhits feature was <strong>not</strong> suggested.</p>
+<p>A tricky but not-used feature engineering for &#8216;<strong>weakening SPDhits</strong>&#8216; was binning SPDhits: a vector of feature of SPDhits on if SPDhits&lt;10, &lt;20, &lt;30, &#8230; , &lt;600 etc. Some experiment showed bins up to  &lt;150 could effectively help on up to +0.0001 AUC score without hurting the KS score, but it expanded the feature spaces too much and caused some confusions to the classifier, so I decided <strong>not</strong> to use these features, although it had some physics meanings that LHCb analysis with SPDhits were usually binned with SPDhits&lt;100, SPDhits&lt;200 etc for different track multiplicity.</p>
+<p>In the later model selection for the final submission, a combination of models with and without SPDhits were used for an extra +0.0005 AUC score boost (discussed later in this blog). In my opinion, this ensemble was fine for physical sound because SPDhits calibration should be considered as systematic errors.</p>
+<p><strong>Invariant mass: it is not a good idea for physical sounds.</strong></p>
+<p>Tau invariant mass could be (easily) reconstructed using energy conservation and basic kinematics provided in the dataset, and may winning solutions were using it, which worried me. The detailed discussion on tau invariant mass was here (<a href="https://www.kaggle.com/vicensgaitan/flavours-of-physics/why-is-so-hard-to-learn-the-tau-mass">Kaggle forum link</a>).</p>
+<p>My thought on tau invariant mass and correlation test was that: it was not a good idea of reconstructing tau invariant mass from simulation and having this correlation test. In the real life analysis, a robust classifier for search for particles should not depend on the parent particle mass much:</p>
+<ol>
+<li>if this particle mass was unknown like the Higgs boson, there was an <a href="https://en.wikipedia.org/wiki/Look-elsewhere_effect">look-elsewhere effect</a> where the invariant mass could bias the analysis;</li>
+<li>if this particle mass was known like the tau particle, the simulation with detector was not perfect thus the mass reconstruction was too good to be true.</li>
+</ol>
+<p>The real life <strong>M_3body</strong> was reconstructed <a href="https://muon.wordpress.com/2014/10/04/lhcb-searches-for-lfv-in-tau-decays/">using likelihood methods</a>, but repeating this method for this competition was impossible with the provided dataset. Using reconstructed tau invariant mass in the classifier was strongly biased to the simulation, and feature engineering with the tau invariant mass in simulation would probably have artificial dependence on the mass and might make the classifier useless in the real life analysis.</p>
+<p>Surely, models with and without invariant mass could be ensembled for balancing CvM score, but I was afraid it was against the original idea of physical sounds, because the bias of invariant mass was physical, instead of systematic errors.</p>
+<p>Using invariant mass feature was <strong>not a good idea</strong> in my opinion, so I had the following feature engineering without invariant mass. All these following feature engineering had very small CvM score which meant they had little dependency on the tau invariant mass, and the model didn&#8217;t create artificial dependency on mass.</p>
+<p><strong>2. Physical sounds feature engineering: what are good and what are bad.</strong></p>
+<p><strong>Kinematic features.</strong></p>
+<p>It is a 3-body decay where Ds and tau has similar invariant mass, thus tau is almost at rest in the Ds rest reference frame, so the 3 children particles are almost symmetric in the Ds rest frame, thus individual particle&#8217;s kinematic feature may not be important, but some separations can be seen by pair-wise features. However, unfortunately we didn&#8217;t have phi and charge info for each particle, thus pair-wise mass reconstruction was not available, nor background veto by mu-mu mass <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f626.png" alt="😦" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Since tau is boosted and Ds and tau has similar invariant mass, tau&#8217;s IP and open angle (dira) should be small as expected, and tau has its lifetime thus it could fly for some distance. In the HEP analysis, usually IP significance was used, and fortunately it could be calculated as `flight_dist_sig` by dividing FlightDistance by FlightDistanceError.</p>
+<p>The distance from PV to the secondary vertex could be approximately calculated too by IP/(1-dira) where dira was the cosine value of tau open angle, and (1-dira) was the approximation when the open angle was very small (phi = sin(phi) = tan(phi) if phi is very small). A trick was that, dira was almost 1, thus a very small float number was added, and the feature was <a href="https://www.kaggle.com/c/higgs-boson/forums/t/9576/reducing-the-feature-space">inv-log transformed</a>.</p>
+<p><a href="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png"><img data-attachment-id="112" data-permalink="https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/pn_distance_sec_vtx2/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png" data-orig-size="720,432" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pn_distance_sec_vtx2" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png?w=720" class="aligncenter size-full wp-image-112" src="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png?w=1008" alt="pn_distance_sec_vtx2" srcset="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png 720w, https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png?w=300 300w" sizes="(max-width: 720px) 100vw, 720px"   /></a></p>
+<p>Some features from <a href="https://www.kaggle.com/stepobr">Stepan Obraztsov</a> (another CMS physicist, yeah!) were also included in <a href="https://www.kaggle.com/phunter/flavours-of-physics/gridsearchcv-with-feature-in-xgboost/discussion">my public script</a>. They were:</p>
+<ol>
+<li><strong>NEW_FD_SUMP</strong> which was FlightDistance divided by the summation of daughter particle momenta. It is considered as the total flight time in the lab reference frame.</li>
+<li><strong>NEW5_lt</strong> which was Tau lifetime times the averaged daughter particle IP. It could be interesting to understand the effect of this feature.</li>
+<li><strong>p_track_Chi2Dof_MAX</strong> which was the maximum of track chi2 quality. It is as in the selection features about the track quality.</li>
+</ol>
+<p><strong>Track/Vertex selection features.</strong></p>
+<p>The primary reason of using selection features was for distinguishing from the Ds-&gt; eta mu nu background: eta could fly for a short distance and decay to 2 muons while tau-&gt; 3 muons decay was immediate, which made the reconstructed Ds 3 muon vertex not as good as tau-&gt; 3 muons. Thus, the track quality and vertex reconstruction quality (VertexChi2) should be used.</p>
+<p>CDF, DCA features were other selection features from some TMVA analyses, but xgboost and other models didn&#8217;t nicely picked them up and the feature importance for these individual features were minimal, which meant they needed to be dropped (aka feature selection), otherwise they would confuse xgboost-like decision tree classifiers. After dropping them out, xgboost improved significantly.</p>
+<p>However, there was some hope: this LHCb thesis about lepton flavour violation search (<a href="https://cds.cern.ch/record/2002363?ln=en">LINK</a>) provided some good ideas about using these selection features, and a good one from this thesis was, max and min values of these selection features could help classification. It was understandable that, if one of these 3 tracks had bad or good quality, the pair-wise and 3 body reconstruction could be heavily effected.</p>
+<p><strong>An additional list</strong> of good selection features are (approximately +0.0003 AUC) :</p>
+<ol>
+<li>Min value of IsoBDT</li>
+<li>Max value of DCA</li>
+<li>Min value of isolation from a to f (which are pair-wise track isolation of the 3 tracks)</li>
+<li>Max value of track chi2 quality.</li>
+<li>Square summation of track chi2 quality: surprisedly good feature, maybe the tau vertex selection needed to consider multiple track quality instead of the max.</li>
+</ol>
+<p><strong>Pair-wise track IP feature</strong></p>
+<p>Although there was no phi nor charge information of each daughter track for pair-wise parent particle reconstruction, I had two features which improved the score and had good feature importance: The ratio of <strong>Tau IP vs p0p2 pair IP </strong>and<strong> <strong>Tau IP vs </strong>p1p2 pair IP</strong>.</p>
+<p>It was interesting  of understanding this: the signal process was tau -&gt; Z&#8217; mu and Z&#8217;-&gt;2 muon immediately, while the background was Ds-&gt;eta mu nu where a small missing energy nu was present, thus the pair-wise IP from the signal was surely large by comparing with tau IP, but the missing energy from background confused this comparison. The in-depth reason might need more information about the process. In the experiment, these two ratio values gave good separation and good feature importance.</p>
+<p><a href="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png"><img data-attachment-id="110" data-permalink="https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/select_p1p2_ip_ratio/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png" data-orig-size="720,432" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="select_p1p2_ip_ratio" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png?w=720" class="aligncenter size-full wp-image-110" src="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png?w=1008" alt="select_p1p2_ip_ratio" srcset="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png 720w, https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png?w=300 300w" sizes="(max-width: 720px) 100vw, 720px"   /></a> <a href="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png"><img data-attachment-id="111" data-permalink="https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/select_p0p2_ip_ratio/#main" data-orig-file="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png" data-orig-size="720,432" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="select_p0p2_ip_ratio" data-image-description="" data-image-caption="" data-medium-file="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png?w=720" class="aligncenter size-full wp-image-111" src="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png?w=1008" alt="select_p0p2_ip_ratio" srcset="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png 720w, https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png?w=150 150w, https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png?w=300 300w" sizes="(max-width: 720px) 100vw, 720px"   /></a></p>
+<p><strong>Other experimented but not used features:</strong></p>
+<ol>
+<li>IP error of each particle.</li>
+<li>Pz of each particle plus combinations.</li>
+<li>Pair-wise open angle in eta.</li>
+</ol>
+<p><strong>Feature selection using trees</strong></p>
+<p>Decision tree classifiers didn&#8217;t like confusing features, e.g. some features with very small separation for the positive and negative, so feature selection was needed. I only had time for a very simple feature selection by giving all these features to a random forest classifier for optimizing AUC, and dropped features with low feature importance. This tree-based selection gave consistent results as from human mind: individual momentum feature and individual quality selection features were dropped. It was also interesting that, <strong>isolationb</strong> and <strong>isolationc</strong> were more less important than the other 4 pair-wise track isolation variables. Keeping only the other 4 track isolation variables helped AUC, the reason behind this may need some in-depth analysis.</p>
+<p><strong>3. The neural network model</strong></p>
+<p>More details to be updated here from Michael. Michael had a two-layer neural network using all these features, and the code was self-explained, please check the code.</p>
+<p>The final model includes this neural network model with SPDhits. The model itself with SPDhits had very low CvM score but disaster KS score (almost 0.3 and surely didn&#8217;t pass the KS test &lt;0.09), but ensemble this model with other conservative models with a very low weight gave +0.0005 AUC score without failure in KS test.</p>
+<p><strong>4. &#8220;Weakening&#8221; decision tree models under the constraints</strong></p>
+<p>With good features, models have easier jobs. UGrad, Random Forest classifiers have good performance with these feature plus GridSearch for parameters, and their KS scores were around 0.06 which could easily pass. Since no invariant mass features were used, CvM score was round 0.0008 which had no problem either.</p>
+<p>Xgboost is an aggressive and strong classifer, where it might give bad KS test score even without SPDhits features, e.g. 0.12, so weakening this model was needed for passing KS test. There were two tricks in xgboost parameters: large <strong>eta</strong> value for controlling convergence, and large <strong>colsample_bytree</strong> value plus small <strong>subsample</strong> by adding randomness, as mentioned in the <a href="http://xgboost.readthedocs.org/en/latest/param_tuning.html">xgboost document</a>. The good combination was about:</p>
+<ul>
+<li>eta = 0.2</li>
+<li>colsample_bytree=13</li>
+<li>subsample = 0.7</li>
+</ul>
+<p><strong>5. CV-based ensemble and automatic model selection</strong></p>
+<p>Littleboat had a cool randomized automatic model selection by the CV score. The idea was that, each model had some variance, thus the best ensemble could be summing up similar models with small parameter changes, e.g. different seeds, slightly different eta etc. The CV score was used for the ensemble: most of the time, CV scores were more reliable than the public leaderboard scores.</p>
+<p>Each model had two versions: high score (with SPDhits) and low score (all other features, no SPDhits). The same parameters are used for both two versions of each model, and surely the high score one doesn&#8217;t pass KS test for most time. After generating a list of model candidates, the script randomly pickup some models with good CV scores, searched for best weight to average them and evaluated the final CV score,  as well as the KS score and CvM score. The ensemble method was weighted average, and the weight was brute-force searched after selecting models for passing KS test. If the result could pass the tests, it was saved as an candidate for submission.</p>
+<p>After these selection, a manual process of weighted averaging with the neural network (with SPDhits) model was used. The weight was around 0.04 for the neural network model, which helped the final score by +0.0005 AUC. The final two submissions were weighted average of  Xgboost and UGrad, plus a small weight of neural network with SPDhits.</p>
+<p><strong>6. Lesson learned</strong></p>
+<ol>
+<li>Kaggle competition really needs time. Thanks to my wife for her support.</li>
+<li>Team-up is great: I know some amazing data scientists from this competition and have learned much from them.</li>
+<li>Ensemble is needed, but it is not everything: feature engineering firstly, CV for each model, and ensemble them.</li>
+<li>Data leakage: every kaggle competition has this risk, and dealing with it is a good lesson for both admins and competitors. Exploiting it for winning? blaming it? having fun without using it? Any of them is OK, no one is perfect and no one can hide from statistics.</li>
+<li>When in doubt, use <a href="https://github.com/dmlc/xgboost">xgboost</a>! Do you know xgboost can be installed by &#8220;pip install xgboost&#8221;. Submit an issue if you can&#8217;t install it.</li>
+</ol>
+<p><strong>7. One more thing for HEP: UGrad and xgboost</strong></p>
+<p>As learned from other high rank solution from the forum, UGrad itself was <a href="https://www.kaggle.com/c/flavours-of-physics/forums/t/17008/sharing-code-ugbc">a strong classifier</a> with BinFlatnessLossFunction, and a simple ensemble of UGrad models could easily go 0.99+. But UGrad used single thread and was very slow, so I didn&#8217;t experiment more about it. I have submitted <a href="https://github.com/dmlc/xgboost/issues/550">a wish-list issue </a>on xgboost github repo for implementing a xgboost loss function which can take BinFlatnessLossFunction as in UGrad and using multi-thread xgboost for speed up, so HEP people can be have both BinFlatnessLossFunction and a fast gradient boosting classifier. It is do-able as Tianqi (author of xgboost) has described in the issue, and hope I (or someone) can find a time working on it. I hope it can help HEP research.</p>
+<p><strong>Advertisement time</strong>: <a href="http://dmlc.ml/">DMLC</a> is a great toolbox for machine learning. xgboost is part of it, and DMLC has a recent new tool for deep learning <a href="https://github.com/dmlc/mxnet">MXnet</a>: it has <a href="http://mxnet.readthedocs.org/en/latest/#open-source-design-notes">nice design</a>, it can implement LSTM in 25 lines of python code, and it can train ImageNet on 4 GTX 980 card in 8.5 days, go star it!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2015/10/26/yet-another-not-winning-solution-kaggle-flavours-of-physics-for-finding-%cf%84-%e2%86%92-3%ce%bc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/10/pn_distance_sec_vtx2.png" medium="image">
+			<media:title type="html">pn_distance_sec_vtx2</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/10/select_p1p2_ip_ratio.png" medium="image">
+			<media:title type="html">select_p1p2_ip_ratio</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2015/10/select_p0p2_ip_ratio.png" medium="image">
+			<media:title type="html">select_p0p2_ip_ratio</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Winning solution of Kaggle Higgs competition: what a single model can do?</title>
+		<link>https://no2147483647.wordpress.com/2014/09/17/winning-solution-of-kaggle-higgs-competition-what-a-single-model-can-do/</link>
+					<comments>https://no2147483647.wordpress.com/2014/09/17/winning-solution-of-kaggle-higgs-competition-what-a-single-model-can-do/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Wed, 17 Sep 2014 05:12:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=60</guid>
+
+					<description><![CDATA[This blog is for describing the winning solution of the Kaggle Higgs competition. It has the public score of 3.75+ and the private score of 3.73+ which has ranked at 26th. This solution uses a single classifier with some feature work from basic high-school physics plus a few advanced but calculable physical features. Github link to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>This blog is for describing the winning solution of the <a href="http://www.kaggle.com/c/higgs-boson/">Kaggle Higgs competition</a>. It has the public score of 3.75+ and the private score of 3.73+ which has ranked at 26th. This solution uses <strong>a single classifier</strong> with some feature work from basic high-school physics plus a few advanced but calculable physical features.</p>
+<p>Github link to the <a href="https://github.com/phunterlau/kaggle_higgs">source code</a>.</p>
+<p><strong>1. The model</strong></p>
+<p>I choose <a href="https://github.com/tqchen/xgboost">XGBoost</a> which is a parallel implementation of gradient boosting tree. It is a great piece of work: parallel, fast, efficient and tune-able parameters.</p>
+<p>The parameter tuning-up is simple. I know GBM can have a good learning result by providing a small shrinkage eta value. According to a simply brute-force grid search for the parameters and the cross-validation score, I choose :</p>
+<ul>
+<li>eta = 0.01 (small shrinkage)</li>
+<li>max_depth = 9 (default max_depth=6 which is not deep enough)</li>
+<li>sub_sample = 0.9 (giving some randomness for preventing overfitting)</li>
+<li>num_rounds = 3000 (because of slow shrinkage, many trees are needed)</li>
+</ul>
+<p>and leave other parameters by default. This parameter works good, however, since I only have limited knowledge of GBM, this model is not very optimal for:</p>
+<ul>
+<li>shrinkage too slow and training time too long, so a training takes about 30 minutes and cross-validation takes longer time. On the forum, some faster parameters are published which can limit the training time to less than 5 min.</li>
+<li>sub_sample parameter gives some randomness, especially when complicated non-linear features are involved, and the submission AMS score is not stable and not 100% reproducible. In the feature reduction section, I have a short discussion.</li>
+</ul>
+<p>The cross validation is done as usually. A reminder about the AMS is that, from the AMS equation, one can simplify it to</p>
+<p style="text-align:center;"><img src="https://s0.wp.com/latex.php?latex=%7B%5Crm+AMS%7D+%3D+%5Cfrac%7BS%7D%7B%5Csqrt%7BB%7D%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Crm+AMS%7D+%3D+%5Cfrac%7BS%7D%7B%5Csqrt%7BB%7D%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Crm+AMS%7D+%3D+%5Cfrac%7BS%7D%7B%5Csqrt%7BB%7D%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;rm AMS} = &#92;frac{S}{&#92;sqrt{B}}" class="latex" /></p>
+<p>which means, if we evenly partition the training set for K-fold cross validation where the S and B have applied the factor of <img src="https://s0.wp.com/latex.php?latex=%28K-1%29%2FK&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%28K-1%29%2FK&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%28K-1%29%2FK&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="(K-1)/K" class="latex" />, the AMS score from CV is artificially lowered by approximately <img src="https://s0.wp.com/latex.php?latex=%5Csqrt%7B%28K-1%29%2FK%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Csqrt%7B%28K-1%29%2FK%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Csqrt%7B%28K-1%29%2FK%7D&#038;bg=ffffff&#038;fg=444444&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;sqrt{(K-1)/K}" class="latex" />. The same with estimating the test AMS: the weight should be scaled by the number of test samples.</p>
+<p>XGboost also supports customized loss function. People have some discussions <a href="http://www.kaggle.com/c/higgs-boson/forums/t/10286/customize-loss-function-in-xgboost">in this thread</a> and I have some tries. I haven&#8217;t applied this customized function for my submission.</p>
+<p><strong>2. The features</strong></p>
+<p>The key for this solution is the feature engineering. With the basic physics features, I can reach the public leaderboard score around 3.71, and the other advanced physics features push it to public 3.75 and private 3.73.</p>
+<p><strong>2.1 General idea for feature engineering</strong></p>
+<p>Since the signal (positive) samples are Higgs to tau-tau events where <strong>two taus coming from the same Higgs boson</strong>, while the background (negative) samples are tau-tau-look-like events where particles have no correlation with the Higgs boson, I have the general idea that, in the signal, these particles should have their kinematic correlations with Higgs, while the background particles don&#8217;t. This kinematic correlation can be represented as:</p>
+<ul>
+<li>Simply as the open angles (see part 2.2)</li>
+<li>Complicated as CAKE features (see this <a href="http://www.kaggle.com/c/higgs-boson/forums/t/10329/new-variables-features-for-higgs-vs-z-discrimination">link </a>in the Higgs forum, this feature is not developed by me nor being used in the submission/solution)</li>
+</ul>
+<p><strong>2.2 Basic physics features</strong></p>
+<p>Because of the general idea of finding the &#8220;correlation&#8221; in the kinematic system, the correlation between each pair of particles can be useful. The possible features are:</p>
+<ul>
+<li>The open angles in the transverse (phi) plane and the longitudinal plan (eta angle). The reminder is that, the phi angle difference must be mapped into ±pi, and the absolute values of these angles work better for xgboost.</li>
+<li>Some careful study on the open angle can find that, tau-MET open angles in phi direction is somehow useless. It is understandable that in tau-l-nu case the identified tau angle has no much useful correlation with nu angle.</li>
+<li>Cartesian of each momentum value (px, py, pz): it works with xgboost.</li>
+<li>The momentum correlation in the longitudinal direction (Z direction), for example, jet momentum in Z direction vs tau-lepton momentum in Z direction is important. This momentum in Z direction can be calculated using the pt (transverse momentum) and the eta angle.</li>
+<li>The longitudinal eta open angle for the leading jet and the subleading jet: the physics reason is from the jet production mechanism from tau, but it is easy to be noticed when plotting PRI_jet_leading_eta &#8211; PRI_jet_subleading_eta without physics knowledge.</li>
+<li>The transverse momentum ratio of tau-lep, jet-jet, MET to the total transverse momentum.</li>
+<li>The min and max PT: this idea comes from the traditional cut-based analysis where different physics channel, e.g. 2-jet VBF vs 1 jet jet suppression to lepton, there are minimal and maximal PT cut. In this approach, I give them as features instead of splitting the model, and xgboost picks them up in a nice way.</li>
+</ul>
+<p>Overlapping the feature distribution for the signal and the background is a common technique for visualizing features in the experimental high energy physics, for example, the jet-lepton eta open angle distribution for the positive and negative samples can be visualized as following:</p>
+<div style="width: 720px" class="wp-caption alignnone"><img class="" src="https://dl.dropboxusercontent.com/u/10652630/blog/jet-lep-eta.png" alt="" width="720" height="404" /><p class="wp-caption-text">Jet-lepton open angle distributions</p></div>
+<p><strong>2.3 Advanced physics features</strong></p>
+<p>If one reads the CMS/ATLAS Higgs to tau-tau analysis paper, one can have some advanced features for eliminating particular background. For example, <a href="https://indico.cern.ch/event/218030/session/15/contribution/211/material/slides/0.pdf">this CMS talk</a> has covered the fundamental points of Higgs to tau-tau search.</p>
+<p>In Higgs to tau tau search, one of the most important background is the Z particle where Z can decay into lepton pairs (l-l, tau-tau) and mimic the Higgs signal. Moreover, considering the known Higgs mass is 126 GeV which is close to Z mass 91 GeV, the tau-tau kinematics can be very similar in Z and Higgs.</p>
+<p>The common technique for eliminating this background is reconstructing Z invariant mass peak which is around 91 GeV. The provided &#8216;PRI&#8217; features only have tau momentum and lepton momentum, from which we can&#8217;t have precise reconstruction of Z particle invariant, however, this invariant mass idea gives some hint that, the pseudo transverse invariant mass can be a good feature where the transverse invariant mass distribution can be :</p>
+<div style="width: 749px" class="wp-caption alignnone"><img class="" src="https://dl.dropboxusercontent.com/u/10652630/blog/tau-lep-invariant.png" alt="" width="749" height="404" /><p class="wp-caption-text">Tau-lepton pseduo invariant mass</p></div>
+<p>QCD and W+jet background are also important where lepton/tau can be mis-identified as jet, however, these two have much lower cross-section so the feature work on these two background are not very important. Tau-jet pseudo invariant mass features are useful too.</p>
+<p>Some other not important features are:</p>
+<ul>
+<li>For tau-tau channel, the di-tau momentum summation can be roughly estimated by tau-lep-jet combination although it is far from truth.</li>
+<li>For 2-jets VBF channel, the jet-jet invariant mass should be high for signal.</li>
+</ul>
+<p><strong>Some comments about SVFIT and CAKE-A</strong>:</p>
+<ul>
+<li>I know some teams (e.g. Lubos&#8217; team) are using <strong>SVFIT</strong>, which is the CMS counter-partner of ALTAS&#8217; MMC method (the DER_invariant_MMC feature). SVFIT has more variables and more considerable features than MMC, so SVFIT can do better Higgs invariant mass construction. Deriving SVFIT feature using the current provided features is very hard, so I haven&#8217;t done it.</li>
+<li><strong>CAKE-A</strong> feature is basically the likelihood if a mass peak belongs to Z mass or Higgs mass. CAKE team claims that, it is a very complicated feature and some positive reports exist in the leaderboard, so ATLAS should investigate this feature for their Higgs search model.</li>
+</ul>
+<p><strong>2.4 Feature selection</strong></p>
+<p>Gradient boosting tree method is generally sensitive to confusing samples. In this particular problem of Higgs to tau-tau, many background events can have very similar features to the signal ones, thus, a good understanding of features and feature selection can help reducing confusions for better model building.</p>
+<p>The feature selection uses some logic and/or domain knowledge, and I haven&#8217;t applied any automatic feature selection techniques, e.g. PCA. The reason is that, most auto feature selection methods are designed for capturing the max errors while this competition is for maximizing the AMS score, so I am afraid some feature selection can accidentally drop some important features.</p>
+<p>Because of the proton-proton collision in the longitudinal direction, the transverse direction is symmetric, thus the raw phi values of these particles are mostly useless and should be removed for less confusions for the boosting process. It is also the reason why ATLAS and CMS detectors are cylinders.</p>
+<ul>
+<li>Some one on the forum asks why the Phi distribution shows some periodic &#8216;waves&#8217; and questions if it is a useful feature. It is actually from <a href="http://www.atlas.ch/calorimeter.html">ATLAS periodical calorimeter structure</a>.</li>
+</ul>
+<p>The tau and lep raw eta values don&#8217;t help much too. The reason behind it is the Higgs to tau tau production mechanism, but one can easily see it from the symmetric distributions of these variables.</p>
+<p>Jets raw eta values are important. The physics reason behind it is from the jet production mechanism where the jets from the signal should be more centralized, but one can easily find it by overlapping the distributions of PRI_jet_(sub)leading_eta for the signal and the background without physics knowledge.</p>
+<p><strong>2.5 Discussions</strong></p>
+<p><strong>More advanced features or not? It is a question.</strong> I only keep physically meaningful features for the final submission. I have experimented some other tricky features, e.g. the weighted transverse invariant mass with PT ratio, and some of them help scoring on the public LB. However, it doesn&#8217;t show significant improvement in my CV score. To be safe, I spend the last 3 days before the deadline removing these &#8216;tricky&#8217; features, and keeping only the basic physics feature (linear combinations) as well as these pseudo invariant mass features, in order not to overfit the public LB. After checking the private LB scores, I find some of them can help, but only a little. @Raising Spirit on the forum has <a href="https://www.kaggle.com/c/higgs-boson/forums/t/10314/maybe-you-want-to-use-this-variable/53622#post53622">posted a feature</a> which is DER_mass_MMC*DER_pt_ratio_lep_tau/DER_sum_pt and Lubos has <a href="https://www.kaggle.com/c/higgs-boson/forums/t/10314/maybe-you-want-to-use-this-variable/53628#post53628">a nice comment</a> if it is good idea or not.</p>
+<p><strong>CAKE features effect.</strong> I have used 3 test submissions for testing CAKE-A and CAKE-B feature. With CAKE A+B, both of my public and private LB submission score drops around 0.01; with CAKE-A, my model score has almost no change (reduce 0.0001); with CAKE-B, my model score improves 0.01. I think it is because CAKE-A feature may have strong correlations with my current feature, while CAKE-B is essentially the <a href="http://inspirehep.net/record/1260715/?ln=en">MT2</a> variable in physics which can help for the hadronic (jet) final state. I haven&#8217;t include these submissions in my final scoring ones, but thanks to CAKE team for providing these features.</p>
+<p><strong>3. Conclusion and lessons learned</strong></p>
+<p><strong>What I haven&#8217;t used:</strong></p>
+<ul>
+<li>loss function using AMS score: In these two posts (<a href="http://www.kaggle.com/c/higgs-boson/forums/t/10286/customize-loss-function-in-xgboost">post 1</a> and <a href="http://www.kaggle.com/c/higgs-boson/forums/t/10272/an-approach-to-optimizing-ams">post 2</a>), they proposed the AMS loss function. XGboost has a good interface for these customized loss function, but I just didn&#8217;t have chance to tune up the parameters.</li>
+<li>Tricky non-linear non-physical features.</li>
+<li>Vector PT summations of tau-lep, lep-tau and other particle pairs, and their open angles with other particles. They are physically meaningful, but my model doesn&#8217;t pick them up <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f626.png" alt="😦" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
+<li>Categorizing the jet multiplicity (PRI_jet_num). Usually this categorizing technique works better since it increase the feature dimension for better separation, but not for this time, maybe because of my model parameters.</li>
+<li>Split models by PRI_jet_num. In the common Higgs analysis, the analysis is divided into different num-of-jets categories, e.g. 0-jet, 1-jet, 2-jets, because each partition can have different physical meanings in the Higgs production. XGboost has caught this partition nicely with features, and it handles the missing values in a nice way.</li>
+</ul>
+<p><strong>Lesson learned</strong></p>
+<ul>
+<li>Automate the process: script for filing CV, script for the full workflow of training + testing, script for parameter scan, library of adding features so CV and training can have consistent features. It can save very much time.</li>
+<li>Discuss with the team members and check the forum.</li>
+<li>Renting a cloud is easier than buying a machine.</li>
+<li>I show learn ensembling classifiers for better score in future.</li>
+<li>Spend some time: studying the features and the model needs some time. I paused my submission for 2 months for preparing for my O1-A visa application (I got no luck in this year&#8217;s H1B lottery, so I had to write &#8216;a lot of a lot&#8217; for this visa instead) and only fully resumed it about 2 weeks before deadline when my visa was approved, so my VM instance has run like crazy for feature work, model tuning and CV since then while I sleep or during daily work. Fortunately, these work (plus electricity bills to Google) has good payback on the rank.</li>
+<li><img class="" src="https://dl.dropboxusercontent.com/u/10652630/blog/vm-cpu.png" alt="" width="914" height="402" /></li>
+</ul>
+<p><strong>4. Acknowledgment</strong></p>
+<p>I want to thank <a href="http://www.kaggle.com/users/32300/tianqi-chen">@Tianqi Chen</a> (the author of xgboost), @yr, @Bing Xu, @Luboš Motl for their nice work and the discussions with them. I also want to thank to Google Cloud Engine for providing 500$ free credit for using their cloud computer, so I don&#8217;t have to buy my own computer but just rent a 16-core VM.</p>
+<p>5. Suggestions to CMS, ATLAS, ROOT and Kaggle</p>
+<p>To CMS and ATLAS: In the physics analyses, ML was called &#8216;multi-variate analysis&#8217; (MVA, so ROOT&#8217;s ML package is called TMVA) where features were &#8216;variates&#8217;. This method of selecting variates (features) was from the traditional cut-based analysis where each variate must be <strong>kind of strong physically meaningful so they were explainable</strong>, for example, in CMS&#8217;s tau-tau analysis, we had 2-jet VBF channel where tau-tau required jet-jet momentum was greater than 110 GeV etc. Using this cut-based feature selection idea in the MVA technique gave some limits of feature work where features were carefully selected by physicists using their experience and knowledge, which was good but very limited. In this competition, I came up some intuitive &#8216;magic&#8217; features using my physics intuition, and the model + feature selection techniques in ML helped removing non-sense ones as well as finding new good features. So, my suggestion to CMS and ATLAS on the feature work is that, we should introduce more ML techniques for helping feature/variate engineering work and use machine&#8217;s power for finding more good features.</p>
+<p>To ROOT TMVA: XGboost is a great idea for parallelizing the GBM learning. ROOT&#8217;s current TMVA is using single thread which is slow, and ROOT should have some similar idea of xgboost into the next version of TMVA.</p>
+<p>To Kaggle: it might be a good idea of having some sponsored computing credits from some cloud computing providers and giving them to the competitors, e.g. Google Cloud and Amazon AWS. It can remove the obstacles of computing resources for competitors, and also a good advertisement for these cloud computing providers.</p>
+<p><strong>6. Our background</strong></p>
+<p>My teammate <a href="http://www.kaggle.com/users/106466/dlop78">@dlp78</a> and I are both data scientists and physicists. We used to work on <a href="http://cms.web.cern.ch/">the CMS experiment</a>. He worked on Higgs -&gt; ZZ and Higgs-&gt; bb discovery channel, and I worked on Higgs-&gt;gamma gamma discovery channel and some supersymmetry/exotics particle search. My <a href="http://cds.cern.ch/record/1423333/">PhD dissertation</a> is search for long-lived particle decay into photons, in which the method is inspired by the tau discovery method, and <a href="http://en.wikipedia.org/wiki/Gail_Hanson">my advisor</a> is one of the scientists who discovered the tau particle (well, she also discovered many others, for example: Psi, D0, Tau, jets, Higgs). I have my Linkedin page linked on my Kaggle profile page, and I would like to link to you great Kaggle competitors.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2014/09/17/winning-solution-of-kaggle-higgs-competition-what-a-single-model-can-do/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://dl.dropboxusercontent.com/u/10652630/blog/jet-lep-eta.png" medium="image" />
+
+		<media:content url="https://dl.dropboxusercontent.com/u/10652630/blog/tau-lep-invariant.png" medium="image" />
+
+		<media:content url="https://dl.dropboxusercontent.com/u/10652630/blog/vm-cpu.png" medium="image" />
+	</item>
+		<item>
+		<title>The best photography spots in San Francisco: what can data tell you?</title>
+		<link>https://no2147483647.wordpress.com/2013/08/22/the-best-photography-spots-in-san-francisco-what-data-can-tell-you/</link>
+					<comments>https://no2147483647.wordpress.com/2013/08/22/the-best-photography-spots-in-san-francisco-what-data-can-tell-you/#respond</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Thu, 22 Aug 2013 17:39:44 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=47</guid>
+
+					<description><![CDATA[In yesterday morning time, I was reading Danny Dong&#8216;s wedding photos and amazed by his captures in the Golden Gate Bridge, City Hall in San Francisco. And I got this question: what the best photography spots are in San Francisco, besides these two places? If we know this, photographers do not waste time of searching [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>In yesterday morning time, I was reading <a href="http://www.dannydongblog.com/">Danny Dong</a>&#8216;s wedding photos and amazed by his captures in the Golden Gate Bridge, City Hall in San Francisco. And I got this question: what the best photography spots are in San Francisco, besides these two places? If we know this, photographers do not waste time of searching for a good spot. To answer this question, I needed some data.</p>
+<p>Fortunately, in <a href="https://data.sfgov.org/">SF data</a>, I found this data set of <a href="https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am">Film Locations in San Francisco</a>. There were about 200 movies filmed in San Francisco, from 1950s to present. In my mind, if professionals took photos at some spots, these spots were great photography spots.</p>
+<p>Just the addresses themselves were not enough, I wanted to put them on to the map. Google map has the Geo service which can translate one address into a latitude/longitude location, for example:</p>
+<p>Metro (1997) filmed at Bush Street at Jones, can be translated into &#8220;Bush Street &amp; Jones Street, San Francisco, CA 94109, USA&#8221; and the location is 37.7895596 -122.4137276</p>
+<p>With python, this is easy. I installed geopy (in pip), and used this simple piece of code:</p>
+<pre class="brush: python; collapse: false; title: ; wrap-lines: false; notranslate">
+from geopy import geocoders
+g = geocoders.GoogleV3()
+
+....
+
+location+=', San Francisco, CA'
+#I changed the source code of geopy and it returned multiple locations if ambiguity.
+place, (lat, lng) = g.geocode(location)[0]
+</pre>
+<p>We can use google fusion table to draw these locations on the map. It looks like this:</p>
+<div data-shortcode="caption" id="attachment_56" style="width: 640px" class="wp-caption aligncenter"><a href="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png"><img aria-describedby="caption-attachment-56" data-attachment-id="56" data-permalink="https://no2147483647.wordpress.com/2013/08/22/the-best-photography-spots-in-san-francisco-what-data-can-tell-you/screen-shot-2013-08-22-at-11-39-43-am/#main" data-orig-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png" data-orig-size="1213,771" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Location map for  for the best SF photography spots" data-image-description="" data-image-caption="&lt;p&gt;Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. &lt;/p&gt;
+" data-medium-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=1008" class="size-full wp-image-56" alt="Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. " src="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=1008" srcset="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=1008 1008w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=150 150w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=300 300w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=768 768w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png?w=1024 1024w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png 1213w" sizes="(max-width: 1008px) 100vw, 1008px"   /></a><p id="caption-attachment-56" class="wp-caption-text">Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals.</p></div>
+<p>One can click this link for the interactive map and go to the location (with streetview!): <a href="https://www.google.com/fusiontables/embedviz?q=select+col2+from+1nYwvzx2bNvANTwV03mQ-gge0imwW1iSz7WIxveg&amp;viz=MAP&amp;h=false&amp;lat=37.801855527505346&amp;lng=-122.43532960000005&amp;t=1&amp;z=13&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE">https://www.google.com/fusiontables/embedviz?q=select+col2+from+1nYwvzx2bNvANTwV03mQ-gge0imwW1iSz7WIxveg&amp;viz=MAP&amp;h=false&amp;lat=37.801855527505346&amp;lng=-122.43532960000005&amp;t=1&amp;z=13&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE</a></p>
+<p>However, SF is so beautiful that too many locations to read. A heat map works better. I used <a href="http://www.myheatmap.com">myheatmap</a> and generated this hot spot map for photography locations. It looks like that the pier area is super hot: quite consistent with my opinion.</p>
+<div data-shortcode="caption" id="attachment_48" style="width: 640px" class="wp-caption aligncenter"><a href="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png"><img aria-describedby="caption-attachment-48" data-attachment-id="53" data-permalink="https://no2147483647.wordpress.com/2013/08/22/the-best-photography-spots-in-san-francisco-what-data-can-tell-you/screen-shot-2013-08-22-at-10-45-29-am/#main" data-orig-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png" data-orig-size="1438,895" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Heat map for the best SF photography spots" data-image-description="" data-image-caption="&lt;p&gt;Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. &lt;/p&gt;
+" data-medium-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=300" data-large-file="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=1008" class="size-full wp-image-53" alt="Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. " src="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=1008" srcset="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=1008 1008w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=150 150w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=300 300w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=768 768w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png?w=1024 1024w, https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png 1438w" sizes="(max-width: 1008px) 100vw, 1008px"   /></a><p id="caption-attachment-48" class="wp-caption-text"></dd>
+<dd class="wp-caption-dd">Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals.</p>
+<p></p></div>
+<p>We can click this link and find out the details <a href="http://www.myheatmap.com/maps/u6o5WNbTIrM=">http://www.myheatmap.com/maps/u6o5WNbTIrM=</a> (one may need to change the &#8216;decay&#8217; to a smaller value on the right top of the interactive map).</p>
+<p>In short, we now know what the best photography spots are, from data. Enjoy photography in San Francisco.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2013/08/22/the-best-photography-spots-in-san-francisco-what-data-can-tell-you/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-11-39-43-am.png" medium="image">
+			<media:title type="html">Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. </media:title>
+		</media:content>
+
+		<media:content url="https://no2147483647.files.wordpress.com/2013/08/screen-shot-2013-08-22-at-10-45-29-am.png" medium="image">
+			<media:title type="html">Using the filming location from 200+ famous movies filmed in SF, we can extract the best photography locations from these movie professionals. </media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A data scientist&#8217;s way to solve the 8809=6 problem</title>
+		<link>https://no2147483647.wordpress.com/2013/04/22/a-data-scientists-way-to-solve-the-88096-problem/</link>
+					<comments>https://no2147483647.wordpress.com/2013/04/22/a-data-scientists-way-to-solve-the-88096-problem/#comments</comments>
+		
+		<dc:creator><![CDATA[phunterlau]]></dc:creator>
+		<pubDate>Mon, 22 Apr 2013 06:09:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[pattern]]></category>
+		<category><![CDATA[puzzle]]></category>
+		<category><![CDATA[regression]]></category>
+		<guid isPermaLink="false">http://no2147483647.wordpress.com/?p=41</guid>
+
+					<description><![CDATA[Last time, one of my colleagues posted this question. It is related to feature extraction of machine learning. The question starts simple: 8809=6 7111=0 2172=0 6666=4 1111=0 3213=0 7662=2 9313=1 0000=4 2222=0 3333=0 5555=0 8193=3 8096=5 7777=0 9999=4 7756=1 6855=3 9881=5 5531=0 So, 2581=? The answer itself was easy: number of circles. For these kind of numeric puzzles, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last time, one of my colleagues posted this question. It is related to feature extraction of machine learning.</p>
+<p>The question starts simple:</p>
+<blockquote><p>8809=6 7111=0 2172=0 6666=4 1111=0 3213=0 7662=2 9313=1 0000=4 2222=0 3333=0 5555=0 8193=3 8096=5 7777=0 9999=4 7756=1 6855=3 9881=5 5531=0<br />
+So, 2581=?</p></blockquote>
+<p>The answer itself was easy: number of circles. For these kind of numeric puzzles, I think there should be a general solution that solves these puzzles automatically.</p>
+<p>By checking the pattern of the equation list, one can guess that, the answer can be the summation of these patterns, so one can list the digits by its frequency, and this problem becomes a linear regression for a 10-dimension (x0-x9) space.</p>
+<p>For example, 8809=6 gives 100000021 = 6 by listing the frequency of each digits, where 1,2,1 are parameters for &#8216;0&#8217;, &#8216;8&#8217; and &#8216;9&#8217;, which means the weight summation of each digits is 6. The regression function can be dot product for a linear function and tells us why it is 6 for 8+8+0+9.</p>
+<p>Thus, one can solve it by linear regression. The regression function can be:</p>
+<pre class="brush: python; collapse: false; title: ; wrap-lines: false; notranslate">
+def __residual(params, xdata, ydata):#guess the function is cosine dot
+    return (ydata - numpy.dot(xdata, params))
+</pre>
+<p>And one can use numpy&#8217;s least square for the linear regression:</p>
+<pre class="brush: python; collapse: false; title: ; wrap-lines: false; notranslate">
+leastsq(__residual, x0, args=(xdata, ydata))
+</pre>
+<p>The full source code in python can be found at <a href="https://github.com/phunterlau/8809-6">https://github.com/phunterlau/8809-6</a></p>
+<p>Some discussions:</p>
+<p><strong>1. About number &#8216;4&#8217;</strong></p>
+<p>The output:</p>
+<pre class="brush: python; collapse: false; title: ; wrap-lines: false; notranslate">
+(array([ 1.00000000e+00, 4.75790411e-24, 4.75709632e-24, 4.75588463e-24, 1.00000000e+00, 4.75951970e-24, 1.00000000e+00, 4.75790411e-24, 2.00000000e+00, 1.00000000e+00]), 2)
+</pre>
+<p>where each value in the array means the correlations between each digit and its&#8217; weight. One can discover that, &#8216;0&#8217;,&#8217;4&#8242;,&#8217;6&#8242;,&#8217;9&#8242; have weight of 1, and &#8216;8&#8217; has the weight of 2.</p>
+<p>However, there was a bug in the code: the initial value:</p>
+<pre class="brush: python; collapse: false; title: ; wrap-lines: false; notranslate">
+x0=numpy.array([1,1,1,1,1,1,1,1,1,1])#initial guess
+</pre>
+<p>The initial guess was weight 1 for each digit. After checking with the input, one can find &#8216;4&#8217; does not exist, so one should take off &#8216;4&#8217; as weight 1.</p>
+<p><strong>2. Why so complicated?</strong></p>
+<p>Why it is associated with the topic of &#8216;feature extraction&#8217; in machine learning?</p>
+<p>If one is smart enough, one can tell that, the pattern is actually the number of circles in each digit, so &#8216;8&#8217; has two circles and its weight is 2.</p>
+<p>However, no one can be smart at all time. Some patterns are hidden. The procedure in the example is kind of latent feature extraction: one does not have to know the pattern is about the number of circles in each digit, one can still get that &#8216;8&#8217; has weight of 2 by using this automatic code.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://no2147483647.wordpress.com/2013/04/22/a-data-scientists-way-to-solve-the-88096-problem/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/7e892936706d4c3ee6a2ede77541659d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">phunterlau</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>
