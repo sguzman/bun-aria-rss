@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.DG updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- Differential Geometry (math.DG) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- Differential Geometry</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01533" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01865" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1906.12069" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.10832" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.00156" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.14153" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01533">
+<title>A Note on Sectional Curvatures of Hermitian Manifolds. (arXiv:2211.01533v1 [math.DG])</title>
+<link>http://arxiv.org/abs/2211.01533</link>
+<description rdf:parseType="Literal">&lt;p&gt;First, we derive expression of the Chern sectional curvature of a Hermitian
+manifold in local complex coordinates. As an application, we find that a
+Hermitian metric is K\&quot;ahler if the Riemann sectional curvature and the Chern
+sectional curvature coincide. Second, we prove that the sectional curvature
+restricted to orthogonal 2-planes of a G-K\&quot;ahler-like manifold with
+non-negative (resp. non-positive) sectional curvature can take its maximum
+(resp. minimum) at a holomorphic plane section. And we also prove that the
+holomorphic bisectional curvature of a K\&quot;ahler-like manifold with non-negative
+(resp. non-positive) Chern sectional curvature can take its maximum (resp.
+minimum) at the holomorphic sectional curvature.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Hongjun Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cao_P/0/1/0/all/0/1&quot;&gt;Pandeng Cao&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01865">
+<title>Deformative Magnetic Marked Length Spectrum Rigidity. (arXiv:2211.01865v1 [math.DG])</title>
+<link>http://arxiv.org/abs/2211.01865</link>
+<description rdf:parseType="Literal">&lt;p&gt;Let $M$ be a closed surface and let $\{g_s \ | \ s \in (-\epsilon,
+\epsilon)\}$ be a smooth one-parameter family of Riemannian metrics on $M$.
+Also let $\{\kappa_s : M \rightarrow \mathbb{R} \ | \ s \in (-\epsilon,
+\epsilon)\}$ be a smooth one-parameter family of functions on $M$. Then the
+family $\{(g_s, \kappa_s) \ | \ s \in (-\epsilon, \epsilon)\}$ gives rise to a
+family of magnetic flows on $TM$. We show that if the magnetic curvatures are
+negative for $s \in (-\epsilon, \epsilon)$ and the lengths of each periodic
+orbit remains constant as the parameter $s$ varies, then there exists a smooth
+family of diffeomorphisms $\{f_s : M \rightarrow M \ | \ s \in (-\epsilon,
+\epsilon)\}$ such that $f_s^*(g_s) = g_0$ and $f_s^*(\kappa_s) = \kappa_0$.
+This generalizes a result of Guillemin and Kazhdan to the setting of magnetic
+flows.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Reber_J/0/1/0/all/0/1&quot;&gt;James Marshall Reber&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1906.12069">
+<title>A neighbourhood theorem for submanifolds in generalized complex geometry. (arXiv:1906.12069v2 [math.DG] UPDATED)</title>
+<link>http://arxiv.org/abs/1906.12069</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study neighbourhoods of submanifolds in generalized complex geometry. Our
+first main result provides sufficient criteria for such a submanifold to admit
+a neighbourhood on which the generalized complex structure is B-field
+equivalent to a holomorphic Poisson structure. This is intimately tied with our
+second main result, which is a rigidity theorem for generalized complex
+deformations of holomorphic Poisson structures. Specifically, on a compact
+manifold with boundary we provide explicit conditions under which any
+generalized complex perturbation of a holomorphic Poisson structure is B-field
+equivalent to another holomorphic Poisson structure. The proofs of these
+results require two analytical tools: Hodge decompositions on almost complex
+manifolds with boundary, and the Nash-Moser algorithm. As a concrete
+application of these results, we show that on a four-dimensional generalized
+complex submanifold which is generically symplectic, a neighbourhood of the
+entire complex locus is B-field equivalent to a holomorphic Poisson structure.
+Furthermore, we use the neighbourhood theorem to develop the theory of blowing
+down submanifolds in generalized complex geometry.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bailey_M/0/1/0/all/0/1&quot;&gt;Michael Bailey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Cavalcanti_G/0/1/0/all/0/1&quot;&gt;Gil R. Cavalcanti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Duran_J/0/1/0/all/0/1&quot;&gt;Joey van der Leer Duran&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.10832">
+<title>Moment polytopes on Sasaki manifolds and volume minimization. (arXiv:2201.10832v2 [math.DG] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.10832</link>
+<description rdf:parseType="Literal">&lt;p&gt;We show that transverse coupled K\&quot;ahler-Einstein metrics on toric Sasaki
+manifolds arise as a critical point of a volume functional. As a preparation
+for the proof, we re-visit the transverse moment polytopes and contact moment
+polytopes under the change of Reeb vector fields. Then we apply it to a coupled
+version of the volume minimization by Martelli-Sparks-Yau. This is done
+assuming the Calabi-Yau condition of the K\&quot;ahler cone, and the non-coupled
+case leads to a known existence result of a transverse K\&quot;ahler-Einstein metric
+and a Sasaki-Einstein metric, but the coupled case requires an assumption
+related to Minkowski sum to obtain transverse coupled K\&quot;ahler-Einstein
+metrics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Futaki_A/0/1/0/all/0/1&quot;&gt;Akito Futaki&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.00156">
+<title>Deformations and gluing of asymptotically cylindrical associatives. (arXiv:2209.00156v2 [math.DG] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.00156</link>
+<description rdf:parseType="Literal">&lt;p&gt;We introduce a method to construct closed rigid (unobstructed) associatives
+in the twisted connected sum $G_2$-manifolds [Kov03, KL11, CHNP15]. The method
+is based on gluing asymptotically cylindrical (ACyl) associatives in ACyl
+$G_2$-manifolds under a hypothesis which can be interpreted as a transverse
+Lagrangian intersection condition. This is analogous to the gluing theorem for
+$G_2$-instantons introduced in [SW15]. We rewrite the hypothesis for ACyl
+associatives obtained from ACyl holomorphic curves or ACyl special Lagrangian
+$3$-folds in ACyl Calabi-Yau $3$-folds. This helps us to construct many new
+associatives which are diffeomorphic to $S^3$, $\mathbf R \mathbf P^3$ or
+$\mathbf R \mathbf P^3\# \mathbf R \mathbf P^3$. We also study the deformation
+theory of ACyl associatives and define their moduli space with a natural
+topology and prove that the moduli space is locally homeomorphic to the zero
+set of a smooth map between two finite dimensional spaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bera_G/0/1/0/all/0/1&quot;&gt;Gorapada Bera&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.14153">
+<title>An inequality characterizing convex domains. (arXiv:2209.14153v2 [math.CA] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.14153</link>
+<description rdf:parseType="Literal">&lt;p&gt;A property of smooth convex domains $\Omega \subset \mathbb{R}^n$ is that if
+two points on the boundary $x, y \in \partial \Omega$ are close to each other,
+then their normal vectors $n(x), n(y)$ point roughly in the same direction and
+this direction is almost orthogonal to $x-y$ (for `nearby&apos; $x$ and $y$). We
+prove there exists a constant $c_n &amp;gt; 0$ such that if $\Omega \subset
+\mathbb{R}^n$ is a bounded domain with $C^1-$boundary $\partial \Omega$, then
+$$ \int_{\partial \Omega \times \partial \Omega} \frac{\left|\left\langle n(x),
+y - x \right\rangle \left\langle y - x, n(y) \right\rangle \right| }{\|x -
+y\|^{n+1}}~d \sigma(x) d\sigma(y) \geq c_n |\partial \Omega|$$ and equality
+occurs if and only if the domain $\Omega$ is convex.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Steinerberger_S/0/1/0/all/0/1&quot;&gt;Stefan Steinerberger&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
