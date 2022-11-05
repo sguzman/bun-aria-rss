@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-35851 (fortiadc)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35851",
+  "description": "An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiADC management interface 7.1.0 may allow a remote and authenticated attacker to trigger a stored cross site scripting (XSS) attack via configuring a specially crafted IP Address.",
+  "dc:date": "2022-11-02T12:15:53Z"
+}
