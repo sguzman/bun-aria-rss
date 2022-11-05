@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.HC updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Human-Computer Interaction (cs.HC) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Human-Computer Interaction</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01480" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01524" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01553" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01559" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01602" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01801" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01960" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2201.09130" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.10476" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.10189" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.09929" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.17356" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01480">
+<title>Over-communicate no more: Situated RL agents learn concise communication protocols. (arXiv:2211.01480v1 [cs.MA])</title>
+<link>http://arxiv.org/abs/2211.01480</link>
+<description rdf:parseType="Literal">&lt;p&gt;While it is known that communication facilitates cooperation in multi-agent
+settings, it is unclear how to design artificial agents that can learn to
+effectively and efficiently communicate with each other. Much research on
+communication emergence uses reinforcement learning (RL) and explores
+unsituated communication in one-step referential tasks -- the tasks are not
+temporally interactive and lack time pressures typically present in natural
+communication. In these settings, agents may successfully learn to communicate,
+but they do not learn to exchange information concisely -- they tend towards
+over-communication and an inefficient encoding. Here, we explore situated
+communication in a multi-step task, where the acting agent has to forgo an
+environmental action to communicate. Thus, we impose an opportunity cost on
+communication and mimic the real-world pressure of passing time. We compare
+communication emergence under this pressure against learning to communicate
+with a cost on articulation effort, implemented as a per-message penalty (fixed
+and progressively increasing). We find that while all tested pressures can
+disincentivise over-communication, situated communication does it most
+effectively and, unlike the cost on effort, does not negatively impact
+emergence. Implementing an opportunity cost on communication in a temporally
+extended environment is a step towards embodiment, and might be a pre-condition
+for incentivising efficient, human-like communication.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kalinowska_A/0/1/0/all/0/1&quot;&gt;Aleksandra Kalinowska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Davoodi_E/0/1/0/all/0/1&quot;&gt;Elnaz Davoodi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Strub_F/0/1/0/all/0/1&quot;&gt;Florian Strub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mathewson_K/0/1/0/all/0/1&quot;&gt;Kory W Mathewson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kajic_I/0/1/0/all/0/1&quot;&gt;Ivana Kajic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bowling_M/0/1/0/all/0/1&quot;&gt;Michael Bowling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Murphey_T/0/1/0/all/0/1&quot;&gt;Todd D Murphey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pilarski_P/0/1/0/all/0/1&quot;&gt;Patrick M Pilarski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01524">
+<title>Addressing harm in online gaming communities -- the opportunities and challenges for a restorative justice approach. (arXiv:2211.01524v1 [cs.HC])</title>
+<link>http://arxiv.org/abs/2211.01524</link>
+<description rdf:parseType="Literal">&lt;p&gt;Most platforms implement some form of content moderation to address
+interpersonal harms such as harassment. Content moderation relies on
+offender-centered, punitive justice approaches such as bans and content
+removals. We consider an alternative justice framework, restorative justice,
+which aids victims to heal, supports offenders to repair the harm, and engages
+community members to address the harm collectively. To understand the utility
+of restorative justice in addressing online harm, we interviewed 23 users from
+Overwatch gaming communities, including moderators, victims, and offenders. We
+understand how they currently handle harm cases through the lens of restorative
+justice and identify their attitudes toward implementing restorative justice
+processes. Our analysis reveals that while online communities have needs for
+and existing structures to support restorative justice, there are structural,
+cultural, and resource-related obstacles to implementing this new approach
+within the existing punitive framework. We discuss the opportunities and
+challenges for applying restorative justice in online spaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xiao_S/0/1/0/all/0/1&quot;&gt;Sijia Xiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jhaver_S/0/1/0/all/0/1&quot;&gt;Shagun Jhaver&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Salehi_N/0/1/0/all/0/1&quot;&gt;Niloufar Salehi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01553">
+<title>User or Labor: An Interaction Framework for Human-Machine Relationships in NLP. (arXiv:2211.01553v1 [cs.HC])</title>
+<link>http://arxiv.org/abs/2211.01553</link>
+<description rdf:parseType="Literal">&lt;p&gt;The bridging research between Human-Computer Interaction and Natural Language
+Processing is developing quickly these years. However, there is still a lack of
+formative guidelines to understand the human-machine interaction in the NLP
+loop. When researchers crossing the two fields talk about humans, they may
+imply a user or labor. Regarding a human as a user, the human is in control,
+and the machine is used as a tool to achieve the human&apos;s goals. Considering a
+human as a laborer, the machine is in control, and the human is used as a
+resource to achieve the machine&apos;s goals. Through a systematic literature review
+and thematic analysis, we present an interaction framework for understanding
+human-machine relationships in NLP. In the framework, we propose four types of
+human-machine interactions: Human-Teacher and Machine-Learner, Machine-Leading,
+Human-Leading, and Human-Machine Collaborators. Our analysis shows that the
+type of interaction is not fixed but can change across tasks as the
+relationship between the human and the machine develops. We also discuss the
+implications of this framework for the future of NLP and human-machine
+relationships.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wan_R/0/1/0/all/0/1&quot;&gt;Ruyuan Wan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Etori_N/0/1/0/all/0/1&quot;&gt;Naome Etori&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Badillo_Urquiola_K/0/1/0/all/0/1&quot;&gt;Karla Badillo-Urquiola&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kang_D/0/1/0/all/0/1&quot;&gt;Dongyeop Kang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01559">
+<title>The ProfessionAl Go annotation datasEt (PAGE). (arXiv:2211.01559v1 [cs.AI])</title>
+<link>http://arxiv.org/abs/2211.01559</link>
+<description rdf:parseType="Literal">&lt;p&gt;The game of Go has been highly under-researched due to the lack of game
+records and analysis tools. In recent years, the increasing number of
+professional competitions and the advent of AlphaZero-based algorithms provide
+an excellent opportunity for analyzing human Go games on a large scale. In this
+paper, we present the ProfessionAl Go annotation datasEt (PAGE), containing
+98,525 games played by 2,007 professional players and spans over 70 years. The
+dataset includes rich AI analysis results for each move. Moreover, PAGE
+provides detailed metadata for every player and game after manual cleaning and
+labeling. Beyond the preliminary analysis of the dataset, we provide sample
+tasks that benefit from our dataset to demonstrate the potential application of
+PAGE in multiple research directions. To the best of our knowledge, PAGE is the
+first dataset with extensive annotation in the game of Go. This work is an
+extended version of [1] where we perform a more detailed description, analysis,
+and application.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gao_Y/0/1/0/all/0/1&quot;&gt;Yifan Gao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_D/0/1/0/all/0/1&quot;&gt;Danni Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Haoyue Li&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01602">
+<title>Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration. (arXiv:2211.01602v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01602</link>
+<description rdf:parseType="Literal">&lt;p&gt;AI agents designed to collaborate with people benefit from models that enable
+them to anticipate human behavior. However, realistic models tend to require
+vast amounts of human data, which is often hard to collect. A good prior or
+initialization could make for more data-efficient training, but what makes for
+a good prior on human behavior? Our work leverages a very simple assumption:
+people generally act closer to optimal than to random chance. We show that
+using optimal behavior as a prior for human models makes these models vastly
+more data-efficient and able to generalize to new environments. Our intuition
+is that such a prior enables the training to focus one&apos;s precious real-world
+data on capturing the subtle nuances of human suboptimality, instead of on the
+basics of how to do the task in the first place. We also show that using these
+improved human models often leads to better human-AI collaboration performance
+compared to using models based on real human data alone.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yang_M/0/1/0/all/0/1&quot;&gt;Mesut Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Carroll_M/0/1/0/all/0/1&quot;&gt;Micah Carroll&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dragan_A/0/1/0/all/0/1&quot;&gt;Anca Dragan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01801">
+<title>DECISIVE Test Methods Handbook: Test Methods for Evaluating sUAS in Subterranean and Constrained Indoor Environments, Version 1.1. (arXiv:2211.01801v1 [cs.RO])</title>
+<link>http://arxiv.org/abs/2211.01801</link>
+<description rdf:parseType="Literal">&lt;p&gt;This handbook outlines all test methods developed under the Development and
+Execution of Comprehensive and Integrated Subterranean Intelligent Vehicle
+Evaluations (DECISIVE) project by the University of Massachusetts Lowell for
+evaluating small unmanned aerial systems (sUAS) performance in subterranean and
+constrained indoor environments, spanning communications, field readiness,
+interface, obstacle avoidance, navigation, mapping, autonomy, trust, and
+situation awareness. For sUAS deployment in subterranean and constrained indoor
+environments, this puts forth two assumptions about applicable sUAS to be
+evaluated using these test methods: (1) able to operate without access to GPS
+signal, and (2) width from prop top to prop tip does not exceed 91 cm (36 in)
+wide (i.e., can physically fit through a typical doorway, although successful
+navigation through is not guaranteed). All test methods are specified using a
+common format: Purpose, Summary of Test Method, Apparatus and Artifacts,
+Equipment, Metrics, Procedure, and Example Data. All test methods are designed
+to be run in real-world environments (e.g., MOUT sites) or using fabricated
+apparatuses (e.g., test bays built from wood, or contained inside of one or
+more shipping containers).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Norton_A/0/1/0/all/0/1&quot;&gt;Adam Norton&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ahmadzadeh_R/0/1/0/all/0/1&quot;&gt;Reza Ahmadzadeh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Jerath_K/0/1/0/all/0/1&quot;&gt;Kshitij Jerath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Robinette_P/0/1/0/all/0/1&quot;&gt;Paul Robinette&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weitzen_J/0/1/0/all/0/1&quot;&gt;Jay Weitzen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wickramarathne_T/0/1/0/all/0/1&quot;&gt;Thanuka Wickramarathne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yanco_H/0/1/0/all/0/1&quot;&gt;Holly Yanco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Choi_M/0/1/0/all/0/1&quot;&gt;Minseop Choi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Donald_R/0/1/0/all/0/1&quot;&gt;Ryan Donald&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Donoghue_B/0/1/0/all/0/1&quot;&gt;Brendan Donoghue&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dumas_C/0/1/0/all/0/1&quot;&gt;Christian Dumas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gavriel_P/0/1/0/all/0/1&quot;&gt;Peter Gavriel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Giedraitis_A/0/1/0/all/0/1&quot;&gt;Alden Giedraitis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hertel_B/0/1/0/all/0/1&quot;&gt;Brendan Hertel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Houle_J/0/1/0/all/0/1&quot;&gt;Jack Houle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Letteri_N/0/1/0/all/0/1&quot;&gt;Nathan Letteri&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meriaux_E/0/1/0/all/0/1&quot;&gt;Edwin Meriaux&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rezaei_Z/0/1/0/all/0/1&quot;&gt;Zahra Rezaei&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Singh_R/0/1/0/all/0/1&quot;&gt;Rakshith Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Willcox_G/0/1/0/all/0/1&quot;&gt;Gregg Willcox&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yoni_N/0/1/0/all/0/1&quot;&gt;Naye Yoni&lt;/a&gt; (University of Massachusetts Lowell)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01960">
+<title>FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v1 [q-bio.NC])</title>
+<link>http://arxiv.org/abs/2211.01960</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motor brain-computer interface (BCI) development relies critically on neural
+time series decoding algorithms. Recent advances in deep learning architectures
+allow for automatic feature selection to approximate higher-order dependencies
+in data. This article presents the FingerFlex model - a convolutional
+encoder-decoder architecture adapted for finger movement regression on
+electrocorticographic (ECoG) brain data. State-of-the-art performance was
+achieved on a publicly available BCI competition IV dataset 4 with a
+correlation coefficient between true and predicted trajectories up to 0.74. The
+presented method provides the opportunity for developing fully-functional
+high-precision cortical motor brain-computer interfaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Lomtev_V/0/1/0/all/0/1&quot;&gt;Vladislav Lomtev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Timchenko_A/0/1/0/all/0/1&quot;&gt;Alexey Timchenko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2201.09130">
+<title>Artificial Intelligence for Suicide Assessment using Audiovisual Cues: A Review. (arXiv:2201.09130v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/2201.09130</link>
+<description rdf:parseType="Literal">&lt;p&gt;Death by suicide is the seventh leading death cause worldwide. The recent
+advancement in Artificial Intelligence (AI), specifically AI applications in
+image and voice processing, has created a promising opportunity to
+revolutionize suicide risk assessment. Subsequently, we have witnessed
+fast-growing literature of research that applies AI to extract audiovisual
+non-verbal cues for mental illness assessment. However, the majority of the
+recent works focus on depression, despite the evident difference between
+depression symptoms and suicidal behavior and non-verbal cues. This paper
+reviews recent works that study suicide ideation and suicide behavior detection
+through audiovisual feature analysis, mainly suicidal voice/speech acoustic
+features analysis and suicidal visual cues. Automatic suicide assessment is a
+promising research direction that is still in the early stages. Accordingly,
+there is a lack of large datasets that can be used to train machine learning
+and deep learning models proven to be effective in other, similar tasks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Dhelim_S/0/1/0/all/0/1&quot;&gt;Sahraoui Dhelim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1&quot;&gt;Liming Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ning_H/0/1/0/all/0/1&quot;&gt;Huansheng Ning&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nugent_C/0/1/0/all/0/1&quot;&gt;Chris Nugent&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.10476">
+<title>Revisiting the Design Patterns of Composite Visualizations. (arXiv:2203.10476v2 [cs.HC] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.10476</link>
+<description rdf:parseType="Literal">&lt;p&gt;Composite visualization is a popular design strategy that represents complex
+datasets by integrating multiple visualizations in a meaningful and aesthetic
+layout, such as juxtaposition, overlay, and nesting. With this strategy,
+numerous novel designs have been proposed in visualization publications to
+accomplish various visual analytic tasks. These well-crafted composite
+visualizations have formed a valuable collection for designers and researchers
+to address real-world problems and inspire new research topics and designs.
+However, there is a lack of understanding of design patterns of composite
+visualization, thus failing to provide holistic design space and concrete
+examples for practical use. In this paper, we opted to revisit the composite
+visualizations in VIS publications and answered what and how visualizations of
+different types are composed together. To achieve this, we first constructed a
+corpus of composite visualizations from IEEE VIS publications and decomposed
+them into a series of basic visualization types (e.g., bar chart, map, and
+matrix). With this corpus, we studied the spatial (e.g., separated or
+overlaying) and semantic relationships (e.g., with same types or shared axis)
+between visualizations and proposed a taxonomy consisting of eight different
+design patterns (e.g., repeated, stacked, accompanied, and nested).
+Furthermore, we analyzed and discussed common practices of composite
+visualizations, such as the distribution of different patterns and correlations
+between visualization types. From the analysis and examples, we obtained
+insights into different design patterns on the utilities, advantages, and
+disadvantages. Finally, we developed an interactive system to help
+visualization developers and researchers conveniently explore collected
+examples and design patterns.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deng_D/0/1/0/all/0/1&quot;&gt;Dazhen Deng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cui_W/0/1/0/all/0/1&quot;&gt;Weiwei Cui&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meng_X/0/1/0/all/0/1&quot;&gt;Xiyu Meng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xu_M/0/1/0/all/0/1&quot;&gt;Mengye Xu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liao_Y/0/1/0/all/0/1&quot;&gt;Yu Liao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Haidong Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yingcai Wu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.10189">
+<title>Neural Topic Modeling of Psychotherapy Sessions. (arXiv:2204.10189v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.10189</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we compare different neural topic modeling methods in learning
+the topical propensities of different psychiatric conditions from the
+psychotherapy session transcripts parsed from speech recordings. We also
+incorporate temporal modeling to put this additional interpretability to action
+by parsing out topic similarities as a time series in a turn-level resolution.
+We believe this topic modeling framework can offer interpretable insights for
+the therapist to optimally decide his or her strategy and improve psychotherapy
+effectiveness.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_B/0/1/0/all/0/1&quot;&gt;Baihan Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bouneffouf_D/0/1/0/all/0/1&quot;&gt;Djallel Bouneffouf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cecchi_G/0/1/0/all/0/1&quot;&gt;Guillermo Cecchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tejwani_R/0/1/0/all/0/1&quot;&gt;Ravi Tejwani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.09929">
+<title>A Survey of Augmented Piano Prototypes: Has Augmentation Improved Learning Experiences?. (arXiv:2208.09929v3 [cs.HC] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.09929</link>
+<description rdf:parseType="Literal">&lt;p&gt;Humans have been developing and playing musical instruments for millennia.
+With technological advancements, instruments were becoming ever more
+sophisticated. In recent decades computer-supported innovations have also been
+introduced in hardware design, usability, and aesthetics. One of the most
+commonly digitally augmented instruments is the piano. Besides electronic
+keyboards, several prototypes augmenting pianos with different projections
+providing various levels of interactivity on and around the keyboard have been
+implemented in order to support piano players. However, it is still not
+understood if these solutions are indeed supporting the learning process. In
+this paper we present a systematic review of augmented piano prototypes
+focusing on instrument learning, which is based on the four themes derived from
+interviews of piano experts to better understand the problems of teaching the
+piano. These themes are: (i) synchronised movement and body posture, (ii)
+sight-reading, (iii) ensuring motivation, and (iv) encouraging improvisation.
+We found that prototypes are saturated on the synchronisation themes, and there
+are opportunities for sight-reading, motivation, and improvisation themes. We
+conclude by presenting recommendations on augmenting piano systems towards
+enriching the piano learning experience as well as on possible directions to
+expand knowledge in the area.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Deja_J/0/1/0/all/0/1&quot;&gt;Jordan Aiko Deja&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mayer_S/0/1/0/all/0/1&quot;&gt;Sven Mayer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pucihar_K/0/1/0/all/0/1&quot;&gt;Klen &amp;#x10c;opi&amp;#x10d; Pucihar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kljun_M/0/1/0/all/0/1&quot;&gt;Matja&amp;#x17e; Kljun&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.17356">
+<title>IoT System Case Study: Personal Office Energy Monitor (POEM). (arXiv:2210.17356v1 [cs.DC] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2210.17356</link>
+<description rdf:parseType="Literal">&lt;p&gt;This paper describes the design, implementation, and user evaluation of an
+IoT project focused on monitoring and management of user comfort and energy
+usage in office buildings. The objective is to depict an instructive use case
+and to illustrate experiences with all major phases of designing and running a
+fairly complex IoT system. The design part includes motivation and outline of
+the problem statement, the resulting definition of data to be collected, system
+implementation, and subsequent changes resulting from the additional insights
+that it provided. The user experience part describes quantitative findings as
+well as key results of the extensive human factors study with over 70 office
+users participating in two major pilots in France and Japan. The original idea
+for this project came out from a diverse group of companies exploring
+challenges of designing and operating smart buildings with net-positive energy
+balance. Members included companies involved in the design and construction of
+smart buildings, building-management and automation systems, computer design,
+energy systems, and office furniture and space design. One of the early
+insights was that maximum energy efficiency in office buildings cannot be
+achieved and sustained without the awareness and active participation of
+building occupants. The resulting project explored and evaluated several ways
+to engage and empower users in ways that benefit them and makes them the
+willing and active participants.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Milenkovic_M/0/1/0/all/0/1&quot;&gt;Milan Milenkovic&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
