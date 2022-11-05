@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Martin Goodson]]></title><description><![CDATA[Chief Scientist at Evolution AI, an artificial intelligence company in London.]]></description><link>https://www.martingoodson.com/</link><image><url>https://www.martingoodson.com/favicon.png</url><title>Martin Goodson</title><link>https://www.martingoodson.com/</link></image><generator>Ghost 4.48</generator><lastBuildDate>Wed, 02 Nov 2022 14:35:30 GMT</lastBuildDate><atom:link href="https://www.martingoodson.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Ten Ways Your Data Project is Going to Fail]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p><strong>Introduction</strong></p>
+<p>Data science continues to generate excitement and yet real-world results can often disappoint business stakeholders. How can we mitigate risk and ensure results match expectations? Working as a technical data scientist at the interface between R&amp;D and commercial operations has given me an insight into the traps</p>]]></description><link>https://www.martingoodson.com/ten-ways-your-data-project-is-going-to-fail/</link><guid isPermaLink="false">5e15f163bda2f50017c807c9</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Tue, 01 Nov 2016 13:38:48 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p><strong>Introduction</strong></p>
+<p>Data science continues to generate excitement and yet real-world results can often disappoint business stakeholders. How can we mitigate risk and ensure results match expectations? Working as a technical data scientist at the interface between R&amp;D and commercial operations has given me an insight into the traps that lie in our path. I present a personal view on the most common failure modes of data science projects.</p>
+<p>The long version with slides and explanatory text below. Slides in one pdf <a href="https://drive.google.com/file/d/0B4xuGj_-3XLreGFrc2hjc2FhYkE/view">here</a>.</p>
+<h2 id="thereissomediscussionathackernews">There is some discussion at <a href="https://news.ycombinator.com/item?id=12858480">Hacker News</a></h2>
+<p>First, about me:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide02.jpg" alt loading="lazy"></p>
+<p>This talk is based on conversations I&apos;ve had with many senior data scientists over the last few years. Many companies seems to go through a pattern of hiring a data science team only for the entire team to quit or be fired around 12 months later. Why is the failure rate so high?</p>
+<p>Let&apos;s begin:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide05-1.jpg" alt loading="lazy"><br>
+A very wise data science consultant told me he always asks if the data has been used before in a project. If not, he adds 6-12 months onto the schedule for data cleansing.</p>
+<p>Do a data audit before you begin. Check for missing data, or dirty data. For example, you might find that a database has different transactions stored in dollar and yen amounts, without indicating which was which. This actually happened.</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide06.jpg" alt loading="lazy"><br>
+No it isn&apos;t. Data is not a commodity, it needs to be transformed into a product before it&apos;s valuable. Many respondents told me of projects which started without any idea of who their customer is or how they are going to use this &quot;valuable data&quot;. The answer came too late: &quot;nobody&quot; and &quot;they aren&apos;t&quot;</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide07.jpg" alt loading="lazy"></p>
+<p>Don&apos;t torture your data scientists by witholding access to the data and tools they need to do their job. This senior data scientist took six weeks to get permission to install python and R. She was so happy!</p>
+<p>Well, she was until she sent me this shortly afterwards:</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide07-1.jpg" alt loading="lazy"></p>
+<p>Now, allow me to introduce this guy:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide09.jpg" alt loading="lazy"></p>
+<p>He was a product manager at an online auction site that you may have heard of. His story was about an A/B test of a new prototype algorithm for the main product search engine. The test was successful and the new algorithm was moved to production.</p>
+<p>Unfortunately, after much time and expense, it was realised that there was a bug in the A/B test code: the prototype had not been used. They had accidentally tested the old algorithm against <em>itself</em>. The results were nonsense.</p>
+<p>This was the problem:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide12.jpg" alt loading="lazy"><br>
+You need people who live and breathe selection bias, measurement bias, etc. or you&apos;ll never know the results are meaningless. These people are called scientists.</p>
+<p>Oh, by the way:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide13.jpg" alt loading="lazy"></p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide14.jpg" alt loading="lazy"></p>
+<p>Likewise - the opposite is very often true:<br>
+<img src="https://www.martingoodson.com/content/images/2016/11/Slide15.jpg" alt loading="lazy"></p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide16.jpg" alt loading="lazy"><br>
+The hype around machine learning means there is a lot of readily available content out there. This can lead to the &apos;instant expert&apos; phenomenon: now everyone has a great machine learning idea. Symptoms are your boss using words like &apos;regularize&apos; and &apos;ensemble method&apos; in the wrong context. Trust me, this will not end well.</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide17.jpg" alt loading="lazy"><br>
+The Cost-Effective HealthCare project used data from hospitals to process Emergency Room patients who had symptoms of pneumonia. They aimed to build a system that could predict people who had a low probability of death, so they could be simply sent home with antibiotics. This would allow care to be focused on the most serious cases, who were likely to suffer complicatations.</p>
+<p>The neural network they developed had a very high accuracy but, strangely, it always decided to send asthma sufferers  home. Weird, since asthmatics are actually at <em>high</em> risk of complications from pneumonia.</p>
+<p>It turned out that asthmatics who present with pneumonia are always admitted to Intensive Care. Because of this, there were no cases of any asthmatics dying in the training data. The model concluded that asthmatics were low risk, when the opposite was actually true. The model had great accuracy but if deployed in production it would certainly have killed people.</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide18.jpg" alt loading="lazy"><br>
+Moral of the story: use a simple model you can understand [1]. Only then move onto something more complex, and only if you <em>need</em> to.</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide19.jpg" alt loading="lazy"><br>
+The core of science is reproducibility. Please do all of these things. Don&apos;t say I didn&apos;t warn you.</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide20.jpg" alt loading="lazy"><br>
+An applied science lab is a big commitment. Data can often be quite threatening to people who prefer to trust their instincts. R&amp;D has a high risk of failure and unusually high levels of perseverance are table stakes. Do some soul searching - will your company really accept this culture?</p>
+<p><img src="https://www.martingoodson.com/content/images/2016/11/Slide21.jpg" alt loading="lazy"><br>
+Never let UX designers and product managers design a data product (even wireframes) using fake data. As soon as you apply real data it will be apparent that the wireframe is complete fantasy.</p>
+<p>The real data will have weird outliers, or be boring. It will be too dynamic. It will be either too predictable or not predictable enough. Use live data from the beginning or your project will end in misery and self-hatred. Just like this poor leopard, weasel thing.</p>
+<p>[1] See <a href="http://www.cs.cornell.edu/people/clarkson/trustweb/cs578.lect.safety.pdf">here</a> for more.</p>
+<hr>
+<p>Please get in touch with your own data disaster. Let&apos;s get some data behind this and move Data Science forwards. All results will be fully anonymised. Use the form below or contact me via:</p>
+<p>twitter: <a href="http://twitter.com/martingoodson">@martingoodson</a><br>
+email: <a href="mailto:martingoodson@gmail.com">martingoodson@gmail.com</a></p>
+<hr>
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//taxfriend.us6.list-manage.com/subscribe/post?u=30f72758c30f83c814d71b8f2&amp;id=87758a9210" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h4>Add Your Data to the Survey</h4>
+<p>I&apos;ll email you with the results of the survey when it&apos;s completed. </p>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE3">Brief Description of the Data Disaster  <span class="asterisk">*</span>
+        </label>
+        	<textarea value name="MMERGE3" class="required" id="mce-MMERGE3"></textarea>
+</div><div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_30f72758c30f83c814d71b8f2_87758a9210" tabindex="-1" value></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Debate on Data Science at the Royal Statistical Society]]></title><description><![CDATA[<!--kg-card-begin: markdown--><iframe width="560" height="315" src="https://www.youtube.com/embed/C1zMUjHOLr4" frameborder="0" allowfullscreen></iframe>
+<p>Debate hosted at the Royal Statistical Society, 19th May 2015.</p>
+<p>Zoubin Ghahramani (Professor of Machine Learning, University of Cambridge)<br>
+Chris Wiggins (Chief Data Scientist, New York Times)<br>
+David Hand (Emeritus Professor of Mathematics, Imperial College)<br>
+Francine Bennett (Founder, Mastodon-C)<br>
+Patrick Wolfe (Professor of Statistics, UCL / Executive Director, UCL Big Data</p>]]></description><link>https://www.martingoodson.com/debate-on-data-science-with-zoubin-ghahramani-2/</link><guid isPermaLink="false">5e15f163bda2f50017c807cb</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Tue, 03 Nov 2015 10:03:00 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><iframe width="560" height="315" src="https://www.youtube.com/embed/C1zMUjHOLr4" frameborder="0" allowfullscreen></iframe>
+<p>Debate hosted at the Royal Statistical Society, 19th May 2015.</p>
+<p>Zoubin Ghahramani (Professor of Machine Learning, University of Cambridge)<br>
+Chris Wiggins (Chief Data Scientist, New York Times)<br>
+David Hand (Emeritus Professor of Mathematics, Imperial College)<br>
+Francine Bennett (Founder, Mastodon-C)<br>
+Patrick Wolfe (Professor of Statistics, UCL / Executive Director, UCL Big Data Institute)</p>
+<p>Chair: Martin Goodson (Vice-President Data Science, Skimlinks)<br>
+Discussant: John Pullinger (UK National Statistician)</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Most Winning A/B Test Results are Illusory]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Whitepaper about errors in A/B testing, written for Qubit.</p>
+<p>Covered at <a href="http://qz.com/181582/bad-ab-testing-is-worse-than-none-at-all/">qz.com</a> and <a href="https://news.ycombinator.com/item?id=7287665">Hacker News</a></p>
+<h4 id="introduction">Introduction</h4>
+<p>Marketers have begun to question the value of A/B testing, asking: &#x2018;Where is my 20% uplift? Why doesn&#x2019;t it ever seem to appear in the bottom line?&#x2019;</p>]]></description><link>https://www.martingoodson.com/most-winning-a-b-test-results-are-illusory/</link><guid isPermaLink="false">5e15f163bda2f50017c807cc</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Sun, 01 Nov 2015 10:26:00 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Whitepaper about errors in A/B testing, written for Qubit.</p>
+<p>Covered at <a href="http://qz.com/181582/bad-ab-testing-is-worse-than-none-at-all/">qz.com</a> and <a href="https://news.ycombinator.com/item?id=7287665">Hacker News</a></p>
+<h4 id="introduction">Introduction</h4>
+<p>Marketers have begun to question the value of A/B testing, asking: &#x2018;Where is my 20% uplift? Why doesn&#x2019;t it ever seem to appear in the bottom line?&#x2019; Their A/B test reports an uplift of 20% and yet this increase never seems to translate into increased profits. So what&#x2019;s going on?</p>
+<p>In this article I&#x2019;ll show that badly performed A/B tests can produce winning results which are more likely to be false than true. At best, this leads to the needless modification of websites; at worst, to modification which damages profits.</p>
+<p>Statisticians have known for almost a hundred years how to ensure that experimenters don&#x2019;t get misled by their experiments [1]. Using this methodology has resulted in pharmaceutical drugs that work, in bridges that stay up and in the knowledge that smoking causes cancer. I&#x2019;ll show how these methods ensure equally robust results when applied to A/B testing.</p>
+<p>To do this, I&#x2019;ll introduce three simple concepts which come as second nature to statisticians but have been forgotten by many web A/B testing specialists. The names of these concepts are &#x2018;statistical power&#x2019;, &#x2018;multiple testing&#x2019; and &#x2018;regression to the mean&#x2019;. Armed with them, you will be able to cut through the misinformation and confusion that plague this industry.</p>
+<p><strong>Read the rest here:</strong></p>
+<!--kg-card-end: markdown-->
+        <div class="kg-card kg-file-card kg-file-card-medium">
+            <a class="kg-file-card-container" href="https://www.martingoodson.com/content/files/2022/02/Most-Winning-A-B-Test-Results-are-Illusory.pdf" title="Download" download>
+                <div class="kg-file-card-contents">
+                    <div class="kg-file-card-title">Most Winning A B Test Results are Illusory</div>
+                    
+                    <div class="kg-file-card-metadata">
+                        <div class="kg-file-card-filename">Most Winning A-B Test Results are Illusory.pdf</div>
+                        <div class="kg-file-card-filesize">304 KB</div>
+                    </div>
+                </div>
+                <div class="kg-file-card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs><title>download-circle</title><polyline class="a" points="8.25 14.25 12 18 15.75 14.25"/><line class="a" x1="12" y1="6.75" x2="12" y2="18"/><circle class="a" cx="12" cy="12" r="11.25"/></svg>
+                </div>
+            </a>
+        </div>
+        ]]></content:encoded></item><item><title><![CDATA[NLP on a Billion Documents: Scalable Machine Learning with Apache Spark]]></title><description><![CDATA[<!--kg-card-begin: markdown--><iframe src="https://www.slideshare.net/slideshow/embed_code/key/i4rdLvQeEWrMMf" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><!--kg-card-end: markdown-->]]></description><link>https://www.martingoodson.com/slides-from-my-talk-at-pydata-london-2015/</link><guid isPermaLink="false">5e15f163bda2f50017c807c6</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Fri, 26 Jun 2015 07:58:21 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><iframe src="https://www.slideshare.net/slideshow/embed_code/key/i4rdLvQeEWrMMf" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[My Opinionated Talk on A/B Testing]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p><em>Talk from PyData London 2014</em></p>
+<p><em>Most Winning A/B Test Results are Illusory</em></p>
+<p><strong>Talk Summary</strong></p>
+<p>Many people have started to suspect that their A/B testing results are not what they seem. A/B test reports an uplift of 20% and yet this increase never seems to translate into increased</p>]]></description><link>https://www.martingoodson.com/my-opinionated-talk-on-ab-testing/</link><guid isPermaLink="false">5e15f163bda2f50017c807c5</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Fri, 08 May 2015 11:54:10 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p><em>Talk from PyData London 2014</em></p>
+<p><em>Most Winning A/B Test Results are Illusory</em></p>
+<p><strong>Talk Summary</strong></p>
+<p>Many people have started to suspect that their A/B testing results are not what they seem. A/B test reports an uplift of 20% and yet this increase never seems to translate into increased profits. So what&apos;s going on? I&apos;ll use python simulations to show that A/B testing is often conducted in such a way that it virtually guarantees false positive results. I&apos;ll also mention some python functions that can be used to avoid these problems.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MdkHLS0FPMk?rel=0" frameborder="0" allowfullscreen></iframe>
+<p><a href>http://www.slideshare.net/PyData/py-data-goodson-mostabtestingresultsareillsory</a></p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[The Big Data Backlash]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p><em>Reposted from Google+ (Mar 30, 2014)</em></p>
+<p>So, the inevitable backlash against &apos;Big Data&apos; has begun. In an article in the Financial Times yesterday, journalist Tim Harford suggests that Big Data analyses are more dangerous than we <a href="http://www.ft.com/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html#axzz2xS1VXiUc">thought</a>.</p>
+<p>He points to reports that Google Flu Trends, Google&#x2019;s</p>]]></description><link>https://www.martingoodson.com/the-big-data/</link><guid isPermaLink="false">5e15f163bda2f50017c807c4</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Fri, 08 May 2015 11:53:51 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p><em>Reposted from Google+ (Mar 30, 2014)</em></p>
+<p>So, the inevitable backlash against &apos;Big Data&apos; has begun. In an article in the Financial Times yesterday, journalist Tim Harford suggests that Big Data analyses are more dangerous than we <a href="http://www.ft.com/cms/s/2/21a6e7d8-b479-11e3-a09a-00144feabdc0.html#axzz2xS1VXiUc">thought</a>.</p>
+<p>He points to reports that Google Flu Trends, Google&#x2019;s system for predicting flu outbreaks from search queries, has become less reliable in recent years.&#xA0;For Harford, big data analyses, such as Google Flu Trends, are more fragile than traditional analyses because the models they produce are less interpretable:</p>
+<p>&apos;But a theory-free analysis of mere correlations is inevitably fragile. If you have no idea what is behind a correlation, you have no idea what might cause that correlation to break down.&apos;</p>
+<p>I can understand why talk of &apos;big data&apos; would lead someone to think that a mysterious and subtle model lay behind Google&#x2019;s analysis. Crunching through 50 million search queries must have lead to an unbelievably complex model that no one could ever understand, right?</p>
+<p>In fact &apos;Google Flu Trends&apos; deliberately used an extremely simple model. The model was comprised of a linear model with a mere 45 search query terms as inputs. Table 1 from the original paper (behind a pay-wall but attached here), summarises the queries that were used:</p>
+<p><img src="https://www.martingoodson.com/content/images/2015/05/table.png" alt loading="lazy"></p>
+<p><a href="http://www.nature.com/nature/journal/v457/n7232/fig_tab/nature07634_T1.html#figure-title.">nature.com</a></p>
+<p>Does Harford really believe that &#x2018;we have no idea what is behind a correlation&apos; between googling for things like &apos;Cold/flu remedy&apos; and people actually having flu? I&apos;m not a doctor but I&apos;ll try and speculate about what&apos;s behind that correlation: people with flu want to stop having the flu.</p>
+<p>The fact that, 5-years on, changing behaviour on the part of users caused the algorithm to become less accurate is not unexpected. Indeed, the authors of the paper warn about this in their penultimate paragraph:</p>
+<p>&apos;Despite strong historical correlations, our system remains susceptible to false alerts caused by a sudden increase in ILI-related queries. An unusual event, such as a drug recall for a popular cold or flu remedy, could cause such a false alert.&apos;</p>
+<p>I suggest that &#x2018;Big Data&#x2019; analyses are no more prone to this kind of problem than any other kind of analysis.</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[What is Data Science and Does it Matter?]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>It starts like a typical data science job interview - I summarise my resume and they describe their core products. They describe what their data looks like and we have a <em>very interesting</em> chat about the structure of their data. But the interviewer keeps dancing around the topic of what</p>]]></description><link>https://www.martingoodson.com/what-is-data-science-and-does-it-matter/</link><guid isPermaLink="false">5e15f163bda2f50017c807c3</guid><dc:creator><![CDATA[Martin Goodson]]></dc:creator><pubDate>Tue, 28 Apr 2015 19:08:00 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>It starts like a typical data science job interview - I summarise my resume and they describe their core products. They describe what their data looks like and we have a <em>very interesting</em> chat about the structure of their data. But the interviewer keeps dancing around the topic of what my job will consist of and the whole thing become vaguer and vaguer until I&apos;m forced to ask &apos;this sounds great but could you please explain what the job actually is?&apos;</p>
+<p>The answer is often some version of: &apos;Well, we&apos;re pretty sure we need a data scientist but could you explain what <em>exactly</em> a data scientist does?&apos;</p>
+<p>Nobody seems to know exactly what &apos;data science&apos; is, let alone its almost synonym &apos;big data&apos;. Maybe it&apos;s that most people are not accustomed to statisticians being interesting and it comes as a shock that statistics is useful to their business. Perhaps a new term just makes it easier to deal with.</p>
+<p>Statistics has certainly become more valuable as the amount of data collected by businesses has exploded. We now collect so much data that we can create valuable products from the data itself, previously considered a mere by-product.</p>
+<p>Is this really new? Reader&apos;s digest was doing data analysis on millions of households in the 70s (but they needed a mainframe to do it)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. They employed programmers and statisticians but no one we would recognize as a data scientist. Instead they had 300 people who together did what a data scientist can achieve today on a single MacBook Pro.</p>
+<p>But the statistical element of data science and big data is often not new. I read a story in the New York Times about the problems in New York caused by restaurants pouring used cooking oil into sewers. Apparently the culprits were identified by &apos;big data&apos;<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</p>
+<blockquote>
+<p>They dug up data from the Business Integrity Commission, an obscure city agency that among other tasks certifies that all local restaurants have a carting service to haul away their grease. With a few quick calculations, comparing restaurants that did not have a carter with geo-spatial data on the sewers, the team was able to hand inspectors a list of statistically likely suspects.</p>
+</blockquote>
+<p>Leaving aside the question of whether this is truly &apos;big data&apos; - how different is this analysis from John Snow&apos;s analysis of Cholera cases in London in 1854? <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+<p><img src="https://www.martingoodson.com/content/images/2015/04/8a1503bb-3ecf-4cd2-91d7-ad786a091335.jpg" alt loading="lazy"></p>
+<p>The statistical analysis is not different. The difference today is that the data was just sitting around in a database waiting to be discovered. This requires very different skills to traipsing around Victorian London looking for corpses.</p>
+<p>It&apos;s now so easy to manipulate vast quantities of data that you don&apos;t need to employ a separate statistician, database guy and programmer. You hire someone who can code and do statistics too. This is the data scientist.</p>
+<p>But this has lead to some confusion about what constitutes a data scientist. Very often data scientists are recruited by non-scientists, who aren&apos;t clear on what skills they should be hiring for. Hence the rise of the the hadoop engineer or SQL analyst hired as data scientist. Nothing wrong with these skills, but they don&apos;t make you a scientist.</p>
+<p>Statistical know-how is essential. Large messy data sets with weird dependency structures and missing data will cause any data scientist pain and suffering. But at least those with statistical training know they are in trouble; and know what to do about it.</p>
+<p>It&apos;s now time for data science as a profession to take stock and ask itself &apos;what is the core skill set?&apos;. Or further than this, &apos;is data science a new statistical speciality or even a nascent field in its own right?&apos;.</p>
+<p><em>Come and join the debate at the Royal Statistical Society on the <a href="http://www.statslife.org.uk/events/eventdetail/423/-/data-science-and-statistics-different-worlds">11th of May</a></em></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="http://www.pcmag.com/article2/0,2817,1835221,00.asp">http://www.pcmag.com/article2/0,2817,1835221,00.asp</a> <a href="#fnref1" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="http://www.nytimes.com/2013/03/24/nyregion/mayor-bloombergs-geek-squad.html?pagewanted=all&amp;_r=0">http://www.nytimes.com/2013/03/24/nyregion/mayor-bloombergs-geek-squad.html?pagewanted=all&amp;_r=0</a> <a href="#fnref2" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="http://en.wikipedia.org/wiki/Dot_distribution_map#John_Snow.27s_cholera_map">http://en.wikipedia.org</a> <a href="#fnref3" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="http://www.york.ac.uk/depts/maths/histstat/snow_map.htm">http://www.york.ac.uk/depts/maths/histstat/snow_map.htm</a> <a href="#fnref4" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+</ol>
+</section>
+<!--kg-card-end: markdown-->]]></content:encoded></item></channel></rss>
