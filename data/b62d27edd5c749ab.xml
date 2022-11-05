@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>q-bio updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Quantitative Biology (q-bio) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>www-admin@arxiv.org</dc:publisher>
+<dc:subject>Quantitative Biology</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01603" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01698" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01867" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01885" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01960" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01978" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02019" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02024" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.13825" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2102.02649" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2103.16606" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.10189" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.02645" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.01123" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16993" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01603">
+<title>Using Signal Processing in Tandem With Adapted Mixture Models for Classifying Genomic Signals. (arXiv:2211.01603v1 [q-bio.GN])</title>
+<link>http://arxiv.org/abs/2211.01603</link>
+<description rdf:parseType="Literal">&lt;p&gt;Genomic signal processing has been used successfully in bioinformatics to
+analyze biomolecular sequences and gain varied insights into DNA structure,
+gene organization, protein binding, sequence evolution, etc. But challenges
+remain in finding the appropriate spectral representation of a biomolecular
+sequence, especially when multiple variable-length sequences need to be handled
+consistently. In this study, we address this challenge in the context of the
+well-studied problem of classifying genomic sequences into different taxonomic
+units (strain, phyla, order, etc.). We propose a novel technique that employs
+signal processing in tandem with Gaussian mixture models to improve the
+spectral representation of a sequence and subsequently the taxonomic
+classification accuracies. The sequences are first transformed into spectra,
+and projected to a subspace, where sequences belonging to different taxons are
+better distinguishable. Our method outperforms a similar state-of-the-art
+method on established benchmark datasets by an absolute margin of 6.06%
+accuracy.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jaiswal_S/0/1/0/all/0/1&quot;&gt;Saish Jaiswal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nema_S/0/1/0/all/0/1&quot;&gt;Shreya Nema&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Murthy_H/0/1/0/all/0/1&quot;&gt;Hema A Murthy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Narayanan_M/0/1/0/all/0/1&quot;&gt;Manikandan Narayanan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01698">
+<title>Scaling up the self-optimization model by means of on-the-fly computation of weights. (arXiv:2211.01698v1 [nlin.AO])</title>
+<link>http://arxiv.org/abs/2211.01698</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Self-Optimization (SO) model is a useful computational model for
+investigating self-organization in &quot;soft&quot; Artificial life (ALife) as it has
+been shown to be general enough to model various complex adaptive systems. So
+far, existing work has been done on relatively small network sizes, precluding
+the investigation of novel phenomena that might emerge from the complexity
+arising from large numbers of nodes interacting in interconnected networks.
+This work introduces a novel implementation of the SO model that scales as
+$\mathcal{O}\left(N^{2}\right)$ with respect to the number of nodes $N$, and
+demonstrates the applicability of the SO model to networks with system sizes
+several orders of magnitude higher than previously was investigated. Removing
+the prohibitive computational cost of the naive $\mathcal{O}\left(N^{3}\right)$
+algorithm, our on-the-fly computation paves the way for investigating
+substantially larger system sizes, allowing for more variety and complexity in
+future studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Weber_N/0/1/0/all/0/1&quot;&gt;Natalya Weber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Koch_W/0/1/0/all/0/1&quot;&gt;Werner Koch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Froese_T/0/1/0/all/0/1&quot;&gt;Tom Froese&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01867">
+<title>Macrophage anti-inflammatory behaviour in a multiphase model of atherosclerotic plaque development. (arXiv:2211.01867v1 [q-bio.CB])</title>
+<link>http://arxiv.org/abs/2211.01867</link>
+<description rdf:parseType="Literal">&lt;p&gt;Atherosclerosis is an inflammatory disease characterised by the formation of
+plaques, which are deposits of lipids and cholesterol-laden macrophages that
+form in the artery wall. The inflammation is often non-resolving, due in large
+part to changes in normal macrophage anti-inflammatory behaviour that are
+induced by the toxic plaque microenvironment. These changes include higher
+death rates, defective efferocytic uptake of dead cells, and reduced rates of
+emigration. We develop a free boundary multiphase model for early
+atherosclerotic plaques, and we use it to investigate the effects of impaired
+macrophage anti-inflammatory behaviour on plaque structure and growth. We find
+that high rates of cell death relative to efferocytic uptake results in a
+plaque populated mostly by dead cells. We also find that emigration can
+potentially slow or halt plaque growth by allowing material to exit the plaque,
+but this is contingent on the availability of live macrophage foam cells in the
+deep plaque. Finally, we introduce an additional bead species to model
+macrophage tagging via microspheres, and we use the extended model to explore
+how high rates of cell death and low rates of efferocytosis and emigration
+prevent the clearance of macrophages from the plaque.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Ahmed_I/0/1/0/all/0/1&quot;&gt;Ishraq U. Ahmed&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Byrne_H/0/1/0/all/0/1&quot;&gt;Helen M. Byrne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Myerscough_M/0/1/0/all/0/1&quot;&gt;Mary R. Myerscough&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01885">
+<title>Using U-Net Network for Efficient Brain Tumor Segmentation in MRI Images. (arXiv:2211.01885v1 [eess.IV])</title>
+<link>http://arxiv.org/abs/2211.01885</link>
+<description rdf:parseType="Literal">&lt;p&gt;Magnetic Resonance Imaging (MRI) is the most commonly used non-intrusive
+technique for medical image acquisition. Brain tumor segmentation is the
+process of algorithmically identifying tumors in brain MRI scans. While many
+approaches have been proposed in the literature for brain tumor segmentation,
+this paper proposes a lightweight implementation of U-Net. Apart from providing
+real-time segmentation of MRI scans, the proposed architecture does not need
+large amount of data to train the proposed lightweight U-Net. Moreover, no
+additional data augmentation step is required. The lightweight U-Net shows very
+promising results on BITE dataset and it achieves a mean
+intersection-over-union (IoU) of 89% while outperforming the standard benchmark
+algorithms. Additionally, this work demonstrates an effective use of the three
+perspective planes, instead of the original three-dimensional volumetric
+images, for simplified brain tumor segmentation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Walsh_J/0/1/0/all/0/1&quot;&gt;Jason Walsh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Othmani_A/0/1/0/all/0/1&quot;&gt;Alice Othmani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Jain_M/0/1/0/all/0/1&quot;&gt;Mayank Jain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Dev_S/0/1/0/all/0/1&quot;&gt;Soumyabrata Dev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01960">
+<title>FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v1 [q-bio.NC])</title>
+<link>http://arxiv.org/abs/2211.01960</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motor brain-computer interface (BCI) development relies critically on neural
+time series decoding algorithms. Recent advances in deep learning architectures
+allow for automatic feature selection to approximate higher-order dependencies
+in data. This article presents the FingerFlex model - a convolutional
+encoder-decoder architecture adapted for finger movement regression on
+electrocorticographic (ECoG) brain data. State-of-the-art performance was
+achieved on a publicly available BCI competition IV dataset 4 with a
+correlation coefficient between true and predicted trajectories up to 0.74. The
+presented method provides the opportunity for developing fully-functional
+high-precision cortical motor brain-computer interfaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Lomtev_V/0/1/0/all/0/1&quot;&gt;Vladislav Lomtev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Timchenko_A/0/1/0/all/0/1&quot;&gt;Alexey Timchenko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01978">
+<title>PEMP: Leveraging Physics Properties to Enhance Molecular Property Prediction. (arXiv:2211.01978v1 [q-bio.BM])</title>
+<link>http://arxiv.org/abs/2211.01978</link>
+<description rdf:parseType="Literal">&lt;p&gt;Molecular property prediction is essential for drug discovery. In recent
+years, deep learning methods have been introduced to this area and achieved
+state-of-the-art performances. However, most of existing methods ignore the
+intrinsic relations between molecular properties which can be utilized to
+improve the performances of corresponding prediction tasks. In this paper, we
+propose a new approach, namely Physics properties Enhanced Molecular Property
+prediction (PEMP), to utilize relations between molecular properties revealed
+by previous physics theory and physical chemistry studies. Specifically, we
+enhance the training of the chemical and physiological property predictors with
+related physics property prediction tasks. We design two different methods for
+PEMP, respectively based on multi-task learning and transfer learning. Both
+methods include a model-agnostic molecule representation module and a property
+prediction module. In our implementation, we adopt both the state-of-the-art
+molecule embedding models under the supervised learning paradigm and the
+pretraining paradigm as the molecule representation module of PEMP,
+respectively. Experimental results on public benchmark MoleculeNet show that
+the proposed methods have the ability to outperform corresponding
+state-of-the-art models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Sun_Y/0/1/0/all/0/1&quot;&gt;Yuancheng Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chen_Y/0/1/0/all/0/1&quot;&gt;Yimeng Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Ma_W/0/1/0/all/0/1&quot;&gt;Weizhi Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Huang_W/0/1/0/all/0/1&quot;&gt;Wenhao Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Liu_K/0/1/0/all/0/1&quot;&gt;Kang Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Ma_Z/0/1/0/all/0/1&quot;&gt;Zhiming Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Ma_W/0/1/0/all/0/1&quot;&gt;Wei-Ying Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Lan_Y/0/1/0/all/0/1&quot;&gt;Yanyan Lan&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02019">
+<title>Extending the analogy between intracellular motion in mammalian cells and glassy dynamics. (arXiv:2211.02019v1 [cond-mat.soft])</title>
+<link>http://arxiv.org/abs/2211.02019</link>
+<description rdf:parseType="Literal">&lt;p&gt;The physics of how molecules, organelles, and foreign objects move within
+living cells has been extensively studied in organisms ranging from bacteria to
+human cells. In mammalian cells, in particular, cellular vesicles move across
+the cell using motor proteins that carry the vesicle down the cytoskeleton to
+their destination. We have recently noted several similarities between the
+motion of such vesicles and that in disordered, &quot;glassy&quot;, systems, but it
+remains unclear whether that is a general observation or something specific to
+certain vesicles in one particular cell type. Here we follow the motion of
+mitochondria, the organelles responsible for cell energy production, in several
+mammalian cell types over timescales ranging from 50 ms up to 70 s. Qualitative
+observations show that single mitochondria remain stalled, remaining within a
+spatially limited region, for extended periods of time, before moving longer
+distances relatively quickly. Analysing this motion quantitatively, we observe
+a displacement distribution that is roughly Gaussian for shorter distances
+($\lesssim$ 0.05 $\mu$m) but which exhibits exponentially decaying tails at
+longer distances (up to 0.40 $\mu$m). We show that this behaviour is
+well-described by a model originally developed to describe the motion in glassy
+systems. These observations are extended to in total 3 different objects
+(mitochondria, lysosomes and nano-sized beads enclosed in vesicles), 3
+different mammalian cell types, from 2 different organisms (human and mouse).
+We provide further evidence that supports glass-like characteristics of the
+motion by showing a difference between the time it takes to move a longer
+distance for the first time and subsequent times, as well as a weak ergodicity
+breaking of the motion. Overall, we demonstrate the ubiquity of glass-like
+motion in mammalian cells, providing a different perspective on intracellular
+motion.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Corci_B/0/1/0/all/0/1&quot;&gt;B. Corci&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hooiveld_O/0/1/0/all/0/1&quot;&gt;O. Hooiveld&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dolga_A/0/1/0/all/0/1&quot;&gt;A. M. Dolga&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+%7B%5CAA%7Dberg_C/0/1/0/all/0/1&quot;&gt;C. &amp;#xc5;berg&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02024">
+<title>fMRI from EEG is only Deep Learning away: the use of interpretable DL to unravel EEG-fMRI relationships. (arXiv:2211.02024v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.02024</link>
+<description rdf:parseType="Literal">&lt;p&gt;The access to activity of subcortical structures offers unique opportunity
+for building intention dependent brain-computer interfaces, renders abundant
+options for exploring a broad range of cognitive phenomena in the realm of
+affective neuroscience including complex decision making processes and the
+eternal free-will dilemma and facilitates diagnostics of a range of
+neurological deceases. So far this was possible only using bulky, expensive and
+immobile fMRI equipment. Here we present an interpretable domain grounded
+solution to recover the activity of several subcortical regions from the
+multichannel EEG data and demonstrate up to 60% correlation between the actual
+subcortical blood oxygenation level dependent sBOLD signal and its EEG-derived
+twin. Then, using the novel and theoretically justified weight interpretation
+methodology we recover individual spatial and time-frequency patterns of scalp
+EEG predictive of the hemodynamic signal in the subcortical nuclei. The
+described results not only pave the road towards wearable subcortical activity
+scanners but also showcase an automatic knowledge discovery process facilitated
+by deep learning technology in combination with an interpretable domain
+constrained architecture and the appropriate downstream task.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mikheev_I/0/1/0/all/0/1&quot;&gt;Ilia Mikheev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ossadtchi_A/0/1/0/all/0/1&quot;&gt;Alexei Ossadtchi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.13825">
+<title>On the role of theory and modeling in neuroscience. (arXiv:2003.13825v5 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.13825</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, the field of neuroscience has gone through rapid
+experimental advances and a significant increase in the use of quantitative and
+computational methods. This growth has created a need for clearer analyses of
+the theory and modeling approaches used in the field. This issue is
+particularly complex in neuroscience because the field studies phenomena across
+a wide range of scales and often requires consideration of these phenomena at
+varying degrees of abstraction, from precise biophysical interactions to the
+computations they implement. We argue that a pragmatic perspective of science,
+in which descriptive, mechanistic, and normative approaches each play a
+distinct role in defining and bridging levels of abstraction will facilitate
+neuroscientific practice. This analysis leads to methodological suggestions,
+including selecting a level of abstraction that is appropriate for a given
+problem, identifying transfer functions to connect models and data, and the use
+of models themselves as a form of experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Levenstein_D/0/1/0/all/0/1&quot;&gt;Daniel Levenstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Alvarez_V/0/1/0/all/0/1&quot;&gt;Veronica A. Alvarez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Amarasingham_A/0/1/0/all/0/1&quot;&gt;Asohan Amarasingham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Azab_H/0/1/0/all/0/1&quot;&gt;Habiba Azab&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhe Sage Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Gerkin_R/0/1/0/all/0/1&quot;&gt;Richard C. Gerkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Hasenstaub_A/0/1/0/all/0/1&quot;&gt;Andrea Hasenstaub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Iyer_R/0/1/0/all/0/1&quot;&gt;Ramakrishnan Iyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jolivet_R/0/1/0/all/0/1&quot;&gt;Renaud B. Jolivet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Marzen_S/0/1/0/all/0/1&quot;&gt;Sarah Marzen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Monaco_J/0/1/0/all/0/1&quot;&gt;Joseph D. Monaco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Prinz_A/0/1/0/all/0/1&quot;&gt;Astrid A. Prinz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Quraishi_S/0/1/0/all/0/1&quot;&gt;Salma Quraishi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Santamaria_F/0/1/0/all/0/1&quot;&gt;Fidel Santamaria&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Shivkumar_S/0/1/0/all/0/1&quot;&gt;Sabyasachi Shivkumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Singh_M/0/1/0/all/0/1&quot;&gt;Matthew F. Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Traub_R/0/1/0/all/0/1&quot;&gt;Roger Traub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Rotstein_H/0/1/0/all/0/1&quot;&gt;Horacio G. Rotstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nadim_F/0/1/0/all/0/1&quot;&gt;Farzan Nadim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Redish_A/0/1/0/all/0/1&quot;&gt;A. David Redish&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2102.02649">
+<title>A step towards a reinforcement learning de novo genome assembler. (arXiv:2102.02649v3 [q-bio.GN] UPDATED)</title>
+<link>http://arxiv.org/abs/2102.02649</link>
+<description rdf:parseType="Literal">&lt;p&gt;The use of reinforcement learning has proven to be very promising for solving
+complex activities without human supervision during their learning process.
+However, their successful applications are predominantly focused on fictional
+and entertainment problems - such as games. Based on the above, this work aims
+to shed light on the application of reinforcement learning to solve this
+relevant real-world problem, the genome assembly. By expanding the only
+approach found in the literature that addresses this problem, we carefully
+explored the aspects of intelligent agent learning, performed by the Q-learning
+algorithm, to understand its suitability to be applied in scenarios whose
+characteristics are more similar to those faced by real genome projects. The
+improvements proposed here include changing the previously proposed reward
+system and including state space exploration optimization strategies based on
+dynamic pruning and mutual collaboration with evolutionary computing. These
+investigations were tried on 23 new environments with larger inputs than those
+used previously. All these environments are freely available on the internet
+for the evolution of this research by the scientific community. The results
+suggest consistent performance progress using the proposed improvements,
+however, they also demonstrate the limitations of them, especially related to
+the high dimensionality of state and action spaces. We also present, later, the
+paths that can be traced to tackle genome assembly efficiently in real
+scenarios considering recent, successfully reinforcement learning applications
+- including deep reinforcement learning - from other domains dealing with
+high-dimensional inputs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Padovani_K/0/1/0/all/0/1&quot;&gt;Kleber Padovani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Xavier_R/0/1/0/all/0/1&quot;&gt;Roberto Xavier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Carvalho_A/0/1/0/all/0/1&quot;&gt;Andre Carvalho&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Reali_A/0/1/0/all/0/1&quot;&gt;Anna Reali&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chateau_A/0/1/0/all/0/1&quot;&gt;Annie Chateau&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Alves_R/0/1/0/all/0/1&quot;&gt;Ronnie Alves&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2103.16606">
+<title>Functional and spatial rewiring jointly generate convergent-divergent units in self-organizing networks. (arXiv:2103.16606v2 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2103.16606</link>
+<description rdf:parseType="Literal">&lt;p&gt;Self-organization through adaptive rewiring of random neural networks
+generates brain-like topologies comprising modular small-world structures with
+rich club effects, merely as the product of optimizing the network topology. In
+the nervous system, spatial organization is optimized no less by rewiring,
+through minimizing wiring distance and maximizing spatially aligned wiring
+layouts. We show that such spatial organization principles interact
+constructively with adaptive rewiring, contributing to establish the networks&apos;
+connectedness and modular structures. We use an evolving neural network model
+with weighted and directed connections, in which neural traffic flow is based
+on consensus and advection dynamics, to show that wiring cost minimization
+supports adaptive rewiring in creating convergent-divergent unit structures.
+Convergent-divergent units consist of a convergent input-hub, connected to a
+divergent output-hub via subnetworks of intermediate nodes, which may function
+as the computational core of the unit. The prominence of minimizing wiring
+distance in the dynamic evolution of the network determines the extent to which
+the core is encapsulated from the rest of the network, i.e., the
+context-sensitivity of its computations. This corresponds to the central role
+convergent-divergent units play in establishing context-sensitivity in neuronal
+information processing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Li_J/0/1/0/all/0/1&quot;&gt;Jia Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Rentzeperis_I/0/1/0/all/0/1&quot;&gt;Ilias Rentzeperis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Leeuwen_C/0/1/0/all/0/1&quot;&gt;Cees van Leeuwen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.10189">
+<title>Neural Topic Modeling of Psychotherapy Sessions. (arXiv:2204.10189v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.10189</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we compare different neural topic modeling methods in learning
+the topical propensities of different psychiatric conditions from the
+psychotherapy session transcripts parsed from speech recordings. We also
+incorporate temporal modeling to put this additional interpretability to action
+by parsing out topic similarities as a time series in a turn-level resolution.
+We believe this topic modeling framework can offer interpretable insights for
+the therapist to optimally decide his or her strategy and improve psychotherapy
+effectiveness.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_B/0/1/0/all/0/1&quot;&gt;Baihan Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bouneffouf_D/0/1/0/all/0/1&quot;&gt;Djallel Bouneffouf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cecchi_G/0/1/0/all/0/1&quot;&gt;Guillermo Cecchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tejwani_R/0/1/0/all/0/1&quot;&gt;Ravi Tejwani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.02645">
+<title>PyDaddy: A Python package for discovering stochastic dynamical equations from timeseries data. (arXiv:2205.02645v2 [q-bio.QM] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.02645</link>
+<description rdf:parseType="Literal">&lt;p&gt;Most real-world ecological dynamics, ranging from ecosystem dynamics to
+collective animal movement, are inherently stochastic in nature. Stochastic
+differential equations (SDEs) are a popular modelling framework to model
+dynamics with intrinsic randomness. Here, we focus on the inverse question: If
+one has empirically measured time-series data from some system of interest, is
+it possible to discover the SDE model that best describes the data. Here, we
+present PyDaddy (PYthon library for DAta Driven DYnamics), a toolbox to
+construct and analyze interpretable SDE models based on time-series data. We
+combine traditional approaches for data-driven SDE reconstruction with an
+equation learning approach, to derive symbolic equations governing the
+stochastic dynamics. The toolkit is presented as an open-source Python library,
+and consists of tools to construct and analyze SDEs. Functionality is included
+for visual examination of the stochastic structure of the data, guided
+extraction of the functional form of the SDE, and diagnosis and debugging of
+the underlying assumptions and the extracted model. Using simulated time-series
+datasets, exhibiting a wide range of dynamics, we show that PyDaddy is able to
+correctly identify underlying SDE models. We demonstrate the applicability of
+the toolkit to real-world data using a previously published movement data of a
+fish school. Starting from the time-series of the observed polarization of the
+school, pyDaddy readily discovers the SDE model governing the dynamics of group
+polarization. The model recovered by PyDaddy is consistent with the previous
+study. In summary, stochastic and noise-induced effects are central to the
+dynamics of many biological systems. In this context, we present an easy-to-use
+package to reconstruct SDEs from timeseries data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nabeel_A/0/1/0/all/0/1&quot;&gt;Arshed Nabeel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Karichannavar_A/0/1/0/all/0/1&quot;&gt;Ashwin Karichannavar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Palathingal_S/0/1/0/all/0/1&quot;&gt;Shuaib Palathingal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jhawar_J/0/1/0/all/0/1&quot;&gt;Jitesh Jhawar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+M_D/0/1/0/all/0/1&quot;&gt;Danny Raj M&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Guttal_V/0/1/0/all/0/1&quot;&gt;Vishwesha Guttal&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.01123">
+<title>Towards Learned Simulators for Cell Migration. (arXiv:2210.01123v2 [q-bio.QM] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.01123</link>
+<description rdf:parseType="Literal">&lt;p&gt;Simulators driven by deep learning are gaining popularity as a tool for
+efficiently emulating accurate but expensive numerical simulators. Successful
+applications of such neural simulators can be found in the domains of physics,
+chemistry, and structural biology, amongst others. Likewise, a neural simulator
+for cellular dynamics can augment lab experiments and traditional computational
+methods to enhance our understanding of a cell&apos;s interaction with its physical
+environment. In this work, we propose an autoregressive probabilistic model
+that can reproduce spatiotemporal dynamics of single cell migration,
+traditionally simulated with the Cellular Potts model. We observe that standard
+single-step training methods do not only lead to inconsistent rollout
+stability, but also fail to accurately capture the stochastic aspects of the
+dynamics, and we propose training strategies to mitigate these issues. Our
+evaluation on two proof-of-concept experimental scenarios shows that neural
+methods have the potential to faithfully simulate stochastic cellular dynamics
+at least an order of magnitude faster than a state-of-the-art implementation of
+the Cellular Potts model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Minartz_K/0/1/0/all/0/1&quot;&gt;Koen Minartz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Poels_Y/0/1/0/all/0/1&quot;&gt;Yoeri Poels&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Menkovski_V/0/1/0/all/0/1&quot;&gt;Vlado Menkovski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16993">
+<title>STN: a new tensor network method to identify stimulus category from brain activity pattern. (arXiv:2210.16993v2 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16993</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural decoding is still a challenge and hot topic in neurocomputing science.
+Recently, many studies have shown that brain network pattern containing rich
+spatial and temporal structure information, which represented the activation
+information of brain under external stimuli. The traditional method is to
+extract brain network features directly from the common machine learning
+method, then put these features into the classifier, and realize to decode
+external stimuli. However, this method cannot effectively extract the
+multi-dimensional structural information, which is hidden in the brain network.
+The tensor researchers show that the tensor decomposition model can fully mine
+unique spatio-temporal structure characteristics in multi-dimensional structure
+data. This research proposed a stimulus constrain tensor brain model(STN),
+which involved the tensor decomposition idea and stimulus category constraint
+information. The model was verified on the real neuroimaging data sets (MEG and
+fMRI). The experimental results show that the STN model achieved more 11.06%
+and 18.46% compared with others methods on two modal data sets. These results
+imply the superiority of extracting discriminative characteristics about STN
+model, especially for decoding object stimuli with semantic information.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chunyu Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Zhang_J/0/1/0/all/0/1&quot;&gt;Jiacai Zhang&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
