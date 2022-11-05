@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>hep-lat updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">High Energy Physics - Lattice (hep-lat) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>www-admin@arxiv.org</dc:publisher>
+<dc:subject>High Energy Physics - Lattice</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01380" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01662" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01673" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01789" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01846" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.16012" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2207.00889" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2209.13409" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01380">
+<title>Large-Scale $2+1$D $\mathrm{U}(1)$ Gauge Theory with Dynamical Matter in a Cold-Atom Quantum Simulator. (arXiv:2211.01380v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01380</link>
+<description rdf:parseType="Literal">&lt;p&gt;A major driver of quantum-simulator technology is the prospect of probing
+high-energy phenomena in synthetic quantum matter setups at a high level of
+control and tunability, thereby offering a venue complementary to dedicated
+particle colliders. Here, we propose an experimentally feasible realization of
+a large-scale $2+1$D $\mathrm{U}(1)$ gauge theory with dynamical matter and
+gauge fields in a cold-atom quantum simulator with spinless bosons. We present
+the full mapping of the corresponding Gauss&apos;s law onto the bosonic
+computational basis. We then show that the target gauge theory can be
+faithfully realized and stabilized by an emergent gauge protection term in a
+two-dimensional single-species Bose--Hubbard optical Lieb superlattice with two
+spatial periods along either direction, thereby requiring only moderate
+experimental resources already available in current cold-atom setups. Using
+infinite matrix product states, we calculate numerical benchmarks for adiabatic
+sweeps and global quench dynamics that further confirm the fidelity of the
+mapping. Our work brings quantum simulators of gauge theories a significant
+step forward in terms of investigating particle physics in higher spatial
+dimensions, and is readily implementable in existing cold-atom platforms.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Osborne_J/0/1/0/all/0/1&quot;&gt;Jesse Osborne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+McCulloch_I/0/1/0/all/0/1&quot;&gt;Ian P. McCulloch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Yang_B/0/1/0/all/0/1&quot;&gt;Bing Yang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hauke_P/0/1/0/all/0/1&quot;&gt;Philipp Hauke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Halimeh_J/0/1/0/all/0/1&quot;&gt;Jad C. Halimeh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01662">
+<title>Multicomponent gauge-Higgs models with discrete Abelian gauge groups. (arXiv:2211.01662v1 [hep-lat])</title>
+<link>http://arxiv.org/abs/2211.01662</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider a variant of the charge-Q compact Abelian-Higgs model, in which
+an Nf-dimensional complex vector is coupled with an Abelian Z_q gauge field.
+For Nf=2 and Q=1 we observe several transition lines that belong to the O(4),
+O(3), and O(2) vector universality classes, depending on the symmetry breaking
+pattern at the transition. The universality class is independent of $q$ as long
+as q&amp;gt;=3. The universality class of the transition is uniquely determined by the
+behavior of the scalar fields; gauge fields do not play any role. We also
+investigate the system for Nf=15 and Q=2. In the presence of U(1) gauge fields,
+the system undergoes transitions associated with charged fixed points of the
+Abelian-Higgs field theory. These continuous transitions turn into first-order
+ones when the U(1) gauge fields are replaced by the discrete Z_q fields: in the
+present compact model charged transitions appear to be very sensitive to the
+nature of the gauge fields
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bracci_Testasecca_G/0/1/0/all/0/1&quot;&gt;Giacomo Bracci-Testasecca&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Pelissetto_A/0/1/0/all/0/1&quot;&gt;Andrea Pelissetto&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01673">
+<title>The QCD topological susceptibility at high temperatures via staggered fermions spectral projectors. (arXiv:2211.01673v1 [hep-lat])</title>
+<link>http://arxiv.org/abs/2211.01673</link>
+<description rdf:parseType="Literal">&lt;p&gt;The QCD topological observables are essential inputs to obtain theoretical
+predictions about axion phenomenology, which are of utmost importance for
+current and future experimental searches for this particle. Among them, we
+focus on the topological susceptibility, related to the axion mass. We present
+lattice results for the topological susceptibility in QCD at high temperatures
+obtained by discretizing this observable via spectral projectors on eigenmodes
+of the staggered Dirac operator, and we compare them with those obtained with
+the standard gluonic definition. The adoption of the spectral discretization is
+motivated by the large lattice artifacts affecting the standard gluonic
+susceptibility, related to the choice of non-chiral fermions in the lattice
+action.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Athenodorou_A/0/1/0/all/0/1&quot;&gt;Andreas Athenodorou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bonanno_C/0/1/0/all/0/1&quot;&gt;Claudio Bonanno&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bonati_C/0/1/0/all/0/1&quot;&gt;Claudio Bonati&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Clemente_G/0/1/0/all/0/1&quot;&gt;Giuseppe Clemente&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+DAngelo_F/0/1/0/all/0/1&quot;&gt;Francesco D&amp;#x27;Angelo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+DElia_M/0/1/0/all/0/1&quot;&gt;Massimo D&amp;#x27;Elia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Maio_L/0/1/0/all/0/1&quot;&gt;Lorenzo Maio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Martinelli_G/0/1/0/all/0/1&quot;&gt;Guido Martinelli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Sanfilippo_F/0/1/0/all/0/1&quot;&gt;Francesco Sanfilippo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Todaro_A/0/1/0/all/0/1&quot;&gt;Antonino Todaro&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01789">
+<title>Probing hadron mass spectrum in dense two-color QCD with linear sigma model. (arXiv:2211.01789v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01789</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate modifications of hadron masses at finite quark chemical
+potential in two-flavor and two-color QCD, of which the data are available from
+lattice simulations, within a linear sigma model based on approximate
+Pauli-Gursey $SU(4)$ symmetry. The model describes not only ground-state scalar
+diquarks and pseudo-scalar mesons but also the excited pseudo-scalar diquarks
+and scalar mesons; each ground-state diquark (meson) has the corresponding
+excited diquark (hadron) with opposite parity as a chiral partner. Effects of
+chiral symmetry breaking and diquark condensates are incorporated by a
+mean-field treatment. We show that various mixings among the hadrons, which are
+triggered by the breakdown of baryon number conservation in the superfluid
+phase, lead to a rich hadron mass spectrum. We discuss the influence of
+$U(1)_A$ anomaly on the density dependence of the mass spectrum and also
+manifestations of the chiral partner structures as density increases in the
+superfluid phase. The predicted hadron masses are expected to provide future
+lattice simulations with useful information on such symmetry properties in
+dense two-color QCD.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Suenaga_D/0/1/0/all/0/1&quot;&gt;Daiki Suenaga&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Murakami_K/0/1/0/all/0/1&quot;&gt;Kotaro Murakami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Itou_E/0/1/0/all/0/1&quot;&gt;Etsuko Itou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Iida_K/0/1/0/all/0/1&quot;&gt;Kei Iida&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01846">
+<title>Evidence for the molecular nature of $D_{s0}^*(2317)$ and $D_{s1}(2460)$ and the production yield of $K_{c\bar{c}}(4180)$ as a $D\bar{D}K$ bound state in inclusive $e^+e^-\to c\bar{c}$ collisions. (arXiv:2211.01846v1 [hep-ph])</title>
+<link>http://arxiv.org/abs/2211.01846</link>
+<description rdf:parseType="Literal">&lt;p&gt;Searching for exotic multiquark states and elucidating their nature remains a
+central topic in understanding quantum chromo dynamics--the underlying theory
+of the strong interaction. Two of the most studied such states are the
+charmed-strange states $D_{s0}^*(2317)$ and $D_{s1}(2460)$. In this work, we
+show for the first time that their production yields in inclusive $e^+e^-\to
+c\bar{c}$ productions near $\sqrt{s}=10.6$ GeV measured by the BaBar
+Collaboration can be well explained in the molecular picture, which provide a
+highly nontrivial verification of their nature being $DK/D^*K$ molecules. In
+addition, we predict the production yield of the $D\bar{D}K$ three-body bound
+state, $K_{c\bar{c}}(4180)$, in $e^+e^-\to c\bar{c}$ collisions and find that
+it is within the reach of the ongoing Belle II experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Wu_T/0/1/0/all/0/1&quot;&gt;Tian-Chen Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Geng_L/0/1/0/all/0/1&quot;&gt;Li-Sheng Geng&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.16012">
+<title>Entanglement area law for 1D gauge theories and bosonic systems. (arXiv:2203.16012v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.16012</link>
+<description rdf:parseType="Literal">&lt;p&gt;We prove an entanglement area law for a class of 1D quantum systems involving
+infinite-dimensional local Hilbert spaces. This class of quantum systems
+include bosonic models such as the Hubbard-Holstein model, and both U(1) and
+SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new
+results concerning the robustness of the ground state and spectral gap to the
+truncation of Hilbert space, applied within the approximate ground state
+projector (AGSP) framework from previous work. In establishing this area law,
+we develop a system-size independent bound on the expectation value of local
+observables for Hamiltonians without translation symmetry, which may be of
+separate interest. Our result provides theoretical justification for using
+tensor network methods to study the ground state properties of quantum systems
+with infinite local degrees of freedom.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Abrahamsen_N/0/1/0/all/0/1&quot;&gt;Nilin Abrahamsen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tong_Y/0/1/0/all/0/1&quot;&gt;Yu Tong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Bao_N/0/1/0/all/0/1&quot;&gt;Ning Bao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Su_Y/0/1/0/all/0/1&quot;&gt;Yuan Su&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wiebe_N/0/1/0/all/0/1&quot;&gt;Nathan Wiebe&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2207.00889">
+<title>Lattice Fermionic Casimir effect in a Slab Bag and Universality. (arXiv:2207.00889v4 [hep-lat] UPDATED)</title>
+<link>http://arxiv.org/abs/2207.00889</link>
+<description rdf:parseType="Literal">&lt;p&gt;We apply the physically more appealing MIT Bag boundary conditions to study
+the Casimir effect on the lattice. Employing the formalism of &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt;
+to calculate the Casimir energy for free lattice fermions, we show that the
+results for the naive, Wilson and overlap fermions match the continuum
+expressions precisely in the zero lattice spacing limit, as expected from
+universality. In contrast to &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; where the result for the naive
+fermions rapidly oscillates with the lattice size for both, the periodic (P)
+and anti-periodic (AP) boundary conditions, no oscillations are observed with
+the lattice size. Furthermore, the apparent violation of the universality for
+naive fermion in &lt;a href=&quot;/abs/2005.10758&quot;&gt;arXiv:2005.10758&lt;/a&gt; is shown to be cured by applying suitable
+series extrapolation techniques, thus demonstrating that the Casimir energy for
+the naive fermions with periodic/antiperiodic boundary conditions agrees with
+the results for other free lattice fermions, and can as well be used to obtain
+the results for the Dirac fermion in the zero limit of the lattice spacing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Mandlecha_Y/0/1/0/all/0/1&quot;&gt;Yash V. Mandlecha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Gavai_R/0/1/0/all/0/1&quot;&gt;Rajiv V. Gavai&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2209.13409">
+<title>Looking for the effects of New Physics in the $\Lambda_b \longrightarrow \Lambda_c(\to \Lambda \pi) \ell \nu $ decay mode. (arXiv:2209.13409v2 [hep-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2209.13409</link>
+<description rdf:parseType="Literal">&lt;p&gt;One of the most pragmatic ways to look for the effects of New Physics at low
+energy scales is to study a detailed angular distribution of various decay
+modes, and in particular those based on $b\to c\ell\bar \nu_\ell$. In this
+paper we focus onto $\Lambda_b \longrightarrow \Lambda_c(\to \Lambda \pi) \ell
+\nu$ in a generic effective theory setup in which, besides the Standard Model,
+we allow for all the possible covariant dimension-six effective operators
+capturing the contributions arising at high energy scales, beyond the Standard
+Model. We list a number of observables that could be used as a diagnostic tool
+to check for the presence of New Physics and to discriminate among its various
+scenarios. We also briefly comment on $\Lambda_c \to \Lambda l\nu$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Becirevic_D/0/1/0/all/0/1&quot;&gt;Damir Be&amp;#x10d;irevi&amp;#x107;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-ph/1/au:+Jaffredo_F/0/1/0/all/0/1&quot;&gt;Florentin Jaffredo&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
