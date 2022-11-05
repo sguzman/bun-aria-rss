@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40296 (php_point_of_sale)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40296",
+  "description": "The application was vulnerable to a Server-Side Request Forgery attacks, allowing the backend server to interact with unexpected endpoints, potentially including internal and local services, leading to attacks in other downstream systems.",
+  "dc:date": "2022-10-31T21:15:13Z"
+}

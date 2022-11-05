@@ -1,0 +1,8 @@
+{
+  "title": "Why Zero Trust Needs the Edge",
+  "description": "Backhauling traffic destroys performance, and backhauling attack traffic can destroy even more. Nevertheless, in a traditional security deployment model, we are faced with the lose-lose options of either backhauling all traffic to the security stack or allowing some accesses to not go through the security stack. Of course, in the modern world where cyberattacks can cause enormous damage, the latter option is not really an option at all. All traffic must route through a robust security stack. So how do we accomplish this goal without backhauling? The answer is Zero Trust security deployed and delivered as an edge service.",
+  "link": "https://www.akamai.com/blog/security/why-zero-trust-needs-the-edge",
+  "author": "Robert Blumofe",
+  "guid": "https://www.akamai.com/blog/security/why-zero-trust-needs-the-edge",
+  "pubDate": "Mon, 26 Jul 2021 04:00 AM UTC"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:DxfEbulyFcY",
+  "yt:videoId": "DxfEbulyFcY",
+  "yt:channelId": "UCmtyQOKKmrMVaKuRXz02jbQ",
+  "title": "Coding Adventure: Atmosphere",
+  "link": "",
+  "author": {
+    "name": "Sebastian Lague",
+    "uri": "https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+  },
+  "published": "2020-08-22T13:20:12+00:00",
+  "updated": "2022-03-02T10:46:53+00:00",
+  "media:group": {
+    "media:title": "Coding Adventure: Atmosphere",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "The planets in my solar system project are looking a bit hostile and uninviting, so in this video I'll be attempting to add some cozy atmospheres around them.\n\nWatch the previous solar system video: here: https://youtu.be/lctXaT9pxA0\n\nSome notes:\n• I made a little build where you can play with the atmosphere settings yourself, which you can find over here if you're interested: https://sebastian.itch.io/atmosphere-experiment\n\n• A number of knowledgeable people have pointed out in the comments that reality is not nearly as simple as my little diagram around the 4 and a half minute mark, and that light does not literally wiggle up and down like a wave, so please note that the diagram is incorrect!\n\n• This project was inspired by the game Outer Wilds, which I highly recommend playing!\n\nProject Files:\nThe project is available over here: https://github.com/SebLague/Solar-System\nIf you'd like to get early access to future project files (and support the channel!) you can find my Patreon page here: https://www.patreon.com/SebastianLague\n\nResources:\nhttps://developer.nvidia.com/gpugems/gpugems2/part-ii-shading-lighting-and-shadows/chapter-16-accurate-atmospheric-scattering\nhttp://nishitalab.org/user/nis/cdrom/sig93_nis.pdf\nhttps://physics.stackexchange.com/questions/28895/why-is-the-sky-not-purple\nhttps://en.wikipedia.org/wiki/Scattering\n\nMusic:\n\"Brief Respite\" by Antti Luode\n\"When Rain Comes\" by Tide Electric\n\"Door to Door Disco\" by Bright Seed\n\"Reflections of Space and Time\" by AEROPLANES\n\"In the Atmosphere\" by Bad Snacks\n\"Reflections\" by MK2\n\"Nidra in the Sky with Ayla\" by Jesse Gallagher\n\"Far Away\" by Antti Luode\n\"Frontier\" by Shimmer\n\nSections:\n00:00 Intro\n00:32 Setup\n02:46 Resources\n03:25 Light Scattering\n06:15 Coding the Shader\n11:55 Initial Results\n13:10 Adding Colour\n15:20 Colourful Results\n16:40 Optimisation\n17:39 Stars\n18:50 Exploration",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

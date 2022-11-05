@@ -1,0 +1,16 @@
+{
+  "title": "Educating citizens on data and crypto basics",
+  "link": "https://medium.com/@chris_bour/educating-citizens-on-data-and-crypto-basics-a4ec1147a1?source=rss-90ca8bc640f4------2",
+  "guid": "https://medium.com/p/a4ec1147a1",
+  "category": [
+    "education",
+    "data",
+    "society",
+    "data-science",
+    "crypto"
+  ],
+  "dc:creator": "Christophe Bourguignat",
+  "pubDate": "Wed, 28 Oct 2020 21:41:15 GMT",
+  "atom:updated": "2020-10-28T21:41:15.400Z",
+  "content:encoded": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/834/0*ZETEFhVHP7ltYaNO.jpg\" /></figure><p>In France, the national Covid-19 tracing app is called <strong>TousAntiCovid</strong>.</p><p>Unlike the tracing apps of other similar European countries, TousAntiCovid doesn’t use the Google / Apple tracing API, but a dedicated protocol instead.</p><p>I read many arguments against this app, including:</p><ul><li>Some argue that it goes against their privacy rights, and that they don’t want their data to be collected by the government — as if the app was designed without any guaranty of anonymization</li><li>Other would have preferred the government to decide to use the Google / Apple tracing API, for a more seamless integration on their device, and compatibility with other countries — as if being dependent of private big techs, and France not being able to analyze the anonymized raw data to help manage the crisis, was not an issue</li></ul><p>TousAntiCovid seems to be a simple app for citizens, but elaborating an informed judgment about it is complex, needing at least a basic understanding of:</p><ul><li><strong>cryptography:</strong> how works encryption, security protocols, privacy by design, anonymization, …</li><li><strong>big data</strong>: how works machine learning, why owning and processing data at scale is so strategic, and how for example big techs or social networks do it</li></ul><p>That’s symptomatic of the new kind of political and society debates we will have to address more and more: they need a bunch of technology understanding — future generations will have to learn it early at school.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=a4ec1147a1\" width=\"1\" height=\"1\" alt=\"\">"
+}
