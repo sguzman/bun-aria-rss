@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>math.GM updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Mathematics -- General Mathematics (math.GM) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Mathematics -- General Mathematics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01318" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01318">
+<title>Proving Taylor&apos;s Theorem from the Fundamental Theorem of Calculus by Fixed-point Iteration. (arXiv:2211.01318v2 [math.GM] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01318</link>
+<description rdf:parseType="Literal">&lt;p&gt;Taylor&apos;s theorem (and its variants) is widely used in several areas of
+mathematical analysis, including numerical analysis, functional analysis, and
+partial differential equations. This article explains how Taylor&apos;s theorem in
+its most general form can be proved simply as an immediate consequence of the
+Fundamental Theorem of Calculus (FTOC). The proof shows the deep connection
+between the Taylor expansion and fixed-point iteration, which is a foundational
+concept in numerical and functional analysis. One elegant variant of the proof
+also demonstrates the use of combinatorics and symmetry in proofs in
+mathematical analysis. Since the proof emphasizes concepts and techniques that
+are widely used in current science and industry, it can be a valuable addition
+to the undergraduate mathematics curriculum.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Thron_C/0/1/0/all/0/1&quot;&gt;Christopher Thron&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
