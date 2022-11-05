@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.MM updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Multimedia (cs.MM) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Multimedia</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01374" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01966" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01374">
+<title>End-to-end deep multi-score model for No-reference stereoscopic image quality assessment. (arXiv:2211.01374v1 [eess.IV])</title>
+<link>http://arxiv.org/abs/2211.01374</link>
+<description rdf:parseType="Literal">&lt;p&gt;Deep learning-based quality metrics have recently given significant
+improvement in Image Quality Assessment (IQA). In the field of stereoscopic
+vision, information is evenly distributed with slight disparity to the left and
+right eyes. However, due to asymmetric distortion, the objective quality
+ratings for the left and right images would differ, necessitating the learning
+of unique quality indicators for each view. Unlike existing stereoscopic IQA
+measures which focus mainly on estimating a global human score, we suggest
+incorporating left, right, and stereoscopic objective scores to extract the
+corresponding properties of each view, and so forth estimating stereoscopic
+image quality without reference. Therefore, we use a deep multi-score
+Convolutional Neural Network (CNN). Our model has been trained to perform four
+tasks: First, predict the left view&apos;s quality. Second, predict the quality of
+the left view. Third and fourth, predict the quality of the stereo view and
+global quality, respectively, with the global score serving as the ultimate
+quality. Experiments are conducted on Waterloo IVC 3D Phase 1 and Phase 2
+databases. The results obtained show the superiority of our method when
+comparing with those of the state-of-the-art. The implementation code can be
+found at: https://github.com/o-messai/multi-score-SIQA
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Messai_O/0/1/0/all/0/1&quot;&gt;Oussama Messai&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Chetouani_A/0/1/0/all/0/1&quot;&gt;Aladine Chetouani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01966">
+<title>MarginNCE: Robust Sound Localization with a Negative Margin. (arXiv:2211.01966v1 [cs.CV])</title>
+<link>http://arxiv.org/abs/2211.01966</link>
+<description rdf:parseType="Literal">&lt;p&gt;The goal of this work is to localize sound sources in visual scenes with a
+self-supervised approach. Contrastive learning in the context of sound source
+localization leverages the natural correspondence between audio and visual
+signals where the audio-visual pairs from the same source are assumed as
+positive, while randomly selected pairs are negatives. However, this approach
+brings in noisy correspondences; for example, positive audio and visual pair
+signals that may be unrelated to each other, or negative pairs that may contain
+semantically similar samples to the positive one. Our key contribution in this
+work is to show that using a less strict decision boundary in contrastive
+learning can alleviate the effect of noisy correspondences in sound source
+localization. We propose a simple yet effective approach by slightly modifying
+the contrastive loss with a negative margin. Extensive experimental results
+show that our approach gives on-par or better performance than the
+state-of-the-art methods. Furthermore, we demonstrate that the introduction of
+a negative margin to existing methods results in a consistent improvement in
+performance.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Park_S/0/1/0/all/0/1&quot;&gt;Sooyoung Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Senocak_A/0/1/0/all/0/1&quot;&gt;Arda Senocak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Chung_J/0/1/0/all/0/1&quot;&gt;Joon Son Chung&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
