@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32867 (iphone_os, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32867",
+  "description": "This issue was addressed with improved data protection. This issue is fixed in iOS 16, macOS Ventura 13. A user with physical access to an iOS device may be able to read past diagnostic logs.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}

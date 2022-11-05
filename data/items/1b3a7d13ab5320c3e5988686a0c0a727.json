@@ -1,0 +1,8 @@
+{
+  "title": "Spring Cloud Function SpEL Injection (CVE-2022-22963) Exploited in the Wild",
+  "description": "Although Spring Cloud Functions are not as widespread as the Log4j library, and should provide a good separation from the hosting server, some draw the line between the two, due to the ease of exploitation over HTTP/s. This new vulnerability will definitely result in many threat actors launching campaigns for crypto-mining, ddos, ransomware, and as a golden ticket to break into organizations for the next years to come.",
+  "link": "https://www.akamai.com/blog/security/spring-cloud-function",
+  "author": "Akamai Threat Research Team",
+  "guid": "https://www.akamai.com/blog/security/spring-cloud-function",
+  "pubDate": "Thu, 31 Mar 2022 19:30 PM UTC"
+}
