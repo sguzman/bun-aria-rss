@@ -1,0 +1,19 @@
+{
+  "title": "Export PII drill-down reports",
+  "link": "https://rare-technologies.com/personal-data-reports/",
+  "pubDate": "Sun, 10 Feb 2019 19:37:28 +0000",
+  "dc:creator": "Radim Řehůřek",
+  "category": [
+    "Personal Data Protection",
+    "PII Tools",
+    "data discovery",
+    "DSAR",
+    "gdpr",
+    "personal data",
+    "SAR",
+    "subject access requests"
+  ],
+  "guid": "https://rare-technologies.com/?p=11015",
+  "description": "In the latest February release (version 2.4.0), we combined Personal Data Analytics search with dynamic HTML report generation to make GDPR compliance and auditing easier. PII Tools already supports dynamic PII Analytics queries to locate personal, sensitive and intimate information. It also generates drill-down PII audit reports for completed data scans. In the latest release, we combined these two capabilities. ... <div><a href=\"https://rare-technologies.com/personal-data-reports/\" class=\"more-link\">Read More</a></div>",
+  "content:encoded": "<p>\nIn the latest February release (version 2.4.0), we combined Personal Data Analytics search with dynamic HTML report generation to make GDPR compliance and auditing easier.\n</p>\n\n<span id=\"more-11015\"></span>\n\n<p>\n<a href=\"https://pii-tools.com\">PII Tools</a> already supports dynamic <a href=\"https://rare-technologies.com/pii_analytics/\">PII Analytics queries</a> to locate personal, sensitive and intimate information. It also generates drill-down PII audit reports for completed data scans.\n</p>\n\n<p>\nIn the latest release, we combined these two capabilities. You can now search for PII of interest, dice and slice your inventory to narrow down <strong>the exact set of files or database rows in order to respond to an incident or SAR request</strong>, and then <strong>export them straight into a drill-down report</strong>:\n</p>\n\n<div id=\"html_export\" style=\"width: 810px\" class=\"wp-caption aligncenter\"><img src=\"https://rare-technologies.com/wp-content/uploads/2019/02/drilldown_pii_report.gif\" alt=\"PII Analytics export HTML report\" width=\"800\" class=\"alignnone size-full wp-image-10612\" /><p class=\"wp-caption-text\">Download the HTML drill-down report, built from all files with the person &#8220;John&#8221;, to the local computer.</p></div>\n\n<h3>How does it work?</h3>\n\n<p>\nThe web interface takes care of all the steps (as usual, technical users may also use the <a href=\"https://documentation.pii-tools.com/\">REST API</a> for programmatic access):\n<ol>\n<li>Enter your analytics query, defining what fields, people, PII types or categories you&#8217;re interested in.</li>\n<li>Click &#8220;Export Objects&#8221; in the top-right of the result page.</li>\n<li>Select &#8220;HTML drill-down&#8221; format from the drop-down menu.</li>\n<li>The report download will start automatically in a few seconds, in ZIP format.</li>\n<li>Open the downloaded report on your computer, review summary charts and tables, or drill down to file details.</li>\n</ol>\n</p>\n\n<p>\nThe exported PII reports can be used in multiple ways, to fit your workflow. Whether it&#8217;s reviewing the results internally, sharing the report with colleagues over email, or notifying affected parties for remediation.\n</p>\n\n<blockquote>\nThis is a blog post about PII Tools, our commercial product. PII Tools lets companies perform highly accurate personal and sensitive data discovery, using context-aware AI detectors with secure on-prem deployment.\n</blockquote>\n\n<p>\nQuestions? Want to see a live demo? <a href=\"https://pii-tools.com/schedule-a-demo/\">Contact us</a>.\n</p>\n\n<!--\n[mc4wp_form id=\"8603\"]\n-->"
+}

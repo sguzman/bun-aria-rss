@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:VDiRdzdwgNc",
+  "yt:videoId": "VDiRdzdwgNc",
+  "yt:channelId": "UCTdw38Cw6jcm0atBPA39a0Q",
+  "title": "Theory makes beautiful programs - Jørgen Kvalsvik - NDC TechTown 2022",
+  "link": "",
+  "author": {
+    "name": "NDC Conferences",
+    "uri": "https://www.youtube.com/channel/UCTdw38Cw6jcm0atBPA39a0Q"
+  },
+  "published": "2022-11-03T10:01:47+00:00",
+  "updated": "2022-11-04T08:00:23+00:00",
+  "media:group": {
+    "media:title": "Theory makes beautiful programs - Jørgen Kvalsvik - NDC TechTown 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I wrote a patch.\n\nModified/condition decision coverage (MC/DC) is a useful tool for code correctness and is particularly important in safety oriented industries like automotive and aerospace. While there are techniques for doing it manually, condition coverage benefits greatly from tooling.\n\nI designed an algorithm for figuring out condition coverage from control flow graphs and implemented it in gcc. This talk covers what MC/DC is, why you should do it, and shows why a little bit of theory can make very beautiful programs.\n\n\nCheck out more of our featured speakers and talks at\nhttps://www.ndcconferences.com\nhttps://ndctechtown.com/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "NBA week 11 summary, week 12 predictions",
+  "link": "",
+  "published": "2015-01-23T12:12:00-08:00",
+  "updated": "2015-01-23T12:12:00-08:00",
+  "author": {
+    "name": "Jonathan Landy"
+  },
+  "id": "tag:efavdb.com,2015-01-23:/nba-week-11-summary-week-12-predictions",
+  "summary": "<p>Again, reasonably good accuracy this past week &#8212; 36/54, or 66.6% overall. The breakdown by point spread is given below, and the new predictions are&nbsp;up.</p>\n<p>We made a couple of changes to the dashboard this week. First, it has a new, cleaner look, thanks to <a href=\"http://www.jairehtecarro.com/\">Jaireh Tecarro</a>, who …</p>",
+  "content": "<p>Again, reasonably good accuracy this past week &#8212; 36/54, or 66.6% overall. The breakdown by point spread is given below, and the new predictions are&nbsp;up.</p>\n<p>We made a couple of changes to the dashboard this week. First, it has a new, cleaner look, thanks to <a href=\"http://www.jairehtecarro.com/\">Jaireh Tecarro</a>, who kindly donated a redesign. Secondly, we discovered that our prior processing code implementation was inadvertently defaulting to a non-smooth rendering mode as a consequence of some coordinate transformations that we were making use of. This behavior was not explained in the general processing references, and so came as a surprise to us. We&#8217;ve reimplemented some of the drawing commands in order to avoid the problem, and we&#8217;ve documented it in our <a href=\"http://efavdb.github.io/processing-and-processing-js-tips-and-tricks\">processing tips and tricks post</a>.</p>\n<table>\n<thead>\n<tr>\n<th>Point spread</th>\n<th># games</th>\n<th>Accuracy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>&lt; 5</td>\n<td>11</td>\n<td>45%</td>\n</tr>\n<tr>\n<td>5-9</td>\n<td>23</td>\n<td>65%</td>\n</tr>\n<tr>\n<td>10-14</td>\n<td>18</td>\n<td>78%</td>\n</tr>\n<tr>\n<td>&gt;14</td>\n<td>18</td>\n<td>72%</td>\n</tr>\n</tbody>\n</table>",
+  "category": ""
+}

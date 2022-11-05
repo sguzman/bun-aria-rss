@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:doFowk4xj7Q",
+  "yt:videoId": "doFowk4xj7Q",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Implementing and Optimizing a Wordle Solver in Rust",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-03-06T05:39:37+00:00",
+  "updated": "2022-08-19T15:34:45+00:00",
+  "media:group": {
+    "media:title": "Implementing and Optimizing a Wordle Solver in Rust",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We implement a Wordle solver in Rust based off on the excellent\n3blue1brown video on the same topic:\nhttps://www.youtube.com/watch?v=v68zYyaEmEA\n\nAnd then we profile and optimize it to improve the runtime from our\ninitial naive implementation by ~13500x. You can find the code at\nhttps://github.com/jonhoo/roget.\n\n0:00:00 Introduction\n0:01:00 Wordle intro\n0:04:50 What we're doing today\n0:11:24 Gathering our datasets\n0:27:22 Structure the solver\n0:44:04 The correctness of a guess\n1:14:28 Testing the play machinery\n1:30:16 Outlining the algorithm\n1:38:55 Does a word match a pattern?\n2:21:12 Reusing correctness computation\n2:26:06 Computing a word's \"goodness\"\n2:49:20 Running the naive implementation\n2:57:59 Profiling to the rescue\n3:04:44 Avoiding allocations\n3:22:05 Comparing bytes, not characters\n3:31:58 Correctness computing is faster\n3:42:23 HashMap iteration is slow\n3:47:40 Compare bytes again\n3:50:20 Trying to avoid bounds checks\n3:54:42 Keep words as length 5 arrays\n4:07:36 Only initialize remaining once\n4:21:00 Back to length 5 arrays\n4:32:14 Where is compute spending time?\n4:51:20 Short break\n4:55:20 What if we don't set the first word?\n5:02:49 What if we start with another word?\n5:07:15 Precalculating matches\n5:31:20 Prefer more likely words\n5:38:05 Prune known-empty patterns\n5:56:24 Don't even consider unlikely words\n6:07:36 Closing thoughts\n\nLive version with chat: https://youtu.be/cfjQw4ZjAiI",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

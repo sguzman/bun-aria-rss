@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:-at7SLoVK_I",
+  "yt:videoId": "-at7SLoVK_I",
+  "yt:channelId": "UCv0nF8zWevEsSVcmz6mlw6A",
+  "title": "Why are neural networks so effective?",
+  "link": "",
+  "author": {
+    "name": "vcubingx",
+    "uri": "https://www.youtube.com/channel/UCv0nF8zWevEsSVcmz6mlw6A"
+  },
+  "published": "2021-10-15T14:00:22+00:00",
+  "updated": "2022-03-24T23:12:38+00:00",
+  "media:group": {
+    "media:title": "Why are neural networks so effective?",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Visuals to demonstrate how a neural network classifies a set of data. Thanks for watching!\nSupport me on Patreon! https://patreon.com/vcubingx\nSource Code: https://github.com/vivek3141/dl-visualization\n\nHere's the course I referred to in the video. I am not affiliated with NYU.\nhttps://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq\n\nSinusoids as activation functions:\nhttps://openreview.net/forum?id=Sks3zF9eg\nhttps://vsitzmann.github.io/siren/\n\nHere's the distill.pub article:\nhttps://distill.pub/2020/grand-tour/\n\nSpecial thanks to Alfredo Canziani and Nikhil Maserang for reviewing the video.\n\nAnd also thanks to Grant Sanderson himself for giving me some manim tips!\n\nI've been active on twitter, follow me here!\nhttps://twitter.com/vcubingx\n\nJoin my discord server!\nhttps://discord.gg/Kj8QUZU\n\nThese animation in this video was made using 3blue1brown's library, manim:\nhttps://github.com/3b1b/manim\n\nMusic is from GameChops (Route 113, Azalea Town, Ecruteak City\n\nFollow me!\nWebsite: https://vcubingx.com\nTwitter: https://twitter.com/vcubingx\nGithub: https://github.com/vivek3141\nInstagram: https://instagram.com/vcubingx\nPatreon: https://patreon.com/vcubingx\n\nWhat does a Neural Network *actually* do? Visualizing Deep Learning, Chapter 2\n\n0:00 Intro\n0:18 Recap of Part 1\n1:57 Introducing the dataset\n2:52 Structure of the Neural Network we’ll be using\n3:34 What is softmax?\n5:52 Input space decision boundaries\n6:24 Modifying the Neural Network to visualize what it’s doing\n7:36 Out-of-domain boundaries\n8:46 sin(x) as an activation function\n9:30 Neuron planes\n11:57 Softmax surfaces\n13:20 MNIST Transformation\n13:42 Outro",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
