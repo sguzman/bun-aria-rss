@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>astro-ph.IM updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Astrophysics -- Instrumentation and Methods for Astrophysics (astro-ph.IM) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Astrophysics -- Instrumentation and Methods for Astrophysics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01393" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01401" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01449" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01459" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01502" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01532" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01567" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01682" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01718" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01767" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01880" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01891" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01901" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01927" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01935" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02041" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02045" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2009.10813" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.14890" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01393">
+<title>Exploring diffuse radio emission in galaxy clusters and groups with the uGMRT and the SKA. (arXiv:2211.01393v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.01393</link>
+<description rdf:parseType="Literal">&lt;p&gt;Diffuse radio emission has been detected in a considerable number of galaxy
+clusters and groups, revealing the presence of pervasive cosmic magnetic
+fields, and of relativistic particles in the large-scale structure (LSS) of the
+Universe. Since cluster radio emission is faint and steep spectrum, its
+observations are largely limited by the instrument sensitivity and frequency of
+observation, leading to a dearth of information, more so for lower-mass
+systems. The unprecedented sensitivity of recently commissioned low-frequency
+radio telescope arrays, aided by the development of advanced calibration and
+imaging techniques, have helped in achieving unparalleled image quality. At the
+same time, the development of sophisticated numerical simulations and the
+availability of supercomputing facilities have paved the way for
+high-resolution numerical modeling of radio emission, and the structure of the
+cosmic magnetic fields in LSS, leading to predictions matching the capabilities
+of observational facilities. In view of these rapidly-evolving scenerio in
+modeling and observations, in this review, we summarise the role of the new
+telescope arrays and the development of advanced imaging techniques and discuss
+the detections of various kinds of cluster radio sources. In particular, we
+discuss observations of the cosmic web in the form of supercluster filaments,
+studies of emission in poor clusters and groups of galaxies, and of ultra-steep
+spectrum sources. We also review the current theoretical understanding of
+various diffuse cluster radio sources and the associated magnetic field and
+polarization. As the statistics of detections improve along with our
+theoretical understanding, we update the source classification schemes based on
+their intrinsic properties. We conclude by summarising the role of the upgraded
+GMRT and our expectations from the upcoming Square Kilometre Array (SKA)
+observatories.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Paul_S/0/1/0/all/0/1&quot;&gt;Surajit Paul&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kale_R/0/1/0/all/0/1&quot;&gt;Ruta Kale&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Datta_A/0/1/0/all/0/1&quot;&gt;Abhirup Datta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Basu_A/0/1/0/all/0/1&quot;&gt;Aritra Basu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sur_S/0/1/0/all/0/1&quot;&gt;Sharanya Sur&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Parekh_V/0/1/0/all/0/1&quot;&gt;Viral Parekh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gupta_P/0/1/0/all/0/1&quot;&gt;Prateek Gupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chatterjee_S/0/1/0/all/0/1&quot;&gt;Swarna Chatterjee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Salunkhe_S/0/1/0/all/0/1&quot;&gt;Sameer Salunkhe&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Iqbal_A/0/1/0/all/0/1&quot;&gt;Asif Iqbal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pandey_Pommier_M/0/1/0/all/0/1&quot;&gt;Mamta Pandey-Pommier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Raja_R/0/1/0/all/0/1&quot;&gt;Ramij Raja&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rahaman_M/0/1/0/all/0/1&quot;&gt;Majidul Rahaman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Raychaudhury_S/0/1/0/all/0/1&quot;&gt;Somak Raychaudhury&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Nath_B/0/1/0/all/0/1&quot;&gt;Biman B. Nath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Majumdar_S/0/1/0/all/0/1&quot;&gt;Subhabrata Majumdar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01401">
+<title>Efficient Gravitational Wave Searches with Pulsar Timing Arrays using Hamiltonian Monte Carlo. (arXiv:2211.01401v1 [astro-ph.IM])</title>
+<link>http://arxiv.org/abs/2211.01401</link>
+<description rdf:parseType="Literal">&lt;p&gt;Pulsar timing arrays (PTAs) detect low-frequency gravitational waves (GWs) by
+looking for correlated deviations in pulse arrival times. Current Bayesian
+searches use Markov Chain Monte Carlo (MCMC) methods, which struggle to sample
+the large number of parameters needed to model the PTA and GW signals. As the
+data span and number of pulsars increase, this problem will only worsen. An
+alternative Monte Carlo sampling method, Hamiltonian Monte Carlo (HMC),
+utilizes Hamiltonian dynamics to produce sample proposals informed by
+first-order gradients of the model likelihood. This in turn allows it to
+converge faster to high dimensional distributions. We implement HMC as an
+alternative sampling method in our search for an isotropic stochastic GW
+background, and show that this method produces equivalent statistical results
+to similar analyses run with standard MCMC techniques, while requiring 100-200
+times fewer samples. We show that the speed of HMC sample generation scales as
+$\mathcal{O}(N_\mathrm{psr}^{5/4})$ where $N_\mathrm{psr}$ is the number of
+pulsars, compared to $\mathcal{O}(N_\mathrm{psr}^2)$ for MCMC methods. These
+factors offset the increased time required to generate a sample using HMC,
+demonstrating the value of adopting HMC techniques for PTAs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Freedman_G/0/1/0/all/0/1&quot;&gt;Gabriel E. Freedman&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Johnson_A/0/1/0/all/0/1&quot;&gt;Aaron D. Johnson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Haasteren_R/0/1/0/all/0/1&quot;&gt;Rutger van Haasteren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vigeland_S/0/1/0/all/0/1&quot;&gt;Sarah J. Vigeland&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01449">
+<title>The Fifth Catalogue of Nearby Stars (CNS5). (arXiv:2211.01449v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01449</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the compilation of the Fifth Catalogue of Nearby Stars (CNS5),
+based on astrometric and photometric data from Gaia EDR3 and Hipparcos, and
+supplemented with parallaxes from ground-based astrometric surveys carried out
+in the infrared.
+&lt;/p&gt;
+&lt;p&gt;The aim of the CNS5 is to provide the most complete sample of objects in the
+solar neighbourhood. For all known stars and brown dwarfs in the 25 pc sphere
+around the Sun, basic astrometric and photometric parameters are given.
+Furthermore, we provide the colour-magnitude diagram and various luminosity
+functions of the stellar content in the solar neighbourhood, and characterise
+the completeness of the CNS5 catalogue.
+&lt;/p&gt;
+&lt;p&gt;We compile a sample of stars and brown dwarfs which most likely are located
+within 25 pc of the Sun, taking space-based parallaxes from Gaia EDR3 and
+Hipparcos as well as ground-based parallaxes from Best et al. (2021),
+Kirkpatrick et al. (2021), and from the CNS4 into account. We develop a set of
+selection criteria to clean the sample from spurious sources. Furthermore, we
+show that effects of blending in the Gaia photometry, which affect mainly the
+faint and red sources in Gaia, can be mitigated, to reliably place those
+objects in a colour-magnitude diagram. We also assess the completeness of the
+CNS5 using a Kolmogorov-Smirnov test and derive observational optical and
+mid-infrared luminosity functions for the main-sequence stars and white dwarfs
+in the solar neighbourhood. The CNS5 contains 5931 objects, including 5230
+stars (4946 main-sequence stars, 20 red giants and 264 white dwarfs) and 701
+brown dwarfs.
+&lt;/p&gt;
+&lt;p&gt;We find that the CNS5 catalogue is statistically complete down to 19.7 mag in
+G-band and 11.8 mag in W1-band absolute magnitudes, corresponding to a spectral
+type of L8.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Golovin_A/0/1/0/all/0/1&quot;&gt;Alex Golovin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Reffert_S/0/1/0/all/0/1&quot;&gt;Sabine Reffert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Just_A/0/1/0/all/0/1&quot;&gt;Andreas Just&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jordan_S/0/1/0/all/0/1&quot;&gt;Stefan Jordan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vani_A/0/1/0/all/0/1&quot;&gt;Akash Vani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jahreiss_H/0/1/0/all/0/1&quot;&gt;Hartmut Jahrei&amp;#xdf;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01459">
+<title>Spectroscopic Time-series Performance of JWST/NIRSpec from Commissioning Observations. (arXiv:2211.01459v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01459</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report on JWST commissioning observations of the transiting exoplanet
+HAT-P-14 b, obtained using the Bright Object Time Series (BOTS) mode of the
+NIRSpec instrument with the G395H/F290LP grating/filter combination
+($3-5\mu$m). While the data were used primarily to verify that the NIRSpec BOTS
+mode is working as expected, and to enable it for general scientific use, they
+yield a precise transmission spectrum which we find is featureless down to the
+precision level of the instrument, consistent with expectations given
+HAT-P-14~b&apos;s small scale-height and hence expected atmospheric features. The
+exquisite quality and stability of the \emph{JWST/NIRSpec} transit spectrum --
+almost devoid of any systematic effects -- allowed us to obtain median
+uncertainties of 50-60 ppm in this wavelength range at a resolution of $R=100$
+in a single exposure, which is in excellent agreement with pre-flight
+expectations and close to the (or at the) photon-noise limit for a $J = 9.094$,
+F-type star like HAT-P-14. These observations showcase the ability of
+NIRSpec/BOTS to perform cutting-edge transiting exoplanet atmospheric science,
+setting the stage for observations and discoveries to be made in Cycle 1 and
+beyond.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Espinoza_N/0/1/0/all/0/1&quot;&gt;N&amp;#xe9;stor Espinoza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ubeda_L/0/1/0/all/0/1&quot;&gt;Leonardo &amp;#xda;beda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Birkmann_S/0/1/0/all/0/1&quot;&gt;Stephan M. Birkmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ferruit_P/0/1/0/all/0/1&quot;&gt;Pierre Ferruit&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Valenti_J/0/1/0/all/0/1&quot;&gt;Jeff A. Valenti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sing_D/0/1/0/all/0/1&quot;&gt;David K. Sing&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rustamkulov_Z/0/1/0/all/0/1&quot;&gt;Zafar Rustamkulov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Regan_M/0/1/0/all/0/1&quot;&gt;Michael Regan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kendrew_S/0/1/0/all/0/1&quot;&gt;Sarah Kendrew&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sabbi_E/0/1/0/all/0/1&quot;&gt;Elena Sabbi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Schlawin_E/0/1/0/all/0/1&quot;&gt;Everett Schlawin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Beatty_T/0/1/0/all/0/1&quot;&gt;Thomas Beatty&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Albert_L/0/1/0/all/0/1&quot;&gt;Lo&amp;#xef;c Albert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Greene_T/0/1/0/all/0/1&quot;&gt;Thomas P. Greene&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Nikolov_N/0/1/0/all/0/1&quot;&gt;Nikolay Nikolov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Karakla_D/0/1/0/all/0/1&quot;&gt;Diane Karakla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Keyes_C/0/1/0/all/0/1&quot;&gt;Charles Keyes&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kumari_N/0/1/0/all/0/1&quot;&gt;Nimisha Kumari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Oliveira_C/0/1/0/all/0/1&quot;&gt;Catarina Alves de Oliveira&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Boker_T/0/1/0/all/0/1&quot;&gt;Torsten B&amp;#xf6;ker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pena_Guerrero_M/0/1/0/all/0/1&quot;&gt;Maria Pe&amp;#xf1;a-Guerrero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Giardino_G/0/1/0/all/0/1&quot;&gt;Giovanna Giardino&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Manjavacas_E/0/1/0/all/0/1&quot;&gt;Elena Manjavacas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Proffitt_C/0/1/0/all/0/1&quot;&gt;Charles Proffitt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rawle_T/0/1/0/all/0/1&quot;&gt;Timothy Rawle&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01502">
+<title>Detection and characterization of wind-blown charged sand grains on Titan with the DraGMet/EFIELD experiment on Dragonfly. (arXiv:2211.01502v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01502</link>
+<description rdf:parseType="Literal">&lt;p&gt;The EFIELD instrument is part of the geophysics and meteorology sensor
+package DraGMet on the Dragonfly mission, which will explore the surface of
+Titan in the mid-2030s. EFIELD consists of two electrodes designed to passively
+record the AC electric field at each landing site.
+&lt;/p&gt;
+&lt;p&gt;The exploration zone of Dragonfly will mostly consist of dune fields, covered
+with sand grains. Little is known on the properties of these grains, although
+Cassini-Huygens observations suggest they are mostly made of organic material
+produced by Titan&apos;s atmospheric photochemistry and evolved at the surface.
+Little is known also about dune formation and in general about the transport of
+sediments by winds. The latter much depends on inter-particle forces and
+therefore on how grains are charged by friction. We demonstrate here that the
+EFIELD experiment can bring new insights on these questions.
+&lt;/p&gt;
+&lt;p&gt;We have developed a hydrodynamic-electrostatic model to simulate the
+trajectory of a wind-blown charged sand grain in the vicinity of an idealized
+EFIELD probe and to predict how such a grain flying close to the probe would
+affect its potential. We show that, in some conditions, the resulting
+perturbation will be strong enough to be detected by the EFIELD probe. More
+specifically, we find that the detection of typical charged wind-blown grains
+(200 microns) on Titan requires an instrument standard deviation noise inferior
+to 1mV, though occasional larger grains flying close to one electrode could be
+detected with a higher noise level.
+&lt;/p&gt;
+&lt;p&gt;Furthermore, we propose a method to retrieve information on the charge and
+velocity of wind-blown charged grains detected by the EFIELD experiment. This
+method well applies for cases where the particle trajectory can be regarded as
+quasi-linear. We validate our inversion approach on both synthetic and
+experimental data obtained with a laboratory prototype of the EFIELD
+experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chatain_A/0/1/0/all/0/1&quot;&gt;Audrey Chatain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gall_A/0/1/0/all/0/1&quot;&gt;Alice Le Gall&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Berthelier_J/0/1/0/all/0/1&quot;&gt;Jean-Jacques Berthelier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lorenz_R/0/1/0/all/0/1&quot;&gt;Ralph D. Lorenz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hassen_Khodja_R/0/1/0/all/0/1&quot;&gt;Rafik Hassen-Khodja&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lebreton_J/0/1/0/all/0/1&quot;&gt;Jean-Pierre Lebreton&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Joly_Jehenne_T/0/1/0/all/0/1&quot;&gt;Tom Joly-Jehenne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Deprez_G/0/1/0/all/0/1&quot;&gt;Gr&amp;#xe9;goire D&amp;#xe9;prez&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01532">
+<title>A 16 Hour Transit Observed by the Unistellar Network. (arXiv:2211.01532v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01532</link>
+<description rdf:parseType="Literal">&lt;p&gt;More than 5,000 exoplanets have been confirmed and among them almost 4,000
+were discovered by the transit method. However, few transiting exoplanets have
+an orbital period greater than 100 days. Here we report a transit detection of
+Kepler-167 e, a &quot;Jupiter analog&quot; exoplanet orbiting a K4 star with a period of
+1,071 days, using the Unistellar ground-based telescope network. From 2021
+November 18 to 20, citizen astronomers located in nine different countries
+gathered 43 observations, covering the 16 hour long transit. Using a nested
+sampling approach to combine and fit the observations, we detected the
+mid-transit time to be UTC 2021 November 19 17:20:51 with a 1$\sigma$
+uncertainty of 9.8 minutes, making it the longest-period planet to ever have
+its transit detected from the ground. This is the fourth transit detection of
+Kepler-167 e, but the first made from the ground. This timing measurement
+refines the orbit and keeps the ephemeris up to date without requiring space
+telescopes. Observations like this demonstrate the capabilities of coordinated
+networks of small telescopes to identify and characterize planets with long
+orbital periods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Perrocheau_A/0/1/0/all/0/1&quot;&gt;Amaury Perrocheau&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Esposito_T/0/1/0/all/0/1&quot;&gt;Thomas M. Esposito&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dalba_P/0/1/0/all/0/1&quot;&gt;Paul A. Dalba&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marchis_F/0/1/0/all/0/1&quot;&gt;Franck Marchis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Avsar_A/0/1/0/all/0/1&quot;&gt;Arin M. Avsar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Carrera_E/0/1/0/all/0/1&quot;&gt;Ero Carrera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Douezy_M/0/1/0/all/0/1&quot;&gt;Michel Douezy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Fukui_K/0/1/0/all/0/1&quot;&gt;Keiichi Fukui&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gamurot_R/0/1/0/all/0/1&quot;&gt;Ryan Gamurot&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Goto_T/0/1/0/all/0/1&quot;&gt;Tateki Goto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Guillet_B/0/1/0/all/0/1&quot;&gt;Bruno Guillet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kuossari_P/0/1/0/all/0/1&quot;&gt;Petri Kuossari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Laugier_J/0/1/0/all/0/1&quot;&gt;Jean-Marie Laugier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lewin_P/0/1/0/all/0/1&quot;&gt;Pablo Lewin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Loose_M/0/1/0/all/0/1&quot;&gt;Margaret A. Loose&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Manganese_L/0/1/0/all/0/1&quot;&gt;Laurent Manganese&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mirwald_B/0/1/0/all/0/1&quot;&gt;Benjamin Mirwald&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mountz_H/0/1/0/all/0/1&quot;&gt;Hubert Mountz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mountz_M/0/1/0/all/0/1&quot;&gt;Marti Mountz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ostrem_C/0/1/0/all/0/1&quot;&gt;Cory Ostrem&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Parker_B/0/1/0/all/0/1&quot;&gt;Bruce Parker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Picard_P/0/1/0/all/0/1&quot;&gt;Patrick Picard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Primm_M/0/1/0/all/0/1&quot;&gt;Michael Primm&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Randolph_J/0/1/0/all/0/1&quot;&gt;Justus Randolph&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Runge_J/0/1/0/all/0/1&quot;&gt;Jay Runge&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Savonnet_R/0/1/0/all/0/1&quot;&gt;Robert Savonnet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sharon_C/0/1/0/all/0/1&quot;&gt;Chelsea E. Sharon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Shih_J/0/1/0/all/0/1&quot;&gt;Jenny Shih&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Shimizu_M/0/1/0/all/0/1&quot;&gt;Masao Shimizu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Silvis_G/0/1/0/all/0/1&quot;&gt;George Silvis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Simard_G/0/1/0/all/0/1&quot;&gt;Georges Simard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Simpson_A/0/1/0/all/0/1&quot;&gt;Alan Simpson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sivayogan_T/0/1/0/all/0/1&quot;&gt;Thusheeta Sivayogan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Stein_M/0/1/0/all/0/1&quot;&gt;Meyer Stein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Trudel_D/0/1/0/all/0/1&quot;&gt;Denis Trudel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tsuchiyama_H/0/1/0/all/0/1&quot;&gt;Hiroaki Tsuchiyama&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Wagner_K/0/1/0/all/0/1&quot;&gt;Kevin Wagner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Will_S/0/1/0/all/0/1&quot;&gt;Stefan Will&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01567">
+<title>Galaxy Image Deconvolution for Weak Gravitational Lensing with Physics-informed Deep Learning. (arXiv:2211.01567v1 [astro-ph.IM])</title>
+<link>http://arxiv.org/abs/2211.01567</link>
+<description rdf:parseType="Literal">&lt;p&gt;Removing optical and atmospheric blur from galaxy images significantly
+improves galaxy shape measurements for weak gravitational lensing and galaxy
+evolution studies. This ill-posed linear inverse problem is usually solved with
+deconvolution algorithms enhanced by regularisation priors or deep learning. We
+introduce a so-called &quot;physics-based deep learning&quot; approach to the Point
+Spread Function (PSF) deconvolution problem in galaxy surveys. We apply
+algorithm unrolling and the Plug-and-Play technique to the Alternating
+Direction Method of Multipliers (ADMM) with a Poisson noise model and use a
+neural network to learn appropriate priors from simulated galaxy images. We
+characterise the time-performance trade-off of several methods for galaxies of
+differing brightness levels, showing an improvement of 26% (SNR=20)/48%
+(SNR=100) compared to standard methods and 14% (SNR=20) compared to modern
+methods.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Li_T/0/1/0/all/0/1&quot;&gt;Tianao Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Alexander_E/0/1/0/all/0/1&quot;&gt;Emma Alexander&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01682">
+<title>First Lunar Occultation Results with the TIRCAM2 Near-Infrared Imager at the Devasthal 3.6-m Telescope. (arXiv:2211.01682v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01682</link>
+<description rdf:parseType="Literal">&lt;p&gt;TIRCAM2 is the facility near-infrared Imager at the Devasthal 3.6-m telescope
+in northern India, equipped with an Aladdin III InSb array detector. We have
+pioneered the use of TIRCAM2 for very fast photometry, with the aim of
+recording Lunar Occultations (LO). This mode is now operational and publicly
+offered. In this paper we describe the relevant instrumental details, we
+provide references to the LO method and the underlying data analysis
+procedures, and we list the LO events recorded so far. Among the results, we
+highlight a few which have led to the measurement of one small-separation
+binary star and of two stellar angular diameters. We conclude with a brief
+outlook on further possible instrumental developments and an estimate of the
+scientific return. In particular, we find that the LO technique can detect
+sources down to K~ 9 mag with SNR=1 on the DOT telescope. Angular diameters
+larger than ~ 1 milliarcsecond (mas) could be measured with SNR above 10, or
+K~6 mag. These numbers are only an indication and will depend strongly on
+observing conditions such as lunar phase and rate of lunar limb motion. Based
+on statistics alone, there are several thousands LO events observable in
+principle with the given telescope and instrument every year.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sharma_S/0/1/0/all/0/1&quot;&gt;Saurabh Sharma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Richichi_A/0/1/0/all/0/1&quot;&gt;Andrea Richichi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ojha_D/0/1/0/all/0/1&quot;&gt;Devendra K. Ojha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kumar_B/0/1/0/all/0/1&quot;&gt;Brajesh Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Naik_M/0/1/0/all/0/1&quot;&gt;Milind Naik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rawat_J/0/1/0/all/0/1&quot;&gt;Jeewan Rawat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bora_D/0/1/0/all/0/1&quot;&gt;Darshan S. Bora&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Belwal_K/0/1/0/all/0/1&quot;&gt;Kuldeep Belwal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dhami_P/0/1/0/all/0/1&quot;&gt;Prakash Dhami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bisht_M/0/1/0/all/0/1&quot;&gt;Mohit Bisht&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01718">
+<title>The SPHERE view of multiple star formation. (arXiv:2211.01718v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01718</link>
+<description rdf:parseType="Literal">&lt;p&gt;While a large fraction of the stars are in multiple systems, our
+understanding of the processes leading to the formation of these systems is
+still inadequate. Given the large theoretical uncertainties, observation plays
+a basic role. Here we discuss the contribution of high contrast imaging, and
+more specifically of the SPHERE instrument at the ESO Very Large Telescope, in
+this area. SPHERE nicely complements other techniques - in particular those
+exploiting Gaia and ALMA - in detecting and characterising systems near the
+peak of the distribution with separation and allows to capture snapshots of
+binary formation within disks that are invaluable for the understanding of disk
+fragmentation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gratton_R/0/1/0/all/0/1&quot;&gt;R.Gratton&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Desidera_S/0/1/0/all/0/1&quot;&gt;S. Desidera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marzari_F/0/1/0/all/0/1&quot;&gt;F. Marzari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bonavita_M/0/1/0/all/0/1&quot;&gt;M. Bonavita&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01767">
+<title>Redefining Astronomy Summer Camps in the Age of the Pandemic: a Break from the IAYC&apos;s 50-Year History. (arXiv:2211.01767v1 [physics.ed-ph])</title>
+<link>http://arxiv.org/abs/2211.01767</link>
+<description rdf:parseType="Literal">&lt;p&gt;The International Astronomical Youth Camp (IAYC) is a 50-year old summer
+camp, where participants work independently on astronomy projects. Due to the
+ongoing COVID-19 pandemic, the 2020 and 2021 instalments of the IAYC were
+cancelled, a first in the camp&apos;s history. An online format was established
+dubbed the eIAYC, consisting of three types of activities: (1) an engagement
+series with astronomical talks and workshops; (2) small independent research
+projects; and (3) a non-astronomical program involving a range of social
+activities. Here we present the experience of adapting an in-person camp into
+an online alternative in order to further the IAYC&apos;s mission. We discuss
+organisational challenges, experiences with online engagement, and how the 2020
+eIAYC informed plans for this year&apos;s eIAYC.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ahrer_E/0/1/0/all/0/1&quot;&gt;Eva-Maria Ahrer&lt;/a&gt; (1 and 2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Archipley_M/0/1/0/all/0/1&quot;&gt;Melanie Archipley&lt;/a&gt; (1 and 3), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Dalgleish_H/0/1/0/all/0/1&quot;&gt;Hannah S. Dalgleish&lt;/a&gt; (1 and 4), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mortimer_D/0/1/0/all/0/1&quot;&gt;Daniel J. Mortimer&lt;/a&gt; (1 and 5) ((1) International Workshop for Astronomy e.V., (2) University of Warwick, (3) University of Illinois Urbana-Champaign, (4) University of Namibia, (5) University of Cambridge)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01880">
+<title>Performance of different correction maps in the extended phase-space method for spinning compact binaries. (arXiv:2211.01880v1 [gr-qc])</title>
+<link>http://arxiv.org/abs/2211.01880</link>
+<description rdf:parseType="Literal">&lt;p&gt;Since the first detection of gravitational waves by the LIGO/VIRGO team, the
+related research field has attracted more attention. The spinning compact
+binaries system, as one of the gravitational-wave sources for broadband laser
+interferometers, has been widely studied by related researchers. In order to
+analyze the gravitational wave signals using matched filtering techniques,
+reliable numerical algorithms are needed. Spinning compact binaries systems in
+Post-Newtonian (PN) celestial mechanics have an inseparable Hamiltonian. The
+extended phase-space algorithm is an effective solution for the problem of this
+system. We have developed correction maps for the extended phase-space method
+in our previous work, which significantly improves the accuracy and stability
+of the method with only a momentum scale factor. In this paper, we will add
+more scale factors to modify the numerical solution in order to minimize the
+errors in the constants of motion. However, we find that these correction maps
+will result in a large energy bias in the subterms of the Hamiltonian in
+chaotic orbits, whose potential and kinetic energy, etc. are calculated
+inaccurately. We develop new correction maps to reduce the energy bias of the
+subterms of the Hamiltonian, which can instead improve the accuracy of the
+numerical solution and also provides a new idea for the application of the
+manifold correction in other algorithms.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Luo_J/0/1/0/all/0/1&quot;&gt;Junjie Luo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Feng_J/0/1/0/all/0/1&quot;&gt;Jie Feng&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Zhang_H/0/1/0/all/0/1&quot;&gt;Hong-Hao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/gr-qc/1/au:+Lin_W/0/1/0/all/0/1&quot;&gt;Weipeng Lin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01891">
+<title>Protostellar collapse simulations in spherical geometry with dust coagulation and fragmentation. (arXiv:2211.01891v1 [astro-ph.GA])</title>
+<link>http://arxiv.org/abs/2211.01891</link>
+<description rdf:parseType="Literal">&lt;p&gt;We model the coagulation and fragmentation of dust grains during the
+protostellar collapse with our newly developed shark code. It solves the
+gas-dust hydrodynamics in a spherical geometry and the
+coagulation/fragmentation equation. It also computes the ionization state of
+the cloud and the Ohmic, ambipolar and Hall resistivities. We find that the
+dust size distribution evolves significantly during the collapse, large grain
+formation being controlled by the turbulent differential velocity. When
+turbulence is included, only ambipolar diffusion remains efficient at removing
+the small grains from the distribution, brownian motion is only efficient as a
+standalone process. The macroscopic gas-dust drift is negligible for grain
+growth and only dynamically significant near the first Larson core. At high
+density, we find that the coagulated distribution is unaffected by the initial
+choice of dust distribution. Strong magnetic fields are found to enhance the
+small grains depletion, causing an important increase of the ambipolar
+diffusion. This hints that the magnetic field strength could be regulated by
+the small grain population during the protostellar collapse. Fragmentation
+could be effective for bare silicates, but its modeling relies on the choice of
+ill-constrained parameters. It is also found to be negligible for icy grains.
+When fragmentation occurs, it strongly affects the magnetic resistivities
+profiles. Dust coagulation is a critical process that needs to be fully taken
+into account during the protostellar collapse. The onset and feedback of
+fragmentation remains uncertain and its modeling should be further
+investigated.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lebreuilly_U/0/1/0/all/0/1&quot;&gt;Ugo Lebreuilly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vallucci_Goy_V/0/1/0/all/0/1&quot;&gt;Valentin Vallucci-Goy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Guillet_V/0/1/0/all/0/1&quot;&gt;Vincent Guillet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lombart_M/0/1/0/all/0/1&quot;&gt;Maxime Lombart&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marchand_P/0/1/0/all/0/1&quot;&gt;Pierre Marchand&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01901">
+<title>Augmenting photometric redshift estimates using spectroscopic nearest neighbours. (arXiv:2211.01901v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.01901</link>
+<description rdf:parseType="Literal">&lt;p&gt;As a consequence of galaxy clustering, close galaxies observed on the plane
+of the sky should be spatially correlated with a probability inversely
+proportional to their angular separation. In principle, this information can be
+used to improve photometric redshift estimates when spectroscopic redshifts are
+available for some of the neighbouring objects. Depending on the depth of the
+survey, however, such angular correlation is reduced by chance projections. In
+this work, we implement a deep learning model to distinguish between apparent
+and real angular neighbours by solving a classification task. We adopt a graph
+neural network architecture to tie together the photometry, the spectroscopy
+and the spatial information between neighbouring galaxies. We train and
+validate the algorithm on the data of the VIPERS galaxy survey, for which
+SED-fitting based photometric redshifts are also available. The model yields a
+confidence level for a pair of galaxies to be real angular neighbours, enabling
+us to disentangle chance superpositions in a probabilistic way. When objects
+for which no physical companion can be identified are excluded, all photometric
+redshifts&apos; quality metrics improve significantly, confirming that their
+estimates were of lower quality. For our typical test configuration, the
+algorithm identifies a subset containing ~75% of high-quality photometric
+redshifts, for which the dispersion is reduced by as much as 50% (from 0.08 to
+0.04), while the fraction of outliers reduces from 3% to 0.8%. Moreover, we
+show that the spectroscopic redshift of the angular neighbour with the highest
+detection probability provides an excellent estimate of the redshift of the
+target galaxy, comparable or even better than the corresponding template
+fitting estimate.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tosone_F/0/1/0/all/0/1&quot;&gt;F. Tosone&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Cagliari_M/0/1/0/all/0/1&quot;&gt;M.S. Cagliari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Guzzo_L/0/1/0/all/0/1&quot;&gt;L. Guzzo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Granett_B/0/1/0/all/0/1&quot;&gt;B.R. Granett&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Crespi_A/0/1/0/all/0/1&quot;&gt;A. Crespi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01927">
+<title>Modeling Solids in Nuclear Astrophysics with Smoothed Particle Hydrodynamics. (arXiv:2211.01927v1 [astro-ph.IM])</title>
+<link>http://arxiv.org/abs/2211.01927</link>
+<description rdf:parseType="Literal">&lt;p&gt;Smoothed Particle Hydrodynamics (SPH) is a frequently applied tool in
+computational astrophysics to solve the fluid dynamics equations governing the
+systems under study. For some problems, for example when involving asteroids
+and asteroid impacts, the additional inclusion of material strength is
+necessary in order to accurately describe the dynamics. In compact stars, that
+is white dwarfs and neutron stars, solid components are also present. Neutron
+stars have a solid crust which is the strongest material known in nature.
+However, their dynamical evolution, when modeled via SPH or other computational
+fluid dynamics codes, is usually described as a purely fluid dynamics problem.
+Here, we present the first 3D simulations of neutron-star crustal toroidal
+oscillations including material strength with the Los Alamos National
+Laboratory SPH code FleCSPH. In the first half of the paper, we present the
+numerical implementation of solid material modeling together with standard
+tests. The second half is on the simulation of crustal oscillations in the
+fundamental toroidal mode. Here, we dedicate a large fraction of the paper to
+approaches which can suppress numerical noise in the solid. If not minimized,
+the latter can dominate the crustal motion in the simulations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sagert_I/0/1/0/all/0/1&quot;&gt;Irina Sagert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Korobkin_O/0/1/0/all/0/1&quot;&gt;Oleg Korobkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tews_I/0/1/0/all/0/1&quot;&gt;Ingo Tews&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tsao_B/0/1/0/all/0/1&quot;&gt;Bing-Jyun Tsao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lim_H/0/1/0/all/0/1&quot;&gt;Hyun Lim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Falato_M/0/1/0/all/0/1&quot;&gt;Michael J. Falato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Loiseau_J/0/1/0/all/0/1&quot;&gt;Julien Loiseau&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01935">
+<title>Discovering a new well: Decaying dark matter with profile likelihoods. (arXiv:2211.01935v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.01935</link>
+<description rdf:parseType="Literal">&lt;p&gt;A large number of studies, all using Bayesian parameter inference from Markov
+Chain Monte Carlo methods, have constrained the presence of a decaying dark
+matter component. All such studies find a strong preference for either very
+long-lived or very short-lived dark matter. However, in this letter, we
+demonstrate that this preference is due to parameter volume effects that drive
+the model towards the standard $\Lambda$CDM model, which is known to provide a
+good fit to most observational data.
+&lt;/p&gt;
+&lt;p&gt;Using profile likelihoods, which are free from volume effects, we instead
+find that the best-fitting parameters are associated with an intermediate
+regime where around $3 \%$ of cold dark matter decays just prior to
+recombination. With two additional parameters, the model yields an overall
+preference over the $\Lambda$CDM model of $\Delta \chi^2 \approx -2.8$ with
+\textit{Planck} and BAO and $\Delta \chi^2 \approx -7.8$ with the SH0ES $H_0$
+measurement, while only slightly alleviating the $H_0$ tension. Ultimately, our
+results reveal that decaying dark matter is more viable than previously
+assumed, and illustrate the dangers of relying exclusively on Bayesian
+parameter inference when analysing extensions to the $\Lambda$CDM model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Holm_E/0/1/0/all/0/1&quot;&gt;Emil Brinch Holm&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Herold_L/0/1/0/all/0/1&quot;&gt;Laura Herold&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hannestad_S/0/1/0/all/0/1&quot;&gt;Steen Hannestad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Nygaard_A/0/1/0/all/0/1&quot;&gt;Andreas Nygaard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tram_T/0/1/0/all/0/1&quot;&gt;Thomas Tram&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02041">
+<title>Detecting galaxies in a large H{\sc i}~spectral cube. (arXiv:2211.02041v1 [astro-ph.IM])</title>
+<link>http://arxiv.org/abs/2211.02041</link>
+<description rdf:parseType="Literal">&lt;p&gt;The upcoming Square Kilometer Array (SKA) is expected to produce humongous
+amount of data for undertaking H{\sc i}~science. We have developed an MPI-based
+{\sc Python} pipeline to deal with the large data efficiently with the present
+computational resources. Our pipeline divides such large H{\sc i}~21-cm
+spectral cubes into several small cubelets, and then processes them in parallel
+using publicly available H{\sc i}~source finder {\sc SoFiA-$2$}. The pipeline
+also takes care of sources at the boundaries of the cubelets and also filters
+out false and redundant detections. By comapring with the true source catalog,
+we find that the detection efficiency depends on the {\sc SoFiA-$2$} parameters
+such as the smoothing kernel size, linking length and threshold values. We find
+the optimal kernel size for all flux bins to be between $3$ to $5$ pixels and
+$7$ to $15$ pixels, respectively in the spatial and frequency directions.
+Comparing the recovered source parameters with the original values, we find
+that the output of {\sc SoFiA-$2$} is highly dependent on kernel sizes and a
+single choice of kernel is not sufficient for all types of H{\sc i}~galaxies.
+We also propose use of alternative methods to {\sc SoFiA-$2$} which can be used
+in our pipeline to find sources more robustly.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Shaw_A/0/1/0/all/0/1&quot;&gt;Abinash Kumar Shaw&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jagannath_M/0/1/0/all/0/1&quot;&gt;Manoj Jagannath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mazumder_A/0/1/0/all/0/1&quot;&gt;Aishrila Mazumder&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chakraborty_A/0/1/0/all/0/1&quot;&gt;Arnab Chakraborty&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Patra_N/0/1/0/all/0/1&quot;&gt;Narendra Nath Patra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mondal_R/0/1/0/all/0/1&quot;&gt;Rajesh Mondal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Choudhuri_S/0/1/0/all/0/1&quot;&gt;Samir Choudhuri&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02045">
+<title>Fast and robust Bayesian Inference using Gaussian Processes with GPry. (arXiv:2211.02045v1 [astro-ph.CO])</title>
+<link>http://arxiv.org/abs/2211.02045</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the GPry algorithm for fast Bayesian inference of general
+(non-Gaussian) posteriors with a moderate number of parameters. GPry does not
+need any pre-training, special hardware such as GPUs, and is intended as a
+drop-in replacement for traditional Monte Carlo methods for Bayesian inference.
+Our algorithm is based on generating a Gaussian Process surrogate model of the
+log-posterior, aided by a Support Vector Machine classifier that excludes
+extreme or non-finite values. An active learning scheme allows us to reduce the
+number of required posterior evaluations by two orders of magnitude compared to
+traditional Monte Carlo inference. Our algorithm allows for parallel
+evaluations of the posterior at optimal locations, further reducing wall-clock
+times. We significantly improve performance using properties of the posterior
+in our active learning scheme and for the definition of the GP prior. In
+particular we account for the expected dynamical range of the posterior in
+different dimensionalities. We test our model against a number of synthetic and
+cosmological examples. GPry outperforms traditional Monte Carlo methods when
+the evaluation time of the likelihood (or the calculation of theoretical
+observables) is of the order of seconds; for evaluation times of over a minute
+it can perform inference in days that would take months using traditional
+methods. GPry is distributed as an open source Python package (pip install
+gpry) and can also be found at https://github.com/jonaselgammal/GPry.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gammal_J/0/1/0/all/0/1&quot;&gt;Jonas El Gammal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Schoneberg_N/0/1/0/all/0/1&quot;&gt;Nils Sch&amp;#xf6;neberg&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Torrado_J/0/1/0/all/0/1&quot;&gt;Jes&amp;#xfa;s Torrado&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Fidler_C/0/1/0/all/0/1&quot;&gt;Christian Fidler&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2009.10813">
+<title>Launching the VASCO citizen science project. (arXiv:2009.10813v2 [astro-ph.IM] UPDATED)</title>
+<link>http://arxiv.org/abs/2009.10813</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Vanishing \&amp;amp; Appearing Sources during a Century of Observations (VASCO)
+project investigates astronomical surveys spanning a time interval of 70 years,
+searching for unusual and exotic transients. We present herein the VASCO
+Citizen Science Project, which can identify unusual candidates driven by three
+different approaches: hypothesis, exploratory, and machine learning, which is
+particularly useful for SETI searches. To address the big data challenge, VASCO
+combines three methods: the Virtual Observatory, user-aided machine learning,
+and visual inspection through citizen science. Here we demonstrate the citizen
+science project and its improved candidate selection process, and we give a
+progress report. We also present the VASCO citizen science network led by
+amateur astronomy associations mainly located in Algeria, Cameroon, and
+Nigeria. At the moment of writing, the citizen science project has carefully
+examined 15,593 candidate image pairs in the data (ca. 10\% of the candidates),
+and has so far identified 798 objects classified as ``vanished&apos;&apos;. The most
+interesting candidates will be followed up with optical and infrared imaging,
+together with the observations by the most potent radio telescopes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Villarroel_B/0/1/0/all/0/1&quot;&gt;Beatriz Villarroel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pelckmans_K/0/1/0/all/0/1&quot;&gt;Kristiaan Pelckmans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Solano_E/0/1/0/all/0/1&quot;&gt;Enrique Solano&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Laaksoharju_M/0/1/0/all/0/1&quot;&gt;Mikael Laaksoharju&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Souza_A/0/1/0/all/0/1&quot;&gt;Abel Souza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dom_O/0/1/0/all/0/1&quot;&gt;Onyeuwaoma Nnaemeka Dom&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Laggoune_K/0/1/0/all/0/1&quot;&gt;Khaoula Laggoune&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mimouni_J/0/1/0/all/0/1&quot;&gt;Jamal Mimouni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mattsson_L/0/1/0/all/0/1&quot;&gt;Lars Mattsson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Soodla_J/0/1/0/all/0/1&quot;&gt;Johan Soodla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Castillo_D/0/1/0/all/0/1&quot;&gt;Diego Castillo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Shultz_M/0/1/0/all/0/1&quot;&gt;Matthew E. Shultz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Aworka_R/0/1/0/all/0/1&quot;&gt;Rubby Aworka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Comeron_S/0/1/0/all/0/1&quot;&gt;S&amp;#xe9;bastien Comer&amp;#xf3;n&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Geier_S/0/1/0/all/0/1&quot;&gt;Stefan Geier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marcy_G/0/1/0/all/0/1&quot;&gt;Geoffrey Marcy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gupta_A/0/1/0/all/0/1&quot;&gt;Alok C. Gupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bergstedt_J/0/1/0/all/0/1&quot;&gt;Josefine Bergstedt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bar_R/0/1/0/all/0/1&quot;&gt;Rudolf E. B&amp;#xe4;r&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Buelens_B/0/1/0/all/0/1&quot;&gt;Bart Buelens&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Enriquez_E/0/1/0/all/0/1&quot;&gt;Emilio Enriquez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mellon_C/0/1/0/all/0/1&quot;&gt;Christopher K. Mellon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Prieto_M/0/1/0/all/0/1&quot;&gt;M. Almudena Prieto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Wamalwa_D/0/1/0/all/0/1&quot;&gt;Dismas Simiyu Wamalwa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ward_M/0/1/0/all/0/1&quot;&gt;Martin J. Ward&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.14890">
+<title>The deconvolved distribution estimator: enhancing reionisation-era CO line-intensity mapping analyses with a cross-correlation analogue for one-point statistics. (arXiv:2210.14890v2 [astro-ph.CO] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.14890</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the deconvolved distribution estimator (DDE), an extension of the
+voxel intensity distribution (VID), in the context of future observations
+proposed as part of the CO Mapping Array Project (COMAP). The DDE exploits the
+fact that the observed VID is a convolution of correlated signal intensity
+distributions and uncorrelated noise or interloper intensity distributions. By
+deconvolving the individual VID of two observables away from their joint VID in
+a Fourier-space operation, the DDE suppresses sensitivity to interloper
+emission while maintaining sensitivity to correlated components. The DDE thus
+improves upon the VID by rejecting uncorrelated noise and interloper biases,
+which is useful in the context of COMAP observations that observe different
+rotational transitions of CO from the same comoving volume in different
+observing frequency bands. Fisher forecasts suggest that the theoretical
+sensitivity in the DDE allows significant improvements in constraining power
+compared to either the cross power spectrum or the individual VID data, and
+matches the constraining power of the combination of all other one- and
+two-point summary statistics. Future work should further investigate the
+covariance and model-dependent behaviour of this novel one-point
+cross-correlation statistic.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chung_D/0/1/0/all/0/1&quot;&gt;Dongwoo T. Chung&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bangari_I/0/1/0/all/0/1&quot;&gt;Ishika Bangari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Breysse_P/0/1/0/all/0/1&quot;&gt;Patrick C. Breysse&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ihle_H/0/1/0/all/0/1&quot;&gt;H&amp;#xe5;vard T. Ihle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bond_J/0/1/0/all/0/1&quot;&gt;J. Richard Bond&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dunne_D/0/1/0/all/0/1&quot;&gt;Delaney A. Dunne&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Padmanabhan_H/0/1/0/all/0/1&quot;&gt;Hamsa Padmanabhan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Philip_L/0/1/0/all/0/1&quot;&gt;Liju Philip&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rennie_T/0/1/0/all/0/1&quot;&gt;Thomas J. Rennie&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Viero_M/0/1/0/all/0/1&quot;&gt;Marco P. Viero&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
