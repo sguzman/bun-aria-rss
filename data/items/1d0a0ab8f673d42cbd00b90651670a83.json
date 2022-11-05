@@ -1,0 +1,11 @@
+{
+  "title": "Model evaluation, model selection, and algorithm selection in machine learning",
+  "description": "Machine learning has become a central part of our life -- as consumers, customers, and hopefully as researchers and practitioners! Whether we are applying predictive modeling techniques to our research or business problems, I believe we have one thing in common  &#58; We want to make good predictions! Fitting a model to our training data is one thing, but how do we know that it generalizes well to unseen data? How do we know that it doesn't simply memorize the data we fed it and fails to make good predictions on future samples, samples that it hasn't seen before? And how do we select a good model in the first place? Maybe a different learning algorithm could be better-suited for the problem at hand? Model evaluation is certainly not just the end point of our machine learning pipeline.<br><br>Before we handle any data, we want to plan ahead and use techniques that are suited for our purposes. In this article, we will go over a selection of these techniques, and we will see how they fit into the bigger picture, a typical machine learning workflow.",
+  "pubDate": "Sat, 11 Jun 2016 20:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html",
+  "guid": "https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html",
+  "category": [
+    "Machine-learning",
+    "Python"
+  ]
+}

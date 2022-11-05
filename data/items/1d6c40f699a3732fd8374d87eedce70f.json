@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43565",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43565",
+  "description": "In Splunk Enterprise versions below 8.2.9 and 8.1.12, the way that the &acirc;&euro;&tilde;tstats command handles Javascript Object Notation (JSON) lets an attacker bypass SPL safeguards for risky commands https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/SPLsafeguards . The vulnerability requires the attacker to phish the victim by tricking them into initiating a request within their browser.",
+  "dc:date": "2022-11-04T23:15:10Z"
+}

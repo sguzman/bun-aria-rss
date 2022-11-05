@@ -1,0 +1,6 @@
+{
+  "title": "Target-Speaker Voice Activity Detection via Sequence-to-Sequence Prediction. (arXiv:2210.16127v2 [eess.AS] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.16127",
+  "description": "<p>Target-speaker voice activity detection is currently a promising approach for\nspeaker diarization in complex acoustic environments. This paper presents a\nnovel Sequence-to-Sequence Target-Speaker Voice Activity Detection\n(Seq2Seq-TSVAD) method that can efficiently address the joint modeling of\nlarge-scale speakers and predict high-resolution voice activities. Experimental\nresults show that larger speaker capacity and higher output resolution can\nsignificantly reduce the diarization error rate (DER), which achieves the new\nstate-of-the-art performance of 4.55% on the VoxConverse test set and 10.77% on\nTrack 1 of the DIHARD-III evaluation set under the widely-used evaluation\nmetrics.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Cheng_M/0/1/0/all/0/1\">Ming Cheng</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Wang_W/0/1/0/all/0/1\">Weiqing Wang</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Zhang_Y/0/1/0/all/0/1\">Yucong Zhang</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Qin_X/0/1/0/all/0/1\">Xiaoyi Qin</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Li_M/0/1/0/all/0/1\">Ming Li</a>"
+}

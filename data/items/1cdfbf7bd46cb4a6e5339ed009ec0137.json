@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:sOaS83Ir8Ck",
+  "yt:videoId": "sOaS83Ir8Ck",
+  "yt:channelId": "UCzdCHjiDfrrol0QrnUY6DhQ",
+  "title": "ITT 2018 - Jakub Nabrdalik - Hexagonal Architecture in practice",
+  "link": "",
+  "author": {
+    "name": "Istanbul Tech Talks",
+    "uri": "https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ"
+  },
+  "published": "2018-08-03T12:55:35+00:00",
+  "updated": "2022-05-21T00:54:55+00:00",
+  "media:group": {
+    "media:title": "ITT 2018 - Jakub Nabrdalik - Hexagonal Architecture in practice",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Imagine a single distributed system of more than 550 microservices on 10k servers, and around 600 developers. That’s what Allegro is. Building such a system requires good experience in modularization and architecture. Each of those microservices, however, isn’t necessarily very small, and thus should be decomposed further into modules. Sadly, that’s not always happening, and sometimes the internals of a microservice resemble spaghetti: you can’t tell where it starts and where it ends.\n\nIt’s a common problem: good teams building even small applications that soon become much more complicated than necessary, because of lack of clear boundaries.\n\nIn this talk I’d like to present my findings on how to modularize a Java + Spring application, no matter the size, to achieve great testability, clear boundaries, and to make it easier to understand on every level, after several years of using it on a daily basis on production. \n\nThis will be a practical tutorial on Hexagonal Architecture (also known as Ports & Adapters), and very fast Behavior/Test Driven Development. It works both in a microservices and a single large application environment. \n\nWe will start with an elephant hiding in plain sight: the package scope in Java. Something which was designed to help us focus on modules, but got completely lost on devs.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

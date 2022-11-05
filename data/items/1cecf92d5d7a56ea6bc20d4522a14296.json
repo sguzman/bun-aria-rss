@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32887 (iphone_os)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32887",
+  "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 16. An app may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}
