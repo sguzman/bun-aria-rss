@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40230 (mq_appliance)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40230",
+  "description": "&quot;IBM MQ Appliance 9.2 CD, 9.2 LTS, 9.3 CD, and LTS 9.3 does not invalidate session after logout which could allow an authenticated user to impersonate another user on the system. IBM X-Force ID: 235532.&quot;",
+  "dc:date": "2022-11-03T20:15:31Z"
+}

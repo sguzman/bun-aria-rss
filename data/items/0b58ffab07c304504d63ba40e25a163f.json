@@ -1,0 +1,18 @@
+{
+  "title": "Podcast Listens Analysis",
+  "link": "https://www.becomingadatascientist.com/2017/10/01/podcast-listens-analysis/",
+  "pubDate": "Mon, 02 Oct 2017 01:34:41 +0000",
+  "dc:creator": "Renee",
+  "category": [
+    "projects",
+    "python",
+    "resources",
+    "talks/publications",
+    "analysis",
+    "pandas",
+    "tableau"
+  ],
+  "guid": "https://www.becomingadatascientist.com/?p=1497",
+  "description": "I’ve been telling everyone that I’d do something “data fun” when I hit 20K Twitter followers, so I posted an analysis of my podcast listeners! I used python and pandas in a Jupyter notebook for the first part, then I did a dashboard in Tableau for the last part.",
+  "content:encoded": "<p>I&#8217;ve been telling everyone that I&#8217;d do something &#8220;data fun&#8221; when I hit 20K Twitter followers, so I posted an analysis of my podcast listeners! I used python and pandas in a Jupyter notebook for the first part, then I did a dashboard in Tableau for the last part.</p>\n<p>Here&#8217;s a video of me explaining the analysis:</p>\n<p><iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/yvtlztnsrlk?rel=0&showinfo=0\" frameborder=\"0\" allowfullscreen></iframe></p>\n<p>A few notes as I skim through:</p>\n<ul>\n<li>That part that was broken is where I hadn&#8217;t changed from the real IP to the random IP (sorry search bot), so I fixed that in the file below</li>\n<li>I pointed to the wrong thing when I was talking about how long I&#8217;d been around&#8230;Becoming a Data Scientist Podcast started in December 2015! So 1 year later there was a day larger than the 1st day for the 1st 3 episodes.</li>\n<li> The top IP that got 36 views &#8211; I&#8217;ll have to look into it, but I think it could be multiple IPs getting assigned the same random number. I&#8217;ll take a look and come back when I have a chance.</li>\n</ul>\n<p><a href=\"https://www.becomingadatascientist.com/category/podcast/\" rel=\"noopener\" target=\"_blank\">Here are all of the episodes</a>, so you can go back and listen to any you missed!</p>\n<p>You can download the HTML versions of my Jupyter notebooks, and also play with the Tableau dashboards at these links:</p>\n<p><a href=\"https://www.becomingadatascientist.com/wp-content/uploads/2017/10/20171001-All-Time-Podcast-Listens-Clean.html\" rel=\"noopener\" target=\"_blank\">&#8220;Clean&#8221; version of the Jupyter notebook</a></p>\n<p><a href=\"https://www.becomingadatascientist.com/wp-content/uploads/2017/10/20171001-All-Time-Podcast-Listens.html\" rel=\"noopener\" target=\"_blank\">Full messy analysis Jupyter notebook</a></p>\n<p><a href=\"https://public.tableau.com/profile/data.science.renee#!/vizhome/BecomingaDataScientistPodcastListensv3/OverviewDashboard\" rel=\"noopener\" target=\"_blank\">Listen monitoring Tableau dashboard</a></p>\n<p><a href=\"https://public.tableau.com/profile/data.science.renee#!/vizhome/BecomingaDataScientistPodcastListensv3/WeeklyListensDashboard\" rel=\"noopener\" target=\"_blank\">Interactive episodes by week Tableau dashboard</a></p>\n<p>If you have suggestions for how to do the code in a more sensible way than how I rushed and did it, or if you have any questions, feel free to add suggestions in the comments below! </p>\n"
+}
