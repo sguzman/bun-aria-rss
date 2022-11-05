@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3254 (another_wordpress_classifieds_plugin)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3254",
+  "description": "The WordPress Classifieds Plugin WordPress plugin before 4.3 does not properly sanitise and escape some parameters before using them in a SQL statement via an AJAX action available to unauthenticated users and when a specific premium module is active, leading to a SQL injection",
+  "dc:date": "2022-10-31T16:15:11Z"
+}
