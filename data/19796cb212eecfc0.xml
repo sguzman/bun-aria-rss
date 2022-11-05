@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/afterword" rel="self" type="application/rss+xml"/>
+    <title>Slate's The Afterword</title>
+    <link>http://www.slate.com</link>
+    <language>en</language>
+    <copyright>2017 Slate Magazine</copyright>
+    <description>The Afterword features Slate's June Thomas interviewing the authors of new nonfiction books.</description>
+    <image>
+      <url>https://megaphone.imgix.net/podcasts/4932671e-df38-11e5-acea-9b48ac89f457/image/144x144_PodCastArt_TheAfterword_illo.jpg?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress</url>
+      <title>Slate's The Afterword</title>
+      <link>http://www.slate.com</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>The Afterword features Slate's June Thomas interviewing the authors of new nonfiction books.</itunes:subtitle>
+    <itunes:author>Slate Magazine</itunes:author>
+    <itunes:summary>The Afterword features Slate's June Thomas interviewing the authors of new nonfiction books.</itunes:summary>
+    <content:encoded>
+      <![CDATA[<p>The Afterword features Slate's June Thomas interviewing the authors of new nonfiction books.</p>]]>
+    </content:encoded>
+    <itunes:owner>
+      <itunes:name></itunes:name>
+      <itunes:email></itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://megaphone.imgix.net/podcasts/4932671e-df38-11e5-acea-9b48ac89f457/image/144x144_PodCastArt_TheAfterword_illo.jpg?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+    <itunes:category text="Arts">
+    </itunes:category>
+    <item>
+      <title>The Afterword: Lawrence Wright on Scientology</title>
+      <description>June Thomas talks with Lawrence Wright, author of Going Clear: Scientology, Hollywood, and the Prison of Belief.</description>
+      <pubDate>Thu, 31 Jan 2013 02:30:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Slate Magazine</itunes:author>
+      <itunes:subtitle>June Thomas talks with Lawrence Wright, author of Going Clear: Scientology, Hollywood, and the Prison of Belief.</itunes:subtitle>
+      <itunes:summary>June Thomas talks with Lawrence Wright, author of Going Clear: Scientology, Hollywood, and the Prison of Belief.</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p>June Thomas talks with Lawrence Wright, author of Going Clear: Scientology, Hollywood, and the Prison of Belief.</p>]]>
+      </content:encoded>
+      <itunes:duration>1714</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <guid isPermaLink="false"><![CDATA[94394cc62c0e4783c5bb318146729d3b]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/ARC2537274887.mp3" length="0" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
