@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.class-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Classical Physics (physics.class-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Classical Physics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01369" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01850" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01968" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01995" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01369">
+<title>Gravitational Dimensionality Reduction Using Newtonian Gravity and Einstein&apos;s General Relativity. (arXiv:2211.01369v1 [cs.LG])</title>
+<link>http://arxiv.org/abs/2211.01369</link>
+<description rdf:parseType="Literal">&lt;p&gt;Due to the effectiveness of using machine learning in physics, it has been
+widely received increased attention in the literature. However, the notion of
+applying physics in machine learning has not been given much awareness to. This
+work is a hybrid of physics and machine learning where concepts of physics are
+used in machine learning. We propose the supervised Gravitational
+Dimensionality Reduction (GDR) algorithm where the data points of every class
+are moved to each other for reduction of intra-class variances and better
+separation of classes. For every data point, the other points are considered to
+be gravitational particles, such as stars, where the point is attracted to the
+points of its class by gravity. The data points are first projected onto a
+spacetime manifold using principal component analysis. We propose two variants
+of GDR -- one with the Newtonian gravity and one with the Einstein&apos;s general
+relativity. The former uses Newtonian gravity in a straight line between points
+but the latter moves data points along the geodesics of spacetime manifold. For
+GDR with relativity gravitation, we use both Schwarzschild and Minkowski metric
+tensors to cover both general relativity and special relativity. Our
+simulations show the effectiveness of GDR in discrimination of classes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ghojogh_B/0/1/0/all/0/1&quot;&gt;Benyamin Ghojogh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sharma_S/0/1/0/all/0/1&quot;&gt;Smriti Sharma&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01850">
+<title>Hints of the Photonic Nature of the Electromagnetic fields in Classical Electrodynamics and its connection to the electronic charge and vacuum energy density. (arXiv:2211.01850v1 [physics.class-ph])</title>
+<link>http://arxiv.org/abs/2211.01850</link>
+<description rdf:parseType="Literal">&lt;p&gt;The electromagnetic fields of a long dipole working without dispersive and
+dissipative losses are analyzed in the frequency domains. The dipole produces
+radiation in bursts of duration T/2 where T is the period of oscillation. The
+parameter studied in this paper is the energy, U, dissipated in a single burst
+of radiation of duration T/2. We have studied how U vary as a function of the
+charge associated with the current in the dipole and the ratio of the length of
+the dipole and its radius. We have observed a remarkable result when this ratio
+is equal to the ratio of the radius of the universe to the Bohr radius. Our
+results, based purely on the classical electrodynamics and general relativity,
+show that, as the magnitude of the oscillating charge (as defined by the root
+mean square) reduces to the electronic charge, the energy dissipated in a
+single burst of radiation reduces to hv, where v is the frequency of
+oscillation and h is the Planck constant. The importance of this finding is
+discussed. In particular, the results show that the existence of a minimum free
+charge in nature, i.e., electronic charge, is a direct consequence of the
+photonic nature of the electromagnetic fields. Furthermore, the presented
+findings allow to derive for the first time an expression for the vacuum energy
+density of the universe in terms of the other fundamental constants in nature,
+the prediction of which is consistent with experimental observations. This
+equation, which combines the vacuum energy, electronic charge and mass, speed
+of light, gravitational constant and Planck constant, creates a link between
+classical field theories (i.e., classical electrodynamics and general
+relativity) and quantum mechanics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Cooray_V/0/1/0/all/0/1&quot;&gt;Vernon Cooray&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Cooray_G/0/1/0/all/0/1&quot;&gt;Gerald Cooray&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rubinstein_M/0/1/0/all/0/1&quot;&gt;Marcos Rubinstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Rachidi_F/0/1/0/all/0/1&quot;&gt;Farhad Rachidi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01968">
+<title>Longitudinal waves dispersion control through the affine deformation of the interlaced wire medium. (arXiv:2211.01968v1 [physics.class-ph])</title>
+<link>http://arxiv.org/abs/2211.01968</link>
+<description rdf:parseType="Literal">&lt;p&gt;We have studied dispersion properties of interlaced wire media with geometry
+deformed by affine transformation. It is revealed that the metamaterials
+support eigenmodes with longitudinal polarization at low frequency range for
+all deformations. The isofrequency surfaces of the matamaterial are centered at
+the points at the edges of the Brillouin zone (not at Gamma-point) and have
+shape of ellipsoids. The refraction indexes corresponding to the ellipsoids are
+analysed both analytically and numerically.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sakhno_D/0/1/0/all/0/1&quot;&gt;Denis Sakhno&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Koreshin_E/0/1/0/all/0/1&quot;&gt;Eugene Koreshin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Belov_P/0/1/0/all/0/1&quot;&gt;Pavel A. Belov&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01995">
+<title>Computing zero-group-velocity points in anisotropic elastic waveguides: globally and locally convergent methods. (arXiv:2211.01995v1 [physics.class-ph])</title>
+<link>http://arxiv.org/abs/2211.01995</link>
+<description rdf:parseType="Literal">&lt;p&gt;Dispersion curves of elastic waveguides exhibit points where the group
+velocity vanishes while the wavenumber remains finite. These are the so-called
+zero-group-velocity (ZGV) points. As the elastodynamic energy at these points
+remains confined close to the source, they are of practical interest for
+nondestructive testing and quantitative characterization of structures. These
+applications rely on the correct prediction of the ZGV points. In this
+contribution, we first model the ZGV resonances in anisotropic plates based on
+the appearance of an exceptional mode. The resulting governing equation is
+interpreted as a two-parameter eigenvalue problem. We then present three
+complementary numerical procedures capable of computing ZGV points in arbitrary
+nondissipative elastic waveguides. The first method is globally convergent and
+guarantees to find all ZGV points but can only be used for small problems. The
+second procedure is a very fast, generally-applicable, Newton-type iteration
+that is locally convergent and requires initial guesses. The third method
+combines both kind of approaches and yields a procedure that is applicable to
+large problems, does not require initial guesses and is likely to find all ZGV
+points.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kiefer_D/0/1/0/all/0/1&quot;&gt;Daniel A. Kiefer&lt;/a&gt; (1), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Plestenjak_B/0/1/0/all/0/1&quot;&gt;Bor Plestenjak&lt;/a&gt; (2), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Gravenkamp_H/0/1/0/all/0/1&quot;&gt;Hauke Gravenkamp&lt;/a&gt; (3), &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Prada_C/0/1/0/all/0/1&quot;&gt;Claire Prada&lt;/a&gt; (1) ((1) Institut Langevin, ESPCI Paris, Universit&amp;#xe9; PSL, CNRS, Paris, France, (2) Faculty of Mathematics and Physics, University of Ljubljana, Ljubljana, Slovenia, (3) International Centre for Numerical Methods in Engineering (CIMNE), Barcelona, Spain)</dc:creator>
+</item>
+</rdf:RDF>
