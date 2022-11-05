@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/twiceremoved" rel="self" type="application/rss+xml"/>
+    <title>Twice Removed</title>
+    <link>https://www.gimletmedia.com/twice-removed</link>
+    <language>en</language>
+    <copyright></copyright>
+    <description>A new family history podcast hosted by A.J. Jacobs. They say we’re one big family: this is the show that proves it. You will be filled with delight… or abject horror. You never know. It’s family.</description>
+    <image>
+      <url>https://megaphone.imgix.net/podcasts/b6b73ee2-4dcc-11e6-bd55-271cec7e2f03/image/uploads_2F1480520028987-qstg7hw3g1f8tc3n-d6e3d25e2e12032a52baad6b4a91f9a4_2FGimlet_Twice-Removed-show-art-3000px.png?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress</url>
+      <title>Twice Removed</title>
+      <link>https://www.gimletmedia.com/twice-removed</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>A new family history podcast from Gimlet Media. They say we're one big family: this is the show that proves it.</itunes:subtitle>
+    <itunes:author>Gimlet</itunes:author>
+    <itunes:summary>A new family history podcast hosted by A.J. Jacobs. They say we’re one big family: this is the show that proves it. You will be filled with delight… or abject horror. You never know. It’s family.</itunes:summary>
+    <content:encoded>
+      <![CDATA[<p>A new family history podcast hosted by A.J. Jacobs. They say we’re one big family: this is the show that proves it. You will be filled with delight… or abject horror. You never know. It’s family.</p>]]>
+    </content:encoded>
+    <itunes:owner>
+      <itunes:name></itunes:name>
+      <itunes:email>admin@gimletmedia.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://megaphone.imgix.net/podcasts/b6b73ee2-4dcc-11e6-bd55-271cec7e2f03/image/uploads_2F1480520028987-qstg7hw3g1f8tc3n-d6e3d25e2e12032a52baad6b4a91f9a4_2FGimlet_Twice-Removed-show-art-3000px.png?ixlib=rails-2.1.2&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+    <itunes:category text="History">
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture">
+    </itunes:category>
+    <itunes:category text="Science">
+      <itunes:category text="Social Sciences"/>
+    </itunes:category>
+    <itunes:new-feed-url>https://feeds.megaphone.fm/twiceremoved</itunes:new-feed-url>
+  </channel>
+</rss>
