@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>q-bio.QM updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Quantitative Biology -- Quantitative Methods (q-bio.QM) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Quantitative Biology -- Quantitative Methods</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01885" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.13825" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.02645" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.01123" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01885">
+<title>Using U-Net Network for Efficient Brain Tumor Segmentation in MRI Images. (arXiv:2211.01885v1 [eess.IV])</title>
+<link>http://arxiv.org/abs/2211.01885</link>
+<description rdf:parseType="Literal">&lt;p&gt;Magnetic Resonance Imaging (MRI) is the most commonly used non-intrusive
+technique for medical image acquisition. Brain tumor segmentation is the
+process of algorithmically identifying tumors in brain MRI scans. While many
+approaches have been proposed in the literature for brain tumor segmentation,
+this paper proposes a lightweight implementation of U-Net. Apart from providing
+real-time segmentation of MRI scans, the proposed architecture does not need
+large amount of data to train the proposed lightweight U-Net. Moreover, no
+additional data augmentation step is required. The lightweight U-Net shows very
+promising results on BITE dataset and it achieves a mean
+intersection-over-union (IoU) of 89% while outperforming the standard benchmark
+algorithms. Additionally, this work demonstrates an effective use of the three
+perspective planes, instead of the original three-dimensional volumetric
+images, for simplified brain tumor segmentation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Walsh_J/0/1/0/all/0/1&quot;&gt;Jason Walsh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Othmani_A/0/1/0/all/0/1&quot;&gt;Alice Othmani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Jain_M/0/1/0/all/0/1&quot;&gt;Mayank Jain&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/eess/1/au:+Dev_S/0/1/0/all/0/1&quot;&gt;Soumyabrata Dev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.13825">
+<title>On the role of theory and modeling in neuroscience. (arXiv:2003.13825v5 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.13825</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, the field of neuroscience has gone through rapid
+experimental advances and a significant increase in the use of quantitative and
+computational methods. This growth has created a need for clearer analyses of
+the theory and modeling approaches used in the field. This issue is
+particularly complex in neuroscience because the field studies phenomena across
+a wide range of scales and often requires consideration of these phenomena at
+varying degrees of abstraction, from precise biophysical interactions to the
+computations they implement. We argue that a pragmatic perspective of science,
+in which descriptive, mechanistic, and normative approaches each play a
+distinct role in defining and bridging levels of abstraction will facilitate
+neuroscientific practice. This analysis leads to methodological suggestions,
+including selecting a level of abstraction that is appropriate for a given
+problem, identifying transfer functions to connect models and data, and the use
+of models themselves as a form of experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Levenstein_D/0/1/0/all/0/1&quot;&gt;Daniel Levenstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Alvarez_V/0/1/0/all/0/1&quot;&gt;Veronica A. Alvarez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Amarasingham_A/0/1/0/all/0/1&quot;&gt;Asohan Amarasingham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Azab_H/0/1/0/all/0/1&quot;&gt;Habiba Azab&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhe Sage Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Gerkin_R/0/1/0/all/0/1&quot;&gt;Richard C. Gerkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Hasenstaub_A/0/1/0/all/0/1&quot;&gt;Andrea Hasenstaub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Iyer_R/0/1/0/all/0/1&quot;&gt;Ramakrishnan Iyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jolivet_R/0/1/0/all/0/1&quot;&gt;Renaud B. Jolivet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Marzen_S/0/1/0/all/0/1&quot;&gt;Sarah Marzen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Monaco_J/0/1/0/all/0/1&quot;&gt;Joseph D. Monaco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Prinz_A/0/1/0/all/0/1&quot;&gt;Astrid A. Prinz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Quraishi_S/0/1/0/all/0/1&quot;&gt;Salma Quraishi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Santamaria_F/0/1/0/all/0/1&quot;&gt;Fidel Santamaria&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Shivkumar_S/0/1/0/all/0/1&quot;&gt;Sabyasachi Shivkumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Singh_M/0/1/0/all/0/1&quot;&gt;Matthew F. Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Traub_R/0/1/0/all/0/1&quot;&gt;Roger Traub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Rotstein_H/0/1/0/all/0/1&quot;&gt;Horacio G. Rotstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nadim_F/0/1/0/all/0/1&quot;&gt;Farzan Nadim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Redish_A/0/1/0/all/0/1&quot;&gt;A. David Redish&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.02645">
+<title>PyDaddy: A Python package for discovering stochastic dynamical equations from timeseries data. (arXiv:2205.02645v2 [q-bio.QM] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.02645</link>
+<description rdf:parseType="Literal">&lt;p&gt;Most real-world ecological dynamics, ranging from ecosystem dynamics to
+collective animal movement, are inherently stochastic in nature. Stochastic
+differential equations (SDEs) are a popular modelling framework to model
+dynamics with intrinsic randomness. Here, we focus on the inverse question: If
+one has empirically measured time-series data from some system of interest, is
+it possible to discover the SDE model that best describes the data. Here, we
+present PyDaddy (PYthon library for DAta Driven DYnamics), a toolbox to
+construct and analyze interpretable SDE models based on time-series data. We
+combine traditional approaches for data-driven SDE reconstruction with an
+equation learning approach, to derive symbolic equations governing the
+stochastic dynamics. The toolkit is presented as an open-source Python library,
+and consists of tools to construct and analyze SDEs. Functionality is included
+for visual examination of the stochastic structure of the data, guided
+extraction of the functional form of the SDE, and diagnosis and debugging of
+the underlying assumptions and the extracted model. Using simulated time-series
+datasets, exhibiting a wide range of dynamics, we show that PyDaddy is able to
+correctly identify underlying SDE models. We demonstrate the applicability of
+the toolkit to real-world data using a previously published movement data of a
+fish school. Starting from the time-series of the observed polarization of the
+school, pyDaddy readily discovers the SDE model governing the dynamics of group
+polarization. The model recovered by PyDaddy is consistent with the previous
+study. In summary, stochastic and noise-induced effects are central to the
+dynamics of many biological systems. In this context, we present an easy-to-use
+package to reconstruct SDEs from timeseries data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nabeel_A/0/1/0/all/0/1&quot;&gt;Arshed Nabeel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Karichannavar_A/0/1/0/all/0/1&quot;&gt;Ashwin Karichannavar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Palathingal_S/0/1/0/all/0/1&quot;&gt;Shuaib Palathingal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jhawar_J/0/1/0/all/0/1&quot;&gt;Jitesh Jhawar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+M_D/0/1/0/all/0/1&quot;&gt;Danny Raj M&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Guttal_V/0/1/0/all/0/1&quot;&gt;Vishwesha Guttal&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.01123">
+<title>Towards Learned Simulators for Cell Migration. (arXiv:2210.01123v2 [q-bio.QM] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.01123</link>
+<description rdf:parseType="Literal">&lt;p&gt;Simulators driven by deep learning are gaining popularity as a tool for
+efficiently emulating accurate but expensive numerical simulators. Successful
+applications of such neural simulators can be found in the domains of physics,
+chemistry, and structural biology, amongst others. Likewise, a neural simulator
+for cellular dynamics can augment lab experiments and traditional computational
+methods to enhance our understanding of a cell&apos;s interaction with its physical
+environment. In this work, we propose an autoregressive probabilistic model
+that can reproduce spatiotemporal dynamics of single cell migration,
+traditionally simulated with the Cellular Potts model. We observe that standard
+single-step training methods do not only lead to inconsistent rollout
+stability, but also fail to accurately capture the stochastic aspects of the
+dynamics, and we propose training strategies to mitigate these issues. Our
+evaluation on two proof-of-concept experimental scenarios shows that neural
+methods have the potential to faithfully simulate stochastic cellular dynamics
+at least an order of magnitude faster than a state-of-the-art implementation of
+the Cellular Potts model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Minartz_K/0/1/0/all/0/1&quot;&gt;Koen Minartz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Poels_Y/0/1/0/all/0/1&quot;&gt;Yoeri Poels&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Menkovski_V/0/1/0/all/0/1&quot;&gt;Vlado Menkovski&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
