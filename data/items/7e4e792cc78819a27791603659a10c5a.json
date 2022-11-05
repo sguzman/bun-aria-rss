@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40287 (php_point_of_sale)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40287",
+  "description": "The application was found to be vulnerable to an authenticated Stored Cross-Site Scripting (XSS) vulnerability in messaging functionality, leading to privilege escalation or a compromise of a targeted account.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

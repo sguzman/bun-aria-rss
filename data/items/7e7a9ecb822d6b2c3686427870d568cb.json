@@ -1,0 +1,14 @@
+{
+  "title": "Householder matrices",
+  "link": "http://fa.bianp.net/blog/2013/householder-matrices/",
+  "description": "<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n  equationNumbers: { autoNumber: \"AMS\" },\n  extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n\n<script type=\"text/javascript\" async\n  src=\"/js/mathjax@2.7.5/MathJax.js\">\n</script>\n\n<p>Householder matrices are square matrices of the form</p>\n<p>$$ P = I - \\beta v v^T$$</p>\n<p>where $\\beta$ is a scalar and $v$ is …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 30 Mar 2013 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2013-03-30:/blog/2013/householder-matrices/",
+  "category": [
+    "misc",
+    "linear algebra",
+    "householder",
+    "QR"
+  ]
+}

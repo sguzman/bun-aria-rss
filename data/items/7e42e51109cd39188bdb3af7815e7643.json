@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:88dOvcz_dQk",
+  "yt:videoId": "88dOvcz_dQk",
+  "yt:channelId": "UC5miyvhPsWWyfTulnJ43koQ",
+  "title": "TTC The Pit and the Pendulums & Re-Enter 0xA",
+  "link": "",
+  "author": {
+    "name": "UncommentatedPannen",
+    "uri": "https://www.youtube.com/channel/UC5miyvhPsWWyfTulnJ43koQ"
+  },
+  "published": "2022-07-06T23:30:59+00:00",
+  "updated": "2022-07-12T17:30:18+00:00",
+  "media:group": {
+    "media:title": "TTC The Pit and the Pendulums & Re-Enter 0xA",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We collect the star The Pit and the Pendulums and re-enter Tick Tock Clock using 0 A presses. This is TAS.\n\nThis is one of three ABC improvements being released today, which are:\n(1) TTC The Pit and the Pendulums & Re-Enter 0xA: https://youtu.be/88dOvcz_dQk\n(2) TTC Timed Jumps on Moving Bars 0xA: https://youtu.be/MftULlmg7gE\n(3) TTC Stomp on the Thwomp 1xA: https://youtu.be/_6bVGoGDchU\nTogether, these improvements save 3 A presses (1 from each strat), thereby reducing the total A press count for collecting 120 stars from 19 to 16.\n\nCredit to the following people:\n➤ ds273, for coming up with most of the plan: https://youtu.be/ePvULgrXAOw\n➤ Sjmhrp, for figuring out the squish cancel ground pound chain part of the plan and TASing those parts: https://youtu.be/01obxXOkQ4g\n➤ Marbler, for fine-tuning parts of the plan, organizing all of the steps, and helping with the TASing: https://youtu.be/C_7a-D014wE\n➤ DeRockProject, for creating the trailer and helping with the TASing: https://youtu.be/bvwyR-tBC28\n➤ fifdspence, for TASing the beginning of TTM: https://youtu.be/2ur4AkXtENM\n\nThis video is an improvement from the previous strat that did this in 1 A press (https://youtu.be/3UW5KSvtBcU). Since then, ds273 came up with a complex plan that would save the A press needed to get past the pole. Over time, a lot of the pieces of the plan were confirmed to work and even improved upon. This includes the finding of Behind Camera Anywhere, which is a HOLP preservation technique that works by having Mario go behind the camera (https://youtu.be/C38He-OUAYk). But one piece of the plan remained seemingly impossible to pull off, which was performing a squish cancel ground pound chain using the pendulum to go from the lower walkway to behind the cage. Fortunately, Sjmhrp entered the scene, and began working on this task. Over an 8 month period, she put over 1000 working hours into various programs, which ran 24/7 during this period. After 10k+ computational hours, millions of pendulum angles searched, billions of permutations checked, and 1000+ lines of code across 3 languages (Java, Python, Lua), a solution was found (https://youtu.be/01obxXOkQ4g). And with that last piece in place, we created TASes of the 3 improvements. If you're interested, you can read more about Sjmhrp's work here: https://pastebin.com/3fHnBX3Q\n\nThe TAS itself is composed of many steps, which I can't even keep straight in my head all at once. Nevertheless, here's the blueprint that we used during the TAS creation, which shows each of the steps and how they overlap between the 3 strats: https://i.imgur.com/DMC9g3P.png\n\nNote that I've taken some steps to aid in viewer understanding of what's going on. These include:\n(1) Making certain walls temporarily see-through.\n(2) Adding auxiliary screens when Mario goes off camera.\n(3) On the auxiliary screen that shows Mario, making Mario have a vanish cap during the frames on which he's considered off-camera (when the HOLP doesn't update).\n\nNote that when recording the footage for these new saves, I saved time and effort by reusing footage between stars when the inputs and visuals between the stars were the same. So in case you observe any slight irregularities in the saved coin count or stars shown collected on the pause menu, that's why.\n\nUnabridged Version: https://youtu.be/nYjqAbowsXs\nConsole Verification: https://www.twitch.tv/videos/1523203289?t=0h12m50s\n\nABC Playlist: https://www.youtube.com/playlist?list=PLmvvhlevqC2d6vis077yFHuLJHYtTtqe_\nABC Routes: https://docs.google.com/document/d/1ypRVVRyf4x-v8GqCSmKYnicrfKSIjao3Y1ZVl52RIyM/edit",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

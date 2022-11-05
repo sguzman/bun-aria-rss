@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3661 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3661",
+  "description": "Insufficient data validation in Extensions in Google Chrome prior to 107.0.5304.62 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted Chrome Extension. (Chrome security severity: Low)",
+  "dc:date": "2022-11-01T23:15:19Z"
+}
