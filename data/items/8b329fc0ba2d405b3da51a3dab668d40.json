@@ -1,0 +1,12 @@
+{
+  "title": "Intro to Python for Financial Data Analysis at General Assembly",
+  "link": "",
+  "published": "2012-06-22T00:00:00-07:00",
+  "updated": "2012-06-22T00:00:00-07:00",
+  "author": {
+    "name": "Wes McKinney"
+  },
+  "id": "tag:wesmckinney.com,2012-06-22:/blog/intro-to-python-for-financial-data-analysis-at-general-assembly/",
+  "summary": "<p>I taught a class this past Monday, June 18, at <a href=\"http://generalassemb.ly/education/\" title=\"General Assembly\" target=\"_blank\">General Assembly</a>. Here are the (very brief) slides and a <a href=\"http://wesmckinney.com/files/20120618/notebooks.zip\" title=\"6/18 Notebooks\" target=\"_blank\">link to the IPython notebooks</a>. You'll need at least <a href=\"http://pandas.pydata.org/getpandas.html\" title=\"pandas download\" target=\"_blank\">pandas 0.8.0b2</a>, though unfortunately I identified a few bugs during the class that have since been fixed. Look out …</p>",
+  "content": "<p>I taught a class this past Monday, June 18, at <a href=\"http://generalassemb.ly/education/\" title=\"General Assembly\" target=\"_blank\">General Assembly</a>. Here are the (very brief) slides and a <a href=\"http://wesmckinney.com/files/20120618/notebooks.zip\" title=\"6/18 Notebooks\" target=\"_blank\">link to the IPython notebooks</a>. You'll need at least <a href=\"http://pandas.pydata.org/getpandas.html\" title=\"pandas download\" target=\"_blank\">pandas 0.8.0b2</a>, though unfortunately I identified a few bugs during the class that have since been fixed. Look out for the final release of pandas 0.8.0 any day now.</p>\n<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/80nJHax9y8Tuhj\" width=\"425\" height=\"355\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen> </iframe>\n<div style=\"margin-bottom:5px\"> <strong> <a href=\"//www.slideshare.net/wesm/intro-to-python-for-financial-data-analysis\" title=\"Intro to Python for Financial Data Analysis\" target=\"_blank\">Intro to Python for Financial Data Analysis</a> </strong> from <strong><a href=\"//www.slideshare.net/wesm\" target=\"_blank\">Wes McKinney</a></strong> </div>"
+}

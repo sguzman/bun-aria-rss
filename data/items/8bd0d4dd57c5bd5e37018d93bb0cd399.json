@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:16hgaQ9c2Rc",
+  "yt:videoId": "16hgaQ9c2Rc",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "Smoke and Mirrors",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-12-05T09:37:52+00:00",
+  "updated": "2022-06-18T08:56:17+00:00",
+  "media:group": {
+    "media:title": "Smoke and Mirrors",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "http://dperrysvendsen.wordpress.com/2014/12/05/smoke-and-mirrors/\n\nThis program is a physics-based puzzle game in written in C#, in which the player must direct coloured laser beams onto their corresponding targets. This can involve reflecting the beams off rotating mirrors and splitting beams into their constituent colours by passing them through glass, while avoiding areas of smoke through which the beams cannot pass.\n\nThis involves the program calculating the trajectory of each beam on the fly. When a beam is updated, it has an initial position and angle. These values are used to generate a new point a short distance from the previous. If the beam collides with a mirror, the new angle is calculated according to the law of reflection, which states that the angle of reflection is equal to the angle of incidence, relative to the normal (which in this case is perpendicular to the mirror).\n\nThis process repeats until the beam collides with certain objects or leaves the screen. To avoid extremely long beams causing a performance hit, the iteration count is capped at 10,000. If the beam hits glass, several new beams of different colours will be created in its place. Whilst this bears little resemblance to how refraction actually works, it does make for an interesting game mechanic.\n\nFor this system to work as intended, I had to figure out how to check for collisions between a beam and mirror. For objects with a rectangular hitbox, this is extremely simple, but accounting for an angled line effectively only one pixel thick presents some issues. I’d originally tried using an implementation of the Bresenham line algorithm to generate an array of points along the line, then checking each individually, but it was clear this was far too inefficient and wouldn’t scale well.\n\nI eventually settled on checking the distance between the specified point on the beam and one of the edges of the mirror. If result was less than the length of the mirror, then it was possible that the two points are overlapping. The corresponding point on the mirror (based on this distance value) can then be checked. This method was much more suitable, and was able to generate the same results in only two steps.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

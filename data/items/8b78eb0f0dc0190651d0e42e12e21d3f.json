@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:yZckqcRZK1s",
+  "yt:videoId": "yZckqcRZK1s",
+  "yt:channelId": "UCfuj1MM5p37CRzWYPv_PsWA",
+  "title": "code.talks 2022 - The power of mocking APIs",
+  "link": "",
+  "author": {
+    "name": "code.talks (ehem. Developer Conference)",
+    "uri": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA"
+  },
+  "published": "2022-11-01T14:10:54+00:00",
+  "updated": "2022-11-01T14:10:54+00:00",
+  "media:group": {
+    "media:title": "code.talks 2022 - The power of mocking APIs",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Shivani Gaba\n\nBlocked because the API you depend on doesn’t exist yet or isn’t completely ready? Facing trouble to test various scenarios due to lack of control over third-party APIs? Struggling to verify failure cases like receiving an invalid response , 5XX errors and so on? Having flaky tests due to slow API responses?\nThese are some very common problems we encounter. We cannot rely on slow APIs, which provide a very narrow range of responses. So how can we test effectively in such situations? Is there any feasible solution available? Fortunately, there is: mocking of APIs.\nIn this session, I will explain how to stub APIs using Wiremock. With a real life example application, we’ll explore how to handle complicated scenarios and form testing strategies. Join this session to gain insights on how, when, and most importantly why we should stub APIs. Let’s find together how development and testing can benefit from mocks.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

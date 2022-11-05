@@ -1,0 +1,9 @@
+{
+  "title": "Filtering for English Tweets: Unsupervised Language Detection on Twitter",
+  "link": "http://blog.echen.me/2011/05/01/unsupervised-language-detection-algorithms/",
+  "description": "<div class=\"entry-content\"><p>(See a demo <a href=\"http://babel-fett.heroku.com/\">here</a>.)</p>\n\n  <p>While working on a Twitter sentiment analysis project, I ran into the problem of needing to filter out all non-English tweets. (Asking the Twitter API for English-only tweets doesn&#8217;t seem to work, as it nonetheless returns tweets in Spanish, Portuguese, Dutch, Russian, and a couple …</p></div>",
+  "dc:creator": "Edwin Chen",
+  "pubDate": "Sun, 01 May 2011 04:15:00 +0200",
+  "guid": "tag:blog.echen.me,2011-05-01:/2011/05/01/unsupervised-language-detection-algorithms/",
+  "category": "misc"
+}
