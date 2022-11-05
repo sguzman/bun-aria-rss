@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Datanice</title>
+	<atom:link href="https://datanice.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://datanice.wordpress.com</link>
+	<description>Exploring the world with data</description>
+	<lastBuildDate>Wed, 15 Jun 2016 03:48:07 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='datanice.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://s0.wp.com/i/buttonw-com.png</url>
+		<title>Datanice</title>
+		<link>https://datanice.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://datanice.wordpress.com/osd.xml" title="Datanice" />
+	<atom:link rel='hub' href='https://datanice.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>New website, new possibilities !</title>
+		<link>https://datanice.wordpress.com/2016/06/15/new-website-new-possibilities/</link>
+					<comments>https://datanice.wordpress.com/2016/06/15/new-website-new-possibilities/#respond</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Wed, 15 Jun 2016 03:48:07 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=313</guid>
+
+					<description><![CDATA[We moved Datanice to datanice.github.io Come check our new content ! &#160;]]></description>
+										<content:encoded><![CDATA[<p>We moved Datanice to <a href="https://datanice.github.io" target="_blank">datanice.github.io</a></p>
+<p>Come check our new content !</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2016/06/15/new-website-new-possibilities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Step by step Kaggle competition tutorial</title>
+		<link>https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/</link>
+					<comments>https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/#comments</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Sun, 10 Apr 2016 21:31:08 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=75</guid>
+
+					<description><![CDATA[Kaggle is a Data Science community where thousands of Data Scientists compete to solve complex data problems. In this article we are going to see how to go through a Kaggle competition step by step. The contest explored here is the San Francisco Crime Classification contest. The goal is to classify a crime occurrence knowing [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.kaggle.com/" target="_blank">Kaggle</a> is a Data Science community where thousands of Data Scientists compete to solve complex data problems.</p>
+<p>In this article we are going to see how to go through a Kaggle competition step by step.</p>
+<p>The contest explored here is the <a href="https://www.kaggle.com/c/sf-crime/scripts" target="_blank">San Francisco Crime Classification contest</a>. The goal is to classify a crime occurrence knowing the time and place it happened.</p>
+<p><img data-attachment-id="258" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-100615/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png" data-orig-size="600,289" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 10:06:15" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=525" class=" size-full wp-image-258 aligncenter" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=525" alt="Screenshot from 2016-04-10 10:06:15.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png 600w" sizes="(max-width: 525px) 100vw, 525px"   /></p>
+<p><span id="more-75"></span></p>
+<p>Here, the objectives are fixed by Kaggle. In general, when starting a Data Science project, one of the most important steps is the <strong>business understanding</strong> and the <strong>definition of the scope and objectives of the project</strong>.</p>
+<h1>Data understanding :</h1>
+<p>For data exploration I like to use IPython Notebook which allows you to run your scripts line by line:</p>
+<pre><code>
+import pandas as pd
+df = pd.read_csv('train.csv')
+len(df) #884262
+df.head()
+</code></pre>
+<p><img data-attachment-id="170" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-083138/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png" data-orig-size="958,262" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 08:31:38" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=525" class="alignnone size-full wp-image-170" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=525" alt="Screenshot from 2016-04-10 08:31:38.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png?w=768 768w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png 958w" sizes="(max-width: 525px) 100vw, 525px"   /></p>
+<p>We have 800k data points in our training set covering about ten years of crime. We have enough data points. No need to search for other sources to complete our training set for now.</p>
+<p>A simple pandas function which allows to find outliers in the data is :</p>
+<p><code> df.describe() </code></p>
+<p><img data-attachment-id="127" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-09-221756/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png" data-orig-size="346,243" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-09 22:17:56" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png?w=346" class="alignnone size-full wp-image-127" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png?w=525" alt="Screenshot from 2016-04-09 22:17:56.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png 346w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png?w=300 300w" sizes="(max-width: 346px) 100vw, 346px"   /></p>
+<p>Looking at this description we can think that we have some outliers in the data. A x,y graph plot confirms the outliers hypothesis.</p>
+<p><code> plt.plot(df.X,df.Y,'o', markersize=7) </code></p>
+<p><img data-attachment-id="152" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/figure_1/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/figure_1.png" data-orig-size="812,562" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="figure_1" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/figure_1.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/figure_1.png?w=525" class="alignnone size-full wp-image-152" src="https://datanice.files.wordpress.com/2016/04/figure_1.png?w=525" alt="figure_1.png" srcset="https://datanice.files.wordpress.com/2016/04/figure_1.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/figure_1.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/figure_1.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/figure_1.png?w=768 768w, https://datanice.files.wordpress.com/2016/04/figure_1.png 812w" sizes="(max-width: 525px) 100vw, 525px"   /></p>
+<p>&nbsp;</p>
+<p>Here we don&#8217;t have any <strong>missing data</strong> , but it&#8217;s very important to look for missing values in your data. We &#8216;ll see how to deal with them in the next step.</p>
+<pre><code>
+empty = df.apply(lambda col: pd.isnull(col))
+</code></pre>
+<p>When cleaning the data it&#8217;s also useful to draw histograms of different categorical attributes to see if some categories are under represented.</p>
+<p><img data-attachment-id="173" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-084532/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png" data-orig-size="611,448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 08:45:32" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=525" class="alignnone size-full wp-image-173" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=525" alt="Screenshot from 2016-04-10 08:45:32.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png 611w" sizes="(max-width: 525px) 100vw, 525px"   /></p>
+<p>In the visualization below, every line represents a category of crime. Each point shows the number of crimes of a category within a year window. This representation shows that the year is important in determining the crime category. For example, looking at the yellow line (car thefts) we see a notable decrease over the years. We can do the same plot for months, hours, days of the month, days of the week&#8230; (using the timestamp attribute).</p>
+<div data-shortcode="caption" id="attachment_162" style="width: 719px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-162" data-attachment-id="162" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-082407/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png" data-orig-size="709,456" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 08:24:07" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=525" class="alignnone size-full wp-image-162" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=525" alt="Screenshot from 2016-04-10 08:24:07.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png 709w" sizes="(max-width: 525px) 100vw, 525px"   /><p id="caption-attachment-162" class="wp-caption-text">Frequency of crime categories per year per crime category</p></div>
+<p>Other data exploration and understanding techniques:</p>
+<ul>
+<li>Boxplots for outliers detection</li>
+<li>Scatter plots and <strong>scatter matrix</strong> to see attribute correlation and distribution.</li>
+</ul>
+<h1>Data preparation :</h1>
+<p>Sometimes, when training your models, it&#8217;s a good idea to sample the data and take only a part of it for training. Some models have a big computation cost and would take forever to run with a large number of training points.</p>
+<h2>Dealing with outliers and missing data</h2>
+<p>When preparing the data we have to decide what to do with the outliers, or missing data. Should we delete them ? Or predict the values ? There is no correct answer. If your objective is to optimize a performance indicator then you should try both solutions and choose whichever one gives the best performance result.</p>
+<h2>Feature engineering</h2>
+<p>Feature engineering is a good way to climb the Kaggle leader board. You can come up with smart combinations of attributes and build new ones depending on your &#8220;feeling&#8221;.</p>
+<p>For example in our data, we have an address column which contains either a street address or a crossroad. We can create a new feature <em>crimeHappenedInCrossRoad</em> that contains true if we are in a crossroad and false in the other case.</p>
+<p>More evident features to add : the date columns. We can use the timestamp column to get the year, month, day of month, day of week, hour, minute of the crime. Of course some of these features can be useless and could even harm your prediction score. Choose wisely!</p>
+<h2><strong>Formatting the data</strong></h2>
+<p>Some Predictive Models and some implementations of Predictive models do not allow the use of nominal categories (like our District Column). A simple way of getting around it is to binarize this attribute.</p>
+<pre><code>
+df = pd.concat([df,pd.get_dummies(df['PdDistrict'])], axis=1, join_axes=[df.index])
+</code></pre>
+<h1><strong>Data Analysis :<br />
+</strong></h1>
+<p>In order to improve your Kaggle score you have to <strong>try different models and algorithms</strong>. For every model, you can try different feature sets and data pre-processings.</p>
+<p>If you &#8216;re using a scripting tool, you can write a script that would take the different data pre-processings as a parameter and automate the testing.</p>
+<p>Below is a plot showing the performance of Random Forest Trees <strong>using different data pre-processings</strong>.</p>
+<p><img data-attachment-id="217" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-093227/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png" data-orig-size="882,473" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 09:32:27" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=525" class="alignnone size-full wp-image-217" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=525" alt="Screenshot from 2016-04-10 09:32:27.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png?w=768 768w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png 882w" sizes="(max-width: 525px) 100vw, 525px"   /></p>
+<p>Next, you have to <strong>optimize your algorithm parameters</strong> for the best prediction. Some libraries and tools can do the job for you (like the scikit-learn grid search).</p>
+<div data-shortcode="caption" id="attachment_225" style="width: 560px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-225" data-attachment-id="225" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/screenshot-from-2016-04-10-094033/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png" data-orig-size="550,438" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2016-04-10 09:40:33" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=525" class="alignnone size-full wp-image-225" src="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=525" alt="Screenshot from 2016-04-10 09:40:33.png" srcset="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=525 525w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=150 150w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png?w=300 300w, https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png 550w" sizes="(max-width: 525px) 100vw, 525px"   /><p id="caption-attachment-225" class="wp-caption-text">Logloss representation for different values of Random Forest parameters</p></div>
+<p>I also wanted to share a library that I recently stumbled upon, the<a href="http://yandex.github.io/rep/estimators.html"> REP library</a>. It&#8217;s a python library that offers wrappers for popular Machine learning libraries like Scikit Learn, XGBoost, Theanets, Neurolab and PyBrain. This library can simplify your automation scripts to test different libraries with the same code but it also allows you to combine the libraries tools. Like for example <strong>running bagging over complex algorithms</strong> or <strong>boosting Neural nets</strong> !</p>
+<pre><code>base_xgb = XGBoostClassifier(n_estimators=20)
+ada_xgb = SklearnClassifier(AdaBoostClassifier(base_estimator=base_xgb, n_estimators=5))
+ada_xgb.fit(train_data[variables], train_labels)</code></pre>
+<h1>Data visualization :</h1>
+<p>One of the objectives of the competition was to build visualizations to help getting insights from the data.</p>
+<p>Below are two 5-dimension maps showing crime &#8220;trends&#8221; depending on the hour of the day for the first map and the year for the second one.</p>
+<p>The longitude is coded on the X axis<br />
+The latitude on the Y axis<br />
+The crime category is coded by the color<br />
+The crime frequency by the opacity<br />
+The time (hour/year) is shown in the animation.</p>
+<div data-shortcode="caption" id="attachment_243" style="width: 956px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-243" data-attachment-id="243" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/output_1tvmzy/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/output_1tvmzy.gif" data-orig-size="946,675" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="output_1tVmzy" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/output_1tvmzy.gif?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/output_1tvmzy.gif?w=525" class="alignnone size-full wp-image-243" src="https://datanice.files.wordpress.com/2016/04/output_1tvmzy.gif?w=525" alt="output_1tVmzy.gif"   /><p id="caption-attachment-243" class="wp-caption-text">Map showing the frequency of crimes per category per hour</p></div>
+<p>&nbsp;</p>
+<div data-shortcode="caption" id="attachment_244" style="width: 1221px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-244" data-attachment-id="244" data-permalink="https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/output_vmtla1/#main" data-orig-file="https://datanice.files.wordpress.com/2016/04/output_vmtla1.gif" data-orig-size="1211,865" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="output_VmtlA1" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2016/04/output_vmtla1.gif?w=300" data-large-file="https://datanice.files.wordpress.com/2016/04/output_vmtla1.gif?w=525" class="alignnone size-full wp-image-244" src="https://datanice.files.wordpress.com/2016/04/output_vmtla1.gif?w=525" alt="output_VmtlA1.gif"   /><p id="caption-attachment-244" class="wp-caption-text">Map showing the frequency of crimes per category per year</p></div>
+<p>&nbsp;</p>
+<h1>Conclusion :</h1>
+<p>Don&#8217;t be scared to start a Kaggle competition. Start by submitting a first version without optimizing your algorithms too much. Then, once your work flow is clear, you can add new algorithms, new features and features-sets to climb the Kaggle leader board.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2016/04/10/step-by-step-kaggle-competition-tutorial/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-100615.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 10:06:15.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-083138.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 08:31:38.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-09-221756.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-09 22:17:56.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/figure_1.png" medium="image">
+			<media:title type="html">figure_1.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-084532.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 08:45:32.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-082407.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 08:24:07.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-093227.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 09:32:27.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/screenshot-from-2016-04-10-094033.png" medium="image">
+			<media:title type="html">Screenshot from 2016-04-10 09:40:33.png</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/output_1tvmzy.gif" medium="image">
+			<media:title type="html">output_1tVmzy.gif</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2016/04/output_vmtla1.gif" medium="image">
+			<media:title type="html">output_VmtlA1.gif</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Beer reviews with Recurrent Neural Networks (RNN)</title>
+		<link>https://datanice.wordpress.com/2015/10/08/beer-reviews-with-recurrent-neural-networks-rnn/</link>
+					<comments>https://datanice.wordpress.com/2015/10/08/beer-reviews-with-recurrent-neural-networks-rnn/#respond</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2015 13:27:18 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<category><![CDATA[beer]]></category>
+		<category><![CDATA[deep learning]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[rnn]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=67</guid>
+
+					<description><![CDATA[Since Andrej Karpathy conviced me of the The Unreasonable Effectiveness of Recurrent Neural Networks, I decided to give it a try as soon as possible. As I was wondering in the Wiesn in Munich for the Oktoberfest, the beer festival, I wondered how would a RNN write a beer review. The beautiful thing about recurrent neural [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Since Andrej Karpathy conviced me of the <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Recurrent Neural Networks</a>, I decided to give it a try as soon as possible.</p>
+<p>As I was wondering in the Wiesn in Munich for the Oktoberfest, the beer festival, I wondered how would a RNN write a beer review.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg"><img data-attachment-id="70" data-permalink="https://datanice.wordpress.com/2015/10/08/beer-reviews-with-recurrent-neural-networks-rnn/img_20150928_201119163/#main" data-orig-file="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg" data-orig-size="4160,2340" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;MotoG3&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1443471078&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.64&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.03001&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG_20150928_201119163" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=300" data-large-file="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=525" class="alignnone size-full wp-image-70" src="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=525" alt="IMG_20150928_201119163" srcset="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=525 525w, https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=1050 1050w, https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=150 150w, https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=300 300w, https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=768 768w, https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg?w=1024 1024w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p><span id="more-67"></span>The beautiful thing about recurrent neural networks compared with regular neural networks is that they keep a history of all the past elements in a sequence in their hidden layers. They can be very efficient at generating sequences like text or music <a href="http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/">Composing Music With Recurrent Neural Networks</a>.</p>
+<p><img src="https://i0.wp.com/karpathy.github.io/assets/rnn/charseq.jpeg" alt="" width="70%" /></p>
+<p>In the diagram above (from Andrej Karpathy blog post) , we see how the different layers are linked to each other in the RNN. Note that to train a Neural Network we can use a regular backpropagation algorithm adjusting weights to increase the score of the desired output. For the test phase, we feed each output to the next input to generate a text sample.</p>
+<p>I used the <a href="https://github.com/gjreda/beer-snob-says/blob/master/sample.txt">data</a> from Greg Reda repository, who created a beer review bot <a href="http://www.gregreda.com/2015/03/30/beer-review-markov-chains/">using Markov Chains.</a>So what do RNN think about beer ?</p>
+<blockquote><p>The smell is creamy, malty and woody, not much presence. The taste is dark fruits, and floral hops before its a strong destroy from the mouth as it warms up</p></blockquote>
+<p>We see that the vocabulary is not perfect, Here I&#8217;m using a hign temperature which makes the RNN take greater risks but causes more mistakes.</p>
+<p>With a low temperature (0.3) we get the most frequent expressions, but not too much innovation</p>
+<blockquote><p>Pours a clear golden color with a thin head that dissipated quickly. The smell is very sweet and sweet with a bit of citrus and a hint of citrus. The taste is somewhat sweet and smokey with a light bitterness to it. The body is light and creamy with a somewhat smooth finish.</p></blockquote>
+<p>Notice that we find a complete review :look, smell ,taste and body. Sometimes I also encounter grades. The RNN has not only learnt to use words and expressions but it has also learnt the layout of a beer review !</p>
+<blockquote><p>The mouthfeel is good with a slightly sweet taste. The finish is sweet and refreshing, and it was pretty good. I smell a bit of bitterness and a crisp aftertaste.</p></blockquote>
+<p>We can also force the network to use some text at the beginning, we can get some nice reviews :</p>
+<blockquote><p>This one reminds me of a porter. Pours a moderate copper colour, with a malty straw color. Thick head that stays and left leaving no lacing.</p>
+<p>This one is pretty nice. The carbonation is in the mouth, creamy and pretty drinkable. The hops are the grainy and piney flavors even the hops right off</p>
+<p>One of my new large rum. I have got to sip a good brewery. It is by the 2007 barrelard for a consume. Just no hoppiness for the point.</p>
+<p>One of my favourite of all the weizen glass.Pours a bright straw color with beige gold colored head of good carbonation. Plenty of lace. Smell is caramel malt, and yeast.</p></blockquote>
+<p>I can go on for long with this&#8230; If you want to train your own RNN, just use <a href="https://github.com/karpathy/char-rnn">Andrej&#8217;s Code on Github</a>, he also made a <a href="https://gist.github.com/karpathy/d4dee566867f8291f086">simple version in numpy/python</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2015/10/08/beer-reviews-with-recurrent-neural-networks-rnn/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/10/img_20150928_201119163.jpg" medium="image">
+			<media:title type="html">IMG_20150928_201119163</media:title>
+		</media:content>
+
+		<media:content url="http://karpathy.github.io/assets/rnn/charseq.jpeg" medium="image" />
+	</item>
+		<item>
+		<title>Sentiment analysis for Youtube channels &#8211; with NLTK</title>
+		<link>https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/</link>
+					<comments>https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/#comments</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Wed, 09 Sep 2015 19:27:21 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=48</guid>
+
+					<description><![CDATA[In this tutorial, we &#8216;ll first take a look at the Youtube API to retrieve comments data about the channel as well as basic information about the likes count and view count of the videos. Then, we will use Nltk to see most frequently used words in the comments and plot some sentiment graphs. The [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>In this tutorial, we &#8216;ll first take a look at the Youtube API to retrieve comments data about the channel as well as basic information about the likes count and view count of the videos. Then, we will use Nltk to see most frequently used words in the comments and plot some sentiment graphs.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg"><img data-attachment-id="59" data-permalink="https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/download-2/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg" data-orig-size="1800,742" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="download" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=525" class="alignnone size-full wp-image-59" src="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=525" alt="download" srcset="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=525 525w, https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=1048 1048w, https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=150 150w, https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=300 300w, https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=768 768w, https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg?w=1024 1024w" sizes="(max-width: 525px) 100vw, 525px"   /></a><br />
+<span id="more-48"></span></p>
+<h1>The Data</h1>
+<p>With the script below, we first query the video channels providing the channel ID then for every video we get a list of comments (Youtube limits this number to 20 comments per query)</p>
+<pre><code>from apiclient.discovery import build 
+import pandas as pd 
+import time
+
+DEVELOPER_KEY = "" 
+YOUTUBE_API_SERVICE_NAME = ""
+YOUTUBE_API_VERSION = ""
+
+youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=DEVELOPER_KEY)
+
+def get_videos_FromChanel(youtube, channelId,order):
+	search_response = youtube.search().list(
+ 		channelId=channelId,
+ 		type="video",
+ 		part="id,snippet",
+ 		maxResults=50,
+ 		order=order
+	).execute()
+
+	return search_response.get("items", [])
+
+def get_comment_threads(youtube, videos):
+	tempComments = []
+	for video in videos:
+		time.sleep(1.0)
+		print video["snippet"]["title"]
+  		results = youtube.commentThreads().list(
+    		part="snippet",
+    		videoId=video["id"]["videoId"],
+    		textFormat="plainText",
+    		maxResults=20,
+    		order='relevance'
+  		).execute()
+
+  		
+  		for item in results["items"]:
+  			comment = item["snippet"]["topLevelComment"]
+  			tempComment = dict(videoId=video["id"]["videoId"], videoName=video["snippet"]["title"],nbrReplies = item["snippet"]["totalReplyCount"],author = comment["snippet"]["authorDisplayName"],likes = comment["snippet"]["likeCount"],publishedAt=comment["snippet"]["publishedAt"],text = comment["snippet"]["textDisplay"].encode('utf-8').strip())
+  			tempComments.append(tempComment)
+  	
+  	return tempComments
+</code></pre>
+<p>then you can call the function using :</p>
+<pre><code>videos = get_videos_FromChanel(youtube, "CHANNEL_ID","viewCount")</code></pre>
+<h1>Statistics</h1>
+<p>Youtube has a special option to retreive the statistic data, we just have to query the video list method using the &#8220;statistic&#8221; option.</p>
+<pre><code>def getVideoInfos(videos):
+    videoList = {}
+    for search_result in videos:
+         if search_result["id"]["kind"] == "youtube#video":
+             videoList[search_result["id"]["videoId"]] = search_result["snippet"]["title"]
+
+    s = ','.join(videoList.keys())
+    videos_list_response = youtube.videos().list(id=s,part='id,statistics').execute()
+    res = []
+    for i in videos_list_response['items']:
+         temp_res = dict(v_title = videoList[i['id']])
+         temp_res.update(i['statistics'])
+         res.append(temp_res)
+
+    data = pd.DataFrame.from_dict(res)
+    data['viewCount'] = data['viewCount'].map(lambda x : float(x))
+    data['commentCount'] = data['commentCount'].map(lambda x : float(x))
+    return data
+
+data = getVideoInfos(videos)
+
+infos.sort('viewCount',ascending=0).head(20).plot(kind='bar', x='v_title',y='viewCount')
+</code></pre>
+<p>This is what I get for the view count of the <a href="https://www.youtube.com/channel/UClYb9NpXnRemxYoWbcYANsA">shots of Awe</a> videos channel:<br />
+<a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png"><img data-attachment-id="52" data-permalink="https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/screenshot-from-2015-09-09-175623/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png" data-orig-size="581,572" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-09 17:56:23" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=525" class="alignnone size-full wp-image-52" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=525" alt="Screenshot from 2015-09-09 17:56:23" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=525 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=150 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png?w=300 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png 581w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>We can have the same plots for likes counts and comments count, and plot scatter plots to see if there is a correlation between these features.</p>
+<p>We can note that the third video has only been uploaded for a few days at the time I’m writing this article, that&#8217;s what we call a buzz video.</p>
+<p>An interesting chart to plot would be the number of views/time online.</p>
+<h1>Comments analysis</h1>
+<ul>
+<li>
+<h3>Word Frequency</h3>
+</li>
+</ul>
+<p>What do people talk about in the comments ? What do they like/hate the most about the channel ?<br />
+In order to answer these questions we can look at the word frequency in the comments. We can use the &#8220;nltk&#8221; package to see the distribution :</p>
+<pre><code>import nltk
+from nltk.probability import *
+from nltk.corpus import stopwords
+import pandas as pd
+
+all = pd.read_json("comments.csv")
+
+stop_eng = stopwords.words('english')
+customstopwords =[]
+
+tokens = []
+sentences = []
+tokenizedSentences =[]
+for txt in all.text:
+    sentences.append(txt.lower())
+    tokenized = [t.lower().encode('utf-8').strip(":,.!?") for t in txt.split()]
+    tokens.extend(tokenized)
+    tokenizedSentences.append(tokenized)
+
+hashtags = [w for w in tokens if w.startswith('#')]
+ghashtags = [w for w in tokens if w.startswith('+')]
+mentions = [w for w in tokens if w.startswith('@')]
+links = [w for w in tokens if w.startswith('http') or w.startswith('www')]
+filtered_tokens = [w for w in tokens if not w in stop_eng and not w in customstopwords and w.isalpha() and not len(w)&lt;3 and not w in hashtags and not w in ghashtags and not w in links and not w in mentions]
+
+fd = FreqDist(filtered_tokens)
+</code></pre>
+<p>FreqDist returns a list of tuples containing each word and the number of its occurences. Let&#8221;s plot a bar chart to visualize it:</p>
+<pre>import scipy
+import pylab
+import operator
+from operator import itemgetter, attrgetter
+
+sortedTuples = sorted(fd.items(), key=operator.itemgetter(1), reverse=True)
+a = [i[0] for i in sorted_x[0:20]]
+b = [i[1] for i in sorted_x[0:20]]
+
+x = scipy.arange(len(b))
+y = scipy.array(b)
+f = pylab.figure()
+ax = f.add_axes([0.5, 0.5, 1.5, 1.5])
+ax.bar(x, y, align='center')
+ax.set_xticks(x)
+ax.set_xticklabels(a)
+f.show()</pre>
+<p>And the result :</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png"><img loading="lazy" data-attachment-id="53" data-permalink="https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/screenshot-from-2015-09-09-203414/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png" data-orig-size="991,563" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-09 20:34:14" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png?w=525" class="alignnone wp-image-53" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png?w=726&#038;h=420" alt="Screenshot from 2015-09-09 20:34:14" width="726" height="420" /></a></p>
+<p>The most used words are &#8220;love&#8221; (141 occurrences), &#8220;like&#8221; (89 occurrences) then &#8220;think&#8221; and &#8220;life&#8221;. Pretty deep !</p>
+<ul>
+<li>
+<h3>Sentiment Analysis</h3>
+</li>
+</ul>
+<p>In order to analyze the comments sentiments, we are going to train a Naive Bayes Classifier using a dataset provided by nltk. This could be imroved using a better training dataset for comments or tweets.</p>
+<p>The reviews are classified as &#8220;negative&#8221; or &#8220;positive&#8221;, and our classifier will return the probability of each label. We will compute a score = prob(&#8220;positive&#8221;) &#8211; prob(&#8220;negative&#8221;) to get a score between -1 an 1.</p>
+<h4>Training the classifier</h4>
+<pre>import pandas as pd
+import nltk.classify.util
+from nltk.classify import NaiveBayesClassifier
+from nltk.corpus import movie_reviews
+
+###############
+def word_feats(words):
+    return dict([(word, True) for word in words])
+###############
+
+negids = movie_reviews.fileids('neg')
+posids = movie_reviews.fileids('pos')
+ 
+negfeats = [(word_feats(movie_reviews.words(fileids=[f])), 'neg') for f in negids]
+posfeats = [(word_feats(movie_reviews.words(fileids=[f])), 'pos') for f in posids]
+
+trainfeats = negfeats + posfeats
+ 
+classifier = NaiveBayesClassifier.train(trainfeats)
+###############
+
+all = pd.read_json("comments.csv")
+
+all['tokenized'] = all['text'].apply(lambda x: [t.lower().encode('utf-8').strip(":,.!?") for t in x.split()] )
+all['sentiment'] = all['tokenized'].apply(lambda x: classifier.prob_classify(word_feats(x)).prob('pos') - classifier.prob_classify(word_feats(x)).prob('neg') )</pre>
+<p>Once the classifier trained, we added a column with the sentiment score using the &#8220;classifier.prob_classify&#8221; function.</p>
+<p>Let&#8217;s see the results for the first video in a scatter plot (versus likes)</p>
+<pre>videos = all.videoId.unique()
+all[all.videoId==videos[1]].plot(kind='scatter', x='sentiment', y='likes', figsize=(12,8))</pre>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png"><img loading="lazy" data-attachment-id="56" data-permalink="https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/screenshot-from-2015-09-09-210331/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png" data-orig-size="858,498" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-09 21:03:31" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png?w=525" class="alignnone wp-image-56" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png?w=799&#038;h=471" alt="Screenshot from 2015-09-09 21:03:31" width="799" height="471" /></a></p>
+<p>For the next one,</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png"><img data-attachment-id="57" data-permalink="https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/screenshot-from-2015-09-09-210427/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png" data-orig-size="940,497" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-09 21:04:27" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=525" class="alignnone size-full wp-image-57" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=525" alt="Screenshot from 2015-09-09 21:04:27" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=525 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=150 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=300 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png?w=768 768w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png 940w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>A cool thing to do here is to see what&#8217;s the text of every comment. The best thing to do is to have an interactive plot where hovering on a point shows the comment text. This could be done with the <a href="http://d3js.org/">d3.js</a> library. We can also make the axis interactive and add animations to animate the points when for example changing the sentiment axis to the publishing date of the comment&#8230;</p>
+<p>Next Steps:</p>
+<ul>
+<li>Adding a plot for &#8220;number of views&#8221;/&#8221;time online&#8221;</li>
+<li>Interactive d3.js plot to see the comment text when hovering on he comment.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2015/09/09/sentiment-analysis-for-youtube-channels-with-nltk/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/download1-e1441826980693.jpeg" medium="image">
+			<media:title type="html">download</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-175623.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-09 17:56:23</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-203414.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-09 20:34:14</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210331.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-09 21:03:31</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-09-210427.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-09 21:04:27</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Find the perfect city for you using Meetups data</title>
+		<link>https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/</link>
+					<comments>https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/#respond</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2015 14:14:50 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[meetup API]]></category>
+		<category><![CDATA[pandas]]></category>
+		<category><![CDATA[python]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=15</guid>
+
+					<description><![CDATA[Some time ago I discovered a very nice tool to find nearby events and things to do around. It&#8217;s called citypulse.io and I found it very useful. Every night, they pull new data from: Ticketmaster (UK &#38; US) Eventbrite.com Meetup.com (Meetup API) Viagogo. After playing a little bit with the browser developper tools, I found [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Some time ago I discovered a very nice tool to find nearby events and things to do around. It&#8217;s called <a href="http://www.citypulse.io">citypulse.io</a> and I found it very useful.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729.png"><img data-attachment-id="16" data-permalink="https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/screenshot-from-2015-09-05-170729/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png" data-orig-size="641,208" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-05 17:07:29" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=525" class="alignnone size-full wp-image-16" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=525" alt="Screenshot from 2015-09-05 17:07:29" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=525 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=150 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png?w=300 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png 641w" sizes="(max-width: 525px) 100vw, 525px"   /></a><br />
+Every night, they pull new data from:<span id="more-15"></span></p>
+<ul>
+<li>Ticketmaster (UK &amp; US)</li>
+<li>Eventbrite.com</li>
+<li>Meetup.com (Meetup API)</li>
+<li>Viagogo.</li>
+</ul>
+<p>After playing a little bit with the browser developper tools, I found out the url to get the datapulse data for a given latitude and longitude.<br />
+Example:<a href="http://www.citypulse.io/api/event/GetEvents?startTime=2015-09-05T09:09:07.638Z&amp;startEndTime=2015-09-12T09:09:07.638Z&amp;nwLat=40.81538085107934&amp;nwLong=-74.14212817710876&amp;seLat=40.66086032810895&amp;seLong=-73.69512195152282&amp;categoryString=19,77,90,7,80,89,112,113,145,146,&amp;skip=100&amp;take=100&amp;mapZoom=11&amp;guid=47f1f28c-b855-4566-8da2-0151052209ad">http://www.citypulse.io/api/event/GetEvents?startTime=2015-09-05T09:09:07.638Z&amp;startEndTime=2015-09-12T09:09:07.638Z&amp;nwLat=40.81538085107934&amp;nwLong=-74.14212817710876&amp;seLat=40.66086032810895&amp;seLong=-73.69512195152282&amp;categoryString=19,77,90,7,80,89,112,113,145,146,&amp;skip=100&amp;take=100&amp;mapZoom=11&amp;guid=47f1f28c-b855-4566-8da2-0151052209ad<br />
+</a></p>
+<p>Thanks to this API I created a JSON file containing the  2015 events and meetups for Los Angeles and New York. Let&#8217;s explore the data !<br />
+<img class="shrinkToFit" src="https://images.unsplash.com/29/night-square.jpg?q=80&amp;fm=jpg&amp;s=3aab7af150b0717491f65e18dc481982" alt="https://images.unsplash.com/29/night-square.jpg?q=80&amp;fm=jpg&amp;s=3aab7af150b0717491f65e18dc481982" width="972" height="641" />Here is a little python script that I put up to clean the data and plot some bar charts to get insights. I use the pandas package which is very practical to have a first glance of your data.</p>
+<pre> 
+import pandas as pd
+import numpy as np
+import locale
+locale.setlocale(locale.LC_NUMERIC, '')
+
+all = pd.read_json("allData.json")
+all.TicketPrice = all.TicketPrice.apply(lambda x: "$0.00" if isinstance(x, basestring) and x == "" else x)
+all['price'] = all.TicketPrice.map(lambda x : float(locale.atof(x[1:])))
+all['isFree'] = all.price.apply(lambda x: 1 if x == 0 else 0)
+all['city'] = all.RegionId.map({3639:'Los Angeles',3633:'New York'})
+
+#all.price.argmax()
+#all = all.drop(all.index[52])
+
+gro = all.groupby(['CategoryName','city'])
+temp0 = gro.CategoryName.count()
+my_plot1 = temp0.unstack().plot(kind='bar',title="Number of events per event category [Week 1 September 2015]",figsize=(10, 6))
+my_plot1.set_xlabel("Event category")
+my_plot1.set_ylabel("Number of events")
+
+
+temp2 = gro.isFree.sum()/gro.isFree.count()
+my_plot2 = temp2.unstack().plot(kind='bar',title='Percentage of Free events [Week 1 September 2015]',figsize=(10, 6))
+my_plot2.set_xlabel("Event category")
+my_plot2.set_ylabel("Percentage of Free events")
+
+temp1 = gro.price.sum()/(gro.price.count()-gro.isFree.sum())
+my_plot3 = temp1.unstack().plot(kind='bar',title='Mean price per event category [Week 1 September 2015]',figsize=(10, 6))
+my_plot3.set_xlabel("Event category")
+my_plot3.set_ylabel("Mean price of events")</pre>
+<p>First I fill the empty strings in the ticket price column and replace &#8220;&#8221; with &#8220;$0.00&#8221;.<br />
+Then I create a column &#8220;isFree&#8221; which will be useful to see which kind of events are free in each city, but also to get the number of non free events used to compute the mean price of the tickets.</p>
+<p>Here are the results :<br />
+<a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png"><img data-attachment-id="27" data-permalink="https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/screenshot-from-2015-09-05-183907/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png" data-orig-size="702,492" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-05 18:39:07" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=525" class="alignnone size-large wp-image-27" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=525&#038;h=368" alt="Screenshot from 2015-09-05 18:39:07" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=525&amp;h=368 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=150&amp;h=105 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=300&amp;h=210 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png 702w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>In the chart above, we can see that Los Angeles has more online events organised with a noticeable difference in the number of Learning meetups that could be explained by the important number of tech meetups in the area.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png"><img data-attachment-id="28" data-permalink="https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/screenshot-from-2015-09-05-183920/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png" data-orig-size="678,465" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-05 18:39:20" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=525" class="alignnone size-large wp-image-28" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=525&#038;h=360" alt="Screenshot from 2015-09-05 18:39:20" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=525&amp;h=360 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=150&amp;h=103 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=300&amp;h=206 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png 678w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>The chart above shows that there is no big difference in the percentage of free events in every category. The data for the Comedy category cannot be trusted because of the small number of events of this type in the dataset.<a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png"><img data-attachment-id="29" data-permalink="https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/screenshot-from-2015-09-05-183933/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png" data-orig-size="665,485" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-05 18:39:33" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=525" class="alignnone size-large wp-image-29" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=525&#038;h=382" alt="Screenshot from 2015-09-05 18:39:33" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=525&amp;h=382 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=150&amp;h=109 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=300&amp;h=219 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png 665w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>The chart above shows the mean price for the events of each category.</p>
+<p>Note :<br />
+Before getting the data for the whole year, I started by looking at the data for one month. The chart for the percentage of free events looked different for that range, Looking at a large dataset is a way to get rid of these biases.</p>
+<p>Next Steps and Improvements:<br />
+-Looking at the evolution of trends over the years<br />
+-Compare with more cities</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2015/09/07/find-the-perfect-city-for-you-using-meetups-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-170729-e1441466003403.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-05 17:07:29</media:title>
+		</media:content>
+
+		<media:content url="https://images.unsplash.com/29/night-square.jpg?q=80&#038;fm=jpg&#038;s=3aab7af150b0717491f65e18dc481982" medium="image">
+			<media:title type="html">https://images.unsplash.com/29/night-square.jpg?q=80&#038;fm=jpg&#038;s=3aab7af150b0717491f65e18dc481982</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183907.png?w=660" medium="image">
+			<media:title type="html">Screenshot from 2015-09-05 18:39:07</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183920.png?w=660" medium="image">
+			<media:title type="html">Screenshot from 2015-09-05 18:39:20</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-05-183933.png?w=660" medium="image">
+			<media:title type="html">Screenshot from 2015-09-05 18:39:33</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>DIY : Use Instagram data to plan your next vacation</title>
+		<link>https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/</link>
+					<comments>https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/#respond</comments>
+		
+		<dc:creator><![CDATA[aptissimum]]></dc:creator>
+		<pubDate>Fri, 04 Sep 2015 22:03:39 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">http://datanice.wordpress.com/?p=4</guid>
+
+					<description><![CDATA[When I travel, I always want to get the most of the city I&#8217;m visiting. One way is to talk to local people and get advices about which spots you shouldn&#8217;t miss. But I wish I could have the point of view of the past visitors&#8230; Which places did they enjoy the most ?  Where [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>When I travel, I always want to get the most of the city I&#8217;m visiting. One way is to talk to local people and get advices about which spots you shouldn&#8217;t miss. But I wish I could have the point of view of the past visitors&#8230; Which places did they enjoy the most ?  Where is the best spot to watch the sunset ?  The best selfies you can get ? I also want to have a look of some beaches before choosing one or getting an idea about what some areas looks like&#8230; The idea here is to ask Instagram about the nearby popular spots.</p>
+<p><img class="shrinkToFit aligncenter" src="https://images.unsplash.com/36/xIsiRLngSRWN02yA2BbK_submission-photo-7.jpg?q=80&amp;fm=jpg&amp;s=3a6dbf2c0735cde117a0e6e2fd11a84b" alt="https://images.unsplash.com/36/xIsiRLngSRWN02yA2BbK_submission-photo-7.jpg?q=80&amp;fm=jpg&amp;s=3a6dbf2c0735cde117a0e6e2fd11a84b" width="951" height="639" /></p>
+<p><span id="more-4"></span></p>
+<p>After looking into the Instagram API and playing around with it, I came up with the following script.</p>
+<pre><code class="python">
+import os
+import json
+from collections import Counter
+import pandas as pd
+from instagram.client import InstagramAPI
+
+INSTAGRAM_ACCESS_TOKEN = ''
+INSTAGRAM_CLIENT_ID = ''
+INSTAGRAM_CLIENT_SECRET = ''
+
+api = InstagramAPI(access_token=INSTAGRAM_ACCESS_TOKEN, client_id=INSTAGRAM_CLIENT_ID,client_secret=INSTAGRAM_CLIENT_SECRET)
+
+def getNbLikes(listMedia):
+    likes =0
+    count =0
+    for media in listMedia:
+        likes = likes + media.like_count
+        count = count + 1
+    if count &gt; 0:
+        return likes/count
+    else:
+        return 0
+
+def getTags(listMedia):
+    tags = []
+    for media in listMedia:
+        for mediaTag in media.tags:
+            tags.append(mediaTag.name)
+    return Counter(tags)
+
+def getMedia(locationId):
+    medias =  api.location_recent_media(location_id=locationId)
+    return medias[0]
+
+
+bestLocations = [];
+latD=48.858844
+lonD=2.294351
+
+for x in range(-10, 10):
+    for z in range(-10,10):
+        print(x,z)
+        locations = api.location_search(lat=48.858844+x*0.001, lng=2.294351+z*0.001)
+        for location in locations:
+            likes = 0
+            if not any(d['name'] == location.name for d in bestLocations):
+                images = getMedia(location.id)
+                likes = getNbLikes(images)
+                tags = getTags(images)
+                if len(images)&gt;0 :
+                    bestLocations.append(dict(name=location.name,latitude=location.point.latitude,longitude=location.point.longitude,likes=likes,tags=tags,id=location.id,nbrImages=len(images)))
+
+finalData = pd.DataFrame.from_dict(bestLocations)
+finalData.to_csv('instadata.csv', sep='\t', encoding='utf-8')
+
+
+</code>
+</pre>
+<p>We first query for the locations around the coordinates of the location we wish to know more about and then we query for the photos of each location and get the number of likes and the number of pictures for it.</p>
+<p>Note: You need to replace the Access Tokens and Client ID with the values you get from Instagram <a href="https://www.instagram.com/developer/clients/manage/" target="_blank">here</a>.</p>
+<p>After running the previous script for some time, we get a nice dataset that we can analyze with pandas.</p>
+<pre><code>&gt; import pandas as pd
+&gt; df = pd.read_csv("instadata.csv",sep='\t')
+&gt; df.head(10)</code></pre>
+<p>This is the head of the dataFrame displayed in iPython Notebook.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png"><img data-attachment-id="10" data-permalink="https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/screenshot-from-2015-09-04-222844/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png" data-orig-size="1147,500" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-04 22:28:44" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=525" class="alignnone size-large wp-image-10" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=525&#038;h=229" alt="Screenshot from 2015-09-04 22:28:44" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=525&amp;h=229 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=1050&amp;h=458 1050w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=150&amp;h=65 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=300&amp;h=131 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=768&amp;h=335 768w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=1024&amp;h=446 1024w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>Now let&#8217;s see which spots have the most likes per picture and which ones have the most pictures</p>
+<pre><code>gr = df.groupby('name').sum()</code></pre>
+<p>After dropping the useless columns</p>
+<pre><code>my_plot = gr.head(30).sort(columns='likes',ascending=False).plot(kind='bar',figsize=[15,5])</code></pre>
+<p><a href="https://datanice.files.wordpress.com/2015/09/index.png"><img data-attachment-id="11" data-permalink="https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/index/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/index.png" data-orig-size="879,501" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="index" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/index.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/index.png?w=525" class="alignnone size-large wp-image-11" src="https://datanice.files.wordpress.com/2015/09/index.png?w=525&#038;h=299" alt="index" srcset="https://datanice.files.wordpress.com/2015/09/index.png?w=525&amp;h=299 525w, https://datanice.files.wordpress.com/2015/09/index.png?w=150&amp;h=85 150w, https://datanice.files.wordpress.com/2015/09/index.png?w=300&amp;h=171 300w, https://datanice.files.wordpress.com/2015/09/index.png?w=768&amp;h=438 768w, https://datanice.files.wordpress.com/2015/09/index.png 879w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>This script could be improved with some text mining on the names, to combine the similar results. (You can see that we have multiple results for the Eiffel tower).</p>
+<p>The next step is to visualize the nearby pictures.<br />
+I put up a little angularJS application where we can select a location and see a list of pictures per location.<br />
+I&#8217;ll put the code online when I have more time.</p>
+<p><a href="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png"><img data-attachment-id="12" data-permalink="https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/screenshot-from-2015-09-04-235936/#main" data-orig-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png" data-orig-size="608,576" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot from 2015-09-04 23:59:36" data-image-description="" data-image-caption="" data-medium-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=300" data-large-file="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=525" class="alignnone size-full wp-image-12" src="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=525" alt="Screenshot from 2015-09-04 23:59:36" srcset="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=525 525w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=150 150w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png?w=300 300w, https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png 608w" sizes="(max-width: 525px) 100vw, 525px"   /></a></p>
+<p>Please let me know in the comments if you have any improvement ideas !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://datanice.wordpress.com/2015/09/04/diy-use-instagram-data-to-plan-your-next-vacation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/57891a7fcc1ea9ca61feaf399b32903e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">aptissimum</media:title>
+		</media:content>
+
+		<media:content url="https://images.unsplash.com/36/xIsiRLngSRWN02yA2BbK_submission-photo-7.jpg?q=80&#038;fm=jpg&#038;s=3a6dbf2c0735cde117a0e6e2fd11a84b" medium="image">
+			<media:title type="html">https://images.unsplash.com/36/xIsiRLngSRWN02yA2BbK_submission-photo-7.jpg?q=80&#038;fm=jpg&#038;s=3a6dbf2c0735cde117a0e6e2fd11a84b</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-222844.png?w=660" medium="image">
+			<media:title type="html">Screenshot from 2015-09-04 22:28:44</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/index.png?w=660" medium="image">
+			<media:title type="html">index</media:title>
+		</media:content>
+
+		<media:content url="https://datanice.files.wordpress.com/2015/09/screenshot-from-2015-09-04-235936.png" medium="image">
+			<media:title type="html">Screenshot from 2015-09-04 23:59:36</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>
