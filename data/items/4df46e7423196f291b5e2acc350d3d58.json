@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43076 (web-based_student_clearance_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43076",
+  "description": "A cross-site scripting (XSS) vulnerability in /admin/edit-admin.php of Web-Based Student Clearance System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the txtemail parameter.",
+  "dc:date": "2022-11-01T14:15:14Z"
+}

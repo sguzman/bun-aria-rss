@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:iIzbovM4R2U",
+  "yt:videoId": "iIzbovM4R2U",
+  "yt:channelId": "UC548OYFGjdJuprVWeqg60fw",
+  "title": "Visualizing Complex Integrals",
+  "link": "",
+  "author": {
+    "name": "Lemmaxiom",
+    "uri": "https://www.youtube.com/channel/UC548OYFGjdJuprVWeqg60fw"
+  },
+  "published": "2021-08-23T03:23:59+00:00",
+  "updated": "2022-08-19T15:38:13+00:00",
+  "media:group": {
+    "media:title": "Visualizing Complex Integrals",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "--- CORRECTIONS ---\n\nAt 5:30, I meant to say -π to π.\n\nI would also like to point out that the integral around the complex unit circle described at 7:55 is of course a particularly \"nice\" one - I meant to demonstrate that an integral of the function (1/z) over 𝙖𝙣𝙮 simply closed contour containing zero is equal to 2πi. However, I clearly did not show that was the case if you changed the radius of the circle or deformed it into another shape (without having it intersect itself). I encourage you to verify for yourself that the integral's value 𝙙𝙤𝙚𝙨 𝙣𝙤𝙩 𝙘𝙝𝙖𝙣𝙜𝙚 given the application of either one of these transformations and does in fact remain equal to 2πi. What I should have mentioned was that regions of the plane where a function is holomorphic correspond to conservative Polya vector fields, so the path of integration does not matter as long as the number of poles contained within our closed contour remains constant.\n\nThe variable ß, which I mistook for the Greek letter Beta (β), is actually called 𝘌𝘴𝘻𝘦𝘵𝘵 and is used in German orthography.\n\n~~~~~~~~~~~~~~~~~~~\n\nThis video is my (obviously horribly rushed) submission to 3blue1brown's \"Summer of Math Exposition\" contest.\n\nThe Polya vector fields were animated with Manim. Everything else was made in Adobe Premiere Pro.\n\nI was planning to make a revision of this video, but I think that this more comprehensive overview of Polya vector fields makes up for what I don't discuss here: \nhttps://www.youtube.com/watch?v=itEqPTJpxUo\n\nMusic: \n- \"Art of silence\" by uniq\nhttps://soundcloud.com/uniqofficial/\nAttribution 4.0 International (CC BY 4.0)\nhttps://creativecommons.org/licenses/by/4.0/\nMusic promoted by https://www.chosic.com\n\n- \"Undertow\" by Scott Buckley | www.scottbuckley.com.au\nMusic promoted by https://www.chosic.com/\nCreative Commons Attribution 4.0 International (CC BY 4.0)\nhttps://creativecommons.org/licenses/by/4.0/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

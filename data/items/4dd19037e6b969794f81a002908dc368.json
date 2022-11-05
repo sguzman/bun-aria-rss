@@ -1,0 +1,10 @@
+{
+  "title": "GPIOs: Critical IP for Functional Safety Applications",
+  "link": "https://engineeringresources.spectrum.ieee.org/free/w_synp01/prgm.cgi",
+  "description": "\n<img src=\"https://spectrum.ieee.org/media-library/gpios-critical-ip-for-functional-safety-applications.gif?id=30797265&width=1245&height=700&coordinates=72%2C0%2C72%2C0\"/><br/><br/><p>The prevalence and complexity of electronics and software in automotive applications are increasing with every new generation of cars. The critical functions within the system on a chip (SoC) involve hardware and software that perform automotive-related signal communication at high data rates to and from the components off-chip. Every SoC includes general purpose IOs (GPIOs) on its periphery.</p> <p>For automotive SoCs, GPIO IP is typically developed as Safety Element out of Context and delivered with a set of Assumptions of Use. It is important that the GPIO blocks are treated as a safety related logic. In this role, GPIOs need safety analysis to mitigate any faults occurring in them before the result of fault occurrence causes a system-wide failure.</p> <p>This white paper describes some of the commonly used safety mechanisms in an automotive-ready GPIO library suite. It will then describe how safety related deliverables are helpful to SoC integrators in their design of safe SoCs.</p>",
+  "pubDate": "Mon, 08 Aug 2022 18:40:47 +0000",
+  "guid": "https://engineeringresources.spectrum.ieee.org/free/w_synp01/prgm.cgi",
+  "category": "Type:whitepaper",
+  "dc:creator": "Synopsys",
+  "media:content": ""
+}

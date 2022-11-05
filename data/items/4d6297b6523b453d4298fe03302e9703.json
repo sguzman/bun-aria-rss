@@ -1,0 +1,14 @@
+{
+  "title": "Plot memory usage as a function of time",
+  "link": "http://fa.bianp.net/blog/2014/plot-memory-usage-as-a-function-of-time/",
+  "description": "<p>:og_image: http://fa.bianp.net/blog/images/2014/mprof_example.png</p>\n<p>One of the lesser known features of the <a href=\"https://pypi.python.org/pypi/memory_profiler\">memory_profiler package</a> is its ability to plot memory consumption as a function of time. This was implemented by my friend Philippe Gervais, previously a colleague at INRIA and now at Google.</p>\n<p>With …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 07 Nov 2014 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2014-11-07:/blog/2014/plot-memory-usage-as-a-function-of-time/",
+  "category": [
+    "misc",
+    "memory_profiler",
+    "mprof",
+    "profile"
+  ]
+}
