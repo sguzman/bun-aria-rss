@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-36879 (a700s_firmware, active_iq_unified_manager, aff_500f_firmware, aff_8300_firmware, aff_8700_firmware, aff_a250_firmware, aff_a400_firmware, debian_linux, e-series_santricity_os_controller, fas_500f_firmware, fas_8300_firmware, fas_8700_firmware, fas_a250_firmware, fas_a400_firmware, h300s_firmware, h410c_firmware, h410s_firmware, h500s_firmware, h610c_firmware, h610s_firmware, h615c_firmware, h700s_firmware, hci_bootstrap_os, linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36879",
+  "description": "An issue was discovered in the Linux kernel through 5.18.14. xfrm_expand_policies in net/xfrm/xfrm_policy.c can cause a refcount to be dropped twice.",
+  "dc:date": "2022-07-27T04:15:10Z"
+}

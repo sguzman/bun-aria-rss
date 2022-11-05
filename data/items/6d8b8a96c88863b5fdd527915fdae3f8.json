@@ -1,0 +1,15 @@
+{
+  "title": "Sparse SVDs in Python",
+  "link": "",
+  "published": "2012-12-19T08:21:00-08:00",
+  "updated": "2012-12-19T08:21:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-12-19:blog/2012/12/19/sparse-svds-in-python/",
+  "summary": "<p>After <a href=\"http://fseoane.net/blog/2012/singular-value-decomposition-in-scipy/\">Fabian's post</a> on the topic, I have recently returned to thinking about the\nsubject of sparse singular value decompositions (SVDs) in Python.</p>\n<p>For those who haven't used it, the SVD is an extremely powerful technique.\nIt is the core routine of many applications,\nfrom filtering to dimensionality\nreduction to graph analysis to supervised classification and much, much more.</p>\n<p>I first came across the need for a fast sparse SVD when applying a technique\ncalled Locally Linear Embedding (LLE) to astronomy spectra: it was the first\nastronomy paper I published, and you can read it <a href=\"http://adsabs.harvard.edu/abs/2009AJ....138.1365V\">here</a>.  In LLE, one visualizes the nonlinear relationship\nbetween high-dimensional observations.  The computational cost is extreme: for\n<em>N</em> objects, one must compute the null space (intimately related to the SVD)\nof a <em>N</em> by <em>N</em> matrix.  Using direct methods (e.g. LAPACK), this can scale\nas bad as $\\mathcal{O}[N^3]$ in both memory and speed!</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

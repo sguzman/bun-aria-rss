@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:NyODT5psPOQ",
+  "yt:videoId": "NyODT5psPOQ",
+  "yt:channelId": "UCsdA-aNqtMA1_2T15aXePWw",
+  "title": "Half vs Full Duplex in FPGA & Tri-State Buffer Tutorial",
+  "link": "",
+  "author": {
+    "name": "nandland",
+    "uri": "https://www.youtube.com/channel/UCsdA-aNqtMA1_2T15aXePWw"
+  },
+  "published": "2019-06-14T13:01:18+00:00",
+  "updated": "2022-06-02T03:58:47+00:00",
+  "media:group": {
+    "media:title": "Half vs Full Duplex in FPGA & Tri-State Buffer Tutorial",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Learn about the difference between half and full duplex communication. I'll give examples of common protocols such as I2C, SPI, UART, and USB, and talk about if they're full or half duplex. Finally I demonstrate how to infer a tristate buffer in both VHDL and Verilog. I demonstrate how those are important to implement half-duplex communication\n\nPlease help me keep creating great content. Support me on Patreon:\nhttps://www.patreon.com/nandland\n\nAlso get yourself an FPGA board, The Go Board, so you can try this code on your own.\nhttps://www.nandland.com/goboard/introduction.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
