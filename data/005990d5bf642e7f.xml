@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.MA updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Multiagent Systems (cs.MA) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Multiagent Systems</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01480" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01633" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01757" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01958" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01959" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2105.06763" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.04590" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01480">
+<title>Over-communicate no more: Situated RL agents learn concise communication protocols. (arXiv:2211.01480v1 [cs.MA])</title>
+<link>http://arxiv.org/abs/2211.01480</link>
+<description rdf:parseType="Literal">&lt;p&gt;While it is known that communication facilitates cooperation in multi-agent
+settings, it is unclear how to design artificial agents that can learn to
+effectively and efficiently communicate with each other. Much research on
+communication emergence uses reinforcement learning (RL) and explores
+unsituated communication in one-step referential tasks -- the tasks are not
+temporally interactive and lack time pressures typically present in natural
+communication. In these settings, agents may successfully learn to communicate,
+but they do not learn to exchange information concisely -- they tend towards
+over-communication and an inefficient encoding. Here, we explore situated
+communication in a multi-step task, where the acting agent has to forgo an
+environmental action to communicate. Thus, we impose an opportunity cost on
+communication and mimic the real-world pressure of passing time. We compare
+communication emergence under this pressure against learning to communicate
+with a cost on articulation effort, implemented as a per-message penalty (fixed
+and progressively increasing). We find that while all tested pressures can
+disincentivise over-communication, situated communication does it most
+effectively and, unlike the cost on effort, does not negatively impact
+emergence. Implementing an opportunity cost on communication in a temporally
+extended environment is a step towards embodiment, and might be a pre-condition
+for incentivising efficient, human-like communication.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kalinowska_A/0/1/0/all/0/1&quot;&gt;Aleksandra Kalinowska&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Davoodi_E/0/1/0/all/0/1&quot;&gt;Elnaz Davoodi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Strub_F/0/1/0/all/0/1&quot;&gt;Florian Strub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mathewson_K/0/1/0/all/0/1&quot;&gt;Kory W Mathewson&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kajic_I/0/1/0/all/0/1&quot;&gt;Ivana Kajic&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bowling_M/0/1/0/all/0/1&quot;&gt;Michael Bowling&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Murphey_T/0/1/0/all/0/1&quot;&gt;Todd D Murphey&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pilarski_P/0/1/0/all/0/1&quot;&gt;Patrick M Pilarski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01633">
+<title>Cooperative Maneuvers of Highly Automated Vehicles at Urban Intersections: A Game-theoretic Approach. (arXiv:2211.01633v1 [cs.GT])</title>
+<link>http://arxiv.org/abs/2211.01633</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, we propose an approach how connected and highly automated
+vehicles can perform cooperative maneuvers such as lane changes and left-turns
+at urban intersections where they have to deal with human-operated vehicles and
+vulnerable road users such as cyclists and pedestrians in so-called mixed
+traffic. In order to support cooperative maneuvers the urban intersection is
+equipped with an intelligent controller which has access to different sensors
+along the intersection to detect and predict the behavior of the traffic
+participants involved. Since the intersection controller cannot directly
+control all road users and - not least due to the legal situation - driving
+decisions must always be made by the vehicle controller itself, we focus on a
+decentralized control paradigm. In this context, connected and highly automated
+vehicles use some carefully selected game theory concepts to make the best
+possible and clear decisions about cooperative maneuvers. The aim is to improve
+traffic efficiency while maintaining road safety at the same time. Our first
+results obtained with a prototypical implementation of the approach in a
+traffic simulation are promising.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Koopmann_B/0/1/0/all/0/1&quot;&gt;Bj&amp;#xf6;rn Koopmann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Puch_S/0/1/0/all/0/1&quot;&gt;Stefan Puch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ehmen_G/0/1/0/all/0/1&quot;&gt;G&amp;#xfc;nter Ehmen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Franzle_M/0/1/0/all/0/1&quot;&gt;Martin Fr&amp;#xe4;nzle&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01757">
+<title>Learning Decentralized Strategies for a Perimeter Defense Game with Graph Neural Networks. (arXiv:2211.01757v1 [cs.MA])</title>
+<link>http://arxiv.org/abs/2211.01757</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider the problem of finding decentralized strategies for multi-agent
+perimeter defense games. In this work, we design a graph neural network-based
+learning framework to learn a mapping from defenders&apos; local perceptions and the
+communication graph to defenders&apos; actions such that the learned actions are
+close to that generated by a centralized expert algorithm. We demonstrate that
+our proposed networks stay closer to the expert policy and are superior to
+other baseline algorithms by capturing more intruders. Our GNN-based networks
+are trained at a small scale and can generalize to large scales. To validate
+our results, we run perimeter defense games in scenarios with different team
+sizes and initial configurations to evaluate the performance of the learned
+networks.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lee_E/0/1/0/all/0/1&quot;&gt;Elijah S. Lee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhou_L/0/1/0/all/0/1&quot;&gt;Lifeng Zhou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ribeiro_A/0/1/0/all/0/1&quot;&gt;Alejandro Ribeiro&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kumar_V/0/1/0/all/0/1&quot;&gt;Vijay Kumar&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01958">
+<title>An Efficient Approach with Dynamic Multi-Swarm of UAVs for Forest Firefighting. (arXiv:2211.01958v1 [cs.MA])</title>
+<link>http://arxiv.org/abs/2211.01958</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper, the Multi-Swarm Cooperative Information-driven search and
+Divide and Conquer mitigation control (MSCIDC) approach is proposed for faster
+detection and mitigation of forest fire by reducing the loss of biodiversity,
+nutrients, soil moisture, and other intangible benefits. A swarm is a
+cooperative group of Unmanned Aerial Vehicles (UAVs) that fly together to
+search and quench the fire effectively. The multi-swarm cooperative
+information-driven search uses a multi-level search comprising cooperative
+information-driven exploration and exploitation for quick/accurate detection of
+fire location. The search level is selected based on the thermal sensor
+information about the potential fire area. The dynamicity of swarms, aided by
+global regulative repulsion and merging between swarms, reduces the detection
+and mitigation time compared to the existing methods. The local attraction
+among the members of the swarm helps the non-detector members to reach the fire
+location faster, and divide-and-conquer mitigation control ensures a
+non-overlapping fire sector allocation for all members quenching the fire. The
+performance of MSCIDC has been compared with different multi-UAV methods using
+a simulated environment of pine forest. The performance clearly shows that
+MSCIDC mitigates fire much faster than the multi-UAV methods. The Monte-Carlo
+simulation results indicate that the proposed method reduces the average forest
+area burnt by $65\%$ and mission time by $60\%$ compared to the best result
+case of the multi-UAV approaches, guaranteeing a faster and successful mission.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+John_J/0/1/0/all/0/1&quot;&gt;Josy John&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Harikumar_K/0/1/0/all/0/1&quot;&gt;K. Harikumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Senthilnath_J/0/1/0/all/0/1&quot;&gt;J. Senthilnath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sundaram_S/0/1/0/all/0/1&quot;&gt;Suresh Sundaram&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01959">
+<title>An agent-based approach to procedural city generation incorporating Land Use and Transport Interaction models. (arXiv:2211.01959v1 [cs.MA])</title>
+<link>http://arxiv.org/abs/2211.01959</link>
+<description rdf:parseType="Literal">&lt;p&gt;We apply the knowledge of urban settings established with the study of Land
+Use and Transport Interaction (LUTI) models to develop reward functions for an
+agent-based system capable of planning realistic artificial cities. The system
+aims to replicate in the micro scale the main components of real settlements,
+such as zoning and accessibility in a road network. Moreover, we propose a
+novel representation for the agent&apos;s environment that efficiently combines the
+road graph with a discrete model for the land. Our system starts from an empty
+map consisting only of the road network graph, and the agent incrementally
+expands it by building new sites while distinguishing land uses between
+residential, commercial, industrial, and recreational.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Santos_L/0/1/0/all/0/1&quot;&gt;Luiz Fernando Silva Eug&amp;#xea;nio dos Santos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Aranha_C/0/1/0/all/0/1&quot;&gt;Claus Aranha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Carvalho_A/0/1/0/all/0/1&quot;&gt;Andr&amp;#xe9; Ponce de Leon F de Carvalho&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2105.06763">
+<title>Translating Extensive Form Games to Open Games with Agency. (arXiv:2105.06763v2 [cs.GT] UPDATED)</title>
+<link>http://arxiv.org/abs/2105.06763</link>
+<description rdf:parseType="Literal">&lt;p&gt;We show open games cover extensive form games with both perfect and imperfect
+information. Doing so forces us to address two current weaknesses in open
+games: the lack of a notion of player and their agency within open games, and
+the lack of choice operators. Using the former we construct the latter, and
+these choice operators subsume previous proposed operators for open games,
+thereby making progress towards a core, canonical and ergonomic calculus of
+game operators. Collectively these innovations increase the level of
+compositionality of open games, and demonstrate their expressiveness.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Capucci_M/0/1/0/all/0/1&quot;&gt;Matteo Capucci&lt;/a&gt; (University of Strathclyde), &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ghani_N/0/1/0/all/0/1&quot;&gt;Neil Ghani&lt;/a&gt; (University of Strathclyde), &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ledent_J/0/1/0/all/0/1&quot;&gt;J&amp;#xe9;r&amp;#xe9;my Ledent&lt;/a&gt; (University of Strathclyde), &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Forsberg_F/0/1/0/all/0/1&quot;&gt;Fredrik Nordvall Forsberg&lt;/a&gt; (University of Strathclyde)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.04590">
+<title>The Small Solution Hypothesis for MAPF on Strongly Connected Directed Graphs Is True. (arXiv:2210.04590v3 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.04590</link>
+<description rdf:parseType="Literal">&lt;p&gt;The determination of the computational complexity of multi-agent pathfinding
+on directed graphs (diMAPF) has been an open research problem for many years.
+While diMAPF has been shown to be polynomial for some special cases, only
+recently, it has been established that the problem is NP-hard in general.
+Further, it has been proved that diMAPF will be in NP if the short solution
+hypothesis for strongly connected directed graphs is correct. In this paper, it
+is shown that this hypothesis is indeed true, even when one allows for
+synchronous rotations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Nebel_B/0/1/0/all/0/1&quot;&gt;Bernhard Nebel&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
