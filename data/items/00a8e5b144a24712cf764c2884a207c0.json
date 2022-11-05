@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40741 (mail_sqr_expert)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40741",
+  "description": "Mail SQR Expert&acirc;&euro;&trade;s specific function has insufficient filtering for special characters. An unauthenticated remote attacker can exploit this vulnerability to perform arbitrary system command and disrupt service.",
+  "dc:date": "2022-10-31T07:15:10Z"
+}

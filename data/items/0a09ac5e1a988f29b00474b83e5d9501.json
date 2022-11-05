@@ -1,0 +1,18 @@
+{
+  "title": "It's still possible to find ways to break out. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/155/notes",
+  "description": "Containers offer speed, performance, and portability, but do they actually contain? While they try their best, the shared kernel is a disturbing attack surface: a mere kernel vulnerability may allow containerized processes to escape and compromise the host. This issue prompted a new wave of sandboxing tools that use either unikernels, lightweight VMs or userspace-kernels to separate the host OS from the container's OS.\nOne of these solutions is Kata Containers, a container runtime that spawns each container inside a lightweight VM, and can function as the underlying runtime in Docker and Kubernetes. Kata's virtualized containers provide two layers of isolation: even if an attacker breaks out of the container, he is still confined to the microVM.\nJoining us in this week's Research Saturday to discuss the research is Yuval Avrahami from Palo Alto Networks Unit 42.\nThe research presented at Black Hat USA 2020 can be found here: \nEscaping Virtualized Containers",
+  "pubDate": "Sat, 10 Oct 2020 05:00:00 -0000",
+  "itunes:title": "It's still possible to find ways to break out. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 2,
+  "itunes:episode": 155,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Containers offer speed, performance, and portability, but do they actually contain? While they try their best, the shared kernel is a disturbing attack surface: a mere kernel vulnerability may allow containerized processes to escape and compromise the host. This issue prompted a new wave of sandboxing tools that use either unikernels, lightweight VMs or userspace-kernels to separate the host OS from the container's OS.\nOne of these solutions is Kata Containers, a container runtime that spawns each container inside a lightweight VM, and can function as the underlying runtime in Docker and Kubernetes. Kata's virtualized containers provide two layers of isolation: even if an attacker breaks out of the container, he is still confined to the microVM.\nJoining us in this week's Research Saturday to discuss the research is Yuval Avrahami from Palo Alto Networks Unit 42.\nThe research presented at Black Hat USA 2020 can be found here: \nEscaping Virtualized Containers",
+  "content:encoded": "<p>Containers offer speed, performance, and portability, but do they actually contain? While they try their best, the shared kernel is a disturbing attack surface: a mere kernel vulnerability may allow containerized processes to escape and compromise the host. This issue prompted a new wave of sandboxing tools that use either unikernels, lightweight VMs or userspace-kernels to separate the host OS from the container's OS.</p><p>One of these solutions is Kata Containers, a container runtime that spawns each container inside a lightweight VM, and can function as the underlying runtime in Docker and Kubernetes. Kata's virtualized containers provide two layers of isolation: even if an attacker breaks out of the container, he is still confined to the microVM.</p><p>Joining us in this week's Research Saturday to discuss the research is Yuval Avrahami from Palo Alto Networks Unit 42.</p><p>The research presented at Black Hat USA 2020 can be found here: </p><ul><li><a href=\"https://www.blackhat.com/us-20/briefings/schedule/index.html#escaping-virtualized-containers-20514\">Escaping Virtualized Containers</a></li></ul>",
+  "itunes:duration": 1214,
+  "itunes:explicit": "no",
+  "guid": "263d9ace-0a5f-11eb-b91f-af6a1c14b652",
+  "enclosure": ""
+}
