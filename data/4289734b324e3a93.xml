@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Sebastian Raschka</title>
+    <description>My name is Sebastian, and I am a machine learning and AI researcher with a  strong passion for education. As Lead AI Educator at Grid.ai, I am excited  about making AI &amp; deep learning more accessible and teaching people how to  utilize AI &amp; deep learning at scale. I am also an Assistant Professor of Statistics  at the University of Wisconsin-Madison  and author of the bestselling book Python Machine Learning.
+</description>
+    <link>https://sebastianraschka.com/</link>
+    <atom:link href="https://sebastianraschka.com/rss_feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 03 Nov 2022 20:58:08 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Nov 2022 20:58:08 +0000</lastBuildDate>
+    
+      <item>
+        <title>Ahead Of AI, And What&apos;s Next?</title>
+        <description>About monthly machine learning musings, and other things I am currently workin on ...</description>
+        <pubDate>Sat, 15 Oct 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/ahead-of-ai-and-whats-next.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/ahead-of-ai-and-whats-next.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Data</category>
+        
+        <category>Science</category>
+        
+      </item>
+    
+      <item>
+        <title>A Short Chronology Of Deep Learning For Tabular Data</title>
+        <description>Occasionally, I share research papers proposing new deep learning approaches for tabular data on social media, which is typically an excellent discussion starter. Often, people ask for additional methods or counterexamples. So, with this short post, I aim to briefly summarize the major papers on deep tabular learning I am currently aware of. However, I want to emphasize that no matter how interesting or promising deep tabular methods look, I still recommend using a conventional machine learning method as a baseline. There is a reason why I cover conventional machine learning before deep learning in my books.</description>
+        <pubDate>Sun, 24 Jul 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Data</category>
+        
+        <category>Science</category>
+        
+      </item>
+    
+      <item>
+        <title>No, We Don&apos;t Have to Choose Batch Sizes As Powers Of 2</title>
+        <description>Regarding neural network training, I think we are all guilty of doing this: we choose our batch sizes as powers of 2, that is, 64, 128, 256, 512, 1024, and so forth. There are some valid theoretical justifications for this, but how does it pan out in practice? We had some discussions about that in the last couple of days, and here I want to write down some of the take-aways so I can reference them in the future. I hope you&apos;ll find this helpful as well! </description>
+        <pubDate>Tue, 05 Jul 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/batch-size-2.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/batch-size-2.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>PyTorch</category>
+        
+      </item>
+    
+      <item>
+        <title>Sharing Deep Learning Research Models with Lightning Part 2: Leveraging the Cloud</title>
+        <description>In this article, we will take deploy a Super Resolution App on the cloud using lightning.ai. The primary goal here is to see how easy it is to create and share a research demo. However, the cloud is for more than just model sharing: we will also learn how we can tap into additional GPU resources for model training.</description>
+        <pubDate>Thu, 30 Jun 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/lightning-app-srgan-2.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/lightning-app-srgan-2.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>ML</category>
+        
+        <category>Systems</category>
+        
+      </item>
+    
+      <item>
+        <title>Sharing Deep Learning Research Models with Lightning Part 1: Building A Super Resolution App</title>
+        <description>In this post, we will build a Lightning App. Why? Because it is 2022, and it is time to explore a more modern take on interacting with, presenting, and sharing our deep learning models. We are going to tackle this in three parts. In this first part, we will learn what a Lightning App is and how we build a Super Resolution GAN demo.</description>
+        <pubDate>Fri, 17 Jun 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/lightning-app-srgan-1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/lightning-app-srgan-1.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>ML</category>
+        
+        <category>Systems</category>
+        
+      </item>
+    
+      <item>
+        <title>Taking Datasets, DataLoaders, and PyTorch’s New DataPipes for a Spin</title>
+        <description>The PyTorch team recently announced TorchData, a prototype library focused on implementing composable and reusable data loading utilities for PyTorch. In particular, the TorchData library is centered around DataPipes, which are meant to be a DataLoader-compatible replacement for the existing Dataset class.</description>
+        <pubDate>Sun, 12 Jun 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/datapipes.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/datapipes.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Running PyTorch on the M1 GPU</title>
+        <description>Today, PyTorch officially introduced GPU support for Apple&apos;s ARM M1 chips. This is an exciting day for Mac users out there, so I spent a few minutes trying it out in practice. In this short blog post, I will summarize my experience and thoughts with the M1 chip for deep learning tasks.</description>
+        <pubDate>Wed, 18 May 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/pytorch-m1-gpu.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/pytorch-m1-gpu.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating Confidence Intervals for Machine Learning Classifiers</title>
+        <description>Developing good predictive models hinges upon accurate performance evaluation and comparisons. However, when evaluating machine learning models, we typically have to work around many constraints, including limited data, independence violations, and sampling biases. Confidence intervals are no silver bullet, but at the very least, they can offer an additional glimpse into the uncertainty of the reported accuracy and performance of a model. This article outlines different methods for creating confidence intervals for machine learning models. Note that these methods also apply to deep learning.</description>
+        <pubDate>Mon, 25 Apr 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/confidence-intervals-for-ml.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/confidence-intervals-for-ml.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Losses Learned</title>
+        <description>The cross-entropy loss is our go-to loss for training deep learning-based classifiers. In this article, I am giving you a quick tour of how we usually compute the cross-entropy loss and how we compute it in PyTorch. There are two parts to it, and here we will look at a binary classification context first. You may wonder why bother writing this article; computing the cross-entropy loss should be relatively straightforward!? Yes and no. We can compute the cross-entropy loss in one line of code, but there&apos;s a common gotcha due to numerical optimizations under the hood. (And yes, when I am not careful, I sometimes make this mistake, too.) So, in this article, let me tell you a bit about deep learning jargon, improving numerical performance, and what could go wrong.</description>
+        <pubDate>Mon, 04 Apr 2022 15:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/losses-learned-part1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/losses-learned-part1.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>TorchMetrics</title>
+        <description>TorchMetrics is a really nice and convenient library that lets us compute the performance of models in an iterative fashion. It&apos;s designed with PyTorch (and PyTorch Lightning) in mind, but it is a general-purpose library compatible with other libraries and workflows. This iterative computation is useful if we want to track a model during iterative training or evaluation on minibatches (and optionally across on multiple GPUs). In deep learning, that&apos;s essentially *all the time*. However, when using TorchMetrics, one common question is whether we should use `.update()` or `.forward()`? (And that&apos;s also a question I certainly had when I started using it.). Here&apos;s a hands-on example and explanation.</description>
+        <pubDate>Thu, 24 Mar 2022 13:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/torchmetrics.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/torchmetrics.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning with PyTorch and Scikit-Learn</title>
+        <description>Machine Learning with PyTorch and Scikit-Learn has been a long time in the making, and I am excited to finally get to talk about the release of my new book. Initially, this project started as the 4th edition of Python Machine Learning. However, we made so many changes to the book that we thought it deserved a new title to reflect that. So, what&apos;s new, you may wonder? In this post, I am excited to tell you all about it.</description>
+        <pubDate>Fri, 25 Feb 2022 07:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2022/ml-pytorch-book.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2022/ml-pytorch-book.html</guid>
+        
+        
+        <category>Book,</category>
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Introduction to Machine Learning</title>
+        <description>About half a year ago, I organized all my deep learning-related videos in a handy blog post to have everything in one place. Since many people liked this post, and because I like to use my winter break to get organized, I thought I could free two birds with one key by compiling this list below. Here, you find a list of approximately 90 machine learning lectures I recorded in 2020 and 2021! Once again, I hope this is useful to you!</description>
+        <pubDate>Wed, 29 Dec 2021 06:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2021/ml-course.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2021/ml-course.html</guid>
+        
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Introduction to Deep Learning</title>
+        <description>I just sat down this morning and organized all deep learning related videos I recorded in 2021. I am sure this will be a useful reference for my future self, but I am also hoping it might be useful for one or the other person out there. PS: All code examples are in PyTorch :)</description>
+        <pubDate>Fri, 09 Jul 2021 06:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2021/dl-course.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2021/dl-course.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Datasets for Machine Learning and Deep Learning</title>
+        <description>With the semester being in full swing, I recently shared this set of dataset repositories with my deep learning class. However, I thought that beyond using this list for finding inspiration for interesting student class projects, these are also good places to look for additional bechmark datasets for your model.</description>
+        <pubDate>Thu, 11 Feb 2021 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2021/ml-dl-datasets.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2021/ml-dl-datasets.html</guid>
+        
+        
+        <category>Deep</category>
+        
+        <category>Learning,</category>
+        
+        <category>Machine</category>
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Book Review: Deep Learning With PyTorch</title>
+        <description>After its release in August 2020, Deep Learning with PyTorch has been sitting on my shelf before I finally got a chance to read it during this winter break. It turned out to be the perfect easy-going reading material for a bit of productivity after the relaxing holidays. As promised last week, here are my thoughts.</description>
+        <pubDate>Thu, 21 Jan 2021 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2021/pytorch-deeplearning-review.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2021/pytorch-deeplearning-review.html</guid>
+        
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>How I Keep My Projects Organized</title>
+        <description>Since I started my undergraduate studies in 2008, I have been obsessed with productivity tips, notetaking solutions, and todo-list management. Over the years, I tried many, many workflows and hundreds of (mostly digital) tools to keep my life, projects, and notes organized. Occasionally, I exchange ideas with friends and colleagues, and upon request, I talked about my workflow a couple of times on Twitter. After today&apos;s 2021-edition of this discussion, I thought that writing a quick and informal blogpost makes sense, making it easier to read and having a quick reference if someone asks about it again :).</description>
+        <pubDate>Sun, 03 Jan 2021 20:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2021/project-management.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2021/project-management.html</guid>
+        
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>Scientific Computing in Python: Introduction to NumPy and Matplotlib</title>
+        <description>Since many students in my Stat 451 (Introduction to Machine Learning and Statistical Pattern Classification) class are relatively new to Python and NumPy, I was recently devoting a lecture to the latter. Since the course notes are based on an interactive Jupyter notebook file, which I used as a basis for the lecture videos, I thought it would be worthwhile to reformat it as a blog article with the embedded &apos;narrated content&apos; -- the video recordings.</description>
+        <pubDate>Sun, 27 Sep 2020 17:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2020/numpy-intro.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2020/numpy-intro.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>NumPy</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Interpretable Machine Learning</title>
+        <description>In this blog post, I am (briefly) reviewing Christoph Molnar&apos;s *Interpretable Machine Learning Book*. Then, I am writing about two classic generalized linear models, linear and logistic regression. Mainly, this blog post explains the relationship between feature weights and predictions and demonstrates how to construct confidence intervals via Python.</description>
+        <pubDate>Wed, 26 Aug 2020 18:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2020/interpretable-ml-1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2020/interpretable-ml-1.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Chapter 1: Introduction to Machine Learning and Deep Learning</title>
+        <description>The first chapter (draft) of the Introduction to Deep Learning book, which is a book based on my lecture notes and slides.</description>
+        <pubDate>Wed, 05 Aug 2020 21:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2020/intro-to-dl-ch01.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2020/intro-to-dl-ch01.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Book Review: Architects of Intelligence by Martin Ford</title>
+        <description>A brief review of Martin Ford&apos;s book that features interviews with 23 of the most well-known and brightest minds working on AI.</description>
+        <pubDate>Mon, 06 Jan 2020 13:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2020/book-review-1-architects-of-intelligence.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2020/book-review-1-architects-of-intelligence.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>What&apos;s New in the 3rd Edition</title>
+        <description>A brief summary of what&apos;s new in the 3rd edition of Python Machine Learning.</description>
+        <pubDate>Thu, 12 Dec 2019 22:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2019/whats-new-in-the-3rd-edition.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2019/whats-new-in-the-3rd-edition.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-learning&quot;</category>
+        
+      </item>
+    
+      <item>
+        <title>My First Year at UW-Madison and a Gallery of Awesome Student Projects</title>
+        <description>Not too long ago, in the Summer of 2018, I was super excited to join the Department of Statistics at the University of Wisconsin-Madison after obtaining my Ph.D. after ~5 long and productive years. Now, two semesters later after finals&apos; week, I finally found some quiet days to look back on what&apos;s happened since then. In this post, I am sharing a short reflection as well as a some of the exciting projects my students were working on.</description>
+        <pubDate>Fri, 24 May 2019 22:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2019/student-gallery-1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2019/student-gallery-1.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-learning&quot;</category>
+        
+      </item>
+    
+      <item>
+        <title>Model evaluation, model selection, and algorithm selection in machine learning</title>
+        <description>This final article in the series *Model evaluation, model selection, and algorithm selection in machine learning* presents overviews of several statistical hypothesis testing approaches, with applications to machine learning model and algorithm comparisons. This includes statistical tests based on target predictions for independent test sets (the downsides of using a single test set for model comparisons was discussed in previous articles) as well as methods for algorithm comparisons by fitting and evaluating models via cross-validation. Lastly, this article will introduce *nested cross-validation*, which has become a common and recommended a method of choice for algorithm comparisons for small to moderately-sized datasets.</description>
+        <pubDate>Sat, 10 Nov 2018 22:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Generating Gender-Neutral Face Images with Semi-Adversarial Neural Networks to Enhance Privacy</title>
+        <description>I thought that it would be nice to have short and concise summaries of recent projects handy, to share them with a more general audience, including colleagues and students. So, I challenged myself to use fewer than 1000 words without getting distracted by the nitty-gritty details and technical jargon. In this post, I mainly cover some of my recent research in collaboration with the [iPRoBe Lab](http://iprobe.cse.msu.edu) that falls under the broad category of developing approaches to hide specific information in face images. The research discussed in this post is about &quot;maximizing privacy while preserving utility.&quot;</description>
+        <pubDate>Thu, 02 Aug 2018 05:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2018/semi-adversarial-nets-1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2018/semi-adversarial-nets-1.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Deep-Learning</category>
+        
+        <category>PyTorch</category>
+        
+        <category>Python</category>
+        
+        <category>Biometrics</category>
+        
+      </item>
+    
+      <item>
+        <title>Model evaluation, model selection, and algorithm selection in machine learning</title>
+        <description>Almost every machine learning algorithm comes with a large number of settings that we, the machine learning researchers and practitioners, need to specify. These tuning knobs, the so-called hyperparameters, help us control the behavior of machine learning algorithms when optimizing for performance, finding the right balance between bias and variance. Hyperparameter tuning for performance optimization is an art in itself, and there are no hard-and-fast rules that guarantee best performance on a given dataset. In Part I and Part II, we saw different holdout and bootstrap techniques for estimating the generalization performance of a model. We learned about the bias-variance trade-off, and we computed the uncertainty of our estimates. In this third part, we will focus on different methods of cross-validation for model evaluation and model selection. We will use these cross-validation techniques to rank models from several hyperparameter configurations and estimate how well they generalize to independent datasets.</description>
+        <pubDate>Sun, 02 Oct 2016 20:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Model evaluation, model selection, and algorithm selection in machine learning</title>
+        <description>In this second part of this series, we will look at some advanced techniques for model evaluation and techniques to estimate the uncertainty of our estimated model performance as well as its variance and stability. Then, in the next article, we will shift the focus onto another task that is one of the main pillar of successful, real-world machine learning applications -- Model Selection.</description>
+        <pubDate>Sat, 13 Aug 2016 20:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2016/model-evaluation-selection-part2.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2016/model-evaluation-selection-part2.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Model evaluation, model selection, and algorithm selection in machine learning</title>
+        <description>Machine learning has become a central part of our life -- as consumers, customers, and hopefully as researchers and practitioners! Whether we are applying predictive modeling techniques to our research or business problems, I believe we have one thing in common  &amp;#58; We want to make good predictions! Fitting a model to our training data is one thing, but how do we know that it generalizes well to unseen data? How do we know that it doesn&apos;t simply memorize the data we fed it and fails to make good predictions on future samples, samples that it hasn&apos;t seen before? And how do we select a good model in the first place? Maybe a different learning algorithm could be better-suited for the problem at hand? Model evaluation is certainly not just the end point of our machine learning pipeline.&lt;br&gt;&lt;br&gt;Before we handle any data, we want to plan ahead and use techniques that are suited for our purposes. In this article, we will go over a selection of these techniques, and we will see how they fit into the bigger picture, a typical machine learning workflow.</description>
+        <pubDate>Sat, 11 Jun 2016 20:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2016/model-evaluation-selection-part1.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Writing &apos;Python Machine Learning&apos;</title>
+        <description>It&apos;s been about time. I am happy to announce that &quot;Python Machine Learning&quot; was finally released today! Sure, I could just send an email around to all the people who were interested in this book. On the other hand, I could put down those 140 characters on Twitter (minus what it takes to insert a hyperlink) and be done with it. Even so, writing &quot;Python Machine Learning&quot; really was quite a journey for a few months, and I would like to sit down in my favorite coffeehouse once more to say a few words about this experience.</description>
+        <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2015/writing-pymle.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2015/writing-pymle.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Python, Machine Learning, and Language Wars</title>
+        <description>This has really been quite a journey for me lately. And regarding the frequently asked question “Why did you choose Python for Machine Learning?” I guess it is about time to write my script. In this article, I really don’t mean to tell you why you or anyone else should use Python. But read on if you are interested in my opinion.</description>
+        <pubDate>Mon, 24 Aug 2015 10:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2015/why-python.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2015/why-python.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Single-Layer Neural Networks and Gradient Descent</title>
+        <description>This article offers a brief glimpse of the history and basic concepts of machine learning. We will take a look at the first algorithmically described neural network and the gradient descent algorithm in context of adaptive linear neurons, which will not only introduce the principles of machine learning but also serve as the basis for modern multilayer neural networks in future articles.</description>
+        <pubDate>Tue, 24 Mar 2015 10:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html</guid>
+        
+        <category>python</category>
+        
+        <category>machine-learning</category>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Principal Component Analysis</title>
+        <description>Principal Component Analysis (PCA) is a simple yet popular and useful linear transformation technique that is used in numerous applications, such as stock market predictions, the analysis of gene expression data, and many more. In this tutorial, we will see that PCA is not just a “black box”, and we are going to unravel its internals in 3 basic steps.</description>
+        <pubDate>Tue, 27 Jan 2015 16:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Implementing a Weighted Majority Rule Ensemble Classifier</title>
+        <description>Here, I want to present a simple and conservative approach of implementing a weighted majority rule ensemble classifier in scikit-learn that yielded remarkably good results when I tried it in a kaggle competition. For me personally, kaggle competitions are just a nice way to try out and compare different approaches and ideas -- basically an opportunity to learn in a controlled environment with nice datasets.</description>
+        <pubDate>Sun, 11 Jan 2015 18:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_ensemble_classifier.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_ensemble_classifier.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+        <category>scikit-learn</category>
+        
+      </item>
+    
+      <item>
+        <title>MusicMood</title>
+        <description>In this article, I want to share my experience with a recent data mining project which probably was one of my most favorite hobby projects so far. It&apos;s all about building a classification model that can automatically predict the mood of music based on song lyrics.</description>
+        <pubDate>Fri, 05 Dec 2014 01:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/blog/2014/musicmood.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/blog/2014/musicmood.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Turn Your Twitter Timeline into a Word Cloud</title>
+        <description>Last week, I posted some visualizations in context of Happy Rock Song data mining project, and some people were curious about how I created the word clouds. Learn how to create YOUR personal Twitter Timeline!</description>
+        <pubDate>Fri, 28 Nov 2014 22:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_twitter_wordcloud.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_twitter_wordcloud.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Naive Bayes and Text Classification</title>
+        <description>Naive Bayes classifiers, a family of classifiers that are based on the popular Bayes’ probability theorem, are known for creating simple yet well performing models, especially in the fields of document classification and disease prediction. In this first part of a series, we will take a look at the theory of naive Bayes classifiers and introduce the basic concepts of text classification. In following articles, we will implement those concepts to train a naive Bayes spam filter and apply naive Bayes to song classification based on lyrics.</description>
+        <pubDate>Sat, 04 Oct 2014 22:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_naive_bayes_1.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_naive_bayes_1.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Kernel tricks and nonlinear dimensionality reduction via RBF kernel PCA</title>
+        <description>The focus of this article is to briefly introduce the idea of kernel methods and to implement a Gaussian radius basis function (RBF) kernel that is used to perform nonlinear dimensionality reduction via KBF kernel principal component analysis (kPCA).</description>
+        <pubDate>Sun, 14 Sep 2014 20:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_kernel_pca.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_kernel_pca.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Predictive modeling, supervised machine learning, and pattern classification</title>
+        <description>When I was working on my next pattern classification application, I realized that it might be worthwhile to take a step back and look at the big picture of pattern classification in order to put my previous topics into context and to provide and introduction for the future topics that are going to follow.</description>
+        <pubDate>Mon, 25 Aug 2014 08:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_intro_supervised_learning.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Linear Discriminant Analysis</title>
+        <description>I received a lot of positive feedback about the step-wise Principal Component Analysis (PCA) implementation. Thus, I decided to write a little follow-up about Linear Discriminant Analysis (LDA) — another useful linear transformation technique. Both LDA and PCA are commonly used dimensionality reduction techniques in statistics, pattern classification, and machine learning applications. By implementing the LDA step-by-step in Python, we will see and understand how it works, and we will compare it to a PCA to see how it differs.</description>
+        <pubDate>Sun, 03 Aug 2014 16:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_python_lda.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_python_lda.html</guid>
+        
+        
+        <category>Machine-learning</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Dixon&apos;s Q test for outlier identification</title>
+        <description>I recently faced the impossible task to identify outliers in a dataset with very, very small sample sizes and Dixon&apos;s Q test caught my attention. Honestly, I am not a big fan of this statistical test, but since Dixon&apos;s Q-test is still quite popular in certain scientific fields (e.g., chemistry) that it is important to understand its principles in order to draw your own conclusion of the presented research data that you might stumble upon in research articles or scientific talks.</description>
+        <pubDate>Sat, 19 Jul 2014 01:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_dixon_test.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_dixon_test.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>About Feature Scaling and Normalization</title>
+        <description>I received a couple of questions in response to my previous article (Entry point: Data) where people asked me why I used Z-score standardization as feature scaling method prior to the PCA. I added additional information to the original article, however, I thought that it might be worthwhile to write a few more lines about this important topic in a separate article.</description>
+        <pubDate>Fri, 11 Jul 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_about_feature_scaling.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_about_feature_scaling.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Entry Point Data</title>
+        <description>In this short tutorial I want to provide a short overview of some of my favorite Python tools for common procedures as entry points for general pattern classification and machine learning tasks, and various other data analyses.</description>
+        <pubDate>Fri, 27 Jun 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_scikit_dataprocessing.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_scikit_dataprocessing.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Molecular docking, estimating free energies of binding, and AutoDock&apos;s semi-empirical force field</title>
+        <description>Discussions and questions about methods, approaches, and tools for estimating (relative) binding free energies of protein-ligand complexes are quite popular, and even the simplest tools can be quite tricky to use. Here, I want to briefly summarize the idea of molecular docking, and give a short overview about how we can use AutoDock 4.2&apos;s hybrid approach for evaluating binding affinities.</description>
+        <pubDate>Thu, 26 Jun 2014 16:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_autodock_energycomps.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_autodock_energycomps.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>An introduction to parallel programming using Python&apos;s multiprocessing module</title>
+        <description>The default Python interpreter was designed with simplicity in mind and has a thread-safe mechanism, the so-called &quot;GIL&quot; (Global Interpreter Lock). In order to prevent conflicts between threads, it executes only one statement at a time (so-called serial processing, or single-threading). In this introduction to Python&apos;s multiprocessing module, we will see how we can spawn multiple subprocesses to avoid some of the GIL&apos;s disadvantages and make best use of the multiple cores in our CPU.</description>
+        <pubDate>Fri, 20 Jun 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_multiprocessing.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_multiprocessing.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Kernel density estimation via the Parzen-Rosenblatt window method</title>
+        <description>The Parzen-window method (also known as Parzen-Rosenblatt window method) is a widely used non-parametric approach to estimate a probability density function *p(**x**)* for a specific point *p(**x**)* from a sample *p(**x**&lt;sub&gt;n&lt;/sub&gt;)* that doesn&apos;t require any knowledge or assumption about the underlying distribution.</description>
+        <pubDate>Thu, 19 Jun 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_kernel_density_est.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_kernel_density_est.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Numeric matrix manipulation</title>
+        <description>At its core, this article is about a simple cheat sheet for basic operations on numeric matrices, which can be very useful if you working and experimenting with some of the most popular languages that are used for scientific computing, statistics, and data analysis.</description>
+        <pubDate>Thu, 19 Jun 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_matrix_cheatsheet.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_matrix_cheatsheet.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The key differences between Python 2.7.x and Python 3.x with examples</title>
+        <description>Many beginning Python users are wondering with which version of Python they should start. My answer to this question is usually something along the lines &apos;just go with the version your favorite tutorial was written in, and check out the differences later on.&apos;\ But what if you are starting a new project and have the choice to pick? I would say there is currently no &apos;right&apos; or &apos;wrong&apos; as long as both Python 2.7.x and Python 3.x support the libraries that you are planning to use. However, it is worthwhile to have a look at the major differences between those two most popular versions of Python to avoid common pitfalls when writing the code for either one of them, or if you are planning to port your project.</description>
+        <pubDate>Sun, 01 Jun 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>5 simple steps for converting Markdown documents into HTML and adding Python syntax highlighting</title>
+        <description>In this little tutorial, I want to show you in 5 simple steps how easy it is to add code syntax highlighting to your blog articles.</description>
+        <pubDate>Wed, 28 May 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_markdown_syntax_color.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_markdown_syntax_color.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>Markdown</category>
+        
+        <category>Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a table of contents with internal links in IPython Notebooks and Markdown documents</title>
+        <description>Many people have asked me how I create the table of contents with internal links for my IPython Notebooks and Markdown documents on GitHub. Well, no (IPython) magic is involved, it is just a little bit of HTML, but I thought it might be worthwhile to write this little how-to tutorial.</description>
+        <pubDate>Tue, 20 May 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_ipython_internal_links.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_ipython_internal_links.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>A Beginner&apos;s Guide to Python&apos;s Namespaces, Scope Resolution, and the LEGB Rule</title>
+        <description>A short tutorial about Python&apos;s namespaces and the scope resolution for variable names using the LEGB-rule with little quiz-like exercises.</description>
+        <pubDate>Mon, 12 May 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_python_scope_and_namespaces.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_python_scope_and_namespaces.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Diving deep into Python</title>
+        <description>Some while ago, I started to collect some of the not-so-obvious things I encountered when I was coding in Python. I thought that it was worthwhile sharing them and encourage you to take a brief look at the section-overview and maybe you&apos;ll find something that you do not already know - I can guarantee you that it&apos;ll likely save you some time at one or the other tricky debugging challenge.</description>
+        <pubDate>Mon, 21 Apr 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_deep_python.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_deep_python.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Implementing a Principal Component Analysis (PCA)</title>
+        <description>In this article I want to explain how a Principal Component Analysis (PCA) works by implementing it in Python step by step. At the end we will compare the results to the more convenient Python PCA() classes that are available through the popular matplotlib and scipy libraries and discuss how they differ.</description>
+        <pubDate>Sun, 13 Apr 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_pca_step_by_step.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_pca_step_by_step.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>Statistics</category>
+        
+        <category>Machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing Scientific Packages for Python3 on MacOS 10.9 Mavericks</title>
+        <description>I just went through some pain (again) when I wanted to install some of Python&apos;s scientific libraries on my second Mac. I summarized the setup and installation process for future reference.\ If you encounter any different or additional obstacles let me know, and please feel free to make any suggestions to improve this short walkthrough.</description>
+        <pubDate>Thu, 13 Mar 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_install_python_sci_pkgs.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_install_python_sci_pkgs.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>A thorough guide to SQLite database operations in Python</title>
+        <description>After I wrote the initial teaser article &quot;SQLite - Working with large data sets in Python effectively&quot; about how awesome SQLite databases are via sqlite3 in Python, I wanted to delve a little bit more into the SQLite syntax and provide you with some more hands-on examples.</description>
+        <pubDate>Fri, 07 Mar 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>SQLite</category>
+        
+      </item>
+    
+      <item>
+        <title>Using OpenEye software for substructure alignments</title>
+        <description>This is a quickguide showing how to use OpenEye software command line tools to align target molecules to a query based on substructure matches and how to retrieve the best molecule overlay from two sets of low-energy conformers.</description>
+        <pubDate>Sun, 23 Feb 2014 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2014_openeye_alignments_overlays.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2014_openeye_alignments_overlays.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Unit testing in Python</title>
+        <description>Let’s be honest, code testing is everything but a joyful task. However, a good unit testing framework makes this process as smooth as possible. Eventually, testing becomes a regular and continuous process, accompanied by the assurance that our code will operate just as exact and seamlessly as a Swiss clockwork.</description>
+        <pubDate>Sat, 14 Dec 2013 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2013_python_unittest.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2013_python_unittest.html</guid>
+        
+        
+        <category>Python</category>
+        
+        <category>Testing</category>
+        
+      </item>
+    
+      <item>
+        <title>A short tutorial for decent heat maps in R</title>
+        <description>I received many questions from people who want to quickly visualize their data via heat maps - ideally as quickly as possible. This is the major issue of exploratory data analysis, since we often don’t have the time to digest whole books about the particular techniques in different software packages to just get the job done. But once we are happy with our initial results, it might be worthwhile to dig deeper into the topic in order to further customize our plots and maybe even polish them for publication. In this post, my aim is to briefly introduce one of R’s several heat map libraries for a simple data analysis. I chose R, because it is one of the most popular free statistical software packages around. Of course there are many more tools out there to produce similar results (and even in R there are many different packages for heat maps), but I will leave this as an open topic for another time.</description>
+        <pubDate>Sun, 08 Dec 2013 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/heatmaps_in_r.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/heatmaps_in_r.html</guid>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>SQLite</title>
+        <description>My new project confronted me with the task of screening a massive set of large data files in text format with billions of entries each. I will have to retrieve data repeatedly and frequently in the future. Thus, I was tempted to find a better solution than brute-force scanning through ~20 separate 1-column text files with ~6 billion entries every time line by line.</description>
+        <pubDate>Sun, 03 Nov 2013 09:00:00 +0000</pubDate>
+        <link>https://sebastianraschka.com/Articles/2013_sqlite_database.html</link>
+        <guid isPermaLink="true">https://sebastianraschka.com/Articles/2013_sqlite_database.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
