@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>nlin.CD updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Nonlinear Sciences -- Chaotic Dynamics (nlin.CD) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Nonlinear Sciences -- Chaotic Dynamics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01394" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01721" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01887" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.05704" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01394">
+<title>Self-Similar Gravitational Dynamics, Singularities and Criticality in 2D. (arXiv:2211.01394v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01394</link>
+<description rdf:parseType="Literal">&lt;p&gt;We initiate a systematic study of continuously self-similar (CSS)
+gravitational dynamics in two dimensions, motivated by critical phenomena
+observed in higher dimensional gravitational theories. We consider CSS
+spacetimes admitting a homothetic Killing vector (HKV) field. For a general
+two-dimensional gravitational theory coupled to a dilaton field and Maxwell
+field, we find that the assumption of continuous self-similarity determines the
+form of the dilaton coupling to the curvature. Certain limits produce two
+important classes of models, one of which is closely related to two-dimensional
+target space string theory and the other being Liouville gravity. The gauge
+field is shown to produce a shift in the dilaton potential strength. We
+consider static black hole solutions and find spacetimes with uncommon
+asymptotic behaviour. We show the vacuum self-similar spacetimes to be special
+limits of the static solutions. We add matter fields consistent with
+self-similarity (including a certain model of semi-classical gravity) and write
+down the autonomous ordinary differential equations governing the gravitational
+dynamics. Based on the phenomenon of finite-time blow-up in ODEs, we argue that
+spacetime singularities are generic in our models. We present qualitatively
+diverse results from analytical and numerical investigations regarding matter
+field collapse and singularities. We find interesting hints of a Choptuik-like
+scaling law.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Moitra_U/0/1/0/all/0/1&quot;&gt;Upamanyu Moitra&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01721">
+<title>Chaos in multiplanetary extrasolar systems. (arXiv:2211.01721v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01721</link>
+<description rdf:parseType="Literal">&lt;p&gt;Here we present an initial look at the dynamics and stability of 178
+multiplanetary systems which are already confirmed and listed in the NASA
+Exoplanet Archive. To distinguish between the chaotic and regular nature of a
+system, the value of the MEGNO indicator for each system was determined. Almost
+three-quarters of them could be labelled as long-term stable. Only 45 studied
+systems show chaotic behaviour. We consequently investigated the effects of the
+number of planets and their parameters on the system stability. A comparison of
+results obtained using the MEGNO indicator and machine-learning algorithm SPOCK
+suggests that the SPOCK could be used as an effective tool for reviewing the
+stability of multiplanetary systems. A similar study was already published by
+Laskar and Petit in 2017. We compared their analysis based on the AMD criterion
+with our results. The possible discrepancies are discussed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gajdos_P/0/1/0/all/0/1&quot;&gt;Pavol Gajdo&amp;#x161;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vanko_M/0/1/0/all/0/1&quot;&gt;Martin Va&amp;#x148;ko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01887">
+<title>Thermalization of Classical Weakly Nonintegrable Many-Body Systems. (arXiv:2211.01887v1 [nlin.CD])</title>
+<link>http://arxiv.org/abs/2211.01887</link>
+<description rdf:parseType="Literal">&lt;p&gt;We devote our studies to the subject of weakly nonintegrable dynamics of
+systems with a macroscopic number of degrees of freedom. Our main points of
+interest are the relations between the timescales of thermalization and the
+timescales of chaotization; the choice of appropriate observables and the
+structure of equations coupling them; identifying the classes of weakly
+nonintegrable dynamics and developing tools to diagnose the properties specific
+to such classes. We discuss the traditional in the field methods for
+thermalization timescale computation and employ them to study the scaling the
+timescale with the proximity to the integrable limit. We then elaborate on a
+novel framework based on the full Lyapunov spectra computation for large
+systems as a powerful tool for the characterization of weak nonintegrability.
+In particular, the Lyapunov spectrum scaling offers a quantitative description
+allowing us to infer the structure of the underlying network of observables.
+Proximity to integrable limit is associated with the rapid growth of
+thermalization timescales and, thus, potential numerical challenges. We solve
+these challenges by performing numerical tests using computationally efficient
+model - unitary maps. The great advantage of unitary maps for numerical
+applications is time-discrete error-free evolution. We use these advantages to
+perform large timescale and system size computations in extreme proximity to
+the integrable limit. To demonstrate the scope of obtained results we report on
+the application of the developed framework to Hamiltonian systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Malishava_M/0/1/0/all/0/1&quot;&gt;Merab Malishava&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.05704">
+<title>Dynamical quantum ergodicity from energy level statistics. (arXiv:2205.05704v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.05704</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ergodic theory provides a rigorous mathematical description of classical
+dynamical systems including a formal definition of the ergodic hierarchy.
+Closely related to this hierarchy is a less-known notion of cyclic approximate
+periodic transformations [see, e.g., I. Cornfield, S. Fomin, and Y. Sinai,
+Ergodic theory (Springer-Verlag New York, 1982)], which maps any &quot;ergodic&quot;
+dynamical system to a cyclic permutation on a circle and arguably represents
+the most elementary notion of ergodicity. This paper shows that cyclic
+ergodicity generalizes to quantum dynamical systems, and this generalization is
+proposed here as the basic rigorous definition of quantum ergodicity. It
+implies the ability to construct an orthonormal basis, where quantum dynamics
+transports an initial basis vector to all other basis vectors one by one, while
+maintaining a sufficiently large overlap between the time-evolved initial state
+and a given basis state. It is proven that the basis, maximizing the overlap
+over all cyclic permutations, is obtained via the discrete Fourier transform of
+the energy eigenstates. This relates quantum cyclic ergodicity to level
+statistics. We then show that the near-universal Wigner-Dyson level statistics
+implies quantum cyclic ergodicity, but the reverse is not necessarily true. For
+the latter, we study irrational flows on a 2D torus and prove that both the
+classical and quantum flows are cyclic ergodic. However, the corresponding
+level statistics is neither Wigner-Dyson nor Poisson. Finally, we use the
+cyclic construction to motivate a quantum ergodic hierarchy of operators and
+argue that under the additional assumption of Poincare recurrences, cyclic
+ergodicity is a necessary condition for such operators to satisfy the
+eigenstate thermalization hypothesis. This work provides a general framework
+for transplanting some rigorous concepts of ergodic theory to quantum dynamical
+systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Vikram_A/0/1/0/all/0/1&quot;&gt;Amit Vikram&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Galitski_V/0/1/0/all/0/1&quot;&gt;Victor Galitski&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
