@@ -1,0 +1,6 @@
+{
+  "title": "Improved Inapproximability of VC Dimension and Littlestone's Dimension via (Unbalanced) Biclique. (arXiv:2211.01443v1 [cs.CC])",
+  "link": "http://arxiv.org/abs/2211.01443",
+  "description": "<p>We study the complexity of computing (and approximating) VC Dimension and\nLittlestone's Dimension when we are given the concept class explicitly. We give\na simple reduction from Maximum (Unbalanced) Biclique problem to approximating\nVC Dimension and Littlestone's Dimension. With this connection, we derive a\nrange of hardness of approximation results and running time lower bounds. For\nexample, under the (randomized) Gap-Exponential Time Hypothesis or the\nStrongish Planted Clique Hypothesis, we show a tight inapproximability result:\nboth dimensions are hard to approximate to within a factor of $o(\\log n)$ in\npolynomial-time. These improve upon constant-factor inapproximability results\nfrom [Manurangsi and Rubinstein, COLT 2017].\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Manurangsi_P/0/1/0/all/0/1\">Pasin Manurangsi</a>"
+}

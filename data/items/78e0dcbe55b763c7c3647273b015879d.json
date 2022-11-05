@@ -1,0 +1,6 @@
+{
+  "title": "Uncertainty Quantification for Rule-Based Models. (arXiv:2211.01915v1 [cs.AI])",
+  "link": "http://arxiv.org/abs/2211.01915",
+  "description": "<p>Rule-based classification models described in the language of logic directly\npredict boolean values, rather than modeling a probability and translating it\ninto a prediction as done in statistical models. The vast majority of existing\nuncertainty quantification approaches rely on models providing continuous\noutput not available to rule-based models. In this work, we propose an\nuncertainty quantification framework in the form of a meta-model that takes any\nbinary classifier with binary output as a black box and estimates the\nprediction accuracy of that base model at a given input along with a level of\nconfidence on that estimation. The confidence is based on how well that input\nregion is explored and is designed to work in any OOD scenario. We demonstrate\nthe usefulness of this uncertainty model by building an abstaining classifier\npowered by it and observing its performance in various scenarios.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Kim_Y/0/1/0/all/0/1\">Yusik Kim</a>"
+}

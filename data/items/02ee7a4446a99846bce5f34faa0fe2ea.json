@@ -1,0 +1,6 @@
+{
+  "title": "FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v1 [q-bio.NC])",
+  "link": "http://arxiv.org/abs/2211.01960",
+  "description": "<p>Motor brain-computer interface (BCI) development relies critically on neural\ntime series decoding algorithms. Recent advances in deep learning architectures\nallow for automatic feature selection to approximate higher-order dependencies\nin data. This article presents the FingerFlex model - a convolutional\nencoder-decoder architecture adapted for finger movement regression on\nelectrocorticographic (ECoG) brain data. State-of-the-art performance was\nachieved on a publicly available BCI competition IV dataset 4 with a\ncorrelation coefficient between true and predicted trajectories up to 0.74. The\npresented method provides the opportunity for developing fully-functional\nhigh-precision cortical motor brain-computer interfaces.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/q-bio/1/au:+Lomtev_V/0/1/0/all/0/1\">Vladislav Lomtev</a>, <a href=\"http://arxiv.org/find/q-bio/1/au:+Kovalev_A/0/1/0/all/0/1\">Alexander Kovalev</a>, <a href=\"http://arxiv.org/find/q-bio/1/au:+Timchenko_A/0/1/0/all/0/1\">Alexey Timchenko</a>"
+}

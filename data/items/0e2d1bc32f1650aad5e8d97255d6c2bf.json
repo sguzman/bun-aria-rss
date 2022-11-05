@@ -1,0 +1,6 @@
+{
+  "title": "A Geometric Perspective on Variational Autoencoders. (arXiv:2209.07370v2 [stat.ML] UPDATED)",
+  "link": "http://arxiv.org/abs/2209.07370",
+  "description": "<p>This paper introduces a new interpretation of the Variational Autoencoder\nframework by taking a fully geometric point of view. We argue that vanilla VAE\nmodels unveil naturally a Riemannian structure in their latent space and that\ntaking into consideration those geometrical aspects can lead to better\ninterpolations and an improved generation procedure. This new proposed sampling\nmethod consists in sampling from the uniform distribution deriving\nintrinsically from the learned Riemannian latent space and we show that using\nthis scheme can make a vanilla VAE competitive and even better than more\nadvanced versions on several benchmark datasets. Since generative models are\nknown to be sensitive to the number of training samples we also stress the\nmethod's robustness in the low data regime.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/stat/1/au:+Chadebec_C/0/1/0/all/0/1\">Cl&#xe9;ment Chadebec</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Allassonniere_S/0/1/0/all/0/1\">St&#xe9;phanie Allassonni&#xe8;re</a>"
+}

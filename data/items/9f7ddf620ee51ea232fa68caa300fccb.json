@@ -1,0 +1,6 @@
+{
+  "title": "Active Labeling: Streaming Stochastic Gradients. (arXiv:2205.13255v2 [cs.LG] UPDATED)",
+  "link": "http://arxiv.org/abs/2205.13255",
+  "description": "<p>The workhorse of machine learning is stochastic gradient descent. To access\nstochastic gradients, it is common to consider iteratively input/output pairs\nof a training dataset. Interestingly, it appears that one does not need full\nsupervision to access stochastic gradients, which is the main motivation of\nthis paper. After formalizing the \"active labeling\" problem, which focuses on\nactive learning with partial supervision, we provide a streaming technique that\nprovably minimizes the ratio of generalization error over the number of\nsamples. We illustrate our technique in depth for robust regression.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Cabannes_V/0/1/0/all/0/1\">Vivien Cabannes</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bach_F/0/1/0/all/0/1\">Francis Bach</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Perchet_V/0/1/0/all/0/1\">Vianney Perchet</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Rudi_A/0/1/0/all/0/1\">Alessandro Rudi</a>"
+}

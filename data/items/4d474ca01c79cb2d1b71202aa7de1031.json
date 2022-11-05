@@ -1,0 +1,6 @@
+{
+  "title": "Port-metriplectic neural networks: thermodynamics-informed machine learning of complex physical systems. (arXiv:2211.01873v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01873",
+  "description": "<p>We develop inductive biases for the machine learning of complex physical\nsystems based on the port-Hamiltonian formalism. To satisfy by construction the\nprinciples of thermodynamics in the learned physics (conservation of energy,\nnon-negative entropy production), we modify accordingly the port-Hamiltonian\nformalism so as to achieve a port-metriplectic one. We show that the\nconstructed networks are able to learn the physics of complex systems by parts,\nthus alleviating the burden associated to the experimental characterization and\nposterior learning process of this kind of systems. Predictions can be done,\nhowever, at the scale of the complete system. Examples are shown on the\nperformance of the proposed technique.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Hernandez_Q/0/1/0/all/0/1\">Quercus Hern&#xe1;ndez</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Badias_A/0/1/0/all/0/1\">Alberto Bad&#xed;as</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chinesta_F/0/1/0/all/0/1\">Francisco Chinesta</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cueto_E/0/1/0/all/0/1\">El&#xed;as Cueto</a>"
+}

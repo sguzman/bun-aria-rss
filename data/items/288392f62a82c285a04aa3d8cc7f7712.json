@@ -1,0 +1,6 @@
+{
+  "title": "The Need for Medically Aware Video Compression in Gastroenterology. (arXiv:2211.01472v1 [eess.IV])",
+  "link": "http://arxiv.org/abs/2211.01472",
+  "description": "<p>Compression is essential to storing and transmitting medical videos, but the\neffect of compression on downstream medical tasks is often ignored.\nFurthermore, systems in practice rely on standard video codecs, which naively\nallocate bits between medically relevant frames or parts of frames. In this\nwork, we present an empirical study of some deficiencies of classical codecs on\ngastroenterology videos, and motivate our ongoing work to train a learned\ncompression model for colonoscopy videos. We show that two of the most common\nclassical codecs, H264 and HEVC, compress medically relevant frames\nstatistically significantly worse than medically nonrelevant ones, and that\npolyp detector performance degrades rapidly as compression increases. We\nexplain how a learned compressor could allocate bits to important regions and\nallow detection performance to degrade more gracefully. Many of our proposed\ntechniques generalize to medical video domains beyond gastroenterology\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Shor_J/0/1/0/all/0/1\">Joel Shor</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Johnston_N/0/1/0/all/0/1\">Nick Johnston</a>"
+}

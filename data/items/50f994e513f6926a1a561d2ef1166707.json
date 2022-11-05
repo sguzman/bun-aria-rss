@@ -1,0 +1,6 @@
+{
+  "title": "Evaluating a Synthetic Image Dataset Generated with Stable Diffusion. (arXiv:2211.01777v1 [cs.CV])",
+  "link": "http://arxiv.org/abs/2211.01777",
+  "description": "<p>We generate synthetic images with the \"Stable Diffusion\" image generation\nmodel using the Wordnet taxonomy and the definitions of concepts it contains.\nThis synthetic image database can be used as training data for data\naugmentation in machine learning applications, and it is used to investigate\nthe capabilities of the Stable Diffusion model.\n</p>\n<p>Analyses show that Stable Diffusion can produce correct images for a large\nnumber of concepts, but also a large variety of different representations. The\nresults show differences depending on the test concepts considered and problems\nwith very specific concepts. These evaluations were performed using a vision\ntransformer model for image classification.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Stockl_A/0/1/0/all/0/1\">Andreas St&#xf6;ckl</a>"
+}

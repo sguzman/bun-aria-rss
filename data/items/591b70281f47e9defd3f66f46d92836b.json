@@ -1,0 +1,6 @@
+{
+  "title": "An Empirical Bayes Analysis of Vehicle Trajectory Models. (arXiv:2211.01696v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01696",
+  "description": "<p>We present an in-depth empirical analysis of the trade-off between model\ncomplexity and representation error in modelling vehicle trajectories.\nAnalyzing several large public datasets, we show that simple linear models do\nrepresent realworld trajectories with high fidelity over relevant time scales\nat very moderate model complexity. This finding allows the formulation of\ntrajectory tracking and prediction as a Bayesian filtering problem. Using an\nEmpirical Bayes approach, we estimate prior distributions over model parameters\nfrom the data that inform the motion models necessary in the trajectory\ntracking problem and that can help regularize prediction models. We argue for\nthe use of linear models in trajectory prediction tasks as their representation\nerror is much smaller than the typical epistemic uncertainty in this task.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Yao_Y/0/1/0/all/0/1\">Yue Yao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Goehring_D/0/1/0/all/0/1\">Daniel Goehring</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Reichardt_J/0/1/0/all/0/1\">Joerg Reichardt</a>"
+}

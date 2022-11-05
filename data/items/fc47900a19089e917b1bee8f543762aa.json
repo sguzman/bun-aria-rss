@@ -1,0 +1,6 @@
+{
+  "title": "Self Similarity Matrix based CNN Filter Pruning. (arXiv:2211.01814v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01814",
+  "description": "<p>In recent years, most of the deep learning solutions are targeted to be\ndeployed in mobile devices. This makes the need for development of lightweight\nmodels all the more imminent. Another solution is to optimize and prune regular\ndeep learning models. In this paper, we tackle the problem of CNN model pruning\nwith the help of Self-Similarity Matrix (SSM) computed from the 2D CNN filters.\nWe propose two novel algorithms to rank and prune redundant filters which\ncontribute similar activation maps to the output. One of the key features of\nour method is that there is no need of finetuning after training the model.\nBoth the training and pruning process is completed simultaneously. We benchmark\nour method on two of the most popular CNN models - ResNet and VGG and record\ntheir performance on the CIFAR-10 dataset.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Rakshith_S/0/1/0/all/0/1\">S Rakshith</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Vachhani_J/0/1/0/all/0/1\">Jayesh Rajkumar Vachhani</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Gothe_S/0/1/0/all/0/1\">Sourabh Vasant Gothe</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Khurana_R/0/1/0/all/0/1\">Rishabh Khurana</a>"
+}

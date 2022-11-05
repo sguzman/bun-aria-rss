@@ -1,0 +1,6 @@
+{
+  "title": "A Learning-Theoretic Framework for Certified Auditing with Explanations. (arXiv:2206.04740v2 [cs.LG] UPDATED)",
+  "link": "http://arxiv.org/abs/2206.04740",
+  "description": "<p>Responsible use of machine learning requires models be audited for\nundesirable properties. While a number of auditing algorithms have been\nproposed in prior work, how to do principled auditing in a general setting has\nremained ill-understood. This work proposes a formal learning-theoretic\nframework for auditing, and uses it to investigate if and how model\nexplanations can help audits. Specifically, we propose algorithms for auditing\nlinear classifiers for feature sensitivity using label queries as well as two\nkinds of explanations, and provide performance guarantees. Our results\nillustrate that while counterfactual explanations can be extremely helpful for\nauditing, anchor explanations may not be as beneficial in the worst case.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Yadav_C/0/1/0/all/0/1\">Chhavi Yadav</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Moshkovitz_M/0/1/0/all/0/1\">Michal Moshkovitz</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chaudhuri_K/0/1/0/all/0/1\">Kamalika Chaudhuri</a>"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "On a conjecture on shifted primes with large prime factors. (arXiv:2208.11316v2 [math.NT] UPDATED)",
+  "link": "http://arxiv.org/abs/2208.11316",
+  "description": "<p>Let $\\mathcal{P}$ be the set of all primes and $\\pi(x)$ be the number of\nprimes up to $x$. For any $n\\ge 2$, let $P^+(n)$ be the largest prime factor of\n$n$. For $0&lt;c&lt;1$, let $$T_c(x)=\\#\\{p\\le x:p\\in \\mathcal{P},P^+(p-1)\\ge p^c\\}.$$\nIn this note, we proved that there exists some $c&lt;1$ such that\n$$\\limsup_{x\\rightarrow\\infty}\\frac{T_c(x)}{\\pi(x)}&lt;\\frac12,$$ which disproves\na conjecture of Chen and Chen.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Ding_Y/0/1/0/all/0/1\">Yuchen Ding</a>"
+}

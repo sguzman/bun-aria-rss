@@ -1,0 +1,6 @@
+{
+  "title": "Joint Chinese Word Segmentation and Span-based Constituency Parsing. (arXiv:2211.01638v1 [cs.CL])",
+  "link": "http://arxiv.org/abs/2211.01638",
+  "description": "<p>In constituency parsing, span-based decoding is an important direction.\nHowever, for Chinese sentences, because of their linguistic characteristics, it\nis necessary to utilize other models to perform word segmentation first, which\nintroduces a series of uncertainties and generally leads to errors in the\ncomputation of the constituency tree afterward. This work proposes a method for\njoint Chinese word segmentation and Span-based Constituency Parsing by adding\nextra labels to individual Chinese characters on the parse trees. Through\nexperiments, the proposed algorithm outperforms the recent models for joint\nsegmentation and constituency parsing on CTB 5.1.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Wang_Z/0/1/0/all/0/1\">Zhicheng Wang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shi_T/0/1/0/all/0/1\">Tianyu Shi</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_C/0/1/0/all/0/1\">Cong Liu</a>"
+}

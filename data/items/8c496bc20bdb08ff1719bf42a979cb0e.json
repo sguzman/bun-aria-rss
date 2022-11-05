@@ -1,0 +1,13 @@
+{
+  "title": "LINVER: The Linear Version of FRB/US",
+  "link": "https://fedinprint.org/item/fedgfe/94725/original",
+  "description": "FRB/US, a large-scale, nonlinear macroeconomic model of the U.S., has been in use at the Federal Reserve Board for 25 years. For nearly as long, the FRB/US “project” has included a linear version of the model known as LINVER. A key reason that LINVER exists is the vast reduction in the computational costs that linearity confers when running experiments requiring large numbers of simulations under the assumption that expectations are model-consistent (MC). The public has been able to download FRB/US simulation code, documentation, and data from the Federal Reserve Board’s website since 2014. To further expand access to and understanding of the FRB/US project, a package devoted to LINVER is now available on the website. In this paper, we provide both a general introduction to LINVER and an overview of the contents and capabilities of its package. We review the ways that LINVER has been used in past research to study key policy issues; describe the package’s comprehensive set of programs for running simulations with MC expectations, with or without imposing the effective lower bound (ELB) on the federal funds rate and other nonlinear constraints; and illustrate how LINVER deterministic and stochastic simulations can be used to gauge the implications of the ELB for macroeconomic performance and to assess different strategies for mitigating its adverse effects.",
+  "guid": "https://fedinprint.org/item/fedgfe/94725/original",
+  "dc:creator": "Brayton, Flint; Reifschneider, David L.",
+  "dc:date": "2022-08-16",
+  "rdau:hasExtent": "41 p.",
+  "dc:subject": "Interest rates; Simulation; Econometric modeling; Monetary policy; Effective lower bound",
+  "swpo:hasNumber": "2022-053",
+  "identifiers:doi": "10.17016/FEDS.2022.053",
+  "bibo:series": "Finance and Economics Discussion Series"
+}

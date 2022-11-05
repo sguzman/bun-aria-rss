@@ -1,0 +1,6 @@
+{
+  "title": "Demo: LE3D: A Privacy-preserving Lightweight Data Drift Detection Framework. (arXiv:2211.01827v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01827",
+  "description": "<p>This paper presents LE3D; a novel data drift detection framework for\npreserving data integrity and confidentiality. LE3D is a generalisable platform\nfor evaluating novel drift detection mechanisms within the Internet of Things\n(IoT) sensor deployments. Our framework operates in a distributed manner,\npreserving data privacy while still being adaptable to new sensors with minimal\nonline reconfiguration. Our framework currently supports multiple drift\nestimators for time-series IoT data and can easily be extended to accommodate\nnew data types and drift detection mechanisms. This demo will illustrate the\nfunctionality of LE3D under a real-world-like scenario.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Mavromatis_I/0/1/0/all/0/1\">Ioannis Mavromatis</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Khan_A/0/1/0/all/0/1\">Aftab Khan</a>"
+}

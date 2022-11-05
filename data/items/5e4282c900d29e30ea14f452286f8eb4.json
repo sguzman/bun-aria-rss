@@ -1,0 +1,6 @@
+{
+  "title": "Applicability of machine learning in uncertainty quantification of turbulence models. (arXiv:2210.16358v2 [physics.flu-dyn] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.16358",
+  "description": "<p>White paper: The aim of this work is to apply and analyze machine learning\nmethods for uncertainty quantification of turbulence models. In this work we\ninvestigate the classical and data-driven variants of the eigenspace\nperturbation method. This methodology is designed to estimate the uncertainties\nrelated to the shape of the modeled Reynolds stress tensor in the Navier-Stokes\nequations for Computational Fluid Dynamics (CFD). The underlying methodology is\nextended by adding a data-driven, physics-constrained machine learning approach\nin order to predict local perturbations of the Reynolds stress tensor. Using\nseparated two-dimensional flows, we investigate the generalization properties\nof the machine learning models and shed a light on impacts of applying a\ndata-driven extension.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/physics/1/au:+Matha_M/0/1/0/all/0/1\">Marcel Matha</a>, <a href=\"http://arxiv.org/find/physics/1/au:+Kucharczyk_K/0/1/0/all/0/1\">Karsten Kucharczyk</a>"
+}

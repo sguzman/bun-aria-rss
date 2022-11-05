@@ -1,0 +1,17 @@
+{
+  "title": "New version of Posteriordb:  a database of posterior distributions for evaluating Bayesian computation algorithms",
+  "link": "https://statmodeling.stat.columbia.edu/2022/11/04/new-version-of-posteriordb-a-database-of-posterior-distributions-for-evaluating-bayesian-computation-algorithms/",
+  "comments": "https://statmodeling.stat.columbia.edu/2022/11/04/new-version-of-posteriordb-a-database-of-posterior-distributions-for-evaluating-bayesian-computation-algorithms/#respond",
+  "dc:creator": "Andrew",
+  "pubDate": "Fri, 04 Nov 2022 13:37:27 +0000",
+  "category": [
+    "Bayesian Statistics",
+    "Stan",
+    "Statistical computing"
+  ],
+  "guid": "https://statmodeling.stat.columbia.edu/?p=48155",
+  "description": "Måns Magnusson writes: Now I and @avehtari are done with the PR review and finally, a new version of posteriordb is out. There is still a need for more complex posteriors > 100 parameters or models that take longer to &#8230; <a href=\"https://statmodeling.stat.columbia.edu/2022/11/04/new-version-of-posteriordb-a-database-of-posterior-distributions-for-evaluating-bayesian-computation-algorithms/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>",
+  "content:encoded": "<p>Måns Magnusson <a href=\"https://discourse.mc-stan.org/t/posteriordb-v-0-4-0/29314\">writes</a>:</p>\n<blockquote><p>Now I and @avehtari are done with the PR review and finally, a new version of posteriordb is out. There is still a need for more complex posteriors > 100 parameters or models that take longer to estimate (minutes or hours rather than seconds). The ideal posteriors are complex posteriors that have already been published where the data is open and can be included. Feel free to reach out if you have implemented such posteriors. I’m happy to include them.</p></blockquote>\n<p>The update includes new posterior distributions, bug fixes, and updated documentation.</p>\n<p>I think this project is really important.</p>\n",
+  "wfw:commentRss": "https://statmodeling.stat.columbia.edu/2022/11/04/new-version-of-posteriordb-a-database-of-posterior-distributions-for-evaluating-bayesian-computation-algorithms/feed/",
+  "slash:comments": 0
+}

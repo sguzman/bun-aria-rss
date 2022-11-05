@@ -1,0 +1,6 @@
+{
+  "title": "Foot-Sorting for Socks. (arXiv:2211.02021v1 [math.CO])",
+  "link": "http://arxiv.org/abs/2211.02021",
+  "description": "<p>If your socks come out of the laundry all mixed up, how should you sort them?\nWe introduce and study a novel foot-sorting algorithm that uses feet to attempt\nto sort a sock ordering; one can view this algorithm as an analogue of Knuth's\nstack-sorting algorithm for set partitions. The sock orderings that can be\nsorted using a fixed number of feet are characterized by Klazar's notion of set\npartition pattern containment. We give an enumeration involving Fibonacci\nnumbers for the $1$-foot-sortable sock orderings within a naturally-arising\nclass. We also prove that if you have socks of $n$ different colors, then you\ncan always sort them using at most $\\left\\lceil\\log_2(n)\\right\\rceil$ feet, and\nwe use a Ramsey-theoretic argument to show that this bound is tight.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Defant_C/0/1/0/all/0/1\">Colin Defant</a>, <a href=\"http://arxiv.org/find/math/1/au:+Kravitz_N/0/1/0/all/0/1\">Noah Kravitz</a>"
+}

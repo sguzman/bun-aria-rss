@@ -1,0 +1,6 @@
+{
+  "title": "lilGym: Natural Language Visual Reasoning with Reinforcement Learning. (arXiv:2211.01994v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01994",
+  "description": "<p>We present lilGym, a new benchmark for language-conditioned reinforcement\nlearning in visual environments. lilGym is based on 2,661 highly-compositional\nhuman-written natural language statements grounded in an interactive visual\nenvironment. We annotate all statements with executable Python programs\nrepresenting their meaning to enable exact reward computation in every possible\nworld state. Each statement is paired with multiple start states and reward\nfunctions to form thousands of distinct Markov Decision Processes of varying\ndifficulty. We experiment with lilGym with different models and learning\nregimes. Our results and analysis show that while existing methods are able to\nachieve non-trivial performance, lilGym forms a challenging open problem.\nlilGym is available at https://lil.nlp.cornell.edu/lilgym/.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Wu_A/0/1/0/all/0/1\">Anne Wu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Brantley_K/0/1/0/all/0/1\">Kiant&#xe9; Brantley</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kojima_N/0/1/0/all/0/1\">Noriyuki Kojima</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Artzi_Y/0/1/0/all/0/1\">Yoav Artzi</a>"
+}

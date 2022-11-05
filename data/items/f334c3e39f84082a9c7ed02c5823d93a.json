@@ -1,0 +1,6 @@
+{
+  "title": "Extra-Newton: A First Approach to Noise-Adaptive Accelerated Second-Order Methods. (arXiv:2211.01832v1 [math.OC])",
+  "link": "http://arxiv.org/abs/2211.01832",
+  "description": "<p>This work proposes a universal and adaptive second-order method for\nminimizing second-order smooth, convex functions. Our algorithm achieves\n$O(\\sigma / \\sqrt{T})$ convergence when the oracle feedback is stochastic with\nvariance $\\sigma^2$, and improves its convergence to $O( 1 / T^3)$ with\ndeterministic oracles, where $T$ is the number of iterations. Our method also\ninterpolates these rates without knowing the nature of the oracle apriori,\nwhich is enabled by a parameter-free adaptive step-size that is oblivious to\nthe knowledge of smoothness modulus, variance bounds and the diameter of the\nconstrained set. To our knowledge, this is the first universal algorithm with\nsuch global guarantees within the second-order optimization literature.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Antonakopoulos_K/0/1/0/all/0/1\">Kimon Antonakopoulos</a>, <a href=\"http://arxiv.org/find/math/1/au:+Kavis_A/0/1/0/all/0/1\">Ali Kavis</a>, <a href=\"http://arxiv.org/find/math/1/au:+Cevher_V/0/1/0/all/0/1\">Volkan Cevher</a>"
+}

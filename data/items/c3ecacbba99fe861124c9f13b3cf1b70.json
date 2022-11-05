@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:KSpG_aRPyRQ",
+  "yt:videoId": "KSpG_aRPyRQ",
+  "yt:channelId": "UCrVWVOBoBu7W-aXbApDEuyQ",
+  "title": "GNU texinfo  - Part 2 ~ Nodes, Tables, and more ~",
+  "link": "",
+  "author": {
+    "name": "Khalili Oriented Programming",
+    "uri": "https://www.youtube.com/channel/UCrVWVOBoBu7W-aXbApDEuyQ"
+  },
+  "published": "2020-07-10T00:57:20+00:00",
+  "updated": "2022-07-01T04:43:42+00:00",
+  "media:group": {
+    "media:title": "GNU texinfo  - Part 2 ~ Nodes, Tables, and more ~",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "The second and final part covering the world's most OG documentation system. Covers: tables, menus, lists, and more.\n\nOne thing I didn't get to mention but is super important is references. To refer to another node, just write xref{NAME OF NODE}, for example xref{Introduction}.\n\nTexinfo docs: https://www.gnu.org/software/texinfo/\nGNU manuals website: https://www.gnu.org/manual/manual.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Galaxy Image Deconvolution for Weak Gravitational Lensing with Physics-informed Deep Learning. (arXiv:2211.01567v1 [astro-ph.IM])",
+  "link": "http://arxiv.org/abs/2211.01567",
+  "description": "<p>Removing optical and atmospheric blur from galaxy images significantly\nimproves galaxy shape measurements for weak gravitational lensing and galaxy\nevolution studies. This ill-posed linear inverse problem is usually solved with\ndeconvolution algorithms enhanced by regularisation priors or deep learning. We\nintroduce a so-called \"physics-based deep learning\" approach to the Point\nSpread Function (PSF) deconvolution problem in galaxy surveys. We apply\nalgorithm unrolling and the Plug-and-Play technique to the Alternating\nDirection Method of Multipliers (ADMM) with a Poisson noise model and use a\nneural network to learn appropriate priors from simulated galaxy images. We\ncharacterise the time-performance trade-off of several methods for galaxies of\ndiffering brightness levels, showing an improvement of 26% (SNR=20)/48%\n(SNR=100) compared to standard methods and 14% (SNR=20) compared to modern\nmethods.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/astro-ph/1/au:+Li_T/0/1/0/all/0/1\">Tianao Li</a>, <a href=\"http://arxiv.org/find/astro-ph/1/au:+Alexander_E/0/1/0/all/0/1\">Emma Alexander</a>"
+}

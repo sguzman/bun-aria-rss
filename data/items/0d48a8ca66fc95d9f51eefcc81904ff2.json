@@ -1,0 +1,6 @@
+{
+  "title": "Revisiting and Optimising a CNN Colour Constancy Method for Multi-Illuminant Estimation. (arXiv:2211.01946v1 [cs.CV])",
+  "link": "http://arxiv.org/abs/2211.01946",
+  "description": "<p>The aim of colour constancy is to discount the effect of the scene\nillumination from the image colours and restore the colours of the objects as\ncaptured under a 'white' illuminant. For the majority of colour constancy\nmethods, the first step is to estimate the scene illuminant colour. Generally,\nit is assumed that the illumination is uniform in the scene. However, real\nworld scenes have multiple illuminants, like sunlight and spot lights all\ntogether in one scene. We present in this paper a simple yet very effective\nframework using a deep CNN-based method to estimate and use multiple\nilluminants for colour constancy. Our approach works well in both the multi and\nsingle illuminant cases. The output of the CNN method is a region-wise estimate\nmap of the scene which is smoothed and divided out from the image to perform\ncolour constancy. The method that we propose outperforms other recent and state\nof the art methods and has promising visual results.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Hemrit_G/0/1/0/all/0/1\">Ghalia Hemrit</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Meehan_J/0/1/0/all/0/1\">Joseph Meehan</a>"
+}

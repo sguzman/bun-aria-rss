@@ -1,0 +1,6 @@
+{
+  "title": "A Consistent Estimator for Confounding Strength. (arXiv:2211.01903v1 [stat.ML])",
+  "link": "http://arxiv.org/abs/2211.01903",
+  "description": "<p>Regression on observational data can fail to capture a causal relationship in\nthe presence of unobserved confounding. Confounding strength measures this\nmismatch, but estimating it requires itself additional assumptions. A common\nassumption is the independence of causal mechanisms, which relies on\nconcentration phenomena in high dimensions. While high dimensions enable the\nestimation of confounding strength, they also necessitate adapted estimators.\nIn this paper, we derive the asymptotic behavior of the confounding strength\nestimator by Janzing and Sch\\\"olkopf (2018) and show that it is generally not\nconsistent. We then use tools from random matrix theory to derive an adapted,\nconsistent estimator.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/stat/1/au:+Rendsburg_L/0/1/0/all/0/1\">Luca Rendsburg</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Vankadara_L/0/1/0/all/0/1\">Leena Chennuru Vankadara</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Ghoshdastidar_D/0/1/0/all/0/1\">Debarghya Ghoshdastidar</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Luxburg_U/0/1/0/all/0/1\">Ulrike von Luxburg</a>"
+}

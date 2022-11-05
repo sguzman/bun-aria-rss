@@ -1,0 +1,6 @@
+{
+  "title": "Counting Deranged Matchings. (arXiv:2211.01872v1 [math.CO])",
+  "link": "http://arxiv.org/abs/2211.01872",
+  "description": "<p>Let $\\mathrm{pm}(G)$ denote the number of perfect matchings of a graph $G$,\nand let $K_{r\\times 2n/r}$ denote the complete $r$-partite graph where each\npart has size $2n/r$. Johnson, Kayll, and Palmer conjectured that for any\nperfect matching $M$ of $K_{r\\times 2n/r}$, we have for $2n$ divisible by $r$\n\\[\\frac{\\mathrm{pm}(K_{r\\times 2n/r}-M)}{\\mathrm{pm}(K_{r\\times 2n/r})}\\sim\ne^{-r/(2r-2)}.\\] This conjecture can be viewed as a common generalization of\ncounting the number of derangements on $n$ letters, and of counting the number\nof deranged matchings of $K_{2n}$. We prove this conjecture. In fact, we prove\nthe stronger result that if $R$ is a uniformly random perfect matching of\n$K_{r\\times 2n/r}$, then the number of edges that $R$ has in common with $M$\nconverges to a Poisson distribution with parameter $\\frac{r}{2r-2}$.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Spiro_S/0/1/0/all/0/1\">Sam Spiro</a>, <a href=\"http://arxiv.org/find/math/1/au:+Surya_E/0/1/0/all/0/1\">Erlang Surya</a>"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:uJqqddyzN3s",
+  "yt:videoId": "uJqqddyzN3s",
+  "yt:channelId": "UCzgkOWKcwy0uhYilE6bd1Lg",
+  "title": "Use pnpm instead of npm or yarn for JavaScript & TypeScript",
+  "link": "",
+  "author": {
+    "name": "Zaiste Programming",
+    "uri": "https://www.youtube.com/channel/UCzgkOWKcwy0uhYilE6bd1Lg"
+  },
+  "published": "2021-12-01T22:04:30+00:00",
+  "updated": "2022-07-23T11:20:10+00:00",
+  "media:group": {
+    "media:title": "Use pnpm instead of npm or yarn for JavaScript & TypeScript",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "pnpm is a fast, disk efficient package manager for the JavaScript ecosystem.\n\nWhen using npm or Yarn, if you have 100 projects using a dependency, you will have 100 copies of that dependency saved on disk.\n\nIf you depend on different versions of the dependency, only the files that differ are added to the store. For instance, if it has 100 files, and a new version has a change in only one of those files, pnpm update will only add 1 new file to the store, instead of cloning the entire dependency just for the singular change.\n\nAll the files are saved in a single place on the disk.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

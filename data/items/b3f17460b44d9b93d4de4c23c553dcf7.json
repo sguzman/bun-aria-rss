@@ -1,0 +1,6 @@
+{
+  "title": "Optimal Algorithms for Stochastic Complementary Composite Minimization. (arXiv:2211.01758v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01758",
+  "description": "<p>Inspired by regularization techniques in statistics and machine learning, we\nstudy complementary composite minimization in the stochastic setting. This\nproblem corresponds to the minimization of the sum of a (weakly) smooth\nfunction endowed with a stochastic first-order oracle, and a structured\nuniformly convex (possibly nonsmooth and non-Lipschitz) regularization term.\nDespite intensive work on closely related settings, prior to our work no\ncomplexity bounds for this problem were known. We close this gap by providing\nnovel excess risk bounds, both in expectation and with high probability. Our\nalgorithms are nearly optimal, which we prove via novel lower complexity bounds\nfor this class of problems. We conclude by providing numerical results\ncomparing our methods to the state of the art.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+dAspremont_A/0/1/0/all/0/1\">Alexandre d&#x27;Aspremont</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Guzman_C/0/1/0/all/0/1\">Crist&#xf3;bal Guzm&#xe1;n</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lezane_C/0/1/0/all/0/1\">Cl&#xe9;ment Lezane</a>"
+}

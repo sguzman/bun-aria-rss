@@ -1,0 +1,6 @@
+{
+  "title": "3rd Place Scheme on Instance Segmentation Track of ICCV 2021 VIPriors Challenges. (arXiv:2110.00242v4 [cs.CV] UPDATED)",
+  "link": "http://arxiv.org/abs/2110.00242",
+  "description": "<p>In this paper, we introduce a data-efficient instance segmentation method we\nused in the 2021 VIPriors Instance Segmentation Challenge. Our solution is a\nmodified version of Swin Transformer, based on the mmdetection which is a\npowerful toolbox. To solve the problem of lack of data, we utilize data\naugmentation including random flip and multiscale training to train our model.\nDuring inference, multiscale fusion is used to boost the performance. We only\nuse a single GPU during the whole training and testing stages. In the end, our\nteam achieved the result of 0.366 for AP@0.50:0.95 on the test set, which is\ncompetitive with other top-ranking methods while only one GPU is used. Besides,\nour method achieved the AP@0.50:0.95 (medium) of 0.592, which ranks second\namong all contestants. In the end, our team ranked third among all the\ncontestants, as announced by the organizers.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Chen_P/0/1/0/all/0/1\">Pengyu Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1\">Wanhua Li</a>"
+}

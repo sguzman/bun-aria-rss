@@ -1,0 +1,6 @@
+{
+  "title": "Average Mixing in Quantum Walks of Reversible Markov Chains. (arXiv:2211.02037v1 [quant-ph])",
+  "link": "http://arxiv.org/abs/2211.02037",
+  "description": "<p>The Szegedy quantum walk is a discrete time quantum walk model which defines\na quantum analogue of any Markov chain. The long-term behavior of the quantum\nwalk can be encoded in a matrix called the average mixing matrix, whose columns\ngive the limiting probability distribution of the walk given an initial state.\nWe define a version of the average mixing matrix of the Szegedy quantum walk\nwhich allows us to more readily compare the limiting behavior to that of the\nchain it quantizes. We prove a formula for our mixing matrix in terms of the\nspectral decomposition of the Markov chain and show a relationship with the\nmixing matrix of a continuous quantum walk on the chain. In particular, we\nprove that average uniform mixing in the continuous walk implies average\nuniform mixing in the Szegedy walk. We conclude by giving examples of Markov\nchains of arbitrarily large size which admit average uniform mixing in both the\ncontinuous and Szegedy quantum walk.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/quant-ph/1/au:+Sorci_J/0/1/0/all/0/1\">Julien Sorci</a>"
+}

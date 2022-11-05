@@ -1,0 +1,6 @@
+{
+  "title": "INGREX: An Interactive Explanation Framework for Graph Neural Networks. (arXiv:2211.01548v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01548",
+  "description": "<p>Graph Neural Networks (GNNs) are widely used in many modern applications,\nnecessitating explanations for their decisions. However, the complexity of GNNs\nmakes it difficult to explain predictions. Even though several methods have\nbeen proposed lately, they can only provide simple and static explanations,\nwhich are difficult for users to understand in many scenarios. Therefore, we\nintroduce INGREX, an interactive explanation framework for GNNs designed to aid\nusers in comprehending model predictions. Our framework is implemented based on\nmultiple explanation algorithms and advanced libraries. We demonstrate our\nframework in three scenarios covering common demands for GNN explanations to\npresent its effectiveness and helpfulness.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Bui_T/0/1/0/all/0/1\">Tien-Cuong Bui</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Le_V/0/1/0/all/0/1\">Van-Duc Le</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1\">Wen-Syan Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cha_S/0/1/0/all/0/1\">Sang Kyun Cha</a>"
+}

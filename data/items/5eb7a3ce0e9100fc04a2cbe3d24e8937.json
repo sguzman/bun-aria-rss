@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3gyHKCDq1YA",
+  "yt:videoId": "3gyHKCDq1YA",
+  "yt:channelId": "UCHmVAKGT0AcuD24zyjG1xYQ",
+  "title": "1 Billion is Tiny in an Alternate Universe: Introduction to p-adic Numbers  #SoME2",
+  "link": "",
+  "author": {
+    "name": "Eric Rowland",
+    "uri": "https://www.youtube.com/channel/UCHmVAKGT0AcuD24zyjG1xYQ"
+  },
+  "published": "2022-08-05T06:21:01+00:00",
+  "updated": "2022-09-23T20:46:44+00:00",
+  "media:group": {
+    "media:title": "1 Billion is Tiny in an Alternate Universe: Introduction to p-adic Numbers  #SoME2",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "The p-adic numbers are bizarre alternative number systems that are extremely useful in number theory. They arise by changing our notion of what it means for a number to be large. As a real number, 1 billion is huge. But as a 10-adic number, it is tiny!\n\n----------------\n\nReferences:\nA result known as Hensel's lemma gives conditions for Newton's method to work in the p-adic numbers.\nBézout's identity can be used to prove that the numbers from 2 to p-2 pair up perfectly, and the partner of a given number can be computed using the Euclidean algorithm.\nThe 2-adic limits arising from the (2^n)th Fibonacci numbers were established in https://doi.org/10.1016/j.indag.2016.11.019 (page 216).\n\n----------------\n\n0:00 Introduction\n2:16 Properties of the real numbers\n3:19 10-adic integers\n6:55 Properties of the 10-adic integers\n10:06 Division?\n12:47 Limit points\n13:50 5-adic limit\n15:36 Fibonacci numbers\n16:31 Square roots of -1\n18:25 What are p-adics good for?\n\n----------------\n\nAnimated with Manim. https://www.manim.community\nMusic by Marc Rowland and Cody Leavitt.\nThanks to @catpfaff for helpful feedback on an earlier version.\n\nWeb site: https://ericrowland.github.io\nTwitter: https://twitter.com/ericrowland",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

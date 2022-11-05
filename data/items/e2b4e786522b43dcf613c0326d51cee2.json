@@ -1,0 +1,16 @@
+{
+  "title": "Les Distributions a Priori pour l&#8217;Inférence Causale (my talk in Paris Tues 11 Oct 14h)",
+  "link": "https://statmodeling.stat.columbia.edu/2022/10/07/les-distributions-a-priori-pour-linference-causale-my-talk-in-paris-tues-11-oct-14h/",
+  "comments": "https://statmodeling.stat.columbia.edu/2022/10/07/les-distributions-a-priori-pour-linference-causale-my-talk-in-paris-tues-11-oct-14h/#comments",
+  "dc:creator": "Andrew",
+  "pubDate": "Fri, 07 Oct 2022 13:58:46 +0000",
+  "category": [
+    "Bayesian Statistics",
+    "Causal Inference"
+  ],
+  "guid": "https://statmodeling.stat.columbia.edu/?p=48063",
+  "description": "Here it is: Les Distributions a Priori pour l&#8217;Inférence Causale En l&#8217;inférence bayésienne on doit spécifier un modèle pour les données (donc un likelihood) et un modèle pour les paramètres (un loi a priori). Envisagez deux questions: 1. Pourquoi est-ce &#8230; <a href=\"https://statmodeling.stat.columbia.edu/2022/10/07/les-distributions-a-priori-pour-linference-causale-my-talk-in-paris-tues-11-oct-14h/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>",
+  "content:encoded": "<p><a href=\"https://sites.google.com/view/all-about-that-bayes/#h.7o1vrsqwz75h\">Here it is</a>:</p>\n<blockquote><p>Les Distributions a Priori pour l&#8217;Inférence Causale</p>\n<p>En l&#8217;inférence bayésienne on doit spécifier un modèle pour les données (donc un likelihood) et un modèle pour les paramètres (un loi a priori).  Envisagez deux questions:<br />\n1.  Pourquoi est-ce plus difficile de préciser le likelihood que le loi a priori?<br />\n2.  Pour préciser le loi a priori, comment peut-on sauter entre la literature théorique (l&#8217;invariance, le tendance au loi normal, etc) et la literature appliquée (l&#8217;elicitation des experts, la robustesse, etc.)?<br />\nJe discuter ces questions dans la domaine de l&#8217;inférence causale:  les lois a priori pour les effets causals, les coefficients de la regression, et les autres paramètres dans les modèles causals.</p></blockquote>\n<p>If you follow the link you&#8217;ll see that somewhere along the line they translated my title and abstract into English.  It seems that the talk is supposed to be in English too, which I guess will make it a bit more coherent.  The causal inference connection should be interesting.  It&#8217;s not a talk about causal inference; it&#8217;s more that thinking about causal inference can give us some insight into setting up models.  As is often the case, we can do more when we engage with subject-matter storylines.</p>\n",
+  "wfw:commentRss": "https://statmodeling.stat.columbia.edu/2022/10/07/les-distributions-a-priori-pour-linference-causale-my-talk-in-paris-tues-11-oct-14h/feed/",
+  "slash:comments": 4
+}

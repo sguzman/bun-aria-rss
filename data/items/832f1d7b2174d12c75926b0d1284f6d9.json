@@ -1,0 +1,6 @@
+{
+  "title": "Class Interference of Deep Neural Networks. (arXiv:2211.01370v1 [cs.LG])",
+  "link": "http://arxiv.org/abs/2211.01370",
+  "description": "<p>Recognizing and telling similar objects apart is even hard for human beings.\nIn this paper, we show that there is a phenomenon of class interference with\nall deep neural networks. Class interference represents the learning difficulty\nin data, and it constitutes the largest percentage of generalization errors by\ndeep networks. To understand class interference, we propose cross-class tests,\nclass ego directions and interference models. We show how to use these\ndefinitions to study minima flatness and class interference of a trained model.\nWe also show how to detect class interference during training through label\ndancing pattern and class dancing notes.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Diao_D/0/1/0/all/0/1\">Dongcui Diao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yao_H/0/1/0/all/0/1\">Hengshuai Yao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jiang_B/0/1/0/all/0/1\">Bei Jiang</a>"
+}

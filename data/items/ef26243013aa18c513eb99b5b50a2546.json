@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:QRmKpqDP5yE",
+  "yt:videoId": "QRmKpqDP5yE",
+  "yt:channelId": "UCzgkOWKcwy0uhYilE6bd1Lg",
+  "title": "Custom keybindings in Doom Emacs · Emacs Doomcasts 28",
+  "link": "",
+  "author": {
+    "name": "Zaiste Programming",
+    "uri": "https://www.youtube.com/channel/UCzgkOWKcwy0uhYilE6bd1Lg"
+  },
+  "published": "2021-04-26T18:55:00+00:00",
+  "updated": "2022-07-23T05:55:21+00:00",
+  "media:group": {
+    "media:title": "Custom keybindings in Doom Emacs · Emacs Doomcasts 28",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "You can define custom keybindings in Emacs Doom using the `map!` macro. In order to the menu that appears when pressing the spacebar, you must use the `:leader` property. It is also possible to group keybindings into categories thanks to the `:prefix` property.\n\n#emacs #emacsdoom #doomcasts",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

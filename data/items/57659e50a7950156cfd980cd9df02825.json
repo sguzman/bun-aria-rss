@@ -1,0 +1,6 @@
+{
+  "title": "Adaptive sparse grid discontinuous Galerkin method: review and software implementation. (arXiv:2211.01531v1 [math.NA])",
+  "link": "http://arxiv.org/abs/2211.01531",
+  "description": "<p>This paper reviews the adaptive sparse grid discontinuous Galerkin (aSG-DG)\nmethod for computing high dimensional partial differential equations (PDEs) and\nits software implementation. The C\\texttt{++} software package called AdaM-DG,\nimplementing the aSG-DG method, is available on Github at\n\\url{https://github.com/JuntaoHuang/adaptive-multiresolution-DG}. The package\nis capable of treating a large class of high dimensional linear and nonlinear\nPDEs. We review the essential components of the algorithm and the functionality\nof the software, including the multiwavelets used, assembling of bilinear\noperators, fast matrix-vector product for data with hierarchical structures. We\nfurther demonstrate the performance of the package by reporting numerical error\nand CPU cost for several benchmark test, including linear transport equations,\nwave equations and Hamilton-Jacobi equations.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Huang_J/0/1/0/all/0/1\">Juntao Huang</a>, <a href=\"http://arxiv.org/find/math/1/au:+Guo_W/0/1/0/all/0/1\">Wei Guo</a>, <a href=\"http://arxiv.org/find/math/1/au:+Cheng_Y/0/1/0/all/0/1\">Yingda Cheng</a>"
+}

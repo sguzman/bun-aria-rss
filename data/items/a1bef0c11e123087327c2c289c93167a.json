@@ -1,0 +1,6 @@
+{
+  "title": "Dormant Neural Trojans. (arXiv:2211.01808v1 [cs.CR])",
+  "link": "http://arxiv.org/abs/2211.01808",
+  "description": "<p>We present a novel methodology for neural network backdoor attacks. Unlike\nexisting training-time attacks where the Trojaned network would respond to the\nTrojan trigger after training, our approach inserts a Trojan that will remain\ndormant until it is activated. The activation is realized through a specific\nperturbation to the network's weight parameters only known to the attacker. Our\nanalysis and the experimental results demonstrate that dormant Trojaned\nnetworks can effectively evade detection by state-of-the-art backdoor detection\nmethods.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Fu_F/0/1/0/all/0/1\">Feisi Fu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kiourti_P/0/1/0/all/0/1\">Panagiota Kiourti</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_W/0/1/0/all/0/1\">Wenchao Li</a>"
+}
