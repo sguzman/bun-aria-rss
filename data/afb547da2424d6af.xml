@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>q-bio.NC updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Quantitative Biology -- Neurons and Cognition</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01698" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01960" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02024" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2003.13825" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2103.16606" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.10189" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.16993" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01698">
+<title>Scaling up the self-optimization model by means of on-the-fly computation of weights. (arXiv:2211.01698v1 [nlin.AO])</title>
+<link>http://arxiv.org/abs/2211.01698</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Self-Optimization (SO) model is a useful computational model for
+investigating self-organization in &quot;soft&quot; Artificial life (ALife) as it has
+been shown to be general enough to model various complex adaptive systems. So
+far, existing work has been done on relatively small network sizes, precluding
+the investigation of novel phenomena that might emerge from the complexity
+arising from large numbers of nodes interacting in interconnected networks.
+This work introduces a novel implementation of the SO model that scales as
+$\mathcal{O}\left(N^{2}\right)$ with respect to the number of nodes $N$, and
+demonstrates the applicability of the SO model to networks with system sizes
+several orders of magnitude higher than previously was investigated. Removing
+the prohibitive computational cost of the naive $\mathcal{O}\left(N^{3}\right)$
+algorithm, our on-the-fly computation paves the way for investigating
+substantially larger system sizes, allowing for more variety and complexity in
+future studies.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Weber_N/0/1/0/all/0/1&quot;&gt;Natalya Weber&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Koch_W/0/1/0/all/0/1&quot;&gt;Werner Koch&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/nlin/1/au:+Froese_T/0/1/0/all/0/1&quot;&gt;Tom Froese&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01960">
+<title>FingerFlex: Inferring Finger Trajectories from ECoG signals. (arXiv:2211.01960v1 [q-bio.NC])</title>
+<link>http://arxiv.org/abs/2211.01960</link>
+<description rdf:parseType="Literal">&lt;p&gt;Motor brain-computer interface (BCI) development relies critically on neural
+time series decoding algorithms. Recent advances in deep learning architectures
+allow for automatic feature selection to approximate higher-order dependencies
+in data. This article presents the FingerFlex model - a convolutional
+encoder-decoder architecture adapted for finger movement regression on
+electrocorticographic (ECoG) brain data. State-of-the-art performance was
+achieved on a publicly available BCI competition IV dataset 4 with a
+correlation coefficient between true and predicted trajectories up to 0.74. The
+presented method provides the opportunity for developing fully-functional
+high-precision cortical motor brain-computer interfaces.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Lomtev_V/0/1/0/all/0/1&quot;&gt;Vladislav Lomtev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Timchenko_A/0/1/0/all/0/1&quot;&gt;Alexey Timchenko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02024">
+<title>fMRI from EEG is only Deep Learning away: the use of interpretable DL to unravel EEG-fMRI relationships. (arXiv:2211.02024v1 [physics.med-ph])</title>
+<link>http://arxiv.org/abs/2211.02024</link>
+<description rdf:parseType="Literal">&lt;p&gt;The access to activity of subcortical structures offers unique opportunity
+for building intention dependent brain-computer interfaces, renders abundant
+options for exploring a broad range of cognitive phenomena in the realm of
+affective neuroscience including complex decision making processes and the
+eternal free-will dilemma and facilitates diagnostics of a range of
+neurological deceases. So far this was possible only using bulky, expensive and
+immobile fMRI equipment. Here we present an interpretable domain grounded
+solution to recover the activity of several subcortical regions from the
+multichannel EEG data and demonstrate up to 60% correlation between the actual
+subcortical blood oxygenation level dependent sBOLD signal and its EEG-derived
+twin. Then, using the novel and theoretically justified weight interpretation
+methodology we recover individual spatial and time-frequency patterns of scalp
+EEG predictive of the hemodynamic signal in the subcortical nuclei. The
+described results not only pave the road towards wearable subcortical activity
+scanners but also showcase an automatic knowledge discovery process facilitated
+by deep learning technology in combination with an interpretable domain
+constrained architecture and the appropriate downstream task.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Kovalev_A/0/1/0/all/0/1&quot;&gt;Alexander Kovalev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Mikheev_I/0/1/0/all/0/1&quot;&gt;Ilia Mikheev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ossadtchi_A/0/1/0/all/0/1&quot;&gt;Alexei Ossadtchi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2003.13825">
+<title>On the role of theory and modeling in neuroscience. (arXiv:2003.13825v5 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2003.13825</link>
+<description rdf:parseType="Literal">&lt;p&gt;In recent years, the field of neuroscience has gone through rapid
+experimental advances and a significant increase in the use of quantitative and
+computational methods. This growth has created a need for clearer analyses of
+the theory and modeling approaches used in the field. This issue is
+particularly complex in neuroscience because the field studies phenomena across
+a wide range of scales and often requires consideration of these phenomena at
+varying degrees of abstraction, from precise biophysical interactions to the
+computations they implement. We argue that a pragmatic perspective of science,
+in which descriptive, mechanistic, and normative approaches each play a
+distinct role in defining and bridging levels of abstraction will facilitate
+neuroscientific practice. This analysis leads to methodological suggestions,
+including selecting a level of abstraction that is appropriate for a given
+problem, identifying transfer functions to connect models and data, and the use
+of models themselves as a form of experiment.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Levenstein_D/0/1/0/all/0/1&quot;&gt;Daniel Levenstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Alvarez_V/0/1/0/all/0/1&quot;&gt;Veronica A. Alvarez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Amarasingham_A/0/1/0/all/0/1&quot;&gt;Asohan Amarasingham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Azab_H/0/1/0/all/0/1&quot;&gt;Habiba Azab&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Chen_Z/0/1/0/all/0/1&quot;&gt;Zhe Sage Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Gerkin_R/0/1/0/all/0/1&quot;&gt;Richard C. Gerkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Hasenstaub_A/0/1/0/all/0/1&quot;&gt;Andrea Hasenstaub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Iyer_R/0/1/0/all/0/1&quot;&gt;Ramakrishnan Iyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Jolivet_R/0/1/0/all/0/1&quot;&gt;Renaud B. Jolivet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Marzen_S/0/1/0/all/0/1&quot;&gt;Sarah Marzen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Monaco_J/0/1/0/all/0/1&quot;&gt;Joseph D. Monaco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Prinz_A/0/1/0/all/0/1&quot;&gt;Astrid A. Prinz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Quraishi_S/0/1/0/all/0/1&quot;&gt;Salma Quraishi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Santamaria_F/0/1/0/all/0/1&quot;&gt;Fidel Santamaria&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Shivkumar_S/0/1/0/all/0/1&quot;&gt;Sabyasachi Shivkumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Singh_M/0/1/0/all/0/1&quot;&gt;Matthew F. Singh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Traub_R/0/1/0/all/0/1&quot;&gt;Roger Traub&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Rotstein_H/0/1/0/all/0/1&quot;&gt;Horacio G. Rotstein&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Nadim_F/0/1/0/all/0/1&quot;&gt;Farzan Nadim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Redish_A/0/1/0/all/0/1&quot;&gt;A. David Redish&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2103.16606">
+<title>Functional and spatial rewiring jointly generate convergent-divergent units in self-organizing networks. (arXiv:2103.16606v2 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2103.16606</link>
+<description rdf:parseType="Literal">&lt;p&gt;Self-organization through adaptive rewiring of random neural networks
+generates brain-like topologies comprising modular small-world structures with
+rich club effects, merely as the product of optimizing the network topology. In
+the nervous system, spatial organization is optimized no less by rewiring,
+through minimizing wiring distance and maximizing spatially aligned wiring
+layouts. We show that such spatial organization principles interact
+constructively with adaptive rewiring, contributing to establish the networks&apos;
+connectedness and modular structures. We use an evolving neural network model
+with weighted and directed connections, in which neural traffic flow is based
+on consensus and advection dynamics, to show that wiring cost minimization
+supports adaptive rewiring in creating convergent-divergent unit structures.
+Convergent-divergent units consist of a convergent input-hub, connected to a
+divergent output-hub via subnetworks of intermediate nodes, which may function
+as the computational core of the unit. The prominence of minimizing wiring
+distance in the dynamic evolution of the network determines the extent to which
+the core is encapsulated from the rest of the network, i.e., the
+context-sensitivity of its computations. This corresponds to the central role
+convergent-divergent units play in establishing context-sensitivity in neuronal
+information processing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Li_J/0/1/0/all/0/1&quot;&gt;Jia Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Rentzeperis_I/0/1/0/all/0/1&quot;&gt;Ilias Rentzeperis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Leeuwen_C/0/1/0/all/0/1&quot;&gt;Cees van Leeuwen&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.10189">
+<title>Neural Topic Modeling of Psychotherapy Sessions. (arXiv:2204.10189v2 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.10189</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we compare different neural topic modeling methods in learning
+the topical propensities of different psychiatric conditions from the
+psychotherapy session transcripts parsed from speech recordings. We also
+incorporate temporal modeling to put this additional interpretability to action
+by parsing out topic similarities as a time series in a turn-level resolution.
+We believe this topic modeling framework can offer interpretable insights for
+the therapist to optimally decide his or her strategy and improve psychotherapy
+effectiveness.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Lin_B/0/1/0/all/0/1&quot;&gt;Baihan Lin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bouneffouf_D/0/1/0/all/0/1&quot;&gt;Djallel Bouneffouf&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cecchi_G/0/1/0/all/0/1&quot;&gt;Guillermo Cecchi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tejwani_R/0/1/0/all/0/1&quot;&gt;Ravi Tejwani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.16993">
+<title>STN: a new tensor network method to identify stimulus category from brain activity pattern. (arXiv:2210.16993v2 [q-bio.NC] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.16993</link>
+<description rdf:parseType="Literal">&lt;p&gt;Neural decoding is still a challenge and hot topic in neurocomputing science.
+Recently, many studies have shown that brain network pattern containing rich
+spatial and temporal structure information, which represented the activation
+information of brain under external stimuli. The traditional method is to
+extract brain network features directly from the common machine learning
+method, then put these features into the classifier, and realize to decode
+external stimuli. However, this method cannot effectively extract the
+multi-dimensional structural information, which is hidden in the brain network.
+The tensor researchers show that the tensor decomposition model can fully mine
+unique spatio-temporal structure characteristics in multi-dimensional structure
+data. This research proposed a stimulus constrain tensor brain model(STN),
+which involved the tensor decomposition idea and stimulus category constraint
+information. The model was verified on the real neuroimaging data sets (MEG and
+fMRI). The experimental results show that the STN model achieved more 11.06%
+and 18.46% compared with others methods on two modal data sets. These results
+imply the superiority of extracting discriminative characteristics about STN
+model, especially for decoding object stimuli with semantic information.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Chunyu Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Zhang_J/0/1/0/all/0/1&quot;&gt;Jiacai Zhang&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
