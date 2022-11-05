@@ -1,0 +1,25 @@
+{
+  "title": "List Comprehension in Python",
+  "link": "https://datasciencelab.wordpress.com/2014/01/08/list-comprehension-in-python/",
+  "comments": "https://datasciencelab.wordpress.com/2014/01/08/list-comprehension-in-python/#comments",
+  "dc:creator": "datasciencelab",
+  "pubDate": "Wed, 08 Jan 2014 15:22:27 +0000",
+  "category": [
+    "Tutorials",
+    "list comprehension",
+    "python"
+  ],
+  "guid": "http://datasciencelab.wordpress.com/?p=525",
+  "description": "I stumbled across this nice tutorial on advanced design patterns in python today, and especially liked the following image that explains graphically what list comprehension is: List comprehension in python is extremely flexible and powerful. Let us practice some more with further neat examples of it: Square all non-negative numbers smaller than 10 [0, 1, [&#8230;]",
+  "content:encoded": "<p>I stumbled across this nice tutorial on <a href=\"http://pypix.com/python/advanced-data-structures/\">advanced design patterns in python</a> today, and especially liked the following image that explains graphically what list comprehension is: </p>\n<p><a href=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg\"><img data-attachment-id=\"528\" data-permalink=\"https://datasciencelab.wordpress.com/2014/01/08/list-comprehension-in-python/list1/\" data-orig-file=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg\" data-orig-size=\"625,356\" data-comments-opened=\"1\" data-image-meta=\"{\"aperture\":\"0\",\"credit\":\"\",\"camera\":\"\",\"caption\":\"\",\"created_timestamp\":\"0\",\"copyright\":\"\",\"focal_length\":\"0\",\"iso\":\"0\",\"shutter_speed\":\"0\",\"title\":\"\"}\" data-image-title=\"list1\" data-image-description=\"\" data-image-caption=\"\" data-medium-file=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg?w=300\" data-large-file=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg?w=625\" src=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg?w=830\" alt=\"list1\"   class=\"size-full wp-image-528\" srcset=\"https://datasciencelab.files.wordpress.com/2014/01/list1.jpg 625w, https://datasciencelab.files.wordpress.com/2014/01/list1.jpg?w=150 150w, https://datasciencelab.files.wordpress.com/2014/01/list1.jpg?w=300 300w\" sizes=\"(max-width: 625px) 100vw, 625px\" /></a></p>\n<p>List comprehension in python is extremely flexible and powerful. Let us practice some more with further neat examples of it: </p>\n<h4>Square all non-negative numbers smaller than 10</h4>\n<pre class=\"brush: python; title: ; notranslate\">\n[x**2 for x in range(10)]\n</pre>\n<p><code>[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]</code></p>\n<h4>Non-negative multiples of 5 smaller than 100</h4>\n<pre class=\"brush: python; title: ; notranslate\">\n[x for x in range(100) if x%5 == 0]\n</pre>\n<p><code>[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]</code></p>\n<h4>Non-negative multiples of 3 but not multiples of 6 smaller than 50</h4>\n<pre class=\"brush: python; title: ; notranslate\">\n[x for x in range(50) if x%3 == 0 and x%6 != 0]\n</pre>\n<p><code>[3, 9, 15, 21, 27, 33, 39, 45]</code></p>\n<h4>All consonants in a given sentence (without repetition)</h4>\n<pre class=\"brush: python; title: ; notranslate\">\nimport string\npunct = string.punctuation + ' '\nvowels = \"aeiou\"\nphrase = \"On second thought, let's not go to Camelot. It is a silly place.\"\nset([c for c in phrase.lower() if c not in vowels and c not in punct])\n</pre>\n<p><code>{'c', 'd', 'g', 'h', 'l', 'm', 'n', 'p', 's', 't', 'y'}</code></p>\n<h4>First character of every word in a sentence</h4>\n<pre class=\"brush: python; title: ; notranslate\">\n[w[0] for w in phrase.split()]\n</pre>\n<p><code>['O', 's', 't', 'l', 'n', 'g', 't', 'C', 'I', 'i', 'a', 's', 'p']</code></p>\n<h4>Substitute all vowels in a sentence by the character &#8216;0&#8217;</h4>\n<pre class=\"brush: python; title: ; notranslate\">\n\"\".join([c if c not in vowels else '0' for c in phrase])\n</pre>\n<p><code>\"On s0c0nd th00ght, l0t's n0t g0 t0 C0m0l0t. It 0s 0 s0lly pl0c0.\"</code></p>\n<h4>Pairs of elements drawn from different lists</h4>\n<pre class=\"brush: python; title: ; notranslate\">\nwords1 = ['Lancelot', 'Robin', 'Galahad']\nwords2 = ['Camelot', 'Assyria']\n[(w1,w2) for w1 in words1 for w2 in words2]\n</pre>\n<p><code>[('Lancelot', 'Camelot'), ('Lancelot', 'Assyria'), ('Robin', 'Camelot'), ('Robin', 'Assyria'), ('Galahad', 'Camelot'), ('Galahad', 'Assyria')]</code></p>\n<p>I will update this list as more interesting and useful examples come to mind. What&#8217;s your favorite use of list comprehension and how many lines of code did it save you?</p>\n",
+  "wfw:commentRss": "https://datasciencelab.wordpress.com/2014/01/08/list-comprehension-in-python/feed/",
+  "slash:comments": 8,
+  "media:content": [
+    {
+      "media:title": "datasciencelab"
+    },
+    {
+      "media:title": "list1"
+    }
+  ]
+}
