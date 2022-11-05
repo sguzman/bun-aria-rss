@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cs.DL updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Computer Science -- Digital Libraries (cs.DL) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Computer Science -- Digital Libraries</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01936" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/1909.08191" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2103.11909" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2103.12450" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.03383" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2204.13384" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01936">
+<title>Differences in collaboration structures and impact among prominent researchers in Europe and North America. (arXiv:2211.01936v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01936</link>
+<description rdf:parseType="Literal">&lt;p&gt;Scientists collaborate through intricate networks, which impact the quality
+and scope of their research. At the same time, funding and institutional
+arrangements, as well as scientific and political cultures, affect the
+structure of collaboration networks. Since such arrangements and cultures
+differ across regions in the world in systematic ways, we surmise that
+collaboration networks and impact should also differ systematically across
+regions. To test this, we compare the structure of collaboration networks among
+prominent researchers in North America and Europe. We find that prominent
+researchers in Europe establish denser collaboration networks, whereas those in
+North-America establish more decentralized networks. We also find that the
+impact of the publications of prominent researchers in North America is
+significantly higher than for those in Europe, both when they collaborate with
+other prominent researchers and when they do not. Although Europeans
+collaborate with other prominent researchers more often, which increases their
+impact, we also find that repeated collaboration among prominent researchers
+decreases the synergistic effect of collaborating.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Danus_L/0/1/0/all/0/1&quot;&gt;Lluis Danus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Muntaner_C/0/1/0/all/0/1&quot;&gt;Carles Muntaner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Krauss_A/0/1/0/all/0/1&quot;&gt;Alexander Krauss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sales_Pardo_M/0/1/0/all/0/1&quot;&gt;Marta Sales-Pardo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Guimera_R/0/1/0/all/0/1&quot;&gt;Roger Guimera&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1909.08191">
+<title>Exploring Scholarly Data by Semantic Query on Knowledge Graph Embedding Space. (arXiv:1909.08191v2 [cs.AI] UPDATED)</title>
+<link>http://arxiv.org/abs/1909.08191</link>
+<description rdf:parseType="Literal">&lt;p&gt;The trends of open science have enabled several open scholarly datasets which
+include millions of papers and authors. Managing, exploring, and utilizing such
+large and complicated datasets effectively are challenging. In recent years,
+the knowledge graph has emerged as a universal data format for representing
+knowledge about heterogeneous entities and their relationships. The knowledge
+graph can be modeled by knowledge graph embedding methods, which represent
+entities and relations as embedding vectors in semantic space, then model the
+interactions between these embedding vectors. However, the semantic structures
+in the knowledge graph embedding space are not well-studied, thus knowledge
+graph embedding methods are usually only used for knowledge graph completion
+but not data representation and analysis. In this paper, we propose to analyze
+these semantic structures based on the well-studied word embedding space and
+use them to support data exploration. We also define the semantic queries,
+which are algebraic operations between the embedding vectors in the knowledge
+graph embedding space, to solve queries such as similarity and analogy between
+the entities on the original datasets. We then design a general framework for
+data exploration by semantic queries and discuss the solution to some
+traditional scholarly data exploration tasks. We also propose some new
+interesting tasks that can be solved based on the uncanny semantic structures
+of the embedding space.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Tran_H/0/1/0/all/0/1&quot;&gt;Hung Nghiep Tran&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Takasu_A/0/1/0/all/0/1&quot;&gt;Atsuhiro Takasu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2103.11909">
+<title>Identifying Machine-Paraphrased Plagiarism. (arXiv:2103.11909v5 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2103.11909</link>
+<description rdf:parseType="Literal">&lt;p&gt;Employing paraphrasing tools to conceal plagiarized text is a severe threat
+to academic integrity. To enable the detection of machine-paraphrased text, we
+evaluate the effectiveness of five pre-trained word embedding models combined
+with machine learning classifiers and state-of-the-art neural language models.
+We analyze preprints of research papers, graduation theses, and Wikipedia
+articles, which we paraphrased using different configurations of the tools
+SpinBot and SpinnerChief. The best performing technique, Longformer, achieved
+an average F1 score of 80.99% (F1=99.68% for SpinBot and F1=71.64% for
+SpinnerChief cases), while human evaluators achieved F1=78.4% for SpinBot and
+F1=65.6% for SpinnerChief cases. We show that the automated classification
+alleviates shortcomings of widely-used text-matching systems, such as Turnitin
+and PlagScan. To facilitate future research, all data, code, and two web
+applications showcasing our contributions are openly available.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wahle_J/0/1/0/all/0/1&quot;&gt;Jan Philip Wahle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ruas_T/0/1/0/all/0/1&quot;&gt;Terry Ruas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Foltynek_T/0/1/0/all/0/1&quot;&gt;Tom&amp;#xe1;&amp;#x161; Folt&amp;#xfd;nek&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meuschke_N/0/1/0/all/0/1&quot;&gt;Norman Meuschke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gipp_B/0/1/0/all/0/1&quot;&gt;Bela Gipp&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2103.12450">
+<title>Are Neural Language Models Good Plagiarists? A Benchmark for Neural Paraphrase Detection. (arXiv:2103.12450v4 [cs.CL] UPDATED)</title>
+<link>http://arxiv.org/abs/2103.12450</link>
+<description rdf:parseType="Literal">&lt;p&gt;The rise of language models such as BERT allows for high-quality text
+paraphrasing. This is a problem to academic integrity, as it is difficult to
+differentiate between original and machine-generated content. We propose a
+benchmark consisting of paraphrased articles using recent language models
+relying on the Transformer architecture. Our contribution fosters future
+research of paraphrase detection systems as it offers a large collection of
+aligned original and paraphrased documents, a study regarding its structure,
+classification experiments with state-of-the-art systems, and we make our
+findings publicly available.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wahle_J/0/1/0/all/0/1&quot;&gt;Jan Philip Wahle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ruas_T/0/1/0/all/0/1&quot;&gt;Terry Ruas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Meuschke_N/0/1/0/all/0/1&quot;&gt;Norman Meuschke&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gipp_B/0/1/0/all/0/1&quot;&gt;Bela Gipp&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.03383">
+<title>Overlay journals: a study of the current landscape. (arXiv:2204.03383v3 [cs.DL] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.03383</link>
+<description rdf:parseType="Literal">&lt;p&gt;Overlay journals are characterised by their articles being published on open
+access repositories, often already starting in their initial preprint form as a
+prerequisite for submission to the journal prior to initiating the peer-review
+process. In this study we aimed to identify currently active overlay journals
+and examine their characteristics. We utilised an explorative web search and
+contacted key service providers for additional information. The final sample
+consisted of 34 overlay journals. While the results show that new overlay
+journals have been actively established within recent years, the current
+presence of overlay journals remains diminutive compared to the overall number
+of open access journals. Most overlay journals publish articles in natural
+sciences, mathematics or computer sciences, and are commonly published by
+groups of academics rather than formal organisations. They may also rank highly
+within the traditional journal citation metrics. None of the investigated
+journals required fees from authors, which is likely related to the
+cost-effective aspects of the overlay publishing model. Both the growth in
+adoption of open access preprint repositories and researchers&apos; willingness to
+publish in overlay journals will determine the model&apos;s wider impact on
+scholarly publishing.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rousi_A/0/1/0/all/0/1&quot;&gt;Antti Mikael Rousi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Laakso_M/0/1/0/all/0/1&quot;&gt;Mikael Laakso&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2204.13384">
+<title>D3: A Massive Dataset of Scholarly Metadata for Analyzing the State of Computer Science Research. (arXiv:2204.13384v3 [cs.DL] UPDATED)</title>
+<link>http://arxiv.org/abs/2204.13384</link>
+<description rdf:parseType="Literal">&lt;p&gt;DBLP is the largest open-access repository of scientific articles on computer
+science and provides metadata associated with publications, authors, and
+venues. We retrieved more than 6 million publications from DBLP and extracted
+pertinent metadata (e.g., abstracts, author affiliations, citations) from the
+publication texts to create the DBLP Discovery Dataset (D3). D3 can be used to
+identify trends in research activity, productivity, focus, bias, accessibility,
+and impact of computer science research. We present an initial analysis focused
+on the volume of computer science research (e.g., number of papers, authors,
+research activity), trends in topics of interest, and citation patterns. Our
+findings show that computer science is a growing research field (approx. 15%
+annually), with an active and collaborative researcher community. While papers
+in recent years present more bibliographical entries in comparison to previous
+decades, the average number of citations has been declining. Investigating
+papers&apos; abstracts reveals that recent topic trends are clearly reflected in D3.
+Finally, we list further applications of D3 and pose supplemental research
+questions. The D3 dataset, our findings, and source code are publicly available
+for research purposes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wahle_J/0/1/0/all/0/1&quot;&gt;Jan Philip Wahle&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ruas_T/0/1/0/all/0/1&quot;&gt;Terry Ruas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mohammad_S/0/1/0/all/0/1&quot;&gt;Saif M. Mohammad&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gipp_B/0/1/0/all/0/1&quot;&gt;Bela Gipp&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
