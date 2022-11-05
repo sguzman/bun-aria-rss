@@ -1,0 +1,6 @@
+{
+  "title": "An agent-based approach to procedural city generation incorporating Land Use and Transport Interaction models. (arXiv:2211.01959v1 [cs.MA])",
+  "link": "http://arxiv.org/abs/2211.01959",
+  "description": "<p>We apply the knowledge of urban settings established with the study of Land\nUse and Transport Interaction (LUTI) models to develop reward functions for an\nagent-based system capable of planning realistic artificial cities. The system\naims to replicate in the micro scale the main components of real settlements,\nsuch as zoning and accessibility in a road network. Moreover, we propose a\nnovel representation for the agent's environment that efficiently combines the\nroad graph with a discrete model for the land. Our system starts from an empty\nmap consisting only of the road network graph, and the agent incrementally\nexpands it by building new sites while distinguishing land uses between\nresidential, commercial, industrial, and recreational.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Santos_L/0/1/0/all/0/1\">Luiz Fernando Silva Eug&#xea;nio dos Santos</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Aranha_C/0/1/0/all/0/1\">Claus Aranha</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Carvalho_A/0/1/0/all/0/1\">Andr&#xe9; Ponce de Leon F de Carvalho</a>"
+}

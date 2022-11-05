@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3499 (nessus)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3499",
+  "description": "An authenticated attacker could utilize the identical agent and cluster node linking keys to potentially allow for a scenario where unauthorized disclosure of agent logs and data is present.",
+  "dc:date": "2022-10-31T20:15:12Z"
+}
