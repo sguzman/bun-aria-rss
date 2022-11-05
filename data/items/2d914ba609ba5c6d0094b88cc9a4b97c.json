@@ -1,0 +1,6 @@
+{
+  "title": "MPI-based Evaluation of Coordinator Election Algorithms. (arXiv:2211.01928v1 [cs.DC])",
+  "link": "http://arxiv.org/abs/2211.01928",
+  "description": "<p>In this paper, we detail how two types of distributed coordinator election\nalgorithms can be compared in terms of performance based on an evaluation on\nthe High Performance Computing (HPC) infrastructure. An experimental approach\nbased on an MPI (Message Passing Interface) implementation is presented, with\nthe goal to characterize the relevant evaluation metrics based on statistical\nprocessing of the results. The presented approach can be used to learn master\nstudents of a course on distributed software the basics of algorithms for\ncoordinator election, and how to conduct an experimental performance evaluation\nstudy. Finally, use cases where distributed coordinator election algorithms are\nuseful are presented.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Turck_F/0/1/0/all/0/1\">Filip De Turck</a>"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-22147 (elasticsearch)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-22147",
+  "description": "Elasticsearch before 7.14.0 did not apply document and field level security to searchable snapshots. This could lead to an authenticated user gaining access to information that they are unauthorized to view.",
+  "dc:date": "2021-09-15T12:15:08Z"
+}
