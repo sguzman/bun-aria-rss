@@ -1,0 +1,25 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-5035572960788196683",
+  "published": "2022-09-12T10:32:00.000-07:00",
+  "updated": "2022-09-12T10:32:29.204-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Deprecation of Structured Data Files v5.2 and v5.3",
+  "content": "<p>Today we’re announcing the deprecation of the Structured Data Files (SDF) <a href=\"https://developers.google.com/display-video/api/structured-data-file/v5-2/Campaign\">v5.2</a> and <a href=\"https://developers.google.com/display-video/api/structured-data-file/v5-3/Campaign\">v5.3</a>. These versions will be fully sunset on <strong>March 8, 2023</strong>.  </p><p>Please migrate to <a href=\"https://developers.google.com/display-video/api/structured-data-file/v5-5/Campaign\">v5.5</a>, the most recent version, by the sunset date. Once the deprecated versions are sunset: </p><ul> <li>The default version of partners and advertisers using those versions will be updated to the oldest supported version, <a href=\"https://developers.google.com/display-video/api/structured-data-file/v5-4/Campaign\">v5.4</a>.  <li><code><a href=\"https://developers.google.com/display-video/api/reference/rest/v1/sdfdownloadtasks/create\">sdfdownloadtasks.create</a></code> requests declaring the sunset versions in the <a href=\"https://developers.google.com/display-video/api/reference/rest/v1/sdfdownloadtasks/create#body.request_body.FIELDS.version\">request body</a> will return a <code>400</code> error.</li></ul> <p>If you run into issues or need help with your migration, please contact us using our <a href=\"https://support.google.com/displayvideo/contact/nghelp_contact_form\">support contact form</a>. </p>   <span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/ul6Bu6os82XfScd3uPkxcr4wuYHeOjBXB0TsB7mFIO-63RW7I-ciH9SZVTiRUk0NOGUg_8oit2oD7cr9HTrH8gol_Y6p8mqEeEWTQB24GyiZTGwpB-BFvji9n9goOPHz19mSYqtr\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Trevor Mulchay, Display &amp; Video 360 API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

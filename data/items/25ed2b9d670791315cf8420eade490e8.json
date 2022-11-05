@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:X3x7BlLgS-4",
+  "yt:videoId": "X3x7BlLgS-4",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "Pathfinding Algorithms",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-12-05T09:29:08+00:00",
+  "updated": "2022-04-16T01:32:09+00:00",
+  "media:group": {
+    "media:title": "Pathfinding Algorithms",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This program was originally built to demonstrate the relative efficiency of different pathfinding algorithms in finding the shortest path between two points on a map.\n\nThree algorithms are built in:\n• Breadth-first search, an algorithm traditionally used to navigate small, enclosed areas.\n• Best-first search, an algorithm generally better suited to more open environments with fewer obstacles.\n• A* search, a somewhat more complex algorithm designed to intelligently dodge obstacles.\n\nTo represent the map, the program uses a grid of nodes, in which each node has up to four traversable edges: up, down, left and right. One node is designated the root node, and another the target node. In addition, a node can be marked as impassable, effectively creating an obstacle around which an algorithm must navigate.\n\nIn order to generate a path, each algorithm utilises an open set, a collection of nodes representing the boundary of an increasing search area. The algorithm gradually expands the search area by evaluating one node at a time from its open set.\n \nEvaluating a node involves first checking if it is the target node – if this is the case, a path has been found and the algorithm terminates. Failing this, the node is removed from the open set and marked as visited so that is will not be re-added (this prevents the algorithm from generating loops). Finally, each of the nodes immediate unvisited neighbours are added to the open set. Crucially, for each of these neighbouring nodes, the current node is marked as their predecessor.\n\nThis search area continues to expand until either it reaches the target node (meaning a path was been found), or there are no new nodes to evaluate (meaning no path was found). If a path is found, it is then reconstructed based on the predecessor of each node, starting from the target node, and continuing until the root node is reached.\n\nThe difference between each algorithm lies in how they decide the order in which the Nodes in the open set are evaluated.\n• Breadth-first search uses a Queue, which functions much like a real-world queue in ensuring that Nodes are evaluated in the same order they were added.\n• Best-first search uses a List, assigning each Node a heuristic value based on its estimated distance from the target node, not taking into account any obstacles. This value is simply the rectilinear distance, or the sum of the horizontal and vertical offsets, between the two points. The Node with the lowest heuristic value is then chosen to be evaluated.\n• A* search also uses a List, and also assigns each Node a heuristic value. However, it adds this heuristic value to the cumulative cost (the path length) to generate the Node’s f-score. The Node with the lowest f-score is then chosen to be evaluated.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "metric learning for image similarity search in objax",
+  "link": "http://matpalm.com/blog/objax_metric_learning",
+  "category": [
+    "objax",
+    "jax"
+  ],
+  "guid": "http://matpalm.com/blog/objax_metric_learning",
+  "description": "metric learning for image similarity search in objax",
+  "content:encoded": "<p>i recently ported by\n   <a href=\"https://keras.io/\">keras.io</a>\n   <a href=\"https://keras.io/examples/vision/metric_learning/\">metric learning for image similarity search</a>\n   tutorial to use\n   <a href=\"https://objax.readthedocs.io/en/latest/\">objax</a>.\n</p>\n<p>check it out in\n   <a href=\"https://github.com/google/objax/blob/master/examples/tutorials/metric-learning.ipynb\">this tutorial</a>\n   and let me know what you think!\n</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Frequentism and Bayesianism V: Model Selection",
+  "link": "",
+  "published": "2015-08-07T11:00:00-07:00",
+  "updated": "2015-08-07T11:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-08-07:blog/2015/08/07/frequentism-and-bayesianism-5-model-selection/",
+  "summary": "<p>Last year I wrote a series of posts comparing frequentist and Bayesian approaches to various problems:</p>\n<ul>\n<li>In <a href=\"http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/\">Frequentism and Bayesianism I: a Practical Introduction</a> I gave an introduction to the main philosophical differences between frequentism and Bayesianism, and showed that for many common problems the two methods give basically the same point estimates.</li>\n<li>In <a href=\"http://jakevdp.github.io/blog/2014/06/06/frequentism-and-bayesianism-2-when-results-differ/\">Frequentism and Bayesianism II: When Results Differ</a> I went into a bit more depth on when frequentism and Bayesianism start to diverge, particularly when it comes to the handling of nuisance parameters.</li>\n<li>In <a href=\"http://jakevdp.github.io/blog/2014/06/12/frequentism-and-bayesianism-3-confidence-credibility/\">Frequentism and Bayesianism III: Confidence, Credibility, and why Frequentism and Science Don't Mix</a> I talked about the subtle difference between frequentist confidence intervals and Bayesian credible intervals, and argued that in most scientific settings frequentism answers the wrong question.</li>\n<li>In <a href=\"http://jakevdp.github.io/blog/2014/06/14/frequentism-and-bayesianism-4-bayesian-in-python/\">Frequentism and Bayesianism IV: How to be a Bayesian in Python</a> I compared three Python packages for doing Bayesian analysis via MCMC: <a href=\"http://dan.iel.fm/emcee\">emcee</a>, <a href=\"http://pymc-devs.github.io/pymc/\">pymc</a>, and <a href=\"https://pystan.readthedocs.org/en/latest/\">pystan</a>.</li>\n</ul>\n<p>Here I am going to dive into an important topic that I've not yet covered: <em>model selection</em>.\nWe will take a look at this from both a frequentist and Bayesian standpoint, and along the way gain some more insight into the fundamental philosophical divide between frequentist and Bayesian methods, and the practical consequences of this divide.</p>\n<p>My quick, TL;DR summary is this: for model selection, frequentist methods tend to be <strong>conceptually difficult but computationally straightforward</strong>, while Bayesian methods tend to be <strong>conceptually straightforward but computationally difficult</strong>.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
