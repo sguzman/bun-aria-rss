@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="podbean/5.5" -->
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    xmlns:media="http://search.yahoo.com/mrss/">
+
+<channel>
+    <title>Computer Architecture Podcast</title>
+    <atom:link href="https://feed.podbean.com/comparchpodcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://comparchpodcast.podbean.com</link>
+    <description>A show that brings you closer to the cutting edge in computer architecture and the remarkable people behind it. Hosted by Dr. Suvinay Subramanian, who is a computer architect at Google in the Systems Infrastructure group, working on designing Google’s machine learning accelerators (TPU), and Dr. Lisa Hsu who is a Principal Engineer at Microsoft in the Azure Compute group, working on strategic initiatives for datacenter deployment.</description>
+    <pubDate>Sat, 06 Aug 2022 17:21:46 -0700</pubDate>
+    <generator>https://podbean.com/?v=5.5</generator>
+    <language>en</language>
+    <spotify:countryOfOrigin>us</spotify:countryOfOrigin>
+    <copyright>Copyright 2020 All rights reserved.</copyright>
+    <category>Technology</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle></itunes:subtitle>
+          <itunes:summary>A show that brings you closer to the cutting edge in computer architecture and the remarkable people behind it.</itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+<itunes:category text="Technology" />
+    <itunes:owner>
+        <itunes:name>comparchpodcast</itunes:name>
+        <itunes:email>comparch.podcast@gmail.com</itunes:email>
+    </itunes:owner>
+	<itunes:block>No</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />
+    <image>
+        <url>https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg</url>
+        <title>Computer Architecture Podcast</title>
+        <link>https://comparchpodcast.podbean.com</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <item>
+        <title>Ep 9: Hyperscale Cloud and Agile Hardware Design in China with Dr. Yungang Bao, Institute of Computing Technology</title>
+        <itunes:title>Ep 9: Hyperscale Cloud and Agile Hardware Design in China with Dr. Yungang Bao, Institute of Computing Technology</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-9-hyperscale-cloud-and-agile-hardware-design-in-china/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-9-hyperscale-cloud-and-agile-hardware-design-in-china/#comments</comments>        <pubDate>Sat, 06 Aug 2022 17:21:46 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/fcc4ee01-ce67-3093-a0c4-84889836fb25</guid>
+                      <description><![CDATA[<p>Dr. Yungang Bao is a professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT-CAS. Prof. Bao founded the China RISC-V Alliance (CRVA) and serves as the secretary-general of CRVA. His research interests include open-source hardware and agile chip design, datacenter architecture and memory systems. Prof. Bao’s contributions include developing the PARSEC 3.0 benchmark suite which has been adopted by leading industry players in China (like Alibaba and Huawei), the labeled von Neumann paradigm to enable a software-defined cloud, Hybrid Memory Trace Tool (HMTT), and Partition-Based DMA Cache. He was awarded the CCF-Intel Young Faculty Award, was the winner of CCF-IEEE CS Young Computer Scientist Award, and received China’s National Honor for Youth under 40.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Yungang Bao is a professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT-CAS. Prof. Bao founded the China RISC-V Alliance (CRVA) and serves as the secretary-general of CRVA. His research interests include open-source hardware and agile chip design, datacenter architecture and memory systems. Prof. Bao’s contributions include developing the PARSEC 3.0 benchmark suite which has been adopted by leading industry players in China (like Alibaba and Huawei), the labeled von Neumann paradigm to enable a software-defined cloud, Hybrid Memory Trace Tool (HMTT), and Partition-Based DMA Cache. He was awarded the CCF-Intel Young Faculty Award, was the winner of CCF-IEEE CS Young Computer Scientist Award, and received China’s National Honor for Youth under 40.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/a9wn9c/2022-04-23_CAP_Ep_9_Yungang_Bao_v1062x3e.mp3" length="126722088" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Yungang Bao is a professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT-CAS. Prof. Bao founded the China RISC-V Alliance (CRVA) and serves as the secretary-general of CRVA. His resea...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Yungang Bao is a professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT-CAS. Prof. Bao founded the China RISC-V Alliance (CRVA) and serves as the secretary-general of CRVA. His research interests include open-source hardware and agile chip design, datacenter architecture and memory systems. Prof. Bao’s contributions include developing the PARSEC 3.0 benchmark suite which has been adopted by leading industry players in China (like Alibaba and Huawei), the labeled von Neumann paradigm to enable a software-defined cloud, Hybrid Memory Trace Tool (HMTT), and Partition-Based DMA Cache. He was awarded the CCF-Intel Young Faculty Award, was the winner of CCF-IEEE CS Young Computer Scientist Award, and received China’s National Honor for Youth under 40.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>52:48</itunes:duration>
+                <itunes:episode>9</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 8: Durable Security and Privacy-enhanced Computing with Dr. Todd Austin, University of Michigan</title>
+        <itunes:title>Ep 8: Durable Security and Privacy-enhanced Computing with Dr. Todd Austin, University of Michigan</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-8-durable-security-and-privacy-enhanced-computing-with-dr-todd-austin-university-of-michigan/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-8-durable-security-and-privacy-enhanced-computing-with-dr-todd-austin-university-of-michigan/#comments</comments>        <pubDate>Sat, 07 May 2022 19:10:34 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/29e535b0-0d91-345b-baf5-97b92d07ac4a</guid>
+                      <description><![CDATA[<p>Dr. Todd Austin is a Professor of Electrical Engineering and Computer Science at the University of Michigan in Ann Arbor. His research interests include robust and secure system design, hardware and software verification, and performance analysis tools and techniques. Todd has donned multiple hats, being a senior processor architect at Intel’s Microprocessor Research Labs, a professor at the University of Michigan, serving as the director of research centers like C-FAR, and more recently serving as the CEO and co-founder of the startup Agita Labs. He is also an IEEE Fellow and received the ACM Maurice Wilkes Award for his work on SimpleScalar, and the DIVA and Razor architectures.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Todd Austin is a Professor of Electrical Engineering and Computer Science at the University of Michigan in Ann Arbor. His research interests include robust and secure system design, hardware and software verification, and performance analysis tools and techniques. Todd has donned multiple hats, being a senior processor architect at Intel’s Microprocessor Research Labs, a professor at the University of Michigan, serving as the director of research centers like C-FAR, and more recently serving as the CEO and co-founder of the startup Agita Labs. He is also an IEEE Fellow and received the ACM Maurice Wilkes Award for his work on SimpleScalar, and the DIVA and Razor architectures.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/kcwp5n/2022-02-25_CAP_Ep_8_Todd_Austin_v208m6op.mp3" length="145882382" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Todd Austin is a Professor of Electrical Engineering and Computer Science at the University of Michigan in Ann Arbor. His research interests include robust and secure system design, hardware and software verification, and performance analysis tools a...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Todd Austin is a Professor of Electrical Engineering and Computer Science at the University of Michigan in Ann Arbor. His research interests include robust and secure system design, hardware and software verification, and performance analysis tools and techniques. Todd has donned multiple hats, being a senior processor architect at Intel’s Microprocessor Research Labs, a professor at the University of Michigan, serving as the director of research centers like C-FAR, and more recently serving as the CEO and co-founder of the startup Agita Labs. He is also an IEEE Fellow and received the ACM Maurice Wilkes Award for his work on SimpleScalar, and the DIVA and Razor architectures.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:00:47</itunes:duration>
+                <itunes:episode>8</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 7: Domain-specific Systems for AR/VR and Extended Reality with Dr. Sarita Adve, University of Illinois at Urbana-Champaign</title>
+        <itunes:title>Ep 7: Domain-specific Systems for AR/VR and Extended Reality with Dr. Sarita Adve, University of Illinois at Urbana-Champaign</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-7-domain-specific-systems-for-arvr-and-extended-reality-with-dr-sarita-adve/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-7-domain-specific-systems-for-arvr-and-extended-reality-with-dr-sarita-adve/#comments</comments>        <pubDate>Tue, 08 Feb 2022 18:46:56 -0800</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/10900b25-cf52-3b1e-a1d5-633512dbfc86</guid>
+                      <description><![CDATA[<p>Dr. Sarita Adve is the Richard T. Cheng Professor of Computer Science at the University of Illinois at Urbana-Champaign. Her research interests span the system stack, including hardware, programming languages, operating systems, and applications. She co-developed the memory consistency models for the C++ and Java programming languages, based on her early work on data-race-free (DRF) models, and has made innovative contributions to heterogenous computing and software-driven approaches to resiliency. Her group recently released the Illinois Extended Reality testbed (ILLIXR), the first fully open source extended reality system to democratize XR systems research and development. She is a fellow of the American Academy of Arts and Science, IEEE, ACM and a recipient of the ACM SIGARCH Maurice Wilkes award. As ACM SIGARCH chair, she co-founded the CARES movement, and is a winner of the CRA distinguished service award.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Sarita Adve is the Richard T. Cheng Professor of Computer Science at the University of Illinois at Urbana-Champaign. Her research interests span the system stack, including hardware, programming languages, operating systems, and applications. She co-developed the memory consistency models for the C++ and Java programming languages, based on her early work on data-race-free (DRF) models, and has made innovative contributions to heterogenous computing and software-driven approaches to resiliency. Her group recently released the Illinois Extended Reality testbed (ILLIXR), the first fully open source extended reality system to democratize XR systems research and development. She is a fellow of the American Academy of Arts and Science, IEEE, ACM and a recipient of the ACM SIGARCH Maurice Wilkes award. As ACM SIGARCH chair, she co-founded the CARES movement, and is a winner of the CRA distinguished service award.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/9i26bs/2021-10-21_CAP_Ep_7_Sarita_Adve_v12883ow.mp3" length="144142627" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Sarita Adve is the Richard T. Cheng Professor of Computer Science at the University of Illinois at Urbana-Champaign. Her research interests span the system stack, including hardware, programming languages, operating systems, and applications. She co-...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Sarita Adve is the Richard T. Cheng Professor of Computer Science at the University of Illinois at Urbana-Champaign. Her research interests span the system stack, including hardware, programming languages, operating systems, and applications. She co-developed the memory consistency models for the C++ and Java programming languages, based on her early work on data-race-free (DRF) models, and has made innovative contributions to heterogenous computing and software-driven approaches to resiliency. Her group recently released the Illinois Extended Reality testbed (ILLIXR), the first fully open source extended reality system to democratize XR systems research and development. She is a fellow of the American Academy of Arts and Science, IEEE, ACM and a recipient of the ACM SIGARCH Maurice Wilkes award. As ACM SIGARCH chair, she co-founded the CARES movement, and is a winner of the CRA distinguished service award.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:00:03</itunes:duration>
+                <itunes:episode>7</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 6: Quantum Computing Architectures with Dr. Fred Chong, University of Chicago</title>
+        <itunes:title>Ep 6: Quantum Computing Architectures with Dr. Fred Chong, University of Chicago</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-6-quantum-computing-architectures-with-dr-fred-chong-university-of-chicago/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-6-quantum-computing-architectures-with-dr-fred-chong-university-of-chicago/#comments</comments>        <pubDate>Mon, 30 Aug 2021 08:18:28 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/17979deb-4350-32bf-aad9-bc9c635d0be4</guid>
+                      <description><![CDATA[<p>Dr. Fred Chong is the Seymour Goodman Professor in the Department of Computer Science at the University of Chicago, and the chief scientist of SuperTech, a quantum software startup. He is also Lead Principal Investigator for the EPiQC Project, an NSF Expedition in Computing. Previously, Fred received his Ph.D. from MIT in 1996 and was a faculty member at UC Davis and UC Santa Barbara. Fred has made significant contributions to architecture and system stack for quantum computing, and his other research interests include emerging technologies for computing, multicore and embedded architectures, computer security, and sustainable computing.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Fred Chong is the Seymour Goodman Professor in the Department of Computer Science at the University of Chicago, and the chief scientist of SuperTech, a quantum software startup. He is also Lead Principal Investigator for the EPiQC Project, an NSF Expedition in Computing. Previously, Fred received his Ph.D. from MIT in 1996 and was a faculty member at UC Davis and UC Santa Barbara. Fred has made significant contributions to architecture and system stack for quantum computing, and his other research interests include emerging technologies for computing, multicore and embedded architectures, computer security, and sustainable computing.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/ft795s/2021-05-06_CAP_Ep_6_Fred_Chong-002bb3hm.mp3" length="141523068" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Fred Chong is the Seymour Goodman Professor in the Department of Computer Science at the University of Chicago, and the chief scientist of SuperTech, a quantum software startup. He is also Lead Principal Investigator for the EPiQC Project, an NSF Exp...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Fred Chong is the Seymour Goodman Professor in the Department of Computer Science at the University of Chicago, and the chief scientist of SuperTech, a quantum software startup. He is also Lead Principal Investigator for the EPiQC Project, an NSF Expedition in Computing. Previously, Fred received his Ph.D. from MIT in 1996 and was a faculty member at UC Davis and UC Santa Barbara. Fred has made significant contributions to architecture and system stack for quantum computing, and his other research interests include emerging technologies for computing, multicore and embedded architectures, computer security, and sustainable computing.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>58:58</itunes:duration>
+                <itunes:episode>6</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 5: Datacenter Architectures and Cloud Microservices with Dr. Christina Delimitrou, Cornell University</title>
+        <itunes:title>Ep 5: Datacenter Architectures and Cloud Microservices with Dr. Christina Delimitrou, Cornell University</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-5-datacenter-architectures-and-cloud-microservices-with-dr-christina-delimitrou-cornell-university/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-5-datacenter-architectures-and-cloud-microservices-with-dr-christina-delimitrou-cornell-university/#comments</comments>        <pubDate>Sat, 05 Jun 2021 08:35:23 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/182be43f-837e-3f13-8803-509de01757e7</guid>
+                      <description><![CDATA[<p>Dr. Christina Delimitrou is an assistant professor in the Electrical and Computer Engineering Department at Cornell University. Prof. Delimitrou has made significant contributions to improving resource efficiency of large-scale datacenters, QoS-aware scheduling and resource management techniques, performance debugging, and cloud security. She received the 2020 IEEE TCCA Young Architect Award for leading research in ML-driven management and design of cloud systems. She talks to us about datacenter architectures, cloud microservices, and applying machine learning techniques to optimizing and managing these systems.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Christina Delimitrou is an assistant professor in the Electrical and Computer Engineering Department at Cornell University. Prof. Delimitrou has made significant contributions to improving resource efficiency of large-scale datacenters, QoS-aware scheduling and resource management techniques, performance debugging, and cloud security. She received the 2020 IEEE TCCA Young Architect Award for leading research in ML-driven management and design of cloud systems. She talks to us about datacenter architectures, cloud microservices, and applying machine learning techniques to optimizing and managing these systems.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/22uct6/2021-03-11_CAP_Ep_5_Christina_Delimitrou-0027ygt2.mp3" length="117002448" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Christina Delimitrou is an assistant professor in the Electrical and Computer Engineering Department at Cornell University. Prof. Delimitrou has made significant contributions to improving resource efficiency of large-scale datacenters, QoS-aware sch...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Christina Delimitrou is an assistant professor in the Electrical and Computer Engineering Department at Cornell University. Prof. Delimitrou has made significant contributions to improving resource efficiency of large-scale datacenters, QoS-aware scheduling and resource management techniques, performance debugging, and cloud security. She received the 2020 IEEE TCCA Young Architect Award for leading research in ML-driven management and design of cloud systems. She talks to us about datacenter architectures, cloud microservices, and applying machine learning techniques to optimizing and managing these systems.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>48:45</itunes:duration>
+                <itunes:episode>5</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 4: Cross-layer Optimizations and Impactful Collaborations with Dr. Mark D. Hill, University of Wisconsin-Madison / Microsoft</title>
+        <itunes:title>Ep 4: Cross-layer Optimizations and Impactful Collaborations with Dr. Mark D. Hill, University of Wisconsin-Madison / Microsoft</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-4-cross-layer-optimizations-and-impactful-collaborations-with-dr-mark-d-hill-university-of-wisconsin-madison-microsoft/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-4-cross-layer-optimizations-and-impactful-collaborations-with-dr-mark-d-hill-university-of-wisconsin-madison-microsoft/#comments</comments>        <pubDate>Thu, 11 Mar 2021 06:33:44 -0800</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/fce87c42-b59f-32fb-b0ca-26715e882b51</guid>
+                      <description><![CDATA[<p>Dr. Mark D. Hill is a professor emeritus of computer sciences at the University of Wisconsin Madison, and currently a Partner Hardware Architect with Microsoft Azure. He has made numerous contributions to parallel computer system design, memory system design, computer simulation, and more.  He is well known for his advice and collaborative work style, having published papers with 160 different co-authors. He talks to us about cross-layer optimizations, impactful collaborations, and visioning for computer architecture research. </p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Mark D. Hill is a professor emeritus of computer sciences at the University of Wisconsin Madison, and currently a Partner Hardware Architect with Microsoft Azure. He has made numerous contributions to parallel computer system design, memory system design, computer simulation, and more.  He is well known for his advice and collaborative work style, having published papers with 160 different co-authors. He talks to us about cross-layer optimizations, impactful collaborations, and visioning for computer architecture research. </p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/hdy8aw/2020-11-10_CAP_Ep_4_Mark_Hill-0029ywqk.mp3" length="121122480" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Mark D. Hill is a professor emeritus of computer sciences at the University of Wisconsin Madison, and currently a Partner Hardware Architect with Microsoft Azure. He has made numerous contributions to parallel computer system design, memory system de...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Mark D. Hill is a professor emeritus of computer sciences at the University of Wisconsin Madison, and currently a Partner Hardware Architect with Microsoft Azure. He has made numerous contributions to parallel computer system design, memory system design, computer simulation, and more.  He is well known for his advice and collaborative work style, having published papers with 160 different co-authors. He talks to us about cross-layer optimizations, impactful collaborations, and visioning for computer architecture research. </p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>50:28</itunes:duration>
+                <itunes:episode>4</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 3: Privacy-preserving Covid Tracing and the Hardware-Software Stack with Dr. James Larus, EPFL</title>
+        <itunes:title>Ep 3: Privacy-preserving Covid Tracing and the Hardware-Software Stack with Dr. James Larus, EPFL</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-3-privacy-preserving-covid-tracing-and-the-hardware-software-stack-with-dr-james-larus-epfl/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-3-privacy-preserving-covid-tracing-and-the-hardware-software-stack-with-dr-james-larus-epfl/#comments</comments>        <pubDate>Wed, 23 Dec 2020 22:17:31 -0800</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/ac4442f1-3eed-3c78-80fd-57a9de3451b1</guid>
+                      <description><![CDATA[<p>Dr. James Larus is Professor and Dean of the School of Computer and Communication Sciences at EPFL. Prof. Larus has made contributions to several fields spanning programming languages, compilers, computer architecture, and computer systems. He co-led the Wisconsin Wind Tunnel project, started the Singularity project at Microsoft Research (MSR), created Orleans framework for cloud programming as director of the Extreme Computing Group at MSR. He talks to us about privacy-by-design, the associated challenges across the hardware-software stack, and the implications on the design of digital contact-tracing protocols (DP-3T) during the Covid-19 pandemic.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. James Larus is Professor and Dean of the School of Computer and Communication Sciences at EPFL. Prof. Larus has made contributions to several fields spanning programming languages, compilers, computer architecture, and computer systems. He co-led the Wisconsin Wind Tunnel project, started the Singularity project at Microsoft Research (MSR), created Orleans framework for cloud programming as director of the Extreme Computing Group at MSR. He talks to us about privacy-by-design, the associated challenges across the hardware-software stack, and the implications on the design of digital contact-tracing protocols (DP-3T) during the Covid-19 pandemic.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/3b9hpm/2020-10-16_CAP_Ep_3_Jim_Larus_v209om85.mp3" length="130961240" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. James Larus is Professor and Dean of the School of Computer and Communication Sciences at EPFL. Prof. Larus has made contributions to several fields spanning programming languages, compilers, computer architecture, and computer systems. He co-led the...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. James Larus is Professor and Dean of the School of Computer and Communication Sciences at EPFL. Prof. Larus has made contributions to several fields spanning programming languages, compilers, computer architecture, and computer systems. He co-led the Wisconsin Wind Tunnel project, started the Singularity project at Microsoft Research (MSR), created Orleans framework for cloud programming as director of the Extreme Computing Group at MSR. He talks to us about privacy-by-design, the associated challenges across the hardware-software stack, and the implications on the design of digital contact-tracing protocols (DP-3T) during the Covid-19 pandemic.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>54:34</itunes:duration>
+                <itunes:episode>3</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 2: Domain-specific Accelerators with Dr. Bill Dally, Nvidia</title>
+        <itunes:title>Ep 2: Domain-specific Accelerators with Dr. Bill Dally, Nvidia</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-2-domain-specific-accelerators-with-dr-bill-dally-nvidia/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-2-domain-specific-accelerators-with-dr-bill-dally-nvidia/#comments</comments>        <pubDate>Tue, 20 Oct 2020 22:38:44 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/e12c48cc-a4fb-3826-961f-811d6d295824</guid>
+                      <description><![CDATA[<p>Dr. Bill Dally is the Chief Scientist and Senior Vice President of Research at Nvidia, and a Professor of Computer Science at Stanford University. Dr. Dally has had a storied career with contributions to parallel computer architectures, interconnection networks, GPUs, accelerators and more. He has a history of designing innovative and experimental computing systems such as the MARS accelerator, the MOSSIM simulation engine, the J-Machine and M-machine, to name a few. He talks to us about computing innovation in the post-Moore era, domain-specific accelerators, and technology transfer in computing.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Bill Dally is the Chief Scientist and Senior Vice President of Research at Nvidia, and a Professor of Computer Science at Stanford University. Dr. Dally has had a storied career with contributions to parallel computer architectures, interconnection networks, GPUs, accelerators and more. He has a history of designing innovative and experimental computing systems such as the MARS accelerator, the MOSSIM simulation engine, the J-Machine and M-machine, to name a few. He talks to us about computing innovation in the post-Moore era, domain-specific accelerators, and technology transfer in computing.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/7fxwqp/2020-07-23_CAP_Ep_2_Bill_Dally-00468qvc.mp3" length="130402219" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Bill Dally is the Chief Scientist and Senior Vice President of Research at Nvidia, and a Professor of Computer Science at Stanford University. Dr. Dally has had a storied career with contributions to parallel computer architectures, interconnection n...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Bill Dally is the Chief Scientist and Senior Vice President of Research at Nvidia, and a Professor of Computer Science at Stanford University. Dr. Dally has had a storied career with contributions to parallel computer architectures, interconnection networks, GPUs, accelerators and more. He has a history of designing innovative and experimental computing systems such as the MARS accelerator, the MOSSIM simulation engine, the J-Machine and M-machine, to name a few. He talks to us about computing innovation in the post-Moore era, domain-specific accelerators, and technology transfer in computing.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>54:20</itunes:duration>
+                <itunes:episode>2</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/8578213/comparch-podcast.jpg" />    </item>
+    <item>
+        <title>Ep 1: Systems for ML with Dr. Kim Hazelwood, Facebook</title>
+        <itunes:title>Ep 1: Systems for ML with Dr. Kim Hazelwood, Facebook</itunes:title>
+        <link>https://comparchpodcast.podbean.com/e/ep-1-systems-for-ml-with-dr-kim-hazelwood-facebook/</link>
+                    <comments>https://comparchpodcast.podbean.com/e/ep-1-systems-for-ml-with-dr-kim-hazelwood-facebook/#comments</comments>        <pubDate>Thu, 28 May 2020 05:28:28 -0700</pubDate>
+        <guid isPermaLink="false">comparchpodcast.podbean.com/b8d557d0-df57-5bf6-8b09-1fdf8658b10f</guid>
+                      <description><![CDATA[<p>Dr. Kim Hazelwood is the west coast head of engineering at Facebook AI Research (FAIR). Prior to Facebook, Kim has donned several hats from being a tenured professor at the University of Virginia, directory of systems research at Yahoo Labs, and a software engineer at Google. Today, she joins us to discuss systems for Machine Learning (ML), and share her insights on having an agile career.</p>
+]]></description>
+                        <content:encoded><![CDATA[<p>Dr. Kim Hazelwood is the west coast head of engineering at Facebook AI Research (FAIR). Prior to Facebook, Kim has donned several hats from being a tenured professor at the University of Virginia, directory of systems research at Yahoo Labs, and a software engineer at Google. Today, she joins us to discuss systems for Machine Learning (ML), and share her insights on having an agile career.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/1mti1z/09_2020-02-25_CAP_Ep_1_Kim_Hazelwood_publish_v1_9zals.mp3" length="59784880" type="audio/mpeg"/>
+        <itunes:subtitle>Dr. Kim Hazelwood is the west coast head of engineering at Facebook AI Research (FAIR). Prior to Facebook, Kim has donned several hats from being a tenured professor at the University of Virginia, directory of systems research at Yahoo Labs, and a softwa...</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Dr. Kim Hazelwood is the west coast head of engineering at Facebook AI Research (FAIR). Prior to Facebook, Kim has donned several hats from being a tenured professor at the University of Virginia, directory of systems research at Yahoo Labs, and a software engineer at Google. Today, she joins us to discuss systems for Machine Learning (ML), and share her insights on having an agile career.</p>
+]]></itunes:summary>
+        <itunes:author>comparchpodcast</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:02:16</itunes:duration>
+                <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog8578213/sigarch-comparch-today.jpg" />    </item>
+</channel>
+</rss>
