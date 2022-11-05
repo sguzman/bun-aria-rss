@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>fa.bianp.net</title><link>http://fa.bianp.net/</link><description></description><lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0200</lastBuildDate><item><title>The Russian Roulette: An Unbiased Estimator of the Limit</title><link>http://fa.bianp.net/blog/2022/russian-roulette/</link><description>
+  &lt;blockquote class="pullquote" style="margin-left: 20px"&gt;
+    &lt;p&gt;
+      &lt;q&gt;The idea for what was later called Monte Carlo method occurred to me when I was playing solitaire during my illness.&lt;/q&gt; 
+  &lt;/p&gt;
+  &lt;p style="text-align: right;"&gt;
+    Stanislaw Ulam, &lt;i&gt;&lt;a href="https://www.goodreads.com/book/show/423246.Adventures_of_a_Mathematician"&gt;Adventures of a Mathematician&lt;/a&gt;&lt;/i&gt;
+  &lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;
+    The Russian Roulette offers a simple way to construct an unbiased estimator for the limit of a sequence. It allows for example to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 15 Oct 2022 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2022-10-15:/blog/2022/russian-roulette/</guid><category>statistics</category><category>nuggets</category><category>unbiased</category></item><item><title>Notes on the Frank-Wolfe Algorithm, Part III: backtracking line-search</title><link>http://fa.bianp.net/blog/2022/adaptive_fw/</link><description>
+
+&lt;p&gt;
+    Backtracking step-size strategies (also known as adaptive step-size or approximate line-search) that set the step-size based on a sufficient decrease condition are the standard way to set the step-size on gradient descent and quasi-Newton methods. However, these techniques are much less common for &lt;a href="/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/"&gt;Frank-Wolfe-like&lt;/a&gt; algorithms. In this blog post I …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 26 Aug 2022 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2022-08-26:/blog/2022/adaptive_fw/</guid><category>optimization</category><category>Frank-Wolfe</category><category>backtracking</category><category>line-search</category><category>step-size</category><category>adaptive</category></item><item><title>On the Link Between Optimization and Polynomials, Part 5</title><link>http://fa.bianp.net/blog/2022/cyclical/</link><description>
+  &lt;blockquote class="pullquote" style="margin-left: 20px"&gt;
+    &lt;p&gt;
+      &lt;br&gt;&lt;i&gt;
+        &lt;b style="font-style: normal;"&gt;Six&lt;/b&gt;: All of this has happened before. &lt;br&gt;
+        &lt;b style="font-style: normal;"&gt;Baltar&lt;/b&gt;: But the question remains, does all of this have to happen again?&lt;br&gt;
+        &lt;b style="font-style: normal;"&gt;Six&lt;/b&gt;: This time I bet no.&lt;br&gt;
+        &lt;b style="font-style: normal;"&gt;Baltar&lt;/b&gt;: You know, I've never known you to play the optimist. Why the change of heart?&lt;br&gt;
+        &lt;b style="font-style: normal;"&gt;Six&lt;/b&gt;: Mathematics. Law of averages. Let a complex …&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">&lt;a href='https://scholar.google.com/citations?user=93PAG2AAAAAJ&amp;hl=en'&gt;Baptiste Goujaud&lt;/a&gt; and &lt;a href='http://fa.bianp.net/pages/about.html'&gt;Fabian Pedregosa&lt;/a&gt;</dc:creator><pubDate>Fri, 27 May 2022 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2022-05-27:/blog/2022/cyclical/</guid><category>optimization</category><category>polynomials</category><category>acceleration</category></item><item><title>Optimization Nuggets: Implicit Bias of Gradient-based Methods</title><link>http://fa.bianp.net/blog/2022/implicit-bias-regression/</link><description>
+
+    &lt;p&gt;
+      When an optimization problem has multiple global minima, different algorithms can find different solutions, a phenomenon often referred to as the &lt;i&gt;implicit bias&lt;/i&gt; of optimization algorithms. In this post we'll characterize the implicit bias of gradient-based methods on a class of regression problems that includes linear least squares and Huber …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 10 Jan 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2022-01-10:/blog/2022/implicit-bias-regression/</guid><category>learning theory</category><category>implicit bias</category><category>proofs</category><category>nuggets</category></item><item><title>Optimization Nuggets: Exponential Convergence of SGD</title><link>http://fa.bianp.net/blog/2021/exponential-sgd/</link><description>
+
+    &lt;p&gt;
+        This is the first of a series of blog posts on short and beautiful proofs in optimization (let me know what you think in the comments!). For this first post in the series I'll show that stochastic gradient descent (SGD) converges exponentially fast to a neighborhood of the solution.
+    &lt;/p&gt;
+
+  
+    &lt;script type="text/javascript" src="/theme/js/bibtexParse.js"&gt;
+    &lt;/script&gt;
+  
+    &lt;script type="text/x-mathjax-config"&gt;
+        MathJax …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 15 Dec 2021 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2021-12-15:/blog/2021/exponential-sgd/</guid><category>optimization</category><category>SGD</category><category>proofs</category><category>nuggets</category></item><item><title>On the Link Between Optimization and Polynomials, Part 4</title><link>http://fa.bianp.net/blog/2021/no-momentum/</link><description>
+  &lt;p&gt;
+    While the most common accelerated methods like Polyak and Nesterov incorporate a momentum term, a little known fact is that simple gradient descent &amp;ndash;no momentum&amp;ndash; can achieve the same rate  
+    through only a well-chosen sequence of step-sizes. In this post we'll derive this method and through simulations discuss its practical …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 13 Apr 2021 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2021-04-13:/blog/2021/no-momentum/</guid><category>optimization</category><category>polynomials</category><category>acceleration</category></item><item><title>On the Link Between Optimization and Polynomials, Part 3</title><link>http://fa.bianp.net/blog/2021/hitchhiker/</link><description>
+  &lt;blockquote class="pullquote"&gt;
+    &lt;p&gt;
+      &lt;q&gt;&lt;i&gt;I've seen things you people wouldn't believe. &lt;br&gt;
+      Valleys sculpted by trigonometric functions. &lt;br&gt;
+      Rates on fire off the shoulder of divergence. &lt;br&gt;
+      Beams glitter in the dark near the Polyak gate. &lt;br&gt;
+      All those landscapes will be lost in time, like tears in rain. &lt;br&gt;Time to halt.&lt;/i&gt;&lt;/q&gt; &lt;br&gt;
+  &lt;/p&gt;
+  &lt;p style="text-align: right;"&gt;
+    A momentum optimizer &lt;a href="https://en.wikipedia.org/wiki/Tears_in_rain_monologue"&gt;*&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;figure class="fullwidth"&gt;
+    &lt;img style="max-width: 1000px;" src="/images/2021/rate_convergence_momentum.png" alt=""&gt;
+  &lt;/figure&gt;
+
+  &lt;script type="text/javascript" src="/theme/js/bibtexParse.js"&gt;
+  &lt;/script&gt;
+
+  &lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 02 Mar 2021 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2021-03-02:/blog/2021/hitchhiker/</guid><category>optimization</category><category>polynomials</category><category>acceleration</category><category>momentum</category><category>Chebyshev</category></item><item><title>On the Link Between Optimization and Polynomials, Part 2</title><link>http://fa.bianp.net/blog/2020/momentum/</link><description>
+  &lt;p&gt;
+    We can tighten the analysis of gradient descent with momentum through a cobination of Chebyshev polynomials of the first and second kind. Following this connection, we'll derive one of the most iconic methods in optimization: Polyak momentum. 
+  &lt;/p&gt;
+
+
+  &lt;script type="text/javascript" src="/theme/js/bibtexParse.js"&gt;
+  &lt;/script&gt;
+
+  &lt;script type="text/x-mathjax-config"&gt;
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 21 Dec 2020 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2020-12-21:/blog/2020/momentum/</guid><category>optimization</category><category>polynomials</category><category>acceleration</category><category>momentum</category><category>Chebyshev</category></item><item><title>On the Link Between Polynomials and Optimization, Part 1</title><link>http://fa.bianp.net/blog/2020/polyopt/</link><description>
+
+  &lt;p&gt;
+    There's a fascinating link between minimization of quadratic functions and polynomials. A link
+    that goes
+    deep and allows to phrase optimization problems in the language of polynomials and vice versa.
+    Using this connection, we can tap into centuries of research in the theory of polynomials and
+    shed new light on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 07 Apr 2020 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2020-04-07:/blog/2020/polyopt/</guid><category>optimization</category><category>polynomials</category><category>acceleration</category><category>Chebyshev</category></item><item><title>How to Evaluate the Logistic Loss and not NaN trying</title><link>http://fa.bianp.net/blog/2019/evaluate_logistic/</link><description>
+
+&lt;p&gt;A naive implementation of the logistic regression loss can results in numerical indeterminacy even for moderate values. This post takes a closer look into the source of these instabilities and discusses more robust Python implementations.
+&lt;/p&gt;
+
+
+&lt;!-- for highlighting --&gt;
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.5/styles/default.min.css"&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.5/highlight.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+&lt;!-- Mathjax--&gt;
+&lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">&lt;a href='http://fa.bianp.net/pages/about.html'&gt;Fabian Pedregosa&lt;/a&gt;</dc:creator><pubDate>Fri, 27 Sep 2019 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2019-09-27:/blog/2019/evaluate_logistic/</guid><category>coding</category><category>logistic regression</category><category>numerical stability</category></item><item><title>Notes on the Frank-Wolfe Algorithm, Part II: A Primal-dual Analysis</title><link>http://fa.bianp.net/blog/2018/fw2/</link><description>
+  &lt;p&gt;This blog post extends the convergence theory from the &lt;a href="/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/"&gt;first part of these notes&lt;/a&gt; on the
+    Frank-Wolfe (FW) algorithm with convergence guarantees on the primal-dual gap which generalize
+    and strengthen the convergence guarantees obtained in the first part. &lt;/p&gt;
+  &lt;script type="text/javascript" src="/theme/js/bibtexParse.js"&gt;
+  &lt;/script&gt;
+
+  &lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 17 Nov 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2018-11-17:/blog/2018/fw2/</guid><category>optimization</category><category>Frank-Wolfe</category><category>conditional gradient</category><category>convergence analysis</category></item><item><title>Three Operator Splitting</title><link>http://fa.bianp.net/blog/2018/tos/</link><description>I discuss a recently proposed optimization algorithm: the Davis-Yin three operator splitting.</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 06 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2018-09-06:/blog/2018/tos/</guid><category>optimization</category><category>proximal splitting</category><category>three operator splitting</category><category>convergence analysis</category></item><item><title>Notes on the Frank-Wolfe Algorithm, Part I</title><link>http://fa.bianp.net/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/</link><description>
+&lt;p&gt;This blog post is the first in a series discussing different theoretical and practical aspects of the Frank-Wolfe algorithm.&lt;/p&gt;
+
+
+&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+    equationNumbers: { autoNumber: "AMS" },
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+&lt;script type="text/javascript" async src="/js/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+&lt;/script&gt;
+
+
+&lt;!-- for highlighting --&gt;
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+
+&lt;div style="display: none"&gt;
+  $$
+   \def\xx{\boldsymbol x}
+   \def\yy{\boldsymbol y}
+   \def\ss{\boldsymbol s}
+   \def\dd …&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 21 Mar 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2018-03-21:/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/</guid><category>optimization</category><category>Frank-Wolfe</category><category>conditional gradient</category><category>convergence analysis</category></item><item><title>Optimization inequalities cheatsheet</title><link>http://fa.bianp.net/blog/2017/optimization-inequalities-cheatsheet/</link><description>
+      &lt;script type="text/x-mathjax-config"&gt;
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        },
+      });
+        &lt;/script&gt;
+        &lt;script type="text/javascript" async src="/js/mathjax@2.7.5/MathJax.js?config=TeX-AMS_CHTML"&gt;
+        &lt;/script&gt;
+
+        &lt;p&gt;Most proofs in optimization consist in using inequalities for a particular function class in some creative way. This is a cheatsheet with inequalities that I use most often. It considers …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 11 Jan 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2017-01-11:/blog/2017/optimization-inequalities-cheatsheet/</guid><category>optimization</category><category>optimization</category><category>cheatsheet</category></item><item><title>A fully asynchronous variant of the SAGA algorithm</title><link>http://fa.bianp.net/blog/2016/a-fully-asynchronous-variant-of-the-saga-algorithm/</link><description>&lt;p&gt;My friend &lt;a href="http://www.di.ens.fr/~rleblond/"&gt;Rémi Leblond&lt;/a&gt; has recently uploaded to ArXiv &lt;a href="https://arxiv.org/abs/1606.04809"&gt;our preprint on an asynchronous version of the SAGA optimization algorithm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The main contribution is to develop a parallel (fully asynchronous, no locks) variant of the &lt;a href="http://papers.nips.cc/paper/5258-saga-a-fast-incremental-gradient-method-with-support-for-non-strongly-convex-composite-objectives.pdf"&gt;SAGA algorighm&lt;/a&gt;. This is a stochastic variance-reduced method for general optimization, specially adapted for problems …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 12 Oct 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2016-10-12:/blog/2016/a-fully-asynchronous-variant-of-the-saga-algorithm/</guid><category>optimization</category><category>optimization</category><category>asynchronous</category><category>SAGA</category></item><item><title>Hyperparameter optimization with approximate gradient</title><link>http://fa.bianp.net/blog/2016/hyperparameter-optimization-with-approximate-gradient/</link><description>
+
+      &lt;script type="text/x-mathjax-config"&gt;
+        MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+          },
+            TeX: {
+              equationNumbers: { autoNumber: "AMS" },
+              Macros: {
+                RR: "{\\mathbb{R}}",
+                argmin: "{\\mathop{\\mathrm{arg\\,min}}}",
+                bold: ["{\\bf #1}",1]
+              }
+            },
+          "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+      &lt;/script&gt;
+
+      &lt;script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"&gt;
+      &lt;/script&gt;      
+
+    &lt;p&gt;&lt;b&gt;TL;DR:&lt;/b&gt; I describe a &lt;a href="http://arxiv.org/abs/1602.02355"&gt;method for hyperparameter optimization&lt;/a&gt; by gradient descent.&lt;/p&gt;
+    &lt;p&gt;Most machine …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 25 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2016-05-25:/blog/2016/hyperparameter-optimization-with-approximate-gradient/</guid><category>optimization</category><category>machine learning</category><category>hyperparameters</category><category>HOAG</category></item><item><title>Lightning v0.1</title><link>http://fa.bianp.net/blog/2016/lightning-v01/</link><description>&lt;p&gt;Announce: first public release of &lt;a href="http://contrib.scikit-learn.org/lightning/"&gt;lightning&lt;/a&gt;!, a library for large-scale linear classification, regression and ranking in Python. The library was started a couple of years ago by &lt;a href="http://mblondel.org"&gt;Mathieu Blondel&lt;/a&gt; who also contributed the vast majority of source code. I joined recently its development and decided it was about time for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 25 Mar 2016 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2016-03-25:/blog/2016/lightning-v01/</guid><category>software</category><category>Python</category><category>scikit-learn</category><category>machine learning</category><category>lightning</category></item><item><title>scikit-learn-contrib, an umbrella for scikit-learn related projects.</title><link>http://fa.bianp.net/blog/2016/scikit-learn-contrib-an-umbrella-for-scikit-learn-related-projects/</link><description>&lt;p&gt;Together with other scikit-learn developers we've created an umbrella organization for scikit-learn-related projects named &lt;a href="https://github.com/scikit-learn-contrib"&gt;scikit-learn-contrib&lt;/a&gt;. The idea is for this organization to host projects that are deemed too specific or too experimental to be included in the scikit-learn codebase but still offer an API which is compatible with scikit-learn and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 06 Mar 2016 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2016-03-06:/blog/2016/scikit-learn-contrib-an-umbrella-for-scikit-learn-related-projects/</guid><category>software</category><category>Python</category><category>scikit-learn</category><category>machine learning</category><category>lightning</category></item><item><title>SAGA algorithm in the lightning library</title><link>http://fa.bianp.net/blog/2016/saga-algorithm-in-the-lightning-library/</link><description>&lt;p&gt;Recently I've implemented, together with &lt;a href="http://arachez.com/"&gt;Arnaud Rachez&lt;/a&gt;, the SAGA[&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;] algorithm in the &lt;a href="http://contrib.scikit-learn.org/lightning/"&gt;lightning&lt;/a&gt; machine learning library (which by the way, has been recently moved to the new &lt;a href="https://github.com/scikit-learn-contrib"&gt;scikit-learn-contrib&lt;/a&gt; project). The lightning library uses the same API as scikit-learn but is particularly adapted to online learning. As for the SAGA …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 22 Feb 2016 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2016-02-22:/blog/2016/saga-algorithm-in-the-lightning-library/</guid><category>misc</category><category>Python</category><category>scikit-learn</category><category>machine learning</category><category>lightning</category></item><item><title>On the consistency of ordinal regression methods</title><link>http://fa.bianp.net/blog/2015/on-the-consistency-of-ordinal-regression-methods/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;My latests work (with &lt;a href="http://www.di.ens.fr/~fbach/"&gt;Francis Bach&lt;/a&gt; and &lt;a href="http://alexandre.gramfort.net/"&gt;Alexandre Gramfort&lt;/a&gt;) is on the consistency of ordinal regression methods. It has the wildly imaginative …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 09 Oct 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2015-10-09:/blog/2015/on-the-consistency-of-ordinal-regression-methods/</guid><category>learning theory</category><category>consistency</category><category>machine learning</category></item><item><title>Holdout cross-validation generator</title><link>http://fa.bianp.net/blog/2015/holdout-cross-validation-generator/</link><description>&lt;p&gt;&lt;a href="http://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators"&gt;Cross-validation iterators&lt;/a&gt; in scikit-learn are simply generator objects, that is, Python objects that implement the &lt;code&gt;__iter__&lt;/code&gt; method and that for each call to this method return (or more precisely, &lt;code&gt;yield&lt;/code&gt;) the indices or a boolean mask for the train and test set. Hence, implementing new cross-validation iterators that behave as …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 20 Aug 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2015-08-20:/blog/2015/holdout-cross-validation-generator/</guid><category>misc</category><category>Python</category><category>scikit-learn</category><category>machine learning</category><category>model selection</category></item><item><title>IPython/Jupyter notebook gallery</title><link>http://fa.bianp.net/blog/2015/ipythonjupyter-notebook-gallery/</link><description>&lt;p style="font-weight: bold; color:red"&gt;Due to lack of time and interest, I'm no longer maintaining this project. Feel free to grab the sources from &lt;a href="https://github.com/fabianp/nbgallery"&gt;https://github.com/fabianp/nbgallery&lt;/a&gt; and fork the project. &lt;/p&gt;
+
+&lt;p&gt;TL;DR I created a gallery for IPython/Jupyter notebooks. &lt;a href="http://nb.bianp.net"&gt;Check it out :-)&lt;/a&gt;&lt;/p&gt;
+&lt;div style="text-align: center"&gt;
+&lt;img alt="Notebook gallery" width="600px" src="http://fa.bianp.net/uploads/2015/screenshot_nbgallery.png" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A couple of months ago I put online …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 21 Apr 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2015-04-21:/blog/2015/ipythonjupyter-notebook-gallery/</guid><category>misc</category><category>Python</category><category>Jupyter</category></item><item><title>PyData Paris - April 2015</title><link>http://fa.bianp.net/blog/2015/pydata-paris-april-2015/</link><description>&lt;p&gt;Last Friday was &lt;a href="http://pydataparis.joinux.org/schedule.html"&gt;PyData Paris&lt;/a&gt;, in words of the organizers, ''a gathering of users and developers of data analysis tools in Python''. &lt;/p&gt;
+&lt;p&gt;&lt;img width="600px" src="http://pydataparis.joinux.org/static/images/PyDataLogoBig-Paris2015.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The organizers did a great job in putting together and the event started already with a full room for &lt;a href="http://gael-varoquaux.info/"&gt;Gael's&lt;/a&gt; keynote&lt;/p&gt;
+&lt;div style="text-align: center"&gt;
+&lt;img width="600px" alt="Gael's keynote" src="https://pbs.twimg.com/media/CBplCb_WIAEzytd.jpg" /&gt;&lt;/div&gt;
+
+&lt;p&gt;My take-away message from the talks is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 07 Apr 2015 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2015-04-07:/blog/2015/pydata-paris-april-2015/</guid><category>misc</category><category>Python</category><category>Paris</category><category>NumPy</category><category>Numba</category></item><item><title>Data-driven hemodynamic response function estimation</title><link>http://fa.bianp.net/blog/2014/data-driven-hemodynamic-response-function-estimation/</link><description>&lt;p&gt;My &lt;a href="http://www.sciencedirect.com/science/article/pii/S1053811914008027"&gt;latest research paper&lt;/a&gt;[&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;]  deals with the estimation of the hemodynamic response function (HRF) from fMRI data. &lt;/p&gt;
+&lt;div style="text-align: center"&gt;
+&lt;img width="600px" src="/images/2014/graphical_abstract.jpg" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is an important topic since the knowledge of a  hemodynamic response function is what makes it possible to extract the brain activation maps that are used in most of the impressive …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 05 Dec 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2014-12-05:/blog/2014/data-driven-hemodynamic-response-function-estimation/</guid><category>misc</category><category>fMRI</category><category>GLM</category><category>python</category></item><item><title>Plot memory usage as a function of time</title><link>http://fa.bianp.net/blog/2014/plot-memory-usage-as-a-function-of-time/</link><description>&lt;p&gt;:og_image: http://fa.bianp.net/blog/images/2014/mprof_example.png&lt;/p&gt;
+&lt;p&gt;One of the lesser known features of the &lt;a href="https://pypi.python.org/pypi/memory_profiler"&gt;memory_profiler package&lt;/a&gt; is its ability to plot memory consumption as a function of time. This was implemented by my friend Philippe Gervais, previously a colleague at INRIA and now at Google.&lt;/p&gt;
+&lt;p&gt;With …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 07 Nov 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2014-11-07:/blog/2014/plot-memory-usage-as-a-function-of-time/</guid><category>misc</category><category>memory_profiler</category><category>mprof</category><category>profile</category></item><item><title>Surrogate Loss Functions in Machine Learning</title><link>http://fa.bianp.net/blog/2014/surrogate-loss-functions-in-machine-learning/</link><description>&lt;!-- &lt;div style="float: left; margin: 20px; width; 200px" &gt;
+&lt;img src="http://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg" /&gt;
+&lt;p&gt;Sir R. A. Fisher. Source: Wikipedia &lt;/p&gt;
+&lt;/div&gt;
+ --&gt;
+
+&lt;p&gt;&lt;script type="text/x-mathjax-config"&gt;
+ MathJax.Hub.Config({
+   extensions: ["tex2jax.js"],
+   jax: ["input/TeX", "output/HTML-CSS"],
+   tex2jax: {
+     inlineMath: [ ['$','$'], ["\(","\)"] ],
+     displayMath: [ ['$$','$$'], ["\[","\]"] ],
+     processEscapes: true
+   },
+   TeX: {
+   equationNumbers: { autoNumber: "AMS" },
+   extensions: ["AMSmath.js", "AMSsymbols.js"]
+   },
+   "HTML-CSS": { fonts: ["TeX"] }
+ });
+ &lt;/script&gt;
+ &lt;script type="text/javascript" async
+   src="/js/mathjax@2.7.5/MathJax.js"&gt;
+ &lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="bold"&gt;TL; DR&lt;/span&gt; These are some notes on calibration of surrogate loss functions in the context of machine learning. But mostly it is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 20 Jun 2014 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2014-06-20:/blog/2014/surrogate-loss-functions-in-machine-learning/</guid><category>misc</category><category>machine learning</category><category>consistency</category><category>calibration</category></item><item><title>Different ways to get memory consumption or lessons learned from ``memory_profiler``</title><link>http://fa.bianp.net/blog/2013/different-ways-to-get-memory-consumption-or-lessons-learned-from-memory_profiler/</link><description>&lt;p&gt;As part of the development of
+&lt;a href="https://pypi.python.org/pypi/memory_profiler"&gt;memory_profiler&lt;/a&gt; I've tried
+several ways to get memory usage of a program from within Python. In this post
+I'll describe the different alternatives I've tested.&lt;/p&gt;
+&lt;h3&gt;The psutil library&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://code.google.com/p/psutil/"&gt;psutil&lt;/a&gt; is a python library that provides
+an interface for retrieving information on running processes. It …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 25 Jul 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-07-25:/blog/2013/different-ways-to-get-memory-consumption-or-lessons-learned-from-memory_profiler/</guid><category>misc</category><category>Python</category><category>memory</category><category>memory_profiler</category></item><item><title>Numerical optimizers for Logistic Regression</title><link>http://fa.bianp.net/blog/2013/numerical-optimizers-for-logistic-regression/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;In this post I compar several implementations of
+Logistic Regression. The task was to implement a Logistic Regression model
+using standard optimization …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 20 May 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-05-20:/blog/2013/numerical-optimizers-for-logistic-regression/</guid><category>misc</category><category>machine learning</category><category>logistic regression</category><category>Python</category><category>SciPy</category></item><item><title>Logistic Ordinal Regression</title><link>http://fa.bianp.net/blog/2013/logistic-ordinal-regression/</link><description>&lt;p&gt;&lt;strong&gt;TL;DR: I've implemented a logistic ordinal regression or
+  proportional odds model. &lt;a href="http://github.com/fabianp/minirank/blob/master/minirank/logistic.py"&gt;Here is the Python code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script type="text/x-mathjax-config"&gt;
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'], ["\[","\]"] ],
+      processEscapes: true
+    },
+    TeX: {
+    equationNumbers: { autoNumber: "AMS" },
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+  &lt;/script&gt;
+  &lt;script type="text/javascript" async
+    src="/js/mathjax@2.7.5/MathJax.js"&gt;
+  &lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;logistic ordinal regression&lt;/em&gt; model …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 02 May 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-05-02:/blog/2013/logistic-ordinal-regression/</guid><category>misc</category><category>machine learning</category><category>ordinal regression</category><category>Python</category><category>ranking</category></item><item><title>Isotonic Regression</title><link>http://fa.bianp.net/blog/2013/isotonic-regression/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;My latest contribution for &lt;a href="http://scikit-learn.org"&gt;scikit-learn&lt;/a&gt; is
+ an implementation of the isotonic regression model that I coded with
+ &lt;a href="https://twitter.com/nvaroqua"&gt;Nelle Varoquaux&lt;/a&gt; and
+ &lt;a href="http://alexandre.gramfort.net/"&gt;Alexandre Gramfort …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 16 Apr 2013 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-04-16:/blog/2013/isotonic-regression/</guid><category>misc</category><category>isotonic regression</category><category>machine learning</category><category>Python</category><category>scikit-learn</category></item><item><title>Householder matrices</title><link>http://fa.bianp.net/blog/2013/householder-matrices/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Householder matrices are square matrices of the form&lt;/p&gt;
+&lt;p&gt;$$ P = I - \beta v v^T$$&lt;/p&gt;
+&lt;p&gt;where $\beta$ is a scalar and $v$ is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 30 Mar 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-03-30:/blog/2013/householder-matrices/</guid><category>misc</category><category>linear algebra</category><category>householder</category><category>QR</category></item><item><title>Loss Functions for Ordinal regression</title><link>http://fa.bianp.net/blog/2013/loss-functions-for-ordinal-regression/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt; Note: this post contains a fair amount of LaTeX, if you don't
+visualize the math correctly come to its &lt;a href="http://fa.bianp.net/blog/2013/loss-functions-for-ordinal-regression/"&gt;original location&lt;/a&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 27 Feb 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-02-27:/blog/2013/loss-functions-for-ordinal-regression/</guid><category>misc</category><category>machine learning</category><category>ordinal regression</category><category>loss function</category></item><item><title>Memory plots with memory_profiler</title><link>http://fa.bianp.net/blog/2013/memory-plots-with-memory_profiler/</link><description>&lt;p&gt;Besides performing a line-by-line analysis of memory consumption,
+&lt;a href="http://pypi.python.org/pypi/memory_profiler"&gt;&lt;code&gt;memory_profiler&lt;/code&gt;&lt;/a&gt;
+exposes some functions that allow to retrieve the memory consumption
+of a function in real-time, allowing e.g. to visualize the memory
+consumption of a given function over time.&lt;/p&gt;
+&lt;p&gt;The function to be used is &lt;code&gt;memory_usage&lt;/code&gt;. The first argument
+specifies what …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 04 Jan 2013 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2013-01-04:/blog/2013/memory-plots-with-memory_profiler/</guid><category>misc</category><category>Python</category><category>memory</category><category>memory_profiler</category></item><item><title>Singular Value Decomposition in SciPy</title><link>http://fa.bianp.net/blog/2012/singular-value-decomposition-in-scipy/</link><description>&lt;p&gt;SciPy contains two methods to compute the singular value decomposition (SVD) of a matrix: &lt;code&gt;scipy.linalg.svd&lt;/code&gt; and &lt;code&gt;scipy.sparse.linalg.svds&lt;/code&gt;. In this post I'll compare both methods for the task of computing the full SVD of a large dense matrix.&lt;/p&gt;
+&lt;p&gt;The first method, &lt;code&gt;scipy.linalg.svd&lt;/code&gt;, is perhaps …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 08 Dec 2012 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2012-12-08:/blog/2012/singular-value-decomposition-in-scipy/</guid><category>misc</category><category>python</category><category>scipy</category><category>svd</category></item><item><title>Learning to rank with scikit-learn: the pairwise transform</title><link>http://fa.bianp.net/blog/2012/learning-to-rank-with-scikit-learn-the-pairwise-transform/</link><description>&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  TeX: {
+  equationNumbers: { autoNumber: "AMS" },
+  extensions: ["AMSmath.js", "AMSsymbols.js"]
+  },
+  "HTML-CSS": { fonts: ["TeX"] }
+});
+&lt;/script&gt;
+
+&lt;script type="text/javascript" async
+  src="/js/mathjax@2.7.5/MathJax.js"&gt;
+&lt;/script&gt;
+
+&lt;p&gt;This tutorial introduces the concept of pairwise preference used in most &lt;a href="http://en.wikipedia.org/wiki/Learning_to_rank"&gt;ranking problems&lt;/a&gt;. I'll use scikit-learn and for learning and matplotlib for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 23 Oct 2012 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2012-10-23:/blog/2012/learning-to-rank-with-scikit-learn-the-pairwise-transform/</guid><category>misc</category><category>python</category><category>scikit-learn</category><category>ranking</category></item><item><title>line-by-line memory usage of a Python program</title><link>http://fa.bianp.net/blog/2012/line-by-line-report-of-memory-usage/</link><description>&lt;p&gt;My newest project is a Python library for monitoring memory consumption
+of arbitrary process, and one of its most useful features is the
+line-by-line analysis of memory usage for Python code. I wrote a basic
+prototype six months ago after being surprised by the lack of related
+tools. I wanted …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 24 Apr 2012 07:04:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2012-04-24:/blog/2012/line-by-line-report-of-memory-usage/</guid><category>misc</category><category>python</category><category>memory_profiler</category></item><item><title>Low rank approximation</title><link>http://fa.bianp.net/blog/2011/low-rank-approximation/</link><description>&lt;p&gt;A little experiment to see what low rank approximation looks like. These
+are the best rank-k approximations (in the Frobenius norm) to the a
+natural image for increasing values of k and an original image of rank
+512.&lt;/p&gt;
+&lt;img alt="" src="/blog/static/uploads/2011/11/animation1.gif" /&gt;
+&lt;p&gt;Python code can be found &lt;a class="reference external" href="https://gist.github.com/1342033"&gt;here&lt;/a&gt;. GIF animation made
+using ImageMagic's convert …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 06 Nov 2011 12:05:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-11-06:/blog/2011/low-rank-approximation/</guid><category>misc</category><category>machine learning</category><category>python</category></item><item><title>qr_multiply function in scipy.linalg</title><link>http://fa.bianp.net/blog/2011/qr_multiply-function-in-scipylinalg/</link><description>&lt;p&gt;In scipy's development version there's a new function closely related to
+the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/QR_decomposition"&gt;QR-decomposition&lt;/a&gt; of a matrix and to the least-squares solution of
+a linear system. What this function does is to compute the
+QR-decomposition of a matrix and then multiply the resulting orthogonal
+factor by another arbitrary matrix. In pseudocode …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 14 Oct 2011 16:44:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-10-14:/blog/2011/qr_multiply-function-in-scipylinalg/</guid><category>misc</category><category>python</category><category>scipy</category></item><item><title>scikit-learn 0.9</title><link>http://fa.bianp.net/blog/2011/scikit-learn-09/</link><description>&lt;p&gt;Last week we released a new version of scikit-learn. The &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/stable/whats_new.html"&gt;Changelog is
+particularly impressive&lt;/a&gt;, yet personally this release is important for
+other reasons. This will probably be my last release as a paid engineer.
+I'm starting a PhD next month, and although I plan to continue
+contributing to the project …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 02 Oct 2011 11:19:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-10-02:/blog/2011/scikit-learn-09/</guid><category>General, scikit-learn</category></item><item><title>Reworked example gallery for scikit-learn</title><link>http://fa.bianp.net/blog/2011/reworked-example-gallery-for-scikit-learn/</link><description>&lt;p&gt;I've been working lately in improving the scikit-learn example gallery
+to show also a small thumbnail of the plotted result. Here is what the
+gallery looks like now:&lt;/p&gt;
+&lt;img alt="" src="http://fa.bianp.net/blog/static/uploads/2011/09/screenshot.png" /&gt;
+&lt;p&gt;And the real thing should be already displayed in the &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/dev/auto_examples/index.html"&gt;development-documentation&lt;/a&gt;. The next thing is to add a static image to those …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 04 Sep 2011 20:09:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-09-04:/blog/2011/reworked-example-gallery-for-scikit-learn/</guid><category>scikit-learn</category></item><item><title>scikit-learn’s EuroScipy 2011 coding sprint -- day two</title><link>http://fa.bianp.net/blog/2011/scikit-learns-euroscipy-2011-coding-sprint-day-two/</link><description>&lt;p&gt;&lt;img alt="image0" src="http://fseoane.net/blog/static/uploads/2011/08/all-300x225.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Today's coding sprint was a bit more crowded, with some
+notable scipy hackers such as Ralph Gommers, &lt;a class="reference external" href="http://mentat.za.net/"&gt;Stefan van der Walt&lt;/a&gt;,
+&lt;a class="reference external" href="http://cournape.wordpress.com/"&gt;David Cournapeau&lt;/a&gt; or &lt;a class="reference external" href="http://blog.fperez.org/"&gt;Fernando Perez&lt;/a&gt; from Ipython joining in. On
+what got done: - We merged &lt;a class="reference external" href="http://www.astro.washington.edu/users/vanderplas/"&gt;Jake&lt;/a&gt;'s new BallTree code. This is a pure
+Cython implementation of a nearest-neighbor …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 25 Aug 2011 00:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-08-25:/blog/2011/scikit-learns-euroscipy-2011-coding-sprint-day-two/</guid><category>General, Python, scikit-learn</category></item><item><title>scikit-learn EuroScipy 2011 coding sprint -- day one</title><link>http://fa.bianp.net/blog/2011/scikit-learn-euroscipy-2011-coding-sprint-day-one/</link><description>&lt;p&gt;As a warm-up for the upcoming &lt;a class="reference external" href="http://www.euroscipy.org/conference/euroscipy2011"&gt;EuroScipy-conference&lt;/a&gt;, some of the
+&lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikit-learn&lt;/a&gt; developers decided to gather and work together for a
+couple of days. Today was the first day and there was only a handfull of
+us, as the real kickoff is expected tomorrow. Some interesting coding
+happened, although most of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 23 Aug 2011 21:38:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-08-23:/blog/2011/scikit-learn-euroscipy-2011-coding-sprint-day-one/</guid><category>misc</category><category>scikit-learn</category><category>python</category></item><item><title>Ridge regression path</title><link>http://fa.bianp.net/blog/2011/ridge-regression-path/</link><description>&lt;p&gt;Ridge coefficients for multiple values of the regularization parameter
+can be elegantly computed by updating the &lt;em&gt;thin&lt;/em&gt; SVD decomposition of
+the design matrix:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;scipy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;linalg&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;ridge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;alphas&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Return coefficients for regularized least squares&lt;/span&gt;
+
+&lt;span class="sd"&gt;         min ||A x - b||^2 + alpha ||x||^2 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 12 Jul 2011 09:21:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-07-12:/blog/2011/ridge-regression-path/</guid><category>misc</category><category>scikit-learn</category><category>scipy</category><category>linear algebra</category></item><item><title>LLE comes in different flavours</title><link>http://fa.bianp.net/blog/2011/lle-comes-in-different-flavours/</link><description>&lt;p&gt;I haven't worked in the manifold module since &lt;a class="reference external" href="http://fa.bianp.net/blog/2011/manifold-learning-in-scikit-learn/"&gt;last time&lt;/a&gt;, yet thanks
+to &lt;a class="reference external" href="http://www.astro.washington.edu/users/vanderplas/"&gt;Jake VanderPlas&lt;/a&gt; there are some cool features I can talk about.
+First of, the ARPACK backend is finally working and gives factor one
+speedup over the &lt;a class="reference external" href="http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/"&gt;lobcpg + PyAMG approach&lt;/a&gt;. The key is to use ARPACK's
+shift-invert mode …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 30 Jun 2011 16:22:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-06-30:/blog/2011/lle-comes-in-different-flavours/</guid><category>General, manifold learning, scikit-learn</category></item><item><title>Manifold learning in scikit-learn</title><link>http://fa.bianp.net/blog/2011/manifold-learning-in-scikit-learn/</link><description>&lt;p&gt;The manifold module in &lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikit-learn&lt;/a&gt; is slowly progressing: the
+&lt;a class="reference external" href="http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/"&gt;locally linear embedding&lt;/a&gt; implementation was finally merged along with
+&lt;a class="reference external" href="http://scikit-learn.sourceforge.net/dev/modules/manifold.html"&gt;some documentation&lt;/a&gt;. At about the same time but in a different
+timezone, &lt;a class="reference external" href="http://www.astro.washington.edu/users/vanderplas/"&gt;Jake VanderPlas&lt;/a&gt; began coding &lt;a class="reference external" href="https://github.com/jakevdp/scikit-learn/compare/master...manifold"&gt;other manifold learning
+methods&lt;/a&gt; and back in Paris &lt;a class="reference external" href="http://twitter.com/ogrisel"&gt;Olivier Grisel&lt;/a&gt; made &lt;a class="reference external" href="http://fa.bianp.net/blog/2011/handwritten-digits-and-locally-linear-embedding/"&gt;my digits example&lt;/a&gt;
+a &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/dev/auto_examples/manifold/plot_lle_digits.html"&gt;lot …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 07 Jun 2011 09:19:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-06-07:/blog/2011/manifold-learning-in-scikit-learn/</guid><category>scikit-learn</category></item><item><title>Handwritten digits and Locally Linear Embedding</title><link>http://fa.bianp.net/blog/2011/handwritten-digits-and-locally-linear-embedding/</link><description>&lt;p&gt;I decided to test my &lt;a class="reference external" href="http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/"&gt;new Locally Linear Embedding (LLE)&lt;/a&gt;
+implementation against a real dataset. At first I didn't think this
+would turn out very well, since LLE seems to be somewhat fragile,
+yielding largely different results for small differences in parameters
+such as number of neighbors or tolerance, but …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 04 May 2011 10:46:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-05-04:/blog/2011/handwritten-digits-and-locally-linear-embedding/</guid><category>General, Python, scikit-learn</category></item><item><title>Low-level routines for Support Vector Machines</title><link>http://fa.bianp.net/blog/2011/low-level-routines-for-support-vector-machines/</link><description>&lt;p&gt;I've been working lately in improving the low-level API of the libsvm
+bindings in scikit-learn. The goal is to provide an API that encourages
+an efficient use of these libraries for expert users. These are methods
+that have lower overhead than the &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/modules/svm.html"&gt;object-oriented interface&lt;/a&gt; as they
+are closer to the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 27 Apr 2011 15:27:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-27:/blog/2011/low-level-routines-for-support-vector-machines/</guid><category>General, Python, scikit-learn</category></item><item><title>new get_blas_funcs in scipy.linalg</title><link>http://fa.bianp.net/blog/2011/new-get_blas_funcs-in-scipylinalg/</link><description>&lt;p&gt;Today got merged some changes I made to function
+scipy.linalg.get_blas_funcs(). The main enhacement is that
+get_blas_funcs() now also accepts a single string as input parameter
+and a dtype, so that fetching the BLAS function for a specific type
+becomes more natural. For example, fetching the gemm routine for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 23 Apr 2011 18:24:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-23:/blog/2011/new-get_blas_funcs-in-scipylinalg/</guid><category>General, Python, scipy</category></item><item><title>Locally linear embedding and sparse eigensolvers</title><link>http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/</link><description>&lt;p&gt;I've been working for some time on implementing a &lt;a class="reference external" href="http://www.cs.nyu.edu/~roweis/lle/algorithm.html"&gt;locally linear
+embedding&lt;/a&gt; algorithm for the upcoming manifold module in scikit-learn.
+While several implementations of this algorithm exist in Python, as far
+as I know none of them is able to use a sparse eigensolver in the last
+step of the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 21 Apr 2011 14:28:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-21:/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/</guid><category>General, Python, scikit-learn</category></item><item><title>scikits.learn is now part of pythonxy</title><link>http://fa.bianp.net/blog/2011/scikitslearn-is-now-part-of-pythonxy/</link><description>&lt;p&gt;The guys behind &lt;a class="reference external" href="http://www.pythonxy.com/"&gt;pythonxy&lt;/a&gt; have been kind enough to add the latest
+scikit-learn as an &lt;a class="reference external" href="http://code.google.com/p/pythonxy/wiki/AdditionalPlugins"&gt;additional plugin&lt;/a&gt; for their distribution. Having
+scikit-learn being in both &lt;a class="reference external" href="http://www.pythonxy.com/"&gt;pythonxy&lt;/a&gt; and &lt;a class="reference external" href="http://www.enthought.com/products/epd.php"&gt;EPD&lt;/a&gt; will hopefully make it
+easier to use for Windows users. &lt;img alt="pythonxy-logo" src="http://fa.bianp.net/blog/static/uploads/2011/04/pythonxy-logo.png" /&gt; For now I will continue
+to make windows precompiled binaries, but pythonxy …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 20 Apr 2011 13:48:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-20:/blog/2011/scikitslearn-is-now-part-of-pythonxy/</guid><category>General, Python, scikit-learn</category></item><item><title>Least squares with equality constrain</title><link>http://fa.bianp.net/blog/2011/least-squares-with-equality-constrain/</link><description>&lt;p&gt;The following algorithm computes the Least squares solution || Ax -
+b|| subject to the equality constrain Bx = d. It's a classic algorithm
+that can be implemented only using a QR decomposition and a least
+squares solver. This implementation uses numpy and scipy. It makes use
+of the new linalg.solve_triangular function …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 14 Apr 2011 10:02:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-14:/blog/2011/least-squares-with-equality-constrain/</guid><category>Python, Tecnologí­a</category></item><item><title>A profiler for Python extensions</title><link>http://fa.bianp.net/blog/2011/a-profiler-for-python-extensions/</link><description>&lt;p&gt;Profiling Python extensions has not been a pleasant experience for me,
+so I made my own package to do the job. Existing alternatives were
+either hard to use, forcing you to recompile with custom flags like
+gprofile or desperately slow like valgrind/callgrind. The package I'll
+talk about is called …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 06 Apr 2011 14:02:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-06:/blog/2011/a-profiler-for-python-extensions/</guid><category>General, Python</category></item><item><title>scikit-learn coding sprint in Paris</title><link>http://fa.bianp.net/blog/2011/scikit-learn-coding-sprint-in-paris/</link><description>&lt;p&gt;Yesterday was the scikit-learn coding sprint in Paris. It was great to
+meet with old developers (Vincent Michel) and new ones: some of whom I
+was already familiar with from the mailing list while others came just
+to say hi and get familiar with the code. It was really great …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 02 Apr 2011 12:07:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-04-02:/blog/2011/scikit-learn-coding-sprint-in-paris/</guid><category>General, scikit-learn</category></item><item><title>py3k in scikit-learn</title><link>http://fa.bianp.net/blog/2011/py3k-in-scikit-learn/</link><description>&lt;p&gt;One thing I'd really like to see done in &lt;a class="reference external" href="http://gael-varoquaux.info/blog/?p=149"&gt;this Friday's scikit-learn
+sprint&lt;/a&gt; is to have full support for Python 3. There's &lt;a class="reference external" href="http://github.com/fabianp/scikit-learn/compare/master...py3k"&gt;a branch were
+the hard word has been done&lt;/a&gt; (porting C extensions, automatic 2to3
+conversion, etc.), although joblib still has some bugs and no one has
+attempted to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 28 Mar 2011 15:23:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-03-28:/blog/2011/py3k-in-scikit-learn/</guid><category>General</category></item><item><title>Computing the vector norm</title><link>http://fa.bianp.net/blog/2011/computing-the-vector-norm/</link><description>&lt;p&gt;&lt;strong&gt;Update: a fast and stable norm was added to scipy.linalg in August
+2011 and will be available in scipy 0.10&lt;/strong&gt; Last week I discussed with
+&lt;a class="reference external" href="http://gael-varoquaux.info/blog/"&gt;Gael&lt;/a&gt; how we should compute the euclidean norm of a vector a using
+SciPy. Two approaches suggest themselves, either calling
+scipy.linalg.norm …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 15 Feb 2011 10:31:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-02-15:/blog/2011/computing-the-vector-norm/</guid><category>misc</category><category>linear algebra</category><category>norm</category><category>scipy</category></item><item><title>Smells like hacker spirit</title><link>http://fa.bianp.net/blog/2011/smells-like-hacker-spirit/</link><description>&lt;p&gt;I was last weekend in &lt;a class="reference external" href="http://fosdem.org/2011/"&gt;FOSDEM&lt;/a&gt; presenting &lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt; (&lt;a class="reference external" href="http://fa.bianp.net/talks/fosdem-skl/"&gt;here are
+the slides&lt;/a&gt; I used at the Data Analytics Devroom). Kudos to &lt;a class="reference external" href="http://twitter.com/#!/ogrisel"&gt;Olivier
+Grisel&lt;/a&gt; and all the people who organized such a fun and authentic
+meeting!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://farm6.static.flickr.com/5136/5417861859_8480c65eed_m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image1" src="http://farm6.static.flickr.com/5294/5425114531_6eec316967_m.jpg" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 11 Feb 2011 09:50:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2011-02-11:/blog/2011/smells-like-hacker-spirit/</guid><category>misc</category><category>python</category><category>sklearn</category></item><item><title>New examples in scikits.learn 0.6</title><link>http://fa.bianp.net/blog/2010/new-examples-in-scikitslearn-06/</link><description>&lt;p&gt;Latest release of &lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt; comes with an &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/0.6/auto_examples/index.html"&gt;awesome collection of
+examples&lt;/a&gt;. These are some of my favorites:&lt;/p&gt;
+&lt;div class="section" id="faces-recognition"&gt;
+&lt;h2&gt;Faces recognition&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://scikit-learn.sourceforge.net/0.6/auto_examples/applications/plot_face_recognition.html"&gt;This example&lt;/a&gt; by &lt;a class="reference external" href="http://twitter.com/ogrisel/"&gt;Olivier Grisel&lt;/a&gt;, downloads a 58MB faces dataset
+from &lt;a class="reference external" href="http://vis-www.cs.umass.edu/lfw/"&gt;Labeled Faces in the Wild&lt;/a&gt;, and is able to perform PCA for
+feature extraction and SVC for classification, yielding …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 31 Dec 2010 13:55:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-12-31:/blog/2010/new-examples-in-scikitslearn-06/</guid><category>General, scikit-learn, Tecnologí­a</category></item><item><title>Weighted samples for SVMs</title><link>http://fa.bianp.net/blog/2010/weighted-samples-for-svms/</link><description>&lt;p&gt;Based on the work of &lt;a class="reference external" href="http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#weights_for_data_instances"&gt;libsvm-dense&lt;/a&gt; by Ming-Wei Chang, Hsuan-Tien Lin,
+Ming-Hen Tsai, Chia-Hua Ho and Hsiang-Fu Yu I patched the libsvm
+distribution shipped with scikits.learn to allow setting weights for
+individual instances. The motivation behind this is to be able force a
+classifier to focus its attention in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 29 Nov 2010 13:20:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-11-29:/blog/2010/weighted-samples-for-svms/</guid><category>sklearn, python</category></item><item><title>Coming soon ...</title><link>http://fa.bianp.net/blog/2010/coming-soon/</link><description>&lt;img alt="" src="http://farm5.static.flickr.com/4107/5203822436_41b9c350c2.jpg" /&gt;
+&lt;p&gt;Highlights for this release: * New &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/modules/sgd.html"&gt;stochastic
+gradient descent module&lt;/a&gt; by &lt;a class="reference external" href="http://sites.google.com/site/peterprettenhofer/"&gt;Peter Prettenhofer&lt;/a&gt; * Improved svm
+module: memory efficiency, automatic class weights. * Wrap for
+liblinear's Multi-class SVC (option multi_class in &lt;a class="reference external" href="http://scikit-learn.sourceforge.net/modules/generated/scikits.learn.svm.LinearSVC.html"&gt;LinearSVC&lt;/a&gt;) * New
+features and performance improvements of text feature extraction. *
+Improved sparse matrix support, both in main classes (GridSearch) as in
+sparse …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 24 Nov 2010 10:39:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-11-24:/blog/2010/coming-soon/</guid><category>scikit-learn, Tecnologí­a</category></item><item><title>memory efficient bindigs for libsvm</title><link>http://fa.bianp.net/blog/2010/memory-efficient-bindigs-for-libsvm/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn.svm&lt;/a&gt; now uses &lt;a class="reference external" href="http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#libsvm_for_dense_data"&gt;LibSVM-dense&lt;/a&gt; instead of &lt;a class="reference external" href="http://www.csie.ntu.edu.tw/~cjlin/libsvm/"&gt;LibSVM&lt;/a&gt; for
+some support vector machine related algorithms when input is a dense
+matrix. As a result most of the copies associated with argument passing
+are avoided, giving 50% less memory footprint and several times less
+than the python bindings that ship …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 19 Nov 2010 15:08:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-11-19:/blog/2010/memory-efficient-bindigs-for-libsvm/</guid><category>General, scikit-learn</category></item><item><title>solve triangular matrices using scipy.linalg</title><link>http://fa.bianp.net/blog/2010/solve-triangular-matrices-using-scipylinalg/</link><description>&lt;p&gt;For some time now I've been missing a function in scipy that exploits
+the triangular structure of a matrix to efficiently solve the associated
+system, so I decided to &lt;a class="reference external" href="http://projects.scipy.org/scipy/changeset/6844"&gt;implement it&lt;/a&gt; by binding the LAPACK method
+&amp;quot;trtrs&amp;quot;, which also checks for singularities and is capable handling
+several right-hand sides. Contrary …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 30 Oct 2010 01:13:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-10-30:/blog/2010/solve-triangular-matrices-using-scipylinalg/</guid><category>scipy, Tecnologí­a</category></item><item><title>LARS algorithm</title><link>http://fa.bianp.net/blog/2010/lars-algorithm/</link><description>&lt;p&gt;I've been working lately with &lt;a class="reference external" href="http://www-sop.inria.fr/members/Alexandre.Gramfort/"&gt;Alexandre Gramfort&lt;/a&gt; coding the &lt;a class="reference external" href="http://scikit-learn.sf.net/modules/glm.html#lars-algorithm-and-its-variants"&gt;LARS
+algorithm&lt;/a&gt; in &lt;a class="reference external" href="hhtp://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt;. This algorithm computes the solution to
+several general linear models used in machine learning: LAR, Lasso,
+Elasticnet and Forward Stagewise. Unlike the implementation by
+coordinate descent, the LARS algorithm gives the full coefficient path
+along the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 30 Sep 2010 16:01:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-09-30:/blog/2010/lars-algorithm/</guid><category>misc</category><category>scikit-learn</category><category>sparse</category></item><item><title>Second scikits.learn coding sprint</title><link>http://fa.bianp.net/blog/2010/second-scikitslearn-coding-sprint/</link><description>&lt;p&gt;Las week took place in Paris the second &lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt; sprint. It was
+two days of insane activity (115 commits, 6 branches, 33 coffees) in
+which we did a lot of work, both implementing new algorithms and fixing
+or improving old ones. This includes: * sparse version of Lasso by
+coordinate …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 12 Sep 2010 22:31:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-09-12:/blog/2010/second-scikitslearn-coding-sprint/</guid><category>scikit-learn</category></item><item><title>Support for sparse matrices in scikits.learn</title><link>http://fa.bianp.net/blog/2010/support-for-sparse-matrices-in-scikitslearn/</link><description>&lt;p&gt;I recently added support for sparse matrices (as defined in
+scipy.sparse) in some classifiers of &lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt;. In those classes,
+the fit method will perform the algorithm without converting to a dense
+representation and will also store parameters in an efficient format.
+Right now, the only classese that implements …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 23 Aug 2010 17:47:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-08-23:/blog/2010/support-for-sparse-matrices-in-scikitslearn/</guid><category>General</category></item><item><title>Flags to debug python C extensions.</title><link>http://fa.bianp.net/blog/2010/flags-to-debug-python-c-extensions/</link><description>&lt;p&gt;I often find myself debugging python C extensions from gdb, but usually
+some variables are hidden because aggressive optimizations that
+distutils sets by default. What I did not know, is that you can prevent
+those optimizations by passing flags -O0 -fno-inline to gcc in keyword
+extra_compile_args (note: this will only …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 18 Aug 2010 13:40:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-08-18:/blog/2010/flags-to-debug-python-c-extensions/</guid><category>General</category></item><item><title>July in Paris</title><link>http://fa.bianp.net/blog/2010/july-in-paris/</link><description>&lt;p&gt;One of the best things of spending summer in Paris: its parcs (here,
+with friends &amp;#64; Parc Montsouris).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://farm5.static.flickr.com/4103/4842146900_953f961d64.jpg" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 30 Jul 2010 00:11:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-07-30:/blog/2010/july-in-paris/</guid><category>General</category></item><item><title>Support Vector machines with custom kernels using scikits.learn</title><link>http://fa.bianp.net/blog/2010/support-vector-machines-with-custom-kernels-using-scikitslearn/</link><description>&lt;p&gt;It is now possible (using the development version as of may 2010) to use
+Support Vector Machines with custom kernels in scikits.learn. How to use
+it couldn't be more simple: you just pass a callable (the kernel) to the
+class constructor). For example, a linear kernel would be implemented …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 27 May 2010 10:42:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-05-27:/blog/2010/support-vector-machines-with-custom-kernels-using-scikitslearn/</guid><category>General, scikit-learn, Tecnologí­a</category></item><item><title>Howto link against system-wide BLAS library using numpy.distutils</title><link>http://fa.bianp.net/blog/2010/howto-link-against-system-wide-blas-library-using-numpydistutils/</link><description>&lt;p&gt;If your numpy installation uses system-wide BLAS libraries (this will
+most likely be the case unless you installed it through prebuilt windows
+binaries), you can retrieve this information at compile time to link
+python modules to BLAS. The function get_info in
+numpy.distutils.system_info will return a dictionary that contains …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 22 Apr 2010 14:28:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-04-22:/blog/2010/howto-link-against-system-wide-blas-library-using-numpydistutils/</guid><category>General</category></item><item><title>scikits.learn 0.2 release</title><link>http://fa.bianp.net/blog/2010/scikitslearn-02-release/</link><description>&lt;p&gt;Today I released a new version of the &lt;a class="reference external" href="http://scikit-learn.sourceforge.net"&gt;scikits.learn&lt;/a&gt; library for
+machine learning. This new release includes the new libsvm bindings,
+Jake VanderPlas' BallTree algorithm for *fast* nearest neighbor
+queries in high dimension, etc. &lt;a class="reference external" href="http://sourceforge.net/mailarchive/message.php?msg_name=4BA72BE3.1010208%40inria.fr"&gt;Here&lt;/a&gt; is the official announcement. As
+usual, it can be downloaded from &lt;a class="reference external" href="http://sourceforge.net/projects/scikit-learn/files"&gt;sourceforge&lt;/a&gt; or from …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 22 Mar 2010 11:37:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-03-22:/blog/2010/scikitslearn-02-release/</guid><category>General</category></item><item><title>Plot the maximum margin hyperplane with scikits.learn</title><link>http://fa.bianp.net/blog/2010/plot-the-maximum-margin-hyperplane-with-scikitslearn/</link><description>&lt;p&gt;Suppose some given data points each belong to one of two classes, and
+the goal is to decide which class a new data point will be in. In the
+case of support vector machines, a data point is viewed as a
+p-dimensional vector (2-dimensional in this example), and we want …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 17 Mar 2010 12:24:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-03-17:/blog/2010/plot-the-maximum-margin-hyperplane-with-scikitslearn/</guid><category>General, scikit-learn, Tecnologí­a</category></item><item><title>Fast bindings for LibSVM in scikits.learn</title><link>http://fa.bianp.net/blog/2010/fast-bindings-for-libsvm-in-scikitslearn/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.csie.ntu.edu.tw/~cjlin/libsvm/"&gt;LibSVM&lt;/a&gt; is a C++ library that implements several Support Vector
+Machine algorithms that are commonly used in machine learning. It is a
+fast library that has no dependencies and most machine learning
+frameworks bind it in some way or another. LibSVM comes with a Python
+interface written in swig, but …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 09 Mar 2010 15:49:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-03-09:/blog/2010/fast-bindings-for-libsvm-in-scikitslearn/</guid><category>General, scikit-learn, Tecnologí­a</category></item><item><title>scikits.learn coding sprint in Paris</title><link>http://fa.bianp.net/blog/2010/scikitslearn-coding-sprint-in-paris/</link><description>&lt;p&gt;Yesterday we had an extremely productive coding sprint for the
+&lt;a class="reference external" href="http://scikit-learn.sf.net"&gt;scikits.learn&lt;/a&gt;. The idea was to put people with common interests in a
+room and make them work in a single codebase. Alexandre Gramfort and
+Olivier Grisel worked on &lt;a class="reference external" href="http://scikit-learn.svn.sourceforge.net/viewvc/scikit-learn/trunk/scikits/learn/glm/"&gt;GLMNet&lt;/a&gt;, Bertrand Thirion and Gaël Varoquaux
+worked on &lt;a class="reference external" href="http://scikit-learn.svn.sourceforge.net/viewvc/scikit-learn/trunk/scikits/learn/feature_selection/"&gt;univariate feature selection …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 04 Mar 2010 11:25:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-03-04:/blog/2010/scikitslearn-coding-sprint-in-paris/</guid><category>scikit-learn, Tecnologí­a</category></item><item><title>Scikit-learn 0.1</title><link>http://fa.bianp.net/blog/2010/scikit-learn-01/</link><description>&lt;p&gt;Today I released the first public version of &lt;a class="reference external" href="http://scikit-learn.sourceforge.net"&gt;Scikit-Learn&lt;/a&gt; (&lt;a class="reference external" href="https://sourceforge.net/mailarchive/message.php?msg_name=4B66D190.5090100%40inria.fr"&gt;release
+notes&lt;/a&gt;). It's a python module implementing some machine learning
+algorithms, and it's shaping quite good.&lt;/p&gt;
+&lt;p&gt;For this release I did not want to do any incompatible changes, so most of them are just bug fixes and
+updates. For the next …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 01 Feb 2010 15:32:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-02-01:/blog/2010/scikit-learn-01/</guid><category>Software, scikit-learn</category></item><item><title>scikit-learn project on sourceforge</title><link>http://fa.bianp.net/blog/2010/scikit-learn-project-on-sourceforge/</link><description>&lt;p&gt;This week we created a &lt;a class="reference external" href="https://sourceforge.net/projects/scikit-learn/"&gt;sourceforge project&lt;/a&gt; to host our development of
+scikit-learn. Although the project already had a directory in scipy's
+repo, we needed more flexibility in the user management and in the
+mailing list creation, so we opted for SourceForge. To be honest, after
+using git and Google …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 07 Jan 2010 15:17:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-01-07:/blog/2010/scikit-learn-project-on-sourceforge/</guid><category>General, scikit-learn, Tecnologí­a</category></item><item><title>After holidays</title><link>http://fa.bianp.net/blog/2010/after-holidays/</link><description>&lt;p&gt;New job, new code, new city, new colleagues. Feels something like this:&lt;/p&gt;
+&lt;img alt="" src="http://farm5.static.flickr.com/4027/4240407852_6f461f3776_m.jpg" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 05 Jan 2010 10:56:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2010-01-05:/blog/2010/after-holidays/</guid><category>General</category></item><item><title>Winter in Paris is not funny</title><link>http://fa.bianp.net/blog/2009/winter-in-paris-is-not-funny/</link><description>&lt;p&gt;This week I arrived to the place where I will be working the following
+two years: Neurospin.&lt;/p&gt;
+&lt;img alt="" src="http://farm5.static.flickr.com/4042/4206517312_e35b7fa55d_m.jpg" /&gt;
+&lt;p&gt;It's a research center located 20
+km from Paris, and so far things are going smoothly: the place is
+beautiful, work is great and food is excellent. Well OK, I do miss some …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 22 Dec 2009 19:36:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-12-22:/blog/2009/winter-in-paris-is-not-funny/</guid><category>General, Tecnologí­a</category></item><item><title>Last days in Granada</title><link>http://fa.bianp.net/blog/2009/last-days-in-granada/</link><description>&lt;p&gt;Nice thing about winter in Granada is, that even in the coldest days,
+the sky is always blue.&lt;/p&gt;
+&lt;img alt="" src="http://farm3.static.flickr.com/2539/4180997669_aa5a45a949_m.jpg" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 15 Dec 2009 23:42:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-12-15:/blog/2009/last-days-in-granada/</guid><category>Fotos, General</category></item><item><title>Learning, Machine Learning</title><link>http://fa.bianp.net/blog/2009/learning-machine-learning/</link><description>&lt;p&gt;My new job is about managing an open source package for machine learning
+in Python. I've had some experience with Python now, but I am a total
+newbie in the field of machine learning, so my first task will be to
+find a good reference book in the subject and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 15 Dec 2009 23:34:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-12-15:/blog/2009/learning-machine-learning/</guid><category>General, Tecnologí­a</category></item><item><title>Moving to Paris!</title><link>http://fa.bianp.net/blog/2009/moving-to-paris/</link><description>&lt;p&gt;I'm extremely glad that finally I am moving to Paris to work as part of
+the INRIA crew. I'll be working with &lt;a class="reference external" href="http://gael-varoquaux.info/"&gt;Gael Varoquaux&lt;/a&gt; and his team in
+an extremely cool Python related project (more to come on this in the
+following weeks). Granada has been a great place for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 12 Dec 2009 02:07:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-12-12:/blog/2009/moving-to-paris/</guid><category>General</category></item><item><title>Summer of Code is over</title><link>http://fa.bianp.net/blog/2009/summer-of-code-is-over/</link><description>&lt;p&gt;Google Summer of Code program is officially over. It has been four
+months of intense work, exciting benchmarks and patch reviewing. It was
+a huge pleasure working with you guys! As for the project, I implemented
+a complete logic module and then an assumption system for sympy
+(sympy.logic, sympy …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 05 Sep 2009 12:21:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-09-05:/blog/2009/summer-of-code-is-over/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Speed improvements for ask() (sympy.queries.ask)</title><link>http://fa.bianp.net/blog/2009/speed-improvements-for-ask-sympyqueriesask/</link><description>&lt;p&gt;I managed to overcome the overhead in ask() that arises when converting
+between symbol and integer representation of sentences in conjunctive
+normal. The result went beyond what I expected. The test suite for the
+query module got 10x times faster in my laptop. From 26 seconds, it
+descended to an …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 20 Aug 2009 00:36:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-08-20:/blog/2009/speed-improvements-for-ask-sympyqueriesask/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Logic module (sympy.logic): improving speed</title><link>http://fa.bianp.net/blog/2009/logic-module-sympylogic-improving-speed/</link><description>&lt;p&gt;Today I've been doing some speed improvements for the logic module. More
+precisely, I implemented an efficient internal representation for
+clauses in conjunctive normal form. In practice this means a huge
+performance boost for all problems that make use the function
+satisfiable() or dpll_satisfiable(). For example, test_dimacs.py has
+moved …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 18 Aug 2009 23:35:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-08-18:/blog/2009/logic-module-sympylogic-improving-speed/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Refine module</title><link>http://fa.bianp.net/blog/2009/refine-module/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://git.sympy.org/?p=sympy.git;a=commit;h=dd679c2751ac0900c47302fd6187ae9eea60918f"&gt;This&lt;/a&gt; commit introduced a new module in sympy: the refine module. The
+purpose of this module is to simplify expressions when they are bound to
+assumptions. For example, if you know that x&amp;gt;0, then you can simplify
+abs(x) to x. This code was traditionally embedded into the core …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 17 Aug 2009 19:20:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-08-17:/blog/2009/refine-module/</guid><category>sympy, Tecnologí­a</category></item><item><title>Query module - finally in trunk</title><link>http://fa.bianp.net/blog/2009/query-module-finally-in-trunk/</link><description>&lt;p&gt;The query module is finally in the main SymPy repository. I made
+substantial changes since last post, most of them at the user interface
+level (thanks to Vinzent and Mateusz for many insightful comments). Main
+function is ask(), which replaces the old expression.is_* syntax. You
+can ask many things …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 10 Aug 2009 21:51:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-08-10:/blog/2009/query-module-finally-in-trunk/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>django, change language settings dynamically</title><link>http://fa.bianp.net/blog/2009/django-change-language-settings-dynamically/</link><description>&lt;p&gt;After some failed attempts, I just found how to change the language
+settings dynamically in django, and I thought it could be useful to
+someone. Just use function activate() from django.utils.translation. For
+example: [cc lang=&amp;quot;python&amp;quot;] from django.utils.translation import
+activate activate('es-ES') [/cc] will change global …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 07 Aug 2009 16:12:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-08-07:/blog/2009/django-change-language-settings-dynamically/</guid><category>General, Tecnologí­a</category></item><item><title>can we merge now, pleeease ?</title><link>http://fa.bianp.net/blog/2009/can-we-merge-now-pleeease/</link><description>&lt;p&gt;Three months after I began to write sympy.queries, I feel it's about
+time to include it in sympy's trunk, so today I sent for review &lt;a class="reference external" href="http://groups.google.com/group/sympy-patches/browse_thread/thread/76dcdfd0994a1c81"&gt;4
+patches that implement the complete query module&lt;/a&gt;. It's been a lot of
+fun, but it has also caused me some headaches ... specially last …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 21 Jul 2009 22:36:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-07-21:/blog/2009/can-we-merge-now-pleeease/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Refine module, proof of concept</title><link>http://fa.bianp.net/blog/2009/refine-module-proof-of-concept/</link><description>&lt;p&gt;The 0.6.5 release of SymPy is taking longer than expected because &lt;a class="reference external" href="http://code.google.com/p/sympy/issues/detail?id=1521"&gt;some
+bugs in the testing framework&lt;/a&gt;, so my query module is not merged into
+trunk (yet). In the meantime, I am implementing a refine module (very
+little code is available yet). The refine module implements a refine …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 09 Jul 2009 02:49:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-07-09:/blog/2009/refine-module-proof-of-concept/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Preparing a new release</title><link>http://fa.bianp.net/blog/2009/preparing-a-new-release/</link><description>&lt;p&gt;Last days I've been busy preparing &lt;a class="reference external" href="http://groups.google.com/group/sympy/browse_thread/thread/88474cde3bc6e350#"&gt;the first public beta of SymPy
+0.6.5&lt;/a&gt;. Most of the time was spent solving a bug that made
+documentation tests fail under python2.4, but now that this is solved, I
+hope that by the end of the week we could have …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 30 Jun 2009 08:57:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-30:/blog/2009/preparing-a-new-release/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Efficient DPLL algorithm</title><link>http://fa.bianp.net/blog/2009/efficient-dpll-algorithm/</link><description>&lt;p&gt;Background: DPLL is the algorithm behind SymPy's implementation of
+logic.inference.satisfiable After reading the original papers by Davis &amp;amp;
+Putnam [1], I managed to implement a more efficient version of the DPLL
+algorithm. It is 10x times faster on medium-sized problems (40
+variables), and solves some wrong result bugs [2 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 28 Jun 2009 18:16:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-28:/blog/2009/efficient-dpll-algorithm/</guid><category>General</category></item><item><title>Queries and performance</title><link>http://fa.bianp.net/blog/2009/queries-and-performance/</link><description>&lt;p&gt;After some hacking on the queries module, I finally got it right without
+the &lt;a class="reference external" href="http://fa.bianp.net/blog/?p=149"&gt;limitations of past versions&lt;/a&gt;. You can check it out from my repo
+&lt;a class="reference external" href="http://fa.bianp.net/git/sympy.git"&gt;http://fa.bianp.net/git/sympy.git&lt;/a&gt;, branch master. It now relies even more
+on logic.inference.satisfiable(), which is just an implementation of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 23 Jun 2009 00:02:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-23:/blog/2009/queries-and-performance/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Reading CNF files</title><link>http://fa.bianp.net/blog/2009/reading-cnf-files/</link><description>&lt;p&gt;&lt;p&gt;The DIMACS CNF file format is used to define a Boolean expression,
+written in conjunctive normal form, that may be used as an example of
+the satisfiability problem. The new logic module (sympy.logic) can read
+the content of a cnf file and transform it into a boolean expression
+suitable …&lt;/p&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 20 Jun 2009 16:27:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-20:/blog/2009/reading-cnf-files/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Logic module merged</title><link>http://fa.bianp.net/blog/2009/logic-module-merged/</link><description>&lt;p&gt;Yesterday I finally merged the logic module in sympy's official master
+branch, and should be released together with SymPy 0.6.5. Next thing to
+do: profile the code and write some docs before the release.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 19 Jun 2009 12:23:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-19:/blog/2009/logic-module-merged/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>The boolean satisfiability problem</title><link>http://fa.bianp.net/blog/2009/the-boolean-satisfiability-problem/</link><description>&lt;p&gt;&lt;p&gt;Most annoying problem in my implementation of the query system is that
+it will not solve implications if the implicates are far away from each
+other. For instance, if the graph of known facts is something like this&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Integer ----&amp;gt; Rational --&amp;gt; Real --&amp;gt; Complex
+  ^  ^
+  |  |
+  |   -------
+  |         |
+Prime      Even
+  ^
+  |
+  |
+MersennePrime
+&lt;/pre&gt;
+&lt;p&gt;Then it will not know …&lt;/p&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 15 Jun 2009 06:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-15:/blog/2009/the-boolean-satisfiability-problem/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Initial implementation of the query system</title><link>http://fa.bianp.net/blog/2009/initial-implementation-of-the-query-system/</link><description>&lt;p&gt;I sent &lt;a class="reference external" href="http://groups.google.com/group/sympy-patches/browse_thread/thread/e56ceda0038b7c23"&gt;some patches&lt;/a&gt; to sympy-patches with an initial implementation
+of the query system. You can check it out by pulling from my branch:
+&lt;tt class="docutils literal"&gt;git pull &lt;span class="pre"&gt;http://fa.bianp.net/git/sympy.git&lt;/span&gt; master&lt;/tt&gt; into your sympy
+repo. Some examples of what you can do (sample isympy session):
+&lt;tt class="docutils literal"&gt;In [1 …&lt;/tt&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 12 Jun 2009 06:36:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-12:/blog/2009/initial-implementation-of-the-query-system/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Assumption system and automatic theorem proving. Should I be learning LISP ?</title><link>http://fa.bianp.net/blog/2009/assumption-system-and-automatic-theorem-proving-should-i-be-learning-lisp/</link><description>&lt;p&gt;This is the third time I attempt to write the assumption system. Other
+attempts could be described as me following the rule: “For any complex
+problem, there is always a solution that is simple, clear, and wrong.”
+My &lt;a class="reference external" href="http://groups.google.com/group/sympy-patches/browse_thread/thread/b6fd5402e729f58/8006779044c41a17?lnk=gst&amp;amp;q=fabian+assumptions#8006779044c41a17"&gt;first attempt&lt;/a&gt; (although better than the current assumption system)
+did use very …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 03 Jun 2009 13:50:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-03:/blog/2009/assumption-system-and-automatic-theorem-proving-should-i-be-learning-lisp/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Homenaje a Antonio Vega en La Percha</title><link>http://fa.bianp.net/blog/2009/homenaje-a-antonio-vega-en-la-percha/</link><description>&lt;p&gt;El pasado jueves estuvimos en La Percha tocando algunas canciones de
+Antonio Vega. El vídeo se lo ha currado &lt;a class="reference external" href="http://retrovisor.net"&gt;mi padre&lt;/a&gt; mezclando el sonido
+del directo con una grabación que hicimos en casa de Migue&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://vimeo.com/4926476"&gt;LOS ESCLAVOS: homenaje a Antonio Vega&lt;/a&gt; from &lt;a class="reference external" href="http://vimeo.com/user938253"&gt;Felipe Pedregosa&lt;/a&gt; on
+&lt;a class="reference external" href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 01 Jun 2009 15:34:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-06-01:/blog/2009/homenaje-a-antonio-vega-en-la-percha/</guid><category>Canciones, General, Grupo</category></item><item><title>Fun with the new Logic module</title><link>http://fa.bianp.net/blog/2009/fun-with-the-new-logic-module/</link><description>&lt;p&gt;&lt;p&gt;The logic module is slowly becoming useful. This week I managed to get
+some basic inference in propositional logic working. This should be
+enough for the assumption sysmtem (although having first-order inference
+would be cool). You can pull from my branch:
+`` git pull &lt;a class="reference external" href="http://fa.bianp.net/git/sympy.git"&gt;http://fa.bianp.net/git/sympy.git …&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 31 May 2009 23:16:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-05-31:/blog/2009/fun-with-the-new-logic-module/</guid><category>sympy, Tecnologí­a</category></item><item><title>Boolean algebra, first steps</title><link>http://fa.bianp.net/blog/2009/boolean-algebra-first-steps/</link><description>&lt;p&gt;&lt;p&gt;The first task for my Summer of Code project is to write a nice boolean
+algebra module. I wanted a clean module that follows SymPy's object
+model and that plays well with other objects. In practice this means
+that it should inherit from Basic and that it should behave well …&lt;/p&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 15 May 2009 19:20:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-05-15:/blog/2009/boolean-algebra-first-steps/</guid><category>sympy, Tecnologí­a</category></item><item><title>Logic modules in python</title><link>http://fa.bianp.net/blog/2009/logic-modules-in-python/</link><description>&lt;p&gt;As a prerequisite of my GSOC project I have to do some modifications on
+sympy's current logic module (see previous post), so I decided to go out
+and take a look at what others are doing in this area. &lt;a class="reference external" href="http://aima.cs.berkeley.edu/python/logic.html"&gt;aima-python&lt;/a&gt; is
+a project that tries to implement all algorithms found …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 11 May 2009 01:15:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-05-11:/blog/2009/logic-modules-in-python/</guid><category>sympy, Tecnologí­a</category></item><item><title>Google Summer of Code</title><link>http://fa.bianp.net/blog/2009/google-summer-of-code/</link><description>&lt;p&gt;First post on my GSOC adventure. This year I got accepted in Google's
+summer of code program as student, and my job will be to implement &lt;a class="reference external" href="http://socghop.appspot.com/student_project/show/google/gsoc2009/portland_state/t124024247737"&gt;the
+assumptions framework in SymPy&lt;/a&gt;. Although the project officially is
+only about implementing an assumptions framework, I have to prepare the
+ground before the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 23 Apr 2009 23:53:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-04-23:/blog/2009/google-summer-of-code/</guid><category>General, sympy, Tecnologí­a</category></item><item><title>Django and request.POST</title><link>http://fa.bianp.net/blog/2009/django-and-requestpost/</link><description>&lt;p&gt;I spent a lot of time trying to figure out why django removed the '+'
+character from the POST data retrieved via request.POST. Still don't
+know the reason of this behaviour, but using request.raw_post_data
+saved my day ...&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 24 Jan 2009 00:27:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2009-01-24:/blog/2009/django-and-requestpost/</guid><category>General, Tecnologí­a</category></item><item><title>Con la pasta por delante - día 2: Martos</title><link>http://fa.bianp.net/blog/2008/con-la-pasta-por-delante-dia-2-martos/</link><description>&lt;p&gt;Después de Mengíbar vino &lt;a class="reference external" href="http://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=martos,+jaen&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=43.393645,79.101563&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;z=11&amp;amp;g=martos,+jaen&amp;amp;iwloc=addr"&gt;Martos&lt;/a&gt;. En este caso se trataba del &amp;quot;Blooms
+Day&amp;quot;, un sitio para el que &amp;quot;un pub irlandés&amp;quot; es una descripción
+aceptable. Llegamos primero Oscar y yo, en una de esas raras ocasiones
+en que llegamos antes de tiempo (no hay explicación, simplemente
+sucedió), así que tuvimos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 09 Dec 2008 18:20:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-12-09:/blog/2008/con-la-pasta-por-delante-dia-2-martos/</guid><category>Grupo</category><category>Esclavos</category></item><item><title>Mi ordenador</title><link>http://fa.bianp.net/blog/2008/mi-ordenador/</link><description>&lt;p&gt;Realmente mi ordenador no hace nada ... sólo le echo la culpa de todo&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 27 Nov 2008 13:44:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-11-27:/blog/2008/mi-ordenador/</guid><category>General</category></item><item><title>Con la pasta por delante - Día cero</title><link>http://fa.bianp.net/blog/2008/con-la-pasta-por-delante-dia-cero/</link><description>&lt;p&gt;En la ciudad fabrican a las personas en serie. En el campo, los siguen
+haciendo a mano: los moldean, los secan al sol y luego los pintan, por
+eso son tan especiales. Primer concierto de la nueva gira en Mengíbar, y
+uno de los fines de semana más intensos que …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 04 Nov 2008 22:19:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-11-04:/blog/2008/con-la-pasta-por-delante-dia-cero/</guid><category>misc</category><category>esclavos</category></item><item><title>Un premio para Goyo</title><link>http://fa.bianp.net/blog/2008/un-premio-para-goyo/</link><description>&lt;p&gt;Mi &amp;quot;sosio&amp;quot; de &lt;a class="reference external" href="http://estudioslince.com"&gt;trabajo&lt;/a&gt;, el gran &lt;a class="reference external" href="http://angelsoler.net"&gt;Goyal&lt;/a&gt;, acaba de ganar el &lt;a class="reference external" href="http://www.elmundo.es/yodona/estaticas/especiales/2008/07/premio_carteles/votacion_previa.html"&gt;primer
+premio del concurso yodona&lt;/a&gt;. Si al final voy a tener que tratarte con
+respeto y todo ... cuándo era que lo íbamos a celebrar?&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 04 Nov 2008 20:19:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-11-04:/blog/2008/un-premio-para-goyo/</guid><category>General</category></item><item><title>Los viejos amigos ...</title><link>http://fa.bianp.net/blog/2008/los-viejos-amigos/</link><description>&lt;p&gt;Nuevo repertorio, nuevos arreglos. Nueva gira, nuevos lugares. Sin
+olvidarse de los viejos amigos.&lt;/p&gt;
+&lt;img alt="" src="http://farm4.static.flickr.com/3072/2983431025_c4bd631898.jpg" /&gt;
+&lt;p&gt;Empezamos la gira
+esta vez en Mengíbar, y mañana jueves (30 de Octubre) &lt;a class="reference external" href="http://www.fotolog.com/losesclavos/60863921"&gt;estaremos por la
+pecha&lt;/a&gt;, celebrando la publicación del EP y el cumpleaños de Hugo!
+Felicidades!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 29 Oct 2008 15:41:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-10-29:/blog/2008/los-viejos-amigos/</guid><category>General</category></item><item><title>OSWL 2008</title><link>http://fa.bianp.net/blog/2008/oswl-2008/</link><description>&lt;p&gt;La verdad, me parece una suerte tener la Open Source World Conference
+tan cerquita.&lt;/p&gt;
+&lt;img alt="" src="http://farm4.static.flickr.com/3205/2960554829_985a0bd733.jpg" /&gt;
+&lt;p&gt;Este año estuvo genial, sobre todo las exposiciones en el
+hall. Lo peor, que a algunas charlas no pude asisitir por falta de
+espacio ... bueno, eso y que perdí el autobús de vuelta. Sigo en Málaga …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 23 Oct 2008 19:56:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-10-23:/blog/2008/oswl-2008/</guid><category>Tecnologí­a</category></item><item><title>Cambiar el color de ls para terminales con fondo oscuro</title><link>http://fa.bianp.net/blog/2008/cambiar-el-color-de-ls-para-terminales-con-fondo-oscuro/</link><description>&lt;p&gt;Por fin encontré la manera para no dejarme la vista intentando
+distinguir azul oscuro sobre negro. Se trata de añadir el código a tu
+.bash_profile y los directorios se te colorearán de un verde mucho más
+legible alias ls='ls --color'
+LS_COLORS='di=1:fi=0:ln=31:pi=5 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 23 Oct 2008 19:48:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-10-23:/blog/2008/cambiar-el-color-de-ls-para-terminales-con-fondo-oscuro/</guid><category>misc</category></item><item><title>Tú a Fuengirola, yo a California</title><link>http://fa.bianp.net/blog/2008/tu-a-fuengirola-yo-a-california/</link><description>&lt;p&gt;Cosas que suceden. Me pierdo el concierto que más ilusión me hace de la
+temporada ...&lt;/p&gt;
+&lt;img alt="" src="http://grupododo.com/seo/wp-content/uploads/2008/07/fpw_2008.jpg" /&gt;
+&lt;p&gt;Mientras, estaré en California
+en una boda (California el Estado, no el Club de la N-3). PD: algunas
+canciones del nuevo EP de versiones &lt;a class="reference external" href="http://losesclavos.com"&gt;ya están en el MySpace&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 21 Jul 2008 14:25:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-07-21:/blog/2008/tu-a-fuengirola-yo-a-california/</guid><category>General, Grupo</category></item><item><title>Cosas por hacer en esta vida ...</title><link>http://fa.bianp.net/blog/2008/cosas-por-hacer-en-esta-vida/</link><description>&lt;ul class="simple"&gt;
+&lt;li&gt;Escribir un libro&lt;/li&gt;
+&lt;li&gt;Ganar un Grammi&lt;/li&gt;
+&lt;li&gt;Beber de una fuente de chocolate (hecho)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://farm4.static.flickr.com/3110/2604421039_8d5ab6fa67.jpg" /&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 23 Jun 2008 21:31:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-06-23:/blog/2008/cosas-por-hacer-en-esta-vida/</guid><category>General</category></item><item><title>Cambio de planes!</title><link>http://fa.bianp.net/blog/2008/cambio-de-planes/</link><description>&lt;p&gt;Al final el concierto de este sábado no es en la vogue sino en la
+sugarpop:&lt;/p&gt;
+&lt;img alt="" src="http://sp7.fotologs.net/photo/39/9/102/losesclavos/1213049156084_f.jpg" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.fotolog.com/losesclavos"&gt;Migue&lt;/a&gt; se ha currado unos
+carteles estupendos (si te fijas, en el futbolín unos son del Granada y
+otros del Jerez xD), y aunque yo estoy de exámenes, estamos echando unos
+ensayos para que …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 10 Jun 2008 12:39:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-06-10:/blog/2008/cambio-de-planes/</guid><category>General, Grupo</category></item><item><title>Graduado!</title><link>http://fa.bianp.net/blog/2008/graduado/</link><description>&lt;img alt="" src="http://farm3.static.flickr.com/2217/2525461578_6510497a62.jpg" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.youtube.com/watch?v=uDcVWhuA6x0"&gt;(tb hay un vídeo)&lt;/a&gt; Ahora, a seguir con mis
+estudios de psicocerámica y de cabeza a por el &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Premios_Ig_Nobel"&gt;ig-nobel&lt;/a&gt;.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 01 Jun 2008 13:17:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-06-01:/blog/2008/graduado/</guid><category>General</category></item><item><title>Teloneando en la telonera</title><link>http://fa.bianp.net/blog/2008/teloneando-en-la-telonera/</link><description>&lt;p&gt;Este viernes (Los Esclavos) tuvimos el privelegio de telonear a Paul
+Collins, que se acercó hasta Armilla para dar un concierto en la
+Telonera. Para mí, éste fue unos de los conciertos en los que mejor
+toqué (tanto que Migue me tuvo que invitar luego a unas copas, aunque
+perdí …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 19 May 2008 00:20:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-05-19:/blog/2008/teloneando-en-la-telonera/</guid><category>General, Grupo</category></item><item><title>Los Esclavos 2.0</title><link>http://fa.bianp.net/blog/2008/los-esclavos-20/</link><description>&lt;p&gt;Después del concierto en &lt;a class="reference external" href="http://www.fotolog.com/losesclavos/48879793"&gt;Sevilla&lt;/a&gt;, fin de semana esclavo grabando en
+&lt;a class="reference external" href="http://es.wikipedia.org/wiki/Daimiel"&gt;Daimiel&lt;/a&gt;, en La Mancha. Era mi primera vez grabando con Los Esclavos,
+y la verdad es que la cosa no pudo salir mejor, sonando bien y del
+tirón, sin mayores complicaciones. Al final serán 4 canciones que se
+colgarán …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 13 May 2008 17:02:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-05-13:/blog/2008/los-esclavos-20/</guid><category>misc</category><category>esclavos</category></item><item><title>Y qué tal por Madrid? (concierto de Los Esclavos, febrero 2008)</title><link>http://fa.bianp.net/blog/2008/y-que-tal-por-madrid-concierto-de-los-esclavos-febrero-2008/</link><description>&lt;p&gt;El pasado finde me fui con los enfermos estos a la capital para medirnos
+en una de sus salas: la &lt;a class="reference external" href="http://www.costelloclub.com/"&gt;Costello&lt;/a&gt;. El concierto de Madrid fue
+francamente increíble, tocamos de puta madre, la gente respondió, y yo
+fue de las veces que más me he divertido tocando, aunque la verdad …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 18 Feb 2008 13:41:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-02-18:/blog/2008/y-que-tal-por-madrid-concierto-de-los-esclavos-febrero-2008/</guid><category>General, Grupo</category></item><item><title>Concierto en Planta Baja (y en El Tren)</title><link>http://fa.bianp.net/blog/2008/concierto-en-planta-baja-y-en-el-tren/</link><description>&lt;p&gt;Por fin tocamos en Planta Baja!! Fue el pasado sábado 19 de Enero y la
+cosa salió bastante bien. Bastante bien teniendo en cuenta que era el
+primer concierto sin Aitor, nuestro vocalista y guitarra rítmico. El tío
+ya no se junta con nosotros desde que le dejamos una semana …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 23 Jan 2008 04:02:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-01-23:/blog/2008/concierto-en-planta-baja-y-en-el-tren/</guid><category>Grupo</category></item><item><title>Video de Madrid</title><link>http://fa.bianp.net/blog/2008/video-de-madrid/</link><description>&lt;p&gt;Mi padre se ha currado un montaje para la canción &amp;quot;Madrid&amp;quot; que tocamos
+en la telonera, mezclándolo con imágenes de un ensayo.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 02 Jan 2008 17:52:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2008-01-02:/blog/2008/video-de-madrid/</guid><category>Canciones, General, Grupo</category></item><item><title>Con vistas al Mar</title><link>http://fa.bianp.net/blog/2007/con-vistas-al-mar/</link><description>&lt;p&gt;
+
+ Qué pena que los romanos tengan solamente un cuello! Calígula,
+ emperador romano, famoso por su condicta autoritaria y extravagante&lt;div class="section" id="capitulo-i-yo-soy-yo"&gt;
+&lt;h2&gt;Capítulo I: Yo soy yo&lt;/h2&gt;
+&lt;p&gt;Otro día que cocino espagueti, y joder, cada día me saben peor. Al
+principio me lo curraba y solía echarle su poquito de carne, su queso …&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 15 Dec 2007 00:05:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-12-15:/blog/2007/con-vistas-al-mar/</guid><category>General, Historias</category></item><item><title>Concierto en la Telonera</title><link>http://fa.bianp.net/blog/2007/concierto-en-la-telonera/</link><description>&lt;p&gt;To wapo el concierto del pasado 24 de Noviembre en &amp;quot;La Telonera&amp;quot;. Sin
+duda fué el concierto en el que mejor tocamos hasta la fecha. Esta vez
+nos tocaba abrir la actuación, de forma que subimos al escenario a las
+10:50 aproximadamente, con el escenario todavía medio vacío. Empezamos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 26 Nov 2007 15:50:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-11-26:/blog/2007/concierto-en-la-telonera/</guid><category>Canciones, Fotos, General, Grupo</category></item><item><title>Los Esclavos</title><link>http://fa.bianp.net/blog/2007/los-esclavos/</link><description>&lt;p&gt;Bueno, ha habido algunos cambios importantes últimamente. El primero es
+que nuestro bajista, Enri se ha roto la mano. Por lo visto estaba en
+plena orgía amateur cuando resbaló de la cama y el metacarpio dió contra
+el suelo, pulverizándose ambos en un largo invierno nuclear. La segunda
+es que …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 06 Nov 2007 14:16:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-11-06:/blog/2007/los-esclavos/</guid><category>Canciones, Fotos, General, Grupo</category></item><item><title>Producciones Peligrosas - Fin</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas-fin/</link><description>&lt;p&gt;Por fin tenemos los temas !!!. En principio nos dieron los temas sin
+masterizar, de modo que a estos temas les he improvisado yo una
+masterización. Cuando los chicos de producciones peligrosas nos lo pasen
+con su masterización cabe esperar que estén todavía un poco mejor.&lt;/p&gt;
+&lt;!-- .. _powered by **ODEO**: http://odeo.com/audio/15904433/view --&gt;
+&lt;!-- .. _powered by **ODEO**: http://odeo.com/audio/15904413/view --&gt;
+&lt;!-- .. _powered by **ODEO**: http://odeo.com/audio/15904393/view --&gt;
+&lt;!-- .. _powered by **ODEO**: http://odeo.com/audio/15904443/view --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 07 Aug 2007 10:54:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-08-07:/blog/2007/producciones-peligrosas-fin/</guid><category>Canciones, General, Grupo</category></item><item><title>Producciones Peligrosas - Dia 4</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas-dia-4/</link><description>&lt;p&gt;Hemos tenido un parón larguillo debido a que nuestro técnico se puso
+enfermo, pero tras semana y media hemos retomado la grabación. Mientras
+tanto, en ese tiempo hemos puesto letra a un par de canciones nuevas. Yo
+creo que lo bueno de hoy ha sido precisamente que no a habido …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 18 Jul 2007 19:34:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-07-18:/blog/2007/producciones-peligrosas-dia-4/</guid><category>Canciones, General, Grupo</category></item><item><title>Producciones Peligrosas - Dia 3</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas-dia-3/</link><description>&lt;p&gt;Otro día de puta madre en Producciones Peligrosas. De nuevo nos grabó
+Pablo, con quien nos encontramos realmente muy a gusto y al parecer todo
+salió bien. Yo terminé de grabar las guitarras a primera hora, doblé
+alguna que otra guitarra más y por fin Aitor y Mar pudieron ponerse …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 05 Jul 2007 18:03:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-07-05:/blog/2007/producciones-peligrosas-dia-3/</guid><category>General</category></item><item><title>Producciones Peligrosas - Dia 2</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas-dia-2/</link><description>&lt;p&gt;HOY HA SIDO LA OSTIA (tiatiatia)! Pués eso, ya más calmados, con todo un
+día por delante, hoy nos ha dado tiempo de terminar de grabar la canción
+que dejamos a medias (Mono Azul), grabar las otras dos pendientes y
+arreglar Nunca Perder que había quedado un poco de aquella …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 04 Jul 2007 20:04:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-07-04:/blog/2007/producciones-peligrosas-dia-2/</guid><category>General, Grupo</category></item><item><title>Producciones Peligrosas - Dia 1</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas-dia-1/</link><description>&lt;p&gt;Hoy ha sido nuestro primer día de grabación de la maqueta en los
+estudios &amp;quot;Producciones peligrosas&amp;quot;. Lo primero de todo es decir que las
+instalaciones son acojonantes. Tienen una sala con paredes de piedra que
+es la leche para grabar baterías y una sala de control con una mesa de …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 03 Jul 2007 20:36:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-07-03:/blog/2007/producciones-peligrosas-dia-1/</guid><category>General, Grupo</category></item><item><title>Producciones Peligrosas</title><link>http://fa.bianp.net/blog/2007/producciones-peligrosas/</link><description>&lt;p&gt;Ya es definitivo, el 3 de Julio entramos a grabar nuestra primera
+maqueta de estudio (las demás son caseras). Será en Producciones
+Peligrosas, un estudio situado en Peligros (Granada) en el que han
+Grabado Jose Ignacio Lapido, Mamá Ladilla, Sr. Chinarro, Lori Meyers y
+muchos más. En principio serán 4 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 15 Jun 2007 21:12:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-06-15:/blog/2007/producciones-peligrosas/</guid><category>General, Grupo</category></item><item><title>Concurso Casanueva</title><link>http://fa.bianp.net/blog/2007/concurso-casanueva/</link><description>&lt;p&gt;Ayer estuvimos en el concurso de las fiestas de Casanueva (Granada,
+anejo de Pinos Puente). Lo ganó finalmente &lt;a class="reference external" href="http://www.myspace.com/baddagranada"&gt;DAbba&lt;/a&gt; (muy merecidamente),
+pero nos lo pasamos de puta madre. Además creo que gracias a un contacto
+que hicimos igual tenemos algún conciertillo en verano. Pués eso, y me
+voy a estudiar …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 11 Jun 2007 09:47:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-06-11:/blog/2007/concurso-casanueva/</guid><category>General, Grupo</category></item><item><title>Fotos concierto en El Bunker</title><link>http://fa.bianp.net/blog/2007/fotos-concierto-en-el-bunker/</link><description>&lt;p&gt;Al pasado concierto vino nuestro amigo FERMIN (amigo de Enri sobre
+todo), y nos hizo unas espectaculares fotos. Se pueden ver todas &lt;a class="reference external" href="http://www.flickr.com/photos/fseoane/tags/bunker/"&gt;aquí&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="foto_concierto" src="http://farm2.static.flickr.com/1151/532875942_6ed994247d.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Gracias Fermín!!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 06 Jun 2007 10:13:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-06-06:/blog/2007/fotos-concierto-en-el-bunker/</guid><category>misc</category><category>fotos</category><category>dodo</category></item><item><title>Concierto 2 de junio en &amp;quot;El bunquer&amp;quot;</title><link>http://fa.bianp.net/blog/2007/concierto-2-de-junio-en-quotel-bunquerquot/</link><description>&lt;p&gt;Recordaros que este sábado damos un concierto en la sala &amp;quot;El bunquer&amp;quot; en
+Granada junto a Bonzo. Estos son los curradísimos carteles que han
+preparado para el evento Aitor y Enri:&lt;/p&gt;
+&lt;img alt="" src="http://grupododo.com/seo/wp-content/uploads/2007/05/cartel_2_junio_07.jpg" /&gt;
+&lt;p&gt;Por cierto que el viernes pasado dimos un concierto bastante chulo en
+casanueva-zujaira( &lt;a class="reference external" href="http://www.flickr.com/photos/fseoane/tags/casanueva/"&gt;aquí&lt;/a&gt; voy a empezar a subir …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 31 May 2007 17:10:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-05-31:/blog/2007/concierto-2-de-junio-en-quotel-bunquerquot/</guid><category>General, Grupo</category></item><item><title>El sol no se pone en Granada</title><link>http://fa.bianp.net/blog/2007/el-sol-no-se-pone-en-granada/</link><description>&lt;p&gt;Señores, ya hemos colgado en la web nuestra última canción,
+&lt;a class="reference external" href="http://odeo.com/audio/11285383/view"&gt;powered by **ODEO**&lt;/a&gt; dedicada a los aficionados del Granada CF.
+Seguramente ésta será la última producción casera que hagamos, pues
+estamos contactando con estudios de grabación para hacer nuestra MMQTC
+(Maqueta de la Muerte Que Te Cagas). Ale, a cascarlo …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 03 May 2007 23:46:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-05-03:/blog/2007/el-sol-no-se-pone-en-granada/</guid><category>Canciones, General, Grupo</category></item><item><title>Pretty printing</title><link>http://fa.bianp.net/blog/2007/pretty-printing/</link><description>&lt;p&gt;Thanks to a patch by Jurjen Bos (with some additions &amp;amp; modifications by
+me) we now got pretty printing in sympy. To see some examples, running
+it from isympy (you need sympy from svn):&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+In [1]: pprint x**2 +x +1
+------&amp;gt; pprint(x**2 +x +1)
+     2
+1+x+x
+
+In …&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 29 Apr 2007 10:26:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-04-29:/blog/2007/pretty-printing/</guid><category>General, Tecnologí­a</category></item><item><title>Concierto en la cárcel.</title><link>http://fa.bianp.net/blog/2007/concierto-en-la-carcel/</link><description>&lt;p&gt;Esta mañana nos fuimos el grupo al completo a la prisión de albolote con
+alumnos de magisterio. Ellos (los alumnos de magisterio) iban a hacer
+una especie de prácticas que consistían en motivar a los presos a base
+de juegos, y nosotros íbamos porque después de los juegos dábamos un …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 19 Apr 2007 16:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-04-19:/blog/2007/concierto-en-la-carcel/</guid><category>General, Grupo</category></item><item><title>Hashing</title><link>http://fa.bianp.net/blog/2007/hashing/</link><description>&lt;p&gt;Today I spent some time thinking about hashing in &lt;a class="reference external" href="http://code.google.com/p/sympy"&gt;SymPy&lt;/a&gt;. Hashing is a
+central part of sympy and is implemented in the core. Now you might be
+thinking why is hashing so important in a CAS (Computer Algebra System)
+... I'll try to explain: when you do things like &amp;quot;x+1 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 19 Apr 2007 01:59:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-04-19:/blog/2007/hashing/</guid><category>Tecnologí­a</category></item><item><title>Noches de sol</title><link>http://fa.bianp.net/blog/2007/noches-de-sol/</link><description>&lt;p&gt;La semana pasada intentamos grabar a toda ostia nuestra última
+canción, que habla del Granada CF, de forma que nos pusimos a ponerle
+letra a toda ostia y grabamos en el mismo día (gracias Recius por el
+esfuerzo). Luego escuchando las pistas nos dimos cuenta que lo podemos
+hacer un …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 26 Mar 2007 21:43:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-03-26:/blog/2007/noches-de-sol/</guid><category>Grupo</category></item><item><title>SymPy 0.3</title><link>http://fa.bianp.net/blog/2007/sympy-03/</link><description>&lt;p&gt;No lo he comentado aquí­, pero llevo cerca de un mes trabajando en un
+proyecto de software libre llamado &lt;a class="reference external" href="http://code.google.com/p/sympy"&gt;SymPy&lt;/a&gt;. Pretende convertirse en un
+sistema de algebra, tal como Mathematica o Maple, pero escrito en Python
+y, por supuesto, para ser utilizado desde Python.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 25 Mar 2007 13:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-03-25:/blog/2007/sympy-03/</guid><category>Tecnologí­a</category></item><item><title>Yo no soy soso</title><link>http://fa.bianp.net/blog/2007/yo-no-soy-soso/</link><description>&lt;p&gt;es capacidad de sí­ntesis.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 24 Feb 2007 21:25:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-02-24:/blog/2007/yo-no-soy-soso/</guid><category>General</category></item><item><title>NY</title><link>http://fa.bianp.net/blog/2007/ny/</link><description>&lt;p&gt;Las típicas fotos de cuando vas a Nueva York.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/fseoane/397692372/"&gt;http://www.flickr.com/photos/fseoane/397692372/&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 21 Feb 2007 18:00:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-02-21:/blog/2007/ny/</guid><category>misc</category><category>pictures</category></item><item><title>Las últimas canciones</title><link>http://fa.bianp.net/blog/2007/las-ultimas-canciones/</link><description>&lt;p&gt;Ayer por primera vez metimos una voz sintetizada a una canción nuestra.
+Se trata de un cuarteto de cuerda, queda algo parecido a la intro de
+&amp;quot;Eleanor Rigby&amp;quot; (aunque obviamente todavia no lo alcanza en cuanto a
+calidad). En principio procedemos con mucha cautela, no queremos joder
+las canciones por …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 20 Jan 2007 11:54:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-01-20:/blog/2007/las-ultimas-canciones/</guid><category>General, Grupo</category></item><item><title>Parche para CLN</title><link>http://fa.bianp.net/blog/2007/parche-para-cln/</link><description>&lt;p&gt;Cuidado!, esta entrada habla de informática. Antes tenía un blog
+aparte para hablar de estas cosas, pero paso de mantener dos blogs, de
+forma que lo cuento aquí, y al que no le interese el tema puede
+decírmelo a través de &lt;a class="reference external" href="http://www.gospelway.com/spanish/help_troubles-spa.htm"&gt;esta página&lt;/a&gt; Pues resulta que hoy estoy como
+unas …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 18 Jan 2007 22:55:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2007-01-18:/blog/2007/parche-para-cln/</guid><category>Tecnologí­a</category></item><item><title>Theremin</title><link>http://fa.bianp.net/blog/2006/theremin/</link><description>&lt;p&gt;El &lt;a class="reference external" href="http://es.wikipedia.org/wiki/Therem%C3%ADn"&gt;theremin&lt;/a&gt; es un soviético un tanto estrafalario. Resulta que no solo es una curiosidad de frikis (la cagaste de nuevo, Baluba!), ya que genios como Beach Boys lo han usado por ejemplo en este single corrosivo (el theremin
+empieza en el segundo 26):&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 20 Dec 2006 23:42:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-12-20:/blog/2006/theremin/</guid><category>General</category></item><item><title>Paul Simon</title><link>http://fa.bianp.net/blog/2006/paul-simon/</link><description>&lt;p&gt;No debía tener más de de 14 años cuando mi padre puso en la
+minicadena un CD que le agradaba bastante: &amp;quot;Graceland&amp;quot;, de Paul
+Simon.&lt;/p&gt;
+&lt;p&gt;Ese disco me taladró la cabeza como una bala
+y Paul Simon se convirtió en mi ídolo (luego vendría No Doubt y otros más modernos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 13 Dec 2006 09:21:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-12-13:/blog/2006/paul-simon/</guid><category>misc</category><category>music</category></item><item><title>DOdo en la radio</title><link>http://fa.bianp.net/blog/2006/dodo-en-la-radio/</link><description>&lt;p&gt;Hace unos meses (junio del 2006) nos llamaron de la radio para grabar
+una entrevista. La hicimos, y ahora el chico que nos la hizo (gracias
+tio!) nos la ha pasado para que podamos compartirla con nuestra legión
+de seguidores lobotomizados. Si queréis escucharla , seguid los
+enlaces: &lt;a class="reference external" href="http://odeo.com/audio/3146583/view"&gt;Parte 1&lt;/a&gt; &lt;a class="reference external" href="http://odeo.com/audio/3146643/view"&gt;Parte …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 23 Nov 2006 20:56:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-11-23:/blog/2006/dodo-en-la-radio/</guid><category>General, Grupo</category></item><item><title>Una carta mas</title><link>http://fa.bianp.net/blog/2006/una-carta-mas/</link><description>&lt;p&gt;La última canción que hemos grabado en directo en el local de ensayo:
+&lt;a class="reference external" href="http://odeo.com/audio/2534393/view"&gt;powered by **ODEO**&lt;/a&gt; Te la puedes descargar de &lt;a class="reference external" href="/canciones/2006/una_carta_mas.mp3"&gt;aquí&lt;/a&gt; (licencia
+&lt;a class="reference external" href="http://creativecommons.org/licenses/by-nc-nd/2.5/"&gt;Creative Commons&lt;/a&gt;). Actualmente estoy trabajando en la nueva web, así
+que pronto habrá muchas más novedades. &lt;strong&gt;Actualización (domingo 12 de
+nov):&lt;/strong&gt; he vuelto a masterizar la canción …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 11 Nov 2006 18:58:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-11-11:/blog/2006/una-carta-mas/</guid><category>misc</category><category>dodo</category></item><item><title>Infiltrados</title><link>http://fa.bianp.net/blog/2006/infiltrados/</link><description>&lt;p&gt;Si habéis visto infiltrados, recordaréis una canción con gaitas y
+baterí­a que se repite un par de veces en la pelí­cula. No aparece en la
+BSO, sin embargo, pero yo la he encontrado en youtube. Se llama &amp;quot;I'm
+shipping up to boston&amp;quot; y ya apareció en la película …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 11 Nov 2006 13:25:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-11-11:/blog/2006/infiltrados/</guid><category>General</category></item><item><title>Loquillo es el héroe sincero</title><link>http://fa.bianp.net/blog/2006/loquillo-es-el-heroe-sincero/</link><description>&lt;p&gt;No hay duda LOQUILLO es la caña, todavía no entiendo porqué no hay más
+imitadores suyos.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 02 Nov 2006 16:53:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-11-02:/blog/2006/loquillo-es-el-heroe-sincero/</guid><category>General</category></item><item><title>La evolución de los mandriles</title><link>http://fa.bianp.net/blog/2006/la-evolucion-de-los-mandriles/</link><description>&lt;p&gt;Erase una vez una tribu primitiva de monos. El macho dominante (yo) le
+dijo al típico mono del culo rojo que se la menea como si nada (aitor) :&lt;/p&gt;
+&lt;p&gt;&amp;quot;Oyess, si grabamos las canciones en directo terminaríamos antes&amp;quot;&lt;/p&gt;
+&lt;p&gt;Rápidamente aquellos apestosos mandriles se dieron cuenta de lo gilipollas que eran, se …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 01 Nov 2006 22:57:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-11-01:/blog/2006/la-evolucion-de-los-mandriles/</guid><category>misc</category><category>dodo</category></item><item><title>Gran crack</title><link>http://fa.bianp.net/blog/2006/gran-crack/</link><description>&lt;p&gt;Bueno, esta semana se la ha pasado Aitor en mi casa y hemos tenido
+tiempo de grabar una canción. Es la primera canción grabada en
+pequeño albion, y como verás suena más profesional aque anteriores
+grabaciones y tiene unos coros de Mar que te comes el asfalto. Todavía
+hay algunos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 21 Jul 2006 14:16:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-07-21:/blog/2006/gran-crack/</guid><category>Canciones, General, Grupo</category></item><item><title>Entrada insuperablemente absurda (Felicidades Mar)</title><link>http://fa.bianp.net/blog/2006/entrada-insuperablemente-absurda-felicidades-mar/</link><description>&lt;p&gt;La vida es una ton-ton-tombola, la vida es una ton-ton-tombola,
+aaaaa--aiaaaaa La vida es una ton-ton-tombola, La vida es una
+ton-ton-tombola, La vida es una ton-ton-tombola,&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 17 Jun 2006 11:30:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-06-17:/blog/2006/entrada-insuperablemente-absurda-felicidades-mar/</guid><category>General</category></item><item><title>Fin de temporada</title><link>http://fa.bianp.net/blog/2006/fin-de-temporada/</link><description>&lt;p&gt;Las últimas semanas han sido muy intensas, y en Musik-7 dimos por
+concluida la temporada de conciertos hasta el próximo curso (aunque si
+nos sale algo no creo que lo rechacemos). Ahora es momento de hacer
+nuevas canciones y grabar de una puta vez la maqueta. Muchas gracias a
+todos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 26 May 2006 14:27:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-05-26:/blog/2006/fin-de-temporada/</guid><category>General, Grupo</category></item><item><title>lavin compae festival</title><link>http://fa.bianp.net/blog/2006/lavin-compae-festival/</link><description>&lt;p&gt;El concierto de anoche (el lavin compae festival) estuvo de puta madre.
+Nos lo pasamos corrosivamente y además pudimos conocer a un montón de
+grupos, con los que charlamos y aprendimos un montón. Por otro lado,
+parece que le tengo alergia a los técnicos. En los únicos dos
+conciertos en …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 20 May 2006 14:22:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-05-20:/blog/2006/lavin-compae-festival/</guid><category>Fotos, General, Grupo</category></item><item><title>Siempre hacia Albion</title><link>http://fa.bianp.net/blog/2006/siempre-hacia-albion/</link><description>&lt;p&gt;A la mierda!. Perdón, ha sido culpa mía. De todas formas, esto sale de
+puta pena, así seguro que nos mandan todos a la mierda, el que nos
+metió en el cartel, el que nos dejó tocar antes que ellos y el que no
+paraba de oler margaritas. Venga, una …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 16 May 2006 13:05:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-05-16:/blog/2006/siempre-hacia-albion/</guid><category>General, Grupo</category></item><item><title>Un héroe para las ratas</title><link>http://fa.bianp.net/blog/2006/un-heroe-para-las-ratas/</link><description>&lt;p&gt;Si realmente pudiera saber lo que otros piensan, esta vida sería un
+puto calvario. Recuerdo todas las veces que he juzgado a alquien como un
+verdadero capullo y luego termina siendo el mejor de los amigos. Al hijo
+del frutero siempre lo taché de subnormal cuando en realidad es un …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 15 Mar 2006 23:29:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-03-15:/blog/2006/un-heroe-para-las-ratas/</guid><category>misc</category><category>historias</category></item><item><title>DOdo en el cine</title><link>http://fa.bianp.net/blog/2006/dodo-en-el-cine/</link><description>&lt;p&gt;Es curioso como el DOdo aparece en más lugares de los que me esperaba.
+Por ejemplo, hay una película de 1938: &amp;quot;Porky in the Wackyland&amp;quot;, en la
+que el DOdo es un personaje principal. La trama de la película comienza
+cuando le piden a Porky Pig que capture al último …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 27 Feb 2006 20:34:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-02-27:/blog/2006/dodo-en-el-cine/</guid><category>General</category></item><item><title>Fotos concierto</title><link>http://fa.bianp.net/blog/2006/fotos-concierto/</link><description>&lt;img alt="" src="http://static.flickr.com/26/97100635_e6bed7741c_m.jpg" /&gt;
+&lt;p&gt;Hey pirsonas. Ya están &lt;a class="reference external" href="http://www.flickr.com/photos/fseoane/sets/72057594061166161/"&gt;aquí&lt;/a&gt; las fotos del pasado concierto que me
+ha mandado nuestra amiga Blanca.
+Y ya que escribo esta entrada no puedo resistirme de decir que pronto
+(16 de marzo) estaremos repitiendo en la misma sala. En algún momento
+Aitor pondrá más información en la página oficial …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 08 Feb 2006 13:04:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-02-08:/blog/2006/fotos-concierto/</guid><category>Fotos, General, Grupo</category></item><item><title>Tablatura Albion</title><link>http://fa.bianp.net/blog/2006/tablatura-albion/</link><description>&lt;p&gt;El el último disco de Babyshambles hay una canción que simplemente es
+demasiado buena para ser real. No encontré tablatura, así que saqué
+algunos acordes. En realidad creo que toca toda la canción medio tono
+más alto, no se, cuando me compre una cejilla lo averiguo: Los acordes
+que utilizo …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 27 Jan 2006 22:12:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2006-01-27:/blog/2006/tablatura-albion/</guid><category>General, Tablaturas</category></item><item><title>Albion</title><link>http://fa.bianp.net/blog/2005/albion/</link><description>&lt;p&gt;Esta última semana hicimos la primera ronda de dejar la maqueta en
+pubes (sí, pubes, Â¿pasa algo?), a ver si podemos dar algún concierto
+en granada y de paso descargar inquietud acumulada. Y finalmente nos
+dijeron que sí, &lt;a class="reference external" href="http://losmauricios.net/?p=22"&gt;aquí&lt;/a&gt; está la info. Aparte de eso, hoy ha sido un …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 20 Dec 2005 23:15:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-12-20:/blog/2005/albion/</guid><category>General</category></item><item><title>Cuidado!!!, soy un gilipollas del FBI!!</title><link>http://fa.bianp.net/blog/2005/cuidado-soy-un-gilipollas-del-fbi/</link><description>&lt;p&gt;JAJA!!!. Esta vez me he adelantado a todos!!!. Teneis que escuchar la
+última canción, &lt;a class="reference external" href="http://losmauricios.net/canciones/sale_el_sol.mp3"&gt;Sale el sol&lt;/a&gt;. Para esta canción finalmente Aitor y
+yo hemos descubierto para que sirven muchos de los botones del programa
+en el que grabamos las canciones, y resulta que todas esas mariconaditas
+que casi ni …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 30 Nov 2005 00:51:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-11-30:/blog/2005/cuidado-soy-un-gilipollas-del-fbi/</guid><category>General, Grupo</category></item><item><title>Maqueta, negocios y salir en la puta radio.</title><link>http://fa.bianp.net/blog/2005/maqueta-negocios-y-salir-en-la-puta-radio/</link><description>&lt;p&gt;Otra vez me pongo el gorro de gnomo y salgo yo a contar mi vida. Primer
+asunto: Es la última vez que hago una entrada diciendo gilipolleces del
+tipo &amp;quot;Hoy es el cumple de ... . Felicidades&amp;quot;, porque luego es cumple de
+otra persona y se mosquea al no has hecho la …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 16 Nov 2005 22:25:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-11-16:/blog/2005/maqueta-negocios-y-salir-en-la-puta-radio/</guid><category>General, Grupo</category></item><item><title>Cumpleaños de un líder</title><link>http://fa.bianp.net/blog/2005/cumpleanos-de-un-lider/</link><description>&lt;p&gt;Aunque nos vamos a ver a la hora de comer, quisiera felicitar desde
+aquí a nuestro gran co-&lt;a class="reference external" href="http://aitor.losmauricios.net"&gt;líder&lt;/a&gt;, el cual es omnipresente,
+omnipotente y omnívoro. Y esto me recuerda a que hace un mes fue el
+cumpleaños del genial &lt;a class="reference external" href="http://enri.losmauricios.net"&gt;Enri&lt;/a&gt; y no nos acordamos de felicitarlo.
+Todavía nos da …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 07 Nov 2005 09:56:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-11-07:/blog/2005/cumpleanos-de-un-lider/</guid><category>General, Grupo</category></item><item><title>Algo que contar</title><link>http://fa.bianp.net/blog/2005/algo-que-contar/</link><description>&lt;p&gt;Hoy Aitor ha subido a mi casa y hemos terminado la producción de
+nuestra canción &lt;a class="reference external" href="http://losmauricios.net/canciones/hola.mp3"&gt;hola&lt;/a&gt;, la primera grabación en condiciones que
+subimos a la página. Al final hemos optado por meter el mínimo de
+efectos, de forma que la mayoría de las pistas han aparecen tal cual
+fueron grabadas …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 04 Nov 2005 01:11:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-11-04:/blog/2005/algo-que-contar/</guid><category>General, Grupo</category></item><item><title>Las flores en el reformatorio, los mauricios en el campo</title><link>http://fa.bianp.net/blog/2005/las-flores-en-el-reformatorio-los-mauricios-en-el-campo/</link><description>&lt;p&gt;Amigos: se terminó el garrapiñarles dinero a mis padres, a partir de
+ahora y gracias a mi amigo &lt;a class="reference external" href="http://blog.zugaldia.org/"&gt;Zugaldia&lt;/a&gt;, he conseguido un trabajillo en
+la revista &lt;a class="reference external" href="http://studiopress.es/productos/revistas/tp/tp.htm"&gt;Todo Programación&lt;/a&gt; que me permitirá ir comprándome
+objetos de valor incalculable. Más noticias: hay rumores de que
+&lt;a class="reference external" href="http://aitor.losmauricios.net"&gt;Aitor&lt;/a&gt; se va a rapar la cabeza …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 16 Sep 2005 22:28:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-09-16:/blog/2005/las-flores-en-el-reformatorio-los-mauricios-en-el-campo/</guid><category>General, Grupo</category></item><item><title>Muerte de una banda</title><link>http://fa.bianp.net/blog/2005/muerte-de-una-banda/</link><description>&lt;p&gt;Ayer fué un día triste porque me enteré que mi grupo favorito,&lt;a class="reference external" href="http://www.thelibertines.org.uk/"&gt;The
+Libertines&lt;/a&gt;, han decidido separarse. The Libertines son un grupo
+británico que han escrito algunas de las canciones más líricas y
+geniales que he escuchado. Para hacerlo todavía más dramático, el
+trasfondo de la historia cuenta los continuos …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 06 Sep 2005 13:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-09-06:/blog/2005/muerte-de-una-banda/</guid><category>General, Grupo</category></item><item><title>The Boss (El Jefe)</title><link>http://fa.bianp.net/blog/2005/the-boss-el-jefe/</link><description>&lt;p&gt;He tenido que vender algunos órganos, pero finalmente pude hacerme con
+una de las mejores distorsiones que he escuchado jamás. Tiene un sonido
+muy cálido, con un zumbido increíble, no como la caca de pedalera
+digital que tenía antes, que tenía un sonido metálico que no quiero
+volver a escuchar …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 28 Jul 2005 22:36:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-07-28:/blog/2005/the-boss-el-jefe/</guid><category>General</category></item><item><title>Primer contacto con el exterior</title><link>http://fa.bianp.net/blog/2005/primer-contacto-con-el-exterior/</link><description>&lt;p&gt;Giró la cabeza asfixiado por el calor. Los ojos se le iban llenando de
+sangre y no sabía cuánto podría aguantar en ese estado de ansiedad.
+Todo daba vueltas como un cafe cuando se remueve y apenas podía
+disimular las náuseas. El corazón se le iba acelerando por momentos y …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 08 Jun 2005 18:43:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-06-08:/blog/2005/primer-contacto-con-el-exterior/</guid><category>General, Historias</category></item><item><title>Hora de grabar</title><link>http://fa.bianp.net/blog/2005/hora-de-grabar/</link><description>&lt;p&gt;Bueno, el momento de la grabación por fin llegó. Ayer estuvimos
+grabando la batería. Conviene decir que nos quedamos bastante
+impresionados por lo bien que lo hizo &lt;a class="reference external" href="http://mar.losmauricios.net"&gt;mar&lt;/a&gt;. Lo suyo definitivamente es
+amor por el metrónomo. Ahí va una foto que hice mientras esperábamos
+para grabar: &lt;img alt="antes de grabar" src="imag/mar-grabacion.jpg" /&gt; Por cierto, hay un …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 05 May 2005 14:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-05-05:/blog/2005/hora-de-grabar/</guid><category>General</category></item><item><title>Temblad terricolas</title><link>http://fa.bianp.net/blog/2005/temblad-terricolas/</link><description>&lt;p&gt;Hola queridos borelianos! Estuvimos al miércoles por fin grabando las
+guías para la futura maqueta. Eso consiste básicamente en tocar las
+canciones sin mucho detalle (pero con metrónomo), para luego poder
+guiarte cuando se graben las pistas por separado. Al final pudimos
+grabar 4 de las 5 canciones, y yo …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 28 Apr 2005 13:33:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-04-28:/blog/2005/temblad-terricolas/</guid><category>General, Grupo</category></item><item><title>El cielo es amapola</title><link>http://fa.bianp.net/blog/2005/el-cielo-es-amapola/</link><description>&lt;img alt="" src="http://fabian.losmauricios.net/imag/amapola.jpg" /&gt;
+&lt;p&gt;Los mauricios dan un giro respecto a todo lo que
+habían hecho anteriormente con la canción &amp;quot;El cielo es amapola&amp;quot;. Pero
+tranquilos, no se trata de una oda a las florecillas. Es más bien una
+amalgama de melancolía, ruido y pequeñas imperfecciones. Y sin embargo
+al final todo vuelve a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 14 Apr 2005 18:49:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-04-14:/blog/2005/el-cielo-es-amapola/</guid><category>General, Grupo</category></item><item><title>Seré tu esclavo</title><link>http://fa.bianp.net/blog/2005/sere-tu-esclavo/</link><description>&lt;p&gt;BUSCO TRABAJO. PARA LO QUE SEA (menos disfrazarme de mofeta mientras
+reparto publicidad mientras bailo el baile del pimpollo). Soluciones
+garantizadas en fontanería, electrónica e informática (titulo
+homologado McGyver) &lt;img alt="McGyver" src="imag/2005/macgyver.jpg" /&gt; PD: he renovado el estilo de mi &lt;a class="reference external" href="http://grupododo.com/seo/"&gt;gueb&lt;/a&gt; y
+del &lt;a class="reference external" href="http://grupododo.com/planeta/"&gt;planeta&lt;/a&gt;, a ver qué sus parecen.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 11 Apr 2005 14:46:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-04-11:/blog/2005/sere-tu-esclavo/</guid><category>General</category></item><item><title>En ocasiones veo Enris</title><link>http://fa.bianp.net/blog/2005/en-ocasiones-veo-enris/</link><description>&lt;p&gt;Ya &lt;a class="reference external" href="http://images.google.es/images?q=tbn:oaxxsgj88i8J:galeon.hispavista.com/pakoperez/img/TioCachas.jpg"&gt;recuperado&lt;/a&gt; y en plena posesión de mis facultades mentales y de
+mis esfínteres procederé a hablar un poco de mí. La semana santa se
+pasó casi sin enterarme, pués entre que la mitad de los días
+estábamos ensayando y la otra mitad he estado en casa de mi padre …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 29 Mar 2005 13:10:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-03-29:/blog/2005/en-ocasiones-veo-enris/</guid><category>General, Grupo</category></item><item><title>Despistao y con fisura de radio</title><link>http://fa.bianp.net/blog/2005/despistao-y-con-fisura-de-radio/</link><description>&lt;p&gt;Anoche estuvimos en planta baja en el concierto de los despistaos. Lo
+cierto es que nos gustó bastante. Aquello sonaba bastante bien y la
+puesta en escena era realmente estupenda. &lt;img alt="image0" src="http://losmauricios.net/album/albums/feb-2005/normal_imag0069.jpg" /&gt; Y hubo tiempo incluso
+para que hiciera un trinfal solo en el escenario ( un solo es un solo
+aunque ya …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Wed, 09 Mar 2005 15:14:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-03-09:/blog/2005/despistao-y-con-fisura-de-radio/</guid><category>General</category></item><item><title>Algo nuevo, algo distinto (y con un camello como mascota)</title><link>http://fa.bianp.net/blog/2005/algo-nuevo-algo-distinto-y-con-un-camello-como-mascota/</link><description>&lt;p&gt;Ya cualquiera tiene su propio blog, y casi siempre hay habilitada una
+sección en la que el personajillo habla de sí mismo contestando a
+preguntas típicas (o PUF, preguntas de uso frecuente). Pero lo que
+ahora MOLA QUE TE FOLLAS y es tope original es tener una sección de
+respuestas …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 10 Feb 2005 09:51:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-02-10:/blog/2005/algo-nuevo-algo-distinto-y-con-un-camello-como-mascota/</guid><category>General</category></item><item><title>Que piensas de lo del ... ??</title><link>http://fa.bianp.net/blog/2005/que-piensas-de-lo-del/</link><description>&lt;p&gt;Como bien dice aitor en en &lt;a class="reference external" href="http://planeta.losmauricios.net"&gt;planeta&lt;/a&gt;, ayer fué un ensayo memorable.
+Solamente añadir que Aitor tampoco cantó mal ... Volviendo a casa me
+puse a escuchar un disco de un grupo que escuché en Radio3 y me llamó
+la atención, se llaman &lt;a class="reference external" href="http://www.emirkusturica-nosmoking.com/eng/index.html"&gt;Emir Kusturica &amp;amp; The No Smoking Orchestra&lt;/a&gt;. Si
+os …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 30 Jan 2005 12:58:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-01-30:/blog/2005/que-piensas-de-lo-del/</guid><category>General</category></item><item><title>Buscando gilipolleces</title><link>http://fa.bianp.net/blog/2005/buscando-gilipolleces/</link><description>&lt;p&gt;Recientemente encontré una página buenísiima en la que aparecen
+búsquedas raras que hace la gente en Internet. A continuación dejo una
+selección de algunas que me han gustado especialmente. &amp;quot;como ser peon&amp;quot;
+&amp;quot;fotos de penes subliminales&amp;quot; &amp;quot;fotos de cangrejos gays&amp;quot; &amp;quot;ver camiones de
+bimbo&amp;quot; &amp;quot;por qué mi vida es una …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Mon, 24 Jan 2005 23:36:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-01-24:/blog/2005/buscando-gilipolleces/</guid><category>General</category></item><item><title>Feliz 2005 (se me olvidó avisarte)</title><link>http://fa.bianp.net/blog/2005/feliz-2005-se-me-olvido-avisarte/</link><description>&lt;p&gt;Tal vez no me reconozcas porque me acababa de duchar, pero ese chico tan
+guapo soy yo en la nochivieja que pasé con &lt;a class="reference external" href="http://losmauricios.net"&gt;aitor&lt;/a&gt;. &lt;img alt="image0" src="images/feliz2005.jpg" /&gt; Por
+cierto que en esa noche hicimos una nueva canción para el grupo que
+seguramente entrará en la maqueta que queremos grabar después de los
+exámenes …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sun, 23 Jan 2005 00:01:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2005-01-23:/blog/2005/feliz-2005-se-me-olvido-avisarte/</guid><category>General</category></item><item><title>Amplificadores, reyes magos y hamburguesas</title><link>http://fa.bianp.net/blog/2004/amplificadores-reyes-magos-y-hamburguesas/</link><description>&lt;p&gt;En estos días de navidad hemos subido ya un par de veces a tocar al
+nuevo local. Está en Santa Fé y lo cierto es que está muy bien.
+Entiéndeme, no es un local de lujo, pero al menos podemos hacer todo el
+ruido que queramos, tiene un equipo aceptable …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 31 Dec 2004 19:33:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-12-31:/blog/2004/amplificadores-reyes-magos-y-hamburguesas/</guid><category>General</category></item><item><title>En el estudio de Andrés</title><link>http://fa.bianp.net/blog/2004/en-el-estudio-de-andres/</link><description>&lt;p&gt;El pasado Jueves subimos al estudio de Andrés para tocar sobre un
+equipo profesional. Además, era la primera vez que tocábamos con
+batería y bajo. Lo cierto es que aquello sonaba bastante mal, a mí no
+me salían la mitad de los punteos, la voz desafinaba como un jabalí en …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 25 Dec 2004 16:37:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-12-25:/blog/2004/en-el-estudio-de-andres/</guid><category>General</category></item><item><title>Una imagen que se repite.</title><link>http://fa.bianp.net/blog/2004/una-imagen-que-se-repite/</link><description>&lt;p&gt;Hay una imgen que no puedo sacar de mi cerebro. En ella aparece &lt;a class="reference external" href="http://aitor.losmauricios.net"&gt;Aitor&lt;/a&gt;
+tal y como era antes de la operación de anginas: &lt;img alt="Aitor-Dolly" src="images/aitor-dolly.jpg" /&gt; A veces
+también aparece &lt;a class="reference external" href="http://elrincondelangel.blogspot.com"&gt;Recio&lt;/a&gt; vestido de plátano y gritando &amp;quot;Fecúndameeee&amp;quot;
+mientras corre por las praderas.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Fri, 03 Dec 2004 14:49:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-12-03:/blog/2004/una-imagen-que-se-repite/</guid><category>General</category></item><item><title>Sin saber que en realidad debía llorar</title><link>http://fa.bianp.net/blog/2004/sin-saber-que-en-realidad-debia-llorar/</link><description>&lt;p&gt;Hace algún tiempo yo también tuve novia. Hací­amos las cosas que se
+suele hacer en pareja, ella encontraba fabuloso todo lo que yo hacía y
+yo me interesaba por sus cosas. A veces le tocaba alguna de mis
+canciones, una vez incluso le presté una cinta con una canción …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 30 Nov 2004 08:32:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-11-30:/blog/2004/sin-saber-que-en-realidad-debia-llorar/</guid><category>General</category></item><item><title>El regreso</title><link>http://fa.bianp.net/blog/2004/el-regreso/</link><description>&lt;p&gt;&lt;p&gt;Bueno, ya regresé de Madrid, lugar donde di una pequeña charla sobre
+mis teorías de la posibilidad de construir barbacoas que funcionen con
+oxígeno líquido . También hubo ocasión para tratar el tema de los
+pollos. Mensaje subliminal: EL POLLO ES POLLO, y seguirá siendo pollo.
+No sirve de nada cabrearse …&lt;/p&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Sat, 13 Nov 2004 19:34:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-11-13:/blog/2004/el-regreso/</guid><category>General</category></item><item><title>AITOR</title><link>http://fa.bianp.net/blog/2004/aitor/</link><description>&lt;p&gt;Solo una cosa &lt;strong&gt;FELICIDADES AITOR&lt;/strong&gt; Ya está.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 09 Nov 2004 14:59:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-11-09:/blog/2004/aitor/</guid><category>General</category></item><item><title>El pollo es pollo y no come almendras</title><link>http://fa.bianp.net/blog/2004/el-pollo-es-pollo-y-no-come-almendras/</link><description>&lt;p&gt;El otro día estuvimos ensayando (sí, Mar sigue tocando los tambores
+tipo oblongo) y, como de construmbre, nos lo pasamos bastante bien.
+Estuvimos ultimando las nuevas canciones porque el sábado tocaremos
+para un conocido manager internacional que nos llevará de gira por toda
+Europa (era eso, ¿no Aitor?). También he …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 04 Nov 2004 17:34:00 +0100</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-11-04:/blog/2004/el-pollo-es-pollo-y-no-come-almendras/</guid><category>General</category></item><item><title>por telefono</title><link>http://fa.bianp.net/blog/2004/por-telefono/</link><description>&lt;p&gt;Tí­pica conversación telefónica: - Hola, está Guille ? - No, no
+está. - Pero, ¿está con Cristina? - No - ¿Está con su madre ? - No,
+no está en ninguna parte. Es entonces cuando te quedas pillado y no
+sabes qué decir. Te quedas pensando durante semanas, ¿qué nos ha
+querido decir Mauricio con éstas palabras …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 19 Oct 2004 13:42:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-10-19:/blog/2004/por-telefono/</guid><category>General</category></item><item><title>Los tiempos están cambiando</title><link>http://fa.bianp.net/blog/2004/los-tiempos-estan-cambiando/</link><description>&lt;p&gt;Nuestras canciones ya no son lo que eran. Cada dí­a &lt;a class="reference external" href="http://aitor.losmauricios.net"&gt;Aitor&lt;/a&gt; y yo nos
+compenetramos mejor y conseguimos mejores melodias, aunque en ese
+aspecto yo soy bastante conservador, el innovador es él. Prácticamente
+cada vez que quedamos sale una nueva canción. &lt;a class="reference external" href="http://mar.losmauricios.net"&gt;Mar&lt;/a&gt; también
+contribuye en gran parte a esta …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Tue, 12 Oct 2004 17:53:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-10-12:/blog/2004/los-tiempos-estan-cambiando/</guid><category>General</category></item><item><title>Conspiración Internacional</title><link>http://fa.bianp.net/blog/2004/conspiracion-internacional/</link><description>&lt;p&gt;Por si no lo sabes, hay una conspiración internacional contra nuestro
+grupo&lt;/p&gt;
+&lt;p&gt;Por ejemplo, el de las guitarras nos hizo un precio sospechosamente bajo
+y ahora no le llegan las dichosas guitarras. Vamos a pedir precios a un
+estudio de grabación y resulta que no lo saben porque el que …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fabian Pedregosa</dc:creator><pubDate>Thu, 30 Sep 2004 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:fa.bianp.net,2004-09-30:/blog/2004/conspiracion-internacional/</guid><category>grupo</category></item></channel></rss>
