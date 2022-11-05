@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:_Qb0mL72l2o",
+  "yt:videoId": "_Qb0mL72l2o",
+  "yt:channelId": "UCAvGvvEemkeX8hurdPXr7hA",
+  "title": "Generating fast and expressive code using LLVM and Haskell (Luc Tielen at Haskell eXchange 2021)",
+  "link": "",
+  "author": {
+    "name": "Skills Matter (Incorporating YOW! Conferences)",
+    "uri": "https://www.youtube.com/channel/UCAvGvvEemkeX8hurdPXr7hA"
+  },
+  "published": "2022-01-19T13:14:24+00:00",
+  "updated": "2022-01-21T10:30:20+00:00",
+  "media:group": {
+    "media:title": "Generating fast and expressive code using LLVM and Haskell (Luc Tielen at Haskell eXchange 2021)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this talk, Luc will show how to create a language by making use of LLVM and Haskell. At the start, an introduction will be given on LLVM and the corresponding Haskell bindings. \n\nAfterwards, Luc will explain how techniques such as combinators and partial evaluation can be used to create performant functions optimized by LLVM. At the end, everything will be brought together and the result will be a small language that compiles all the way down to assembly.\n\nThis talk was recorded on 17 November 2021 at the Haskell eXchange virtual conference.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "New theme for Pelican",
+  "link": "",
+  "published": "2013-10-24T00:00:00-07:00",
+  "updated": "2022-11-03T04:16:07-07:00",
+  "author": {
+    "name": "Greg Reda"
+  },
+  "id": "tag:www.gregreda.com,2013-10-24:/2013/10/24/new-theme-for-pelican/",
+  "summary": "<p>I spent some time last weekend making minor changes to this site. Specifically:</p>\n<ol>\n<li>New typography - headers are <a href=\"http://www.google.com/fonts/specimen/Droid+Serif\">Droid Serif</a>, while everything else is <a href=\"http://www.google.com/fonts/specimen/Droid+Sans\">Droid Sans</a>. Fonts are also a bit bigger (I think it's easier to read).</li>\n<li>Added <a href=\"http://jakevdp.github.io/\">Jake Vanderplas'</a> <a href=\"https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags\">liquid tags plugin</a> for Pelican, which allows for easy embedding …</li></ol>",
+  "content": "<p>I spent some time last weekend making minor changes to this site. Specifically:</p>\n<ol>\n<li>New typography - headers are <a href=\"http://www.google.com/fonts/specimen/Droid+Serif\">Droid Serif</a>, while everything else is <a href=\"http://www.google.com/fonts/specimen/Droid+Sans\">Droid Sans</a>. Fonts are also a bit bigger (I think it's easier to read).</li>\n<li>Added <a href=\"http://jakevdp.github.io/\">Jake Vanderplas'</a> <a href=\"https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags\">liquid tags plugin</a> for Pelican, which allows for easy embedding of <a href=\"http://ipython.org/notebook.html\">IPython Notebooks</a>.</li>\n</ol>\n<p>I plan on continuing to tweak things over time, but I'm pretty happy with the way it looks right now.</p>\n<p><a href=\"https://github.com/gjreda/notebook-simpler\">Check it out on GitHub</a> and feel free to use it. It's mobile-friendly, too.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

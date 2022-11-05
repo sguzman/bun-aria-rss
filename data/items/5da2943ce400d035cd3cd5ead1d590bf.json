@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43989 (sim2000-2p04g10_firmware, sim2500-2p03g10_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43989",
+  "description": "Password recovery vulnerability in SICK SIM2x00 (ARM) Partnumber 1092673 and 1081902 with firmware version &lt;= 1.2.0 allows an unprivileged remote attacker to gain access to the userlevel defined as RecoverableUserLevel by invocating the password recovery mechanism method. The recommended solution is to update the firmware to a version &gt;1.2.0 as soon as possible.",
+  "dc:date": "2022-11-01T21:15:11Z"
+}
