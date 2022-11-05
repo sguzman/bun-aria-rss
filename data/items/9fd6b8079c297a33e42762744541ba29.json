@@ -1,0 +1,16 @@
+{
+  "title": "Migrating from Octopress to Pelican",
+  "link": "",
+  "published": "2013-05-07T17:00:00-07:00",
+  "updated": "2013-05-07T17:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-05-07:blog/2013/05/07/migrating-from-octopress-to-pelican/",
+  "summary": "<p>After nine months on Octopress, I've decided to move on.</p>\n<p>I should start by saying that Octopress is a great platform for static\nblogging: it's powerful, flexible, well-supported, well-integrated with\nGitHub pages, and has tools and plugins to do just about anything you might\nimagine.  There's only one problem:</p>\n<p>It's written in Ruby.</p>\n<p>Now I don't have anything against Ruby per se.  However, it was starting to\nseem a bit awkward that a blog called <em>Pythonic Perambulations</em>\nwas built with Ruby, especially given the availability of so many\nexcellent Python-based static site generators\n(<a href=\"http://hyde.github.io/\">Hyde</a>,\n<a href=\"http://nikola.ralsina.com.ar/\">Nikola</a>,\nand <a href=\"http://getpelican.com\">Pelican</a> in particular).</p>\n<p>Additionally, a few things with Octopress were starting to become difficult:",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
