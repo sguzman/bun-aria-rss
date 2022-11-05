@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40840 (ndkadvancedcustomizationfields)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40840",
+  "description": "ndk design NdkAdvancedCustomizationFields 3.5.0 is vulnerable to Cross Site Scripting (XSS) via createPdf.php.",
+  "dc:date": "2022-11-02T13:15:19Z"
+}
