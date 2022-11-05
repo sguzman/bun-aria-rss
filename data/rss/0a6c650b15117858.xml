@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Data Science Blog: Understand. Implement. Succed.</title>
+    <link>https://www.datascienceblog.net/post/</link>
+    <description>Recent content in Posts on Data Science Blog: Understand. Implement. Succed.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.datascienceblog.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automating the Documentation of ML Experiments using Python and AsciiDoc</title>
+      <link>https://www.datascienceblog.net/post/other/documenting-experiments-asciidoctor-python/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/other/documenting-experiments-asciidoctor-python/</guid>
+      <description>In this post, I want to share how Python can be used to automate the documentation of machine-learning (ML) experiments using AsciiDoc.
+The search for the best-performing ML model is an empirical process, which involves fitting models with differing parameters and evaluating their predictive performance. Only after a multitude (e.g. hundreds or thousands) of models have been evaluated, is it possible confidently proclaim that a suitable model has been identified. The major challenge of running vast numbers of experiments is that they are time- and compute-intensive because results usually have to be delivered within a certain time frame (e.</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Data Science Tech Radar</title>
+      <link>https://www.datascienceblog.net/post/commentary/data-science-ai-tech-radar/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/data-science-ai-tech-radar/</guid>
+      <description>Radar visualizations for technological choices have been pioneered by ThoughtWorks. In the meantime, many organizations have created their own tech radars to map out which technologies should be considered for use by members of the organization.
+The German online fashion retailer Zalando has even made the source code of their tech radar publicly available. Since technological decisions for data science and AI projects are distinct from conventional applications, I decided to adapt Zalando&amp;rsquo;s tech radar.</description>
+    </item>
+    
+    <item>
+      <title>The Essential Protobuf Guide for Python</title>
+      <link>https://www.datascienceblog.net/post/programming/essential-protobuf-guide-python/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/programming/essential-protobuf-guide-python/</guid>
+      <description>Protocol buffers (Protobuf) are a language-agnostic data serialization format developed by Google. Protobuf is great for the following reasons:
+ Low data volume: Protobuf makes use of a binary format, which is more compact than other formats such as JSON. Persistence: Protobuf serialization is backward-compatible. This means that you can always restore previous data, even if the interfaces have changed in the meantime. Design by contract: Protobuf requires the specification of messages using explicit identifiers and types.</description>
+    </item>
+    
+    <item>
+      <title>Boost your Data Science Research with a Free GPU Server</title>
+      <link>https://www.datascienceblog.net/post/other/hostkey-gpu-grant-program/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/other/hostkey-gpu-grant-program/</guid>
+      <description>Are you a researcher in data science? Are you in desparate need for GPU ressources for your next project? Then you should know that a GPU server may be just around the corner.
+HOSTKEY is currently hosting a competition where you can win a grant for free GPU ressources. The competition is open to all researchers in the data science sphere.
+Application Criteria for the Grant Program If you want to apply, you have to send the following information:</description>
+    </item>
+    
+    <item>
+      <title>How to Bypass Corporate Firewalls?</title>
+      <link>https://www.datascienceblog.net/post/other/how-to-bypass-corporate-firewall/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/other/how-to-bypass-corporate-firewall/</guid>
+      <description>Companies usually have firewalls in place, which ensure that the internal network is protected. To access the outside world, all traffic must be routed through a proxy. When you are using the standard operating system (typically Windows), you are automatically authenticated with this proxy.
+However, when you are using a non-standard operating system (e.g. through a virtual machine running Linux), you are not automatically authenticated with the company&amp;rsquo;s proxy. The sad result: you won&amp;rsquo;t be able to access the internet out of the box.</description>
+    </item>
+    
+    <item>
+      <title>REST API Development with Flask</title>
+      <link>https://www.datascienceblog.net/post/programming/flask-api-development/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/programming/flask-api-development/</guid>
+      <description>&lt;p&gt;Flask is a lightweight Python web development framework that is becoming more and more popular, as you can see from this comparison
+against &lt;a href=&#34;https://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Becoming an AWS Certified Cloud Solutions Architect Associate</title>
+      <link>https://www.datascienceblog.net/post/commentary/becoming-an-aws-certified-cloud-solutions-architect-associate/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/becoming-an-aws-certified-cloud-solutions-architect-associate/</guid>
+      <description>AWS (Amazon Web Services) certifications are among the most lucrative certifications in the IT sector. This is due to the growing demand for professionals with cloud expertise, as more and more companies are adopting cloud technology. Furthermore, AWS upholds high quality standards when it comes to certification. So, while certification can be challenging, there is a lot to learn along the way.
+I only recently had my first exposure to cloud computing when I took on a DevOps role in industry in 2019.</description>
+    </item>
+    
+    <item>
+      <title>Plagiarism in Academia</title>
+      <link>https://www.datascienceblog.net/post/commentary/plagiarism-in-academia/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/plagiarism-in-academia/</guid>
+      <description>The Cambridge Dictionary defines plagiarism as ‘the process or practice of using another person’s ideas or work and pretending that it is your own’. In the last years, there have been several famous Germans who lost their PhD titles due to plagiarizing their doctoral theses. In Germany, VroniPlag is the largest open community that analyzes scientific work with respect to plagiarism. Most notably, in 2011, Guttenplag (a specific group of plagiarism hunters) published a detailed analysis of the doctoral thesis by Karl-Theodor zu Guttenberg, the German defense minister at that time.</description>
+    </item>
+    
+    <item>
+      <title>Rewriting History with Git</title>
+      <link>https://www.datascienceblog.net/post/programming/rewriting-history-with-git/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/programming/rewriting-history-with-git/</guid>
+      <description>
+&lt;script src=&#34;https://www.datascienceblog.net/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Let’s say you are currently adding new arguments to an installation script for your software. After some work, your commit history may look different than you
+would like.
+</description>
+    </item>
+    
+    <item>
+      <title>The Roles You will Encounter in Most IT Projects</title>
+      <link>https://www.datascienceblog.net/post/other/roles_in_it_projects/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/other/roles_in_it_projects/</guid>
+      <description>When I started working in the IT sector, I was impressed by the large number of different roles that exist and it took me quite a bit of time to understand their individual responsibilities. That is why I thought it would be nice to share my understanding of the most common roles you will encounter in IT projects.
+You should definitely read this post if you are thinking about applying for position in the information technology sector but are unsure which one is the right fit for you or if you’re already working in IT and want to improve your understanding of other roles.</description>
+    </item>
+    
+    <item>
+      <title>Two Environment Variables for More Robust R Code</title>
+      <link>https://www.datascienceblog.net/post/programming/more-robust-r-code-with-environment-variables/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/programming/more-robust-r-code-with-environment-variables/</guid>
+      <description>
+&lt;script src=&#34;https://www.datascienceblog.net/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I was recently alerted because my Bioconductor package &lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/openPrimeR.html&#34;&gt;openPrimeR&lt;/a&gt; was failing the automated package tests.
+The reason for this is that the Bioconductor team has decided to set a new environment variable when testing the packages.
+</description>
+    </item>
+    
+    <item>
+      <title>Navigating in Gridworld using Policy and Value Iteration</title>
+      <link>https://www.datascienceblog.net/post/reinforcement-learning/mdps_dynamic_programming/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/reinforcement-learning/mdps_dynamic_programming/</guid>
+      <description>In reinforcement learning, we are interested in identifying a policy that maximizes the obtained reward. Assuming a perfect model of the environment as a Markov decision process (MDPs), we can apply dynamic programming methods to solve reinforcement learning problems.
+In this post, I present three dynamic programming algorithms that can be used in the context of MDPs. To make these concepts more understandable, I implemented the algorithms in the context of a gridworld, which is a popular example for demonstrating reinforcement learning.</description>
+    </item>
+    
+    <item>
+      <title>The SOLID Principles: a Guide for Object-Oriented Design</title>
+      <link>https://www.datascienceblog.net/post/programming/object-oriented-design-solid-principles/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/programming/object-oriented-design-solid-principles/</guid>
+      <description>For designing object-oriented software, five principles have emerged over the years. These principles are summarized by the acronym SOLID, which stands for:
+ S: The single-responsibility principle O: The open-closed principle L: The Liskov substitution principle I: The interface segregation principle D The dependency inversion principle  In this post, I aim to give a succinct summary of the principles together with practical examples on how to apply them.</description>
+    </item>
+    
+    <item>
+      <title>The 5 Skills of Successful PhD Students</title>
+      <link>https://www.datascienceblog.net/post/commentary/5-skills-successful-phd-students/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/5-skills-successful-phd-students/</guid>
+      <description>A PhD is not only a test of professional aptitude but also a test of character. Looking back at my time as a PhD student, I can say that it has been a taxing but equally rewarding time that I wouldn’t exchange for anything in the world. Doing a PhD has not only improved my scientific and technical understanding but has also strengthened my character.
+In this post I describe five characteristics that I found to be helpful in successfully completing my PhD.</description>
+    </item>
+    
+    <item>
+      <title>Preventing Spam Using ReCAPTCHA and Staticman</title>
+      <link>https://www.datascienceblog.net/post/other/recaptcha/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/other/recaptcha/</guid>
+      <description>As you probably know, I’m a big fan of Staticman’s approach to enable dynamic content on static web sites. When I introduced comments on this blog, things quickly got out of hand: Each day, I would receive roughly five comments that were posted by bots.
+Spam comments as pull requests in GitHub
+ Manually approving each post quickly became a nuisance, which is why I deactivated Staticman again after some time.</description>
+    </item>
+    
+    <item>
+      <title>Transitioning from Academia to Industry</title>
+      <link>https://www.datascienceblog.net/post/commentary/transitioning-from-academia-to-industry/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/transitioning-from-academia-to-industry/</guid>
+      <description>Having recently transitioned from academia to industry, I’d like to share what I found are the greatest differences between working in industry and academia. Since this article is based on my personal experiences, I would first like introduce my respective roles in research and in industry. After that, I will summarize the main differences between industry and academia. Finally, I offer some pieces of advice regarding how to prepare for an industry job when transitioning from academia.</description>
+    </item>
+    
+    <item>
+      <title>Studying Bioinformatics: Is it Worth it?</title>
+      <link>https://www.datascienceblog.net/post/commentary/studying-bioinformatics-is-it-worth-it/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/studying-bioinformatics-is-it-worth-it/</guid>
+      <description>Having obtained both a Bachelor’s and a Master’s degree in bioinformatics, I would like to describe how I experienced studying bioinformatics. Moreover, I would like to discuss whether it was worth studying in the first place, and, finally, to offer some advice to prospective students and graduates.
+What is Bioinformatics? Bioinformatics is an interdisciplinary field that is concerned with developing and applying methods from computer science on biological problems.</description>
+    </item>
+    
+    <item>
+      <title>Why Academic Software Sucks</title>
+      <link>https://www.datascienceblog.net/post/commentary/why-academic-software-sucks/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/commentary/why-academic-software-sucks/</guid>
+      <description>During my time as a PhD student I have developed software in the academic setting. At that time I was already under the impression that my work would probably not meet industry standards. Having recently transitioned to an industry job, I quickly realized how coding in academia is different from coding in industry. This post summarizes the main differences between the two fields and extrapolates what coders in academia can learn from industry.</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to Forecasting</title>
+      <link>https://www.datascienceblog.net/post/machine-learning/forecasting-an-introduction/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/machine-learning/forecasting-an-introduction/</guid>
+      <description>Forecasting is concerned with making predictions about future observations by relying on past measurements. In this article, I will give an introduction how ARMA, ARIMA (Box-Jenkins), SARIMA, and ARIMAX models can be used for forecasting given time-series data.
+Preliminaries Before we can talk about models for time-series data, we have to introduce two concepts.
+The backshift operator Given the time series \(y = \{y_1, y_2, \ldots \}\), the backshift operator (also called lag operator) is defined as</description>
+    </item>
+    
+    <item>
+      <title>Prediction vs Forecasting</title>
+      <link>https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/</guid>
+      <description>In supervised learning, we are often concerned with prediction. However, there is also the concept of forecasting. Here, I will discuss the differences between the two concepts so that we can answer the question why weather forecasting is not called weather prediction.
+Predicion and forecasting Prediction is concerned with estimating the outcomes for unseen data. For this purpose, you fit a model to a training data set, which results in an estimator \(\hat{f}(x)\) that can make predictions for new samples \(x\).</description>
+    </item>
+    
+  </channel>
+</rss>
