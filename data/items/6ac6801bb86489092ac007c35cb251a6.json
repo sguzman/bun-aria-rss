@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:4m_EaWA08H0",
+  "yt:videoId": "4m_EaWA08H0",
+  "yt:channelId": "UCzBjutX2PmitNF4avysL-vg",
+  "title": "Algebraic number theory - an illustrated guide | Is 5 a prime number?",
+  "link": "",
+  "author": {
+    "name": "Aleph 0",
+    "uri": "https://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg"
+  },
+  "published": "2022-03-10T22:00:04+00:00",
+  "updated": "2022-07-22T19:36:50+00:00",
+  "media:group": {
+    "media:title": "Algebraic number theory - an illustrated guide | Is 5 a prime number?",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video is an introduction to Algebraic Number Theory, and a subfield of it called Iwasawa Theory. It describes how prime numbers factor in infinite towers of number rings. \n\nHelp fund future projects: https://www.patreon.com/aleph0\nAn equally valuable form of support is to simply share the videos.\n\nMinor corrections:\n\nat 4:58: I should have said \"closed under addition and *subtraction*\" instead of \"closed under addition and multiplication.\" The text on the screen is correct.\nat 16:32: Instead of the \"power of p dividing the class number\", this should read the \"p-part of the class number\". \n\nSOURCES and REFERENCES for Further Reading!\n\nThis video is a quick-and-dirty introduction to Algebraic Number Theory. But as with any quick introduction, there are details that I gloss over for the sake of brevity. To learn these details rigorously, I've listed a few resources down below.\n\n(a) ALGEBRAIC NUMBER THEORY\n\nAlgebraic Number Theory notes by Professor Robert Ash: https://faculty.math.illinois.edu/~r-ash/ANT.html. These notes are quite thorough and they have a lot of core material needed for algebraic number theory. \n\nAlgebraic Number Theory videos by Billy Woods: https://www.youtube.com/playlist?list=PLSibAQEfLnTwq2-zCB-t9v2WvnnVKd0wn. These videos are *very* well made and they have all the core intuitions in them. I personally loved how visual they are; they make the concepts feel a lot more visceral.\n\nPREREQUISITES: The prerequisites for learning Algebraic Number Theory are: group theory, ring theory, and Galois theory. It's possible to get a basic non-rigorous feel for the subject without these prerequisites, which is what I tried to do in this video. But if you want to know the details (for example: you might have asked: what *exactly* is a number ring?), then these prerequisites are essential. To learn these prereqs, check out the previous video on this channel, \"How to self study math\", where there are a bunch of resources to learn these prereqs.  \n\n(b) IWASAWA THEORY \n\nIntroduction to Cyclotomic Fields by Lawrence Washington: This book is AMAZING! To see Iwasawa theory in action, skip directly to chapter 13, Iwasawa's theory of Zp extensions. (You don't need to read the book in sequential order because the chapters are largely independent.) The proof of this theorem is just miraculous. \n\nPREREQUISITES: Algebraic Number Theory (that is, the previous section). \n\n-----\n\nWORKS CITED\n\nThe data of class numbers for the cyclotomic number rings was from here: \nhttps://oeis.org/A055513\nThis list is only for cyclotomic number rings (Z adjoin a p-th root of unity) where p is a *prime* number.\n\nThe two examples of class numbers (class numbers 100 and 2000) was from the L-functions and Modular Forms database:\nhttps://www.lmfdb.org/NumberField/\n\n-----\n\nMUSIC CREDITS:\nThe song is “Taking Flight”, by Vince Rubinetti.\nhttps://www.vincentrubinetti.com/\n\nTHANK YOUs:\nExtra special thanks to Davide Radaelli and Vivek Verma (@vcubingx) for helpful conversations while making this video. you guys rock!!\n\nFollow me!\nTwitter: @00aleph00\nInstagram: @00aleph00\n\nIntro: (0:00)\nNumber Rings: (1:41)\nIdeals: (4:46)\nUnique Factorization: (8:55)\nClass Numbers: (11:41)\nIwasawa Theory: (14:53)\nThank you!: (18:37)\nLearning Resources: (18:49)\nPatreon: (19:45)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

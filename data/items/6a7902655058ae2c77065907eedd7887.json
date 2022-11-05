@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:zu6aVvbAVg4",
+  "yt:videoId": "zu6aVvbAVg4",
+  "yt:channelId": "UCvqbFHwN-nwalWPjPUKpvTA",
+  "title": "The Road to SLSA4 – Applying the Sigstore Ecosystem in a Corporate Environment- Alex Ilgayev, Cycode",
+  "link": "",
+  "author": {
+    "name": "CNCF [Cloud Native Computing Foundation]",
+    "uri": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA"
+  },
+  "published": "2022-11-03T18:25:25+00:00",
+  "updated": "2022-11-04T20:56:06+00:00",
+  "media:group": {
+    "media:title": "The Road to SLSA4 – Applying the Sigstore Ecosystem in a Corporate Environment- Alex Ilgayev, Cycode",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2023 in Amsterdam, The Netherlands from April 17-21. Learn more at https://kubecon.io​. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nThe Road to SLSA4 – Applying the Sigstore Ecosystem in a Corporate Environment - Alex Ilgayev, Cycode\n\nSigstore’s ecosystem enables signing, verifying, and protecting software artifacts in a new way. By doing so, we can confirm that the software is what it claims to be. As part of the rising concerns of software supply chain attacks, we decided to adopt the Sigstore tooling, integrate it as part of our environment to increase the integrity level of our software artifacts, and share our insights of the process. In implementing Sigstore's ecosystem, we encountered several challenges that may be common to other organizations - our artifacts run on cloud-native, self-hosted, and even on-premise environments, and we use several build services, including a self-hosted K8s cluster. During the talk, we’ll explore the following concepts: - The trade-off for self-hosting rekor/fulcio instances against using public ones’. - Implementing “keyless” commit signatures with the gitsign utility instead of standard GPG. - Developing methodology and tools to verify commit signatures. - Using spiffe/spire to give our ephemeral build workloads identities. - Utilizing OIDC tokens for keyless signatures on artifacts in various build environments. - Developing methodology and tools to verify artifacts.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

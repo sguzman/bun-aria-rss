@@ -1,0 +1,13 @@
+{
+  "title": "Losses Learned",
+  "description": "The cross-entropy loss is our go-to loss for training deep learning-based classifiers. In this article, I am giving you a quick tour of how we usually compute the cross-entropy loss and how we compute it in PyTorch. There are two parts to it, and here we will look at a binary classification context first. You may wonder why bother writing this article; computing the cross-entropy loss should be relatively straightforward!? Yes and no. We can compute the cross-entropy loss in one line of code, but there's a common gotcha due to numerical optimizations under the hood. (And yes, when I am not careful, I sometimes make this mistake, too.) So, in this article, let me tell you a bit about deep learning jargon, improving numerical performance, and what could go wrong.",
+  "pubDate": "Mon, 04 Apr 2022 15:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2022/losses-learned-part1.html",
+  "guid": "https://sebastianraschka.com/blog/2022/losses-learned-part1.html",
+  "category": [
+    "Deep",
+    "Learning,",
+    "Machine",
+    "Learning"
+  ]
+}
