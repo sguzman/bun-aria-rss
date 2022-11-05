@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-26730 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26730",
+  "description": "A memory corruption issue existed in the processing of ICC profiles. This issue was addressed with improved input validation. This issue is fixed in macOS Ventura 13. Processing a maliciously crafted image may lead to arbitrary code execution.",
+  "dc:date": "2022-11-01T20:15:17Z"
+}
