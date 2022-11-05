@@ -1,0 +1,8 @@
+{
+  "title": "Critical Remote Code Execution Vulnerabilities in Windows RPC Runtime",
+  "description": "Microsoft?s April 2022 Patch Tuesday introduced patches to more than a hundred new vulnerabilities in various components. Three critical vulnerabilities were found and patched in Windows RPC (Remote Procedure Call) runtime:\nCVE-2022-24492 and CVE-2022-24528 (discovered by Yuki Chen with Cyber KunLun)\nCVE-2022-26809 (discovered by BugHunter010 with Kunlun)",
+  "link": "https://www.akamai.com/blog/security/critical-remote-code-execution-vulnerabilities-windows-rpc-runtime",
+  "author": "Ben Barnea & Ophir Harpaz",
+  "guid": "https://www.akamai.com/blog/security/critical-remote-code-execution-vulnerabilities-windows-rpc-runtime",
+  "pubDate": "Wed, 13 Apr 2022 09:15 AM UTC"
+}

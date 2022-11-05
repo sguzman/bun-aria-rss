@@ -1,0 +1,9 @@
+{
+  "title": "Fast bindings for LibSVM in scikits.learn",
+  "link": "http://fa.bianp.net/blog/2010/fast-bindings-for-libsvm-in-scikitslearn/",
+  "description": "<p><a class=\"reference external\" href=\"http://www.csie.ntu.edu.tw/~cjlin/libsvm/\">LibSVM</a> is a C++ library that implements several Support Vector\nMachine algorithms that are commonly used in machine learning. It is a\nfast library that has no dependencies and most machine learning\nframeworks bind it in some way or another. LibSVM comes with a Python\ninterface written in swig, but …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 09 Mar 2010 15:49:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-03-09:/blog/2010/fast-bindings-for-libsvm-in-scikitslearn/",
+  "category": "General, scikit-learn, Tecnologí­a"
+}
