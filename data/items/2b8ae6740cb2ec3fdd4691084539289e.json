@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-6019 (game_networking_sockets)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-6019",
+  "description": "Valve's Game Networking Sockets prior to version v1.2.0 improperly handles inlined statistics messages in function CConnectionTransportUDPBase::Received_Data(), leading to an exception thrown from libprotobuf and resulting in a crash.",
+  "dc:date": "2020-11-13T16:15:18Z"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "What’s new in Firestore from Cloud Next and Firebase Summit 2022",
+  "link": "https://cloud.google.com/blog/products/databases/whats-new-in-firestore-from-cloud-next-and-firebase-summit-2022/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p>Developers love <a href=\"https://cloud.google.com/firestore\">Firestore</a> because of how fast they can build an application end to end. Over 4 million databases have been created in Firestore, and Firestore applications power more than 1 billion monthly active end users using Firebase Auth. We want to ensure developers can focus on productivity and enhanced developer experience, especially when their apps are experiencing hyper-growth. To achieve this, we’ve made updates to Firestore that are all aimed at developer experience, supporting growth and reducing costs.</p><h3>COUNT function</h3><p>We’ve rolled out the COUNT() function, which gives you the ability to perform cost-efficient, scalable, count aggregations. This capability supports use cases like counting the number of friends a user has, or determining the number of documents in a collection. </p><p>For more information, check out our <a href=\"https://cloud.google.com/blog/products/databases/aggregating-data-with-firestore\">Powering up Firestore to COUNT() cost-efficiently</a> blog.</p><h3>Query Builder and Table View</h3><p>We’ve rolled out Query Builder to enable users to visually construct queries directly in the console across Google Cloud and Firebase platforms. The results are also shown in a table format to enable deeper data exploration.</p><p>For more information, check out our <a href=\"https://cloud.google.com/blog/topics/developers-practitioners/querying-firestore-cloud-console\">Query Builder</a> blog.</p></div></div><div class=\"block-image_full_width\"><div class=\"article-module h-c-page\"><div class=\"h-c-grid\"><figure class=\"article-image--large h-c-grid__col h-c-grid__col--6 h-c-grid__col--offset-3 \"><img alt=\"firestore.jpg\" src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/firestore.max-1000x1000.jpg\"/></figure></div></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><h3>Scalable backend-as-a-service (BaaS)</h3><p>Firestore BaaS has always been able to scale to millions of concurrent users consuming data with real time queries, but up until now, there has been a limit of 10,000 write operations per second per database. While this is plenty for most applications, we are happy to announce that we are now removing this limit and moving to a model where the system scales up automatically as your write traffic increases.</p><p>For applications using Firestore as a backend-as-a-service, we've removed the limits for write throughput and concurrent active connections. As your app takes off with more users, you can be confident that Firestore will scale smoothly. </p><p>For more information, check out our  <a href=\"https://cloud.google.com/blog/products/databases/building-scalable-real-time-applications-with-firestore\">Building Scalable Real Time Applications with Firestore</a> blog.</p><h3>Time-to-live</h3><p>To help you efficiently manage storage costs, we’ve introduced <a href=\"https://cloud.google.com/firestore/docs/ttl\"><b>time-to-live (TTL)</b></a>, which enables you to pre-specify when documents should expire, and rely on Firestore to automatically delete expired documents.</p><p>For more information, check out our blog: <a href=\"https://cloud.google.com/blog/products/databases/manage-storage-costs-using-time-to-live-in-firestore\">Manage Storage Costs Using Time-to-Live in Firestore</a></p><h3>Additional Features for Performance and Developer Experience</h3><p>In addition, the following features have been added to further improve performance and developer experience:</p><p><b>Tags</b> have been added to enable developers to tag databases, along with other Google Cloud resources, to apply policy and observer group billing.<br/></p><p><b>Cross-service security rules</b> allow secure sharing of Cloud Storage objects, by referencing Firestore data in Cloud Storage Security Rules.</p><p><b>Offline query (client-side) indexing <sup>Preview</sup></b> enables more performant client-side queries by indexing data stored in the web and mobile cache.  Read <a href=\"https://firebase.google.com/docs/firestore/manage-data/enable-offline#configure_offline_query_indexes\" target=\"_blank\">documentation</a> for more information.</p><h3>What’s next</h3><p>Get started with <a href=\"https://cloud.google.com/firestore\">Firestore</a>.</p></div></div></body></html>",
+  "pubDate": "Tue, 01 Nov 2022 16:00:00 -0000",
+  "guid": "https://cloud.google.com/blog/products/databases/whats-new-in-firestore-from-cloud-next-and-firebase-summit-2022/",
+  "category": [
+    "Developers & Practitioners",
+    "Google Cloud",
+    "Databases"
+  ],
+  "og": {
+    "type": "article",
+    "title": "What’s new in Firestore from Cloud Next and Firebase Summit 2022",
+    "description": "Use Firestore to unlock application innovation with simplicity, speed and confidence.",
+    "site_name": "Google",
+    "url": "https://cloud.google.com/blog/products/databases/whats-new-in-firestore-from-cloud-next-and-firebase-summit-2022/"
+  },
+  "author": [
+    {
+      "name": "Dong Chang",
+      "title": "Product Manager, Firestore",
+      "department": "",
+      "company": ""
+    },
+    {
+      "name": "Chaitra Ramarao",
+      "title": "Product Manager, Firestore",
+      "department": "",
+      "company": ""
+    }
+  ]
+}
