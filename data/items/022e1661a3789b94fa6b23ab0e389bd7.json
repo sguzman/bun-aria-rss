@@ -1,0 +1,7 @@
+{
+  "title": "A Real TI-83 Craps Simulation Teaches Beginning Probability",
+  "link": "http://viXra.org/abs/2211.0024",
+  "pubDate": "2022-11-03 10:40:52",
+  "category": "General Mathematics",
+  "description": "\n     <b>reference:</b> viXra:2211.0024v1<br/>\n     <b>title:</b>     A Real TI-83 Craps Simulation Teaches Beginning Probability<br/>\n     <b>authors:</b>   Timothy W. Jones<br/>\n     <b>category:</b>  General Mathematics<br/>\n     <b>type:</b>      submission<br/>\n     <b>date:</b>      2022-11-03 10:40:52 <br/>\n     <b>abstract:</b>  \nSimple craps, a Vegas casino game, is easily modeled using a TI-83's programming, list, and statistics features.  Roll two dice.  If the coming out roll, as it is called is 2, 3, or 12, the player immediately loses.  If a 7 or 11 is rolled, they immediately win.  If any of the remaining totals are rolled, if the player rolls that number before rolling a 7, they win, not they lose.  A program can be initialized with a bank roll and a standard, non-changing bet.  Using the list feature 999 rolls, the maximum size of a list, can be stored in a built-in list.  A bar chart for the distribution of numbers is easily generated and confirms the calculated probabilities.  The code to mimic the game is straight-forward.  The user repeatedly plays the game until the stake is 0, an inevitability given say a stake of $100 and a bet of $5.  This certainty instills the truth: it's a loser's game.\n  \n   "
+}
