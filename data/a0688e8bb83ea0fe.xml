@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Ryan Swanstrom</title>
+	<atom:link href="https://ryanswanstrom.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ryanswanstrom.com/</link>
+	<description>Technology &#38; Data Science Educator</description>
+	<lastBuildDate>Mon, 08 Feb 2021 17:04:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Data Science on Azure</title>
+		<link>https://ryanswanstrom.com/2021/02/08/data-science-azure/</link>
+					<comments>https://ryanswanstrom.com/2021/02/08/data-science-azure/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Mon, 08 Feb 2021 17:04:09 +0000</pubDate>
+				<category><![CDATA[Data Science 101]]></category>
+		<category><![CDATA[Microsoft Azure Data Science]]></category>
+		<category><![CDATA[The Example Show]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Azure Machine Learning]]></category>
+		<category><![CDATA[data science]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8354</guid>
+
+					<description><![CDATA[<p>Learn about Building Data Science Solutions on Azure Join us for a discussion on data science on Azure. I was lucky enough to get Priyanshi Singh and Julian Soh to join me for a conversation about their newest book and their data science careers. This should be a fun conversation and highly informative. Please feel [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/02/08/data-science-azure/">Data Science on Azure</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img decoding="async" width="512" height="512" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=512%2C512&#038;ssl=1" alt="Data Science on Azure with book Authors" class="wp-image-8356 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=66%2C66&amp;ssl=1 66w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/Data-Science-Azure-square.png?fit=512%2C512&amp;ssl=1 512w" sizes="(max-width: 512px) 100vw, 512px" data-recalc-dims="1" /></figure><div class="wp-block-media-text__content">
+<h2>Learn about Building Data Science Solutions on Azure</h2>
+
+
+
+<p>Join us for a discussion on data science on Azure. I was lucky enough to get Priyanshi Singh and Julian Soh to join me for a conversation about their newest book and their data science careers. This should be a fun conversation and highly informative.</p>
+
+
+
+<p>Please feel free to bring your questions, even the technical questions.</p>
+
+
+
+<h4>Connect with Priyanshi Singh</h4>
+
+
+
+<ul class="is-layout-flex wp-block-social-links"><li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/priyanshi-singh-002007133/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li></ul>
+
+
+
+<h4>Connect with Julian Soh</h4>
+
+
+
+<ul class="is-layout-flex wp-block-social-links"><li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/juliansoh/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li></ul>
+
+
+
+<p></p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-coblocks-row coblocks-row-1893551227" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter" style="background-color:#edece8">
+<div class="wp-block-coblocks-column coblocks-column-1893553410" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
+<h3 class="has-text-align-center">Watch the Show on <strong><a href="https://www.amazon.com/live/broadcast/8f6ad6da-be0f-45b2-91be-fe6e1b102e9f">Amazon Live</a></strong></h3>
+
+
+
+<p class="has-text-align-center">Date: February 9, 2021 at 2:10 PM CST &#8211; I hope you can join us</p>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h3>We will dive into Microsoft Azure for data science and building a career in data</h3>
+
+
+
+<p>There will be a lot to discuss with these two authors. Here is a list of some of the questions to be covered:</p>
+
+
+
+<ul><li>Why write this book?</li><li>Walk us thru the book and how it can help someone.</li><li>How would you define MLOps?</li><li>How can Azure Machine Learning help a company?</li><li>When does a company need to start considering Databricks?</li><li>What are some common challenges you are seeing organization making regarding data?</li><li>What are some trends you see regarding data?</li><li>How did your career journey bring you to where it is?</li><li>What has writing a book done for your career?</li><li>What are some career tips for people transitioning to a data science career?</li><li>Plus, as always, your questions are welcome (and encouraged) during the live show</li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:19% auto"><figure class="wp-block-media-text__media"><a href="https://amzn.to/3aKKoLd"><img decoding="async" width="330" height="499" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/datascience-solutions-on-azure.jpg?resize=330%2C499&#038;ssl=1" alt="Data Science Solutions on Azure book cover" class="wp-image-8357 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/datascience-solutions-on-azure.jpg?resize=198%2C300&amp;ssl=1 198w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/datascience-solutions-on-azure.jpg?resize=200%2C302&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/02/datascience-solutions-on-azure.jpg?fit=330%2C499&amp;ssl=1 330w" sizes="(max-width: 330px) 100vw, 330px" data-recalc-dims="1" /></a></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">Get a copy of the book, <strong><a href="https://amzn.to/3aKKoLd" target="_blank" rel="noreferrer noopener">Data Science Solutions on Azure</a></strong></p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>See more episodes of <a href="https://ryanswanstrom.com/TheExampleShow">The Example Show</a>.</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/02/08/data-science-azure/">Data Science on Azure</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/02/08/data-science-azure/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Data Management &#038; Data Stories with Scott Taylor</title>
+		<link>https://ryanswanstrom.com/2021/01/25/data-management-data-stories-with-scott-taylor/</link>
+					<comments>https://ryanswanstrom.com/2021/01/25/data-management-data-stories-with-scott-taylor/#respond</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Mon, 25 Jan 2021 22:52:37 +0000</pubDate>
+				<category><![CDATA[Data Science 101]]></category>
+		<category><![CDATA[The Example Show]]></category>
+		<category><![CDATA[data management]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8340</guid>
+
+					<description><![CDATA[<p>Data Management with Scott Taylor Scott, better known as The Data Whisperer, has spent over two decades solving DATA problems. Scott is an expert in Data Management and storytelling. He recently wrote a book, Telling Your Data Story, to help companies do just that. He is also a live streamer, video creator, podcaster, and entertaining [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/25/data-management-data-stories-with-scott-taylor/">Data Management &#038; Data Stories with Scott Taylor</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img decoding="async" width="512" height="512" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=512%2C512&#038;ssl=1" alt="Data Management and Stories with Scott Taylor" class="wp-image-8341 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=66%2C66&amp;ssl=1 66w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Data-Management-Scott-Taylor-square.png?fit=512%2C512&amp;ssl=1 512w" sizes="(max-width: 512px) 100vw, 512px" data-recalc-dims="1" /></figure><div class="wp-block-media-text__content">
+<h2>Data Management with Scott Taylor</h2>
+
+
+
+<p>Scott, better known as <em>The Data Whisperer</em>, has spent over two decades solving DATA problems. Scott is an expert in Data Management and storytelling.  He recently wrote a book, Telling Your Data Story, to help companies do just that. </p>
+
+
+
+<p></p>
+
+
+
+<p>He is also a live streamer, video creator, podcaster, and entertaining person. </p>
+
+
+
+<h4>Connect with Scott Taylor</h4>
+
+
+
+<ul class="is-layout-flex wp-block-social-links"><li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/scottmztaylor/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li class="wp-social-link wp-social-link-twitter wp-block-social-link"><a href="https://twitter.com/stdatawhisperer"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span></a></li>
+
+<li class="wp-social-link wp-social-link-chain wp-block-social-link"><a href="https://www.metametaconsulting.com/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.647,16.706a1.134,1.134,0,0,0-.343-.833l-2.549-2.549a1.134,1.134,0,0,0-.833-.343,1.168,1.168,0,0,0-.883.392l.233.226q.2.189.264.264a2.922,2.922,0,0,1,.184.233.986.986,0,0,1,.159.312,1.242,1.242,0,0,1,.043.337,1.172,1.172,0,0,1-1.176,1.176,1.237,1.237,0,0,1-.337-.043,1,1,0,0,1-.312-.159,2.76,2.76,0,0,1-.233-.184q-.073-.068-.264-.264l-.226-.233a1.19,1.19,0,0,0-.4.895,1.134,1.134,0,0,0,.343.833L15.837,19.3a1.13,1.13,0,0,0,.833.331,1.18,1.18,0,0,0,.833-.318l1.8-1.789a1.12,1.12,0,0,0,.343-.821Zm-8.615-8.64a1.134,1.134,0,0,0-.343-.833L8.163,4.7a1.134,1.134,0,0,0-.833-.343,1.184,1.184,0,0,0-.833.331L4.7,6.473a1.12,1.12,0,0,0-.343.821,1.134,1.134,0,0,0,.343.833l2.549,2.549a1.13,1.13,0,0,0,.833.331,1.184,1.184,0,0,0,.883-.38L8.728,10.4q-.2-.189-.264-.264A2.922,2.922,0,0,1,8.28,9.9a.986.986,0,0,1-.159-.312,1.242,1.242,0,0,1-.043-.337A1.172,1.172,0,0,1,9.254,8.079a1.237,1.237,0,0,1,.337.043,1,1,0,0,1,.312.159,2.761,2.761,0,0,1,.233.184q.073.068.264.264l.226.233a1.19,1.19,0,0,0,.4-.895ZM22,16.706a3.343,3.343,0,0,1-1.042,2.488l-1.8,1.789a3.536,3.536,0,0,1-4.988-.025l-2.525-2.537a3.384,3.384,0,0,1-1.017-2.488,3.448,3.448,0,0,1,1.078-2.561l-1.078-1.078a3.434,3.434,0,0,1-2.549,1.078,3.4,3.4,0,0,1-2.5-1.029L3.029,9.794A3.4,3.4,0,0,1,2,7.294,3.343,3.343,0,0,1,3.042,4.806l1.8-1.789A3.384,3.384,0,0,1,7.331,2a3.357,3.357,0,0,1,2.5,1.042l2.525,2.537a3.384,3.384,0,0,1,1.017,2.488,3.448,3.448,0,0,1-1.078,2.561l1.078,1.078a3.551,3.551,0,0,1,5.049-.049l2.549,2.549A3.4,3.4,0,0,1,22,16.706Z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Link</span></a></li></ul>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-coblocks-row coblocks-row-025155115823" data-columns="1" data-layout="100"><div class="wp-block-coblocks-row__inner has-background has-padding has-medium-padding has-no-margin is-stacked-on-mobile has-medium-gutter" style="background-color:#edece8">
+<div class="wp-block-coblocks-column coblocks-column-025155118629" style="width:100%"><div class="wp-block-coblocks-column__inner has-no-padding has-no-margin">
+<h3 class="has-text-align-center">Watch the Live Show on <strong><a href="https://www.amazon.com/live/broadcast/0f0bae17-b653-49af-a308-5094ec34ea16" target="_blank" rel="noreferrer noopener">Amazon Live</a></strong></h3>
+
+
+
+<p class="has-text-align-center">Date: 1/26/2021 at 2:10pm CST &#8211; I hope you can join us</p>
+</div></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>Data Management, Stories, Video and more topics</h2>
+
+
+
+<p>With Scott, there is a lot to discuss. Here are some of the potential topics.</p>
+
+
+
+<ul><li>What are common mistakes you see businesses make with regards to data?</li><li>What is an example of a great data story?</li><li>Why write this book now?</li><li>How has the data landscape changed over your career?</li><li>What is this 24-hour live stream about data I am hearing about?</li><li>How has content creation played a part in your career?</li><li>When it comes to data, what is one thing businesses could do better?</li><li>How did Scott get into webinars and podcasts?</li><li>Plus, as always, your questions are welcome during the live show</li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:19% auto"><figure class="wp-block-media-text__media"><img decoding="async" width="333" height="499" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Telling-your-data-story.jpg?resize=333%2C499&#038;ssl=1" alt="Telling Your Data Story book cover" class="wp-image-8343 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Telling-your-data-story.jpg?resize=200%2C300&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Telling-your-data-story.jpg?fit=333%2C499&amp;ssl=1 333w" sizes="(max-width: 333px) 100vw, 333px" data-recalc-dims="1" /></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">Get a copy of Scott&#8217;s latest book, <strong><a href="https://amzn.to/3ojqZFO" target="_blank" rel="noreferrer noopener">Telling Your Data Story</a></strong></p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>See more episodes of <a href="/TheExampleShow">The Example Show</a>.</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/25/data-management-data-stories-with-scott-taylor/">Data Management &#038; Data Stories with Scott Taylor</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/01/25/data-management-data-stories-with-scott-taylor/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Starting a Data Career</title>
+		<link>https://ryanswanstrom.com/2021/01/20/starting-a-data-career/</link>
+					<comments>https://ryanswanstrom.com/2021/01/20/starting-a-data-career/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Wed, 20 Jan 2021 13:34:00 +0000</pubDate>
+				<category><![CDATA[Data Science 101]]></category>
+		<category><![CDATA[The Example Show]]></category>
+		<category><![CDATA[career]]></category>
+		<category><![CDATA[data science]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8222</guid>
+
+					<description><![CDATA[<p>Starting a Data Career If you are just starting a career in data, you will not want to miss this live interview. Join me as I speak with Henrique Senra from Simbiose Ventures to discuss the book, Getting Started with Data. The book was written out of a desire to provide a better future for [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/20/starting-a-data-career/">Starting a Data Career</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img decoding="async" width="512" height="512" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=512%2C512&#038;ssl=1" alt="Begin Starting a Data Career with the book Getting Started with Data" class="wp-image-8262 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=66%2C66&amp;ssl=1 66w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Getting-started-with-data-Henrique-Senra-square.png?fit=512%2C512&amp;ssl=1 512w" sizes="(max-width: 512px) 100vw, 512px" data-recalc-dims="1" /></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">Starting a Data Career</p>
+
+
+
+<p>If you are just starting a career in data, you will not want to miss this live interview. </p>
+
+
+
+<p>Join me as I speak with Henrique Senra from Simbiose Ventures to discuss the book, <strong><a href="https://amzn.to/3nWmZLh" target="_blank" rel="noreferrer noopener">Getting Started with Data</a></strong>.</p>
+
+
+
+<p>The book was written out of a desire to provide a better future for low-income Brazilians.</p>
+
+
+
+<p>See the video on <strong><a href="https://www.amazon.com/live/broadcast/307300e5-ab42-4206-97db-3ce82bc56ae0" target="_blank" rel="noreferrer noopener">Amazon Live</a></strong></p>
+
+
+
+<p>Connect with Henrique</p>
+
+
+
+<ul class="is-layout-flex wp-block-social-links"><li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/henrique-s-b8a821a4/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li class="wp-social-link wp-social-link-chain wp-block-social-link"><a href="https://www.simbioseventures.com/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.647,16.706a1.134,1.134,0,0,0-.343-.833l-2.549-2.549a1.134,1.134,0,0,0-.833-.343,1.168,1.168,0,0,0-.883.392l.233.226q.2.189.264.264a2.922,2.922,0,0,1,.184.233.986.986,0,0,1,.159.312,1.242,1.242,0,0,1,.043.337,1.172,1.172,0,0,1-1.176,1.176,1.237,1.237,0,0,1-.337-.043,1,1,0,0,1-.312-.159,2.76,2.76,0,0,1-.233-.184q-.073-.068-.264-.264l-.226-.233a1.19,1.19,0,0,0-.4.895,1.134,1.134,0,0,0,.343.833L15.837,19.3a1.13,1.13,0,0,0,.833.331,1.18,1.18,0,0,0,.833-.318l1.8-1.789a1.12,1.12,0,0,0,.343-.821Zm-8.615-8.64a1.134,1.134,0,0,0-.343-.833L8.163,4.7a1.134,1.134,0,0,0-.833-.343,1.184,1.184,0,0,0-.833.331L4.7,6.473a1.12,1.12,0,0,0-.343.821,1.134,1.134,0,0,0,.343.833l2.549,2.549a1.13,1.13,0,0,0,.833.331,1.184,1.184,0,0,0,.883-.38L8.728,10.4q-.2-.189-.264-.264A2.922,2.922,0,0,1,8.28,9.9a.986.986,0,0,1-.159-.312,1.242,1.242,0,0,1-.043-.337A1.172,1.172,0,0,1,9.254,8.079a1.237,1.237,0,0,1,.337.043,1,1,0,0,1,.312.159,2.761,2.761,0,0,1,.233.184q.073.068.264.264l.226.233a1.19,1.19,0,0,0,.4-.895ZM22,16.706a3.343,3.343,0,0,1-1.042,2.488l-1.8,1.789a3.536,3.536,0,0,1-4.988-.025l-2.525-2.537a3.384,3.384,0,0,1-1.017-2.488,3.448,3.448,0,0,1,1.078-2.561l-1.078-1.078a3.434,3.434,0,0,1-2.549,1.078,3.4,3.4,0,0,1-2.5-1.029L3.029,9.794A3.4,3.4,0,0,1,2,7.294,3.343,3.343,0,0,1,3.042,4.806l1.8-1.789A3.384,3.384,0,0,1,7.331,2a3.357,3.357,0,0,1,2.5,1.042l2.525,2.537a3.384,3.384,0,0,1,1.017,2.488,3.448,3.448,0,0,1-1.078,2.561l1.078,1.078a3.551,3.551,0,0,1,5.049-.049l2.549,2.549A3.4,3.4,0,0,1,22,16.706Z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Link</span></a></li></ul>
+
+
+
+<p>See more episodes from <a href="/TheExampleShow">The Example Show</a>.</p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:17% auto"><figure class="wp-block-media-text__media"><a href="https://amzn.to/3nWmZLh"><img decoding="async" width="400" height="520" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/getting-started-with-data-bookcover.png?resize=400%2C520&#038;ssl=1" alt="Begin  Starting a Data Career  by reading Getting started with data" class="wp-image-8263 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/getting-started-with-data-bookcover.png?resize=200%2C260&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/getting-started-with-data-bookcover.png?resize=231%2C300&amp;ssl=1 231w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/getting-started-with-data-bookcover.png?fit=400%2C520&amp;ssl=1 400w" sizes="(max-width: 400px) 100vw, 400px" data-recalc-dims="1" /></a></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size"><a href="https://amzn.to/3nWmZLh" target="_blank" rel="noreferrer noopener">Get a copy of <strong>Getting Started with Data</strong></a></p>
+</div></div>
+
+
+
+<p>See more interviews at<a href="/TheExampleShow"> The Example Show</a></p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/20/starting-a-data-career/">Starting a Data Career</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/01/20/starting-a-data-career/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Stress Free Goal Setting with Deb Eckerling</title>
+		<link>https://ryanswanstrom.com/2021/01/19/stress-free-goal-setting-deb-eckerling/</link>
+					<comments>https://ryanswanstrom.com/2021/01/19/stress-free-goal-setting-deb-eckerling/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Tue, 19 Jan 2021 20:40:37 +0000</pubDate>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[The Example Show]]></category>
+		<category><![CDATA[goals]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8210</guid>
+
+					<description><![CDATA[<p>Stress-free Goal Setting with Deb Eckerling Debra Eckerling is a goal-setting expert. She offers coaching, workshops, and online support for people looking to achieve goals in any aspect of life. She has organized conferences, served as an editor for numerous publications, and authored 3 books. Deb joined to talk about goal setting and her latest [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/19/stress-free-goal-setting-deb-eckerling/">Stress Free Goal Setting with Deb Eckerling</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img decoding="async" width="512" height="512" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=512%2C512&#038;ssl=1" alt="stress free goal setting with deb eckerling" class="wp-image-8233 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=66%2C66&amp;ssl=1 66w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Stress-free-goals-deb-eckerling-square.png?fit=512%2C512&amp;ssl=1 512w" sizes="(max-width: 512px) 100vw, 512px" data-recalc-dims="1" /></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">Stress-free Goal Setting with Deb Eckerling</p>
+
+
+
+<p>Debra Eckerling is a goal-setting expert. She offers coaching, workshops, and online support for people looking to achieve goals in any aspect of life. She has organized conferences, served as an editor for numerous publications, and authored 3 books. </p>
+
+
+
+<p>Deb joined to talk about goal setting and her latest book, <a href="https://amzn.to/3bNfBj3" target="_blank" rel="noreferrer noopener">Your Goal Guide</a>.</p>
+
+
+
+<p>Connect with Deb</p>
+
+
+
+<ul class="is-layout-flex wp-block-social-links"><li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/coastbunny/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li class="wp-social-link wp-social-link-twitter wp-block-social-link"><a href="https://twitter.com/WriteOnOnline"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span></a></li>
+
+<li class="wp-social-link wp-social-link-chain wp-block-social-link"><a href="http://thedebmethod.com/"  class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.647,16.706a1.134,1.134,0,0,0-.343-.833l-2.549-2.549a1.134,1.134,0,0,0-.833-.343,1.168,1.168,0,0,0-.883.392l.233.226q.2.189.264.264a2.922,2.922,0,0,1,.184.233.986.986,0,0,1,.159.312,1.242,1.242,0,0,1,.043.337,1.172,1.172,0,0,1-1.176,1.176,1.237,1.237,0,0,1-.337-.043,1,1,0,0,1-.312-.159,2.76,2.76,0,0,1-.233-.184q-.073-.068-.264-.264l-.226-.233a1.19,1.19,0,0,0-.4.895,1.134,1.134,0,0,0,.343.833L15.837,19.3a1.13,1.13,0,0,0,.833.331,1.18,1.18,0,0,0,.833-.318l1.8-1.789a1.12,1.12,0,0,0,.343-.821Zm-8.615-8.64a1.134,1.134,0,0,0-.343-.833L8.163,4.7a1.134,1.134,0,0,0-.833-.343,1.184,1.184,0,0,0-.833.331L4.7,6.473a1.12,1.12,0,0,0-.343.821,1.134,1.134,0,0,0,.343.833l2.549,2.549a1.13,1.13,0,0,0,.833.331,1.184,1.184,0,0,0,.883-.38L8.728,10.4q-.2-.189-.264-.264A2.922,2.922,0,0,1,8.28,9.9a.986.986,0,0,1-.159-.312,1.242,1.242,0,0,1-.043-.337A1.172,1.172,0,0,1,9.254,8.079a1.237,1.237,0,0,1,.337.043,1,1,0,0,1,.312.159,2.761,2.761,0,0,1,.233.184q.073.068.264.264l.226.233a1.19,1.19,0,0,0,.4-.895ZM22,16.706a3.343,3.343,0,0,1-1.042,2.488l-1.8,1.789a3.536,3.536,0,0,1-4.988-.025l-2.525-2.537a3.384,3.384,0,0,1-1.017-2.488,3.448,3.448,0,0,1,1.078-2.561l-1.078-1.078a3.434,3.434,0,0,1-2.549,1.078,3.4,3.4,0,0,1-2.5-1.029L3.029,9.794A3.4,3.4,0,0,1,2,7.294,3.343,3.343,0,0,1,3.042,4.806l1.8-1.789A3.384,3.384,0,0,1,7.331,2a3.357,3.357,0,0,1,2.5,1.042l2.525,2.537a3.384,3.384,0,0,1,1.017,2.488,3.448,3.448,0,0,1-1.078,2.561l1.078,1.078a3.551,3.551,0,0,1,5.049-.049l2.549,2.549A3.4,3.4,0,0,1,22,16.706Z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Link</span></a></li></ul>
+
+
+
+<p>See more episodes from <a href="/TheExampleShow">The Example Show</a>.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:27% auto"><figure class="wp-block-media-text__media"><a href="https://amzn.to/3bNfBj3"><img decoding="async" width="480" height="480" src="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=480%2C480&#038;ssl=1" alt="Your Goal Guide Book" class="wp-image-8251 size-full" srcset="https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=66%2C66&amp;ssl=1 66w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/ryanswanstrom.com/wp-content/uploads/2021/01/Your-Goal-Guide-Book.png?fit=480%2C480&amp;ssl=1 480w" sizes="(max-width: 480px) 100vw, 480px" data-recalc-dims="1" /></a></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size"><a href="https://amzn.to/3bNfBj3" target="_blank" rel="noreferrer noopener">Get Yourself a copy of Deb&#8217;s latest book, <strong>Your Goal Guide: A Roadmap for setting, planning, and achieving your goals</strong></a></p>
+</div></div>
+
+
+
+<p class="has-background" style="background-color:#edece8;font-size:26px"><strong>Watch the Live Video &#8211; <a href="https://www.amazon.com/live/channel/a669e1a6-c933-4844-9fbf-a20f2fc34566/ref=al_desktop_flex_immersive_title_bar" target="_blank" rel="noreferrer noopener">Stress Free Goal Setting on Amazon Live</a></strong></p>
+
+
+
+<h2>Listen to the Audio</h2>
+
+
+
+<figure class="wp-block-audio"><audio controls src="https://ryanswanstrom.com/wp-content/uploads/2021/01/stress-free-goals-deb-eckerling.mp3"></audio></figure>
+
+
+
+<ul><li>What is the most important part of setting a goal? 2:12</li><li>What is Ryan&#8217;s Resolution? 5:46</li><li>What are common mistakes in goal setting? 9:28</li><li>How to prioritize? 11:55</li><li>How to use a calendar to prioritize? 18:12</li><li>How often to set goals? 29:00</li><li>From Barnes &amp; Noble events to goal-setting coach? 34:15</li><li>Is 2021 too late to start a blog? 41:20</li><li>What career advice would you have for the teenage version of yourself? 42:16</li><li>Quick tips to set better goals 45:51</li></ul>
+
+
+
+<div class="is-layout-flow wp-block-group alignfull has-text-color has-background" style="background-color:#ccdde8;color:#000000"><div class="wp-block-group__inner-container">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-8 column1-desktop-grid__start-3 column1-desktop-grid__row-1 column1-tablet-grid__span-8 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 wp-block-jetpack-layout-gutter__nowrap">
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+<p class="has-text-align-center" style="font-size:42px;line-height:1.4">&#8220;The most important part is figuring out what it is you want, because you can&#8217;t get what you want if you don&#8217;t know what you want.&#8221;</p>
+
+
+
+<p class="has-text-align-center">— Deb Eckerling</p>
+</div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><video controls src="https://ryanswanstrom.com/never-too-late_trim-mp4/"></video></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">It&#8217;s never too late</p>
+
+
+
+<p>You can recreate yourself and share your voice. <br>Start a Blog, Start and Podcast, You can do it!</p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><video controls src="https://ryanswanstrom.com/teenage-advise-deb-eckerling-mp4/"></video></figure><div class="wp-block-media-text__content">
+<p class="has-large-font-size">Advice for the Teens?</p>
+
+
+
+<p>Take every opportunity you have to speak in front of others. Great Advice.</p>
+</div></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h3>Full Transcript for Stress free Goal Setting</h3>
+
+
+
+<p>Hello and welcome everyone to this episode of the example<br>show where we talk about helping people become content creators,<br>specifically, people in the technology field.<br>Whether that&#8217;s a podcast you want to create,<br>a live show or a blog,<br>or any type of content that you want to create,<br>we talk about that on this show and I&#8217;m super<br>excited today to have to have our guest and I,<br>I&#8217;m so excited, I wrote down.<br>Bio so that I could read so that I could<br>read about this so I can introduce her and make<br>sure I got everything correct.<br>So our guest today is Deborah Ekling Heckerling.<br>She is a goal setting expert.<br>She offers coaching workshop and online support for people looking<br>to achieve goals in any aspect of their life.<br>She has served as a conference organizer and an editor<br>for numerous publications.<br>She has also authored three books and the latest which<br>is.<br>Your goal guide. A road map for setting,<br>planning, and achieving your goals.<br>And she also attended college at both the University of<br>Nebraska and the University of Wisconsin,<br>and I shared that because I know there are at<br>least a few people in the audience who will think<br>more highly of our guests because of her affiliation with<br>those two schools. So let me bring Deborah up onto<br>the screen here.<br>Hold on if you if you&#8217;re just joining type in<br>Hi Deb to let her know that we&#8217;re watching and<br>I&#8217;m going to bring it to the show.<br>Hello Deb. Hi, thank you so much for having me<br>and I have to tell you this is the first<br>time I&#8217;ve been introduced with both of my college affiliation.<br>So Gold Star for being original and cool and awesome.<br>Hey that&#8217;s fantastic and I&#8217;m also trying something a little<br>bit different.<br>I used to do these shows and I did sort<br>of a little bit of small talk at the beginning<br>to let people.<br>Get in an and get on the show,<br>but we&#8217;re not going to do that today,<br>so we&#8217;re just going to dive right into the topic<br>this week about goal setting and how to do better.<br>So we&#8217;re just going to start out with what is<br>the most important part of setting a goal.<br>Well, I love this question because what happens is people<br>overthink or they under think their goals.<br>So the most important part is figuring out what it<br>is you want &#8217;cause you can get what you want.<br>If you don&#8217;t know what you want.<br>So I created the dead method.<br>Now I&#8217;ve been coaching and leading groups and helping people<br>define,<br>plan and achieve their goals for years.<br>And then in 2018 I rebranded as the name of<br>my system which is the depth method isn&#8217;t that convenient?<br>Fit my days worked out.<br>But Deb stands for determine your mission.<br>Explore your options. Brainstorm your path so these are the<br>three phases that I came up with,<br>which will really help you figure out what you want<br>and create a plan to achieve it.<br>And it really starts with that first,<br>then D. Determine your mission and that&#8217;s when you really<br>think about what is the life you want.<br>What do you want to create?<br>What is your goal? Topia?<br>That&#8217;s the word I made up for your perfect world<br>where you&#8217;re living like you want an.<br>Realizing your goals, what does that look like and then<br>think about where you are and then where you&#8217;re going?<br>And then what is your mission behind it?<br>Why do you want these things?<br>What do you have to offer the world?<br>What do you want to create and how will it<br>help you but also help others?<br>And from there you can like drill it down to<br>a motto.<br>So if you know all those things and I know<br>it&#8217;s a long answer,<br>but if you&#8217;ve got that basis then all the goals<br>that you set in relation to your mission.<br>In relation to your motto,<br>you&#8217;re already halfway there because you know what you want.<br>You&#8217;re just setting your goals to achieve that.<br>Right, eight I, I agree,<br>and this is good, we have Christina&#8217;s chiming in.<br>She is a no no resolution type of person and<br>that is OK.<br>Everyone&#8217;s a little bit different,<br>but. Yeah, resolutions and goals and I&#8217;m actually going to<br>jump into that right now.<br>Is there a difference between resolutions and goals?<br>I really don&#8217;t think so.<br>I think resolutions are the start of every year.<br>The opportunity to start from scratch,<br>but I believe the goal setting is really year round.<br>You can start reassess, figure out what you want in<br>life.<br>All the time, anytime beginning of the year,<br>every three months, the only thing or when something happens<br>I change either by choice or by circumstance,<br>and you need to reevaluate your life.<br>Those are the best times to set goals,<br>set resolutions, what you want to be wary of is<br>you don&#8217;t want to set knew big big goals like<br>every week,<br>every month because you&#8217;re not giving the goals.<br>A chance to realize themselves.<br>So start with that step of figuring out what you<br>want and make a plan to get it,<br>and then Jack in with yourself every couple months.<br>See if it&#8217;s working for you and again you have<br>a life change or you need to make a decision.<br>That&#8217;s when you should look at those goals and the<br>resolutions.<br>But we do get a reminder the beginning of every<br>year.<br>OK, let&#8217;s start fresh slate.<br>I I love that idea of start with what you<br>want because it&#8217;s important to know that wait,<br>I have a question for you.<br>Yeah, what is your resolution?<br>You know, hey, this is great.<br>I said I want to do it 10.<br>Amazon lives by the end of January and so I&#8217;m<br>feeling alright on this.<br>Amazon Live is a new platform.<br>It&#8217;s kind of new to me.<br>I&#8217;m trying it out and I&#8217;ve done 3 so far.<br>So you&#8217;re the third, you&#8217;re not my third live show,<br>you&#8217;re my third Amazon live.<br>So that&#8217;s fantastic. You&#8217;re actually my first author interview,<br>so I think I&#8217;m going to be doing a lot<br>more of those,<br>and I want to set that goal because I wanted<br>to evaluate the Amazon Live platform to see if it&#8217;s<br>a platform I want to continue going live on further<br>in 2021.<br>Can I ask a follow up?<br>Yeah, I know you&#8217;re interviewing me,<br>but I&#8217;m just curious. So you,<br>what is your goal? What do you want to be<br>able to say at the end of 2021?<br>Alright, so here is, here&#8217;s what I&#8217;m working on setting<br>up I I was a Blogger in data science for<br>years.<br>I still have a blog and one of the things<br>I kind of wanted to transition myself into.<br>Helping other people in the field of technology become content<br>creators.<br>And so I am going to be interviewing book authors<br>and other content creators for the duration of 2021,<br>hoping that eventually I can start offering a course in<br>some training around.<br>How do you become a content creator?<br>OK, so your goal Topia if I may be so<br>bold.<br>Yes, to be the go to guy on content creation<br>for people in tech,<br>yes.<br>That&#8217;s perfect, so your resolution in your goals are all<br>working together to get you to that place.<br>So your gold stars where my gold stars.<br>I say there we go.<br>Well, thanks, I feel like I&#8217;m getting a free consulting<br>session,<br>so thank you for that.<br>So can I challenge the audience?<br>Can I change the question you you can do whatever<br>you want on the show here I guess.<br>So rather than think of it in terms of resolutions,<br>think of it in terms of what I just asked,<br>Ryan. What do you want to be able to say<br>at the end of next year that you accomplished and<br>then you said so you&#8217;re looking at a year long<br>goal and then look to it as what short term<br>goals do you have to do in order to reach<br>that long term goal?<br>So and I&#8217;m backing I&#8217;m backing into the dev method<br>here,<br>so you determine your mission.<br>Next, you want to explore your options.<br>You want to see? OK,<br>I want this. What does that mean?<br>I want to be the go to.<br>Accounting guy for attack? Well,<br>what do I do? Do I block and I&#8217;m using<br>you as an example,<br>even though you&#8217;ve done this because it works really well.<br>Do I block? Do I do live shows?<br>Do I do podcasting? Do I write a book?<br>What ways do I want to manifest this knowledge?<br>And then you research the different things and figure out<br>OK,<br>what&#8217;s the fit? Great go to guy on content for<br>text Anne,<br>I&#8217;m going to do it via live shows,<br>so then you brainstorm your path.<br>Everything you need to do to accomplish that goal at<br>the end of the year.<br>It&#8217;s math were tech people watching.<br>Think of the endpoint and what you need to do<br>to get there.<br>It&#8217;s it&#8217;s just brainstorming, logic and planning,<br>and so my follow-up question for Deb on this is<br>what are some of the common mistakes you see with<br>people in goal setting?<br>Well, the first one we already addressed,<br>which is not knowing what you want because you can&#8217;t<br>get what you want if you don&#8217;t know what you<br>want,<br>simple, basic, etc. Beyond that,<br>don&#8217;t.<br>I love this story. Friend of mine once told me<br>that she writes down her goals at the beginning of<br>the year,<br>puts them in a drawer and at the end of<br>the year she will look and be pleasantly surprised if<br>she accomplishes something.<br>That is probably the biggest mistake you can make,<br>which is putting them aside and in crossing your fingers.<br>Not only do you need to know what it is,<br>but you should keep a top of mind.<br>So big mistake not looking at your goals direction.<br>Look at your goals.<br>But then you could do a List 35 whatever your<br>top goals that you are working towards throughout the year<br>and put it.<br>I have mine like behind my computer.<br>I look at it all the time.<br>Another place to do it is take a picture of<br>that list and put it on your phone as the<br>wallpaper.<br>Put another good one. I put it on your computer.<br>I say if your your yoga teacher put on new<br>yoga mat.<br>If you&#8217;re a chef, put on your fridge,<br>put it in that place that you know you&#8217;re going<br>to look at because it&#8217;s it&#8217;s a top of mind<br>thing.<br>So very common. Mistake the other common mistake is not<br>prioritizing yourself or your goals,<br>because a lot of the people who I work with<br>they have these wonderful passion projects that aren&#8217;t necessarily currently.<br>Revenue generating, they have things that they are building.<br>They want to write a book.<br>They want to launch a course.<br>Things that benefit down the line.<br>But right now it&#8217;s Oh my goodness.<br>How do I find the time?<br>And you need to prioritize yourself an even if it&#8217;s<br>an hour a week,<br>do half hours a week,<br>15 minutes, four times a week,<br>whatever. When you look at your life,<br>your calendar, you want to set yourself up for success.<br>So look at your life Z.<br>What&#8217;s feasable, put those appointments in your calendar and keep<br>them.<br>I audience here. Christina says one of her biggest problems<br>is unplanned or incorrect prioritization,<br>or prioritizing too much. She also said she likes the<br>phone background suggestion.<br>That was a great one that was a little nugget<br>that you threw out there free for everyone that&#8217;s listening<br>here.<br>I kind of want to dive into this one before<br>I go back to the calendar.<br>How do you deal with or how do you make<br>sure that you avoid incorrect prioritization or prioritizing?<br>Too many things because we all get in that you<br>can&#8217;t say everything is my top priority,<br>because if everything through top priority nothings are top priority,<br>exactly in that goes back to what&#8217;s the biggest challenge<br>people have with goals they under think them.<br>Or they overthink them. They don&#8217;t have a plan,<br>so thank you, Christina, that that is the crux of<br>most people&#8217;s challenges.<br>And that&#8217;s why I&#8217;m going to call back to the<br>mission and Motto.<br>So if you have your mission behind what you were<br>doing it acts like a compass.<br>So my mission is to help a do use my<br>background experience and systems to help as many people as<br>possible.<br>Figure out what they want and how to get it<br>through.<br>Goal setting and productivity. I know really,<br>really long, but that&#8217;s why we have a motto because<br>we can take that long thing and shorten it up.<br>So my motto is goal setting simplified,<br>so all of my activities related to.<br>Anything in getting myself out into the world?<br>I have the the simplified process,<br>so my book really super easy instructions because I believe<br>changing your life is difficult enough.<br>You shouldn&#8217;t have to question or get too caught up<br>in how to connect the dots.<br>Write my workshops by seminars anytime I speak.<br>It&#8217;s all with that logic and I love that you<br>use stress free goal setting in the title of this<br>because.<br>The goals that you&#8217;ve set it should make your life<br>better.<br>They should not stress you out.<br>They shouldn&#8217;t drive you like why am I doing this?<br>No, so when you have that model,<br>that is your barometer. So when opportunities come your way,<br>you can say does this fit in line with my<br>mission and motto?<br>Yes, great no skip it.<br>Or if something comes your way that it isn&#8217;t in<br>alignment but enriches you in another way,<br>then that&#8217;s also fine. But when you know these things,<br>the end goal. It really helps with that prioritization.<br>The other thing in going back to brainstorm your path<br>I love.<br>I love writing the things.<br>Obviously my background is communications and project management.<br>So what do you do to make a plan right?<br>Everything out, organize it, categorize it,<br>put in deadlines. Figure out what you need to do.<br>So go back to that.<br>Look at your life, say see how much time you<br>have to devote to these goals in the week.<br>Put together those appointments. But look at that big list<br>of the things that you have to do an an<br>map it all out.<br>Which action items lead to each benchmark?<br>Which benchmark leads to each short term goal with short<br>term goal leads to each long-term goal?<br>Oh, this is this is great stuff and I love<br>that you were saying about it.<br>All ties back to you.<br>You need to know what you want because opportunities are<br>going to come your way throughout the gear and you<br>need to know whether that really aligns with what you<br>want to do or not.<br>And I will say this is one of the things<br>I&#8217;ve struggled with with a lot of my like side<br>projects and like my blog and people ask me to<br>post things on my blog and I never really had<br>a good method for does this align with what I<br>want my blog to talk about.<br>Or not, and I started realizing it just took me<br>down a lot of different paths that.<br>Maybe weren&#8217;t so beneficial for me and didn&#8217;t help me<br>reach any of my goals.<br>They just took time. And fill it,<br>that&#8217;s exactly it. I&#8217;ve got a great story.<br>Do you want a good story that goes with that<br>example I,<br>you know, we always want a good story here on<br>the live show.<br>And now I feel like I I really like oversold<br>it,<br>but a couple of years ago somebody asked me to<br>speak on a panel and it was something about women<br>in the workplace.<br>I&#8217;m woman worked day job for many years.<br>It was not in complete alignment with what I did,<br>but it was a friend and I said OK,<br>but I was a little.<br>About it and once you know the day of the<br>event was cancelled,<br>I mean talk about the universe right and when this<br>person rescheduled the event it was for January and I<br>said,<br>you know what? I would love to help you out.<br>But January is goal setting season in my big busiest<br>time and I&#8217;m not available to do it.<br>Thank you for thinking of me.<br>So I I took my own advice.<br>Looked say OK it it would be a nice thing<br>to do,<br>but I couldn&#8217;t so I went with my gut.<br>I aligned with my motto and said no.<br>Thank you and wouldn&#8217;t you know an opportunity that was<br>much more in alignment.<br>Came up for that same night.<br>So trust your gut, your house,<br>your motto, trust your mission.<br>It will not steer you wrong.<br>It&#8217;s it&#8217;s hard to say no.<br>I know sometimes but but if you get that beginning<br>of know what you want,<br>it helped make saying no better because.<br>You have a reason for saying no,<br>and I, I think people understand when you just say<br>you know this doesn&#8217;t really align with what I want<br>to do,<br>so I&#8217;m going to say no,<br>yeah, yeah, blame me, blame me honestly.<br>Because when you add in in one of the things<br>that that I discovered when I was doing research for<br>my book,<br>working in my book proposal is most books that help<br>people with goals don&#8217;t take the time to help you<br>figure out what those goals are in.<br>For me, that&#8217;s that&#8217;s the crux.<br>And I talked too much with my hands and my<br>microphone just went that way.<br>I thought I wouldn&#8217;t have that problem.<br>If I use the mic microphone,<br>but apparently I&#8217;m very, very talented.<br>It happens on alright. I wanted to.<br>I wanted to come back.<br>You started mentioning this this calendar and this idea,<br>and I know this is something you like to talk<br>about.<br>I love I love my To Do List and I<br>love my calendar so tell us a little bit about<br>you said very briefly,<br>you said, make appointments with yourself and put them on<br>the calendar.<br>Speak about that a little bit.<br>Well, it goes back to that.<br>That mistake people make, which is not prioritizing themselves not<br>prioritizing their goals.<br>When you make appointments with yourself then you are treating<br>your time as sacred as the time you reserved for<br>other people.<br>You wouldn&#8217;t cancel an appointment with your boss or a<br>client,<br>or really anybody, because it&#8217;s their time,<br>so why would you cancel an appointment with yourself?<br>I do have a little loophole in that the calendar<br>rule,<br>which is you look at your life.<br>You say, OK, I could do 2 hours on my<br>goals this week and I&#8217;m not quite sure which too,<br>but still clean the time you can move the appointments,<br>but you can&#8217;t delete.<br>Oh, that is that is Golden.<br>There you can move the appointment but you can&#8217;t delete<br>him.<br>And one other thing on that.<br>So here is a problem that I know people frequently<br>have.<br>When they I&#8217;ve heard of people,<br>they set up these calendars and they put 15 minutes.<br>Today in 15 minutes. Tomorrow in 15 minutes the next<br>day and they miss it today because life happens and<br>we we all have to deal with that.<br>You never know what&#8217;s going to happen in life.<br>Things happen. You miss an appointment.<br>So then tomorrow they&#8217;ve got well.<br>They feel like they need to make up for yesterday&#8217;s<br>15 minutes that they missed.<br>What do you say about that?<br>Oh my goodness, you didn&#8217;t realize this,<br>but this is my five of seven roll.<br>It is what it in an I used 15 minutes<br>is the example when I talk about it as well<br>is a lot of people say you should do something<br>every day in like you?<br>I say that&#8217;s great. In theory it&#8217;s not realistic and<br>that&#8217;s why I say look at your calendar.<br>Look at your life and put in those appointments because<br>what&#8217;s gonna happen is you miss a day so you<br>think you should do 30 minutes and then you missed<br>two days so you figure OK Tuesday I&#8217;ll do 45<br>minutes and by Wednesday if you didn&#8217;t have 15 minutes.<br>You don&#8217;t have an hour skip the days.<br>You have to skip and start over.<br>Yeah, so that that&#8217;s that&#8217;s great advice there.<br>When you if you missed yesterday,<br>just move on to the next day.<br>Don&#8217;t try to pile it back on and I think<br>I think that&#8217;s great information.<br>Now I&#8217;m going to dive back into it.<br>I got, I got some other questions that I wanted.<br>To talk about. Here&#8217;s an here&#8217;s an audience question,<br>so if you&#8217;re watching on Amazon Live or on wherever<br>you&#8217;re watching,<br>type in a comment and let us know whether when<br>you set goals,<br>do you set personal, professional or both,<br>and so this is what I want to talk with<br>Deb about.<br>How do you? How do you differentiate and deal with<br>these?<br>Because especially now and coronavirus a lot of us are<br>stuck at home and the difference between work and home<br>is a little more blurry than it.<br>Maybe wasn&#8217;t the past. So do you set them all<br>together or the dependent on each other?<br>What can you say about that?<br>The answer is yes. But I will elaborate great because<br>you do you need both personal and professional goals and<br>what happens is your if you.<br>When you achieve your personal goals and helps her professional<br>life and when you achieve your professional goals,<br>it&#8217;s going to help your personal life.<br>So if one of your personal goals is to have<br>a healthier life,<br>healthier lifestyle, you know if you&#8217;re healthier,<br>you&#8217;re going to be better set for business.<br>You&#8217;re going to have more energy and be more motivated<br>for professional goals.<br>If you it works going well,<br>it&#8217;s gonna leak into your personal life.<br>So they really do work together and it goes back<br>to.<br>You you figured out your mission,<br>you know your destination. What you want to accomplish and<br>when you brainstorm that major list of goals,<br>benchmarks, and action items, you should be putting in both<br>personal and professional goals.<br>So you put everything out there and then get had<br>a garage.<br>Them what needs to be done to get to each<br>benchmark?<br>What benchmarks make up each short-term goal in now personal<br>goals.<br>They work a little bit differently because sometimes you can<br>batch him up.<br>I call them project personal goals,<br>but they&#8217;re also lifestyle personal goals,<br>which are an hour a week.<br>You do this, or like you meal plan or you<br>workout three times a week and another very important personal<br>goal because you mentioned that that blurred line is make<br>up some rules for your personal goals.<br>You know, set a stop time at the end of<br>the day.<br>Give yourself a lunch break put.<br>All these things in the calendar,<br>if you can take cough dry cough the whole weekend.<br>Yeah right. Do you know anybody who other than like<br>on a vacation or an actual break takes 2 days<br>off in a row?<br>I sure don&#8217;t so more realistic.<br>Is a sign either a morning or an afternoon or<br>a whole weekend day where you&#8217;re not going to work<br>so you can do the things that are going to<br>re energize and refresh you so you&#8217;re better set for<br>the rest of the week.<br>So yes, do both again figure out what&#8217;s going to<br>work in your life.<br>Put in your calendar. Do them.<br>This is, this is so good there&#8217;s so much great<br>information being dropped and shared in here we I have<br>a follow up on this one when when you&#8217;re talking<br>about professional and personal goals.<br>How many goals should you set in either of those<br>spaces?<br>Well, what is your priority?<br>If your priority is something you&#8217;re trying to accomplish professionally,<br>you&#8217;re going to have more of those.<br>If your your priority is work,<br>life balance is so my book.<br>The first half of my book goes through the depth<br>method.<br>The second half is strategies for success,<br>and I talk about the four goal paths which are<br>work life balance,<br>the starter build, business career,<br>or job change. Known expert and I somehow managed to<br>batch all the goals into.<br>One of those four categories,<br>and if your goal is due.<br>A. Elevate yourself as an expert because it sounds like<br>that&#8217;s a lot of that&#8217;s what you&#8217;re working on and<br>things that your listeners are doing.<br>You know, data science, listeners,<br>watchers, audience, Audience, audience, audience because you want to have<br>content creation is all about sharing what you know in<br>helping others.<br>So look at what that means for you.<br>OK, I want to be known for doing this so<br>I can help other people do that better.<br>What is that mean for you?<br>So look at it. Maybe you want to do a<br>blog and then a podcast and then a video series<br>or courses.<br>But look at what is the order dry did take<br>like 1A goal and then one beta goal and all<br>the things that that go with it an I always<br>say you should be working on at least do like.<br>Impactful goals at a time.<br>Because if you&#8217;re challenged on one thing,<br>you can jump over to the other and that way<br>they are both moving forward at all times.<br>So maybe you&#8217;re developing your blog is your Alpha goal<br>and your beta goal is working on that social media<br>presence because they both inform and help each other.<br>And if you are like.<br>You can jump and work on the other and then<br>once that gets rolling,<br>jump to the first thing.<br>So in terms of goals and you only you know<br>your number.<br>Look at your life and what makes sense,<br>but I&#8217;d say an we&#8217;re talking resolutions so maybe you<br>pick like 5 things by big goals.<br>You want to have accomplished by the end of the<br>year and break them down and work on a few<br>simultaneously.<br>And so they elevate each other that that&#8217;s good to<br>have the Alpha and the beta goals there,<br>because pick on that align together so that you can<br>keep yourself moving forward if it&#8217;s one or the other.<br>The trick is not having an Alpha,<br>beta gamma, Delta not having tenable &#8217;cause then it gets<br>overwhelming because you can&#8217;t keep up with those.<br>Exactly exactly and I I will.<br>I&#8217;ll give another good example.<br>So my second book, which was right on blogging.<br>51 tips to create right and promote your blog.<br>I had been doing the guy to Gold podcast so<br>I did 40 I think 41 episodes of interviewing,<br>interesting people talking about their story in offering tips for<br>goal,<br>setting success. And it was a lot of fun,<br>but I really wanted to finish my blogging book.<br>And my blogging book was not going to get finished<br>while I was on that podcasting schedule.<br>So it&#8217;s been on hiatus.<br>It remains on hiatus.<br>One of my goals for this year was to bring<br>it back,<br>but I ended up doing the live show instead.<br>So again priorities, but you can do something for awhile<br>and then say you know this was great for me.<br>I want to put my attention towards this and in<br>podcast land we call it,<br>you know, the first season,<br>second season, coming whenever, but you may have to hit<br>the pause button on something in order to jump over<br>and work towards something else,<br>But that&#8217;s why you look at your life and see<br>what you can do and set goals you want.<br>Reach goals because you know you want that goal Topia.<br>But you also need some easy goals &#8217;cause you want<br>to have wins because those are so motivating.<br>Oh, that&#8217;s that&#8217;s great. Those those winds are huge.<br>Make sure you have things in there that you can<br>do.<br>Here&#8217;s here&#8217;s my follow up question for this one,<br>so I was earlier in the show I was telling<br>you about.<br>I had set some goals for the end of January.<br>How often do you recommend people reset goals?<br>And then as as a caveat to that.<br>How often do you? A relook at your goals to<br>reassess them.<br>Well, you need to look at your goals all the<br>time so it&#8217;s never going to be like wow,<br>really. I was gonna do that.<br>I&#8217;ve done nothing. You never want to say right?<br>But what is great about the beginning of the year?<br>Because everybody is on this.<br>Let&#8217;s get this fresh start let&#8217;s get going.<br>Let&#8217;s figure out what we want to create for ourselves<br>in the new year.<br>So beginning of the year beginning of the school year,<br>beginning of the summer, so seasonally is a really good<br>time to look at it.<br>But again, if you encounter change,<br>let&#8217;s say your your job is changing in or it<br>goes away,<br>or you just have had it and it&#8217;s time for<br>a career change,<br>well then that&#8217;s when you do the introspective thing.<br>Figure out OK. Do you want a new job?<br>Do I need a new career?<br>What do I need to do to make that happen?<br>Exploration, brainstorm, turn it into reality.<br>So when when something comes at you that you have<br>no control over.<br>If you get to the point where this job was<br>great for awhile,<br>but I really want to start my own business,<br>then you you know. You know,<br>you know, you know when.<br>If you&#8217;re in touch with what you want from life.<br>Your gut is going to tell you when you need<br>to do some of that reassessment,<br>so cycles when you need it look at them frequently.<br>Review them every season, and or when you need a<br>reboot.<br>Yeah, there&#8217;s definitely times in life that don&#8217;t come at<br>the end of a.<br>Things in a weather season or something?<br>I I mean coronavirus was definitely one of those that<br>it happened and a lot of people had to reassess<br>what they were doing and how they wanted to move<br>forward. Well, exactly in my book came out last January<br>an the reason of the primary reason that I wanted<br>to write it is because I believe everybody deserves to<br>be happy in some, if not all of their lives.<br>And if you are not getting fulfillment from your job,<br>maybe you need to take a look.<br>At what you can bring into your life that fulfills<br>you or changing that situation and then two months later<br>everybody had was put in a position to reassess.<br>So I I love that the timing of my book<br>was even more relevant than I imagined when it came<br>out.<br>Yeah, yeah, so your book came out or really 2020<br>January right January yes it&#8217;s I.<br>I&#8217;m having a book birthday on January 14th.<br>Happy Happy Book birthday in a couple of weeks.<br>Anyhow there there is Deb&#8217;s book she was just holding<br>it up.<br>We can. We can totally promote your book.<br>I put links to it in the comments on LinkedIn<br>an if you&#8217;re watching on Amazon,<br>it&#8217;ll appear in the carousel.<br>I believe they call it right underneath us,<br>or if you&#8217;re watching it in review,<br>I believe it&#8217;s over on the side.<br>But the other thing can I mention is that there<br>is a Facebook group for your goal guide,<br>so people who are going through the book.<br>You can ask questions or share their journey or get<br>like little bonus motivation.<br>So if you do go out and grab my book,<br>which your goalguidebook.com will also take you to the Amazon<br>Link,<br>please join the group. Introduce yourself say this is where<br>we met.<br>That&#8217;s a fantastic idea. You can do that.<br>I I do have some more questions.<br>The worst thing to keep going &#8217;cause I&#8217;m having a<br>good time here and let me.<br>I want to show this audience question if you if<br>you have any questions for Deb be sure to throw<br>them out there.<br>Some people are telling you Congrats on your you your<br>your book birthday.<br>So people like that, like I,<br>I&#8217;ve never had a book birthday &#8217;cause I&#8217;ve never written<br>a book so well.<br>What&#8217;s stopping you? You know,<br>I see that as your 2020 two goal.<br>I&#8217;ve had some opportunities to write books in the past<br>and<br>I&#8217;ve always said no because I don&#8217;t.<br>I don&#8217;t know that writing a book.<br>Gets me super excited. And so then you shouldn&#8217;t write<br>a book.<br>Yeah, that&#8217;s that&#8217;s really you asked about mistakes people make<br>with setting goals.<br>You should always love what you were working on,<br>because if you&#8217;re not excited about it,<br>it&#8217;s gonna shine through. Yeah,<br>and so maybe I just haven&#8217;t found the topic that<br>I want to write the book about yet,<br>so. Yeah alright so I have.<br>I I I looked into you and Ann went out<br>and read about you and.<br>I wanted to know more about this.<br>A little bit about what you do in your career,<br>but somehow your career went from you are doing.<br>I mean it was vague on your website.<br>It said I was helping with some events at Barnes<br>and Noble and then they asked me to set up<br>some other things and then while it&#8217;s like I don&#8217;t<br>know five years, three, I don&#8217;t know how many years<br>later you are a goal setting Coach,<br>which I don&#8217;t think was what you originally doing at<br>Barnes and Noble.<br>So can you walk us through that a little bit?<br>I would love to because believe it or not,<br>Barnes and Noble did set me on this path.<br>I was the now they called it a community relations<br>coordinator back when I worked at Barnes and Noble in<br>the 90s.<br>If you want to do math,<br>you can. Feel free, but I&#8217;m not giving you anymore<br>than that.<br>It&#8217;s alright. So I was the event coordinator for Barnes<br>and Noble in Schaumburg,<br>IL, and I grew up in in Highland Park,<br>IL, and one day somebody walked in and said,<br>Hey Deb would you start a writer support group an<br>I said if you think people will come I&#8217;m more<br>than happy to try it out and they did an<br>it was a hit in for me.<br>I would support group meant OK,<br>what do you work in mental setting?<br>What are you working on?<br>What did you accomplish? What are you planning for next<br>time an whereas I was giving everybody homework.<br>I was also giving myself homework,<br>so I graduated from UW Madison degree in journalism,<br>working at a bookstore so you know adjacent to that<br>light that writer life an,<br>but I hadn&#8217;t been freelancing so I gave myself a<br>goal for every meeting I was going to write a<br>spec column,<br>slice of life and. A few months into it I.<br>Was Adam Expo and I was chatting with people from<br>a magazine and I&#8217;m like are you looking for freelancers?<br>Do you have clips and I&#8217;m like,<br>well, I do have articles and so setting that goal<br>prepared me for when an opportunity arose.<br>So I will go back to answering your questions.<br>So this is what started.<br>I moved to LA in the late 90s 2002.<br>I restarted my goal group at Barnes and Noble in<br>Santa Monica,<br>CA. And over the years my group has evolved and<br>grew to embrace creatives and entrepreneurs.<br>Not just writers. But somewhere along the line,<br>people said, hey Deb, you&#8217;re good at this.<br>Can you help me? An OK or a dub?<br>Would you talk about goal setting at this conference?<br>OK, so my business background was communications and project management,<br>so take that with the goal setting and I basically<br>got set on this path to do something that I<br>love and I always thought you want to talk about<br>Motto from a young age.<br>I always said that whatever I did in my life,<br>I wanted to just go full throttle.<br>You know, be able to share my expertise and help<br>others.<br>So I guess that worked out,<br>huh? I it did that.<br>There&#8217;s so many things I&#8217;m trying to keep all these<br>notes in my mind that I wanted to talk about.<br>So Jed, this is in response to me writing a<br>book.<br>He said he&#8217;s tried to talk me into writing a<br>book a number of times,<br>but, well, I I do Coach,<br>can I help people put their ideas together so to<br>file in in your mind and I I feel like<br>I should.<br>Well, I don&#8217;t feel I&#8217;m gonna say it anyway though.<br>A lot of the clients I work with,<br>some of them are. I don&#8217;t know what to do<br>next.<br>I need a plan. An we meet an hour an<br>I set them on their course and they&#8217;re good or<br>they&#8217;ll take one of my workshops or sometimes all clients<br>who say I always wanted to do this and I<br>can&#8217;t organize it and we Deb method then give them<br>a plan and I work like a fitness trainer to<br>help them achieve those goals.<br>Yeah, and one other thing that you were saying back<br>in there is I loved your story about.<br>Someone asked you to do something at Barnes and Noble<br>and you said.<br>OK, it&#8217;s not gonna fill up.<br>I&#8217;ll do it, but the second part of it,<br>which I thought was great was you&#8217;d set a goal<br>for yourself to start writing those weekly.<br>I don&#8217;t remember you call them articles or whatever you<br>started writing every week an collecting these and months later,<br>a magazine opportunity showed up and they wanted to know<br>if you had any material and you said why?<br>Yes, I do, and that&#8217;s one of the big things<br>that I especially we&#8217;re talking about tech inside projects and.<br>Kind of things like that.<br>Going out and starting something is really important,<br>especially if you start something that you&#8217;re excited about and<br>that you like about and that you like to do.<br>Eventually, something will come along or someone will want help<br>with that thing that you know how to do,<br>and you will be able to say,<br>hey, I&#8217;ve already written 50 articles,<br>or I&#8217;ve already put up 100 blog posts about this.<br>I&#8217;ve already done 10 live streams and you&#8217;re already there,<br>and so kudos to you for.<br>Get that started and going and I love that story.<br>If you have that story,<br>do you want another one real quick?<br>Love you. Let&#8217;s keep going.<br>You&#8217;re gonna love this one.<br>So I told you a spring of 2018 I rebranded<br>as the dev method because one of my main communication<br>clients was going away an I took it as the<br>opportunity to step fully into this mission myself.<br>Created the DAB method a few months later.<br>An agent who I had met years like six or<br>seven years.<br>Before I re met because somebody in my life,<br>group management and event referred him to my group,<br>we started talking. He said where&#8217;s your book proposal and<br>said why was planning to self publish.<br>He said let me let me see what I can<br>do and when by aligning myself with this mission by<br>stepping full into dub these opportunities.<br>When you know what you want,<br>when you are open to this life,<br>fulfilling your mission opportunities come you in a way.<br>Like never before, so that happened more than once.<br>Yes it does and I can say from being a<br>Blogger and being out there on the social media.<br>Internet opportunities do come your way.<br>It&#8217;s important though to have your what do you really<br>want to let you know when to say yes and<br>when to say no.<br>I got it. I got a couple of other questions<br>we&#8217;re going to skip some that I was maybe going<br>to ask for what you just said.<br>Because that&#8217;s really awesome Goldstar.<br>Thank you when I had my live meetings I had<br>stickers.<br>Now I&#8217;ve just have a sticky note that I just<br>pull out when I&#8217;m talking to people when they&#8217;re being<br>awesome.<br>Well, that&#8217;s that&#8217;s fun. Thank you for the Gold Star<br>I earned today.<br>Here&#8217;s one &#8217;cause I know you wrote a book on<br>blogging and it falls clearly into the area of content<br>creation is 2021 too late to start a blog?<br>No, it&#8217;s never too late.<br>One thing that 2020 showed us is that it&#8217;s really<br>not too late to recreate ourselves.<br>If you want to start a blog,<br>start a blog. You want to start podcast started podcasts.<br>Figure out the way in which you want to share<br>your voice.<br>And make a plan to get it out in the<br>world.<br>That&#8217;s great, I want to cut that clip out.<br>That last, that last quote that you said so so<br>go to that alright here here is my.<br>My selfish question &#8217;cause I have teenagers at my house<br>that sometimes ask interesting questions about this and so I<br>figured when I get the opportunity to talk to interesting<br>people like yourself, I was going to throw this question<br>in there and what career advice would you have for<br>the teenage version of yourself?<br>Well, this is something I did as a teenager,<br>but it&#8217;s advice that I love to give to teens.<br>So can I alter the question?<br>Sir, I did I did competitive public speaking all through<br>college and things are a little different right now,<br>so I don&#8217;t know when that what version of it<br>is in this current reality.<br>But any opportunities children or teenagers or young adults have<br>to speak are going to help them so much in<br>their career.<br>Because when you have strong written and oral communication skills.<br>You could basically do anything,<br>so my advice is your teenager.<br>Start a podcast. Start a video,<br>show him up with a buddy in write speeches and<br>give them to each other.<br>My first book, Purple Pencil Adventures writing prompts for Kids<br>of all ages.<br>I wrote because one of the moms of my life<br>group said my daughter loves to write.<br>Would you? Coach are an I said oh,<br>good opportunity for a blog,<br>and that blog became my first book.<br>But one of the instructions I have in it because<br>I say all ages usually like.<br>Middle School is the average,<br>but younger kids can use it to write shorter stories<br>to draw pictures for the from these writing prompts and<br>teenagers,<br>and even some of my adult writer friends use it<br>to get unstuck.<br>But one of the best ways to use that book<br>is you take the prompt.<br>Everybody in the family right story,<br>and then you read them aloud.<br>So you&#8217;re practicing both your written.<br>Andrew verbal communication. Out that there&#8217;s a fantastic answer.<br>My kids, my kids are are going to be upset<br>now.<br>&#8217;cause I&#8217;m going to make them watch that &#8217;cause you<br>told them.<br>Start a podcast, start a blog,<br>start a live show, and whatever you&#8217;re interested.<br>It starts something &#8217;cause I tell them that all the<br>time and I OK.<br>So now I&#8217;m telling them you&#8217;re welcome,<br>but it&#8217;s the thing that they&#8217;re interested in.<br>If they&#8217;re going. If there are more likely to do<br>audio only,<br>then that&#8217;s what they should be doing.<br>Or if they want to be on video.<br>When I did my podcast,<br>I did both because I figured if I&#8217;m doing audio<br>I might as well do video anyway an but it&#8217;s<br>it&#8217;s your comfort level.<br>What is going to set you up for success?<br>And they don&#8217;t even have.<br>I know you&#8217;re going to make them put it out<br>in the world,<br>but if you&#8217;re uncomfortable, just practice.<br>You never have. You can go live just to yourself<br>for practice in that works too.<br>Yeah, we we always tell people we have a LinkedIn<br>live group of live streamers and we always tell people<br>if you want to practice live streaming.<br>You can set up like private events or private Facebook<br>groups and private.<br>You can go live on YouTube to some channel that<br>has no followers and.<br>You can go live and no one is going to<br>watch,<br>and even if you have a show that&#8217;s public,<br>is sometimes not that many people show up to watch<br>anyway,<br>so.<br>I just got a couple of questions left,<br>but Judd says learn to speak clearly and concisely and<br>that is a big one.<br>Speaking and writing are two huge skills.<br>It doesn&#8217;t matter what careerfield you are in.<br>Oh alright, so as we&#8217;re as we&#8217;re finishing up the<br>show here and.<br>Find the comment that I put out there with the<br>link to Deb&#8217;s book and go get yourself Debs book<br>or click on the carousel below.<br>If you&#8217;re on Amazon live,<br>but as we finish out water a few quick tips<br>that you have.<br>To set better goals.<br>Well, if you haven&#8217;t figured out what you want,<br>do that, and if you&#8217;re not sure what that is,<br>what is? What is your medium?<br>Do meditation, do journaling. I I have this this process<br>I call directed journaling,<br>which is when you&#8217;re in the exploration phase.<br>OK, I want to create this.<br>What does that look like?<br>I suggest using that, but you can also use it<br>to figure out what you want,<br>and it&#8217;s very simple. Set 3 four 515 minute appointments<br>with yourself,<br>of course. Keep them and during that time you&#8217;re just<br>brain storming the answer to a question.<br>So whether it&#8217;s what do I want?<br>How do I make it happen?<br>Or this is my mission?<br>What do I need to do?<br>But what&#8217;s going to happen is you&#8217;re just brainstorming free<br>writing and the trick is to do this a few<br>times but not look at what you wrote before until<br>after you&#8217;ve done it. Then go back and read through<br>and circle highlight.<br>Find those common themes because you know the answers.<br>You just need to give yourself the time and the<br>opportunity.<br>Jew let it come out of you an embrace it<br>and move forward.<br>So it&#8217;s not a quick tip but it&#8217;s this quick,<br>adjacent, right? So use journaling or meditation or whatever to<br>figure out what that goal Topia is.<br>And then the other tip that I love is.<br>I love setting a timer to Heimer is great because<br>if you don&#8217;t want to do something you said OK,<br>I&#8217;ll do 15 minutes and see if it gets me<br>going.<br>So set the timer on your eye.<br>I just did like a egg timer,<br>but everybody has one on their cell phone and then<br>June whatever and then when it goes off.<br>If you are on a roll,<br>keep going. If you&#8217;re not,<br>you did your time, you&#8217;re good till your next session.<br>So use little tricks like that to keep you moving<br>forward in your projects or working on your book or<br>those things that you know you need or want to<br>do but don&#8217;t have time for.<br>Do in really small. Increments,<br>so did this answer. Yes,<br>it answered the question to set better goals,<br>you need to know what you want to figure out<br>what you want.<br>You could do this.<br>Look at your life, look at your schedule and do<br>things a little bit at a time.<br>Because it will add up as well.<br>Great, great final tip there a little bit at a<br>time.<br>Little things make a big difference going forward and my<br>my last question for you is I&#8217;m throwing up your<br>website here people.<br>That&#8217;s where you can go to find out more about<br>that,<br>but what else would you like to tell?<br>Where do you want people to go find out more<br>about you and why would they reach out to you?<br>Well, the devmethod.com is great also please find me on<br>LinkedIn and jot a note that says that we met<br>here.<br>I love making new friends in one of my big<br>feelings is you you don&#8217;t reach your goals on your<br>own.<br>You need your tribe. You need your community.<br>So always look for those opportunities to grow your network.<br>I&#8217;m also at the dev method everywhere.<br>LinkedIn, Facebook, Instagram and also write an on line which<br>was my original.<br>Writers support Group now for writers,<br>creatives and entrepreneurs. I have a Facebook page and a<br>group that you all are welcome to join as well.<br>Learn more about my book.<br>Click on the links that Ryan gave you an join.<br>the Facebook Group an IF you need coaching.<br>Need someone on one or if you have an organization<br>that you would like me to come speak to.<br>Reach out for that as well.<br>Well that is fantastic. So thank you Deb for being<br>our most honored guests on the show today and thank<br>you to everyone that watched the show and took time<br>out of your day to interact and hang out with<br>us.<br>I never take that for granted &#8217;cause there&#8217;s many other<br>choices of things you could do with your time today,<br>so thank you for that everybody.<br>Thank you for Deb. I&#8217;m going to request that you<br>hang on for a few minutes after we turn off<br>the live and I hope everybody has a great day.<br>Anna happy New Year and good luck setting those New<br>Year&#8217;s resolutions.<br>Yes, and thank you everybody.<br>Just remember you can do it.</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/19/stress-free-goal-setting-deb-eckerling/">Stress Free Goal Setting with Deb Eckerling</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/01/19/stress-free-goal-setting-deb-eckerling/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		<enclosure url="https://ryanswanstrom.com/wp-content/uploads/2021/01/stress-free-goals-deb-eckerling.mp3" length="96823691" type="audio/mpeg" />
+
+			</item>
+		<item>
+		<title>Ryan Swanstrom a Guest on #PirateBroadcast</title>
+		<link>https://ryanswanstrom.com/2021/01/15/ryan-swanstrom-a-guest-on-piratebroadcast/</link>
+					<comments>https://ryanswanstrom.com/2021/01/15/ryan-swanstrom-a-guest-on-piratebroadcast/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 13:47:00 +0000</pubDate>
+				<category><![CDATA[Content Creation]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8212</guid>
+
+					<description><![CDATA[<p>I am super excited to have been invited as a guest on another live show. The #PirateBroadcast with Russ Johns. It will be happening January 15, 2021 at 8:00am Central Time. I would love to have you stop by if you are available. I will be talking more about my latest project, The Example Show [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/15/ryan-swanstrom-a-guest-on-piratebroadcast/">Ryan Swanstrom a Guest on #PirateBroadcast</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>I am super excited to have been invited as a guest on another live show. The #PirateBroadcast with <a href="https://russjohns.com/" target="_blank" rel="noreferrer noopener">Russ Johns</a>. It will be happening January 15, 2021 at 8:00am Central Time. I would love to have you stop by if you are available. I will be talking more about my latest project, The Example Show and what I am working on in 2021. Plus, I would love to hear your questions. I hope you can join us.</p>
+
+
+
+<p>Topics to be discussed:</p>
+
+
+
+<ul><li>Data Science</li><li>What I am doing with The Example Show in 2021</li><li>Livestreaming</li><li>Why Content Creation is so important right now</li></ul>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="video-shortcode"><iframe class="youtube-player" width="1200" height="675" src="https://www.youtube.com/embed/saTNDwObjqA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+</div></figure>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/15/ryan-swanstrom-a-guest-on-piratebroadcast/">Ryan Swanstrom a Guest on #PirateBroadcast</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/01/15/ryan-swanstrom-a-guest-on-piratebroadcast/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Data Science 101 Blog gets a New Home</title>
+		<link>https://ryanswanstrom.com/2021/01/08/data-science-101-blog-gets-a-new-home/</link>
+					<comments>https://ryanswanstrom.com/2021/01/08/data-science-101-blog-gets-a-new-home/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Fri, 08 Jan 2021 15:28:27 +0000</pubDate>
+				<category><![CDATA[Data Science 101]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=8001</guid>
+
+					<description><![CDATA[<p>The Data Science 101 blog was started almost 9 years ago and the goal was to collect useful information for people looking to break into data science. It did that well, but now there are many other resources for learning data science. Thus, I have changed the URL and will be altering the focus a [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/08/data-science-101-blog-gets-a-new-home/">Data Science 101 Blog gets a New Home</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>The Data Science 101 blog was started almost 9 years ago and the goal was to collect useful information for people looking to break into data science. It did that well, but now there are many other resources for learning data science. Thus, I have changed the URL and will be altering the focus a bit. </p>
+
+
+
+<p>The blog address has moved from 101.datascience.community over to <a href="https://ryanswanstrom.com">RyanSwanstrom.com</a></p>
+
+
+
+<p>Don&#8217;t worry. All the blog posts are still there and the URL forwards correctly. </p>
+
+
+
+<p>The new Data Science 101 homepage can be found at <a href="https://ryanswanstrom.com/DataScience101">RyanSwanstrom.com/DataScience101</a></p>
+
+
+
+<p>If you are interested in what is next, you can enter your email below. Hint: it will involve a live show.</p>
+
+
+
+<p>Thanks and Have a Great Day!<br>Ryan</p>
+
+
+
+<div class="is-layout-flex wp-container-13 wp-block-columns has-background" style="background-color:#034488">
+<div class="is-layout-flow wp-block-column" style="flex-basis:25%"></div>
+
+
+
+<div class="is-layout-flow wp-block-column" style="flex-basis:50%">
+<h3 class="has-white-color has-text-color">Follow The Example Show</h3>
+
+
+
+	<div class="wp-block-jetpack-mailchimp" data-blog-id="32254956">
+		<form
+			aria-describedby="wp-block-jetpack-mailchimp_consent-text"
+					>
+			<p>
+				<input
+					aria-label="Enter your email"
+					placeholder="Enter your email"
+					required
+					title="Enter your email"
+					type="email"
+					name="email"
+				/>
+			</p>
+									
+<div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link has-background" style="background-color: #178fd6;" data-id-attr="mailchimp-button-block-10" id="mailchimp-button-block-10" type="submit">Follow Along</button></div>
+			<p id="wp-block-jetpack-mailchimp_consent-text">
+							</p>
+
+			
+		</form>
+		
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_processing" role="status">
+				Processing…			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_success" role="status">
+				Success! You&#039;re on the list.			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_error" role="alert">
+				Whoops! There was an error and we couldn&#039;t process your subscription. Please reload the page and try again.			</div>
+
+			</div>
+	</div>
+
+
+
+<div class="is-layout-flow wp-block-column" style="flex-basis:25%"></div>
+</div>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2021/01/08/data-science-101-blog-gets-a-new-home/">Data Science 101 Blog gets a New Home</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2021/01/08/data-science-101-blog-gets-a-new-home/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Being Creative with Video on LinkedIn</title>
+		<link>https://ryanswanstrom.com/2020/11/07/being-creative-with-video-on-linkedin/</link>
+					<comments>https://ryanswanstrom.com/2020/11/07/being-creative-with-video-on-linkedin/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Sun, 08 Nov 2020 01:27:08 +0000</pubDate>
+				<category><![CDATA[The Example Show]]></category>
+		<category><![CDATA[linkedin]]></category>
+		<category><![CDATA[live]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">http://ryanswanstrom.com/?p=2326</guid>
+
+					<description><![CDATA[<p>https://youtu.be/TSP5BJs8LsQ</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/11/07/being-creative-with-video-on-linkedin/">Being Creative with Video on LinkedIn</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="video-shortcode"><iframe class="youtube-player" width="1200" height="675" src="https://www.youtube.com/embed/TSP5BJs8LsQ?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+</div></figure>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/11/07/being-creative-with-video-on-linkedin/">Being Creative with Video on LinkedIn</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2020/11/07/being-creative-with-video-on-linkedin/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nhung Ho &#8211; Data Science in a Cloud World</title>
+		<link>https://ryanswanstrom.com/2020/10/24/nhung-ho-data-science-in-a-cloud-world/</link>
+					<comments>https://ryanswanstrom.com/2020/10/24/nhung-ho-data-science-in-a-cloud-world/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2020 23:02:00 +0000</pubDate>
+				<category><![CDATA[Data Science 101]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<guid isPermaLink="false">https://ryanswanstrom.com/?p=6793</guid>
+
+					<description><![CDATA[<p>This is a great talk for data scientists and managers of technology teams. If you do data science in 2020 or beyond, there is a good chance the cloud will be involved. Topics covered: Lessons learned when migrating data science (or technology in general) to the cloudAI services available via different cloud providersWorkflows in the [...]</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/10/24/nhung-ho-data-science-in-a-cloud-world/">Nhung Ho &#8211; Data Science in a Cloud World</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>This is a great talk for data scientists and managers of technology teams. If you do data science in 2020 or beyond, there is a good chance the cloud will be involved. Topics covered:</p>
+
+
+
+<ul class="is-style-default"><li>Lessons learned when migrating data science (or technology in general) to the cloud</li><li>AI services available via different cloud providers</li><li>Workflows in the cloud</li><li>and more</li></ul>
+
+
+
+<p>The speaker is Nhung Ho, Director of Data Science at Intuit.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="video-shortcode"><iframe class="youtube-player" width="1200" height="675" src="https://www.youtube.com/embed/nNBxscmV5Ho?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+</div></figure>
+
+
+
+<p>See other top data science videos on the <a href="https://ryanswanstrom.com/category/video/">Data Science 101 video</a> page.</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/10/24/nhung-ho-data-science-in-a-cloud-world/">Nhung Ho &#8211; Data Science in a Cloud World</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2020/10/24/nhung-ho-data-science-in-a-cloud-world/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Going Live to Grow Your Business &#8211; An Interview with Lindy Chapman</title>
+		<link>https://ryanswanstrom.com/2020/09/04/going-live-to-grow-your-business-an-interview-with-lindy-chapman/</link>
+					<comments>https://ryanswanstrom.com/2020/09/04/going-live-to-grow-your-business-an-interview-with-lindy-chapman/#comments</comments>
+		
+		<dc:creator><![CDATA[Ryan Swanstrom]]></dc:creator>
+		<pubDate>Fri, 04 Sep 2020 13:32:00 +0000</pubDate>
+				<category><![CDATA[The Example Show]]></category>
+		<guid isPermaLink="false">http://ryanswanstrom.com/?p=2139</guid>
+
+					<description><![CDATA[<p>https://youtu.be/PQ54qHYxAXU</p>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/09/04/going-live-to-grow-your-business-an-interview-with-lindy-chapman/">Going Live to Grow Your Business &#8211; An Interview with Lindy Chapman</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="video-shortcode"><iframe class="youtube-player" width="1200" height="675" src="https://www.youtube.com/embed/PQ54qHYxAXU?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+</div></figure>
+<p>The post <a rel="nofollow" href="https://ryanswanstrom.com/2020/09/04/going-live-to-grow-your-business-an-interview-with-lindy-chapman/">Going Live to Grow Your Business &#8211; An Interview with Lindy Chapman</a> appeared first on <a rel="nofollow" href="https://ryanswanstrom.com">Ryan Swanstrom</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ryanswanstrom.com/2020/09/04/going-live-to-grow-your-business-an-interview-with-lindy-chapman/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
