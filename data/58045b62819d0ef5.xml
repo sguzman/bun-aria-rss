@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Mimno</title>
+    <atom:link href="http://mimno.infosci.cornell.edu/b/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://mimno.infosci.cornell.edu/b</link>
+    <description>Department of Information Science, Cornell University</description>
+    <pubDate>Wed, 17 Sep 2014 20:00:00 -0400</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Labels and Patterns</title>
+      <link>http://mimno.infosci.cornell.edu/b/articles/labelsandpatterns/</link>
+      <pubDate>Wed, 17 Sep 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://mimno.infosci.cornell.edu/b/articles/labelsandpatterns/</guid>
+      <author></author>
+      <description>&lt;p&gt;I’ve been using this blog as a more philosophical platform, this is going to be about some new features in the machine learning
+package that I work on, &lt;a href=&quot;http://mallet.cs.umass.edu/&quot;&gt;Mallet&lt;/a&gt;. 
+One of these, LabeledLDA, is some code that I’ve had lying around for a few years.
+The other, stop patterns, is a simple addition that may be useful in vocabulary curation for text mining.
+You’ll need to grab the latest development version from &lt;a href=&quot;https://github.com/mimno/Mallet&quot;&gt;GitHub&lt;/a&gt; to run these.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;labeledlda&quot;&gt;LabeledLDA&lt;/h3&gt;
+&lt;p&gt;The first tool, LabeledLDA, is a simplified topic model for use when documents have labels, and labels correspond to topics.
+When each document in a text collection has exactly one label, you can estimate a Na&amp;iuml;ve Bayes model by counting all the
+words in the subset of documents that have a given label value.
+When you have no labels, a topic model like Latent Dirichlet Allocation can find semantically coherent “topics”.
+But what if you have multiple labels per document?
+For example, consider a 5-star review of a Chinese restaurant.
+We can think of this as a document with three labels: 5-star, Chinese, and Restaurant.
+Some of the words in the review might be about being a great restaurant, others might be about Chinese cuisine, and others about restaurants in general.
+LabeledLDA (Ramage et al., EMNLP 2009; see also McCallum, Multi-label text classification…, 1999) is a way of measuring this kind of connections between words and labels.&lt;/p&gt;
+&lt;p&gt;LabeledLDA asserts a one-to-one relationship between labels and topics. Every document is a mixture of the
+words associated with its labels, and nothing else.
+This assumption simplifies inference because in a given document we only have to assign each word token to one of the labels for that document, rather than the entire set of documents.
+An additional advantage is that each topic has, by definition, an existing label, so we can skip the “squinting at it” stage of fully unsupervised topic model analysis.
+The cost of that assumption is that we may miss emergent patterns or language that’s not well modeled by the labels. There has been work on models that make looser connections between labels and topics, but that’s a question for another day.&lt;/p&gt;
+&lt;p&gt;Running LabeledLDA requires that we have documents with multiple labels.
+The easiest way to do this in Mallet is with the new “—label-as-features” option in the “import-file” command.
+The input for this command is a text file with one line per document and three columns: an ID, a set of labels,
+and the text.
+By default, Mallet interprets the first two whitespace-delimited fields of each line as the ID and label.
+That’s a problem because we’d like to use some whitespace to delimit our multiple labels, but it’s easy to 
+fix by changing the line-parsing regular expression to separate columns with tabs, and thus allow spaces to exist in the label field.
+Here’s a full command line example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bin/mallet import-file --input yelp-short.txt --output yelp-short.seq --stoplist-file yelp.stops --label-as-features --keep-sequence --line-regex &amp;#39;([^\t]+)\t([^\t]+)\t(.*)&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;As an example I’m going to use the fourth round &lt;a href=&quot;http://www.yelp.com/dataset_challenge&quot;&gt;Yelp dataset&lt;/a&gt; —- it’s freely available, but please go to the source.
+As labels or “features”, I’m using the tags, city and region for each business, and the review stars.
+From a subset of 100,000 reviews, this results in 553 labels.
+Here’s the command to run a model and save “topic keys” to a file:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bin/mallet run cc.mallet.topics.LabeledLDA --input yelp-short.seq --output-topic-keys yelp-llda.keys
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The command supports most of the input and output options from standard Mallet LDA, in many cases with 
+the exact same code. Use the “—help” option to find out more. Sharing code makes it easy to add functionality, but sometimes causes problems —- for example the held-out probability evaluator and topics-for-new-documents inferencer don’t pay attention to document labels.&lt;/p&gt;
+&lt;p&gt;The “keys” file contains one line per label/topic. The first column is the topic ID number, corresponding
+to the original order that each label first appeared in the training data. The second column is the 
+label string. The third column is the total number of tokens assigned to that topic at the particular Gibbs 
+sampling state where we stopped. The last column is a space-delimited list of 20 words in descending order by probability in the topic. Topics with very few total words may have less than 20 words.&lt;/p&gt;
+&lt;p&gt;Here are some examples of high-frequency topics:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;10      Restaurants     727089  salad sauce meal cheese table dinner wasn&amp;#39;t side server bit both flavor taste took served tasted something tasty hot though 
+232     Sushi_Bars      38441   sushi roll rolls fish happy hour tuna spicy sashimi salmon favorite sakana quality nigiri tempura chefs places japanese special rice 
+29      Hotels_&amp;amp;_Travel 30017   room hotel stay desk rooms front stayed day bed marriott check pool property booked area clean airport car checked resort 
+32      Hotels  29163   room hotel stay breakfast rooms free clean pool bed stayed comfortable bathroom area shower inn suites desk hotels hot water 
+16      Chinese 51834   chinese rice fried soup beef egg sauce hot dishes pork shrimp sour spicy dish crab orange noodles delivery china mein 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Moderate-frequency topics are also pretty good, although there are some specific words mixed in like “Zoe’s” for “Southern”:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;477     Dim_Sum 730     dim sum c-fu dimsum carts phoenix cart variety dim-sum feet palace balls items xmas tripe tradition leaf lotus steamed tarts 
+298     Office_Equipment        728     office staples max ink officemax print printer cartridge toner printing cartridges supplies printed router copy computer file copies depot computers 
+113     Videos_&amp;amp;_Video_Game_Rental      724     movies video movie blockbuster netflix films rent paradise releases rentals selection section games title rental foreign dvd titles film adult 
+468     Apache_Junction_AZ      721     apache junction elvira&amp;#39;s lake canyon patio bloody mechanic girlfriend mary gringos lglg&amp;amp;c trail hiking miles beautiful truck hacker&amp;#39;s locos cantina 
+155     Home_Decor      659     tile candles boone granite holland slab stone rocks kitchen slabs wood pewter minerals stones rock world decorate molding marling linen 
+234     Southern        657     zoe&amp;#39;s sandwich cake salad zoes feta chocolate slaw pasta grilled healthy tuna potato kabobs dry limeade chips pimento sandwiches roll-ups 
+471     Gelato  648     gelato angel sweet flavors chocolate dark cotta panna italy hazelnut peanut flavor super texture taste creamy size dairy sweet&amp;#39;s gelatos 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Rare topics are increasingly noisy:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;423     Interior_Design 8       copehaigen whatzits registries adhd distain untrained charlotte step 
+410     Airlines        8       unshaven sweatshirt csa eqipment scruffy hooded fbo vending 
+380     Russian 8       fsu embarrasses semi-salted latvia selection.i yearning jewish 
+552     Divorce_&amp;amp;_Family_Law    6       pontoni attornies results.there jea retained 
+506     Motorcycle_Rental       6       registration breach brags corky harley 
+504     Tutoring_Centers        6       peripherals really-really-smart clock-mini-speaker reassurances pro&amp;#39;s 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The star-rating labels are particularly interesting.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;4       5_star  255897  amazing years every recommend awesome family excellent highly everything favorite wonderful times prices many can&amp;#39;t fantastic feel most everyone day 
+6       4_star  204279  times prices usually area location bit its most price many every find years lot though favorite enjoy you&amp;#39;re recommend excellent 
+11      3_star  92213   decent nothing bad bit prices stars though times average its area overall price however lot location most wasn&amp;#39;t probably give 
+5       2_star  85203   minutes asked told another table took bad wasn&amp;#39;t times server last manager finally waited not
+7       1_star  213432  told asked minutes manager customer another rude called him took worst bad money business horrible left his call give finally 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To me these look great. Five-star reviews have lots of positive adjectives, one-star reviews are narratives about employees who were rude or slow, and three-star words seem to capture the essence of ho-hum averageness.
+But they’re also not that different from the overall sub-corpus frequencies.
+The top words for five-star reviews (minus stopwords) are &lt;em&gt;amazing, years, every, recommend, awesome, favorite, everything,&lt;/em&gt; and &lt;em&gt;day&lt;/em&gt;.
+The most significant difference seems to be &lt;em&gt;family&lt;/em&gt;, which is the 19th most common word and occurs 25% less often than &lt;em&gt;everything&lt;/em&gt;, but ranks higher within this five-star topic.
+This result is stable —- running the algorithm again with a random initialization results in essentially the same order with a few word pairs swapped. &lt;/p&gt;
+&lt;h3 id=&quot;stop-patterns&quot;&gt;Stop Patterns&lt;/h3&gt;
+&lt;p&gt;There was a request on the topic list for a way to remove &lt;em&gt;patterns&lt;/em&gt; of words rather than just specific stopwords. I’ve added code to do that.&lt;/p&gt;
+&lt;p&gt;Here’s a sample regular expression file. Note that I’m using the Java &lt;code&gt;matches&lt;/code&gt; function, so a pattern must account for the &lt;em&gt;entire&lt;/em&gt; token —- thus the trailing .*.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.*ly
+photog.*
+.*\.{2,}.*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The first is an attempt to remove English adverbs, but may not be ideal for people named Kelly or my friends at &lt;a href=&quot;http://www.yummly.com/&quot;&gt;Yummly&lt;/a&gt;. The second looks for a prefix. The third looks for multiple dots, which seems to be a common pattern in some Yelp reviews. 
+If there is a problem with a regular expression, Mallet will print an error and will ignore all subsequent patterns, but will not stop processing.
+Here’s a sample file with examples:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1    X    this is a terribly useful test for....things involving photographs, photographers, and photography called test.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here’s what happens when I run the standard method:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;% bin/mallet import-file --input test.txt --print-output
+name: 1
+target: X
+input: this(0)=1.0
+terribly(1)=1.0
+useful(2)=1.0
+test(3)=1.0
+for....things(4)=1.0
+involving(5)=1.0
+photographs(6)=1.0
+photographers(7)=1.0
+and(8)=1.0
+photography(9)=1.0
+called(10)=1.0
+test.txt(11)=1.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Notice that the new default token pattern ignores one- and two-letter words (is, a), but includes tokens that contain punctuation, which picks up URLs, apostrophes, and hyphens.
+Keep in mind these interactions with the tokenization pattern when designing regular expressions.
+Here’s what the output looks like afterwards.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;% bin/mallet import-file --input test.txt --stop-pattern-file stoplists/patterns.txt --print-output
+name: 1
+target: X
+input: this(0)=1.0
+useful(1)=1.0
+test(2)=1.0
+involving(3)=1.0
+and(4)=1.0
+called(5)=1.0
+test.txt(6)=1.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Using stop patterns involves creating a Matcher object for each token and each pattern, and checking that pattern against the
+token string. In contrast, static stopword removal is a hash lookup. I haven’t measured performance yet, but I 
+would guess that stop patterns should be used sparingly.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Data carpentry</title>
+      <link>http://mimno.infosci.cornell.edu/b/articles/carpentry/</link>
+      <pubDate>Mon, 18  Aug 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://mimno.infosci.cornell.edu/b/articles/carpentry/</guid>
+      <author></author>
+      <description>&lt;p&gt;The New York Times has an article titled &lt;a href=&quot;http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html&quot;&gt;For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights&lt;/a&gt;. 
+Mostly I really like it. The fact that raw data is rarely usable for analysis without significant work is a point I try hard to
+make with my students.
+I told them “do not underestimate the difficulty of data preparation”. 
+When they turned in their projects, many of them reported that they had underestimated the difficulty of data preparation.
+Recognizing this as a hard problem is great.&lt;/p&gt;
+&lt;p&gt;What I’m less thrilled about is calling this “janitor work”.
+For one thing, it’s not particularly respectful of custodians, whose work I really appreciate.
+But it also mischaracterizes what this type of work is about.
+I’d like to propose a different analogy that I think fits a lot better: &lt;em&gt;data carpentry&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: &lt;a href=&quot;http://software-carpentry.org/blog/2014/05/our-first-data-carpentry-workshop.html&quot;&gt;data carpentry&lt;/a&gt; seems to already be a thing&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Why is woodworking a better analogy?
+The article uses a few other terms, like data wrangling (data as unruly beasts to be tamed?) and munging (what is that, anyway?), neither of which mean much to me. I also like &lt;em&gt;data curation&lt;/em&gt; but that’s also a bit vague.
+Data carpentry probably has something to do with wishing I could make things like &lt;a href=&quot;http://bridge.library.wisc.edu/Projects_VictorianEyes_Roll_of_the_Topics.html&quot;&gt;Carrie Roy&lt;/a&gt;, but
+I should start by saying what I don’t like about the “data cleaning” or “janitor work” terms.
+To me these imply that there is some kind of pure or clean data buried in a thin layer of non-clean data, and that one need only hose the dataset off to reveal the hard porcelain underneath the muck.
+In reality, the process is more like deciding how to cut into a piece of material, or how much to plane down a surface.
+It’s not that there’s any real distinction between good and bad, it’s more that some parts are softer or knottier than others.
+Judgement is critical.&lt;/p&gt;
+&lt;p&gt;The scale of data work is more like woodworking, as well.
+Sometimes you may have a whole tree in front of you, and only need a single board.
+There’s nothing wrong with the rest of it, you just don’t need it right now.&lt;/p&gt;
+&lt;p&gt;Finally, as the article points out, data work is as much about joining things together as it is selecting and pruning.
+Like building a data chair —- you turn a dataset on the data lathe, and then glue it to the appropriate slot in another dataset.
+Carpentry has all these aspects, from selecting and shaping to careful joinery.&lt;/p&gt;
+&lt;p&gt;But there are other aspects of carpentry that make it an appealing metaphor.
+I don’t know as much as I’d like about woodworking, but my impression is that it is not so much a single discipline as a vast array of specific skills.
+None of these are particularly difficult by themselves, but knowing which tool or method to use at each stage and carrying out each one cleanly and efficiently takes years of practice.
+Data carpentry, which I’ve been practicing in one way or another for about 15 years (though never as my official responsibility), is likewise not a single process but a thousand little skills and techniques.
+Instead of feeling the grain of a pine board, I spot the distinctive marks of broken UTF-8.
+Instead of a router and drill press I use perl (that’s right, perl) and shell scripts.
+But even after that much time, I would still say I’m just fairly good. Building up solid instincts and a suite of processes makes me a lot faster than beginners, but I can’t foresee running out of scripts to write.&lt;/p&gt;
+&lt;p&gt;So where does this leave us? 
+I got the impression that the main purpose of the NYT article was to introduce a class of promising startups.
+I think these will do a good job of knocking off 60-80% of common cases, which will certainly save a lot of people a lot of time.
+I also think that if anyone can systematize data work, Jeff Heer and his team are a good bet (although writing an article about data work and not mentioning Hadley Wickham at RStudio is like writing an article about symphonies and not mentioning Beethoven).
+But I cannot imagine that data carpentry will not be a major part of the work of data science in the future.
+Every data set has its idiosyncrasies. You can streamline the process, but you can’t avoid it.
+To draw out the analogy a bit more: sure, there’s Ikea, but the best furniture is still made by Amish carpenters.&lt;/p&gt;
+&lt;p&gt;Most importantly, I don’t think we want to make data carpentry automated —- and therefore invisible.
+Lillian Lee and I were recently commiserating about the tendency of machine learning students to never look at the data they’re working with.
+We both felt that to be really effective, you have to understand both the generalities and the specifics of a model.
+There’s no substitute for experiencing the data set directly, and comparing this experience to a skilled, hands-on craft like woodwork feels right to me.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>A useful word</title>
+      <link>http://mimno.infosci.cornell.edu/b/articles/aleatory/</link>
+      <pubDate>Wed, 13  Aug 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://mimno.infosci.cornell.edu/b/articles/aleatory/</guid>
+      <author></author>
+      <description>&lt;p&gt;I was reading &lt;a href=&quot;http://www.pnas.org/content/early/2014/08/05/1410183111&quot;&gt;a paper&lt;/a&gt; the other day and came across the word &lt;em&gt;aleatory&lt;/em&gt;.
+This turns out to be an excellent word. It comes from the Latin &lt;em&gt;alea&lt;/em&gt; for “dice”, as in &lt;em&gt;alea jacta est&lt;/em&gt;, which is what you say
+when you’re Julius Caesar and you cross the Rubicon.
+It means random, or subject to chance. It seems to come up mainly in legal contexts: an aleatory contract is one whose terms depend
+on future events, like an insurance policy.
+This got me thinking about other words for the property of randomness.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Random&lt;/em&gt;, of course, is the most frequent and familiar word, so by default it should be a good choice. But many people tend to think of &lt;em&gt;random&lt;/em&gt; as unstructured or messy.
+So what’s a good word for having an element of chance, but in specific, quantifiable, and non-uniform ways?&lt;/p&gt;
+&lt;p&gt;The first thing that came to mind was &lt;em&gt;stochastic&lt;/em&gt;.
+Since I had my Shorter Oxford English Dictionary (2nd ed., 1936) out, I looked that up too.
+It’s derived from στόχος, an aim or a shot, usually with a javelin or something similar.
+I was interested to see that, where &lt;em&gt;aleatory&lt;/em&gt; is from the gambling world, &lt;em&gt;stochastic&lt;/em&gt; is more military.
+But what really caught my eye was that the SOED listed &lt;em&gt;stochastic&lt;/em&gt; as archaic and extremely rare.
+Huh? How could such a fun and important word have been almost lost, and how did it come to be found again?&lt;/p&gt;
+&lt;p&gt;I checked the Google n-gram viewer, and found that indeed, &lt;em&gt;stochastic&lt;/em&gt; is now common, but almost never occurs until — you guessed it — 1936.
+&lt;em&gt;Aleatory&lt;/em&gt;, in comparison, was well attested throughout the 20th century, but at about the same frequency over the whole period.
+Even more surprisingly, &lt;em&gt;probabilistic&lt;/em&gt;, which I thought would dominate both terms, is less frequent than &lt;em&gt;stochastic&lt;/em&gt; and didn’t really take off until 1950.&lt;/p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https://books.google.com/ngrams/interactive_chart?content=stochastic%2Caleatory%2Cprobabilistic&amp;year_start=1880&amp;year_end=2000&amp;corpus=15&amp;smoothing=3&amp;share=&amp;direct_url=t1%3B%2Cstochastic%3B%2Cc0%3B.t1%3B%2Caleatory%3B%2Cc0%3B.t1%3B%2Cprobabilistic%3B%2Cc0&quot; width=600 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Here’s the zoomed-in chart for pre-1940 books, showing the dawn of the stochastic era:&lt;/p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https://books.google.com/ngrams/interactive_chart?content=stochastic%2Caleatory%2Cprobabilistic&amp;year_start=1880&amp;year_end=1940&amp;corpus=15&amp;smoothing=3&amp;share=&amp;direct_url=t1%3B%2Cstochastic%3B%2Cc0%3B.t1%3B%2Caleatory%3B%2Cc0%3B.t1%3B%2Cprobabilistic%3B%2Cc0&quot; width=600 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;/iframe&gt;
+
+&lt;p&gt;What caused this increase? Again, relying on Google Books, there are some indications. The &lt;a href=&quot;https://www.google.com/search?q=stochastic&amp;amp;tbs=bks:1,cdr:1,cd_min:1935,cd_max:1938&amp;amp;lr=lang_en&amp;amp;gws_rd=ssl&quot;&gt;works that use &lt;em&gt;stochastic&lt;/em&gt; between 1935 and 1938&lt;/a&gt; include, from 1938, &lt;em&gt;Invariants of Certain Stochastic Transformations: The Mathematical Theory of Gambling Systems&lt;/em&gt; by Paul Richard Halmos and a paper that may or may not be by Alonzo Church from the Journal of Symbolic Logic (it’s hard to tell from the Books interface whether the author metadata is at the journal or article level), and, from 1935, &lt;em&gt;Prices in the Trade Cycle&lt;/em&gt; by Gerhard Tintner, who puts “Stochastic” in scare quotes. I’d love to know if anyone can fill in the details.&lt;/p&gt;
+&lt;p&gt;So what about &lt;em&gt;aleatory&lt;/em&gt;? It never declined, and has actually gained popularity along with its more frequent cousins, but never took off in the same way.
+Could it be stuck in a legal context, as an ossified part of a fixed phrase? I checked the frequency of &lt;em&gt;aleatory contract&lt;/em&gt; along with the base adjective, and it doesn’t seem to account for even a significant fraction of uses.
+Again, just from isolated frequencies it’s hard to tell what rock this word has been living under, but I’ll bet a little scholarship could turn up some interesting usages.&lt;/p&gt;
+&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https://books.google.com/ngrams/interactive_chart?content=aleatory%2Caleatory+contract&amp;year_start=1880&amp;year_end=2000&amp;corpus=15&amp;smoothing=3&amp;share=&amp;direct_url=t1%3B%2Caleatory%3B%2Cc0%3B.t1%3B%2Caleatory%20contract%3B%2Cc0&quot; width=600 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;/iframe&gt;
+
+&lt;p&gt;So, two points. First, aleatory is a great word, and we should use it when discussing stochastic, probabilistic modeling.
+And second, the next time you see one of those lists of “great archaic words we should bring back”, don’t laugh. Sometimes words do have a rebirth, but the process is (ahem) aleatory.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Advice for students of machine learning</title>
+      <link>http://mimno.infosci.cornell.edu/b/articles/ml-learn/</link>
+      <pubDate>Wed, 11 Jun 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://mimno.infosci.cornell.edu/b/articles/ml-learn/</guid>
+      <author></author>
+      <description>&lt;p&gt;One of my students recently asked me for advice on learning ML. Here’s
+what I wrote. It’s biased toward my own experience, but should generalize.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;My current favorite introduction is Kevin Murphy’s book (Machine
+Learning). You might also want to look at books by Chris Bishop
+(Pattern Recognition), Daphne Koller (Probabilistic Graphical Models),
+and David MacKay (Information Theory, Inference and Learning
+Algorithms).&lt;/p&gt;
+&lt;p&gt;Anything you can learn about linear algebra and probability/statistics
+will be useful. Strang’s Introduction to Linear Algebra, Gelman, Carlin, Stern and Rubin’s Bayesian
+Data Analysis, and Gelman and Hill’s Data Analysis using Regression and Multilevel/Hierarchical models are some of my favorite books.&lt;/p&gt;
+&lt;p&gt;Don’t expect to get anything the first time. Read descriptions of the
+same thing from several different sources.&lt;/p&gt;
+&lt;p&gt;There’s nothing like trying something yourself. Pick a model and
+implement it. Work through open source implementations and
+compare. Are there computational or mathematical tricks that make
+things work?&lt;/p&gt;
+&lt;p&gt;Read a lot of papers. When I was a grad student, I had a 20 minute bus
+ride in the morning and the evening. I always tried to have an
+interesting paper in my bag. The bus isn’t the important part — what
+was useful was having about half an hour every day devoted to reading.&lt;/p&gt;
+&lt;p&gt;Pick a paper you like and “live inside it” for a week. Think about it
+all the time. Memorize the form of each equation. Take long walks and
+try to figure out how each variable affects the output, and how
+different variables interact. Think about how you get from Eq. 6 to
+Eq. 7 — authors often gloss over algebraic details. Fill them in.&lt;/p&gt;
+&lt;p&gt;Be patient and persistent. Remember von Neumann: “in mathematics you
+don’t understand things, you just get used to them.”&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
