@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:WKR384ZeBgk",
+  "yt:videoId": "WKR384ZeBgk",
+  "yt:channelId": "UCEBcDOjv-bhAmLavY71RMHA",
+  "title": "Lambda World 2019 - Arrow Meta - Enabling Functional Programming in the Kotlin Compiler",
+  "link": "",
+  "author": {
+    "name": "Lambda World",
+    "uri": "https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"
+  },
+  "published": "2019-11-04T16:54:11+00:00",
+  "updated": "2022-09-19T15:47:34+00:00",
+  "media:group": {
+    "media:title": "Lambda World 2019 - Arrow Meta - Enabling Functional Programming in the Kotlin Compiler",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this Lambda World 2019 presentation, Raúl Raja and Simon Vergauwen detail the powerful Arrow Meta library.\n\nPresentation Description:\n\nArrow Meta is a library that empowers library and application authors with the ability to write plugins for the Kotlin compiler. Compiler plugins have access to all compiler phases and can intercept and modify the AST, descriptors, and IR intermediate lang for bytecode generation. In this talk, Simon Vergauwen and Raul Raja, Arrow maintainers from 47 Degrees, will go over the main features of Arrow Meta and how the Arrow library aims for:\n\n- Bringing first-class FP capabilities to the Kotlin compiler.\n- Provide a framework for developers to write compiler plugins easily.\n\nYou will learn how the Kotlin compiler works internally and how you can write compiler plugins with the Arrow Meta library.\n\nWe will discuss some of the current Arrow plugins in development and the future and state of FP in Kotlin:\n\n- Keep 87. Type class and extension families\n- Monad Comprehensions\n- Higher Kinded Types\n- Automatic Optics derivation\n- Refined types\n\n------\nFollow: \n-https://www.twitter.com/lambda_world \n-https://www.twitter.com/47deg\n-https://twitter.com/vergauwen_simon\n-https://twitter.com/raulraja\n\nVisit: \n-https://www.47deg.com/events for more details\n-http://www.lambda.world",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
