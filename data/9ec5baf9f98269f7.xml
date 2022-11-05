@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss?before=298646065" rel="next" type="application/rss+xml"/>
+        <title>Software Architecture Radio</title>
+        <link>https://soundcloud.com/swarchradio</link>
+        <pubDate>Wed, 27 May 2020 20:39:52 +0000</pubDate>
+        <lastBuildDate>Wed, 27 May 2020 20:39:52 +0000</lastBuildDate>
+        <ttl>60</ttl>
+        <language>en</language>
+        <copyright>All rights reserved</copyright>
+        <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+        <description>Welcome to the first podcast dedicated solely to the practice of software architecture! In the episodes to come, we’ll discuss modern software architecture patterns and practices with the practitioners getting their hands dirty doing the work.</description>
+        <itunes:subtitle>Welcome to the first podcast dedicated solely to …</itunes:subtitle>
+        <itunes:owner>
+          <itunes:name>Software Architecture Radio</itunes:name>
+          <itunes:email>matt.stine+swarchradio@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:author>Hosted by Matt Stine</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+        <image>
+          <url>https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg</url>
+          <title>Software Architecture Radio</title>
+          <link>https://soundcloud.com/swarchradio</link>
+        </image>
+        <itunes:category text="Technology"/>
+        <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/596790582</guid>
+      <title>Episode @007: WebAssembly with Brian Sletten</title>
+      <pubDate>Wed, 27 Mar 2019 15:46:49 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-007-webassembly-with-brian-sletten</link>
+      <itunes:duration>00:44:45</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Brian Sletten: @bsletten | about.me/bsletten 
+
+00:30 - Brian Sletten Introduction
+02:01 - What is WebAssembly?
+caniuse.com: Search=webassembly
+Google Native Client (NaCl)
+NaCl and PNaCl
+asm.js
+11:58 - The Popularity and Attraction of WebAssembly
+21:44 - Will WebAssembly kill the desktop?
+33:00 - The Synergy Between Rust and WebAssembly
+Mozilla	
+40:38 - Getting Started with WebAssembly, Additional Resources, and Advice
+Twitter: #WebAssembly
+Learn WebAssembly | PACKT Books
+The Pragmatic Programmer: Programming WebAssembly with Rust
+“Lin Clark WebAssembly” Google Search 
+@WasmWeekly</itunes:summary>
+      <itunes:subtitle>Brian Sletten: @bsletten | about.me/bsletten 
+
+00…</itunes:subtitle>
+      <description>Brian Sletten: @bsletten | about.me/bsletten 
+
+00:30 - Brian Sletten Introduction
+02:01 - What is WebAssembly?
+caniuse.com: Search=webassembly
+Google Native Client (NaCl)
+NaCl and PNaCl
+asm.js
+11:58 - The Popularity and Attraction of WebAssembly
+21:44 - Will WebAssembly kill the desktop?
+33:00 - The Synergy Between Rust and WebAssembly
+Mozilla	
+40:38 - Getting Started with WebAssembly, Additional Resources, and Advice
+Twitter: #WebAssembly
+Learn WebAssembly | PACKT Books
+The Pragmatic Programmer: Programming WebAssembly with Rust
+“Lin Clark WebAssembly” Google Search 
+@WasmWeekly</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/596790582-swarchradio-episode-007-webassembly-with-brian-sletten.mp3" length="46967025"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/349432809</guid>
+      <title>Episode @006: Modular Monoliths with Simon Brown</title>
+      <pubDate>Tue, 31 Oct 2017 12:22:20 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-006-modular-monoliths-with-simon-brown</link>
+      <itunes:duration>00:55:21</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Simon Brown: simonbrown.je | @simonbrown | Software Architecture for Developers | Simon blogs at Coding the Architecture
+
+This episode is sponsored by Pivotal and ThoughtWorks.
+
+02:13 - Simon’s Background and Career Path Thus Far
+04:20 - Structurizr and Software Tooling
+	The C4 Software Architecture Model
+08:44 - Architecture Concepts in Programming Languages and an Architecturally Evident Coding Style 
+12:24 - Organization of Code and Software Systems; Microservices
+	The Moose Technology Platform
+23:32 - Lack of Design Thinking
+Distributed Big Balls of Mud
+Simon's Modular Monoliths @ Devoxx Belgium 2016
+
+This episode is sponsored by The O’Reilly Software Architecture Conference and ArchConf 2017.
+
+29:08 - Cargo Culting Ideas and Testing Strategies
+	Martin Fowler’s PresentationDomainDataLayering
+39:36 - Problems with Terminology
+44:37 - Tooling “for the right thing”
+52:59 - Advice for an Aspiring Software Architect</itunes:summary>
+      <itunes:subtitle>Simon Brown: simonbrown.je | @simonbrown | Softwa…</itunes:subtitle>
+      <description>Simon Brown: simonbrown.je | @simonbrown | Software Architecture for Developers | Simon blogs at Coding the Architecture
+
+This episode is sponsored by Pivotal and ThoughtWorks.
+
+02:13 - Simon’s Background and Career Path Thus Far
+04:20 - Structurizr and Software Tooling
+	The C4 Software Architecture Model
+08:44 - Architecture Concepts in Programming Languages and an Architecturally Evident Coding Style 
+12:24 - Organization of Code and Software Systems; Microservices
+	The Moose Technology Platform
+23:32 - Lack of Design Thinking
+Distributed Big Balls of Mud
+Simon's Modular Monoliths @ Devoxx Belgium 2016
+
+This episode is sponsored by The O’Reilly Software Architecture Conference and ArchConf 2017.
+
+29:08 - Cargo Culting Ideas and Testing Strategies
+	Martin Fowler’s PresentationDomainDataLayering
+39:36 - Problems with Terminology
+44:37 - Tooling “for the right thing”
+52:59 - Advice for an Aspiring Software Architect</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/349432809-swarchradio-episode-006-modular-monoliths-with-simon-brown.mp3" length="53140368"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/345234302</guid>
+      <title>Episode @005: Evolutionary Architecture with Neal Ford</title>
+      <pubDate>Tue, 03 Oct 2017 22:10:41 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-005-evolutionary-architecture-with-neal-ford</link>
+      <itunes:duration>00:58:28</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Neal Ford: @neal4d | nealford.com
+
+This episode is sponsored by Pivotal and ArchConf 2017
+
+01:36 - Neal’s Background and Career Path Thus Far
+	Clipper Development
+	Delphi
+	Bulletin Board Systems (BBSs)
+11:52 - Evolutionary Architecture and Evolvability
+	Neal and Rebecca Parsons on Microservices as an Evolutionary Architecture
+Neal’s Evolutionary Architecture Podcast Episode on Software Engineering Daily
+Neal and Rebecca Parsons Discuss Evolutionary Architecture on the Thoughtworks Tech Leaders Podcast
+Neal’s Webinar on Evolutionary Architectures
+Docker - Dynamic Equilibrium
+	Arrival of the Fittest: How Nature Innovates by Andreas Wagner
+26:56 - Fitness Functions; Ensuring Resiliency
+31:19 - Microservice Architecture and Complexity
+40:57 - Data Ownership: Who owns customer? Logical Cohesion
+50:44 - -ilities: Tradeoffs</itunes:summary>
+      <itunes:subtitle>Neal Ford: @neal4d | nealford.com
+
+This episode i…</itunes:subtitle>
+      <description>Neal Ford: @neal4d | nealford.com
+
+This episode is sponsored by Pivotal and ArchConf 2017
+
+01:36 - Neal’s Background and Career Path Thus Far
+	Clipper Development
+	Delphi
+	Bulletin Board Systems (BBSs)
+11:52 - Evolutionary Architecture and Evolvability
+	Neal and Rebecca Parsons on Microservices as an Evolutionary Architecture
+Neal’s Evolutionary Architecture Podcast Episode on Software Engineering Daily
+Neal and Rebecca Parsons Discuss Evolutionary Architecture on the Thoughtworks Tech Leaders Podcast
+Neal’s Webinar on Evolutionary Architectures
+Docker - Dynamic Equilibrium
+	Arrival of the Fittest: How Nature Innovates by Andreas Wagner
+26:56 - Fitness Functions; Ensuring Resiliency
+31:19 - Microservice Architecture and Complexity
+40:57 - Data Ownership: Who owns customer? Logical Cohesion
+50:44 - -ilities: Tradeoffs</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/345234302-swarchradio-episode-005-evolutionary-architecture-with-neal-ford.mp3" length="56124603"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/341216944</guid>
+      <title>Episode @004: The New Normal with Michael Nygard</title>
+      <pubDate>Wed, 06 Sep 2017 20:54:32 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-004-the-new-normal-with-michael-nygard</link>
+      <itunes:duration>00:52:07</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Michael Nygard: @mtnygard | Wide Awake Developers (Mike’s Blog) | The Cognitect Blog | Release It! Design and Deploy Production-Ready Software 
+
+This episode is sponsored by Pivotal. 
+
+01:42 - Mike’s Background and Career Path Thus Far
+02:59 - Complex Systems
+	The Complexity Explorer
+06:22 - Continuous Partial Failure and Looking at Microservices
+Mike’s New Normal Blog Series
+11:23 - “Agile”: Why?
+14:03 - Antifragility
+Blog Post: From Resilient to Antifragile
+Nassim Taleb’s Antifragile
+Normal Accidents: Living with High-Risk Technologies by Charles Perrow 
+20:18 - Evolutionary Design 
+	Blog Post: The Art of War, Maneuverability, and Microservices 
+Sun Tzu’s The Art of War	
+	Matt’s Antifragile Architecture Talk
+	Evolutionary Architecture by Neal Ford, Rebecca Parsons, and Pat Kua
+29:05 - Redundancy and DRY (Don’t Repeat Yourself)
+	YAGNI (You Aren’t Gonna Need It)
+37:11 - What services should I actually have?
+41:00 - Contracts Between Services
+48:29 - Advice for Someone Getting Started as an Architect:
+Ward Cunningham’s c2 Wiki 
+	The Pattern Oriented System Architecture Series</itunes:summary>
+      <itunes:subtitle>Michael Nygard: @mtnygard | Wide Awake Developers…</itunes:subtitle>
+      <description>Michael Nygard: @mtnygard | Wide Awake Developers (Mike’s Blog) | The Cognitect Blog | Release It! Design and Deploy Production-Ready Software 
+
+This episode is sponsored by Pivotal. 
+
+01:42 - Mike’s Background and Career Path Thus Far
+02:59 - Complex Systems
+	The Complexity Explorer
+06:22 - Continuous Partial Failure and Looking at Microservices
+Mike’s New Normal Blog Series
+11:23 - “Agile”: Why?
+14:03 - Antifragility
+Blog Post: From Resilient to Antifragile
+Nassim Taleb’s Antifragile
+Normal Accidents: Living with High-Risk Technologies by Charles Perrow 
+20:18 - Evolutionary Design 
+	Blog Post: The Art of War, Maneuverability, and Microservices 
+Sun Tzu’s The Art of War	
+	Matt’s Antifragile Architecture Talk
+	Evolutionary Architecture by Neal Ford, Rebecca Parsons, and Pat Kua
+29:05 - Redundancy and DRY (Don’t Repeat Yourself)
+	YAGNI (You Aren’t Gonna Need It)
+37:11 - What services should I actually have?
+41:00 - Contracts Between Services
+48:29 - Advice for Someone Getting Started as an Architect:
+Ward Cunningham’s c2 Wiki 
+	The Pattern Oriented System Architecture Series</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/341216944-swarchradio-episode-004-the-new-normal-with-michael-nygard.mp3" length="50032424"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/303774983</guid>
+      <title>Episode 3 - Mark Richards on the Evolution of Software Architecture</title>
+      <pubDate>Thu, 26 Jan 2017 02:30:40 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-3-mark-richards-on-the-evolution-of-software-architecture</link>
+      <itunes:duration>00:40:44</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>My guest today is my good friend Mark Richards. Mark is an independent hands-on software architect, with 20 of his 30 years of experience in the industry playing some type of architecture role on a myriad of different software projects. He is the author of several books including Java Message Service, 2nd Edition, and is featured in the book 97 Things Every Software Architect Should Know. In addition to that he is a frequent speaker on the conference circuit (which is how we met), and gives various extremely popular software architecture trainings around the world.
+
+In this episode we discuss his keynote from the O'Reilly Software Architecture Conference in London, which took place in October 2016.</itunes:summary>
+      <itunes:subtitle>My guest today is my good friend Mark Richards. M…</itunes:subtitle>
+      <description>My guest today is my good friend Mark Richards. Mark is an independent hands-on software architect, with 20 of his 30 years of experience in the industry playing some type of architecture role on a myriad of different software projects. He is the author of several books including Java Message Service, 2nd Edition, and is featured in the book 97 Things Every Software Architect Should Know. In addition to that he is a frequent speaker on the conference circuit (which is how we met), and gives various extremely popular software architecture trainings around the world.
+
+In this episode we discuss his keynote from the O'Reilly Software Architecture Conference in London, which took place in October 2016.</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/303774983-swarchradio-episode-3-mark-richards-on-the-evolution-of-software-architecture.mp3" length="39315286"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/301343971</guid>
+      <title>Episode 2 - Tudor Girba on Solving Problems Without Reading Code</title>
+      <pubDate>Wed, 11 Jan 2017 12:18:56 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-2-tudor-girba-on-solving-problems-without-reading-code</link>
+      <itunes:duration>00:45:48</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>My guest for this episode is Tudor Girba. Tudor builds tools and techniques for improving the productivity and happiness of software teams. He currently acts as a software environmentalist at feenk gmbh, a coaching and consulting company that he co-founded.
+
+In 2014 he received the Dahl-Nygaard Junior Award for his work on modeling and visualization of evolution and interplay of large numbers of objects.
+
+He leads the work on the Moose platform for software and data analysis, he initiated the work on the Glamorous Toolkit project for reinventing the software development environments, and he is a board member of the Pharo programming language and environment. He also authored the humane assessment method for making software engineering decisions, and the demo-driven approach to embedding design thinking in software development.</itunes:summary>
+      <itunes:subtitle>My guest for this episode is Tudor Girba. Tudor b…</itunes:subtitle>
+      <description>My guest for this episode is Tudor Girba. Tudor builds tools and techniques for improving the productivity and happiness of software teams. He currently acts as a software environmentalist at feenk gmbh, a coaching and consulting company that he co-founded.
+
+In 2014 he received the Dahl-Nygaard Junior Award for his work on modeling and visualization of evolution and interplay of large numbers of objects.
+
+He leads the work on the Moose platform for software and data analysis, he initiated the work on the Glamorous Toolkit project for reinventing the software development environments, and he is a board member of the Pharo programming language and environment. He also authored the humane assessment method for making software engineering decisions, and the demo-driven approach to embedding design thinking in software development.</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/301343971-swarchradio-episode-2-tudor-girba-on-solving-problems-without-reading-code.mp3" length="72356588"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000284732967-6kqdxx-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/298646065</guid>
+      <title>Episode 1 - Tim Berglund on Distributed Systems</title>
+      <pubDate>Mon, 19 Dec 2016 17:46:25 +0000</pubDate>
+      <link>https://soundcloud.com/swarchradio/episode-1-tim-berglund-on-distributed-systems</link>
+      <itunes:duration>00:37:55</itunes:duration>
+      <itunes:author>Hosted by Matt Stine</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>My guest for this show is Tim Berglund, Vice President of Developer Education at DataStax. We start by discussing the unique challenges of distributed systems for architects, eventually landing on the most important piece of distributed systems advice a software architect can receive. We then dive into types of distributed systems and how to build up one's skill set in this important area.</itunes:summary>
+      <itunes:subtitle>My guest for this show is Tim Berglund, Vice Pres…</itunes:subtitle>
+      <description>My guest for this show is Tim Berglund, Vice President of Developer Education at DataStax. We start by discussing the unique challenges of distributed systems for architects, eventually landing on the most important piece of distributed systems advice a software architect can receive. We then dive into types of distributed systems and how to build up one's skill set in this important area.</description>
+      <enclosure type="audio/mpeg" url="http://dts.podtrac.com/redirect.mp3/feeds.soundcloud.com/stream/298646065-swarchradio-episode-1-tim-berglund-on-distributed-systems.mp3" length="58337200"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000199174906-necux3-t3000x3000.jpg"/>
+    </item>
+      </channel>
+    </rss>
