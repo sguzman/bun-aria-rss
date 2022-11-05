@@ -1,0 +1,15 @@
+{
+  "title": "Python Live Video Streaming Example",
+  "description": "<p>Miguel Grinberg has written an excellent video streaming tutorial in Python <a href=\"http://blog.miguelgrinberg.com/post/video-streaming-with-flask\" target=\"_blank\">here</a>. I highly recommend it.</p>\n\n<p>In short, you stream live video to clients using <a href=\"http://en.wikipedia.org/wiki/Motion_JPEG\" target=\"_blank\">Motion JPEG</a>, which just sends JPEG frames successively.</p>\n\n<p>I modified the example code slightly to enable video streaming from a webcam using OpenCV. OpenCV uses VideoCapture returns raw images bytes which is not JPEG, so you need to do an extra step of encoding the image bytes to JPEG, then everything will work.</p>\n\n<pre># camera.py\n\nimport cv2\n\nclass VideoCamera(object):\n    def __init__(self):\n        # Using OpenCV to capture from device 0. If you have trouble capturing\n        # from a webcam, comment the line below out and use a video file\n        # instead.\n        self.video = cv2.VideoCapture(0)\n        # If you decide to use video.mp4, you must have this file in the folder\n        # as the main.py.\n        # self.video = cv2.VideoCapture('video.mp4')\n    \n    def __del__(self):\n        self.video.release()\n    \n    def get_frame(self):\n        success, image = self.video.read()\n        # We are using Motion JPEG, but OpenCV defaults to capture raw images,\n        # so we must encode it into JPEG in order to correctly display the\n        # video stream.\n        ret, jpeg = cv2.imencode('.jpg', image)\n        return jpeg.tobytes()</pre>\n\n<pre># main.py\n\nfrom flask import Flask, render_template, Response\nfrom camera import VideoCamera\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return render_template('index.html')\n\ndef gen(camera):\n    while True:\n        frame = camera.get_frame()\n        yield (b'--frame\\r\\n'\n               b'Content-Type: image/jpeg\\r\\n\\r\\n' + frame + b'\\r\\n\\r\\n')\n\n@app.route('/video_feed')\ndef video_feed():\n    return Response(gen(VideoCamera()),\n                    mimetype='multipart/x-mixed-replace; boundary=frame')\n\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', debug=True)</pre>\n\n<p>The full Github code can be found <a href=\"https://github.com/log0/video_streaming_with_flask_example\" target=\"_blank\">here</a>.</p>",
+  "pubDate": "Sun, 21 Dec 2014 08:52:31 +0000",
+  "link": "http://www.chioka.in/python-live-video-streaming-example/",
+  "guid": "http://www.chioka.in/python-live-video-streaming-example/",
+  "category": [
+    "Code",
+    "MJPEG",
+    "Python",
+    "Video Streaming",
+    "Python",
+    "Virtual Reality"
+  ]
+}
