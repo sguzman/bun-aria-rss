@@ -1,0 +1,8 @@
+{
+  "title": "Edge Redirector Cloudlet Gets Faster",
+  "description": "Cloudlets Policy Manager often takes a long time to load, which is a by-product of its original design where every policy activation is an individual file. These files must be moved around the network, and as you might imagine, transferring thousands of files in a multi-tenant network can take a very long time. Add a synchronous API to this problem, and we quickly get into a situation where the Policy Manager UI can freeze until a back-end transfer operation times out.",
+  "link": "https://www.akamai.com/blog/performance/edge-redirector-cloudlet-gets-faster",
+  "author": "Jeffrey Costa",
+  "guid": "https://www.akamai.com/blog/performance/edge-redirector-cloudlet-gets-faster",
+  "pubDate": "Mon, 08 Feb 2021 05:00 AM UTC"
+}
