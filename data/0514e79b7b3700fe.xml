@@ -1,0 +1,1724 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
+
+    <!-- WOMPMOBILE SITE TAG - DO NOT ALTER - PASTE IMMEDIATELY AFTER OPENING HEAD TAG - For more information see WompMobile.com -->
+    <script>
+        (function (win, doc, loc, ua, cookTimeout) {
+            if ((!/nomobile/i.test(doc.cookie) || /showmobile/i.test(loc.hash)) && !/frommobile/i.test(loc.hash)) {
+                if (/ipod|phone|mobile|mini|silk/i.test(ua) && !/ipad|tablet/i.test(ua) || /yesmobile/i.test(doc.cookie) || /showmobile/i.test(loc.hash)) {
+                    doc.write('<plaintext style="display:none;">'); doc.addEventListener("DOMContentLoaded", function () {
+                        if (win.stop) win.stop(); var reload = function () { doc.cookie = "NoMobile=True; expires=" + cookTimeout + ";"; win.location = loc.href }; var firstScriptTag =
+                            doc.getElementsByTagName("script")[0]; var wompScript = doc.createElement("script"); wompScript.src = "//az690879.vo.msecnd.net/7894/MobileScript.js"; wompScript.id = "wompScript"; wompScript.onerror = reload; firstScriptTag.parentNode.insertBefore(wompScript, firstScriptTag)
+                    })
+                }
+            } else if (/frommobile/i.test(loc.hash)) doc.cookie = "NoMobile=True; expires=" + d.toUTCString() + ";"
+        })(window, document, window.location, navigator.userAgent, (new Date(Date.now() + 6E5)).toUTCString());</script>
+    <!-- END WOMPMOBILE TAG -->
+
+    <!-- Universal mathjax on all pages -->
+    <script type="text/javascript" src="/Scripts/MathJax-2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        //allows for \sb to be used as a subscript and \sp to be used a supersubscript in TeX
+        MathJax.Hub.Config({
+            TeX: {
+                Macros: {
+                    sb: ["{_ #1}", 1],
+                    sp: ["{^ #1}", 1]
+                }
+            }
+        });
+    </script>
+
+    <!-- B1-2423: Incorporate Google CASA -->
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NV6F7XN');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag (DFP pubads)-->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+        googletag.cmd.push(function ()
+        {
+
+
+
+            googletag.pubads().enableSingleRequest(); googletag.enableServices();
+        });
+    </script>
+    <!-- End Google Tag pubads section -->
+    
+        <title>Search 2.5 million pages of mathematics and statistics articles</title>
+        <meta name="description" content="Project Euclid" />
+        <meta name="keywords" content="" />
+             <base href="https://projecteuclid.org/" />
+                <link rel="shortcut icon" href="/images/" />
+
+
+    <link href="/dlcss?v=kQUXjW0Pi8WsbSI6KKs_xMajkk-4Nj7ysJIzzl7BHI81" rel="stylesheet"/>
+
+
+    
+    
+    <link rel="preload" href="https://use.typekit.net/aot8jlq.css" as="style" onload="this.rel='stylesheet'" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" as="style" onload="this.rel='stylesheet'" crossorigin>
+
+    
+    
+
+    
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'aot8jlq',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    
+    
+<style>
+    #noticeClose {
+        float: right;
+        margin-right: 7px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    #noticeText {
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 7px;
+        font-size: 15px;
+        color: #404041;
+        margin-top: -20px;
+        line-height: 20px;
+    }
+
+    #noticeContainer {
+        width: 49%;
+        background-color: white;
+        position: absolute;
+        z-index: 2;
+        margin-left: 29.5%;
+        max-width: 875px;
+    }
+    </style>
+
+
+    <script src="/bundles/jquery?v=H7hxHLPMXt9y6hZBrsYCb1VpqF7RPyPpMyK4VkDjtEo1"></script>
+
+    <script src="/bundles/bootstrap?v=Hk6YZIJ1QeFdmjO9dbZOq6hpqCgdoMCSdfywTziAPVg1"></script>
+
+
+    <script src="/js?v=qiQTjcVyqFVGkqpmzuHNzt99dSEpkqQZo8EsutLFYss1"></script>
+
+    
+    
+    <script>
+        $(document).ready(function () {
+            $("#homePageSearchTerm").autocomplete({
+                source: function (request, callback) {
+                    SearchTermAutoCompleteSource(request, callback);
+                },
+                focus: function (event, ui) {
+                    $("#homePageSearchTermGray").val(ui.item.value);
+                    return false;
+                },
+                select: function (event, ui) {
+                    $(this).val(ui.item.value);
+                    $(this).parents("form").submit();
+                }
+            }).autocomplete("widget").addClass("searchTermAutoComplete advSearchAutoComplete");
+        });
+    </script>
+
+
+    <script>
+            
+                 var publicationTitleList = ["Abstract_and_Applied_Analysis", "Acta_Mathematica", "Advanced_Studies_in_Pure_Mathematics", "Advanced_Studies:_Euro-Tbilisi_Mathematical_Journal", "Advances_in_Applied_Probability", "Advances_in_Differential_Equations", "Advances_in_Operator_Theory", "Advances_in_Theoretical_and_Mathematical_Physics", "African_Diaspora_Journal_of_Mathematics._New_Series", "African_Journal_of_Applied_Statistics", "Afrika_Statistika", "Albanian_Journal_of_Mathematics", "Algebra_&_Number_Theory", "Algebraic_&_Geometric_Topology", "Analysis_&_PDE", "Annales_de_l'Institut_Henri_Poincaré,_Probabilités_et_Statistiques", "The_Annals_of_Applied_Probability", "The_Annals_of_Applied_Statistics", "Annals_of_Functional_Analysis", "Annals_of_K-Theory", "The_Annals_of_Mathematical_Statistics", "Annals_of_Mathematics", "The_Annals_of_Probability", "The_Annals_of_Statistics", "Arkiv_för_Matematik", "Asian_Journal_of_Mathematics", "Banach_Journal_of_Mathematical_Analysis", "Bayesian_Analysis", "Berkeley_Symposium_on_Mathematical_Statistics_and_Probability", "Bernoulli", "Books_By_Independent_Authors", "Brazilian_Journal_of_Probability_and_Statistics", "Bulletin_(New_Series)_of_the_American_Mathematical_Society", "Bulletin_of_Symbolic_Logic", "Bulletin_of_the_Belgian_Mathematical_Society_-_Simon_Stevin", "Communications_in_Applied_Mathematics_and_Computational_Science", "Communications_in_Information_&_Systems", "Communications_in_Mathematical_Analysis", "Communications_in_Mathematical_Physics", "Communications_in_Mathematical_Sciences", "Cornell_University_Library_Historical_Math_Monographs", "Current_Developments_in_Mathematics", "Differential_and_Integral_Equations", "Duke_Mathematical_Journal", "Electronic_Communications_in_Probability", "Electronic_Journal_of_Probability", "Electronic_Journal_of_Statistics", "Experimental_Mathematics", "Functiones_et_Approximatio_Commentarii_Mathematici", "Geometry_&_Topology", "Geometry,_Integrability_and_Quantization,_Papers_and_Lecture_Series", "Geometry,_Integrability_and_Quantization,_Proceedings_Series", "Hiroshima_Mathematical_Journal", "Hokkaido_Mathematical_Journal", "Homology,_Homotopy_and_Applications", "Illinois_Journal_of_Mathematics", "Innovations_in_Incidence_Geometry_—_Algebraic,_Topological_and_Combinatorial", "Institute_of_Mathematical_Statistics_Collections", "Institute_of_Mathematical_Statistics_Lecture_Notes_-_Monograph_Series", "International_Journal_of_Differential_Equations", "International_Statistical_Review", "Internet_Mathematics", "Involve:_A_Journal_of_Mathematics", "Japan_Journal_of_Industrial_and_Applied_Mathematics", "Journal_of_Applied_Mathematics", "Journal_of_Applied_Probability", "Journal_of_Commutative_Algebra", "Journal_of_Differential_Geometry", "Journal_of_Generalized_Lie_Theory_and_Applications", "Journal_of_Geometry_and_Symmetry_in_Physics", "Journal_of_Integral_Equations_and_Applications", "Journal_of_Physical_Mathematics", "Journal_of_Symbolic_Logic", "Journal_of_Symplectic_Geometry", "Journal_of_the_Mathematical_Society_of_Japan", "Kodai_Mathematical_Journal", "Kyoto_Journal_of_Mathematics", "Lecture_Notes_in_Logic", "Mathematical_Society_of_Japan_Memoirs", "Methods_and_Applications_of_Analysis", "Michigan_Mathematical_Journal", "Missouri_Journal_of_Mathematical_Sciences", "Moscow_Journal_of_Combinatorics_and_Number_Theory", "Nagoya_Mathematical_Journal", "Nihonkai_Mathematical_Journal", "Notre_Dame_Journal_of_Formal_Logic", "Notre_Dame_Mathematical_Lectures", "NSF-CBMS_Regional_Conference_Series_in_Probability_and_Statistics", "Osaka_Journal_of_Mathematics", "Pacific_Journal_of_Mathematics", "Perspectives_in_Logic", "Probability_Surveys", "Proceedings_of_the_Centre_for_Mathematics_and_its_Applications", "Proceedings_of_the_Japan_Academy,_Series_A,_Mathematical_Sciences", "Publicacions_Matemàtiques", "Pure_and_Applied_Analysis", "Real_Analysis_Exchange", "Review_of_Modern_Logic", "Revista_Matemática_Iberoamericana", "Rocky_Mountain_Journal_of_Mathematics", "SPAS_Book_Series", "SPAS_Textbooks_Series", "Statistical_Science", "Statistics_Surveys", "Stochastic_Systems", "SUT_Journal_of_Mathematics", "Taiwanese_Journal_of_Mathematics", "Tohoku_Mathematical_Journal", "Tokyo_Journal_of_Mathematics", "Topological_Methods_in_Nonlinear_Analysis", "Tsukuba_Journal_of_Mathematics", "Tunisian_Journal_of_Mathematics"];
+            
+
+        //script for Advanced Search
+        $(document).ready(function () {
+
+            $("#noticeClose").click(function () {
+                $("#noticeContainer").slideUp();
+                document.cookie = "hideEBookAccess=true;domain=;path=/";
+            });
+
+            $("#advSearchYearSlider").slider({
+                        range: true,
+                min: 1800,
+                max: 2022,
+                values: [1800, 2022],
+                step: 1,
+                slide: function (event, ui) {
+                    $("#advSearchYearSliderStart").val(ui.values[0]);
+                    $("#advSearchYearSliderEnd").val(ui.values[1]);
+                },
+                stop: function (event, ui) {
+                    ChangeAdvSearchYearSlider(ui.values[0], ui.values[1]);
+                }
+                });
+
+            $(".yearSlider span:nth-child(2), .yearSlider span:nth-child(3)").css({ "text-align": "center", "line-height": "15px", "background-color": "#00549f", "color" : "black"});
+            $(".yearSlider span:nth-child(2)").html("<");
+            $(".yearSlider span:nth-child(3)").html(">");
+
+            $(".advSearchPubType").change(
+                function (event) {
+                    var checkbox = event.target;
+
+                    if(checkbox.checked)
+                    {
+                        $("#advSearchSubTypeContainer" + checkbox.value).show();
+            }
+                    else
+                    {
+                        $("#advSearchSubTypeContainer" + checkbox.value).hide();
+        }
+
+        var label = $("label[for='advSearch" + checkbox.value + "']");
+
+                    if(checkbox.checked){
+                        label.html(label.html().replace("+", "-"));
+                    }
+                    else{
+
+                        label.html(label.html().replace("-", "+"));
+
+                        //if checkbox is not checked, clear both sub checkboxes and textboxes
+                        $("#advSearchSubTypeContainer" + checkbox.value + " input[type=checkbox]").prop("checked", false);
+                        $("#advSearchContainer" + checkbox.value + " input[type=text]").val("");
+                    }
+                }
+            )
+        })
+    </script>
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function ()
+        {
+            
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#00549f"
+                    },
+                    "button": {
+                        "background": "#dbe4ec"
+                    }
+                },
+                "theme": "classic",
+                "position": "top",
+                "content": {
+                    "message": "This website uses cookies to provide you with a variety of services and to improve the usability of our website. By using the website, you agree to the use of cookies in accordance with our ",
+                    "dismiss": "Close",
+                    "link": "Privacy Policy.",
+                    "href": "/privacy-policy"
+                }
+            })
+        });
+    </script>
+
+
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV6F7XN"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+
+
+
+    <div id="page">
+
+    <input type="hidden" id="dlURL" value="https://projecteuclid.org/" />
+    <nav id="top">
+        <div class="container hidden-print" style="text-align: center;">
+            <div class="account">
+                
+                        <a id="account-detail" tabindex="0" style="cursor:pointer;" onkeypress="if (event.which == 13) { return ShowLoginDialog(); }" onclick="return ShowLoginDialog();">
+                            <text>Sign In</text>
+                        </a>
+                                                    <span class="pipe"></span>
+    <a href="/help"    title="Help">
+        Help
+    </a>
+            </div>
+        </div>
+    </nav>
+    <div class="col-xs-6 ProfileSigninRow divPopup" id="divPopupLogin" style="display:none;height:375px;">
+
+
+
+<div class="modal-body">
+    <div class="row panelSignIn">
+        <div class="LoginComment">
+
+        </div>
+<form action="/accountAjax/SignIn" class="SignInForm" id="SignInForm-TopNav" method="post"><input id="Redirect-TopNav" name="Redirect" type="hidden" value="https://projecteuclid.org/" /><input name="__RequestVerificationToken" type="hidden" value="X9OsuZWSIVQinC2vrnWh5h7KIVVyCW-vMdCZAvzIOFpl0NI5dXY1JB1KlNan9J-bxYV28BaELBKoavSIriedd66GKw81" />            <div id="SignInErrors-TopNav" class="form-group formgroupStyle validation-summary-errors">&nbsp;</div>
+            <div class="form-group formgroupStyle">
+                <label class="control-label pull-left" for="EmailorUsername-TopNav">Email</label>
+                <input class="form-control" data-val="true" data-val-required="Email or Username Required" id="EmailorUsername-TopNav" name="EmailorUsername" style="height:36px;Color:#404041;" tabindex="0" type="text" value="" />
+            </div>
+            <div class="form-group formgroupStyle">
+                <label class="control-label pull-left" for="Password-TopNav">Password</label>
+
+                <a class="control-label pull-right" href="#" onclick="return ShowForgotPasswordDialog()" style="Font-Size:12px;Color:#6d6e70;text-decoration:underline;" tabindex="0">Forgot your password?</a>
+
+                <div class="input-group input-sm">
+                    <input class="form-control input-sm pwdSignIn" data-val="true" data-val-required="Password Required" id="Password-TopNav" name="Password" style="height:36px;Color:#404041;" tabindex="0" type="password" />
+                    <span class="input-group-addon" style="width:80px;height:36px;"><input type="checkbox" id="CheckboxShowHidePwd-TopNav" class="checkboxShowHidePwd" onclick="ShowHidePwdSignIn();" /> <label style="margin-bottom: 0px;" for="CheckboxShowHidePwd-TopNav"><span class="displayCheckbox" tabindex="0"></span>Show</label></span>
+                </div>
+                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="RememberEmailOrUserName-TopNav"><label for="RememberEmailOrUserName-TopNav" style="font-size:11px;Color: #404041;"><span class="displayCheckbox" tabindex="0"></span>Remember Email on this computer</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="RememberPassword-TopNav"><label for="RememberPassword-TopNav" style="font-size:11px;Color: #404041;"><span class="displayCheckbox" tabindex="0"></span>Remember Password</label>
+            </div>
+            <div style="padding: 10px 0px;" class="form-group">
+                <input class="btnSigninDialogSubmit center-block" type="submit" name="SIGN IN" value="SIGN IN" style="width:152px;height:65px;" onclick="postSignInForm(event);" tabindex="0" />
+                <div class="divSigninDialogWait" style="display: none;">
+                    <div style="padding: 12px 0px 12px 0px;">
+                        <img id="imgCreateAccountWait-TopNav" src="/Content/themes/SPIEImages/Loading.gif" />
+                        <span class="DescriptionText">Please wait...</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: left; Font-Size: 13px; color: #6d6e70; text-align: left;" form-group text-center">
+                No Project Euclid account? <a onclick="return ShowCreateAccountDialog()" href="#" class="defaultUnderline" tabindex="0">Create an account </a><br />
+                or <a href="/Account/institutionalsignin?redirect=https%3a%2f%2fprojecteuclid.org%2f" class="defaultUnderline">Sign in with your institutional credentials</a>
+            </div>
+<input id="PaperToSave-TopNav" name="PaperToSave" type="hidden" value="" /><input id="PaperToSaveType-TopNav" name="PaperToSaveType" type="hidden" value="" /></form>    </div>
+</div>
+
+<script>
+    function ShowHidePwdSignIn() {
+        var $pwd = $(".pwdSignIn");
+        if ($pwd.attr('type') == 'password') {
+            $pwd.attr('type', 'text')
+        }
+        else
+            $pwd.attr('type', 'password')
+    }
+
+    function ShowForgotPasswordDialog() {
+        $('.ui-dialog-content').dialog('close');
+        $("#divPopupForgotPassword").dialog(
+            {
+                width: 360,
+                height: 375,
+                modal: true,
+                resizable: false,
+                draggable: false,
+                closeOnEscape: true,
+                zIndex: 999,
+                title: 'FORGOT PASSWORD',
+                close: function () { $("#ForgotPasswordComment").text('') }
+            }
+        );
+
+        return false;
+    }
+
+    function ShowCreateAccountDialog() {
+        $('.ui-dialog-content').dialog('close');
+        $("#divPopupCreateAccount").dialog(
+            {
+                width: 750,
+                height: 800,
+                modal: true,
+                resizable: false,
+                draggable: true,
+                closeOnEscape: true,
+                zIndex: 999,
+                title: 'CREATE ACCOUNT',
+                close: function () { $("#CreateAccountComment").text('') }
+            }
+        );
+
+        return false;
+    }
+    $(document).ready(function ()
+    {
+        var $form = $("#SignInForm-TopNav");
+
+        $form.on("submit", function (e)
+        {
+            e.preventDefault();
+
+            var $divSigninDialogWait = $form.find(".divSigninDialogWait");
+            var $btnSigninDialogSubmit = $form.find(".btnSigninDialogSubmit");
+            var $SignInErrorMessage = $form.find("#SignInErrors-TopNav");
+            $divSigninDialogWait.show();
+            $btnSigninDialogSubmit.hide();
+            $SignInErrorMessage.text("").hide();
+
+            $.ajax({
+                type: "POST",
+                url: '/Account/SignIn',
+                data: $(this).serialize(),
+                dataType: 'json',
+                success: function (result)
+                {
+                    if (result && result.Success)
+                    {
+                        if (result.returnURL)
+                        {
+                            var a = document.createElement("a");
+                            a.href = result.returnURL;
+                            a.search += (a.search ? "&" : "?") + "returnUrl=" + encodeURIComponent(location.href);
+                            location = a.href;
+                        }
+                        else
+                        {
+                            location.reload();
+                        }
+                    }
+                    else
+                    {
+                        $divSigninDialogWait.hide();
+                        $btnSigninDialogSubmit.show();
+                        var errorMessage = result && result.Message || "Sign in failure. Please try again.";
+                        $SignInErrorMessage.text(errorMessage).fadeIn();
+                    }
+                },
+                error: function ()
+                {
+                    $divSigninDialogWait.hide();
+                    $btnSigninDialogSubmit.show();
+                    $SignInErrorMessage.text("Sign in failure. Please try again.").fadeIn();
+                }
+            });
+
+            return false;
+        });
+    });
+</script>
+    </div>
+    <div class="col-xs-6 ProfileForgotPasswordRow divPopup" id="divPopupForgotPassword" style="display:none;height:400px;">
+
+<script type="text/javascript">
+
+    function ShowHidePwdSignIn()
+    {
+        var $pwd = $(".pwdSignIn");
+        if ($pwd.attr('type') == 'password')
+        {
+            $pwd.attr('type', 'text')
+        }
+        else
+            $pwd.attr('type', 'password')
+    }
+
+</script>
+
+
+<div class="modal-body">
+    <div class="row panelForgotPassword">
+        <div id="ResetPasswordComment">
+
+        </div>
+<form action="/accountAjax/ForgotPassword" id="ForgotPasswordForm" method="post"><input Length="26" id="Redirect" name="Redirect" type="hidden" value="https://projecteuclid.org/" /><input name="__RequestVerificationToken" type="hidden" value="cMIpHR1LlvmJkCQ6nhme6tasy8xUGUsmc0_kiQTrMtRQpodZ5ZrtUpEKv_27skPFYTAcOCQMX7KUO2A6Z5bTnzFcSqE1" />            <div style="padding-top:10px;" id="ForgotPasswordHelpText">
+                <p style="margin-bottom:10px;">We can help you reset your password using the email address linked to your Project Euclid account.</p>
+            </div>
+            <div id="ForgotPasswordErrors" class="form-group formgroupStyle validation-summary-errors">&nbsp;</div>
+            <div class="form-group formgroupStyle">
+                <label class="control-label pull-left" for="EmailorUsername">Email</label>
+                <input class="form-control" data-val="true" data-val-email="Invalid email" data-val-required="Need your email to send password reset link!" id="Email" name="Email" style="height:36px;Color:#404041;" type="text" value="" />
+            </div>
+            <div style="padding-top: 16px;" class="form-group">
+                <input type="submit" id="btnResetPassword" name="btnResetPassword" value="Reset Password" style="width:152px;height:65px;" class="center-block" onclick="return postForgotPasswordForm(event);" />
+            </div>
+</form>    </div>
+</div>
+
+<script>
+    function closeResetPassword()
+    {
+        $('.ui-dialog-content').dialog('close');
+        document.getElementById('btnResetPassword').onclick = function() { return postForgotPasswordForm(event); };
+        document.getElementById('btnResetPassword').value = 'Reset Password >';
+        document.getElementById('ForgotPasswordErrors').innerHTML = '';
+        return false; 
+    }
+
+    function postForgotPasswordForm(event)
+    {
+        if (document.getElementById('btnResetPassword').value != 'Close')
+        {
+            event.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: '/Account/ForgotPassword',
+                data: $('#Email').serialize(),
+                dataType: 'json',
+                async: false,
+                success: function(result)
+                {
+                    var msgObj = document.getElementById('ForgotPasswordErrors');
+                    msgObj.innerHTML = '';
+                    msgObj.style.color = '#a00000';
+
+                    if (result.Success)
+                    {
+                        // Display message indicating email has been sent to reset password
+                        msgObj.style.color = '#00a000';
+                        $('#ForgotPasswordErrors').text(result.Message);
+                        document.getElementById('btnResetPassword').onclick = function() { return closeResetPassword(); };
+                        document.getElementById('btnResetPassword').value = 'Close';
+                    }
+                    else
+                    {
+                        $('#ForgotPasswordErrors').text(result.Message);
+                    }
+                },
+                error: function(result)
+                {
+                    var msgObj = document.getElementById('ForgotPasswordErrors');
+                    msgObj.innerHTML = '';
+                    msgObj.style.color = '#a00000';
+                    $('#ForgotPasswordErrors').text("Unable to process your request, please try again later or contact Customer Service.");
+                }
+            });
+        }
+
+        return false;
+    }
+</script>
+
+
+    </div>
+    <div class="col-xs-6 divPopup" id="divPopupCreateAccount" style="display:none;height:780px; float: none; overflow-x: hidden;">
+
+<style>
+    .formgroupStyleCreateAccountCreateAccount {
+        width: 650px;
+    }
+
+    .panelCreateAccount {
+        width: 750px;
+        right: -10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+</style>
+
+
+
+<script src="/Scripts/App/Shared/AccountDetailValidation.js"></script>
+
+<div class="modal-body" style="padding: 0px 0px 0px 0px;">
+    <div class="row panelCreateAccount">
+        <div id="CreateAccountCommentTopNav">
+        </div>
+
+        <div style="padding: 16px 16px 0px 0px;" id="CreateAccountDescriptionTopNav">
+            <span class="DescriptionText">
+                Registered users receive a variety of benefits including the ability to customize email alerts, create favorite journals list, and save searches.
+                Please note that a Project Euclid web account does not automatically grant access to full-text content.  An institutional or society member subscription is required to view non-Open Access content.
+                Contact <a href="mailto:customer_support@projecteuclid.org" class="linkBlueNoUnderline">customer_support@projecteuclid.org</a> with any questions. 
+                <br/>
+                <a href="/policies" class="linkBlueNoUnderline">View Project Euclid Privacy Policy</a>
+            </span>
+        </div>
+
+<form action="/accountAjax/Create" id="AccountCreateFormTopNav" method="post" onsubmit="return accountDetailValidationTopNav.Validate(0)"><input Length="26" id="Redirect" name="Redirect" type="hidden" value="https://projecteuclid.org/" /><input name="__RequestVerificationToken" type="hidden" value="BwPd4_py__AGwcXQGSI0z4vc8miN-uoJ1j3-LWxw8usXx7pgm0eSPOJ4shJEdLv8pmlhwVaxx6-NNjUopBg8YJdHk2s1" />            <div id="AccountCreateErrorsTopNav" class="form-group formgroupStyleCreateAccount validation-summary-errors" style="padding-top: 8px;">&nbsp;</div>
+            <div id="AccountCreation" style="padding: 0px 0px 16px 0px;">
+                    <div style="color:#b94a48;font-size:12px;margin-bottom: 15px;">
+                        All Fields are Required
+                    </div>
+                    <div style="color:#b94a48;font-size:12px;margin-bottom: 15px;">
+                        
+                    </div>
+
+
+<div id="divFormFieldFirstName" class="divFormField" style="padding-bottom: 12px;">
+    <div id="divFormFieldLabelFirstName" class="divFormFieldLabel" style="}">
+        <span id="LabelRequireFirstNameTopNav" class="formFieldRequired" style="display: none;">*</span>
+        <label id="LabelFirstNameTopNav" for="FirstNameTopNav" class="formFieldLabel" style="padding: 0px 0px 0px 0px;">First Name</label><span id="ErrorFirstNameTopNav" class="formFieldError" style="padding: 0px 0px 0px 0px;"></span>
+    </div>
+    <div id="divFormFieldInputFirstName" class="divFormFieldInput" style="">
+        <input id="FirstNameTopNav" name="FirstName" class="formFieldInputMedium" required type="text" maxlength="30"><script>document.getElementById('FirstNameTopNav').addEventListener('blur', function() { accountDetailValidationTopNav.ValidateFirstname(0) });</script>
+            </div>
+</div>
+
+
+<div id="divFormFieldLastName" class="divFormField" style="padding-bottom: 12px;">
+    <div id="divFormFieldLabelLastName" class="divFormFieldLabel" style="}">
+        <span id="LabelRequireLastNameTopNav" class="formFieldRequired" style="display: none;">*</span>
+        <label id="LabelLastNameTopNav" for="LastNameTopNav" class="formFieldLabel" style="padding: 0px 0px 0px 0px;">Last/Family Name</label><span id="ErrorLastNameTopNav" class="formFieldError" style="padding: 0px 0px 0px 0px;"></span>
+    </div>
+    <div id="divFormFieldInputLastName" class="divFormFieldInput" style="">
+        <input id="LastNameTopNav" name="LastName" class="formFieldInputLarge" required type="text" maxlength="40"><script>document.getElementById('LastNameTopNav').addEventListener('blur', function() { accountDetailValidationTopNav.ValidateLastname(0) });</script>
+            </div>
+</div>
+
+
+<div id="divFormFieldAccountEmailTopNav" class="divFormField" style="padding-bottom: 12px;">
+    <div id="divFormFieldLabelAccountEmailTopNav" class="divFormFieldLabel" style="}">
+        <span id="LabelRequireAccountEmailTopNav" class="formFieldRequired" style="display: none;">*</span>
+        <label id="LabelAccountEmailTopNav" for="AccountEmailTopNav" class="formFieldLabel" style="padding: 0px 0px 0px 0px;">Email</label><span id="ErrorAccountEmailTopNav" class="formFieldError" style="padding: 0px 0px 0px 0px;"></span>
+    </div>
+    <div id="divFormFieldInputAccountEmailTopNav" class="divFormFieldInput" style="">
+        <input id="AccountEmailTopNav" name="AccountEmailTopNav" class="formFieldInputMedium" required type="text" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}" maxlength="100"><script>document.getElementById('AccountEmailTopNav').addEventListener('blur', function() { accountDetailValidationTopNav.ValidateEmail(0) });</script>
+            </div>
+</div>
+
+
+<div id="divFormFieldNewPassword" class="divFormField" style="padding-bottom: 12px;">
+    <div id="divFormFieldLabelNewPassword" class="divFormFieldLabel" style="}">
+        <span id="LabelRequireNewPasswordTopNav" class="formFieldRequired" style="display: none;">*</span>
+        <label id="LabelNewPasswordTopNav" for="NewPasswordTopNav" class="formFieldLabel" style="padding: 0px 0px 0px 0px;">Password</label><span id="ErrorNewPasswordTopNav" class="formFieldError" style="padding: 0px 0px 0px 0px;"></span>
+    </div>
+    <div id="divFormFieldInputNewPassword" class="divFormFieldInput" style="">
+        <input id="NewPasswordTopNav" name="NewPassword" class="formFieldInputMedium" required type="password" pattern="[a-zA-Z0-9`~!@$^().\-_]{6,39}" maxlength="39"><script>document.getElementById('NewPasswordTopNav').addEventListener('blur', function() { accountDetailValidationTopNav.ValidateNewPassword(0) });document.getElementById('NewPasswordTopNav').addEventListener('keyup', function() { accountDetailValidationTopNav.CheckNewPasswordStrength() });</script>
+            <div style="padding-right: 16px;">
+                <span class="formFieldTextSm" >
+    Password Requirements:  Minimum 8 characters, must include as least one uppercase, one lowercase letter, and one number or permitted symbol
+</span>
+<span class="tooltiptext">
+    <span class="tooltipcontent" style="width:255px;right:-120px;">
+        Valid Symbols for password:<br />
+        ~ Tilde<br />
+        ! Exclamation Mark<br />
+        @ At sign<br />
+        $ Dollar sign<br />
+        ^ Caret<br />
+        ( Opening Parenthesis<br />
+        ) Closing Parenthesis<br />
+        _ Underscore<br />
+        . Period
+    </span>
+    <img src="/Content/themes/SPIEImages/InformationQuestionMark.png" />
+</span>
+<div style="display: block; height: 18px; vertical-align: top; text-align: left; width: 250px; padding-top: 2px;">
+    <div id="divStrengthPasswordStrengthTopNav" style="border: solid 1px #aeaeae; background-color: #e8eef7; width:200px; height: 8px; display: inline-block; margin-top: 4px;" title="Password Strength Meter">
+        <div id="divStrengthLevelPasswordStrengthTopNav" style="background-color: #000000; width: 0px; vertical-align: top; text-align: left; height: 8px; display: inline-block;"></div>
+    </div>
+    <div style="display: inline-block; text-align: right; width: 40px; vertical-align: top; padding-top: 2px;"><span id="spanPwdStrengthPasswordStrengthTopNav" class="bodyText" style="color: #000000"></span></div>
+</div>
+
+<script language="javascript" type="text/javascript">
+    function PasswordStrengthMeter(passwordId, bindToControl) {
+        //*******************set properties*******************
+        this._passwordId = passwordId;
+
+
+        //*******************set methods*******************
+        this.CheckPasswordStrengthResults = function (results) {
+            if (results) {
+                switch (results.status) {
+                    case 'error':
+                        {
+                            break;
+                        }
+                    case 'good':
+                        {
+                            var objStrength = document.getElementById('spanPwdStrengthPasswordStrengthTopNav');
+                        objStrength.innerHTML = results.description;
+
+                        switch (results.description)
+                        {
+                            case 'Weak':
+                                {
+                                    objStrength.style.color = '#b30000';
+                                    break;
+                                }
+                            case 'Fair':
+                                {
+                                    objStrength.style.color = '#0000b3';
+                                    break;
+                                }
+                            case 'Good':
+                            case 'Strong':
+                                {
+                                    objStrength.style.color = '#00b300';
+                                    break;
+                                }
+                        }
+
+                        var meterWidth = results.level * 50;
+                        document.getElementById('divStrengthLevelPasswordStrengthTopNav').style.width = meterWidth + 'px';
+
+                        break;
+                    }
+            }
+        }
+    };
+
+    this.CheckPasswordStrength = function()
+    {
+        //if the password had all characters deleted, make the meter empty
+        //otherwise, pass the password back to the server to have it check the strength
+        if (document.getElementById(this._passwordId).value === "")
+        {
+            var objStrength = document.getElementById('spanPwdStrengthPasswordStrengthTopNav');
+            objStrength.innerHTML = '';
+            objStrength.style.color = '';
+            document.getElementById('divStrengthLevelPasswordStrengthTopNav').style.width = '0px';
+        }
+        else
+		{
+			var data = {
+				'password': document.getElementById(this._passwordId).value
+			}
+			$.ajax({
+				type: "POST",
+                contentType: "application/json",
+                dataType: "json",
+                data: JSON.stringify(data),
+                url: "/account/CalculatePasswordStrength",
+            }).success(this.CheckPasswordStrengthResults.bind(this));
+        }
+
+
+    };
+
+    if (bindToControl != null
+        && bindToControl == true)
+    {
+        document.getElementById(this._passwordId).addEventListener('keyup', function () { this.CheckPasswordStrength(this._passwordId).bind(this) });
+    }
+}
+
+</script>
+
+            </div>
+            </div>
+</div>
+
+
+<div id="divFormFieldConfirmNewPassword" class="divFormField" style="padding-bottom: 12px;">
+    <div id="divFormFieldLabelConfirmNewPassword" class="divFormFieldLabel" style="}">
+        <span id="LabelRequireConfirmNewPasswordTopNav" class="formFieldRequired" style="display: none;">*</span>
+        <label id="LabelConfirmNewPasswordTopNav" for="ConfirmNewPasswordTopNav" class="formFieldLabel" style="padding: 0px 0px 0px 0px;">Confirm Password</label><span id="ErrorConfirmNewPasswordTopNav" class="formFieldError" style="padding: 0px 0px 0px 0px;"></span>
+    </div>
+    <div id="divFormFieldInputConfirmNewPassword" class="divFormFieldInput" style="">
+        <input id="ConfirmNewPasswordTopNav" name="ConfirmNewPassword" class="formFieldInputMedium" required type="password" pattern="[a-zA-Z0-9`~!@$^().\-_]{8,39}" maxlength="39"><script>document.getElementById('ConfirmNewPasswordTopNav').addEventListener('blur', function() { accountDetailValidationTopNav.ValidateConfirmPassword(0) });</script>
+            </div>
+</div>
+                    <div style="padding: 24px 0px 8px 0px;">
+                        <div id="divCreateAccountSubmitTopNav">
+                            <input style="border: none; height: 65px; width: 202px;margin-right: 20px; text-transform: uppercase;" id="btnCreateAccountTopNav" type="submit" value="Create Account" onclick="postAccountCreateFormTopNav(event)" />
+                        </div>
+                        <div id="divCreateAccountWaitTopNav" style="display: none; padding-left: 32px;">
+                            <img id="imgCreateAccountWaitTopNav" src="/Content/themes/SPIEImages/Loading.gif" />
+                            <span class="DescriptionText">Please wait...</span>
+                        </div>
+                    </div>
+
+            </div>
+                <script>
+                    var accountDetailValidationTopNav;
+
+                    $(document).ready(function () {
+                        accountDetailValidationTopNav = new AccountDetailValidation("FirstNameTopNav", "LastNameTopNav", "AccountEmailTopNav", "NewPasswordTopNav", "ConfirmNewPasswordTopNav");
+                    });
+
+                    function accountInfoPopup() {
+                        $('.ui-dialog-content').dialog('close');
+
+                        $("#accountInfoPopupTopNav").dialog(
+                            {
+                                width: 350,
+                                height: 325,
+                                resizable: false,
+                                draggable: false,
+                                position: {
+                                    my: "right top",
+                                    at: "right bottom",
+                                    of: $("#accountInfoButtonTopNav")
+                                },
+                                collision: 'none',
+                                title: 'BENEFITS OF ACCOUNT',
+                                zIndex: 110
+                            });
+                    }
+
+                    function ValidateField(obj, errMsgInvalid, errMsgRequired, useName)
+                    {
+                        var id = obj.id;
+                        if (useName == true)
+                        {
+                            id = obj.Name;
+                        }
+                    }
+
+                    function closeAccountCreateModal()
+                    {
+                        $('.ui-dialog-content').dialog('close');
+                        document.getElementById('btnCreateAccountTopNav').onclick = function() { return postForgotPasswordForm(event); };
+                        document.getElementById('btnCreateAccountTopNav').value = 'Create Account';
+                        document.getElementById('AccountCreateErrorsTopNav').innerHTML = '';
+                        return false;
+                    }
+
+                    function postAccountCreateFormTopNav(event)
+                    {
+                        if (document.getElementById('btnCreateAccountTopNav').value != 'Close')
+                        {
+                            event.preventDefault();
+
+                            if (accountDetailValidationTopNav.Validate(0))
+                            {
+                                document.getElementById('divCreateAccountWaitTopNav').style.display = '';
+                                document.getElementById('divCreateAccountSubmitTopNav').style.display = 'none';
+                                //json variable names have to match the model on the back-end
+                                var formData =
+                                    {
+                                        CreateAccountFirstname: document.getElementById('FirstNameTopNav').value,
+                                        CreateAccountLastname: document.getElementById('LastNameTopNav').value,
+                                        CreateAccountEmail: document.getElementById('AccountEmailTopNav').value,
+                                        CreateAccountPassword: document.getElementById('NewPasswordTopNav').value,
+                                        CreateAccountConfirmPassword: document.getElementById('ConfirmNewPasswordTopNav').value
+                                    };
+
+                                $.ajax({
+                                    type: "POST",
+                                    url: '/Account/CreateAccount',
+                                    data: JSON.stringify(formData),
+                                    dataType: 'json',
+                                    contentType: 'application/json; charset=utf-8',
+                                    async: true,
+                                    success: function(result)
+                                    {
+                                        document.getElementById('divCreateAccountWaitTopNav').style.display = 'none';
+                                        document.getElementById('divCreateAccountSubmitTopNav').style.display = '';
+
+                                        var msgObj = document.getElementById('AccountCreateErrorsTopNav');
+                                        msgObj.innerHTML = '';
+                                        msgObj.style.color = '#b30000';
+
+                                        if (result.Success)
+                                        {
+                                            // Display message indicating email has been sent to reset password
+                                            msgObj.style.color = '#00b300';
+                                            $('#AccountCreateErrorsTopNav').text(result.Message);
+
+                                            //Custom Dialog to let user know account was created successfully
+                                            $("#divAccountCreatedTopNav").dialog({
+                                                modal: true,
+                                                buttons: {
+                                                    Ok: function()
+                                                    {
+                                                        $(this).dialog("close");
+                                                        window.location.reload(true);
+                                                    }
+                                                },
+                                                open: function()
+                                                {
+                                                    $('.ui-dialog-buttonpane').find('button:contains("Ok")').addClass('formButton');
+                                                }
+                                            });
+                                        }
+                                        else
+                                        {
+                                            $('#AccountCreateErrorsTopNav').text(result.Message);
+                                        }
+                                    },
+                                    error: function(result)
+                                    {
+                                        document.getElementById('divCreateAccountWaitTopNav').style.display = 'none';
+                                        document.getElementById('divCreateAccountSubmitTopNav').style.display = '';
+
+                                        var msgObj = document.getElementById('AccountCreateErrorsTopNav');
+                                        msgObj.innerHTML = '';
+                                        msgObj.style.color = '#a00000';
+                                        $('#AccountCreateErrorsTopNav').text("Unable to process your request, please try again later or contact Customer Service.");
+                                    }
+                                });
+                            }
+                        }
+
+                        return false;
+                    }
+                </script>
+            <div id="divAccountCreatedTopNav" style="display: none;" title="Created Account">
+                <span>Web Account created successfully</span>
+            </div>
+</form>    </div>
+</div>
+
+
+    </div>
+    <script language="javascript" type="text/javascript">
+
+        function ShowLoginDialog(loginMessage) {
+            if (typeof loginMessage != 'undefined') {
+                $("#LoginComment").text(loginMessage);
+            }
+
+            $("#divPopupLogin").dialog(
+                {
+                    width: "auto",
+                    height: "auto",
+                    top: "auto",
+                    modal: true,
+                    resizable: false,
+                    draggable: false,
+                    closeOnEscape: true,
+                    zIndex: 999,
+                    title: 'SIGN IN',
+                    close: function () { $("#LoginComment").text('') },
+                    create: function (event, ui) {
+                        $('.ui-dialog-titlebar-close').attr('aria-label', "Close Sign In Box");
+                    }
+                }
+            );
+
+            return false;
+        }
+
+
+    </script>
+
+    <header class="hidden-print">
+        <div class="container">
+            <div class="logoContainer">
+                <a href="/">
+                            <img  src="/images/Project%20Euclid%20Images/Header_ProjectEuclid_Logo.png" alt="Project Euclid" class="logo"  />
+
+                </a>
+            </div>
+
+        <div style="display:inline-block;">
+            <ul class="hidden-print" style="margin:0px;">
+    <li >
+    <a href="/browse"    title="Browse">
+        Browse<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/browse/title"    title="NavLink">
+        Titles
+    </a>
+
+    </li>
+    <li >
+    <a href="/browse/publisher"    title="NavLink">
+        Publishers
+    </a>
+
+    </li>
+    <li >
+    <a href="/browse/subject"    title="NavLink">
+        Subjects
+    </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li >
+    <a href="/subscriptions-and-access"    title="Subscriptions and Access">
+        Resources<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/subscriptions-and-access"    title="Subscriptions and Access">
+        Subscription and Access
+    </a>
+
+    </li>
+    <li >
+    <a href="/library-resources"    title="Library Resources">
+        Library Resources
+    </a>
+
+    </li>
+    <li >
+    <a href="/publisher-tools"    title="Publisher Tools">
+        Publisher Tools
+    </a>
+
+    </li>
+    <li >
+    <a href="/researcher-resources"    title="Researcher Resources">
+        Researcher Resources
+    </a>
+
+    </li>
+                </ul>
+
+    </li>
+    <li >
+    <a href="/about"    title="About">
+        About<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/about"    title="About Project Euclid">
+        About Project Euclid
+    </a>
+
+    </li>
+    <li >
+    <a href="/governance"    title="Governance">
+        Governance
+    </a>
+
+    </li>
+    <li >
+    <a href="/news-and-events"    title="News and Events">
+        News & Events
+    </a>
+
+    </li>
+    <li >
+    <a href="/ways-to-support-project-euclid"    title="Ways to support Project Euclid">
+        Ways to Support Project Euclid
+    </a>
+
+    </li>
+    <li >
+    <a href="/policies"    title="Policies">
+        Policies
+    </a>
+
+    </li>
+    <li >
+    <a href="/publishing-services"    title="Publishing Services">
+        Publishing Services
+    </a>
+
+    </li>
+                </ul>
+
+    </li>
+            </ul>
+        </div>
+
+
+            <form action="/search" class="search" onsubmit="return FilterSearchTerm('headerSearchTerm')">
+                <a class="advanced" tabindex="0" onkeypress="if (event.which == 13) { ShowAdvancedSearchModal() }" onclick="ShowAdvancedSearchModal()" style="cursor:pointer;">Advanced Search</a>
+                <div class="icon-wrap searchBoxHeader" style="height:40px">
+                    <input type="text" name="term" id="headerSearchTerm" class="searchTermTextbox" placeholder="Search" autocomplete="off" />
+                    <input type="text" name="term" id="headerSearchTermGray" class="searchTermTextboxGray" disabled autocomplete="off" />
+                    <input type="submit" aria-label="Enter" value="" />
+                </div>
+            </form>
+        </div>
+    </header>
+        <div id="body" class="clearfix">
+            
+
+
+
+            
+
+
+    <main>
+        <div class="container">
+            <div class="hero">
+	<h1 >Search 2.5 million pages of mathematics and statistics articles</h1>
+
+                <form action="/search" class="search" onsubmit="return FilterSearchTerm('homePageSearchTerm')">
+                    <div class="icon-wrap flex">
+                        <input type="text" name="term" id="homePageSearchTerm" class="searchTermTextbox" placeholder="Enter Search Term" autocomplete="off" />
+                        <input type="text" name="term" id="homePageSearchTermGray" class="searchTermTextboxGray" disabled autocomplete="off" />
+                        <img src="/Content/themes/SPIEImages/Search_HP_Icon_Clear.png" alt="Search" />
+                    </div>
+                    <input type="submit" aria-label="Search" value="Search" />
+                    <a class="advanced" tabindex="0" onkeypress="if (event.which == 13) { ShowAdvancedSearchModal() }" onclick="ShowAdvancedSearchModal()" style="cursor:pointer;">Advanced Search</a>
+                </form>
+            </div>
+
+            <div class="scroll-to-self">
+            </div>
+
+        <div class="boxes clearfix">
+	<div class="box">
+					<div class="media">
+				            <a href="/browse" >        <img  src="/images/Featured_Articles/For%20Researchers.jpg" alt="For Researchers"   />
+</a>
+
+			</div>
+					<h2>For Researchers</h2>
+					<p>Read new and archival journals, books, and proceedings on a platform designed for mathematicians and statisticians.</p>
+					<div class="links">
+				    <a href="/browse"  class="SansNormal"  title="Browse Titles">
+        Browse Titles
+    </a>
+
+			</div>
+	</div>
+	<div class="box">
+					<div class="media">
+				            <a href="/subscriptions-and-access" >        <img  src="/images/Featured_Articles/For%20Librarians.jpg" alt="For Librarians"   />
+</a>
+
+			</div>
+					<h2>For Librarians</h2>
+					<p>Find distinguished literature from dozens of nonprofit and university publishers in a powerful and friendly interface.</p>
+					<div class="links">
+				    <a href="/subscriptions-and-access"  class="SansNormal"  title="Subscriptions and Access">
+        Subscriptions and Access
+    </a>
+
+			</div>
+	</div>
+	<div class="box">
+					<div class="media">
+				            <a href="/publishing-services" >        <img  src="/images/Featured_Articles/For%20Publishers.jpg" alt="For Publishers"   />
+</a>
+
+			</div>
+					<h2>For Publishers</h2>
+					<p>Sustain your independence and strengthen dissemination with our nonprofit, advanced hosting platform and aggregation.</p>
+					<div class="links">
+				    <a href="/publishing-services"  class="SansNormal"  title="Publishing Services">
+        Publishing Services
+    </a>
+
+			</div>
+	</div>
+            <script>
+               // Make the promo component images silent for a screen reader.
+                $('.media').find('img').attr({
+                    "alt": "",
+                    "aria-hidden":"true"});
+            </script>
+        </div>
+                <div class="spacer h70"></div>
+
+
+            <div class="scroll-to-self"></div>
+			
+            <div class="col w362 side right-border">
+					<h2 class="section-header"><span class="hangingHeader" >News & Info</span></h2>
+						<h4>About Us</h4>
+<p>Project Euclid is jointly managed by Cornell University Library and Duke University Press. It was originally created to provide a platform for small scholarly publishers of mathematics and statistics journals to move from print to electronic in a cost-effective way. Over 20 years later, Euclid continues to support independent publishing and strives to resist the consolidation and commercialization of scholarly communications.</p>
+<p>Project Euclid hosts over 100 publications from around the world, including some of the most distinguished in their fields. Through a combination of support by subscribing libraries and participating publishers, 80% of the papers hosted on Project Euclid are openly available.&nbsp;</p>		<p class="link">    <a href="/about"  class="SansNormal"  title="Who we are">
+        Who we are
+    </a>
+</p>
+					<hr />
+		<h4>Michigan Mathematical Journal: Special Volume in Honor of Gopal Prasad</h4>
+<p><span>The <em>Michigan Mathematical Journal</em> is pleased to announce a special volume honoring Gopal Prasad, its former managing editor (1998-2011) on the occasion of his 75th birthday. <a href="https://projecteuclid.org/journals/michigan-mathematical-journal/volume-72/issue-none">Read the special issue.</a></span></p>					<hr />
+		<h4>2023 pricing now available for Euclid Prime
+</h4>
+<p>Euclid Prime, a collection of 30+ high-impact titles, has announced 2023 pricing for libraries and other institutions. The collection includes term access to archival content from an additional 18 titles. For more information, visit <a href="dukeupress.edu/euclid-prime" target="_blank" title="dukeupress.edu/euclid-prime" rel="noopener">dukeupress.edu/euclid-prime</a>.</p>					<hr />
+		<h4>Annals of Mathematics joins Project Euclid in 2022</h4>
+<p>The <a href="https://annals.math.princeton.edu/"><em>Annals of Mathematics</em></a>, one of the world's leading mathematics journals, is now hosted on the Project Euclid platform. The <em>Annals</em> is published by the Department of Mathematics at Princeton University with the cooperation of the Institute for Advanced Study. It will be distributed in partnership with <a href="https://www.dukeupress.edu/Information-For/Mathematics-Authors-Editors">Duke University Press</a>.</p>					<hr />
+            </div>
+			
+            <div class="col w706 main left-border">
+                        <h1 class="SansBold featuredTitle no-margin" >Featured articles</h1>
+                                        	<div class="category">
+		<span class="hangingHeader">MATHEMATICS</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="https://projecteuclid.org/journals/Duke-Mathematical-Journal/volume-164/issue-13/Delocalization-of-eigenvectors-of-random-matrices-with-independent-entries/10.1215/00127094-3129809.full" target="target="_blank"">Delocalization of eigenvectors of random matrices with independent entries</a></h4>
+				<p>
+					(Duke Mathematical Journal)
+				</p>				
+				<h4><a href="https://projecteuclid.org/journals/Tohoku-Mathematical-Journal/volume-71/issue-4/Relative-algebro-geometric-stabilities-of-toric-manifolds/10.2748/tmj/1576724790.short" target="">Relative algebro-geometric stabilities of toric manifolds</a></h4>
+				<p>
+					(Tohoku Mathematical Journal)
+				</p>				
+		</div>
+	<div class="category">
+		<span class="hangingHeader">STATISTICS & PROBABLITY</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="/journals/annals-of-statistics/volume-19/issue-1/Multivariate-Adaptive-Regression-Splines/10.1214/aos/1176347963.full" target="">Multivariate Adaptive Regression Splines</a></h4>
+				<p>
+					(Annals of Statistics)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+				<h4><a href="/journals/statistical-science/volume-29/issue-3/Instrumental-Variables-An-Econometricians-Perspective/10.1214/14-STS480.full" target="">Instrumental Variables: An Econometrician’s Perspective</a></h4>
+				<p>
+					(Statistical Science)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+		</div>
+	<div class="category">
+		<span class="hangingHeader">APPLIED MATHEMATICS</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="/journals/communications-in-applied-mathematics-and-computational-science/volume-7/issue-2/Analysis-of-persistent-nonstationary-time-series-and-applications/10.2140/camcos.2012.7.175.full" target="">Analysis of persistent nonstationary time series and applications</a></h4>
+				<p>
+					(Communications in Applied Mathematics and Computational Science)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+				<h4><a href="https://projecteuclid.org/journals/journal-of-geometry-and-symmetry-in-physics/volume-17/issue-none/Eulers-Elastica-and-Beyond/10.7546/jgsp-17-2010-45-86.full" target="">Euler's Elastica and Beyond</a></h4>
+				<p>
+					(Journal of Geometry and Symmetry in Physics)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+		</div>
+	<div class="category">
+		<span class="hangingHeader">COMPUTER SCIENCE</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="/journals/communications-in-information-and-systems/volume-7/issue-3/Recursive-Least-Squares-with-Linear-Constraints/cis/1201531976.full" target="">Recursive Least Squares with Linear Constraints</a></h4>
+				<p>
+					(Communications in Information & Systems)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+		</div>
+	<div class="category">
+		<span class="hangingHeader">LOGIC</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="/journals/notre-dame-journal-of-formal-logic/volume-30/issue-1/Multiset-theory/10.1305/ndjfl/1093634995.full" target="">Multiset theory.</a></h4>
+				<p>
+					(Notre Dame Journal of Formal Logic)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+				<h4><a href="/journals/journal-of-symbolic-logic/volume-70/issue-3/The-axiom-of-elementary-sets-on-the-edge-of-Peircean/10.2178/jsl/1122038922.short" target="">The axiom of elementary sets on the edge of Peircean expressibility</a></h4>
+				<p>
+					(Journal of Symbolic Logic)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+		</div>
+	<div class="category">
+		<span class="hangingHeader">MATHEMATICAL PHYSICS</span>
+		
+	</div>
+		<div class="items">
+				<h4><a href="/journals/advances-in-theoretical-and-mathematical-physics/volume-16/issue-4/Jacobi-stability-analysis-of-dynamical-systemsapplications-in-gravitation-and-cosmology/atmp/1408559162.full" target="">Jacobi stability analysis of dynamical systems—applications in gravitation and cosmology</a></h4>
+				<p>
+					(Advances in Theoretical and Mathematical Physics)
+					    <img src="/Content/themes/SPIEImages/OpenAccessIcon.png" alt="Open Access" />
+				</p>				
+		</div>
+            </div>
+        </div>
+    </main>
+
+
+
+            
+
+            <div id="modal-container" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                </div>
+            </div>
+            
+            <a class="top-button" href="#top">
+                <img src="/Images/Project Euclid/Back-Top_Icon.png" alt="Back to Top" />
+            </a>
+        </div>
+    <footer>
+        <div class="container hidden-print">
+            <div class="flex flexHCenter">
+                    <div class="column">
+                        <h3>Quick Links</h3>
+                            <ul>
+                                    <li>
+                                            <a href="/browse"  class="linkBlackToBlue"  title="Browse">
+        Browse
+    </a>
+
+                                    </li>
+                                    <li>
+                                            <a href="/search"  class="linkBlackToBlue"  title="Search">
+        Search
+    </a>
+
+                                    </li>
+                                    <li>
+                                            <a href="/about"  class="linkBlackToBlue"  title="About">
+        About
+    </a>
+
+                                    </li>
+                                    <li>
+                                            <a href="https://projecteuclid.org/policies#Accessibility"  class="linkBlackToBlue"  title="Accessibility">
+        Accessibility
+    </a>
+
+                                    </li>
+                                <li>
+                                    <a tabindex="0" onkeypress="if (event.which == 13) { return ShowLoginDialog(); }" onclick="return ShowLoginDialog();" class="linkBlackToBlue" style="cursor: pointer">
+                                        Sign in
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                                    <div class="column">
+                        <h3>Information for Librarians</h3>
+                        <ul>
+                            <li>
+                                <a href="/account/details" class="linkBlackToBlue" style="cursor: pointer">
+                                    Manage my account
+                                </a>
+                            </li>
+                                <li>
+                                        <a href="/subscriptions-and-access"  class="linkBlackToBlue"  title="Subscriptions and Access">
+        Subscriptions and Access
+    </a>
+
+                                </li>
+                                <li>
+                                        <a href="/publishing-services"  class="linkBlackToBlue"  title="Publishing Services">
+        Publishing Services
+    </a>
+
+                                </li>
+                                <li>
+                                        <a href="/library-resources"  class="linkBlackToBlue"  title="Librarian tools">
+        Librarian tools
+    </a>
+
+                                </li>
+                                <li>
+                                        <a href="/help"  class="linkBlackToBlue"  title="More Help">
+        More Help
+    </a>
+
+                                </li>
+                        </ul>
+                    </div>
+                                    <div class="column">
+                            <h3>Information for Publishers</h3>
+                            <ul>
+                                <li>
+                                    <a href="/account/details" class="linkBlackToBlue" style="cursor: pointer">
+                                        Manage my account
+                                    </a>
+                                </li>
+                            </ul>
+                                            </div>
+                                    <div class="column">
+                        <h3>Contact & Support</h3>
+                        <ul>
+<li>
+<p>Business Office <br /> 905 W. Main Street <br /> Suite 18B <br /> Durham, NC 27701 USA</p>
+</li>
+<li><br /><br />
+<p><a href="/help" class="linkBlackToBlue"> Help</a> | <a href="/contact-us" class="linkBlackToBlue"> Contact Us</a></p>
+</li>
+</ul>
+                    </div>
+
+
+                    <div class="column social">
+
+                        <h3>Connect</h3>
+                        
+            <a href="https://twitter.com/projecteuclid" >        <img  src="/images/Global/Footer_Twitter.png" alt="Project Euclid Twitter page"   />
+</a>
+                    </div>
+            </div>
+            <hr />
+            <div class="flex flexVCenter flexEven">
+                <div class="logo">
+                    <a href="/">
+                                <img  src="/images/Project%20Euclid%20Images/PEDL_logo_footer.png" alt="Project Euclid"   />
+
+                    </a>
+                </div>
+                    <div style="margin: auto;">
+    <a href="/policies"  class="linkBlackToBlue"  title="Privacy Policy">
+        Privacy Policy
+    </a>
+                    </div>
+                                    <div class="copyright">
+                        © 2022 Project Euclid
+
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <nav id="fixed" style="display:none;">
+    <div class="bottom" id="fixedBottom">
+    <div class="container hidden-print" style="display: flex; align-items: center; height: 100%;">
+        <div class="logoContainer">
+            <a href="#">
+                        <img  src="/images/Project%20Euclid%20Images/Header_ProjectEuclid_Logo.png" alt="Project Euclid" class="logo"  />
+
+            </a>
+        </div>
+
+                <div style="display:inline-block;">
+            <ul class="hidden-print" style="margin:0px;">
+    <li >
+    <a href="/browse"    title="Browse">
+        Browse<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/browse/title"    title="NavLink">
+        Titles
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/browse/publisher"    title="NavLink">
+        Publishers
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/browse/subject"    title="NavLink">
+        Subjects
+    </a>
+
+    </li>
+
+                </ul>
+
+    </li>
+
+    <li >
+    <a href="/subscriptions-and-access"    title="Subscriptions and Access">
+        Resources<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/subscriptions-and-access"    title="Subscriptions and Access">
+        Subscription and Access
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/library-resources"    title="Library Resources">
+        Library Resources
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/publisher-tools"    title="Publisher Tools">
+        Publisher Tools
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/researcher-resources"    title="Researcher Resources">
+        Researcher Resources
+    </a>
+
+    </li>
+
+                </ul>
+
+    </li>
+
+    <li >
+    <a href="/about"    title="About">
+        About<span class="blackdownarrow"></span>
+    </a>
+                <ul>
+    <li >
+    <a href="/about"    title="About Project Euclid">
+        About Project Euclid
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/governance"    title="Governance">
+        Governance
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/news-and-events"    title="News and Events">
+        News & Events
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/ways-to-support-project-euclid"    title="Ways to support Project Euclid">
+        Ways to Support Project Euclid
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/policies"    title="Policies">
+        Policies
+    </a>
+
+    </li>
+
+    <li >
+    <a href="/publishing-services"    title="Publishing Services">
+        Publishing Services
+    </a>
+
+    </li>
+
+                </ul>
+
+    </li>
+
+            </ul>
+        </div>
+
+
+        <form action="/search" class="search" style="margin-left: auto;" onsubmit="return FilterSearchTerm('fixedFooterSearchTerm')">
+            <div style="width:196px;position:absolute;right:0;top: -24px;" class="SansSansMediumBold">
+                <a class="defaultUnderline" style="margin-right:15px;" href="/help">Help</a> |
+                <a class="advanced" onclick="ShowAdvancedSearchModal()" style="cursor:pointer;margin-left:15px;"><span class="defaultUnderline">Advanced Search</span></a>
+            </div>
+            
+            <div class="icon-wrap">
+                <input type="text" name="term" id="fixedFooterSearchTerm" class="searchTermTextbox" placeholder="Search" autocomplete="off" />
+                <input type="text" name="term" id="fixedFooterSearchTermGray" class="searchTermTextboxGray" disabled autocomplete="off" />
+            </div>
+            <input type="submit" value="" />
+        </form>
+    </div>
+    <span class="close fixedFooterClose"><img src="/Content/themes/SPIEImages/Close_Icon.png"></span>
+</div>
+
+</nav>
+    </div>
+
+
+<div id="divModalAdvSearchForm" style="display: none; margin:9px; font-size:13px">
+    <h2>KEYWORDS/PHRASES</h2>
+    <div id="advSearchFindFields" class="advSearchContainer">
+                <div id="advSearchFindFieldContainer0" class="advSearchFindFieldContainer">
+                        <div class="advSearchKeywordLabel">Keywords</div>
+                    <div style="position:relative; display:inline-block; width:450px; vertical-align:top">
+                        <input id="advSearchText0" class="advSearchKeywordTextbox searchTermTextbox" type="text"
+                               placeholder="Enter Keywords / Phrases / Author Name / Publication Title" autocomplete="off" />
+                        <input type="text" name="term" id="advSearchText0Gray" class="advSearchKeywordTextbox searchTermTextboxGray" disabled autocomplete="off" />
+                    </div>
+                    <div class="advSearchFieldInLabel">in</div>
+                    <select id="advSearchField0" class="advSearchFieldSelect">
+                        <option value="ALL" selected>All Fields</option>
+                        <option value="ABSTRACT">Abstract</option>
+                        <option value="AUTHORNAME">Author Name</option>
+                        <option value="AFFILIATION">Affiliation</option>
+                        <option value="DOI_ISSN_ISBN">DOI/ISSN/ISBN</option>
+                        <option value="FIGURETABLECAPTIONS">Figure & Table Captions</option>
+                        <option value="KEYWORDS">Keywords</option>
+                        <option value="TITLE">Title</option>
+                    </select>
+                    
+                    <div class="inlineLink" tabindex="0" onkeypress="if (event.which == 13) { RemoveAdvSearchField(0) }" onclick="RemoveAdvSearchField(0)">Remove</div>
+                </div>
+                <div id="advSearchFindFieldContainer1" class="advSearchFindFieldContainer">
+                        <select id="advSearchLogic1" class="advSearchLogic">
+                            <option value="AND" selected>AND</option>
+                            <option value="OR">OR</option>
+                            <option value="NOT">NOT</option>
+                        </select>
+                    <div style="position:relative; display:inline-block; width:450px; vertical-align:top">
+                        <input id="advSearchText1" class="advSearchKeywordTextbox searchTermTextbox" type="text"
+                               placeholder="Enter Keywords / Phrases / Author Name / Publication Title" autocomplete="off" />
+                        <input type="text" name="term" id="advSearchText1Gray" class="advSearchKeywordTextbox searchTermTextboxGray" disabled autocomplete="off" />
+                    </div>
+                    <div class="advSearchFieldInLabel">in</div>
+                    <select id="advSearchField1" class="advSearchFieldSelect">
+                        <option value="ALL" selected>All Fields</option>
+                        <option value="ABSTRACT">Abstract</option>
+                        <option value="AUTHORNAME">Author Name</option>
+                        <option value="AFFILIATION">Affiliation</option>
+                        <option value="DOI_ISSN_ISBN">DOI/ISSN/ISBN</option>
+                        <option value="FIGURETABLECAPTIONS">Figure & Table Captions</option>
+                        <option value="KEYWORDS">Keywords</option>
+                        <option value="TITLE">Title</option>
+                    </select>
+                    
+                    <div class="inlineLink" tabindex="0" onkeypress="if (event.which == 13) { RemoveAdvSearchField(1) }" onclick="RemoveAdvSearchField(1)">Remove</div>
+                </div>
+                <div id="advSearchFindFieldContainer2" class="advSearchFindFieldContainer">
+                        <select id="advSearchLogic2" class="advSearchLogic">
+                            <option value="AND" selected>AND</option>
+                            <option value="OR">OR</option>
+                            <option value="NOT">NOT</option>
+                        </select>
+                    <div style="position:relative; display:inline-block; width:450px; vertical-align:top">
+                        <input id="advSearchText2" class="advSearchKeywordTextbox searchTermTextbox" type="text"
+                               placeholder="Enter Keywords / Phrases / Author Name / Publication Title" autocomplete="off" />
+                        <input type="text" name="term" id="advSearchText2Gray" class="advSearchKeywordTextbox searchTermTextboxGray" disabled autocomplete="off" />
+                    </div>
+                    <div class="advSearchFieldInLabel">in</div>
+                    <select id="advSearchField2" class="advSearchFieldSelect">
+                        <option value="ALL" selected>All Fields</option>
+                        <option value="ABSTRACT">Abstract</option>
+                        <option value="AUTHORNAME">Author Name</option>
+                        <option value="AFFILIATION">Affiliation</option>
+                        <option value="DOI_ISSN_ISBN">DOI/ISSN/ISBN</option>
+                        <option value="FIGURETABLECAPTIONS">Figure & Table Captions</option>
+                        <option value="KEYWORDS">Keywords</option>
+                        <option value="TITLE">Title</option>
+                    </select>
+                    
+                    <div class="inlineLink" tabindex="0" onkeypress="if (event.which == 13) { RemoveAdvSearchField(2) }" onclick="RemoveAdvSearchField(2)">Remove</div>
+                </div>
+            <script>
+                $(document).ready(function () {
+
+                        
+                        $("#advSearchText0").autocomplete({
+                            source: function (request, callback) {
+                                SearchTermAutoCompleteSource(request, callback);
+                            },
+                            focus: function (event, ui) {
+                                $("#advSearchText0Gray").val(ui.item.value);
+                                return false;
+                            },
+                            select: function (event, ui) {
+                                $(this).val(ui.item.value);
+                            }
+                        }).autocomplete("widget").addClass("searchTermAutoComplete advSearchAutoComplete advSearchText").insertAfter("#advSearchText0");
+                        
+                        
+                        $("#advSearchText1").autocomplete({
+                            source: function (request, callback) {
+                                SearchTermAutoCompleteSource(request, callback);
+                            },
+                            focus: function (event, ui) {
+                                $("#advSearchText1Gray").val(ui.item.value);
+                                return false;
+                            },
+                            select: function (event, ui) {
+                                $(this).val(ui.item.value);
+                            }
+                        }).autocomplete("widget").addClass("searchTermAutoComplete advSearchAutoComplete advSearchText").insertAfter("#advSearchText1");
+                        
+                        
+                        $("#advSearchText2").autocomplete({
+                            source: function (request, callback) {
+                                SearchTermAutoCompleteSource(request, callback);
+                            },
+                            focus: function (event, ui) {
+                                $("#advSearchText2Gray").val(ui.item.value);
+                                return false;
+                            },
+                            select: function (event, ui) {
+                                $(this).val(ui.item.value);
+                            }
+                        }).autocomplete("widget").addClass("searchTermAutoComplete advSearchAutoComplete advSearchText").insertAfter("#advSearchText2");
+                        
+
+                        
+                });
+
+                //filters the dropdown list of suggestions with checkboxes based on what the user has typed.
+                function advSearchFilter() {
+                    var input, filter, ul, li, a, i;
+                    input = document.getElementById("advSearchPubTitleTextboxChooseTitles");
+                    filter = input.value.toUpperCase();
+                    div = document.getElementById("advSearchPubTitleAllTitlesContainer");
+                    a = $("#advSearchPubTitleAllTitlesContainer > div");
+                    a.each(function (index, listItem) {
+                        if (listItem.innerHTML.toUpperCase().indexOf(filter) > -1)
+                            listItem.style.display = "";
+                        else
+                            listItem.style.display = "none";
+                    });
+                }
+
+                
+
+            </script>
+
+    </div>
+    <div id="advSearchAddField" class="inlineLink" tabindex="0" onkeypress="if (event.which == 13) { AddAdvSearchField() }" onclick="AddAdvSearchField()">+ Add another field</div>
+    <hr />
+    <h2>PUBLICATION TITLE:</h2>
+    <div id="SearchInAdvSearchContainer" class="advSearchContainer">
+        <div id="advSearchContainerPubTitle" style="margin-bottom:12px">
+            <div>
+                <div>
+                    <input type="radio" id="allTitlesCheck" class="advSearchPubTitleTextbox" name="advSearchTitleFinder" checked />
+                    <label for="allTitlesCheck">All Titles</label>
+                </div>
+                <div>
+                    <input type="radio" id="chooseTitlesCheck" class="advSearchPubTitleTextboxChooseTitles" name="advSearchTitleFinder" />
+                    <label for="chooseTitlesCheck">Choose Title(s)</label>
+                </div>
+
+                <button id="titleButton" class="titleChooseButton">Select a title <div class="minimal"></div></button>
+                <div class="chooseTitlesContainer">
+                    <input id="advSearchPubTitleTextboxChooseTitles" class="advSearchKeywordTextbox hiddenSearchBox" type="text"
+                           placeholder="Start typing title" autocomplete="off" onkeyup="advSearchFilter()" />
+
+
+                    <div id="advSearchPubTitleAllTitlesContainer" class="facetOptionsScrollContainer">
+                    </div>
+                </div>
+                <div id="advSearchPubTitleOptionsContainer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <h2>PUBLICATION YEARS</h2>
+    <div class="advSearchContainer" id="publicationSearchContainer">
+        <div style="width:189px;display:inline-block;vertical-align:top">
+            <div class="facetSubTitle">Range</div>
+            <div id="advSearchYearSlider" class="yearSlider"></div>
+            <input id="advSearchYearSliderStart" class="facetYearTextbox" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder='YYYY'"
+                   placeholder="1800" maxlength="4" style="float:left" onchange="ChangeAdvSearchYearRangeTextbox('Start')" />
+            <input id="advSearchYearSliderEnd" class="facetYearTextbox" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder='YYYY'"
+                   placeholder="2022" maxlength="4" style="float:right" onchange="ChangeAdvSearchYearRangeTextbox('End')" />
+            <div style="clear:both"></div>
+        </div>
+        <div style="display:inline-block;vertical-align:top;margin-left:84px">
+            <div class="facetSubTitle">Single Year</div>
+            <input id="advSearchSingleYear" type="text" class="facetYearTextbox" placeholder="YYYY" maxlength="4" onchange="ChangeAdvSearchSingleYear()" />
+        </div>
+    </div>
+    <hr />
+    <div style="text-align:right">
+        <div class="inlineLink" style="margin-right:35px" tabindex="0" onkeypress="if (event.which == 13) { ClearAdvSearch() }" onclick="ClearAdvSearch()">Clear Form</div>
+        <input class="searchColor loadMoreButton" id="advSearchSubmitButton" type="button" value="SEARCH" onclick="SubmitAdvSearch()" style="display: inline-block;">
+    </div>
+</div>
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=12&cb=1970126249"></script>
+</body>
+
+</html>
