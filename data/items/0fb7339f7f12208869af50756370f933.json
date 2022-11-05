@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-2879285369988934013",
+  "published": "2022-11-02T12:36:00.002-07:00",
+  "updated": "2022-11-02T12:36:52.939-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "Announcing v202211 of the Google Ad Manager API",
+  "content": "We're pleased to announce that <a href=\"https://developers.google.com/ad-manager/api/rel_notes#v202211\">v202211</a> of the Google Ad Manager API is available starting today, November 2nd. This release lays the groundwork for multiple third-party impression tracking URLs. <a href=\"https://developers.google.com/ad-manager/api/reference/latest/CreativeService.ImageCreative\"><code>ImageCreative</code></a> and other creative types replaced the string field <code>thirdPartyImpressionTrackingUrl</code> with the list field <code>thirdPartyImpressionTrackingUrls</code>. Currently only a single URL can be provided in the list.<br /><br /> For the full list of changes, check the <a href=\"https://developers.google.com/ad-manager/api/rel_notes\">release notes</a>. Feel free to reach out to us on the <a href=\"https://groups.google.com/forum/#!forum/google-doubleclick-for-publishers-api\">Ad Manager API forum</a> with any API-related questions.<br /> <span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/TIWw6NG6FYpTgLz7qyCFEm2x04f2J8u64SPf84cldsuj_IOc5v1gWy0Fe0vJYPEcVQ-paramnbvleWzIKC97YgGkYdnDr0JNgFv6_AHRVIcVsvwLncof3YgtjmmsPZqDil0nJSP6gQ\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Chris Seeley, Ad Manager API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}
