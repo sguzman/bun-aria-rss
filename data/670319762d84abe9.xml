@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Erik Bernhardsson</title>
+    <link>https://erikbern.com/</link>
+    <description>Recent content in Home on Erik Bernhardsson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://erikbern.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>We are still early with the cloud: why software development is overdue for a change</title>
+      <link>https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html</guid>
+      <description>This is is in many respects a successor to a blog post I wrote last year about what I want from software infrastructure, but the ideas morphed in my head into something sort of wider.</description>
+    </item>
+    
+    <item>
+      <title>σ-driven project management: when is the optimal time to give up?</title>
+      <link>https://erikbern.com/2022/04/05/sigma-driven-project-management-when-is-the-optimal-time-to-give-up.html</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2022/04/05/sigma-driven-project-management-when-is-the-optimal-time-to-give-up.html</guid>
+      <description>Hi! It&#39;s your friendly project management theorician. You might remember me from blog posts such as Why software projects take longer than you think, which is a blog post I wrote a long time ago positing that software projects completion time follow a log-normal distribution.</description>
+    </item>
+    
+    <item>
+      <title>Storm in the stratosphere: how the cloud will be reshuffled</title>
+      <link>https://erikbern.com/2021/11/30/storm-in-the-stratosphere-how-the-cloud-will-be-reshuffled.html</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2021/11/30/storm-in-the-stratosphere-how-the-cloud-will-be-reshuffled.html</guid>
+      <description>Here&#39;s a theory I have about cloud vendors (AWS, Azure, GCP):
+ Cloud vendors1 will increasingly focus on the lowest layers in the stack: basically leasing capacity in their data centers through an API. Other pure-software providers will build all the stuff on top of it.</description>
+    </item>
+    
+    <item>
+      <title>What is the right level of specialization? For data teams and anyone else.</title>
+      <link>https://erikbern.com/2021/07/23/what-is-the-right-level-of-specialization.html</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2021/07/23/what-is-the-right-level-of-specialization.html</guid>
+      <description>This isn&#39;t as much of a blog post as an elaboration of a tweet I posted the other day:
+I think this specialization of data teams into 99 different roles (data scientist, data engineer, analytics engineer, ML engineer etc) is generally a bad thing driven by the fact that tools are bad and too hard to use</description>
+    </item>
+    
+    <item>
+      <title>Building a data team at a mid-stage startup: a short story</title>
+      <link>https://erikbern.com/2021/07/07/the-data-team-a-short-story.html</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2021/07/07/the-data-team-a-short-story.html</guid>
+      <description>I guess I should really call this a parable.
+The backdrop is: you have been brought in to grow a tiny data team (~4 people) at a mid-stage startup (~$10M annual revenue), although this story could take place at many different types of companies.</description>
+    </item>
+    
+    <item>
+      <title>Software infrastructure 2.0: a wishlist</title>
+      <link>https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html</guid>
+      <description>Software infrastructure (by which I include everything ending with *aaS, or anything remotely similar to it) is an exciting field, in particular because (despite what the neo-luddites may say) it keeps getting better every year! I love working with something that moves so quickly.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s Erik up to?</title>
+      <link>https://erikbern.com/2021/04/01/whats-erik-up-to.html</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2021/04/01/whats-erik-up-to.html</guid>
+      <description>I joined Better in early 2015 because I thought the team was crazy enough to actually change one of the largest industries in the US. For six years, I ran the tech team, hiring 300+ people, probably doing 2,000+ interviews, and according to GitHub I added 646,941 lines of code and removed 339,164.</description>
+    </item>
+    
+    <item>
+      <title>Giving more tools to software engineers: the reorganization of the factory</title>
+      <link>https://erikbern.com/2020/12/16/giving-more-tools-to-software-engineers-the-reorganization-of-the-factory.html</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/12/16/giving-more-tools-to-software-engineers-the-reorganization-of-the-factory.html</guid>
+      <description>It&#39;s a popular attitude among developers to rant about our tools and how broken things are. Maybe I&#39;m an optimistic person, because my viewpoint is the complete opposite! I had my first job as a software engineer in 1999, and in the last two decades I&#39;ve seen software engineering changing in ways that have made us orders of magnitude more productive.</description>
+    </item>
+    
+    <item>
+      <title>Developer experience as a competitive advantage</title>
+      <link>https://erikbern.com/2020/10/06/developer-experience-as-a-competitive-advantage.html</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/10/06/developer-experience-as-a-competitive-advantage.html</guid>
+      <description>I spent a ton of time looking at different software providers, both as a CTO, and as a nerd &amp;ldquo;advanced&amp;rdquo; consumer who builds stuff in my spare time. In the last 10 years, there has been an order of magnitude more products that cater directly to developers, through APIs, SDKs, and tooling.</description>
+    </item>
+    
+    <item>
+      <title>Mortality statistics and Sweden&#39;s &#34;dry tinder&#34; effect</title>
+      <link>https://erikbern.com/2020/09/23/mortality-statistics-and-swedens-dry-tinder-effect.html</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/09/23/mortality-statistics-and-swedens-dry-tinder-effect.html</guid>
+      <description>We live in a year of about 350,000 amateur epidemiologists and I have no desire to join that &amp;ldquo;club&amp;rdquo;. But I read something about COVID-19 deaths that I thought was interesting and wanted to see if I could replicated it through data.</description>
+    </item>
+    
+    <item>
+      <title>How to set compensation using commonsense principles</title>
+      <link>https://erikbern.com/2020/06/08/how-to-set-compensation-using-commonsense-principles.html</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/06/08/how-to-set-compensation-using-commonsense-principles.html</guid>
+      <description>Compensation has always been one of the most confusing parts of management to me. Getting it right is obviously extremely important. Compensation is what drives our entire economy, and you could look at the market for labor as one gigantic resource-allocating machine in the same way as people look at the stock market as a gigantic resource-allocating machine for investments.</description>
+    </item>
+    
+    <item>
+      <title>Never attribute to stupidity that which is adequately explained by opportunity cost</title>
+      <link>https://erikbern.com/2020/03/10/never-attribute-to-stupidity-that-which-is-adequately-explained-by-opportunity-cost.html</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/03/10/never-attribute-to-stupidity-that-which-is-adequately-explained-by-opportunity-cost.html</guid>
+      <description>Hanlon&#39;s razor is a classic aphorism I&#39;m sure you have heard before: Never attribute to malice that which can be adequately explained by stupidity.
+I&#39;ve found that neither malice nor stupidity is the most common reason when you don&#39;t understand why something is in a certain way.</description>
+    </item>
+    
+    <item>
+      <title>How to hire smarter than the market: a toy model</title>
+      <link>https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html</guid>
+      <description>Let&#39;s consider a toy model where you&#39;re hiring for two things and that those are equally valuable. It&#39;s not very important what those are, so let&#39;s just call them &amp;ldquo;thing A&amp;rdquo; and &amp;ldquo;thing B&amp;rdquo; for now.</description>
+    </item>
+    
+    <item>
+      <title>What can startups learn from Koch Industries?</title>
+      <link>https://erikbern.com/2019/12/19/what-can-startups-learn-from-koch-industries.html</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/12/19/what-can-startups-learn-from-koch-industries.html</guid>
+      <description>I recently finished the excellent book Kochland. This isn&#39;t my first interest in Koch—I read The Science of Success by Charles Koch himself a couple of years ago.
+Charles Koch inherited a tiny company in 1967 and turned it into one of the world&#39;s largest ones.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re hiring at Better</title>
+      <link>https://erikbern.com/2019/12/09/hiring-at-better.html</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/12/09/hiring-at-better.html</guid>
+      <description>Just a quick note that my team is always hiring at Better. A lot of new people have been joining the team here in NYC lately—the tech team has actually grown from 35 to 60 in just ~3 months.</description>
+    </item>
+    
+    <item>
+      <title>Buffet lines are terrible, but let&#39;s try to improve them using computer simulations</title>
+      <link>https://erikbern.com/2019/10/16/buffet-lines-are-terrible.html</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/10/16/buffet-lines-are-terrible.html</guid>
+      <description>My company has a buffet every Friday, and the lines grow to epic proportions when the food arrives. I&#39;ve suspected for years that the &amp;ldquo;classic&amp;rdquo; buffet line system is a deeply flawed and inefficient method, and every time I&#39;m stuck in the line has made me more convinced.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous unsolicited (and possibly biased) career advice</title>
+      <link>https://erikbern.com/2019/09/26/misc-unsolicited-career-advice.html</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/09/26/misc-unsolicited-career-advice.html</guid>
+      <description>No one asked for this, but I&#39;m something like ~12 years into my career and have had my fair share of mistakes and luck so I thought I&#39;d share some.
+Honestly, I feel like I&#39;ve mostly benefitted from luck.</description>
+    </item>
+    
+    <item>
+      <title>Modeling conversion rates using Weibull and gamma distributions</title>
+      <link>https://erikbern.com/2019/08/05/modeling-conversion-rates-using-weibull-and-gamma-distributions.html</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/08/05/modeling-conversion-rates-using-weibull-and-gamma-distributions.html</guid>
+      <description>This is a blog post originally featured on the Better engineering blog. If you want to link to this article or share it, please go to the original post URL! Separately, I&#39;m sorry it&#39;s been so long with no posts on this blog.</description>
+    </item>
+    
+    <item>
+      <title>Why software projects take longer than you think: a statistical model</title>
+      <link>https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html</guid>
+      <description>Anyone who built software for a while knows that estimating how long something is going to take is hard. It&#39;s hard to come up with an unbiased estimate of how long something will take, when fundamentally the work in itself is about solving something.</description>
+    </item>
+    
+    <item>
+      <title>Headcount goals, feature factories, and when to hire those mythical 10x people</title>
+      <link>https://erikbern.com/2019/02/21/headcount-targets-feature-factories-and-when-to-hire-those-mythical-10x-people.html</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/02/21/headcount-targets-feature-factories-and-when-to-hire-those-mythical-10x-people.html</guid>
+      <description>When I started building up a tech team for Better, I made a very conscious decision to pay at the high end to get people. I thought this made more sense: they cost a bit more money to hire, but output usually more than compensates for it.</description>
+    </item>
+    
+    <item>
+      <title>Data architecture vs backend architecture</title>
+      <link>https://erikbern.com/2019/01/10/data-architecture-vs-backend-architecture.html</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2019/01/10/data-architecture-vs-backend-architecture.html</guid>
+      <description>A modern tech stack typically involves at least a frontend and backend but relatively quickly also grows to include a data platform. This typically grows out of the need for ad-hoc analysis and reporting but possibly evolves into a whole oil refinery of cronjobs, dashboards, bulk data copying, and much more.</description>
+    </item>
+    
+    <item>
+      <title>The hacker&#39;s guide to uncertainty estimates</title>
+      <link>https://erikbern.com/2018/10/08/the-hackers-guide-to-uncertainty-estimates.html</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/10/08/the-hackers-guide-to-uncertainty-estimates.html</guid>
+      <description>It started with a tweet:
+New years resolution: every plot I make during 2018 will contain uncertainty estimates
+&amp;mdash; Erik Bernhardsson (@bernhardsson) January 7, 2018  Why? Because I&#39;ve been sitting in 100,000,000 meetings where people endlessly debate whether the monthly number of widgets is going up or down, or whether widget method X is more productive than widget method Y.</description>
+    </item>
+    
+    <item>
+      <title>I don&#39;t want to learn your garbage query language</title>
+      <link>https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html</guid>
+      <description>This is a bit of a rant but I really don&#39;t like software that invents its own query language. There&#39;s a trillion different ORMs out there. Another trillion databases with their own query language. Another trillion SaaS products where the only way to query is to learn some random query DSL they made up.</description>
+    </item>
+    
+    <item>
+      <title>Business secrets from terrible people</title>
+      <link>https://erikbern.com/2018/08/16/business-secrets-from-terrible-people.html</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/08/16/business-secrets-from-terrible-people.html</guid>
+      <description>I get bored reading management books very easily and lately I&#39;ve been reading about a wide range of almost arbitrary topics. One of the lenses I tend to read through is to see different management styles in different environments.</description>
+    </item>
+    
+    <item>
+      <title>New approximate nearest neighbor benchmarks</title>
+      <link>https://erikbern.com/2018/06/17/new-approximate-nearest-neighbor-benchmarks.html</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/06/17/new-approximate-nearest-neighbor-benchmarks.html</guid>
+      <description>As some of you may know, one of my side interests is approximate nearest neighbor algorithms. I&#39;m the author of Annoy, a library with 3,500+ stars on Github as of today. It offers fast approximate search for nearest neighbors with the additional benefit that you can load data super fast from disk using mmap.</description>
+    </item>
+    
+    <item>
+      <title>Missing the point about microservices: it&#39;s about testing and deploying independently</title>
+      <link>https://erikbern.com/2018/06/04/missing-the-point-about-microservices.html</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/06/04/missing-the-point-about-microservices.html</guid>
+      <description>Ok, so I have to first preface this whole blog post by a few things:
+ I really struggle with the term microservices. I can&#39;t put my finger on exactly why. Maybe because the term is hopelessly ill-defined, maybe because it&#39;s gotten picked up by the hype train.</description>
+    </item>
+    
+    <item>
+      <title>Interviewing is a noisy prediction problem</title>
+      <link>https://erikbern.com/2018/05/02/interviewing-is-a-noisy-prediction-problem.html</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/05/02/interviewing-is-a-noisy-prediction-problem.html</guid>
+      <description>I have done roughly 2,000 interviews in my life. When I started recruiting, I had so much confidence in my ability to assess people. Let me just throw a couple of algorithm questions at a candidate and then I&#39;ll tell you if they are good or not!</description>
+    </item>
+    
+    <item>
+      <title>Waiting time, load factor, and queueing theory: why you need to cut your systems a bit of slack</title>
+      <link>https://erikbern.com/2018/03/27/waiting-time-load-factor-and-queueing-theory.html</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/03/27/waiting-time-load-factor-and-queueing-theory.html</guid>
+      <description>I&#39;ve been reading up on operations research lately, including queueing theory. It started out as a way to understand the very complex mortgage process (I work at a mortgage startup) but it&#39;s turned into my little hammer and now I see nails everywhere.</description>
+    </item>
+    
+    <item>
+      <title>Lessons from content marketing myself (aka blogging) for five years</title>
+      <link>https://erikbern.com/2018/03/07/lessons-from-content-marketing-myself-aka-blogging-for-five-years.html</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/03/07/lessons-from-content-marketing-myself-aka-blogging-for-five-years.html</guid>
+      <description>I started writing this blog in late 2012, partly because I felt like it would help me improve my English and my writing skills, partly because I kept having a lot of random ideas in my head and I wanted to write them down somewhere.</description>
+    </item>
+    
+    <item>
+      <title>New benchmarks for approximate nearest neighbors</title>
+      <link>https://erikbern.com/2018/02/15/new-benchmarks-for-approximate-nearest-neighbors.html</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/02/15/new-benchmarks-for-approximate-nearest-neighbors.html</guid>
+      <description>UPDATE(2018-06-17): There are is a later blog post with newer benchmarks!
+One of my super nerdy interests include approximate algorithms for nearest neighbors in high-dimensional spaces. The problem is simple. You have say 1M points in some high-dimensional space.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m looking for data engineers</title>
+      <link>https://erikbern.com/2018/01/28/im-looking-for-data-engineers.html</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/01/28/im-looking-for-data-engineers.html</guid>
+      <description>I&#39;m interrupting the regular programming for a quick announcement: we&#39;re looking for data engineers at Better. You would be the first one to join and would work a lot directly with me.
+Some fun things you could work on (these are all projects I&#39;m working on right now):</description>
+    </item>
+    
+    <item>
+      <title>Books I consumed in 2017</title>
+      <link>https://erikbern.com/2018/01/17/books-i-consumed-in-2017.html</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/01/17/books-i-consumed-in-2017.html</guid>
+      <description>Turns out having a toddler isn&#39;t super compatible with reading. I used to read ~100 books/year as a teenager, but it has slowly deteriorated to maybe 20-30 books, at most. And I don&#39;t even finish all of them because life is too short!</description>
+    </item>
+    
+    <item>
+      <title>Plotting author statistics for Git repos using Git of Theseus</title>
+      <link>https://erikbern.com/2018/01/03/plotting-author-statistics-for-git-repos-using-git-of-theseus.html</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2018/01/03/plotting-author-statistics-for-git-repos-using-git-of-theseus.html</guid>
+      <description>I spent a few days during the holidays fixing up a bunch of semi-dormant open source projects and I have a couple of blog posts in the pipeline about various updates. First up, I made a number of fixes to Git of Theseus which is a tool (written in Python) that generates statistics about Git repositories.</description>
+    </item>
+    
+    <item>
+      <title>Toxic meeting culture</title>
+      <link>https://erikbern.com/2017/12/29/toxic-meeting-culture.html</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/12/29/toxic-meeting-culture.html</guid>
+      <description>I spent six years at a company that went from 50 people to 1500 and one contributing factor leading to my departure was that I went from a &amp;ldquo;maker&amp;rdquo; to a person stuck in meetings every day.</description>
+    </item>
+    
+    <item>
+      <title>Learning from users faster using machine learning</title>
+      <link>https://erikbern.com/2017/12/12/learning-from-users-faster-using-machine-learning.html</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/12/12/learning-from-users-faster-using-machine-learning.html</guid>
+      <description>I had an interesting idea a few weeks ago, best explained through an example. Let&#39;s say you&#39;re running an e-commerce site (I kind of do) and you want to optimize the number of purchases.
+Let&#39;s also say we try to learn as much as we can from users, both using A/B tests but also using just basic slicing and dicing of the data.</description>
+    </item>
+    
+    <item>
+      <title>Annoy 1.10 released, with Hamming distance and Windows support</title>
+      <link>https://erikbern.com/2017/11/26/annoy-1.10-released-with-hamming-distance-and-windows-support.html</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/11/26/annoy-1.10-released-with-hamming-distance-and-windows-support.html</guid>
+      <description>I&#39;ve been a bit bad at posting things with a regular cadence lately, partly because I&#39;m trying to adjust to having a toddler, partly because the hunt for clicks has caused such a high bar for me that I feel like I have to post something Pulitzer-worthy.</description>
+    </item>
+    
+    <item>
+      <title>Why conversion matters: a toy model</title>
+      <link>https://erikbern.com/2017/10/30/why-conversion-matters-a-toy-model.html</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/10/30/why-conversion-matters-a-toy-model.html</guid>
+      <description>There are often close relationships between top level business metrics. For instance, it&#39;s well known that retention has a super strong impact on the valuation of a subscription business. Or that the % of occupied seats is super important for an airline.</description>
+    </item>
+    
+    <item>
+      <title>On the Equifax breach and how to really prevent identity theft</title>
+      <link>https://erikbern.com/2017/09/26/on-the-equifax-breach-and-how-to-really-secure-prevent-theft.html</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/09/26/on-the-equifax-breach-and-how-to-really-secure-prevent-theft.html</guid>
+      <description>A funny thing about being a foreigner is how you realize people take broken things for granted. I&#39;m going to go out on a limb here claiming that the US has a pretty dumb banking system.</description>
+    </item>
+    
+    <item>
+      <title>The number of letters in the word for each number</title>
+      <link>https://erikbern.com/2017/09/06/the-number-of-letters-in-the-word-for-each-number.html</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/09/06/the-number-of-letters-in-the-word-for-each-number.html</guid>
+      <description>Just for fun, I generated these graphs of the number of letters in the word for each number. I really spent about 10 minutes on this (ok&amp;hellip;possibly also another 40 minutes tweaking the plots):
+More languages!</description>
+    </item>
+    
+    <item>
+      <title>The software engineering rule of 3</title>
+      <link>https://erikbern.com/2017/08/29/the-software-engineering-rule-of-3.html</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/08/29/the-software-engineering-rule-of-3.html</guid>
+      <description>Here&#39;s a dumb extremely accurate rule I&#39;m postulating* for software engineering projects: *you need at least 3 examples before you solve the right problem*.
+This is what I&#39;ve noticed:
+ Don&#39;t factor out shared code between two classes.</description>
+    </item>
+    
+    <item>
+      <title>Machine, Platform, Crowd</title>
+      <link>https://erikbern.com/2017/08/19/machine-platform-crowd.html</link>
+      <pubDate>Sat, 19 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/08/19/machine-platform-crowd.html</guid>
+      <description>I just bought Machine, Platform, Crowd: Harnessing Our Digital Future and discovered that it mentions my blog – in particular the post When machine learning matters.
+Ok, I lied a little bit. I didn&#39;t discover it serendipitously.</description>
+    </item>
+    
+    <item>
+      <title>Google diversity memo, global warming, Pascal&#39;s wager, and other stuff</title>
+      <link>https://erikbern.com/2017/08/14/google-diversity-memo-global-warming-pascals-wager.html</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/08/14/google-diversity-memo-global-warming-pascals-wager.html</guid>
+      <description>There&#39;s about 765 million blog posts about the diversity &amp;ldquo;memo&amp;rdquo; that leaked out of Google a couple of weeks ago. I think the case for any biological difference is pretty weak, and it bothers me when people refer to an &amp;ldquo;interest gap&amp;rdquo; as anything else than caused by the environment.</description>
+    </item>
+    
+    <item>
+      <title>Fun with trigonometry: the world&#39;s most twisted coastline</title>
+      <link>https://erikbern.com/2017/07/12/the-most-twisted-coastline.html</link>
+      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/07/12/the-most-twisted-coastline.html</guid>
+      <description>I just spent a few days in Italy, on the Ligurian coast. Even though we were on the west side of Italy, the Mediterranean sea was to the east, because the house was situated on a long bay.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing for iteration speed</title>
+      <link>https://erikbern.com/2017/07/06/optimizing-for-iteration-speed.html</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/07/06/optimizing-for-iteration-speed.html</guid>
+      <description>I&#39;ve written before about the importance of iterating quickly but I didn&#39;t necessarily talk about some concrete things you can do. When I&#39;ve built up the tech team at Better, I&#39;ve intentionally optimized for fast iteration speed above almost everything else.</description>
+    </item>
+    
+    <item>
+      <title>Blogroll</title>
+      <link>https://erikbern.com/2017/06/09/blogroll.html</link>
+      <pubDate>Fri, 09 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/06/09/blogroll.html</guid>
+      <description>Remember when everyone had a really ugly blog with a blogroll? Anyway, just think the word is funny.
+I follow a few hundred blogs using Feedly and Reeder and have been reading a few hundred thousand blog posts over the last 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Conversion rates – you are (most likely) computing them wrong</title>
+      <link>https://erikbern.com/2017/05/23/conversion-rates-you-are-most-likely-computing-them-wrong.html</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/05/23/conversion-rates-you-are-most-likely-computing-them-wrong.html</guid>
+      <description>How hard can it be to compute conversion rate? Take the total number of users that converted and divide them with the total number of users. Done. Except&amp;hellip; it&#39;s a lot more complicated when you have any sort of significant time lag.</description>
+    </item>
+    
+    <item>
+      <title>The mathematical principles of management</title>
+      <link>https://erikbern.com/2017/04/09/the-mathematical-principles-of-management.html</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/04/09/the-mathematical-principles-of-management.html</guid>
+      <description>I&#39;ve read about 100 management books by now but if there&#39;s something that always bothered me it&#39;s the lack of first principles thinking. Basically it&#39;s a ton of heuristics. And heuristics are great, but when you present heuristics as true objectives, it kind of clouds the underlying objectives (and you end up with weird proxy cults like the Agile movement 👹 – not that I disagree with it, I just wish they could derive it from a more systematic understanding of project management).</description>
+    </item>
+    
+    <item>
+      <title>The eigenvector of &#34;Why we moved from language X to language Y&#34;</title>
+      <link>https://erikbern.com/2017/03/15/the-eigenvector-of-why-we-moved-from-language-x-to-language-y.html</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/03/15/the-eigenvector-of-why-we-moved-from-language-x-to-language-y.html</guid>
+      <description>I was reading yet another blog post titled &amp;ldquo;Why our team moved from &amp;lt;language X&amp;gt; to &amp;lt;language Y&amp;gt;&amp;rdquo; (I forgot which one) and I started wondering if you can generalize it a bit. Is it possible to generate a N * N contingency table of moving from language X to language Y?</description>
+    </item>
+    
+    <item>
+      <title>Why I went into the mortgage industry</title>
+      <link>https://erikbern.com/2017/02/17/why-i-went-into-the-mortgage-industry.html</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/02/17/why-i-went-into-the-mortgage-industry.html</guid>
+      <description>I just realized last Thursday that I have spent two full years at Better, incidentally on the same day as we announced a $15M round led by Kleiner Perkins. So it was a good point to reflect a bit and think back – what the F led me to abandon my role managing the machine learning team at Spotify?</description>
+    </item>
+    
+    <item>
+      <title>Language pitch</title>
+      <link>https://erikbern.com/2017/02/01/language-pitch.html</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/02/01/language-pitch.html</guid>
+      <description>Here&#39;s a fun analysis that I did of the pitch (aka. frequency) of various languages. Certain languages are simply pronounced with lower or higher pitch. Whether this is a feature of the language or more a cultural thing is a good question, but there are some substantial differences between languages.</description>
+    </item>
+    
+    <item>
+      <title>Functional programming is the libertarianism of software engineering</title>
+      <link>https://erikbern.com/2017/01/10/functional-programming-is-the-libertarianism-of-sw-eng.html</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2017/01/10/functional-programming-is-the-libertarianism-of-sw-eng.html</guid>
+      <description>This is a pretty dumb post, in which I argue that functional programming has a lot of the bad parts of libertarianism and a lot of the good parts:
+ Both ideologies strive to eliminate [the] state.</description>
+    </item>
+    
+    <item>
+      <title>The half-life of code &amp; the ship of Theseus</title>
+      <link>https://erikbern.com/2016/12/05/the-half-life-of-code.html</link>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/12/05/the-half-life-of-code.html</guid>
+      <description>As a project evolves, does the new code just add on top of the old code? Or does it replace the old code slowly over time? In order to understand this, I built a little thing to analyze Git projects, with help from the formidable GitPython project.</description>
+    </item>
+    
+    <item>
+      <title>Are data sets the new server rooms?</title>
+      <link>https://erikbern.com/2016/11/01/are-data-sets-the-new-server-rooms.html</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/11/01/are-data-sets-the-new-server-rooms.html</guid>
+      <description>This blog post Data sets are the new server rooms makes the point that a bunch of companies raise a ton of money to go get really proprietary awesome data as a competitive moat. Because once you have the data, you can build a better product, and no one can copy it (at least not very cheaply).</description>
+    </item>
+    
+    <item>
+      <title>Pareto efficency</title>
+      <link>https://erikbern.com/2016/10/25/pareto-efficiency.html</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/10/25/pareto-efficiency.html</guid>
+      <description>Pareto efficiency is a useful concept I like to think about. It often comes up when you compare items on multiple dimensions. Say you want to buy a new TV. To simplify it let&#39;s assume you only care about two factors: price and quality.</description>
+    </item>
+    
+    <item>
+      <title>State drift</title>
+      <link>https://erikbern.com/2016/09/08/state-drift.html</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/09/08/state-drift.html</guid>
+      <description>I generally haven&#39;t written much about software architecture. People make heuristics into religion. But here is something I thought about: how to build in self-correction into systems. This has been something just vaguely sitting in my head lacking a clear conceptual definition until a whole slew of things popped up today that all had the exact same issue at its core.</description>
+    </item>
+    
+    <item>
+      <title>When machine learning matters</title>
+      <link>https://erikbern.com/2016/08/05/when-machine-learning-matters.html</link>
+      <pubDate>Fri, 05 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/08/05/when-machine-learning-matters.html</guid>
+      <description>I joined Spotify in 2008 to focus on machine learning and music recommendations. It&#39;s easy to forget, but Spotify&#39;s key differentiator back then was the low-latency playback. People would say that it felt like they had the music on their own hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Subway waiting math</title>
+      <link>https://erikbern.com/2016/07/09/waiting-time-math.html</link>
+      <pubDate>Sat, 09 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/07/09/waiting-time-math.html</guid>
+      <description>Why does it suck to wait for things? In a previous post I analyzed a NYC subway dataset and found that at some point, quite early, it&#39;s worth just giving up.
+This isn&#39;t a proof that the subway doesn&#39;t run on time – in fact it might actually proves that the subway runs really well.</description>
+    </item>
+    
+    <item>
+      <title>Approximate nearest news</title>
+      <link>https://erikbern.com/2016/06/02/approximate-nearest-news.html</link>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/06/02/approximate-nearest-news.html</guid>
+      <description>As you may know, one of my (very geeky) interests is Approximate nearest neigbor methods, and I&#39;m the author of a Python package called Annoy.
+I&#39;ve also built a benchmark suite called ann-benchmarks to compare different packages.</description>
+    </item>
+    
+    <item>
+      <title>What is your motivation?</title>
+      <link>https://erikbern.com/2016/05/24/what-is-your-motivation.html</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/05/24/what-is-your-motivation.html</guid>
+      <description>I&#39;ve been trying to learn Clojure. I keep telling people I meet that I really want to learn Clojure, but still every night I can&#39;t get myself to spend time with it. It&#39;s unclear if I really want to learn Clojure or just want to have learned Clojure?</description>
+    </item>
+    
+    <item>
+      <title>Dollar cost averaging</title>
+      <link>https://erikbern.com/2016/04/26/dollar-cost-averaging.html</link>
+      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/04/26/dollar-cost-averaging.html</guid>
+      <description>(I accidentally published an unfinished draft of this post a few days ago – sorry about that).
+There&#39;s a lot of sources preaching the benefits of dollar cost averaging, or the practice of investing a fixed amount of money regularly.</description>
+    </item>
+    
+    <item>
+      <title>Why organizations fail</title>
+      <link>https://erikbern.com/2016/04/18/why-organizations-fail.html</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/04/18/why-organizations-fail.html</guid>
+      <description>One of my favorite business hobbies is to reduce some nasty decision down to its absolute core objective, decide the most basic strategy, and then add more and more modifications as you have to confront the complexity of reality (yes I have very lame hobbies thanks I know).</description>
+    </item>
+    
+    <item>
+      <title>NYC subway math</title>
+      <link>https://erikbern.com/2016/04/04/nyc-subway-math.html</link>
+      <pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/04/04/nyc-subway-math.html</guid>
+      <description>Apparently MTA (the company running the NYC subway) has a real-time API. My fascination for the subway takes autistic proportions and so obviously I had to analyze some of the data. The documentation is somewhat terrible, but here&#39;s some relevant code for how to use the API:</description>
+    </item>
+    
+    <item>
+      <title>Exploding offers are bullshit</title>
+      <link>https://erikbern.com/2016/03/16/exploding-offers-are-bullshit.html</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/03/16/exploding-offers-are-bullshit.html</guid>
+      <description>I do a lot of recruiting and have given maybe 50 offers in my career. Although many companies do, I never put a deadline on any of them. Unfortunately, I&#39;ve often ended up competing with other companies who do, and I feel really bad that this usually tricks younger developers into signing offers.</description>
+    </item>
+    
+    <item>
+      <title>Meta-blogging</title>
+      <link>https://erikbern.com/2016/03/12/meta-blogging.html</link>
+      <pubDate>Sat, 12 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/03/12/meta-blogging.html</guid>
+      <description>(This is not a very relevant/useful post for regular readers – feel free to skip. I thought I would share it so people can find it on Google.)
+My blog blew up twice in a week earlier this year when I landed on Hacker News.</description>
+    </item>
+    
+    <item>
+      <title>Iterate or die</title>
+      <link>https://erikbern.com/2016/03/02/iterate-or-die.html</link>
+      <pubDate>Wed, 02 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/03/02/iterate-or-die.html</guid>
+      <description>Here&#39;s a conclusion I&#39;ve made building consumer products for many years: the speed at which a company innovates is limited by its iteration speed.
+I don&#39;t even mean throughput here. I just mean the cycle time.</description>
+    </item>
+    
+    <item>
+      <title>My issue with GPU-accelerated deep learning</title>
+      <link>https://erikbern.com/2016/02/03/my-issue-with-gpu-accelerated-deep-learning.html</link>
+      <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/02/03/my-issue-with-gpu-accelerated-deep-learning.html</guid>
+      <description>I&#39;ve been spending several hundred bucks renting GPU instances on AWS over the last year. The speedup from a GPU is awesome and hard to deny. GPUs have taken over the field. Maybe following the footsteps of Bitcoin mining there&#39;s some research on using FPGA (I know very little about this).</description>
+    </item>
+    
+    <item>
+      <title>Some more font links</title>
+      <link>https://erikbern.com/2016/01/25/some-more-font-links.html</link>
+      <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/01/25/some-more-font-links.html</guid>
+      <description>My blog post about fonts generated lots of traffic – it landed on Hacker News, took down my site while I was sleeping, and then obviously vanished from HN before I woke up. But it also got retweeted by a ton of people.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing 50k fonts using deep neural networks</title>
+      <link>https://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks.html</link>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks.html</guid>
+      <description>For some reason I decided one night I wanted to get a bunch of fonts. A lot of them. An hour later I had a bunch of scrapy scripts pulling down fonts and a few days later I had more than 50k fonts on my computer.</description>
+    </item>
+    
+    <item>
+      <title>I believe in the 10x engineer, but...</title>
+      <link>https://erikbern.com/2016/01/08/i-believe-in-the-10x-engineer-but.html</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/01/08/i-believe-in-the-10x-engineer-but.html</guid>
+      <description>The easiest way to be a 10x engineer is to make 10 other engineers 2x more efficient. Someone can be a 10x engineer if they do nothing for 364 days then convinces the team to change programming language to a 2x more productive language.</description>
+    </item>
+    
+    <item>
+      <title>Books I read in 2015</title>
+      <link>https://erikbern.com/2016/01/01/books-i-read-in-2015.html</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2016/01/01/books-i-read-in-2015.html</guid>
+      <description>Early last year when I left Spotify I decided to do more reading. I was planning to read at least one book per week and in particular I wanted to brush up on management, economics, and technology.</description>
+    </item>
+    
+    <item>
+      <title>More MCMC – Analyzing a small dataset with 1-5 ratings</title>
+      <link>https://erikbern.com/2015/12/05/more-mcmc-analyzing-a-small-dataset-with-1-5-ratings.html</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/12/05/more-mcmc-analyzing-a-small-dataset-with-1-5-ratings.html</guid>
+      <description>I&#39;ve been obsessed with how to iterate quickly based on small scale feedback lately. One awesome website I encountered is Usability Hub which lets you run 5 second tests. Users see your site for 5 seconds and you can ask them free-form questions afterwards.</description>
+    </item>
+    
+    <item>
+      <title>There is no magic trick</title>
+      <link>https://erikbern.com/2015/11/28/there-is-no-magic-trick.html</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/11/28/there-is-no-magic-trick.html</guid>
+      <description>(Warning: super speculative, feel free to ignore)
+As Yogi Berra said, “It&#39;s tough to make predictions, especially about the future”. Unfortunately predicting is hard, and unsurprisingly people look for the Magic Trick™ that can resolve all the uncertainty.</description>
+    </item>
+    
+    <item>
+      <title>Installing TensorFlow on AWS</title>
+      <link>https://erikbern.com/2015/11/12/installing-tensorflow-on-aws.html</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/11/12/installing-tensorflow-on-aws.html</guid>
+      <description>Curious about Google&#39;s newly released TensorFlow? I don&#39;t have a beefy GPU machine, so I spent some time getting it to run on EC2. The steps on how to reproduce it are pretty brutal and I wouldn&#39;t recommend going through it unless you want to waste five hours of your live.</description>
+    </item>
+    
+    <item>
+      <title>Looking for smart people</title>
+      <link>https://erikbern.com/2015/11/04/looking-for-smart-people.html</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/11/04/looking-for-smart-people.html</guid>
+      <description>I haven&#39;t mentioned what I&#39;m currently up to. Earlier this year I left Spotify to join a small startup called Better. We&#39;re going after one of the biggest industries in the world that also turns out to be completely broken.</description>
+    </item>
+    
+    <item>
+      <title>MCMC for marketing data</title>
+      <link>https://erikbern.com/2015/10/31/mcmc-for-marketing-data.html</link>
+      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/10/31/mcmc-for-marketing-data.html</guid>
+      <description>The other day I was looking at marketing spend broken down by channel and wanted to compute some simple uncertainty estimates. I have data like this:
+    &amp;lt;th&amp;gt; Total spend &amp;lt;/th&amp;gt; &amp;lt;th&amp;gt; Transactions &amp;lt;/th&amp;gt;     Channel A  &amp;lt;td&amp;gt; 2292.</description>
+    </item>
+    
+    <item>
+      <title>Interview with a Data Scientist: Erik Bernhardsson</title>
+      <link>https://erikbern.com/2015/10/28/interview-with-a-data-scientist-erik-bernhardsson.html</link>
+      <pubDate>Wed, 28 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/10/28/interview-with-a-data-scientist-erik-bernhardsson.html</guid>
+      <description>I was featured in Peadar Coyle&#39;s interview series interviewing various “data scientists” – which is kind of arguable since (a) all the other ppl in that series are much cooler than me (b) I&#39;m not really a data scientist.</description>
+    </item>
+    
+    <item>
+      <title>Nearest neighbors and vector models – epilogue – curse of dimensionality</title>
+      <link>https://erikbern.com/2015/10/20/nearest-neighbors-and-vector-models-epilogue-curse-of-dimensionality.html</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/10/20/nearest-neighbors-and-vector-models-epilogue-curse-of-dimensionality.html</guid>
+      <description>This is another post based on my talk at NYC Machine Learning. The previous two parts covered most of the interesting parts, but there are still some topics left to be discussed. To go back and read the meaty stuff, check out</description>
+    </item>
+    
+    <item>
+      <title>Nearest neighbors and vector models – part 2 – algorithms and data structures</title>
+      <link>https://erikbern.com/2015/10/01/nearest-neighbors-and-vector-models-part-2-how-to-search-in-high-dimensional-spaces.html</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/10/01/nearest-neighbors-and-vector-models-part-2-how-to-search-in-high-dimensional-spaces.html</guid>
+      <description>This is a blog post rewritten from a presentation at NYC Machine Learning on Sep 17. It covers a library called Annoy that I have built that helps you do nearest neighbor queries in high dimensional spaces.</description>
+    </item>
+    
+    <item>
+      <title>Nearest neighbor methods and vector models – part 1</title>
+      <link>https://erikbern.com/2015/09/24/nearest-neighbor-methods-vector-models-part-1.html</link>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/09/24/nearest-neighbor-methods-vector-models-part-1.html</guid>
+      <description>This is a blog post rewritten from a presentation at NYC Machine Learning last week. It covers a library called Annoy that I have built that helps you do (approximate) nearest neighbor queries in high dimensional spaces.</description>
+    </item>
+    
+    <item>
+      <title>Presentations about Spotify music recommendations</title>
+      <link>https://erikbern.com/2015/09/22/presentations-about-spotify-music-recommendations.html</link>
+      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/09/22/presentations-about-spotify-music-recommendations.html</guid>
+      <description>A couple of people in my old team have been around talking about how Spotify does music recommendations and put together some quite good presentations.
+First one is Neville Li&#39;s presentation about Scala Data Pipelines @ Spotify:</description>
+    </item>
+    
+    <item>
+      <title>Antipodes</title>
+      <link>https://erikbern.com/2015/09/08/antipodes.html</link>
+      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/09/08/antipodes.html</guid>
+      <description>I was playing around with D3 last night and built a silly visualization of antipodes and how our intuitive understanding of the world sometimes doesn&#39;t make sense. Check out the visualization at bl.ocks.org!
+Basically the idea is if you fly from Beijing to Buenos Aires then you can have a layover at any point of the Earth&#39;s surface and it won&#39;t make the trip longer.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineers and Automation</title>
+      <link>https://erikbern.com/2015/08/16/software-engineers-and-automation.html</link>
+      <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/08/16/software-engineers-and-automation.html</guid>
+      <description>Every once in a while when talking to smart people the topic of automation comes up. Technology has made lots of occupations redundant, so what&#39;s next?
+Switchboard operator, a long time ago
+What about software engineers?</description>
+    </item>
+    
+    <item>
+      <title>coin2dice</title>
+      <link>https://erikbern.com/2015/07/24/math-problem.html</link>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/07/24/math-problem.html</guid>
+      <description>Here&#39;s a problem that I used to give to candidates. I stopped using it seriously a long time ago since I don&#39;t believe in puzzles, but I think it&#39;s kind of fun.
+ Let&#39;s say you have a function that simulates a random coin flip.</description>
+    </item>
+    
+    <item>
+      <title>Benchmark of Approximate Nearest Neighbor libraries</title>
+      <link>https://erikbern.com/2015/07/04/benchmark-of-approximate-nearest-neighbor-libraries.html</link>
+      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/07/04/benchmark-of-approximate-nearest-neighbor-libraries.html</guid>
+      <description>Annoy is a library written by me that supports fast approximate nearest neighbor queries. Say you have a high (1-1000) dimensional space with points in it, and you want to find the nearest neighbors to some point.</description>
+    </item>
+    
+    <item>
+      <title>More Luigi alternatives</title>
+      <link>https://erikbern.com/2015/07/02/more-luigi-alternatives.html</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/07/02/more-luigi-alternatives.html</guid>
+      <description>The workflow engine battle has intensified with some more interesting entries lately! Here are a couple I encountered in the last few days. I love that at least two of them are direct references to Luigi!</description>
+    </item>
+    
+    <item>
+      <title>3D in D3</title>
+      <link>https://erikbern.com/2015/06/21/3d-in-d3.html</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/06/21/3d-in-d3.html</guid>
+      <description>I have spent some time lately with D3. It&#39;s a lot of fun to build interactive graphs. See for instance this demo (will provide a longer writeup soon).
+D3 doesn&#39;t have support for 3D but you can do projections into 2D pretty easily.</description>
+    </item>
+    
+    <item>
+      <title>The hardest challenge about becoming a manager</title>
+      <link>https://erikbern.com/2015/06/05/the-hardest-challenge-about-becoming-a-manager.html</link>
+      <pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/06/05/the-hardest-challenge-about-becoming-a-manager.html</guid>
+      <description>Note: this post is full of pseudo-psychology and highly speculative content. Like most fun stuff!
+I became a manager back in 2009. Being a developer is fun. You have this very tangible way to measure yourself.</description>
+    </item>
+    
+    <item>
+      <title>The lane next to you is more likely to be slower than yours</title>
+      <link>https://erikbern.com/2015/05/28/the-lane-next-to-you-is-more-likely-to-be-slower-than-yours.html</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/05/28/the-lane-next-to-you-is-more-likely-to-be-slower-than-yours.html</guid>
+      <description>Saw this link on Hacker News the other day: The Highway Lane Next to Yours Isn’t Really Moving Any Faster
+The article describes a phenomenon unique to traffic where cars spread out when they go fast and get more compact when they go slow.</description>
+    </item>
+    
+    <item>
+      <title>Better precision and faster index building in Annoy</title>
+      <link>https://erikbern.com/2015/05/26/40-better-precision-and-4x-faster-index-building-in-annoy.html</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/05/26/40-better-precision-and-4x-faster-index-building-in-annoy.html</guid>
+      <description>Sometimes you have these awesome insights. A few days ago I got an idea for how to improve index building in Annoy.
+For anyone who isn&#39;t acquainted with Annoy – it&#39;s a C++ library with Python bindings that provides fast high-dimensional nearest neighbor search.</description>
+    </item>
+    
+    <item>
+      <title>Annoy – now without Boost dependencies and with Python 3 Support</title>
+      <link>https://erikbern.com/2015/05/03/annoy-now-without-boost-dependencies-and-with-python-3-support.html</link>
+      <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/05/03/annoy-now-without-boost-dependencies-and-with-python-3-support.html</guid>
+      <description>Annoy is a C++/Python package I built for fast approximate nearest neighbor search in high dimensional spaces. Spotify uses it a lot to find similar items. First, matrix factorization gives a low dimensional representation of each item (artist/album/track/user) so that every item is a k-dimensional vector, where k is typically 40-100.</description>
+    </item>
+    
+    <item>
+      <title>Ping the world</title>
+      <link>https://erikbern.com/2015/04/26/ping-the-world.html</link>
+      <pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/04/26/ping-the-world.html</guid>
+      <description>I just pinged a few million random IP addresses from my apartment in NYC. Here&#39;s the result:
+Some notes:
+ What&#39;s going on with Sweden? Too much torrenting? Ireland is likewise super slow, but not Northern Ireland Eastern Ukraine is also super slow, maybe not surprising given current events.</description>
+    </item>
+    
+    <item>
+      <title>Black Box Machine Learning in the Cloud</title>
+      <link>https://erikbern.com/2015/04/22/black-box-machine-learning-in-the-cloud.html</link>
+      <pubDate>Wed, 22 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/04/22/black-box-machine-learning-in-the-cloud.html</guid>
+      <description>There&#39;s a bunch of companies working on machine learning as a service. Some old companies like Google, but now also Amazon and Microsoft.
+Then there&#39;s a ton of startups: PredictionIO ($2.7M funding), BigML ($1.6M funding), Clarifai, etc, etc.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s called Berkson&#39;s paradox!</title>
+      <link>https://erikbern.com/2015/04/09/its-called-berksons-paradox.html</link>
+      <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/04/09/its-called-berksons-paradox.html</guid>
+      <description>As noted by multiple tweets, my previous post describes a phenomenon denoted Berkson&#39;s paradox.
+Here&#39;s another example: Why Are Handsome Men Such Jerks?</description>
+    </item>
+    
+    <item>
+      <title>Norvig&#39;s claim that programming competitions correlate negatively with being good on the job</title>
+      <link>https://erikbern.com/2015/04/07/norvigs-claim-that-programming-competitions-correlate-negatively-with-being-good-on-the-job.html</link>
+      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/04/07/norvigs-claim-that-programming-competitions-correlate-negatively-with-being-good-on-the-job.html</guid>
+      <description>I saw a bunch of tweets over the weekend about Peter Norvig claiming there&#39;s a negative correlation between being good at programming competitions and being good at the job. There were some decent Hacker News comments on it.</description>
+    </item>
+    
+    <item>
+      <title>Pinterest open sources Pinball</title>
+      <link>https://erikbern.com/2015/03/14/pinterest-open-sources-pinball.html</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/03/14/pinterest-open-sources-pinball.html</guid>
+      <description>Pinterest just open sourced Pinball which seems like an interesting Luigi alternative. There&#39;s two blog posts: Pinball: Building workflow management (from 2014) and Open-sourcing Pinball (from this week). The author has a comment in the comments thread on Hacker News:</description>
+    </item>
+    
+    <item>
+      <title>The relationship between commit size and commit message size</title>
+      <link>https://erikbern.com/2015/02/26/the-relationship-between-commit-size-and-commit-message-size.html</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/02/26/the-relationship-between-commit-size-and-commit-message-size.html</guid>
+      <description>Wow I guess it was more than a year ago that I tweeted this. Crazy how time flies by. Anyway, here&#39;s my rationale:
+ When I update one line of code I feel like I have to put in a long explanation about its side effects, why it&#39;s fully backwards compatible, and why it fixes some issue #xyz.</description>
+    </item>
+    
+    <item>
+      <title>My favorite management failures</title>
+      <link>https://erikbern.com/2015/02/22/my-favorite-management-failures.html</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/02/22/my-favorite-management-failures.html</guid>
+      <description>For most people straight out of school, work life is a bit of a culture shock. For me it was an awesome experience, but a lot of the constraints were different and I had to learn to optimize for different things.</description>
+    </item>
+    
+    <item>
+      <title>Leaving Spotify</title>
+      <link>https://erikbern.com/2015/02/11/leaving-spotify.html</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/02/11/leaving-spotify.html</guid>
+      <description>Febrary 6 was my last day at Spotify. In total I spent more than six years at Spotify and it was an amazing experience.
+I joined Spotify in Stockholm in 2008, mainly because a bunch of friends from programming competitions had joined already.</description>
+    </item>
+    
+    <item>
+      <title>Scala Data Pipelines for Music Recommendations</title>
+      <link>https://erikbern.com/2015/01/13/scala-data-pipelines-for-music-recommendations.html</link>
+      <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2015/01/13/scala-data-pipelines-for-music-recommendations.html</guid>
+      <description>Chris Johnson‘s presentation from Data Day Texas:</description>
+    </item>
+    
+    <item>
+      <title>Everything I learned about technical debt</title>
+      <link>https://erikbern.com/2014/12/30/everything-i-learned-about-technical-debt.html</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/30/everything-i-learned-about-technical-debt.html</guid>
+      <description>I just made it to Sweden suffering from jet lag induced insomnia, but this blog post will not cover that. Instead, I will talk a little bit about technical debt.
+The concept of technical debt always resonated with me, partly because I always like the analogy with “real” debt.</description>
+    </item>
+    
+    <item>
+      <title>I already found the best gifs</title>
+      <link>https://erikbern.com/2014/12/28/i-already-found-the-best-gifs.html</link>
+      <pubDate>Sun, 28 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/28/i-already-found-the-best-gifs.html</guid>
+      <description>Just search for “hackers gif“.
+There you go. Fun for your work emails for the next 500 years. From the awesome movie Hackers. That movie together with The Warriors convinced me that I wanted to live in NYC when I was like… 14 years old.</description>
+    </item>
+    
+    <item>
+      <title>A brief history of Hadoop at Spotify</title>
+      <link>https://erikbern.com/2014/12/20/a-brief-history-of-hadoop-at-spotify-2008-2009.html</link>
+      <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/20/a-brief-history-of-hadoop-at-spotify-2008-2009.html</guid>
+      <description>I was talking with some data engineers at Spotify and had a moment of nostalgia.
+2008
+I was writing my master&#39;s thesis at Spotify and had to run a Hadoop job to extract some data from the logs.</description>
+    </item>
+    
+    <item>
+      <title>Luigi Presentation @ NYC Data Science, Dec 16, 2014</title>
+      <link>https://erikbern.com/2014/12/17/luigi-presentation-nyc-data-science-dec-16-2014.html</link>
+      <pubDate>Wed, 17 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/17/luigi-presentation-nyc-data-science-dec-16-2014.html</guid>
+      <description>More Luigi presentations!</description>
+    </item>
+    
+    <item>
+      <title>Luigi talk tomorrow</title>
+      <link>https://erikbern.com/2014/12/16/luigi-talk-tomorrow.html</link>
+      <pubDate>Tue, 16 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/16/luigi-talk-tomorrow.html</guid>
+      <description>At NYC Data Science meetup! Unfortunately the space is full but the talk will be livestreamed – check out the meetup web page for a link tomorrow.</description>
+    </item>
+    
+    <item>
+      <title>Deep learning for&amp;#8230; Go</title>
+      <link>https://erikbern.com/2014/12/11/deep-learning-for-go.html</link>
+      <pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/11/deep-learning-for-go.html</guid>
+      <description>This is the last post about deep learning for chess/go/whatever. But this really cool paper by Christopher Clark and Amos Storkey was forwarded to me by Michael Eickenberg. It&#39;s about using convolutional neural networks to play Go.</description>
+    </item>
+    
+    <item>
+      <title>Deep learning for&amp;#8230; chess (addendum)</title>
+      <link>https://erikbern.com/2014/12/08/deep-learning-for-chess-addendum.html</link>
+      <pubDate>Mon, 08 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/12/08/deep-learning-for-chess-addendum.html</guid>
+      <description>My previous blog post about deep learning for chess blew up and made it to Hacker News and a couple of other places. One pretty amazing thing was that the Github repo got 150 stars overnight.</description>
+    </item>
+    
+    <item>
+      <title>Deep learning for... chess</title>
+      <link>https://erikbern.com/2014/11/29/deep-learning-for-chess.html</link>
+      <pubDate>Sat, 29 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/11/29/deep-learning-for-chess.html</guid>
+      <description>I&#39;ve been meaning to learn Theano for a while and I&#39;ve also wanted to build a chess AI at some point. So why not combine the two? That&#39;s what I thought, and I ended up spending way too much time on it.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing things: everything is a proxy for a proxy for a proxy</title>
+      <link>https://erikbern.com/2014/11/22/optimizing-things-everything-is-a-proxy-for-a-proxy-for-a-proxy.html</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/11/22/optimizing-things-everything-is-a-proxy-for-a-proxy-for-a-proxy.html</guid>
+      <description>Say you build a machine learning model, like a movie recommender system. You need to optimize for something. You have 1-5 stars as ratings so let&#39;s optimize for mean squared error. Great.
+Then let&#39;s say you build a new model.</description>
+    </item>
+    
+    <item>
+      <title>Luigi conquering the world</title>
+      <link>https://erikbern.com/2014/11/15/luigi-spreading-to-the-west-coast.html</link>
+      <pubDate>Sat, 15 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/11/15/luigi-spreading-to-the-west-coast.html</guid>
+      <description>I keep forgetting to buy a costume for Halloween every year, so this year I prepared and got myself a Luigi costume a month in advance. Only to realize I was going to be out of town the whole weekend.</description>
+    </item>
+    
+    <item>
+      <title>Annoying blog post</title>
+      <link>https://erikbern.com/2014/11/11/annoying-blog-post.html</link>
+      <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/11/11/annoying-blog-post.html</guid>
+      <description>I spent a couple of hours this weekend going through some pull requests and issues to Annoy, which is an open source C++/Python library for Approximate Nearest Neighbor search.
+I set up Travis-CI integration and spent some time on one of the issues that multiple people had reported.</description>
+    </item>
+    
+    <item>
+      <title>The Filter Bubble is Silly and you Can&#39;t Guess What Happened Next</title>
+      <link>https://erikbern.com/2014/10/10/the-filter-bubble-is-silly-and-you-cant-guess-what-happened-next.html</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/10/10/the-filter-bubble-is-silly-and-you-cant-guess-what-happened-next.html</guid>
+      <description>I&#39;m at RecSys 2014, meeting a lot of people and hanging out at talks. Some of the discussions here was about the filter bubble which prompted me to formalize my own thoughts.
+I firmly believe that it&#39;s the role of a system to respect the user&#39;s intent.</description>
+    </item>
+    
+    <item>
+      <title>Detecting corporate fraud using Benford&#39;s law</title>
+      <link>https://erikbern.com/2014/10/07/detecting-corporate-fraud-using-benfords-law.html</link>
+      <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/10/07/detecting-corporate-fraud-using-benfords-law.html</guid>
+      <description>Note: This is a silly application. Don&#39;t take anything seriously.
+Benford&#39;s law describes a phenomenon where numbers in any data series will exhibit patterns in their first digit. For instance, if you took a list of the 1,000 longest rivers of Mongolia, or the average daily calorie consumption of mammals, or the wealth distribution of German soccer players, you will on average see that these numbers start with “1” about 30% of the time.</description>
+    </item>
+    
+    <item>
+      <title>Running Theano on EC2</title>
+      <link>https://erikbern.com/2014/08/19/running-theano-on-ec2.html</link>
+      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/08/19/running-theano-on-ec2.html</guid>
+      <description>Inspired by Sander Dieleman&#39;s internship at Spotify, I&#39;ve been playing around with deep learning using Theano. Theano is this Python package that lets you define symbolic expressions (cool), does automatic differentiation (really cool), and compiles it down into bytecode to run on a CPU/GPU (super cool).</description>
+    </item>
+    
+    <item>
+      <title>In defense of false positives (why you can&#39;t fail with A/B tests)</title>
+      <link>https://erikbern.com/2014/07/30/in-defense-of-false-positives-why-you-cant-fail-with-ab-tests.html</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/07/30/in-defense-of-false-positives-why-you-cant-fail-with-ab-tests.html</guid>
+      <description>Many years ago, I used to think that A/B tests were foolproof and all you need to do is compare the metrics for the two groups. The group with the highest conversion rate wins, right?</description>
+    </item>
+    
+    <item>
+      <title>Recurrent Neural Networks for Collaborative Filtering</title>
+      <link>https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering.html</link>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering.html</guid>
+      <description>I’ve been spending quite some time lately playing around with RNN’s for collaborative filtering. RNN’s are models that predict a sequence of something. The beauty is that this something can be anything really – as long as you can design an output gate with a proper loss function, you can model essentially anything.</description>
+    </item>
+    
+    <item>
+      <title>Where do locals go in NYC?</title>
+      <link>https://erikbern.com/2014/06/17/where-do-locals-go-in-nyc.html</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/06/17/where-do-locals-go-in-nyc.html</guid>
+      <description>One obvious thing to anyone living in NYC is how tourists cluster in certain areas. I was curious about the larger patterns around this, so I spent some time looking at data. The thing I wanted to understand is: what areas are dominated by tourists?</description>
+    </item>
+    
+    <item>
+      <title>How to build up a data team (everything I ever learned about recruiting)</title>
+      <link>https://erikbern.com/2014/06/08/how-to-build-up-a-data-team-everything-i-ever-learned-about-recruiting.html</link>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/06/08/how-to-build-up-a-data-team-everything-i-ever-learned-about-recruiting.html</guid>
+      <description>During my time at Spotify, I&#39;ve reviewed thousands of resumes and interviewed hundreds of people. Lots of them were rejected but lots of them also got offers. Finally, I&#39;ve also had my share of offers rejected by the candidate.</description>
+    </item>
+    
+    <item>
+      <title>The power of ensembles</title>
+      <link>https://erikbern.com/2014/04/24/the-power-of-ensembles.html</link>
+      <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/04/24/the-power-of-ensembles.html</guid>
+      <description>From my presentation at MLConf, one of the points I think is worth stressing again is how extremely well combining different algorithms works.
+In this case, we&#39;re training machine learning algorithms on different data sets (playlists, play counts, sessions) and different objectives (least squares, max likelihood).</description>
+    </item>
+    
+    <item>
+      <title>MLConf 2014</title>
+      <link>https://erikbern.com/2014/04/12/mlconf-2014.html</link>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/04/12/mlconf-2014.html</guid>
+      <description>Just spent a day at MLConf where I was talking about how we do music recommendations. There was a whole range of great speakers (actually almost 2/3 women which was pretty cool in itself).
+Here are my slides:</description>
+    </item>
+    
+    <item>
+      <title>Music recommendations using cover images (part 1)</title>
+      <link>https://erikbern.com/2014/04/01/music-recommendations-using-cover-images-part-1.html</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/04/01/music-recommendations-using-cover-images-part-1.html</guid>
+      <description>Scrolling through the Discover page on Spotify the other day it occurred to me that the album is in fact a fairly strong visual proxy for what kind of content you can expect from it. I started wondering if the album cover can in fact be used for recommendations.</description>
+    </item>
+    
+    <item>
+      <title>Luigi success</title>
+      <link>https://erikbern.com/2014/03/22/luigi-party.html</link>
+      <pubDate>Sat, 22 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/03/22/luigi-party.html</guid>
+      <description>So Luigi, our open sourced workflow engine in Python, just recently passed 1,000 stars on Github, then shortly after passed mrjob as (I think) the most popular Python package to do Hadoop stuff. This is exciting!</description>
+    </item>
+    
+    <item>
+      <title>Welcome Echo Nest!</title>
+      <link>https://erikbern.com/2014/03/22/welcome-echo-nest.html</link>
+      <pubDate>Sat, 22 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/03/22/welcome-echo-nest.html</guid>
+      <description>In case you missed it, we just acquired a company called Echo Nest in Boston. These people have been obsessed with understanding music for the past 8 years since it was founded by Brian Whitman and Tristan Jehan out of MIT Medialab.</description>
+    </item>
+    
+    <item>
+      <title>Momentum strategies</title>
+      <link>https://erikbern.com/2014/03/03/momentum-strategies.html</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/03/03/momentum-strategies.html</guid>
+      <description>Haven&#39;t posted anything in ages, so here&#39;s a quick hack I threw together in Python on a Sunday night. Basically I wanted to know whether momentum strategies work well for international stock indexes. I spent a bit of time putting together a strategy that buys the stock index if the return during the previous n days was positive, otherwise doesn&#39;t do anything.</description>
+    </item>
+    
+    <item>
+      <title>Ratio metrics</title>
+      <link>https://erikbern.com/2014/01/23/ratio-metrics.html</link>
+      <pubDate>Thu, 23 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/01/23/ratio-metrics.html</guid>
+      <description>We run a ton of A/B tests at Spotify and we look at a ton of metrics. Defining metrics is a little bit of an art form. Ideally you want to define success metrics before you run a test to avoid cherry picking metrics.</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking nearest neighbor libraries in Python</title>
+      <link>https://erikbern.com/2014/01/12/benchmarking-nearest-neighbor-libraries-in-python.html</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2014/01/12/benchmarking-nearest-neighbor-libraries-in-python.html</guid>
+      <description>Radim Rehurek has put together an excellent summary of approximate nearest neighbor libraries in Python. This is exciting, because one of the libraries he&#39;s covering, annoy, was built by me.
+After introducing the problem, he goes through the list of contestants and sticks with five remaining ones.</description>
+    </item>
+    
+    <item>
+      <title>More recommender algorithms</title>
+      <link>https://erikbern.com/2013/12/20/more-insight-into-recommender-algorithms.html</link>
+      <pubDate>Fri, 20 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/12/20/more-insight-into-recommender-algorithms.html</guid>
+      <description>I wanted to share some more insight into the algorithms we use at Spotify. One matrix factorization algorithm we have used for a while assumes that we have user vectors $$ bf{a}_u $$ and item vectors $$ bf{b}_i $$ .</description>
+    </item>
+    
+    <item>
+      <title>Microsoft&#39;s new marketing strategy: give up</title>
+      <link>https://erikbern.com/2013/12/12/microsofts-new-marketing-strategy-give-up.html</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/12/12/microsofts-new-marketing-strategy-give-up.html</guid>
+      <description>I think it&#39;s funny how MS at some point realized they are not the cool kids and there&#39;s no reason to appeal to that target audience. Their new marketing strategy finally admits what&#39;s been long known: the correlation between “business casual” and using Microsoft products:</description>
+    </item>
+    
+    <item>
+      <title>Bagging as a regularizer</title>
+      <link>https://erikbern.com/2013/12/06/bagging-as-a-regularizer.html</link>
+      <pubDate>Fri, 06 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/12/06/bagging-as-a-regularizer.html</guid>
+      <description>One thing I encountered today was a trick using bagging as a way to go beyond a point estimate and get an approximation for the full distribution. This can then be used to penalize predictions with larger uncertainty, which helps reducing false positives.</description>
+    </item>
+    
+    <item>
+      <title>Model benchmarks</title>
+      <link>https://erikbern.com/2013/11/02/model-benchmarks.html</link>
+      <pubDate>Sat, 02 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/11/02/model-benchmarks.html</guid>
+      <description>A lot of people have asked me what models we use for recommendations at Spotify so I wanted to share some insights. Here&#39;s benchmarks for some models. Note that we don&#39;t use all of them in production.</description>
+    </item>
+    
+    <item>
+      <title>statself.com</title>
+      <link>https://erikbern.com/2013/10/18/statself-com.html</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/10/18/statself-com.html</guid>
+      <description>Btw I just put something up online that I spent a couple of evenings in my couch putting together: it&#39;s a website where you can track any numerical data on the web. Want to know how many Twitter followers you have?</description>
+    </item>
+    
+    <item>
+      <title>Implicit data and collaborative filtering</title>
+      <link>https://erikbern.com/2013/09/16/implicit-data-and-collaborative-filtering.html</link>
+      <pubDate>Mon, 16 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/09/16/implicit-data-and-collaborative-filtering.html</guid>
+      <description>A lot of people these days know about collaborative filtering. It&#39;s that Netflix Prize thing, right? People rate things 1-5 stars and then you have to predict missing ratings.
+While there&#39;s no doubt that the Netflix Prize was successful, I think it created an illusion that all recommender systems care about explicit 1-5 ratings and RMSE as the objective.</description>
+    </item>
+    
+    <item>
+      <title>Vote for our SXSW panel!</title>
+      <link>https://erikbern.com/2013/09/04/vote-for-our-sxsw-panel.html</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/09/04/vote-for-our-sxsw-panel.html</guid>
+      <description>If you have a few minutes, you should check out mine and Chris Johnson‘s panel proposal. Go here and vote: http://panelpicker.sxsw.com/vote/24504
+Algorithmic Music Discovery at Spotify
+****Spotify crunches hundreds of billions of streams to analyze user&#39;s music taste and provide music recommendations for its users.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s up with music recommendations?</title>
+      <link>https://erikbern.com/2013/08/17/306.html</link>
+      <pubDate>Sat, 17 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/08/17/306.html</guid>
+      <description>I just answered a Quora question about what, if any, are the differences in the algorithms that are behind recommendations for music and movies.
+Of course, every media type is different. For instance, there&#39;s fundamental reasons why latent factor models works really well for music and movies, as opposed to location recommendations where I suspect graph based models are more powerful.</description>
+    </item>
+    
+    <item>
+      <title>3D</title>
+      <link>https://erikbern.com/2013/08/12/3d.html</link>
+      <pubDate>Mon, 12 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/08/12/3d.html</guid>
+      <description>Andy Sloane decided to call my 2D visualization and raise it to 3D.
+(Looks a little weird in the iframe but check out the link). It&#39;s based on a LDA model with 200 topics, so the artists tend to stick to clusters where each cluster is a topic.</description>
+    </item>
+    
+    <item>
+      <title>2D embedding of 5k artists = WIN</title>
+      <link>https://erikbern.com/2013/08/11/2d-embedding-of-5k-artists-win.html</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/08/11/2d-embedding-of-5k-artists-win.html</guid>
+      <description>I&#39;m at KDD in Chicago for a few days. We have a Spotify booth tomorrow, and I wanted to put together some cool graphics to show. I&#39;ve been thinking about doing a 2D embedding of the top artists forever since I read about t-SNE and other papers so this was a perfect opportunity to spend some time on it.</description>
+    </item>
+    
+    <item>
+      <title>Delivering Music Recommendations</title>
+      <link>https://erikbern.com/2013/08/09/delivering-music-recommendations.html</link>
+      <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/08/09/delivering-music-recommendations.html</guid>
+      <description>I&#39;ve turned into a lazy bastard and I&#39;m just posting presentations on this blog, but here&#39;s one from Rohan Singh at Spotify talking about the backend infrastructure of the Discover page.</description>
+    </item>
+    
+    <item>
+      <title>ML&#43;Hadoop at NYC Predictive Analytics</title>
+      <link>https://erikbern.com/2013/08/03/mlhadoop-at-nyc-predictive-analytics.html</link>
+      <pubDate>Sat, 03 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/08/03/mlhadoop-at-nyc-predictive-analytics.html</guid>
+      <description>I was just at the NYC Predictive Analytics meetup talking about how we build machine learning algorithms using Hadoop to power music recommendations.
+Great meetup, where we had two speakers, me and Blake Shaw from Foursquare.</description>
+    </item>
+    
+    <item>
+      <title>HubSpot&#39;s Picture Shows how to Maintain Monocultures in the 21st Century</title>
+      <link>https://erikbern.com/2013/07/28/hubspots-creepy-picture-shows-how-to-maintain-monocultures-in-the-21st-century.html</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/07/28/hubspots-creepy-picture-shows-how-to-maintain-monocultures-in-the-21st-century.html</guid>
+      <description>I thought this article about the company culture at HubSpot is kind of funny. “HubSpot&#39;s Awesome Presentation Shows how to Create a 21st Century Culture”.
+Just FYI: You&#39;re not different. You&#39;re a bunch of white hipsters aged 25-30 dressed up in the same theme.</description>
+    </item>
+    
+    <item>
+      <title>More Luigi: Presentation from OSCON</title>
+      <link>https://erikbern.com/2013/07/27/more-luigi-presentation-from-oscon.html</link>
+      <pubDate>Sat, 27 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/07/27/more-luigi-presentation-from-oscon.html</guid>
+      <description>I was in Portland, OR for a few days hanging out at OSCON. Was fun. I also talked a bit about Luigi:
+Next week I&#39;m presenting at the NYC Predictive Analytics meetup together with Blake Shaw from Foursquare.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing over multinomial distributions</title>
+      <link>https://erikbern.com/2013/07/24/normalizing-multinomial-distributions.html</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/07/24/normalizing-multinomial-distributions.html</guid>
+      <description>Sometimes you have to maximize some function $$ f(w_1, w_2, ldots, w_n) $$ where $$ w_1 + w_2 + ldots + w_n = 1 $$ and $$ 0 le w_i le 1 $$ . Usually, $$ f $$ is concave and differentiable, so there&#39;s one unique global maximum and you can solve it by applying gradient ascent.</description>
+    </item>
+    
+    <item>
+      <title>More Luigi!</title>
+      <link>https://erikbern.com/2013/06/26/more-luigi.html</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/06/26/more-luigi.html</guid>
+      <description>Continuing in the same spirit of shameless self-promotion, here&#39;s some recent Luigi press:
+ Reddit thread A Guide to Python Frameworks for Hadoop (slides from the NYC Hadoop User Group) This presentation from the Open Analytics NYC meetup about how Foursquare uses Luigi   Luigi is in the middle of a pretty massive refactoring of the visualizer.</description>
+    </item>
+    
+    <item>
+      <title>hdfs2cass</title>
+      <link>https://erikbern.com/2013/06/19/hdfs2cass.html</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/06/19/hdfs2cass.html</guid>
+      <description>Just open sourced hdfs2cass which is a Hadoop job (written in Java) to do efficient Cassandra bulkloading. The nice thing is that it queries Cassandra for its topology and uses that to partition the data so that each reducer can upload data directly to a Cassandra node.</description>
+    </item>
+    
+    <item>
+      <title>NoDoc</title>
+      <link>https://erikbern.com/2013/06/16/nodoc.html</link>
+      <pubDate>Sun, 16 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/06/16/nodoc.html</guid>
+      <description>We had an unconference at Spotify last Thursday and I added a semi-trolling semi-serious topic about abolishing documentation. Or NoDoc, as I&#39;m going to call this movement. This was meant to be mostly a thought experiment, but I don&#39;t see it as complete madness.</description>
+    </item>
+    
+    <item>
+      <title>Wikiphilia</title>
+      <link>https://erikbern.com/2013/06/02/wikiphilia.html</link>
+      <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/06/02/wikiphilia.html</guid>
+      <description>I&#39;ve been obsessed with Wikipedia for the past ten years. Occasionally I find some good articles worth sharing and that&#39;s why I created the wikiphilia Twitter handle. Just a long stream of stuff that for one reason or another may be interesting.</description>
+    </item>
+    
+    <item>
+      <title>Spotify&#39;s Discovery page</title>
+      <link>https://erikbern.com/2013/05/31/spotifys-discovery-page.html</link>
+      <pubDate>Fri, 31 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/05/31/spotifys-discovery-page.html</guid>
+      <description>The Discovery page, the new start page in Spotify, is finally out to a fairly significant percentage of all users. Really happy since we have worked on it for the past six months. Here&#39;s a screen shot:</description>
+    </item>
+    
+    <item>
+      <title>Fermat&#39;s principle</title>
+      <link>https://erikbern.com/2013/05/21/fermats-principle.html</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/05/21/fermats-principle.html</guid>
+      <description>I was browsing around on the Internet and the physics geek in me started reading about Fermat&#39;s principle. And suddenly something came back to me that I&#39;ve been trying to suppress for many years – how I never understood why there&#39;s anything fundamental about the principal of least time.</description>
+    </item>
+    
+    <item>
+      <title>Snakebite</title>
+      <link>https://erikbern.com/2013/05/07/snakebite.html</link>
+      <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/05/07/snakebite.html</guid>
+      <description>Just promoting Spotify stuff here: check out the Snakebite repo on Github, written by Wouter de Bie. It&#39;s a super fast tool to access HDFS over CLI/Python, by accessing the namenode directly over sockets/protobuf.
+Spotify&#39;s developer blog features a nice blog post outlining what it&#39;s useful for.</description>
+    </item>
+    
+    <item>
+      <title>Stuff that bothers me: &amp;#8220;100x faster than Hadoop&amp;#8221;</title>
+      <link>https://erikbern.com/2013/04/27/stuff-that-bothers-me-100x-faster-than-hadoop.html</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/04/27/stuff-that-bothers-me-100x-faster-than-hadoop.html</guid>
+      <description>The simple way to get featured on big data blog these days seem to be
+ Build something that does 1 thing super well but nothing else Benchmark it against Hadoop Publish stats showing that it&#39;s 100x faster than Hadoop $$$  Spark claims their 100x faster than Hadoop and there&#39;s a lot of stats showing Redshift is 10x faster than Hadoop.</description>
+    </item>
+    
+    <item>
+      <title>Presentation about Luigi</title>
+      <link>https://erikbern.com/2013/04/26/presentation-about-luigi.html</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/04/26/presentation-about-luigi.html</guid>
+      <description>I like the editing!</description>
+    </item>
+    
+    <item>
+      <title>Being data driven</title>
+      <link>https://erikbern.com/2013/04/13/being-data-driven.html</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/04/13/being-data-driven.html</guid>
+      <description>I picked up an issue of Foreign Affairs while flying back to NYC from SFO. It features this long interview with U.S. General Stanley McChrystal and I thought it was pretty interesting how striking some of the similarities are between fighting in a war and developing software.</description>
+    </item>
+    
+    <item>
+      <title>Annoy</title>
+      <link>https://erikbern.com/2013/04/12/annoy.html</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/04/12/annoy.html</guid>
+      <description>Annoy is a simple package to find approximate nearest neighbors (ANN) that I just put on Github. I&#39;m not trying to compete with existing packages, but Annoy has a couple of features that makes it pretty useful.</description>
+    </item>
+    
+    <item>
+      <title>More Luigi!</title>
+      <link>https://erikbern.com/2013/03/22/more-luigi-pres.html</link>
+      <pubDate>Fri, 22 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/03/22/more-luigi-pres.html</guid>
+      <description>Elias Freider just talked about Luigi at PyData 2013:
+The presentation above is much better than one I put together a few weeks ago. In case anyone is interested I&#39;ll include it too: </description>
+    </item>
+    
+    <item>
+      <title>ML at Twitter</title>
+      <link>https://erikbern.com/2013/02/27/ml-at-twitter.html</link>
+      <pubDate>Wed, 27 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/02/27/ml-at-twitter.html</guid>
+      <description>I recently came across this paper describing how they do ML at Twitter.
+TL;DR Their approach is pretty interesting. Everything is a Pig workflow and then they do everything as UDF&#39;s.
+This approach seems pretty interesting.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m featured in Mashable</title>
+      <link>https://erikbern.com/2013/02/06/im-featured-in-mashable.html</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/02/06/im-featured-in-mashable.html</guid>
+      <description>This article from today in Mashable describes some of the fun stuff I get to work with:
+Erik Bernhardsson is technical lead at Spotify, where he helped to build a music recommendation system based on large-scale machine learning algorithms, mainly matrix factorization of big matrices using Hadoop.</description>
+    </item>
+    
+    <item>
+      <title>Slides from NYC Machine Learning talk</title>
+      <link>https://erikbern.com/2013/01/27/slides-from-nyc-machine-learning-talk.html</link>
+      <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/01/27/slides-from-nyc-machine-learning-talk.html</guid>
+      <description>Slides from the talk. Slightly edited because (a) some of the slides make little sense taken out of context (b) Slideshare seem to have problem converting some of the stuff.
+ Collaborative filtering at Spotify  from Erik Bernhardsson </description>
+    </item>
+    
+    <item>
+      <title>NYC Machine Learning meetup</title>
+      <link>https://erikbern.com/2013/01/22/nyc-machine-learning-meetup.html</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/01/22/nyc-machine-learning-meetup.html</guid>
+      <description>From the NYC Machine Learning talk I had last week:
+Haven&#39;t looked at it yet except briefly. Unfortunately the quality isn&#39;t the best.</description>
+    </item>
+    
+    <item>
+      <title>Momentum and mean reversion might just be volatility bias</title>
+      <link>https://erikbern.com/2013/01/13/momentum-and-mean-reversion-might-just-be-volatility-bias.html</link>
+      <pubDate>Sun, 13 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2013/01/13/momentum-and-mean-reversion-might-just-be-volatility-bias.html</guid>
+      <description>The Economist just published an article called The best, the worst and the ugly. By looking at historical performance for mutual funds, they find strong support for momentum and mean reversion. Picking the best or the worst fund over the previous five years gives great returns over the next five years.</description>
+    </item>
+    
+    <item>
+      <title>Calculating cosine similarities using dimensionality reduction</title>
+      <link>https://erikbern.com/2012/12/05/calculating-cosine-similarities-using-dimensionality-reduction.html</link>
+      <pubDate>Wed, 05 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2012/12/05/calculating-cosine-similarities-using-dimensionality-reduction.html</guid>
+      <description>This was posted on the Twitter Engineering blog a few days ago: Dimension Independent Similarity Computation (DISCO)
+I just glanced at the paper, and there&#39;s some cool stuff going on from a theoretical perspective. What I&#39;m curious about is why they didn&#39;t decide to use dimensionality reduction to solve such a big problem.</description>
+    </item>
+    
+    <item>
+      <title>Tumblr&#39;s awesome project names</title>
+      <link>https://erikbern.com/2012/11/18/tumblrs-awesome-project-names.html</link>
+      <pubDate>Sun, 18 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2012/11/18/tumblrs-awesome-project-names.html</guid>
+      <description>Not sure how I managed to miss this, but I&#39;m watching this Tumblr presentation and they talk about their projects named after Arrested Development topics: Gob, Parmesan, Buster, Jetpants, Oscar, George and Motherboy.
+Still, the best software project name is probably still Apple&#39;s BHA.</description>
+    </item>
+    
+    <item>
+      <title>A neat little trick with time decay</title>
+      <link>https://erikbern.com/2012/10/29/a-neat-little-trick-with-time-decay.html</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2012/10/29/a-neat-little-trick-with-time-decay.html</guid>
+      <description>Something that pops up pretty frequently is to implement time decay, especially where you have recursive chains of jobs. For instance, say you want to keep track of a popularity score. You calculate today&#39;s output by reading yesterday&#39;s output, discounting it by $$ exp(-lambda Delta T) $$ and then adding some hit count for today.</description>
+    </item>
+    
+    <item>
+      <title>Luigi: complex pipelines of tasks in Python</title>
+      <link>https://erikbern.com/2012/10/21/luigi-build-complex-pipelines-of-tasks.html</link>
+      <pubDate>Sun, 21 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/2012/10/21/luigi-build-complex-pipelines-of-tasks.html</guid>
+      <description>I&#39;m shamelessly promoting my first major open source project. Luigi is a Python module that helps you build complex pipelines of batch jobs, handle dependency resolution, and create visualizations to help manage multiple workflows. It also comes with Hadoop support built in (because that&#39;s where really where its strength becomes clear).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://erikbern.com/about.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/about.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domains for sale</title>
+      <link>https://erikbern.com/domains.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/domains.html</guid>
+      <description>Contact me at mail at erik bern dot com!</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://erikbern.com/resume-with-contact-information.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/resume-with-contact-information.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://erikbern.com/resume.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/resume.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open source</title>
+      <link>https://erikbern.com/open-source.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/open-source.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top posts</title>
+      <link>https://erikbern.com/top-posts.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erikbern.com/top-posts.html</guid>
+      <description>These are some blog posts which have gotten a disproportionate amount of traffic (10,000+ page views):
+2022  We are still early with the cloud: why software development is overdue for a change  2021  Storm in the stratosphere: how the cloud will be reshuffled Building a data team at a mid-stage startup: a short story Software infrastructure 2.</description>
+    </item>
+    
+  </channel>
+</rss>
