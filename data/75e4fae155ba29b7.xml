@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCEBcDOjv-bhAmLavY71RMHA"/>
+ <id>yt:channel:UCEBcDOjv-bhAmLavY71RMHA</id>
+ <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+ <title>Lambda World</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"/>
+ <author>
+  <name>Lambda World</name>
+  <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+ </author>
+ <published>2015-10-30T10:26:20+00:00</published>
+ <entry>
+  <id>yt:video:Y6FMjGxaNGk</id>
+  <yt:videoId>Y6FMjGxaNGk</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Unconference</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Y6FMjGxaNGk"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-08T09:44:20+00:00</published>
+  <updated>2022-09-26T01:02:55+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Unconference</media:title>
+   <media:content url="https://www.youtube.com/v/Y6FMjGxaNGk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Y6FMjGxaNGk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This functional programming unconference took place at Lambda World 2019 in Cádiz, Spain.
+
+Speaker 1 (begins at 0:00:14 - https://youtu.be/KGBLX0y-55U?t=14):
+Alejandro Serrano
+https://www.twitter.com/trupill
+Talk: Agda´s Greatest Hit
+
+Speaker 2 (begins at 0:10:48 - https://youtu.be/KGBLX0y-55U?t=648):
+Tomás Ruiz
+https://www.twitter.com/tomasruizlopez
+Talk: Functional Programming in Swift with Bow
+
+Speaker 3 (begins at 0:21:42 - https://youtu.be/KGBLX0y-55U?t=1302):
+Tapio Rautonen
+https://www.twitter.com/trautonen
+Talk: Generic Functional Programming with Type Classes
+
+Speaker 4 (begins at  0:38:22 - https://youtu.be/KGBLX0y-55U?t=2302):
+Alfredo de Hoces
+Talk: Our smooth transition to functional programming
+
+Speaker 5 (begins at  0:54:58 - https://youtu.be/KGBLX0y-55U?t=3298):
+Flavio Corpa
+https://www.twitter.com/FlavioCorpa
+Talk: ReasonML in 15min</media:description>
+   <media:community>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="1970"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8kMkwBgaHfw</id>
+  <yt:videoId>8kMkwBgaHfw</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - The Reason for ReasonML - Tianyu Pu</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8kMkwBgaHfw"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-07T14:42:22+00:00</published>
+  <updated>2022-07-08T01:27:14+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - The Reason for ReasonML - Tianyu Pu</media:title>
+   <media:content url="https://www.youtube.com/v/8kMkwBgaHfw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8kMkwBgaHfw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Tianyu Pu provides an introduction to ReasonML, and explains the benefits of using it.
+
+Presentation Description:
+
+JavaScript is a critical part of today's programming landscape, and not just for web applications. However, its lack of static typing has given lots of developers grief over the years as they struggled with cryptic runtime error messages such as 'cannot find property X of undefined' (I've been there, too). With the introduction of ReasonML, we're now able to write statically typed, simpler and faster JavaScript. In this talk, we'll cover what ReasonML is, what it isn't, why it's worth paying attention to, how it works, and how it can be used in your applications.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/tianyupu
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="215" average="5.00" min="1" max="5"/>
+    <media:statistics views="7194"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:O_DIoKqoW8I</id>
+  <yt:videoId>O_DIoKqoW8I</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - So I used Erlang...is my system as scalable as they say it'd be? - Laura Castro</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O_DIoKqoW8I"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-07T12:39:46+00:00</published>
+  <updated>2022-07-16T23:53:03+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - So I used Erlang...is my system as scalable as they say it'd be? - Laura Castro</media:title>
+   <media:content url="https://www.youtube.com/v/O_DIoKqoW8I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O_DIoKqoW8I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Laura Castro looks at the process of testing the robustness of an Erlang-based system.
+
+Presentation Description:
+
+In the world of distributed, highly concurrent and scalable systems, few technologies can live up to Erlang/OTP's potential. But, as we often hear, with great power comes great responsibility . . . What if we have designed the architecture of our background to be scalable and used Erlang/OTP to implement it? What now? Should we go straight ahead and jump into the production pool?
+
+Sit and wait for thousands, millions of requests to come? In this talk, we'll see how we can test the robustness of our system in a controlled setting, and in an automated, effective way. Using ProER, a property-based testing tool that follows into the footsteps of the famous QuickCheck, we will see how our software's validation can be both a challenge and a cool task, when we put the right tools in practice.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/lauramcastro
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="65" average="5.00" min="1" max="5"/>
+    <media:statistics views="3487"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nTH7uDATjoA</id>
+  <yt:videoId>nTH7uDATjoA</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - You Don't Own Me - J Haigh</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nTH7uDATjoA"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-07T12:37:26+00:00</published>
+  <updated>2022-07-03T04:12:59+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - You Don't Own Me - J Haigh</media:title>
+   <media:content url="https://www.youtube.com/v/nTH7uDATjoA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nTH7uDATjoA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, J Haigh discusses the Rust programming language.
+
+Full Presentation Description:
+
+For people coming from functional languages, you may wonder when you would want to use Rust. Rust has functional patterns and takes ideas from substructural type systems. A combination of functional patterns, the borrow checker, and drop checker enable us to have nice program control flow you'd expect with a functional language and granular control of our system resources. In this talk, we'll explore how Rust empowers programmers to write logically correct and memory safe programs.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/DebugSteven
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="17" average="5.00" min="1" max="5"/>
+    <media:statistics views="1045"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ElHi2h9Ho6M</id>
+  <yt:videoId>ElHi2h9Ho6M</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - What FP Can Learn From Static Introspection - Aditya Siram (Deech)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ElHi2h9Ho6M"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-05T14:20:05+00:00</published>
+  <updated>2022-07-23T08:00:03+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - What FP Can Learn From Static Introspection - Aditya Siram (Deech)</media:title>
+   <media:content url="https://www.youtube.com/v/ElHi2h9Ho6M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ElHi2h9Ho6M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Aditya Siram (Deech) discusses what Functional Programming can learn from static introspection. This presentation was delivered at Lambda World in Cádiz, Spain on October 18, 2019.
+
+Presentation Description:
+
+What if compile time and type level programming in functional programming languages were easy, something you reach for without even thinking about it? What if you could debug type errors with a simple compile time print statement? Write highly flexible systems by being able to introspect into types at compile time? Pre-calculate large portions of your programs for great efficiency?
+
+Typed functional programming is a great and fun way to write resilient software, and as type systems have become more and more expressive in recent years, we are able to program sophisticated and useful properties at the type level for even better compile time safety. Just one problem: It is very difficult, requires advanced knowledge of the type system, the syntax is convoluted, the error messages are impenetrable, and it is nearly impossible to debug.
+
+This talk will dive into why we should steal static introspection from languages like Nim, and D, state-of-the-art imperative programming languages which can solve all these issues, make type systems much more approachable without losing any expressive power, and offer new design possibilities for functional programs.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/deech
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="3265"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Z803Dk2nIHc</id>
+  <yt:videoId>Z803Dk2nIHc</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Fun With Categories - Marco Perone</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Z803Dk2nIHc"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:55:37+00:00</published>
+  <updated>2022-05-31T22:04:09+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Fun With Categories - Marco Perone</media:title>
+   <media:content url="https://www.youtube.com/v/Z803Dk2nIHc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Z803Dk2nIHc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Marco Perone shows benefit examples of defining concepts of category theory using Idris. 
+
+Full Presentation Description:
+
+Category theory provides us the setting and a common language to talk about computation and composition. Its usage pervades and inspires languages such as Haskell and Scala, lending concepts like functors and monads. Still, functional programming is just one of the possible applications of category theory, which may actually vary from physics and chemistry to machine learning and blockchain. So what about a change of perspective? Let's make category theory the subject of our code and actually implement it!
+
+In this talk, we will take a look at how we can define concepts of category theory, using a programming language as Idris, which allows us to properly define all the required laws and properties of the objects in question, and we will see how we can take advantage of them in concrete contexts.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/marcoshuttle
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="142" average="5.00" min="1" max="5"/>
+    <media:statistics views="5569"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uPd9kJq-Z8o</id>
+  <yt:videoId>uPd9kJq-Z8o</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Implicits Revisited - Martin Odersky</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uPd9kJq-Z8o"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:12+00:00</published>
+  <updated>2022-07-12T09:55:47+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Implicits Revisited - Martin Odersky</media:title>
+   <media:content url="https://www.youtube.com/v/uPd9kJq-Z8o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uPd9kJq-Z8o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 keynote, Martin Odersky discusses the history of Scala’s implicits. He then presents the revised implicit design of Scala 3.
+
+Keynote description:
+
+I’ll talk about the history of Scala’s implicits: how they evolved, some mistakes we could have avoided in hindsight, as well as aspects I believe we got right. I then present the revised implicit design of Scala 3 and explain how it addresses the problems mentioned earlier.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/odersky
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="120" average="5.00" min="1" max="5"/>
+    <media:statistics views="4832"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TrOBMJOh7Vw</id>
+  <yt:videoId>TrOBMJOh7Vw</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Thinking Like a Data Scientist - Em Grasmeder</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TrOBMJOh7Vw"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-07-17T10:54:49+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Thinking Like a Data Scientist - Em Grasmeder</media:title>
+   <media:content url="https://www.youtube.com/v/TrOBMJOh7Vw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TrOBMJOh7Vw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This keynote was presented by Em Grasmeder at Lambda World 2019. 
+
+Full Presentation Description:
+
+The field of data science, which has an increasingly profound impact on our lives, is meanwhile in the middle of an identity crisis. The fundamental questions of what data science is, who is a data scientist, and how do we best do data science to serve society, remain largely undecided. Regardless of where the answers will fall, there are a number of tools, techniques, and ways of thinking that every data scientist should have in their toolbelt. Although the software languages, frameworks, and algorithms will come in and out of fashion, the fundamentals behind the trade have existed for centuries and will continue to be used for ages to come.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/emgrasmeder
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="51" average="5.00" min="1" max="5"/>
+    <media:statistics views="2462"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ssx2_JKpB3U</id>
+  <yt:videoId>Ssx2_JKpB3U</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - A categorical view of computational effects - Emily Riehl</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ssx2_JKpB3U"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-06-30T19:42:35+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - A categorical view of computational effects - Emily Riehl</media:title>
+   <media:content url="https://www.youtube.com/v/Ssx2_JKpB3U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Ssx2_JKpB3U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019  keynote, Emily Riehl discusses category theory and computational effects.
+
+Slides are available here: http://www.math.jhu.edu/~eriehl/lambda.pdf
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/emilyriehl
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="586" average="5.00" min="1" max="5"/>
+    <media:statistics views="19173"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WKR384ZeBgk</id>
+  <yt:videoId>WKR384ZeBgk</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Arrow Meta - Enabling Functional Programming in the Kotlin Compiler</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WKR384ZeBgk"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-09-19T15:47:34+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Arrow Meta - Enabling Functional Programming in the Kotlin Compiler</media:title>
+   <media:content url="https://www.youtube.com/v/WKR384ZeBgk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WKR384ZeBgk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Raúl Raja and Simon Vergauwen detail the powerful Arrow Meta library.
+
+Presentation Description:
+
+Arrow Meta is a library that empowers library and application authors with the ability to write plugins for the Kotlin compiler. Compiler plugins have access to all compiler phases and can intercept and modify the AST, descriptors, and IR intermediate lang for bytecode generation. In this talk, Simon Vergauwen and Raul Raja, Arrow maintainers from 47 Degrees, will go over the main features of Arrow Meta and how the Arrow library aims for:
+
+- Bringing first-class FP capabilities to the Kotlin compiler.
+- Provide a framework for developers to write compiler plugins easily.
+
+You will learn how the Kotlin compiler works internally and how you can write compiler plugins with the Arrow Meta library.
+
+We will discuss some of the current Arrow plugins in development and the future and state of FP in Kotlin:
+
+- Keep 87. Type class and extension families
+- Monad Comprehensions
+- Higher Kinded Types
+- Automatic Optics derivation
+- Refined types
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/vergauwen_simon
+-https://twitter.com/raulraja
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="109" average="5.00" min="1" max="5"/>
+    <media:statistics views="4601"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9qnhgclfPac</id>
+  <yt:videoId>9qnhgclfPac</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Time-sensitive protocol: Links From Design to Implementation - Laura Bocchi</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=9qnhgclfPac"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-06-08T09:49:17+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Time-sensitive protocol: Links From Design to Implementation - Laura Bocchi</media:title>
+   <media:content url="https://www.youtube.com/v/9qnhgclfPac?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9qnhgclfPac/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This presentation by Laura Bocchi was delivered on October 18 at Lambda World 2019.
+
+Full Presentation Description:
+
+This talk will centre on developing systems where distributed components interact via asynchronous message passing, and need to follow specific interaction patterns, e.g., ad-hoc application-level protocols, such as POP2.
+
+I will discuss ongoing work towards establishing relationships between protocols and their implementations, focussing on time-sensitive protocols, where interactions are associated to time-constraints. We will look at two (partly-related) formal ways of describing protocols: Timed Session Types and Automata.
+
+Session Types are a powerful and effective technique for program verification; they allow to type-check programs against their communication behaviour, other than on the type of the messages. For Timed Automata, the relationship between protocols and (abstractions of) programs can be expressed as a refinement relation between more and less abstract models, giving concrete guidelines on how to implement timed protocols while preserving the intended behaviour and progress.
+
+I will discuss recent theories, learnings, open challenges, and future directions.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="476"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z8Pz4bJV3Tk</id>
+  <yt:videoId>z8Pz4bJV3Tk</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Language-Oriented Programming with Racket - Matthias Felleisen</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z8Pz4bJV3Tk"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-05-23T06:31:28+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Language-Oriented Programming with Racket - Matthias Felleisen</media:title>
+   <media:content url="https://www.youtube.com/v/z8Pz4bJV3Tk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z8Pz4bJV3Tk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Matthias Felleisen demonstrates the benefits of the Racket programming language. 
+
+Full Presentation Description:
+
+Racket, a functional language in the Lisp family, promotes a language-oriented style of programming. Developers create many domain-specific languages, write programs in those, and compose these programs via Racket code. This style of programming can work only if creating and composing little languages is simple and effective. This talk will demonstrate how Racket achieves this goal, starting from bare-bones functional code and moving through a range of examples from classical research (Algol '60) to modern end-point programming for the Web.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="323" average="5.00" min="1" max="5"/>
+    <media:statistics views="15669"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JsR4JD5RuGg</id>
+  <yt:videoId>JsR4JD5RuGg</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - What the F(p) is Kotlin? - Katie Levy &amp; Shelby Cohen</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JsR4JD5RuGg"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-01-14T05:51:35+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - What the F(p) is Kotlin? - Katie Levy &amp; Shelby Cohen</media:title>
+   <media:content url="https://www.youtube.com/v/JsR4JD5RuGg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JsR4JD5RuGg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, software engineers Katie Levy and Shelby Cohen share their experience introducing Kotlin and Functional Programming at Intuit.
+
+Presentation description:
+
+We, as two entry level engineers, took on the challenge of introducing Kotlin and Functional Programming to our company, Intuit. Even though you all know Kotlin is a great language, we overcame the obstacles associated with a large company structure of having a common tech stack. In addition, Kotlin provided a natural transition for OOP Java developers to use Functional Programming Paradigms.
+
+Hear about how, in less than two years, we went from getting our diplomas to gaining influence and driving change at a major technology company, and how you can do it too.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/klevy110
+-https://twitter.com/srcohen
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="46" average="5.00" min="1" max="5"/>
+    <media:statistics views="2980"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:y5jZnMImbMY</id>
+  <yt:videoId>y5jZnMImbMY</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - A Series of Unfortunate Effects - Robert M. Avram</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=y5jZnMImbMY"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-07-26T14:35:15+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - A Series of Unfortunate Effects - Robert M. Avram</media:title>
+   <media:content url="https://www.youtube.com/v/y5jZnMImbMY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/y5jZnMImbMY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Robert M. Avram talks about the consequences of effect models.
+
+Full Presentation Description
+
+The very essence of functional programming relies on a fairly simple premise: write side-effectless programs, so that you can reason about them equationally. Side-effects however are predominant in every program that . . . well, does something useful. In light of this, the modelling of effects in functional programs has become a fairly active domain of study. From stacked effects, to horizontal ones; from transformers to free monads and so on. Every effect model, though joyfully they may seem, have some rather unfortunate consequences. In this talk, I'd like to share with you some of these effect models and exemplify both their joyful and unfortunate nature.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/amrobert11
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="214" average="5.00" min="1" max="5"/>
+    <media:statistics views="4534"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7fbHdrcMsEs</id>
+  <yt:videoId>7fbHdrcMsEs</yt:videoId>
+  <yt:channelId>UCEBcDOjv-bhAmLavY71RMHA</yt:channelId>
+  <title>Lambda World 2019 - Functional Smart Contracts - Manuel Chakravarty</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7fbHdrcMsEs"/>
+  <author>
+   <name>Lambda World</name>
+   <uri>https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA</uri>
+  </author>
+  <published>2019-11-04T16:54:11+00:00</published>
+  <updated>2022-01-13T10:19:24+00:00</updated>
+  <media:group>
+   <media:title>Lambda World 2019 - Functional Smart Contracts - Manuel Chakravarty</media:title>
+   <media:content url="https://www.youtube.com/v/7fbHdrcMsEs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7fbHdrcMsEs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this Lambda World 2019 presentation, Manuel Chakravarty shows how blockchains are a well-suited application area for functional programming techniques.
+
+Full Presentation Description:
+
+Functional programming and blockchains are a match made in heaven! The immutable and reproducible nature of distributed ledgers is mirrored in the semantic foundation of functional programming. Moreover, the concurrent and distributed operation calls for a programming model that carefully controls shared mutable state and side effects. Finally, the high financial stakes often associated with blockchains suggest the need for high assurance software and formal methods.
+
+Nevertheless, most existing blockchains favour an object-oriented, imperative approach in both their implementation as well as in the contract programming layer that provides user-defined custom functionality on top of the basic ledger. On the one hand, this might appear surprising, given that it is widely understood that this style of programming is particularly risky in concurrent and distributed systems. On the other hand, blockchains are still in their infancy and little research has been conducted into associated programming language technology.
+
+In this talk, I will explain the connection between blockchains and functional programming and argue that blockchains are a well-suited application area for functional programming techniques. I will illustrate this with evidence from the research-driven development of the Cardano blockchain and its contract programming platform, Plutus. Cardano and Plutus are implemented in Haskell and Rust, and the development process includes semi-formal specifications together with mechanised theorem proving to formalise key components.
+
+------
+Follow: 
+-https://www.twitter.com/lambda_world 
+-https://www.twitter.com/47deg
+-https://twitter.com/TacticalGrace
+
+Visit: 
+-https://www.47deg.com/events for more details
+-http://www.lambda.world</media:description>
+   <media:community>
+    <media:starRating count="97" average="5.00" min="1" max="5"/>
+    <media:statistics views="3135"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
