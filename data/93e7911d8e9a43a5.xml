@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Grate news everyone!</title>
+	<atom:link href="https://gratenewseveryone.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://gratenewseveryone.wordpress.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 15 Jun 2019 19:30:04 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://gratenewseveryone.files.wordpress.com/2017/07/cropped-farns.jpg?w=32</url>
+	<title>Grate news everyone!</title>
+	<link>https://gratenewseveryone.wordpress.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<cloud domain='gratenewseveryone.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://gratenewseveryone.wordpress.com/osd.xml" title="Grate news everyone!" />
+	<atom:link rel='hub' href='https://gratenewseveryone.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>&#8220;If you deprive the robot of your intuition about cause and effect, you’re never going to communicate meaningfully.&#8221; &#8211; Pearl &#8217;18</title>
+		<link>https://gratenewseveryone.wordpress.com/2018/06/08/if-you-deprive-the-robot-of-your-intuition-about-cause-and-effect-youre-never-going-to-communicate-meaningfully-pearl-18/</link>
+					<comments>https://gratenewseveryone.wordpress.com/2018/06/08/if-you-deprive-the-robot-of-your-intuition-about-cause-and-effect-youre-never-going-to-communicate-meaningfully-pearl-18/#respond</comments>
+		
+		<dc:creator><![CDATA[greatnewseveryone]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 04:40:24 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://gratenewseveryone.wordpress.com/?p=2082</guid>
+
+					<description><![CDATA[In a paper at NIPS &#8217;15, Judea Pearl and co. put together a toy example when all of the standard multi-armed bandit (MAB) algorithms fail. The paper shows that a MAB algorithm can do worse than random guessing, how to overcome the problem in one such case, and raises questions that need to be addressed &#8230; <a href="https://gratenewseveryone.wordpress.com/2018/06/08/if-you-deprive-the-robot-of-your-intuition-about-cause-and-effect-youre-never-going-to-communicate-meaningfully-pearl-18/" class="more-link">Continue reading<span class="screen-reader-text"> "&#8220;If you deprive the robot of your intuition about cause and effect, you’re never going to communicate meaningfully.&#8221; &#8211; Pearl&#160;&#8217;18"</span></a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://papers.nips.cc/paper/5692-bandits-with-unobserved-confounders-a-causal-approach">In a paper at NIPS &#8217;15</a>, Judea Pearl and co. put together a toy example when all of the standard multi-armed bandit (MAB) algorithms fail. The paper shows that a MAB algorithm can do worse than random guessing, how to overcome the problem in one such case, and raises questions that need to be addressed when standard MAB algorithms are used in practice. And as long as we&#8217;re describing human learning as Bayesian updating, the paper is also interesting as a comment on optimizing human decision making.</p>
+<p>But looking at the <a href="https://scholar.google.com/scholar?cites=13525388516378876867&amp;as_sdt=5,48&amp;sciodt=0,48&amp;hl=en">google scholar citations</a>, that paper was only cited 17 times since then (well really 16, 1 paper is in there twice). So what gives?</p>
+<p>The paper is a fairly straightforward extension of the MAB problem. In typical MAB, the goal is to specify a decision making algorithm for selecting a discrete choice (i.e. an arm of a casino slot machine) that minimizes regret over the trials played (i.e. the opportunity cost associated with selecting a suboptimal option). The paper calls out two issues in this setting: (i) when observations used to set the parameters of the algorithm are censored to exclude the high performing contexts, the algorithm can perform worse than random guessing, and (ii) when the context isn&#8217;t accounted for, even with absolutely random exploration the algorithm won&#8217;t end up selecting the optimal choice. Their simple solution is to augment standard Thompson sampling, which usually makes a selection by taking the arm with the highest reward sampled from a distribution modeling belief over arm rewards.  Here, the algorithm instead first samples arm values, then uses the difference between expected rewards from the two arms to scale down the sampled value of the highest arm, and finally plays the arm with the higher value after the adjustment.  Using the difference in expected rewards allows the algorithm to avoid conditioning on context directly, and just compares the two choices given the would-be selection.  In cases where the higher sampled value comes from the lower performing arm, the sampled value will eventually get scaled down to 0 and the arm will be selected less frequently.  Among the unaddressed points are: (i) how to compute this difference when there are more than 2 arms and the relationship between them is unknown, (ii) why is this the right way to include belief about counterfactual performance in the algorithm (are there more direct ways of including it?), and (iii) whether this can be done without Thompson sampling, which can get computationally expensive as the number of arms and contexts gets to be large.</p>
+<p>The authors also argue that unobserved confounding may be more the rule than the exception in practice, citing the familiar example of doctors prescribing more expensive drugs to more affluent patients, which they use to draw a distinction between random sampling of prescription events and random assignment of drugs to patients. In that case, the effect of the drug can&#8217;t be decoupled from the effect of difference in lifestyle without also prescribing the same drug to the less privileged patients.</p>
+<p>As an even more familiar example for those doing data science at tech companies, consider online ad auctions, where censoring of observations can happen through impression win rates. The table below reproduces values in Table 1 from the paper, with win probabilities taking the place of intuition. Let&#8217;s say what we want to do is set bid values for two ads in a campaign by adjusting the budget they need to spend in some defined amount of time. If this is done without considering the combinations of segments and sites when selecting a budget level, both ads could have performance ~(0.15*0.8 + 0.45*0.1), which would end up being significantly worse than bidding correctly on the low win rate / high conversion rate combinations of user segments and sites.</p>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<p style="text-align:justify;"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>bid</b></span></p>
+</td>
+<td style="text-align:justify;" valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>segment</b></span></td>
+<td style="text-align:justify;" valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>site</b></span></td>
+<td style="text-align:justify;" valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>P(imp)</b></span></td>
+<td style="text-align:justify;" valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>P(conversion | imp)</b></span></td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>1</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">1</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://reddit.com"><u>reddit.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.5</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>1</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">2</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://nytimes.com"><u>nytimes.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.4</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>1</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">1</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://nytimes.com"><u>nytimes.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.8</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>1</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">2</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://reddit.com"><u>reddit.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.8</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.2</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">2</span></p>
+</td>
+<td valign="top"><span style="font-size:small;"><a href="http://reddit.com"><span style="color:#000000;font-family:'Helvetica Neue';">reddit.com</span></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.4</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">1</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://nytimes.com"><u>nytimes.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.5</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">2</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://nytimes.com"><u>nytimes.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.8</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.2</span></p>
+</td>
+</tr>
+<tr style="text-align:justify;">
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">1</span></p>
+</td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><a href="http://reddit.com"><u>reddit.com</u><u></u></a></span></td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.8</span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">0.1</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>So given all this &#8211; a relatively simple paper, ample room for improvement, it&#8217;s broad relevance and the costly implications of ignoring ideas present in the same literature for over 20 years, why has so little work picked up on this thread?  Are tech companies successfully avoiding these issues?  And, how are we at the point where <a href="https://www.theatlantic.com/technology/archive/2018/05/machine-learning-is-stuck-on-asking-why/560675/?single_page=true">Pearl appears in a recent Atlantic article as one of machine learning&#8217;s &#8220;sharpest critics&#8221;</a>?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://gratenewseveryone.wordpress.com/2018/06/08/if-you-deprive-the-robot-of-your-intuition-about-cause-and-effect-youre-never-going-to-communicate-meaningfully-pearl-18/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/d08794d88427b48abcf49ba837f157ff?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gratenewseveryone</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Do AIs dream of pwning FF leagues?</title>
+		<link>https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/</link>
+					<comments>https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/#respond</comments>
+		
+		<dc:creator><![CDATA[greatnewseveryone]]></dc:creator>
+		<pubDate>Sun, 10 Dec 2017 03:52:04 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://gratenewseveryone.wordpress.com/?p=1941</guid>
+
+					<description><![CDATA[In a previous post, I looked at how the established value based drafting (VBD) algorithm for picking fantasy football rosters would perform in a league of typical human players.  It turned out that we get different performance depending on if we look at ranks of VBD drafters based (i) on expected preseason player forecasts or &#8230; <a href="https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/" class="more-link">Continue reading<span class="screen-reader-text"> "Do AIs dream of pwning FF&#160;leagues?"</span></a>]]></description>
+										<content:encoded><![CDATA[<p>In a <a href="https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/">previous post</a>, I looked at how the established value based drafting (VBD) algorithm for picking fantasy football rosters would perform in a league of typical human players.  It turned out that we get different performance depending on if we look at ranks of VBD drafters based (i) on expected preseason player forecasts or (ii) on actual points scored by a player that season.  Based on preseason forecasts, we could expect a VBD roster to place 2nd in a 12 player league, while using actual player points, VBD is only expected to rank at 4.68.  That&#8217;s still better than it would do by chance (if VBD came in 6th place), but it&#8217;s really only a slight advantage.  This made me wonder if it would be all that difficult to improve on VBD using methods similar to those used to train AIs to play video/board games.</p>
+<p>The simplest starting point might be taking a value iteration approach similar to the one described in the <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">Mnih et. al Atari games paper from 2013</a>.  A pretty accessible introduction to the topic can be found in chapter 12 of <a href="http://artint.info/2e/html/ArtInt2e.Ch12.S4.html">David Poole and Alan Mackworth&#8217;s free online AI text</a>, but in a nutshell, value iteration learns a game-playing policy by iteratively learning a function, Q(s,a), which captures the value of taking an action, <img src="https://s0.wp.com/latex.php?latex=a&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=a&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=a&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="a" class="latex" />, when in a particular state, <img src="https://s0.wp.com/latex.php?latex=s&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=s&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=s&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="s" class="latex" />.  The function represents both the immediate reward, <img src="https://s0.wp.com/latex.php?latex=r_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=r_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=r_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="r_t" class="latex" /> and the reward you can expect once we end up in, <img src="https://s0.wp.com/latex.php?latex=s_%7Bt%2B1%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=s_%7Bt%2B1%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=s_%7Bt%2B1%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="s_{t+1}" class="latex" />, that taking the action, <img src="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="a_t" class="latex" />, lands us in:</p>
+<p style="text-align:center;"><img src="https://s0.wp.com/latex.php?latex=%5Ctext%7BQ%7D%28s_t%2C+a_t%29+%3D+r_t+%2B+%5Cgamma+%2A+%5Ctext%7Bargmax%7D_%7Ba_%7Bt%2B1%7D%7D%5Ctext%7BQ%7D%28s_%7Bt%2B1%7D%2C+a_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ctext%7BQ%7D%28s_t%2C+a_t%29+%3D+r_t+%2B+%5Cgamma+%2A+%5Ctext%7Bargmax%7D_%7Ba_%7Bt%2B1%7D%7D%5Ctext%7BQ%7D%28s_%7Bt%2B1%7D%2C+a_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ctext%7BQ%7D%28s_t%2C+a_t%29+%3D+r_t+%2B+%5Cgamma+%2A+%5Ctext%7Bargmax%7D_%7Ba_%7Bt%2B1%7D%7D%5Ctext%7BQ%7D%28s_%7Bt%2B1%7D%2C+a_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;text{Q}(s_t, a_t) = r_t + &#92;gamma * &#92;text{argmax}_{a_{t+1}}&#92;text{Q}(s_{t+1}, a_{t+1})" class="latex" /></p>
+<p>where <img src="https://s0.wp.com/latex.php?latex=0%5Cle%5Cgamma%5Cle1&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=0%5Cle%5Cgamma%5Cle1&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=0%5Cle%5Cgamma%5Cle1&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="0&#92;le&#92;gamma&#92;le1" class="latex" /> is a discount, essentially just a tuneable hyperparameter encoding the tradeoff between immediate and long-term rewards.  Doing this makes sense because on the last turn in the game we will act in the way that maximizes immediate reward, and on earlier turns, we will act in a way that gives an acceptable reward while positioning us to act in a way that also returns high rewards in later turns.  Overall, it&#8217;s not that different from <a href="https://courses.cs.washington.edu/courses/cse527/00wi/lectures/lect04.pdf">standard string alignment using dynamic programming</a>.  So, the solution approaches the optimal policy provided that we have enough data to get reliable score estimates in every cell (read state).</p>
+<p>It&#8217;s also similar to the VBD algorithm, where the value function has been tuned through trial and error by humans since it&#8217;s <a href="https://www.footballguys.com/bryantvbd.htm">initial description in 2001</a>.  The immediate reward would be <img src="https://s0.wp.com/latex.php?latex=r_t%3D+%28%5Ctext%7BPts%7D%28a_t%29+-+%5Ctext%7Bmax%7D%28%5Ctext%7BPts%7D%28%5Ctext%7BPos%7D%28a_t%29%2C+t%5Cge100%29%29%29%2Adsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=r_t%3D+%28%5Ctext%7BPts%7D%28a_t%29+-+%5Ctext%7Bmax%7D%28%5Ctext%7BPts%7D%28%5Ctext%7BPos%7D%28a_t%29%2C+t%5Cge100%29%29%29%2Adsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=r_t%3D+%28%5Ctext%7BPts%7D%28a_t%29+-+%5Ctext%7Bmax%7D%28%5Ctext%7BPts%7D%28%5Ctext%7BPos%7D%28a_t%29%2C+t%5Cge100%29%29%29%2Adsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="r_t= (&#92;text{Pts}(a_t) - &#92;text{max}(&#92;text{Pts}(&#92;text{Pos}(a_t), t&#92;ge100)))*dsct_{VBD}" class="latex" />, which captures the difference between a drafted player&#8217;s projected points and the projected points for the best player in the same position after 100 turns, and <img src="https://s0.wp.com/latex.php?latex=dsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=dsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=dsct_%7BVBD%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="dsct_{VBD}" class="latex" /> encodes the decreased value of drafting substitute players in a given position after the starter slots are filled.   VBD doesn&#8217;t <em>directly</em> account for the state this would put us in with regard to players we would draft in subsequent turns, so <img src="https://s0.wp.com/latex.php?latex=%5Cgamma%3D0&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cgamma%3D0&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cgamma%3D0&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;gamma=0" class="latex" />.</p>
+<p>For the Atari games, Q(s,a) was modeled using a neural network trained on gameplay data.  Data was collected using an <img src="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;epsilon" class="latex" />-Greedy policy, and weight updates were done in mini-batches of random contiguous samples of state action rewards.  The algorithm is captured in the following steps:</p>
+<pre>Initialize (gamma, eps) to numbers in [0,1]
+Initialize Q_0(s,a) with some model of expected rewards for actions in different states
+
+while patience:
+  # simulate games 
+  for t in turns:
+    action= sample from uniform distribution on [0,1]
+    if action &lt; eps: 
+      act randomly
+    else:
+      act according to argmax_a Q_i(s_t, a_t)
+
+  # update value function
+  sample (s_t, a_t, r_t, s_t+1) experience tuples from games
+  update NN weights in Q_i to Q_i+1 using:
+    x= [s_t, a_t]
+    y= r_t + gamma * argmax_a Q_i(s_t+1, a_t+1)
+  decay eps, increment i</pre>
+<h3>So getting started&#8230;</h3>
+<p><a href="https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/">The previous post evaluating VBD</a> has already left me with a more or less reasonable simulator of leagues with typical human drafters and players strictly following VBD.  Here, I would just need to extend it with (i) a drafting policy that allows me to act in a way that exploits the value function or explores new roster combinations with some randomly selected actions, (ii) logging experience tuples <img src="https://s0.wp.com/latex.php?latex=%28s_t%2C+a_t%2C+r_t%2C+s_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%28s_t%2C+a_t%2C+r_t%2C+s_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%28s_t%2C+a_t%2C+r_t%2C+s_%7Bt%2B1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="(s_t, a_t, r_t, s_{t+1})" class="latex" />, and (iii) updating the value function by replaying the collected experience.</p>
+<p>Since the draft simulator is already written in R, I decided to start modeling value with two of the bread and butter models readily available, linear regression with fused lasso regularization through glmnet, and gradient boosted trees through xgboost.  Of course, the strength of the Atari paper was the use of the latest and greatest convolutional networks, and maybe it&#8217;s worth eventually building up to that, but for a quick first cut, I wanted to try something simple that works out of the box.</p>
+<p><strong>States, actions, and rewards in FF drafts.  </strong>The state of a roster at some point in the draft, <img src="https://s0.wp.com/latex.php?latex=s_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=s_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=s_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="s_t" class="latex" />, is the current set of players in each position.  Actions, <img src="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="a_t" class="latex" />, are the possible player selections available on that turn.  The problem would be terribly sparse if there was one value of <img src="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="a_t" class="latex" /> for every player in the league on every possible turn.  Instead, we can represent the possible actions, <img src="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=a_t&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="a_t" class="latex" />, with features in Q(s, a) that generalize across players in a given position.  Again, just to start, I used some basic player descriptors, including position, preseason point forecasts, bootstrapped confidence intervals of the preseason forecasts, VBD reward with various baselines, and counts of players already on the roster.</p>
+<p>My goal for this model is to obtain the greatest total points from all starters on the roster, and so the form of the reward would be slightly different than in VBD.  Whereas VBD looks at the player&#8217;s individual points, I am interested in if a player would improve the overall roster score, so here the immediate reward is: <img src="https://s0.wp.com/latex.php?latex=r_t%3D%5Ctext%7BPts%7D%28s_t%29-%5Ctext%7BPts%7D%28s_%7Bt-1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=r_t%3D%5Ctext%7BPts%7D%28s_t%29-%5Ctext%7BPts%7D%28s_%7Bt-1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=r_t%3D%5Ctext%7BPts%7D%28s_t%29-%5Ctext%7BPts%7D%28s_%7Bt-1%7D%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="r_t=&#92;text{Pts}(s_t)-&#92;text{Pts}(s_{t-1})" class="latex" />, where <img src="https://s0.wp.com/latex.php?latex=%5Ctext%7BPts%7D%28s_t%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ctext%7BPts%7D%28s_t%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ctext%7BPts%7D%28s_t%29&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;text{Pts}(s_t)" class="latex" /> returns the total points (realized by end of season or projected preseason) that we would get by selecting the top starters already on the roster.  So for example, if the WR drafted fourth ended up with more season points than WRs drafted earlier, the reward would be the difference in total starter value at the end of the season.</p>
+<p>For simulating drafts, I used <img src="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;epsilon" class="latex" />-Greedy policy.  Greedy selections were made with probability <img src="https://s0.wp.com/latex.php?latex=1-%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=1-%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=1-%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="1-&#92;epsilon" class="latex" /> by ranking players in each position according to Q(s,a), and selecting the player with the overall highest value.  Exploration selections were made with probability <img src="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;epsilon" class="latex" /> by ranking players in each position according to Q(s,a), and selecting the top player from a random position.  To log experience for replays, I logged just the top players in each position on each draft turn.  I simulated drafts in leagues where all opponents were either typical humans or precisely followed VBD recommendations.</p>
+<p>The R scripts to learn and evaluate the Q-value functions are <a href="https://github.com/greatnewseveryone/FF-Moneyball/tree/master/scripts">here</a>.  I used the same three seasons as before (2014-2016) and evaluated performance relative to human and VBD drafters.</p>
+<h3>Results so far.</h3>
+<p>With a slight amount of tuning, we converge pretty quickly, and it is straightforward to find a Q-value function that outperforms VBD in a league of humans on data within the same year.  At the same time, it is easy to fail miserably at generalizing across years, and in some cases, would probably need to invest a bit more TLC just to beat plain old VBD.</p>
+<h4>Learning Curves</h4>
+<p>I first learned a Q function for each season, alternating drafts against all human or all VBD leagues, random sampling draft positions.  To do this I used a fixed <img src="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cepsilon&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;epsilon" class="latex" />-Greedy exploration policy and used xgboost as the value model.  I evaluated performance as the rank of the best starting roster selected using actual points collected by a player that season.  The learning curves below show the rolling median and 0.25-0.75 interval.  In general performance seems to converge after the first few hundred iterations.</p>
+<p><img data-attachment-id="2069" data-permalink="https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/learningcurves/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png" data-orig-size="600,600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="learningCurves" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png?w=600" class="alignnone size-full wp-image-2069" src="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png?w=840" alt="learningCurves.png" srcset="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png 600w, https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png?w=300 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px"   /></p>
+<h4>Comparison with VBD</h4>
+<p>To see if this actually managed to improve over the VBD baseline from the previous post, I looked at how rosters selected using the learned values would rank in a draft in a human league compared with how VBD would rank.  Using the logged experience from the xgboost exploration above, I retrained the value function either using glmnet or xgboost as the model.  At first glance, this seems fine to do since we&#8217;re taking an off-policy learning approach anyway, but can revisit this.  To look at the ability to generalize, I either trained only on the same year that the model would be evaluated on, or I trained using the other two years.</p>
+<p>xgboost always wins within the same year, but across years it only wins in 2016, while VBD is better in the other two years.  Since the action representations include the same contrasts used for VBD, this to me suggests that the weights learned using just two years don&#8217;t always generalize.  Would be interesting to rinse and repeat on like a 20 to 30 year stretch if I could find the data somewhere.</p>
+<p><img data-attachment-id="2066" data-permalink="https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/withinandacrossyears/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png" data-orig-size="600,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="withinAndAcrossYears" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png?w=600" class="alignnone size-full wp-image-2066" src="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png?w=840" alt="withinAndAcrossYears" srcset="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png 600w, https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png?w=300 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px"   /></p>
+<h3></h3>
+<h3><span style="color:#8502e3;">Anyway, that&#8217;s what I got for a first take on doing this  </span></h3>
+<h3>Here&#8217;s a random set of some other things that might eventually be worth trying.</h3>
+<ul>
+<li>better preseason predictions / more years of historical data</li>
+<li>other league combinations
+<ul>
+<li>more adversary combinations</li>
+<li>human drafters with constraints
+<ul>
+<li>qb first</li>
+<li>2 rb first</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>other notions of reward</li>
+<li>bells and whistles
+<ul>
+<li>online updates</li>
+<li>other exploration schemes</li>
+<li>additional features, encodings of draft position, or use a NN</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://gratenewseveryone.wordpress.com/2017/12/10/do-ais-dream-of-pwning-ff-leagues/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/d08794d88427b48abcf49ba837f157ff?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gratenewseveryone</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/12/learningcurves1.png" medium="image">
+			<media:title type="html">learningCurves.png</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/12/withinandacrossyears.png" medium="image">
+			<media:title type="html">withinAndAcrossYears</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>How easy is it to moneyball a fantasy football league draft?</title>
+		<link>https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/</link>
+					<comments>https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/#comments</comments>
+		
+		<dc:creator><![CDATA[greatnewseveryone]]></dc:creator>
+		<pubDate>Sat, 28 Oct 2017 19:15:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://gratenewseveryone.wordpress.com/?p=790</guid>
+
+					<description><![CDATA[The debate I have this ongoing debate with some friends, which also seems to be unresolved for people who have looked at it for much longer than we have.  The question is: can model-based decision-making reliably outperform humans in a fantasy football draft? On the one hand, there&#8217;s a cottage industry of people making forecasts &#8230; <a href="https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/" class="more-link">Continue reading<span class="screen-reader-text"> "How easy is it to moneyball a fantasy football league&#160;draft?"</span></a>]]></description>
+										<content:encoded><![CDATA[<h3>The debate</h3>
+<p>I have this ongoing debate with some friends, which also seems to be unresolved for people who have looked at it for much longer than we have.  The question is: can model-based decision-making reliably outperform humans in a fantasy football draft?</p>
+<p>On the one hand, there&#8217;s a cottage industry of people making forecasts and developing strategies for how to order draft picks.  For player values, the usual suspects like ESPN, CBS, NFL, Yahoo Sports, and etc., produce predictions of expected player stats for the season; and there are also groups like <a href="http://fantasyfootballanalytics.net/">fantasyfootballanalytics.net</a> for example, who produce their own ensembled predictions, all with convenient R libraries and years tuning through of trial and error to get things working smoothly.  For drafting the players, there&#8217;s a widely referenced value based drafting (VBD) strategy, first described in Fantasy Forecast Magazine in 2001, and then updated in <a href="http://www.footballguys.com/05vbdrevisited.htm">this write-up by the footballguys in 2005</a>.  There&#8217;s also <a href="https://harvardsportsanalysis.files.wordpress.com/2012/04/fantasyfootballdraftanalysis1.pdf">this surprisingly frequently referenced comparison of bidding policies from 2012</a>, but I won&#8217;t get there in this post because the scope of our question is limited to snake drafts where pick order matters, but all players cost the same.</p>
+<p>On the other hand, player value predictions aren&#8217;t perfect.  For example, this <a href="https://fivethirtyeight.com/datalab/how-good-are-we-at-predicting-the-best-fantasy-football-running-backs/">fivethirtyeight article</a> points out that ESPN fantasy projections for top running backs before the season overpredict performance, such that the top 12 players are in general ranked 2-3x lower in the actual season.  There are also criticisms of VBD, as for example in <a href="http://www.espn.com/fantasy/football/ffl/story?page=nfldk2k10vbd">this post on ESPN</a>, saying the resulting teams &#8220;smell funny.&#8221;  And then there are posts like <a href="https://www.reddit.com/r/fantasyfootball/comments/72k1r8/worst_possible_team_week_3/">this one on reddit</a>, which managed to identify a combination of 9 reasonable players that underperformed by 80 points on some random week, underlining how noisy the player performance forecasts can be, albeit without saying how many combinations were considered to find this one bad team, or how many teams would have instead overperformed by a similar margin.</p>
+<p>So to try to settle the debate, I tested if a vanilla VBD drafting policy could reliably produce rosters that come out on top in a league of typical fantasy football players. To do this, I pulled average player draft positions across thousands of fantasy leagues collected in <a href="http://www03.myfantasyleague.com/2016/adp?COUNT=500&amp;POS=*&amp;ROOKIES=0&amp;INJURED=0&amp;CUTOFF=5&amp;FRANCHISES=12&amp;IS_PPR=1&amp;IS_KEEPER=0&amp;IS_MOCK=0&amp;TIME=">myfantasyleague.com</a>, and used these as input parameters to simulate leagues of 11 human drafters to compete with 1 VBD drafter. I measured performance by evaluating the actual fantasy points collected by the best set of starters on each team and then finding the rank of the VBD drafter.</p>
+<p>&nbsp;</p>
+<h3>TL;DR</h3>
+<p>In general, VBD gives a slight edge, but it could be an occasional slam-dunk when players drafted early by humans turn out to be lemons.</p>
+<h3></h3>
+<h3>Results</h3>
+<p>I simulated drafts from three seasons (2014-2016), with the VBD drafter placed in any of the 12 positions. Across all leagues, VBD rosters had a mean rank of 4.68 when evaluating fantasy points observed at the end of the season. This is significantly higher than a rank of 6 that we would expect if VBD drafters were indistinguishable from typical human drafters (Chi. Sq. p.val=2.2e-16). Unfortunately, that is also substantially worse than how well we would have expected to VBD rosters to rank based on preseason projections, for which the mean rank is 2.05.  So VBD does tip the scales slightly, but it isn’t exactly a silver bullet.</p>
+<p>Interestingly there was a fair amount of variability between how VBD performed in the three years. Both expected ranks and observed ranks were noticeably higher in 2015 than 2014 and 2016.</p>
+<p><img data-attachment-id="1930" data-permalink="https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/vbd_rank_cdf-2/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png" data-orig-size="600,600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="VBD_rank_CDF" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png?w=600" class=" size-full wp-image-1930 aligncenter" src="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png?w=840" alt="VBD_rank_CDF" srcset="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png 600w, https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png?w=300 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px"   /></p>
+<p>I&#8217;m not sure how to explain this yearly trend.  The projections were downloaded from <a href="http://apps.fantasyfootballanalytics.net/">fantasyfootballanalytics.net</a> separately for the three years, so maybe there is an issue with the data.  Looking at the quality of preseason forecasts though, the Pearson correlation and the mean absolute error (MAE) were not dramatically different in 2015 than in other years.  So maybe forecast quality should be evaluated differently, or there might be a better explanation.</p>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><b>Position</b></td>
+<td valign="top"><b>Season</b></td>
+<td valign="top"><b>Pearson correlation</b></td>
+<td valign="top"><b>Mean Absolute Error</b></td>
+</tr>
+<tr>
+<td valign="top"><b>QB</b></td>
+<td valign="top">
+<p align="right">2014</p>
+</td>
+<td valign="top">
+<p align="right">0.7124</p>
+</td>
+<td valign="top">
+<p align="right">60.4863</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>QB</b></td>
+<td valign="top">
+<p align="right">2015</p>
+</td>
+<td valign="top">
+<p align="right"><strong>0.5562</strong></p>
+</td>
+<td valign="top">
+<p align="right"><strong>68.4075</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>QB</b></td>
+<td valign="top">
+<p align="right">2016</p>
+</td>
+<td valign="top">
+<p align="right">0.6117</p>
+</td>
+<td valign="top">
+<p align="right">62.9405</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>RB</b></td>
+<td valign="top">
+<p align="right">2014</p>
+</td>
+<td valign="top">
+<p align="right">0.4459</p>
+</td>
+<td valign="top">
+<p align="right">56.5074</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>RB</b></td>
+<td valign="top">
+<p align="right">2015</p>
+</td>
+<td valign="top">
+<p align="right"><strong>0.5165</strong></p>
+</td>
+<td valign="top">
+<p align="right"><strong>52.4999</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>RB</b></td>
+<td valign="top">
+<p align="right">2016</p>
+</td>
+<td valign="top">
+<p align="right">0.5724</p>
+</td>
+<td valign="top">
+<p align="right">53.1948</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>TE</b></td>
+<td valign="top">
+<p align="right">2014</p>
+</td>
+<td valign="top">
+<p align="right">0.4884</p>
+</td>
+<td valign="top">
+<p align="right">43.3151</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>TE</b></td>
+<td valign="top">
+<p align="right">2015</p>
+</td>
+<td valign="top">
+<p align="right"><strong>0.6593</strong></p>
+</td>
+<td valign="top">
+<p align="right"><strong>32.0161</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>TE</b></td>
+<td valign="top">
+<p align="right">2016</p>
+</td>
+<td valign="top">
+<p align="right">0.6001</p>
+</td>
+<td valign="top">
+<p align="right">35.3129</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>WR</b></td>
+<td valign="top">
+<p align="right">2014</p>
+</td>
+<td valign="top">
+<p align="right">0.6390</p>
+</td>
+<td valign="top">
+<p align="right">45.4527</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>WR</b></td>
+<td valign="top">
+<p align="right">2015</p>
+</td>
+<td valign="top">
+<p align="right"><strong>0.6362</strong></p>
+</td>
+<td valign="top">
+<p align="right"><strong>48.7875</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>WR</b></td>
+<td valign="top">
+<p align="right">2016</p>
+</td>
+<td valign="top">
+<p align="right">0.5236</p>
+</td>
+<td valign="top">
+<p align="right">48.1142</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>There was also a relationship with VBD draft turn, performing better with turns in the middle of the rotation.  What stood out in 2015 is the first two draft positions resulted in some of the worst outcomes and late picks didn&#8217;t hurt performance like they did in other years.  But, that doesn&#8217;t exactly point to what differentiated that year, since early picks also performed poorly in 2014.</p>
+<p style="padding-left:30px;"><img data-attachment-id="1931" data-permalink="https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/obsrank_by_pos-2/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png" data-orig-size="600,900" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="obsrank_by_pos" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png?w=200" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png?w=600" class="alignnone size-full wp-image-1931" src="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png?w=840" alt="obsrank_by_pos" srcset="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png 600w, https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png?w=100 100w, https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png?w=200 200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px"   /></p>
+<p>Another explanation might be that in 2015 there were some obvious top picks in the first two round that ended up bombing.  To get a sense if this is the case, we can look at the correlation between expected &#8211; observed points and draft position for each year.  A correlation of 0 would indicate that across draft positions there wasn&#8217;t a trend with underperformance.  A negative correlation might indicate that players drafted early underperformed to a greater extent than players drafted later.</p>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>year</b></span></td>
+<td valign="top"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>correlation</b></span></td>
+</tr>
+<tr>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2014</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">-0.236</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2015</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">-0.318</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;"><b>2016</b></span></p>
+</td>
+<td valign="top">
+<p align="right"><span style="color:#000000;font-family:'Helvetica Neue';font-size:small;">-0.258</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Turns out that this was indeed the case.  Players drafted early in real fantasy football leagues underperformed more in 2015 than other years.  The biggest offender that year was Le&#8217;Veon Bell, who <a href="http://www.nfl.com/news/story/0ap3000000569888/article/leveon-bell-suffers-knee-injury-in-steelers-loss">injured his knee in November</a>.  But in all, 8 of the first 24 players drafted (first 2 rounds) underperformed by more than 100 points, compared to 2 and 4 players in the other two years.</p>
+<p>&nbsp;</p>
+<p><strong><span style="color:#800080;">Ok, so I wouldn&#8217;t exactly say the case is closed here, but at this point, I&#8217;d like to submit this as a first argument in favor of model-based drafting being superior.</span></strong></p>
+<h3></h3>
+<h3>And here are the deets, in case anyone wants to know more</h3>
+<p><strong>League overview.</strong>  I simulated a standard snake draft in a league with 12 teams.  One team drafts players with a VBD-like policy, the remaining 11 have a simulated baseline policy.  In all, I simulated 100 drafts for each year and each possible VBD draft position.</p>
+<p><strong>Evaluation.</strong> After the drafts, I identified the best set of starters on each team using actually observed fantasy points for each player and then compared how the VBD rosters rank in each league.  In other words, assuming the teams are fixed after the draft, and the one best roster is selected by some oracle, how well does a VBD roster perform relative to baseline rosters?  Another artifact is that I&#8217;m not considering defense, special teams, and kickers because people <a href="http://www.espn.com/fantasy/football/ffl/story?page=nfldk2k9dstpreview">don&#8217;t generally draft them meaningfully early</a>, and <a href="https://www.pro-football-reference.com/articles/defcc.htm">their performance doesn&#8217;t correlate well year to year</a>.</p>
+<p><strong>Simulated human drafter.</strong>  On each baseline draft turn, for every undrafted player, I sample from a Poisson distribution with lambda set to that player&#8217;s mean draft position, and then take the lowest sampled value, resolving ties by choosing the player with the lower mean draft position.  This is done without picking backup players until all starters are selected.</p>
+<table width="529" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><b>position</b></td>
+<td valign="top"><b>num starters in position</b></td>
+<td valign="top"><b>max players in position</b></td>
+</tr>
+<tr>
+<td valign="top"><b>QB</b></td>
+<td valign="top">
+<p align="right">1</p>
+</td>
+<td valign="top">
+<p align="right">3</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>WR</b></td>
+<td valign="top">
+<p align="right">2</p>
+</td>
+<td valign="top">
+<p align="right">5</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>RB</b></td>
+<td valign="top">
+<p align="right">2</p>
+</td>
+<td valign="top">
+<p align="right">5</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>TE</b></td>
+<td valign="top">
+<p align="right">1</p>
+</td>
+<td valign="top">
+<p align="right">3</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>FLEX (WR/TE/RB)</b></td>
+<td valign="top">
+<p align="right">1</p>
+</td>
+<td valign="top"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>VBD  policy.  </strong>Here I&#8217;m just going to follow a vanilla version of what&#8217;s in the <a href="http://www.footballguys.com/05vbdrevisited.htm">footballguys&#8217; VBD description</a>.  On each turn, a player is drafted by taking top player in the position with the greatest discounted incremental value given by:</p>
+<p><img src="https://s0.wp.com/latex.php?latex=%5Ctext%7Bargmax%7D_%7Bpos%7D+%5Ctext%7B+%7D+%28%7Bvalue%7D_%7Bpos%2C+rank%3D1%7D+-+%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D%29%2Adiscount&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Ctext%7Bargmax%7D_%7Bpos%7D+%5Ctext%7B+%7D+%28%7Bvalue%7D_%7Bpos%2C+rank%3D1%7D+-+%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D%29%2Adiscount&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Ctext%7Bargmax%7D_%7Bpos%7D+%5Ctext%7B+%7D+%28%7Bvalue%7D_%7Bpos%2C+rank%3D1%7D+-+%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D%29%2Adiscount&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;text{argmax}_{pos} &#92;text{ } ({value}_{pos, rank=1} - {value}_{pos, rank=baseline})*discount" class="latex" /></p>
+<p>where <img src="https://s0.wp.com/latex.php?latex=%7Bdiscount%7D%3D+1+-+%28+n_%7Bpos+%5Ctext%7B+%7D+already+%5Ctext%7B+%7D+on+%5Ctext%7B+%7D+team%7D+%2B1+-+n_%7Bstarters%5Ctext%7B+%7D+in%5Ctext%7B+%7D+pos%7D%29%2A.2&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bdiscount%7D%3D+1+-+%28+n_%7Bpos+%5Ctext%7B+%7D+already+%5Ctext%7B+%7D+on+%5Ctext%7B+%7D+team%7D+%2B1+-+n_%7Bstarters%5Ctext%7B+%7D+in%5Ctext%7B+%7D+pos%7D%29%2A.2&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bdiscount%7D%3D+1+-+%28+n_%7Bpos+%5Ctext%7B+%7D+already+%5Ctext%7B+%7D+on+%5Ctext%7B+%7D+team%7D+%2B1+-+n_%7Bstarters%5Ctext%7B+%7D+in%5Ctext%7B+%7D+pos%7D%29%2A.2&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{discount}= 1 - ( n_{pos &#92;text{ } already &#92;text{ } on &#92;text{ } team} +1 - n_{starters&#92;text{ } in&#92;text{ } pos})*.2" class="latex" /> and <img src="https://s0.wp.com/latex.php?latex=%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bvalue%7D_%7Bpos%2C+rank%3Dbaseline%7D&#038;bg=ffffff&#038;fg=1a1a1a&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{value}_{pos, rank=baseline}" class="latex" /> is the points value of the top player in the position after the first 100 picks.</p>
+<p>Though there is VBD rule 7: &#8220;Know When to Deviate from VBD Principles&#8221;, and in practice doing this may give a team without a quarterback for example.  So to be fair, we&#8217;ll also apply the same policy of not drafting backup players until there is a starter in every position.</p>
+<p><b>The data and le code.  </b>I downloaded the yearly fantasy projections from <a href="http://apps.fantasyfootballanalytics.net/">the projections tool here</a>, the player rankings from <a href="http://www03.myfantasyleague.com/2016/adp?COUNT=500&amp;POS=*&amp;ROOKIES=0&amp;INJURED=0&amp;CUTOFF=5&amp;FRANCHISES=12&amp;IS_PPR=1&amp;IS_KEEPER=0&amp;IS_MOCK=0&amp;TIME=">myfantasyleague.com</a>, and actual player performance from the NFL using <a href="https://github.com/maksimhorowitz/nflscrapR">nflscrapR</a>.  After a bit of munging, I joined the three years from each source into the <a href="https://github.com/greatnewseveryone/FF-Moneyball/blob/master/data/joinedDat_withConf.csv">final dataset here</a>.  The draft simulation and results were obtained using <a href="https://github.com/greatnewseveryone/FF-Moneyball/blob/master/scripts/evaluate_VBD.r">this script</a>.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://gratenewseveryone.wordpress.com/2017/10/28/how-easy-is-it-to-moneyball-a-fantasy-football-league-draft/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/d08794d88427b48abcf49ba837f157ff?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gratenewseveryone</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/10/vbd_rank_cdf.png" medium="image">
+			<media:title type="html">VBD_rank_CDF</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/10/obsrank_by_pos.png" medium="image">
+			<media:title type="html">obsrank_by_pos</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>He grins like a Cheshire cat; said of anyone who shows his teeth and gums in laughing</title>
+		<link>https://gratenewseveryone.wordpress.com/2017/08/22/he-grins-like-a-cheshire-cat-said-of-any-one-who-shows-his-teeth-and-gums-in-laughing/</link>
+					<comments>https://gratenewseveryone.wordpress.com/2017/08/22/he-grins-like-a-cheshire-cat-said-of-any-one-who-shows-his-teeth-and-gums-in-laughing/#respond</comments>
+		
+		<dc:creator><![CDATA[greatnewseveryone]]></dc:creator>
+		<pubDate>Tue, 22 Aug 2017 01:21:09 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://gratenewseveryone.wordpress.com/?p=676</guid>
+
+					<description><![CDATA[So you know the Cheshire cat, yeah?  Ever wonder what it&#8217;s point is?  Like, it turns up in a number of places, but does it foreshadow or emphasize plot turns?  Might it signify coming improvements or declines? In my last post I confirmed that plot arcs from smoothed word sentiments seem to provide sensible representations of &#8230; <a href="https://gratenewseveryone.wordpress.com/2017/08/22/he-grins-like-a-cheshire-cat-said-of-any-one-who-shows-his-teeth-and-gums-in-laughing/" class="more-link">Continue reading<span class="screen-reader-text"> "He grins like a Cheshire cat; said of anyone who shows his teeth and gums in&#160;laughing"</span></a>]]></description>
+										<content:encoded><![CDATA[<p>So you know the Cheshire cat, yeah?  Ever wonder what it&#8217;s point is?  Like, it turns up in a number of places, but does it foreshadow or emphasize plot turns?  Might it signify coming improvements or declines?</p>
+<p>In my last post I confirmed that <a href="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/">plot arcs from smoothed word sentiments seem to provide sensible representations of the plot progressions</a>.  Here, I&#8217;d like to try answering the questions about the Cheshire cat using it&#8217;s appearances within those narrative arcs.</p>
+<p>First, in which texts does a Cheshire cat turn up?</p>
+<p>*cracks knuckles*</p>
+<p>After a bit of tinkering and a bit of a wait, I was able to pull out the Proj. Gutenberg index, parse out the book ids, construct urls for text files, and obtain complete versions of the 136 texts containing the phrase &#8220;Cheshire cat&#8221; or &#8220;Cheshire puss&#8221;.  <a href="https://github.com/greatnewseveryone/CheshireCat/blob/master/workspace/getCats.py">Code in case you feel like tinkering on something similar. </a></p>
+<p>Now to find the plot twists.  This is familiar territory for anyone used to looking at fluctuations in stock price or detecting chemical signals in measurements from NMR/MS/etc., and in deed, there&#8217;s a variety of R packages that already do this off the shelf.  For no reason in particular, I went with <a href="https://cran.r-project.org/web/packages/quantmod/quantmod.pdf">quantmod</a> this time around.</p>
+<p>So can we actually detect the plot turns and confirm that the cat appears somewhere meaningful in &#8220;Alice&#8217;s Adventures in Wonderland&#8221;, which first popularized the character?  I loaded the sentences and assigned sentiments as before.  Then I identified Cheshire cat appearances by looking for sentences containing any of &#8220;Cheshire cat&#8221;, &#8221; Cat &#8220;, or &#8220;Cheshire puss&#8221;, which should cover most true appearances, and omit the broader discussion of cats in the beginning.  <a href="https://github.com/greatnewseveryone/CheshireCat/blob/master/workspace/cheshireCat_end2end_clean.r">Again code is here. </a></p>
+<p><img data-attachment-id="594" data-permalink="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/alicesadventures/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png" data-orig-size="480,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="alicesAdventures" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png?w=480" class="alignnone size-full wp-image-594" src="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png?w=840" alt="alicesAdventures" srcset="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png 480w, https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png?w=300 300w" sizes="(max-width: 480px) 85vw, 480px"   /></p>
+<p>In this case, the Cheshire cat first turns up just before the third trough in the plot progression, as Alice enters the Duchess&#8217; house and finds the cat grinning on the hearth. Things deteriorate a bit as the Duchess asks the cook to butcher Alice, but the sentiment recovers when the focus shifts to abusive parenting.  The passage is below, the turning point is in bold.</p>
+<p>======================================================</p>
+<p>I didnt know that Cheshire cats always grinned; in fact, I didnt know<br />
+that cats COULD grin.</p>
+<p>They all can, said the Duchess; and most of em do.</p>
+<p>I dont know of any that do, Alice said very politely, feeling quite<br />
+pleased to have got into a conversation.</p>
+<p>You dont know much, said the Duchess; and thats a fact.</p>
+<p>Alice did not at all like the tone of this remark, and thought it would<br />
+be as well to introduce some other subject of conversation. While she<br />
+was trying to fix on one, the cook took the cauldron of soup off the<br />
+fire, and at once set to work throwing everything within her reach at<br />
+the Duchess and the baby&#8211;the fire-irons came first; then followed a<br />
+shower of saucepans, plates, and dishes. The Duchess took no notice of<br />
+them even when they hit her; and the baby was howling so much already,<br />
+that it was quite impossible to say whether the blows hurt it or not.</p>
+<p>Oh, PLEASE mind what youre doing! cried Alice, jumping up and down in<br />
+an agony of terror. Oh, there goes his PRECIOUS nose; as an unusually<br />
+large saucepan flew close by it, and very nearly carried it off.</p>
+<p>If everybody minded their own business, the Duchess said in a hoarse<br />
+growl, the world would go round a deal faster than it does.</p>
+<p>Which would NOT be an advantage, said Alice, who felt very glad to get<br />
+an opportunity of showing off a little of her knowledge. Just think of<br />
+what work it would make with the day and night! You see the earth takes<br />
+twenty-four hours to turn round on its axis&#8211;</p>
+<p><strong>Talking of axes, said the Duchess, chop off her head!</strong></p>
+<p><strong>Alice glanced rather anxiously at the cook, to see if she meant to take</strong><br />
+<strong>the hint; but the cook was busily stirring the soup, and seemed not to</strong><br />
+<strong>be listening, so she went on again: Twenty-four hours, I THINK; or is</strong><br />
+<strong>it twelve? I&#8211;</strong></p>
+<p>Oh, dont bother ME, said the Duchess; I never could abide figures!<br />
+And with that she began nursing her child again, singing a sort of<br />
+lullaby to it as she did so, and giving it a violent shake at the end of<br />
+every line:</p>
+<p>Speak roughly to your little boy,<br />
+And beat him when he sneezes:<br />
+He only does it to annoy,<br />
+Because he knows it teases.</p>
+<p>CHORUS.</p>
+<p>======================================================</p>
+<p>&nbsp;</p>
+<p>May be the whole situation could&#8217;ve been avoided if Alice didn&#8217;t feel the need to recover from not knowing that Cheshire cats grin?  Who knows?  But, as long as we can agree that in terms of sentiment, being raised by an abusive noble is just a first world problem relative to having a murder request to your name, then things again mostly seem to check out.</p>
+<p>Or may be I&#8217;m just cherry-picking?  After all, not every Cheshire cat appearance is near a plot turn.  But neither is it reasonable to expect a random recurring character to only turn up at meaningful plot points.  So for now, I&#8217;ll just focus on the one cat appearance closest to a critical point in each text and distinguish among the types of critical points that are closest.  As a baseline, we can use the distribution of nearest peak types for all sentences that didn&#8217;t mention the Cheshire cat in the texts which contained it.  Ran the numbers, counts below.</p>
+<table width="300" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><b>Critical point position</b></td>
+<td valign="top"><b>Critical point type</b></td>
+<td valign="top"><b>No cat  (freq.)</b></td>
+<td valign="top"><b>Cat  </b><b>(freq.)</b></td>
+</tr>
+<tr>
+<td valign="top">after</td>
+<td valign="top">peak</td>
+<td valign="top">
+<p align="right">171316  (0.221)</p>
+</td>
+<td valign="top">
+<p align="right">28  (0.201)</p>
+</td>
+</tr>
+<tr>
+<td valign="top">after</td>
+<td valign="top">trough</td>
+<td valign="top">
+<p align="right">224358  (0.299)</p>
+</td>
+<td valign="top">
+<p align="right">50  (0.368)</p>
+</td>
+</tr>
+<tr>
+<td valign="top">before</td>
+<td valign="top">peak</td>
+<td valign="top">
+<p align="right">148931  (0.192)</p>
+</td>
+<td valign="top">
+<p align="right">24  (0.176)</p>
+</td>
+</tr>
+<tr>
+<td valign="top">before</td>
+<td valign="top">trough</td>
+<td valign="top">
+<p align="right">232068  (0.289)</p>
+</td>
+<td valign="top">
+<p align="right">34  (0.250)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>There seems to be some enrichment of cat appearances before peak troughs (where the trough appears after the cat in the table).  We can ask if these numbers are greater than what we would expect by chance in a variety of ways.  I should probably put together a blooper reel of things I tried that didn&#8217;t work in a future post, but for now I&#8217;ll stick with one simple thing that did.</p>
+<p>Avoiding the need for any of the assumptions of Chi-squared tests, I drew 10,000 samples from a multinomial distribution with parameters given by the frequencies in the &#8220;no cat&#8221; baseline column, and with each sample containing the same total number of counts as the cat column.  The probabilities of observing at least as many cat placements as the amount we did observe are below.</p>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><strong>Critical point position</strong></td>
+<td valign="top"><strong>Critical point type</strong></td>
+<td valign="top"><strong>Prob</strong></td>
+</tr>
+<tr>
+<td valign="top">After</td>
+<td valign="top">Both</td>
+<td valign="top">
+<p align="right">0.0523</p>
+</td>
+</tr>
+<tr>
+<td valign="top">Both</td>
+<td valign="top">Trough</td>
+<td valign="top">
+<p align="right">0.2155</p>
+</td>
+</tr>
+<tr>
+<td valign="top">After</td>
+<td valign="top">Trough</td>
+<td valign="top">
+<p align="right">0.0167</p>
+</td>
+</tr>
+<tr>
+<td valign="top">Before</td>
+<td valign="top">Trough</td>
+<td valign="top">
+<p align="right">0.8753</p>
+</td>
+</tr>
+<tr>
+<td valign="top">After</td>
+<td valign="top">Peak</td>
+<td valign="top">
+<p align="right">0.6127</p>
+</td>
+</tr>
+<tr>
+<td valign="top">Before</td>
+<td valign="top">Peak</td>
+<td valign="top">
+<p align="right">0.6240</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sure enough, it&#8217;s pretty unlikely to have observed this many Cheshire cat appearances before plot troughs purely by chance.</p>
+<p>And so long story short, Cheshire cats do seem to have a preference for turning up just as things start to get better.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://gratenewseveryone.wordpress.com/2017/08/22/he-grins-like-a-cheshire-cat-said-of-any-one-who-shows-his-teeth-and-gums-in-laughing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://1.gravatar.com/avatar/d08794d88427b48abcf49ba837f157ff?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gratenewseveryone</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/08/alicesadventures7.png" medium="image">
+			<media:title type="html">alicesAdventures</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Cinderella science</title>
+		<link>https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/</link>
+					<comments>https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/#respond</comments>
+		
+		<dc:creator><![CDATA[greatnewseveryone]]></dc:creator>
+		<pubDate>Sat, 05 Aug 2017 04:09:05 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://gratenewseveryone.wordpress.com/?p=4</guid>
+
+					<description><![CDATA[For my first act, two topics related to sequential data that should come up if you search google for &#8220;Cinderella science&#8221;, which you might do if you&#8217;re ever looking for stories of uncredited hard work that ultimately worked out (if only with the help of a fairy godmother). One is just a reference to something &#8230; <a href="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/" class="more-link">Continue reading<span class="screen-reader-text"> "Cinderella science"</span></a>]]></description>
+										<content:encoded><![CDATA[<p style="text-align:justify;">For my first act, two topics related to sequential data that should come up if you search google for &#8220;Cinderella science&#8221;, which you might do if you&#8217;re ever looking for stories of uncredited hard work that ultimately worked out (if only with the help of a fairy godmother).</p>
+<p style="text-align:justify;">One is just a reference to something I feel more people should know about and is the source of the above photo.  The photo is of Charles Keeling, the scientist credited with setting up CO2 monitoring in Mauna Loa, Hawaii, which he did in the 1960&#8217;s, before it was cool.  I found his story in <a href="http://www.nature.com/nature/journal/v450/n7171/full/450789a.html?foxtrotcallback=true">this commentary in Nature</a> about the ups and downs of the thankless work involved in getting everything going.  Understandably, it was a hard sell initially, as it doesn&#8217;t test a sexy falsifiable hypothesis.  But in the end, it was the years of data from Keeling&#8217;s initial work that provided the evidence for the significant gradual changes in our atmospheric composition.  Kind of makes me wonder whether we really need to have the same conversation again in the context of motivating exploratory space research?</p>
+<p style="text-align:justify;">For the uninitiated, the resulting time series is gorgeous.</p>
+<p style="text-align:justify;"><img data-attachment-id="679" data-permalink="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/monaloa/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg" data-orig-size="515,372" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="monaloa" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg?w=515" class="alignnone size-full wp-image-679" src="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg?w=840" alt="monaloa" srcset="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg 515w, https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg?w=300 300w" sizes="(max-width: 515px) 85vw, 515px"   /></p>
+<p>&nbsp;</p>
+<p style="text-align:justify;">The second topic I wanted to mention probably doesn&#8217;t come up in the top google search results, but I think it ought to.  There&#8217;s <a href="https://arxiv.org/abs/1606.07772">this paper</a> on the analysis of plot progressions in <a href="https://www.gutenberg.org/">Project Gutenberg</a>&#8216;s fiction collection claiming that there are just 6 fundamental plot types.  Seemingly everywhere the paper is mentioned, <a href="https://www.theatlantic.com/technology/archive/2016/07/the-six-main-arcs-in-storytelling-identified-by-a-computer/490733/">The Atlantic</a>, <a href="https://www.technologyreview.com/s/601848/data-mining-reveals-the-six-basic-emotional-arcs-of-storytelling/">MIT Technology Review</a>, <a href="http://nymag.com/scienceofus/2016/11/stories-have-six-emotional-shapes.html">New York Magazine</a>, etc., it comes with <a href="https://www.youtube.com/watch?v=oP3c1h8v2ZQ&amp;feature=youtu.be">this snippet from a Kurt Vonnegut lecture</a>, where Vonnegut anticipates similar results decades earlier.  But what&#8217;s a bit unsatisfying for me, is that no one really validates the plot arcs that Vonnegut didn&#8217;t even need a model to recognize.</p>
+<p style="text-align:justify;">I set out to reproduce the last of the arcs that Vonnegut describes &#8211; the Cinderella narrative (top right in the four plots below).</p>
+<p><img data-attachment-id="680" data-permalink="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/vonnegut/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg" data-orig-size="655,495" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="vonnegut" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg?w=655" class="alignnone size-full wp-image-680" src="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg?w=840" alt="vonnegut" srcset="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg 655w, https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg?w=300 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px"   /></p>
+<p style="text-align:justify;">So what does it take to distill this expected profile from the text?  I started with Mathew Jockers <a href="https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html">&#8220;syuzhet&#8221; R package</a> (which incidentally his blog <a href="http://www.matthewjockers.net/2014/06/05/a-novel-method-for-detecting-plot/">also links the Vonnegut lecture</a>).  The package provides pretty much everything we need: functions to parse a text into sentences, parse those sentences into word tokens, map tokens to sentiment values from various sources, then pool (read average/max) the sentiments at the sentence level, and finally obtain a smoothed narrative profile.  After downloading &#8220;CINDERELLA; Or, THE LITTLE GLASS SLIPPER.&#8221; from Proj. Gutenberg and copy-pasting a few lines from the syuzhet vignette, can confirm without breaking a sweat, things for the most part check out.</p>
+<pre>library(syuzhet)
+text &lt;- get_text_as_string("./cinderella.txt")
+s_v &lt;- get_sentences(text)
+s_v_sentiment &lt;- get_sentiment(s_v)
+s_v_sentiment_quantiles &lt;- sapply(s_v_sentiment, function(i) sum(s_v_sentiment &lt; i)/length(s_v_sentiment))
+smoothed &lt;- lowess(s_v_sentiment_quantiles, f = .25)
+smoothed$y_scaled &lt;- (smoothed$y-median(smoothed$y))/diff(range(smoothed$y))
+plot(smoothed$y_scaled~smoothed$x/max(smoothed$x), 
+ type= 'l', lwd= 2, col='purple',
+ xlab= 'Narrative Time', 
+ ylab= 'Emotional Valence')
+abline(h=0, lty=2)</pre>
+<p style="text-align:justify;">Tada, stamp collected!!</p>
+<p style="text-align:justify;"><img data-attachment-id="369" data-permalink="https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/cinderella/" data-orig-file="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png" data-orig-size="480,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cinderella" data-image-description="" data-image-caption="" data-medium-file="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png?w=300" data-large-file="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png?w=480" class="alignnone size-full wp-image-369" src="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png?w=840" alt="cinderella" srcset="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png 480w, https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png?w=150 150w, https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png?w=300 300w" sizes="(max-width: 480px) 85vw, 480px"   /></p>
+<p style="text-align:justify;">Kind of surprising that assigning sentiments to individual words from a manually curated dataset can produce these results, but I guess sometimes smoothing sequential data can work magic.</p>
+<p style="text-align:justify;">What might be the global warming equivalent in the world of these narrative arcs?</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://gratenewseveryone.wordpress.com/2017/08/05/sentiment-plot-arcs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:thumbnail url="https://gratenewseveryone.files.wordpress.com/2017/08/cinderellascience.jpg" />
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/08/cinderellascience.jpg" medium="image">
+			<media:title type="html">cinderellascience</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/d08794d88427b48abcf49ba837f157ff?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gratenewseveryone</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/08/monaloa.jpg" medium="image">
+			<media:title type="html">monaloa</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/08/vonnegut.jpg" medium="image">
+			<media:title type="html">vonnegut</media:title>
+		</media:content>
+
+		<media:content url="https://gratenewseveryone.files.wordpress.com/2017/08/cinderella2.png" medium="image">
+			<media:title type="html">cinderella</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>
