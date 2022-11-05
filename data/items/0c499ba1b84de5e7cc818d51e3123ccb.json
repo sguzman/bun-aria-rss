@@ -1,0 +1,7 @@
+{
+  "title": "Faster Implicit Matrix Factorization",
+  "link": "",
+  "updated": "2016-12-12T00:00:00-08:00",
+  "id": "http://www.benfrederickson.com/fast-implicit-matrix-factorization/",
+  "content": "\n        \n            <img src=\"http://www.benfrederickson.com/images/distancemetrics/linearcg.gif\" width=\"100%\" style=\"max-width:500px\">\n        \n        <p>As part of my post on <a href=\"/matrix-factorization/\">matrix factorization</a>, I released a fast Python\nversion of the Implicit Alternating Least Squares matrix factorization algorithm that is\nfrequently used to recommend items. While this <a href=\"http://github.com/benfred/implicit\">matrix factorization code</a> \nwas already <a href=\"https://github.com/benfred/implicit/blob/master/examples/benchmark.py\">extremely fast</a>, it still \nwasn’t implementing the fastest algorithm I know about for doing this matrix factorization.</p>\n\n<p>This post is just a quick follow up, talking about why this algorithm is important, where the\ncommon solution is slow and how to massively speed up training using a paper based on using the Conjugate Gradient\nmethod.</p>\n\n<p class='more'><a href='http://www.benfrederickson.com/fast-implicit-matrix-factorization/'>Read more ...</a></p>\n     "
+}
