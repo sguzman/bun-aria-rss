@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2017-5897 (debian_linux, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-5897",
+  "description": "The ip6gre_err function in net/ipv6/ip6_gre.c in the Linux kernel allows remote attackers to have unspecified impact via vectors involving GRE flags in an IPv6 packet, which trigger an out-of-bounds access.",
+  "dc:date": "2017-03-23T16:59:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Committed to Open Source… Again",
+  "link": "",
+  "published": "2015-05-20T00:00:00+00:00",
+  "updated": "2015-05-20T00:00:00+00:00",
+  "id": "https://trevorstephens.com/open-source/committed-to-open-source-again",
+  "content": "<p>This one’s been in the hopper for a long time! But now, you can <a href=\"http://scikit-learn.org/dev/install.html#install-bleeding-edge\" target=\"_blank\">grab it on the bleeding-edge version</a> and make your decision tree visualizations totally legit in scikit-learn!</p>\n\n<p>As many of you who head to my blog know, I’m quite the fan of tree-based learning, but have you ever seen scikit-learn’s D-Tree rendering? It used to be pretty basic. Usable and good for introspection of your models, sure. But would you want to show this to a customer (let’s imagine that the customer is a cruise liner from the early 1900’s)?</p>\n\n<p><img src=\"https://trevorstephens.com/images/2015-05-20-committed-to-open-source-again-1.png\" alt=\"Boring tree\" class=\"align-center\" /></p>\n\n<p>Fear not! You can now draw some pretty nice trees in scikit-learn using the <a href=\"http://scikit-learn.org/dev/modules/tree.html#classification\" target=\"_blank\">newly overhauled <code class=\"language-plaintext highlighter-rouge\">export_graphviz()</code> function as documented here</a>.</p>\n\n<p>And, with a few options tweaked, the above plot becomes something like this:</p>\n\n<p><img src=\"https://trevorstephens.com/images/2015-05-20-committed-to-open-source-again-2.png\" alt=\"Exciting tree\" class=\"align-center\" /></p>\n\n<p>Enjoy!</p>",
+  "author": {
+    "name": "Trevor Stephens",
+    "uri": "https://trevorstephens.com"
+  },
+  "category": [
+    "",
+    ""
+  ],
+  "summary": "Introducing fancy decision tree plots to scikit-learn."
+}
