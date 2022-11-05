@@ -1,0 +1,6 @@
+{
+  "title": "Approximation and Error Analysis of Forward-Backward SDEs driven by General L\\'evy Processes using Shot Noise Series Representations. (arXiv:2108.04777v3 [math.PR] UPDATED)",
+  "link": "http://arxiv.org/abs/2108.04777",
+  "description": "<p>We consider the simulation of a system of decoupled forward-backward\nstochastic differential equations (FBSDEs) driven by a pure jump L\\'evy process\n$L$ and an independent Brownian motion $B$. We allow the L\\'evy process $L$ to\nhave an infinite jump activity. Therefore, it is necessary for the simulation\nto employ a finite approximation of its L\\'evy measure. We use the generalized\nshot noise series representation method by Rosinski (2001) to approximate the\ndriving L\\'evy process $L$. We compute the $L^p$ error, $p\\ge2$, between the\ntrue and the approximated FBSDEs which arises from the finite truncation of the\nshot noise series (given sufficient conditions for existence and uniqueness of\nthe FBSDE). We also derive the $L^p$ error between the true solution and the\ndiscretization of the approximated FBSDE using an appropriate backward Euler\nscheme.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Massing_T/0/1/0/all/0/1\">Till Massing</a>"
+}

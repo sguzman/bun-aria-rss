@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Tv6VHV_XCGU",
+  "yt:videoId": "Tv6VHV_XCGU",
+  "yt:channelId": "UCEo_JfTH_9FK-7k9-mAWJkQ",
+  "title": "An Alternative Introduction to Trigonometry",
+  "link": "",
+  "author": {
+    "name": "sudgylacmoe",
+    "uri": "https://www.youtube.com/channel/UCEo_JfTH_9FK-7k9-mAWJkQ"
+  },
+  "published": "2022-06-28T07:00:14+00:00",
+  "updated": "2022-09-07T03:16:32+00:00",
+  "media:group": {
+    "media:title": "An Alternative Introduction to Trigonometry",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video is an alternative introduction to trigonometry that uses oscillations, not triangles, as its starting point.  In my experience, thinking of trigonometry in terms of oscillations makes much more sense than using triangles.  Furthermore, it shows us that one of our fundamental mathematical constants is not what you think it is...\n\nHappy τ day!  Here's a link to the τ manifesto: https://tauday.com/tau-manifesto\n\nTo actually calculate the sine and the cosine, you need some calculus.  Here is how we do this.  In the video, we said that the magnitude of the spring's acceleration is equal to the magnitude of its displacement, and the acceleration points in the opposite direction of the displacement.  This leads to the differential equation y'' = -y.  Then the sine is the solution to this equation with the initial conditions y(0) = 0 and y'(0) = 1.  The cosine is the solution to this equation with the initial conditions y(0) = 1 and y'(0) = 0.  From this description, there are a few options for how to solve this equation:\n1. You can use generic numerical analysis techniques.  Most of the simple differential equation algorithms aren't that accurate though.\n2. From y'' = -y, we in general have y^(n) = -y^(n - 2).  We can use this to determine the value of the (co)sine and all of its derivatives at 0, and then use this to find the Taylor series around zero.  For example, sin(0) = 0, sin'(0) = 1, sin''(0) = 0, sin'''(0) = -1, sin^(4)(0) = 0, sin^(5)(0) = 1, ...  This leads to the Taylor series sin(x) = x - x^3/3! + x^5/5! - x^7/7! + ...  Around zero, this Taylor series can be pretty accurate with only a few terms, and then because the sine and cosine are periodic we can add or subtract multiples of τ to get the input close enough to zero for the accuracy to be high.\n3. If you want to learn more about this subject, you can look up various algorithms such as CORDIC.\n\nDiscord: https://discord.gg/3Zj59zA2Rg\n\nPatreon: https://www.patreon.com/sudgylacmoe\n\nPatreon Supporters:\nAxisAngles\nDavid Johnston\np11\nRichard Penner\nRosario\n\nSections\n00:00 Introduction\n00:59 Oscillations\n01:37 Basics of Oscillations\n03:55 Spring Simulation\n07:46 Cosine and Sine\n10:59 Circles\n12:20 Radians\n13:34 Triangles\n14:33 The (obvious) Twist\n16:38 τ＞π",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

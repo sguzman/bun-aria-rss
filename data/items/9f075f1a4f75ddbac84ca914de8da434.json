@@ -1,0 +1,13 @@
+{
+  "title": "Taking Datasets, DataLoaders, and PyTorch’s New DataPipes for a Spin",
+  "description": "The PyTorch team recently announced TorchData, a prototype library focused on implementing composable and reusable data loading utilities for PyTorch. In particular, the TorchData library is centered around DataPipes, which are meant to be a DataLoader-compatible replacement for the existing Dataset class.",
+  "pubDate": "Sun, 12 Jun 2022 07:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2022/datapipes.html",
+  "guid": "https://sebastianraschka.com/blog/2022/datapipes.html",
+  "category": [
+    "Deep",
+    "Learning,",
+    "Machine",
+    "Learning"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:fvcbyCYdR10",
+  "yt:videoId": "fvcbyCYdR10",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Implementing Hazard Pointers in Rust",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-06-26T23:44:00+00:00",
+  "updated": "2022-08-19T15:41:19+00:00",
+  "media:group": {
+    "media:title": "Implementing Hazard Pointers in Rust",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This time, we take a stab at implementing Hazard Pointers (https://erdani.org/publications/cuj-2004-12.pdf) in Rust. We follow along with the C++ implementation in Facebook's Folly library (https://github.com/facebook/folly/blob/master/folly/synchronization/Hazptr.h), as well as the C++ standardization proposal (http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p1121r3.pdf).\n\n0:00:00 Introduction\n0:00:37 Rust for Rustaceans\n0:01:00 Concurrent Memory Reclamation\n0:10:32 Hazard Pointers\n0:35:27 Folly's Hazard Pointer Interface\n0:54:08 Delayed Reclamation\n0:58:18 More Folly Interface\n1:11:56 A Wild Entity Diagram Appears\n1:16:40 Memory Use\n1:21:12 More Folly Interface\n1:27:50 Starting the Rust Code\n1:35:24 Testing Out the Rust Interface\n1:42:32 HazPtrHolder::load\n2:02:15 HazPtrObject::retire\n2:19:43 HazPtrHolder::reset\n2:22:50 Unsafe Blocks in Unsafe Fns\n2:25:04 Borrow Checker Prevents Misuse\n2:27:45 Bad Drop Lint\n2:34:15 Dropping in HazPtrDomain::retire\n2:46:00 Intermission\n2:47:57 Reading Folly's HazPtrDomain::retire\n2:59:02 HazPtrDomain::acquire\n3:17:32 HazPtrDomain::retire\n3:45:57 Specifying a Deleter\n4:32:26 Tests Pass?\n4:36:12 Eager Reclaiming\n4:37:32 Checking Reclamation Behavior\n4:52:04 Final Thoughts\n\nYou can find the code for the implementation at https://github.com/jonhoo/haphazard.\n\nLive version with chat: https://youtu.be/4PuE6oMYxeM",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
