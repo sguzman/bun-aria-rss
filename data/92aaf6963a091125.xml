@@ -1,0 +1,2511 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wolfram Blog</title>
+	<atom:link href="https://blog.wolfram.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.wolfram.com</link>
+	<description>News, Views and Insights from Wolfram</description>
+	<lastBuildDate>Wed, 02 Nov 2022 17:18:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>New in 13.1: College and Fractional Calculus</title>
+		<link>https://blog.wolfram.com/2022/11/02/new-in-13-1-college-and-fractional-calculus/</link>
+		<comments>https://blog.wolfram.com/2022/11/02/new-in-13-1-college-and-fractional-calculus/#respond</comments>
+		<pubDate>Wed, 02 Nov 2022 17:18:17 +0000</pubDate>
+		<dc:creator><![CDATA[Stephen Wolfram]]></dc:creator>
+		<category><![CDATA[Mathematica News, Wolfram Language, Wolfram News]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=86102</guid>
+		<description><![CDATA[Last year we released Version 13.0 of the Wolfram Language. Here are the updates in college and fractional calculus since then, including the latest features in 13.1. &#160; College Calculus Transforming college calculus was one of the early achievements of Mathematica. But even now we’re continuing to add functionality to make college calculus ever easier [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p class="intro">Last year we released Version 13.0 of the <a href="https://www.wolfram.com/language/">Wolfram Language</a>. Here are the updates in college and fractional calculus since then, including the latest features in 13.1.</p>
+<p> &nbsp; </p>
+<h3 id='college-calculus'>College Calculus</h3>
+<p>Transforming college calculus was one of the early achievements of Mathematica. But even now we’re continuing to add functionality to make college calculus ever easier and smoother to do—and more immediately connectable to applications. We’ve always had the function <tt><a href='https://reference.wolfram.com/language/ref/D.html'>D</a></tt> for taking derivatives at a point. Now in Version 13.1 we’re adding <tt><a href='https://reference.wolfram.com/language/ref/ImplicitD.html'>ImplicitD</a></tt> for finding implicit derivatives. </p>
+<p>So, for example, it can find the derivative of <em>x<sup>y</sup></em> with respect to <em>x</em>, with <em>y</em> determined implicit by the constraint <em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> = 1:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg4.png" alt='ImplicitD' title='ImplicitD' width='273' height='77' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg4_copy.txt">
+					<span class='close' id='cc4_out'>&amp;#10005</span></p>
+<pre class='text' id='cc4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Leave out the first argument and you’ll get the standard college calculus “find the slope of the tangent line to a curve”:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg5.png" alt='ImplicitD' title='ImplicitD' width='280' height='77' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg5_copy.txt">
+					<span class='close' id='cc5_out'>&amp;#10005</span></p>
+<pre class='text' id='cc5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>So far all of this is a fairly straightforward repackaging of our longstanding calculus functionality. And indeed these kinds of implicit derivatives have been available for a long time in Wolfram|Alpha. But for Mathematica and the <a href='https://www.wolfram.com/language/'>Wolfram Language</a> we want everything to be as general as possible—and to support the kinds of things that show up in differential geometry, and in things like asymptotics and validation of implicit solutions to differential equations. So in addition to ordinary college-level calculus, <tt><a href='https://reference.wolfram.com/language/ref/ImplicitD.html'>ImplicitD</a></tt> can do things like finding a second implicit derivative on a curve defined by the intersection of two surfaces:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg6.png" alt='ImplicitD' title='ImplicitD' width='629' height='133' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg6_copy.txt">
+					<span class='close' id='cc6_out'>&amp;#10005</span></p>
+<pre class='text' id='cc6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In Mathematica and the Wolfram Language <tt><a href='https://reference.wolfram.com/language/ref/Integrate.html'>Integrate</a></tt> is a function that just gets you answers. (In Wolfram|Alpha you can ask for a step-by-step solution too.) But particularly for educational purposes—and sometimes also when pushing boundaries of what’s possible—it can be useful to do integrals in steps. And so in Version 13.1 we’ve added the function <tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> for changing variables in integrals. </p>
+<p>An immediate issue is that when you specify an integral with <tt><a href='https://reference.wolfram.com/language/ref/Integrate.html'>Integrate</a></tt><tt>[...]</tt>, <tt><a href='https://reference.wolfram.com/language/ref/Integrate.html'>Integrate</a></tt> will just go ahead and do the integral:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg7.png" alt='Integrate' title='Integrate' width='326' height='69' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg7_copy.txt">
+					<span class='close' id='cc7_out'>&amp;#10005</span></p>
+<pre class='text' id='cc7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>But for <tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> you need an “undone” integral. And you can get this using <tt><a href='https://reference.wolfram.com/language/ref/Inactive.html'>Inactive</a></tt>, as in:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg8.png" alt='Inactive' title='Inactive' width='391' height='75' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg8_copy.txt">
+					<span class='close' id='cc8_out'>&amp;#10005</span></p>
+<pre class='text' id='cc8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>And given this inactive form, we can use <tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> to do a “trig substitution”:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg9.png" alt='IntegrateChangeVariables' title='IntegrateChangeVariables' width='438' height='103' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg9_copy.txt">
+					<span class='close' id='cc9_out'>&amp;#10005</span></p>
+<pre class='text' id='cc9_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The result is again an inactive form, now stating the integral differently. <tt><a href='https://reference.wolfram.com/language/ref/Activate.html'>Activate</a></tt> goes ahead and actually does the integral:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg10.png" alt='Activate' title='Activate' width='205' height='69' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg10_copy.txt">
+					<span class='close' id='cc10_out'>&amp;#10005</span></p>
+<pre class='text' id='cc10_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> can deal with multiple integrals as well—and with named coordinate systems. Here it’s transforming a double integral to polar coordinates:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg11.png" alt='IntegrateChangeVariables' title='IntegrateChangeVariables' width='608' height='105' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg11_copy.txt">
+					<span class='close' id='cc11_out'>&amp;#10005</span></p>
+<pre class='text' id='cc11_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Although the basic “structural” transformation of variables in integrals is quite straightforward, the whole story of <tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> is considerably more complicated. “College-level” changes of variables are usually carefully arranged to come out easily. But in the more general case, <tt><a href='https://reference.wolfram.com/language/ref/IntegrateChangeVariables.html'>IntegrateChangeVariables</a></tt> ends up having to do nontrivial transformations of geometric regions, difficult simplifications of integrands subject to certain constraints, and so on.</p>
+<p>In addition to changing variables in integrals, Version 13.1 also introduces <tt><a href='https://reference.wolfram.com/language/ref/DSolveChangeVariables.html'>DSolveChangeVariables</a></tt> for changing variables in differential equations. Here it’s transforming the Laplace equation to polar coordinates:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg12.png" alt='DSolveChangeVariables' title='DSolveChangeVariables' width='481' height='101' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg12_copy.txt">
+					<span class='close' id='cc12_out'>&amp;#10005</span></p>
+<pre class='text' id='cc12_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sometimes a change of variables can just be a convenience. But sometimes (think General Relativity) it can lead one to a whole different view of a system. Here, for example, an exponential transformation converts the usual Cauchy–Euler equation to a form with constant coefficients: </p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg13.png" alt='DSolveChangeVariables' title='DSolveChangeVariables' width='617' height='59' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822calculusimg13_copy.txt">
+					<span class='close' id='cc13_out'>&amp;#10005</span></p>
+<pre class='text' id='cc13_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id='fractional-calculus'>Fractional Calculus</h3>
+<p>The first derivative of <em>x</em><sup>2</sup> is 2<em>x</em>; the second derivative is 2. But what is the <img style="margin-bottom: -3px" class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822onehalfth.png" width='21' height='' /> derivative? It’s a question that was asked (for example by Leibniz) even in the first years of calculus. And by the 1800s Riemann and Liouville had given an answer—which in Version 13.1 can now be computed by the new <tt><a href='https://reference.wolfram.com/language/ref/FractionalD.html'>FractionalD</a></tt>:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg3.png" alt='FractionalD' title='FractionalD' width='217' height='81' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg3_copy.txt">
+					<span class='close' id='3fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='3fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>And, yes, do another <img class='' style="margin-bottom: -4px" src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822onehalfth.png" width='21' height='' /> derivative and you get back the 1<sup>st</sup> derivative:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg6.png" alt='FractionalD' title='FractionalD' width='204' height='51' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg6_copy.txt">
+					<span class='close' id='6fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='6fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In the more general case we have:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg7.png" alt='FractionalD' title='FractionalD' width='203' height='75' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg7_copy.txt">
+					<span class='close' id='7fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='7fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>And this works even for negative derivatives, so that, for example, the (–1)<sup>st</sup> derivative is an ordinary integral:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg9.png" alt='FractionalD' title='FractionalD' width='210' height='74' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg9_copy.txt">
+					<span class='close' id='9fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='9fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>It can be at least as difficult to compute a fractional derivative as an integral. But <tt><a href='https://reference.wolfram.com/language/ref/FractionalD.html'>FractionalD</a></tt> can still often do it</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg10.png" alt='FractionalD' title='FractionalD' width='330' height='94' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg10_copy.txt">
+					<span class='close' id='10fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='10fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>though the result can quickly become quite complicated:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg11.png" alt='FractionalD' title='FractionalD' width='470' height='153' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg11_copy.txt">
+					<span class='close' id='11fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='11fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Why is <tt><a href='https://reference.wolfram.com/language/ref/FractionalD.html'>FractionalD</a></tt> a separate function, rather than just being part of a generalization of <tt><a href='https://reference.wolfram.com/language/ref/D.html'>D</a></tt>? We discussed this for quite a while. And the reason we introduced the explicit <tt><a href='https://reference.wolfram.com/language/ref/FractionalD.html'>FractionalD</a></tt> is that there isn’t a unique definition of fractional derivatives. In fact, in Version 13.1 we also support the Caputo fractional derivative (or differintegral) <tt><a href='https://reference.wolfram.com/language/ref/CaputoD.html'>CaputoD</a></tt>.</p>
+<p>For the <img class='' style="margin-bottom: -3px" src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822onehalfparen.png" width='34' height='' /> derivative of <em>x</em><sup>2</sup>, the answer is still the same:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg14.png" alt='CaputoD' title='CaputoD' width='197' height='81' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg14_copy.txt">
+					<span class='close' id='14fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='14fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>But as soon as a function isn’t zero at <em>x</em> = 0 the answer can be different:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg15.png" alt='CaputoD' title='CaputoD' width='409' height='94' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg15_copy.txt">
+					<span class='close' id='15fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='15fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><tt><a href='https://reference.wolfram.com/language/ref/CaputoD.html'>CaputoD</a></tt> is a particularly convenient definition of fractional differentiation when one’s dealing with Laplace transforms and differential equations. And in Version 13.1 we can now only compute <tt><a href='https://reference.wolfram.com/language/ref/CaputoD.html'>CaputoD</a></tt> but also do integral transforms and solve equations that involve it. </p>
+<p>Here’s a <img class='' style="margin-bottom: -3px" src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822onehalfparen.png" width='34' height='' />-order differential equation</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg17.png" alt='DSolve' title='DSolve' width='348' height='59' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg17_copy.txt">
+					<span class='close' id='17fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='17fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>and a <img style="margin-bottom: -4px" class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822thetwoth.png" width='34' height='' />-order one</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg19.png" alt='DSolve' title='DSolve' width='606' height='152' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg19_copy.txt">
+					<span class='close' id='19fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='19fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>as well as a &#960;<sup>th</sup>-order one:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg21.png" alt='DSolve' title='DSolve' width='487' height='81' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fractionalimg21_copy.txt">
+					<span class='close' id='21fractional_out'>&amp;#10005</span></p>
+<pre class='text' id='21fractional_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Note the appearance of <tt><a href='https://reference.wolfram.com/language/ref/MittagLefflerE.html'>MittagLefflerE</a></tt>. This function (which we introduced in <a href='https://writings.stephenwolfram.com/2012/11/mathematica-9-is-released-today/'>Version 9.0</a>) plays the same kind of role for fractional derivatives that <tt><a href='https://reference.wolfram.com/language/ref/Exp.html'>Exp</a></tt> plays for ordinary derivatives. </p>
+<p style="font-style: italic; color: #555;">
+<style type="text/css">
+div.bottomstripe { 
+    max-width:620px; 
+    margin-bottom:10px;
+    background-color: #fff39a;
+    border: solid 2px #ffd400;
+    padding: 7px 10px 7px 10px;
+        line-height: 1.2;}
+#blog .post_content .bottomstripe a,
+    #blog .post_content .bottomstripe a:link,
+    #blog .post_content .bottomstripe a:visited {
+     font-family:"Source Sans Pro",Arial,Sans Serif; 
+     font-size:11pt; 
+     color:#aa0d00;}
+</style>
+<div class="bottomstripe">
+<a href="https://wolfram.com/get-upgrade/"><strong>Download your 13.1 now! »&nbsp;</strong> (It’s already live in the Wolfram Cloud!)</a>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/11/02/new-in-13-1-college-and-fractional-calculus/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Winners of the 2022 One-Liner and Get Visual Competitions</title>
+		<link>https://blog.wolfram.com/2022/10/28/winners-of-the-2022-one-liner-and-get-visual-competitions/</link>
+		<comments>https://blog.wolfram.com/2022/10/28/winners-of-the-2022-one-liner-and-get-visual-competitions/#respond</comments>
+		<pubDate>Fri, 28 Oct 2022 16:22:06 +0000</pubDate>
+		<dc:creator><![CDATA[Bailey Long]]></dc:creator>
+		<category><![CDATA[Events, Other Application Areas, Wolfram Language]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=86050</guid>
+		<description><![CDATA[For 11 years, it has been tradition for the Wolfram Technology Conference to push our users to go above and beyond in Wolfram Language with our annual One-Liner Competition. In the competition, users are given a limit of 140 characters to create the most incredible output, which is then judged blindly based on brevity, aesthetics [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img title="Winners of the 2022 One-Liner and Get Visual Competitions" src="https://content.wolfram.com/uploads/sites/39/2022/10/wtc-2022-competitions-hero.png" alt="Winners of the 2022 One-Liner and Get Visual Competitions" width="620" height="315" /></p>
+<p>For 11 years, it has been tradition for the <a href='https://www.wolfram.com/events/technology-conference/2022/'>Wolfram Technology Conference</a> to push our users to go above and beyond in <a href='https://www.wolfram.com/language/'>Wolfram Language</a> with our annual <a href='https://blog.wolfram.com/2021/11/24/the-winners-of-the-2021-one-liner-competition/'>One-Liner Competition</a>. In the competition, users are given a limit of 140 characters to create the most incredible output, which is then judged blindly based on brevity, aesthetics and original use of Wolfram Language.<span id="more-86050"></span></p>
+<p>This year, however, we decided to take it to the next level by including the very first Get Visual Competition. Users were encouraged to create the most visually stunning graphic output, without the character restriction.</p>
+<p>In both competitions, entries were judged blindly. Attendees of the conference and, for the first time, Wolfram employees were welcome to participate. Judging criteria were based on aesthetics, understanding of the output and original use of Wolfram Language.</p>
+<h2 id="one-liner-competition">One-Liner Competition </h2>
+<p>The One-Liner Competition focused on the user’s ability to create a unique and stunning output in 140 characters or fewer without the use of 2D typesetting constructs or pulling linked data.</p>
+<h3>Honorable Mention</h3>
+<p><span style="font-weight:Bold">Nikolay </span><span style="font-weight:Bold">Murzin: </span><em>Ukraine </em>(140 characters)</p>
+<p>While this competition does not officially have an honorable mention placement, judges have awarded honorable mentions in previous competitions for exceptional submissions. Judges felt that Nikolay Murzin’s touching project reflecting the Ukrainian flag in a heart shape was deserving of a feature.</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img1.png" alt='Graphics' title='Graphics' width='497' height='446' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img1_copy.txt">
+					<span class='close' id='1_out'>&amp;#10005</span></p>
+<pre class='text' id='1_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Tiebreaker for Third Place</h3>
+<p><span style="font-weight:Bold">Shenghui Yang: </span><em>Companion to Rowland’s p-adic Number</em> (139 characters)</p>
+<p>Eric Rowland of Hofstra University recently shared a <a href='https://www.youtube.com/watch?v=3gyHKCDq1YA' target=_blank rel=noopener>video on his YouTube channel</a> evaluating <a href='https://www.wolframalpha.com/input?i=p-adic+number'><em>p</em>-adic numbers</a>, or alternative number systems in number theory. Shenghui Yang created this number theory in Wolfram Language to show the pattern of digits within <em>p</em>-adic numbers. Judges struggled to choose a third-place winner and decided Shanghui’s project deserved to be tied for third for his unique display of number theory.</p>
+<p>Shenghui’s <a href='https://community.wolfram.com/groups/-/m/t/2599938'>full project</a> can be found on <a href='https://community.wolfram.com/'>Wolfram Community</a>.</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img5.png" alt='ArrayPlot' title='ArrayPlot' width='454' height='452' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img5_copy.txt">
+					<span class='close' id='5_out'>&amp;#10005</span></p>
+<pre class='text' id='5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Tiebreaker for Third Place</h3>
+<p><span style="font-weight:Bold">Rodrigo Murta: </span><em>Surprising Contribution to Science </em>(137 characters)</p>
+<p>Judges were surprised to see that Rodrigo Murta, who is not a Wolfram employee, shared this sneak peek into the upcoming Version 13.2 release. Rodrigo’s work featured the current positioning of chosen stars as shown by their astrological equivalent. Because of his originality and the surprise to the judges, he was awarded third place with Shanghui Yang. This function is not currently publicly released, but will be available in Version 13.2.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img style=”border:5px solid #ff7701; src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img6.png" alt='0.033 AstroPosition' title='0.033 AstroPosition' width='505' height='98' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img6_copy.txt">
+					<span class='close' id='6_out'>&amp;#10005</span></p>
+<pre class='text' id='6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h3>Second Place</h3>
+<p><span style="font-weight:Bold">David Debrota: </span><em>Hilbert Snake Animation</em> (136 characters)</p>
+<p>David Debrota wowed the judges with his creation of a demonstration of the <a href='https://www.wolframalpha.com/input?i=Hilbert+Curve'>Hilbert curve</a> with a snakelike animation. The judges, in particular, appreciated David’s use of the cube to simulate a 3D setting for the snake to travel.</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img7.png" alt='Animate' title='Animate' width='519' height='510' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img7_copy.txt">
+					<span class='close' id='7_out'>&amp;#10005</span></p>
+<pre class='text' id='7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>First Place</h3>
+<p><span style="font-weight:Bold">Nes Croft: </span><em>Music Synthesizer </em>(137 characters)</p>
+<p>Nes Croft provided a unique experience with the only audio-based submission. Nes’s one-liner created a theremin-like experience that, when evaluated, emits a sound that can be manipulated by moving your mouse. </p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img8.png" alt='AudioPlay' title='AudioPlay' width='482' height='201' /></p></div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img8_copy.txt">
+					<span class='close' id='8_out'>&amp;#10005</span></p>
+<pre class='text' id='8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Once you&#8217;re finished playing your new instrument, use the following output to stop your rehearsal.</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img9.png" alt='AudioStop' title='AudioStop' width='117' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img9_copy.txt">
+					<span class='close' id='9_out'>&amp;#10005</span></p>
+<pre class='text' id='9_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="get-visual-competition">Get Visual Competition </h2>
+</p>
+<p>Since Version 1, users have astonished us by creating visualization projects in Wolfram Language. We have celebrated the arts within Wolfram with other events, such as our <a href='https://blog.wolfram.com/2022/06/02/computational-art-2022-wolfram-language-winners/'>Computational Art Contest</a>, but decided to include another opportunity with the Get Visual Competition.</p>
+<p>The goal of this competition was to share the most stupendous, entertaining, amazing, surprising, astounding, informative visualization in the form of an image, graphic, animation or video.</p>
+<h3>Third Place</h3>
+<p><span style="font-weight:Bold">Miyazawa Atsushi: </span><em>Concentric Circles Touch Each Other at Infinity</em></p>
+<p>Miyazawa Atsushi impressed the judges with his demonstration of concentric circles in an infinite plane. Miyazawa described the project as “the property of concentric circles—they touch each other at infinity, is still described as ‘strange’ even in geometry books published in the 21st century. With the Wolfram Language, anyone can see it is not strange!”</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img10.png" alt='Concentric Circles Touch Each Other at Infinity' title='Concentric Circles Touch Each Other at Infinity' width='470' height='247' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img10_copy.txt">
+					<span class='close' id='10_out'>&amp;#10005</span></p>
+<pre class='text' id='10_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h3>Second Place</h3>
+<p><span style="font-weight:Bold">Axel vom Endt: </span><em>Image Collage</em></p>
+<p>Axel vom Endt had personally created this floral collage with his own family members, but showcased his talent by pulling a series of random faces from stock images to recreate his work in a stunning visual.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img11.png" alt='Image Collage' title='Image Collage' width='399' height='398' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img11_copy.txt">
+					<span class='close' id='11_out'>&amp;#10005</span></p>
+<pre class='text' id='11_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h3>First Place</h3>
+<p><span style="font-weight:Bold">Jack Madden: </span><em>Complete Definitions: Graphing How Words and Definitions Connect</em></p>
+<p>Jack Madden is known by his students and the Wolfram community for integrating Wolfram Language and his passion for the liberal arts to create stunning projects. Jack said, “The goal was to visualize the connections between a word and the words needed to define it at all subsequent layers throughout the dictionary. I wanted to show how circular and recursive language is when contained to definitions.”</p>
+<p>Jack’s <a href='https://community.wolfram.com/groups/-/m/t/2358728'>full project</a> can be found on Wolfram Community.</p>
+<p><img src="https://content.wolfram.com/uploads/sites/39/2022/10/test6_16_9_21-min.gif" width="195" height="auto" title="Close-up of connections between words and definitions" alt="Close-up of connections between words and definitions" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="https://content.wolfram.com/uploads/sites/39/2022/10/test3_16_9_21.gif" width="195" height="auto" title="Minimizing connections between words and definitions" alt="Minimizing connections between words and definitions" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></p>
+<p style="clear: both;">
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img12.png" alt='Complete Definitions: Graphing How Words and Definitions Connect' title='Complete Definitions: Graphing How Words and Definitions Connect' width='470' height='169' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/bl102822img12_copy.txt">
+					<span class='close' id='12_out'>&amp;#10005</span></p>
+<pre class='text' id='12_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-will-you-create">What Will You Create?</h2>
+</p>
+<p>Congratulations to all of the winners and thank you to everyone who participated. We look forward to seeing more work in next year’s competitions! Until then, we encourage you to share your own one-liners and computational art at Wolfram Community.</p>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px>Visit <a href='https://community.wolfram.com/'>Wolfram Community</a> or the <a href='https://resources.wolframcloud.com/FunctionRepository/'>Wolfram Function Repository</a> to embark on your own computational adventures!</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sticky-footer">
+<a href="https://content.wolfram.com/uploads/sites/39/2022/10/winners-of-the-2022-one-liner-and-get-visual-competitions.nb" data-walid="BlogFooterNotebook"><img class='lazy' data-src="https://content.wolfram.com/uploads/sites/39/2019/05/notebook-icon2x.png" width="25">Engage with the code in this post by downloading the Wolfram&nbsp;Notebook</a><br />
+<button class="close">×</button>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/10/28/winners-of-the-2022-one-liner-and-get-visual-competitions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Announcing the 2022 Wolfram Innovator Award Winners</title>
+		<link>https://blog.wolfram.com/2022/10/19/announcing-the-2022-wolfram-innovator-award-winners/</link>
+		<comments>https://blog.wolfram.com/2022/10/19/announcing-the-2022-wolfram-innovator-award-winners/#comments</comments>
+		<pubDate>Thu, 20 Oct 2022 03:47:44 +0000</pubDate>
+		<dc:creator><![CDATA[Danielle Mayer]]></dc:creator>
+		<category><![CDATA[Events, New Technology, Wolfram News]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=86007</guid>
+		<description><![CDATA[Our annual Wolfram Technology Conference returned to an in-person gathering October 18–21, 2022, in our headquarter city of Champaign, Illinois, USA. One of our very favorite events that took place during the conference was the Innovator Award ceremony and keynote dinner, where Stephen Wolfram recognized eight exceptional individuals and teams from across fields, disciplines and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter box-shadow" title="Announcing the 2022 Wolfram Innovator Award Winners" src="https://content.wolfram.com/uploads/sites/39/2022/10/WTC-InnovatorAwards-GroupPhoto-blog.png" alt="Announcing the 2022 Wolfram Innovator Award Winners" width="620" height="315"/></p>
+<p>Our annual <a href='https://www.wolfram.com/events/technology-conference/2022/'>Wolfram Technology Conference</a> returned to an in-person gathering October 18–21, 2022, in our headquarter city of Champaign, Illinois, USA. One of our very favorite events that took place during the conference was the <a href='https://www.wolfram.com/events/technology-conference/innovator-award/?source=nav'>Innovator Award</a> ceremony and keynote dinner, where <a href='https://www.stephenwolfram.com/'>Stephen Wolfram</a> recognized eight exceptional individuals and teams from across fields, disciplines and the world for their computational excellence applying Wolfram technologies in innovative and exciting ways.<span id="more-86007"></span></p>
+<p>We are pleased to introduce and congratulate the 2022 Wolfram Innovator Award winners.</p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/01-PaulRGarvey2.png" alt="Paul R. Garvey" title="Paul R. Garvey" width="400" height="auto"></p>
+<h2 id='paul-r.-garvey,-phd'>Paul R. Garvey</h2>
+<h3>Distinguished Chief Engineer/Scientist, The MITRE Corporation</h3>
+<p>Paul R. Garvey is a distinguished chief engineer/scientist at <a href='https://www.mitre.org/' target=_blank rel=noopener>The MITRE Corporation</a>, a not-for-profit organization operating federally funded research and development centers for the US government. He has decades of experience in systems operations research, network modeling, mission systems risk analyses, and the application of risk-decision analytics across a variety of problems in the federal government. His current work involves modeling the network structure of the US food supply chain, which is being done in collaboration with datasets and published studies by the <a href='https://illinois.edu/' target=_blank rel=noopener>University of Illinois Urbana-Champaign</a> (UIUC) research team led by Professor Megan Konar.</p>
+<p>Garvey has authored several textbooks, written numerous papers, holds a US patent, and continues to contribute his expertise and extensive <a href='https://www.wolfram.com/language/'>Wolfram Language</a> abilities to tackle big problems. One example is his work “<a href='https://www.mitre.org/news-insights/publication/us-food-supply-chain-security-network-analysis' target=_blank rel=noopener>US Food Supply Chain Security: A Network Analysis</a>,” in conjunction with UIUC.<br />
+Utilizing <a href='https://www.wolfram.com/mathematica/'>Mathematica&#8217;s</a> network modeling technologies, they identified critical US counties and links associated with the meat supply chain, which is characterized by 2,817 US counties (nodes) and 30,670 origin-to-destination links (edges) that exist between them.</p>
+<p><span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/02-GevaResearchGroup.png" alt="Compute-to-Learn, the Geva Research Group" title="Compute-to-Learn, the Geva Research Group" width="400" height="auto"></p>
+<h2 id='compute-to-learn-project,-the-geva-research-group'>Compute-to-Learn Project, the Geva Research Group</h2>
+<h3>University of Michigan Ann Arbor</h3>
+<h3>Accepted by: Ellen Mulvihill</h3>
+<p>The <a href='http://websites.umich.edu/~pchem/compute-to-learn.html' target=_blank rel=noopener>Compute-to-Learn project</a> provides students with the opportunity to engage in creative forms of active learning. Compute-to-Learn activities stem from evidence-based, student-centered learning approaches, such as emphasis on real-world applications to promote students’ integration of new ideas, as well as authentic, collaborative environments that apprentice students as members of a scientific discipline (via practices such as explanatory writing and peer review). Students participate in tutorials and training related to Mathematica; research and propose an original Demonstration idea; workshop the idea during design and production stages; and, finally, submit the final product to external review prior to publication and dissemination on the <a href='https://demonstrations.wolfram.com/'>Wolfram Demonstrations Project</a> website. The Compute-to-Learn pedagogy is implemented within a peer-led honors studio environment. It has been offered in the University of Michigan chemistry department since 2015.</p>
+<p><span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/03-TetsuoIda.png" alt="Tetsuo Ida" title="Tetsuo Ida" width="400" height="auto"></p>
+<h2 id='tetsuo-ida'>Tetsuo Ida</h2>
+<h3>Professor Emeritus, University of Tsukuba</h3>
+<p>Tetsuo Ida is a professor emeritus in the department of computer science and faculty of engineering, informatics and systems for the <a href='https://www.tsukuba.ac.jp/en/' target=_blank rel=noopener>University of Tsukuba</a>.</p>
+<p>Ida contributed greatly to expanding the use of computation in art, and is a pioneer of computational origami in particular. He and his team treat origami as a subject of art and a science and technology of shapes. They developed a software system called <a href='https://www.i-eos.org/' target=_blank rel=noopener>Eos</a> (E-origami system) to reason about origami computationally. Eos is written in Wolfram Language and is available as a package for Mathematica.</p>
+<p><span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/04-RicardoMartinezLagunes2.png" alt="Ricardo Mart&iacute;nez-Lagunes" title="Ricardo Mart&iacute;nez-Lagunes" width="400" height="auto"></p>
+<h2 id='ricardo-mart&iacute;nez-lagunes'>Ricardo Mart&iacute;nez-Lagunes</h2>
+<h3>Consultant, World Bank and Inter-American Development Bank</h3>
+<p>Ricardo Martínez-Lagunes is a consultant for both the <a href='https://www.worldbank.org/en/home' target=_blank rel=noopener>World Bank</a> and the <a href='https://www.iadb.org/en' target=_blank rel=noopener>Inter-American Development Bank</a>. His main professional activities currently focus on water resources policy, information systems for water resource management and environmental economic accounts and assessments.</p>
+<p>Martínez-Lagunes is using Wolfram technologies to develop the next generation of computational water policy analytical tools to better understand and tackle challenges such as improving water utilities. In addition, he has demonstrated the ability to ingest large and disconnected datasets, compute and visualize that information more efficiently and create computationally dynamic dashboards for decision makers for policy design for investment/funding initiatives.</p>
+<p></span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/05-WilliamASethares.png" alt="William A. Sethares" title="William A. Sethares" width="400" height="auto"></p>
+<h2 id='william-a.-sethares'>William A. Sethares</h2>
+<h3>Professor, Electrical and Computer Engineering</h3>
+<h3>University of Wisconsin&ndash;Madison</h3>
+<p>Bill Sethares is a researcher and professor of electrical and computer engineering at the College of Engineering at the <a href='https://engineering.wisc.edu/' target=_blank rel=noopener>University of Wisconsin–Madison</a>, focusing on signal processing with applications in acoustics, image processing, communications and optimization.</p>
+<p>At the University of Wisconsin–Madison, Sethares attracts students from majors beyond engineering with his computationally rich image processing course material and project-based learning (all Wolfram Language–based, of course!). Sethares is a founding member of the <a href='https://leocode.org' target=_blank rel=noopener>LEOcode project</a> and brings computation to art historians in the form of applications used to find patterns in watermarks and canvases. These can help to identify and date historical papers and paintings.</p>
+<p></span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/06-LaurentSimon.png" alt="Laurent Simon" title="Laurent Simon" width="400" height="auto"></p>
+<h2 id='laurent-simon'>Laurent Simon</h2>
+<h3>Professor of Chemical Engineering and Vice Provost for Undergrad Studies</h3>
+<h3>New Jersey Institute of Technology</h3>
+<p>Laurent Simon is a professor of chemical engineering and the vice provost for undergraduate studies at the <a href='https://www.njit.edu/' target=_blank rel=noopener>New Jersey Institute of Technology</a>.</p>
+<p>Simon’s current research focuses on transdermal drug delivery, protein purification, process modeling and control; these projects involve writing Wolfram Language code that is instrumental in building population pharmacokinetic/pharmacodynamic models and designing transdermal drug-delivery systems. These same research tools, deployed with <a href='https://www.wolfram.com/products/webmathematica/'>webMathematica</a>, are now used to enhance chemical engineering curricula with applications in biological engineering.</p>
+<p></span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/07-DanielSze.png" alt="Daniel Sze" title="Daniel Sze" width="400" height="auto"></p>
+<h2 id='daniel-sze'>Daniel Sze</h2>
+<h3>Research Fellow, Georgia Pacific Innovation Center</h3>
+<p>Daniel Sze is a research fellow at the <a href='https://www.gp.com/' target=_blank rel=noopener>Georgia Pacific Innovation Center</a>, working with dynamic system modeling to realize a new way to conduct research, tests and exploration in a much more cost-effective and timely way.</p>
+<p>Sze’s work focuses on quickly building interactive design tools and dynamic system modeling of some of Georgia Pacific’s largest papermaking systems. Dan is currently supporting an initiative to model large papermaking machines using <a href='https://www.wolfram.com/system-modeler/'>Wolfram System Modeler</a>, producing a GUI to easily change parameters related to friction, torque, speed and other variables to better understand the way large papermaking machines function under those circumstances.</p>
+<p></span></p>
+<p><img class="aligncenter" src="https://content.wolfram.com/uploads/sites/39/2022/10/08-TELCONET.png" alt="Telconet" title="Telconet" width="400" height="auto"></p>
+<h2 id='telconet'>Telconet</h2>
+<h3 id='award-accepted-by:-igor-krochin,-director'>Award Accepted by: Igor Krochin, Director</h3>
+<p>Igor Krochin is the managing director of <a href='https://www.telconet.net/' target=_blank rel=noopener>Telconet</a>, the largest telecom company in Ecuador. They own some of the first certified cloud and data centers in Latin America, along with the first fiber-optic cable factory in the region. </p>
+<p>Tomislav Topic and Krochin lead Telconet in implementing Wolfram Language solutions in a wide variety of areas, including events log correlations, route analysis and optimization, big data analysis and failure correlation, resulting in better planning and scalability. Telconet continues to build infrastructure and deploy services, including internet connectivity, that help students and educators in the region become empowered with Wolfram technologies, such as the <a href='https://es.wolframalpha.com/'>Spanish version of Wolfram|Alpha</a>, by accessing powerful and sophisticated computation from anywhere.</p>
+<p></span></p>
+<p>Please join us in congratulating these winners for their exceptional contributions applying computational intelligence.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/10/19/announcing-the-2022-wolfram-innovator-award-winners/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>New in 13.1: Chemical Representations and Pattern Reactions</title>
+		<link>https://blog.wolfram.com/2022/10/17/new-in-13-1-chemical-representations-and-pattern-reactions/</link>
+		<comments>https://blog.wolfram.com/2022/10/17/new-in-13-1-chemical-representations-and-pattern-reactions/#respond</comments>
+		<pubDate>Mon, 17 Oct 2022 21:03:51 +0000</pubDate>
+		<dc:creator><![CDATA[Stephen Wolfram]]></dc:creator>
+		<category><![CDATA[Mathematica News, Wolfram Language, Wolfram News]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85988</guid>
+		<description><![CDATA[Last year we released Version 13.0 of the Wolfram Language. Here are the updates in chemical representations and symbolic pattern reactions since then, including the latest features in 13.1. &#160; Representing Amounts of Chemicals Molecule lets one symbolically represent a molecule. Quantity lets one symbolically represent a quantity with units. In Version 13.1 we now [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p class="intro">Last year we released Version 13.0 of the <a href="https://www.wolfram.com/language/">Wolfram Language</a>. Here are the updates in chemical representations and symbolic pattern reactions since then, including the latest features in 13.1.</p>
+<p> &nbsp; </p>
+<h3 id='representing-amounts-of-chemicals'>Representing Amounts of Chemicals</h3>
+<p><tt><a href='https://reference.wolfram.com/language/ref/Molecule.html'>Molecule</a></tt> lets one symbolically represent a molecule. <tt><a href='http://reference.wolfram.com/language/ref/Quantity.html'>Quantity</a></tt> lets one symbolically represent a quantity with units. In Version 13.1 we now have the new construct <tt><a href='http://reference.wolfram.com/language/ref/ChemicalInstance.html'>ChemicalInstance</a></tt> that’s in effect a merger of these, allowing one to represent a certain quantity of a certain chemical.<span id="more-85988"></span></p>
+<p>This gives a symbolic representation of 1 liter of acetone (by default at standard temperature and pressure):</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg1.png" alt='ChemicalInstance' title='ChemicalInstance' width='336' height='69' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg1_copy.txt">
+					<span class='close' id='1five_out'>&amp;#10005</span></p>
+<pre class='text' id='1five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>We can ask what the mass of this instance of this chemical is:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg2.png" alt='ChemicalInstance' title='ChemicalInstance' width='394' height='65' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg2_copy.txt">
+					<span class='close' id='2five_out'>&amp;#10005</span></p>
+<pre class='text' id='2five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><tt><a href='http://reference.wolfram.com/language/ref/ChemicalConvert.html'>ChemicalConvert</a></tt> lets us do a conversion returning particular units:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg3.png" alt='ChemicalConvert' title='ChemicalConvert' width='529' height='69' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg3_copy.txt">
+					<span class='close' id='3five_out'>&amp;#10005</span></p>
+<pre class='text' id='3five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Here’s instead a conversion to moles:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg4.png" alt='ChemicalConvert' title='ChemicalConvert' width='525' height='69' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg4_copy.txt">
+					<span class='close' id='4five_out'>&amp;#10005</span></p>
+<pre class='text' id='4five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This directly gives the amount of substance that 1 liter of acetone corresponds to:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg5.png" alt='ChemicalInstance' title='ChemicalInstance' width='414' height='60' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg5_copy.txt">
+					<span class='close' id='5five_out'>&amp;#10005</span></p>
+<pre class='text' id='5five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This generates a sequence of straight-chain hydrocarbons:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' style="margin-left: -5px" src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg7.png" alt='GraphicsBox' title='GraphicsBox' width='579' height='' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg6_copy.txt">
+					<span class='close' id='6five_out'>&amp;#10005</span></p>
+<pre class='text' id='6five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Here’s the amount of substance corresponding to 1 g of each of these chemicals:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg8.png" alt='Table' title='Table' width='590' height='86' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg8_copy.txt">
+					<span class='close' id='8five_out'>&amp;#10005</span></p>
+<pre class='text' id='8five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><tt><a href='http://reference.wolfram.com/language/ref/ChemicalInstance.html'>ChemicalInstance</a></tt> lets you specify not just the amount of a substance, but also its state, in particular temperature and pressure. Here we’re converting 1 kg of water at 4° C to be represented in terms of volume:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg9.png" alt='ChemicalConvert' title='ChemicalConvert' width='562' height='138' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg9_copy.txt">
+					<span class='close' id='9five_out'>&amp;#10005</span></p>
+<pre class='text' id='9five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id='chemistry-as-rule-application:-symbolic-pattern-reactions'>Chemistry as Rule Application: Symbolic Pattern Reactions</h3>
+<p>At the core of the <a href='https://www.wolfram.com/language/'>Wolfram Language</a> is the abstract idea of applying transformations to symbolic expressions. And at some level one can view chemistry and chemical reactions as a physical instantiation of this idea, where one’s not dealing with abstract symbolic constructs, but instead with actual molecules and atoms.</p>
+<p>In Version 13.1 we’re introducing <a href="http://reference.wolfram.com/language/ref/PatternReaction.html"><tt>PatternReaction</tt></a> as a symbolic representation for classes of chemical reactions—in effect providing an analog for chemistry of <tt><a href='http://reference.wolfram.com/language/ref/Rule.html'>Rule</a></tt> for general symbolic expressions. </p>
+<p>Here’s an example of a “pattern reaction”:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg10.png" alt='PatternReaction' title='PatternReaction' width='594' height='238' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg10_copy.txt">
+					<span class='close' id='10five_out'>&amp;#10005</span></p>
+<pre class='text' id='10five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The first argument specifies a pair of “reactant” molecule patterns to be transformed into “product” molecule patterns. The second argument specifies which atoms in which reactant molecules map to which atoms in which product molecules. If you mouse over the resulting pattern reaction, you’ll see corresponding atoms “light up”:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg11.png" alt='PatternReaction output' title='PatternReaction output' width='447' height='121' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg11_copy.txt">
+					<span class='close' id='11five_out'>&amp;#10005</span></p>
+<pre class='text' id='11five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Given a pattern reaction, we can use <tt>ApplyReaction</tt> to apply the reaction to concrete molecules:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg12.png" alt='ApplyReaction' title='ApplyReaction' width='544' height='187' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg12_copy.txt">
+					<span class='close' id='12five_out'>&amp;#10005</span></p>
+<pre class='text' id='12five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Here are plots of the resulting product molecules:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg13.png" alt='MoleculePlot' title='MoleculePlot' width='406' height='122' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg13_copy.txt">
+					<span class='close' id='13five_out'>&amp;#10005</span></p>
+<pre class='text' id='13five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The molecule patterns in the pattern reaction are matched against subparts of the concrete molecules, then the transformation is done, leaving the other parts of the molecules unchanged. In a sense it’s the direct analog of something like</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg14.png" alt='{{a, b}, {c, d}} /. b -&gt; {u, v}' title='{{a, b}, {c, d}} /. b -&gt; {u, v}' width='208' height='51' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg14_copy.txt">
+					<span class='close' id='14five_out'>&amp;#10005</span></p>
+<pre class='text' id='14five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>where the <tt>b</tt> in the symbolic expression is replaced, and the result is “knitted back” to fill in where the <tt>b</tt> used to be.</p>
+<p>You can do what amounts to various kinds of “chemical functional programming” with <tt><a href='http://reference.wolfram.com/language/ref/ApplyReaction.html'>ApplyReaction</a></tt> and <tt><a href='http://reference.wolfram.com/language/ref/PatternReaction.html'>PatternReaction</a></tt>. Here’s an example where we’re essentially building up a polymer by successive nesting of a reaction: </p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg15.png" alt='NestList' title='NestList' width='604' height='229' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg15_copy.txt">
+					<span class='close' id='15five_out'>&amp;#10005</span></p>
+<pre class='text' id='15five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg16A.png" alt='MoleculePlot' title='MoleculePlot' width='607' height='361' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg16_copy.txt">
+					<span class='close' id='16five_out'>&amp;#10005</span></p>
+<pre class='text' id='16five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>It’s often convenient to build pattern reactions symbolically using Wolfram Language “chemical primitives”. But <tt><a href='http://reference.wolfram.com/language/ref/PatternReaction.html'>PatternReaction</a></tt> also lets you specify reactions as SMARTS strings:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg17.png" alt='PatternReaction' title='PatternReaction' width='628' height='147' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/43/2022/06/sw062822fivesectionsimg17_copy.txt">
+					<span class='close' id='17five_out'>&amp;#10005</span></p>
+<pre class='text' id='17five_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="font-style: italic; color: #555;">
+<style type="text/css">
+div.bottomstripe { 
+    max-width:620px; 
+    margin-bottom:10px;
+    background-color: #fff39a;
+    border: solid 2px #ffd400;
+    padding: 7px 10px 7px 10px;
+        line-height: 1.2;}
+#blog .post_content .bottomstripe a,
+    #blog .post_content .bottomstripe a:link,
+    #blog .post_content .bottomstripe a:visited {
+     font-family:"Source Sans Pro",Arial,Sans Serif; 
+     font-size:11pt; 
+     color:#aa0d00;}
+</style>
+<div class="bottomstripe">
+<a href="https://wolfram.com/get-upgrade/"><strong>Download your 13.1 now! »&nbsp;</strong> (It’s already live in the Wolfram Cloud!)</a>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/10/17/new-in-13-1-chemical-representations-and-pattern-reactions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Wolfram CloudConnector: Excel&#8217;s Data Science Superpower</title>
+		<link>https://blog.wolfram.com/2022/10/12/wolfram-cloudconnector-excels-data-science-superpower/</link>
+		<comments>https://blog.wolfram.com/2022/10/12/wolfram-cloudconnector-excels-data-science-superpower/#respond</comments>
+		<pubDate>Wed, 12 Oct 2022 14:37:12 +0000</pubDate>
+		<dc:creator><![CDATA[Craig Cowley]]></dc:creator>
+		<category><![CDATA[New Technology, Other Application Areas, Wolfram Cloud]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85924</guid>
+		<description><![CDATA[Love it or hate it, Excel is used the world over for everything from quickly adding a couple of numbers together to accidentally losing tens of thousands of COVID-19 cases in the UK. But if you’ve ever had to use Excel for anything beyond INDEX MATCH (or *shudder* VLOOKUP), you’ve probably found yourself nonstop Googling [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter box-shadow" title="Wolfram CloudConnector: Excel's Data Science Superpower" src="https://content.wolfram.com/uploads/sites/39/2022/10/cloud-connector-hero.png" alt="Wolfram CloudConnector: Excel's Data Science Superpower" width="620" height="315" /></p>
+<p>Love it or hate it, Excel is used the world over for everything from quickly adding a couple of numbers together to <a href='https://www.conradwolfram.com/writings/covid19-excel07' target=_blank rel=noopener>accidentally losing tens of thousands of COVID-19 cases in the UK</a>. But if you’ve ever had to use Excel for anything beyond <span style="font-weight:Bold">INDEX MATCH</span> (or *shudder* <span style="font-weight:Bold">VLOOKUP</span>), you’ve probably found yourself nonstop Googling only to find out Excel isn’t really built for what you&#8217;re doing.<span id="more-85924"></span></p>
+<p>But what if you’re ready to go beyond the basics? What if you want to do actual “data science”? Is it time to abandon Excel and get up to your elbows in lists, loops and package managers?</p>
+<p>Not necessarily! In this post, we’ll look at how you can get Excel performing all your data science tasks with just one free add-on for Windows—<a href='https://www.wolfram.com/cloud-connector-for-excel/'>Wolfram CloudConnector for Excel</a>.</p>
+<h2 id="what-is-wolfram-cloudconnector-for-excel">What Is Wolfram CloudConnector for Excel?</h2>
+<p>Wolfram CloudConnector for Excel can transform Excel into a data science powerhouse by injecting <a href='https://www.wolfram.com/language/'>Wolfram Language</a> functions straight into your spreadsheets. It does this by providing a connection between Excel and Wolfram Language, extending the computational power of your spreadsheets.</p>
+<p>With CloudConnector, there’s no end to what you can achieve with your spreadsheets, including executing high-level computations (machine learning, algorithms, …), importing hundreds of data types, analyzing data with natural language (harnessing the power of <a href='https://www.wolframalpha.com/'>Wolfram|Alpha</a>), creating rich visualizations, linking across several areas of research (chemistry, geography, cryptography, …) and much more.</p>
+<h2 id="what-can-you-do-with-cloudconnector">What Can You Do with CloudConnector?</h2>
+<p>Pretty much anything you can think of! Want to use <a href='https://reference.wolfram.com/language/guide/MachineLearning.html'>Wolfram’s machine learning</a> capabilities in your spreadsheet? You can do that with a single formula. Want to create advanced visualizations like geo histograms or contour plots with extensive formatting options? That’s easy too!</p>
+<p>Whether you’re calling a single Wolfram function or want to easily add complex computations to your Excel workbooks, CloudConnector has you covered. But rather than read about it, you can see just how easy it is to <a href='https://www.wolfram.com/broadcast/video.php?c=439&#038;v=2164'>create <span style="font-weight:Regular">geo visualizations</a></span><span style="font-weight:Regular"> </span>that are simply not possible in Excel alone with help of CloudConnector.</p>
+<p>Want to give it a go yourself? Just follow these simple steps to get started. All you need is Excel and a free <a href='https://www.wolfram.com/cloud/'>Wolfram Cloud</a> account!</p>
+<h2 id="getting-started-with-cloudconnector">Getting Started with CloudConnector</h2>
+<h3>Step 1: Installing the Plugin</h3>
+<p>Getting CloudConnector is easy: just download <a href='https://www.wolfram.com/cloud-connector-for-excel/'>the Excel plugin</a>, restart Excel and you’re good to go. To confirm it has worked, you should see a <span style="font-weight:Bold">Wolfram</span> tab in Excel:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img2.png" alt='Wolfram tab in Excel' title='Wolfram tab in Excel' width='469' height='19' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img2_copy.txt">
+					<span class='close' id='2_out'>&amp;#10005</span></p>
+<pre class='text' id='2_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Step 2: Sign In to the Wolfram Cloud from Excel</h3>
+<p>From Excel, navigate to the <span style="font-weight:Bold">Wolfram</span> tab and select the <span style="font-weight:Bold">Signed Out</span> button to bring up the Wolfram Cloud dialog:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img3.png" alt='Select the Signed Out tab' title='Select the Signed Out tab' width='469' height='439' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img3_copy.txt">
+					<span class='close' id='3_out'>&amp;#10005</span></p>
+<pre class='text' id='3_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>If you do not have a Wolfram ID, you can obtain one for free by <a href='https://account.wolfram.com/auth/create' target=_blank rel=noopener>creating an account</a>—all you need to do is provide a valid email address.</p>
+<h3>Step 3: Call Your First Function</h3>
+<p>The quickest and easiest way to get started with Wolfram Language in Excel is to call a single expression.</p>
+<p>In the formula bar, use the <span style="font-weight:Bold">Wolfram</span> function in Excel to call the Wolfram Language function <tt><a href='http://reference.wolfram.com/language/ref/RandomInteger.html'>RandomInteger</a></tt>: </p>
+<p><em><span style="font-weight:Bold"> = Wolfram (&#8220;RandomInteger&#8221;, B2, B3)</span></em></p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img4.png" alt='Call on RandomInteger' title='Call on RandomInteger' width='470' height='509' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img4_copy.txt">
+					<span class='close' id='4_out'>&amp;#10005</span></p>
+<pre class='text' id='4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Let’s take a quick look at what’s happening here.</p>
+<p>The first argument in the <span style="font-weight:Bold">Wolfram</span> function is the name of the Wolfram Language function you want to use, in this case <tt>RandomInteger</tt>.</p>
+<p>The following arguments pass parameters to the Wolfram Language function, in this case the contents of cells B2 and B3 (100 and 10, respectively).</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img5.png" alt='Wolfram documentation for RandomInteger' title='Wolfram documentation for RandomInteger' width='470' height='227' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img5_copy.txt">
+					<span class='close' id='5_out'>&amp;#10005</span></p>
+<pre class='text' id='5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>When we press <span style="font-weight:Bold">Enter</span> on the formula, CloudConnector will then create a list of 10 random integers between 0 and 100, each with its own cell.</p>
+<p>That already gives you access to over six thousand functions! You can stop here and just use singular functions while still being able to cover everything from machine learning–based sentiment analysis with the <tt><a href='http://reference.wolfram.com/language/ref/Classify.html'>Classify</a></tt> function to creating charts and graphs not normally available in Excel with functions like <tt><a href='https://reference.wolfram.com/language/ref/GeoHistogram.html'>GeoHistogram</a></tt>.</p>
+<h3>Step 4: Call a Wolfram API</h3>
+<p>Although Wolfram Language has uniquely capable functions and superfunctions that produce powerful outputs by themselves, by combining them, you can create even more impressive, customized workflows. We’ll go over how to make these functions in a future post; for now, we’ll look at calling Wolfram APIs from within Excel.</p>
+<p>For this article, we’ll use a very basic Wolfram API called myAPI, which takes a single parameter (a number) and squares it. Here’s how you use it in Excel.</p>
+<p>First, select the cell where you want the output of the API to appear (in this case, the cell B2):</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img6.png" alt='Select the cell for your output' title='Select the cell for your output' width='184' height='93' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img6_copy.txt">
+					<span class='close' id='6_out'>&amp;#10005</span></p>
+<pre class='text' id='6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Go to the <span style="font-weight:Bold">Wolfram</span> tab and click <span style="font-weight:Bold">Insert API Call</span>:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img7.png" alt='Click Insert API Call' title='Click Insert API Call' width='470' height='94' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img7_copy.txt">
+					<span class='close' id='7_out'>&amp;#10005</span></p>
+<pre class='text' id='7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This will bring up an <span style="font-weight:Bold">Insert API Call</span> dialog. Fill in the following fields:</p>
+<p><span style="font-weight:Bold">API Name </span>— This is the location and name of the API you would like to connect to. You will be provided this URL when you create a Wolfram API. To use the one in this example, just insert <span style="color:#000000" class="codetext">/events-europe/myAPI</span> in this field.</p>
+<p><span style="font-weight:Bold">Output Location </span>— This field was filled in automatically by Excel; it’s just the full name of the cell chosen earlier (B2).</p>
+<p><span style="font-weight:Bold">Parameters</span> — These are similar to the second and third arguments we used earlier, except you specify them when creating the Wolfram API.</p>
+<p>This API has only one parameter (arg). You can provide a cell reference (in this case B1) or manually type in a value:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img8.png" alt='Provide a cell reference' title='Provide a cell reference' width='270' height='229' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img8_copy.txt">
+					<span class='close' id='8_out'>&amp;#10005</span></p>
+<pre class='text' id='8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Click <span style="font-weight:Bold">Insert</span>, and that’s it! The API will run and you will get a result in the output location. If you used a cell reference in your parameter, the API will rerun every time you change that cell—just like a normal Excel function:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img9.png" alt='Results in the output location' title='Results in the output location' width='395' height='101' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img9_copy.txt">
+					<span class='close' id='9_out'>&amp;#10005</span></p>
+<pre class='text' id='9_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ok-but-what-about-the-data-science">OK, but What about the Data Science?</h2>
+</p>
+<p>So far, we’ve created a random number generator and a number squarer. If that seems like something you could already do in Excel, you would be exactly right—that’s what the <span style="font-weight:Bold">RANDARRAY</span> and <span style="font-weight:Bold">POWER</span> functions are for!</p>
+<p>But does Excel have functions for intelligently interpreting dates, no matter the format? Or for semantic text analysis? Or for time series forecasts with machine learning? </p>
+<p>Well let’s take a look at creating our own Wolfram Language function that can intelligently clean and interpret dates far more powerfully than Excel’s built-in tools.</p>
+<h2 id='apis:-unleash-the-power-of-cloudconnector-for-excel'>APIs: Unleash the Power of CloudConnector for Excel</h2>
+<p>Now, we’re going to start combining functions in the Wolfram Cloud to start building our own APIs and unlock a whole range of capabilities not normally available in Excel.</p>
+<h3 id='getting-started-with-wolfram-cloud-notebooks'>Getting Started with Wolfram Cloud Notebooks</h3>
+<p><a href='https://www.wolfram.com/notebooks/'>Wolfram Notebooks</a> are the ideal environment for exploring ideas and building workflows across any domain—from data science and modeling to research and education—with interactive coding, natural language queries and expansive documentation. If you can write an Excel formula, you’ll be able to get started with notebooks in no time at all!</p>
+<p>The first step to building your own API is to head to <a href='https://wolframcloud.com' target="_blank">www.wolframcloud.com</a>, set up an account (if you haven’t already) and create a new cloud notebook:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img10.png" alt='Create a new notebook' title='Create a new notebook' width='386' height='282' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img10_copy.txt">
+					<span class='close' id='10_out'>&amp;#10005</span></p>
+<pre class='text' id='10_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Give your new file a sensible name by clicking the “(unnamed)” text:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img11.png" alt='Rename the file' title='Rename the file' width='336' height='169' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img11_copy.txt">
+					<span class='close' id='11_out'>&amp;#10005</span></p>
+<pre class='text' id='11_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>If you try clicking somewhere in the body of the notebook (the large blank area), the first thing you might notice is that your mouse and text cursor are both horizontal. This is because notebooks are made up of rectangular “cells,” and you haven’t yet made a cell in which to type code. You can create a new cell by clicking the “+” (or by typing something):</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img12.png" alt='Create a new cell' title='Create a new cell' width='166' height='166' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img12_copy.txt">
+					<span class='close' id='12_out'>&amp;#10005</span></p>
+<pre class='text' id='12_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Now that we’re all set up, we can start building our first API!</p>
+<h2 id='building-our-first-api'>Building Our First API</h2>
+<p>Building and deploying an API in a cloud notebook is as easy as filling in a simple template:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img13a.png" alt='CloudDeploy' title='CloudDeploy' width='254' height='296' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img13a_copy.txt">
+					<span class='close' id='13_out'>&amp;#10005</span></p>
+<pre class='text' id='13_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Let’s have a look at what’s happening here, from the inside out:</p>
+<li><tt><a href='http://reference.wolfram.com/language/ref/Function.html'>Function</a></tt> — This is where we’ll define what we want our API to do. This can be as simple as a single function or an entire program comprised of multiple functions.</li>
+<li><tt><a href='http://reference.wolfram.com/language/ref/APIFunction.html'>APIFunction</a></tt> — This is where we define the parameters we’ll pass from Excel into the the function we’ve created. </li>
+<li><tt><a href='http://reference.wolfram.com/language/ref/CloudDeploy.html'>CloudDeploy</a></tt> — This is where we define our API’s name. This also puts (or “deploys”) the created function and turns it into an API stored in my cloud files, where it can be called by Excel.</li>
+<p>There are also a couple of extra bits in there that make sure the API we’ve created is accessible by CloudConnector for Excel. Now let’s add in our functions and parameters to create an intelligent date interpreter.</p>
+<h3 id='creating-an-intelligent-date-interpreter'>Creating an Intelligent Date Interpreter</h3>
+<p>If you’ve ever had to Google “Why wont Excel understand my dates?!”, you’re definitely not alone! So, in our first API, we’re going to use Wolfram’s intelligent interpretation functionality to convert whatever type of date we have into a format Excel will immediately understand.</p>
+<p>Creating the interpreter is incredibly easy: all we have to do is call the <tt><a href='http://reference.wolfram.com/language/ref/Interpreter.html'>Interpreter</a></tt> function, tell it to generate a date and give it the text we want it to interpret, like so:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img14.png" alt='Interpreter' title='Interpreter' width='173' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img14_copy.txt">
+					<span class='close' id='14_out'>&amp;#10005</span></p>
+<pre class='text' id='14_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>You’ll notice that instead of passing actual text for it to interpret, we instead have <tt>[#date]</tt>, which tells our function that there will be a parameter called <tt>date</tt> that it will get its data from—more information on that in a bit!</p>
+<p>Next, we want to add some code around that to covert it into an Excel date serial number, which just involves some simple arithmetic, then put it into the <tt>Function</tt> part of our API template:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img15.png" alt='Function' title='Function' width='506' height='90' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img15_copy.txt">
+					<span class='close' id='15_out'>&amp;#10005</span></p>
+<pre class='text' id='15_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Next, we need to define some parameters. We’re going to use just the one parameter <tt>date</tt> that we added to our function earlier. This parameter is of the <tt>"String"</tt> type, as it will be passed text from Excel. Since the parameter will refer to a column of data (as opposed to a single cell), we need to indicate by wrapping the <tt>"String"</tt> type with <tt><a href='http://reference.wolfram.com/language/ref/RepeatingElement.html'>RepeatingElement</a></tt><tt>[]</tt>. Then we can pass that into our template:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img16.png" alt='APIFunction' title='APIFunction' width='519' height='228' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img16_copy.txt">
+					<span class='close' id='16_out'>&amp;#10005</span></p>
+<pre class='text' id='16_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, we just need to name our API. In this case, we’ll call it <tt>"interpretDate"</tt> and deploy it to the cloud, which is as simple as pressing <span style="color:#000000;font-weight:Bold" class="codetext">Shift</span><span style="color:#000000" class="codetext"> + </span><span style="color:#000000;font-weight:Bold" class="codetext">Enter</span>:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img17a.png" alt='CloudDeploy' title='CloudDeploy' width='338' height='319' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img17a_copy.txt">
+					<span class='close' id='17_out'>&amp;#10005</span></p>
+<pre class='text' id='17_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This produces a link to where our API has been stored. We’ll need the latter part of this link that has the account ID and API name, so “/events-europe/interpretData” in this instance, when we call it from Excel. You can find all of your personal APIs <a href='https://www.wolframcloud.com/browse#APIs' target="_blank">here</a>:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img18.png" alt='CloudDeploy produces a link' title='CloudDeploy produces a link' width='470' height='303' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img18_copy.txt">
+					<span class='close' id='18_out'>&amp;#10005</span></p>
+<pre class='text' id='18_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img19.png" alt='Call upon your API from Excel' title='Call upon your API from Excel' width='470' height='133' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img19_copy.txt">
+					<span class='close' id='19_out'>&amp;#10005</span></p>
+<pre class='text' id='19_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id='calling-our-api-in-excel'>Calling Our API in Excel</h3>
+<p>We covered how to call a Wolfram API in Excel using CloudConnector’s interface earlier in this post. But if you have CloudConnector installed, you can also call your API directly from Excel’s formula field like so:</p>
+<p><em><span style="font-weight:Bold">=WolframAPI(&#8220;/events-europe/interpretDate&#8221;, Parameter(&#8220;date&#8221;, <cell reference>))</span></em></p>
+<p>Our API then takes the date text in column A and converts it into Excel format in column B:</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img20.png" alt='API converts data into Excel format' title='API converts data into Excel format' width='470' height='131' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/cc101222img20_copy.txt">
+					<span class='close' id='20_out'>&amp;#10005</span></p>
+<pre class='text' id='20_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Now we have a function that can take a date in pretty much any format, including natural language, and reliably convert that into something that Excel can understand and use consistently.</p>
+<h2 id="what-else-can-you-do">What Else Can You Do?</h2>
+<p>Well, that’s limited only by your imagination! But if you’re in need of a little inspiration, you can see a range of examples you never thought you could achieve in Excel by watching this <a href='https://www.bigmarker.com/wolfram-u/cloud-connector-2022?utm_bmcr_source=blog' target=_blank rel=noopener>webinar</a>. </p>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px><a href="https://www.wolfram.com/cloud-connector-for-excel/resources/">Explore more resources to transform your Excel into a data science powerhouse!</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sticky-footer">
+<a href="https://content.wolfram.com/uploads/sites/39/2022/10/wolfram-cloudconnector-excels-data-science-superpower1.nb" data-walid="BlogFooterNotebook"><img class='lazy' data-src="https://content.wolfram.com/uploads/sites/39/2019/05/notebook-icon2x.png" width="25">Engage with the code in this post by downloading the Wolfram&nbsp;Notebook</a><br />
+<button class="close">×</button>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/10/12/wolfram-cloudconnector-excels-data-science-superpower/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A Day in the Life of the Wolfram High School Summer Camp</title>
+		<link>https://blog.wolfram.com/2022/10/05/a-day-in-the-life-of-the-wolfram-high-school-summer-camp/</link>
+		<comments>https://blog.wolfram.com/2022/10/05/a-day-in-the-life-of-the-wolfram-high-school-summer-camp/#respond</comments>
+		<pubDate>Wed, 05 Oct 2022 16:15:12 +0000</pubDate>
+		<dc:creator><![CDATA[Anika Patel]]></dc:creator>
+		<category><![CDATA[Computational Thinking, Education, Events]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85905</guid>
+		<description><![CDATA[In July 2022, we officially began the annual Wolfram High School Summer Camp with a single mission: sharpen the campers’ minds and dive deep into topics for the betterment of the future of the world. All campers can agree that this was a life-changing experience. The first mission of camp? Get to know the Zoom [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter box-shadow" title="A Day in the Life of the Wolfram High School Summer Camp" src="https://content.wolfram.com/uploads/sites/39/2022/10/summer-camp-hero.png" alt="A Day in the Life of the Wolfram High School Summer Camp" width="620" height="315" /></p>
+<p>In July 2022, we officially began the annual <a href='https://education.wolfram.com/summer-camp/'>Wolfram High School Summer Camp</a> with a single mission: sharpen the campers’ minds and dive deep into topics for the betterment of the future of the world. All campers can agree that this was a life-changing experience. The first mission of camp? Get to know the Zoom Overlords—the camp directors—who marshaled campers through all the activities. Camp challenges started right away! <span id="more-85905"></span></p>
+<p>My name is Anika and I was the lead teaching assistant and a junior mentor at camp this year. I was a camp student myself in 2020, and in 2021 served as a mentor at the <a href='https://education.wolfram.com/middle-school-camp/'>Wolfram Middle School Summer Camp</a> and a teaching assistant at the High School Summer Camp. I also participated in the <a href='https://education.wolfram.com/emerging-leaders-programs/high-school/'>Wolfram Emerging Leaders Program: High School</a> in 2021, and I’m about to start the <a href='https://education.wolfram.com/emerging-leaders-programs/undergraduate/'>Wolfram Emerging Leaders Program: Undergraduate</a> this fall. </p>
+<h2 id="first-thing-in-the-morning-we-are-having-fun">First Thing in the Morning We Are Having… Fun?</h2>
+</p>
+<p>“I think this may be more effective if we include cellular automata,” one camper pointed out over a heated debate on the best team mascot. No, we don’t just work the whole time at camp. One of the best parts is actually meeting with people! Students come from all over the world—from South Korea to India, California and more—which means that camp “mornings” start anywhere from 6am to 7pm.</p>
+<p>Combining the creativity of campers with completely different global educations and cultural backgrounds is a key part to building the camp community. Incorporating this diversity of ideas allows us to produce both innovative and viable projects.</p>
+<p>This mishmash of ideas came to life not only during academic activities, but also during social activities! These team mascots represented the creativity of each team. The impeccable arrangement of these masterpieces artfully represented the groups and were eternalized in Slack as emojis to be used throughout camp:</p>
+<table >
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img1.png" alt='Team mascot proposals' title='Team mascot proposals' width='470' height='336' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img1_copy.txt">
+					<span class='close' id='1_out'>&amp;#10005</span></p>
+<pre class='text' id='1_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h2 id="time-to-learn">Time to Learn!</h2>
+</p>
+<p>Now, there are a few things famously sacrilegious in <a href='https://www.wolfram.com/language/'>Wolfram Language</a>, two being for loops and return statements. With many campers already having a background in Python, Java or other languages where these are heavily used, this was a major mindset shift.</p>
+<p>“NO FOR LOOPS!!!” was driven home to the point of being memeified throughout camp; everyone knew that using a for loop or return statement in their code would lead to their imminent doom.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img2.png" alt='Memes from Summer Camp students' title='Memes from Summer Camp students' width='470' height='234' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img2_copy.txt">
+					<span class='close' id='2_out'>&amp;#10005</span></p>
+<pre class='text' id='2_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>The camp wasn’t just all Wolfram coding. From <a href='https://www.mpdatascience.com/'>multiparadigm data science</a> to <a href='https://community.wolfram.com/groups/-/m/t/2144165'>political idea blocking</a>, you could say that everybody’s brains were filled to the brim. We were going to make sure that they were going to pack in a lot more in the next few weeks.</p>
+<h2 id="lunchtime">Lunchtime</h2>
+</p>
+<p>As much as we all loved deep frying, reconstructing, refreezing and thoroughly enlightening our brains, we equally loved the social activities during lunch. Although it may have been intimidating at first, many came to realize throughout camp that—whether they were a linguistics lover, chemistry connoisseur or a physics phenom—everyone actually had a lot of similar interests! You might have found yourself defeating someone mapping ocean trajectories with the <a href='https://www.wolframalpha.com/input?i=runge+kutta+method'>Runge–Kutta method</a> in an intense game of <a href='https://skribbl.io/' target=_blank rel=noopener>skribbl.io</a>, or realizing that you love the same TV show as someone on the other side of the globe. </p>
+<h2 id="head-smashing-hour-aka-project-time">Head-Smashing Hour (AKA Project Time)</h2>
+</p>
+<p>One of the main products of camp is the individual projects. Projects ranged from conducting a sentiment analysis on the iconic show <em>The Office</em> to analyzing the multiway graphs of mancala, but there were a lot of universal experiences. “AAAAGH WHY WON’T THIS WORK” was quickly followed by “I forgot to remove the semicolon” and “There was already a function for this?!”, and the taste of defeat was quickly overpowered by a victory against fickle lines of code only a few minutes later. The wide range of emotions caused by coding (and debugging) is a universal experience that all of us who use any programming language go through. The small triumphs—finally getting the Reddit API to work in your favor, or weeding out that one bug in your intricate visualizations, or even creating beautiful representations of complex topics—all contribute to that sweet, sweet victory.</p>
+<p>Handling advanced and uncharted territory is especially difficult, but the satisfaction of overcoming those challenges is immeasurable. This is the best motivator that can often keep you coding very late into the night—or morning for international students. Finally seeing the final result of the projects after hammering at it (and smashing your head against your keyboard) for more than two weeks was a highlight for many; the “I FINALLY GOT IT!!!” moment is priceless.</p>
+<p>Many of the projects have visualizations alongside them to illustrate their complex concepts. Following are a few that campers were particularly proud of. If you want to understand what these specific visualizations are, you should definitely <a href='https://www.wolframcloud.com/obj/microsites/summercamp/projects.html'>check out all the camp projects</a>!</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img3.png" alt='Samples from Summer Camp projects' title='Samples from Summer Camp projects' width='470' height='139' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img3_copy.txt">
+					<span class='close' id='3_out'>&amp;#10005</span></p>
+<pre class='text' id='3_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h2 id="wait-we-get-to-have-more-fun-in-the-evening">Wait… We Get to Have More Fun in the Evening?</h2>
+</p>
+<p>As much fun as we had doing project work and coding at camp, it was still a summer camp, and we got to do even more awesome activities after the end of the academic day.</p>
+<p>One of my favorite end-of-day social activities was PowerPoint karaoke. That’s when the speaker has to make up a presentation on the spot—but the kicker is that they have never seen their slides before. Students used quick and out-of-the-box thinking to sell products with surprise features and educate us on fantasy facets of marine biology.</p>
+<p>The last, but certainly not the least, part of camp is meeting <a href='https://www.stephenwolfram.com/'>Stephen Wolfram</a>. Initially, the nervousness of meeting a CEO and super-genius stifled the conversation, but as people warmed up, they quickly dove deep into animated conversations. Everything from describing current school life to cellular automata and physics (of course) was on the table. Sometimes, these conversations got intense—like when Stephen somehow ended up being sacrificed to the fire gods during a discussion: </p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img4.png" alt='Zoom session with Stephen Wolfram' title='Zoom session with Stephen Wolfram' width='470' height='350' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/10/ap100422img4_copy.txt">
+					<span class='close' id='4_out'>&amp;#10005</span></p>
+<pre class='text' id='4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+</p>
+<p>After camp, some will go on to do internships, others will opt to be part of more Wolfram programs, such as the <a href='https://education.wolfram.com/emerging-leaders-programs/'>Wolfram Emerging Leaders Program</a>, and the vast majority will become billionaires due to their novel thinking (naturally). Although everyone will do different things, many are inspired by the things they learn in camp—especially the skill of applying computational thinking to almost any topic. From coding their own smart mirrors, creating their own programming languages or engineering quality-of-life solutions for their daily routines, everyone from camp consciously (or unconsciously) integrates what they learn into their day-to-day lives. </p>
+<p>Last but not least, I wouldn’t be me if I didn’t shamelessly plug everyone’s projects one last time. <a href='https://www.wolframcloud.com/obj/microsites/summercamp/projects.html'>Go check them out</a>!</p>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px>Learn more and stay informed about <a href='https://education.wolfram.com/summer-camp/'>Wolfram High School Summer Camp</a>!</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/10/05/a-day-in-the-life-of-the-wolfram-high-school-summer-camp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Should I Eat That? Food Safety with Wolfram Language</title>
+		<link>https://blog.wolfram.com/2022/09/30/should-i-eat-that-food-safety-with-wolfram-language/</link>
+		<comments>https://blog.wolfram.com/2022/09/30/should-i-eat-that-food-safety-with-wolfram-language/#respond</comments>
+		<pubDate>Fri, 30 Sep 2022 13:54:55 +0000</pubDate>
+		<dc:creator><![CDATA[Isabel Skidmore]]></dc:creator>
+		<category><![CDATA[Current Events, Education, Recreational Computation, Wolfram Language]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85742</guid>
+		<description><![CDATA[Foodborne illness, or food poisoning, is something many of us have experienced. According to the World Health Organization, almost 1 in 10 people in the world fall ill each year after eating contaminated food. Luckily, by following recommended food safety practices, we can do our best to avoid getting sick. September is Food Safety Education [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" title="Should I Eat That? Food Safety with the Wolfram Language" src="https://content.wolfram.com/uploads/sites/39/2022/09/food-safety-hero.png" alt="Should I Eat That? Food Safety with the Wolfram Language" width="620" height="420" /></p>
+<p>Foodborne illness, or food poisoning, is something many of us have experienced. According to the <a href='https://www.who.int/activities/estimating-the-burden-of-foodborne-diseases' target=_blank rel=noopener>World Health Organization</a>, almost 1 in 10 people in the world fall ill each year after eating contaminated food. Luckily, by following recommended food safety practices, we can do our best to avoid getting sick.</p>
+<p>September is Food Safety Education Month. To highlight the importance of food safety, we have introduced two new properties in <a href='https://www.wolfram.com/language/'>Wolfram Language</a> that can help users make smart choices about food storage:<span id="more-85742"></span></p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img1.png" alt='EntityValue' title='EntityValue' width='526' height='83' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img2_copy.txt">
+					<span class='close' id='1_out'>&amp;#10005</span></p>
+<pre class='text' id='1_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='ground beef'>&#8220;I Bought Ground Beef on Tuesday for a Family Cookout on Saturday. Can I Keep the Ground Beef in the Refrigerator until Then?&#8221;</h2>
+<p>Let’s use this new property in Wolfram Language to check:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img2.png" alt='EntityValue' title='EntityValue' width='376' height='94' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img3_copy.txt">
+					<span class='close' id='2_out'>&amp;#10005</span></p>
+<pre class='text' id='2_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Based on the data, sourced from the U.S. Department of Agriculture (USDA), you should keep raw ground beef a maximum of two days in the refrigerator before it is cooked. In this case, it’s best to go ahead and freeze the ground beef the day you bought it. You also can query the Wolfram Language for how long the ground beef can be kept in the freezer before use:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img3.png" alt='EntityValue' title='EntityValue' width='376' height='94' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img4_copy.txt">
+					<span class='close' id='3_out'>&amp;#10005</span></p>
+<pre class='text' id='3_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>We can use <tt><a href='http://reference.wolfram.com/language/ref/TimelinePlot.html'>TimelinePlot</a></tt> to check the maximum refrigerated and frozen storage times for a variety of raw and cooked meats:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img4.png" alt='refrigeratedStorageTimesAssoc =  EntityValue' title='refrigeratedStorageTimesAssoc =  EntityValue' width='468' height='694' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img5_copy.txt">
+					<span class='close' id='4_out'>&amp;#10005</span></p>
+<pre class='text' id='4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img5.png" alt='styleStorageTimeLabel' title='styleStorageTimeLabel' width='515' height='668' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img6_copy.txt">
+					<span class='close' id='5_out'>&amp;#10005</span></p>
+<pre class='text' id='5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img6.png" alt='frozenStorageTimesAssoc =  EntityValue' title='frozenStorageTimesAssoc =  EntityValue' width='559' height='713' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img7_copy.txt">
+					<span class='close' id='6_out'>&amp;#10005</span></p>
+<pre class='text' id='6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img7.png" alt='styleStorageTimeLabel' title='styleStorageTimeLabel' width='518' height='635' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img8_copy.txt">
+					<span class='close' id='7_out'>&amp;#10005</span></p>
+<pre class='text' id='7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='fish market'>&#8220;I Shop at My Favorite Fish Market Once a Month. How Long Can I Keep the Fish in the Freezer?&#8221;</h2>
+<p>You can check maximum frozen storage times for a wide range of raw fish and seafood, including these examples:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img8.png" alt='fishAndSeafood =  Interpreter' title='fishAndSeafood =  Interpreter' width='495' height='418' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img9_copy.txt">
+					<span class='close' id='8_out'>&amp;#10005</span></p>
+<pre class='text' id='8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Did you notice the shorter frozen storage times for fish with higher levels of omega-3 fatty acids, such as salmon and mackerel? See the comparison with other fish like halibut and snapper:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img9.png" alt='rawFish =  Interpreter' title='rawFish =  Interpreter' width='615' height='637' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img10_copy.txt">
+					<span class='close' id='9_out'>&amp;#10005</span></p>
+<pre class='text' id='9_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='leftover pizza'>&#8220;It&#8217;s Lunchtime on Monday. I Have Leftover Pizza in the Fridge from Friday Night. Should I Eat That?&#8221;</h2>
+<p>You can get answers about popular leftovers, including your Friday-night pizza delivery. Since it’s been only three days (and assuming the leftover pizza was stored in the refrigerator within two hours), you can go ahead and enjoy it for Monday’s lunch:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img10.png" alt='leftovers =  Interpreter' title='leftovers =  Interpreter' width='546' height='336' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img11_copy.txt">
+					<span class='close' id='10_out'>&amp;#10005</span></p>
+<pre class='text' id='10_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, most cooked leftovers that are refrigerated promptly can be stored three to four days.</p>
+<h2 id='turkey sandwich'>&#8220;Turkey Sandwiches, Turkey Tetrazzini, Turkey Pot Pie. No More Turkey, Please.&#8221;</h2>
+<p>You can plan for safe storage of those inevitable Thanksgiving Day leftovers. A side-by-side comparison can help you decide whether to refrigerate or freeze that extra food:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img11.png" alt='ThanksgivingLeftovers =  Interpreter' title='ThanksgivingLeftovers =  Interpreter' width='564' height='407' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img12_copy.txt">
+					<span class='close' id='11_out'>&amp;#10005</span></p>
+<pre class='text' id='11_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Gone overboard with your baking? Use <img src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img17.png" width='200' height='' align='absmiddle'> to check how long you can freeze <tt>"cookie dough"</tt>, <tt>"brownies"</tt>, <tt>"fudge"</tt> and <tt>"cheesecake"</tt> before they lose freshness and quality.</p>
+<h2 id='colorful produce'>&#8220;I Love Bringing Home a Basket of Colorful Produce from the Farmers&#8217; Market.&#8221;</h2>
+<p><tt><a href='http://reference.wolfram.com/language/ref/ListPlot.html'>ListPlot</a></tt> can chart the maximum refrigerated storage times that will maintain freshness of those vibrant veggies, as well as fresh fruits and herbs:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img12.png" alt='farmersMarketProduce =  Interpreter' title='farmersMarketProduce =  Interpreter' width='483' height='129' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img13_copy.txt">
+					<span class='close' id='12_out'>&amp;#10005</span></p>
+<pre class='text' id='12_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Evaluate the following cell to run the necessary initialization code to retrieve images for the foods:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img14c.png" alt='getFoodImage' title='getFoodImage' width='386' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img14c_copy.txt">
+					<span class='close' id='1a_out'>&amp;#10005</span></p>
+<pre class='text' id='1a_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Plot the data! The <em>y</em> axis displays the number of days, and the vertical lines indicate the range of how many days that food can be refrigerated before it loses freshness. Hover over the images to see larger versions and enjoy the colorful harvest:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img13.png" alt='produceImagesAndStorageTimes = KeyMap' title='produceImagesAndStorageTimes = KeyMap' width='615' height='519' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img15b_copy.txt">
+					<span class='close' id='13_out'>&amp;#10005</span></p>
+<pre class='text' id='13_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='a-look-ahead'>A Look Ahead</h2>
+<p>We’re looking ahead to how we can give the Wolfram community even more ways to explore food safety. By utilizing the synergies of food data and biology data, we are working to bring you the tools to investigate food sources of foodborne-illness pathogens. Stay tuned!</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img14.png" alt='foodborneBacteriaList = {Entity' title='foodborneBacteriaList = {Entity' width='614' height='862' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img16_copy.txt">
+					<span class='close' id='14_out'>&amp;#10005</span></p>
+<pre class='text' id='14_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='want-to-learn-more?'>Want to Learn More?</h2>
+<p>For more information about Food Safety Education Month and foodborne illness, you can visit these sites for free downloads, teacher resources, children’s activity sheets and current food recalls:</p>
+<ul>
+<li><a href='https://www.foodsafety.gov/' target=_blank rel=noopener>FoodSafety.gov</a></li>
+<li><a href='https://www.fightbac.org/' target=_blank rel=noopener>Partnership for Food Safety Education</a></li>
+<li><a href='https://www.fda.gov/food/consumers/food-safety-education-month' target=_blank rel=noopener>U.S. Food &#038; Drug Administration (FDA): Food Safety Education Month</a></li>
+</ul>
+<h2 id='food bar chart'>Bonus Viz: How to Build a Food Image Bar Chart</h2>
+<p>Here’s how you can build the food bar chart we featured in the introduction:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img15.png" alt='farmersMarketProduceStrings = {"raw shrimp", "pie", "lasagna",  "squash", "spinach", "melon", "cake", "peppers", "pepperoni",  "cheddar cheese"};farmersMarketProduce =  Interpreter' title='farmersMarketProduceStrings = {"raw shrimp", "pie", "lasagna",  "squash", "spinach", "melon", "cake", "peppers", "pepperoni",  "cheddar cheese"};farmersMarketProduce =  Interpreter' width='530' height='152' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img17_copy.txt">
+					<span class='close' id='15_out'>&amp;#10005</span></p>
+<pre class='text' id='15_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img18c.png" alt='getFoodImage' title='getFoodImage' width='388' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img18c_copy.txt">
+					<span class='close' id='16_out'>&amp;#10005</span></p>
+<pre class='text' id='16_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is092822img16.png" alt='BarChart' title='BarChart' width='615' height='519' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is093022img19_copy.txt">
+					<span class='close' id='16b_out'>&amp;#10005</span></p>
+<pre class='text' id='16b_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="sticky-footer">
+<a href="https://content.wolfram.com/uploads/sites/39/2022/09/should-i-eat-that-food-safety-with-wolfram-language.nb" data-walid="BlogFooterNotebook"><img class='lazy' data-src="https://content.wolfram.com/uploads/sites/39/2019/05/notebook-icon2x.png" width="25">Engage with the code in this post by downloading the Wolfram&nbsp;Notebook</a><br />
+<button class="close">×</button>
+</div>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px>Get full access to the latest Wolfram Language functionality with a <a href='https://www.wolfram.com/mathematica/trial/'>Mathematica</a> or <a href='https://account.wolfram.com/access/wolfram-one/trial'>Wolfram|One</a> trial.</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/09/30/should-i-eat-that-food-safety-with-wolfram-language/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Student Perspective: Wolfram Summer School 2022</title>
+		<link>https://blog.wolfram.com/2022/09/20/the-student-perspective-wolfram-summer-school-2022/</link>
+		<comments>https://blog.wolfram.com/2022/09/20/the-student-perspective-wolfram-summer-school-2022/#comments</comments>
+		<pubDate>Tue, 20 Sep 2022 14:52:13 +0000</pubDate>
+		<dc:creator><![CDATA[Mads Bahrami]]></dc:creator>
+		<category><![CDATA[Computational Thinking, Education, Events]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85713</guid>
+		<description><![CDATA[For the past 20 years, Stephen Wolfram has hosted the annual Wolfram Summer School: four weeks of intensive mentorship and teamwork and the completion of computational and research projects on a variety of topics, ranging from pure math to humanities, engineering, physics and more. Students from all over the world participate in Socratic classroom discussions, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter box-shadow" title="The Student Perspective: Wolfram Summer School 2022" src="https://content.wolfram.com/uploads/sites/39/2022/09/wss2022-hero.png" alt="The Student Perspective: Wolfram Summer School 2022" width="620" height="315" /></p>
+<p>For the past 20 years, <a href='https://www.stephenwolfram.com/'>Stephen Wolfram</a> has hosted the annual <a href='https://education.wolfram.com/summer-school'>Wolfram Summer School</a>: four weeks of intensive mentorship and teamwork and the completion of computational and research projects on a variety of topics, ranging from pure math to humanities, engineering, physics and more. Students from all over the world participate in Socratic classroom discussions, lecture series, casual networking events and coding sessions to help them design and complete original projects.<span id="more-85713"></span></p>
+<p>With the help of their assigned mentors, one another and Stephen himself, students are guided through a process designed to help them understand the capabilities and mechanics of the <a href='https://www.wolfram.com/language/'>Wolfram Language</a> and then apply their own creativity and backgrounds to develop unique projects. Through a series of discussion-based meetings with Stephen and their mentors, students define the scope of a project, explore it, tweak it if necessary and ultimately complete it. At the end of the program, students package their project results in a <a href='https://www.wolfram.com/notebooks/'>Wolfram Notebook</a>, create a summary as a post on <a href='https://community.wolfram.com/'>Wolfram Community</a>, generate a poster and give a two-minute presentation including discussion with their classmates. </p>
+<p>The team behind the Wolfram Summer School is superb and highly dedicated to providing the best environment for doing real science. This year, we invited some of our students to share their experience and journey through the Summer School. Here, Athina, Cayden and Fizra discuss their experience with the Wolfram team.</p>
+<h2 id='athina:-electrical-and-computer-engineering'>Athina: Electrical and Computer Engineering</h2>
+<p><em>Athina’s project focused on infinite lists to operate in self-referential expressions by developing </em><tt>ConsList</tt><em> and </em><tt>ConsTree</tt><em> functions. Her </em><em><a href='https://community.wolfram.com/groups/-/m/t/2575855'>full project</a></em><em> can be found on Wolfram Community.</em></p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img1.png" alt='Framework for self-referential data structures: ConsList &#038; ConsTree' title='Framework for self-referential data structures: ConsList &#038; ConsTree' width='470' height='308' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img1_copy.txt">
+					<span class='close' id='1_out'>&amp;#10005</span></p>
+<pre class='text' id='1_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>Attending the Wolfram Summer School this year was a unique and fruitful experience for me. A few weeks after my return to my hometown, I found myself reminiscing (and processing) moments that unconsciously got stuck in my mind. The four most beneficial experiences were the program’s courses, the interactions with the company’s staff, the interactions with the rest of the Summer School students and taking a closer look into a corporate workplace for the first time.</p>
+<p>Passing quickly—but efficiently—from the introduction phase on to more advanced Wolfram Language features was something that challenged me. Even though I didn’t completely understand all of the code I was presented, I was introduced to the logic of functional programming through some built-in courses. The courses, both my failed and successful attempts at coding, and discovering how the Wolfram Language works at its core triggered my interest in writing Wolfram Language code and in constantly trying to improve my project.</p>
+<p>From programming courses based on data-organization techniques, manipulating data and time-efficient programming to image processing, artificial intelligence and quantum mechanics courses, each day was filled with interesting lectures given by the company’s staff. The plethora of lectures raised my interest in various fields of science and motivated me to seek out further information afterward. Furthermore, these lecture hours were also a way for me to clear my mind and think about something else apart from my project.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img2.png" alt='Lectures with Stephen Wolfram' title='Lectures with Stephen Wolfram' width='470' height='290' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img2_copy.txt">
+					<span class='close' id='2_out'>&amp;#10005</span></p>
+<pre class='text' id='2_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>My mentors and all the staff in general were willing to answer all my questions and guide me to the next steps in my project. What left a positive impression was the fact that each time I had a question, apart from the ones that were answered by my mentors, I was referred to a Wolfram employee who knew exactly how to help me. Furthermore, mentors played a major role in welcoming me to the Summer School and making me feel comfortable. Dr. Stephen Wolfram also helped me to integrate into the Summer School community as he turned me from a listener to a speaker by giving me the chance to express my thoughts.</p>
+<p>People with diverse backgrounds gathering to exchange thoughts and share knowledge and experiences was something that I had not had the chance to experience before. During one of the last days of the Summer School, a few hours were devoted to an informal project presentation from the students. This was like a Q&#038;A session where each student was available to answer questions based on their project. During the session, I asked so many questions and I was so happy that everyone was willing to explain their work and was so open to discussion. I found it challenging when it was my turn to share and answer questions about my project.</p>
+<p>Each one of the students was friendly and approachable, and as we got to know each other, we encouraged and helped each other when we reached stumbling blocks with our projects. We had a common space full of desks where we all coded together, which contributed to motivating each other—and lots of laughs. When it was time for lunch or dinner, we would make an outing of it together. When we weren’t working, we were walking through downtown Champaign, running in the nearest park or bouldering.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img3.png" alt='Students playing foosball' title='Students playing foosball' width='470' height='211' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img3_copy.txt">
+					<span class='close' id='3_out'>&amp;#10005</span></p>
+<pre class='text' id='3_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<h2 id='cayden:-software-and-electrical-engineering'>Cayden: Software and Electrical Engineering</h2>
+<p><em>Cayden’s project focused on extracting relations from word embeddings and language models. His </em><em><a href='https://community.wolfram.com/groups/-/m/t/2575414'>full project</a></em><em> can be found on Wolfram Community.</em></p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img4.png" alt='Extracting linguistic relations fr. word embeddings&#038;language models' title='Extracting linguistic relations fr. word embeddings&#038;language models' width='470' height='136' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img4_copy.txt">
+					<span class='close' id='4_out'>&amp;#10005</span></p>
+<pre class='text' id='4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>I attended the 2022 Wolfram Summer School, an intensive four-week program focused on exploring and creating projects at the frontiers of science, technology and innovation. While there, I met and interacted with brilliant scientists, engineers, academics, entrepreneurs and students. Everyone had an interesting backstory and area of expertise, which made the daily, far-ranging conversations about physics, neuroscience, mathematics, etc. incredibly fun and interesting. Every student and mentor involved in the school seemed to bring with them a gleam in their eye to understand the world and progress human science and technology. It was the perfect environment for exploration, learning and progress.</p>
+<p>The program is largely based around three pillars: your project, your mentor and lectures. Each day, there are lectures on a variety of subjects, from neural networks to category theory, all of which show how to explore the respective area using the Wolfram Language. Before the school begins, each student is assigned a mentor who helps the student with their project, from ideas, to coding help, to finding the right people to talk to and more. At the start of the school, each student worked with their mentor and directly with Stephen Wolfram to select a project they would pursue for the next three weeks.</p>
+<p>In the first couple of days, every student crowded in for welcome keynote talks by the heads of the school. The first day had a large focus on meeting mentors, teaching assistants, the other students and Stephen Wolfram through a social pizza party. Everyone there was super friendly and social, and this was a common theme throughout the program. By the end of the summer, I had met and talked to nearly every attendee. </p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img5.png" alt='Pizza party for students and faculty' title='Pizza party for students and faculty' width='470' height='352' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img5_copy.txt">
+					<span class='close' id='5_out'>&amp;#10005</span></p>
+<pre class='text' id='5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>The first night of the program, we decided to have some casual team bonding among students and mentors by heading over to a local pub. The conversation revolved around science, technology and everyone’s research interests. We also discussed our personal backgrounds, as this is an international program with a diverse range of people flying in from all over the world.</p>
+<p>Before the school began, I wondered if students would have much chance to interact directly with Stephen Wolfram, whose book <em><a href='https://www.wolframscience.com/'>A New Kind of Science</a></em> and <a href='https://writings.stephenwolfram.com/'>blog</a> were my impetus to apply for the Summer School. I was pleasantly surprised that on the first day and on many occasions after his lectures, Stephen was happy to hang around and engage in all kinds of conversation and held office hours during the program. I joined in on a couple late-night conversations with Stephen where a small group gathered and discussed everything from ruliology and physics to communicating with animals and extraterrestrials. Talking to Stephen was fun and engaging, as he asked many questions and had his own fun stories of his past to share.</p>
+<p>The team of mentors that supported students daily throughout the program was excellent. My learning, project outcome and overall experience were greatly improved by my interactions with the many brilliant mentors that the Summer School put together.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img6.png" alt='Student and mentor working one on one' title='Student and mentor working one on one' width='470' height='352' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img6_copy.txt">
+					<span class='close' id='6_out'>&amp;#10005</span></p>
+<pre class='text' id='6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>My project explored the relationships between words as a step toward a symbolic and computable representation of language. Much of my four weeks was spent “digging for gold” in meaning space (word embedding/language model latent space), exploring the space and looking for all kinds of relationships.</p>
+<p>All of the information and code about my project can be found on my Community post, “<a href='https://community.wolfram.com/groups/-/m/t/2575414?p_p_auth=G5e8CeoW'>Extracting Linguistic Relations fr. Word Embeddings &#038; Language Models</a>.&rdquo;</p>
+<p>After four weeks of working hard on our projects and preparing artifacts for submission, every student does a two-minute presentation on their project. This is a fascinating day, as one gets to see and hear about the many interesting projects that other students completed at the school.</p>
+<p>On the day after presentations, we all graduated. Upon graduation, we received signed books by Stephen Wolfram, mini-diplomas, NFTs of our projects and even Wolfram Language cupcakes to celebrate our graduation.</p>
+<p>I had an excellent time at the Summer School. It was a month of intense learning, exploration, meeting new people and having fun. I’d highly recommend the program to anyone with a curiosity about STEM and understanding how the world works. The program had students ranging from undergraduates to late-career PhDs, and every one of them got immense value from the program.</p>
+<p><a href='https://www.youtube.com/watch?v=Pr2zMre-BdE' target=_blank rel=noopener>I filmed bits and pieces</a> of my time at the Wolfram Summer School and put them all together into a single video that tells (part of) the story of my experience.</p>
+<h2 id='fizra:-biomedical-engineering'>Fizra: Biomedical Engineering</h2>
+<p><em>Fizra’s project focused on modeling the visual hallucinations caused by migraines and occipital epilepsy. Her </em><em><a href='https://community.wolfram.com/groups/-/m/t/2575919'>full project</a></em><em> can be found on Wolfram Community.</em></p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img7.png" alt='Modeling migraine aura in convolutional neural networks (CNN)' title='Modeling migraine aura in convolutional neural networks (CNN)' width='470' height='312' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img7_copy.txt">
+					<span class='close' id='7_out'>&amp;#10005</span></p>
+<pre class='text' id='7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>When I heard about the Wolfram Summer School, I was curious. Except for randomly using <a href='https://www.wolframalpha.com/'>Wolfram|Alpha</a> for some college assignments, I had no knowledge of the Wolfram Language. After some exploration, I was more intrigued by the Summer School program. The extensive but perspicuous nature of it felt like an excellent opportunity to hone and learn a new skill, meet talented people and, most importantly, create something. I had little idea of what to expect from the school, but it turned out to be a far more fulfilling experience than I had imagined.</p>
+<p>The whole process of project selection, from shortlisting a few projects to finalizing the final project with Stephen and my mentor, was specifically catered to my budding interest in neuroscience and its applications in computation. My project was to model migraine auras in artificial neural networks, which allowed me to get some hands-on experience and dive deep into the world of computational neuroscience.</p>
+<p>Since I was new to the Wolfram Language and the overall functional programming paradigm, my mentor was extremely patient and helpful while I struggled to sail through my project and the Summer School. He helped me get a good grasp of the Wolfram Language in a relatively short amount of time and spent hours with me brainstorming ideas and coding, as well as making sure I stayed on track, completed the project and, most importantly, learned from the process. The Summer School team very diligently supported us with all the resources and motivation to complete our projects in time. Teaching assistants were always available to help with coding problems and errors that seemed impossible to conquer at the beginning. The Summer School lectures from experts within and outside the Wolfram team, plus interactions with Stephen, helped me in my project and in navigating disciplines other than my academic background. One of my favorite parts was how Stephen was involved not just in the execution of all the projects, but also guided the students personally to help them move in the right direction.</p>
+<table>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img8.png" alt='Students presented their projects' title='Students presented their projects' width='470' height='352' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/mb092022img8_copy.txt">
+					<span class='close' id='8_out'>&amp;#10005</span></p>
+<pre class='text' id='8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span></p>
+<p>It was difficult to manage participating remotely with a huge time difference, but the team made sure to keep all remote students in the loop and connected throughout the program. The four weeks of the Summer School were the most hectic, challenging and stimulating weeks of my life. This experience made me realize that when you have the right tools, mentors and resources, you are capable of pushing yourself far more than you imagined. For anyone interested in computational sciences, whether in engineering, finance, economics or social sciences, the Wolfram Summer School is the best place to start, as it will help you get out of your comfort zone and give you a chance to do some original research!</p>
+<h2 id='planning-ahead'>Planning Ahead</h2>
+<p>As we continue planning for the Wolfram Summer School 2023, we invite you to explore the <a href='https://www.wolframcloud.com/obj/microsites/summerschool/projects.html'>projects created</a> and sign up for the <a href='https://education.wolfram.com/summer-school/mailing-list/'>mailing list</a> to be informed when applications open for 2023. We hope to see you there!</p>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px>Learn more and stay informed about <a href='https://education.wolfram.com/summer-school'>Wolfram Summer School</a>!</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/09/20/the-student-perspective-wolfram-summer-school-2022/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cheers! A Computational Exploration of Alcoholic Beverages with the Wolfram Language</title>
+		<link>https://blog.wolfram.com/2022/09/15/cheers-a-computational-exploration-of-alcoholic-beverages-with-the-wolfram-language/</link>
+		<comments>https://blog.wolfram.com/2022/09/15/cheers-a-computational-exploration-of-alcoholic-beverages-with-the-wolfram-language/#comments</comments>
+		<pubDate>Thu, 15 Sep 2022 17:36:07 +0000</pubDate>
+		<dc:creator><![CDATA[Isabel Skidmore]]></dc:creator>
+		<category><![CDATA[Current Events, Education, Recreational Computation, Wolfram Language]]></category>
+		<guid isPermaLink="false">https://blog.wolfram.com/?p=85577</guid>
+		<description><![CDATA[For 10 thousand years, humans have been using fermentation to produce beverages for pleasure, rituals and healing. In ancient Greece, honey was fermented to produce mead. Today, popular sources of beverage fermentation are grains, grapes, berries and rice. The science of fermentation—known as zymology (or zymurgy)—is a fascinating blend of chemistry, biology, history and geography. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter box-shadow" title="Cheers! A Computational Exploration of Alcoholic Beverages with the Wolfram Language" src="https://content.wolfram.com/uploads/sites/39/2022/09/alcoholic-beverages-hero.png" alt="Cheers! A Computational Exploration of Alcoholic Beverages with the Wolfram Language" width="620" height="315" /></p>
+<p>For 10 thousand years, humans have been using fermentation to produce beverages for pleasure, rituals and healing. In ancient Greece, honey was fermented to produce mead. Today, popular sources of beverage fermentation are grains, grapes, berries and rice. The science of fermentation—known as zymology (or zymurgy)—is a fascinating blend of chemistry, biology, history and geography. The <a href='https://www.wolfram.com/language/'>Wolfram Language</a> now brings a new dimension to the study of alcoholic beverages through an extensive dataset ready to be explored and analyzed.<span id="more-85577"></span></p>
+<h2 id='alcohol-arithmetic'>Alcohol Arithmetic</h2>
+<p>The Wolfram Language offers more than six thousand functions, including arithmetic functions like <tt><a href='http://reference.wolfram.com/language/ref/Max.html'>Max</a></tt>, <tt><a href='http://reference.wolfram.com/language/ref/Min.html'>Min</a></tt>, <tt><a href='http://reference.wolfram.com/language/ref/Mean.html'>Mean</a></tt> and <tt><a href='http://reference.wolfram.com/language/ref/Median.html'>Median</a></tt>. Let’s look at the median alcohol content per serving and default serving size volume for all rums in the alcoholic beverages data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img1.png" alt='Median' title='Median' width='528' height='254' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img1_copy.txt">
+					<span class='close' id='1_out'>&amp;#10005</span></p>
+<pre class='text' id='1_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This mimics <tt><a href='http://reference.wolfram.com/language/ref/EntityValue.html'>EntityValue</a></tt>’s default behavior when working with attributed <tt><a href='https://reference.wolfram.com/language/ref/entity/Food.html'>Food</a></tt> entities:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img2.png" alt='EntityValue' title='EntityValue' width='441' height='216' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img2_copy.txt">
+					<span class='close' id='2_out'>&amp;#10005</span></p>
+<pre class='text' id='2_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>You can apply the same calculation to other alcoholic beverages, including <tt>"Cognac"</tt>, <tt>"Sake"</tt> and <tt>"Brandy"</tt>—which are all part of the <tt><a href='https://reference.wolfram.com/language/ref/entity/FoodType.html'>FoodType</a></tt> entity—to see how they compare with <tt>"Rum"</tt>.</p>
+<p>Wolfram Language data on the alcohol content of beverages can help when deciding how much to drink. On a night out, approximately how many drafts of beer equate to the usual glass of Chardonnay you have at home? The average glass of wine is about five fluid ounces:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img3.png" alt='glassOfWine = EntityInstance' title='glassOfWine = EntityInstance' width='434' height='230' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img3_copy.txt">
+					<span class='close' id='3_out'>&amp;#10005</span></p>
+<pre class='text' id='3_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>A serving of draft beer is usually one pint:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img4.png" alt='draftBeer = EntityInstance' title='draftBeer = EntityInstance' width='560' height='194' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img4_copy.txt">
+					<span class='close' id='4_out'>&amp;#10005</span></p>
+<pre class='text' id='4_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>So, every pint of beer is equivalent in alcohol content to slightly more than one and a half glasses of wine:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img5.png" alt='N' title='N' width='207' height='51' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img5_copy.txt">
+					<span class='close' id='5_out'>&amp;#10005</span></p>
+<pre class='text' id='5_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Knowledge of alcohol content can be useful when designing or choosing cocktails. Once liquors start to mix, it becomes harder to determine the actual alcohol content of the drink. Disclosing this information on menus could help less experienced bar patrons have a better understanding of what’s on offer.</p>
+<p>Here’s a function that gets the total alcohol content of a group of alcohols (assuming the density of most alcohols is about one g/mL, the density of water):</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img6.png" alt='totalAlcoholContent' title='totalAlcoholContent' width='437' height='274' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img6a_copy.txt">
+					<span class='close' id='6_out'>&amp;#10005</span></p>
+<pre class='text' id='6_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Let’s apply this function to a whiskey sour and a gin martini to compare the total alcohol content for these mixed drinks. A whiskey sour is often made with two fl. oz. of whiskey, and a classic gin martini can include two fl. oz. of gin and one fl. oz. of dry vermouth:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img7.png" alt='whiskeySour = &lt;|  Entity' title='whiskeySour = &lt;|  Entity' width='547' height='348' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img7_copy.txt">
+					<span class='close' id='7_out'>&amp;#10005</span></p>
+<pre class='text' id='7_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img8.png" alt='totalAlcoholContent' title='totalAlcoholContent' width='244' height='54' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img8_copy.txt">
+					<span class='close' id='8_out'>&amp;#10005</span></p>
+<pre class='text' id='8_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img9.png" alt='totalAlcoholContent' title='totalAlcoholContent' width='261' height='54' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img9_copy.txt">
+					<span class='close' id='9_out'>&amp;#10005</span></p>
+<pre class='text' id='9_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In this example, the martini has a higher total alcohol content than the whiskey sour. But we are leaving the most important question for you to decide—shaken or stirred?</p>
+<h2 id='counting-calories'>Counting Calories</h2>
+<p>If you count calories, have you ever wondered whether red wines and white wines differ in calorie content? Do all white wines have similar calories? You can create informative plots that answer questions like these.</p>
+<p>First, query the <tt>"RelativeTotalCaloriesContent"</tt> for both red and white wines using <tt>EntityValue</tt>:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img10.png" alt='{redWineCalories, whiteWineCalories} =  DeleteMissing' title='{redWineCalories, whiteWineCalories} =  DeleteMissing' width='538' height='348' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img10_copy.txt">
+					<span class='close' id='10_out'>&amp;#10005</span></p>
+<pre class='text' id='10_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Use <tt><a href='https://reference.wolfram.com/language/ref/ListPlot.html'>ListPlot</a></tt> to visualize the data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img11.png" alt='ListPlot' title='ListPlot' width='512' height='377' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img11_copy.txt">
+					<span class='close' id='11_out'>&amp;#10005</span></p>
+<pre class='text' id='11_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img12.png" alt='ListLinePlot' title='ListLinePlot' width='551' height='423' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img12_copy.txt">
+					<span class='close' id='12_out'>&amp;#10005</span></p>
+<pre class='text' id='12_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='the-world-of-whiskey'>The World of Whiskey</h2>
+<p>If you enjoy whiskey, geography or travel, <tt><a href='http://reference.wolfram.com/language/ref/GeoBubbleChart.html'>GeoBubbleChart</a></tt> can answer the question, “Where in the world are the whiskey producers?” You come away with an informative visualization and an entertaining tongue-twister.</p>
+<p>Query the <tt><a href='https://reference.wolfram.com/language/ref/entity/FoodLocation.html'>FoodLocation</a></tt> attribute for all whiskeys in the alcoholic beverages data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img13.png" alt='whiskeyLocations =  EntityValue' title='whiskeyLocations =  EntityValue' width='554' height='160' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img13_copy.txt">
+					<span class='close' id='13_out'>&amp;#10005</span></p>
+<pre class='text' id='13_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Use <tt><a href='http://reference.wolfram.com/language/ref/Interpreter.html'>Interpreter</a></tt> to get the geo positions that correspond to the <tt>FoodLocation</tt> entities:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img14.png" alt='geoPositionLookupWhiskey =  AssociationMap' title='geoPositionLookupWhiskey =  AssociationMap' width='418' height='68' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img14_copy.txt">
+					<span class='close' id='14_out'>&amp;#10005</span></p>
+<pre class='text' id='14_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Tally the geo positions and then plot them on a <tt>GeoBubbleChart</tt> to visualize the data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img15.png" alt='locationTallyWhiskey = Tally' title='locationTallyWhiskey = Tally' width='530' height='297' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img15b_copy.txt">
+					<span class='close' id='15_out'>&amp;#10005</span></p>
+<pre class='text' id='15_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to the data, the most common locations for whiskey producers are Kentucky, Tennessee, Scotland and Ireland, with less prolific whiskey producers in Canada and Japan. In this way, you could make sure that whiskeys from all around the world are represented in your home collection and explore the flavors produced across different regions.</p>
+<p>You can reuse this code to produce another <tt>GeoBubbleChart</tt> and discover where <tt>FoodType</tt> values <tt>"Rum"</tt>, <tt>"Beer"</tt> and <tt>"Vodka"</tt> are produced globally.</p>
+<h2 id='wine-or-beer?'>Wine or Beer?</h2>
+<p>Machine learning and neural networks are prevalent in our everyday lives. You can apply Wolfram Language machine learning to the alcoholic beverages data. Use <tt><a href='http://reference.wolfram.com/language/ref/Classify.html'>Classify</a></tt> to train a neural network to distinguish wines from beers based on relative alcohol content:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img16.png" alt='allWineAlcoholContent =  EntityValue' title='allWineAlcoholContent =  EntityValue' width='501' height='165' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img16_copy.txt">
+					<span class='close' id='16_out'>&amp;#10005</span></p>
+<pre class='text' id='16_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img17.png" alt='allBeerAlcoholContent =  EntityValue' title='allBeerAlcoholContent =  EntityValue' width='501' height='165' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img17_copy.txt">
+					<span class='close' id='17_out'>&amp;#10005</span></p>
+<pre class='text' id='17_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>We split the data obtained from <tt>EntityValue</tt> into a training set (80% of the available data) and a testing set to make sure we can tell how well our <tt><a href='http://reference.wolfram.com/language/ref/ClassifierFunction.html'>ClassifierFunction</a></tt> works on values it hasn’t seen before:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img18.png" alt='winesDataSplit = With' title='winesDataSplit = With' width='493' height='274' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img18_copy.txt">
+					<span class='close' id='18_out'>&amp;#10005</span></p>
+<pre class='text' id='18_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create the <tt>ClassifierFunction</tt>:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img19.png" alt='alcoholClassify = Classify' title='alcoholClassify = Classify' width='443' height='127' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img19_copy.txt">
+					<span class='close' id='19_out'>&amp;#10005</span></p>
+<pre class='text' id='19_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Classify a subset of the testing set data we reserved earlier:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img20.png" alt='randomBeveragesAlcoholContent = Association' title='randomBeveragesAlcoholContent = Association' width='504' height='719' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img20_copy.txt">
+					<span class='close' id='20_out'>&amp;#10005</span></p>
+<pre class='text' id='20_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img21.png" alt='alcoholsClassified = alcoholClassify /@ randomBeveragesAlcoholContent;' title='alcoholsClassified = alcoholClassify /@ randomBeveragesAlcoholContent;' width='503' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img21_copy.txt">
+					<span class='close' id='21_out'>&amp;#10005</span></p>
+<pre class='text' id='21_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><tt><a href='https://resources.wolframcloud.com/FunctionRepository/resources/NiceGrid/'>NiceGrid</a></tt> from the <a href='https://resources.wolframcloud.com/FunctionRepository/'>Wolfram Function Repository</a> displays a readable grid:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img22.png" alt='niceGrid = ResourceFunction' title='niceGrid = ResourceFunction' width='460' height='725' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img22a_copy.txt">
+					<span class='close' id='22_out'>&amp;#10005</span></p>
+<pre class='text' id='22_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='flavorful-fruits'>Flavorful Fruits</h2>
+<p>The alcoholic beverages available via the Wolfram Language are full of flavors. Several functions give you the ability to explore and visualize the data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img23.png" alt='Entity' title='Entity' width='416' height='366' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img23_copy.txt">
+					<span class='close' id='23_out'>&amp;#10005</span></p>
+<pre class='text' id='23_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>You can continue to explore vodka flavors, like <tt>"Mango"</tt>, <tt>"Peach"</tt> and <tt>"Coconut"</tt>.</p>
+<p>Use <tt><a href='http://reference.wolfram.com/language/ref/Manipulate.html'>Manipulate</a></tt> to investigate other flavored alcoholic beverages:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img24.png" alt='allAlcoholFlavors =  EntityValue' title='allAlcoholFlavors =  EntityValue' width='538' height='247' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img24_copy.txt">
+					<span class='close' id='24_out'>&amp;#10005</span></p>
+<pre class='text' id='24_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img25.png" alt='Manipulate' title='Manipulate' width='522' height='798' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img25_copy.txt">
+					<span class='close' id='25_out'>&amp;#10005</span></p>
+<pre class='text' id='25_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='flavors-in-focus'>Flavors in Focus</h2>
+<p>The Wolfram Language can visualize data in many different ways. <tt><a href='http://reference.wolfram.com/language/ref/ImageCollage.html'>ImageCollage</a></tt> can tell your data story in full color:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img26.png" alt='vodkaFlavors =  DeleteMissing' title='vodkaFlavors =  DeleteMissing' width='546' height='165' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img26_copy.txt">
+					<span class='close' id='26_out'>&amp;#10005</span></p>
+<pre class='text' id='26_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Find the images corresponding to the vodka <tt><a href='https://reference.wolfram.com/language/ref/entity/FoodFlavor.html'>FoodFlavor</a></tt> entities:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img27.png" alt='vodkaFlavorsNames = EntityValue' title='vodkaFlavorsNames = EntityValue' width='412' height='21' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img27_copy.txt">
+					<span class='close' id='27_out'>&amp;#10005</span></p>
+<pre class='text' id='27_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img28.png" alt='flavorToImageLookup =  AssociationMap' title='flavorToImageLookup =  AssociationMap' width='436' height='68' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img28_copy.txt">
+					<span class='close' id='28_out'>&amp;#10005</span></p>
+<pre class='text' id='28_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Use <tt>ImageCollage</tt> and <tt>Scaled</tt> to create a visualization of the most common flavors among vodkas in the Wolfram Language alcoholic beverages data:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img29.png" alt='imagesWithWeights = Map' title='imagesWithWeights = Map' width='519' height='430' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img29a_copy.txt">
+					<span class='close' id='29_out'>&amp;#10005</span></p>
+<pre class='text' id='29_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>From this image, we can quickly see that citrus fruits are among the most popular vodka flavors, as well as strawberry, cherry, raspberry, cucumber and coconut. The data reveals some surprising flavors like pumpkin, dragon fruit, espresso and caramel.</p>
+<p><tt><a href='http://reference.wolfram.com/language/ref/WordCloud.html'>WordCloud</a></tt> also provides an interesting weighted visualization of the most common vodka flavors:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img30.png" alt='WordCloud' title='WordCloud' width='426' height='416' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img30_copy.txt">
+					<span class='close' id='30_out'>&amp;#10005</span></p>
+<pre class='text' id='30_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id='a-parting-toast'>A Parting Toast</h2>
+<p>I have enjoyed sharing some of the innovative ways you can analyze and visualize the wide range of alcoholic beverage data now available. I hope you continue to explore Wolfram Language food and beverage data and that you share your exploration with us. (And if you drink, please don’t drive. Arrange a designated driver.) Here’s to our wonderful Wolfram community:</p>
+<table class='InCell'>
+<tbody>
+<tr>
+<td colspan='1' rowspan='1' class='Input'>
+<div>
+					<img class='' src="https://content.wolfram.com/uploads/sites/39/2022/09/is090722img31.png" alt='WordTranslation' title='WordTranslation' width='468' height='193' />
+				</div>
+<div class='IFL' data-src="https://content.wolfram.com/uploads/sites/39/2022/09/is091422img31_copy.txt">
+					<span class='close' id='31_out'>&amp;#10005</span></p>
+<pre class='text' id='31_out_text'></pre>
+</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="special-offer blue" style="padding-bottom: 20px">
+<table>
+<tbody>
+<tr>
+<td width=590px>Get full access to the latest Wolfram Language functionality with a <a href='https://www.wolfram.com/mathematica/trial/'>Mathematica</a> or <a href='https://account.wolfram.com/access/wolfram-one/trial'>Wolfram|One</a> trial.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sticky-footer">
+<a href="https://content.wolfram.com/uploads/sites/39/2022/09/cheers-a-computational-exploration-of-alcoholic-beverages-with-the-wolfram-language.nb" data-walid="BlogFooterNotebook"><img class='lazy' data-src="https://content.wolfram.com/uploads/sites/39/2019/05/notebook-icon2x.png" width="25">Engage with the code in this post by downloading the Wolfram&nbsp;Notebook</a><br />
+<button class="close">×</button>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://blog.wolfram.com/2022/09/15/cheers-a-computational-exploration-of-alcoholic-beverages-with-the-wolfram-language/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
