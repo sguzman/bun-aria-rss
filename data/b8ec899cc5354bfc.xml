@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>astro-ph.SR updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Astrophysics -- Solar and Stellar Astrophysics (astro-ph.SR) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Astrophysics -- Solar and Stellar Astrophysics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01377" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01445" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01449" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01460" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01465" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01563" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01564" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01570" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01651" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01682" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01718" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01721" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01740" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01800" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01861" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01868" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01891" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01897" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01911" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01927" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02007" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02036" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.03999" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.09506" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00940" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01377">
+<title>A 4 Gyr M-dwarf Gyrochrone from CFHT/MegaPrime Monitoring of the Open Cluster M67. (arXiv:2211.01377v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01377</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present stellar rotation periods for late K- and early M-dwarf members of
+the 4 Gyr old open cluster M67 as calibrators for gyrochronology and tests of
+stellar spin-down models. Using Gaia EDR3 astrometry for cluster membership and
+Pan-STARRS (PS1) photometry for binary identification, we build this set of
+rotation periods from a campaign of monitoring M67 with the
+Canada-France-Hawaii Telescope&apos;s MegaPrime wide field imager. We identify 1807
+members of M67, of which 294 are candidate single members with significant
+rotation period detections. Moreover, we fit a polynomial to the period versus
+color-derived effective temperature sequence observed in our data. We find that
+the rotation of very cool dwarfs can be explained by a simple solid-body
+spin-down between 2.7 and 4 Gyr. We compare this rotational sequence to the
+predictions of gyrochronological models and find that the best match is
+Skumanich-like spin-down, P_rot \propto t^0.62, applied to the sequence of
+Ruprecht 147. This suggests that, for spectral types K7-M0 with near-solar
+metallicity, once a star resumes spinning down, a simple Skumanich-like is
+sufficient to describe their rotation evolution, at least through the age of
+M67. Additionally, for stars in the range M1-M3, our data show that spin-down
+must have resumed prior to the age of M67, in conflict with predictions of the
+latest spin-down models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dungee_R/0/1/0/all/0/1&quot;&gt;Ryan Dungee&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Saders_J/0/1/0/all/0/1&quot;&gt;Jennifer van Saders&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gaidos_E/0/1/0/all/0/1&quot;&gt;Eric Gaidos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chun_M/0/1/0/all/0/1&quot;&gt;Mark Chun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Garcia_R/0/1/0/all/0/1&quot;&gt;Rafael A. Garcia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Magnier_E/0/1/0/all/0/1&quot;&gt;Eugene A. Magnier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mathur_S/0/1/0/all/0/1&quot;&gt;Savita Mathur&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Santos_A/0/1/0/all/0/1&quot;&gt;Angela R. G. Santos&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01445">
+<title>The apparent eta Carinae&apos;s long-term evolution and the critical role played by the strengthening of P Cygni absorption lines. (arXiv:2211.01445v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01445</link>
+<description rdf:parseType="Literal">&lt;p&gt;Over the entire 20th century, Eta Carinae (\ec) has displayed a unique
+spectrum, which recently has been evolving towards that of a typical LBV. The
+two competing scenarios to explain such evolution are: (1) a dissipating
+occulter in front of a stable star or (2) a decreasing mass loss rate of the
+star. The first mechanism simultaneously explains why the central star appears
+to be secularly increasing its apparent brightness while its luminosity does
+not change; why the Homunculus&apos; apparent brightness remains almost constant;
+and why the spectrum seen in direct light is becoming more similar to that
+reflected from the Homunculus (and which resembles a typical LBV). The second
+scenario does not account for these facts and predicts an increase in the
+terminal speed of the wind, contrary to observations. In this work, we present
+new data showing that the P Cygni absorption lines are secularly strengthening,
+which is not the expected behaviour for a decreasing wind-density scenario.
+CMFGEN modelling of the primary&apos;s wind with a small occulter in front agrees
+with observations. One could argue that invoking a dissipating coronagraphic
+occulter makes this object even more peculiar than it already appears to be.
+However, on the contrary, it solves the apparent contradictions between many
+observations. Moreover, by assigning the long-term behaviour to circumstellar
+causes and the periodic variations due to binarity, a star more stable after
+the 1900s than previously thought is revealed, contrary to the earlier paradigm
+of an unpredictable object.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Damineli_A/0/1/0/all/0/1&quot;&gt;A. Damineli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hillier_D/0/1/0/all/0/1&quot;&gt;D. J. Hillier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Navarete_F/0/1/0/all/0/1&quot;&gt;F. Navarete&lt;/a&gt; (3), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Moffat_A/0/1/0/all/0/1&quot;&gt;A. F. J. Moffat&lt;/a&gt; (4), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Weigelt_G/0/1/0/all/0/1&quot;&gt;G. Weigelt&lt;/a&gt; (7), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gull_T/0/1/0/all/0/1&quot;&gt;T. R. Gull&lt;/a&gt; (5), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Corcoran_M/0/1/0/all/0/1&quot;&gt;M.F. Corcoran&lt;/a&gt; (10, 11), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Richardson_N/0/1/0/all/0/1&quot;&gt;N. D. Richardson&lt;/a&gt; (6), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ho_T/0/1/0/all/0/1&quot;&gt;T. P. Ho&lt;/a&gt; (8), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Madura_T/0/1/0/all/0/1&quot;&gt;T.I. Madura&lt;/a&gt; (9), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Espinoza_Galeas_D/0/1/0/all/0/1&quot;&gt;D. Espinoza-Galeas&lt;/a&gt; (12), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hartman_H/0/1/0/all/0/1&quot;&gt;H. Hartman&lt;/a&gt; (13), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Morris_P/0/1/0/all/0/1&quot;&gt;P. Morris&lt;/a&gt; (14), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pickett_C/0/1/0/all/0/1&quot;&gt;C. S. Pickett&lt;/a&gt; (15), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Stevens_I/0/1/0/all/0/1&quot;&gt;I. R. Stevens&lt;/a&gt; (16), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Russell_C/0/1/0/all/0/1&quot;&gt;C. M. P. Russell&lt;/a&gt; (10, 11), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hamaguchi_K/0/1/0/all/0/1&quot;&gt;K. Hamaguchi&lt;/a&gt; (10, 17), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jablonski_F/0/1/0/all/0/1&quot;&gt;F. J. Jablonski&lt;/a&gt; (18), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Teodoro_M/0/1/0/all/0/1&quot;&gt;M. Teodoro&lt;/a&gt; (19), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+McGee_P/0/1/0/all/0/1&quot;&gt;P. McGee&lt;/a&gt; (20, 21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Cacella_P/0/1/0/all/0/1&quot;&gt;P. Cacella&lt;/a&gt; (21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Heathcote_B/0/1/0/all/0/1&quot;&gt;B. Heathcote&lt;/a&gt; (21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Harrison_K/0/1/0/all/0/1&quot;&gt;K. Harrison&lt;/a&gt; (21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Johnston_M/0/1/0/all/0/1&quot;&gt;M. Johnston&lt;/a&gt; (21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bohlsen_T/0/1/0/all/0/1&quot;&gt;T. Bohlsen&lt;/a&gt; (21), &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Scala_G/0/1/0/all/0/1&quot;&gt;G. Di Scala&lt;/a&gt; (21) ((1) Universidade de S&amp;#xe3;o Paulo, Instituto de Astronomia, Geof&amp;#xed;sica e Ci&amp;#xea;ncias Atmosf&amp;#xe9;ricas, S&amp;#xe3;o Paulo, Brazil, (2) Department of Physics and Astronomy &amp;amp; Pittsburgh Particle Physics, Astrophysics, and Cosmology Center (PITT PACC), University of Pittsburgh, Pittsburgh, PA, USA, (3) SOAR Telescope/NSF&amp;#x27;s NOIRLab, La Serena, Chile, (4) D&amp;#xe9;partement de Physique and Centre de Recherche en Astrophysique du Qu&amp;#xe9;bec (CRAQ), Universit&amp;#xe9; de Montr&amp;#xe9;al, Montr&amp;#xe9;al, Qu&amp;#xe9;bec, Canada, (5) Exoplanets &amp;amp; Stellar Astrophysics Laboratory, NASA/Goddard Space Flight Center, Greenbelt, MD, USA, (6) Department of Physics and Astronomy, Embry-Riddle Aeronautical University, Prescott, AZ, USA, (7) Max Planck Institute for Radio Astronomy, Bonn, Germany, (8) Department of Applied Mathematics, University of California, Santa Cruz, Santa Cruz, CA, USA, (9) Department of Physics and Astronomy, San Jos&amp;#xe9; State University, San Jos&amp;#xe9;, CA, USA, (10) CRESST II and X-ray Astrophysics Laboratory, NASA/Goddard Space Flight Center, Greenbelt, MD, USA, (11) The Catholic University of America, Washington, DC, USA, (12) Departamento de Astronomia y Astrofisica, Facultad de Ciencias Espaciales, Universidad Nacional Autonoma de Honduras, Bulevar Suyapa, Tegucigalpa, M.D.C, Honduras, Centroamerica, (13) Materials Science and Applied Mathematics, Malm&amp;#xf6; University, Malm&amp;#xf6;, Sweden, (14) California Institute of Technology, IPAC, Pasadena, CA, USA, (15) Department of Physics and Astronomy, Embry-Riddle Aeronautical University, Prescott, AZ, USA, (16) School of Physics &amp;amp; Astronomy, University of Birmingham, Birmingham, UK, (17) Department of Physics, University of Maryland Baltimore County, Baltimore, MD, USA, (18) Instituto Nacional de Pesquisas Espaciais/MCTIC, S&amp;#xe3;o Jos&amp;#xe9; dos Campos, SP, Brazil, (19) Space Telescope Science Institute, Baltimore, MD, USA, (20) Department of Physics, School of Physical Sciences, University of Adelaide, South Australia, (21) SASER Team, South Yarra, Vic, Australia)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01449">
+<title>The Fifth Catalogue of Nearby Stars (CNS5). (arXiv:2211.01449v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01449</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present the compilation of the Fifth Catalogue of Nearby Stars (CNS5),
+based on astrometric and photometric data from Gaia EDR3 and Hipparcos, and
+supplemented with parallaxes from ground-based astrometric surveys carried out
+in the infrared.
+&lt;/p&gt;
+&lt;p&gt;The aim of the CNS5 is to provide the most complete sample of objects in the
+solar neighbourhood. For all known stars and brown dwarfs in the 25 pc sphere
+around the Sun, basic astrometric and photometric parameters are given.
+Furthermore, we provide the colour-magnitude diagram and various luminosity
+functions of the stellar content in the solar neighbourhood, and characterise
+the completeness of the CNS5 catalogue.
+&lt;/p&gt;
+&lt;p&gt;We compile a sample of stars and brown dwarfs which most likely are located
+within 25 pc of the Sun, taking space-based parallaxes from Gaia EDR3 and
+Hipparcos as well as ground-based parallaxes from Best et al. (2021),
+Kirkpatrick et al. (2021), and from the CNS4 into account. We develop a set of
+selection criteria to clean the sample from spurious sources. Furthermore, we
+show that effects of blending in the Gaia photometry, which affect mainly the
+faint and red sources in Gaia, can be mitigated, to reliably place those
+objects in a colour-magnitude diagram. We also assess the completeness of the
+CNS5 using a Kolmogorov-Smirnov test and derive observational optical and
+mid-infrared luminosity functions for the main-sequence stars and white dwarfs
+in the solar neighbourhood. The CNS5 contains 5931 objects, including 5230
+stars (4946 main-sequence stars, 20 red giants and 264 white dwarfs) and 701
+brown dwarfs.
+&lt;/p&gt;
+&lt;p&gt;We find that the CNS5 catalogue is statistically complete down to 19.7 mag in
+G-band and 11.8 mag in W1-band absolute magnitudes, corresponding to a spectral
+type of L8.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Golovin_A/0/1/0/all/0/1&quot;&gt;Alex Golovin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Reffert_S/0/1/0/all/0/1&quot;&gt;Sabine Reffert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Just_A/0/1/0/all/0/1&quot;&gt;Andreas Just&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jordan_S/0/1/0/all/0/1&quot;&gt;Stefan Jordan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vani_A/0/1/0/all/0/1&quot;&gt;Akash Vani&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Jahreiss_H/0/1/0/all/0/1&quot;&gt;Hartmut Jahrei&amp;#xdf;&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01460">
+<title>Possible optical counterparts of ULXs in NGC 1672. (arXiv:2211.01460v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01460</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this study, we use archival data from HST, Chandra, XMM-Newton, and
+Swift-XRT, to probe the nature of 9 (X1-X9) candidate ULXs in NGC 1672. Our
+study focuses on using the precise source positions obtained via improved
+astrometry based on {\it Chandra} and HST observations to search for and
+identify optical counterparts for these ULXs.Unique optical counterparts are
+identified for X2 an{d X6; two potential counterparts were determined for X1,
+X5 and X7 within the respective error radii while no optical counterparts were
+found for the remaining four sources. Based on spectral energy distributions
+(SEDs), X-ray and optical temporal analyses, some evidences about the nature of
+X1 and X2 were obtained.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Allak_S/0/1/0/all/0/1&quot;&gt;S. Allak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Akyuz_A/0/1/0/all/0/1&quot;&gt;A. Akyuz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sonbas_E/0/1/0/all/0/1&quot;&gt;E. Sonbas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dhuga_K/0/1/0/all/0/1&quot;&gt;K. S. Dhuga&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01465">
+<title>The Small Separation A-Star Companion Population: First Results with CHARA/MIRC-X. (arXiv:2211.01465v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01465</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present preliminary results from our long-baseline interferometry (LBI)
+survey to constrain the multiplicity properties of intermediate-mass A-type
+stars within 80pc. Previous multiplicity studies of nearby stars exhibit
+orbital separation distributions well-fitted with a log-normal with peaks &amp;gt;
+15au, increasing with primary mass. The A-star multiplicity survey of De Rosa
+et al. (2014), sensitive beyond 30au but incomplete below 100 au, found a
+log-normal peak around 390au. Radial velocity surveys of slowly-rotating,
+chemically peculiar Am stars identified a significant number of very close
+companions with periods $\leq$ 5 days, ~ 0.1au, a result similar to surveys of
+O- and B-type primaries. With the improved performance of LBI techniques, we
+can probe these close separations for normal A-type stars where other surveys
+are incomplete. Our initial sample consists of 27 A-type primaries with
+estimated masses between 1.44-2.49M$_{\odot}$ and ages 10-790Myr, which we
+observed with the MIRC-X instrument at the CHARA Array. We use the open source
+software CANDID to detect five companions, three of which are new, and derive a
+companion frequency of 0.19$^{+0.11}_{-0.06}$ over mass ratios 0.25-1.0 and
+projected separations 0.288-5.481 au. We find a probability of 10$^{-6}$ that
+our results are consistent with extrapolations based on previous models of the
+A-star companion population, over mass ratios and separations sampled. Our
+results show the need to explore these very close separations to inform our
+understanding of stellar formation and evolution processes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Furio_M/0/1/0/all/0/1&quot;&gt;Matthew De Furio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gardner_T/0/1/0/all/0/1&quot;&gt;Tyler Gardner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Monnier_J/0/1/0/all/0/1&quot;&gt;John Monnier&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Meyer_M/0/1/0/all/0/1&quot;&gt;Michael R. Meyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kratter_K/0/1/0/all/0/1&quot;&gt;Kaitlin Kratter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Schaefer_G/0/1/0/all/0/1&quot;&gt;Gail Schaefer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Anugu_N/0/1/0/all/0/1&quot;&gt;Narsireddy Anugu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Davies_C/0/1/0/all/0/1&quot;&gt;Claire L. Davies&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kraus_S/0/1/0/all/0/1&quot;&gt;Stefan Kraus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lanthermann_C/0/1/0/all/0/1&quot;&gt;Cyprien Lanthermann&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bouquin_J/0/1/0/all/0/1&quot;&gt;Jean-Baptiste Le Bouquin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ennis_J/0/1/0/all/0/1&quot;&gt;Jacob Ennis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01563">
+<title>Recovering thermodynamics from spectral profiles observed by IRIS (II): improved calculation of the uncertainties based on Monte Carlo experiments. (arXiv:2211.01563v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01563</link>
+<description rdf:parseType="Literal">&lt;p&gt;Observations by the Interface Region Imaging Spectrograph (IRIS) in the Mg II
+h &amp;amp; k spectral lines have provided a new diagnostic window towards the
+knowledge of the complex physical conditions in the solar chromosphere.
+Theoretical efforts focused on understanding the behavior of these lines have
+allowed us to obtain a better and more accurate vision of the chromosphere.
+These efforts include forward modeling, numerical simulations, and inversions.
+In this paper, we focus our attention on the uncertainties associated with the
+thermodynamic model atmosphere obtained after the inversion of the Mg II h &amp;amp; k
+lines. We have used ~ 50;000 synthetic representative profiles of the IRIS2
+database to characterize the most important source of uncertainties in the
+inversion process, viz.: the inherent noise of the observations, the random
+initialization of process, and the selection criteria in a high-dimensional
+space. We have applied a Monte Carlo approach to this problem. Thus, for a
+given synthetic representative profile, we have created five randomized noise
+realizations (representative of the most popular exposure times in the IRIS
+observations), and inverted these profiles five times with different inversion
+initializations. The resulting 25 inverted profiles, fits to noisy data, and
+model atmospheres are then used to determine the uncertainty in the model
+atmosphere, based on the standard deviation and empirical selection criteria
+for the goodness of fit. With this approach, the new uncertainties of the
+models available in the IRIS2 database are more reliable at the optical depths
+where the Mg II h &amp;amp; k lines are sensitive to changes in the thermodynamics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dalda_A/0/1/0/all/0/1&quot;&gt;Alberto Sainz Dalda&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pontieu_B/0/1/0/all/0/1&quot;&gt;Bart De Pontieu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01564">
+<title>Shell helium-burning hot subdwarf B stars as candidates for blue large-amplitude pulsators. (arXiv:2211.01564v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01564</link>
+<description rdf:parseType="Literal">&lt;p&gt;Blue large-amplitude pulsators (BLAPs) are a newly discovered type of
+variable star. Their typical pulsation periods are on the order of a few tens
+of minutes, with relatively large amplitudes of 0.2-0.4 mag in optical bands,
+and their rates of period changes are on the order of $10^{-7} yr^{-1}$ (both
+positive and negative). They are extremely rare objects and attempts to explain
+their origins and internal structures have attracted a great deal of attention.
+Previous studies have proposed that BLAPs may be pre-white dwarfs, with masses
+around $0.3M_\odot$, or core-helium-burning stars in the range of $\sim
+0.7-1.1M_\odot$. In this work, we use a number of MESA models to compute and
+explore whether BLAPs could be explained as shell helium-burning subdwarfs type
+B (SHeB sdBs). The models that best match existing observational constraints
+have helium core masses in the range of $\sim 0.45-0.5M_\odot$. Our model
+predicts that the positive rate of period change may evolve to negative. The
+formation channels for SHeB sdBs involve binary evolution and although the vast
+majority of BLAPs do not appear to be binaries (with the exception of HD
+133729), the observational constraints are still very poor. Motivated by these
+findings, we explored the Roche lobe overflow channel. Of the 304 binary
+evolution models we computed, about half of them are able to produce SHeB sdBs
+in long-period binaries that evade detection from the limited observations that
+are currently available.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Xiong_H/0/1/0/all/0/1&quot;&gt;H.Xiong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Casagrande_L/0/1/0/all/0/1&quot;&gt;L.Casagrande&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;X.Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vos_J/0/1/0/all/0/1&quot;&gt;J.Vos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Zhang_X/0/1/0/all/0/1&quot;&gt;X.Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Justham_S/0/1/0/all/0/1&quot;&gt;S.Justham&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Li_J/0/1/0/all/0/1&quot;&gt;J. Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Wu_T/0/1/0/all/0/1&quot;&gt;T.Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Li_Y/0/1/0/all/0/1&quot;&gt;Y.Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Han_Z/0/1/0/all/0/1&quot;&gt;Z.Han&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01570">
+<title>Grain Growth in the Dust Ring with Crescent around Very Low Mass Star ZZ Tau IRS with JVLA. (arXiv:2211.01570v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01570</link>
+<description rdf:parseType="Literal">&lt;p&gt;The azimuthal asymmetries of dust rings in protoplanetary disks such as a
+crescent around young stars are often interpreted as dust traps, and thus as
+ideal locations for planetesimal and planet formations. Whether such dust traps
+effectively promote planetesimal formation in disks around very-low-mass stars
+(VLM; a mass of $\lesssim$0.2~$M_\odot$) is debatable, as the dynamical and
+grain growth timescales in such systems are long. To investigate grain growth
+in such systems, we studied the dust ring with crescent around the VLM star
+ZZ~Tau~IRS using the Karl G. Jansky Very Large Array (JVLA) at centimeter
+wavelengths. Significant signals were detected around ZZ~Tau~IRS. To estimate
+the maximum grain size ($a_{\rm max}$) in the crescent, we compared the
+observed spectral energy distribution (SED) with SEDs for various $a_{\rm max}$
+values predicted by radiative transfer calculations. We found $a_{\rm max}
+\gtrsim$~1~mm and $\lesssim$~60~$\mu$m in the crescent and ring, respectively,
+though our modeling efforts rely on uncertain dust properties. Our results
+suggest that grain growth occurred in the ZZ~Tau~IRS disk, relative to
+sub-micron-sized interstellar medium. Planet formation in crescent with
+mm-sized pebbles might proceed more efficiently than in other regions with
+sub-millimeter-sized pebbles via pebble accretion scenarios.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Hashimoto_J/0/1/0/all/0/1&quot;&gt;Jun Hashimoto&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Liu_H/0/1/0/all/0/1&quot;&gt;Hauyu Baobab Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dong_R/0/1/0/all/0/1&quot;&gt;Ruobing Dong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Liu_B/0/1/0/all/0/1&quot;&gt;Beibei Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Muto_T/0/1/0/all/0/1&quot;&gt;Takayuki Muto&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01651">
+<title>Temporal evolutions and quasi-periodic variations present in the sunspot number and group sunspot area data measured at Kodaikanal Observatory for solar cycles 14 to 24. (arXiv:2211.01651v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01651</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Kodaikanal Observatory has made synoptic observations of the Sun in white
+light since 1904, and these images are sketched on the Stonyhurst grids called
+sun charts. These continuous hand-drawn data sets are used for long-term
+studies of the Sun. This article investigates temporal and periodic variations
+of the monthly hemispheric sunspot number and sunspot group area for
+1905--2016, covering solar cycles 14 to 24. We find that the temporal
+variations of the sunspot number and group area are different in each
+hemisphere and peak at different times of the solar cycle in the opposite
+hemisphere. For both the data sets, Cycle 19 shows maximum amplitude. For the
+sunspot number time series, Cycle 24 was the weakest, and Cycle 15 for the
+group area. The existence of double peaks and violation of the ``odd-even
+rule&apos;&apos; was found in both data sets. We have studied the periodic and
+quasi-periodic variations in both the time series by wavelet technique. We
+noticed that along with the fundamental mode of the $\sim$ 11~year cycle and
+polarity reversal period of 22~years, the sunspot activity data also exhibited
+several mid-term periodicities in the opposite hemispheres, specifically the
+Riger group and quasi-biennial periodicities. The temporal evolution of these
+detected quasi-periodicities also differs in the northern and southern
+hemispheres. We analyzed the data set statistically to understand the bulk
+properties and coupling between the opposite hemispheres. The study indicates
+that the two hemispheric data sets differ, but some dependency could be
+present.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ravindra_B/0/1/0/all/0/1&quot;&gt;Belur Ravindra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chowdhury_P/0/1/0/all/0/1&quot;&gt;Partha Chowdhury&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ray_P/0/1/0/all/0/1&quot;&gt;Pratap Chandra Ray&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Pichamani_K/0/1/0/all/0/1&quot;&gt;Kumaravel Pichamani&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01682">
+<title>First Lunar Occultation Results with the TIRCAM2 Near-Infrared Imager at the Devasthal 3.6-m Telescope. (arXiv:2211.01682v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01682</link>
+<description rdf:parseType="Literal">&lt;p&gt;TIRCAM2 is the facility near-infrared Imager at the Devasthal 3.6-m telescope
+in northern India, equipped with an Aladdin III InSb array detector. We have
+pioneered the use of TIRCAM2 for very fast photometry, with the aim of
+recording Lunar Occultations (LO). This mode is now operational and publicly
+offered. In this paper we describe the relevant instrumental details, we
+provide references to the LO method and the underlying data analysis
+procedures, and we list the LO events recorded so far. Among the results, we
+highlight a few which have led to the measurement of one small-separation
+binary star and of two stellar angular diameters. We conclude with a brief
+outlook on further possible instrumental developments and an estimate of the
+scientific return. In particular, we find that the LO technique can detect
+sources down to K~ 9 mag with SNR=1 on the DOT telescope. Angular diameters
+larger than ~ 1 milliarcsecond (mas) could be measured with SNR above 10, or
+K~6 mag. These numbers are only an indication and will depend strongly on
+observing conditions such as lunar phase and rate of lunar limb motion. Based
+on statistics alone, there are several thousands LO events observable in
+principle with the given telescope and instrument every year.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sharma_S/0/1/0/all/0/1&quot;&gt;Saurabh Sharma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Richichi_A/0/1/0/all/0/1&quot;&gt;Andrea Richichi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ojha_D/0/1/0/all/0/1&quot;&gt;Devendra K. Ojha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kumar_B/0/1/0/all/0/1&quot;&gt;Brajesh Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Naik_M/0/1/0/all/0/1&quot;&gt;Milind Naik&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rawat_J/0/1/0/all/0/1&quot;&gt;Jeewan Rawat&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bora_D/0/1/0/all/0/1&quot;&gt;Darshan S. Bora&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Belwal_K/0/1/0/all/0/1&quot;&gt;Kuldeep Belwal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dhami_P/0/1/0/all/0/1&quot;&gt;Prakash Dhami&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bisht_M/0/1/0/all/0/1&quot;&gt;Mohit Bisht&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01718">
+<title>The SPHERE view of multiple star formation. (arXiv:2211.01718v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01718</link>
+<description rdf:parseType="Literal">&lt;p&gt;While a large fraction of the stars are in multiple systems, our
+understanding of the processes leading to the formation of these systems is
+still inadequate. Given the large theoretical uncertainties, observation plays
+a basic role. Here we discuss the contribution of high contrast imaging, and
+more specifically of the SPHERE instrument at the ESO Very Large Telescope, in
+this area. SPHERE nicely complements other techniques - in particular those
+exploiting Gaia and ALMA - in detecting and characterising systems near the
+peak of the distribution with separation and allows to capture snapshots of
+binary formation within disks that are invaluable for the understanding of disk
+fragmentation.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gratton_R/0/1/0/all/0/1&quot;&gt;R.Gratton&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Desidera_S/0/1/0/all/0/1&quot;&gt;S. Desidera&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marzari_F/0/1/0/all/0/1&quot;&gt;F. Marzari&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Bonavita_M/0/1/0/all/0/1&quot;&gt;M. Bonavita&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01721">
+<title>Chaos in multiplanetary extrasolar systems. (arXiv:2211.01721v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01721</link>
+<description rdf:parseType="Literal">&lt;p&gt;Here we present an initial look at the dynamics and stability of 178
+multiplanetary systems which are already confirmed and listed in the NASA
+Exoplanet Archive. To distinguish between the chaotic and regular nature of a
+system, the value of the MEGNO indicator for each system was determined. Almost
+three-quarters of them could be labelled as long-term stable. Only 45 studied
+systems show chaotic behaviour. We consequently investigated the effects of the
+number of planets and their parameters on the system stability. A comparison of
+results obtained using the MEGNO indicator and machine-learning algorithm SPOCK
+suggests that the SPOCK could be used as an effective tool for reviewing the
+stability of multiplanetary systems. A similar study was already published by
+Laskar and Petit in 2017. We compared their analysis based on the AMD criterion
+with our results. The possible discrepancies are discussed.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Gajdos_P/0/1/0/all/0/1&quot;&gt;Pavol Gajdo&amp;#x161;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vanko_M/0/1/0/all/0/1&quot;&gt;Martin Va&amp;#x148;ko&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01740">
+<title>Formation and Thermodynamic Evolution of plasmoids in active region jets. (arXiv:2211.01740v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01740</link>
+<description rdf:parseType="Literal">&lt;p&gt;We have carried out a comprehensive study of the temperature structure of
+plasmoids, which successively occurred in recurrent active region jets. The
+multithermal plasmoids were seen to be travelling along the multi-threaded
+spire as well as at the footpoint region in the EUV/UV images recorded by the
+Atmospheric Imaging Assembly (AIA). The Differential Emission Measure (DEM)
+analysis was performed using EUV AIA images, and the high-temperature part of
+the DEM was constrained by combining X-ray images from the X-ray telescope
+(XRT/Hinode). We observed a systematic rise and fall in brightness, electron
+number densities and the peak temperatures of the spire plasmoid during its
+propagation along the jet. The plasmoids at the footpoint (FPs) (1.0-2.5 MK)
+and plasmoids at the spire (SPs) (1.0-2.24 MK) were found to have similar peak
+temperatures, whereas the FPs have higher DEM weighted temperatures (2.2-5.7
+MK) than the SPs (1.3-3.0 MK). A lower limit to the electron number densities
+of plasmoids - SPs (FPs) were obtained that ranged between
+3.4-6.1$\times$10$^{8}$ (3.3-5.9$\times$10$^{8}$) cm$^{-3}$ whereas for the
+spire, it ranged from 2.6-3.2$\times$10$^{8}$ cm$^{-3}$. Our analysis shows
+that the emission of these plasmoids starts close to the base of the jet(s),
+where we believe that a strong current interface is formed. This suggests that
+the blobs are plasmoids induced by a tearing-mode instability.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mulay_S/0/1/0/all/0/1&quot;&gt;Sargam M. Mulay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tripathi_D/0/1/0/all/0/1&quot;&gt;Durgesh Tripathi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mason_H/0/1/0/all/0/1&quot;&gt;Helen Mason&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Zanna_G/0/1/0/all/0/1&quot;&gt;Giulio Del Zanna&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Archontis_V/0/1/0/all/0/1&quot;&gt;Vasilis Archontis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01800">
+<title>Plausible constraints on the range of bulk terrestrial exoplanet compositions in the Solar neighbourhood. (arXiv:2211.01800v1 [astro-ph.EP])</title>
+<link>http://arxiv.org/abs/2211.01800</link>
+<description rdf:parseType="Literal">&lt;p&gt;Rocky planet compositions regulate planetary evolution by affecting core
+sizes, mantle properties, and melting behaviours. Yet, quantitative treatments
+of this aspect of exoplanet studies remain generally under-explored. We attempt
+to constrain the range of potential bulk terrestrial exoplanet compositions in
+the solar neighbourhood (&amp;lt;200 pc). We circumscribe probable rocky exoplanet
+compositions based on a population analysis of stellar chemical abundances from
+the Hypatia and GALAH catalogues. We apply a devolatilization model to simulate
+compositions of hypothetical, terrestrial-type exoplanets in the habitable
+zones around Sun-like stars, considering elements O, S, Na, Si, Mg, Fe, Ni, Ca,
+and Al. We further apply core-mantle differentiation by assuming constant
+oxygen fugacity, and model the consequent mantle mineralogy with a Gibbs energy
+minimisation algorithm. We report statistics on several compositional
+parameters and propose a reference set of (21) representative planet
+compositions for using as end-member compositions in imminent modelling and
+experimental studies. We find a strong correlation between stellar Fe/Mg and
+metallic core sizes, which can vary from 18 to 35 wt%. Furthermore, stellar
+Mg/Si gives a first-order indication of mantle mineralogy, with high-Mg/Si
+stars leading to weaker, ferropericlase-rich mantles, and low-Mg/Si stars
+leading to mechanically stronger mantles. The element Na, which modulates
+crustal buoyancy and mantle clinopyroxene fraction, is affected by
+devolatilization the most. While we find that planetary mantles mostly consist
+of Fe/Mg-silicates, core sizes and relative abundances of common minerals can
+nevertheless vary significantly among exoplanets. These differences likely lead
+to different evolutionary pathways among rocky exoplanets in the solar
+neighbourhood.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Spaargaren_R/0/1/0/all/0/1&quot;&gt;Rob J. Spaargaren&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Wang_H/0/1/0/all/0/1&quot;&gt;Haiyang S. Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mojzsis_S/0/1/0/all/0/1&quot;&gt;Stephen J Mojzsis&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ballmer_M/0/1/0/all/0/1&quot;&gt;Maxim D Ballmer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tackley_P/0/1/0/all/0/1&quot;&gt;Paul J Tackley&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01861">
+<title>Influences of mass transfer stability criterion on double white dwarf populations. (arXiv:2211.01861v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01861</link>
+<description rdf:parseType="Literal">&lt;p&gt;Mass transfer stability is an essential issue in binary evolution. Ge et al.
+studied critical mass ratios for dynamically stable mass transfer by
+establishing adiabatic mass loss model and found that the donor stars on the
+giant branches tend to be more stable than that based on the composite
+polytropic stellar model. We would investigate the influence of mass transfer
+stability on the formation and properties of DWD populations. We performed a
+series of binary population synthesis, where the critical mass ratios from
+adiabatic mass loss model (Ge&apos;s model) and that from the composite polytropic
+model are adopted, respectively. For Ge&apos;s model, most of the DWDs are produced
+from the stable non-conservative Roche lobe overflow plus common envelope (CE)
+ejection channel (RL+CE channel) regardless of the CE ejection efficiency
+$\alpha_{CE}$. While the results of the polytropic model strongly depend on the
+adopted value of $\alpha_{ CE}$. We find DWDs produced from the RL+CE channel
+have comparable WD masses and the mass ratio distribution peaks at around 1.
+Based on the magnitude-limited sample of DWDs, the space densities for the
+detectable DWDs and those with extremely low-mass WD (ELM WD) companions in
+Ge&apos;s model is $1347$ and $473 kpc^{-3}$, respectively, close to observations.
+While the polytropic model overpredicts space density of DWDs by a factor of
+about $2-3$. We also find that the results of DWD merger rate distribution in
+Ge&apos;s model reproduce the observations better than that of the polytropic model,
+and the merger rate of DWDs with ELM WD companions in the Galaxy is about
+$1.8\times 10^{-3} yr^{-1}$ in Ge&apos;s model, which is comparable to the
+observation estimation. We confirm that the mass transfer stability plays
+important roles in the formation and properties of DWD populations, and then in
+the progenitors of SNe Ia and detectable GW sources.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+LI_Z/0/1/0/all/0/1&quot;&gt;Zhenwei LI&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chen_X/0/1/0/all/0/1&quot;&gt;Xuefei Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ge_H/0/1/0/all/0/1&quot;&gt;Hongwei Ge&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chen_H/0/1/0/all/0/1&quot;&gt;Hai-Liang Chen&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Han_Z/0/1/0/all/0/1&quot;&gt;Zhanwen Han&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01868">
+<title>Detection of cesium in the atmosphere of the hot He-rich white dwarf HD 149499B. (arXiv:2211.01868v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01868</link>
+<description rdf:parseType="Literal">&lt;p&gt;We report the first detection of cesium (Z = 55) in the atmosphere of a white
+dwarf. Around a dozen absorption lines of Cs IV, Cs V, and Cs VI have been
+identified in the Far Ultraviolet Spectroscopic Explorer spectrum of the
+He-rich white dwarf HD 149499B (Teff = 49,500 K, log g = 7.97). The lines have
+equivalent widths ranging from 2.3 to 26.9 m\r{A}. We performed a spectral
+synthesis analysis to determine the cesium content in the atmosphere. Non-LTE
+atmosphere models were computed by considering cesium explicitly in the
+calculations. For this purpose we calculated oscillator strengths for the
+bound-bound transitions of Cs IV-Cs VI with both AUTOSTRUCTURE
+(multiconfiguration Breit-Pauli) and GRASP2K (multiconfiguration Dirac-Fock)
+atomic structure codes as neither measured nor theoretical values are reported
+in the literature. We determined a cesium abundance of log N(Cs)/N(He) =
+-5.45(0.35), which can also be expressed in terms of the mass fraction log
+X(Cs) = -3.95(0.35).
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Chayer_P/0/1/0/all/0/1&quot;&gt;P. Chayer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Mendoza_C/0/1/0/all/0/1&quot;&gt;C. Mendoza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Melendez_M/0/1/0/all/0/1&quot;&gt;M. Mel&amp;#xe9;ndez&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Deprince_J/0/1/0/all/0/1&quot;&gt;J. Deprince&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dupuis_J/0/1/0/all/0/1&quot;&gt;J. Dupuis&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01891">
+<title>Protostellar collapse simulations in spherical geometry with dust coagulation and fragmentation. (arXiv:2211.01891v1 [astro-ph.GA])</title>
+<link>http://arxiv.org/abs/2211.01891</link>
+<description rdf:parseType="Literal">&lt;p&gt;We model the coagulation and fragmentation of dust grains during the
+protostellar collapse with our newly developed shark code. It solves the
+gas-dust hydrodynamics in a spherical geometry and the
+coagulation/fragmentation equation. It also computes the ionization state of
+the cloud and the Ohmic, ambipolar and Hall resistivities. We find that the
+dust size distribution evolves significantly during the collapse, large grain
+formation being controlled by the turbulent differential velocity. When
+turbulence is included, only ambipolar diffusion remains efficient at removing
+the small grains from the distribution, brownian motion is only efficient as a
+standalone process. The macroscopic gas-dust drift is negligible for grain
+growth and only dynamically significant near the first Larson core. At high
+density, we find that the coagulated distribution is unaffected by the initial
+choice of dust distribution. Strong magnetic fields are found to enhance the
+small grains depletion, causing an important increase of the ambipolar
+diffusion. This hints that the magnetic field strength could be regulated by
+the small grain population during the protostellar collapse. Fragmentation
+could be effective for bare silicates, but its modeling relies on the choice of
+ill-constrained parameters. It is also found to be negligible for icy grains.
+When fragmentation occurs, it strongly affects the magnetic resistivities
+profiles. Dust coagulation is a critical process that needs to be fully taken
+into account during the protostellar collapse. The onset and feedback of
+fragmentation remains uncertain and its modeling should be further
+investigated.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lebreuilly_U/0/1/0/all/0/1&quot;&gt;Ugo Lebreuilly&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Vallucci_Goy_V/0/1/0/all/0/1&quot;&gt;Valentin Vallucci-Goy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Guillet_V/0/1/0/all/0/1&quot;&gt;Vincent Guillet&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lombart_M/0/1/0/all/0/1&quot;&gt;Maxime Lombart&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Marchand_P/0/1/0/all/0/1&quot;&gt;Pierre Marchand&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01897">
+<title>Demographics of the M-star Multiple Population in the Orion Nebula Cluster. (arXiv:2211.01897v1 [astro-ph.GA])</title>
+<link>http://arxiv.org/abs/2211.01897</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present updated results constraining multiplicity demographics for the
+stellar population of the Orion Nebula Cluster (ONC, a high-mass, high-density
+star-forming region), across primary masses 0.08-0.7M$_{\odot}$. Our study
+utilizes archival Hubble Space Telescope data obtained with the Advanced Camera
+for Surveys using multiple filters (GO-10246). Previous multiplicity surveys in
+low-mass, low-density associations like Taurus identify an excess of companions
+to low-mass stars roughly twice that of the Galactic field and find the mass
+ratio distribution consistent with the field. Previously, we found the
+companion frequency to low-mass stars in the ONC is consistent with the
+Galactic field over mass ratios=0.6-1.0 and projected separations=30-160au,
+without placing constraints on the mass ratio distribution. In this study, we
+investigate the companion population of the ONC with a double point-spread
+function (PSF) fitting algorithm sensitive to separations larger than 10au
+(0.025&quot;) using empirical PSF models. We identified 44 companions (14 new), and
+with a Bayesian analysis, estimate the companion frequency to low-mass stars in
+the ONC =0.13$^{+0.05}_{-0.03}$ and the power law fit index to the mass ratio
+distribution =2.08$^{+1.03}_{-0.85}$ over all mass ratios and projected
+separations of 10-200au. We find the companion frequency in the ONC is
+consistent with the Galactic field population, likely from high transient
+stellar density states, and a probability of 0.002 that it is consistent with
+that of Taurus. We also find the ONC mass ratio distribution is consistent with
+the field and Taurus, potentially indicative of its primordial nature, a direct
+outcome of the star formation process.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Furio_M/0/1/0/all/0/1&quot;&gt;Matthew De Furio&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Liu_C/0/1/0/all/0/1&quot;&gt;Christopher Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Meyer_M/0/1/0/all/0/1&quot;&gt;Michael R. Meyer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Reiter_M/0/1/0/all/0/1&quot;&gt;Megan Reiter&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kraus_A/0/1/0/all/0/1&quot;&gt;Adam Kraus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Dupuy_T/0/1/0/all/0/1&quot;&gt;Trent Dupuy&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Monnier_J/0/1/0/all/0/1&quot;&gt;John Monnier&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01911">
+<title>The Photospheric Imprints of Coronal Electric Currents. (arXiv:2211.01911v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.01911</link>
+<description rdf:parseType="Literal">&lt;p&gt;Flares and coronal mass ejections are powered by magnetic energy stored in
+coronal electric currents. Here, we explore the nature of coronal currents in
+observed and model active region (ARs) by studying manifestations of these
+currents in photospheric vector magnetograms. We employ Gauss&apos;s separation
+method, recently introduced to the solar physics literature, to partition the
+photospheric field into three distinct components, each arising from a separate
+source: (i) currents passing through the photosphere, (ii) currents flowing
+below it, and (iii) currents flowing above it. We refer to component (iii) as
+the photospheric imprint of coronal currents. In both AR 10930 and AR 11158,
+photospheric imprints exhibit large-scale, spatially coherent structures along
+these regions&apos; central, sheared polarity inversion lines (PILs) that are
+consistent with coronal currents flowing horizontally above these PILs, similar
+to recent findings in AR 12673 by Schuck et al. (2022). We find similar
+photospheric imprints in a simple model of a non-potential AR with known
+currents. We find that flare-associated changes in photospheric imprints in AR
+11158 accord with earlier reports that near-PIL fields become more horizontal,
+consistent with the &quot;implosion&quot; scenario. We hypothesize that this evolution
+effectively shortens, in an overall sense, current-carrying coronal fields,
+leading to decreased inductive energy (DIE) in the coronal field. We further
+hypothesize that, in the hours prior to flares, parts of the coronal field
+slowly expand, in a process we deem coronal inflation (CI) -- essentially, the
+inverse of the implosion process. Both of these hypotheses are testable with
+non-potential coronal field extrapolations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Welsch_B/0/1/0/all/0/1&quot;&gt;Brian T. Welsch&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01927">
+<title>Modeling Solids in Nuclear Astrophysics with Smoothed Particle Hydrodynamics. (arXiv:2211.01927v1 [astro-ph.IM])</title>
+<link>http://arxiv.org/abs/2211.01927</link>
+<description rdf:parseType="Literal">&lt;p&gt;Smoothed Particle Hydrodynamics (SPH) is a frequently applied tool in
+computational astrophysics to solve the fluid dynamics equations governing the
+systems under study. For some problems, for example when involving asteroids
+and asteroid impacts, the additional inclusion of material strength is
+necessary in order to accurately describe the dynamics. In compact stars, that
+is white dwarfs and neutron stars, solid components are also present. Neutron
+stars have a solid crust which is the strongest material known in nature.
+However, their dynamical evolution, when modeled via SPH or other computational
+fluid dynamics codes, is usually described as a purely fluid dynamics problem.
+Here, we present the first 3D simulations of neutron-star crustal toroidal
+oscillations including material strength with the Los Alamos National
+Laboratory SPH code FleCSPH. In the first half of the paper, we present the
+numerical implementation of solid material modeling together with standard
+tests. The second half is on the simulation of crustal oscillations in the
+fundamental toroidal mode. Here, we dedicate a large fraction of the paper to
+approaches which can suppress numerical noise in the solid. If not minimized,
+the latter can dominate the crustal motion in the simulations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sagert_I/0/1/0/all/0/1&quot;&gt;Irina Sagert&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Korobkin_O/0/1/0/all/0/1&quot;&gt;Oleg Korobkin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tews_I/0/1/0/all/0/1&quot;&gt;Ingo Tews&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Tsao_B/0/1/0/all/0/1&quot;&gt;Bing-Jyun Tsao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Lim_H/0/1/0/all/0/1&quot;&gt;Hyun Lim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Falato_M/0/1/0/all/0/1&quot;&gt;Michael J. Falato&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Loiseau_J/0/1/0/all/0/1&quot;&gt;Julien Loiseau&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02007">
+<title>A Bayesian inference of relativistic mean-field model for neutron star matter from observation of NICER and GW170817/AT2017gfo. (arXiv:2211.02007v1 [astro-ph.HE])</title>
+<link>http://arxiv.org/abs/2211.02007</link>
+<description rdf:parseType="Literal">&lt;p&gt;The observations of optical and near-infrared counterparts of binary neutron
+star mergers not only enrich our knowledge about the abundance of heavy
+elements in the Universe, or help reveal the remnant object just after the
+merger as generally known, but also can effectively constrain dense nuclear
+matter properties and the equation of state (EOS) in the interior of the
+merging stars. Following the relativistic mean-field description of nuclear
+matter, we perform the Bayesian inference of the EOS and the nuclear matter
+properties using the first multi-messenger event GW170817/AT2017gfo, together
+with the NICER mass-radius measurements of pulsars. The kilonova is described
+by a radiation-transfer model with the dynamical ejecta, and light curves
+connect with the EOS through the quasi-universal relations between the ejecta
+properties (the ejected mass, velocity, opacity or electron fraction) and
+binary parameters (the mass ratio and reduced tidal deformability). It is found
+that the posterior distributions of the reduced tidal deformability from the
+AT2017gfo analysis display a bimodal structure, with the first peak enhanced by
+the GW170817 data, leading to slightly softened posterior EOSs, while the
+second peak cannot be achieved by a nuclear EOS with saturation properties in
+their empirical ranges. The inclusion of NICER data in our analyses results in
+stiffened EOS posterior because of the massive pulsar PSR J0740+6620. We give
+results at nuclear saturation density for the nuclear incompressibility, the
+symmetry energy and its slope, as well as the nucleon effective mass, from our
+analysis of those observational data.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Zhu_Z/0/1/0/all/0/1&quot;&gt;Zhenyu Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Li_A/0/1/0/all/0/1&quot;&gt;Ang Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+liu_T/0/1/0/all/0/1&quot;&gt;Tong liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02036">
+<title>White dwarf binaries suggest a common envelope efficiency $\alpha \sim 1/3$. (arXiv:2211.02036v1 [astro-ph.SR])</title>
+<link>http://arxiv.org/abs/2211.02036</link>
+<description rdf:parseType="Literal">&lt;p&gt;Common envelope (CE) evolution, which is crucial in creating short period
+binaries and associated astrophysical events, can be constrained by reverse
+modeling of such binaries&apos; formation histories. Through analysis of a sample of
+well-constrained white dwarf (WD) binaries with low-mass primaries (7 eclipsing
+double WDs, 2 non-eclipsing double WDs, 1 WD-brown dwarf), we estimate the CE
+energy efficiency $\alpha_{\rm{CE}}$ needed to unbind the hydrogen envelope. We
+use grids of He- and CO-core WD models to determine the masses and cooling ages
+that match each primary WD&apos;s radius and temperature. Assuming gravitational
+wave-driven orbital decay, we then calculate the associated ranges in post-CE
+orbital period. By mapping WD models to a grid of red giant progenitor stars,
+we determine the total envelope binding energies and possible orbital periods
+at the point CE evolution is initiated, thereby constraining $\alpha_{\rm CE}$.
+Assuming He-core WDs with progenitors of 0.9 - 2.0 $M_\odot$, we find
+$\alpha_{\rm CE} \! \sim \! 0.2-0.4$ is consistent with each system we model.
+Significantly higher values of $\alpha_{\rm{CE}}$ are required for higher mass
+progenitors and for CO-core WDs, so these scenarios are deemed unlikely. Our
+values are mostly consistent with previous studies of post-CE WD binaries, and
+they suggest a nearly constant and low envelope ejection efficiency for CE
+events that produce He-core WDs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Scherbak_P/0/1/0/all/0/1&quot;&gt;Peter Scherbak&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Fuller_J/0/1/0/all/0/1&quot;&gt;Jim Fuller&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.03999">
+<title>Evaluating chemically homogeneous evolution in stellar binaries: Electromagnetic implications -- Ionizing photons, SLSN-I, GRB, Ic-BL. (arXiv:2208.03999v2 [astro-ph.SR] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.03999</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the occurrence of rapid-rotation induced chemically
+homogeneous evolution (CHE) due to strong tides and mass accretion in binaries.
+To this end, we generalize the relation in Packet (1981) to calculate the
+minimum angular momentum (AM) accretion required by a secondary star to
+experience accretion-induced CHE. Contrary to traditionally assumed 5-10
+percent accretion of initial mass ($Z \lesssim 0.004$, $M \gtrsim$ 20
+M$_{\odot}$) for spinning up the accretor (resulting in CHE) this value can
+drop to $\sim$ 2 percent for efficient AM accretion while for certain systems
+it could be substantially larger. We conduct a population study using
+\textsc{bpass} by evolving stars under the influence of strong tides in
+short-period binaries and also account for the updated effect of
+accretion-induced spin-up. We find accretion CHE (compared to tidal CHE) to be
+the dominant means of producing homogeneous stars even at 10 percent AM
+accretion efficiency during mass transfer. Unlike tidal CHE, it is seen that CH
+stars arising due to accretion can retain a larger fraction of their AM till
+core collapse. Thus we show that accretion CHE could be an important formation
+channel for energetic electromagnetic transients like GRBs, Ic-BL (SLSN-I,
+Ic-BL) under the collapsar (magnetar) formalism and a single CH star could lead
+to both the transients under their respective formation scenario. Lastly, we
+show that under the current treatment of CHE, the emission rate of ionizing
+photons by such stars decreases more rapidly at higher metallicities than
+previously predicted.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Ghodla_S/0/1/0/all/0/1&quot;&gt;Sohan Ghodla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Eldridge_J/0/1/0/all/0/1&quot;&gt;J. J. Eldridge&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Stanway_E/0/1/0/all/0/1&quot;&gt;Elizabeth R. Stanway&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Stevance_H/0/1/0/all/0/1&quot;&gt;H&amp;#xe9;lo&amp;#xef;se F. Stevance&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.09506">
+<title>The double white dwarf merger progenitors of SDSS J2211+1136 and ZTF J1901+1458. (arXiv:2208.09506v2 [astro-ph.SR] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.09506</link>
+<description rdf:parseType="Literal">&lt;p&gt;Double white dwarf (DWD) mergers are possibly the leading formation channel
+of massive, rapidly rotating, high-field magnetic white dwarfs (HFMWDs).
+However, the direct link connecting a DWD merger to any observed HFMWD is still
+missing. We here show that the HFMWDs SDSS J221141.80+113604.4 (hereafter
+J2211+1136) and ZTF J190132.9+145808.7 (hereafter J1901+1458), might be DWD
+merger products. J2211+1136 is a $1.27\, M_\odot$ WD with a rotation period of
+$70.32$ s and a surface magnetic field of $15$ MG. J1901+1458 is a
+$1.327$--$1.365\, M_\odot$ WD with a rotation period of $416.20$ s, and a
+surface magnetic field in the range $600$--$900$ MG. With the assumption of
+single-star evolution, the currently measured WD masses and surface
+temperatures, the cooling ages of J2211+1136 and J1901+1458 are, respectively,
+$2.61$--$2.85$ Gyr and $10$--$100$ Myr. We hypothesize that these WDs are DWD
+merger products and compute the evolution of the post-merged configuration
+formed by a central WD surrounded by a disk. We show that the post-merger
+system evolves through three phases depending on whether accretion, mass
+ejection (propeller), or magnetic braking dominates the torque onto the central
+WD. We calculate the time the WD spends in each of these phases and obtain the
+accretion rate and disk mass for which the WD rotational age, i.e., the total
+time elapsed since the merger to the instant where the WD central remnant
+reaches the current measured rotation period, agrees with the estimated WD
+cooling age. We infer the mass values of the primary and secondary WD
+components of the DWD merger that lead to a post-merger evolution consistent
+with the observations.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Sousa_M/0/1/0/all/0/1&quot;&gt;M. F. Sousa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Coelho_J/0/1/0/all/0/1&quot;&gt;J. G. Coelho&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Araujo_J/0/1/0/all/0/1&quot;&gt;J. C. N. de Araujo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kepler_S/0/1/0/all/0/1&quot;&gt;S. O. Kepler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Rueda_J/0/1/0/all/0/1&quot;&gt;J. A. Rueda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00940">
+<title>Continuous gravitational wave detection to understand the generation mechanism of fast radio bursts. (arXiv:2211.00940v1 [astro-ph.HE] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.00940</link>
+<description rdf:parseType="Literal">&lt;p&gt;Since the unexpected discovery of fast radio bursts (FRBs), researchers have
+proposed varied theories and models to explain their phenomena. One such model
+that has recently been developed incorporates the so-called
+Gertsenshtein-Zel&apos;dovich (GZ) effect, which states that when gravitational
+waves traverse the pulsar magnetosphere, a portion of their gravitational
+radiation is transformed into electromagnetic (EM) radiation. The observed
+properties of FRBs are consistent with the properties of this EM radiation,
+implying, remarkably, that the GZ effect can account for both repeating and
+non-repeating FRBs. If this model is correct, the pulsar&apos;s properties should
+not change over time, and it would continue to emit both EM dipole and
+gravitational quadrupole radiation for a long period of time. This article
+targets the gravitational radiation produced by the pulsar mechanism and shows
+that several proposed gravitational wave detectors can detect these
+gravitational waves. If such detections are performed in the future from the
+positions of FRBs, it will validate the GZ process for FRB production and can
+rule out several other FRB theories.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Kalita_S/0/1/0/all/0/1&quot;&gt;Surajit Kalita&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/astro-ph/1/au:+Weltman_A/0/1/0/all/0/1&quot;&gt;Amanda Weltman&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
