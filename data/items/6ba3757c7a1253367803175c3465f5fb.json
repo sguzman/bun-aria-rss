@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3096 (wp_total_hacks)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3096",
+  "description": "The WP Total Hacks WordPress plugin through 4.7.2 does not prevent low privilege users from modifying the plugin's settings. This could allow users such as subscribers to perform Stored Cross-Site Scripting attacks against other users, like administrators, due to the lack of sanitisation and escaping as well.",
+  "dc:date": "2022-10-31T16:15:10Z"
+}
