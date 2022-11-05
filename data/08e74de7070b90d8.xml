@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>physics.soc-ph updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Physics -- Physics and Society (physics.soc-ph) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Physics -- Physics and Society</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01425" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01545" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01936" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01955" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02023" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.02040" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.15555" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01425">
+<title>Mesoscopic analytical approach in a three state opinion model with continuous internal variable. (arXiv:2211.01425v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01425</link>
+<description rdf:parseType="Literal">&lt;p&gt;Analytical approaches in models of opinion formation have been extensively
+studied either for an opinion represented as a discrete or a continuous
+variable. In this paper, we analyze a model which combines both approaches. The
+state of an agent is represented with an internal continuous variable (the
+leaning or propensity), that leads to a discrete public opinion: pro, against
+or neutral. This model can be described by a set of master equations which are
+a nonlinear coupled system of first order differential equations of hyperbolic
+type including non-local terms and non-local boundary conditions, which can&apos;t
+be solved analytically. We developed an approximation to tackle this difficulty
+by deriving a set of master equations for the dynamics of the average leaning
+of agents with the same opinion, under the hypothesis of a time scale
+separation in the dynamics of the variables. We show that this simplified model
+accurately predicts the expected transition between a neutral consensus and a
+bi-polarized state, and also gives an excellent approximation for the dynamics
+of the average leaning of agents with the same opinion, even when the time
+separation scale hypothesis is not completely fulfilled.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Pedraza_L/0/1/0/all/0/1&quot;&gt;Luc&amp;#xed;a Pedraza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Pinasco_J/0/1/0/all/0/1&quot;&gt;Juan Pablo Pinasco&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Semeshenko_V/0/1/0/all/0/1&quot;&gt;Viktoriya Semeshenko&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Balenzuela_P/0/1/0/all/0/1&quot;&gt;Pablo Balenzuela&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01545">
+<title>Extracting Spatial Interaction Patterns between Urban Road Networks and Mixed Functions. (arXiv:2211.01545v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01545</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the field of urban planning, road network system planning is often the
+first step and the main purpose of urban planning is to create a spatial
+configuration of different functions such as residence, education, business,
+etc. Generally speaking, the more mixed the functions of an area has, the more
+possible its vitality may be. Therefore, in this article, we propose a new
+framework to study the specific spatial influence patterns of the overall
+structure and different sub-structures of road networks on the mixed functions.
+Taking road segment as the basic unit, we characterize mixed functions
+aggregation of road networks with the number of POIs categories within 100
+meters around every road segment. At the same time, on the basis of centrality
+measurement in graph theory, we use 4 indexes to reflect the characteristics of
+the urban road network structure, including degree, closeness, betweenness, and
+length. We conduct our methods and experiments using the road networks and POI
+data within the 5th ring road of Beijing. The results demonstrate that urban
+road networks inherently influence the aggregation of urban mixed functions in
+various patterns and the patterns of road network sub-structures is also quite
+different. Our study shows that the higher the degree of the road network
+structure has, the more likely it will attract functions&apos; aggregation. It also
+reveals that diversified local degree will help gather urban functions. In
+addition to those, the analysis as well validates the importance of small-grids
+typology of urban road networks and the closeness to the center of cities.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Xiao_H/0/1/0/all/0/1&quot;&gt;Huidan Xiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Yang_T/0/1/0/all/0/1&quot;&gt;Tao Yang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01936">
+<title>Differences in collaboration structures and impact among prominent researchers in Europe and North America. (arXiv:2211.01936v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01936</link>
+<description rdf:parseType="Literal">&lt;p&gt;Scientists collaborate through intricate networks, which impact the quality
+and scope of their research. At the same time, funding and institutional
+arrangements, as well as scientific and political cultures, affect the
+structure of collaboration networks. Since such arrangements and cultures
+differ across regions in the world in systematic ways, we surmise that
+collaboration networks and impact should also differ systematically across
+regions. To test this, we compare the structure of collaboration networks among
+prominent researchers in North America and Europe. We find that prominent
+researchers in Europe establish denser collaboration networks, whereas those in
+North-America establish more decentralized networks. We also find that the
+impact of the publications of prominent researchers in North America is
+significantly higher than for those in Europe, both when they collaborate with
+other prominent researchers and when they do not. Although Europeans
+collaborate with other prominent researchers more often, which increases their
+impact, we also find that repeated collaboration among prominent researchers
+decreases the synergistic effect of collaborating.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Danus_L/0/1/0/all/0/1&quot;&gt;Lluis Danus&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Muntaner_C/0/1/0/all/0/1&quot;&gt;Carles Muntaner&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Krauss_A/0/1/0/all/0/1&quot;&gt;Alexander Krauss&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sales_Pardo_M/0/1/0/all/0/1&quot;&gt;Marta Sales-Pardo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Guimera_R/0/1/0/all/0/1&quot;&gt;Roger Guimera&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01955">
+<title>Quantifying the `end of history&apos; through a Bayesian Markov-chain approach. (arXiv:2211.01955v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.01955</link>
+<description rdf:parseType="Literal">&lt;p&gt;Political regimes have been changing throughout human history. After the
+apparent triumph of liberal democracies at the end of the twentieth century,
+Francis Fukuyama and others have been arguing that humankind is approaching an
+`end of history&apos; (EoH) in the form of a universality of liberal democracies.
+This view has been challenged by recent developments that seem to indicate the
+rise of defective democracies across the globe. There has been no attempt to
+quantify the expected EoH with a statistical approach. In this study, we model
+the transition between political regimes as a Markov process and -- using a
+Bayesian inference approach -- we estimate the transition probabilities between
+political regimes from time-series data describing the evolution of political
+regimes from 1800--2018. We then compute the steady state for this Markov
+process which represents a mathematical abstraction of the EoH and predicts
+that approximately 46 % of countries will be full democracies. Furthermore, we
+find that, under our model, the fraction of autocracies in the world is
+expected to increase for the next half-century before it declines. Using
+random-walk theory, we then estimate survival curves of different types of
+regimes and estimate characteristic lifetimes of democracies and autocracies of
+244 years and 69 years, respectively. Quantifying the expected EoH allows us to
+challenge common beliefs about the nature of political equilibria.
+Specifically, we find no statistical evidence that the EoH constitutes a fixed,
+complete omnipresence of democratic regimes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Klimm_F/0/1/0/all/0/1&quot;&gt;Florian Klimm&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02023">
+<title>Research on the impact of asteroid mining on global equity. (arXiv:2211.02023v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.02023</link>
+<description rdf:parseType="Literal">&lt;p&gt;In the future situation, aiming to seek more resources, human beings decided
+to march towards the mysterious and bright starry sky, which opened the era of
+great interstellar exploration. According to the Outer Space Treaty, any
+exploration of celestial bodies should be aimed at promoting global equality
+and for the benefit of all nations. Firstly, we defined global equity and set a
+Unified Equity Index (UEI) model to measure it. We merge the factors with
+greater correlation, and finally, get 6 elements, and then use the entropy
+method (TEM) to find the dispersion of these elements in different countries.
+Then use principal component analysis (PCA) to reduce the dimensionality of the
+dispersion, and then use the scandalized index to obtain the global equity.
+Secondly, we simulated a future with asteroid mining and evaluated its impact
+on Unified Equity Index (UEI). Then, we divided the mineable asteroids into
+three classes with different mining difficulties and values, identified 28
+mining entities including private companies, national and international
+organizations. We considered changes in the asteroid classes, mining
+capabilities and mining scales to determine the changes in the value of
+minerals mined between 2025 and 2085. We convert mining output value into
+mineral transaction value through allocation matrix. Based on grey relational
+analysis (GRA). Finally, we presented three possible versions of the future of
+asteroid mining by changing the conditions. We propose two sets of
+corresponding policies for changes in future trends in global fairness with
+asteroid mining. We test the separate and combined effects of these policies
+and find that they are positive, strongly supporting the effectiveness of our
+model.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Sun_H/0/1/0/all/0/1&quot;&gt;He Sun&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Zhu_J/0/1/0/all/0/1&quot;&gt;Junfeng Zhu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Xu_Y/0/1/0/all/0/1&quot;&gt;Yipeng Xu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.02040">
+<title>Barcelona, The Innovation District: between vulnerability and social equity. (arXiv:2211.02040v1 [physics.soc-ph])</title>
+<link>http://arxiv.org/abs/2211.02040</link>
+<description rdf:parseType="Literal">&lt;p&gt;The municipal actors of the Catalan capital wish to obtain a reversal of the
+negative representations concerning the lack of attractiveness of the district
+of Poblenou considered as one of the poorest and most marginalized districts of
+the city while having as identity the expression of &quot;Manchester southern
+Europe&quot;, recalling its role as a factory for Spain and an emblem of the
+Industrial Revolution for the Iberian Peninsula. Conceptualization, programming
+and construction of a new image of the city through this large urban wasteland
+are made concrete thanks to an urban marketing operation. The specifications
+allow the construction of innovative buildings, with resolutely contemporary
+architecture, breaking with the regulations in force on the limitation of the
+height of skyscrapers in order to make this pericentral territory visible and
+attractive. Catalan society in the 21st century has produced a fragmented and
+dominating neo-capitalist space through a thoughtless real estate frenzy and
+complex land games. Walking through the streets of Poblenou, one is forced to
+think of the work of Henri Lefebvre on the production of space and the three
+orders of understanding the design of an urban composition. Here, the city has
+become a stake and the place of economic growth based on innovation. Finally,
+neighborhood life is in complete mutation which seems for this territory to
+leave a chance for a long time on the sidelines. We present an economic
+analysis grid of a cluster with graphs and statistics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Ballester_P/0/1/0/all/0/1&quot;&gt;P. Ballester&lt;/a&gt; (GEODE, UPPA, AMU)</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.15555">
+<title>A note on &quot;Goals, constraints, and transparently fair assignments: A field study of randomization design in the UEFA Champions League&apos;&apos;. (arXiv:2210.15555v2 [physics.soc-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.15555</link>
+<description rdf:parseType="Literal">&lt;p&gt;A paper published on 2 September 2022 in Management Science (Boczo\&apos;n, M. and
+Wilson, A. J.: Goals, constraints, and transparently fair assignments: A field
+study of randomization design in the UEFA Champions League) contains
+substantial omissions and inaccuracies. This note attempts to correct them.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Csato_L/0/1/0/all/0/1&quot;&gt;L&amp;#xe1;szl&amp;#xf3; Csat&amp;#xf3;&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
