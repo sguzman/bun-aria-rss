@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCAczr0j6ZuiVaiGFZ4qxApw"/>
+ <id>yt:channel:UCAczr0j6ZuiVaiGFZ4qxApw</id>
+ <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+ <title>cpponsea</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw"/>
+ <author>
+  <name>cpponsea</name>
+  <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+ </author>
+ <published>2019-02-12T13:55:16+00:00</published>
+ <entry>
+  <id>yt:video:8DLHk9FIQKM</id>
+  <yt:videoId>8DLHk9FIQKM</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Won’t Extend It One More Time! - Sandor Dargo - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8DLHk9FIQKM"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-10-01T19:00:12+00:00</published>
+  <updated>2022-10-01T19:07:59+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Won’t Extend It One More Time! - Sandor Dargo - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/8DLHk9FIQKM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8DLHk9FIQKM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: Won’t Extend It One More Time! - Sandor Dargo - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+I'd like to share a painfully fresh story about a bug hunt. After I went through the 5 phases of grief, I realised that it's about a lifetime extension issue.
+---
+
+Sandor Dargo
+
+Sandor is a passionate software craftsman focusing on reducing the maintenance costs by developing, applying and enforcing clean code standards. His other core activity is knowledge sharing both oral and written, within and outside of his employer. When not reading or writing, he spends most of his free time with his two children and his wife baking at home or travelling to new places.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="458"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2LOxsfpCCyI</id>
+  <yt:videoId>2LOxsfpCCyI</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Using Clang Query to Isolate AST Elements - Kristen Shaker - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2LOxsfpCCyI"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-10-01T15:00:12+00:00</published>
+  <updated>2022-10-01T15:07:53+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Using Clang Query to Isolate AST Elements - Kristen Shaker - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/2LOxsfpCCyI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2LOxsfpCCyI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+LightningTalk: Using Clang Query to Isolate AST Elements - Kristen Shaker - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+The talk will contain a quick explanation of the Lexing/Parsing phase of compilation. Then I will show how you can leverage compiler explorer and clang_query to identify and isolate specific elements of the Abstract Syntax Tree.
+---
+
+Kristen Shaker
+
+I'm a software engineer on Google's C++ Core Libraries Team.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="9" average="5.00" min="1" max="5"/>
+    <media:statistics views="279"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:d1gUfL7A1MA</id>
+  <yt:videoId>d1gUfL7A1MA</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>LightningTalk: lexy - C++ Parsing DSL Library - Jonathan Müller - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=d1gUfL7A1MA"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-30T19:00:12+00:00</published>
+  <updated>2022-10-01T02:11:18+00:00</updated>
+  <media:group>
+   <media:title>LightningTalk: lexy - C++ Parsing DSL Library - Jonathan Müller - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/d1gUfL7A1MA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/d1gUfL7A1MA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+LightningTalk: lexy - C++ Parsing DSL Library - Jonathan Müller - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+lexy is a C++ parsing DSL library featuring Unicode support, automatic error recovery, lossless parse tree generation, and many more. I'll give a brief overview and tutorial
+---
+
+Jonathan Müller 
+
+Jonathan is a Computer Science graduate student also studying Physics. In his spare time he works on various C++ open source libraries for memory allocation, cache-friendly containers or parsing. He also blogs about C++ and library development at foonathan.net.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​​ #CppOnSea​ #lexy</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="433"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qydj3OZf6hY</id>
+  <yt:videoId>qydj3OZf6hY</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Playing Video Games is Too Difficult - Ólafur Waage - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qydj3OZf6hY"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-30T15:00:12+00:00</published>
+  <updated>2022-10-01T04:26:49+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Playing Video Games is Too Difficult - Ólafur Waage - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/qydj3OZf6hY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qydj3OZf6hY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: Playing Video Games is Too Difficult - Ólafur Waage - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+Over the years I've made programs that play video games so I'm going to show a few of them off, the style of the talk is &quot;I'm too lazy, so I wrote programs to play the games for me.&quot; which often is way more work than playing them.
+---
+
+Ólafur Waage 
+
+Senior Software Developer at TurtleSec in Norway.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event.
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #CppOnSea​ #videogames</media:description>
+   <media:community>
+    <media:starRating count="23" average="5.00" min="1" max="5"/>
+    <media:statistics views="454"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:NNAmOq0tXAo</id>
+  <yt:videoId>NNAmOq0tXAo</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Hello World in GIMP - Peter Bindels - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=NNAmOq0tXAo"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-29T19:00:11+00:00</published>
+  <updated>2022-09-29T21:27:20+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Hello World in GIMP - Peter Bindels - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/NNAmOq0tXAo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/NNAmOq0tXAo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: Hello World in GIMP - Peter Bindels - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+Writing Hello World in an image editor. No tricks, 100% actually what happens. 
+---
+
+Peter Bindels
+
+Way back when I was a wee lad I tried to write my first program by editing a .TXT file and renaming it to .COM. That didn't work. Now that I know more, I can show you how you *can* do this.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #CppOnSea​ #gimptutorial</media:description>
+   <media:community>
+    <media:starRating count="16" average="5.00" min="1" max="5"/>
+    <media:statistics views="373"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TYPCku-DJrY</id>
+  <yt:videoId>TYPCku-DJrY</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Esorterica - Kevlin Henney - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TYPCku-DJrY"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-29T15:00:12+00:00</published>
+  <updated>2022-09-29T15:07:47+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Esorterica - Kevlin Henney - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/TYPCku-DJrY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TYPCku-DJrY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: Esorterica - Kevlin Henney - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+Five unusual and esoteric sorting algorithms (four in C++, one in Bash): I Can't Believe It Can Sort, persumtation sort, bogosort, sleep sort and dropsort.
+---
+
+Kevlin Henney
+
+Kevlin likes code and words, and causes problems with both.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #CppOnSea​ #algorithms</media:description>
+   <media:community>
+    <media:starRating count="22" average="5.00" min="1" max="5"/>
+    <media:statistics views="366"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LmH7b5OI4VY</id>
+  <yt:videoId>LmH7b5OI4VY</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Embracing the Jank: Becoming a C++ Front-End Developer - Jacob Rice  C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LmH7b5OI4VY"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-28T19:00:11+00:00</published>
+  <updated>2022-09-28T19:06:54+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Embracing the Jank: Becoming a C++ Front-End Developer - Jacob Rice  C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/LmH7b5OI4VY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LmH7b5OI4VY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: Embracing the Jank: Becoming a C++ Front-End Developer - Jacob Rice - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+Finding just the right testing paradigm to perfectly capture your needs is a wonderful feeling. But if your needs are incredibly specific and crazy, sometimes the tests have to be, too. In this talk, I show a test suite that I recently used for exactly that reason. Only it's testing an entire GPU render pipeline. And the entire pipeline is running inside of a browser. And the test suite, console, and render canvas are also inside of a browser. How did I become a C++ front-end developer?
+---
+
+Jacob Rice 
+
+Jacob Rice is a Software Engineer at Genki Instruments in Reykjavik, Iceland. He has 5 years of experience, and his special interests include TDD, VR, TMP, and WASM.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #CppOnSea​ #paradigm</media:description>
+   <media:community>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="384"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Pzl47xKLVQ0</id>
+  <yt:videoId>Pzl47xKLVQ0</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: Deepest Darkest const - Jeff Snyder - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Pzl47xKLVQ0"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-28T15:00:12+00:00</published>
+  <updated>2022-09-28T15:08:06+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: Deepest Darkest const - Jeff Snyder - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/Pzl47xKLVQ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Pzl47xKLVQ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Deepest Darkest const - Jeff Snyder - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+What it would look like if deep-const was part of the language
+---
+
+Jeff Snyder 
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="406"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WgMxm5v-Ypw</id>
+  <yt:videoId>WgMxm5v-Ypw</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: DALL-E C++ Guessing Game - Hendrik Niemeyer - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WgMxm5v-Ypw"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-27T19:00:11+00:00</published>
+  <updated>2022-09-27T19:06:58+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: DALL-E C++ Guessing Game - Hendrik Niemeyer - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/WgMxm5v-Ypw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/WgMxm5v-Ypw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: DALL-E C++ Guessing Game - Hendrik Niemeyer - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+With DALL-E you can let a machine learning model generate pictures from text. I fed it C++ words and phrases and you have to guess what they are.
+---
+
+Hendrik Niemeyer 
+
+I am C++ developer for the ROSEN group and a programming language learning enthusiast.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="252"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:v6ENImXcsPE</id>
+  <yt:videoId>v6ENImXcsPE</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Lightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=v6ENImXcsPE"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-27T15:00:18+00:00</published>
+  <updated>2022-10-10T09:50:26+00:00</updated>
+  <media:group>
+   <media:title>Lightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock</media:title>
+   <media:content url="https://www.youtube.com/v/v6ENImXcsPE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v6ENImXcsPE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Lightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+Code: https://github.com/oschonrock/arrcmp
+
+
+Using TMP with Intel intrinsics to generate hardware optimised assembly for a `memcpm` replacement. In the motivating example it produced a 2-3x speedup over glibc or asmlib.
+---
+
+Oliver Schönrock
+
+Hacking since 6502 BC.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="544"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QEIGc3tXGmM</id>
+  <yt:videoId>QEIGc3tXGmM</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>What’s In A Bit – Designing, Using And Reverse-engineering Binary File Formats - Peter Bindels</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QEIGc3tXGmM"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-26T15:00:13+00:00</published>
+  <updated>2022-09-26T16:03:15+00:00</updated>
+  <media:group>
+   <media:title>What’s In A Bit – Designing, Using And Reverse-engineering Binary File Formats - Peter Bindels</media:title>
+   <media:content url="https://www.youtube.com/v/QEIGc3tXGmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QEIGc3tXGmM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+What’s in a Bit – Peter Bindels - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+ 
+Ever tried to create a .COM program by writing a text file and renaming it?
+ 
+How does your computer remember that something is a PNG image if you remove the extension? And why can you unzip some file formats but not others?
+ 
+How do you make a program use a dataset that is too big for memory, but that fits on your disk?
+ 
+How do you store information compactly in a way that is quick to read?
+ 
+Where do you begin to read a JPG file? And how do you read unknown binary files?
+ 
+In this talk I will be explaining the history of binary file formats, the different styles of binary file formats that are in common use and give examples how to reverse engineer file formats. I will provide an intro into reading and designing binary file formats with the implied goal of efficiency and speed.
+--- 
+
+Peter Bindels 
+
+Peter is a dedicated software engineer that is eager to show the world how to use C++ and good design to write fast, efficient, and reliable software.
+ 
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event.
+
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+--- 
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #binary #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="42" average="5.00" min="1" max="5"/>
+    <media:statistics views="932"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r0KI2GMtS1U</id>
+  <yt:videoId>r0KI2GMtS1U</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Contractual Disappointment in C++ - John McFarlane - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=r0KI2GMtS1U"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-25T15:00:12+00:00</published>
+  <updated>2022-09-25T20:34:16+00:00</updated>
+  <media:group>
+   <media:title>Contractual Disappointment in C++ - John McFarlane - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/r0KI2GMtS1U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r0KI2GMtS1U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+--- 
+
+Contractual Disappointment in C++ - John McFarlane - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+ 
+Writing robust software in C++ is challenging.
+ 
+Effective use of modern tools and guidelines helps a great deal. And successive revisions of the language and the standard library add features which help the user prevent problems. But inevitably, upsets happen during program operation.
+ 
+This talk discusses what program developers can do to help. Contracts and their implications are the main tool used to frame run-time failure. Through their lens I attempt to show that careful understanding of interfaces is the most effective way to ensure usability, efficiency and reliability.
+--- 
+
+John McFarlane 
+
+I write automotive software in Co Clare, Ireland and frequent WG21 committee meetings, mostly concentrating on numerics and safety-critical software development. I currently have a CS:CO problem. 
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="15" average="5.00" min="1" max="5"/>
+    <media:statistics views="510"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ln_cVjJl680</id>
+  <yt:videoId>Ln_cVjJl680</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>How to Rangify Your Code - Tina Ulbrich - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ln_cVjJl680"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-24T15:00:13+00:00</published>
+  <updated>2022-09-24T20:22:10+00:00</updated>
+  <media:group>
+   <media:title>How to Rangify Your Code - Tina Ulbrich - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/Ln_cVjJl680?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Ln_cVjJl680/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+How to Rangify Your Code - Tina Ulbrich - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+By now you probably know about ranges in C++20. You may have also watched a talk or two about how to create your own view. But now, what do you do with that knowledge? How do you rangify your code? If you find yourself using pre C++20 code because you don't know where to start using ranges, this talk is for you. I'm going to rangify different code examples and try to show you how to think in ranges. I'm going to use the standard library and the range-v3 library.
+---
+
+Tina Ulbrich  
+
+Tina works at Rosen, a service provider in the oil and gas industry. She writes and maintains numerical and data processing algorithms for pipeline inspection data. She highly values simple, modern and clean code, using the latest language features. She promotes refactoring, high test coverage and collaboration between developers. She also teaches modern C++ in internal tech talks. Tina holds a university degree in Bio-Mathematics from the University of Applied Science in Zittau/Görlitz. She is an active member of the #include Discord community.
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+---
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+#Programming​​ #CppOnSea​ #ranges</media:description>
+   <media:community>
+    <media:starRating count="29" average="5.00" min="1" max="5"/>
+    <media:statistics views="678"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HlaoxhmThmk</id>
+  <yt:videoId>HlaoxhmThmk</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Making C++ Fun, Safe, and Accessible – Jason Turner - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HlaoxhmThmk"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-23T15:00:16+00:00</published>
+  <updated>2022-09-23T15:55:01+00:00</updated>
+  <media:group>
+   <media:title>Making C++ Fun, Safe, and Accessible – Jason Turner - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/HlaoxhmThmk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HlaoxhmThmk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Making C++ Fun, Safe, and Accessible – Jason Turner - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022 
+
+C++ has a reputation for being hard to learn with annoying errors and easy to invoke memory errors that make it dangerous.
+Can we make C++ fun and safe and accessible to a larger audience? 
+We'll discuss some ideas for what &quot;fun, safe, and accessible&quot; means and how these goals might be accomplished.
+--- 
+
+Jason Turner 
+
+Host of C++Weekly on YouTube, Co-host of CppCast, author and curator of the forkable coding standards document http://cppbestpractices.com, author of the first ever C++ Puzzle Books. 
+---
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event.
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+--- 
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk 
+
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="1150"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ukUoLnCOyio</id>
+  <yt:videoId>ukUoLnCOyio</yt:videoId>
+  <yt:channelId>UCAczr0j6ZuiVaiGFZ4qxApw</yt:channelId>
+  <title>Recipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ukUoLnCOyio"/>
+  <author>
+   <name>cpponsea</name>
+   <uri>https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw</uri>
+  </author>
+  <published>2022-09-22T15:00:12+00:00</published>
+  <updated>2022-09-22T16:03:07+00:00</updated>
+  <media:group>
+   <media:title>Recipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022</media:title>
+   <media:content url="https://www.youtube.com/v/ukUoLnCOyio?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ukUoLnCOyio/hqdefault.jpg" width="480" height="360"/>
+   <media:description>C++ on Sea Website: https://cpponsea.uk/
+C++ on Sea Twitter: https://twitter.com/cpponsea
+---
+
+Recipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022
+Slides: https://github.com/philsquared/cpponsea-slides/tree/master/2022
+
+It is well known that allocations can have a significant negative impact on the runtime performance of software. Frequently, these memory requests are made by containers (standard ones or otherwise). But the actual allocations might not be easily identifiable, and the options to avoid them aren't obvious.
+In this talk, we will go through a number of comprehensible recipes to address these issues.
+We will start with the most basic std::vector T ::reserve, cover container choices and using the right constructors. Then, different forms of scope promotion are discussed before we cover view types and two hands-on examples with pmr allocators. Recipes are presented with a discussion of up and downsides, benchmarks, and techniques to measure and diagnose allocation behaviour.
+---
+
+Lukas Böger
+ 
+Lukas is a civil engineer who stuck with Fortran77 during his PhD and started a C++ side project to alleviate his frustration. This worked out; today, he develops software for Oxbotica, a robotics spinoff working on autonomous vehicles. Lukas likes reading, brass music, Newton mechanics and his family.
+--- 
+
+C++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. 
+- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/
+- 2022 Program: https://cpponsea.uk/2022/schedule/
+--- 
+
+Produced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk
+Enquiries: events@digital-medium.co.uk
+
+ 
+#Programming​ #Cpp​ #CppOnSea​</media:description>
+   <media:community>
+    <media:starRating count="43" average="5.00" min="1" max="5"/>
+    <media:statistics views="844"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
