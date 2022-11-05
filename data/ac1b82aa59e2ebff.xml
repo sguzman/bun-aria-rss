@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://arxiv.org/">
+<title>cond-mat.stat-mech updates on arXiv.org</title>
+<link>http://arxiv.org/</link>
+<description rdf:parseType="Literal">Condensed Matter -- Statistical Mechanics (cond-mat.stat-mech) updates on the arXiv.org e-print archive</description>
+<dc:language>en-us</dc:language>
+<dc:date>2022-11-03T20:30:00-05:00</dc:date>
+<dc:publisher>help@arxiv.org</dc:publisher>
+<dc:subject>Condensed Matter -- Statistical Mechanics</dc:subject>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01392" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01485" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01632" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01650" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01662" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01683" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01709" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01710" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01773" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01869" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01904" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01909" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01923" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01940" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01942" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01975" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2011.09771" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2012.08889" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2110.08304" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2203.09514" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2205.05704" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.12924" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2206.14277" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.13633" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2208.13772" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.00906" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.01259" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2210.09457" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01360" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.00679" />
+  <rdf:li rdf:resource="http://arxiv.org/abs/2211.01123" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://arxiv.org/icons/sfx.gif" />
+</channel>
+<image rdf:about="http://arxiv.org/icons/sfx.gif">
+<title>arXiv.org</title>
+<url>http://arxiv.org/icons/sfx.gif</url>
+<link>http://arxiv.org/</link>
+</image>
+<item rdf:about="http://arxiv.org/abs/2211.01392">
+<title>R\&apos;enyi Mutual Information in Quantum Field Theory. (arXiv:2211.01392v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01392</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study a proper definition of R\&apos;enyi mutual information (RMI) in quantum
+field theory as defined via the Petz R\&apos;enyi relative entropy. Unlike the
+standard definition, the RMI we compute is a genuine measure of correlations
+between subsystems, as evidenced by its non-negativity and monotonicity under
+local operations. Furthermore, the RMI is UV finite and well-defined in the
+continuum limit. We develop a replica path integral approach for the RMI in
+quantum field theories and evaluate it explicitly in 1+1D conformal field
+theory using twist fields. We prove that it bounds connected correlation
+functions and check our results against exact numerics in the massless free
+fermion theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Kudler_Flam_J/0/1/0/all/0/1&quot;&gt;Jonah Kudler-Flam&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01485">
+<title>Information compression at the turbulent-phase transition in cold atom gases. (arXiv:2211.01485v1 [cond-mat.quant-gas])</title>
+<link>http://arxiv.org/abs/2211.01485</link>
+<description rdf:parseType="Literal">&lt;p&gt;The statistical properties of physical systems in thermal equilibrium are
+blatantly different from their far-from-equilibrium counterparts. In the
+latter, fluctuations often dominate the dynamics and might cluster in ordered
+patterns in the form of dissipative coherent structures. Here, we study the
+transition of a cold atomic cloud, driven close to a sharp electronic
+resonance, from a stable to a turbulent phase. From the atomic density
+distribution -- measured using a spatially-resolved pump-probe technique -- we
+have computed the Shannon entropy on two different basis sets. Information
+compression, corresponding to a minimum in the Shannon entropy, has been
+observed at criticality, where the system fluctuations organize into high-order
+(low-entropy) patterns. Being independent of the representation used, this
+feature is a property shared by a vast class of physical systems undergoing
+phase transitions.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Giampaoli_R/0/1/0/all/0/1&quot;&gt;R. Giampaoli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Figueiredo_J/0/1/0/all/0/1&quot;&gt;J. L. Figueiredo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rodrigues_J/0/1/0/all/0/1&quot;&gt;J. D. Rodrigues&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Rodrigues_J/0/1/0/all/0/1&quot;&gt;J. A. Rodrigues&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Tercas_H/0/1/0/all/0/1&quot;&gt;H. Ter&amp;#xe7;as&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Mendonca_J/0/1/0/all/0/1&quot;&gt;J. T. Mendon&amp;#xe7;a&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01632">
+<title>Equivalence of the modified Villain formulation and the dual Hamiltonian method in the duality of the XY-plaquette model. (arXiv:2211.01632v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01632</link>
+<description rdf:parseType="Literal">&lt;p&gt;Regarding the duality of the XY-placket model in the $2+1d$ system, We
+compared and discussed the equivalence and difference between the modified
+Villain formulation, recently introduced by Gorantla et al. to study duality in
+exotic field theories such as fracton theory, and the standard Villain
+formulation and dual Hamiltonian method we introduced in our previous paper to
+study duality between Josephson junctions and quantum phase slips in the $1+1d$
+system.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Yoneda_M/0/1/0/all/0/1&quot;&gt;Morishige Yoneda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01650">
+<title>Universality and its limits in non-Hermitian many-body quantum chaos using the Sachdev-Ye-Kitaev model. (arXiv:2211.01650v1 [hep-th])</title>
+<link>http://arxiv.org/abs/2211.01650</link>
+<description rdf:parseType="Literal">&lt;p&gt;Spectral rigidity in Hermitian quantum chaotic systems signals the presence
+of dynamical universal features at time scales that can be much shorter than
+the Heisenberg time. We study the analogue of this time scale in many-body
+non-Hermitian quantum chaos by a detailed analysis of long-range spectral
+correlators. For that purpose, we investigate the number variance and the
+spectral form factor of a non-Hermitian $q$-body Sachdev-Ye-Kitaev (nHSYK)
+model, which describes $N$ fermions in zero spatial dimensions. After an
+analytical and numerical analysis of these spectral observables for
+non-Hermitian random matrices, and a careful unfolding, we find good agreement
+with the nHSYK model for $q &amp;gt; 2$ starting at a time scale that decreases
+sharply with $q$. The source of deviation from universality, identified
+analytically, is ensemble fluctuations not related to the quantum dynamics. For
+fixed $q$ and large enough $N$, these fluctuations become dominant up until
+after the Heisenberg time, so that the spectral form factor is no longer useful
+for the study of quantum chaos. In all cases, our results point to a weakened
+or vanishing spectral rigidity that effectively delays the observation of full
+quantum ergodicity. We also show that the number variance displays
+non-stationary spectral correlations for both the nHSYK model and random
+matrices. This non-stationarity, also not related to the quantum dynamics,
+points to intrinsic limitations of these observables to describe the quantum
+chaotic motion. On the other hand, we introduce the local spectral form factor,
+which is shown to be stationary and not affected by collective fluctuations,
+and propose it as an effective diagnostic of non-Hermitian quantum chaos. For
+$q = 2$, we find saturation to Poisson statistics at a time scale of $\log D$,
+compared to a scale of $\sqrt D$ for $ q&amp;gt;2$, with $D $ the total number of
+states.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Garcia_Garcia_A/0/1/0/all/0/1&quot;&gt;Antonio M. Garc&amp;#xed;a-Garc&amp;#xed;a&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Sa_L/0/1/0/all/0/1&quot;&gt;Lucas S&amp;#xe1;&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Verbaarschot_J/0/1/0/all/0/1&quot;&gt;Jacobus J. M. Verbaarschot&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01662">
+<title>Multicomponent gauge-Higgs models with discrete Abelian gauge groups. (arXiv:2211.01662v1 [hep-lat])</title>
+<link>http://arxiv.org/abs/2211.01662</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider a variant of the charge-Q compact Abelian-Higgs model, in which
+an Nf-dimensional complex vector is coupled with an Abelian Z_q gauge field.
+For Nf=2 and Q=1 we observe several transition lines that belong to the O(4),
+O(3), and O(2) vector universality classes, depending on the symmetry breaking
+pattern at the transition. The universality class is independent of $q$ as long
+as q&amp;gt;=3. The universality class of the transition is uniquely determined by the
+behavior of the scalar fields; gauge fields do not play any role. We also
+investigate the system for Nf=15 and Q=2. In the presence of U(1) gauge fields,
+the system undergoes transitions associated with charged fixed points of the
+Abelian-Higgs field theory. These continuous transitions turn into first-order
+ones when the U(1) gauge fields are replaced by the discrete Z_q fields: in the
+present compact model charged transitions appear to be very sensitive to the
+nature of the gauge fields
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Bracci_Testasecca_G/0/1/0/all/0/1&quot;&gt;Giacomo Bracci-Testasecca&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-lat/1/au:+Pelissetto_A/0/1/0/all/0/1&quot;&gt;Andrea Pelissetto&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01683">
+<title>Exact physical quantities of a competing spin chain in the thermodynamic limit. (arXiv:2211.01683v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01683</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study the exact physical quantities of a competing spin chain which
+contains many interesting and meaningful couplings including the nearest
+neighbor, next nearest neighbor, chiral three spins, Dzyloshinsky-Moriya
+interactions and unparallel boundary magnetic fields in the thermodynamic
+limit. We obtain the density of zero roots, surface energies and elementary
+excitations in different regimes of model parameters. Due to the competition of
+various interactions, the surface energy and excited spectrum show many
+different pictures from those of the Heisenberg spin chain.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Lu_P/0/1/0/all/0/1&quot;&gt;Pengcheng Lu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Qiao_Y/0/1/0/all/0/1&quot;&gt;Yi Qiao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Cao_J/0/1/0/all/0/1&quot;&gt;Junpeng Cao&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Yang_W/0/1/0/all/0/1&quot;&gt;Wen-Li Yang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01709">
+<title>Dynamic phase transitions on the kagome Ising ferromagnet. (arXiv:2211.01709v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01709</link>
+<description rdf:parseType="Literal">&lt;p&gt;We perform extensive Monte Carlo simulations to investigate the dynamic phase
+transition properties of the two-dimensional kinetic Ising model on the kagome
+lattice in the presence of square-wave oscillating magnetic field. Through
+detailed finite-size scaling analysis, we study universality aspects of the
+non-equilibrium phase transition. Obtained critical exponents indicate that the
+two-dimensional kagome-lattice kinetic Ising model belongs to the same
+universality class with the corresponding Ising model in equilibrium. Moreover,
+dynamic critical exponent of the local moves used in simulations is determined
+with high precision. Our numerical results are compatible with the previous
+ones on kinetic Ising models.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Vatansever_Z/0/1/0/all/0/1&quot;&gt;Zeynep Demir Vatansever&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01710">
+<title>Bernoulli variables, classical exclusion processes and free probability. (arXiv:2211.01710v1 [math-ph])</title>
+<link>http://arxiv.org/abs/2211.01710</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a new description of the known large deviation function of the
+classical symmetric simple exclusion process by exploiting its connection with
+the quantum symmetric simple exclusion processes and using tools from free
+probability. This may seem paradoxal as free probability usually deals with non
+commutative probability while the simple exclusion process belongs to the realm
+of classical probability. On the way, we give a new formula for the free energy
+-- alias the logarithm of the Laplace transform of the probability distribution
+-- of correlated Bernoulli variables in terms of the set of their cumulants
+with non-coinciding indices. This latter result is obtained either by
+developing a combinatorial approach for cumulants of products of random
+variables or by borrowing techniques from Feynman graphs.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Bauer_M/0/1/0/all/0/1&quot;&gt;Michel Bauer&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Bernard_D/0/1/0/all/0/1&quot;&gt;Denis Bernard&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Biane_P/0/1/0/all/0/1&quot;&gt;Philippe Biane&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math-ph/1/au:+Hruza_L/0/1/0/all/0/1&quot;&gt;Ludwig Hruza&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01773">
+<title>Universal optimization efficiency and bounds of Carnot-like heat engines and refrigerators under shortcuts to isothermality. (arXiv:2211.01773v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01773</link>
+<description rdf:parseType="Literal">&lt;p&gt;Based on a quantum thermodynamic protocol for shortcut to isothermality that
+smoothly modify the system-reservoir interaction can significantly speed up an
+isothermal process while keeping the overall dissipation constant [Phys. Rev.
+X. 10, 031015 (2020)], we extend the study of optimization performance of
+Carnot-like heat engines and refrigerators in a straightforward and unified
+way. We derive the universal optimization efficiency of heat engines and the
+optimization coefficient of performance of refrigerators under two unified
+optimization criterions, i.e., chi criterion and omega criterion. We also
+derived the universal lower and upper bounds for heat engines and
+refrigerators, and found that these bounds can be reached under extremely
+asymmetric cases.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Zhang_Y/0/1/0/all/0/1&quot;&gt;Yanchao Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wang_S/0/1/0/all/0/1&quot;&gt;Shuang Wang&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01869">
+<title>Stochastic resetting in a networked multiparticle system with correlated transitions. (arXiv:2211.01869v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01869</link>
+<description rdf:parseType="Literal">&lt;p&gt;The state of many physical, biological and socio-technical systems evolves by
+combining smooth local transitions and abrupt resetting events to a set of
+reference values. The inclusion of the resetting mechanism not only provides
+the possibility of modeling a wide variety of realistic systems but also leads
+to interesting novel phenomenology not present in reset-free cases. However,
+most models where stochastic resetting is studied address the case of a finite
+number of uncorrelated variables, commonly a single one, such as the position
+of non-interacting random walkers. Here we overcome this limitation by framing
+the process of network growth with node deletion as a stochastic resetting
+problem where an arbitrarily large number of degrees of freedom are coupled and
+influence each other, both in the resetting and non-resetting (growth) events.
+We find the exact, full-time solution of the model, and several
+out-of-equilibrium properties are characterized as function of the growth and
+resetting rates, such as the emergence of a time-dependent percolation-like
+phase transition, and first-passage statistics. Coupled multiparticle systems
+subjected to resetting are a necessary generalization in the theory of
+stochastic resetting, and the model presented herein serves as an illustrative,
+natural and solvable example of such a generalization.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Artime_O/0/1/0/all/0/1&quot;&gt;Oriol Artime&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01904">
+<title>Dimensionality reduction of local structure in glassy binary mixtures. (arXiv:2211.01904v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01904</link>
+<description rdf:parseType="Literal">&lt;p&gt;We consider unsupervised learning methods for characterizing the disordered
+microscopic structure of supercooled liquids and glasses. Specifically, we
+perform dimensionality reduction of smooth structural descriptors that describe
+radial and bond-orientational correlations, and assess the ability of the
+method to grasp the essential structural features of glassy binary mixtures. In
+several cases, a few collective variables account for the bulk of the
+structural fluctuations within the first coordination shell and also display a
+clear connection with the fluctuations of particle mobility. Fine-grained
+descriptors that characterize the radial dependence of bond-orientational order
+better capture the structural fluctuations relevant for particle mobility, but
+are also more difficult to parametrize and to interpret. We also find that
+principal component analysis of bond-orientational order parameters provides
+identical results to neural network autoencoders, while having the advantage of
+being easily interpretable. Overall, our results indicate that glassy binary
+mixtures have a broad spectrum of structural features. In the temperature range
+we investigate, some mixtures display well-defined locally favored structures,
+which are reflected in bimodal distributions of the structural variables
+identified by dimensionality reduction.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Coslovich_D/0/1/0/all/0/1&quot;&gt;Daniele Coslovich&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jack_R/0/1/0/all/0/1&quot;&gt;Robert L. Jack&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Paret_J/0/1/0/all/0/1&quot;&gt;Joris Paret&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01909">
+<title>Stochastic dynamics with multiplicative dichotomic noise: heterogeneous telegrapher&apos;s equation, anomalous crossovers and resetting. (arXiv:2211.01909v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01909</link>
+<description rdf:parseType="Literal">&lt;p&gt;We analyze diffusion processes with finite propagation speed in a
+non-homogeneous medium in terms of the heterogeneous telegrapher&apos;s equation. In
+the diffusion limit of infinite-velocity propagation we recover the results for
+the heterogeneous diffusion process. The heterogeneous telegrapher&apos;s process
+exhibits a rich variety of diffusion regimes including hyperdiffusion,
+ballistic motion, superdiffusion, normal diffusion and subdiffusion, and
+different crossover dynamics characteristic for complex systems in which
+anomalous diffusion is observed. The anomalous diffusion exponent in the short
+time limit is twice the exponent in the long time limit, in accordance to the
+crossover dynamics from ballistic diffusion to normal diffusion in the standard
+telegrapher&apos;s process. We also analyze the finite-velocity heterogeneous
+diffusion process in presence of stochastic Poissonian resetting. We show that
+the system reaches a non-equilibrium stationary state. The transition to this
+non-equilibrium steady state is analysed in terms of the large deviation
+function.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Sandev_T/0/1/0/all/0/1&quot;&gt;Trifce Sandev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kocarev_L/0/1/0/all/0/1&quot;&gt;Ljupco Kocarev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Metzler_R/0/1/0/all/0/1&quot;&gt;Ralf Metzler&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chechkin_A/0/1/0/all/0/1&quot;&gt;Aleksei Chechkin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01923">
+<title>Stochastic Representation of the Quantum Quartic Oscillator. (arXiv:2211.01923v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01923</link>
+<description rdf:parseType="Literal">&lt;p&gt;Recent experimental advances have inspired the development of theoretical
+tools to describe the non-equilibrium dynamics of quantum systems. Among them
+an exact representation of quantum spin systems in terms of classical
+stochastic processes has been proposed. Here we provide first steps towards the
+extension of this stochastic approach to bosonic systems by considering the
+one-dimensional quantum quartic oscillator. We show how to exactly parameterize
+the time evolution of this prototypical model via the dynamics of a set of
+classical variables. We interpret these variables as stochastic processes,
+which allows us to propose a novel way to numerically simulate the time
+evolution of the system. We benchmark our findings by considering analytically
+solvable limits and providing alternative derivations of known results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Tucci_G/0/1/0/all/0/1&quot;&gt;Gennaro Tucci&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Nicola_S/0/1/0/all/0/1&quot;&gt;Stefano De Nicola&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Wald_S/0/1/0/all/0/1&quot;&gt;Sascha Wald&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gambassi_A/0/1/0/all/0/1&quot;&gt;Andrea Gambassi&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01940">
+<title>Approximate Gibbsian structure in strongly correlated point fields and generalized Gaussian zero ensembles. (arXiv:2211.01940v1 [math.PR])</title>
+<link>http://arxiv.org/abs/2211.01940</link>
+<description rdf:parseType="Literal">&lt;p&gt;Gibbsian structure in random point fields has been a classical tool for
+studying their spatial properties. However, exact Gibbs property is available
+only in a relatively limited class of models, and it does not adequately
+address many random fields with a strongly dependent spatial structure. In this
+work, we provide a general framework for approximate Gibbsian structure for
+strongly correlated random point fields. These include processes that exhibit
+strong spatial rigidity, in particular, a certain one-parameter family of
+analytic Gaussian zero point fields, namely the $\alpha$-GAFs. Our framework
+entails conditions that may be verified via finite particle approximations to
+the process, a phenomenon that we call an approximate Gibbs property. We show
+that these enable one to compare the spatial conditional measures in the
+infinite volume limit with Gibbs-type densities supported on appropriate
+singular manifolds, a phenomenon we refer to as a generalized Gibbs property.
+We demonstrate the scope of our approach by showing that a generalized Gibbs
+property holds with a logarithmic pair potential for the $\alpha$-GAFs for any
+value of $\alpha$. This establishes the level of rigidity of the $\alpha$-GAF
+zero process to be exactly $\lfloor \frac{1}{\alpha} \rfloor$, settling in the
+affirmative an open question regarding the existence of point processes with
+any specified level of rigidity. For processes such as the zeros of
+$\alpha$-GAFs, which involve complex, many-body interactions, our results imply
+that the local behaviour of the random points still exhibits 2D Coulomb-type
+repulsion in the short range. Our techniques can be leveraged to estimate the
+relative energies of configurations under local perturbations, with possible
+implications for dynamics and stochastic geometry on strongly correlated random
+point fields.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Gangopadhyay_U/0/1/0/all/0/1&quot;&gt;Ujan Gangopadhyay&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Ghosh_S/0/1/0/all/0/1&quot;&gt;Subhroshekhar Ghosh&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01942">
+<title>Quantum Random Walker in Presence of a Moving Detector. (arXiv:2211.01942v1 [quant-ph])</title>
+<link>http://arxiv.org/abs/2211.01942</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this work, we study the effect of a moving detector on a discrete time one
+dimensional Quantum Random Walk where the movement is realized in the form of
+hopping/shifts. The occupation probability $f(x,t;n,s)$ is estimated as the
+number of detection $n$ and number of shift $s$ vary. It is seen that the
+occupation probability at the initial position $x_D$ of the detector is
+enhanced when $n$ is small which a quantum mechanical effect but decreases when
+$n$ is large. The ratio of occupation probabilities of our walk to that of an
+Infinite walk shows a scaling behavior of $\frac{1}{n^2}$. It shows a definite
+scaling behavior with number of shifts $s$ also. The limiting behaviours of the
+walk are observed when $x_D$ is large, $n$ is large and $s$ is large and the
+walker for these cases approach the Infinite Walk, The Semi Infinite Walk and
+the Quenched Quantum Walk respectively.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Molla_M/0/1/0/all/0/1&quot;&gt;Md Aquib Molla&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Goswami_S/0/1/0/all/0/1&quot;&gt;Sanchari Goswami&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01975">
+<title>Dynamical fermionization in one-dimensional spinor gases at finite temperature. (arXiv:2211.01975v1 [cond-mat.stat-mech])</title>
+<link>http://arxiv.org/abs/2211.01975</link>
+<description rdf:parseType="Literal">&lt;p&gt;Following the removal of axial confinement the momentum distribution of a
+Tonks-Girardeau gas approaches that of a system of noninteracting spinless
+fermions in the initial harmonic trap. This phenomenon, called dynamical
+fermionization, has been experimentally confirmed in the case of the
+Lieb-Liniger model and theoretically predicted in the case of multicomponent
+systems at zero temperature. We prove analytically that for all spinor gases
+with strong repulsive contact interactions at finite temperature the momentum
+distribution after release from the trap asymptotically approaches that of a
+system of spinless fermions at the same temperature but with a renormalized
+chemical potential which depends on the number of components of the spinor
+system. In the case of the Gaudin-Yang model we check numerically our
+analytical predictions using the results obtained from a nonequilibrium
+generalization of Lenard&apos;s formula describing the time evolution of the
+field-field correlators.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Patu_O/0/1/0/all/0/1&quot;&gt;Ovidiu I. Patu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2011.09771">
+<title>A shortcut way to the Fokker-Planck equation for the non-Markovian dynamics. (arXiv:2011.09771v3 [cond-mat.stat-mech] UPDATED)</title>
+<link>http://arxiv.org/abs/2011.09771</link>
+<description rdf:parseType="Literal">&lt;p&gt;Using a shortcut way we have derived the Fokker-Planck equation for the
+Langevin dynamics with a generalized frictional memory kernel and
+time-dependent force field. Then we have shown that this method is applicable
+for the non-Markovian dynamics with additional force from harmonic potential or
+magnetic field or both of them. The simplicity of the method in these complex
+cases is highly noticeable and it is applicable to derive the Fokker-Planck
+equation for any kind of linear Langevin equation of motion which describes
+additive colored noise driven non Markovian dynamics with or without frictional
+memory kernel. For example, one may apply the method even for the linear system
+with an additional colored Gaussian noise which is not related to the damping
+strength. With these the present study may get strong attention in the field of
+stochastic thermodynamics which is now at early stage to consider the
+non-Markovian dynamics.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Das_J/0/1/0/all/0/1&quot;&gt;Joydip Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Biswas_M/0/1/0/all/0/1&quot;&gt;Mousumi Biswas&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Bag_B/0/1/0/all/0/1&quot;&gt;Bidhan Chandra Bag&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2012.08889">
+<title>Expressive power of complex-valued restricted Boltzmann machines for solving non-stoquastic Hamiltonians. (arXiv:2012.08889v3 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2012.08889</link>
+<description rdf:parseType="Literal">&lt;p&gt;Variational Monte Carlo with neural network quantum states has proven to be a
+promising avenue for evaluating the ground state energy of spin Hamiltonians.
+However, despite continuous efforts the performance of the method on frustrated
+Hamiltonians remains significantly worse than those on stoquastic Hamiltonians
+that are sign-free. We present a detailed and systematic study of restricted
+Boltzmann machine (RBM) based variational Monte Carlo for quantum spin chains,
+resolving how relevant stoquasticity is in this setting. We show that in most
+cases, when the Hamiltonian is phase connected with a stoquastic point, the
+complex RBM state can faithfully represent the ground state, and local
+quantities can be evaluated efficiently by sampling. On the other hand, we
+identify several new phases that are challenging for the RBM Ansatz, including
+non-topological robust non-stoquastic phases as well as stoquastic phases where
+sampling is nevertheless inefficient. Furthermore, we find that an accurate
+neural network representation of ground states in non-stoquastic phases is
+hindered not only by the sign structure but also by their amplitudes.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Park_C/0/1/0/all/0/1&quot;&gt;Chae-Yeun Park&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kastoryano_M/0/1/0/all/0/1&quot;&gt;Michael J. Kastoryano&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2110.08304">
+<title>Nonlinear Landauer formula: Nonlinear response theory of disordered and topological materials. (arXiv:2110.08304v2 [cond-mat.mes-hall] UPDATED)</title>
+<link>http://arxiv.org/abs/2110.08304</link>
+<description rdf:parseType="Literal">&lt;p&gt;The Landauer formula provides a general scattering formulation of electrical
+conduction. Despite its utility, it has been mainly applied to the
+linear-response regime, and a scattering theory of nonlinear response has yet
+to be fully developed. Here, we extend the Landauer formula to the
+nonlinear-response regime. We show that while the linear conductance is
+directly related to the transmission probability, the nonlinear conductance is
+given by its derivatives with respect to energy. This sensitivity to the energy
+derivatives is shown to produce unique nonlinear transport phenomena of
+mesoscopic systems including disordered and topological materials. By way of
+illustration, we investigate nonlinear conductance of disordered chains and
+identify their universal behavior according to symmetry. In particular, we find
+large singular nonlinear conductance for zero modes, including Majorana zero
+modes in topological superconductors. We also show the critical behavior of
+nonlinear response around the mobility edges due to the Anderson transitions.
+Moreover, we study nonlinear response of graphene as a prime example of
+topological materials featuring quantum anomaly. Furthermore, considering the
+geometry of electronic wave functions, we develop a scattering theory of the
+nonlinear Hall effect. We establish a new connection between the nonlinear Hall
+response and the nonequilibrium quantum fluctuations. We also discuss the
+influence of disorder and Anderson localization on the nonlinear Hall effect.
+Our work opens a new avenue in quantum physics beyond the linear-response
+regime.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Kawabata_K/0/1/0/all/0/1&quot;&gt;Kohei Kawabata&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Ueda_M/0/1/0/all/0/1&quot;&gt;Masahito Ueda&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2203.09514">
+<title>Emergence of isotropy and dynamic scaling in 2D wave turbulence in a homogeneous Bose gas. (arXiv:2203.09514v3 [cond-mat.quant-gas] UPDATED)</title>
+<link>http://arxiv.org/abs/2203.09514</link>
+<description rdf:parseType="Literal">&lt;p&gt;We realise a turbulent cascade of wave excitations in a homogeneous 2D Bose
+gas, and probe on all relevant time and length scales how it builds up from
+small to large momenta, until the system reaches a steady state with matching
+energy injection and dissipation. This all-scales view directly reveals the two
+theoretically expected cornerstones of turbulence formation -- the emergence of
+statistical momentum-space isotropy under anisotropic forcing, and the
+spatiotemporal scaling of the momentum distribution at times before any energy
+is dissipated.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Galka_M/0/1/0/all/0/1&quot;&gt;Maciej Ga&amp;#x142;ka&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Christodoulou_P/0/1/0/all/0/1&quot;&gt;Panagiotis Christodoulou&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gazo_M/0/1/0/all/0/1&quot;&gt;Martin Gazo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Karailiev_A/0/1/0/all/0/1&quot;&gt;Andrey Karailiev&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Dogra_N/0/1/0/all/0/1&quot;&gt;Nishant Dogra&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Schmitt_J/0/1/0/all/0/1&quot;&gt;Julian Schmitt&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Hadzibabic_Z/0/1/0/all/0/1&quot;&gt;Zoran Hadzibabic&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2205.05704">
+<title>Dynamical quantum ergodicity from energy level statistics. (arXiv:2205.05704v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2205.05704</link>
+<description rdf:parseType="Literal">&lt;p&gt;Ergodic theory provides a rigorous mathematical description of classical
+dynamical systems including a formal definition of the ergodic hierarchy.
+Closely related to this hierarchy is a less-known notion of cyclic approximate
+periodic transformations [see, e.g., I. Cornfield, S. Fomin, and Y. Sinai,
+Ergodic theory (Springer-Verlag New York, 1982)], which maps any &quot;ergodic&quot;
+dynamical system to a cyclic permutation on a circle and arguably represents
+the most elementary notion of ergodicity. This paper shows that cyclic
+ergodicity generalizes to quantum dynamical systems, and this generalization is
+proposed here as the basic rigorous definition of quantum ergodicity. It
+implies the ability to construct an orthonormal basis, where quantum dynamics
+transports an initial basis vector to all other basis vectors one by one, while
+maintaining a sufficiently large overlap between the time-evolved initial state
+and a given basis state. It is proven that the basis, maximizing the overlap
+over all cyclic permutations, is obtained via the discrete Fourier transform of
+the energy eigenstates. This relates quantum cyclic ergodicity to level
+statistics. We then show that the near-universal Wigner-Dyson level statistics
+implies quantum cyclic ergodicity, but the reverse is not necessarily true. For
+the latter, we study irrational flows on a 2D torus and prove that both the
+classical and quantum flows are cyclic ergodic. However, the corresponding
+level statistics is neither Wigner-Dyson nor Poisson. Finally, we use the
+cyclic construction to motivate a quantum ergodic hierarchy of operators and
+argue that under the additional assumption of Poincare recurrences, cyclic
+ergodicity is a necessary condition for such operators to satisfy the
+eigenstate thermalization hypothesis. This work provides a general framework
+for transplanting some rigorous concepts of ergodic theory to quantum dynamical
+systems.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Vikram_A/0/1/0/all/0/1&quot;&gt;Amit Vikram&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Galitski_V/0/1/0/all/0/1&quot;&gt;Victor Galitski&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.12924">
+<title>Low-temperature behavior of the $O(N)$ models below two dimensions. (arXiv:2206.12924v2 [cond-mat.stat-mech] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.12924</link>
+<description rdf:parseType="Literal">&lt;p&gt;We investigate the critical behavior and the nature of the low-temperature
+phase of the $O(N)$ models treating the number of field components $N$ and the
+dimension $d$ as continuous variables with a focus on the $d\leq 2$ and $N\leq
+2$ quadrant of the $(d,N)$ plane. We precisely chart a region of the $(d,N)$
+plane where the low-temperature phase is characterized by an algebraic
+correlation function decay similar to that of the Kosterlitz-Thouless phase but
+with a temperature-independent anomalous dimension $\eta$. We revisit the
+Cardy-Hamber analysis leading to a prediction concerning the nonanalytic
+behavior of the $O(N)$ models&apos; critical exponents and emphasize the previously
+not broadly appreciated consequences of this approach in $d&amp;lt;2$. In particular,
+we discuss how this framework leads to destabilization of the long-range order
+in favour of the quasi long-range order in systems with $d&amp;lt;2$ and $N&amp;lt;2$.
+Subsequently, within a scheme of the nonperturbative renormalization group we
+identify the low-temperature fixed points controlling the quasi long-range
+ordered phase and demonstrate a collision between the critical and the
+low-temperature fixed points upon approaching the lower critical dimension. We
+evaluate the critical exponents $\eta(d,N)$ and $\nu^{-1}(d,N)$ and demonstrate
+a very good agreement between the predictions of the Cardy-Hamber type analysis
+and the nonperturbative renormalization group in $d&amp;lt;2$.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Chlebicki_A/0/1/0/all/0/1&quot;&gt;Andrzej Chlebicki&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Jakubczyk_P/0/1/0/all/0/1&quot;&gt;Pawe&amp;#x142; Jakubczyk&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2206.14277">
+<title>Integrable Floquet systems related to logarithmic conformal field theory. (arXiv:2206.14277v2 [quant-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2206.14277</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study an integrable Floquet quantum system related to lattice statistical
+systems in the universality class of dense polymers. These systems are
+described by a particular non-unitary representation of the Temperley-Lieb
+algebra. We find a simple Lie algebra structure for the elements of
+Temperley-Lieb algebra which are invariant under shift by two lattice sites,
+and show how the local Floquet conserved charges and the Floquet Hamiltonian
+are expressed in terms of this algebra. The system has a phase transition
+between local and non-local phases of the Floquet Hamiltonian. We provide a
+strong indication that in the scaling limit this non-equilibrium system is
+described by the logarithmic conformal field theory.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Yashin_V/0/1/0/all/0/1&quot;&gt;Vsevolod I. Yashin&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Kurlov_D/0/1/0/all/0/1&quot;&gt;Denis V. Kurlov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fedorov_A/0/1/0/all/0/1&quot;&gt;Aleksey K. Fedorov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Gritsev_V/0/1/0/all/0/1&quot;&gt;Vladimir Gritsev&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.13633">
+<title>Liquid-liquid transition in water from first principles. (arXiv:2208.13633v2 [cond-mat.stat-mech] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.13633</link>
+<description rdf:parseType="Literal">&lt;p&gt;A longstanding question in water research is the possibility that supercooled
+liquid water can undergo a liquid-liquid phase transition (LLT) into high- and
+low-density liquids. We used several complementary molecular simulation
+techniques to evaluate the possibility of an LLT in an ab initio neural network
+model of water trained on density functional theory calculations with the SCAN
+exchange correlation functional. We conclusively show the existence of a
+first-order LLT and an associated critical point in the SCAN description of
+water, representing the first definitive computational evidence for an LLT in
+water from first principles.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Gartner_T/0/1/0/all/0/1&quot;&gt;Thomas E. Gartner III&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Piaggi_P/0/1/0/all/0/1&quot;&gt;Pablo M. Piaggi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Car_R/0/1/0/all/0/1&quot;&gt;Roberto Car&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Panagiotopoulos_A/0/1/0/all/0/1&quot;&gt;Athanassios Z. Panagiotopoulos&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Debenedetti_P/0/1/0/all/0/1&quot;&gt;Pablo G. Debenedetti&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2208.13772">
+<title>Computing committors via Mahalanobis diffusion maps with enhanced sampling data. (arXiv:2208.13772v2 [physics.comp-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2208.13772</link>
+<description rdf:parseType="Literal">&lt;p&gt;The study of phenomena such as protein folding and conformational changes in
+molecules is a central theme in chemical physics. Molecular dynamics (MD)
+simulation is the primary tool for the study of transition processes in
+biomolecules, but it is hampered by a huge timescale gap between the processes
+of interest and atomic vibrations which dictate the time step size. Therefore,
+it is imperative to combine MD simulations with other techniques in order to
+quantify the transition processes taking place on large timescales. In this
+work, the diffusion map with Mahalanobis kernel, a meshless approach for
+approximating the Backward Kolmogorov Operator (BKO) in collective variables,
+is upgraded to incorporate standard enhanced sampling techniques such as
+metadynamics. The resulting algorithm, which we call the &quot;target measure
+Mahalanobis diffusion map&quot; (tm-mmap), is suitable for a moderate number of
+collective variables in which one can approximate the diffusion tensor and free
+energy. Imposing appropriate boundary conditions allows use of the approximated
+BKO to solve for the committor function and utilization of transition path
+theory to find the reactive current delineating the transition channels and the
+transition rate. The proposed algorithm, tm-mmap, is tested on the
+two-dimensional Moro-Cardin two-well system with position-dependent diffusion
+coefficient and on alanine dipeptide in two collective variables where the
+committor, the reactive current, and the transition rate are compared to those
+computed by the finite element method (FEM). Finally, tm-mmap is applied to
+alanine dipeptide in four collective variables where the use of finite elements
+is infeasible.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Evans_L/0/1/0/all/0/1&quot;&gt;Luke Evans&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Cameron_M/0/1/0/all/0/1&quot;&gt;Maria K. Cameron&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Tiwary_P/0/1/0/all/0/1&quot;&gt;Pratyush Tiwary&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.00906">
+<title>Correspondence from renormalized frequency to heat capacity caused by anharmonic oscillations in diatomic molecules. (arXiv:2210.00906v3 [cond-mat.stat-mech] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.00906</link>
+<description rdf:parseType="Literal">&lt;p&gt;Anharmonicity plays important roles in distant areas, in classical mechanics
+in which it exhibits renormalization of the bare frequency, and in statistical
+mechanics in which the simplest situation is that it causes a correction to the
+vibrational contribution of the heat capacity of an ideal gas composed of
+diatomic molecules, and in $ {\phi}^4 $ model in quantum field theory and
+various anharmonic effects in condensed matter physics, etc. A novel two-to-one
+correspondence is identified from the renormalized frequencies of anharmonic
+oscillations in diatomic molecules to the heat capacity corrections for an
+ideal gas of the diatomic molecules. When the frequency and the heat capacity
+are expressed in perturbative series, respective, in terms of the
+characteristic quantities in mechanics and thermal physics, the expansion
+coefficients are essentially defined by the renormalization of the bare
+frequency, and two expansion coefficients in former corresponds to one in the
+latter.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_Y/0/1/0/all/0/1&quot;&gt;Y. T. Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhong_Y/0/1/0/all/0/1&quot;&gt;Y. Zhong&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Zhang_J/0/1/0/all/0/1&quot;&gt;J. H. Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Liu_Q/0/1/0/all/0/1&quot;&gt;Q. H. Liu&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.01259">
+<title>A perspective on microscopic pressure (stress) tensor: history, current understanding, and future challenges. (arXiv:2210.01259v2 [physics.chem-ph] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.01259</link>
+<description rdf:parseType="Literal">&lt;p&gt;The pressure tensor (equivalent to the negative stress tensor) at both
+microscopic and macroscopic levels is fundamental to many aspects of
+engineering and science, including fluid dynamics, solid mechanics, biophysics,
+and thermodynamics. In this perspective paper, we review methods to calculate
+the microscopic pressure tensor. Connections between different pressure forms
+for equilibrium and non-equilibrium systems are established. We also point out
+several challenges in the field, including the historical controversies over
+the definition of the microscopic pressure tensor; the difficulties with
+many-body and long-range potentials; the insufficiency of software and
+computational tools; and the lack of experimental routes to probe the pressure
+tensor at the nanoscale. Possible future directions are suggested.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Shi_K/0/1/0/all/0/1&quot;&gt;Kaihang Shi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Smith_E/0/1/0/all/0/1&quot;&gt;Edward Smith&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Santiso_E/0/1/0/all/0/1&quot;&gt;Erik E. Santiso&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/physics/1/au:+Gubbins_K/0/1/0/all/0/1&quot;&gt;Keith E. Gubbins&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2210.09457">
+<title>Pseudo Entropy in dS/CFT and Time-like Entanglement Entropy. (arXiv:2210.09457v2 [hep-th] UPDATED)</title>
+<link>http://arxiv.org/abs/2210.09457</link>
+<description rdf:parseType="Literal">&lt;p&gt;We study holographic entanglement entropy in dS/CFT and introduce time-like
+entanglement entropy in CFTs. Both of them take complex values in general and
+are related with each other via an analytical continuation. We argue that they
+are correctly understood as pseudo entropy. We find that the imaginary part of
+pseudo entropy implies an emergence of time in dS/CFT.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Doi_K/0/1/0/all/0/1&quot;&gt;Kazuki Doi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Harper_J/0/1/0/all/0/1&quot;&gt;Jonathan Harper&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Mollabashi_A/0/1/0/all/0/1&quot;&gt;Ali Mollabashi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Takayanagi_T/0/1/0/all/0/1&quot;&gt;Tadashi Takayanagi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Taki_Y/0/1/0/all/0/1&quot;&gt;Yusuke Taki&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01360">
+<title>High-field quantum spin liquid transitions and angle-field phase diagram of Kitaev magnet $\alpha$-RuCl$_3$. (arXiv:2211.01360v2 [cond-mat.str-el] UPDATED)</title>
+<link>http://arxiv.org/abs/2211.01360</link>
+<description rdf:parseType="Literal">&lt;p&gt;The pursuit of quantum spin liquid (QSL) in the Kitaev honeycomb magnets has
+drawn intensive attention recently. In particular, $\alpha$-RuCl$_3$ has been
+widely recognized as a promising candidate for the Kitaev QSL. Although the
+compound exhibits an antiferromagnetic order under zero field, it is believed
+to be endowed with fractionalized excitations, and can be driven to the QSL
+phase by magnetic fields. Here, based on a realistic $K$-$J$-$\Gamma$-$\Gamma&apos;$
+model for $\alpha$-RuCl$_3$ [1], we exploit the exponential tensor
+renormalization group approach to explore the phase diagram of the compound
+under magnetic fields. We calculate the thermodynamic quantities, including the
+specific heat, Gr\&quot;uneisen parameter, magnetic torque, and the magnetotropic
+susceptibility, etc, under a magnetic field with a tilting angle $\theta$ to
+the $c^*$-axis perpendicular to the honeycomb plane. We find an extended QSL in
+the angle-field phase diagram determined with thermodynamic responses. The
+gapless nature of such field-induced QSL is identified from the specific heat
+and entropy data computed down to very low temperatures. The present study
+provides guidance for future high-field experiments for the QSL in
+$\alpha$-RuCl$_3$ and other candidate Kitaev magnets.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_H/0/1/0/all/0/1&quot;&gt;Han Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Li_W/0/1/0/all/0/1&quot;&gt;Wei Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cond-mat/1/au:+Su_G/0/1/0/all/0/1&quot;&gt;Gang Su&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.00679">
+<title>Quantum phase transitions in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric transverse-field Ising spin chains. (arXiv:2211.00679v1 [quant-ph] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.00679</link>
+<description rdf:parseType="Literal">&lt;p&gt;We present a theoretical study of quantum phases and quantum phase
+transitions occurring in non-Hermitian $\mathcal{P}\mathcal{T}$-symmetric
+superconducting qubits chains described by a transverse-field Ising spin model.
+A non-Hermitian part of the Hamiltonian is implemented via imaginary staggered
+\textit{longitudinal } magnetic field, which corresponds to a local staggered
+gain and loss terms. By making use of a direct numerical diagonalization of the
+Hamiltonian for spin chains of a finite size $N$, we explore the dependencies
+of the energy spectrum, including the energy difference between the first
+excited and the ground states, the spatial correlation function of local
+polarization ($z$-component of local magnetization) on the adjacent spins
+interaction strength $J$ and the local gain (loss) parameter $\gamma$. A
+scaling procedure for the coherence length $\xi$ allows us to establish a
+complete quantum phase diagram of the system. We obtain two quantum phases for
+$J&amp;lt;0$, namely, $\mathcal{P}\mathcal{T}$-symmetry broken antiferromagnetic state
+and $\mathcal{P}\mathcal{T}$-symmetry preserved paramagnetic state, and the
+quantum phase transition line between them is the line of exception points. For
+$J&amp;gt;0$ the $\mathcal{P}\mathcal{T}$-symmetry of the ground state is retained in
+a whole region of parameter space of $J$ and $\gamma$, and a system shows
+\textit{two} intriguing quantum phase transitions between ferromagnetic and
+paramagnetic states for a fixed parameter $\gamma &amp;gt; 1$. We also provide the
+qualitative quantum phase diagram $\gamma-J$ derived in the framework of the
+Bethe-Peierls approximation that is in a good accord with numerically obtained
+results.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Starkov_G/0/1/0/all/0/1&quot;&gt;Grigory A. Starkov&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Fistoul_M/0/1/0/all/0/1&quot;&gt;Mikhail V. Fistoul&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/quant-ph/1/au:+Eremin_I/0/1/0/all/0/1&quot;&gt;Ilya M. Eremin&lt;/a&gt;</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2211.01123">
+<title>Multicriticality in Yang-Lee edge singularity. (arXiv:2211.01123v1 [hep-th] CROSS LISTED)</title>
+<link>http://arxiv.org/abs/2211.01123</link>
+<description rdf:parseType="Literal">&lt;p&gt;In this paper we study the non-unitary deformations of the two-dimensional
+Tricritical Ising Model obtained by coupling its two spin \mathbb {Z}_2 odd
+operators to imaginary magnetic fields. Varying the strengths of these
+imaginary magnetic fields and adjusting correspondingly the coupling constants
+of the two spin Z2 even fields, we establish the presence of two universality
+classes of infrared fixed points on the critical surface. The first class
+corresponds to the familiar Yang-Lee edge singularity, while the second class
+to its tricritical version. We argue that these two universality classes are
+controlled by the conformal non-unitary minimal models M(2,5) and M(2,7)
+respectively, which is supported by considerations based on PT symmetry and the
+corresponding extension of Zamolodchikov&apos;s c-theorem, and also verified
+numerically using the truncated conformal space approach. Our results are in
+agreement with a previous numerical study of the lattice version of the
+Tricritical Ising Model [1]. We also conjecture the classes of universality
+corresponding to higher non-unitary multicritical points obtained by perturbing
+the conformal unitary models with imaginary coupling magnetic fields.
+&lt;/p&gt;
+</description>
+<dc:creator> &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Lencses_M/0/1/0/all/0/1&quot;&gt;M&amp;#xe1;t&amp;#xe9; Lencs&amp;#xe9;s&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Miscioscia_A/0/1/0/all/0/1&quot;&gt;Alessio Miscioscia&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Mussardo_G/0/1/0/all/0/1&quot;&gt;Giuseppe Mussardo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/hep-th/1/au:+Takacs_G/0/1/0/all/0/1&quot;&gt;G&amp;#xe1;bor Tak&amp;#xe1;cs&lt;/a&gt;</dc:creator>
+</item>
+</rdf:RDF>
