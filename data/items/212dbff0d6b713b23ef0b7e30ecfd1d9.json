@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:nPWLqgQtBJU",
+  "yt:videoId": "nPWLqgQtBJU",
+  "yt:channelId": "UCF_N2LmIT3x75ppQGUiPrKw",
+  "title": "Studying relations geometrically and topologically",
+  "link": "",
+  "author": {
+    "name": "Michael Robinson",
+    "uri": "https://www.youtube.com/channel/UCF_N2LmIT3x75ppQGUiPrKw"
+  },
+  "published": "2022-04-28T18:13:14+00:00",
+  "updated": "2022-07-30T05:15:20+00:00",
+  "media:group": {
+    "media:title": "Studying relations geometrically and topologically",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Binary relations between two sets occur frequently in applications.  For instance, determining which files can be successfully read by which computer programs is not a function, but a relation.  That is, multiple files can be read by a given program, and conversely a given file may be read by many different programs.  If one considers a set of files that are supposed to comply with a particular format, this imposes considerable structure on the file-program relations that can arise.  This is all the more interesting if the file format is ill-specified or loosely interpreted by the authors of the programs.  (Many of the common file formats in use today, such as HTML, JavaScript, and PDF follow consensus specifications; their official specification is not machine-parsable.)\n\nThe famous Dowker complex is the applied combinatorial topologist's go-to tool for studying relational data, but on its own it's rather limited.  This talk will outline some richer structure built upon the Dowker complex and its dual category-theoretic and topological nature.  The talk will also present a newly-discovered way to estimate distances between relations.  These properties can be interpreted back into the context of the original application, giving new ways to identify what it means for files to comply with (or violate) a particular format.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
