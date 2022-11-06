@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43982 (airflow)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43982",
+  "description": "In Apache Airflow versions prior to 2.4.2, the &quot;Trigger DAG with config&quot; screen was susceptible to XSS attacks via the `origin` query argument.",
+  "dc:date": "2022-11-02T12:15:56Z"
+}
