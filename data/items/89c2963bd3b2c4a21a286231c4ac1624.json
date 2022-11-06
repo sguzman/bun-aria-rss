@@ -1,0 +1,14 @@
+{
+  "title": "Computing the vector norm",
+  "link": "http://fa.bianp.net/blog/2011/computing-the-vector-norm/",
+  "description": "<p><strong>Update: a fast and stable norm was added to scipy.linalg in August\n2011 and will be available in scipy 0.10</strong> Last week I discussed with\n<a class=\"reference external\" href=\"http://gael-varoquaux.info/blog/\">Gael</a> how we should compute the euclidean norm of a vector a using\nSciPy. Two approaches suggest themselves, either calling\nscipy.linalg.norm …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 15 Feb 2011 10:31:00 +0100",
+  "guid": "tag:fa.bianp.net,2011-02-15:/blog/2011/computing-the-vector-norm/",
+  "category": [
+    "misc",
+    "linear algebra",
+    "norm",
+    "scipy"
+  ]
+}

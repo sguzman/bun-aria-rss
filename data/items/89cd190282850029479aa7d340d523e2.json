@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:_n714QL5HcQ",
+  "yt:videoId": "_n714QL5HcQ",
+  "yt:channelId": "UCHAtzWEoegu7Z5zEVzjOM_Q",
+  "title": "Category Theory For Beginners: Special Arrows",
+  "link": "",
+  "author": {
+    "name": "Richard Southwell",
+    "uri": "https://www.youtube.com/channel/UCHAtzWEoegu7Z5zEVzjOM_Q"
+  },
+  "published": "2021-03-29T05:00:03+00:00",
+  "updated": "2022-08-19T15:37:46+00:00",
+  "media:group": {
+    "media:title": "Category Theory For Beginners: Special Arrows",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video we introduce monomorphisms, epimorphisms, isomorphisms, split epimorphisms and split monomorphisms. We discuss various relationships between these concepts (and the notion of generalized elements) in general categories, and discuss how these kinds of arrows can be interpreted in various special categories.\n\nCorrection: In the category of sets there are exceptional monomorphisms that are not a split monomorphisms. These are the monomorphisms that go from from the initial object (which corresponds to an empty set) to an object that is not initial. Such arrows are not split monomorphisms, since there is no arrow going in the opposite direction.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
