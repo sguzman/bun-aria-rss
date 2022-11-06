@@ -1,0 +1,15 @@
+{
+  "title": "Optimizing Python in the Real World: NumPy, Numba, and the NUFFT",
+  "link": "",
+  "published": "2015-02-24T12:00:00-08:00",
+  "updated": "2015-02-24T12:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-02-24:blog/2015/02/24/optimizing-python-with-numpy-and-numba/",
+  "summary": "<p>Donald Knuth famously quipped that \"premature optimization is the root of all evil.\"\nThe reasons are straightforward: optimized code tends to be much more difficult to read and debug than simpler implementations of the same algorithm, and optimizing too early leads to greater costs down the road.\nIn the Python world, there is another cost to optimization: optimized code often is written in a compiled language like Fortran or C, and this leads to barriers to its development, use, and deployment.</p>\n<p>Too often, tutorials about optimizing Python use trivial or toy examples which may not map well to the real world.\nI've certainly been <a href=\"https://jakevdp.github.io/blog/2012/08/24/numba-vs-cython/\">guilty</a> of this <a href=\"https://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/\">myself</a>.\nHere, I'm going to take a different route: in this post I will outline the process of understanding, implementing, and optimizing a non-trivial algorithm in Python, in this case the <a href=\"http://www.cims.nyu.edu/cmcl/nufft/nufft.html\">Non-uniform Fast Fourier Transform</a> (NUFFT).\nAlong the way, we'll dig into the process of optimizing Python code, and see how a relatively straightforward pure Python implementation, with a little help from <a href=\"http://numba.pydata.org\">Numba</a>, can be made to nearly match the performance of a highly-optimized Fortran implementation of the same algorithm.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

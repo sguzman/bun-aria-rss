@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:UyBz2uS7Ark",
+  "yt:videoId": "UyBz2uS7Ark",
+  "yt:channelId": "UCxUZjZaLPsHPlp8AtkSBZiA",
+  "title": "Bryce Clarke: \"A double-categorical approach to lenses via algebraic weak factorisation systems\"",
+  "link": "",
+  "author": {
+    "name": "Topos Institute",
+    "uri": "https://www.youtube.com/channel/UCxUZjZaLPsHPlp8AtkSBZiA"
+  },
+  "published": "2022-11-04T06:01:36+00:00",
+  "updated": "2022-11-04T15:07:04+00:00",
+  "media:group": {
+    "media:title": "Bryce Clarke: \"A double-categorical approach to lenses via algebraic weak factorisation systems\"",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Topos Institute Colloquium, 3rd of November 2022.\n———\nThe goal of this talk is to draw a common thread between three concepts: double categories, lenses, and algebraic weak factorisation systems (AWFS). A double category is a 2-dimensional categorical structure consisting of objects, horizontal and vertical morphisms, and cells between them. In applied category theory, lenses are a kind of morphism which consist of a forwards component and a backwards component. An AWFS on a category C consists of a compatible comonad L and monad R on the arrow category of C, such that each morphism factors into an L-coalgebra followed by an R-algebra. In each case, two classes of morphisms play a central role — horizontal and vertical, forwards and backwards, coalgebras and algebras — and it is natural to wonder if there is a deeper relationship between these three concepts.\n\nIn this talk, I will develop a double-categorical approach to lenses via AWFS. The approach builds upon the work of Bourke and Garner, which characterises AWFS as certain kinds of double categories, and the work of Johnson, Rosebrugh, and Wood, which implicitly characterises lenses as members of the right class of an AWFS. Combining these results leads indirectly to a double-categorical approach to lenses. However, there is also a direct approach which constructs a generalised notion of lens inside any double category, using a process called the \"right-connected completion\". I will compare these two approaches, and explore settings where they coincide.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
