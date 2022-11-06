@@ -1,0 +1,16 @@
+{
+  "title": "Optimization of Scientific Code with Cython: Ising Model",
+  "link": "",
+  "published": "2017-12-11T12:00:00-08:00",
+  "updated": "2017-12-11T12:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2017-12-11:blog/2017/12/11/live-coding-cython-ising-model/",
+  "summary": "<p>Python is quick and easy to code, but can be slow when doing intensive numerical operations. Translating code to Cython can be helpful, but in most cases requires a bit of trial and error to achieve the optimal result. <a href=\"http://cython.readthedocs.io/en/latest/src/tutorial/\">Cython's tutorials</a> contain a lot of information, but for iterative workflows like optimization with Cython, it's often useful to see it done \"live\".</p>\n<p>For that reason, I decided to record some screencasts showing this iterative optimization process, using an  <a href=\"https://en.wikipedia.org/wiki/Ising_model\">Ising Model</a>, as an example application.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

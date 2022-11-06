@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-38168",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38168",
+  "description": "** UNSUPPPORTED WHEN ASSIGNED **Broken Access Control in User Authentication in Avaya Scopia Pathfinder 10 and 20 PTS version 8.3.7.0.4 allows remote unauthenticated attackers to bypass the login page, access sensitive information, and reset user passwords via URL modification.",
+  "dc:date": "2022-11-03T21:15:09Z"
+}

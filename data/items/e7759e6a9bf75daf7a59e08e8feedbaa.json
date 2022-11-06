@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43063 (online_diagnostic_lab_management_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43063",
+  "description": "Online Diagnostic Lab Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /classes/Users.php?f=delete_client.",
+  "dc:date": "2022-11-03T20:15:33Z"
+}

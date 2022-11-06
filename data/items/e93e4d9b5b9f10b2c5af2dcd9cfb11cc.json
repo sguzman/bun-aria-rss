@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:n7moEQtv3qU",
+  "yt:videoId": "n7moEQtv3qU",
+  "yt:channelId": "UCxUZjZaLPsHPlp8AtkSBZiA",
+  "title": "Gordon Plotkin: \"Does recursion help?\" (Special seminar in honour of Dana Scott's 90th birthday)",
+  "link": "",
+  "author": {
+    "name": "Topos Institute",
+    "uri": "https://www.youtube.com/channel/UCxUZjZaLPsHPlp8AtkSBZiA"
+  },
+  "published": "2022-10-12T06:13:47+00:00",
+  "updated": "2022-10-13T02:23:43+00:00",
+  "media:group": {
+    "media:title": "Gordon Plotkin: \"Does recursion help?\" (Special seminar in honour of Dana Scott's 90th birthday)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "As everyone knows, Alonzo Church proposed that the effectively calculable natural number functions are those definable in the untyped lambda calculus. (He used Church numerals to represent natural numbers.) The lambda-definable functions were shown to be the same as the Gödel-Herbrand general recursive functions and the same as the functions computable by Turing machines. The fixed-point combinator Y is crucial for the proofs, as it enables functions to be defined recursively.\n\nIf we switch to the typed lambda-calculus the situation changes drastically. Helmut Schwichtenberg and Richard Statman showed that only the extended polynomials can then be defined (they used a typed version of the Church numerals).\n\nIt is natural, therefore, to ask what happens if one adds typed fixed-point combinators to the typed lambda calculus. We present an answer to this question. Our answer makes essential use of Dana Scott's domain theory to model the fixed-point combinators.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

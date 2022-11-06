@@ -1,0 +1,13 @@
+{
+  "title": "Low rank approximation",
+  "link": "http://fa.bianp.net/blog/2011/low-rank-approximation/",
+  "description": "<p>A little experiment to see what low rank approximation looks like. These\nare the best rank-k approximations (in the Frobenius norm) to the a\nnatural image for increasing values of k and an original image of rank\n512.</p>\n<img alt=\"\" src=\"/blog/static/uploads/2011/11/animation1.gif\" />\n<p>Python code can be found <a class=\"reference external\" href=\"https://gist.github.com/1342033\">here</a>. GIF animation made\nusing ImageMagic's convert …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sun, 06 Nov 2011 12:05:00 +0100",
+  "guid": "tag:fa.bianp.net,2011-11-06:/blog/2011/low-rank-approximation/",
+  "category": [
+    "misc",
+    "machine learning",
+    "python"
+  ]
+}

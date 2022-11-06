@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:e7aIVSVc8cI",
+  "yt:videoId": "e7aIVSVc8cI",
+  "yt:channelId": "UCEo_JfTH_9FK-7k9-mAWJkQ",
+  "title": "A Swift Introduction to Spacetime Algebra",
+  "link": "",
+  "author": {
+    "name": "sudgylacmoe",
+    "uri": "https://www.youtube.com/channel/UCEo_JfTH_9FK-7k9-mAWJkQ"
+  },
+  "published": "2022-08-13T23:25:34+00:00",
+  "updated": "2022-08-18T18:34:40+00:00",
+  "media:group": {
+    "media:title": "A Swift Introduction to Spacetime Algebra",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video is a fast-paced introduction to Spacetime Algebra (STA), which is the geometric algebra of Minkowski space.  In it, we figure out what the problems are with the way introductory textbooks usually describe special relativity and how we can solve those problems by using spacetime and redefining length in terms of the spacetime interval.  This creates Spacetime Algebra.  We then study STA and learn about spacetime splits and Lorentz transformations.\n\nThis video is my submission for SoME2, and just in time too!  It was probably the hardest video to make that I've ever done because of the length of the video and the difficulty of the material being presented.  In the end, I hope it can be of use to you.\n\nHere's a link to my original video on geometric algebra: https://www.youtube.com/watch?v=60z_hpEAtD8\nI also have an important addendum that I made to that video as well: https://www.youtube.com/watch?v=0bOiy0HVMqA\n\nWhen it comes to resources for applications of STA, you can't go wrong with Doran and Lasenby's Geometric Algebra for Physicists.  It includes chapters on every topic discussed here.  Here's a few other resources:\nRelativistic Mechanics: New Foundations for Classical Mechanics by Hestenes, although he actually uses VGA instead of STA\nElectrodynamics: Understanding Geometric Algebra for Electromagnetic Theory (starts out in VGA but switches to STA later on)\nRelativistic Quantum Mechanics: Spacetime Algebra by Hestenes.  Also, everything on https://geocalc.clas.asu.edu/html/GAinQM.html is good, and it includes some information on the zitterbewegung interpretation of quantum mechanics.\nGauge Theory Gravity: The original paper describing GTG is \"Gravity, Gauge Theories and Geometric Algebra\" which can be found online on arxiv: https://arxiv.org/abs/gr-qc/0405033\n\nDiscord: https://discord.gg/3Zj59zA2Rg\n\nPatreon: https://www.patreon.com/sudgylacmoe\n\nPatreon Supporters:\nAxisAngles\nDavid Johnston\np11\nRichard Penner\nRosario\n\nSections:\n00:00 Introduction\n00:54 Prerequisites\n02:05 Outline\n03:18 Symmetry\n05:36 Lorentz Boosts\n07:03 Problems With Lorentz Boosts\n08:02 Lorentz Boosts Mix Space and Time\n08:34 Making Time a Vector\n10:08 Visualizing Spacetime\n12:27 Lorentz Boosts Change Lengths\n12:54 Length vs. Square\n13:33 Finding an Invariant Square\n14:11 Spacetime Vectors as Reference Frames\n14:59 Measuring Length in a Vector's Reference Frame\n15:29 Derivation of the Spacetime Interval\n17:38 Examples of the Square of a Vector\n19:37 Negative Length?\n20:26 Spacetime Algebra\n22:22 Correspondence Between Space and Spacetime\n23:38 Converting Between Spacetime and Space\n24:51 Spacetime Splits\n25:57 Algebraic View of Spacetime Splits\n29:00 Return to Lorentz Boosts\n29:51 2D Lorentz Boosts\n32:17 Lorentz Boosts = Rotations\n33:52 Higher-Dimensional Lorentz Boosts\n35:06 Lorentz Transformations\n35:40 Various Applications",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

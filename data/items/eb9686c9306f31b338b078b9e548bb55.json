@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2018-9331 (zzcms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2018-9331",
+  "description": "An issue was discovered in zzcms 8.2. user/adv.php allows remote attackers to delete arbitrary files via directory traversal sequences in the oldimg parameter. This can be leveraged for database access by deleting install.lock.",
+  "dc:date": "2018-04-07T02:29:00Z"
+}

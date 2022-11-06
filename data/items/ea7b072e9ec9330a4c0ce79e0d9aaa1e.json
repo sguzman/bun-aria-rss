@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3379 (cscape)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3379",
+  "description": "Horner Automation's Cscape version 9.90 SP7 and prior does not properly validate user-supplied data. If a user opens a maliciously formed FNT file, then an attacker could execute arbitrary code within the current process by writing outside the memory buffer.",
+  "dc:date": "2022-10-27T23:15:11Z"
+}

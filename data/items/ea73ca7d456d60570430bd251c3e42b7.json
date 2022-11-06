@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-8665826341097287811",
+  "published": "2015-07-11T15:00:00.001-07:00",
+  "updated": "2015-07-11T15:00:38.036-07:00",
+  "title": "Getting Started Doing Baseball Analysis without Coding",
+  "content": "There's lot of confusion about how best to get started doing baseball analysis. <a href=\"http://www.dataphoric.com/2015/06/27/learn_data_science_the_hard_way/\" target=\"_blank\">It doesn't have to be difficult!</a> You can start doing it right away, even if you don't know anything about R, Python, Ruby, SQL or machine learning (most GMs can't code). Learning these and other tools makes it easier and faster to do analysis, but they're only part of the process of constructing a well-reasoned argument. They're important, of course, because they can turn 2 months of hard work into 10 minutes of typing. Even if you don't like mathematics, statistics, coding or databases, they're mundane necessities that can make your life much easier and your analysis more powerful.<br /><br />Here are two example problems. You don't have to do these specifically, but they illustrate the general idea. Write up your solutions, then publish them for other people to make some (hopefully) helpful comments and suggestions. This can be on a blog or through a versioning control platform like <a href=\"https://github.com/\" target=\"_blank\">GitHub</a> (which is also great for versioning any code or data your use). Try to write well! A great argument, but poorly written and poorly presented isn't going to be very convincing. Once it's finished, review and revise, review and revise, review and revise. When a team you follow makes a move, treat it as a puzzle for you to solve. Why did they do it, and was it a good idea?<br /><ol><li>Pick a recent baseball trade. For example, the Padres traded catcher Yasmani Grandal for Dodgers outfielder Matt Kemp. It's never that simple of course; the Padres aren't paying all of Matt Kemp's salary. Find out what the salary obligations were for each club in this trade. Using your favorite public projection system, where were the projected surplus values for each player at the time of the trade? Of course, there were <a href=\"http://www.si.com/mlb/2014/12/18/matt-kemp-arthritic-hips-dodgers-padres-trade\" target=\"_blank\">other players</a>&nbsp;involved in that trade, too. What were the expected surplus values of those players? From the perspective of surplus values, who won or lost this trade? Finally, why do you think each team made this trade, especially considering that they were division rivals? Do you think one or both teams made any mistakes in reasoning; if so, what were they, and did the other team take advantage of those mistakes?</li><li>Pick any MLB team and review the <a href=\"http://mlb.mlb.com/mlb/events/draft/y2015/drafttracker.jsp\" target=\"_blank\">draft picks they made in the 2015 draft</a> for the first 10 rounds. Do you notice any trends or <a href=\"http://mlb.mlb.com/mlb/events/draft/y2014/drafttracker.jsp\" target=\"_blank\">changes from the 2014 draft</a>? Do these picks agree or disagree with the various public pre-draft player rankings? Which picks were designed to save money to help sign other picks? Identify those tough signs. Was the team actually able to sign them, and were the picks to save money still reasonably good picks? Do you best to identify which picks you thought were good and bad, write them down in a notebook with your reasoning, then check back in 6 months and a year. Was your reasoning correct? If not, what were your mistakes and how can you avoid making them in the future?</li></ol>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

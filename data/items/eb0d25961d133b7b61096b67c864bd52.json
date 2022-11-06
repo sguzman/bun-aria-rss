@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3776 (restaurant_menu_-_food_ordering_system_-_table_reservation)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3776",
+  "description": "The Restaurant Menu &acirc;&euro;&ldquo; Food Ordering System &acirc;&euro;&ldquo; Table Reservation plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.3.1. This is due to missing or incorrect nonce validation on several functions called via AJAX actions such as forms_action, set_option, &amp; chosen_options to name a few . This makes it possible for unauthenticated attackers to perform a variety of administrative actions like modifying forms, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+  "dc:date": "2022-11-03T17:15:28Z"
+}

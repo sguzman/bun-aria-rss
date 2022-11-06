@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32207 (bootstrap_os, clustered_data_ontap, curl, debian_linux, element_software, fedora, h300s_firmware, h410s_firmware, h500s_firmware, h700s_firmware, hci_management_node, macos, solidfire)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32207",
+  "description": "When curl &lt; 7.84.0 saves cookies, alt-svc and hsts data to local files, it makes the operation atomic by finalizing the operation with a rename from a temporary name to the final target file name.In that rename operation, it might accidentally *widen* the permissions for the target file, leaving the updated file accessible to more users than intended.",
+  "dc:date": "2022-07-07T13:15:08Z"
+}

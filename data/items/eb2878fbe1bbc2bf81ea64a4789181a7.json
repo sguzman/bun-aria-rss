@@ -1,0 +1,7 @@
+{
+  "title": "How to Bypass Corporate Firewalls?",
+  "link": "https://www.datascienceblog.net/post/other/how-to-bypass-corporate-firewall/",
+  "pubDate": "Thu, 30 Jul 2020 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/other/how-to-bypass-corporate-firewall/",
+  "description": "Companies usually have firewalls in place, which ensure that the internal network is protected. To access the outside world, all traffic must be routed through a proxy. When you are using the standard operating system (typically Windows), you are automatically authenticated with this proxy.\nHowever, when you are using a non-standard operating system (e.g. through a virtual machine running Linux), you are not automatically authenticated with the company&rsquo;s proxy. The sad result: you won&rsquo;t be able to access the internet out of the box."
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Automating the Documentation of ML Experiments using Python and AsciiDoc",
+  "link": "https://www.datascienceblog.net/post/other/documenting-experiments-asciidoctor-python/",
+  "pubDate": "Sun, 30 Aug 2020 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/other/documenting-experiments-asciidoctor-python/",
+  "description": "In this post, I want to share how Python can be used to automate the documentation of machine-learning (ML) experiments using AsciiDoc.\nThe search for the best-performing ML model is an empirical process, which involves fitting models with differing parameters and evaluating their predictive performance. Only after a multitude (e.g. hundreds or thousands) of models have been evaluated, is it possible confidently proclaim that a suitable model has been identified. The major challenge of running vast numbers of experiments is that they are time- and compute-intensive because results usually have to be delivered within a certain time frame (e."
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-20239 (android)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-20239",
+  "description": "remap_pfn_range' here may map out of size kernel memory (for example, may map the kernel area), and because the 'vma-&gt;vm_page_prot' can also be controlled by userspace, so userspace may map the kernel area to be writable, which is easy to be exploitedProduct: AndroidVersions: Android SoCAndroid ID: A-233972091",
+  "dc:date": "2022-08-10T20:15:26Z"
+}

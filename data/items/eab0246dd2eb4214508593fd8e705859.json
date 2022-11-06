@@ -1,0 +1,9 @@
+{
+  "title": "The boolean satisfiability problem",
+  "link": "http://fa.bianp.net/blog/2009/the-boolean-satisfiability-problem/",
+  "description": "<p><p>Most annoying problem in my implementation of the query system is that\nit will not solve implications if the implicates are far away from each\nother. For instance, if the graph of known facts is something like this</p>\n<pre class=\"literal-block\">\nInteger ----&gt; Rational --&gt; Real --&gt; Complex\n  ^  ^\n  |  |\n  |   -------\n  |         |\nPrime      Even\n  ^\n  |\n  |\nMersennePrime\n</pre>\n<p>Then it will not know …</p></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 15 Jun 2009 06:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-06-15:/blog/2009/the-boolean-satisfiability-problem/",
+  "category": "General, sympy, Tecnologí­a"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42819 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42819",
+  "description": "An access issue was addressed with improved access restrictions. This issue is fixed in macOS Big Sur 11.7, macOS Ventura 13, macOS Monterey 12.6. An app may be able to read sensitive location information.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}

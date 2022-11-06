@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:0CHZMY02Dhk",
+  "yt:videoId": "0CHZMY02Dhk",
+  "yt:channelId": "UCv0nF8zWevEsSVcmz6mlw6A",
+  "title": "What does it mean to take a complex derivative? (visually explained)",
+  "link": "",
+  "author": {
+    "name": "vcubingx",
+    "uri": "https://www.youtube.com/channel/UCv0nF8zWevEsSVcmz6mlw6A"
+  },
+  "published": "2022-01-07T15:00:09+00:00",
+  "updated": "2022-08-19T15:42:32+00:00",
+  "media:group": {
+    "media:title": "What does it mean to take a complex derivative? (visually explained)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "The complex derivative, from differentials to the Cauchy-Riemann Equations\nSupport me on Patreon! https://patreon.com/vcubingx\nSign up for Brilliant (sponsored link)! https://brilliant.org/vcubingx\n\nThe source code for the animations can be found here:\nhttps://github.com/vivek3141/videos\n\nA huge thanks to @3Blue1Brown , @Aleph 0 , @Alfredo Canziani , Sumedh Shenoy, Nikhil Maserang and Oliver Ni for helping me review the video!\n\nIf you're interested in learning why conformal doesn't necessarily mean differentiable, read Chapter 4.VI \"Conformal = Analytic\" of Tristan Needham's \"Visual Complex Analysis\", which you can find here: http://usf.usfca.edu/vca/\n\nThis book is incredible, some of the ideas in this video were taken from this book. You can find all my sources here: https://docs.google.com/document/d/13chruB-Mmxc722Xxsv0Daz9pLqdX5AAI4olvvS9dq7Y/edit\n\nSome extra info:\nAt 20:47, I mention that a function is holomorphic if it satisfies the cauchy-riemann equations. This is not always true, the partial derivatives have to be continuous as well. \nFor example, f(z) = {0 if z=0, z^5/|z^4| if z!=0} satisfies the cauchy-riemann equations but is not differentiable at z=0.\nThanks to Ge for pointing this out!\n\nMistakes:\n3:15: The upper number line should still be labeled as \"x\" instead of \"x^2\"\n14:56 It should be nz^(n-1)\n\nThese animation in this video was made using 3blue1brown's library, manim:\nhttps://github.com/3b1b/manim\n\nChapters:\n0:00 Intro\n1:53 The Real Derivative, Revisited\n4:31 Differential View\n9:17 Transformation View\n13:02 Conformality\n16:01 Cauchy-Riemann Equations\n22:15 Brilliant Ad, Stereographic Projection\n23:57 Outro, deriv of e^z\n\n\nFollow me!\nWebsite: https://vcubingx.com\nTwitter: https://twitter.com/vcubingx\nGithub: https://github.com/vivek3141\nInstagram: https://instagram.com/vcubingx\nPatreon: https://patreon.com/vcubingx\n\nMusic (in order):\nKnowmadic - Faces\nMommy x Philantrope - Embrace\nGameChops - Route 113\nKnowmadic - Faces\nIdealism - Still\nGameChops - Azalea Town\n\nWhat does it mean to take a complex derivative? (visually explained)\n\nSome tags: complex analysis, cauchy-riemann, imaginary, derivative, vcubingx",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

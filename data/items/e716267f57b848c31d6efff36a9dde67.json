@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-38395 (application_control_environment_firmware, c200_firmware, c200e_firmware, c300_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-38395",
+  "description": "Honeywell Experion PKS C200, C200E, C300, and ACE controllers are vulnerable to improper neutralization of special elements in output, which may allow an attacker to remotely execute arbitrary code and cause a denial-of-service condition.",
+  "dc:date": "2022-10-28T02:15:16Z"
+}

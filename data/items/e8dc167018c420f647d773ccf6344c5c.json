@@ -1,0 +1,7 @@
+{
+  "title": "Many is not enough: Counting simulations to bootstrap the right way",
+  "link": "https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/",
+  "pubDate": "Mon, 24 Aug 2020 01:35:17 +0000",
+  "guid": "https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/",
+  "description": "Previously, I encouraged readers to test different approaches to bootstrapped confidence interval (CI) estimation. Such testing can done by relying on the definition of CIs: Given an infinite number of independent samples from the same population, we expect a ci_level CI to contain the population parameter in exactly ci_level percent of the samples. Therefore, we run &ldquo;many&rdquo; simulations (num_simulations), where each simulation generates a random sample from the same population and runs the CI algorithm on the sample."
+}

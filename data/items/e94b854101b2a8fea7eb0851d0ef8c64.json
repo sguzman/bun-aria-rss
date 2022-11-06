@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-23050 (tao_assessment_platform)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-23050",
+  "description": "TAO Open Source Assessment Platform v3.3.0 RC02 was discovered to contain a HTML injection vulnerability in the userFirstName parameter of the user account input field. This vulnerability allows attackers to execute phishing attacks, external redirects, and arbitrary code.",
+  "dc:date": "2021-10-22T20:15:10Z"
+}

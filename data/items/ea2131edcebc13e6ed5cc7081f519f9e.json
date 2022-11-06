@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:hfMk-kjRv4c",
+  "yt:videoId": "hfMk-kjRv4c",
+  "yt:channelId": "UCmtyQOKKmrMVaKuRXz02jbQ",
+  "title": "How to Create a Neural Network (and Train it to Identify Doodles)",
+  "link": "",
+  "author": {
+    "name": "Sebastian Lague",
+    "uri": "https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+  },
+  "published": "2022-08-12T16:51:48+00:00",
+  "updated": "2022-10-02T22:50:06+00:00",
+  "media:group": {
+    "media:title": "How to Create a Neural Network (and Train it to Identify Doodles)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Exploring how neural networks learn by programming one from scratch in C#, and then attempting to teach it to recognize various doodles and images.\n\nSource code: https://github.com/SebLague/Neural-Network-Experiments\nDemo: https://sebastian.itch.io/neural-network-experiment\n\nIf you'd like to support me in creating more videos (and get early access to new stuff), you can join my patreon here: https://www.patreon.com/SebastianLague\n\nThe data is from:\nDigits http://yann.lecun.com/exdb/mnist/\nFashion https://github.com/zalandoresearch/fashion-mnist\nDoodles https://github.com/googlecreativelab/quickdraw-dataset\nCifar10 https://www.cs.toronto.edu/~kriz/cifar.html\n\nChapters\n0:00 Introduction\n2:39 The decision boundary\n3:49 Weights\n5:42 Biases\n6:45 Hidden layers\n7:45 Programming the network\n9:57 Activation functions\n12:42 Cost\n15:07 Gradient descent example\n18:22 The cost landscape\n19:55 Programming gradient descent\n21:10 It's learning! (slowly)\n23:21 Calculus example\n27:34 The chain rule\n29:50 Some partial derivatives\n33:14 Backpropagation\n39:25 Digit recognition\n43:56 Drawing our own digits\n47:37 Fashion\n48:25 Doodles\n52:00 The final challenge\n\nMusic:\nCosmic Waves - Michael FK\nAmber - The Stolen Orchestra\nBeyond the Horizon - Sounds Like Sander\nAir - Assaf Ayalon\nPurest Form - Sounds Like Sander\nHear Wide Open - Sounds Like Sander\nUniversal Wonder - Moments\nRoman P - Moments\nAll In Good Time - Shimmer\nIt Will Come Back - The Stolen Orchestra\nFrontier - Shimmer\nNew Moon - Cloud Wave\nSunflower - Cody Martin\nInner Peace - Moments\nEnchanted - Cody Martin\nJust Around The Corner - Shimmer",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Holdout cross-validation generator",
+  "link": "http://fa.bianp.net/blog/2015/holdout-cross-validation-generator/",
+  "description": "<p><a href=\"http://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators\">Cross-validation iterators</a> in scikit-learn are simply generator objects, that is, Python objects that implement the <code>__iter__</code> method and that for each call to this method return (or more precisely, <code>yield</code>) the indices or a boolean mask for the train and test set. Hence, implementing new cross-validation iterators that behave as …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 20 Aug 2015 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2015-08-20:/blog/2015/holdout-cross-validation-generator/",
+  "category": [
+    "misc",
+    "Python",
+    "scikit-learn",
+    "machine learning",
+    "model selection"
+  ]
+}

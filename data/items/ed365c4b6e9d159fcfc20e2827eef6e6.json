@@ -1,0 +1,7 @@
+{
+  "title": "Bandcamp recommendation and discovery algorithms",
+  "link": "https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/",
+  "pubDate": "Fri, 19 Sep 2014 14:26:55 +0000",
+  "guid": "https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/",
+  "description": "This is the third part of a series of posts on my Bandcamp recommendations (BCRecommender) project. Check out the first part for the general motivation behind this project and the second part for the system architecture. The main goal of the BCRecommender project is to help me find music I like. This post discusses the algorithmic approaches I took towards that goal. I&rsquo;ve kept the descriptions at a fairly high-level, without getting too much into the maths, as all recommendation algorithms essentially try to model simple intuition."
+}

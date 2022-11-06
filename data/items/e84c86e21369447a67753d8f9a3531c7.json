@@ -1,0 +1,6 @@
+{
+  "title": "Efficiently Trained Mongolian Text-to-Speech System Based On FullConv. (arXiv:2211.01948v1 [cs.CL])",
+  "link": "http://arxiv.org/abs/2211.01948",
+  "description": "<p>Recurrent Neural Networks (RNNs) have become the standard modeling technique\nfor sequence data, and are used in a number of novel text-to-speech models.\nHowever, training a TTS model including RNN components has certain requirements\nfor GPU performance and takes a long time. In contrast, studies have shown that\nCNN-based sequence synthesis technology can greatly reduce training time in\ntext-to-speech models while ensuring a certain performance due to its high\nparallelism. We propose a new text-to-speech system based on deep convolutional\nneural networks that does not employ any RNN components (recurrent units). At\nthe same time, we improve the generality and robustness of our model through a\nseries of data augmentation methods such as Time Warping, Frequency Mask, and\nTime Mask. The final experimental results show that the TTS model using only\nthe CNN component can reduce the training time compared to the classic TTS\nmodels such as Tacotron while ensuring the quality of the synthesized speech.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Liang_Z/0/1/0/all/0/1\">ZiQi Liang</a>"
+}

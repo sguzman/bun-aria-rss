@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-34172 (jenkins)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34172",
+  "description": "In Jenkins 2.340 through 2.355 (both inclusive) symbol-based icons unescape previously escaped values of 'tooltip' parameters, resulting in a cross-site scripting (XSS) vulnerability.",
+  "dc:date": "2022-06-23T17:15:15Z"
+}
