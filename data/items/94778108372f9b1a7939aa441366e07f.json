@@ -1,0 +1,15 @@
+{
+  "title": "Code Golf in Python: Sudoku",
+  "link": "",
+  "published": "2013-04-15T16:00:00-07:00",
+  "updated": "2013-04-15T16:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-04-15:blog/2013/04/15/code-golf-in-python-sudoku/",
+  "summary": "<em>Edit: based on suggestions from readers, the best solution is down to 162 characters!\nRead to the end to see how</em></p>\n\n\n\n\n\n\n\n\n<p>A highlight of PyCon each year for me is working on the little coding\nchallenges offered by companies in the expo center.\nI love testing my Python prowess against the problems they pose (and\nbeing rewarded with a branded mug or T-shirt!)\nThis year, several of the challenges involved what's become known as\n<a href=\"http://codegolf.com/\">code golf</a>: writing a solution with minimal keystrokes.</p>\n<p>By way of example, take a look at this function definition:</p>\n\n\n\n\n\n\n\n\n    \n\n<span class=\"nb\">set</span><span class=\"p\">(</span><span class=\"err\">`</span><span class=\"mi\">5</span><span class=\"o\">**</span><span class=\"mi\">18</span><span class=\"err\">`</span><span class=\"p\">)</span><span class=\"o\">-</span><span class=\"p\">{(</span><span class=\"n\">i</span><span class=\"o\">-</span><span class=\"n\">j</span><span class=\"p\">)</span><span class=\"o\">%</span><span class=\"k\">9</span>*(i/9^j/9)*(i/27^j/27|i%9/3^j%9/3)or\n<span class=\"n\">p</span><span class=\"p\">[</span><span class=\"n\">j</span><span class=\"p\">]</span><span class=\"k\">for</span> <span class=\"n\">j</span> <span class=\"ow\">in</span> <span class=\"nb\">range</span><span class=\"p\">(</span><span class=\"mi\">81</span><span class=\"p\">)}</span><span class=\"k\">for</span> <span class=\"n\">s</span> <span class=\"ow\">in</span> <span class=\"n\">S</span><span class=\"p\">(</span><span class=\"n\">p</span><span class=\"p\">[:</span><span class=\"n\">i</span><span class=\"p\">]</span><span class=\"o\">+</span><span class=\"n\">v</span><span class=\"o\">+</span><span class=\"n\">p</span><span class=\"p\">[</span><span class=\"n\">i</span><span class=\"o\">+</span><span class=\"mi\">1</span><span class=\"p\">:])),[</span><span class=\"n\">p</span><span class=\"p\">]][</span><span class=\"n\">i</span><span class=\"o\">&lt;</span><span class=\"mi\">0</span><span class=\"p\">]</span>\n</pre>\n\n\n\n\n\n\n\n\n\n\n<p>This is a valid function definition (in Python 2.7) which executes a\nparticular task.  I'll give more information on the workings of this\nscript later on, but for now I'll leave it to the reader to ponder\nover what it might do.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

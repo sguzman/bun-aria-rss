@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Fn12iWcJDwE",
+  "yt:videoId": "Fn12iWcJDwE",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "Three for One: Intro [Intro to HoTT, No. 1, Part 0]",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2022-04-04T21:21:31+00:00",
+  "updated": "2022-07-23T12:16:28+00:00",
+  "media:group": {
+    "media:title": "Three for One: Intro [Intro to HoTT, No. 1, Part 0]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "What does homotopy type theory mean? This is a question which has three distinct answers, connecting the language of HoTT to the rich worlds of functional programming, homotopy theory, and constructive logic.\nThis is the intro segment of \"video No. 1\" of this series, soon to be followed by three parts, describing each of the interpretations of HoTT (and the unit type, 1).\n\nVideo site for the series: https://intro-hott.video\nYoutube: https://www.youtube.com/playlist?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq\nInstagram: @Intro_HoTT\nTwitter: @Intro_HoTT\n\nFormalization links:\n- The formalization I'm developing for this video series: https://github.com/jacobneu/HoTT-agda\n- The formalization it's based on (by Egbert Rijke, for his upcoming textbook): https://github.com/HoTT-Intro/Agda\n\nHoTT textbooks:\n- The HoTT Book (2013) -- the original statement of HoTT: https://homotopytypetheory.org/book/\n- Introduction to Homotopy Type Theory, by Egbert Rijke (to be released): https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory\n\nFurther reading:\n- Blog by Bob Harper about computational trinitarianism: https://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/\n- nLab page: https://ncatlab.org/nlab/show/computational+trilogy#:~:text=The%20central%20dogma%20of%20computational,of%20computation%20in%20our%20lives.\n\nImage/audio credits:\n- \"Wholesome\" by Kevin MacLeod (incompetech.com); CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)\n- Steam diagram: From Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Feedwater-heating.png); CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5/)\n- Homotopy Theory image: From Wikimedia Commons (https://commons.wikimedia.org/wiki/File:CrossCapSlicedOpen.PNG); CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)\n\nHomotopy type theory (HoTT) is a new branch of type theory and a new foundation for mathematics. It serves as a common language for reasoning about computation (functional programming), about mathematical structure (synthetic homotopy theory and higher category theory), and about constructive logic. This Introduction to Homotopy Type Theory video lecture series is intended to explain what HoTT is, show how to work in HoTT (including how formalization in Agda works), and give intuition for why HoTT is the way it is. I don’t assume any particular background familiarity, but the more you know about mathematics, computer science, and logic, the more you’ll be able to get out of these videos. Enjoy!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

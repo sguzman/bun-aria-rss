@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41671",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41671",
+  "description": "A CWE-89: Improper Neutralization of Special Elements used in SQL Command (&acirc;&euro;&tilde;SQL Injection&acirc;&euro;&trade;) vulnerability exists that allows adversaries with local user privileges to craft a malicious SQL query and execute as part of project migration which could result in execution of malicious code. Affected Products: EcoStruxure Operator Terminal Expert(V3.3 Hotfix 1 or prior), Pro-face BLUE(V3.3 Hotfix1 or prior).",
+  "dc:date": "2022-11-04T15:15:10Z"
+}

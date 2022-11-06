@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:gNA6HKRWAI0",
+  "yt:videoId": "gNA6HKRWAI0",
+  "yt:channelId": "UCXzn66XFtpyKdGf8JDJOpCQ",
+  "title": "Let’s Build a Physics Simulation (PONG: Part 1)",
+  "link": "",
+  "author": {
+    "name": "MinuteLabs.io",
+    "uri": "https://www.youtube.com/channel/UCXzn66XFtpyKdGf8JDJOpCQ"
+  },
+  "published": "2020-08-18T18:13:20+00:00",
+  "updated": "2022-07-22T05:38:02+00:00",
+  "media:group": {
+    "media:title": "Let’s Build a Physics Simulation (PONG: Part 1)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Join me in building a physics simulation from scratch!\n\nPart 2:  https://www.youtube.com/watch?v=zlKXZiWE1XI\n\nStart here:\nhttps://playcode.io\n\nVector Library URL:\nhttps://labs.minutelabs.io/toolkit/js/vector.js\n\nFinished Product:\nhttps://playcode.io/642557/\n\n----\nTutorial recommendation for programming beginners:\nhttps://www.youtube.com/watch?v=W6NZfCO5SIk\n----\n\nIf you get something out of the work I do, consider sponsoring me on either:\nGithub Sponsors: https://github.com/sponsors/wellcaffeinated\nPatreon: https://www.patreon.com/minutelabsio\n\n----\nContents\n\n00:00 Introduction\n01:35 Getting Started\n03:31 Creating an HTML Canvas\n06:48 Drawing a circle\n11:47 Color Trick for CodePlay\n12:51 Making things move (Animation Loop)\n18:43 Getting things smooth (Framerate Adjustment)\n21:40 Our first physics equation\n24:19 Using Vectors\n30:15 Bouncing off the walls (Edge Collisions)\n36:51 Cleaning up a bit\n39:52 What's to come in Part 2",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

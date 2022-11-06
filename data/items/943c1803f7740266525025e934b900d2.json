@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:w99UcsgkUgE",
+  "yt:videoId": "w99UcsgkUgE",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Geometry Processing with Intrinsic Triangulations (Day I)",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2021-05-07T14:25:31+00:00",
+  "updated": "2022-07-22T04:35:21+00:00",
+  "media:group": {
+    "media:title": "Geometry Processing with Intrinsic Triangulations (Day I)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video is the first in a series of two lectures given by Keenan Crane at the Harvard FRG Workshop on Geometric Methods for Analyzing Discrete Shapes: https://cmsa.fas.harvard.edu/frg-2021/\n\nDay II: https://www.youtube.com/watch?v=JQ2burHX710\n\nAbstract: The intrinsic viewpoint was a hallmark of 19th century geometry, enabling one to reason about shapes without needing to consider an embedding in space---and leading to major developments in the 20th century such as Einstein's theory of general relativity.  Yet 21st century digital geometry processing still largely adopts an extrinsic mindset, where the geometry of a polyhedral surface is expressed via vertex positions in n-dimensional space.  This talk explores how the intrinsic view of polyhedral surfaces helps relax some standard assumptions in geometric computing, leading to algorithms that are more flexible and numerically more robust.  In particular we will examine fundamental data structures for intrinsic triangulations, extensions of important triangulation algorithms to curved surfaces, as well as methods for finite element problems, finding geodesics, and computing discrete conformal maps.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

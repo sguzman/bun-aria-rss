@@ -1,0 +1,74 @@
+{
+  "title": "Microsoft365R: testers wanted",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b026bdedf740d200c",
+  "published": "2021-07-22T09:30:00-07:00",
+  "updated": "2021-07-21T16:35:01-07:00",
+  "summary": "by Hong Ooi Microsoft365R author here. I've just updated the package on GitHub with the following features: Add support for shared mailboxes to get_business_outlook(). To access a shared mailbox, supply one of the arguments shared_mbox_id, shared_mbox_name or shared_mbox_email specifying the ID, displayname or email address of the mailbox respectively. Add support for Teams chats (including one-on-one, group and meeting chats). Use the list_chats() function to list the chats you're participating in, and the `get_chat()` function to retrieve a specific chat. A chat object has class ms_chat, which has similar methods to a channel: you can send, list and retrieve messages,...",
+  "author": {
+    "name": "Hong Ooi"
+  },
+  "category": [
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "em": "by Hong Ooi"
+        },
+        {
+          "a": "Microsoft365R",
+          "#text": "author here.&#0160;I've just updated the package on GitHub with the following features:"
+        },
+        {
+          "strong": "This is a request for anyone whose tenant has approved the Microsoft365R app registration to install the development version and try using these features.",
+          "#text": "However, at the moment I don't have access to a suitable tenant for testing these."
+        },
+        "If you have previously used OneDrive, Teams and Outlook, everything should still work the same as before.",
+        "If you previously tried to use Sharepoint and got an authentication error, you should see a screen requesting you to grant Microsoft365R permission to access your Sharepoint site. You may or may not need an admin to approve the request, depending on your tenant's policies.",
+        "Please try it out and let me know of any problems! You can install the package from GitHub with",
+        {
+          "code": "devtools::install_github(\"Azure/Microsoft365R\")",
+          "br": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "ul": {
+        "li": [
+          {
+            "code": [
+              "get_business_outlook()",
+              "shared_mbox_id",
+              "shared_mbox_name",
+              "shared_mbox_email"
+            ],
+            "#text": "Add support for shared mailboxes to. To access a shared mailbox, supply one of the arguments,orspecifying the ID, displayname or email address of the mailbox respectively."
+          },
+          {
+            "ul": {
+              "li": [
+                {
+                  "code": "list_chats()",
+                  "#text": "Use thefunction to list the chats you're participating in, and the `get_chat()` function to retrieve a specific chat."
+                },
+                {
+                  "code": "ms_chat",
+                  "#text": "A chat object has class, which has similar methods to a channel: you can send, list and retrieve messages, and list and retrieve members/attendees. One difference is that chats don't have an associated file folder, unlike channels."
+                }
+              ]
+            },
+            "#text": "Add support for Teams chats (including one-on-one, group and meeting chats)."
+          },
+          "Updated the app permissions for Sharepoint to fix an access issue"
+        ]
+      }
+    }
+  }
+}

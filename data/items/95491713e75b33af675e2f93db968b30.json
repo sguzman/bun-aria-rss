@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32927 (ipad_os, iphone_os)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32927",
+  "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, iOS 16.1 and iPadOS 16. Joining a malicious Wi-Fi network may result in a denial-of-service of the Settings app.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}

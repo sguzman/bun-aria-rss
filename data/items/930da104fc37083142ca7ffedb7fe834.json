@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:lD_I5BkNLNA",
+  "yt:videoId": "lD_I5BkNLNA",
+  "yt:channelId": "UCK_m2976Yvbx-TyDLw7n1WA",
+  "title": "Queryable Encryption - Next-Gen Security for Sensitive Workloads",
+  "link": "",
+  "author": {
+    "name": "MongoDB",
+    "uri": "https://www.youtube.com/channel/UCK_m2976Yvbx-TyDLw7n1WA"
+  },
+  "published": "2022-10-31T20:54:24+00:00",
+  "updated": "2022-10-31T22:36:17+00:00",
+  "media:group": {
+    "media:title": "Queryable Encryption - Next-Gen Security for Sensitive Workloads",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Many applications with high-sensitivity workloads require enhanced technical options to control and limit access to confidential and regulated data. In some cases, system requirements or compliance obligations dictate a separation of duties for staff operating the database and those who maintain the application layer. In cloud-hosted environments, certain data are sometimes deemed too sensitive to store on third-party infrastructure. This is a common pain for system architects in the healthcare, finance, and consumer tech sectors — the benefits of managed, easily expanded compute and storage have been considered unavailable because of data confidentiality and privacy concerns.\n\nThis session will take a deep dive into Queryable Encryption, in Preview with MongoDB 6.0, that address these scenarios while preserving rich query expressivity. Utilizing groundbreaking technologies developed by our Advanced Crypto Research group, we will review how confidential data can be easily queried without leaking information about the data being queried or the query itself.\n\nSpeaker:Kenn White, Security Principal\n\n.local Dallas ’22 playlist ➡️ https://trymongodb.com/3SXkqYW\nSubscribe to MongoDB  ➡️ https://bit.ly/3bpg1Z1\n\n#MongoDBlocalDallas22",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

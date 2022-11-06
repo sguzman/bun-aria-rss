@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:aGrlEdAe6YE",
+  "yt:videoId": "aGrlEdAe6YE",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Post-Crust of Rust Q&A",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-06-11T23:10:55+00:00",
+  "updated": "2022-09-02T07:46:25+00:00",
+  "media:group": {
+    "media:title": "Post-Crust of Rust Q&A",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Links from the video:\n\nMy dotfiles/configs: https://github.com/jonhoo/configs\nbspwm: https://github.com/baskerville/bspwm\nSafe transmutes: https://github.com/rust-lang/project-safe-transmute\nSpain map: https://muir-way.com/collections/all/products/spain-and-portugal-1879-relief-map\nRustacean Station egui episode: https://rustacean-station.org/episode/emil-ernerfeldt/\nStrict provenance: https://github.com/rust-lang/rust/issues/95228\nRalf's article on provenance: https://www.ralfj.de/blog/2020/12/14/provenance.html\nRemoving scoped threads: https://github.com/rust-lang/rust/issues/24292\nAdding back scoped threads: https://github.com/rust-lang/rust/issues/93203\nVIM adventure game: https://vim-adventures.com/\nmem::forget is safe: https://github.com/rust-lang/rust/issues/24456\nNLL: https://github.com/rust-lang/rust/issues/57895\nHazard pointer library: https://docs.rs/haphazard/\nBlood on the Clocktower: https://bloodontheclocktower.com/\nMy board game list: https://boardgamegeek.com/collection/user/jonhoo?subtype=boardgame&ff=1\nDoppelkopf: https://en.m.wikipedia.org/wiki/Doppelkopf\nHanabi Slack bot: https://github.com/jonhoo/hanabot\n\nLive version with chat: https://youtu.be/xmkSDM5omFA\n\n0:00:00 Introduction\n0:00:53 Send and structs with raw pointers\n0:01:15 Stream about current setup\n0:02:24 Safe transmute\n0:03:11 The map behind me\n0:03:45 What do you do outside of work?\n0:05:14 Learning Rust at AWS\n0:06:51 Rust GUI\n0:07:21 Adding a new OS to Rust\n0:08:21 What do you do at AWS?\n0:09:29 Casting pointers to/from usize\n0:11:42 \"Rust is Hard\"\n0:13:14 scoped threads\n0:14:35 Breakpoints in async Rust\n0:16:45 Plan to write more books?\n0:18:07 A trait for \"owned value\"\n0:19:03 \"Good Reasons to Avoid Rust\"\n0:21:28 Adding Redox support to Rust\n0:22:46 Will Rust be ready for web dev?\n0:24:19 VIM tutorials?\n0:25:53 Why is mem::forget safe?\n0:26:37 Communicating between Rust processes\n0:27:52 Learning C++ before Rust\n0:28:35 NLL stabilization\n0:29:39 Where in Europe would you live?\n0:32:12 Mutably borrowing disjoint slice parts\n0:32:49 Hazard pointers\n0:34:38 Internet speeds\n0:36:59 What language will you try next?\n0:39:37 Is C++ still useful?\n0:41:40 How do you get confident in teaching?\n0:43:46 Next stream topic\n0:45:55 async vs threads\n0:48:38 Does Rust make programs more secure?\n0:50:22 Suggesting stream ideas\n0:51:40 Distribute systems streams\n0:52:55 What's your keyboard?\n0:54:00 Scientific computing in Rust\n0:55:00 Why are distributed systems hairy?\n0:56:22 Most joyful luxury item\n0:58:15 Public transportation in LA\n0:59:38 Favorite board game(s)\n1:05:53 More luxury item discussion\n1:07:52 Cats!\n1:10:10 Writing bots for learning\n1:10:45 TV shows\n1:11:38 Is Jay a llama or an alpaca?\n1:12:18 Wordplay (and naming things)\n1:13:23 Is English your first language?\n1:14:32 Going to SHUX? RustConf?\n1:15:12 Streaming non-programming content?\n1:16:13 Topics you found hard to grasp?\n1:17:49 Video games\n1:19:39 Making me pick up a stream topic\n1:20:21 Why not Counter Strike again?\n1:21:20 Rounding off",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

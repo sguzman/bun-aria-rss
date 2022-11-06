@@ -1,0 +1,6 @@
+{
+  "title": "Channel-Aware Pretraining of Joint Encoder-Decoder Self-Supervised Model for Telephonic-Speech ASR. (arXiv:2211.01669v1 [eess.AS])",
+  "link": "http://arxiv.org/abs/2211.01669",
+  "description": "<p>This paper proposes a novel technique to obtain better downstream ASR\nperformance from a joint encoder-decoder self-supervised model when trained\nwith speech pooled from two different channels (narrow and wide band). The\njoint encoder-decoder self-supervised model extends the HuBERT model with a\nTransformer decoder. HuBERT performs clustering of features and predicts the\nclass of every input frame. In simple pooling, which is our baseline, there is\nno way to identify the channel information. To incorporate channel information,\nwe have proposed non-overlapping cluster IDs for speech from different\nchannels. Our method gives a relative improvement of ~ 5% over the joint\nencoder-decoder self-supervised model built with simple pooling of data, which\nserves as our baseline.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Sukhadia_V/0/1/0/all/0/1\">Vrunda N. Sukhadia</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Arunkumar_A/0/1/0/all/0/1\">A. Arunkumar</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Umesh_S/0/1/0/all/0/1\">S. Umesh</a>"
+}

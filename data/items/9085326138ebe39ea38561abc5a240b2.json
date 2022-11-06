@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-4446292666398344382.post-466176080139466658",
+  "published": "2017-12-15T08:45:00.000-08:00",
+  "updated": "2017-12-15T08:45:11.189-08:00",
+  "title": "NIPS Conversation AI Workshop",
+  "content": "I only attended NIPS for the <a href=\"http://alborz-geramifard.com/workshops/nips17-Conversational-AI/Main.html\">Conversation AI workshop</a>, so my thoughts are limited to that.  I really liked the subtitle of the workshop: \"today's practice and tomorrow's potential.\"  Since I'm on a product team trying to build chatbots that are actually effective, it struck me as exactly the right tone.<br /><br />Several presentations were related to the <a href=\"https://developer.amazon.com/alexaprize\">Alexa prize</a>.  When reading these papers, keep in mind that contestants were subject to extreme sample complexity constraints.  Semifinalists had circa 500 on-policy dialogs and finalists less than 10 times more.  This is because 1) the Alexa chat function is not the primary purpose of the device so not all end users participated and 2) they had to distribute the chats to all contestants.<br /><br />The result of sample complexity constraints is a &ldquo;bias against variance&rdquo;, as <a href=\"https://blogs.technet.microsoft.com/machinelearning/2014/09/24/online-learning-and-sub-linear-debugging/\">I've discussed before</a>.  In the Alexa prize, that meant the winners had the architecture of &ldquo;learned mixture over mostly hand-specified substrategies.&rdquo;  In other words, the (scarce) on-policy data was limited to adjusting the mixture weights.  (The MILA team had substrategies that were trained unsupervised on forum data, but it looks like the other substrategies were providing most of the benefit.)  Sample complexity constraints are pervasive in dialog, but nonetheless the conditions of the contest were more extreme than what I encounter in practice so if you find yourself with more on-policy data consider more aggressive usage.<br /><br />Speaking of sample complexity constraints, we have found pre-training representations on MT tasks a la <a href=\"https://papers.nips.cc/paper/7209-learned-in-translation-contextualized-word-vectors\">CoVE</a> is extremely effective in practice for multiple tasks.  We are now playing with <a href=\"https://openreview.net/pdf?id=S1p31z-Ab\">ELMo-style</a> pre-training using language modeling as the pre-training task (very promising: no parallel corpus needed!).<br /><br />Another sample complexity related theme I noticed at the workshop was the use of functional role dynamics.  Roughly speaking, this is modeling the structure of the dialog independent of the topic.  Once topics are abstracted, the sample complexity of learning what are reasonably structured conversations seems low.  <a href=\"http://alborz-geramifard.com/workshops/nips17-Conversational-AI/Papers/17nipsw-cai-collaboration-based-simulator.pdf\">Didericksen et. al.</a> combined a purely structural L1 model with a simple topically-sensitive L2 (tf-idf) to build a retrieval based dialog simulator.  Analogously for their Alexa prize submission, <a href=\"https://arxiv.org/abs/1709.02349\">Serban et. al.</a> learned a dialog simulator from observational data which utilized only functional role and sentiment information and then applied Q-learning: this was more effective than off-policy reinforce with respect to some metrics.<br /><br />Overall the workshop gave me enough optimism to continue plugging away despite the underwhelming performance of current dialog systems.<br /><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Paul Mineiro",
+    "uri": "http://www.blogger.com/profile/05439062526157173163",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43328 (canteen_management_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43328",
+  "description": "Canteen Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /editorder.php.",
+  "dc:date": "2022-11-01T19:15:11Z"
+}

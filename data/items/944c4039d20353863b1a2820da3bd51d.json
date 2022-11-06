@@ -1,0 +1,18 @@
+{
+  "title": "Ezuri: Regenerating a different kind of target. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/177/notes",
+  "description": "Guests Fernando Martinez and Tom Hegel from AT&T Alien Labs join Dave to discuss their team's research \"Malware using new Ezuri memory loader.\" Multiple threat actors have recently started using a Go language (Golang) tool to act as a packer and avoid Antivirus detection. Additionally, the Ezuri memory loader tool acts as a malware loader and executes its payload in memory, without writing the file to disk. While this technique is known and commonly used by Windows malware, it is less popular in Linux environments.\nThe research can be found here:\nMalware using new Ezuri memory loader",
+  "pubDate": "Sat, 03 Apr 2021 07:00:00 -0000",
+  "itunes:title": "Ezuri: Regenerating a different kind of target. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 177,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guests Fernando Martinez and Tom Hegel from AT&T Alien Labs join Dave to discuss their team's research \"Malware using new Ezuri memory loader.\" Multiple threat actors have recently started using a Go language (Golang) tool to act as a packer and avoid Antivirus detection. Additionally, the Ezuri memory loader tool acts as a malware loader and executes its payload in memory, without writing the file to disk. While this technique is known and commonly used by Windows malware, it is less popular in Linux environments.\nThe research can be found here:\nMalware using new Ezuri memory loader",
+  "content:encoded": "<p>Guests Fernando Martinez and Tom Hegel from AT&T Alien Labs join Dave to discuss their team's research \"Malware using new Ezuri memory loader.\" Multiple threat actors have recently started using a Go language (Golang) tool to act as a packer and avoid Antivirus detection. Additionally, the Ezuri memory loader tool acts as a malware loader and executes its payload in memory, without writing the file to disk. While this technique is known and commonly used by Windows malware, it is less popular in Linux environments.</p><p>The research can be found here:</p><ul><li><a href=\"https://cybersecurity.att.com/blogs/labs-research/malware-using-new-ezuri-memory-loader\">Malware using new Ezuri memory loader</a></li></ul>",
+  "itunes:duration": 1231,
+  "itunes:explicit": "no",
+  "guid": "12f215ea-9320-11eb-808c-a385350e096b",
+  "enclosure": ""
+}

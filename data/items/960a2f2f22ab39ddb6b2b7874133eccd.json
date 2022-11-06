@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41679 (formalms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41679",
+  "description": "Forma LMS version 3.1.0 and earlier are affected by an Cross-Site scripting vulnerability, that could allow a remote attacker to inject javascript code on the &acirc;&euro;&oelig;back_url&acirc;&euro;&#65533; parameter in appLms/index.php?modname=faq&amp;op=play function. The exploitation of this vulnerability could allow an attacker to steal the user&Acirc;&acute;s cookies in order to log in to the application.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

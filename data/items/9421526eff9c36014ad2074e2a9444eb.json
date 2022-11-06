@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-16746 (debian_linux, fedora, leap, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-16746",
+  "description": "An issue was discovered in net/wireless/nl80211.c in the Linux kernel through 5.2.17. It does not check the length of variable elements in a beacon head, leading to a buffer overflow.",
+  "dc:date": "2019-09-24T06:15:10Z"
+}
