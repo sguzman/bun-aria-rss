@@ -1,0 +1,6 @@
+{
+  "title": "A Categorical Semantics for Bounded Petri Nets. (arXiv:2101.09100v3 [math.CT] UPDATED)",
+  "link": "http://arxiv.org/abs/2101.09100",
+  "description": "<p>We provide a categorical semantics for bounded Petri nets, both in the\ncollective- and individual-token philosophy. In both cases, we describe the\nprocess of bounding a net internally, by just constructing new categories of\nexecutions of a net using comonads, and externally, using lax-monoidal-lax\nfunctors. Our external semantics is non-local, meaning that tokens are endowed\nwith properties that say something about the global state of the net. We then\nprove, in both cases, that the internal and external constructions are\nequivalent, by using machinery built on top of the Grothendieck construction.\nThe individual-token case is harder, as it requires a more explicit reliance on\nabstract methods.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Genovese_F/0/1/0/all/0/1\">Fabrizio Romano Genovese</a> (University of Pisa, Statebox), <a href=\"http://arxiv.org/find/math/1/au:+Loregian_F/0/1/0/all/0/1\">Fosco Loregian</a> (Tallinn University of Technology), <a href=\"http://arxiv.org/find/math/1/au:+Palombi_D/0/1/0/all/0/1\">Daniele Palombi</a> (Sapienza University of Rome)"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "A Discussion of 'Adversarial Examples Are Not Bugs, They Are Features': Learning from Incorrectly Labeled Data",
+  "link": "https://distill.pub/2019/advex-bugs-discussion/response-6",
+  "description": "Section 3.2 of Ilyas et al. (2019) shows that training a model on only adversarial errors leads to non-trivial generalization on the original test set. We show that these experiments are a specific case of learning from errors.",
+  "guid": "https://distill.pub/2019/advex-bugs-discussion/response-6",
+  "pubDate": "Tue, 06 Aug 2019 20:0:0 Z"
+}

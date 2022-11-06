@@ -1,0 +1,6 @@
+{
+  "title": "Max Markov Chain. (arXiv:2211.01496v1 [cs.AI])",
+  "link": "http://arxiv.org/abs/2211.01496",
+  "description": "<p>In this paper, we introduce Max Markov Chain (MMC), a novel representation\nfor a useful subset of High-order Markov Chains (HMCs) with sparse correlations\namong the states. MMC is parsimony while retaining the expressiveness of HMCs.\nEven though parameter optimization is generally intractable as with HMC\napproximate models, it has an analytical solution, better sample efficiency,\nand the desired spatial and computational advantages over HMCs and approximate\nHMCs. Simultaneously, efficient approximate solutions exist for this type of\nchains as we show empirically, which allow MMCs to scale to large domains where\nHMCs and approximate HMCs would struggle to perform. We compare MMC with HMC,\nfirst-order Markov chain, and an approximate HMC model in synthetic domains\nwith various data types to demonstrate that MMC is a valuable alternative for\nmodeling stochastic processes and has many potential applications.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1\">Yu Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bucklew_M/0/1/0/all/0/1\">Mitchell Bucklew</a>"
+}

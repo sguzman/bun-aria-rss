@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3360 (learnpress)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3360",
+  "description": "The LearnPress WordPress plugin before 4.1.7.2 unserialises user input in a REST API endpoint available to unauthenticated users, which could lead to PHP Object Injection when a suitable gadget is present, leadint to remote code execution (RCE). To successfully exploit this vulnerability attackers must have knowledge of the site secrets, allowing them to generate a valid hash via the wp_hash() function.",
+  "dc:date": "2022-10-31T16:15:11Z"
+}

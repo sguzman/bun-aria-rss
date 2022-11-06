@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3fh9qm-ljA8",
+  "yt:videoId": "3fh9qm-ljA8",
+  "yt:channelId": "UCzdCHjiDfrrol0QrnUY6DhQ",
+  "title": "ITT 2018 - Randy Shoup - Service Architectures at Scale",
+  "link": "",
+  "author": {
+    "name": "Istanbul Tech Talks",
+    "uri": "https://www.youtube.com/channel/UCzdCHjiDfrrol0QrnUY6DhQ"
+  },
+  "published": "2018-08-03T12:56:59+00:00",
+  "updated": "2022-02-10T03:19:17+00:00",
+  "media:group": {
+    "media:title": "ITT 2018 - Randy Shoup - Service Architectures at Scale",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Over time, almost all large, well-known web sites have evolved their architectures from an early monolithic application to a loosely-coupled ecosystem of polyglot microservices. This session will discuss modern service architectures at scale, using specific examples from both Google and eBay, and covering lessons learned in building and operating these sites. \n\nWe will first talk about designing and building services, using some techniques from domain-driven design to decide the boundaries and interface of our services. We will discuss using event-driven techniques to communicate between services asynchronously. And finally, we will talk about how we put all of this together into a functioning service ecosystem that can scale to hundreds of teams, thousands of developers, and millions of users.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

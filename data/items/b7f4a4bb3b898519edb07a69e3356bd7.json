@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-25121 (rating)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-25121",
+  "description": "The Rating by BestWebSoft WordPress plugin before 1.6 does not validate the submitted rating, allowing submission of long integer, causing a Denial of Service on the post/page when a user submit such rating",
+  "dc:date": "2022-06-20T11:15:09Z"
+}

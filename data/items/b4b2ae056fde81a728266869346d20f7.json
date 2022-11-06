@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42808 (ipados, iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42808",
+  "description": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in tvOS 16.1, iOS 16.1 and iPadOS 16, macOS Ventura 13, watchOS 9.1. A remote user may be able to cause kernel code execution.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}

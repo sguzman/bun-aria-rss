@@ -1,0 +1,20 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-7217702011307648729",
+  "published": "2022-10-17T06:12:00.000-07:00",
+  "updated": "2022-10-17T06:12:45.816-07:00",
+  "category": "",
+  "title": "Google Publisher Tags add official TypeScript type definitions",
+  "content": "<div> <p>Today we're happy to announce the release of official <a href=\"https://www.typescriptlang.org/\">TypeScript</a> type definitions for <a href=\"https://developers.google.com/publisher-tag/\">Google Publisher Tags (GPT)</a>! </p><p><strong>Why TypeScript?</strong></p><p>According to a recent <a href=\"https://2021.stateofjs.com/en-US/other-tools/#javascript_flavors\">State of JS developer survey</a>, nearly 70% of developers regularly use TypeScript in some capacity, up from 60% the year before. As this segment of the community continues to grow, we are committed to providing the best experience possible for those working with TypeScript and GPT. We believe this is important not just because TypeScript is popular, but because it helps developers validate the correctness of their code and provides a number of <a href=\"https://www.typescriptlang.org/docs/handbook/2/basic-types.html#types-for-tooling\">quality of life improvements</a> that make working with GPT more delightful. </p><p><strong>How we got here</strong></p><p>Until now, a number of community-led projects such as <a href=\"https://www.npmjs.com/package/@types/doubleclick-gpt\">@types/doubleclick-gpt</a> and <a href=\"https://www.npmjs.com/package/@types/googletag\">@types/googletag</a> have provided unofficial GPT type definitions. While these projects have done a great job of making our API more accessible to TypeScript developers, manually curated type definitions inevitably lag behind changes made to GPT, leading to those definitions sometimes being out of date. To address this, we've updated our release process to automatically generate type definitions from internal source code and sync changes to our own <a href=\"https://github.com/googleads/google-publisher-tag-types\">GitHub repository</a> and the <a href=\"https://github.com/DefinitelyTyped/DefinitelyTyped\">DefinitelyTyped project</a>. This ensures that our official definitions are always up to date with the most recently released versions of GPT. </p><p><strong>Try it and let us know what you think</strong></p><p>For users new to TypeScript, we've published a <a href=\"https://developers.google.com/publisher-tag/guides/use-typescript\">TypeScript and Google Publisher Tags</a> guide that covers the basics and provides a demo of the new type definitions in action. For those already familiar who want to try the new definitions right away, they can be installed via NPM by running: </p>   <pre class=\"prettyprint\">npm install --save-dev @types/google-publisher-tag</pre>  <p>If you'd like to make a suggestion, report a bug, or leave any other feedback about this new offering, feel free to open an issue on our <a href=\"https://github.com/googleads/google-publisher-tag-types/issues\">GitHub issue tracker</a>. </p></div><span class=\"byline-author\"><img height=\"40\" src=\"https://lh3.googleusercontent.com/-zCUdYgGHAMc/AAAAAAAAAAI/AAAAAAAAACY/i0JOhbIQ8EM/photo.jpg?sz=40\" style=\"vertical-align:middle; border:none;\" width=\"40\">&nbsp;-&nbsp;Jonathon Imperiosi, Google Publisher Tags Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

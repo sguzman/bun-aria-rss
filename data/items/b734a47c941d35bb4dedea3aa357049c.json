@@ -1,0 +1,9 @@
+{
+  "title": "Weighted samples for SVMs",
+  "link": "http://fa.bianp.net/blog/2010/weighted-samples-for-svms/",
+  "description": "<p>Based on the work of <a class=\"reference external\" href=\"http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#weights_for_data_instances\">libsvm-dense</a> by Ming-Wei Chang, Hsuan-Tien Lin,\nMing-Hen Tsai, Chia-Hua Ho and Hsiang-Fu Yu I patched the libsvm\ndistribution shipped with scikits.learn to allow setting weights for\nindividual instances. The motivation behind this is to be able force a\nclassifier to focus its attention in …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 29 Nov 2010 13:20:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-11-29:/blog/2010/weighted-samples-for-svms/",
+  "category": "sklearn, python"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Dynamic Programming in Python: Bayesian Blocks",
+  "link": "",
+  "published": "2012-09-12T19:02:00-07:00",
+  "updated": "2012-09-12T19:02:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-09-12:blog/2012/09/12/dynamic-programming-in-python/",
+  "summary": "<p>Of all the programming styles I have learned,\n<a href=\"http://en.wikipedia.org/wiki/Dynamic_programming\">dynamic programming</a>\nis perhaps the most beautiful.  It can take problems that, at first glance,\nlook ugly and intractable, and solve the problem with clean, concise code.\nWhere a simplistic algorithm might accomplish something by brute force,\ndynamic programming steps back, breaks the task into a smaller set of\nsequential parts, and then proceeds in the most efficient way possible.</p>\n<h3>Bayesian Blocks</h3>\n<p>I'll go through an example here where the ideas of dynamic programming\nare vital to some very cool data analysis resuts.\nThis post draws heavily from a recent\n<a href=\"http://adsabs.harvard.edu/abs/2012arXiv1207.5578S\">paper</a> by Jeff Scargle\nand collaborators (this is the Scargle of <em>Lomb-Scargle Periodogram</em>\nfame), as well as some conversations I had with Jeff at\n<a href=\"http://www.astro.caltech.edu/ai12/\">Astroinformatics 2012</a>.\nThe paper discusses\na framework called <em>Bayesian Blocks</em>, which is essentially a method of\ncreating histograms with bin sizes that adapt to the data (there's a bit\nmore to it than that: here we'll focus on histograms for simplicity).</p>",
+  "category": ""
+}

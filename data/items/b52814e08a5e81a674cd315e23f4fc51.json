@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-28845 (bridge)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28845",
+  "description": "Adobe Bridge version 12.0.1 (and earlier versions) is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+  "dc:date": "2022-06-15T20:15:18Z"
+}

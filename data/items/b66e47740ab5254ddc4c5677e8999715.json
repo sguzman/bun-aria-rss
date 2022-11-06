@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-14895 (debian_linux, fedora, leap, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-14895",
+  "description": "A heap-based buffer overflow was discovered in the Linux kernel, all versions 3.x.x and 4.x.x before 4.18.0, in Marvell WiFi chip driver. The flaw could occur when the station attempts a connection negotiation during the handling of the remote devices country settings. This could allow the remote device to cause a denial of service (system crash) or possibly execute arbitrary code.",
+  "dc:date": "2019-11-29T14:15:11Z"
+}

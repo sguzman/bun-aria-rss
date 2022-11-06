@@ -1,0 +1,9 @@
+{
+  "title": "New examples in scikits.learn 0.6",
+  "link": "http://fa.bianp.net/blog/2010/new-examples-in-scikitslearn-06/",
+  "description": "<p>Latest release of <a class=\"reference external\" href=\"http://scikit-learn.sf.net\">scikits.learn</a> comes with an <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/0.6/auto_examples/index.html\">awesome collection of\nexamples</a>. These are some of my favorites:</p>\n<div class=\"section\" id=\"faces-recognition\">\n<h2>Faces recognition</h2>\n<p><a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/0.6/auto_examples/applications/plot_face_recognition.html\">This example</a> by <a class=\"reference external\" href=\"http://twitter.com/ogrisel/\">Olivier Grisel</a>, downloads a 58MB faces dataset\nfrom <a class=\"reference external\" href=\"http://vis-www.cs.umass.edu/lfw/\">Labeled Faces in the Wild</a>, and is able to perform PCA for\nfeature extraction and SVC for classification, yielding …</p></div>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 31 Dec 2010 13:55:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-12-31:/blog/2010/new-examples-in-scikitslearn-06/",
+  "category": "General, scikit-learn, Tecnologí­a"
+}

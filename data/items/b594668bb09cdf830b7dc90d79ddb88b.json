@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3340",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3340",
+  "description": "XML External Entity (XXE) vulnerability in Trellix IPS Manager prior to 10.1 M8 allows a remote authenticated administrator to perform XXE attack in the administrator interface part of the interface, which allows a saved XML configuration file to be imported.",
+  "dc:date": "2022-11-04T12:15:15Z"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Ridge regression path",
+  "link": "http://fa.bianp.net/blog/2011/ridge-regression-path/",
+  "description": "<p>Ridge coefficients for multiple values of the regularization parameter\ncan be elegantly computed by updating the <em>thin</em> SVD decomposition of\nthe design matrix:</p>\n<div class=\"highlight\"><pre><span></span><span class=\"kn\">import</span> <span class=\"nn\">numpy</span> <span class=\"k\">as</span> <span class=\"nn\">np</span>\n<span class=\"kn\">from</span> <span class=\"nn\">scipy</span> <span class=\"kn\">import</span> <span class=\"n\">linalg</span>\n<span class=\"k\">def</span> <span class=\"nf\">ridge</span><span class=\"p\">(</span><span class=\"n\">A</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">,</span> <span class=\"n\">alphas</span><span class=\"p\">):</span>\n    <span class=\"sd\">&quot;&quot;&quot;</span>\n<span class=\"sd\">    Return coefficients for regularized least squares</span>\n\n<span class=\"sd\">         min ||A x - b||^2 + alpha ||x||^2 …</span></pre></div>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 12 Jul 2011 09:21:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-07-12:/blog/2011/ridge-regression-path/",
+  "category": [
+    "misc",
+    "scikit-learn",
+    "scipy",
+    "linear algebra"
+  ]
+}

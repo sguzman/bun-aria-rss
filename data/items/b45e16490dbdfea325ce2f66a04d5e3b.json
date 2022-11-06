@@ -1,0 +1,15 @@
+{
+  "title": "Writing UVM/SystemVerilog Testbenches for Analog/Mixed-Signal Verification",
+  "link": "https://us02web.zoom.us/webinar/register/6316533764571/WN_WM_pftAcT7GG3oOzt4iP_w",
+  "description": "\n<img src=\"https://spectrum.ieee.org/media-library/image.png?id=29862956&width=980\"/><br/><br/>Learn how to write reusable SystemVerilog testbenches for analog/mixed-signal IPs, using standardized UVM components and Scientific Analog's XMODEL! <a href=\"https://us02web.zoom.us/webinar/register/6316533764571/WN_WM_pftAcT7GG3oOzt4iP_w\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Register for this free webinar now!</a><hr/><p>Join this webinar on how to write a UVM testbench for analog/mixed-signal circuits. UVM (Universal Verification Methodology) is a framework of standardized SystemVerilog classes to build reusable and scalable testbenches for digital designs, and it can be extended to verifying analog circuits simply by using a fixture module that generates analog stimuli and measures analog responses with Scientific Analog's XMODEL.<br/></p><p>Using a digitally-programmable audio bandpass filter as an example, we'll show how to write a UVM testbench that measures the filter's transfer gain at randomly-chosen frequencies, collects the results in a scoreboard until the desired coverage is met, and checks the supply current and bias voltages during power-down with assertions. The <a href=\"https://us02web.zoom.us/webinar/register/6316533764571/WN_WM_pftAcT7GG3oOzt4iP_w\" target=\"_blank\">webinar</a> will start with an intuitive yet systematic introduction to UVM.</p><h3>Speaker</h3><p><span style=\"background-color: initial;\"><strong>Charles Dančak<br/></strong></span>Verification Instructor and Consultant<br/>Charles Dančak is a trainer and consultant based in Silicon Valley. He holds two MS degrees, one in electrical engineering and one in solid-state physics. Charles began his career as a technology engineer in one of Intel's wafer fabs and spent ten years at Synopsys developing hands-on courses on HDL-based design, simulation, and DFT. He introduced the first SystemVerilog workshop in the University of California Extension system in 2007 and still teaches SystemVerilog online, currently with UC San Diego Extension (ECE-40301). Recently, Charles presented a paper on UVM for analog/mixed-signal verification at DVCon U.S. 2022.</p>",
+  "pubDate": "Fri, 27 May 2022 15:35:05 +0000",
+  "guid": "https://us02web.zoom.us/webinar/register/6316533764571/WN_WM_pftAcT7GG3oOzt4iP_w",
+  "category": [
+    "Analog",
+    "Circuit design",
+    "Type:webinar",
+    "Verilog"
+  ],
+  "dc:creator": "Scientific Analog, Inc.",
+  "media:content": ""
+}

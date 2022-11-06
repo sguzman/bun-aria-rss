@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-4190 (fedora, wireshark)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4190",
+  "description": "Large loop in the Kafka dissector in Wireshark 3.6.0 allows denial of service via packet injection or crafted capture file",
+  "dc:date": "2021-12-30T22:15:10Z"
+}

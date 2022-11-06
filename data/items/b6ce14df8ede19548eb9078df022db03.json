@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:KqRffDuPx7c",
+  "yt:videoId": "KqRffDuPx7c",
+  "yt:channelId": "UC548OYFGjdJuprVWeqg60fw",
+  "title": "The Riemann Hypothesis | Ep. 1: The Euler Product",
+  "link": "",
+  "author": {
+    "name": "Lemmaxiom",
+    "uri": "https://www.youtube.com/channel/UC548OYFGjdJuprVWeqg60fw"
+  },
+  "published": "2022-05-22T19:58:22+00:00",
+  "updated": "2022-05-29T15:00:42+00:00",
+  "media:group": {
+    "media:title": "The Riemann Hypothesis | Ep. 1: The Euler Product",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This is the first video in what I hope you will find to be a useful and interesting series on the Riemann Hypothesis (RH), a well known conjecture in pure math which is related to the distribution of prime numbers (among an enormous amount of other things that I plan to discuss).\n\nProof of divergence of ζ(s) for s≤1 [at 6:02]: https://youtu.be/4yyLfrsSXQQ\nDerivation of the Euler product [at 10:37]: https://en.wikipedia.org/wiki/Proof_of_the_Euler_product_formula_for_the_Riemann_zeta_function\nVideo explanation at\nhttps://youtu.be/OoAyRxSDW5M\n\nNotes / Corrections:\n\nAt 2:10, the upper limit of the sum should be ⌊log₂(x)⌋, not just log₂(x)  (obviously it should be an integer!). \n\nChapters:\n0:00 Intro\n0:44 Prime-counting function π(x)\n1:54 Riemann's prime-counting function J(x)\n3:13 π(x) in terms of J(x)\n4:33 The 2nd Chebyshev function Ψ(x)\n5:30 The zeta function ζ(s)\n6:31 Complex exponentiation\n7:31 The zeros of ζ(s)\n8:01 Relationship between ζ(s) and primes\n10:20 The Euler product\n10:50 For next video\n11:12 Summary\n11:36 Outro\n\nPlease let me know if you have questions or comments, notice any conceptual mistakes, or have advice / criticism / suggestions.\n\nSoftware I used to make this video:\nAdobe Premiere Pro: https://www.adobe.com/products/premiere\nManim: https://www.manim.community\nMatplotlib: https://matplotlib.org",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

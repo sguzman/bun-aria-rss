@@ -1,0 +1,15 @@
+{
+  "title": "Frequentism and Bayesianism III: Confidence, Credibility, and why Frequentism and Science do not Mix",
+  "link": "",
+  "published": "2014-06-12T12:00:00-07:00",
+  "updated": "2014-06-12T12:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-06-12:blog/2014/06/12/frequentism-and-bayesianism-3-confidence-credibility/",
+  "summary": "<p>In Douglas Adams' classic <em>Hitchhiker's Guide to the Galaxy</em>, hyper-intelligent pan-dimensional beings build a computer named <em>Deep Thought</em> in order to calculate \"the Answer to the Ultimate Question of Life, the Universe, and Everything\". After seven and a half million years spinning its hyper-dimensional gears, before an excited crowd, Deep Thought finally outputs the answer:</p>\n<p><strong>42</strong></p>\n<p>The disappointed technicians, who trained a lifetime for this moment, are stupefied. They probe Deep Though for more information, and after some back-and-forth, the computer responds: \"once you do know what the question actually is, you'll know what the answer means.\"</p>\n<p>An answer does you no good if you don't know the question.</p>\n<p>I find this story be an apt metaphor for statistics as sometimes used in the scientific literature. When trying to estimate the value of an unknown parameter, the frequentist approach generally relies on a <strong>confidence interval</strong> (CI), while the Bayesian approach relies on a <strong>credible region</strong> (CR). While these concepts sound and look very similar, their subtle difference can be extremely important, as they answer essentially different questions.</p>\n<p>Like the poor souls hoping for enlightenment in Douglas Adams' universe, scientists often turn the crank of frequentism hoping for useful answers, but in the process overlook the fact that in science, <strong>frequentism is generally answering the wrong question.</strong> This is far from simple philosophical navel-gazing: as I'll show, it can have real consequences for the conclusions we draw from observed data.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

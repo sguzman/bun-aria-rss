@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32166 (debian_linux, open_vswitch)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32166",
+  "description": "In ovs versions v0.90.0 through v2.5.0 are vulnerable to heap buffer over-read in flow.c. An unsafe comparison of &acirc;&euro;&oelig;minimasks&acirc;&euro;&#65533; function could lead access to an unmapped region of memory. This vulnerability is capable of crashing the software, memory modification, and possible remote execution.",
+  "dc:date": "2022-09-28T10:15:09Z"
+}

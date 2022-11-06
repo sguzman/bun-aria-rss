@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-6894866515532737257.post-172486566986380606",
+  "published": "2018-07-10T10:18:00.003-07:00",
+  "updated": "2018-07-10T10:18:59.966-07:00",
+  "title": "The Physics of Bungee Jumping",
+  "content": "Bungee jumping turns out to be more complicated than I realized.&nbsp; I use bungee jumping as an example in <i>Modeling and Simulation in Python</i>, which I am revising this summer.&nbsp; The book is not done, but <a href=\"http://greenteapress.com/wp/modsimpy/\">you can see the current draft here</a>.<br /><br />During the first phase of the jump, before the cord is fully extended, I treat the jumper as if they are in free fall, including the effect of gravity and air resistance, but ignoring the interaction between the jumper and the cord.<br /><br />It turns out that this interaction is non-negligible.&nbsp; As the cord drops from its folded initial condition to its extended final condition, it loses potential energy.&nbsp; Where does that energy go?&nbsp; It is transferred to the jumper!<br /><br />The following diagram shows the scenario, courtesy of <a href=\"https://www.real-world-physics-problems.com/physics-of-bungee-jumping.html\">this web page on the topic</a>:<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://3.bp.blogspot.com/-3Oq-YpuvNRE/W0Ta_LVMZvI/AAAAAAAAFL8/ANvc2YAPR-QtmG_fOCK1jafRvoe9Gfc6wCLcBGAs/s1600/xphysics_bungee_jumping_2.png.pagespeed.ic.Kv4nAw05hK.webp\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"422\" data-original-width=\"350\" height=\"320\" src=\"https://3.bp.blogspot.com/-3Oq-YpuvNRE/W0Ta_LVMZvI/AAAAAAAAFL8/ANvc2YAPR-QtmG_fOCK1jafRvoe9Gfc6wCLcBGAs/s320/xphysics_bungee_jumping_2.png.pagespeed.ic.Kv4nAw05hK.webp\" width=\"265\" /></a></div><br />The <a href=\"http://iopscience.iop.org/article/10.1088/0031-9120/45/1/007#ped326892non5\">acceleration of the jumper turns out to be</a><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://2.bp.blogspot.com/-9v1CS3Enl1Y/W0Tb7s-1SkI/AAAAAAAAFME/bACkyYRbwxY9iB20uTl6N-3_x4ztvw-ogCLcBGAs/s1600/ped326892eqn7.gif\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"47\" data-original-width=\"490\" src=\"https://2.bp.blogspot.com/-9v1CS3Enl1Y/W0Tb7s-1SkI/AAAAAAAAFME/bACkyYRbwxY9iB20uTl6N-3_x4ztvw-ogCLcBGAs/s1600/ped326892eqn7.gif\" /></a></div><br />where a is the net acceleration of the jumper, g is acceleration due to gravity, v is the velocity of the jumper, y is the position of the jumper relative to the starting point, L is the length of the cord, and μ is the mass ratio of the cord and jumper.<br /><br />For a bungee jumper with mass 75 kg, I've computed the trajectory of a jumper with and without the effect of the cord.&nbsp; The difference is more than two meters, which could be the difference between a successful jump and a bad day.<br /><br /><a href=\"https://github.com/AllenDowney/ModSimPy/blob/master/code/soln/jump_soln.ipynb\">The details are in this Jupyter notebook</a>.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Allen Downey",
+    "uri": "http://www.blogger.com/profile/01633071333405221858",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

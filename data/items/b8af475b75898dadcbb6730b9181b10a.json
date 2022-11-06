@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:9qnhgclfPac",
+  "yt:videoId": "9qnhgclfPac",
+  "yt:channelId": "UCEBcDOjv-bhAmLavY71RMHA",
+  "title": "Lambda World 2019 - Time-sensitive protocol: Links From Design to Implementation - Laura Bocchi",
+  "link": "",
+  "author": {
+    "name": "Lambda World",
+    "uri": "https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"
+  },
+  "published": "2019-11-04T16:54:11+00:00",
+  "updated": "2022-06-08T09:49:17+00:00",
+  "media:group": {
+    "media:title": "Lambda World 2019 - Time-sensitive protocol: Links From Design to Implementation - Laura Bocchi",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This presentation by Laura Bocchi was delivered on October 18 at Lambda World 2019.\n\nFull Presentation Description:\n\nThis talk will centre on developing systems where distributed components interact via asynchronous message passing, and need to follow specific interaction patterns, e.g., ad-hoc application-level protocols, such as POP2.\n\nI will discuss ongoing work towards establishing relationships between protocols and their implementations, focussing on time-sensitive protocols, where interactions are associated to time-constraints. We will look at two (partly-related) formal ways of describing protocols: Timed Session Types and Automata.\n\nSession Types are a powerful and effective technique for program verification; they allow to type-check programs against their communication behaviour, other than on the type of the messages. For Timed Automata, the relationship between protocols and (abstractions of) programs can be expressed as a refinement relation between more and less abstract models, giving concrete guidelines on how to implement timed protocols while preserving the intended behaviour and progress.\n\nI will discuss recent theories, learnings, open challenges, and future directions.\n\n------\nFollow: \n-https://www.twitter.com/lambda_world \n-https://www.twitter.com/47deg\n\nVisit: \n-https://www.47deg.com/events for more details\n-http://www.lambda.world",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

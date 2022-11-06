@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:K2SlrDRO0Vk",
+  "yt:videoId": "K2SlrDRO0Vk",
+  "yt:channelId": "UCfuj1MM5p37CRzWYPv_PsWA",
+  "title": "code.talks 2022 - Events! Events Everywhere!",
+  "link": "",
+  "author": {
+    "name": "code.talks (ehem. Developer Conference)",
+    "uri": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA"
+  },
+  "published": "2022-11-04T11:47:52+00:00",
+  "updated": "2022-11-04T11:47:52+00:00",
+  "media:group": {
+    "media:title": "code.talks 2022 - Events! Events Everywhere!",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Lutz Huehnken\n\nAs we all know, naming things is one of the really hard problems in computer science. Maybe this is the reason the term “event” is used for what feels like at least twenty different concepts. It’s all too easy to get confused when people talk about Event Sourcing, Event Streaming, Event-Carried State Transfer, Notification Events, Domain Events, Fat Events, Event Storming and possibly yet other types of events. Serverless Functions - triggered by events, Apache Kafka users like to speak of events, as do those of the Axon framework - are they even meaning the same thing at all? And above all - why should I even bother with an Event-driven architecture, what are the benefits?\nTime for a proper clean-up. Let’s start with a clear and bounded definition of events, and from there explore the patterns of using events in micro- and macro-architecture, their benefits as well as challenges.\nAfter the talk, participants will know what questions to ask if someone suggests to go event-driven, and will be able to assess the applicability of different approaches to their architectural tasks.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
