@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:-QKLxN1_nvk",
+  "yt:videoId": "-QKLxN1_nvk",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "Formalities & Informalities: HoTT Workflows [Intro to HoTT, No. 2, Part 0]",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2022-05-20T15:02:01+00:00",
+  "updated": "2022-06-20T21:27:54+00:00",
+  "media:group": {
+    "media:title": "Formalities & Informalities: HoTT Workflows [Intro to HoTT, No. 2, Part 0]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "How do we do Homotopy Type Theory? This is another question with three answers: homotopy type theorists will \"dress\" their work in three different styles -- informal reasoning, computer formalization, and as inference rules in a deductive system. In these videos, I describe these three styles of HoTT and how a successful homotopy type theorist navigates between them.\n\nVideo site for the series: https://intro-hott.video\nYoutube: https://www.youtube.com/playlist?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq\nInstagram: @Intro_HoTT\nTwitter: @Intro_HoTT\n\nFormalization links:\n- The formalization I'm developing for this video series: https://github.com/jacobneu/HoTT-agda\n- The formalization it's based on (by Egbert Rijke, for his upcoming textbook): https://github.com/HoTT-Intro/Agda\n\nHoTT textbooks:\n- The HoTT Book (2013) -- the original statement of HoTT: https://homotopytypetheory.org/book/\n- Introduction to Homotopy Type Theory, by Egbert Rijke (to be released): https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory\n\n\nImage/audio credits:\n- \"Wholesome\" and \"Drone in D\" by Kevin MacLeod (incompetech.com); CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\n- https://commons.wikimedia.org/wiki/File:AngelinaJolieBradPittAAFeb09.jpg\n\n\n\nHomotopy type theory (HoTT) is a new branch of type theory and a new foundation for mathematics. It serves as a common language for reasoning about computation (functional programming), about mathematical structure (synthetic homotopy theory and higher category theory), and about constructive logic. This Introduction to Homotopy Type Theory video lecture series is intended to explain what HoTT is, show how to work in HoTT (including how formalization in Agda works), and give intuition for why HoTT is the way it is. I don’t assume any particular background familiarity, but the more you know about mathematics, computer science, and logic, the more you’ll be able to get out of these videos. Enjoy!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

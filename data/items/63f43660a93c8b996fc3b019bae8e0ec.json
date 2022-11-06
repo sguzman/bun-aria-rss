@@ -1,0 +1,14 @@
+{
+  "title": "A fully asynchronous variant of the SAGA algorithm",
+  "link": "http://fa.bianp.net/blog/2016/a-fully-asynchronous-variant-of-the-saga-algorithm/",
+  "description": "<p>My friend <a href=\"http://www.di.ens.fr/~rleblond/\">Rémi Leblond</a> has recently uploaded to ArXiv <a href=\"https://arxiv.org/abs/1606.04809\">our preprint on an asynchronous version of the SAGA optimization algorithm</a>.</p>\n<p>The main contribution is to develop a parallel (fully asynchronous, no locks) variant of the <a href=\"http://papers.nips.cc/paper/5258-saga-a-fast-incremental-gradient-method-with-support-for-non-strongly-convex-composite-objectives.pdf\">SAGA algorighm</a>. This is a stochastic variance-reduced method for general optimization, specially adapted for problems …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 12 Oct 2016 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2016-10-12:/blog/2016/a-fully-asynchronous-variant-of-the-saga-algorithm/",
+  "category": [
+    "optimization",
+    "optimization",
+    "asynchronous",
+    "SAGA"
+  ]
+}
