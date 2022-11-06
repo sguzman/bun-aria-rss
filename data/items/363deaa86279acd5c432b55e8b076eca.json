@@ -1,0 +1,28 @@
+{
+  "title": "ECIR 2016 Paper and Presentation",
+  "link": "https://wellecks.wordpress.com/2016/04/23/ecir-2016-paper-and-presentation/",
+  "comments": "https://wellecks.wordpress.com/2016/04/23/ecir-2016-paper-and-presentation/#respond",
+  "dc:creator": "wellecks",
+  "pubDate": "Sat, 23 Apr 2016 23:49:14 +0000",
+  "category": [
+    "machine learning",
+    "projects",
+    "ECIR",
+    "information retrieval",
+    "LambdaMART",
+    "Machine learning"
+  ],
+  "guid": "http://wellecks.wordpress.com/?p=1129",
+  "description": "I recently presented a paper entitled Efficient AUC Optimization for Information Ranking Applications at the European Conference for Information Retrieval (ECIR) in Padua, Italy. In the paper, we derive gradient approximations for optimizing area under an ROC curve (AUC) and multi-class AUC using the LambdaMART algorithm. Here are slides for the talk, which give an overview of [&#8230;]",
+  "content:encoded": "<p>I recently presented a paper entitled <a href=\"https://arxiv.org/abs/1511.05202\" target=\"_blank\">Efficient AUC Optimization for Information Ranking Applications</a> at the <a href=\"http://www.springer.com/us/book/9783319306704?wt_mc=GoogleBooks.GoogleBooks.3.EN&token=gbgen#otherversion=9783319306711\">European Conference for Information Retrieval</a> (ECIR) in Padua, Italy.</p>\n<p>In the paper, we derive gradient approximations for optimizing area under an ROC curve (AUC) and multi-class AUC using the LambdaMART algorithm. Here are slides for the talk, which give an overview of the paper and a brief review of Learning to Rank and LambdaMART:</p>\n<ul>\n<li><a title=\"ecir2016_welleck\" href=\"https://wellecks.files.wordpress.com/2016/04/ecir2016_welleck.pdf\">ECIR 2016 Presentation</a></li>\n<li><a title=\"ecir2016_welleck_notes\" href=\"https://wellecks.files.wordpress.com/2016/04/ecir2016_welleck_notes.pdf\">ECIR 2016 Presentation (with notes)</a></li>\n<li><a title=\"welleck_auc\" href=\"https://wellecks.files.wordpress.com/2016/04/welleck_auc.pdf\">Paper</a></li>\n</ul>\n<p>The goal was to expand LambdaMART to optimize AUC in order to add to the portfolio of metrics that the algorithm is currently used for. The approach was to derive a &#8220;λ-gradient&#8221; analogous to those that have been defined for other metrics such as NDCG and Mean Average Precision.</p>\n<p>This in turn required an efficient way of computing a key quantity, namely the change in the AUC from swapping two items in the ranked list. One contribution of the paper is a simple, efficient formula for computing this quantity (along with a proof), which appears in the paper as:</p>\n<p style=\"text-align:center;\"><img data-attachment-id=\"1158\" data-permalink=\"https://wellecks.wordpress.com/2016/04/23/ecir-2016-paper-and-presentation/delta_auc_theorem/#main\" data-orig-file=\"https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png\" data-orig-size=\"2214,434\" data-comments-opened=\"1\" data-image-meta=\"{\"aperture\":\"0\",\"credit\":\"\",\"camera\":\"\",\"caption\":\"\",\"created_timestamp\":\"0\",\"copyright\":\"\",\"focal_length\":\"0\",\"iso\":\"0\",\"shutter_speed\":\"0\",\"title\":\"\",\"orientation\":\"0\"}\" data-image-title=\"delta_auc_theorem\" data-image-description=\"\" data-image-caption=\"\" data-medium-file=\"https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=300\" data-large-file=\"https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=525\" class=\"alignnone size-full wp-image-1158\" src=\"https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=525\" alt=\"delta_auc_theorem\" srcset=\"https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=525 525w, https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=1050 1050w, https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=150 150w, https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=300 300w, https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=768 768w, https://wellecks.files.wordpress.com/2016/04/delta_auc_theorem.png?w=1024 1024w\" sizes=\"(max-width: 525px) 100vw, 525px\"   /></p>\n<p>The paper also contains experimental results measuring the performance of LambdaMART using the derived gradients.</p>\n",
+  "wfw:commentRss": "https://wellecks.wordpress.com/2016/04/23/ecir-2016-paper-and-presentation/feed/",
+  "slash:comments": 0,
+  "media:content": [
+    {
+      "media:title": "wellecks"
+    },
+    {
+      "media:title": "delta_auc_theorem"
+    }
+  ]
+}
