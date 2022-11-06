@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32925 (iphone_os, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32925",
+  "description": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in tvOS 16, iOS 16, watchOS 9. An app may be able to cause unexpected system termination or write kernel memory.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}

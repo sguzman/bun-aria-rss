@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2018-8967 (zzcms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2018-8967",
+  "description": "An issue was discovered in zzcms 8.2. It allows SQL injection via the id parameter in an adv2.php?action=modify request.",
+  "dc:date": "2018-03-24T18:29:00Z"
+}

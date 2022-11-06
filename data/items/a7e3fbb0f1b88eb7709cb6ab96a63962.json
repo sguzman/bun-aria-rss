@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:7168BdRMVSY",
+  "yt:videoId": "7168BdRMVSY",
+  "yt:channelId": "UC9NuJImUbaSNKiwF2bdSfAw",
+  "title": "Sharing Reproducible Results in a Container A container you can build anywhere",
+  "link": "",
+  "author": {
+    "name": "FOSDEM",
+    "uri": "https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw"
+  },
+  "published": "2020-11-18T08:03:14+00:00",
+  "updated": "2022-07-22T08:55:55+00:00",
+  "media:group": {
+    "media:title": "Sharing Reproducible Results in a Container A container you can build anywhere",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Efraim Flashner\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/UB5.132/reprod_container.webm\n\nContainers do a great job separating out different parts of a system, making sure that they don't interact unless we want them to. What happens when a colleague hands us a project they've written and we're supposed to host it for them? They're not programmers, they're scientists. Who knows what they have in their program? How can we keep it up to date and deployed with a minimum of fuss?\nCome and see how we've solved this problem with Guix, from rebuilding or replacing the dependencies with modern versions like a pro, having only the bare minimum required software in the container, deploying in an artisanally crafted container like a hero, and upgrading and rolling back when ready.\n\nRoom: UB5.132\nScheduled start: 2020-02-02 12:15:00",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

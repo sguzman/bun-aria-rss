@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41435 (luci)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41435",
+  "description": "OpenWRT LuCI version git-22.140.66206-02913be was discovered to contain a stored cross-site scripting (XSS) vulnerability in the component /system/sshkeys.js. This vulnerability allows attackers to execute arbitrary web scripts or HTML via crafted public key comments.",
+  "dc:date": "2022-11-03T12:15:10Z"
+}

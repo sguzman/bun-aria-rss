@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32941 (ipad_os, iphone_os, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32941",
+  "description": "The issue was addressed with improved bounds checks. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, macOS Ventura 13, iOS 16.1 and iPadOS 16, macOS Monterey 12.6.1, macOS Big Sur 11.7.1. A buffer overflow may result in arbitrary code execution.",
+  "dc:date": "2022-11-01T20:15:20Z"
+}

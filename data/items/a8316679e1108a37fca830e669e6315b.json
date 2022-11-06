@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43223 (open5gs)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43223",
+  "description": "open5gs v2.4.11 was discovered to contain a memory leak in the component ngap-handler.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted UE attachment.",
+  "dc:date": "2022-11-01T14:15:15Z"
+}

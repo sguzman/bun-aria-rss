@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:LRL8ipBqR9Y",
+  "yt:videoId": "LRL8ipBqR9Y",
+  "yt:channelId": "UCWNx17Jt6eW4N4ayAEiXdEA",
+  "title": "LIBOR Fallback = Adj RFR + Spread",
+  "link": "",
+  "author": {
+    "name": "quantpie",
+    "uri": "https://www.youtube.com/channel/UCWNx17Jt6eW4N4ayAEiXdEA"
+  },
+  "published": "2021-03-28T14:17:46+00:00",
+  "updated": "2022-06-30T21:34:25+00:00",
+  "media:group": {
+    "media:title": "LIBOR Fallback = Adj RFR + Spread",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Explains the ISDA LIBOR fallback calculation methodology. The methodology proposes that any LIBOR linked payment/cash flows resulting from legacy trades/deals are linked to the compounded RFR (these would be compounded sonia/sofr for example) with the basis between LIBOR and the adjusted RFR set a fixed value.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

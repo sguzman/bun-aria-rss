@@ -1,0 +1,89 @@
+{
+  "title": "Finding the right context to interpret household energy data",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a00d8341e992c53ef02a2eed93892200d",
+  "published": "2022-10-12T09:00:00-04:00",
+  "updated": "2022-10-12T01:41:05-04:00",
+  "summary": "Kaiser examines a chart on energy use of household appliances",
+  "author": {
+    "name": "junkcharts"
+  },
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "a": [
+            {
+              "img": ""
+            },
+            "article"
+          ],
+          "#text": "Bloomberg's recenton surging UK household energy costs, projected over this winter, contains data about which I have long been intrigued: how much energy does different household items consume?"
+        },
+        "A twitter follower alerted me to this chart, and she found it informative.",
+        {
+          "br": "",
+          "#text": "***If the goal is to pick out the appliances and estimate the cost of running them, the chart serves its purpose. Because the entire set of data is printed, a data table would have done equally well."
+        },
+        "I learned that the mobile phone costs almost nothing to charge: 1 pence for six hours of charging, which is deemed a \"single use\" which seems double what a full charge requires. The games console costs 14 pence for a \"single use\" of two hours. That might be an underestimate of how much time gamers spend gaming each day.",
+        "***",
+        "Understanding the design of the chart needs a bit more effort. Each appliance is measured by two metrics: the number of hours considered to be \"single use\", and a currency value.",
+        "It took me a while to figure out how to interpret these currency values. Each cost is associated with a single use, and the duration of a single use increases as we move down the list of appliances. Since the designer assumes a fixed cost of electicity (shown in the footnote as 34p per kWh), at first, it seems like the costs should just increase from top to bottom. That's not the case, though.",
+        "Something else is driving these numbers behind the scene, namely, the intensity of energy use by appliance. The wifi router listed at the bottom is turned on 24 hours a day, and the daily cost of running it is just 6p. Meanwhile, running the fridge and freezer the whole day costs 41p. Thus, the fridge&freezer consumes electricity at a rate that is almost 7 times higher than the router.",
+        {
+          "a": "axis",
+          "#text": "The chart uses a split, which artificially reduces the gap between 8 hours and 24 hours. Here is another look at the bottom of the chart:"
+        },
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "***",
+        "Let's examine the choice of \"single use\" as a common basis for comparing appliances. Consider this:",
+        "I prefer standardizing to a \"per day\" metric. If I use the microwave three times a day, the daily cost is 3 x 3p = 9 p, which is more than I'd spend on the wifi router, run 24 hours. On the other hand, I use the washing machine once a week, so the frequency is 1/7, and the effective daily cost is 1/7 x 36 p = 5p, notably lower than using the microwave.",
+        "The choice of metric has key implications on the appearance of the chart. The bubble size encodes the relative energy costs. The biggest bubbles are in the heating category, which is no surprise. The next largest bubbles are tumble dryer, dishwasher, and electric oven. These are generally not used every day so the \"per day\" calculation would push them lower in rank.",
+        "***",
+        {
+          "a": "legend",
+          "#text": "Another noteworthy feature of the Bloomberg chart is the split. The colors divide appliances into five groups based on usage category (e.g. cleaning, food, utility). Instead of the usual color legend printed on a corner or side of the chart, the designer spreads the category labels around the chart. Each label is shown the first time a specific usage category appears on the chart. There is a presumption that the reader scans from top to bottom, which is probably true on average."
+        },
+        "I like this arrangement as it delivers information to the reader when it's needed.",
+        "&#0160;",
+        "&#0160;",
+        "&#0160;"
+      ],
+      "ul": {
+        "li": [
+          "Continuous appliances (wifi router, refrigerator, etc.) are denoted as 24 hours, so a daily time window is also implied",
+          "Repeated-use appliances (e.g. coffee maker, kettle) may be run multiple times a day",
+          "Infrequent use appliances may be used less than once a day"
+        ]
+      }
+    }
+  }
+}

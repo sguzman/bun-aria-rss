@@ -1,0 +1,15 @@
+{
+  "title": "Sparse Graphs in Python: Playing with Word Ladders",
+  "link": "",
+  "published": "2012-10-14T21:23:00-07:00",
+  "updated": "2012-10-14T21:23:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-10-14:blog/2012/10/14/scipy-sparse-graph-module-word-ladders/",
+  "summary": "<p>The recent <a href=\"http://sourceforge.net/projects/scipy/files/\">0.11 release</a> of scipy includes several new features,\none of which is the <a href=\"http://docs.scipy.org/doc/scipy/reference/sparse.csgraph.html\">sparse graph submodule</a>\nwhich I contributed, with help from other developers.  I'm pretty excited about this: there are some\nclassic algorithms implemented, and it will open up whole new realms of computational possibilities in Python.</p>\n<p>Before we start, I should say: this post is based on a <a href=\"http://pyvideo.org/video/1346/lightning-talks-wednesday\">lightning talk</a> I gave\nat Scipy 2012, and some of the material below comes from a <a href=\"http://docs.scipy.org/doc/scipy/reference/tutorial/csgraph.html\">tutorial</a>\nI wrote for the scipy documentation.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

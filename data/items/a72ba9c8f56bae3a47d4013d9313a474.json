@@ -1,0 +1,11 @@
+{
+  "title": "Linear Discriminant Analysis",
+  "description": "I received a lot of positive feedback about the step-wise Principal Component Analysis (PCA) implementation. Thus, I decided to write a little follow-up about Linear Discriminant Analysis (LDA) — another useful linear transformation technique. Both LDA and PCA are commonly used dimensionality reduction techniques in statistics, pattern classification, and machine learning applications. By implementing the LDA step-by-step in Python, we will see and understand how it works, and we will compare it to a PCA to see how it differs.",
+  "pubDate": "Sun, 03 Aug 2014 16:00:00 +0000",
+  "link": "https://sebastianraschka.com/Articles/2014_python_lda.html",
+  "guid": "https://sebastianraschka.com/Articles/2014_python_lda.html",
+  "category": [
+    "Machine-learning",
+    "Python"
+  ]
+}

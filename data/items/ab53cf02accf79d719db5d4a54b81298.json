@@ -1,0 +1,18 @@
+{
+  "title": "NLTK Trainer Updates",
+  "link": "https://streamhacker.com/2020/04/15/nltk-trainer-updates/#utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed",
+  "comments": "https://streamhacker.com/2020/04/15/nltk-trainer-updates/#respond",
+  "dc:creator": "Jacob",
+  "pubDate": "Wed, 15 Apr 2020 17:00:00 +0000",
+  "category": [
+    "python",
+    "nltk",
+    "tagging"
+  ],
+  "guid": "https://streamhacker.com/?p=2141",
+  "description": "I&#8217;ve recently pushed some updates to nltk-trainer, so that it now supports Python 3.7 and NLTK 3.4.5 or greater. NLTK also just released version 3.5. One significant change is that the default part of speech tagger is now the PerceptronTagger, originally written by Matthew Honnibal (author of spacy) before it was ported to NLTK.",
+  "content:encoded": "\n<p>I&#8217;ve recently pushed some updates to <a href=\"https://github.com/japerk/nltk-trainer\">nltk-trainer</a>, so that it now supports Python 3.7 and NLTK 3.4.5 or greater. <a href=\"https://www.nltk.org/\">NLTK</a> also just released version 3.5.</p>\n\n\n\n<p>One significant change is that the default part of speech tagger is now the <a href=\"https://www.nltk.org/api/nltk.tag.html#nltk.tag.perceptron.PerceptronTagger\">PerceptronTagger</a>, <a href=\"https://explosion.ai/blog/part-of-speech-pos-tagger-in-python\">originally written</a> by Matthew Honnibal (author of <a href=\"https://spacy.io/\">spacy</a>) before it was ported to NLTK.</p>\n",
+  "wfw:commentRss": "https://streamhacker.com/2020/04/15/nltk-trainer-updates/feed/",
+  "slash:comments": 0,
+  "post-id": 2141
+}

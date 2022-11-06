@@ -1,0 +1,9 @@
+{
+  "title": "My Opinionated Talk on A/B Testing",
+  "description": "<!--kg-card-begin: markdown--><p><em>Talk from PyData London 2014</em></p>\n<p><em>Most Winning A/B Test Results are Illusory</em></p>\n<p><strong>Talk Summary</strong></p>\n<p>Many people have started to suspect that their A/B testing results are not what they seem. A/B test reports an uplift of 20% and yet this increase never seems to translate into increased</p>",
+  "link": "https://www.martingoodson.com/my-opinionated-talk-on-ab-testing/",
+  "guid": "5e15f163bda2f50017c807c5",
+  "dc:creator": "Martin Goodson",
+  "pubDate": "Fri, 08 May 2015 11:54:10 GMT",
+  "content:encoded": "<!--kg-card-begin: markdown--><p><em>Talk from PyData London 2014</em></p>\n<p><em>Most Winning A/B Test Results are Illusory</em></p>\n<p><strong>Talk Summary</strong></p>\n<p>Many people have started to suspect that their A/B testing results are not what they seem. A/B test reports an uplift of 20% and yet this increase never seems to translate into increased profits. So what's going on? I'll use python simulations to show that A/B testing is often conducted in such a way that it virtually guarantees false positive results. I'll also mention some python functions that can be used to avoid these problems.</p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MdkHLS0FPMk?rel=0\" frameborder=\"0\" allowfullscreen></iframe>\n<p><a href>http://www.slideshare.net/PyData/py-data-goodson-mostabtestingresultsareillsory</a></p>\n<!--kg-card-end: markdown-->"
+}

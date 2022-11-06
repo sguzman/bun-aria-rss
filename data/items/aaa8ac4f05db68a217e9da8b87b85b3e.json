@@ -1,0 +1,269 @@
+{
+  "title": "AzureR update: new in May/June",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a010534b1db25970b0278802eca25200d",
+  "published": "2021-06-09T09:30:00-07:00",
+  "updated": "2021-06-08T16:38:33-07:00",
+  "summary": "by Hong Ooi This is a summary of the updates to AzureR family of packages in May and June 2021. AzureAuth Change the default caching behaviour to disable the cache if running inside Shiny. Update Shiny vignette to clean up redirect page after authenticating (thanks to Tyler Littlefield). Add a create_AzureR_dir function to create the caching directory manually. This can be useful not just for non-interactive sessions, but also Jupyter and R notebooks, which are not technically interactive in the sense that they cannot read user input from a console prompt. AzureGraph Add enhanced support for the paging API. Many...",
+  "author": {
+    "name": "Hong Ooi"
+  },
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        {
+          "em": "by Hong Ooi"
+        },
+        {
+          "a": "AzureR",
+          "#text": "This is a summary of the updates tofamily of packages in May and June 2021."
+        }
+      ],
+      "div": [
+        {
+          "h2": "AzureAuth",
+          "ul": {
+            "li": [
+              "Change the default caching behaviour to disable the cache if running inside Shiny.",
+              "Update Shiny vignette to clean up redirect page after authenticating (thanks to Tyler Littlefield).",
+              {
+                "code": "create_AzureR_dir",
+                "em": "technically",
+                "#text": "Add afunction to create the caching directory manually. This can be useful not just for non-interactive sessions, but also Jupyter and R notebooks, which are notinteractive in the sense that they cannot read user input from a console prompt."
+              }
+            ]
+          }
+        },
+        {
+          "h2": "AzureGraph",
+          "ul": {
+            "li": [
+              {
+                "em": "pages",
+                "code": [
+                  "ms_graph_pager",
+                  "list_*",
+                  "filter",
+                  "n"
+                ],
+                "#text": "Add enhanced support for the paging API. Many Graph calls that return lists of objects do so in: the first response contains a subset of the full list, along with a link to the next subset. AzureGraph now features a newR6 class, which is an iterator for the pages in the result. AllR6 methods have been rewritten to use this class, and haveandarguments to filter the result set and cap the number of results."
+              },
+              {
+                "code": [
+                  "graph_request",
+                  "call_batch_endpoint"
+                ],
+                "#text": "Also add support for the batch request feature: you can pass multiple calls to the API with theR6 class andfunction, and get the results back in a single response."
+              },
+              {
+                "a": "Batching and paging",
+                "#text": "See thevignette for more information on these APIs."
+              },
+              {
+                "code": [
+                  "list_users()",
+                  "list_groups()",
+                  "list_apps()",
+                  "list_service_principals()",
+                  "ms_graph"
+                ],
+                "#text": "Add,,andmethods to the mainclient class."
+              },
+              {
+                "a": "Authentication",
+                "#text": "There is also a newvignette to guide users through the various ways to authenticate to Microsoft Graph."
+              }
+            ]
+          }
+        },
+        {
+          "h2": "AzureRMR",
+          "ul": {
+            "li": [
+              {
+                "a": "Authentication",
+                "#text": "Similar to AzureGraph, AzureRMR has a newvignette that details how to authenticate to Resource Manager. This replaces the old “Service principal” vignette."
+              },
+              {
+                "code": "az_subscription$list_locations",
+                "#text": "Update Resource Manager API version to “2021-04-01”; also updateto handle the new response format in this API version."
+              }
+            ]
+          }
+        },
+        {
+          "h2": "AzureStor",
+          "ul": {
+            "li": [
+              {
+                "code": [
+                  "get_service_sas",
+                  "az_storage",
+                  "storage_endpoint",
+                  "az_storage",
+                  "?sas"
+                ],
+                "#text": "Add support for generating a service SAS. There is a new S3 genericwith methods forandobjects, and a similar R6 method forobjects. Seefor more information."
+              },
+              {
+                "code": [
+                  "storage_save_rds",
+                  "storage_load_rds",
+                  "storage_load_rds",
+                  "saveRDS"
+                ],
+                "#text": "Fixandto handle compression correctly. In particular,should now correctly load files saved with(#83)."
+              },
+              {
+                "code": "list_blobs",
+                "#text": "Fix a bug that causedto fail when leases were present."
+              },
+              {
+                "code": [
+                  "readr::read_delim",
+                  "read_csv2"
+                ],
+                "#text": "Use a raw connection instead of a raw vector when callingand. This works around an issue introduced in readr 1.4.0 (#85, #86)."
+              },
+              {
+                "code": "resource_type=\"d\"",
+                "#text": "Update client API version to “2020-04-08”. In particular, this allows specifyingwhen creating a service or user delegation SAS for blob storage."
+              },
+              {
+                "code": [
+                  "service",
+                  "storage_endpoint"
+                ],
+                "ul": {
+                  "li": {
+                    "code": [
+                      "blob_endpoint",
+                      "file_endpoint",
+                      "adls_endpoint"
+                    ],
+                    "#text": "For the same reason, remove the warning about an unrecognised endpoint URL from,and."
+                  }
+                },
+                "#text": "Add an optionalargument to, to specify the service in question: blob, file, ADLS2, queue or table. This allows use of the generic endpoint function with URLs that don’t fit the usual pattern where the service is part of the hostname, eg custom domain names, IP addresses, etc."
+              }
+            ]
+          }
+        },
+        {
+          "h2": "Microsoft365R",
+          "p": "Microsoft365R has some significant new features in the latest version:",
+          "div": [
+            {
+              "h3": "OneDrive/SharePoint",
+              "ul": {
+                "li": [
+                  {
+                    "code": [
+                      "list_shared_items()",
+                      "ms_drive"
+                    ],
+                    "#text": "Add amethod for theclass to access files and folders shared with you (#45)."
+                  },
+                  {
+                    "code": [
+                      "get_drive()",
+                      "drive_name",
+                      "get_drive(drive_id=*)"
+                    ],
+                    "#text": "Allow getting drives for groups, sites and teams by name. The first argument to themethod for these classes is now; to get a drive by ID, specify the argument name explicitly:"
+                  },
+                  {
+                    "code": [
+                      "by_item",
+                      "delete_item()",
+                      "delete()"
+                    ],
+                    "#text": "Add aargument to themethod for drives and themethod for drive items (#21). This is to allow deletion of non-empty folders on SharePoint sites with data protection policies in place. Use with caution."
+                  }
+                ]
+              }
+            },
+            {
+              "h3": "Outlook",
+              "ul": {
+                "li": {
+                  "code": [
+                    "search",
+                    "ms_outlook_folder$list_emails()"
+                  ],
+                  "#text": "Add aargument to themethod. The default is to search in the from, subject and body of the emails."
+                }
+              }
+            },
+            {
+              "h3": "Teams",
+              "ul": {
+                "li": [
+                  {
+                    "code": [
+                      "list_members()",
+                      "get_member()"
+                    ],
+                    "#text": "Addandmethods for teams and channels."
+                  },
+                  {
+                    "span": "@mentions",
+                    "#text": "Add support forin Teams channel messages (#26)."
+                  }
+                ]
+              }
+            },
+            {
+              "h3": "Other",
+              "ul": {
+                "li": [
+                  {
+                    "code": [
+                      "list_*",
+                      "filter",
+                      "n",
+                      "filter=NULL",
+                      "n=Inf",
+                      "n=NULL",
+                      "ms_graph_pager"
+                    ],
+                    "#text": "Allclass methods now haveandarguments to filter the result set and cap the number of results, following the pattern in AzureGraph. The default values areand. If, aniterator object is returned instead to allow manual iteration over the results. Note that support for filtering in the underlying Graph API is somewhat uneven at the moment."
+                  },
+                  {
+                    "strong": "read-only",
+                    "ul": {
+                      "li": [
+                        {
+                          "code": [
+                            "get_plan()",
+                            "list_plans()",
+                            "az_group"
+                          ],
+                          "#text": "Addandmethods to theclass. Note that only Microsoft 365 groups can have plans, not any other type of group."
+                        },
+                        {
+                          "code": "get_group()",
+                          "#text": "To get the plan(s) for a site or team, call itsmethod to retrieve the associated group, and then get the plan from the group."
+                        },
+                        "A plan has methods to retrieve tasks and buckets, as well as plan details."
+                      ]
+                    },
+                    "#text": "Experimentalsupport for plans, contributed by Roman Zenka."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

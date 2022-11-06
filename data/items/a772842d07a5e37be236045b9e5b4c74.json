@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3xZsTBEUkFI",
+  "yt:videoId": "3xZsTBEUkFI",
+  "yt:channelId": "UCsdA-aNqtMA1_2T15aXePWw",
+  "title": "How SERDES works in an FPGA, high speed serial TX/RX for beginners",
+  "link": "",
+  "author": {
+    "name": "nandland",
+    "uri": "https://www.youtube.com/channel/UCsdA-aNqtMA1_2T15aXePWw"
+  },
+  "published": "2020-05-27T13:27:36+00:00",
+  "updated": "2022-01-09T00:39:49+00:00",
+  "media:group": {
+    "media:title": "How SERDES works in an FPGA, high speed serial TX/RX for beginners",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Understand how SERDES (Serializer/Deserializer) blocks work in an FPGA to get high speed data transmitted and received. Learn the difference between parallel and serial data, and why serial data can send data faster than parallel. I also touch on the topics of Single-ended vs. differential, 8B/10B encoding, and pre and post emphasis. If you want a high level overview of SERDES then start here.\n\nPlease support me on Patreon: patreon.com/nandland",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

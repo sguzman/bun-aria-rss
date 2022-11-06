@@ -1,0 +1,8 @@
+{
+  "title": "CVE-2021-44228 - Zero Day Vulnerability in Apache Log4j that allows remote code execution (RCE)",
+  "description": "A critical unauthenticated remote code execution (RCE) vulnerability (CVE-2021-44228) has been reported in Log4j, an open-source logging library. Akamai has been working directly with customers to deploy WAF rules over the past 24 hours to mitigate the exposure. Log4j is incorporated into many popular frameworks, making the impact widespread. The vulnerability is actively being exploited, and when abused allows a threat actor to execute arbitrary code on systems running apps that contain the library.",
+  "link": "https://www.akamai.com/blog/news/CVE-2021-44228-Zero-Day-Vulnerability",
+  "author": "Akamai",
+  "guid": "https://www.akamai.com/blog/news/CVE-2021-44228-Zero-Day-Vulnerability",
+  "pubDate": "Fri, 10 Dec 2021 21:00 PM UTC"
+}

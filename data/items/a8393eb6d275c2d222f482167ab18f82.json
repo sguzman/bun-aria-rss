@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-8133679730007651996",
+  "published": "2018-04-01T00:14:00.001-07:00",
+  "updated": "2018-04-01T00:14:09.990-07:00",
+  "title": "Simplified Multinomial Kelly",
+  "content": "Here's a simplified version for optimal Kelly bets when you have multiple outcomes (e.g. horse races).<br /><br />The Smoczynski &amp; Tomkins algorithm, which is explained here (or in the original paper):<br /><br /><a href=\"https://en.wikipedia.org/wiki/Kelly_criterion#Multiple_horses\">https://en.wikipedia.org/wiki/Kelly_criterion#Multiple_horses</a><br /><br />Let's say there's a wager that, for every $1 you bet, will return a profit of $b if you win. Let the probability of winning be \\(p\\), and losing be \\(q=1-p\\).<br /><br />The original Kelly criterion says to wager only if \\(b\\cdot p-q &gt; 0\\) (the expected value is positive), and in this case to wager a fraction \\( \\frac{b\\cdot p-q}{b} \\) of your bankroll.<br /><br />But in a horse race, how do you decide which set of outcomes are favorable to bet on? It's tricky, because these wagers are mutually exclusive i.e. you can win at most one.<br /><br />It turns out there's a simple and intuitive method to find which bets are favorable:<br /><br />1) Look at \\( b\\cdot p-q\\) for every horse.<br />2) Pick any horse for which \\( b\\cdot p-q &gt; 0\\) and mark \"bet\".<br />3) Adjust the probabilities for the remaining horses by dividing all win probabilities by \\( \\frac{1}{1-p} \\) so they add up to 1 again (\"renormalize\").<br />4) Repeat!<br /><br />That's it.<br /><br />This should be substantially easier to understand than the exposition in Smoczynski &amp; Tomkins.<br /><br />The intuitive reasoning for why this should work is that you only need betting on a horse to be conditionally favorable assuming the other horses you've bet on don't win. That is, it must be a positive hedge.<br /><div><br /></div>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

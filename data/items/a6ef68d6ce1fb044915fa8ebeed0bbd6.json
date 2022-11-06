@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:HGmn0bs2nbM",
+  "yt:videoId": "HGmn0bs2nbM",
+  "yt:channelId": "UCBcljXmuXPok9kT_VGA3adg",
+  "title": "LMARV-1 reboot part 9: Refactoring, final proof, and a ROM!",
+  "link": "",
+  "author": {
+    "name": "Robert Baruch",
+    "uri": "https://www.youtube.com/channel/UCBcljXmuXPok9kT_VGA3adg"
+  },
+  "published": "2021-01-01T17:00:05+00:00",
+  "updated": "2022-07-22T09:20:20+00:00",
+  "media:group": {
+    "media:title": "LMARV-1 reboot part 9: Refactoring, final proof, and a ROM!",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Short video this time, just a few refactorings in prep for starting on the actual schematics. The ROM I've chosen to run the sequencer is a Flash ROM with an access time of 70ns, so I think a 10MHz system clock (100ns per cycle) is optimistic. I'll likely use 6MHz so that I have a 1MHz machine cycle.\n\nnMigen exercises: https://github.com/RobertBaruch/nmigen-exercises/blob/main/README.md\n\ngithub repo for code: https://github.com/RobertBaruch/riscv-reboot\n\nRISC-V specs: https://riscv.org/technical/specifications/\n\nnMigen tutorial: https://github.com/RobertBaruch/nmigen-tutorial/blob/master/README.md",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

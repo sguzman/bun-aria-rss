@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:yOezcP-XaIw",
+  "yt:videoId": "yOezcP-XaIw",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Crust of Rust: Send, Sync, and their implementors",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-06-11T23:10:39+00:00",
+  "updated": "2022-08-19T15:42:41+00:00",
+  "media:group": {
+    "media:title": "Crust of Rust: Send, Sync, and their implementors",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This time we go over the Send and Sync marker traits from the standard library, as well as some of the most important implementors (and non-implementors) of them. You can find the nomicon entry for Send/Sync here: https://doc.rust-lang.org/nomicon/send-and-sync.html.\n\nLive version with chat: https://youtu.be/xmkSDM5omFA\n\n0:00:00 Why Send and Sync?\n0:01:31 What are Send and Sync?\n0:02:51 Marker traits\n0:03:50 Auto traits\n0:05:45 The Send trait\n0:06:49 Types that aren't Send\n0:09:40 Digging into Rc\n0:23:52 The Sync trait\n0:26:21 Send + !Sync\n0:32:41 Negative implementations\n0:35:17 Sending mutable references\n0:37:00 Raw pointers\n0:41:54 std::sync::mpsc and !Sync\n0:42:30 Placement of T: Send/Sync bounds\n0:46:04 Per-OS impl Send for guards\n0:47:06 more std::sync::mpsc and !Sync\n0:48:40 Is Send/Sync auto-implemented?\n0:50:40 The nomicon Send/Sync entry\n0:52:57 There's no magic!\n1:02:46 Negative impls on stable",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

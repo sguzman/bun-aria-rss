@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43152 (tsmuxer)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43152",
+  "description": "tsMuxer v2.6.16 was discovered to contain a heap overflow via the function BitStreamWriter::flushBits() at /tsMuxer/bitStream.h.",
+  "dc:date": "2022-10-31T19:15:10Z"
+}

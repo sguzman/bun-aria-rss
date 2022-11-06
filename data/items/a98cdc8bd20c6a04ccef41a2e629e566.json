@@ -1,0 +1,18 @@
+{
+  "title": "Code comments cause SAML conundrum. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/28/notes",
+  "description": "Researchers at Duo Security recently unearthed a new vulnerability class that affects SAML-based single sign-on (SSO) systems. This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user’s password.\nKelby Ludwig is a Senior Application Security Engineer at Duo security, and he takes us  through his discoveries.",
+  "pubDate": "Sat, 24 Mar 2018 11:00:00 -0000",
+  "itunes:episodeType": "full",
+  "itunes:season": 2,
+  "itunes:episode": 28,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:image": "",
+  "itunes:subtitle": "Code comments cause SAML conundrum",
+  "itunes:summary": "Researchers at Duo Security recently unearthed a new vulnerability class that affects SAML-based single sign-on (SSO) systems. This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user’s password.\nKelby Ludwig is a Senior Application Security Engineer at Duo security, and he takes us  through his discoveries.",
+  "content:encoded": "<p>Researchers at Duo Security recently unearthed a new vulnerability class that affects SAML-based single sign-on (SSO) systems. This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user’s password.</p><p>Kelby Ludwig is a Senior Application Security Engineer at Duo security, and he takes us <a href=\"https://duo.com/blog/duo-finds-saml-vulnerabilities-affecting-multiple-implementations\"> through his discoveries</a>. </p>",
+  "itunes:duration": 1217,
+  "itunes:explicit": "no",
+  "guid": "60240d70409b7baa496eb11359448635",
+  "enclosure": ""
+}

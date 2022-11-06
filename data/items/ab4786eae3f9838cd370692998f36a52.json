@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:hWu-SHbDoko",
+  "yt:videoId": "hWu-SHbDoko",
+  "yt:channelId": "UCHAtzWEoegu7Z5zEVzjOM_Q",
+  "title": "Category Theory For Beginners: Monads",
+  "link": "",
+  "author": {
+    "name": "Richard Southwell",
+    "uri": "https://www.youtube.com/channel/UCHAtzWEoegu7Z5zEVzjOM_Q"
+  },
+  "published": "2022-05-16T05:00:15+00:00",
+  "updated": "2022-09-08T11:37:26+00:00",
+  "media:group": {
+    "media:title": "Category Theory For Beginners: Monads",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We start by introducing monads simply, in a way functional programmers can understand. We use the maybe monad as an example.  We describe Kleisli categories,  monoids in monoidal categories and why a monads is a monoid in the category of endofunctors. We describe how monads relate to adjunctions, algebras and the Eilenberg Moore category. We also describe action monads, probability monads, and a connection between graphs, categories and monads. For more about probability monads check out Section 2.1 of https://arxiv.org/abs/2006.01631\n\nMore about the connection between categories and graphs can be found in http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf\n\nAlso, see my previous video \n\nhttps://www.youtube.com/watch?v=CYuG-wYx77o&list=PLCTMeyjMKRkoS699U0OJ3ymr3r01sI08l&index=24\n\nfor more background on monoidal categories",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

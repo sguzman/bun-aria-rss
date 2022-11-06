@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42788 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42788",
+  "description": "A permissions issue existed. This issue was addressed with improved permission validation. This issue is fixed in macOS Ventura 13. A malicious application may be able to read sensitive location information.",
+  "dc:date": "2022-11-01T20:15:22Z"
+}

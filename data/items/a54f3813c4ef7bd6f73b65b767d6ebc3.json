@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39262 (glpi)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39262",
+  "description": "GLPI stands for Gestionnaire Libre de Parc Informatique. GLPI is a Free Asset and IT Management Software package, GLPI administrator can define rich-text content to be displayed on login page. The displayed content is can contains malicious code that can be used to steal credentials. This issue has been patched, please upgrade to version 10.0.4.",
+  "dc:date": "2022-11-03T14:15:12Z"
+}

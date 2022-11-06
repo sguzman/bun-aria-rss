@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-22442 (infosphere_information_server, infosphere_information_server_on_cloud)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22442",
+  "description": "&quot;IBM InfoSphere Information Server 11.7 could allow an authenticated user to access information restricted to users with elevated privileges due to improper access controls. IBM X-Force ID: 224427.&quot;",
+  "dc:date": "2022-11-03T20:15:25Z"
+}

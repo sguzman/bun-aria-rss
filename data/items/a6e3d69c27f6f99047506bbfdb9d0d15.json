@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3370 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3370",
+  "description": "Use after free in Custom Elements in Google Chrome prior to 106.0.5249.91 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chrome security severity: High)",
+  "dc:date": "2022-11-01T03:15:10Z"
+}

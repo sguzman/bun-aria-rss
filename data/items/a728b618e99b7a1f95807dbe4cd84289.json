@@ -1,0 +1,18 @@
+{
+  "title": "Attackers (ab)using Google Chrome. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/171/notes",
+  "description": "Guest Bojan Zdrnja of Infigo IS and a certified instructor at SANS Institute shares an incident he discovered where attackers were using a pretty novel way of exfiltrating data and using that channel for C&C communication. The code that was acquired was only partially recovered, but enough to indicate powerful features that the attackers were (ab)using in Google Chrome. The basis for this attack were malicious extensions that the attacker dropped on the compromised system.\nThe research can be found here:\nAbusing Google Chrome extension syncing for data exfiltration and C&C",
+  "pubDate": "Sat, 20 Feb 2021 08:00:00 -0000",
+  "itunes:title": "Attackers (ab)using Google Chrome. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 171,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guest Bojan Zdrnja of Infigo IS and a certified instructor at SANS Institute shares an incident he discovered where attackers were using a pretty novel way of exfiltrating data and using that channel for C&C communication. The code that was acquired was only partially recovered, but enough to indicate powerful features that the attackers were (ab)using in Google Chrome. The basis for this attack were malicious extensions that the attacker dropped on the compromised system.\nThe research can be found here:\nAbusing Google Chrome extension syncing for data exfiltration and C&C",
+  "content:encoded": "<p>Guest Bojan Zdrnja of Infigo IS and a certified instructor at SANS Institute shares an incident he discovered where attackers were using a pretty novel way of exfiltrating data and using that channel for C&C communication. The code that was acquired was only partially recovered, but enough to indicate powerful features that the attackers were (ab)using in Google Chrome. The basis for this attack were malicious extensions that the attacker dropped on the compromised system.</p><p>The research can be found here:</p><ul><li><a href=\"https://isc.sans.edu/forums/diary/Abusing+Google+Chrome+extension+syncing+for+data+exfiltration+and+CC/27066/\">Abusing Google Chrome extension syncing for data exfiltration and C&C</a></li></ul>",
+  "itunes:duration": 1247,
+  "itunes:explicit": "no",
+  "guid": "50192a3c-72f3-11eb-8f7f-4b7ec2af4b7f",
+  "enclosure": ""
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-31621 (mariadb)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31621",
+  "description": "MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_xbstream.cc, when an error occurs (stream_ctxt-&gt;dest_file == NULL) while executing the method xbstream_open, the held lock is not released correctly, which allows local users to trigger a denial of service due to the deadlock.",
+  "dc:date": "2022-05-25T21:15:08Z"
+}

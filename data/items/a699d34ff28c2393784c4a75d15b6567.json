@@ -1,0 +1,16 @@
+{
+  "title": "Analyzing Pronto CycleShare Data with Python and Pandas",
+  "link": "",
+  "published": "2015-10-17T21:00:00-07:00",
+  "updated": "2015-10-17T21:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-10-17:blog/2015/10/17/analyzing-pronto-cycleshare-data-with-python-and-pandas/",
+  "summary": "<p>This week <a href=\"https://www.prontocycleshare.com/\">Pronto CycleShare</a>, Seattle's Bicycle Share system, turned one year old.\nTo celebrate this, Pronto made available a large cache of data from the first year of operation and announced the <a href=\"http://www.prontocycleshare.com/datachallenge\">Pronto Cycle Share's Data Challenge</a>, which offers prizes for different categories of analysis.</p>\n<p>There are a lot of tools out there that you could use to analyze data like this, but my tool of choice is (obviously) Python.\nIn this post, I want to show how you can get started analyzing this data and joining it with other available data sources using the PyData stack, namely <a href=\"http://www.numpy.org/\">NumPy</a>, <a href=\"http://pandas.pydata.org\">Pandas</a>, <a href=\"http://matplotlib.org\">Matplotlib</a>, and <a href=\"http://stanford.edu/~mwaskom/software/seaborn/\">Seaborn</a>.\nHere I'll take a look at some of the basic questions you can answer with this data.\nLater I hope to find the time to dig deeper and ask some more interesting and creative questions – stay tuned!</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
