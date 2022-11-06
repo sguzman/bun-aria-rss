@@ -1,0 +1,15 @@
+{
+  "title": "Frequentism and Bayesianism II: When Results Differ",
+  "link": "",
+  "published": "2014-06-06T02:00:00-07:00",
+  "updated": "2014-06-06T02:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-06-06:blog/2014/06/06/frequentism-and-bayesianism-2-when-results-differ/",
+  "summary": "<p>In a <a href=\"http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/\">previous post</a> I gave a brief practical introduction to frequentism and Bayesianism as they relate to the analysis of scientific data. In it, I discussed the fundamental philosophical difference between frequentism and Bayesianism, and showed several simple problems where the two approaches give basically the same results.</p>\n<p>While it is easy to show that the two approaches are often equivalent for simple problems, it is also true that they can diverge greatly for more complicated problems. I've found that in practice, this divergence makes itself most clear in two different situations:</p>\n<ol>\n<li>The handling of nuisance parameters</li>\n<li>The subtle (and often overlooked) difference between frequentist confidence intervals and Bayesian credible intervals</li>\n</ol>\n<p>The second point is a bit more philosophical and in-depth, and I'm going to save it for a later post and focus here on the first point: the difference between frequentist and Bayesian treatment of nuisance parameters. Though I tried my best to stay impartial in the previous post, here you'll start to see my leanings toward the Bayesian approach. Consider this a warmup for when I get around to addressing point number 2: that will likely get downright polemical.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

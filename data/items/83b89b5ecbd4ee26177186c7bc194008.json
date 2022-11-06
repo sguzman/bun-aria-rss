@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:pMiqRM5ooNw",
+  "yt:videoId": "pMiqRM5ooNw",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Making a Rust crate compile faster",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-07-02T02:13:54+00:00",
+  "updated": "2022-08-19T15:38:54+00:00",
+  "media:group": {
+    "media:title": "Making a Rust crate compile faster",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this stream, we try to figured out why the `cargo` crate takes so long to build. We don't ultimately make a meaningful improvement, but we do explore the many tools that exist to help with both analysis and remediation, and the value (and shortcomings) of each one.\n\nWhy is my Rust build so slow? https://fasterthanli.me/articles/why-is-my-rust-build-so-slow\n-Zsparse-registry https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html\ncargo --timings https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html#cargo---timings\nmold https://github.com/rui314/mold\n-Zshare-generics https://github.com/rust-lang/rust/blob/1f34da9ec8a85b6f86c5fa1c121ab6f88f2f4966/compiler/rustc_middle/src/ty/instance.rs#L112\ncargo-bloat https://github.com/RazrFalcon/cargo-bloat\nNon-generic inner functions. https://www.possiblerust.com/pattern/non-generic-inner-functions\ncargo-llvm-lines https://github.com/dtolnay/cargo-llvm-lines\n-Zsymbol-mangling=v0 https://rust-lang.github.io/rfcs/2603-rust-symbol-name-mangling-v0.html\n-Zself-profile https://rust-lang.github.io/compiler-team/working-groups/self-profile/\ncrox https://github.com/rust-lang/measureme/blob/master/crox/README.md\nminiserde https://github.com/dtolnay/miniserde\nwatt https://github.com/dtolnay/watt\nWhere rustc spends its time. https://wiki.alopex.li/WhereRustcSpendsItsTime\n\n0:00:00 Introduction\n0:02:27 Setting up a test project\n0:08:25 cargo build --timings\n0:16:45 Linking\n0:29:30 cargo bloat\n0:40:50 -Zshare-generics\n0:47:00 cargo-llvm-lines\n1:24:56 rustc -Zself-profile\n2:04:36 perf record rustc\n2:13:10 miniserde\n2:16:35 watt\n2:25:00 Conclusion\n2:25:40 Q&A\n2:26:58 Overhead of monomorphization\n2:27:51 Rust build time in 2-3 years\n2:30:04 Do this again with new tools?\n2:30:59 Breaking Cargo into subcrates\n2:32:20 Is --release time important?\n2:32:56 Automatic inner functions\n2:34:46 Rust build time and adoption\n2:37:00 Proc macro build time\n2:41:25 Feature creep in Rust\n2:43:05 Outroduction\n\nLive version with chat: https://youtu.be/vxB4R2Guwp8",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-656654543676154183",
+  "published": "2019-09-04T02:14:00.002-07:00",
+  "updated": "2019-09-04T03:05:04.780-07:00",
+  "title": "Gambling to Optimize Expected Median Bankroll",
+  "content": "Gambling to optimize your expected bankroll mean is extremely risky, as you wager your entire bankroll for any favorable gamble, making ruin almost inevitable. But what if, instead, we gambled not to maximize the expected bankroll mean, but the expected bankroll median?<br /><br />Let the probability of winning a favorable bet be \\(p\\), and the net odds be \\(b\\). That is, if we wager \\(1\\) unit and win, we get back \\(b\\) units (in addition to our wager). Assume our betting strategy is to wager some fraction \\(f\\) of our bankroll, hence \\(0 \\leq f \\leq 1\\). By our assumption, our betting strategy is invariant with respect to the actual size of our bankroll, and so if we were to repeat this gamble \\(n\\) times with the same \\(p\\) and \\(b\\), the strategy wouldn't change. It follows we may assume an initial bankroll of size \\(1\\).<br /><br />Let \\( q = 1-p \\). Now, after \\(n\\)&nbsp; such gambles our bankroll would have a binomial distribution with probability mass function \\[ \\Pr(k,n,p) = \\binom{n}{k} p^k q^{n-k}, \\] where \\(k\\) is the number of wins, \\(n-k\\) the number of losses. Note the median occurs at \\( k=n p \\), corresponding to a bankroll of \\[ \\left(1+f\\cdot b\\right)^{n p} \\left(1-f\\right)^{n q} .\\] Now, maximizing this value is equivalent to maximizing its \\(\\log\\), which is&nbsp;\\[ n p \\log\\left(1+f\\cdot b\\right) + n q\\log\\left(1-f\\right) .\\] But this is maximized when&nbsp;\\[ p \\log\\left(1+f\\cdot b\\right) + q\\log\\left(1-f\\right)\\] is maximized, and this is precisely the condition for a Kelly optimal bet! It follows that if we gamble to optimize our expected median, this is equivalent to Kelly optimal betting, and hence maximizing expected log wealth.<br /><br />With a little more work, we can show that the same conclusion holds if we gamble to optimize any expected quantile \\(x\\), with \\( 0 &lt; x &lt; 1\\). Maximizing the expected quantile \\( 0 \\) corresponds to \"riskless\" gambling, i.e. only gambling when there's no chance of a loss.&nbsp;Maximizing the expected quantile \\( 1 \\) corresponds to maximizing the expected bankroll mean, which we can refer to as the \"reckless\" strategy. Thus, under our assumptions, there are only three quantile maximization strategies - riskless, Kelly and reckless.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

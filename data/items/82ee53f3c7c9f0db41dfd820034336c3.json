@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-5000817122949219117",
+  "published": "2022-08-16T07:48:00.000-07:00",
+  "updated": "2022-08-16T07:48:42.233-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "Announcing v202208 of the Google Ad Manager API",
+  "content": "<p>We're pleased to announce that <a href=\"https://developers.google.com/ad-manager/api/rel_notes#v202208\">v202208</a> of the Google Ad Manager API is available starting today, August 16th. This release adds support for AMP URLs in <a href=\"https://developers.google.com/ad-manager/api/reference/v202208/CreativeService.ThirdPartyCreative#ampRedirectUrl\">ThirdPartyCreatives</a>, <a href=\"https://developers.google.com/ad-manager/api/reference/v202208/ForecastService.InventorySizeTargeting\">InventorySizeTargeting</a> in <a href=\"https://developers.google.com/ad-manager/api/reference/v202205/ForecastService#gettrafficdata\">traffic forecasts</a>, and <a href=\"https://support.google.com/admanager/answer/9378385\">Real-time video</a> reporting. </p><p>For the full list of changes, check the <a href=\"https://developers.google.com/ad-manager/api/rel_notes\">release notes</a>. Feel free to reach out to us on the <a href=\"https://groups.google.com/forum/#!forum/google-doubleclick-for-publishers-api\">Ad Manager API forum</a> with any API-related questions. </p><p><span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/TIWw6NG6FYpTgLz7qyCFEm2x04f2J8u64SPf84cldsuj_IOc5v1gWy0Fe0vJYPEcVQ-paramnbvleWzIKC97YgGkYdnDr0JNgFv6_AHRVIcVsvwLncof3YgtjmmsPZqDil0nJSP6gQ\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Chris Seeley, Ad Manager API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}
