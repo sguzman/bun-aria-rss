@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2474 (haas_controller_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2474",
+  "description": "Authentication is currently unsupported in Haas Controller version 100.20.000.1110 when using the &acirc;&euro;&oelig;Ethernet Q Commands&acirc;&euro;&#65533; service, which allows any user on the same network segment as the controller (even while connected remotely) to access the service and write unauthorized macros to the device.",
+  "dc:date": "2022-10-28T18:15:11Z"
+}

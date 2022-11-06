@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-23533 (union_pay)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-23533",
+  "description": "Union Pay up to 1.2.0, for web based versions contains a CWE-347: Improper Verification of Cryptographic Signature vulnerability, allows attackers to shop for free in merchants' websites and mobile apps, via a crafted authentication code (MAC) which is generated based on a secret key which is NULL.",
+  "dc:date": "2021-04-06T16:15:14Z"
+}
