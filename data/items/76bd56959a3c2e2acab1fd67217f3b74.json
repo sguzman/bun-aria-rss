@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-27815 (exif, fedora)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-27815",
+  "description": "NULL Pointer Deference in the exif command line tool, when printing out XML formatted EXIF data, in exif v0.6.22 and earlier allows attackers to cause a Denial of Service (DoS) by uploading a malicious JPEG file, causing the application to crash.",
+  "dc:date": "2021-04-14T14:15:13Z"
+}

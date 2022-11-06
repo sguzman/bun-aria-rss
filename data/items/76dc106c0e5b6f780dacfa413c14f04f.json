@@ -1,0 +1,13 @@
+{
+  "title": "On the consistency of ordinal regression methods",
+  "link": "http://fa.bianp.net/blog/2015/on-the-consistency-of-ordinal-regression-methods/",
+  "description": "<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n  equationNumbers: { autoNumber: \"AMS\" },\n  extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n\n<script type=\"text/javascript\" async\n  src=\"/js/mathjax@2.7.5/MathJax.js\">\n</script>\n\n<p>My latests work (with <a href=\"http://www.di.ens.fr/~fbach/\">Francis Bach</a> and <a href=\"http://alexandre.gramfort.net/\">Alexandre Gramfort</a>) is on the consistency of ordinal regression methods. It has the wildly imaginative …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 09 Oct 2015 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2015-10-09:/blog/2015/on-the-consistency-of-ordinal-regression-methods/",
+  "category": [
+    "learning theory",
+    "consistency",
+    "machine learning"
+  ]
+}

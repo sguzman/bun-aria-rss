@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2005-2224 (asp.net)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2005-2224",
+  "description": "aspnet_wp.exe in Microsoft ASP.NET web services allows remote attackers to cause a denial of service (CPU consumption from infinite loop) via a crafted SOAP message to an RPC/Encoded method.",
+  "dc:date": "2005-07-12T04:00:00Z"
+}
