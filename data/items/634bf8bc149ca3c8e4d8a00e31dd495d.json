@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:nDqSqrnjmHY",
+  "yt:videoId": "nDqSqrnjmHY",
+  "yt:channelId": "UC5miyvhPsWWyfTulnJ43koQ",
+  "title": "Game Crash from Touching a Heart with 10.7M Speed",
+  "link": "",
+  "author": {
+    "name": "UncommentatedPannen",
+    "uri": "https://www.youtube.com/channel/UC5miyvhPsWWyfTulnJ43koQ"
+  },
+  "published": "2022-09-22T16:45:33+00:00",
+  "updated": "2022-09-22T18:40:43+00:00",
+  "media:group": {
+    "media:title": "Game Crash from Touching a Heart with 10.7M Speed",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I crash the game by touching a heart with more than 10.7M speed.\n\nA while ago, Sidney (https://www.youtube.com/channel/UCla5Eru3DbPgxz6LwSBOyaw) figured out that touching a heart with too much speed would crash the game. That's is because of this line of code:\no.oAngleVelYaw = (s32)(200.0f * gMarioStates[0].forwardVel) + 1000;\nIf Mario's forward velocity is more than 10.7M, then it tries casting a super large float value to an integer, but this float value is greater than the biggest possible integer, and so the game crashes. Recently, endiment brought up this crash again, and so I decided to make it happen.\n\nIt would have been relatively simple to just build up PU speed, travel to PUs, and then return to the main map inside of the heart. That would crash the game, but the camera wouldn't be in the right place to see it, which I felt wouldn't have been satisfying. So I developed a more intricate route where I use a hands-free teleported bob-omb to move Mario around in the main map while he maintains PU speed. This way, the camera could comfortably watch Mario touch the heart.\n\nAnd so, the route I developed was this. First, I set up a hands-free teleported bob-omb. Then I build up PU speed, travel to PUs, and return to the main map near the bob-omb. The bob-omb snaps to Mario and allows him to move around. Then I go as near the heart as I can, given that I can't increase my height. From there, I travel to PUs again, and return higher up, but still near enough to the bob-omb for it to snap to Mario. Then I wait until the camera realigns itself, snap down to the heart's floor using a jump, and then touch the heart.\n\nNote that each jump that Mario does decreases his speed by 20%. And often I have to decrease his speed by even more to achieve the necessary speed for the next PU movement. So a big challenge of this TAS was figuring out a PU route that could conserve at least 10.7M speed to the heart, given that Mario's speed continuously decreases throughout the PU movement. Thus, I programmed a brute forcer to figure out the PU movement for me. After leaving it on overnight, it found a route that worked. If you're curious, you can see my code here: https://pastebin.com/A3UwqNkA\n\nConsole Verification: https://www.twitch.tv/videos/1598075940",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

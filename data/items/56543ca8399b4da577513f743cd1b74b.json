@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:grzFM5XciAY",
+  "yt:videoId": "grzFM5XciAY",
+  "yt:channelId": "UCzBjutX2PmitNF4avysL-vg",
+  "title": "Elliptic Curves and Modular Forms | The Proof of Fermat’s Last Theorem",
+  "link": "",
+  "author": {
+    "name": "Aleph 0",
+    "uri": "https://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg"
+  },
+  "published": "2020-07-26T14:47:44+00:00",
+  "updated": "2022-07-22T08:04:13+00:00",
+  "media:group": {
+    "media:title": "Elliptic Curves and Modular Forms | The Proof of Fermat’s Last Theorem",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Elliptic curves, modular forms, and the Taniyama-Shimura Conjecture: the three ingredients to Andrew Wiles’ proof of Fermat’s Last Theorem.\n\nThis is by far the hardest video I've ever had to make: both in terms of learning the content and explaining it. So there a few questions I don't have answers for. If you're up for it, feel free to answer these as a YouTube comment or on Twitter (@00aleph00)!\n\nQUESTIONS:\n\n1. The Taniyama-Shimura Conjecture seems really contrived. We made a weirdly specific sequence from elliptic curves. We made a weirdly specific sequence from modular forms. And behold, the sequences match! It seems manufactured to work. What’s profound about it?\n\n2. Why do we care about elliptic curves of all things? It’s described by, again, a weirdly specific equation: why is it the darling child of number theory?\n\n3. Does the Taniyama-Shimura conjecture also guarantee uniqueness? That is, does it say that for every elliptic curve there is a *unique* modular form with the same sequence as it?\n\n4. We defined how a matrix from the group SL2Z “acts” on a complex number. Does anyone have a geometric picture for this? Does a matrix act on a complex number just like how it would act on a vector in R^2 (i.e: by rotating it)? \n\n5. This is a more advanced question. Most elliptic curve books encode the sequence m_n of a modular form using something called a Dirichlet L-function, a generalization of the Reimann Zeta function. More precisely, instead of associating a modular form to a *sequence*, we associate it to a modified version of the Riemann Zeta Function, where the n_th coefficient of the series is the term m_n. (This is sometimes called the Hasse-Weil L-function of a modular form). This seems unnecessary. What is the benefit of doing this? \n\n6. Does anyone understand Andrew Wiles’ paper? LOL\n\nSOURCES I USED TO STUDY:\n\nKeith Conrad’s Lectures on Modular Forms (8 part video series): \nhttps://www.youtube.com/watch?v=LolxzYwN1TQ\n\nKeith Conrad’s Notes on Modular Forms: \nhttps://ctnt-summer.math.uconn.edu/wp-content/uploads/sites/1632/2016/02/CTNTmodularforms.pdf\n\n“Elliptic Curves, Modular Forms, and their L-Functions” by A. Lozano-Robledo. \n(The above book is very accessible! You only need basic calculus to understand it. You also need to know the definition of a group, but that’s pretty much it.)\n\n“The Arithmetic of Elliptic Curves” by Joseph Silverman\n\nHOMEWORK IDEA CREDIT goes to Looking Glass Universe! \n\nSAGE RESOURCES:\n\n“Sage for Undergraduates”: Gregory Bard’s Free Online Book on SAGE : http://www.gregorybard.com/Sage.html \nDownload SAGE: https://www.sagemath.org/download.html\n\nProof of the Hasse-Weil Bound on Terry Tao’s Blog: https://terrytao.wordpress.com/2014/05/02/the-bombieri-stepanov-proof-of-the-hasse-weil-bound/\n\nOTHER VIDEOS ON THESE TOPICS:\n\nNumberphile Playlist: https://www.youtube.com/playlist?list=PLt5AfwLFPxWLD3KG-XZQFTDFhnZ3GHMlW\n\nElliptic Curves and Modular Forms: https://www.youtube.com/watch?v=A8fsU97g3tg\n\nSOFTWARE USED TO MAKE THIS VIDEO:\n\nSAGE for the code and the graphs\nhttps://github.com/hernanat/dcolor for domain coloring\nAdobe Premiere Elements For Video Editing\n\nMUSIC:\nMusic Info: Documentary - AShamaluevMusic.\nMusic Link: https://www.ashamaluevmusic.com\n\nFollow me!\n\nTwitter: https://twitter.com/00aleph00\nInstagram: https://www.instagram.com/00aleph00\n\nIntro: (0:00)\nElliptic Curves: (0:58)\nModular Forms: (3:26) \nTaniyama Shimura Conjecture: (7:26)\nFermat's Last Theorem: (8:02) \nQuestions for you!: (8:51)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

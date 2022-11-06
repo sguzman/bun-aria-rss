@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42811 (ipados, iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42811",
+  "description": "An access issue was addressed with additional sandbox restrictions. This issue is fixed in tvOS 16.1, iOS 16.1 and iPadOS 16, macOS Ventura 13, watchOS 9.1. An app may be able to access user-sensitive data.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}

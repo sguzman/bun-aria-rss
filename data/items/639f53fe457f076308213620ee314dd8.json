@@ -1,0 +1,16 @@
+{
+  "title": "Notes on the Frank-Wolfe Algorithm, Part III: backtracking line-search",
+  "link": "http://fa.bianp.net/blog/2022/adaptive_fw/",
+  "description": "<p>\n    Backtracking step-size strategies (also known as adaptive step-size or approximate line-search) that set the step-size based on a sufficient decrease condition are the standard way to set the step-size on gradient descent and quasi-Newton methods. However, these techniques are much less common for <a href=\"/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/\">Frank-Wolfe-like</a> algorithms. In this blog post I …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 26 Aug 2022 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2022-08-26:/blog/2022/adaptive_fw/",
+  "category": [
+    "optimization",
+    "Frank-Wolfe",
+    "backtracking",
+    "line-search",
+    "step-size",
+    "adaptive"
+  ]
+}

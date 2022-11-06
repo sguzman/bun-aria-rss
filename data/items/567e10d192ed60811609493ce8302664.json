@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Oi9z5gfIHJs",
+  "yt:videoId": "Oi9z5gfIHJs",
+  "yt:channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+  "title": "Astro Crash Course",
+  "link": "",
+  "author": {
+    "name": "Traversy Media",
+    "uri": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+  },
+  "published": "2022-08-29T14:28:44+00:00",
+  "updated": "2022-09-09T17:35:46+00:00",
+  "media:group": {
+    "media:title": "Astro Crash Course",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Astro is an amazing static site generator that allows you to build really fast websites with little to no production JavaScript. You can use Astro components as we all have components from other frameworks such as React, Vue and Svelte.\n\nTIP: I forgot to mention there is a VS Code extension called \"Astro\". Use it for syntax highlighting.\n\n💻 Github Repo:\nhttps://github.com/bradtraversy/astro-crash-course\n\n⭐ All Courses\nhttps://traversymedia.com\n\n💖  Show Support\nPatreon: https://www.patreon.com/traversymedia\nPayPal: https://paypal.me/traversymedia\n\n👇 Follow Traversy Media On Social Media:\nTwitter: https://twitter.com/traversymedia\nInstagram: https://www.instagram.com/traversymedia\nLinkedin: https://www.linkedin.com/in/bradtraversy\n\nTimestamps:\n0:00 - Intro / What Is Astro?\n3:20 - Project Demo\n6:20 - Create A New Astro Project\n7:50 - Folder Structure\n10:19 - Run Dev Server & Prepare\n11:18 - Astro Components\n16:00 - Making a Request - Top Level Async\n17:13 - Create A Layout\n20:29 - Passing Props\n23:17 - Start Project / Global Styling\n26:53 - Header Component\n31:38 - React Integration\n37:10 - Showcase Component\n43:18 - Features & Card Components\n49:34 - Dynamic Classes - Dark Card\n51:40 - Page Content & Tabs Component\n1:03:28 - Footer Component\n1:05:19 - About Page\n1:08:37 - Refactor Card Component\n1:10:53 - Blog Page & Markdown Files\n1:18:44 - Fetching Markdown FIles\n1:20:57 - Blog Showcase Component\n1:22:50 - Single Post Page / getStaticPaths()\n1:29:35 - Build Static Assets\n1:30:40 - Deploy To Netlify",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

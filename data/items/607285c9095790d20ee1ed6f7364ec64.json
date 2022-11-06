@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3228 (h0-ecom100_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3228",
+  "description": "Using custom code, an attacker can write into name or description fields larger than the appropriate buffer size causing a stack-based buffer overflow on Host Engineering H0-ECOM100 Communications Module Firmware versions v5.0.155 and prior. This may allow an attacker to crash the affected device or cause it to become unresponsive.",
+  "dc:date": "2022-10-28T18:15:12Z"
+}

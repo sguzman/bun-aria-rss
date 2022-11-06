@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:2ethDz9KnLk",
+  "yt:videoId": "2ethDz9KnLk",
+  "yt:channelId": "UCZHmQk67mSJgfCCTn7xBfew",
+  "title": "The hidden dangers of loading open-source AI models (ARBITRARY CODE EXPLOIT!)",
+  "link": "",
+  "author": {
+    "name": "Yannic Kilcher",
+    "uri": "https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew"
+  },
+  "published": "2022-09-02T20:16:53+00:00",
+  "updated": "2022-09-08T04:04:48+00:00",
+  "media:group": {
+    "media:title": "The hidden dangers of loading open-source AI models (ARBITRARY CODE EXPLOIT!)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "#huggingface #pickle #exploit \n\nDid you know that something as simple as loading a model can execute arbitrary code on your machine?\n\nTry the model: https://huggingface.co/ykilcher/totally-harmless-model\nGet the code: https://github.com/yk/patch-torch-save\n\nSponsor: Weights & Biases\nGo here: https://wandb.me/yannic\n\nOUTLINE:\n0:00 - Introduction\n1:10 - Sponsor: Weights & Biases\n3:20 - How Hugging Face models are loaded\n5:30 - From PyTorch to pickle\n7:10 - Understanding how pickle saves data\n13:00 - Executing arbitrary code\n15:05 - The final code\n17:25 - How can you protect yourself?\n\n\nLinks:\nHomepage: https://ykilcher.com\nMerch: https://ykilcher.com/merch\nYouTube: https://www.youtube.com/c/yannickilcher\nTwitter: https://twitter.com/ykilcher\nDiscord: https://ykilcher.com/discord\nLinkedIn: https://www.linkedin.com/in/ykilcher\n\nIf you want to support me, the best thing to do is to share out the content :)\n\nIf you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):\nSubscribeStar: https://www.subscribestar.com/yannickilcher\nPatreon: https://www.patreon.com/yannickilcher\nBitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq\nEthereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2\nLitecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m\nMonero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

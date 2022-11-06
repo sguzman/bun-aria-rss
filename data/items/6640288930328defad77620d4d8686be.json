@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-38654",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38654",
+  "description": "HCL Domino is susceptible to an information disclosure vulnerability. In some scenarios, local calls made on the server to search the Domino directory will ignore xACL read restrictions. An authenticated attacker could leverage this vulnerability to access attributes from a user's person record.",
+  "dc:date": "2022-11-04T21:15:10Z"
+}

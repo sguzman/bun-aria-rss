@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-3211409948956809184.post-5329395908896265711",
+  "published": "2021-08-21T22:32:00.005-07:00",
+  "updated": "2021-08-21T23:31:18.541-07:00",
+  "title": "Israeli AI21 Launches the Biggest NLP Model So Far",
+  "content": "<p>&nbsp;<a href=\"https://www.ai21.com/\" target=\"_blank\">AI21</a> is a research lab is the Israeli equivalent OpenAI, founded by several machine learning luminaries including Prof. Amnon Shashua (MobileEye, Orcam, Digial Bank) who is a Prof at the Hebrew University. (Amnon was my lecturer for the ML course, which was an amazing course and he is an amazing person as well).&nbsp;</p><p>This week AI21 announced the release of the <a href=\"https://www.ai21.com/studio\">largest NLP model called Jurassic-1</a>. It is a comparable model to GPT-3. The is no objective evaluation of the two models, but AI21 mentions that the number of word tokens used to train the models is 250K (compared to around 50K of <a href=\"https://openai.com/blog/gpt-3-apps/\" target=\"_blank\">GPT-3</a>) which gives more flexibility in answering questions regarding common phrases, named entities etc. A great tutorial for GPT-3 is given in Yannic's Youtube Channel:</p><p><br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><iframe allowfullscreen=\"\" class=\"BLOG_video_class\" height=\"266\" src=\"https://www.youtube.com/embed/SY5PvZrJhLE\" width=\"320\" youtube-src-id=\"SY5PvZrJhLE\"></iframe></div><br /><p>Building such a large NLP model is challenging, since the model has around 170B parameters and you need weeks of training with hundreds of GPUs, a cost that typically only the biggest companies can afford. Another interesting company I recently met is LightOn which builds photon based hardware to training language models, <a href=\"https://lighton.ai/wp-content/uploads/2021/05/PR_LightOn_PAGnol_4mai2021-EN.pdf\" target=\"_blank\">they recently announced the largest French based model.</a></p><p>It will be interesting to see when AI21 and similar companies will move to training non-English corpuses which is the place such companies can shine.&nbsp;</p><p>An interesting conference coming up soon is the <a href=\"https://www.nlpsummit.org/nlp-2021\" target=\"_blank\">NLP Summit</a>&nbsp;(An online event Oct 5-7).</p><p><br /></p><p><br /></p>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Danny Bickson",
+    "uri": "http://www.blogger.com/profile/01517237836051035400",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

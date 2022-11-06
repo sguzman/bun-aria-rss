@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-6380637522936189490",
+  "published": "2011-09-08T22:45:00.000-07:00",
+  "updated": "2011-09-08T23:05:49.461-07:00",
+  "title": "notMNIST dataset",
+  "summary": "I've taken some publicly available fonts and extracted glyphs from them to make a dataset similar to MNIST. There are 10 classes, with letters A-J taken from different fonts.\n\nHere are some examples of letter \"A\"\n\n\nJudging by the examples, one would expect this to be a  harder task than MNIST. This seems to be the case -- logistic regression on top of stacked auto-encoder with fine-tuning gets",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 1044
+}

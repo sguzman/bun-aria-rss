@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:q0Y-qjXLslM",
+  "yt:videoId": "q0Y-qjXLslM",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Turning a Torus Inside-Out (Punctured Torus Eversion)",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2022-07-06T19:58:40+00:00",
+  "updated": "2022-07-06T19:59:38+00:00",
+  "media:group": {
+    "media:title": "Turning a Torus Inside-Out (Punctured Torus Eversion)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Cut a small hole in a donut.  Can you turn it inside-out?  The answer, as shown in this looping video, is \"yes!\"  Notice how the blue inside becomes the red outside, and back again.  Unlike the classic question of \"turning the sphere inside out,\" which considers non-physical motions where the sphere may pass through itself, here the (punctured) torus turns inside-out without any self-contact.  In other words, you could really perform this motion if you had a donut made out of a stretchy rubber sheet.  Mathematically speaking, this motion is an \"isotopy\": a continuous transition between states with no self-intersections (whereas the classic sphere eversion is a \"regular homotopy\": a continuous transition that can have self intersections, but no pinching or creasing).\n\nThe motion of the torus was computed using the algorithms developed in the paper\n\nChris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane\n\"Repulsive Curves\" (2021)\n\nFor more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html\n\nTo compute a sphere eversion, one typically starts with a \"mid-surface,\" i.e., a symmetric surface that exhibits no preferred orientation, applies a tiny perturbation (to break symmetry) and minimizes an energy that encourages smoothness to flow to the round sphere.  To get the full \"movie\", this motion is then reversed in time, the colors are flipped, and the two movies are concatenated together.  The punctured torus eversion was computed in the opposite way: starting with a torus, we make a small hole and then minimize an energy that encourages every point on the surface to repel every other point.  To keep the surface from simply growing to infinity, we also constrain the surface area and penalize large increases in boundary length and curvature.  This \"repulsive energy\" pushes the surface into the symmetric configuration seen at the halfway point between the red and blue torus.  As with the sphere eversion, two movies are then concatenated to get the full motion.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

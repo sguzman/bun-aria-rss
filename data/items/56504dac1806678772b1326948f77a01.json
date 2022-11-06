@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-19526 (leap, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-19526",
+  "description": "In the Linux kernel before 5.3.9, there is a use-after-free bug that can be caused by a malicious USB device in the drivers/nfc/pn533/usb.c driver, aka CID-6af3aa57a098.",
+  "dc:date": "2019-12-03T16:15:12Z"
+}

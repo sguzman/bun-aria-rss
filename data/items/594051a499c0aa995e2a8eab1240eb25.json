@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-34170 (jenkins)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34170",
+  "description": "In Jenkins 2.320 through 2.355 (both inclusive) and LTS 2.332.1 through LTS 2.332.3 (both inclusive) the help icon does not escape the feature name that is part of its tooltip, effectively undoing the fix for SECURITY-1955, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+  "dc:date": "2022-06-23T17:15:15Z"
+}

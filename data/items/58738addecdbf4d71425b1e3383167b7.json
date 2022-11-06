@@ -1,0 +1,7 @@
+{
+  "title": "Scikit-Image and Dask Performance",
+  "link": "",
+  "updated": "2017-07-18T00:00:00+00:00",
+  "id": "https://mrocklin.github.io/blog/work/2017/07/18/skimage-dask",
+  "content": "<p>This weekend at the SciPy 2017 sprints I worked alongside Scikit-image\ndevelopers to investigate parallelizing scikit-image with Dask.</p>\n\n<p>Here is <a href=\"https://nbviewer.jupyter.org/gist/mrocklin/ec745d6c2a12dddddb125ef460a4da76\">a notebook of our work</a>.</p>"
+}

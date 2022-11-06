@@ -1,0 +1,7 @@
+{
+  "title": "A neat little trick with time decay",
+  "link": "https://erikbern.com/2012/10/29/a-neat-little-trick-with-time-decay.html",
+  "pubDate": "Mon, 29 Oct 2012 00:00:00 +0000",
+  "guid": "https://erikbern.com/2012/10/29/a-neat-little-trick-with-time-decay.html",
+  "description": "Something that pops up pretty frequently is to implement time decay, especially where you have recursive chains of jobs. For instance, say you want to keep track of a popularity score. You calculate today's output by reading yesterday's output, discounting it by $$ exp(-lambda Delta T) $$ and then adding some hit count for today."
+}

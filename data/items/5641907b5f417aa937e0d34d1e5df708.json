@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Oq6EQZ0q4tE",
+  "yt:videoId": "Oq6EQZ0q4tE",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "How to install Gentoo packages",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-03-20T13:30:02+00:00",
+  "updated": "2022-09-03T04:35:38+00:00",
+  "media:group": {
+    "media:title": "How to install Gentoo packages",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this third video, I'll cover how to install Gentoo packges, how to remove them, and how to update your system. If you followed along with the first 2 videos, then at this point we just need to add some applications to complete our desktop environment.  Just like I installed the applications here, you can carry on to install Firefox and whatever else you may need.\n\nGentoo installation videos;\nPart 1 : https://youtu.be/q9_sXkA4Rv8\nPart 2 : https://youtu.be/wQxBsunITaA\n\nSupport my channel on Patreon! : https://www.patreon.com/doriandotslash/\n\nTimeStamps:\n00:00 Intro\n00:38 Where we left off\n01:09 Before starting off (sync)\n01:34 Check security patches (glsa-check)\n02:21 Installing packages\n03:35 Unmerging packages\n04:08 Checking for dependencies\n04:51 Upgrading and the world file\n08:27 Removing packages (depclean)\n10:05 Remove packages with deselect then depclean\n13:22 Clean up your system (old source code)\n14:56 The most important part\n\n#Linux #Gentoo",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

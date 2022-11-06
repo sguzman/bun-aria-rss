@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43568",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43568",
+  "description": "In Splunk Enterprise versions below 8.1.12, 8.2.9, and 9.0.2, a View allows for a Reflected Cross Site Scripting via JavaScript Object Notation (JSON) in a query parameter when output_mode=radio.",
+  "dc:date": "2022-11-04T23:15:10Z"
+}

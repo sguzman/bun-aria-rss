@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:tNzCj8691LE",
+  "yt:videoId": "tNzCj8691LE",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Lock-Free to Wait-Free Simulation in Rust (part 2)",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-06-13T23:50:52+00:00",
+  "updated": "2022-08-19T15:46:01+00:00",
+  "media:group": {
+    "media:title": "Lock-Free to Wait-Free Simulation in Rust (part 2)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this stream, we continue implementing the concurrency algorithm from the academic paper \"A Practical Wait-Free Simulation for Lock-Free Data Structures\" by Erez Petrank and and Shahar Timnat in Rust. The paper details a general way to turn lock-free concurrent data-structures into wait-free ones (we also talk about what that means), and you can find it at http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf.\n\n0:00:00 Introduction\n0:01:18 Rust for Rustaceans\n0:02:54 Code Recap\n0:12:03 Naming the CAS list type\n0:33:05 Versioned CASes\n2:05:38 ExecuteCASes\n2:09:46 Cat interlude\n2:10:52 Paper vs. Code\n2:20:03 Contention detection\n2:36:22 It compiles!\n2:36:40 PostCASes\n2:50:45 Intermission\n2:53:11 Paper vs. Code\n2:56:06 Tidying Up Nested Result\n2:59:46 The Wait-Free Queue\n3:04:35 Per-Thread Handles\n3:35:45 Porting the Queue\n3:54:40 Weird Head Semantics\n4:16:56 Pop and Push\n4:32:40 Implementing Helping\n5:15:37 State of Affairs and Next Steps\n\nYou can find the current code at https://github.com/jonhoo/bystander.\n\nLive version with chat: https://www.youtube.com/watch?v=OqnZpVufTtg.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

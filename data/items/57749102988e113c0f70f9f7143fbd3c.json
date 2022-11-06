@@ -1,0 +1,13 @@
+{
+  "title": "No, We Don't Have to Choose Batch Sizes As Powers Of 2",
+  "description": "Regarding neural network training, I think we are all guilty of doing this: we choose our batch sizes as powers of 2, that is, 64, 128, 256, 512, 1024, and so forth. There are some valid theoretical justifications for this, but how does it pan out in practice? We had some discussions about that in the last couple of days, and here I want to write down some of the take-aways so I can reference them in the future. I hope you'll find this helpful as well!",
+  "pubDate": "Tue, 05 Jul 2022 07:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2022/batch-size-2.html",
+  "guid": "https://sebastianraschka.com/blog/2022/batch-size-2.html",
+  "category": [
+    "Deep",
+    "Learning,",
+    "Machine",
+    "PyTorch"
+  ]
+}

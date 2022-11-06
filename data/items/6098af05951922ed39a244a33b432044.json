@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:P48J9xz7Ux0",
+  "yt:videoId": "P48J9xz7Ux0",
+  "yt:channelId": "UCxUZjZaLPsHPlp8AtkSBZiA",
+  "title": "Eduardo Dubuc: \"On localizations via homotopies\"",
+  "link": "",
+  "author": {
+    "name": "Topos Institute",
+    "uri": "https://www.youtube.com/channel/UCxUZjZaLPsHPlp8AtkSBZiA"
+  },
+  "published": "2022-09-16T06:05:37+00:00",
+  "updated": "2022-09-21T11:45:33+00:00",
+  "media:group": {
+    "media:title": "Eduardo Dubuc: \"On localizations via homotopies\"",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Topos Institute Colloquium, 15th of September 2022.\n———\n(joint work with J. Gilabert based on work by Descotte-Dubuc-Szyld).\n\nLet $\\mathcal{C}$ be a category and $\\Sigma$ be a class of morphisms. The localization of \n$\\mathcal{C}$ at $\\Sigma$ is a category $\\mathcal{C}[\\Sigma^{-1}]$ together with a functor $q: \\mathcal{C} \\longrightarrow \\mathcal{C}[\\Sigma^{-1}]$ such that $q(s)$ is an isomorphism for all $s \\in \\Sigma$, and which is initial among such functors. The  2-localization is a 2-category $\\mathcal{C}[\\Sigma^{\\sim 1}]$ together with a functor \n$q: \\mathcal{C} \\longrightarrow \\mathcal{C}[\\Sigma^{\\sim 1}]$ such that $q(s)$ is a equivalence for all $s \\in \\Sigma$, and which is initial among such functors. In this talk I will consider the construction of such localizations by means of cylinders and its corresponding homotopies, which will determine the 2-cells of $\\mathcal{C}[\\Sigma^{\\sim 1}]$. I will examine  the case where $\\Sigma = \\mathcal{W}$ is the class of weak equivalences of a Quillen's model category, and in particular the role of the fibrant and cofibrant replacements. I will elaborate about functorial versus non functorial factorizations in this construction. \nI will recall informally but with sufficient precision the necessary  definitions so that the non experts can grasp the ideas and follow the proofs.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

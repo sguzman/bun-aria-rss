@@ -1,0 +1,9 @@
+{
+  "title": "solve triangular matrices using scipy.linalg",
+  "link": "http://fa.bianp.net/blog/2010/solve-triangular-matrices-using-scipylinalg/",
+  "description": "<p>For some time now I've been missing a function in scipy that exploits\nthe triangular structure of a matrix to efficiently solve the associated\nsystem, so I decided to <a class=\"reference external\" href=\"http://projects.scipy.org/scipy/changeset/6844\">implement it</a> by binding the LAPACK method\n&quot;trtrs&quot;, which also checks for singularities and is capable handling\nseveral right-hand sides. Contrary …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 30 Oct 2010 01:13:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-10-30:/blog/2010/solve-triangular-matrices-using-scipylinalg/",
+  "category": "scipy, Tecnologí­a"
+}

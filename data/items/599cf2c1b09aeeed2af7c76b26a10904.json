@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:_NMQyOu2HTo",
+  "yt:videoId": "_NMQyOu2HTo",
+  "yt:channelId": "UCZHmQk67mSJgfCCTn7xBfew",
+  "title": "ROME: Locating and Editing Factual Associations in GPT (Paper Explained & Author Interview)",
+  "link": "",
+  "author": {
+    "name": "Yannic Kilcher",
+    "uri": "https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew"
+  },
+  "published": "2022-11-04T16:34:43+00:00",
+  "updated": "2022-11-04T16:34:43+00:00",
+  "media:group": {
+    "media:title": "ROME: Locating and Editing Factual Associations in GPT (Paper Explained & Author Interview)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "#ai #language #knowledge \n\nLarge Language Models have the ability to store vast amounts of facts about the world. But little is known, how these models actually do this. This paper aims at discovering the mechanism and location of storage and recall of factual associations in GPT models, and then proposes a mechanism for the targeted editing of such facts, in form of a simple rank-one update to a single MLP layer. This has wide implications both for how we understand such models' inner workings, and for our ability to gain greater control over such models in the future.\n\nOUTLINE:\n0:00 - Introduction\n1:40 - What are the main questions in this subfield?\n6:55 - How causal tracing reveals where facts are stored\n18:40 - Clever experiments show the importance of MLPs\n24:30 - How do MLPs store information?\n29:10 - How to edit language model knowledge with precision?\n36:45 - What does it mean to know something?\n39:00 - Experimental Evaluation & the CounterFact benchmark\n45:40 - How to obtain the required latent representations?\n51:15 - Where is the best location in the model to perform edits?\n58:00 - What do these models understand about language?\n1:02:00 - Questions for the community\n\nPaper: https://arxiv.org/abs/2202.05262\nFollow-up paper on Mass-Editing Memory in a Transformer: https://arxiv.org/abs/2210.07229\n\nAbstract:\nWe analyze the storage and recall of factual associations in autoregressive transformer language models, finding evidence that these associations correspond to localized, directly-editable computations. We first develop a causal intervention for identifying neuron activations that are decisive in a model's factual predictions. This reveals a distinct set of steps in middle-layer feed-forward modules that mediate factual predictions while processing subject tokens. To test our hypothesis that these computations correspond to factual association recall, we modify feed-forward weights to update specific factual associations using Rank-One Model Editing (ROME). We find that ROME is effective on a standard zero-shot relation extraction (zsRE) model-editing task, comparable to existing methods. To perform a more sensitive evaluation, we also evaluate ROME on a new dataset of counterfactual assertions, on which it simultaneously maintains both specificity and generalization, whereas other methods sacrifice one or another. Our results confirm an important role for mid-layer feed-forward modules in storing factual associations and suggest that direct manipulation of computational mechanisms may be a feasible approach for model editing. The code, dataset, visualizations, and an interactive demo notebook are available at this https URL\n\nAuthors: Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov\n\nLinks:\nHomepage: https://ykilcher.com\nMerch: https://ykilcher.com/merch\nYouTube: https://www.youtube.com/c/yannickilcher\nTwitter: https://twitter.com/ykilcher\nDiscord: https://ykilcher.com/discord\nLinkedIn: https://www.linkedin.com/in/ykilcher\n\nIf you want to support me, the best thing to do is to share out the content :)\n\nIf you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):\nSubscribeStar: https://www.subscribestar.com/yannickilcher\nPatreon: https://www.patreon.com/yannickilcher\nBitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq\nEthereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2\nLitecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m\nMonero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
