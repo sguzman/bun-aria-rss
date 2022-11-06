@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:HsBOzWNvDIY",
+  "yt:videoId": "HsBOzWNvDIY",
+  "yt:channelId": "UCvqbFHwN-nwalWPjPUKpvTA",
+  "title": "MLOps Pipelines to Deliver Tf.Lite Models to Distributed Compute Pools at the Edge - Maciej Mazur",
+  "link": "",
+  "author": {
+    "name": "CNCF [Cloud Native Computing Foundation]",
+    "uri": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA"
+  },
+  "published": "2022-11-03T17:44:50+00:00",
+  "updated": "2022-11-03T23:15:24+00:00",
+  "media:group": {
+    "media:title": "MLOps Pipelines to Deliver Tf.Lite Models to Distributed Compute Pools at the Edge - Maciej Mazur",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2023 in Amsterdam, The Netherlands from April 17-21. Learn more at https://kubecon.io​. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nMLOps Pipelines to Deliver Tf.Lite Models to Distributed Compute Pools at the Edge - Maciej Mazur, Canonical\n\nThis session will be a demo showcasing how to create an automated MLOps pipeline, that trains a model for different classes of infrastructure. You will see how with Kubeflow and TensorflowLite you can work on a model for a smart city, which will detect cars, do license plate recognition and tell if plates actually match the car. This model will be then, from the same pipeline, available for a mobile phone app, a small form factor device like RaspberryPi/NVidia Jetson as well as a standard Tensorflow model for the datacenter.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42809 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42809",
+  "description": "The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13. Processing a maliciously crafted gcx file may lead to unexpected app termination or arbitrary code execution.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}
