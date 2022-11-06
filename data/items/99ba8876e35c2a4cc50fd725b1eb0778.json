@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:woXdiyezCPA",
+  "yt:videoId": "woXdiyezCPA",
+  "yt:channelId": "UCtxCXg-UvSnTKPOzLH4wJaQ",
+  "title": "Probabilistic Python: An Introduction to Bayesian Modeling with PyM || Chris Fonnesbeck",
+  "link": "",
+  "author": {
+    "name": "Coding Tech",
+    "uri": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ"
+  },
+  "published": "2022-09-10T23:56:14+00:00",
+  "updated": "2022-09-11T09:12:12+00:00",
+  "media:group": {
+    "media:title": "Probabilistic Python: An Introduction to Bayesian Modeling with PyM || Chris Fonnesbeck",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Bayesian statistical methods offer a powerful set of tools to tackle a wide variety of data science problems. In addition, the Bayesian approach generates results that are easy to interpret and automatically account for uncertainty in quantities that we wish to estimate and predict. Historically, computational challenges have been a barrier, particularly to new users, but there now exists a mature set of probabilistic programming tools that are both capable and easy to learn. We will use the newest release of PyMC (version 4) in this tutorial, but the concepts and approaches that will be taught are portable to any probabilistic programming framework.\n\nThis tutorial is intended for practicing and aspiring data scientists and analysts looking to learn how to apply Bayesian statistics and probabilistic programming to their work. It will provide learners with a high-level understanding of Bayesian statistical methods and their potential for use in a variety of applications. They will also gain hands-on experience with applying these methods using PyMC, specifically including the specification, fitting and checking of models applied to a couple of real-world datasets.\n\nPUBLICATION PERMISSIONS:\nPyData provided Coding Tech with the permission to republish PyData talks.\n\nCREDITS:\nPyData YouTube channel: https://www.youtube.com/c/PyDataTV/videos",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
