@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-710723072524852659",
+  "published": "2017-11-26T18:18:00.000-08:00",
+  "updated": "2017-11-26T18:18:18.819-08:00",
+  "title": "Solving IMO 1989 #6 using Probability and Expectation",
+  "content": "<b>IMO 1989 #6:</b> A permutation \\(\\{x_1, x_2, \\ldots , x_m\\}\\) of the set \\(\\{1, 2, \\ldots , 2n\\}\\), where \\(n\\) is a positive integer, is said to have property \\(P\\) if \\( | x_i - x_{i+1} | = n\\) for at least one \\(i\\) in \\(\\{1, 2, ... , 2n-1\\}\\). Show that for each \\(n\\) there are more permutations with property \\(P\\) than without.<br /><br /><b>Solution:</b> We first observe that the expected number of pairs \\(\\{i, i+1\\}\\) for which \\( | x_i - x_{i+1} | = n\\) is \\(E = 1\\). To see this note if \\(j\\), \\( 1 \\leq j \\leq n\\), appears in position \\(1\\) or \\(2n\\) it's adjacent to one number, otherwise two. Thus the probability it's adjacent to its partner \\(j+n\\) in a random permutation is \\[\\begin{equation}<br />\\eqalign{<br />e_j &amp;= \\frac{2}{2n}\\cdot \\frac{1}{2n-1} + \\frac{2n-2}{2n}\\cdot \\frac{2}{2n-1} \\\\<br />&amp;= \\frac{2(2n-1)}{2n(2n-1)} \\\\<br />&amp;= \\frac{1}{n}.<br />}<br />\\end{equation}\\] By linearity of expectation we overall have the expected number of \\(j\\) adjacent to its partner \\(j+n\\) is \\(\\sum_{j=1}^{n} e_j = n\\cdot\\frac{1}{n} = 1\\).<br /><br />More is true. By the same argument, if we remove any partner pair \\(\\{j,j+n\\}\\), the expected number of partner pairs in a random permutation of the remaining integers is still 1. This is the critical observation.<br /><br />Conditional on the partner pair \\(\\{j,j+n\\}\\) appearing in a random permutation, what is the expected number of partner pairs \\(e\\)? Observe that if \\(n&gt;1\\) it must be less than 2, since as before the expected number of partner pairs ignoring \\(\\{j,j+n\\}\\) is 1, and the probability the \\(\\{j,j+n\\}\\) pair where they appear has separated another partner pair is greater than 0.<br /><br />Putting this together, if \\(n=1\\) the property \\(P\\) obviously holds. For \\(n&gt;1\\), note the expected number of partner pairs \\(E = p\\cdot e\\), where \\(p\\) is the probability that a random permutation has property \\(P\\) and \\(e\\) is as before. But we already know \\(E=1\\), and by the previous argument if \\(n&gt;1\\) we have \\(e&lt;2\\), hence \\( 1 = p\\cdot e &lt; 2p \\) and we conclude \\( p &gt; \\frac{1}{2}\\).",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-36452 (micollab)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36452",
+  "description": "A vulnerability in the web conferencing component of Mitel MiCollab through 9.5.0.101 could allow an unauthenticated attacker to upload malicious files. A successful exploit could allow an attacker to execute arbitrary code within the context of the application.",
+  "dc:date": "2022-10-25T19:15:10Z"
+}

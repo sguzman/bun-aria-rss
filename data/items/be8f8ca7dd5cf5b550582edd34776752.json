@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-933839510170584773",
+  "published": "2018-04-07T22:18:00.000-07:00",
+  "updated": "2018-04-08T11:43:28.169-07:00",
+  "title": "Combining Expert Opinions: NaiveBoost",
+  "content": "In many situations we're faced with multiple expert opinions. How should we combine them together into one opinion, hopefully better than any single opinion? I'll demonstrate the derivation of a classifier I'll call NaiveBoost.<br /><br />We'll start with a simple situation, and later gradually introduce more complexity. Let each expert state a yes or no opinion in response to a yes/no question (binary classifiers), each expert be independent of the other experts and assume expert \\(i\\) is correct with probability \\(p_i\\). We'll also assume that the prior distribution on whether the correct answer is yes or no to be uniform, i.e. each occurs with probability 0.5.<br /><br />Label a \"yes\" as +1, and \"no\" as -1. We ask our question, which has some unknown +1/-1 answer \\(L\\), and get back a set of responses (labels) \\(S = \\{L_i \\}\\), where \\(L_i\\) is the response from expert \\(i\\). Observe we have \\[ \\Pr(S | L=+1) = \\prod_{i} {p_i}^{\\frac{L_i+1}{2}} \\cdot {(1-p_i)}^\\frac{-L_i+1}{2}\\] and also \\[ \\Pr(S | L=-1) = \\prod_{i} {(1-p_i)}^{\\frac{L_i+1}{2}} \\cdot {p_i}^\\frac{-L_i+1}{2}. \\] As \\( \\Pr(L=+1 | S) = \\frac{\\Pr(S | L=+1)\\cdot \\Pr(L=+1)}{\\Pr(S)}\\) and&nbsp;\\( \\Pr(L=-1 | S) = \\frac{\\Pr(S | L=-1)\\cdot \\Pr(L=-1)}{\\Pr(S)}\\), and given our assumption that \\( \\Pr(L=+1) =&nbsp;\\Pr(L=-1) \\), we need only compute \\(&nbsp;\\Pr(S | L=+1) \\),&nbsp;\\( \\Pr(S | L=-1) \\) and normalize.<br /><br />We'll now take logs and derive a form similar to <a href=\"https://en.wikipedia.org/wiki/AdaBoost\" target=\"_blank\">AdaBoost</a>. Note for \\( L_{+1} = \\log\\left( \\Pr(S | L=+1) \\right) \\) this gives us \\[ L_{+1} = \\sum_i \\frac{L_i+1}{2}\\log{(p_i)} +&nbsp;\\frac{-L_i+1}{2}\\log{(1-p_i)}.\\] Rearranging, we get \\[ L_{+1} = \\sum_i \\frac{L_i}{2}\\log{\\left( \\frac{p_i}{1-p_i}\\right)} +&nbsp;\\frac{1}{2}\\log{\\left( p_i(1-p_i)\\right)}.\\] Similarly, for&nbsp;\\( L_{-1} = \\log\\left( \\Pr(S | L=-1) \\right) \\) we get&nbsp;\\[ L_{-1} = \\sum_i -\\frac{L_i}{2}\\log{\\left( \\frac{p_i}{1-p_i}\\right)} + \\frac{1}{2}\\log{\\left( p_i(1-p_i)\\right)}.\\] Note that each of these includes the same terms \\( \\sum_i&nbsp;\\frac{1}{2}\\log{\\left( p_i(1-p_i)\\right)}\\). Upon exponentiation these would multiply \\( \\Pr(S | L=+1) \\) and \\( \\Pr(S | L=-1) \\) by the same factor, so we can ignore them as to recover the probabilities we'll need to normalize anyway. Thus we end up with a linear classifier with the AdaBoost form \\[ C(S) = \\sum_i \\frac{L_i}{2}\\log{\\left( \\frac{p_i}{1-p_i}\\right)}. \\] If \\( C(S) \\) is positive, the classifier's label is +1; if \\( C(S) \\) is negative, the classifier's label is -1. Furthermore, we may recover the classifier's probabilities by&nbsp;exponentiating and normalizing.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

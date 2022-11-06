@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41681 (formalms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41681",
+  "description": "There is a vulnerability on Forma LMS version 3.1.0 and earlier that could allow an authenticated attacker (with the role of student) to privilege escalate in order to upload a Zip file through the SCORM importer feature. The exploitation of this vulnerability could lead to a remote code injection.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

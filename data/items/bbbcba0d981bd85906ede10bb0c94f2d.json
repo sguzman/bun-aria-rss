@@ -1,0 +1,7 @@
+{
+  "title": "hdfs2cass",
+  "link": "https://erikbern.com/2013/06/19/hdfs2cass.html",
+  "pubDate": "Wed, 19 Jun 2013 00:00:00 +0000",
+  "guid": "https://erikbern.com/2013/06/19/hdfs2cass.html",
+  "description": "Just open sourced hdfs2cass which is a Hadoop job (written in Java) to do efficient Cassandra bulkloading. The nice thing is that it queries Cassandra for its topology and uses that to partition the data so that each reducer can upload data directly to a Cassandra node."
+}

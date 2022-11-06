@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:y6mRqhR49aI",
+  "yt:videoId": "y6mRqhR49aI",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "I've built a 3D holographic terminal w/ Looking Glass Portrait, Three.js, and Hyper",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2022-02-08T14:10:26+00:00",
+  "updated": "2022-08-19T15:45:34+00:00",
+  "media:group": {
+    "media:title": "I've built a 3D holographic terminal w/ Looking Glass Portrait, Three.js, and Hyper",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nI've built a 3D holographic terminal using Looking Glass Portrait and Hyper.\nI hope you enjoy it!\n\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=y6mRqhR49aI\n▶ Source code\nhttps://github.com/craftzdog/hyper-holoplay\n▶ Looking Glass Portrait\nhttps://lookingglassfactory.com/product/portrait\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n▶ My equipment\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n & Blue Microphones Yeti\n* Slider: SliderONE v2\n* Keyboard: Keychron K2V2 - https://www.youtube.com/watch?v=-UW_c8VT2ZE\n* Browser: Min - https://minbrowser.org/\n* Keystroke visualizer: KeyCastr - https://github.com/keycastr/keycastr\n* Cursor effect: Cursor Pro - https://apple.co/3rlWOBA?at=11l7AK\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n00:00 Intro\n00:41 Looking Glass Portrait\n00:53 Install Hyper\n01:36 Looking Glass is connected just as a sub-display\n01:59 Learn Holoplay.js\n02:48 Configure Hyper\n04:07 Prepare a plugin\n06:53 Define a terminal decorator\n09:04 Install holoplay.js\n11:32 Implement a simple scene\n17:11 Render term canvases in the scene\n23:02 Make the terminal 3D\n28:46 Run cmatrix\n29:37 Run Nyancat\n31:34 Enjoy!\n\n#LookingGlass #ThreeJS",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

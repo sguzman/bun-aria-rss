@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:9zIC1TrQM9k",
+  "yt:videoId": "9zIC1TrQM9k",
+  "yt:channelId": "UC0YbmGeNSGPd-StauM1qajg",
+  "title": "How to Use Synchronization Validation Across Multiple Queues and Command Buffers",
+  "link": "",
+  "author": {
+    "name": "The Khronos Group",
+    "uri": "https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg"
+  },
+  "published": "2022-10-14T18:22:51+00:00",
+  "updated": "2022-10-15T15:19:03+00:00",
+  "media:group": {
+    "media:title": "How to Use Synchronization Validation Across Multiple Queues and Command Buffers",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Presentation: https://khr.io/zd\n\nIn this webinar we help developers understand and not be intimidated or confused by the latest Vulkan Synchronization enhancements, including support for multiple queues and command buffers. We introduce the Vulkan Synchronization API calls, and provide instructions and recommendations for using the validation tools, including how to understand the validation errors you are receiving and how to fix errors in your application.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32208 (bootstrap_os, clustered_data_ontap, curl, debian_linux, element_software, fedora, h300s_firmware, h410s_firmware, h500s_firmware, h700s_firmware, hci_management_node, macos, solidfire)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32208",
+  "description": "When curl &lt; 7.84.0 does FTP transfers secured by krb5, it handles message verification failures wrongly. This flaw makes it possible for a Man-In-The-Middle attack to go unnoticed and even allows it to inject data to the client.",
+  "dc:date": "2022-07-07T13:15:08Z"
+}

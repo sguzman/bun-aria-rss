@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43566",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43566",
+  "description": "In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated user can run risky commands using a more privileged user&acirc;&euro;&trade;s permissions to bypass SPL safeguards for risky commands https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/SPLsafeguards in the Analytics Workspace. The vulnerability requires the attacker to phish the victim by tricking them into initiating a request within their browser. The attacker cannot exploit the vulnerability at will.",
+  "dc:date": "2022-11-04T23:15:10Z"
+}

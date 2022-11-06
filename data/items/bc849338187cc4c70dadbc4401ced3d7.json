@@ -1,0 +1,6 @@
+{
+  "title": "The Small Solution Hypothesis for MAPF on Strongly Connected Directed Graphs Is True. (arXiv:2210.04590v3 [cs.AI] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.04590",
+  "description": "<p>The determination of the computational complexity of multi-agent pathfinding\non directed graphs (diMAPF) has been an open research problem for many years.\nWhile diMAPF has been shown to be polynomial for some special cases, only\nrecently, it has been established that the problem is NP-hard in general.\nFurther, it has been proved that diMAPF will be in NP if the short solution\nhypothesis for strongly connected directed graphs is correct. In this paper, it\nis shown that this hypothesis is indeed true, even when one allows for\nsynchronous rotations.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Nebel_B/0/1/0/all/0/1\">Bernhard Nebel</a>"
+}

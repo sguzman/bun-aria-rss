@@ -1,0 +1,9 @@
+{
+  "title": "Refine module",
+  "link": "http://fa.bianp.net/blog/2009/refine-module/",
+  "description": "<p><a class=\"reference external\" href=\"http://git.sympy.org/?p=sympy.git;a=commit;h=dd679c2751ac0900c47302fd6187ae9eea60918f\">This</a> commit introduced a new module in sympy: the refine module. The\npurpose of this module is to simplify expressions when they are bound to\nassumptions. For example, if you know that x&gt;0, then you can simplify\nabs(x) to x. This code was traditionally embedded into the core …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 17 Aug 2009 19:20:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-08-17:/blog/2009/refine-module/",
+  "category": "sympy, Tecnologí­a"
+}

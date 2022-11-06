@@ -1,0 +1,6 @@
+{
+  "title": "Matching Augmentation via Simultaneous Contractions. (arXiv:2211.01912v1 [cs.DS])",
+  "link": "http://arxiv.org/abs/2211.01912",
+  "description": "<p>We consider the matching augmentation problem (MAP), where a matching of a\ngraph needs to be extended into a $2$-edge-connected spanning subgraph by\nadding the minimum number of edges to it. We present a polynomial-time\nalgorithm with an approximation ratio of $13/8 = 1.625$ improving upon an\nearlier $5/3$-approximation. The improvement builds on a new\n$\\alpha$-approximation preserving reduction for any $\\alpha\\geq 3/2$ from\narbitrary MAP instances to well-structured instances that do not contain\ncertain forbidden structures like parallel edges, small separators, and\ncontractible subgraphs. We further introduce, as key ingredients, the technique\nof repeated simultaneous contractions and provide improved lower bounds for\ninstances that cannot be contracted.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Garg_M/0/1/0/all/0/1\">Mohit Garg</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hommelsheim_F/0/1/0/all/0/1\">Felix Hommelsheim</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Megow_N/0/1/0/all/0/1\">Nicole Megow</a>"
+}

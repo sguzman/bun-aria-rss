@@ -1,0 +1,27 @@
+{
+  "id": "tag:blogger.com,1999:blog-5245696872621940063.post-4101439489005036822",
+  "published": "2022-10-17T09:12:00.003-07:00",
+  "updated": "2022-10-17T09:50:55.185-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Workspace Admins are now notified when Label editing is restricted by set rules",
+  "content": "<h3 style=\"text-align: left;\">What’s changing</h3><div>In addition to a recent feature <a href=\"https://workspaceupdates.googleblog.com/2022/07/drive-labels-api.html\">allowing admins to programmatically manage and apply Drive Labels using new API functionality</a>, we’ve added a new Label Manager UI feature showing which rules a label is used within.&nbsp;</div><div><br /></div><div>When labels are published, their semantic meaning can be leveraged for the enforcement of rules, such as a DLP policy based on the presence of a label. Labels are locked to prevent the possibility of breaking a related rule, and to make it easier to use labels to enforce rules, we've added warnings and feedback to the Labels Manager UI.&nbsp;</div><div><br /></div><div>Specifically, a message identifying and linking the label to the exact rule(s) will now appear in the <a href=\"https://support.google.com/a/answer/9292382#zippy=%2Cmanage-labels-for-your-organization\">Label Manager</a> to ensure admins understand why label modification is disabled.&nbsp;</div><div><br /></div><div>Label locking prevents admins from inadvertently renaming, deleting, or disabling a Label, which could result in policy breakage.&nbsp;</div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKQqf8LrFWAckdkApRn7qEo-D0BKbvmxcjyM8LuUbqpPxFvlPMTkxbTKfsUCg7akzllA2ABrSqf7X_nMf7fla4I4Nfd65kwZn7ryGQGLDOEcgbbfB09_qfI4ZOG4YJdXoMFI6L93LcvM7QefBLTOnrI7KZ31gYQsc8erfuPhY6soXkcOxdOdleCaY3/s1440/%5BGif%5D%20Labels%20locking.gif\" style=\"margin-left: 1em; margin-right: 1em;\"><img alt=\"label locking\" border=\"0\" data-original-height=\"664\" data-original-width=\"1440\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKQqf8LrFWAckdkApRn7qEo-D0BKbvmxcjyM8LuUbqpPxFvlPMTkxbTKfsUCg7akzllA2ABrSqf7X_nMf7fla4I4Nfd65kwZn7ryGQGLDOEcgbbfB09_qfI4ZOG4YJdXoMFI6L93LcvM7QefBLTOnrI7KZ31gYQsc8erfuPhY6soXkcOxdOdleCaY3/s16000/%5BGif%5D%20Labels%20locking.gif\" /></a></div><h3 style=\"text-align: left;\">Getting started&nbsp;</h3><div><ul style=\"text-align: left;\"><li><b>Admins:</b> Drive Labels must be turned ON for your organization to use this feature. Visit the Help Center to learn more about <a href=\"https://support.google.com/a/answer/9292382\">managing Drive Labels</a>. Once labels are enabled for your organization, Developers can head over to the API Documentation to get started.&nbsp;</li><li><b>End users:</b> There is no end user setting for this feature.&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Rollout pace&nbsp;</h3><div><ul style=\"text-align: left;\"><li><a href=\"https://support.google.com/a/answer/172177\">Rapid Release and Scheduled Release domains</a>: Gradual rollout (up to 15 days for feature visibility) starting on October 17, 2022&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Availability&nbsp;</h3><div><ul style=\"text-align: left;\"><li>Available to Google Workspace Essentials, Business Standard, Business Plus, Enterprise Essentials, Enterprise Standard, Enterprise Plus, Education Plus, Education Standard customers&nbsp;</li><li>Not available to Business Starter, Education Fundamentals, the Teaching and Learning Upgrade, Nonprofits, and Frontline, as well as legacy G Suite Basic and Business customers&nbsp;</li><li>Not available to users with personal Google Accounts&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Resources&nbsp;</h3><div><ul style=\"text-align: left;\"><li><a href=\"https://support.google.com/a/answer/9292382\">Google Workspace Admin Help: Manage Drive Labels&nbsp;</a></li></ul></div>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Unknown",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

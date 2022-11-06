@@ -1,0 +1,17 @@
+{
+  "title": "Matplotlib Animation Tutorial",
+  "link": "",
+  "published": "2012-08-18T08:01:00-07:00",
+  "updated": "2012-08-18T08:01:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-08-18:blog/2012/08/18/matplotlib-animation-tutorial/",
+  "summary": "<p><a href=\"http://matplotlib.sourceforge.net\">Matplotlib</a> version 1.1 added some tools\nfor creating\n<a href=\"http://matplotlib.sourceforge.net/api/animation_api.html\">animations</a>\nwhich are really slick.  You can find some good example animations on\nthe matplotlib\n<a href=\"http://matplotlib.sourceforge.net/examples/animation/index.html\">examples</a>\npage.  I thought I'd share here some of the things I've learned when playing\naround with these tools.</p>\n<h3>Basic Animation</h3>\n<p>The animation tools center around the <code>matplotlib.animation.Animation</code> base\nclass, which provides a framework around which the animation functionality\nis built.  The main interfaces are <code>TimedAnimation</code> and <code>FuncAnimation</code>,\nwhich you can read more about in the\n<a href=\"http://matplotlib.sourceforge.net/api/animation_api.html\">documentation</a>.\nHere I'll explore using the <code>FuncAnimation</code> tool, which I have found\nto be the most useful.</p>",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ]
+}

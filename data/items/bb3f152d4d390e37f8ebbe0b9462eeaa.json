@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:dHkzSZnYXmk",
+  "yt:videoId": "dHkzSZnYXmk",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Crust of Rust: Functions, Closures, and Their Traits",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-10-08T19:19:27+00:00",
+  "updated": "2022-02-20T19:02:15+00:00",
+  "media:group": {
+    "media:title": "Crust of Rust: Functions, Closures, and Their Traits",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this episode, we go over the differences between function items, function pointers, and closures, as well as how they interact with the Fn* traits. We also touch upon dynamically dispatched Fns and experimental const Fn bounds.\n\nI've spliced out some audio issues that occurred on the live-stream, but hopefully it won't be too noticeable :p\n\n0:00:00 Introduction\n0:01:20 Rust for Rustaceans\n0:02:48 Function items\n0:06:26 Function pointers\n0:11:24 Function traits\n0:20:40 Closures\n0:33:49 Non-static closures\n0:38:50 dyn Fn\n0:49:44 const Fn\n1:00:28 for bounds\n1:04:06 closures in async fn\n\nLive version with chat: https://youtu.be/QVK4Ooo_PqM",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39027 (u-office_force)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39027",
+  "description": "U-Office Force Forum function has insufficient filtering for special characters. A remote attacker with general user privilege can inject JavaScript and perform XSS (Stored Cross-Site Scripting) attack.",
+  "dc:date": "2022-10-31T07:15:10Z"
+}

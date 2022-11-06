@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Bw8-vvtA-E8",
+  "yt:videoId": "Bw8-vvtA-E8",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Lock-Free to Wait-Free Simulation in Rust",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-05-22T23:48:06+00:00",
+  "updated": "2022-06-17T10:50:08+00:00",
+  "media:group": {
+    "media:title": "Lock-Free to Wait-Free Simulation in Rust",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this stream, we start implementing the concurrency algorithm from the academic paper \"A Practical Wait-Free Simulation for Lock-Free Data Structures\" by Erez Petrank and and Shahar Timnat in Rust. The paper details a general way to turn lock-free concurrent data-structures into wait-free ones (we also talk about what that means), and you can find it at http://cs.technion.ac.il/~erez/Papers/wf-simulation-full.pdf. The first half or so of the stream is us going through what problem the paper is solving, and the proposed algorithm, and the second half is us working towards encoding it in Rust. We didn't get all the way there in this video, so there are more videos to come!\n\n0:00:00 Introduction\n0:04:44 Questions about what we'll cover\n0:09:04 Lock-based concurrency\n0:14:50 Non-blocking concurrency\n0:17:30 Wait-freedom\n0:19:10 Q&A on concurrency guarantees\n0:26:51 What does simulation mean?\n0:30:04 What does practical mean?\n0:40:19 The fast-path-slow-path method\n0:46:02 Going from lock-free to wait-free\n0:51:28 Cat time\n0:52:09 Q&A on going wait-free\n0:54:23 The basic algorithm\n1:00:40 Cat time\n1:01:29 Q&A on algorithm\n1:05:42 The basic algorithm cont'd\n1:10:12 Visualizing linked list helping\n1:26:15 Challenges\n1:32:52 System assumptions\n1:34:52 Wait-free algorithm examples\n1:37:41 Q&A on algorithm\n1:42:00 Intermission\n1:44:10 Resuming\n1:45:20 Blindly writing the normalized representation\n2:28:55 Comparing against the paper\n2:59:57 The ABA problem\n3:09:23 Q&A on code and ABA\n3:17:20 Understanding the normalized representation\n3:21:06 Intermission\n3:22:40 Fat points for ABA?\n3:24:50 Implementing the simulator\n3:39:10 Operation records and the help queue\n4:07:14 The help state machine: preCAS\n4:22:10 The help state machine: executeCAS\n4:24:12 The help state machine: postCAS\n4:26:23 The help state machine: retrying\n4:30:40 Returning the operation output\n4:31:12 Tidying up warnings\n4:33:15 Monitoring pre/post runs\n4:43:30 What's missing in execute?\n4:44:49 Q&A for today\n\nLive version with chat: https://youtu.be/Hzm_OZ44qOA.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

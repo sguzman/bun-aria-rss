@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:N_p3yvs7DHY",
+  "yt:videoId": "N_p3yvs7DHY",
+  "yt:channelId": "UC0YbmGeNSGPd-StauM1qajg",
+  "title": "Advanced PBR Material Parameters in glTF Webinar - September 2022",
+  "link": "",
+  "author": {
+    "name": "The Khronos Group",
+    "uri": "https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg"
+  },
+  "published": "2022-09-20T22:37:14+00:00",
+  "updated": "2022-10-04T14:16:54+00:00",
+  "media:group": {
+    "media:title": "Advanced PBR Material Parameters in glTF Webinar - September 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Presentation - https://khr.io/z9\n\nMaterials in glTF 2.0 use Physically Based Rendering (PBR) as a means of describing physical material properties to rendering engines. Recent extensions have added parameters such as Index of Refraction, Volumetric Absorption, and Iridescence, extending the range of physical materials that can be expressed. These PBR extensions bridge the gap between path tracing and real-time rasterization, enabling model compatibility across a range of engines from mobile to high-end rendering. In this webinar we take an in-depth look at the new PBR extensions, offer some insight into the design process, and compare path-traced outputs to real-time approximations.\n\nAgenda\n\n00:00:22 - Overview of the glTF PBR Material Model\n00:26:50 - Real-time implementation of transmission\n00:43:58 - Questions & Answers\n\nSpeakers: Ed Mackey (AGI), Alex Wood (AGI)\nPanelists: Tobias Häußler (Dassault Systèmes), Bastian Sdorra (Dassault Systèmes), Nicolas Savva (Autodesk), Emmett Lalish (Google), Adam Morris (Target), Eric Chadwick (Wayfair)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

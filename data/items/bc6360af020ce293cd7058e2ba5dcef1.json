@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-38372 (fortitester)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38372",
+  "description": "A hidden functionality vulnerability [CWE-1242] in FortiTester CLI 2.3.0 through 3.9.1, 4.0.0 through 4.2.0, 7.0.0 through 7.1.0 may allow a local, privileged user to obtain a root shell on the device via an undocumented command.",
+  "dc:date": "2022-11-02T12:15:53Z"
+}
