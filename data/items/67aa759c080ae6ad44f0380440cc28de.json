@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32910 (mac_os_x, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32910",
+  "description": "A logic issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6.8, macOS Monterey 12.5, Security Update 2022-005 Catalina. An archive may be able to bypass Gatekeeper.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}
