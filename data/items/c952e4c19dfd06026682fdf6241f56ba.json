@@ -1,0 +1,8 @@
+{
+  "title": "Stopping Active Attacks with Penalty Box",
+  "description": "Unfortunately, today's sophisticated web application threats have gained some advantages over typical WAFs: Favorable odds -- WAFs must correctly identify attacks 100% of the time, whereas attackers have the luxury of only needing to find a single bypass or evasion Temporary fixes -- Many WAFs use a \"whack-a-mole\" response tactic by only denying the individual attack request, allowing the attacker to make repeated attempts Persistence -- If left unimpeded, attackers may eventually find some type of payload obfuscation that minimizes detection effectiveness\nThe confluence of these advantages should concern WAF customers. Let's take a closer look at the typical web attacker methodology to see why.",
+  "link": "https://www.akamai.com/blog/security/penalty-box",
+  "author": "Ryan Barnett",
+  "guid": "https://www.akamai.com/blog/security/penalty-box",
+  "pubDate": "Tue, 15 Dec 2020 19:26 PM UTC"
+}

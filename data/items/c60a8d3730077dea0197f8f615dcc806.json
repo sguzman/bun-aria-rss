@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:-SekDe9MvHo",
+  "yt:videoId": "-SekDe9MvHo",
+  "yt:channelId": "UCsdA-aNqtMA1_2T15aXePWw",
+  "title": "FPGAs communicating over Bluetooth Demo. Send/receive ASCII data, make a transparent UART",
+  "link": "",
+  "author": {
+    "name": "nandland",
+    "uri": "https://www.youtube.com/channel/UCsdA-aNqtMA1_2T15aXePWw"
+  },
+  "published": "2020-10-14T16:31:46+00:00",
+  "updated": "2022-05-20T08:00:21+00:00",
+  "media:group": {
+    "media:title": "FPGAs communicating over Bluetooth Demo. Send/receive ASCII data, make a transparent UART",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Shows a demonstration of two Nandland Go Boards communicating to each other without wires over a Bluetooth Low Energy (BLE) interface. This is a simple project that creates a \"Transparent UART\" between two devices, so that data that is received on one UART is forwarded to the remotely connected device.\n\nSource code: https://github.com/nandland/bluetooth-rn4871-demo\n\nSupport me on Patreon: https://patreon.com/nandland\n\nGet a Go Board for yourself: https://nandland.com/goboard/introduction.html\n\nThe Digilent PMOD Board: https://store.digilentinc.com/pmod-ble-bluetooth-low-energy-interface/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:wQxBsunITaA",
+  "yt:videoId": "wQxBsunITaA",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "Install Gentoo Linux (Part 2) to the desktop",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-03-13T14:00:30+00:00",
+  "updated": "2022-06-26T22:58:51+00:00",
+  "media:group": {
+    "media:title": "Install Gentoo Linux (Part 2) to the desktop",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this part 2 installation guide I'll continue with installing Gentoo starting with the Kernel, the bootloader, and the rest of the base system. After this, I install Xorg and the KDE Plasma desktop.  There's still more to cover to install additional software and perform updates etc, so subscribe for more!\n\nPart 1 is here : https://youtu.be/q9_sXkA4Rv8\n\nSupport my channel on Patreon : https://www.patreon.com/doriandotslash\n\nTimestamps\n00:00 Intro\n00:24 Kernel\n07:16 Configuring the system\n14:54 Installing tools\n17:56 Bootloader\n22:30 Reboot into new installation\n23:46 Fixing a network issue\n26:15 Finalizing\n27:28 Install KDE Plasma\n32:04 Install Xorg\n35:43 Continue Plasma install\n39:56 Ensure SDDM is configured\n42:05 Additional Plasma packages\n43:30 Start display manager and login to Plasma\n45:48 Install a package (konsole)\n47:03 Flatpaks\n48:13 Full KDE Plasma setup demo\n50:46 The most important part...\n\n#Linux #Gentoo",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

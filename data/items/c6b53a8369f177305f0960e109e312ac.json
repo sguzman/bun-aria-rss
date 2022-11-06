@@ -1,0 +1,7 @@
+{
+  "title": "The power of ensembles",
+  "link": "https://erikbern.com/2014/04/24/the-power-of-ensembles.html",
+  "pubDate": "Thu, 24 Apr 2014 00:00:00 +0000",
+  "guid": "https://erikbern.com/2014/04/24/the-power-of-ensembles.html",
+  "description": "From my presentation at MLConf, one of the points I think is worth stressing again is how extremely well combining different algorithms works.\nIn this case, we're training machine learning algorithms on different data sets (playlists, play counts, sessions) and different objectives (least squares, max likelihood)."
+}

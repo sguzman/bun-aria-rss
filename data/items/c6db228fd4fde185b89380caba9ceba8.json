@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:IwVPuTtzZI4",
+  "yt:videoId": "IwVPuTtzZI4",
+  "yt:channelId": "UCK_m2976Yvbx-TyDLw7n1WA",
+  "title": "Trucks with Flux Capacitors: How J.B. Hunt Transport Leverages MongoDB Time Series to Track Trucks",
+  "link": "",
+  "author": {
+    "name": "MongoDB",
+    "uri": "https://www.youtube.com/channel/UCK_m2976Yvbx-TyDLw7n1WA"
+  },
+  "published": "2022-10-31T21:11:56+00:00",
+  "updated": "2022-10-31T22:18:52+00:00",
+  "media:group": {
+    "media:title": "Trucks with Flux Capacitors: How J.B. Hunt Transport Leverages MongoDB Time Series to Track Trucks",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "At J.B. Hunt Transport, we needed to modernize how we store, surface, and react to streaming telemetry data for well over 100,000 assets, including trucks, trailers, and containers. MongoDb’s timeseries offering enables flexibility and performance in storing historical information from many disparate sources and vendors into a unified data model for use in daily operations. Moreover, it positions us to grow use cases and capabilities as we continue our path to digital transformation. Our current architecture leverages the intake of streaming data from Kafka, persists each reading in Mongo, surfaces that data via APIs, and reacts to events with KSQL streams. We’ll present our use case, data models, and infrastructure, showing you how these technologies work in concert to provide the data and insights required to remain competitive in an ever-changing market.\n\nSpeaker: Donovan Bergin, Expert Software Engineer\nCompany: J.B. Hunt Transport Services, Inc.\n\n.local Dallas ’22 playlist ➡️ https://trymongodb.com/3SXkqYW\nSubscribe to MongoDB  ➡️ https://bit.ly/3bpg1Z1\n\n#MongoDBlocalDallas22",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

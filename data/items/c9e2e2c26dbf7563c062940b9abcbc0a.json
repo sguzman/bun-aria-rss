@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32870 (iphone_os, macos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32870",
+  "description": "A logic issue was addressed with improved state management. This issue is fixed in iOS 16, macOS Ventura 13, watchOS 9. A user with physical access to a device may be able to use Siri to obtain some call history information.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}

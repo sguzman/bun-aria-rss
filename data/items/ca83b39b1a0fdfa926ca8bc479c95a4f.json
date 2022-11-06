@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-31117 (fedora, ultrajson)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31117",
+  "description": "UltraJSON is a fast JSON encoder and decoder written in pure C with bindings for Python 3.7+. In versions prior to 5.4.0 an error occurring while reallocating a buffer for string decoding can cause the buffer to get freed twice. Due to how UltraJSON uses the internal decoder, this double free is impossible to trigger from Python. This issue has been resolved in version 5.4.0 and all users should upgrade to UltraJSON 5.4.0. There are no known workarounds for this issue.",
+  "dc:date": "2022-07-05T18:15:08Z"
+}

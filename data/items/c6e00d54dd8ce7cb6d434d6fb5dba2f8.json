@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:zTaUDw-uelc",
+  "yt:videoId": "zTaUDw-uelc",
+  "yt:channelId": "UCtxCXg-UvSnTKPOzLH4wJaQ",
+  "title": "Distrobox: Run Any App from Any Distro",
+  "link": "",
+  "author": {
+    "name": "Coding Tech",
+    "uri": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ"
+  },
+  "published": "2022-10-31T22:56:59+00:00",
+  "updated": "2022-11-01T09:11:10+00:00",
+  "media:group": {
+    "media:title": "Distrobox: Run Any App from Any Distro",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software, and freedom to use whatever distribution you’re more comfortable with. Distrobox uses podman or docker to create containers using the Linux distribution of your choice. The created container will be tightly integrated with the host, allowing sharing of the HOME directory of the user, external storage, external USB devices and graphical apps (X11/Wayland), and audio. Project is hosted on: https://github.com/89luca89/distrobox Topics to cover: 1 - what is Distrobox, why It is born and underneath technologies 2 - resolve compatibility with apps that run only on a specific distro 3 - resolve compatibility with apps too new or too old for current distro 4 - show how to integrate apps and cli programs with your main distro 5 - show distrobox compatibility range and what other problem solves 6 - future plans This presentation was held also in Linux App Summit 2022 as a Bird of a feather. This version will be a full presentation with demos.\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=eM1p47tow4o",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

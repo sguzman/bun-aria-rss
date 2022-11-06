@@ -1,0 +1,19 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-1489114337913045230",
+  "published": "2022-09-13T08:02:00.000-07:00",
+  "updated": "2022-09-13T08:02:35.823-07:00",
+  "category": "",
+  "title": "Performance Max support in Google Ads scripts",
+  "content": "Today we're launching support for Performance Max campaigns in Google Ads scripts. This is treated as a brand new campaign type in scripts, similar to how video or shopping campaigns already work.<br /><br /> To get started, check out the <a href=\"https://developers.google.com/google-ads/scripts/docs/reference/adsapp/adsapp?hl=en#performanceMaxCampaigns_0\">performance max campaigns selector</a> on the AdsApp. Once you've selected a <a href=\"https://developers.google.com/google-ads/scripts/docs/reference/adsapp/adsapp_performancemaxcampaign\">PerformanceMaxCampaign</a>, you can perform common operations like pausing or enabling the campaign, as well as selecting and modifying most asset types in asset groups. You cannot modify text assets this way, and you cannot create new campaigns or asset groups through scripts.<br /><br /> Performance Max retail campaigns are supported in only a limited fashion as listing groups cannot be managed via Scripts.<br /><br /> For more information about Performance Max campaigns in general, check out the complete <a href=\"https://support.google.com/google-ads/answer/10724817\">help center article</a>.<br /><br /> If you have any questions or feedback, please leave a post on our <a href=\"https://groups.google.com/forum/#!forum/adwords-scripts\">forum</a> or send a message to our support alias <a href=\"mailto:googleadsscripts-support@google.com\">googleadsscripts-support@google.com</a> so that we can help.<br /> <span class=\"byline-author\"> - Mike Cloonan, Google Ads Scripts Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  }
+}

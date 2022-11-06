@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:pOwI74i0Gb0",
+  "yt:videoId": "pOwI74i0Gb0",
+  "yt:channelId": "UCWNx17Jt6eW4N4ayAEiXdEA",
+  "title": "SABR Model - part 1",
+  "link": "",
+  "author": {
+    "name": "quantpie",
+    "uri": "https://www.youtube.com/channel/UCWNx17Jt6eW4N4ayAEiXdEA"
+  },
+  "published": "2021-02-08T00:19:33+00:00",
+  "updated": "2022-06-08T20:25:11+00:00",
+  "media:group": {
+    "media:title": "SABR Model - part 1",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Part 1 of the SABR model, it covers the deterministic version of the model, which is essentially the CEV model, and then using perturbation methods (following Hagan et al.) derives the equivalent Black (or Black Scholes!) volatility so that the Black model reproduces the price of the CEV model. This is in many ways a 1 dimensional version of the famous SABR model, and hence serves as a gentle introduction to the SABR model.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

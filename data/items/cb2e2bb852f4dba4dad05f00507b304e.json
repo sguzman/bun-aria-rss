@@ -1,0 +1,9 @@
+{
+  "title": "Speed improvements for ask() (sympy.queries.ask)",
+  "link": "http://fa.bianp.net/blog/2009/speed-improvements-for-ask-sympyqueriesask/",
+  "description": "<p>I managed to overcome the overhead in ask() that arises when converting\nbetween symbol and integer representation of sentences in conjunctive\nnormal. The result went beyond what I expected. The test suite for the\nquery module got 10x times faster in my laptop. From 26 seconds, it\ndescended to an …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 20 Aug 2009 00:36:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-08-20:/blog/2009/speed-improvements-for-ask-sympyqueriesask/",
+  "category": "General, sympy, Tecnologí­a"
+}

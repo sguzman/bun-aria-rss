@@ -1,0 +1,6 @@
+{
+  "title": "Network Identification for Diffusively-Coupled Systems with Minimal Time Complexity. (arXiv:1903.04923v4 [cs.SY] UPDATED)",
+  "link": "http://arxiv.org/abs/1903.04923",
+  "description": "<p>The theory of network identification, namely identifying the (weighted)\ninteraction topology among a known number of agents, has been widely developed\nfor linear agents. However, the theory for nonlinear agents using probing\ninputs is far less developed, relying on dynamics linearization, and thus\ncannot be applied to networks with non-smooth or discontinuous dynamics. We use\nglobal convergence properties of the network, which can be assured using\npassivity theory, to present a network identification method for nonlinear\nagents. We do so by linearizing the steady-state equations rather than the\ndynamics, achieving a sub-cubic time algorithm for network identification. We\nalso study the problem of network identification from a complexity theory\nstandpoint, showing that the presented algorithms are optimal in terms of time\ncomplexity. We demonstrate the presented algorithm in two case studies with\ndiscontinuous dynamics.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Sharf_M/0/1/0/all/0/1\">Miel Sharf</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zelazo_D/0/1/0/all/0/1\">Daniel Zelazo</a>"
+}

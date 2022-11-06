@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-8224978452592947571",
+  "published": "2015-10-04T19:31:00.000-07:00",
+  "updated": "2015-10-05T20:23:03.074-07:00",
+  "title": "Mixed Models in R - Bigger, Faster, Stronger",
+  "content": "When you start doing more advanced sports analytics you'll eventually starting working with what are known as <a href=\"https://en.wikipedia.org/wiki/Mixed_model\">hierarchical, nested or mixed effects models</a>. These are models that contain both <a href=\"https://en.wikipedia.org/wiki/Fixed_effects_model\">fixed</a> and <a href=\"https://en.wikipedia.org/wiki/Random_effects_model\">random effects</a>. There are <a href=\"http://andrewgelman.com/2005/01/25/why_i_dont_use/\">multiple ways of defining fixed vs random random effects</a>, but one way I find particularly useful is that random effects are being \"predicted\" rather than \"estimated\", and this in turn involves some \"shrinkage\" towards the mean.<br /><br />Here's some R code for NCAA ice hockey power rankings using a nested Poisson model (which can be found in my <a href=\"https://github.com/octonion/hockey\" target=\"_blank\">hockey GitHub repository</a>):<br /><pre>model <- gs ~ year+field+d_div+o_div+game_length+(1|offense)+(1|defense)+(1|game_id)<br />fit <- glmer(model,<br />             data=g,<br />      verbose=TRUE,<br />      family=poisson(link=log)<br />      )<br /></pre>The fixed effects are <b>year</b>, <b>field</b> (home/away/neutral), <b>d_div</b> (NCAA division of the defense), <b>o_div</b> (NCAA division of the offense) and <b>game_length</b> (number of overtime periods); <b>offense</b> (strength of offense), <b>defense</b> (strength of defense) and <b>game_id</b> are all random effects. The reason for modeling team offenses and defenses as random vs fixed effects is that I view them as random samples from the same distribution. As mentioned above, this results in <a href=\"https://en.wikipedia.org/wiki/Shrinkage_(statistics)\">statistical shrinkage</a> or \"regression to the mean\" for these values, which is particularly useful for partially completed seasons. <p/>One of the problems with large mixed models is that they can be very slow to fit. For example, the model above takes several hours on a 12-core workstation, which makes it very difficult to test model changes and tweaks. Is there any way to speed up the fitting process? Certainly! One way is to add two options to the above code: <pre>fit <- glmer(model,<br />             data=g,<br />      verbose=TRUE,<br />      family=poisson(link=log),<br />      nAGQ=0,<br />      control=glmerControl(optimizer = \"nloptwrap\")<br />      )<br /></pre>What do these do? Model fitting is an optimization process. Part of that process involves the estimation of particular integrals, which can be very slow; the option \"nAGQ=0\" tells glmer to ignore estimating those integrals. For some models this has minimal impact on parameter estimates, and this NCAA hockey model is one of those. The second option tells glmer to fit using the \"nloptwrap\" optimizer (there are several other optimizers available, too), which tends to be faster than the default optimization method.<br /><br />The impact can be rather startling. With the default options the above model takes about 3 hours to fit. Add these two options, and the model fitting takes 30 seconds with minimal impact on the parameter estimates, or approximately 400 times faster.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 4
+}

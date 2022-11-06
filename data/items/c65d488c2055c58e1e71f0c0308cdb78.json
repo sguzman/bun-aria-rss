@@ -1,0 +1,12 @@
+{
+  "title": "pandas talk at PyHPC 2011 workshop in SC11, thoughts on hash tables",
+  "link": "",
+  "published": "2011-11-19T00:00:00-08:00",
+  "updated": "2011-11-19T00:00:00-08:00",
+  "author": {
+    "name": "Wes McKinney"
+  },
+  "id": "tag:wesmckinney.com,2011-11-19:/blog/pandas-talk-at-pyhpc-2011-workshop-in-sc11-thoughts-on-hash-tables/",
+  "summary": "<p>Here are the slides from my talk at <a href=\"http://www.dlr.de/sc/pyhpc2011 \" title=\"PyHPC2011\" target=\"_blank\">PyHPC2011</a>. Not really my usual talk for data crowds— a little more nuts and bolts about some of the indexing and GroupBy implementation details. Some people might be interested in the illustrative data alignment benchmarks which show the relative weakness of Python's …</p>",
+  "content": "<p>Here are the slides from my talk at <a href=\"http://www.dlr.de/sc/pyhpc2011 \" title=\"PyHPC2011\" target=\"_blank\">PyHPC2011</a>. Not really my usual talk for data crowds— a little more nuts and bolts about some of the indexing and GroupBy implementation details. Some people might be interested in the illustrative data alignment benchmarks which show the relative weakness of Python's dict implementation (in both speed and memory usage) for lookups and alignment. After these benchmarks I think it's pretty much inevitable that I'm going to end up writing a custom hash table implementation in C for the data alignment on primitive types. Now, if I wanted a threadsafe hash table that I could use OpenMP on, that would be a serious undertaking. Anyone want to help?</p>\n<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/4BpC26SboWX2xM\" width=\"425\" height=\"355\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen> </iframe>\n<div style=\"margin-bottom:5px\"> <strong> <a href=\"//www.slideshare.net/wesm/pandas-a-foundational-python-library-for-data-analysis-and-statistics\" title=\"pandas: a Foundational Python Library for Data Analysis and Statistics\" target=\"_blank\">pandas: a Foundational Python Library for Data Analysis and Statistics</a> </strong> from <strong><a href=\"//www.slideshare.net/wesm\" target=\"_blank\">Wes McKinney</a></strong> </div>"
+}

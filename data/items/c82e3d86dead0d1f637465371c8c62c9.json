@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:rj7A2OP7KO4",
+  "yt:videoId": "rj7A2OP7KO4",
+  "yt:channelId": "UCp3Q1Xhsu-TRljsDqp0Kj_A",
+  "title": "Vladlen Koltun: Simulating Reality at One Million Frames Per Second (June 2021)",
+  "link": "",
+  "author": {
+    "name": "ISL and Collaborators",
+    "uri": "https://www.youtube.com/channel/UCp3Q1Xhsu-TRljsDqp0Kj_A"
+  },
+  "published": "2021-06-21T03:02:19+00:00",
+  "updated": "2022-07-26T01:31:31+00:00",
+  "media:group": {
+    "media:title": "Vladlen Koltun: Simulating Reality at One Million Frames Per Second (June 2021)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Talk at the CVPR Workshop on Autonomous Driving\nJune 20, 2021\nhttp://cvpr2021.wad.vision/\n\nCorrection: 1M fps is the simulation throughput. With training in the loop, the throughput is lower (still more than 100K fps). The numbers are in Table 1 in the megaverse paper.\n\nPapers covered in the talk:\n\nSample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning\nICML 2020\nhttp://vladlen.info/papers/sample-factory.pdf\nhttps://sites.google.com/view/sample-factory\n\nLarge Batch Simulation for Deep Reinforcement Learning\nICLR 2021\nhttp://vladlen.info/papers/BPS.pdf\nhttps://github.com/shacklettbp/bps-nav\n\nMegaverse: Simulating Embodied Agents at One Million Experiences per Second\nICML 2021\nhttp://vladlen.info/papers/megaverse.pdf\nhttps://www.megaverse.info/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

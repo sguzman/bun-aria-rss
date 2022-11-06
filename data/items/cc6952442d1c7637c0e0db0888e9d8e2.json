@@ -1,0 +1,15 @@
+{
+  "title": "Embedding Matplotlib Animations in IPython Notebooks",
+  "link": "",
+  "published": "2013-05-12T19:00:00-07:00",
+  "updated": "2013-05-12T19:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-05-12:blog/2013/05/12/embedding-matplotlib-animations/",
+  "summary": "<p>I've spent a lot of time on this blog working with matplotlib animations\n(see the basic tutorial\n<a href=\"http://jakevdp.github.io/blog/2012/08/18/matplotlib-animation-tutorial/\">here</a>,\nas well as my examples of animating\n<a href=\"http://jakevdp.github.io/blog/2012/09/05/quantum-python/\">a quantum system</a>,\n<a href=\"http://jakevdp.github.io/blog/2012/09/26/optical-illusions-in-matplotlib/\">an optical illusion</a>,\n<a href=\"http://jakevdp.github.io/blog/2013/02/16/animating-the-lorentz-system-in-3d/\">the Lorenz system in 3D</a>,\nand <a href=\"http://jakevdp.github.io/blog/2013/01/13/hacking-super-mario-bros-with-python/\">recreating Super Mario</a>).\nUp until now, I've not have not combined the animations with IPython notebooks.\nThe problem is that so far the integration of IPython with matplotlib is\nentirely static, while animations are by their nature dynamic.  There are some\nefforts in the IPython and matplotlib development communities to remedy this,\nbut it's still not an ideal setup.</p>\n<p>I had an idea the other day about how one might get around this limitation\nin the case of animations.  By creating a function which saves an animation\nand embeds the binary data into an HTML string, you can fairly easily create\nautomatically-embedded animations within a notebook.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}
