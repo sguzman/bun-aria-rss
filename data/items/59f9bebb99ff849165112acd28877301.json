@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3419 (automatic_user_roles_switcher)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3419",
+  "description": "The Automatic User Roles Switcher WordPress plugin before 1.1.2 does not have authorisation and proper CSRF checks, allowing any authenticated users like subscriber to add any role to themselves, such as administrator",
+  "dc:date": "2022-10-31T16:15:11Z"
+}

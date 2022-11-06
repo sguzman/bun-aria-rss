@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:zLEyIT_BCgk",
+  "yt:videoId": "zLEyIT_BCgk",
+  "yt:channelId": "UCzBjutX2PmitNF4avysL-vg",
+  "title": "The bridge between number theory and complex analysis",
+  "link": "",
+  "author": {
+    "name": "Aleph 0",
+    "uri": "https://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg"
+  },
+  "published": "2022-04-14T19:30:04+00:00",
+  "updated": "2022-04-16T04:44:36+00:00",
+  "media:group": {
+    "media:title": "The bridge between number theory and complex analysis",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "How the discoveries of Ramanujan in 1916, combined with the insights of Eichler and Shimura in the 50's, led to the proof of Fermat's Last Theorem.  \n\nHelp fund future projects: https://www.patreon.com/aleph0\nAn equally valuable form of support is to simply share the videos.\n\nSOURCES and REFERENCES for Further Reading!\n\nThis video is a quick-and-dirty introduction to modular forms and elliptic curves. But as with any quick introduction, there are details that I gloss over for the sake of brevity. To learn these details rigorously, I've listed a few resources down below.\n\n(a) ELLIPTIC CURVES\n\nThe book \"Elliptic Curves: Number theory and cryptography\" by Lawrence Washington is really good for self-study. It also has tons of numerical examples, making it good for self-study. The subject only really clicked for me after I read this book, so I'd highly recommend reading it.\n\nProfessor Alvaro Lozano-Robledo also has a wonderful YouTube playlist which explains all the details of the subject rigorously: https://www.youtube.com/playlist?list=PLYpVTXjEi1oe1OeAllJpNhFoI4B7Ws8Yl\n\n(b) MODULAR FORMS\n\nFor modular forms, a great book is \"Modular Forms: A Classical And Computational Introduction\" by Lloyd Kilford. It also has plenty of numerical examples and you can also code up a bunch of the sections as well, which makes it nice to work through.  \n\n(c) EICHLER SHIMURA THEORY (how to go from modular forms to elliptic curves)\n\nThe book \"Elliptic Curves\" by Anthony Knapp (see Chapter 11: \"Eichler Shimura Theory\") contains the main content of this video with the integrating and lattices and all that. This is a dense book, but it is really beautifully written. The first chapter contains an extended numerical example that illustrates how to go from modular forms to elliptic curves. I wouldn't read this book as an introduction, because it's very comprehensive and can be a little overwhelming. But rather, it's great as a second pass after reading the intro books I mentioned at the start. \n\n(d) STRATEGY OF WILES' PROOF (how to go from elliptic curves to modular forms)\n\nThe book \"Elliptic Curves, Modular Forms, and the Proof of Fermat's Last Theorem\" edited by John Coates and ST Yau has a full rigorous explanation of Wiles' proof in the first chapter. It is very dense, and it requires a solid grounding in algebraic number theory (see the last video in this channel for resources to learn this). The chapter describes all the new techniques that Wiles invented essentially from scratch to tackle Taniyama-Shimura. The key to Wiles' approach was a technique called a \"modularity lifting theorem\". This is not easy reading: it is aimed at graduate students and researchers in number theory. But it is beatifully written and by far the clearest rigorous exposition of FLT I've seen so far.\n\nIf you really want to know: what are the 'curved arcs' from 2:40? The rigorous definition is: the \"curved arc\" is really a geodesic connecting two cusps that are equivalent under the action of Gamma_0(11). Equivalently, it is a homology class (with integral coefficients) in the modular curve X_0(11). These are the details you would find in \"Elliptic Curves\" by Knapp, see part (c) above.\n\n-----\n\nMUSIC CREDITS:\nThe song is “Taking Flight”, by Vince Rubinetti.\nhttps://www.vincentrubinetti.com/\n\nTHANK YOUs:\nExtra special thanks to Davide Radaelli and Grant Sanderson for feedback and helpful conversations while making this video.\n\nFollow me!\nTwitter: @00aleph00\nInstagram: @00aleph00\n\nIntro: (0:00)\nEichler-Shimura: (2:04)\nFrom Lattices to Number Theory: (3:21)\nCounting Solutions: (5:00)\nTaniyama-Shimura: (7:21)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
