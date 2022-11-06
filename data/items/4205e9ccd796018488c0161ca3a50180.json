@@ -1,0 +1,12 @@
+{
+  "title": "Approximating Grouped Fixed Effects Estimation via Fuzzy Clustering Regression",
+  "link": "https://fedinprint.org/item/fednsr/94840",
+  "description": "We propose a new, computationally-efficient way to approximate the “grouped fixed-effects” (GFE) estimator of Bonhomme and Manresa (2015), which estimates grouped patterns of unobserved heterogeneity. To do so, we generalize the fuzzy C-means objective to regression settings. As the regularization parameter m approaches 1, the fuzzy clustering objective converges to the GFE objective; moreover, we recast this objective as a standard Generalized Method of Moments problem. We replicate the empirical results of Bonhomme and Manresa (2015) and show that our estimator delivers almost identical estimates. In simulations, we show that our approach delivers improvements in terms of bias, classification accuracy, and computational speed.",
+  "guid": "https://fedinprint.org/item/fednsr/94840",
+  "dc:creator": "Pilossoph, Laura; Lewis, Daniel J.; Melcangi, Davide; Toner-Rodgers, Aidan",
+  "dc:date": "2022-09-01",
+  "rdau:hasExtent": 27,
+  "dc:subject": "clustering; unobserved heterogeneity; panel data",
+  "swpo:hasNumber": 1033,
+  "bibo:series": "Staff Reports"
+}

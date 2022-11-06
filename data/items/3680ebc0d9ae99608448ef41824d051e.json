@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:v6ENImXcsPE",
+  "yt:videoId": "v6ENImXcsPE",
+  "yt:channelId": "UCAczr0j6ZuiVaiGFZ4qxApw",
+  "title": "Lightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock",
+  "link": "",
+  "author": {
+    "name": "cpponsea",
+    "uri": "https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw"
+  },
+  "published": "2022-09-27T15:00:18+00:00",
+  "updated": "2022-10-10T09:50:26+00:00",
+  "media:group": {
+    "media:title": "Lightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "C++ on Sea Website: https://cpponsea.uk/\nC++ on Sea Twitter: https://twitter.com/cpponsea\n---\n\nLightning Talk: C++: Your Friendly Meta-Assembler - Or How to Beat `memcmp` - Oliver Schönrock - C++ on Sea 2022\nSlides: https://github.com/philsquared/cpponsea-slides/tree/master/2022\nCode: https://github.com/oschonrock/arrcmp\n\n\nUsing TMP with Intel intrinsics to generate hardware optimised assembly for a `memcpm` replacement. In the motivating example it produced a 2-3x speedup over glibc or asmlib.\n---\n\nOliver Schönrock\n\nHacking since 6502 BC.\n---\n\nC++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. \n- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/\n- 2022 Program: https://cpponsea.uk/2022/schedule/\n---\n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk\n\n#Programming​ #Cpp​ #CppOnSea​",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

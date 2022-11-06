@@ -1,0 +1,7 @@
+{
+  "title": "Hackers beware: Bootstrap sampling may be harmful",
+  "link": "https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/",
+  "pubDate": "Mon, 07 Jan 2019 21:07:56 +0000",
+  "guid": "https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/",
+  "description": "Bootstrap sampling techniques are very appealing, as they don&rsquo;t require knowing much about statistics and opaque formulas. Instead, all one needs to do is resample the given data many times, and calculate the desired statistics. Therefore, bootstrapping has been promoted as an easy way of modelling uncertainty to hackers who don&rsquo;t have much statistical knowledge. For example, the main thesis of the excellent Statistics for Hackers talk by Jake VanderPlas is: &ldquo;If you can write a for-loop, you can do statistics&rdquo;."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Hipster Effect: An IPython Interactive Exploration",
+  "link": "",
+  "published": "2014-11-11T21:00:00-08:00",
+  "updated": "2014-11-11T21:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-11-11:blog/2014/11/11/the-hipster-effect-interactive/",
+  "summary": "<p>This week I started seeing references all over the internet to <a href=\"http://arxiv.org/abs/1410.8001\">this paper</a>: <em>The Hipster Effect: When Anticonformists All Look The Same</em>. It essentially describes a simple mathematical model which models conformity and non-conformity among a mutually interacting population, and finds some interesting results: namely, <strong>conformity among a population of self-conscious non-conformists is similar to a phase transition in a time-delayed thermodynamic system</strong>. In other words, with enough hipsters around responding to delayed fashion trends, a plethora of facial hair and fixed gear bikes is a natural result.</p>\n<p>Also naturally, upon reading the paper I wanted to try to reproduce the work. The paper solves the problem analytically for a continuous system and shows the precise values of certain phase transitions within the long-term limit of the postulated system. Though such theoretical derivations are useful, I often find it more intuitive to simulate systems like this in a more approximate manner to gain hands-on understanding. By the end of this notebook, we'll be using IPython's incredible <a href=\"http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Interactive%20Widgets/Index.ipynb\">interactive widgets</a> to explore how the inputs to this model affect the results.</p>"
+}

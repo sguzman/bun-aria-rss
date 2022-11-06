@@ -1,0 +1,9 @@
+{
+  "title": "Query module - finally in trunk",
+  "link": "http://fa.bianp.net/blog/2009/query-module-finally-in-trunk/",
+  "description": "<p>The query module is finally in the main SymPy repository. I made\nsubstantial changes since last post, most of them at the user interface\nlevel (thanks to Vinzent and Mateusz for many insightful comments). Main\nfunction is ask(), which replaces the old expression.is_* syntax. You\ncan ask many things …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 10 Aug 2009 21:51:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-08-10:/blog/2009/query-module-finally-in-trunk/",
+  "category": "General, sympy, Tecnologí­a"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "A Google Chrome update that just didn't feel right. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/200/notes",
+  "description": "Guest Jon Hencinski from Expel joins Dave Bittner to discuss his team's recent work on \"Expel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update.\"\nIn July, 2021, Expel's SOC stopped a ransomware attack at a large software and staffing company. The attackers compromised the company’s WordPress CMS and used the SocGholish framework to trigger a drive-by download of a Remote Access Tool (RAT) disguised as a Google Chrome update.\nIn total, four hosts downloaded a malicious Zipped JScript file that was configured to deploy a RAT, but we were able to stop the attack before ransomware deployment and help the organization remediate its WordPress CMS. Jons walk us through what happened, how they caught it, and provide recommendations on how to secure your WordPress CMS. \nThe research can be found here:\nExpel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update",
+  "pubDate": "Sat, 11 Sep 2021 07:00:00 -0000",
+  "itunes:title": "A Google Chrome update that just didn't feel right. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 200,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guest Jon Hencinski from Expel joins Dave Bittner to discuss his team's recent work on \"Expel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update.\"\nIn July, 2021, Expel's SOC stopped a ransomware attack at a large software and staffing company. The attackers compromised the company’s WordPress CMS and used the SocGholish framework to trigger a drive-by download of a Remote Access Tool (RAT) disguised as a Google Chrome update.\nIn total, four hosts downloaded a malicious Zipped JScript file that was configured to deploy a RAT, but we were able to stop the attack before ransomware deployment and help the organization remediate its WordPress CMS. Jons walk us through what happened, how they caught it, and provide recommendations on how to secure your WordPress CMS. \nThe research can be found here:\nExpel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update",
+  "content:encoded": "<p>Guest Jon Hencinski from Expel joins Dave Bittner to discuss his team's recent work on \"Expel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update.\"</p><p>In July, 2021, Expel's SOC stopped a ransomware attack at a large software and staffing company. The attackers compromised the company’s WordPress CMS and used the SocGholish framework to trigger a drive-by download of a Remote Access Tool (RAT) disguised as a Google Chrome update.</p><p>In total, four hosts downloaded a malicious Zipped JScript file that was configured to deploy a RAT, but we were able to stop the attack before ransomware deployment and help the organization remediate its WordPress CMS. Jons walk us through what happened, how they caught it, and provide recommendations on how to secure your WordPress CMS. </p><p>The research can be found here:</p><ul><li><a href=\"https://expel.io/blog/incident-report-spotting-socgholish-wordpress-injection/\">Expel SOC Stops Ransomware Attack Aimed at WordPress CMS via Drive-By Download Disguised as Google Chrome Update</a></li></ul>",
+  "itunes:duration": 1229,
+  "itunes:explicit": "no",
+  "guid": "6fcb721a-10c6-11ec-863f-03f2e235382c",
+  "enclosure": ""
+}

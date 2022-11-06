@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:cUqoHQDinCM",
+  "yt:videoId": "cUqoHQDinCM",
+  "yt:channelId": "UCrlZs71h3mTR45FgQNINfrg",
+  "title": "The weirdest paradox in statistics (and machine learning)",
+  "link": "",
+  "author": {
+    "name": "Mathemaniac",
+    "uri": "https://www.youtube.com/channel/UCrlZs71h3mTR45FgQNINfrg"
+  },
+  "published": "2022-08-30T14:00:18+00:00",
+  "updated": "2022-09-09T20:41:44+00:00",
+  "media:group": {
+    "media:title": "The weirdest paradox in statistics (and machine learning)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "🌏 AD: Get Exclusive NordVPN deal here ➼ https://nordvpn.com/mathemaniac. It's risk-free with Nord's 30-day money-back guarantee! ✌\n\nSecond channel video: https://www.youtube.com/watch?v=3ne9yghOtw8\n\nStein's paradox is of fundamental importance in modern statistics, introducing concepts of shrinkage to further reduce the mean squared error, especially in higher dimensional statistics that is particularly relevant nowadays, in the world of machine learning, for example. However, this is usually ignored, because it is mostly seen as a toy problem. Precisely because it is such a simple problem that illustrates the problem of maximum likelihood estimation! This paradox is the subject of many blogposts (linked below), but not really here on YouTube, except in some lecture recordings, so I have to bring this up to YouTube.\n\nThis is not to say that maximum likelihood estimator is not useful - in most situations, especially in lower dimensional statistics, it is still good, but to hold it to such a high place, as statisticians did before 1961? That is not a healthy attitude to this theory.\n\nOne thing I did not say, but perhaps a lot of people will want me to, is that this is an emprical Bayes estimator, but again, more links below.\n\nVideo chapters:\n00:00 Introduction\n04:38 Chapter 1: The \"best\" estimator\n09:48 Chapter 2: Why shrinkage works\n15:51 Chapter 3: Bias-variance tradeoff\n18:45 Chapter 4: Applications\n\nFurther reading:\nThe “baseball paper”: https://efron.ckirby.su.domains//other/Article1977.pdf\nWikipedia: https://en.wikipedia.org/wiki/Stein%27s_example\nDominating the (positive-part) James-Stein estimator: https://projecteuclid.org/journals/annals-of-statistics/volume-22/issue-3/Improving-on-the-James-Stein-Positive-Part-Estimator/10.1214/aos/1176325640.full\nWikipedia (Empirical Bayes): https://en.wikipedia.org/wiki/Empirical_Bayes_method\n\nOther writeups:\nhttp://www.ime.unicamp.br/~veronica/MI677/steinparadox.pdf\nhttps://joe-antognini.github.io/machine-learning/steins-paradox\nhttps://www.jchau.org/2021/01/29/demystifying-stein-s-paradox/\nhttps://www.naftaliharris.com/blog/steinviz/\nhttps://austinrochford.com/posts/2013-11-30-steins-paradox-and-empirical-bayes.html\nhttps://duphan.wordpress.com/2016/07/10/steins-paradox-or-the-power-of-shrinkage/\nhttp://www.statslab.cam.ac.uk/~rjs57/SteinParadox.pdf\n\n(Philosophical implications) http://philsci-archive.pitt.edu/13303/1/Philosophical%20significance%20of%20Stein%20Preprint.pdf\n\nOther than commenting on the video, you are very welcome to fill in a Google form linked below, which helps me make better videos by catering for your math levels:\nhttps://forms.gle/QJ29hocF9uQAyZyH6\n\nIf you want to know more interesting Mathematics, stay tuned for the next video!\n\nSUBSCRIBE and see you in the next video!\n\nIf you are wondering how I made all these videos, even though it is stylistically similar to 3Blue1Brown, I don't use his animation engine Manim, but I will probably reveal how I did it in a potential subscriber milestone, so do subscribe!\n\nSocial media:\n\nFacebook: https://www.facebook.com/mathemaniacyt\nInstagram: https://www.instagram.com/_mathemaniac_/\nTwitter: https://twitter.com/mathemaniacyt\nPatreon: https://www.patreon.com/mathemaniac (support if you want to and can afford to!)\nMerch: https://mathemaniac.myspreadshop.co.uk\nKo-fi: https://ko-fi.com/mathemaniac [for one-time support]\n\nFor my contact email, check my About page on a PC.\n\nSee you next time!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

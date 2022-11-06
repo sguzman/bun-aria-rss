@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-22930 (debian_linux, nextgen_api, node.js, sinec_infrastructure_network_services)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-22930",
+  "description": "Node.js before 16.6.0, 14.17.4, and 12.22.4 is vulnerable to a use after free attack where an attacker might be able to exploit the memory corruption, to change process behavior.",
+  "dc:date": "2021-10-07T14:15:08Z"
+}

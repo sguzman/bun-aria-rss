@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:214rUhQe7B4",
+  "yt:videoId": "214rUhQe7B4",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "Logical Volume Management - What is LVM & how to use it (and WHY you should use it)",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-02-20T15:00:01+00:00",
+  "updated": "2022-07-22T10:21:56+00:00",
+  "media:group": {
+    "media:title": "Logical Volume Management - What is LVM & how to use it (and WHY you should use it)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Logical Volume Management is a great way to expand your drive space by simply adding additional hard drives.  LVM lets you expand your available space on the fly without even needing to reboot.  In this video I'll explain what Logical Volume Management is, how LVM's work, and why you should use them.  I'll also show you how to extend an LVM (or, grow an LVM) and the extra steps in extending a swap parition.\n\nMy LVM cheat sheets : https://github.com/Dorian-DS/LVM-Cheat-Sheets\nblocks to convert to LVM (I have not tried this!) : https://github.com/g2p/blocks#readme\nPatreon Support : https://www.patreon.com/doriandotslash\n\n00:00 Intro\n00:20 Options for expanding\n01:20 Cheat Sheet\n01:38 What is LVM?\n02:05 The system I'm using\n03:00 Converting ext to LVM\n03:31 Getting started with additional drive\n04:10 Partition new drive to LVM\n04:55 Understanding the layout\n07:06 Extend the Volume Group to new drive\n07:53 Extending a swap volume\n10:58 Extending the root volume\n14:56 Downsides\n15:58 Key point you need to know\n\n#Linux #LVM",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Setting Up a Mac for Python Development",
+  "link": "",
+  "published": "2013-02-02T11:01:00-08:00",
+  "updated": "2013-02-02T11:01:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-02-02:blog/2013/02/02/setting-up-a-mac-for-python-development/",
+  "summary": "<p><em>Edit, August 2013: my current favorite way to set up a python installation\non mac (and any other system) is to use the\n<a href=\"https://store.continuum.io/\">anaconda</a> package offered by Continuum\nAnalytics.  It's free, full-featured, and extremely easy to use.</em></p>\n<p><img class=\"left\" src=\"/images/OSX10.8.png\" title=\"'OSX 10.8 Logo'\" alt=\"'OSX 10.8 Logo'\"> A few weeks ago,\nafter years of using Linux exclusively for all my computing,\nI started a research fellowship in a new department\nand found a brand new Macbook Pro on my\ndesk.  Naturally, my first instinct was to set up the system for efficient\nPython development.  In order to help others who  might find themself in a\nsimilar situation, I took some notes on the process, and I'll summarize\nwhat I learned below.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:FXxrZ8YXJyE",
+  "yt:videoId": "FXxrZ8YXJyE",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "Cellular Automaton",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-01-24T01:00:30+00:00",
+  "updated": "2022-05-23T06:40:53+00:00",
+  "media:group": {
+    "media:title": "Cellular Automaton",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "http://dperrysvendsen.wordpress.com/2014/01/24/cellular-automaton/\n\nIn its simplest form, a cellular automaton is a simulated environment, represented as a grid of cells, each of which can be either 'alive' or 'dead'. After each successive generation, the state of each cell is determined by the state of its immediate neighbours.\n\nThe 'Game of Life', designed by mathematician John Conway, is perhaps the most well-known example. This program employs the same set of rules first put forward by Conway in 1970:\n\no Any live cell with fewer than two live neighbours dies, as if by under-population.\no Any live cell with two or three live neighbours lives on to the next generation.\no Any live cell with more than three live neighbours dies, as if by overcrowding.\no Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.\n\nWhilst the original Game of Life was a 'zero-player game', capable of independent evolution, this version puts control in the hands of the user by allowing them to add/remove live cells as the simulation runs. In addition, cells will leave coloured trails as they blink in and out of existence.\n\nThe result is a dynamic landscape of spontaneously forming and deforming structures.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

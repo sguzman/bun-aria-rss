@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-10220 (debian_linux, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-10220",
+  "description": "Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.",
+  "dc:date": "2019-11-27T16:15:11Z"
+}

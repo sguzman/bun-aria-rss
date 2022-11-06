@@ -1,0 +1,9 @@
+{
+  "title": "Reading CNF files",
+  "link": "http://fa.bianp.net/blog/2009/reading-cnf-files/",
+  "description": "<p><p>The DIMACS CNF file format is used to define a Boolean expression,\nwritten in conjunctive normal form, that may be used as an example of\nthe satisfiability problem. The new logic module (sympy.logic) can read\nthe content of a cnf file and transform it into a boolean expression\nsuitable …</p></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 20 Jun 2009 16:27:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-06-20:/blog/2009/reading-cnf-files/",
+  "category": "General, sympy, Tecnologí­a"
+}

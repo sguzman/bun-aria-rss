@@ -1,0 +1,7 @@
+{
+  "title": "Migrating a simple web application from MongoDB to Elasticsearch",
+  "link": "https://yanirseroussi.com/2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/",
+  "pubDate": "Wed, 04 Nov 2015 03:53:18 +0000",
+  "guid": "https://yanirseroussi.com/2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/",
+  "description": "Bandcamp Recommender (BCRecommender) is a web application that serves music recommendations from Bandcamp. I recently switched BCRecommender&rsquo;s data store from MongoDB to Elasticsearch. This has made it possible to offer a richer search experience to users at a similar cost. This post describes the migration process and discusses some of the advantages and disadvantages of using Elasticsearch instead of MongoDB.\nMotivation: Why swap MongoDB for Elasticsearch? I&rsquo;ve written a few posts in the past on BCRecommender&rsquo;s design and implementation."
+}

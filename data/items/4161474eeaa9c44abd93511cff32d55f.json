@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43151 (timg)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43151",
+  "description": "timg v1.4.4 was discovered to contain a memory leak via the function timg::QueryBackgroundColor() at /timg/src/term-query.cc.",
+  "dc:date": "2022-10-31T19:15:10Z"
+}

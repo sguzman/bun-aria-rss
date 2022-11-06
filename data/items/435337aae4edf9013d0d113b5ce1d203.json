@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2018-9309 (zzcms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2018-9309",
+  "description": "An issue was discovered in zzcms 8.2. It allows SQL injection via the id parameter in a dl/dl_sendsms.php request.",
+  "dc:date": "2018-04-05T01:29:07Z"
+}

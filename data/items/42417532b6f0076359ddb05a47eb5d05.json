@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43085 (restaurant_pos_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43085",
+  "description": "An arbitrary file upload vulnerability in add_product.php of Restaurant POS System v1.0 allows attackers to execute arbitrary code via a crafted PHP file.",
+  "dc:date": "2022-11-01T14:15:14Z"
+}

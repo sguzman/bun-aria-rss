@@ -1,0 +1,20 @@
+{
+  "title": "[Talk] Translating SQL to pandas",
+  "link": "",
+  "published": "2014-12-22T00:00:00-08:00",
+  "updated": "2022-11-03T04:16:07-07:00",
+  "author": {
+    "name": "Greg Reda"
+  },
+  "id": "tag:www.gregreda.com,2014-12-22:/2014/12/22/translating-sql-to-pandas-video/",
+  "summary": "<p>A few weeks ago, I gave a <a href=\"http://pandas.pydata.org/\">pandas</a> tutorial at <a href=\"http://pydata.org/nyc2014/\">PyData NYC</a> titled \"Translating SQL to pandas. And back.\" I don't remember why I put the \"And back\" in there - if you can translate things one way, you can translate them the other way, too.</p>\n<p>Anyway, here's the abstract:</p>\n<blockquote>\n<p>SQL …</p></blockquote>",
+  "content": "<p>A few weeks ago, I gave a <a href=\"http://pandas.pydata.org/\">pandas</a> tutorial at <a href=\"http://pydata.org/nyc2014/\">PyData NYC</a> titled \"Translating SQL to pandas. And back.\" I don't remember why I put the \"And back\" in there - if you can translate things one way, you can translate them the other way, too.</p>\n<p>Anyway, here's the abstract:</p>\n<blockquote>\n<p>SQL is still the bread-and-butter of the data world, and data analysts/scientists/engineers need to have some familiarity with it as the world runs on relational databases.</p>\n<p>When first learning pandas (and coming from a database background), I found myself wanting to be able to compare equivalent pandas and SQL statements side-by-side, knowing that it would allow me to pick up the library quickly, but most importantly, apply it to my workflow.</p>\n<p>This tutorial will provide an introduction to both syntaxes, allowing those inexperienced with either SQL or pandas to learn a bit of both, while also bridging the gap between the two, so that practitioners of one can learn the other from their perspective. Additionally, I'll discuss the tradeoffs between each and why one might be better suited for some tasks than the other.</p>\n</blockquote>\n<p>Having never been to a technical conference, much less given a talk at one, it was quite a new experience for me - and something I'd like to do again.</p>\n<p>I highly recommend giving a talk at an event like PyData if you ever have the opportunity. And if you think you don't have anything interesting to say, or aren't experienced enough to give a tutorial, or are just plain nervous ... don't worry, I felt all those things too. You should do it anyway.</p>\n<p>Below is the video of my talk. You can find the accompanying materials <a href=\"https://github.com/gjreda/pydata2014nyc\">here</a>.</p>\n<div class=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/1uVWjdAbgBg\" allowfullscreen></iframe>\n</div>",
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

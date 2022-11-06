@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39021 (u-office_force)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39021",
+  "description": "U-Office Force login function has an Open Redirect vulnerability. An unauthenticated remote attacker can exploit this vulnerability to redirect user to arbitrary website.",
+  "dc:date": "2022-10-31T07:15:09Z"
+}

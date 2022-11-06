@@ -1,0 +1,14 @@
+{
+  "title": "Different ways to get memory consumption or lessons learned from ``memory_profiler``",
+  "link": "http://fa.bianp.net/blog/2013/different-ways-to-get-memory-consumption-or-lessons-learned-from-memory_profiler/",
+  "description": "<p>As part of the development of\n<a href=\"https://pypi.python.org/pypi/memory_profiler\">memory_profiler</a> I've tried\nseveral ways to get memory usage of a program from within Python. In this post\nI'll describe the different alternatives I've tested.</p>\n<h3>The psutil library</h3>\n<p><a href=\"https://code.google.com/p/psutil/\">psutil</a> is a python library that provides\nan interface for retrieving information on running processes. It …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 25 Jul 2013 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2013-07-25:/blog/2013/different-ways-to-get-memory-consumption-or-lessons-learned-from-memory_profiler/",
+  "category": [
+    "misc",
+    "Python",
+    "memory",
+    "memory_profiler"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2013-6712 (debian_linux, mac_os_x, opensuse, php, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-6712",
+  "description": "The scan function in ext/date/lib/parse_iso_intervals.c in PHP through 5.5.6 does not properly restrict creation of DateInterval objects, which might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted interval specification.",
+  "dc:date": "2013-11-28T04:37:39Z"
+}
