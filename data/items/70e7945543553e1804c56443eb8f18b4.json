@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:XUYPU9LjGKM",
+  "yt:videoId": "XUYPU9LjGKM",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "Three for One: Homotopy Interpretation [Intro to HoTT, No. 1, Part 2]",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2022-04-25T10:45:01+00:00",
+  "updated": "2022-06-20T21:29:39+00:00",
+  "media:group": {
+    "media:title": "Three for One: Homotopy Interpretation [Intro to HoTT, No. 1, Part 2]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "What does homotopy type theory mean? This video presents the next answer: HoTT is a language for describing spaces. Under this interpretation, the unit type 1 represents the space consisting of just a single point. This video informally introduces the idea of \"contractibility\", which we'll rigorously define later and use extensively throughout HoTT.\n\nVideo site for the series: https://intro-hott.video\nYoutube: https://www.youtube.com/playlist?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq\nInstagram: @Intro_HoTT\nTwitter: @Intro_HoTT\n\nFormalization links:\n- The formalization I'm developing for this video series: https://github.com/jacobneu/HoTT-agda\n- The formalization it's based on (by Egbert Rijke, for his upcoming textbook): https://github.com/HoTT-Intro/Agda\n\nHoTT textbooks:\n- The HoTT Book (2013) -- the original statement of HoTT: https://homotopytypetheory.org/book/\n- Introduction to Homotopy Type Theory, by Egbert Rijke (to be released): https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory\n\nFurther info:\n- Numberphile has several excellent videos on Klein Bottles, e.g. youtube.com/watch?v=AAsICMPwGPY\n- SEP article on Set Theory: https://plato.stanford.edu/entries/set-theory/\n\n\nImage/audio credits:\n- \"Wholesome\" and \"Drone in D\" by Kevin MacLeod (incompetech.com); CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\n- Page from Euclid’s Elements. From https://commons.wikimedia.org/wiki/File:Euclid%27s_Elements,_1482.jpg, CC-BY-SA 4.0\n- Quote from https://plato.stanford.edu/entries/set-theory/\n- Klein bottle. From https://commons.wikimedia.org/wiki/File:Klein_bottle.svg, CC-BY-SA 3.0\n\nHomotopy type theory (HoTT) is a new branch of type theory and a new foundation for mathematics. It serves as a common language for reasoning about computation (functional programming), about mathematical structure (synthetic homotopy theory and higher category theory), and about constructive logic. This Introduction to Homotopy Type Theory video lecture series is intended to explain what HoTT is, show how to work in HoTT (including how formalization in Agda works), and give intuition for why HoTT is the way it is. I don’t assume any particular background familiarity, but the more you know about mathematics, computer science, and logic, the more you’ll be able to get out of these videos. Enjoy!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

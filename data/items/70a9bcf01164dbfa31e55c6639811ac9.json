@@ -1,0 +1,6 @@
+{
+  "title": "Fluent APIs in Functional Languages (full version). (arXiv:2211.01473v1 [cs.PL])",
+  "link": "http://arxiv.org/abs/2211.01473",
+  "description": "<p>Fluent API is an object-oriented pattern for smart and elegant embedded DSLs.\nAs fluent API designs typically rely on function overloading, they are hard to\nrealize in functional programming languages. We show how to write functional\nfluent APIs using parametric polymorphism and unification instead of\noverloading. Our designs support all regular and deterministic context-free\nDSLs and beyond.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Roth_O/0/1/0/all/0/1\">Ori Roth</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Gil_Y/0/1/0/all/0/1\">Yossi Gil</a>"
+}

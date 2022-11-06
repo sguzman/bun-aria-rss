@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:q9_sXkA4Rv8",
+  "yt:videoId": "q9_sXkA4Rv8",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "How to install Gentoo Linux",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-03-12T15:37:25+00:00",
+  "updated": "2022-06-04T05:55:16+00:00",
+  "media:group": {
+    "media:title": "How to install Gentoo Linux",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video I'll go over how to install Gentoo Linux, as well as how it works, and what makes it different from other Linux distributions.  This is a fantastic distro that is not only a great way to learn how Linux works, but also allows maximum flexibility on how each package is configured and installed.\n\nPart 2 is here : https://youtu.be/wQxBsunITaA\n\nWhile I am no expert on Gentoo, this should guide you through to a working system. You might have to also read some of the Wiki if you hit a snag, but the Wiki is very complete and covers anything you might need to know to get this going.\n\nThis is Part 1, as there is a lot to go over and explain along the way.\n\nSupport my channel on Patreon : https://www.patreon.com/doriandotslash\n\nTimestamps:\n00:00 Intro\n01:38 How Gentoo works\n03:16 Why use Gentoo?\n04:39 Downloading Gentoo\n05:24 Loading the ISO file\n06:06 Booting into the live ISO\n06:55 The Gentoo Handbook\n07:31 Configuring the network\n09:42 Preparing the disks (partitioning)\n17:29 Installing Stage3\n21:40 Configuring Compile Options (Flags)\n25:47 Installing the base system\n27:28 Mounts and chroot\n29:55 Install/update ebuild snapshot (webrsync)\n32:01 News items\n33:14 Choosing the right profile\n35:15 Updating the world set\n40:33 Configuring the USE variable\n42:47 Systemd (optional)\n43:20 Set timezone and locale\n45:12 Break time and conclusion\n\n#Linux #Gentoo",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

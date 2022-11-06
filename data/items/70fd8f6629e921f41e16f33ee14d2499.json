@@ -1,0 +1,6 @@
+{
+  "title": "Minimum-Time Escape from a Circular Region for a Dubins Car. (arXiv:2211.01706v1 [eess.SY])",
+  "link": "http://arxiv.org/abs/2211.01706",
+  "description": "<p>We investigate the problem of finding paths that enable a robot modeled as a\nDubins car (i.e., a constant-speed finite-turn-rate unicycle) to escape from a\ncircular region of space in minimum time. This minimum-time escape problem\narises in marine, aerial, and ground robotics in situations where a safety\nregion has been violated and must be exited before a potential negative\nconsequence occurs (e.g., a collision). Using the tools of nonlinear optimal\ncontrol theory, we show that a surprisingly simple closed-form feedback control\nlaw solves this minimum-time escape problem, and that the minimum-time paths\nhave an elegant geometric interpretation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Molloy_T/0/1/0/all/0/1\">Timothy L. Molloy</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Shames_I/0/1/0/all/0/1\">Iman Shames</a>"
+}

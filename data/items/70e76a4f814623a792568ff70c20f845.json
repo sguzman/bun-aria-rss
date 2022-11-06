@@ -1,0 +1,13 @@
+{
+  "title": "Optimization inequalities cheatsheet",
+  "link": "http://fa.bianp.net/blog/2017/optimization-inequalities-cheatsheet/",
+  "description": "<script type=\"text/x-mathjax-config\">\n      MathJax.Hub.Config({\n        extensions: [\"tex2jax.js\"],\n        jax: [\"input/TeX\", \"output/HTML-CSS\"],\n        tex2jax: {\n          inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n          displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n          processEscapes: true\n        },\n        TeX: {\n        equationNumbers: { autoNumber: \"AMS\" },\n        },\n      });\n        </script>\n        <script type=\"text/javascript\" async src=\"/js/mathjax@2.7.5/MathJax.js?config=TeX-AMS_CHTML\">\n        </script>\n\n        <p>Most proofs in optimization consist in using inequalities for a particular function class in some creative way. This is a cheatsheet with inequalities that I use most often. It considers …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 11 Jan 2017 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2017-01-11:/blog/2017/optimization-inequalities-cheatsheet/",
+  "category": [
+    "optimization",
+    "optimization",
+    "cheatsheet"
+  ]
+}

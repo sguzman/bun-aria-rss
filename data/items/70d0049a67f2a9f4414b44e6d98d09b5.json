@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:gxBis8EgoAg",
+  "yt:videoId": "gxBis8EgoAg",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to build a Markdown editor using Electron, ReactJS, Vite, CodeMirror, and Remark",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2021-08-17T02:00:39+00:00",
+  "updated": "2022-05-20T17:56:24+00:00",
+  "media:group": {
+    "media:title": "How to build a Markdown editor using Electron, ReactJS, Vite, CodeMirror, and Remark",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, a solo developer making a Markdown note-taking app called Inkdrop.\nThis video is a tutorial on how to build a beautiful Markdown editor with the following stack:\n\n- Electron: https://www.electronjs.org/ - A framework for building cross-platform desktop apps using HTML, JS, and CSS\n- Vite: https://vitejs.dev/ - A fast build tool\n- React: A library for building UI\n- TypeScript: A typed JavaScript\n- CodeMirror 6: https://codemirror.net/6/ - An extensible code editor for the web\n- Remark: https://remark.js.org/ - An extensible Markdown processor\n\nI hope you enjoy it!\n\n▶ Download my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=gxBis8EgoAg\n\n▶ The GitHub repository of the Markdown editor tutorial\nhttps://github.com/craftzdog/electron-markdown-editor-tutorial\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My terminal set up\nhttps://www.youtube.com/watch?v=KKxhf50FIPI\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n▶ My equipments\n* Computer: Mac Pro\n* Display: Pro Display XDR\n* Keyboard: Keychron K2V2\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Slider: SliderONE v2\n\nFollow me online here:\n▶ Subscribe Newsletter http://eepurl.com/dNgJo6\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n0:00 Digest\n0:28 Intro\n1:03 Create a repository from a project boilerplate\nhttps://github.com/cawa-93/vite-electron-builder\n3:02 Set up the project to use React intead of Vue\n10:50 Make window transparent and vibrant\n11:53 Set up CodeMirror 6\n17:47 Make an editor component\n22:58 Make the editor support Markdown and apply the dark theme\n26:31 Set up Remark\n32:45 Implement syntax highlighting for Markdown preview \n38:56 Compile the app and run\n39:43 Demo\n\n#electron #reactjs #typescript",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
