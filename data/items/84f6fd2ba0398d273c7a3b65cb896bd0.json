@@ -1,0 +1,12 @@
+{
+  "title": "Logistic Regression &#8211; Geometric Intuition",
+  "link": "https://florianhartl.com/logistic-regression-geometric-intuition.html",
+  "comments": "https://florianhartl.com/logistic-regression-geometric-intuition.html#comments",
+  "dc:creator": "Florian Hartl",
+  "pubDate": "Mon, 05 Oct 2015 15:38:00 +0000",
+  "category": "Machine Learning",
+  "guid": "http://florianhartl.com/?p=174",
+  "description": "<p>Everybody who has taken a machine learning course probably knows the geometric intuition behind a support vector machine (SVM, great book): A SVM is a large margin classifier. In other words, it maximizes the geometric distance between the decision boundary and the classes of samples. Often you&#8217;ll find plots similar to this one: But what about logistic regression? What is the geometric intuition behind it and how does it compare to linear SVMs? Let&#8217;s find out. Geometric intuition behind logistic regression First, a quick reminder about the definition of the logistic function, given features: &#160; &#160; With that out of the way, let&#8217;s dive into the geometric aspects of…</p>\n<p>The post <a rel=\"nofollow\" href=\"https://florianhartl.com/logistic-regression-geometric-intuition.html\">Logistic Regression &#8211; Geometric Intuition</a> appeared first on <a rel=\"nofollow\" href=\"https://florianhartl.com\">Florian Hartl</a>.</p>\n",
+  "wfw:commentRss": "https://florianhartl.com/logistic-regression-geometric-intuition.html/feed",
+  "slash:comments": 9
+}
