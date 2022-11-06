@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:_okxGdHM5b8",
+  "yt:videoId": "_okxGdHM5b8",
+  "yt:channelId": "UCZHmQk67mSJgfCCTn7xBfew",
+  "title": "Neural Networks are Decision Trees (w/ Alexander Mattick)",
+  "link": "",
+  "author": {
+    "name": "Yannic Kilcher",
+    "uri": "https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew"
+  },
+  "published": "2022-10-21T11:28:27+00:00",
+  "updated": "2022-10-21T13:31:06+00:00",
+  "media:group": {
+    "media:title": "Neural Networks are Decision Trees (w/ Alexander Mattick)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "#neuralnetworks #machinelearning #ai \n\nAlexander Mattick joins me to discuss the paper \"Neural Networks are Decision Trees\", which has generated a lot of hype on social media. We ask the question: Has this paper solved one of the large mysteries of deep learning and opened the black-box neural networks up to interpretability?\n\nOUTLINE:\n0:00 - Introduction\n2:20 - Aren't Neural Networks non-linear?\n5:20 - What does it all mean?\n8:00 - How large do these trees get?\n11:50 - Decision Trees vs Neural Networks\n17:15 - Is this paper new?\n22:20 - Experimental results\n27:30 - Can Trees and Networks work together?\n\nPaper: https://arxiv.org/abs/2210.05189\n\nAbstract:\nIn this manuscript, we show that any feedforward neural network having piece-wise linear activation functions can be represented as a decision tree. The representation is equivalence and not an approximation, thus keeping the accuracy of the neural network exactly as is. We believe that this work paves the way to tackle the black-box nature of neural networks. We share equivalent trees of some neural networks and show that besides providing interpretability, tree representation can also achieve some computational advantages. The analysis holds both for fully connected and convolutional networks, which may or may not also include skip connections and/or normalizations.\n\nAuthor: Caglar Aytekin\n\nLinks:\nHomepage: https://ykilcher.com\nMerch: https://ykilcher.com/merch\nYouTube: https://www.youtube.com/c/yannickilcher\nTwitter: https://twitter.com/ykilcher\nDiscord: https://ykilcher.com/discord\nLinkedIn: https://www.linkedin.com/in/ykilcher\n\nIf you want to support me, the best thing to do is to share out the content :)\n\nIf you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):\nSubscribeStar: https://www.subscribestar.com/yannickilcher\nPatreon: https://www.patreon.com/yannickilcher\nBitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq\nEthereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2\nLitecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m\nMonero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

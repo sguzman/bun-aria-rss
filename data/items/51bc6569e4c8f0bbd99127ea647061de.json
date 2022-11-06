@@ -1,0 +1,16 @@
+{
+  "title": "Re-parameterising for non-negativity yields multiplicative updates",
+  "link": "https://building-babylon.net/2017/04/24/re-parameterising-for-non-negativity-yields-multiplicative-updates/",
+  "comments": "https://building-babylon.net/2017/04/24/re-parameterising-for-non-negativity-yields-multiplicative-updates/#respond",
+  "dc:creator": "Benjamin",
+  "pubDate": "Mon, 24 Apr 2017 12:19:10 +0000",
+  "category": [
+    "Optimisation",
+    "gradient descent",
+    "non-negativity"
+  ],
+  "guid": "http://building-babylon.net/?p=11101",
+  "description": "Suppose you have a model that depends on real-valued parameters, and that you would like to constrain these parameters to be non-negative. For simplicity, suppose the model has a single parameter . Let denote the error function. To constrain to be non-negative, parameterise as the square of a real-valued parameter : &#160; &#160; We can &#8230; <p class=\"link-more\"><a href=\"https://building-babylon.net/2017/04/24/re-parameterising-for-non-negativity-yields-multiplicative-updates/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> \"Re-parameterising for non-negativity yields multiplicative updates\"</span></a></p>",
+  "wfw:commentRss": "https://building-babylon.net/2017/04/24/re-parameterising-for-non-negativity-yields-multiplicative-updates/feed/",
+  "slash:comments": 0
+}

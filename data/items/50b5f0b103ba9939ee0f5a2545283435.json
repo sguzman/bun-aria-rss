@@ -1,0 +1,6 @@
+{
+  "title": "Response Times Parametric Estimation of Real-Time Systems. (arXiv:2211.01720v1 [eess.SY])",
+  "link": "http://arxiv.org/abs/2211.01720",
+  "description": "<p>Real-time systems are a set of programs, a scheduling policy and a system\narchitecture, constrained by timing requirements. Most of daily embedded\ndevices are real-time systems, e.g. airplanes, cars, trains, spatial probes,\netc. The time required by a program for its end-to-end execution is called its\nresponse time. Usually, upper-bounds of response times are computed in order to\nprovide safe deadline miss probabilities. In this paper, we propose a suited\nre-parametrization of the inverse Gaussian mixture distribution adapted to\nresponse times of real-time systems and the estimation of deadline miss\nprobabilities. The parameters and their associated deadline miss probabilities\nare estimated with an adapted Expectation-Maximization algorithm.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Zagalo_K/0/1/0/all/0/1\">Kevin Zagalo</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Verbytska_O/0/1/0/all/0/1\">Olena Verbytska</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Cucu_Grosjean_L/0/1/0/all/0/1\">Liliana Cucu-Grosjean</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Bar_Hen_A/0/1/0/all/0/1\">Avner Bar-Hen</a>"
+}
