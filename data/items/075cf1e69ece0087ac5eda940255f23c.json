@@ -1,0 +1,14 @@
+{
+  "title": "Optimization Nuggets: Exponential Convergence of SGD",
+  "link": "http://fa.bianp.net/blog/2021/exponential-sgd/",
+  "description": "<p>\n        This is the first of a series of blog posts on short and beautiful proofs in optimization (let me know what you think in the comments!). For this first post in the series I'll show that stochastic gradient descent (SGD) converges exponentially fast to a neighborhood of the solution.\n    </p>\n\n  \n    <script type=\"text/javascript\" src=\"/theme/js/bibtexParse.js\">\n    </script>\n  \n    <script type=\"text/x-mathjax-config\">\n        MathJax …</script>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 15 Dec 2021 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2021-12-15:/blog/2021/exponential-sgd/",
+  "category": [
+    "optimization",
+    "SGD",
+    "proofs",
+    "nuggets"
+  ]
+}
