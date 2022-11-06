@@ -1,0 +1,6 @@
+{
+  "title": "Exact calculation of quantizer constants for arbitrary lattices. (arXiv:2211.01987v1 [cs.IT])",
+  "link": "http://arxiv.org/abs/2211.01987",
+  "description": "<p>We present an algorithm for the computer-aided analytical construction of the\nVoronoi cells of lattices with known symmetry group. This algorithm is applied\nto the Coxeter-Todd lattice $K_{12}$ as well as to a family of lattices\nobtained from laminating $K_{12}$. This way, we obtain a locally optimal\nlattice quantizer in 13 dimensions representing a new best quantizer among the\nlattices with published exact quantizer constants.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Pook_Kolb_D/0/1/0/all/0/1\">Daniel Pook-Kolb</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Allen_B/0/1/0/all/0/1\">Bruce Allen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Agrell_E/0/1/0/all/0/1\">Erik Agrell</a>"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "How to use Keychron function keys in Linux",
+  "link": "https://rinzewind.org/blog-en/2022/how-to-use-keychron-function-keys-in-linux.html",
+  "description": "<p>I've just bought a <a href=\"https://www.keychron.com/products/keychron-k2-non-backlight-wireless-mechanical-keyboard\">Keychron \nkeyboard</a>. \nThe move from a classical membrane keyboard to a mechanical one is not being as \nstraightforward as I thought, but I like that I don't have a numerical keypad \nanymore, which was taking up precious space on my desktop. I also think it makes \nway too much noise, for my taste, despite the brown switches (hey, not blue!), \nbut it's also probably me typing too hard.</p>\n<p>One thing I noticed is that the function keys weren't working as I would expect \nthem: just have the regular function work when I press the key, and have the \nmultimedia goodies, which I don't use much, jump in when the <code>fn</code> key is added \nto the mix. Looking around, I've found <a href=\"https://github.com/ryazh3nk4/keychron_function_keys_linux\">this github \nrepository</a> which \nprovides a very simple solution for this.</p>",
+  "dc:creator": "José María Mateos",
+  "pubDate": "Tue, 25 Jan 2022 17:16:00 -0500",
+  "guid": "tag:rinzewind.org,2022-01-25:/blog-en/2022/how-to-use-keychron-function-keys-in-linux.html",
+  "category": "Blog"
+}

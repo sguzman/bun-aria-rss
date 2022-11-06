@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39017 (hubshare)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39017",
+  "description": "Improper input validation and output encoding in all comments fields, in M-Files Hubshare before 3.3.10.9 allows authenticated attackers to introduce cross-site scripting attacks via specially crafted comments.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

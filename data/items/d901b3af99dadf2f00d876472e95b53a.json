@@ -1,0 +1,16 @@
+{
+  "title": "Group-by From Scratch",
+  "link": "",
+  "published": "2017-03-22T10:00:00-07:00",
+  "updated": "2017-03-22T10:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2017-03-22:blog/2017/03/22/group-by-from-scratch/",
+  "summary": "<p>I've found one of the best ways to grow in my scientific coding is to spend time comparing the efficiency of various approaches to implementing particular algorithms that I find useful, in order to build an intuition of the performance of the building blocks of the scientific Python ecosystem.</p>\n<p>In this vein, today I want to take a look at an operation that is in many ways fundamental to data-driven exploration: the group-by, otherwise known as the <a href=\"https://www.jstatsoft.org/article/view/v040i01\">split-apply-combine</a> pattern.\nAn architypical example of a summation group-by is shown in this figure, borrowed from the <a href=\"http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.08-Aggregation-and-Grouping.ipynb\">Aggregation and Grouping</a> section of the <a href=\"https://github.com/jakevdp/PythonDataScienceHandbook\">Python Data Science Handbook</a>:</p>\n\n\n\n\n\n\n\n\n<p><img src=\"https://jakevdp.github.io/figures/split-apply-combine.svg\" alt=\"split-apply-combine diagram\"></p>\n\n\n\n\n\n\n\n\n<p>The basic idea is to split the data into groups based on some value, apply a particular operation to the subset of data within each group (often an aggregation), and then combine the results into an output dataframe.\nPython users generally turn to the <a href=\"http://pandas.pydata.org\">Pandas</a> library for this type of operation, where it is is implemented effiently via a concise object-oriented API:</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

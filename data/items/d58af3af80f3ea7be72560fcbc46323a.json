@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:QEIGc3tXGmM",
+  "yt:videoId": "QEIGc3tXGmM",
+  "yt:channelId": "UCAczr0j6ZuiVaiGFZ4qxApw",
+  "title": "What’s In A Bit – Designing, Using And Reverse-engineering Binary File Formats - Peter Bindels",
+  "link": "",
+  "author": {
+    "name": "cpponsea",
+    "uri": "https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw"
+  },
+  "published": "2022-09-26T15:00:13+00:00",
+  "updated": "2022-09-26T16:03:15+00:00",
+  "media:group": {
+    "media:title": "What’s In A Bit – Designing, Using And Reverse-engineering Binary File Formats - Peter Bindels",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "C++ on Sea Website: https://cpponsea.uk/\nC++ on Sea Twitter: https://twitter.com/cpponsea\n---\nWhat’s in a Bit – Peter Bindels - C++ on Sea 2022\nSlides: https://github.com/philsquared/cpponsea-slides/tree/master/2022\n \nEver tried to create a .COM program by writing a text file and renaming it?\n \nHow does your computer remember that something is a PNG image if you remove the extension? And why can you unzip some file formats but not others?\n \nHow do you make a program use a dataset that is too big for memory, but that fits on your disk?\n \nHow do you store information compactly in a way that is quick to read?\n \nWhere do you begin to read a JPG file? And how do you read unknown binary files?\n \nIn this talk I will be explaining the history of binary file formats, the different styles of binary file formats that are in common use and give examples how to reverse engineer file formats. I will provide an intro into reading and designing binary file formats with the implied goal of efficiency and speed.\n--- \n\nPeter Bindels \n\nPeter is a dedicated software engineer that is eager to show the world how to use C++ and good design to write fast, efficient, and reliable software.\n \nC++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event.\n\n- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/\n- 2022 Program: https://cpponsea.uk/2022/schedule/\n--- \nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk\n\n#Programming​ #binary #CppOnSea​",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

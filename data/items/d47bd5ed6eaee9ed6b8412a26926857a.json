@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:8p8qa2btZTU",
+  "yt:videoId": "8p8qa2btZTU",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Behind the Scenes: Teaser Image for \"Discrete Conformal Equivalence of Polyhedral Surfaces\"",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2021-05-25T18:32:39+00:00",
+  "updated": "2022-07-15T16:16:27+00:00",
+  "media:group": {
+    "media:title": "Behind the Scenes: Teaser Image for \"Discrete Conformal Equivalence of Polyhedral Surfaces\"",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "None of these models overlap when you look at them from the initial viewpoint.  But what happens when you move the camera?\n\nThis is a \"just-for-fun\" video showing how the teaser image was created for\n\nMark Gillespie, Boris Springborn, Keenan Crane\n\"Discrete Conformal Equivalence of Polyhedral Surfaces\"\n(ACM Transactions on Graphics 2021)\nhttp://www.cs.cmu.edu/~kmcrane/Projects/CEPS/index.html\n\nA standard way to show a bunch of results in a geometry processing paper is to pack rendered 2D images into a single image using Qingnan Zhou's \"Mosaic Generator\": https://github.com/qnzhou/Mosaic\n\nWe put a twist on this idea by arranging our models in 3D space so that they nicely pack into a 2D image when projected onto the camera plane.  The video shows what happens when you move the camera from the \"perfect location\"!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

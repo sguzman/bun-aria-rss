@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:yrDbD90HXyo",
+  "yt:videoId": "yrDbD90HXyo",
+  "yt:channelId": "UC4zzTEL5tuIgGMvzjk1Ozbg",
+  "title": "More circles on a sphere of cubes",
+  "link": "",
+  "author": {
+    "name": "Henry Segerman",
+    "uri": "https://www.youtube.com/channel/UC4zzTEL5tuIgGMvzjk1Ozbg"
+  },
+  "published": "2022-01-15T00:10:55+00:00",
+  "updated": "2022-01-15T17:59:25+00:00",
+  "media:group": {
+    "media:title": "More circles on a sphere of cubes",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This is a followup video to https://youtu.be/A2IAyXc0LuE.\n\nThe original Shadertoy demo: https://www.shadertoy.com/view/7ds3zB\n\nThe closest parallel planes:\nSuppose that v is an integer vector with no common factors between its coordinates. We want to find the integer vector u so that the component of u in the direction of v is as small as possible but still strictly positive. This component can be written using the dot product as u·v/|v|. Since v has no common factors between its coordinates, we can find an integer vector u so that u·v = 1. Thus the distance between the plane perpendicular to v and based at the origin and the parallel plane based at the end of u is 1/|v|. There is no closer plane, since u.v must be an integer.\n\nCorrection: the ripple frequency is proportional to the length of v, not inversely proportional. (Longer vectors have higher frequency ripples.)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:K_GevRRFTNU",
+  "yt:videoId": "K_GevRRFTNU",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "Formalities & Informalities: Not-So-Casual Friday [Intro to HoTT, No. 2, Part 3]",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2022-06-09T19:19:36+00:00",
+  "updated": "2022-06-20T21:26:57+00:00",
+  "media:group": {
+    "media:title": "Formalities & Informalities: Not-So-Casual Friday [Intro to HoTT, No. 2, Part 3]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Part 3 of Formalities & Informalities (Parts 0, 1, 2: https://youtu.be/-QKLxN1_nvk https://youtu.be/J-v7m_tdTfE https://youtu.be/97twa7KgQ6k), answering the question:  how do we do Homotopy Type Theory? In this video, I bring together everything covered in Parts 0, 1, and 2 with an example: the days of the week!\n\nVideo site for the series: https://intro-hott.video\nYoutube: https://www.youtube.com/playlist?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq\nInstagram: @Intro_HoTT\nTwitter: @Intro_HoTT\n\nFormalization links:\n- Appeared in this video: https://github.com/jacobneu/HoTT-agda/blob/main/example-daysOfWeek.agda\n- The formalization I'm developing for this video series: https://github.com/jacobneu/HoTT-agda\n- The formalization it's based on (by Egbert Rijke, for his upcoming textbook): https://github.com/HoTT-Intro/Agda\n- More up-to-date HoTT formalization in Agda: https://github.com/UniMath/agda-unimath\n\nHoTT textbooks:\n- The HoTT Book (2013) -- the original statement of HoTT: https://homotopytypetheory.org/book/\n- Introduction to Homotopy Type Theory, by Egbert Rijke (to be released): https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory\n\n\nImage/audio credits:\n- https://commons.wikimedia.org/wiki/File:090-ghost.svg\n- https://en.wikipedia.org/wiki/Claude_Shannon#/media/File:ClaudeShannon_MFO3807.jpg\n- https://en.wikipedia.org/wiki/Boolean_circuit#/media/File:Three_input_Boolean_circuit.jpg\n- https://commons.wikimedia.org/wiki/File:Full-adder.svg\n- \"Wholesome\" by Kevin MacLeod (incompetech.com); CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\n- \"Brandenburg Concerto No4-1 BWV1049 - Classical Whimsical\" (JS Bach) by Kevin MacLeod (incompetech.com); CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\n\n\n\nHomotopy type theory (HoTT) is a new branch of type theory and a new foundation for mathematics. It serves as a common language for reasoning about computation (functional programming), about mathematical structure (synthetic homotopy theory and higher category theory), and about constructive logic. This Introduction to Homotopy Type Theory video lecture series is intended to explain what HoTT is, show how to work in HoTT (including how formalization in Agda works), and give intuition for why HoTT is the way it is. I don’t assume any particular background familiarity, but the more you know about mathematics, computer science, and logic, the more you’ll be able to get out of these videos. Enjoy!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

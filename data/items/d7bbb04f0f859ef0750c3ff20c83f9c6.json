@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3318 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3318",
+  "description": "Use after free in ChromeOS Notifications in Google Chrome on ChromeOS prior to 106.0.5249.62 allowed a remote attacker who convinced a user to reboot Chrome OS to potentially exploit heap corruption via UI interaction. (Chrome security severity: Low)",
+  "dc:date": "2022-11-01T20:15:21Z"
+}

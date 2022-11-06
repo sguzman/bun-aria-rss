@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42473 (fortisoar)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42473",
+  "description": "A missing authentication for a critical function vulnerability in Fortinet FortiSOAR 6.4.0 - 6.4.4 and 7.0.0 - 7.0.3 and 7.2.0 allows an attacker to disclose information via logging into the database using a privileged account without a password.",
+  "dc:date": "2022-11-02T12:15:55Z"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "HTTP/2 Request Smuggling",
+  "description": "HTTP Request Smuggling (also known as an HTTP Desync Attack) has experienced a resurgence in security research recently, thanks in large part to the outstanding work by security researcher James Kettle. His 2019 Blackhat presentation on HTTP Desync attacks exposed vulnerabilities with different implementations of the HTTP Standards, particularly within proxy servers and Content Delivery Networks (CDNs).These implementation differences with regard to how proxy servers interpret the construction of web requests have led to new request smuggling vulnerabilities. (Direct link to information on new vulnerability).",
+  "link": "https://www.akamai.com/blog/security/http-2-request-smulggling",
+  "author": "Ryan Barnett",
+  "guid": "https://www.akamai.com/blog/security/http-2-request-smulggling",
+  "pubDate": "Thu, 05 Aug 2021 04:00 AM UTC"
+}

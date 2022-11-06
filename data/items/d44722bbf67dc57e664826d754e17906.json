@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Vpmtm5O8CJY",
+  "yt:videoId": "Vpmtm5O8CJY",
+  "yt:channelId": "UCBcljXmuXPok9kT_VGA3adg",
+  "title": "LMARV-1 reboot part 6: About CSRs and interrupts",
+  "link": "",
+  "author": {
+    "name": "Robert Baruch",
+    "uri": "https://www.youtube.com/channel/UCBcljXmuXPok9kT_VGA3adg"
+  },
+  "published": "2020-12-11T17:00:12+00:00",
+  "updated": "2022-07-22T11:25:58+00:00",
+  "media:group": {
+    "media:title": "LMARV-1 reboot part 6: About CSRs and interrupts",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This part explains a bit about CSRs (Control and Status Registers) and how interrupts get handled.\n\nnMigen exercises: https://github.com/RobertBaruch/nmigen-exercises/blob/main/README.md\n\ngithub repo for code: https://github.com/RobertBaruch/riscv-reboot\n\nRISC-V specs: https://riscv.org/technical/specifications/\n\nnMigen tutorial: https://github.com/RobertBaruch/nmigen-tutorial/blob/master/README.md",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

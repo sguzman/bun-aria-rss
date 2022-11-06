@@ -1,0 +1,8 @@
+{
+  "title": "Adding Akamai Shared Domains to the Public Suffix List",
+  "description": "Akamai plans to submit a number of our shared domains to the ?PRIVATE? section of the Public Suffix List (PSL) at some point on or after March 31, 2022. The PSL contains multi-party domain suffixes and is used by a wide range of client software (for example, web browsers) to implement policy decisions, such as to prevent cookies from being set on public or multi-party domains.",
+  "link": "https://www.akamai.com/blog/developers/adding-akamai-shared-domains-to-the-public-suffix-list",
+  "author": "Erik Nygren",
+  "guid": "https://www.akamai.com/blog/developers/adding-akamai-shared-domains-to-the-public-suffix-list",
+  "pubDate": "Mon, 21 Mar 2022 05:00 AM UTC"
+}

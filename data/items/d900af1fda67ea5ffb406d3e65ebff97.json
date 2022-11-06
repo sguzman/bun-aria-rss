@@ -1,0 +1,15 @@
+{
+  "title": "A Primer on Python Metaclasses",
+  "link": "",
+  "published": "2012-12-01T07:25:00-08:00",
+  "updated": "2012-12-01T07:25:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-12-01:blog/2012/12/01/a-primer-on-python-metaclasses/",
+  "summary": "Most readers are aware that Python is an object-oriented language.  By\nobject-oriented, we mean that Python can define <em>classes</em>, which bundle\n<strong>data</strong> and <strong>functionality</strong> into one entity.  For example, we may\ncreate a class <code>IntContainer</code> which stores an integer and allows\ncertain operations to be performed:</p>\n\n\n\n\n\n\n\n\n    \n\n    <span class=\"k\">def</span> <span class=\"nf\">__init__</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">i</span><span class=\"p\">):</span>\n        <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">i</span> <span class=\"o\">=</span> <span class=\"nb\">int</span><span class=\"p\">(</span><span class=\"n\">i</span><span class=\"p\">)</span>\n\n    <span class=\"k\">def</span> <span class=\"nf\">add_one</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">):</span>\n        <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">i</span> <span class=\"o\">+=</span> <span class=\"mi\">1</span>\n</pre>\n\n\n\n\n\n\n\n\n\n\n    \n\n<span class=\"n\">ic</span><span class=\"o\">.</span><span class=\"n\">add_one</span><span class=\"p\">()</span>\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">ic</span><span class=\"o\">.</span><span class=\"n\">i</span><span class=\"p\">)</span>\n</pre>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<pre>3\n</pre>\n\n\n\n\n\n\n\n\n\n\n\n<p>This is a bit of a silly example, but shows the fundamental nature of\nclasses: their ability to bundle data and operations into a single\n<em>object</em>, which leads to cleaner, more manageable, and more adaptable code.\nAdditionally, classes can inherit properties from parents and add or\nspecialize attributes and methods.  This <em>object-oriented</em>\napproach to programming can be very intuitive and powerful.</p>\n<p>What many do not realize, though, is that quite literally\n<a href=\"http://www.diveintopython.net/getting_to_know_python/everything_is_an_object.html\"><em>everything</em></a>\nin the Python language is an object.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

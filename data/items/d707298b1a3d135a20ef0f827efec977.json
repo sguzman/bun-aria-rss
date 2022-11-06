@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:pePqWoTnSmQ",
+  "yt:videoId": "pePqWoTnSmQ",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Crust of Rust: Build Scripts and Foreign-Function Interfaces (FFI)",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-09-24T20:25:06+00:00",
+  "updated": "2022-10-02T15:39:48+00:00",
+  "media:group": {
+    "media:title": "Crust of Rust: Build Scripts and Foreign-Function Interfaces (FFI)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This time we go over Cargo build scripts and Rust foreign-function interfaces, including looking at some widely used *-sys crates. We also wrote our own bindings against the libsodium C library: https://doc.libsodium.org/. You can find the Cargo book entry for build scripts at https://doc.rust-lang.org/cargo/reference/build-scripts.html, and the nomicon entry for ffi at https://doc.rust-lang.org/nomicon/ffi.html.\n\nLive version with chat: https://youtu.be/pSTPJ39LsEU\n\n0:00:00 Introduction\n0:02:58 libsodium\n0:04:28 Build scripts\n0:07:00 OUT_DIR\n0:18:01 cargo directives\n0:34:09 Build script sandboxing\n0:36:36 libgit2-sys\n0:54:31 bindgen\n1:08:08 libssh2-sys\n1:14:38 openssl-sys\n1:19:50 libsodium-sys\n1:21:29 Writing our own libsodium-sys\n1:40:11 Wrapping crypto_generichash\n2:02:57 Reverse FFI\n2:09:30 autocfg\n2:12:14 cbindgen and cxx\n\nThe Rustacean Station Discord server is at https://discord.gg/RJdqQ9n.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

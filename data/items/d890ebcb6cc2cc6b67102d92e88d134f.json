@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-38381 (fortiadc)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38381",
+  "description": "An improper handling of malformed request vulnerability [CWE-228] exists in FortiADC 5.0 all versions, 6.0.0 all versions, 6.1.0 all versions, 6.2.0 through 6.2.3, and 7.0.0 through 7.0.2. This may allow a remote attacker without privileges to bypass some Web Application Firewall (WAF) protection such as the SQL Injection and XSS filters via a malformed HTTP request.",
+  "dc:date": "2022-11-02T12:15:54Z"
+}

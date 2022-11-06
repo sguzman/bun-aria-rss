@@ -1,0 +1,6 @@
+{
+  "title": "Data assimilation: A dynamic homotopy-based coupling approach. (arXiv:2209.05279v2 [math.NA] UPDATED)",
+  "link": "http://arxiv.org/abs/2209.05279",
+  "description": "<p>Homotopy approaches to Bayesian inference have found widespread use\nespecially if the Kullback-Leibler divergence between the prior and the\nposterior distribution is large. Here we extend one of these homotopy approach\nto include an underlying stochastic diffusion process. The underlying\nmathematical problem is closely related to the Schr\\\"odinger bridge problem for\ngiven marginal distributions. We demonstrate that the proposed homotopy\napproach provides a computationally tractable approximation to the underlying\nbridge problem. In particular, our implementation builds upon the widely used\nensemble Kalman filter methodology and extends it to Schr\\\"odinger bridge\nproblems within the context of sequential data assimilation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Reich_S/0/1/0/all/0/1\">Sebastian Reich</a>"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:bSMZgXzC9AA",
+  "yt:videoId": "bSMZgXzC9AA",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to build a portfolio website using Next.js, Chakra UI, Framer Motion, and Three.js",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2021-10-15T02:05:53+00:00",
+  "updated": "2022-04-14T12:18:09+00:00",
+  "media:group": {
+    "media:title": "How to build a portfolio website using Next.js, Chakra UI, Framer Motion, and Three.js",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Osaka, Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nIn this video, I share how I built my portfolio website using Next.js, Chakra UI, Framer Motion, and Three.js.\nI hope you enjoy it!\n\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=bSMZgXzC9AA\n▶ Visit my homepage\nhttps://www.craftz.dog/\n▶ Source code\nhttps://github.com/craftzdog/craftzdog-homepage\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My terminal set up\nhttps://www.youtube.com/watch?v=KKxhf50FIPI\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n\n▶ My recording equipments\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n\n* Slider: SliderONE v2\n* Terminal: Hacked Hyper - https://dev.to/craftzdog/getting-side-by-side-preview-in-a-terminal-app-hyper-20ii\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe Newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n0:00 Digest\n01:27 Create a new project\n02:51 Configure the project (ESLint, Prettier, etc)\n05:06 Create index page\n07:35 Integrate with Chakra UI\n11:16 Go to a cafe!\n12:00 Add a navigation bar\n27:05 Support dark theme\n34:17 Change font\n35:21 Add my profile image\n37:43 Add animated profile sections\n40:04 Add my bio\n45:19 Animate the toggle theme button\n47:02 Add 'works' page\n54:36 Implement page transitions with Framer Motion\n58:42 Add 3D voxel dog with Three.js\n01:16:36 Back to my home and fix dog's top margin\n01:17:01 Customize 404 page\n01:19:19 Add work detail pages\n01:27:01 Add 'Posts' page\n01:30:15 Add social media links\n01:36:07 Deploy the website on Vercel\n01:38:07 Deploy successful 🎉\n\n#codewithme #ASMR #codingtutorial",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

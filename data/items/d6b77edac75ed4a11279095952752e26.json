@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-4446292666398344382.post-5989126378435033466",
+  "published": "2017-08-10T23:35:00.000-07:00",
+  "updated": "2017-08-23T16:25:20.971-07:00",
+  "title": "ICML 2017 Thoughts",
+  "content": "ICML 2017 has just ended.  While Sydney is remote for those in Europe and North America, the conference center<br />is a wonderful venue (with good coffee!), and the city is a lot of fun.  Everything went smoothly and the <br />organizers did a great job.<br /><br />You can get a list of papers that I liked from my <a href=\"https://twitter.com/paulmineiro\">Twitter feed</a>, so instead I'd like to discuss some broad themes <br />I sensed.<br /><br /><ul><li><b>Multitask regularization to mitigate sample complexity in RL.</b>  Both in video games and in dialog, it is useful to add extra (auxiliary) tasks in order to accelerate learning.</li><li><b>Leveraging knowledge and memory.</b>  Our current models are powerful function approximators, but in NLP especially we need to go beyond \"the current example\" in order exhibit competence.</li><li><b>Gradient descent as inference.</b>  Whether it's <a href=\"https://arxiv.org/abs/1703.03208\">inpainting with a GAN</a> or <a href=\"http://people.eng.unimelb.edu.au/tcohn/papers/emnlp17relopt.pdf\">BLUE score maximization with an RNN</a>, gradient descent is an unreasonably good inference algorithm.</li><li><b>Careful initialization is important.</b>  I suppose traditional optimization people would say \"of course\", but we're starting to appreciate the importance of good initialization for deep learning.  In particular, start close to linear with eigenvalues close to 1. (<a href=\"https://arxiv.org/abs/1702.08591\">Balduzzi et. al.</a> , <a href=\"https://arxiv.org/abs/1606.05340\">Poole et. al.</a>)</li><li><b>Convolutions are as good as, and faster than, recurrent models for NLP.</b>  Nice work out of Facebook on <a href=\"https://arxiv.org/abs/1705.03122\">causal convolutions</a> for seq2seq.  This aligns with my personal experience: we use convolutional NLP models in production for computational performance reasons.</li><li><b>Neural networks are overparameterized.</b>  They can be made much sparser without losing accuracy (<a href=\"https://arxiv.org/abs/1701.05369\">Molchanov et. al.</a>, <a href=\"https://arxiv.org/abs/1708.00077\">Lobacheva et. al.</a>).</li><li><b>maluuba had the best party.</b>  Woot!</li></ul>Finally, I kept thinking <i>the papers are all &ldquo;old&rdquo;.</i>  While there were lots of papers I was seeing for the first time, it nonetheless felt like the results were all dated because I've become addicted to &ldquo;fresh results&rdquo; on arxiv.<br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Paul Mineiro",
+    "uri": "http://www.blogger.com/profile/05439062526157173163",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 3
+}
