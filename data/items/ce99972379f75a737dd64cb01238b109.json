@@ -1,0 +1,16 @@
+{
+  "title": "Learning Seattle's Work Habits from Bicycle Counts",
+  "link": "",
+  "published": "2015-07-23T08:00:00-07:00",
+  "updated": "2015-07-23T08:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-07-23:blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/",
+  "summary": "<p>Last year I wrote a <a href=\"https://jakevdp.github.io/blog/2014/06/10/is-seattle-really-seeing-an-uptick-in-cycling/\">blog post</a> examining trends in Seattle bicycling and how they relate to weather, daylight, day of the week, and other factors.</p>\n<p>Here I want to revisit the same data from a different perspective: rather than making assumptions in order to build models that might describe the data, I'll instead wipe the slate clean and ask what information we can extract from the data themselves, without reliance on any model assumptions.\nIn other words, where the previous post examined the data using a <em>supervised machine learning</em> approach for <em>data modeling</em>, this post will examine the data using an <em>unsupervised learning approach</em> for <em>data exploration</em>.</p>\n<p>Along the way, we'll see some examples of importing, transforming, visualizing, and analyzing data in the Python language, using mostly <a href=\"http://pandas.pydata.org/\">Pandas</a>, <a href=\"http://matplotlib.org/\">Matplotlib</a>, and <a href=\"http://scikit-learn.org/\">Scikit-learn</a>.\nWe will also see some real-world examples of the use of unsupervised machine learning algorithms, such as Principal Component Analysis and Gaussian Mixture Models, in exploring and extracting meaning from data.</p>\n<p>To spoil the punchline (and perhaps whet your appetite) what we will find is that from analysis of bicycle counts alone, we can make some definite statements about the aggregate work habits of Seattleites who commute by bicycle.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

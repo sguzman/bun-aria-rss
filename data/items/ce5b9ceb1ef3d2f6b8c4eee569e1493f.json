@@ -1,0 +1,9 @@
+{
+  "title": "Initial implementation of the query system",
+  "link": "http://fa.bianp.net/blog/2009/initial-implementation-of-the-query-system/",
+  "description": "<p>I sent <a class=\"reference external\" href=\"http://groups.google.com/group/sympy-patches/browse_thread/thread/e56ceda0038b7c23\">some patches</a> to sympy-patches with an initial implementation\nof the query system. You can check it out by pulling from my branch:\n<tt class=\"docutils literal\">git pull <span class=\"pre\">http://fa.bianp.net/git/sympy.git</span> master</tt> into your sympy\nrepo. Some examples of what you can do (sample isympy session):\n<tt class=\"docutils literal\">In [1 …</tt></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 12 Jun 2009 06:36:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-06-12:/blog/2009/initial-implementation-of-the-query-system/",
+  "category": "General, sympy, Tecnologí­a"
+}

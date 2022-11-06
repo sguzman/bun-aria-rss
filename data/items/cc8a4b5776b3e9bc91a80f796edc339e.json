@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "Bruce Schneier"
+  },
+  "title": "NSA on Supply Chain Security",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "id": "https://www.schneier.com/?p=66028",
+  "updated": "2022-11-04T14:16:51Z",
+  "published": "2022-11-04T14:16:51Z",
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "summary": "<p>The NSA (together with CISA) has <a href=\"https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3204427/esf-partners-nsa-and-cisa-release-software-supply-chain-guidance-for-suppliers/\">published</a> a long report on supply-chain security: &#8220;<a href=\"https://media.defense.gov/2022/Oct/31/2003105368/-1/-1/0/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_SUPPLIERS.PDF\">Securing the Software Supply Chain: Recommended Practices Guide for Suppliers.</a>&#8220;:</p>\n<blockquote><p>Prevention is often seen as the responsibility of the software developer, as they are required to securely develop and deliver code, verify third party components, and harden the build environment. But the supplier also holds a critical responsibility in ensuring the security and integrity of our software. After all, the software vendor is responsible for liaising between the customer and software developer. It is through this relationship that additional security features can be applied via contractual agreements, software releases and updates, notifications and mitigations of vulnerabilities...</p></blockquote>",
+  "content": "<p>The NSA (together with CISA) has <a href=\"https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3204427/esf-partners-nsa-and-cisa-release-software-supply-chain-guidance-for-suppliers/\">published</a> a long report on supply-chain security: &#8220;<a href=\"https://media.defense.gov/2022/Oct/31/2003105368/-1/-1/0/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_SUPPLIERS.PDF\">Securing the Software Supply Chain: Recommended Practices Guide for Suppliers.</a>&#8220;:</p>\n<blockquote><p>Prevention is often seen as the responsibility of the software developer, as they are required to securely develop and deliver code, verify third party components, and harden the build environment. But the supplier also holds a critical responsibility in ensuring the security and integrity of our software. After all, the software vendor is responsible for liaising between the customer and software developer. It is through this relationship that additional security features can be applied via contractual agreements, software releases and updates, notifications and mitigations of vulnerabilities.</p>\n<p>Software suppliers will find guidance from NSA and our partners on preparing organizations by defining software security checks, protecting software, producing well-secured software, and responding to vulnerabilities on a continuous basis. Until all stakeholders seek to mitigate concerns specific to their area of responsibility, the software supply chain cycle will be vulnerable and at risk for potential compromise.</p></blockquote>\n<p>They previously published &#8220;<a href=\"https://www.cisa.gov/uscert/sites/default/files/publications/ESF_SECURING_THE_SOFTWARE_SUPPLY_CHAIN_DEVELOPERS.PDF\">Securing the Software Supply Chain: Recommended Practices Guide for Developers.</a>&#8221; And they plan on publishing one focused on customers.</p>\n",
+  "thr:total": 7
+}

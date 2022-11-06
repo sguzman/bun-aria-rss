@@ -1,0 +1,13 @@
+{
+  "title": "Nonlinear Budget Set Regressions for the Random Utility Model",
+  "link": "https://fedinprint.org/item/feddwp/94867/original",
+  "description": "This paper is about the nonparametric regression of a choice variable on a nonlinear budget set when there is general heterogeneity, i.e., in the random utility model (RUM). We show that utility maximization makes this a three-dimensional regression with piecewise linear, convex budget sets with a more parsimonious specification than previously derived. We show that the regression allows for measurement and/or optimization errors in the outcome variable. We characterize all of the restrictions of utility maximization on the budget set regression and show how to check these restrictions. We formulate nonlinear budget set effects that can be identified by this regression and give automatic debiased machine learners of these effects. We find that in practice nonconvexities in the budget set have little effect on these estimates. We use control variables to allow for endogeneity of budget sets and adjust for productivity growth in taxable income. We apply the results to estimate .52 as the elasticity of an overall tax rate change in Sweden. We also find that the restrictions of utility maximization are satisfied at the choices made by nearly all individuals in the data.",
+  "guid": "https://fedinprint.org/item/feddwp/94867/original",
+  "dc:creator": "Liang, Che-Yuan; Blomquist, Soren; Newey, Whitney K.; Kumar, Anil",
+  "dc:date": "2022-09-28",
+  "rdau:hasExtent": 54,
+  "dc:subject": "nonlinear budget sets; nonparametric estimation; heterogeneous preferences; taxable income; revealed stochastic preference",
+  "swpo:hasNumber": 2219,
+  "identifiers:doi": "10.24149/wp2219",
+  "bibo:series": "Working Papers"
+}

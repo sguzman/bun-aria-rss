@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:tRfa93xp0SI",
+  "yt:videoId": "tRfa93xp0SI",
+  "yt:channelId": "UCTdw38Cw6jcm0atBPA39a0Q",
+  "title": "Easier Deployments using a Green:Blue Strategy - Patrick Zhao - NDC Melbourne 2022",
+  "link": "",
+  "author": {
+    "name": "NDC Conferences",
+    "uri": "https://www.youtube.com/channel/UCTdw38Cw6jcm0atBPA39a0Q"
+  },
+  "published": "2022-10-20T07:10:03+00:00",
+  "updated": "2022-10-25T05:03:32+00:00",
+  "media:group": {
+    "media:title": "Easier Deployments using a Green:Blue Strategy - Patrick Zhao - NDC Melbourne 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Microservice is a blazing topic today. From SMEs to large corporations, building solution in microservice architecture has been the trend. However, how to quickly build and deploy the microservice to production across different environments while keeping the impact to the live production side to the minimal have been a challenge.\n\nIn my talk, I will show the audience how to build the DevOps pipeline and work out a release strategy to better deploy micro-services into production. I call it MicroDevOps. We will use Azure DevOps to build a proof of concept to showcase the concept of blue green deployment and best practises to bring a microservice solution into production.\n\n\nCheck out more of our featured speakers and talks at\nhttps://www.ndcconferences.com\nhttps://ndcmelbourne.com/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "title": "People flooded this chart presented without comment with lots of comments",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a00d8341e992c53ef02a2eed87503200d",
+  "published": "2022-10-05T09:07:00-04:00",
+  "updated": "2022-10-05T04:02:16-04:00",
+  "summary": "Kaiser dares to comment on a chart that requires no comment",
+  "author": {
+    "name": "junkcharts"
+  },
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        "The recent election in Italy has resulted in some dubious visual analytics. A reader sent me this Excel chart:",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "In brief, an Italian politician (trained as a PhD economist) used the graph above to make a point that support of the populist Five Star party (M5S) is highly correlated with poverty - the number of people on RDC (basic income). \"Senza commento\" - no comment needed.",
+        "Except a lot of people noticed the idiocy of the chart, and ridiculed it.",
+        "The chart appeals to those readers who don't spend time understanding what's being plotted. They notice two lines that show similar \"trends\" which is a signal for high correlation.",
+        "It turns out the signal in the chart isn't found in the peaks and valleys of the \"trends\".&#0160; It is tempting to observe that when the blue line peaks (Campania, Sicilia, Lazio, Piedmonte, Lombardia), the orange line also pops.",
+        {
+          "a": "axis",
+          "#text": "But look at the vertical. He's plotting the number of people, rather than the proportion of people. Population varies widely between Italian provinces. The five mentioned above all have over 4 million residents, while the smaller ones such as Umbira, Molise, and Basilicata have under 1 million. Thus, so long as the number of people, not the proportion, is plotted, no matter what demographic metric is highlighted, we will see peaks in the most populous provinces."
+        },
+        "***",
+        {
+          "a": [
+            "line chart",
+            "axis",
+            "order"
+          ],
+          "#text": "The other issue with thisis that the \"peaks\" are completely contrived. That's because the items on the horizontaldo not admit a natural. This is NOT a time-series chart, for which there is a canonical order. The horizontal axis contains a set of provinces, which can be ordered in whatever way the designer wants."
+        },
+        "The following shows how the appearance of the lines changes as I select different metrics by which to sort the provinces:",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "This is the reason why many chart purists frown on people who use connected lines with categorical data. I don't like this hard rule, as my readers know. In this case, I have to agree the line chart is not appropriate.",
+        "***",
+        "So, where is the signal on the line chart? It's in the ratio of the heights of the two values for each province.",
+        {
+          "a": {
+            "img": ""
+          },
+          "br": [
+            "",
+            ""
+          ]
+        },
+        "Here, we find something counter-intuitive. I've highlighted two of the peaks. In Sicilia, about the same number of people voted for Five Star as there are people who receive basic income. In Lombardia, more than twice the number of people voted for Five Star as there are people who receive basic income.&#0160;",
+        "Now, Lombardy is where Milan is, essentially the richest province in Italy while Sicily is one of the poorest. Could it be that Five Star actually outperformed their demographics in the richer provinces?",
+        "***",
+        "Let's approach the politician's question systematically. He's trying to say that the Five Star moement appeals especially to poorer people. He's chosen basic income as a proxy for poverty (this is like people on welfare in the U.S.). Thus, he's divided the population into two groups: those on welfare, and those not.",
+        "What he needs is the relative proportions of votes for Five Star among these two subgroups. Say, Five Star garnered 30% of the votes among people on welfare, and 15% of the votes among people not on welfare, then we have a piece of evidence that Five Star differentially appeals to people on welfare. If the vote share is the same among these two subgroups, then Five Star's appeal does not vary with welfare.",
+        "The following diagram shows the analytical framework:",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "What's the problem? He doesn't have the data needed to establish his thesis. He has the total number of Five Star voters (which is the sum of the two yellow boxes) and he has the total number of people on RDC (which is the dark orange box).",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "As shown above, another intervening factor is the proportion of people who voted. It is conceivable that the propensity to vote also depends on one's wealth.",
+        "So, in this case, fixing the visual will not fix the problem. Finding better data is key."
+      ]
+    }
+  }
+}

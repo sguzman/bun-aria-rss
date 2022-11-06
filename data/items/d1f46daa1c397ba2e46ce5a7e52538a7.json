@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3844 (webmin)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3844",
+  "description": "A vulnerability, which was classified as problematic, was found in Webmin. Affected is an unknown function of the file xterm/index.cgi. The manipulation leads to basic cross site scripting. It is possible to launch the attack remotely. The name of the patch is d3d33af3c0c3fd3a889c84e287a038b7a457d811. It is recommended to apply a patch to fix this issue. VDB-212862 is the identifier assigned to this vulnerability.",
+  "dc:date": "2022-11-02T20:15:11Z"
+}

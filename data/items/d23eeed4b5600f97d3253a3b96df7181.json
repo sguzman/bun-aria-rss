@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3321 (warp_mobile_client)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3321",
+  "description": "It was possible to bypass Lock WARP switch feature https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/warp-settings/#lock-warp-switch on the WARP iOS mobile client by enabling both &quot;Disable for cellular networks&quot; and &quot;Disable for Wi-Fi networks&quot; switches at once in the application settings. Such configuration caused the WARP client to disconnect and allowed the user to bypass restrictions and policies enforced by the Zero Trust platform.",
+  "dc:date": "2022-10-28T10:15:16Z"
+}

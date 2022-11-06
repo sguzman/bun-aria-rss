@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-7042197233498512178",
+  "published": "2017-03-30T12:24:00.000-07:00",
+  "updated": "2017-03-30T12:28:18.843-07:00",
+  "title": "Sum of Two Odd Composite Numbers",
+  "content": "What is the largest even integer that cannot be written as the sum of two odd composite numbers? Source: <a href=\"https://artofproblemsolving.com/wiki/index.php/1984_AIME_Problems\" target=\"_blank\">AIME 1984</a>, problem 14.<br /><br />Note \\(24 = 3\\cdot 3 + 3\\cdot 5\\), and so if \\(2k\\) has a representation as the sum of even multiples of 3 and 5, say \\(2k = e_3\\cdot 3 + e_5\\cdot 5\\), we get a representation of \\(2k+24\\) as a sum of odd composites via \\(2k+24 = (3+e_3)\\cdot 3 + (5+e_5)\\cdot 5\\). But by the <a href=\"https://en.wikipedia.org/wiki/Coin_problem\" target=\"_blank\">Frobenius coin problem</a> every number \\(k &gt; 3\\cdot 5 -3-5 = 7\\) has such a representation, hence every number \\(2k &gt; 14\\) has a representation as the sum of even multiples of 3 and 5. Thus every number \\(n &gt; 24+14=38\\) has a representation as the sum of odd composites. Checking, we see that \\(\\boxed{38}\\) has no representation as a sum of odd composites.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

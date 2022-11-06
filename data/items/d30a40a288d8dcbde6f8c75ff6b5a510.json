@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-31678 (cloud_foundation, nsx_data_center)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31678",
+  "description": "VMware Cloud Foundation (NSX-V) contains an XML External Entity (XXE) vulnerability. On VCF 3.x instances with NSX-V deployed, this may allow a user to exploit this issue leading to a denial-of-service condition or unintended information disclosure.",
+  "dc:date": "2022-10-28T02:15:17Z"
+}

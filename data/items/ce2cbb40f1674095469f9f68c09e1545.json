@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3059 (schoolbox)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3059",
+  "description": "The application was vulnerable to multiple instances of SQL injection (authenticated and unauthenticated) through a vulnerable parameter. Due to the stacked query support, complex SQL commands could be crafted and injected into the vulnerable parameter and using a sleep based inferential SQL injection it was possible to extract data from the database.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:UB8N8wbUSWA",
+  "yt:videoId": "UB8N8wbUSWA",
+  "yt:channelId": "UCrlZs71h3mTR45FgQNINfrg",
+  "title": "Solved simply: the impossible integral",
+  "link": "",
+  "author": {
+    "name": "Mathemaniac",
+    "uri": "https://www.youtube.com/channel/UCrlZs71h3mTR45FgQNINfrg"
+  },
+  "published": "2021-04-16T15:00:13+00:00",
+  "updated": "2022-06-25T08:58:00+00:00",
+  "media:group": {
+    "media:title": "Solved simply: the impossible integral",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Yes, it can't be done using substitution, by parts or changing variables (and using the Jacobian); but there is a very clever trick to actually compute this integral, which is attributed to Crofton, an English mathematician.\n\nThis clever trick only requires the law of total expectation and some very simple algebraic manipulations, and is very elegant in solving this very complicated integral, and it is incredibly powerful in the sense that it can be used in much more general situations, not just this integral - when we want an average of some quantities (which needs to be a bounded symmetric function of n points), we can use the Crofton's differential equation already to convert the problem to the average quantity when 1 point is on the boundary of the domain. In this case, the differential equation is easy since we already know that the average distance is proportional to the radius.\n\nThe problem can be made even more interesting when we think of higher dimensions: what about the average distance in a unit ball, or an n-dimensional ball? The calculations might be a bit tedious, but doable, and it again simply relies on the Crofton's differential equation. The only difficult part would be to figure out the limits of integration and the Jacobian determinant when using higher-dimensional spherical polar coordinates, and you can see that in the sources below.\n\nEven if you don't know the Jacobian, or multiple integrals, you can still at least understand the clever trick behind this, which is the more important message of this video.\n\nI currently have plenty of video ideas, but none of them really forms fully into a plan yet, so if you do have any video ideas, drop a comment below!\n\nSOURCE FOR THIS VIDEO SERIES:\n\nhttps://www.tandfonline.com/doi/abs/10.1080/07468342.1997.11973860 [The paper that I'm following, with a bit of biological motivation of the problem]\n\nhttps://www.jstor.org/stable/2589434?seq=1#metadata_info_tab_contents (a more technical version for Crofton's differential equation)\n\nIf you want to know the higher-dimensional analog of spherical polar coordinates, and possibly want to derive the average distance in n-dimensional ball yourself, you can see the exercise 5.19 in Chapter 4 (Multiple integrals) on page 268 of C.H. Edwards, Jr., Advanced Calculus of Several Variables, Academic Press, San Diego, 1973\n\nOther than commenting on the video, you are very welcome to fill in a Google form linked below, which helps me make better videos by catering for your math levels:\nhttps://forms.gle/QJ29hocF9uQAyZyH6\n\nIf you want to know more interesting Mathematics, stay tuned for the next video!\n\nSUBSCRIBE and see you in the next video!\n\nIf you are wondering how I made all these videos, even though it is stylistically similar to 3Blue1Brown, I don't use his animation engine Manim, but I will probably reveal how I did it in a potential subscriber milestone, so do subscribe!\n\nSocial media:\n\nFacebook: https://www.facebook.com/mathemaniacyt\nInstagram: https://www.instagram.com/_mathemaniac_/\nTwitter: https://twitter.com/mathemaniacyt\nPatreon: https://www.patreon.com/mathemaniac (support if you want to and can afford to!)\n\nFor my contact email, check my About page on a PC.\n\nSee you next time!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2018-8966 (zzcms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2018-8966",
+  "description": "An issue was discovered in zzcms 8.2. It allows PHP code injection via the siteurl parameter to install/index.php, as demonstrated by injecting a phpinfo() call into /inc/config.php.",
+  "dc:date": "2018-03-24T18:29:00Z"
+}

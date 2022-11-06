@@ -1,0 +1,18 @@
+{
+  "title": "Linear algebra notes",
+  "link": "",
+  "published": "2015-09-25T12:16:00+01:00",
+  "updated": "2015-09-25T12:16:00+01:00",
+  "id": "https://danielhomola.com/learning/linear-algebra-notes-and-latex",
+  "content": "<h2 id=\"taking-notes\">Taking notes</h2>\n\n<p>I wanted to take a linear algebra course that focuses mostly on the computation side and applications of the field. I also wanted to learn LaTeX properly so writing my thesis will be less painful (as if that’s possible).</p>\n\n<p>So, I did both, and wrote a 70-something page long document from my notes of the <a href=\"http://www.ulaff.net/\">Linear Algebra Foundations and Frontiers</a> course by The University of Texas at Austin. It still isn’t completely finished and I’m sure there are tons of typos in it but here it is:</p>\n\n<p><a href=\"/assets/laff_notes.pdf\" target=\"_blank\" class=\"btn btn--primary btn--block\"><i class=\"fas fa-file-alt\" style=\"padding-right:20px\"></i>LAFF notes</a></p>\n\n<p>It helped me a lot to write things down and understand linalg concepts more in depth, hope it helps you too as quick reference or learning aid.</p>",
+  "author": {
+    "name": "danielhomola"
+  },
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "summary": "My notes for the LAFF course, written in LaTeX"
+}

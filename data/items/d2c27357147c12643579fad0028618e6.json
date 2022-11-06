@@ -1,0 +1,28 @@
+{
+  "id": "tag:blogger.com,1999:blog-17171206.post-5887324770605068433",
+  "published": "2010-08-08T14:29:00.001-07:00",
+  "updated": "2010-08-09T01:34:16.854-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Multiverse Recommendations (aka using n-dimensional tensor factorization for context-aware collaborative filtering)",
+  "content": "This post is the first of several in which I will be explaining some of the things we are presenting in the upcoming <a href=\"http://recsys.acm.org/\">Recsys 2010</a> conference. The project I will talk about is led by <a href=\"http://www.ci.tuwien.ac.at/%7Ealexis/Welcome.html\">Alexandros Karatzoglou</a> and presents a new approach to context aware recommendations that we have named Multiverse. You can access the full paper <a href=\"http://xavier.amatriain.net/pubs/karatzoglu-recsys-2010.pdf\">here</a>, but I will give you a brief description in this post.<br /><br />The introduction of context in recommender systems is an area of growing interest. The reason is simple: While we all value the fact that Recommender Systems are able to infer our tastes and recommend new things, it is clear that whatever we like - and are willing to receive - depends on the context. E.g. We do not want to receive the same movie recommendations on TV if we are sitting with the kids on a Sunday afternoon or if we are alone on a late night session. There is a growing body of literature on contextual recommendations. Without going any further, I already <a href=\"http://technocalifornia.blogspot.com/2009/09/context-aware-recommendations.html\">posted</a> about context-aware recommendations with micro-profiles on this blog. Also, there is a very good chapter on the topic on the upcoming <a href=\"http://www.springer.com/computer/ai/book/978-0-387-85819-7\">Recommender Systems Handbook</a>. But, while we wait for it, you might want to look at some of the publications by <a href=\"http://ids.csom.umn.edu/faculty/gedas/\">Adomavicius</a> and <a href=\"http://pages.stern.nyu.edu/%7Eatuzhili/\">Tuzhilin</a>.<br /><br />Context takes the recommender problem from a two dimensional problem, where we have users and items, to an n-dimensional one where we can have many contextual dimensions added. In our work, we have generalized the successful matrix factorization approach to this n-dimensional case. In order to do this, we have used the idea of <a href=\"http://en.wikipedia.org/wiki/Tensor\">tensors</a>, which are precisely a generalization of matrices to n dimensions. The following figure illustrates the idea (note that, for simplicity, we are illustrating the 3 dimensional case with just one contextual variable).<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"http://1.bp.blogspot.com/_xAtUP4Gu6Zk/TF8iY3moyvI/AAAAAAAAAII/goKewJTy8KY/s1600/hosvd-tensor.png\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 320px; height: 174px;\" src=\"http://1.bp.blogspot.com/_xAtUP4Gu6Zk/TF8iY3moyvI/AAAAAAAAAII/goKewJTy8KY/s320/hosvd-tensor.png\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5503155080308247282\" border=\"0\" /></a><br />In the paper, we show how this approach outperforms previously existing methods on a number of different datasets. One of these results is illustrated in the figure below. Note how Tensor Factorization (in green) not only outperforms other methods, but it performs better the more contextual information we add. It is also interesting to note how not observing context information (black line) results in worse performance. When we add contextual information to 80% of our data, not using this information yields a result that is almost 50% worse.<br /><br /><a onblur=\"try {parent.deselectBloggerImageGracefully();} catch(e) {}\" href=\"http://4.bp.blogspot.com/_xAtUP4Gu6Zk/TF8iK7FH_aI/AAAAAAAAAIA/Dx2yX8aHZ6Y/s1600/mae-vs-change-prob.png\"><img style=\"display: block; margin: 0px auto 10px; text-align: center; cursor: pointer; width: 449px; height: 336px;\" src=\"http://4.bp.blogspot.com/_xAtUP4Gu6Zk/TF8iK7FH_aI/AAAAAAAAAIA/Dx2yX8aHZ6Y/s320/mae-vs-change-prob.png\" alt=\"\" id=\"BLOGGER_PHOTO_ID_5503154840723258786\" border=\"0\" /></a>The use of context in recommender systems and other areas of information retrieval is a very interesting topic that is likely to get even more attention in the near future. _We will surely contribute to this.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Xavier Amatriain",
+    "uri": "http://www.blogger.com/profile/14166119485952054870",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 1
+}

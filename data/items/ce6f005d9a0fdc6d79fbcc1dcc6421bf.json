@@ -1,0 +1,6 @@
+{
+  "title": "Finite Model Theory and Proof Complexity revisited: Distinguishing graphs in Choiceless Polynomial Time and the Extended Polynomial Calculus. (arXiv:2206.05086v2 [cs.LO] UPDATED)",
+  "link": "http://arxiv.org/abs/2206.05086",
+  "description": "<p>This paper extends prior work on the connections between logics from finite\nmodel theory and propositional/algebraic proof systems. We show that if all\nnon-isomorphic graphs in a given graph class can be distinguished in the logic\nChoiceless Polynomial Time with counting (CPT), then they can also be\ndistinguished in the bounded-degree extended polynomial calculus (EPC), and the\nrefutations have roughly the same size as the resource consumption of the\nCPT-sentence. This allows to transfer lower bounds for EPC to CPT and thus\nconstitutes a new potential approach towards better understanding the limits of\nCPT. A super-polynomial EPC lower bound for a PTIME-instance of the graph\nisomorphism problem would separate CPT from PTIME and thus solve a major open\nquestion in finite model theory. Further, using our result, we provide a model\ntheoretic proof for the separation of bounded-degree polynomial calculus and\nbounded-degree extended polynomial calculus.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Pago_B/0/1/0/all/0/1\">Benedikt Pago</a>"
+}

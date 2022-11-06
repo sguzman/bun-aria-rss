@@ -1,0 +1,9 @@
+{
+  "title": "scikit-learn’s EuroScipy 2011 coding sprint -- day two",
+  "link": "http://fa.bianp.net/blog/2011/scikit-learns-euroscipy-2011-coding-sprint-day-two/",
+  "description": "<p><img alt=\"image0\" src=\"http://fseoane.net/blog/static/uploads/2011/08/all-300x225.jpg\" /></p>\n<p>Today's coding sprint was a bit more crowded, with some\nnotable scipy hackers such as Ralph Gommers, <a class=\"reference external\" href=\"http://mentat.za.net/\">Stefan van der Walt</a>,\n<a class=\"reference external\" href=\"http://cournape.wordpress.com/\">David Cournapeau</a> or <a class=\"reference external\" href=\"http://blog.fperez.org/\">Fernando Perez</a> from Ipython joining in. On\nwhat got done: - We merged <a class=\"reference external\" href=\"http://www.astro.washington.edu/users/vanderplas/\">Jake</a>'s new BallTree code. This is a pure\nCython implementation of a nearest-neighbor …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 25 Aug 2011 00:33:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-08-25:/blog/2011/scikit-learns-euroscipy-2011-coding-sprint-day-two/",
+  "category": "General, Python, scikit-learn"
+}

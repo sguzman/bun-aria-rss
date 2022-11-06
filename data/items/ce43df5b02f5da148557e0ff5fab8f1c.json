@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:0PAiQ1jTN5k",
+  "yt:videoId": "0PAiQ1jTN5k",
+  "yt:channelId": "UCZHmQk67mSJgfCCTn7xBfew",
+  "title": "How to make your CPU as fast as a GPU - Advances in Sparsity w/ Nir Shavit",
+  "link": "",
+  "author": {
+    "name": "Yannic Kilcher",
+    "uri": "https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew"
+  },
+  "published": "2022-09-17T12:19:00+00:00",
+  "updated": "2022-09-23T10:23:54+00:00",
+  "media:group": {
+    "media:title": "How to make your CPU as fast as a GPU - Advances in Sparsity w/ Nir Shavit",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "#ai #sparsity #gpu \n\nSparsity is awesome, but only recently has it become possible to properly handle sparse models at good performance. Neural Magic does exactly this, using a plain CPU. No specialized hardware needed, just clever algorithms for pruning and forward-propagation of neural networks. Nir Shavit and I talk about how this is possible, what it means in terms of applications, and why sparsity should play a much larger role in the Deep Learning community.\n\nSponsor: AssemblyAI\nLink: https://www.assemblyai.com/?utm_source=youtube&utm_medium=social&utm_campaign=yannic_autochapters\n\nCheck out Neural Magic: https://neuralmagic.com/\nand DeepSparse: https://github.com/neuralmagic/deepsparse\n\nOUTLINE:\n0:00 Introduction\n1:08 Sponsor: AssemblyAI\n2:50 Start of Interview\n4:15 How the NIR company was founded? \n5:10 What is Sparsity about? \n9:30 Link between the human brain and sparsity\n12:10 Where should the extra resource that the human brain doesn't have go?\n14:40 Analogy for Sparse Architecture\n16:48 Possible future for Sparse Architecture as standard architure for Neural Networks\n20:08 Pruning & Sparsification\n22:57 What keeps us from building sparse models?\n25:34 Why are GPUs so unsuited for sparse models?\n28:47 CPU and GPU in connection with memory\n30:14 What Neural Magic does?\n32:54 How do you deal with overlaps in tensor columns?\n33:41 The best type of sparsity to execute tons of CPU\n37:24 What kind of architecture would make the best use out of a combined system of CPUs and GPUs?\n41:04 Graph Neural Networks in connection to sparsity\n43:04 Intrinsic connection between the Sparsification of Neural Networks, Non Layer-Wise Computation, Blockchain Technology, Smart Contracts and Distributed Computing\n45:23 Neural Magic's target audience\n48:16 Is there a type of model where it works particularly well and the type where it doesn't?\n\nLinks:\nHomepage: https://ykilcher.com\nMerch: https://ykilcher.com/merch\nYouTube: https://www.youtube.com/c/yannickilcher\nTwitter: https://twitter.com/ykilcher\nDiscord: https://ykilcher.com/discord\nLinkedIn: https://www.linkedin.com/in/ykilcher\n\nIf you want to support me, the best thing to do is to share out the content :)\n\nIf you want to support me financially (completely optional and voluntary, but a lot of people have asked for this):\nSubscribeStar: https://www.subscribestar.com/yannickilcher\nPatreon: https://www.patreon.com/yannickilcher\nBitcoin (BTC): bc1q49lsw3q325tr58ygf8sudx2dqfguclvngvy2cq\nEthereum (ETH): 0x7ad3513E3B8f66799f507Aa7874b1B0eBC7F85e2\nLitecoin (LTC): LQW2TRyKYetVC8WjFkhpPhtpbDM4Vw7r9m\nMonero (XMR): 4ACL8AGrEo5hAir8A9CeVrW8pEauWvnp1WnSDZxW7tziCDLhZAGsgzhRQABDnFy8yuM9fWJDviJPHKRjV4FWt19CJZN9D4n",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

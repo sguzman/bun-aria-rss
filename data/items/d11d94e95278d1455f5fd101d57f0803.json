@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42789 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42789",
+  "description": "An issue in code signature validation was addressed with improved checks. This issue is fixed in macOS Big Sur 11.7, macOS Ventura 13, macOS Monterey 12.6. An app may be able to access user-sensitive data.",
+  "dc:date": "2022-11-01T20:15:22Z"
+}
