@@ -1,0 +1,7 @@
+{
+  "title": "Running Theano on EC2",
+  "link": "https://erikbern.com/2014/08/19/running-theano-on-ec2.html",
+  "pubDate": "Tue, 19 Aug 2014 00:00:00 +0000",
+  "guid": "https://erikbern.com/2014/08/19/running-theano-on-ec2.html",
+  "description": "Inspired by Sander Dieleman's internship at Spotify, I've been playing around with deep learning using Theano. Theano is this Python package that lets you define symbolic expressions (cool), does automatic differentiation (really cool), and compiles it down into bytecode to run on a CPU/GPU (super cool)."
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Stochastic Gradient Boosting: Choosing the Best Number of Iterations",
+  "link": "https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/",
+  "pubDate": "Mon, 29 Dec 2014 02:30:06 +0000",
+  "guid": "https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/",
+  "description": "In my summary of the Kaggle bulldozer price forecasting competition, I mentioned that part of my solution was based on stochastic gradient boosting. To reduce runtime, the number of boosting iterations was set by minimising the loss on the out-of-bag (OOB) samples, skipping trees where samples are in-bag. This approach was motivated by a bug in scikit-learn, where the OOB loss estimate was calculated on the in-bag samples, meaning that it always improved (and thus was useless for the purpose of setting the number of iterations)."
+}

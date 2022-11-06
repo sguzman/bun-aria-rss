@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-1616 (debian_linux, fedora, macos, vim)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1616",
+  "description": "Use after free in append_command in GitHub repository vim/vim prior to 8.2.4895. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution",
+  "dc:date": "2022-05-07T19:15:07Z"
+}

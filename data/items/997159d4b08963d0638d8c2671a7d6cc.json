@@ -1,0 +1,9 @@
+{
+  "title": "py3k in scikit-learn",
+  "link": "http://fa.bianp.net/blog/2011/py3k-in-scikit-learn/",
+  "description": "<p>One thing I'd really like to see done in <a class=\"reference external\" href=\"http://gael-varoquaux.info/blog/?p=149\">this Friday's scikit-learn\nsprint</a> is to have full support for Python 3. There's <a class=\"reference external\" href=\"http://github.com/fabianp/scikit-learn/compare/master...py3k\">a branch were\nthe hard word has been done</a> (porting C extensions, automatic 2to3\nconversion, etc.), although joblib still has some bugs and no one has\nattempted to …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 28 Mar 2011 15:23:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-03-28:/blog/2011/py3k-in-scikit-learn/",
+  "category": "General"
+}

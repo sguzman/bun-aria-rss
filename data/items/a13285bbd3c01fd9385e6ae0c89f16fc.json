@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:s6sdEbGNdic",
+  "yt:videoId": "s6sdEbGNdic",
+  "yt:channelId": "UCHsYWDqJkNlboBpyrRqLzkA",
+  "title": "[Visual] Modular Form  - Level 1 Weight 12 (Ramanujan Delta Function)",
+  "link": "",
+  "author": {
+    "name": "The Mathemagicians' Guild",
+    "uri": "https://www.youtube.com/channel/UCHsYWDqJkNlboBpyrRqLzkA"
+  },
+  "published": "2021-03-05T11:43:25+00:00",
+  "updated": "2022-07-03T09:41:06+00:00",
+  "media:group": {
+    "media:title": "[Visual] Modular Form  - Level 1 Weight 12 (Ramanujan Delta Function)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This is a mathematical object known as a \"Modular Form\" visualised in 3 dimensions. Modular Forms are an area of mathematical theory that extends from complex analysis, but they are of particular interest to mathematicians studying number theory.  Famously, their relation to elliptic curves was used to prove Fermat's Last Theorem (358 years after it was proposed) . This video is a collaboration with David Lowry-Duda (Institute for Computational and Experimental Research in Mathematics) who reached out to me after seeing some other visuals on the channel.  Together we have been working on this little project to visualise Modular Forms. Traditionally these objects are defined algebraically, and I don't really know  of any examples where they have been rendered in 3D.\n\nA Modular Form is a function defined on the upper half of the complex plane (first part of the video).  The 2nd part of the video takes a closer look, so you can see the fractal like nature.  Modular Forms are also commonly visualised on the Poincaré disk (as seen towards the end of the video). The colour of the function represents the complex angle (or phase), using the came colour scheme as my previous videos (red is the positive real axis).  Height represents the absolute value, but we needed to scale the result. Modular forms have interesting detail close to zero, and at very very high values.  To allow these features to be easily seen we have scaled it using the function atan(log(sqrt(abs(z))+1)).\n\nIn this video:\n00:00 Upper Half Plane.\n01:24 A closer look\n02:19 Poincaré disk\n\nMusic from Epidemic Sound: https://www.epidemicsound.com/referral/ekoiev/\n\nProgrammed in Python, rendered with Blender,\n\nMore Information:\n\nDetailed information on this function:\nhttps://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/1/12/a/a/\n\nModular Forms (Wikipedia): \nhttps://en.wikipedia.org/wiki/Modular_form\n\nRamanujan Tau Function\nhttps://en.wikipedia.org/wiki/Ramanujan_tau_function\n\nModularity Theorem\nhttps://en.wikipedia.org/wiki/Modularity_theorem\n\nDavid's Site\nhttps://davidlowryduda.com",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

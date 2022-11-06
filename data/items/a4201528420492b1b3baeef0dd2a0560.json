@@ -1,0 +1,15 @@
+{
+  "title": "Kernel Density Estimation in Python",
+  "link": "",
+  "published": "2013-12-01T08:00:00-08:00",
+  "updated": "2013-12-01T08:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-12-01:blog/2013/12/01/kernel-density-estimation/",
+  "summary": "Last week Michael Lerner posted a <a href=\"http://www.mglerner.com/blog/?p=28\">nice explanation</a>\nof the relationship between histograms and kernel density estimation (KDE).  I've made some\nattempts in this direction before\n(both in the <a href=\"http://scikit-learn.org/stable/modules/density.html\">scikit-learn documentation</a>\nand in our upcoming <a href=\"http://www.amazon.com/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/\">textbook</a>),\nbut Michael's use of interactive javascript widgets makes the relationship extremely intuitive.\nI had been planning to write a similar post on the theory behind KDE and why it's useful, but\nMichael took care of that part.  Instead, I'm going to focus here on comparing the actual\n<em>implementations</em> of KDE currently available in Python.  If you're unsure what kernel density\nestimation is, read Michael's post and then come back here.</p>\n<p>There are several options available for computing kernel density estimates in Python.\nThe question of the optimal KDE implementation for any situation, however,\nis not entirely straightforward, and depends a lot on what your particular goals are.\nHere are the four KDE implementations I'm aware of in the SciPy/Scikits stack:</p>\n<ul>\n<li><p>In <a href=\"http://scipy.org\">SciPy</a>: <a href=\"http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.gaussian_kde.html\"><code>gaussian_kde</code></a>.</p>\n</li>\n<li><p>In <a href=\"http://statsmodels.sourceforge.net/\">Statsmodels</a>: <a href=\"http://statsmodels.sourceforge.net/devel/examples/notebooks/generated/kernel_density.html\"><code>KDEUnivariate</code></a> and <a href=\"http://statsmodels.sourceforge.net/devel/generated/statsmodels.nonparametric.kde.KDEUnivariate.html\"><code>KDEMultivariate</code></a> (See an example <a href=\"http://statsmodels.sourceforge.net/devel/generated/statsmodels.nonparametric.kernel_density.KDEMultivariate.html\">here</a>).</p>\n</li>\n<li><p>In <a href=\"http://scikit-learn.org\">Scikit-learn</a>: <a href=\"http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KernelDensity.html\"><code>KernelDensity</code></a> (See further examples <a href=\"http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation\">here</a>).</p>\n</li>\n</ul>\n\n\n\n\n\n\n\n\n<p>Each has advantages and disadvantages, and each has its area of applicability.\nI'll start with a table summarizing the strengths and weaknesses of each, before\ndiscussing each feature in more detail and running some simple benchmarks to gauge\ntheir computational cost:</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

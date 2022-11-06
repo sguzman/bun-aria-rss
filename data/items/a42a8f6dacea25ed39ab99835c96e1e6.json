@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:4DRGo3NUM_k",
+  "yt:videoId": "4DRGo3NUM_k",
+  "yt:channelId": "UC9rTsvTxJnx1DNrDA3Rqa6A",
+  "title": "The Problem of Traffic: A Mathematical Modeling Journey",
+  "link": "",
+  "author": {
+    "name": "Dr. Trefor Bazett",
+    "uri": "https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A"
+  },
+  "published": "2022-08-15T16:04:24+00:00",
+  "updated": "2022-08-20T13:57:32+00:00",
+  "media:group": {
+    "media:title": "The Problem of Traffic: A Mathematical Modeling Journey",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "How can we mathematically model traffic? Specifically we will study the problem of a single lane of cars and the perturbation from equilibrium that occurs when one car brakes, and that braking effect travels down the line of cars, amplifying as it goes along, due to the delayed reaction time of the drivers. The ultimate phenomena we would like to predict is that stop-and-go behaviour where cars don't just travel at a constant speed in rush hour, but alternate between braking and accelerating. However, when building this model our inputs are very microscopic considerations about how an individual car brakes or accelerates based on the following distance and relative velocity of the car ahead of it. \n\nThis video also aims to be an introduction to broad themes in mathematical modelling of real world problems, where we define a problem, choose the inputs to the system we will consider, make assumptions, build the model, and finally assess the model. Finally, the real piece of mathematics we are going to get out of this are called differential-delay equations, and I'll show you a bit about how to solve such equations at the end. \n\nThis video is part of the second iteration of the Summer of Math Exposition, hosted by @3Blue1Brown   and  @Leios Labs . There are so many great videos in this in this exposition so definitely check them out by using the hashtag #SoME2. \n\n0:00 The Challenge of Traffic\n0:28 #SoME2 \n0:53 The Modelling Process\n1:27 Defining the Problem\n2:04 Choosing Which Variables to Consider\n4:03 Making Assumptions\n5:46 Building the Microscopic Model for Each Car\n9:56 Macroscopic Equilibrium \n10:34 The Relationship between Density and Velocity\n16:23 Maximizing Flux and the Optimal Oensity\n20:33 Modelling a Sequence of Cars\n24:07 Modelling the First Car\n26:05 Full Model: A Differential Delay System\n27:06 Assessing the Model Graphically\n29:33 Assessing the Model Qualitatively\n31:45 Solving Differential Delay Systems\n\nCheck out my MATH MERCH line in collaboration with Beautiful Equations \n►https://beautifulequations.net/pages/trefor\n\nCOURSE PLAYLISTS:\n►DISCRETE MATH: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS\n►LINEAR ALGEBRA: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6\n►CALCULUS I: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfT9RMcReZ4WcoVILP4k6-m\n► CALCULUS II: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n\n►MULTIVARIABLE CALCULUS (Calc III): https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd\n►VECTOR CALCULUS (Calc IV) https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa\n►DIFFERENTIAL EQUATIONS: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxde-SlgmWlCmNHroIWtujBw\n►LAPLACE TRANSFORM: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxcJXnLr08cyNaup4RDsbAl1\n►GAME THEORY:  https://www.youtube.com/playlist?list=PLHXZ9OQGMqxdzD8KpTHz6_gsw9pPxRFlX\n\nOTHER PLAYLISTS:\n► Learning Math Series\nhttps://www.youtube.com/watch?v=LPH2lqis3D0&list=PLHXZ9OQGMqxfSkRtlL5KPq6JqMNTh_MBw\n►Cool Math Series:\nhttps://www.youtube.com/playlist?list=PLHXZ9OQGMqxelE_9RzwJ-cqfUtaFBpiho\n\nBECOME A MEMBER:\n►Join: https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A/join\n\nMATH BOOKS I LOVE (affilliate link):\n► https://www.amazon.com/shop/treforbazett\n\nSOCIALS:\n►Twitter (math based): http://twitter.com/treforbazett\n►Instagram (photography based): http://instagram.com/treforphotographyg",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

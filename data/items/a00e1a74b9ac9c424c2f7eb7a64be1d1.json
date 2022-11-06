@@ -1,0 +1,18 @@
+{
+  "title": "2018 Volatility Recap",
+  "link": "https://www.quintuitive.com/2019/01/06/2018-volatility-recap/",
+  "comments": "https://www.quintuitive.com/2019/01/06/2018-volatility-recap/#respond",
+  "dc:creator": "quintuitive",
+  "pubDate": "Sun, 06 Jan 2019 19:39:24 +0000",
+  "category": [
+    "Posts",
+    "R",
+    "Volatility"
+  ],
+  "guid": "http://www.quintuitive.com/?p=3391",
+  "description": "<p>2018 brought more volatility to the markets, which so far has spilled into 2019. Let&#8217;s take a look at the long term volatility history picture using the Dow Jones Industrial Average: Indeed, 2018 was the most volatile year since 2011. Relatively speaking however, the volatility is on the low end for a bear market, which [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.quintuitive.com/2019/01/06/2018-volatility-recap/\">2018 Volatility Recap</a> appeared first on <a rel=\"nofollow\" href=\"https://www.quintuitive.com\">Quintuitive</a>.</p>\n",
+  "content:encoded": "<p>2018 brought more volatility to the markets, which so far has spilled into 2019. Let&#8217;s take a look at the long term volatility history picture using the Dow Jones Industrial Average:</p>\n\n\n<span id=\"more-3391\"></span>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter\"><img loading=\"lazy\" width=\"640\" height=\"480\" src=\"http://www.quintuitive.com/wp-content/uploads/2019/01/Rplot.png\" alt=\"\" class=\"wp-image-3393\" srcset=\"https://www.quintuitive.com/wp-content/uploads/2019/01/Rplot.png 640w, https://www.quintuitive.com/wp-content/uploads/2019/01/Rplot-240x180.png 240w\" sizes=\"(max-width: 640px) 100vw, 640px\" /></figure></div>\n\n\n\n<p>Indeed, 2018 was the most volatile year since 2011. Relatively speaking however, the volatility is on the low end for a bear market, which <a href=\"http://www.quintuitive.com/2018/12/22/the-bear-is-here/\">I believe started in late December</a>.</p>\n\n\n<p>The above chart was produced using the following R code:</p>\n<pre><pre class=\"brush: r; title: ; notranslate\">\nlibrary(quantmod)\nlibrary(ggplot2)\nlibrary(ggthemes)\nlibrary(grid)\n\ndji.annual.volatility = function(dji, year) {\n   dates = paste(\"/\", as.character(year), sep=\"\")\n   dji = na.exclude(dji[dates])\n   djiVol = aggregate(dji, as.numeric(format(index(dji), \"%Y\")),\n               function(ss) coredata(tail(TTR:::volatility(\n               ss,\n               n=NROW(ss),\n               calc=\"close\"), 1)))\n   \n   xx = ecdf(as.vector(djiVol))(as.numeric(tail(djiVol,1)))\n   print(xx)\n   absRets = na.exclude(abs(ROC(dji[dates], type=\"discrete\")))\n   yy = as.numeric(format(index(absRets), \"%Y\"))\n   zz = aggregate(absRets, yy, function(ss) tail(cumprod(1+ss),1))\n   print(as.vector(tail(zz,1)))\n   \n   df = cbind(as.data.frame(index(djiVol)), coredata(djiVol))\n   colnames(df) = c(\"Year\", \"Volatility\")\n   \n   gg = qplot(x=Year, y=Volatility, data=df, geom=\"line\", colour=Volatility, xlab=\"Year\", ylab=\"Volatility\")\n   gg = gg + theme_solarized(base_size=16, base_family=\"verdana\", light=TRUE)\n\n   return(list(plot=gg, dji=dji, dji.vol=djiVol, crystal.ball=zz, df=df))\n}\n</pre></pre><p>The post <a rel=\"nofollow\" href=\"https://www.quintuitive.com/2019/01/06/2018-volatility-recap/\">2018 Volatility Recap</a> appeared first on <a rel=\"nofollow\" href=\"https://www.quintuitive.com\">Quintuitive</a>.</p>\n",
+  "wfw:commentRss": "https://www.quintuitive.com/2019/01/06/2018-volatility-recap/feed/",
+  "slash:comments": 0,
+  "post-id": 3391
+}

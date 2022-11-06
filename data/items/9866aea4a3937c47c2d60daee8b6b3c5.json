@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41668 (ecostruxure_operator_terminal_expert, pro-face_blue)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41668",
+  "description": "A CWE-704: Incorrect Project Conversion vulnerability exists that allows adversaries with local user privileges to load a project file from an adversary-controlled network share which could result in execution of malicious code. Affected Products: EcoStruxure Operator Terminal Expert(V3.3 Hotfix 1 or prior), Pro-face BLUE(V3.3 Hotfix1 or prior).",
+  "dc:date": "2022-11-04T12:15:20Z"
+}

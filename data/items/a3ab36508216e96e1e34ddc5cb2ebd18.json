@@ -1,0 +1,18 @@
+{
+  "title": "LockBit's contradiction on encryption speed. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/248/notes",
+  "description": "Ryan Kovar from Splunk sits down with Dave to discuss their findings in \"Truth in Malvertising?\" that contradict the LockBit group's encryption speed claims. Splunk's SURGe team recently released a whitepaper, blog, and video that outlined the encryption speeds of 10 different ransomware families. During their research they cam across Lockbit doing the same thing. After completing the research, the researchers came back to test the veracity of LockBit’s findings.\nThe research showed three interesting finds. The first find showed that LockBit’s fastest and slowest samples were closely aligned between the tests, but the other results were very different. They also found that LockBit continues to be the fastest ransomware, but LockBit 2.0 was more efficient yet slower than its previous counterpart, LockBit 1.0. Lastly, once ransomware gets to the point of encrypting your systems, it’s too late.\nThe research can be found here:\nTruth in Malvertising?",
+  "pubDate": "Sat, 03 Sep 2022 07:00:00 -0000",
+  "itunes:title": "LockBit's contradiction on encryption speed. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 248,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Ryan Kovar from Splunk sits down with Dave to discuss their findings in \"Truth in Malvertising?\" that contradict the LockBit group's encryption speed claims. Splunk's SURGe team recently released a whitepaper, blog, and video that outlined the encryption speeds of 10 different ransomware families. During their research they cam across Lockbit doing the same thing. After completing the research, the researchers came back to test the veracity of LockBit’s findings.\nThe research showed three interesting finds. The first find showed that LockBit’s fastest and slowest samples were closely aligned between the tests, but the other results were very different. They also found that LockBit continues to be the fastest ransomware, but LockBit 2.0 was more efficient yet slower than its previous counterpart, LockBit 1.0. Lastly, once ransomware gets to the point of encrypting your systems, it’s too late.\nThe research can be found here:\nTruth in Malvertising?",
+  "content:encoded": "<p>Ryan Kovar from Splunk sits down with Dave to discuss their findings in \"Truth in Malvertising?\" that contradict the LockBit group's encryption speed claims. Splunk's SURGe team recently released a whitepaper, blog, and video that outlined the encryption speeds of 10 different ransomware families. During their research they cam across Lockbit doing the same thing. After completing the research, the researchers came back to test the veracity of LockBit’s findings.</p><p>The research showed three interesting finds. The first find showed that LockBit’s fastest and slowest samples were closely aligned between the tests, but the other results were very different. They also found that LockBit continues to be the fastest ransomware, but LockBit 2.0 was more efficient yet slower than its previous counterpart, LockBit 1.0. Lastly, once ransomware gets to the point of encrypting your systems, it’s too late.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.splunk.com/en_us/blog/security/truth-in-malvertising.html\">Truth in Malvertising?</a></li></ul>",
+  "itunes:duration": 1264,
+  "itunes:explicit": "no",
+  "guid": "2ddaf204-2ace-11ed-bbb5-176c6fca6dbb",
+  "enclosure": ""
+}

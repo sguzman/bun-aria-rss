@@ -1,0 +1,8 @@
+{
+  "title": "Mitigating CVE-2021-41773: Apache HTTP Server Path Traversal",
+  "description": "On September 29, Ash Daulton, along with the cPanel Security Team, reported a path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.29 to the Apache security team. The issue was fixed within two days, under CVE-2021-41773, and the patch was released on October 4. Apache urged to deploy the fix, as it is already being actively exploited.",
+  "link": "https://www.akamai.com/blog/news/how-akamai-helps-you-protect-against-0-days",
+  "author": "Assaf Vilmovsky  & Maxim Zavodchik",
+  "guid": "https://www.akamai.com/blog/news/how-akamai-helps-you-protect-against-0-days",
+  "pubDate": "Thu, 07 Oct 2021 20:15 PM UTC"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Another Golang Crypto Miner On the Loose",
+  "description": "There are many crypto mining malware variants infecting systems on the internet. On Friday, March 4, 2021, I noticed an interesting hit in my honeypot logs.  The binary it captured stood out, as it was rather large at 4MB.  I immediately thought it would be a crypto miner written in the Go language. I was correct. This one however, has some newer exploits it's using for proliferation.",
+  "link": "https://www.akamai.com/blog/security/another-golang-crypto-miner-on-the-loose",
+  "author": "Larry Cashdollar",
+  "guid": "https://www.akamai.com/blog/security/another-golang-crypto-miner-on-the-loose",
+  "pubDate": "Tue, 16 Mar 2021 04:00 AM UTC"
+}

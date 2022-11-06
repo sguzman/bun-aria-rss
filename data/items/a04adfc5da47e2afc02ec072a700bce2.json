@@ -1,0 +1,6 @@
+{
+  "title": "Nonparametric estimation of the incubation time distribution. (arXiv:2205.04399v3 [math.ST] UPDATED)",
+  "link": "http://arxiv.org/abs/2205.04399",
+  "description": "<p>Nonparametric maximum likelihood estimators (MLEs) in inverse problems often\nhave non-normal limit distributions, like Chernoff's distribution. However, if\none considers smooth functionals of the model, with corresponding functionals\nof the MLE, one gets normal limit distributions and faster rates of\nconvergence. We demonstrate this for a model for the incubation time of a\ndisease. The usual approach in the latter models is to use parametric\ndistributions, like Weibull and gamma distributions, which leads to\ninconsistent estimators. Smoothed bootstrap methods are discussed for\nconstructing confidence intervals. The classical bootstrap, based on the\nnonparametric MLE itself, has been proved to be inconsistent in this situation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Groeneboom_P/0/1/0/all/0/1\">Piet Groeneboom</a>"
+}

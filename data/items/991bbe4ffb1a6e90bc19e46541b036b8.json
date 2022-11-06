@@ -1,0 +1,9 @@
+{
+  "title": "Low-level routines for Support Vector Machines",
+  "link": "http://fa.bianp.net/blog/2011/low-level-routines-for-support-vector-machines/",
+  "description": "<p>I've been working lately in improving the low-level API of the libsvm\nbindings in scikit-learn. The goal is to provide an API that encourages\nan efficient use of these libraries for expert users. These are methods\nthat have lower overhead than the <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/modules/svm.html\">object-oriented interface</a> as they\nare closer to the …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 27 Apr 2011 15:27:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-04-27:/blog/2011/low-level-routines-for-support-vector-machines/",
+  "category": "General, Python, scikit-learn"
+}

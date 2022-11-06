@@ -1,0 +1,15 @@
+{
+  "title": "Numerical optimizers for Logistic Regression",
+  "link": "http://fa.bianp.net/blog/2013/numerical-optimizers-for-logistic-regression/",
+  "description": "<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n  equationNumbers: { autoNumber: \"AMS\" },\n  extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n\n<script type=\"text/javascript\" async\n  src=\"/js/mathjax@2.7.5/MathJax.js\">\n</script>\n\n<p>In this post I compar several implementations of\nLogistic Regression. The task was to implement a Logistic Regression model\nusing standard optimization …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 20 May 2013 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2013-05-20:/blog/2013/numerical-optimizers-for-logistic-regression/",
+  "category": [
+    "misc",
+    "machine learning",
+    "logistic regression",
+    "Python",
+    "SciPy"
+  ]
+}

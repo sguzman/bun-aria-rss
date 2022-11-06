@@ -1,0 +1,9 @@
+{
+  "title": "Django and request.POST",
+  "link": "http://fa.bianp.net/blog/2009/django-and-requestpost/",
+  "description": "<p>I spent a lot of time trying to figure out why django removed the '+'\ncharacter from the POST data retrieved via request.POST. Still don't\nknow the reason of this behaviour, but using request.raw_post_data\nsaved my day ...</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 24 Jan 2009 00:27:00 +0100",
+  "guid": "tag:fa.bianp.net,2009-01-24:/blog/2009/django-and-requestpost/",
+  "category": "General, Tecnologí­a"
+}

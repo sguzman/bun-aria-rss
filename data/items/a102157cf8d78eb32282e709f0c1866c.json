@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-5971713134997549505",
+  "published": "2011-09-24T12:25:00.000-07:00",
+  "updated": "2011-09-24T19:03:39.826-07:00",
+  "title": "Don't test for exact equality of floating point numbers",
+  "summary": "A discussion came up on Guido von Rossum's Google Plus post. It comes down to the fact that 2.1 is not exactly represented as a floating point number. Internally it's 2.0999999999999996, and this causes unexpected behavior.\n\nThese kinds of issues often come up. The confusion is caused by treating floating point numbers as exact numbers, and expecting calculations with them to produce results",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 66
+}

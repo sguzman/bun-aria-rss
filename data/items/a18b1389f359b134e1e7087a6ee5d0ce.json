@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43084 (vehicle_booking_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43084",
+  "description": "A cross-site scripting (XSS) vulnerability in admin-add-vehicle.php of Vehicle Booking System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the v_name parameter.",
+  "dc:date": "2022-11-01T14:15:14Z"
+}

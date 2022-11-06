@@ -1,0 +1,7 @@
+{
+  "title": "Luigi: complex pipelines of tasks in Python",
+  "link": "https://erikbern.com/2012/10/21/luigi-build-complex-pipelines-of-tasks.html",
+  "pubDate": "Sun, 21 Oct 2012 00:00:00 +0000",
+  "guid": "https://erikbern.com/2012/10/21/luigi-build-complex-pipelines-of-tasks.html",
+  "description": "I'm shamelessly promoting my first major open source project. Luigi is a Python module that helps you build complex pipelines of batch jobs, handle dependency resolution, and create visualizations to help manage multiple workflows. It also comes with Hadoop support built in (because that's where really where its strength becomes clear)."
+}

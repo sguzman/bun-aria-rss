@@ -1,0 +1,20 @@
+{
+  "title": "Maximum Likelihood estimates follow a normal distribution",
+  "link": "https://mlopezm.wordpress.com/2016/05/24/maximum-likelihood-estimates-follow-a-normal-distribution/",
+  "comments": "https://mlopezm.wordpress.com/2016/05/24/maximum-likelihood-estimates-follow-a-normal-distribution/#comments",
+  "dc:creator": "mlopezm",
+  "pubDate": "Tue, 24 May 2016 21:45:59 +0000",
+  "category": [
+    "Fisher Information",
+    "Maximum Likelihood",
+    "Sin categoría"
+  ],
+  "guid": "http://mlopezm.wordpress.com/?p=832",
+  "description": "I was quite surprised when I learnt that a maximum likelihood estimate follows asymptotically a normal distribution with the mean being the estimated value and the variance being the inverse of the Fisher Information multiplied by the number of observations. Asymptotically means when you have a big number of samples to calculate your ML estimate. [&#8230;]",
+  "content:encoded": "<p>I was quite surprised when I learnt that a maximum likelihood estimate follows asymptotically a normal distribution with the mean being the estimated value and the variance being the inverse of the Fisher Information multiplied by the number of observations.</p>\n<p>Asymptotically means when you have a big number of samples to calculate your ML estimate.</p>\n<p>This is quite a remarkable fact. Some information:</p>\n<p><a href=\"http://math.arizona.edu/~jwatkins/o-mle.pdf\" rel=\"nofollow\">http://math.arizona.edu/~jwatkins/o-mle.pdf</a> (page 10)</p>\n<p><a href=\"http://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/Fisher_info.pdf\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">Haz clic para acceder a Fisher_info.pdf</a></p>\n<p><a href=\"http://stats.stackexchange.com/questions/88481/what-is-meant-by-the-standard-error-of-a-maximum-likelihood-estimate\" rel=\"nofollow\">http://stats.stackexchange.com/questions/88481/what-is-meant-by-the-standard-error-of-a-maximum-likelihood-estimate</a></p>\n<p><a href=\"http://stats.stackexchange.com/questions/113860/how-to-compute-or-numerically-estimate-the-standard-error-of-the-mle?rq=1\" rel=\"nofollow\">http://stats.stackexchange.com/questions/113860/how-to-compute-or-numerically-estimate-the-standard-error-of-the-mle?rq=1</a></p>\n",
+  "wfw:commentRss": "https://mlopezm.wordpress.com/2016/05/24/maximum-likelihood-estimates-follow-a-normal-distribution/feed/",
+  "slash:comments": 1,
+  "media:content": {
+    "media:title": "mlopezm"
+  }
+}
