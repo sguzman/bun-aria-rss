@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2268 (wp_all_import)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2268",
+  "description": "The Import any XML or CSV File to WordPress plugin before 3.6.8 accepts all zip files and automatically extracts the zip file without validating the extracted file type. Allowing high privilege users such as admin to upload an arbitrary file like PHP, leading to RCE",
+  "dc:date": "2022-07-04T13:15:08Z"
+}

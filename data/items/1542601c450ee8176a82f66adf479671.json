@@ -1,0 +1,18 @@
+{
+  "title": "Keeping an eye on RDS vulnerabilities. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/251/notes",
+  "description": "Gafnit Amiga, Director of Security Research from Lightspin joins Dave to discuss her team's research \"AWS RDS Vulnerability Leads to AWS Internal Service Credentials.\" The research describes how the vulnerability was caught and right after it was reported the AWS Security team applied an initial patch limited only to the recent Amazon Relational Database Service (RDS) and Aurora PostgreSQL engines, excluding older versions.\nThey followed by personally reaching out to the customers affected by the vulnerability and helped them through the update process. The research states \"Lightspin's Research Team obtained credentials to an internal AWS service by exploiting a local file read vulnerability on the RDS EC2 instance using the log_fdw extension.\"\nThe research can be found here:\nAWS RDS Vulnerability Leads to AWS Internal Service Credentials",
+  "pubDate": "Sat, 24 Sep 2022 07:00:00 -0000",
+  "itunes:title": "Keeping an eye on RDS vulnerabilities. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 251,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Gafnit Amiga, Director of Security Research from Lightspin joins Dave to discuss her team's research \"AWS RDS Vulnerability Leads to AWS Internal Service Credentials.\" The research describes how the vulnerability was caught and right after it was reported the AWS Security team applied an initial patch limited only to the recent Amazon Relational Database Service (RDS) and Aurora PostgreSQL engines, excluding older versions.\nThey followed by personally reaching out to the customers affected by the vulnerability and helped them through the update process. The research states \"Lightspin's Research Team obtained credentials to an internal AWS service by exploiting a local file read vulnerability on the RDS EC2 instance using the log_fdw extension.\"\nThe research can be found here:\nAWS RDS Vulnerability Leads to AWS Internal Service Credentials",
+  "content:encoded": "<p>Gafnit Amiga, Director of Security Research from Lightspin joins Dave to discuss her team's research \"AWS RDS Vulnerability Leads to AWS Internal Service Credentials.\" The research describes how the vulnerability was caught and right after it was reported the AWS Security team applied an initial patch limited only to the recent Amazon Relational Database Service (RDS) and Aurora PostgreSQL engines, excluding older versions.</p><p>They followed by personally reaching out to the customers affected by the vulnerability and helped them through the update process. The research states \"Lightspin's Research Team obtained credentials to an internal AWS service by exploiting a local file read vulnerability on the RDS EC2 instance using the log_fdw extension.\"</p><p>The research can be found here:</p><ul><li><a href=\"https://blog.lightspin.io/aws-rds-critical-security-vulnerability\">AWS RDS Vulnerability Leads to AWS Internal Service Credentials</a></li></ul>",
+  "itunes:duration": 1046,
+  "itunes:explicit": "no",
+  "guid": "2eccd328-38fa-11ed-9e09-bbb1a2863361",
+  "enclosure": ""
+}

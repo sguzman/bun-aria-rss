@@ -1,0 +1,11 @@
+{
+  "title": "Model evaluation, model selection, and algorithm selection in machine learning",
+  "description": "Almost every machine learning algorithm comes with a large number of settings that we, the machine learning researchers and practitioners, need to specify. These tuning knobs, the so-called hyperparameters, help us control the behavior of machine learning algorithms when optimizing for performance, finding the right balance between bias and variance. Hyperparameter tuning for performance optimization is an art in itself, and there are no hard-and-fast rules that guarantee best performance on a given dataset. In Part I and Part II, we saw different holdout and bootstrap techniques for estimating the generalization performance of a model. We learned about the bias-variance trade-off, and we computed the uncertainty of our estimates. In this third part, we will focus on different methods of cross-validation for model evaluation and model selection. We will use these cross-validation techniques to rank models from several hyperparameter configurations and estimate how well they generalize to independent datasets.",
+  "pubDate": "Sun, 02 Oct 2016 20:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html",
+  "guid": "https://sebastianraschka.com/blog/2016/model-evaluation-selection-part3.html",
+  "category": [
+    "Machine-learning",
+    "Python"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "An introduction to parallel programming using Python's multiprocessing module",
+  "description": "The default Python interpreter was designed with simplicity in mind and has a thread-safe mechanism, the so-called \"GIL\" (Global Interpreter Lock). In order to prevent conflicts between threads, it executes only one statement at a time (so-called serial processing, or single-threading). In this introduction to Python's multiprocessing module, we will see how we can spawn multiple subprocesses to avoid some of the GIL's disadvantages and make best use of the multiple cores in our CPU.",
+  "pubDate": "Fri, 20 Jun 2014 09:00:00 +0000",
+  "link": "https://sebastianraschka.com/Articles/2014_multiprocessing.html",
+  "guid": "https://sebastianraschka.com/Articles/2014_multiprocessing.html",
+  "category": "Python"
+}

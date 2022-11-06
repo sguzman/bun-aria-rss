@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:fVWOd0eMBUk",
+  "yt:videoId": "fVWOd0eMBUk",
+  "yt:channelId": "UCfuj1MM5p37CRzWYPv_PsWA",
+  "title": "code.talks 2022 - Machine Learning without the Data #federatedlearning",
+  "link": "",
+  "author": {
+    "name": "code.talks (ehem. Developer Conference)",
+    "uri": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA"
+  },
+  "published": "2022-10-27T08:08:13+00:00",
+  "updated": "2022-10-27T08:08:13+00:00",
+  "media:group": {
+    "media:title": "code.talks 2022 - Machine Learning without the Data #federatedlearning",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Matthias Lau & Kai Wendlandt\n\nMachine learning is a lot about data, but what if the data is somewhere else. What if you cannot centralize all the data or if this would not be a good idea. Privacy-preserving machine learning technologies enable us to train on data we will never see.\nThis talk will introduce some basic concepts for privacy preserving machine learning and go through the core technology, e.g. Federated Learning, Differential Privacy, Homomorphic Encryption. We will look at all components of a working setup using the Flower framework.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

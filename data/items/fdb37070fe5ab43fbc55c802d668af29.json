@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3512 (warp)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3512",
+  "description": "Using warp-cli command &quot;add-trusted-ssid&quot;, a user was able to disconnect WARP client and bypass the &quot;Lock WARP switch&quot; feature resulting in Zero Trust policies not being enforced on an affected endpoint.",
+  "dc:date": "2022-10-28T10:15:17Z"
+}

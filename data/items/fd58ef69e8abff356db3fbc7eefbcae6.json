@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:IrXqE6DDt0I",
+  "yt:videoId": "IrXqE6DDt0I",
+  "yt:channelId": "UC5miyvhPsWWyfTulnJ43koQ",
+  "title": "LLL Elevator Tour in the Volcano 0xA",
+  "link": "",
+  "author": {
+    "name": "UncommentatedPannen",
+    "uri": "https://www.youtube.com/channel/UC5miyvhPsWWyfTulnJ43koQ"
+  },
+  "published": "2022-09-05T20:51:11+00:00",
+  "updated": "2022-09-09T05:02:29+00:00",
+  "media:group": {
+    "media:title": "LLL Elevator Tour in the Volcano 0xA",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We collect the star Elevator Tour in the Volcano in LLL using 0 A presses. This is TAS. Note that this strat is not possible on Shindou because that version has different bully behavior. This improvement reduces the total A press count for collecting 120 stars from 16 to 15.\n\nThis TAS was possible thanks to the following people:\n➤ Marbler, for fleshing out the plan and TASing the fast bully battery. (https://www.youtube.com/user/supermarble94)\n➤ myself, for doing the slow bully battery using a brute forcer and TASing the PU movement.\n➤ MasterKush, for providing me tools to brute force SM64 in C#.\n➤ fifdspence, for TASing the section from entering LLL to getting up the lava fall. (https://www.youtube.com/channel/UCXubFNfZaMVLsTZzKcgnHOQ)\n➤ Iwer Sonsch, for optimizing the initial slide kick and grind. (https://www.youtube.com/channel/UCnJKlalNQWIco1DS0Uw_XXw)\n➤ DeRockProject, for explaining bully movement to us. (https://www.youtube.com/channel/UC6dj_9jki7Zbuo29CT7i7gA)\n➤ Tyler Kehne, for making a video of bully battery. (https://www.youtube.com/c/TylerKehne)\n➤ bad_boot, for doing some preliminary investigation into this strat. (https://www.youtube.com/channel/UC280b7IZCFnzCR0RCwi6JYg)\n\nThis video is an improvement from the previous strat that did this in 1 A press (https://youtu.be/UohcfHOTyvs). Since then, the community discovered bully battery, squish cancels, and PU rotational displacement. With these glitches known, bad_boot and Tyler Kehne did some preliminary investigation and concluded that it may be possible to use these to get Elevator Tour in the Volcano 0xA. However, the specifics of it were yet to be fleshed out. It wasn't until much later that Marbler got interested in the problem, and figured out many details. However, a remaining problem was that the strat required ~20 hours of slow bully battery, which couldn't use repeated inputs. So I asked around, and MasterKush gave me some tools to brute force SM64 in C#. I used this to create a brute forcer that could automate bully battery. After about a week, the brute forcer finished it. From there, Marbler TASed the fast bully battery, and then I did the PU movement.\n\nHere's what happens in the video. First, we enter the volcano and move the bully to the bottom level. We have the bully enter lava to start its death animation, which lowers it into out of bounds below the floor, and then we knock into it to interrupt its death animation. Consequently, the bully ends up oscillating back and forth between two out of bounds locations, since neither are valid places to be. Next, we move the bully to a specific position, and then perform slow bully battery. This involves repeatedly knocking into the bully to slowly increase its speed. Once it has sufficient speed, we perform fast bully battery. This involves Mario getting knockback from the bully to take on its speed, cancelling the knockback speed cap by doing a squish cancel on the elevator, and then transferring that speed back to the bully via another collision. This has the effect of massively increasing the bully's speed, since the bully's speed is tripled before transferring to Mario. After enough fast bully batteries, we have enough speed to do PU rotational displacement, in which we move from the elevator on the main map to the elevator in a PU. By doing this, we receive the rotational displacement from the elevator, whose pivot is still in the main map, and so the displacement is magnified by many PUs. The result is that Mario ends up very high up in a PU. From there, we do PU movement back to the main map onto the star platform, and then collect the star.\n\nConsole Verification: https://www.twitch.tv/videos/1581822267\n\nUnabridged Video Parts:\nPart 1/3: https://youtu.be/b8Y4KkK0Wzs\nPart 2/3: https://youtu.be/XOvbjk8Sb_A\nPart 3/3: https://youtu.be/wmVfn-YmRe4\n\nABC Playlist: https://www.youtube.com/playlist?list=PLmvvhlevqC2d6vis077yFHuLJHYtTtqe_\nABC Routes: https://docs.google.com/document/d/1ypRVVRyf4x-v8GqCSmKYnicrfKSIjao3Y1ZVl52RIyM/edit",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-45446 (vantara_pentaho)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-45446",
+  "description": "A vulnerability in Hitachi Vantara Pentaho Business Analytics Server versions before 9.2.0.2 and 8.3.0.25 does not cascade the hidden property to the children of the Home folder. This directory listing provides an attacker with the complete index of all the resources located inside the directory.",
+  "dc:date": "2022-11-02T15:15:09Z"
+}

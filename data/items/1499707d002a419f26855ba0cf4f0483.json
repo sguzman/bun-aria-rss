@@ -1,0 +1,6 @@
+{
+  "title": "eXplainable AI for Quantum Machine Learning. (arXiv:2211.01441v1 [quant-ph])",
+  "link": "http://arxiv.org/abs/2211.01441",
+  "description": "<p>Parametrized Quantum Circuits (PQCs) enable a novel method for machine\nlearning (ML). However, from a computational point of view they present a\nchallenge to existing eXplainable AI (xAI) methods. On the one hand,\nmeasurements on quantum circuits introduce probabilistic errors which impact\nthe convergence of these methods. On the other hand, the phase space of a\nquantum circuit expands exponentially with the number of qubits, complicating\nefforts to execute xAI methods in polynomial time. In this paper we will\ndiscuss the performance of established xAI methods, such as Baseline SHAP and\nIntegrated Gradients. Using the internal mechanics of PQCs we study ways to\nspeed up their computation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/quant-ph/1/au:+Steinmuller_P/0/1/0/all/0/1\">Patrick Steinm&#xfc;ller</a>, <a href=\"http://arxiv.org/find/quant-ph/1/au:+Schulz_T/0/1/0/all/0/1\">Tobias Schulz</a>, <a href=\"http://arxiv.org/find/quant-ph/1/au:+Graf_F/0/1/0/all/0/1\">Ferdinand Graf</a>, <a href=\"http://arxiv.org/find/quant-ph/1/au:+Herr_D/0/1/0/all/0/1\">Daniel Herr</a>"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "3D Interactive Rubik's Cube in Python",
+  "link": "",
+  "published": "2012-11-26T22:00:00-08:00",
+  "updated": "2012-11-26T22:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-11-26:blog/2012/11/26/3d-interactive-rubiks-cube-in-python/",
+  "summary": "<p>Over the weekend, I built a interactive 3D Rubik's cube simulator in python\nusing only <a href=\"http://matplotlib.org\">matplotlib</a> for all the graphics and\ninteraction.  Check out the demonstration here:</p>\n<p><span class=\"videobox\">\n            <video width=\"680\" height=\"400\" preload=\"none\" controls poster=\"/downloads/videos/MagicCube_frame.jpg\"><source src='/downloads/videos/MagicCube.mp4' type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'></video></span></p>\n<p>You can browse the source code at the MagicCube github repository:\n<a href=\"http://github.com/davidwhogg/MagicCube\">http://github.com/davidwhogg/MagicCube</a>.</p>",
+  "category": ""
+}

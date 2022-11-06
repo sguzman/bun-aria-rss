@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3729 (ehoney)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3729",
+  "description": "A vulnerability, which was classified as critical, has been found in seccome Ehoney. This issue affects some unknown processing of the file /api/v1/attack. The manipulation of the argument AttackIP leads to sql injection. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-212411.",
+  "dc:date": "2022-10-28T08:15:12Z"
+}

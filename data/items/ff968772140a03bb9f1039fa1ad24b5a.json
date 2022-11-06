@@ -1,0 +1,9 @@
+{
+  "title": "Coming soon ...",
+  "link": "http://fa.bianp.net/blog/2010/coming-soon/",
+  "description": "<img alt=\"\" src=\"http://farm5.static.flickr.com/4107/5203822436_41b9c350c2.jpg\" />\n<p>Highlights for this release: * New <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/modules/sgd.html\">stochastic\ngradient descent module</a> by <a class=\"reference external\" href=\"http://sites.google.com/site/peterprettenhofer/\">Peter Prettenhofer</a> * Improved svm\nmodule: memory efficiency, automatic class weights. * Wrap for\nliblinear's Multi-class SVC (option multi_class in <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/modules/generated/scikits.learn.svm.LinearSVC.html\">LinearSVC</a>) * New\nfeatures and performance improvements of text feature extraction. *\nImproved sparse matrix support, both in main classes (GridSearch) as in\nsparse …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 24 Nov 2010 10:39:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-11-24:/blog/2010/coming-soon/",
+  "category": "scikit-learn, Tecnologí­a"
+}

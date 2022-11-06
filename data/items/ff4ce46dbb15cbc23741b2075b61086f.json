@@ -1,0 +1,8 @@
+{
+  "title": "Using LL-HLS with Byte-Range Addressing to Achieve Interoperability in Low Latency Streaming",
+  "description": "HTTP Adaptive Segmented (HAS) streaming began to be used at scale from 2008 to 2012, with the advent of Move Networks, Microsoft Smooth Streaming, Apple HLS, Adobe HDS, and MPEG DASH. With the typical 10s segment durations of the day, livestream latencies (measuring latency as the time from an action being filmed to that same action being displayed on a device's screen) remained in the 30s to 60s range, trailing broadcast by a significant degree.",
+  "link": "https://www.akamai.com/blog/performance/-using-ll-hls-with-byte-range-addressing-to-achieve-interoperabi",
+  "author": "Will Law",
+  "guid": "https://www.akamai.com/blog/performance/-using-ll-hls-with-byte-range-addressing-to-achieve-interoperabi",
+  "pubDate": "Mon, 23 Nov 2020 08:00 AM UTC"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40290 (php_point_of_sale)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40290",
+  "description": "The application was vulnerable to an unauthenticated Reflected Cross-Site Scripting (XSS) vulnerability in the barcode generation functionality, allowing attackers to generate an unsafe link that could compromise users.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

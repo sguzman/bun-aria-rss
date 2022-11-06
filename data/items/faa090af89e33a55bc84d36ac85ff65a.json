@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3772 (easyiicms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3772",
+  "description": "A vulnerability, which was classified as problematic, was found in easyii CMS. Affected is an unknown function of the file /admin/sign/out. The manipulation leads to cross-site request forgery. It is possible to launch the attack remotely. VDB-212502 is the identifier assigned to this vulnerability.",
+  "dc:date": "2022-10-31T14:15:10Z"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "How to Evaluate the Logistic Loss and not NaN trying",
+  "link": "http://fa.bianp.net/blog/2019/evaluate_logistic/",
+  "description": "<p>A naive implementation of the logistic regression loss can results in numerical indeterminacy even for moderate values. This post takes a closer look into the source of these instabilities and discusses more robust Python implementations.\n</p>\n\n\n<!-- for highlighting -->\n<link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.5/styles/default.min.css\">\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.5/highlight.min.js\"></script>\n<script>hljs.initHighlightingOnLoad();</script>\n\n<!-- Mathjax-->\n<script type=\"text/x-mathjax-config\">\n  MathJax.Hub.Config({\n    extensions: [\"tex2jax.js\"],\n    jax: [\"input/TeX\", \"output/HTML-CSS\"],\n    tex2jax: {\n      inlineMath …</script>",
+  "dc:creator": "<a href='http://fa.bianp.net/pages/about.html'>Fabian Pedregosa</a>",
+  "pubDate": "Fri, 27 Sep 2019 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2019-09-27:/blog/2019/evaluate_logistic/",
+  "category": [
+    "coding",
+    "logistic regression",
+    "numerical stability"
+  ]
+}

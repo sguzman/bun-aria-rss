@@ -1,0 +1,6 @@
+{
+  "title": "Norm optimal factorizations of scalar and block matrices. (arXiv:2211.00591v1 [math.OA] CROSS LISTED)",
+  "link": "http://arxiv.org/abs/2211.00591",
+  "description": "<p>For an $m \\times n$ complex matrix $X$ of rank $r$ with Schur multiplier\n$S_X$ we show that there exist an $ r \\times m $ complex matrix $L$ and an $\nr\\times n $ complex matrix $R$ such that $X = L^*R$ and $\\|S_X\\|\\, =\\,\n\\|\\mathrm{diag} (L^*L) \\|^{\\frac{1}{2}} \\| \\mathrm{diag} (R^*R) \\|\n^{\\frac{1}{2}},$ and the norm condition is optimal. Let the completely bounded\nnorm of the bilinear form $B_X$ induced by $X$ on $(\\mathbb{C}^m, \\|.\\|_\\infty)\n\\times (\\mathbb{C}^n, \\|.\\|_\\infty)$ be denoted $\\|B_X\\|_{cb},$ then $X$ has a\nfactorization $ X = \\Delta(\\eta)^* C \\Delta(\\xi)$ with $\\eta $ in\n$\\mathbb{C}^m,$ $\\xi$ in $\\mathbb{C}^n$ such that the outer factors are\ndiagonal operators with $\\|\\xi\\|_2 = \\|\\eta\\|_2=1 $ and $C$ has operator norm\nequal to $\\|B_X\\|_{cb},$ and the norm condition is optimal. A generalization to\noperator valued Schur block multipliers is presented too.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Christensen_E/0/1/0/all/0/1\">Erik Christensen</a>"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3658 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3658",
+  "description": "Use after free in Feedback service on Chrome OS in Google Chrome on Chrome OS prior to 107.0.5304.62 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via specific UI interaction. (Chrome security severity: Medium)",
+  "dc:date": "2022-11-01T23:15:19Z"
+}

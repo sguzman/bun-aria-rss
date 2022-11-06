@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-33981 (debian_linux, linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-33981",
+  "description": "drivers/block/floppy.c in the Linux kernel before 5.17.6 is vulnerable to a denial of service, because of a concurrency use-after-free flaw after deallocating raw_cmd in the raw_cmd_ioctl function.",
+  "dc:date": "2022-06-18T16:15:08Z"
+}

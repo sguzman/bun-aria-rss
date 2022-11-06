@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3815 (bento4)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3815",
+  "description": "A vulnerability, which was classified as problematic, has been found in Axiomatic Bento4. This issue affects some unknown processing of the component mp4decrypt. The manipulation leads to memory leak. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-212681 was assigned to this vulnerability.",
+  "dc:date": "2022-11-01T22:15:12Z"
+}

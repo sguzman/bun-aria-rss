@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-513160205354158210",
+  "published": "2017-03-31T19:43:00.000-07:00",
+  "updated": "2017-03-31T19:45:41.026-07:00",
+  "title": "The Kelly Criterion and a Sure Thing",
+  "content": "The <a href=\"https://en.wikipedia.org/wiki/Kelly_criterion\" target=\"_blank\">Kelly Criterion</a> is an alternative to standard utility theory, which seeks to maximize expected utility. Instead, the Kelly Criterion seeks to maximize expected <i>growth</i>. That is, if we start out with an initial bankroll \\(B_0\\), we seek to maximize \\(\\mathrm{E}[g(t)]\\), where \\(B_t = B_0\\cdot e^{g(t)}\\).<br />As a simple example, consider the following choice. We can have a sure $3000, or we can take the gamble of a \\(\\frac{4}{5}\\) chance of $4000 and a \\(\\frac{1}{5}\\) chance of $0. What does Kelly say?<br />Assume we have a current bankroll of \\(B_0\\). After the first choice we have \\(B_1 = B_0+3000\\), which we can write as \\[\\mathrm{E}[g(1)] = \\log\\left(\\frac{B_0+3000}{B_0}\\right);\\]for the second choice we have \\[\\mathrm{E}[g(1)] = \\frac{4}{5} \\log\\left(\\frac{B_0+4000}{B_0}\\right).\\]And so we want to compare \\(\\log\\left(\\frac{B_0+3000}{B_0}\\right)\\) and \\(\\frac{4}{5} \\log\\left(\\frac{B_0+4000}{B_0}\\right)\\).<br />Exponentiating, we're looking for the positive root of&nbsp;\\[{\\left({B_0+3000}\\right)}^5 - {B_0}\\cdot {\\left({B_0+4000}\\right)}^4=0.\\]<a href=\"https://www.wolframalpha.com/input/?i=solve+(b_0%2B3000)%5E5-(b_0)*(b_0%2B4000)%5E4%3D0\" target=\"_blank\">Wolfram Alpha</a>&nbsp;now tells us that we should go with the sure thing if \\(B_0 &lt; $4942.92\\), and take the gamble otherwise.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

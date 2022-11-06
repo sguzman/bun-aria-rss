@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:uTzb4oNcIvQ",
+  "yt:videoId": "uTzb4oNcIvQ",
+  "yt:channelId": "UCsdA-aNqtMA1_2T15aXePWw",
+  "title": "How to fix Timing Errors in your FPGA design during Place and Route, meeting clock constraints",
+  "link": "",
+  "author": {
+    "name": "nandland",
+    "uri": "https://www.youtube.com/channel/UCsdA-aNqtMA1_2T15aXePWw"
+  },
+  "published": "2021-05-28T12:17:54+00:00",
+  "updated": "2022-05-27T13:21:32+00:00",
+  "media:group": {
+    "media:title": "How to fix Timing Errors in your FPGA design during Place and Route, meeting clock constraints",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Learn how to fix timing errors in your FPGA design. I show a Verilog example that fails to meet timing, then show how to pipeline the code to make it meet timing once again. Breaking up your logic into smaller operations will help lower propagation delay and get your design to run through the Place and Route part of the Synthesis tools correctly. \n\nIf you like this video and want me to make more, please support me on Patreon:\nhttps://patreon.com/nandland\n\nThe Go Board is the best FPGA development board for beginners. Get one for yourself today:\nhttps://nandland.com/goboard/introduction.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

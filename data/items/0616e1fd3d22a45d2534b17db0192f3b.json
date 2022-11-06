@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2012-6712 (linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-6712",
+  "description": "In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption.",
+  "dc:date": "2019-07-27T22:15:11Z"
+}

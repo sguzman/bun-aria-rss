@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:R8Wx4q7nHwA",
+  "yt:videoId": "R8Wx4q7nHwA",
+  "yt:channelId": "UCfuj1MM5p37CRzWYPv_PsWA",
+  "title": "code.talks 2022 - Going real time using Azure CosmosDB and React",
+  "link": "",
+  "author": {
+    "name": "code.talks (ehem. Developer Conference)",
+    "uri": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA"
+  },
+  "published": "2022-10-28T13:47:50+00:00",
+  "updated": "2022-10-28T13:47:50+00:00",
+  "media:group": {
+    "media:title": "code.talks 2022 - Going real time using Azure CosmosDB and React",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Olena Borzenko\n\nTraditionally, when building SPA applications, it feels a lot like we are looking at the moon. On the light side, we have the shiny and pretty UI, which everyone knows and loves. However, on the dark side, there is the complicated server-side logic behind the scenes we need to manage.\n\nLuckily, there has been much progress towards making our lives as developers a bit easier. This is done by allowing us to concentrate on writing code, instead of causing us headaches from all aspects around hosting, deployment, and management.\n\nIn this demo-rich session, we are going to build a real-time stock monitoring system using a serverless React App backed by the power of various Azure features. You will learn how to process documents from Azure Cosmos DB Change Feed, and then broadcast this newly received data to our client, all by using out-of-the-box Azure Functions bindings for Cosmos DB and SignalR.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

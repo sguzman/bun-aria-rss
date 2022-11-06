@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3qEJeP6qQGA",
+  "yt:videoId": "3qEJeP6qQGA",
+  "yt:channelId": "UCHsYWDqJkNlboBpyrRqLzkA",
+  "title": "[Visual] Complex Trigonometric Functions Visualised",
+  "link": "",
+  "author": {
+    "name": "The Mathemagicians' Guild",
+    "uri": "https://www.youtube.com/channel/UCHsYWDqJkNlboBpyrRqLzkA"
+  },
+  "published": "2020-12-18T04:19:20+00:00",
+  "updated": "2022-07-15T03:14:37+00:00",
+  "media:group": {
+    "media:title": "[Visual] Complex Trigonometric Functions Visualised",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this extra video I have rendered 3D Phase Portraits (Modular Surfaces) of all six trigonometric functions: sin, cos, tan, sec, cosec & cot.  Presented without any commentary, if you would like further explanation of these graphics, please see the 1st video in my Complex Analysis series. https://youtu.be/jU7QW6AjUf4\n\nThe input to each plot is a complex number, as shown on the base plane.  The output is also a complex number.  The absolute value of the output is shown as height. The arguments (angle) is shown as colour.  Where red it the positive real axis, and cyan is the negative real axis.  The domain of the input is adjusted for presentation reasons.  Where the images touches the base there is a zero (or the function is approaching zero).\n\nYou will notice that only sine and cosine are analytic.  The other functions all have \"poles\" where the value goes to infinity. You can see why they are called poles. Functions like these with isolated poles, but are otherwise analytic are known as Meromorphic functions.  The functions tan and cot, both approach an absolute value of 1 in the imaginary directions (actually plus or minus i).  If you were to rotate these functions 90 degrees you would get the corresponding hyperbolic functions.\n\nIn this video:\n0:00 sin(z)\n0:55 cos(z)\n1:51 tan(z)\n2:42 cosec(z)\n3:30 cot(z)\n4:21 sec(z)\n\nIn this series:\n1 - https://youtu.be/jU7QW6AjUf4 Introduction to Complex Numbers.\n2 - https://youtu.be/nT3WYFxvPLk Adding and Subtracting Complex Numbers \n3 - [Coming Soon] Polar Coordinates of Complex Numbers\n4 - [Coming Soon] Multiplication of Complex Numbers and Functions\n5 - [Coming Soon] Division of Complex Numbers and Functions\n6 - [Coming Soon] Complex Differentiation and Analytic Functions\n\nExtra Visuals (No Commentary):\n1 - https://youtu.be/3qEJeP6qQGA Trigonometric Functions Visualised",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

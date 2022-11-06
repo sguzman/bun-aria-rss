@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42327 (xen)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42327",
+  "description": "x86: unintended memory sharing between guests On Intel systems that support the &quot;virtualize APIC accesses&quot; feature, a guest can read and write the global shared xAPIC page by moving the local APIC out of xAPIC mode. Access to this shared page bypasses the expected isolation that should exist between two guests.",
+  "dc:date": "2022-11-01T13:15:12Z"
+}

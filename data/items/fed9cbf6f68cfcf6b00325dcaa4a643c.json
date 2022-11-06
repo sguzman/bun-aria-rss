@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-34662 (dolphinscheduler)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34662",
+  "description": "When users add resources to the resource center with a relation path will cause path traversal issues and only for logged-in users. You could upgrade to version 3.0.0 or higher",
+  "dc:date": "2022-11-01T16:15:13Z"
+}

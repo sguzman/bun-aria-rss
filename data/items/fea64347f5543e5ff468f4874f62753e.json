@@ -1,0 +1,9 @@
+{
+  "title": "memory efficient bindigs for libsvm",
+  "link": "http://fa.bianp.net/blog/2010/memory-efficient-bindigs-for-libsvm/",
+  "description": "<p><a class=\"reference external\" href=\"http://scikit-learn.sf.net\">scikits.learn.svm</a> now uses <a class=\"reference external\" href=\"http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#libsvm_for_dense_data\">LibSVM-dense</a> instead of <a class=\"reference external\" href=\"http://www.csie.ntu.edu.tw/~cjlin/libsvm/\">LibSVM</a> for\nsome support vector machine related algorithms when input is a dense\nmatrix. As a result most of the copies associated with argument passing\nare avoided, giving 50% less memory footprint and several times less\nthan the python bindings that ship …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 19 Nov 2010 15:08:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-11-19:/blog/2010/memory-efficient-bindigs-for-libsvm/",
+  "category": "General, scikit-learn"
+}

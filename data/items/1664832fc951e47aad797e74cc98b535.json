@@ -1,0 +1,7 @@
+{
+  "title": "Making Bayesian A/B testing more accessible",
+  "link": "https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/",
+  "pubDate": "Sun, 19 Jun 2016 10:32:15 +0000",
+  "guid": "https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/",
+  "description": "Much has been written in recent years on the pitfalls of using traditional hypothesis testing with online A/B tests. A key issue is that you&rsquo;re likely to end up with many false positives if you repeatedly check your results and stop as soon as you reach statistical significance. One way of dealing with this issue is by following a Bayesian approach to deciding when the experiment should be stopped. While I find the Bayesian view of statistics much more intuitive than the frequentist view, it can be quite challenging to explain Bayesian concepts to laypeople."
+}

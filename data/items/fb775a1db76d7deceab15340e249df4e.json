@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:OdlNM96sHio",
+  "yt:videoId": "OdlNM96sHio",
+  "yt:channelId": "UCcf4LQogGFtYzPhq05uHE4g",
+  "title": "SVM with polynomial kernel visualization (HD)",
+  "link": "",
+  "author": {
+    "name": "udiprod",
+    "uri": "https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g"
+  },
+  "published": "2021-02-07T14:15:14+00:00",
+  "updated": "2022-01-14T01:45:03+00:00",
+  "media:group": {
+    "media:title": "SVM with polynomial kernel visualization (HD)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "NOTE: This is a new version in HD of my video from 2007. A brand new video is expected in next month.\n\nA visual demonstration of the kernel trick in SVM.\n\nThis short video demonstrates how vectors of two classes that cannot be linearly separated in 2-D space, \ncan become linearly separated by a transformation function into a higher\ndimensional space.\n\nThe transformation used is:\nf([x y]) = [x y (x^2+y^2)]\n\nVisit my homepage https://www.udiprod.com/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

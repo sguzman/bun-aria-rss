@@ -1,0 +1,6 @@
+{
+  "title": "Semantic 3D Maps for Autonomous Driving. (arXiv:2211.01700v1 [cs.RO])",
+  "link": "http://arxiv.org/abs/2211.01700",
+  "description": "<p>Maps play a key role in rapidly developing area of autonomous driving. We\nsurvey the literature for different map representations and find that while the\nworld is three-dimensional, it is common to rely on 2D map representations in\norder to meet real-time constraints. We believe that high levels of situation\nawareness require a 3D representation as well as the inclusion of semantic\ninformation. We demonstrate that our recently presented hierarchical 3D grid\nmapping framework UFOMap meets the real-time constraints. Furthermore, we show\nhow it can be used to efficiently support more complex functions such as\ncalculating the occluded parts of space and accumulating the output from a\nsemantic segmentation network.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Khoche_A/0/1/0/all/0/1\">Ajinkya Khoche</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wozniak_M/0/1/0/all/0/1\">Maciej K Wozniak</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Duberg_D/0/1/0/all/0/1\">Daniel Duberg</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jensfelt_P/0/1/0/all/0/1\">Patric Jensfelt</a>"
+}

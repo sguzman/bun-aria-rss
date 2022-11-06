@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3GoCdQ4V9Ko",
+  "yt:videoId": "3GoCdQ4V9Ko",
+  "yt:channelId": "UCjO0vb8UqSMP8EvYI1Bq7xA",
+  "title": "N-body Simulation",
+  "link": "",
+  "author": {
+    "name": "Dane Perry Svendsen",
+    "uri": "https://www.youtube.com/channel/UCjO0vb8UqSMP8EvYI1Bq7xA"
+  },
+  "published": "2014-05-12T02:59:07+00:00",
+  "updated": "2022-01-18T13:57:33+00:00",
+  "media:group": {
+    "media:title": "N-body Simulation",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "http://dperrysvendsen.wordpress.com/2014/05/12/n-body-simulation/\n\nAn N-Body simulation is used to model the movement of a collection of bodies as they are acted on by the force of gravity. This type of simulation is commonly used in cosmology to model the evolution of solar systems, galaxies and superclusters. The largest ever created, the 'Millennium Run', simulated 20 million galaxies, composed of over 10 billion 'particles', each with the mass of roughly a billion suns. Other simulations even take into account the warping of spacetime described by general relativity.\n\nThis program is a simpler direct N-body simulation, in which each pair of particles are attracted with a Newtonian gravitational force proportional to the product of their masses and inversely proportional to the square of the distance between their respective centres of mass. In this program, the default gravitational constant is 6.67x10^-3. A lower value, closer to the actual value of 6.67x10^-11, renders gravity so weak that the particles will not appear to move at all.\n\nParticles can be spawned either randomly or at the cursor, while gravity and collisions can be toggled. In addition, the gravitational constant, density and mass range of the simulation can be adjusted. Where two particles collide, momentum is conserved, with the larger particle inheriting the mass, as well as part of the velocity, of the smaller.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42321 (xen)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42321",
+  "description": "Xenstore: Guests can crash xenstored via exhausting the stack Xenstored is using recursion for some Xenstore operations (e.g. for deleting a sub-tree of Xenstore nodes). With sufficiently deep nesting levels this can result in stack exhaustion on xenstored, leading to a crash of xenstored.",
+  "dc:date": "2022-11-01T13:15:11Z"
+}

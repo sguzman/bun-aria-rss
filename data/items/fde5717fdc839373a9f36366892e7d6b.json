@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:PzBK6K5gyyo",
+  "yt:videoId": "PzBK6K5gyyo",
+  "yt:channelId": "UCp3Q1Xhsu-TRljsDqp0Kj_A",
+  "title": "MSeg: A Composite Dataset for Multi-domain Semantic Segmentation",
+  "link": "",
+  "author": {
+    "name": "ISL and Collaborators",
+    "uri": "https://www.youtube.com/channel/UCp3Q1Xhsu-TRljsDqp0Kj_A"
+  },
+  "published": "2020-06-08T19:13:41+00:00",
+  "updated": "2022-01-13T05:38:23+00:00",
+  "media:group": {
+    "media:title": "MSeg: A Composite Dataset for Multi-domain Semantic Segmentation",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "MSeg: A Composite Dataset for Multi-domain Semantic Segmentation\nJohn Lambert, Zhuang Liu, Ozan Sener, James Hays, and Vladlen Koltun\nComputer Vision and Pattern Recognition (CVPR), 2020\n\nPaper: http://vladlen.info/papers/MSeg.pdf\nCode and data: https://github.com/mseg-dataset\n\nWe present MSeg, a composite dataset that unifies semantic segmentation datasets from different domains. A naive merge of the constituent datasets yields poor performance due to inconsistent taxonomies and annotation practices. We reconcile the taxonomies and bring the pixel-level annotations into alignment by relabeling more than 220,000 object masks in more than 80,000 images. The resulting composite dataset enables training a single semantic segmentation model that functions effectively across domains and generalizes to datasets that were not seen during training. We adopt zero-shot cross-dataset transfer as a benchmark to systematically evaluate a model’s robustness and show that MSeg training yields substantially more robust models in comparison to training on individual datasets or naive mixing of datasets without the presented contributions. A model trained on MSeg ranks first on the WildDash leaderboard for robust semantic segmentation, with no exposure to WildDash data during training.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

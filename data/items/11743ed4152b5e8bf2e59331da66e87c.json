@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Crleyglb4mo",
+  "yt:videoId": "Crleyglb4mo",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "How to Dualboot and Multiboot Linux (and Windows)",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2020-12-09T15:00:11+00:00",
+  "updated": "2022-06-01T02:08:37+00:00",
+  "media:group": {
+    "media:title": "How to Dualboot and Multiboot Linux (and Windows)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video I'll go over how to dualboot and also how to multiboot, in order to install as many operating systems as you want!  Grub is primarily used here but there are other options such as systemd-boot which I will cover in another video.  I also cover an important step in order to dual/multiboot with Windows.\n\nIf you like my videos and/or find them useful, consider donating to my channel! https://www.patreon.com/doriandotslash\n\nMrGamer (@AndreasRohdin): https://soundcloud.com/gamermachine\n\nTime stamps\n00:00 Intro\n00:31 Motherboard settings\n01:43 Prepping Windows for dual-booting\n02:45 Explaining dual-boot\n04:40 Using gparted-live to prep your partitions\n10:43 Adding Manjaro to the system\n14:12 Updating GRUB in Ubuntu\n17:45 Change your system boot order\n19:25 Adding Fedora to the system\n25:24 Update GRUB in Manjaro\n26:44 Concluding remarks\n\n#Linux #DualBooting #Multibooting",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

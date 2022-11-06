@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-44079 (pycdc)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44079",
+  "description": "pycdc commit 44a730f3a889503014fec94ae6e62d8401cb75e5 was discovered to contain a stack overflow via the component __sanitizer::StackDepotBase&lt;__sanitizer::StackDepotNode.",
+  "dc:date": "2022-10-31T19:15:10Z"
+}

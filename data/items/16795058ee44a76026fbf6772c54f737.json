@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:5-aK2_WwrmM",
+  "yt:videoId": "5-aK2_WwrmM",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to set up PowerShell prompt with Oh My Posh on Windows 11",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2021-12-08T13:53:59+00:00",
+  "updated": "2022-01-17T05:32:18+00:00",
+  "media:group": {
+    "media:title": "How to set up PowerShell prompt with Oh My Posh on Windows 11",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nI've set up PowerShell environment for my Windows PC.\nI hope you enjoy it!\n\n▶ Check out Kazephoto's beautiful nature videos\nhttps://www.youtube.com/watch?v=2LRXlZtF7xc\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.inkdrop.app/?utm_source=devaslife&utm_medium=youtube&utm_campaign=vlog&utm_content=5-aK2_WwrmM\n▶ Ingredients\n* Scoop - A command-line installer\n* Git for Windows\n* Oh My Posh - Prompt theme engine\n* Terminal Icons - Folder and file icons\n* PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion\n* z - Directory jumper\n* PSFzf - Fuzzy finder\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My Windows PC build\nhttps://www.youtube.com/watch?v=a4CqHh233cM\n▶ My NeoVim set up\nhttps://www.youtube.com/watch?v=FW2X1CXrU1w\n▶ My desk setup\n* https://www.youtube.com/watch?v=1OFDMwDlnOE\n▶ My equipments\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n & Blue Microphones Yeti\n* Slider: SliderONE v2\n* Keyboard: Keychron K2V2 - https://www.youtube.com/watch?v=-UW_c8VT2ZE\n* Browser: Min\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n0:00 Digest\n01:24 Install patched nerd fonts (Hack)\n02:06 Configure Windows Terminal\n03:29 Install PowerShell\n04:03 Change the default shell\n04:29 Change the terminal background color\n05:43 Install Scoop (Comamnd-line installer)\n06:50 Install Git for Windows\n08:12 Install Neovim\n08:50 Make a user profile and set command aliases\n10:21 Install Oh My Posh (Prompt theme engine)\n11:32 Customize prompt (Path)\n16:23 Customize prompt (Git)\n20:24 Customize prompt (Right bubbles)\n27:26 Load the prompt config in the profile\n28:38 Install NodeJS and check the version bubble\n29:46 Install Terminal Icons\n30:41 Install z - Directory jumper\n31:25 Install PSReadLine - Autocompletion\n32:58 Install Fzf - Fuzzy finder\n34:21 Update the profile\n36:13 Add a utility command - `which`\n37:19 Appendix - Oh My Posh themes\n39:12 Thank you for watching :)\n\n#PowerShell #ASMR #RainSounds",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

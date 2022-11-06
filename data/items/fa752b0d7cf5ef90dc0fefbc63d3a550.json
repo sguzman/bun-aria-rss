@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43571",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43571",
+  "description": "In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated user can execute arbitrary code through the dashboard PDF generation component.",
+  "dc:date": "2022-11-03T23:15:21Z"
+}

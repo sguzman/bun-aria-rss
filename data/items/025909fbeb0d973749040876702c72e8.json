@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39020 (schoolbox)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39020",
+  "description": "Multiple instances of XSS (stored and reflected) was found in the application. For example, features such as student assessment submission, file upload, news, ePortfolio and calendar event creation were found to be vulnerable to cross-site scripting.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

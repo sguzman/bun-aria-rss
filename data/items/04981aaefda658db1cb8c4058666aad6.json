@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-5461723911114364192",
+  "published": "2016-02-09T20:16:00.000-08:00",
+  "updated": "2016-02-09T20:16:05.287-08:00",
+  "title": "When is a Lead Safe in the NBA?",
+  "content": "Assuming two NBA teams of equal strength with \\(t\\) seconds remaining, what is a safe lead at a prescribed confidence level? Bill James has a <a href=\"http://www.slate.com/articles/sports/sports_nut/2008/03/the_lead_is_safe.html\">safe lead formula for NCAA basketball</a>, and the topic has been addressed by other researchers at various levels of complexity, e.g. <a href=\"http://arxiv.org/abs/1503.03509\">Clauset, Kogan and Redner</a>.<br /><br />I'll present a simple derivation. Start by observing there are about 50 scoring groups per team per game (scoring groups include all baskets and free throws that occur at the same time), with each scoring group worth about two points. Assume scoring events by team are Poisson distributed with parameter \\(\\lambda = \\frac{50\\cdot t}{48\\cdot 60} = \\frac{t}{57.6}\\). Using a normal approximation, the difference of these two distributions is normal with mean 0 and variance \\(\\sqrt{2}\\lambda\\), giving a standard deviation of \\(0.1863\\sqrt{t}\\).<br /><br />Using this approximation, what is a 90% safe lead? A 90% tail is 1.28 standard deviations, \\(1.28\\cdot 0.1863\\sqrt{t} = 0.2385\\sqrt{t}\\) scoring groups. As a scoring group is about two points, this means a 90% safe lead, assuming a jump ball, is about \\(0.477\\sqrt{t}\\) points (Clauset et. al. obtained \\(0.4602\\sqrt{t}\\)). For example, a safe lead at halftime is approximately \\(0.477 \\sqrt{24\\cdot 60} = 18.1\\) points.<br /><br />Next - adjustments for possession arrow and shot clock time; validity of approximation; adjusting for team strengths.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 1
+}

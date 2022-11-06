@@ -1,0 +1,18 @@
+{
+  "title": "Like a computer network but for physical objects. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/199/notes",
+  "description": "Guest Ben Seri, Armis' VP of Research, joins Dave to talk about a set of remote code execution (RCE) vulnerabilities in the pneumatic tube system of Swisslog. Nine vulnerabilities in critical infrastructure used by 80% of major hospitals in North America.\nSwisslog’s Translogic Pneumatic Tube System (PTS), a solution that plays a crucial role in patient care, found vulnerable to devastating attack. Dubbed PwnedPiper, the vulnerabilities allow for complete take over of the Translogic Nexus Control Panel, which powers all current models of Translogic PTS stations. Older IP-connected Translogic stations are also impacted, but are no longer supported by Swisslog.\nThe research can be found here:\nPwnedPiper",
+  "pubDate": "Sat, 04 Sep 2021 07:00:00 -0000",
+  "itunes:title": "Like a computer network but for physical objects. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 199,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guest Ben Seri, Armis' VP of Research, joins Dave to talk about a set of remote code execution (RCE) vulnerabilities in the pneumatic tube system of Swisslog. Nine vulnerabilities in critical infrastructure used by 80% of major hospitals in North America.\nSwisslog’s Translogic Pneumatic Tube System (PTS), a solution that plays a crucial role in patient care, found vulnerable to devastating attack. Dubbed PwnedPiper, the vulnerabilities allow for complete take over of the Translogic Nexus Control Panel, which powers all current models of Translogic PTS stations. Older IP-connected Translogic stations are also impacted, but are no longer supported by Swisslog.\nThe research can be found here:\nPwnedPiper",
+  "content:encoded": "<p>Guest Ben Seri, Armis' VP of Research, joins Dave to talk about a set of remote code execution (RCE) vulnerabilities in the pneumatic tube system of Swisslog. Nine vulnerabilities in critical infrastructure used by 80% of major hospitals in North America.</p><p>Swisslog’s Translogic Pneumatic Tube System (PTS), a solution that plays a crucial role in patient care, found vulnerable to devastating attack. Dubbed PwnedPiper, the vulnerabilities allow for complete take over of the Translogic Nexus Control Panel, which powers all current models of Translogic PTS stations. Older IP-connected Translogic stations are also impacted, but are no longer supported by Swisslog.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.armis.com/research/pwnedpiper\">PwnedPiper</a></li></ul>",
+  "itunes:duration": 1489,
+  "itunes:explicit": "no",
+  "guid": "675abf08-0a7e-11ec-b442-ebb0eed007fd",
+  "enclosure": ""
+}

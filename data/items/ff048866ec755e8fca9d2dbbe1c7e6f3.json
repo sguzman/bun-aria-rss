@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2019-14897 (debian_linux, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-14897",
+  "description": "A stack-based buffer overflow was found in the Linux kernel, version kernel-2.6.32, in Marvell WiFi chip driver. An attacker is able to cause a denial of service (system crash) or, possibly execute arbitrary code, when a STA works in IBSS mode (allows connecting stations together without the use of an AP) and connects to another STA.",
+  "dc:date": "2019-11-29T15:15:10Z"
+}

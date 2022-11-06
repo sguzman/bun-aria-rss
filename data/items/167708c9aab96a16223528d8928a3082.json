@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:aEGboJxmq-w",
+  "yt:videoId": "aEGboJxmq-w",
+  "yt:channelId": "UC7C2ikNDAMrRIAkfgVwm4Ug",
+  "title": "Convolutions are not Convoluted",
+  "link": "",
+  "author": {
+    "name": "SigFyg",
+    "uri": "https://www.youtube.com/channel/UC7C2ikNDAMrRIAkfgVwm4Ug"
+  },
+  "published": "2021-08-19T20:38:28+00:00",
+  "updated": "2022-07-22T15:43:49+00:00",
+  "media:group": {
+    "media:title": "Convolutions are not Convoluted",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "EXTRA NOTES:\n-The convolution matrix is a Toeplitz matrix.\n\n-If the bakery's impulse response was to give cookies periodically (e.g. giving cookies every week), you would get circular convolution.\n\n-Another intuition of flipping the impulse response is that if you DIDN'T flip, the system would be using signals from the future input to calculate the present output, which is impossible in a time-dependent system.\n\n- Fourier Transform video mentioned in footnote at 8:08: https://www.youtube.com/watch?v=7Vma1G2p6A8&t=4s\n\n- Origin and History of Convolutions: https://www.slideshare.net/Alexdfar/origin-adn-history-of-convolution\n\nTimestamps\n0:00 Introduction\n0:47 Bakery\n1:38 Fancy Word #1: Impulse Response\n2:13 Fancy Word #2: Time-Invariant\n3:21 Fancy Word #3: Linear\n4:12 pausing/replaying highly encouraged here\n4:39 Linear Algebra\n8:56 Fancy Word #4: Convolution\n9:17 Practical Applications\n\nClips:\nOscilliscope Footage: https://www.youtube.com/watch?v=uMH2hGvqhlE&ab_channel=EEVblog\nConv. NN Animation: https://www.youtube.com/watch?v=f0t-OCG79-U&ab_channel=IsraelVicars\nFourier Series Animation: https://www.youtube.com/watch?v=k8FXF1KjzY0&ab_channel=BrekMartin\nPascal's Triangle GIF: https://daugerresearch.com/vault/parallelpascalstriangle.shtml \nCircuit Animation Website: https://www.falstad.com/circuit/\nTacoma Narrows Bridge Collapse: https://www.youtube.com/watch?v=j-zczJXSxnw&ab_channel=TonyC\n\nMusic:\nWinter Lane (Remix) - Nujabes\nInvestigation Core 2001 - Ace Attorney\nSweet Mystery Galaxy - Super Mario Galaxy 2",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

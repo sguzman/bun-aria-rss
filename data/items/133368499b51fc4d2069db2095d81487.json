@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-27894 (foundry_blobster)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27894",
+  "description": "The Foundry Blobster service was found to have a cross-site scripting (XSS) vulnerability that could have allowed an attacker with access to Foundry to launch attacks against other users. This vulnerability is resolved in Blobster 3.228.0.",
+  "dc:date": "2022-11-04T18:15:11Z"
+}

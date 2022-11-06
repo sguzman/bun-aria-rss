@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3357 (smart_slider_3)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3357",
+  "description": "The Smart Slider 3 WordPress plugin before 3.5.1.11 unserialises the content of an imported file, which could lead to PHP object injection issues when a user import (intentionally or not) a malicious file, and a suitable gadget chain is present on the site.",
+  "dc:date": "2022-10-31T16:15:11Z"
+}
