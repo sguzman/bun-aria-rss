@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-22425 (infosphere_information_server)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22425",
+  "description": "&quot;IBM InfoSphere Information Server 11.7 is potentially vulnerable to CSV Injection. A remote attacker could execute arbitrary commands on the system, caused by improper validation of csv file contents. IBM X-Force ID: 223598.&quot;",
+  "dc:date": "2022-11-03T20:15:25Z"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Composing Conversational Negation. (arXiv:2107.06820v2 [cs.CL] UPDATED)",
+  "link": "http://arxiv.org/abs/2107.06820",
+  "description": "<p>Negation in natural language does not follow Boolean logic and is therefore\ninherently difficult to model. In particular, it takes into account the broader\nunderstanding of what is being negated. In previous work, we proposed a\nframework for the negation of words that accounts for 'worldly context'. This\npaper extends that proposal now accounting for the compositional structure\ninherent in language within the DisCoCirc framework. We compose the negations\nof single words to capture the negation of sentences. We also describe how to\nmodel the negation of words whose meanings evolve in the text.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Shaikh_R/0/1/0/all/0/1\">Razin A. Shaikh</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yeh_L/0/1/0/all/0/1\">Lia Yeh</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Rodatz_B/0/1/0/all/0/1\">Benjamin Rodatz</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Coecke_B/0/1/0/all/0/1\">Bob Coecke</a>"
+}
