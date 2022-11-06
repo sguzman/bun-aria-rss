@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41772 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41772",
+  "description": "Delta Electronics InfraSuite Device Master Versions 00.00.01a and prior mishandle .ZIP archives containing characters used in path traversal. This path traversal could result in remote code execution.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

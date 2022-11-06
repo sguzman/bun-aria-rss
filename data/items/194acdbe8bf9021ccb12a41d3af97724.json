@@ -1,0 +1,9 @@
+{
+  "title": "Least squares with equality constrain",
+  "link": "http://fa.bianp.net/blog/2011/least-squares-with-equality-constrain/",
+  "description": "<p>The following algorithm computes the Least squares solution || Ax -\nb|| subject to the equality constrain Bx = d. It's a classic algorithm\nthat can be implemented only using a QR decomposition and a least\nsquares solver. This implementation uses numpy and scipy. It makes use\nof the new linalg.solve_triangular function …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 14 Apr 2011 10:02:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-04-14:/blog/2011/least-squares-with-equality-constrain/",
+  "category": "Python, Tecnologí­a"
+}
