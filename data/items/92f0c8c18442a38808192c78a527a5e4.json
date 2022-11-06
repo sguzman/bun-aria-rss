@@ -1,0 +1,14 @@
+{
+  "title": "Notes on the Frank-Wolfe Algorithm, Part II: A Primal-dual Analysis",
+  "link": "http://fa.bianp.net/blog/2018/fw2/",
+  "description": "<p>This blog post extends the convergence theory from the <a href=\"/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/\">first part of these notes</a> on the\n    Frank-Wolfe (FW) algorithm with convergence guarantees on the primal-dual gap which generalize\n    and strengthen the convergence guarantees obtained in the first part. </p>\n  <script type=\"text/javascript\" src=\"/theme/js/bibtexParse.js\">\n  </script>\n\n  <script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax …</script>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sat, 17 Nov 2018 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2018-11-17:/blog/2018/fw2/",
+  "category": [
+    "optimization",
+    "Frank-Wolfe",
+    "conditional gradient",
+    "convergence analysis"
+  ]
+}

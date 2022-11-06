@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42747 (candidats)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42747",
+  "description": "CandidATS version 3.0.0 on 'sortBy' of the 'ajax.php' resource, allows an external attacker to steal the cookie of arbitrary users. This is possible because the application application does not properly validate user input against XSS attacks.",
+  "dc:date": "2022-11-03T20:15:32Z"
+}
