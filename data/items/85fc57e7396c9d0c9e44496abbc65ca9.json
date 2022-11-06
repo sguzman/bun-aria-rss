@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43495",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43495",
+  "description": "OpenHarmony-v3.1.2 and prior versions had a DOS vulnerability in distributedhardware_device_manager when joining a network. Network attakcers can send an abonormal packet when joining a network, cause a nullptr reference and device reboot.",
+  "dc:date": "2022-11-03T20:15:34Z"
+}
