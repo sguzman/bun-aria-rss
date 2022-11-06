@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-27582 (sim1000_fx_firmware, sim1004_firmware, sim1012_firmware, sim2000_firmware, sim2000st_firmware, sim2500_firmware, sim4000_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27582",
+  "description": "Password recovery vulnerability in SICK SICK SIM4000 (PPC) Partnumber 1078787 allows an unprivileged remote attacker to gain access to the userlevel defined as RecoverableUserLevel by invocating the password recovery mechanism method. This leads to a increase in their privileges on the system and thereby affecting the confidentiality integrity and availability of the system. An attacker can expect repeatable success by exploiting the vulnerability. Please make sure that you apply general security practices when operating the SIM4000. The following general security practices could mitigate the associated security risk. A fix is planned but not yet scheduled.",
+  "dc:date": "2022-11-01T21:15:11Z"
+}

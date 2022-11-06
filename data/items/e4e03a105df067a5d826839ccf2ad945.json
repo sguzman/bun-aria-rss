@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32914 (iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32914",
+  "description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Big Sur 11.7, macOS Ventura 13, iOS 16, watchOS 9, macOS Monterey 12.6, tvOS 16. An app may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}

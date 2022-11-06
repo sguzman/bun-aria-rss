@@ -1,0 +1,8 @@
+{
+  "title": "TCP Middlebox Reflection: Coming to a DDoS Near You",
+  "description": "Over the past week, Akamai Security Researchers have detected and analyzed a series of TCP reflection attacks, peaking at 11 Gbps at 1.5 Mpps, that were leveled against Akamai customers. The attack, amplified with a technique called TCP Middlebox Reflection, abuses vulnerable firewalls and content filtering systems to reflect and amplify TCP traffic to a victim machine, creating a powerful DDoS attack.",
+  "link": "https://www.akamai.com/blog/security/tcp-middlebox-reflection",
+  "author": "Security Intelligence Response Team",
+  "guid": "https://www.akamai.com/blog/security/tcp-middlebox-reflection",
+  "pubDate": "Tue, 01 Mar 2022 13:38 PM UTC"
+}

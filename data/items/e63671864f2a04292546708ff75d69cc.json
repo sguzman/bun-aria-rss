@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2904 (gitlab)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2904",
+  "description": "A cross-site scripting issue has been discovered in GitLab CE/EE affecting all versions starting from 15.2 before 15.2.5, all versions starting from 15.3 before 15.3.4, all versions starting from 15.4 before 15.4.1 It was possible to exploit a vulnerability in the external status checks feature which could lead to a stored XSS that allowed attackers to perform arbitrary actions on behalf of victims at client side.",
+  "dc:date": "2022-11-02T20:15:09Z"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "IPython Notebook: Javascript/Python Bi-directional Communication",
+  "link": "",
+  "published": "2013-06-01T10:00:00-07:00",
+  "updated": "2013-06-01T10:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-06-01:blog/2013/06/01/ipython-notebook-javascript-python-communication/",
+  "summary": "<p>I've been working with javascript and the IPython notebook recently, and found myself\nin need of a way to pass data back and forth between the Javascript runtime and the\nIPython kernel.  There's a bit of information about this floating around on various\nmailing lists and forums, but no real organized tutorial on the subject.\nPartly this is because the tools are relatively specialized,\nand partly it's because the functionality I'll outline here is planned to\nbe <a href=\"https://github.com/ipython/ipython/wiki/Roadmap:-IPython\">obsolete</a>\nin the 2.0 release of IPython.</p>\n<p>Nevertheless, I thought folks might be interested to hear what I've learned.\nWhat follows are a few basic examples of moving data back and forth between\nthe IPython kernel and the browser's javascript. \nNote that if you're viewing this statically (i.e. on the blog or on nbviewer) then\nthe javascript calls below will not work: to see the code in action, you'll need\nto <a href=\"http://jakevdp.github.io/downloads/notebooks/JSInteraction.ipynb\">download</a>\nthe notebook and open it in IPython.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

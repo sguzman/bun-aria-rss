@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-25032 (capabilities)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-25032",
+  "description": "The PublishPress Capabilities WordPress plugin before 2.3.1, PublishPress Capabilities Pro WordPress plugin before 2.3.1 does not have authorisation and CSRF checks when updating the plugin's settings via the init hook, and does not ensure that the options to be updated belong to the plugin. As a result, unauthenticated attackers could update arbitrary blog options, such as the default role and make any new registered user with an administrator role.",
+  "dc:date": "2022-01-10T16:15:08Z"
+}

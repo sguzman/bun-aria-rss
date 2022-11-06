@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:JDJPn3ZtfZs",
+  "yt:videoId": "JDJPn3ZtfZs",
+  "yt:channelId": "UCp3Q1Xhsu-TRljsDqp0Kj_A",
+  "title": "Free View Synthesis",
+  "link": "",
+  "author": {
+    "name": "ISL and Collaborators",
+    "uri": "https://www.youtube.com/channel/UCp3Q1Xhsu-TRljsDqp0Kj_A"
+  },
+  "published": "2020-08-11T13:38:54+00:00",
+  "updated": "2022-07-22T12:20:08+00:00",
+  "media:group": {
+    "media:title": "Free View Synthesis",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Free View Synthesis\nGernot Riegler and Vladlen Koltun\nEuropean Conference on Computer Vision (ECCV), 2020\n\nPaper: http://vladlen.info/papers/FVS.pdf\nCode and data: https://github.com/intel-isl/FreeViewSynthesis\n\nWe present a method for novel view synthesis from input images that are freely distributed around a scene. Our method does not rely on a regular arrangement of input views, can synthesize images for free camera movement through the scene, and works for general scenes with unconstrained geometric layouts. We calibrate the input images via SfM and erect a coarse geometric scaffold via MVS. This scaffold is used to create a proxy depth map for a novel view of the scene. Based on this depth map, a recurrent encoder-decoder network processes reprojected features from nearby views and synthesizes the new view. Our network does not need to be optimized for a given scene. After training on a dataset, it works in previously unseen environments with no fine-tuning or per-scene optimization. We evaluate the presented approach on challenging real-world datasets, including Tanks and Temples, where we demonstrate successful view synthesis for the first time and substantially outperform prior and concurrent work.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-36605 (infrastructure_analytics_advisor, ops_center_analyzer, ops_center_viewpoint)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-36605",
+  "description": "Incorrect Default Permissions vulnerability in Hitachi Infrastructure Analytics Advisor on Linux (Analytics probe component), Hitachi Ops Center Analyzer on Linux (Analyzer probe component), Hitachi Ops Center Viewpoint on Linux (Viewpoint RAID Agent component) allows local users to read and write specific files.",
+  "dc:date": "2022-11-01T03:15:10Z"
+}

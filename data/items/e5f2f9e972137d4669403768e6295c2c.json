@@ -1,0 +1,7 @@
+{
+  "title": "The Essential Protobuf Guide for Python",
+  "link": "https://www.datascienceblog.net/post/programming/essential-protobuf-guide-python/",
+  "pubDate": "Thu, 13 Aug 2020 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/programming/essential-protobuf-guide-python/",
+  "description": "Protocol buffers (Protobuf) are a language-agnostic data serialization format developed by Google. Protobuf is great for the following reasons:\n Low data volume: Protobuf makes use of a binary format, which is more compact than other formats such as JSON. Persistence: Protobuf serialization is backward-compatible. This means that you can always restore previous data, even if the interfaces have changed in the meantime. Design by contract: Protobuf requires the specification of messages using explicit identifiers and types."
+}

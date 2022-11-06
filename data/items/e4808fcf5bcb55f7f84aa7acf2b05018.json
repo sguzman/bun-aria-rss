@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41657 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41657",
+  "description": "Delta Electronics InfraSuite Device Master Versions 00.00.01a and prior allow attacker provided data already serialized into memory to be used in file operation application programmable interfaces (APIs). This could create arbitrary files, which could be used in API operations and could ultimately result in remote code execution.",
+  "dc:date": "2022-10-31T20:15:13Z"
+}

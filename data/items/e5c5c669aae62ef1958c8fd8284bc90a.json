@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-31691",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31691",
+  "description": "Spring Tools 4 for Eclipse version 4.16.0 and below as well as VSCode extensions such as Spring Boot Tools, Concourse CI Pipeline Editor, Bosh Editor and Cloudfoundry Manifest YML Support version 1.39.0 and below all use Snakeyaml library for YAML editing support. This library allows for some special syntax in the YAML that under certain circumstances allows for potentially harmful remote code execution by the attacker.",
+  "dc:date": "2022-11-04T19:15:10Z"
+}

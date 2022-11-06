@@ -1,0 +1,9 @@
+{
+  "title": "A Mathematical Introduction to Least Angle Regression",
+  "link": "http://blog.echen.me/2011/04/21/a-mathematical-introduction-to-least-angle-regression/",
+  "description": "<div class=\"entry-content\"><p>(For a layman&#8217;s introduction, see <a href=\"http://blog.echen.me/2011/03/14/least-angle-regression-for-the-hungry-layman/\">here</a>.)</p>\n\n  <p>Least Angle Regression (aka LARS) is a <strong>model selection method</strong> for linear regression (when you&#8217;re worried about overfitting or want your model to be easily interpretable). To motivate it, let&#8217;s consider some other model selection methods:</p>\n\n  <ul>\n  <li><strong>Forward selection</strong> starts with no …</li></ul></div>",
+  "dc:creator": "Edwin Chen",
+  "pubDate": "Thu, 21 Apr 2011 04:15:00 +0200",
+  "guid": "tag:blog.echen.me,2011-04-21:/2011/04/21/a-mathematical-introduction-to-least-angle-regression/",
+  "category": "misc"
+}

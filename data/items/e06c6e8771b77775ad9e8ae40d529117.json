@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-3211409948956809184.post-494838042787961051",
+  "published": "2021-09-02T20:05:00.005-07:00",
+  "updated": "2021-09-02T20:16:49.507-07:00",
+  "title": "Gaussian Belief Propagation Tutorial",
+  "content": "<p>&nbsp;I have stumbled upon this <a href=\"https://gaussianbp.github.io/\" target=\"_blank\">nice tutorial</a>:&nbsp; which interactively visualizes Gaussian Belief Propagation. What is nice about it that the authors spent time to make an interactive tutorial that you can play with.</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><iframe allowfullscreen=\"\" class=\"BLOG_video_class\" height=\"266\" src=\"https://www.youtube.com/embed/ngzQxMgtCcg\" width=\"320\" youtube-src-id=\"ngzQxMgtCcg\"></iframe></div><br /><p>As a grad student I was totally excited about Gaussian Belief Propagation and spend a large chunk of my PhD thesis on it. In a nutshell it is an iterative algorithm for solving a set of linear equations (for a PSD square matrix). The algorithm is very similar to Jacobi iterative method but uses second order information (namely approximation of the Hessian) to improve on convergence speed at the cost of additional memory &amp; computation. In deep learning terminology this is related to adding Adam/ Momentum/ Admm etc. From personal experience, when people get excited about speeding up conference of iterative algorithm they completely neglect the fact here is no free lunch: when you speed convergence in terms of number of iterations you typically pay in something else (computation/ communication).</p><p>The complexity of the algorithm derivation comes from the fact it arises from probabilistic graphical models where the notation of the problem is cumbersome, as it can be presented as either factor graphs or undirected graphical model. A factor graph is a bipartite graph with evidence nodes (the input) at one side and a function aggregating the nodes on the other side. It is very similar to a single dense layer in deep learning where the input is coming from the left and the summation plus activation is done on the right. However unlike deep learning the factor has only a single layer and the message propagate again back to the variable (input) nodes back and forth. So the factor graph is the grand grand father of deep learning.&nbsp;</p><p>To make it totally confusing the <a href=\"https://direct.mit.edu/neco/article/13/10/2173/6465/Correctness-of-Belief-Propagation-in-Gaussian\" target=\"_blank\">seminal paper by Prof. Weiss</a> uses pairwise notation which is a third way of presenting the same model. (Instead of a single linear system of equation it is a collection of multiple sets of sparse linear equations where each set has two variables only).&nbsp;</p><p>Any continuous function can be locally approximated in a first order method around a point by computing the gradient. That is why we often see linear modeling when modeling complex problems, including in deep learning where each dense layer is linear. This is the relevancy of solving linear models in multiple domains.&nbsp;</p><p>Another nice property of the algorithm is that besides of the marginals (the solution to the linear system of equations) we get an approximation to the main diagonal of the inverse matrix of the linear system. This is often useful when inverting the full matrix is too heavy computationally.&nbsp;</p><p><br /></p>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Danny Bickson",
+    "uri": "http://www.blogger.com/profile/01517237836051035400",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}
