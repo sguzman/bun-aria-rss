@@ -1,0 +1,15 @@
+{
+  "title": "Will Scientists Ever Move to Python 3?",
+  "link": "",
+  "published": "2013-01-03T17:08:00-08:00",
+  "updated": "2013-01-03T17:08:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-01-03:blog/2013/01/03/will-scientists-ever-move-to-python-3/",
+  "summary": "<p><em>March 2016: Please note the date on this post. Given the developments in the last three years, I would no longer agree with much of what I've written here. In particular, I substantially underestimated the ability of tools like <a href=\"http://pythonhosted.org/six/\">six</a> and <a href=\"http://python-future.org/\">python-future</a> to enable single-codebase Python 2/3 support, and virtually all scientific packages now use such tools to support both. Short version: just use Python 3. There's almost no reason not to any more.</em></p>\n<p>It's been just over four years since the introduction of Python 3, and there\nare still about as many opinions on it as there are Python users.  For\nthose who haven't been following, Python 3 is a release\nwhich offers several nice improvements over the 2.x series\n(summarized <a href=\"http://docs.python.org/3/whatsnew/3.0.html\">here</a>)\nwith the distinct disadvantage that it broke backward compatibility:\nthough Python 3.x (often referred to as \"Py3k\" for short)\nis true to the spirit of earlier Python versions,\nthere are a few valid 2.x constructions which will not parse under 3.x.</p>\n<p>Breaking backward compatibility was controversial, to say the least.  I\nthink of the debate as one between the pragmatists -- those who see Python\nas an extremely useful tool, which should not be unnecessarily tampered with --\nand the idealists -- those who view the Python language\nas a living, breathing entity, which should be allowed to grow into the\nfullest and most Pythonic possible version of itself.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:jZT8APrzvc4",
+  "yt:videoId": "jZT8APrzvc4",
+  "yt:channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+  "title": "BAREMETAL RUST Runs on EVERYTHING, Including the Raspberry Pi (no operating system, just Rust)",
+  "link": "",
+  "author": {
+    "name": "Low Level Learning",
+    "uri": "https://www.youtube.com/channel/UC6biysICWOJ-C3P4Tyeggzg"
+  },
+  "published": "2022-09-02T18:03:28+00:00",
+  "updated": "2022-09-20T03:25:12+00:00",
+  "media:group": {
+    "media:title": "BAREMETAL RUST Runs on EVERYTHING, Including the Raspberry Pi (no operating system, just Rust)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "The world of embedded programming is AMAZING. The Raspberry Pi is one of the best platforms to break into embedded development. In this video, we'll program our Raspberry Pi WITHOUT the Linux Kernel. We'll use the Rust build chain to create a custom kernel image that we can use to blink our LED on and off. \n\nYou can take this tutorial, create the code for yourself and use it to develop something more advanced! You can use the UART bus, the SPI bus, or maybe even start to write your own operating system.\n\nVideo Links:\nLinker Script: https://github.com/lowlevellearning/raspberry-pi-baremetal-c/blob/master/linker.ld\nBCM2837 Datasheet: https://cs140e.sergio.bz/docs/BCM2837-ARM-Peripherals.pdf\n\n🏫 COURSES 🏫\nC Programming 101 for Aspiring Embedded Developers: https://www.udemy.com/course/c-programming-101-for-aspiring-embedded-developers/\n\n🔥 SOCIALS 🔥\nLow Level Merch!: https://www.linktr.ee/lowlevellearning\nFollow me on Twitter: https://twitter.com/lowlevellearni1\nFollow me on Twitch: https://twitch.tv/lowlevellearning\nJoin me on Discord!: https://discord.gg/gZhRXDdBYY\n\n0:00 Intro\n0:36 Board Setup\n0:41 Lets Code!\n1:30 ARMv7 Target\n2:13 no_std\n3:37 Don't Panic!\n4:30 start location\n5:25 linker script\n8:15 elf2bin\n9:30 TO THE DATASHEET!\n13:25 GPIO Code\n16:50 Firmware Files\n17:57 Outro",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-2344669656897553681",
+  "published": "2015-10-15T01:48:00.002-07:00",
+  "updated": "2015-10-15T03:40:15.810-07:00",
+  "title": "An Enormous Number of Kilograms",
+  "content": "For years the kilogram has been defined with respect to a platinum and iridium cylinder, but this is now <a href=\"http://www.nature.com/news/kilogram-conflict-resolved-at-last-1.18550\">no longer the case</a>. Here's a puzzle about kilograms that's easy to state and understand, but the answer is very, very surprising.<br /><br />I've always had a fascination with really large numbers. First 100 when I was really little, and as I got older and more sophisticated numbers like a <a href=\"https://en.wikipedia.org/wiki/Googol\">googol</a> and the smallest number that satisfies the conditions of the <a href=\"https://en.wikipedia.org/wiki/Archimedes%27_cattle_problem\">Archimedes cattle problem</a>.<br /><br />When I was an undergraduate I interviewed for a summer internship with an insurance company as an actuarial student. They gave me the following puzzle - what's the smallest number that when you move the last digit to the front it multiplies by 2? I calculated for a little while, then said \"This can't be right, my answer has 18 digits!\". It turns out that the smallest solution does, indeed, have 18 digits.<br /><br />We can see this by letting our \\((n+1)\\)-digit number \\( x = 10 m + a\\), where \\(m\\) is an \\(n\\)-digit number and \\(0\\leq a < 10\\). Moving \\(a\\) to the front we get \\(y = 10^n a + m\\), and our requirement is \\(y = 2x\\). This gives: \\begin{align} 20 m + 2 &= 10^n a + m \\\\ 19 m &= a(10^n-2) \\\\ m &= \\frac{2a(5\\cdot 10^{n-1} - 1)}{19} \\end{align} The smallest \\(m\\), if one exists, requires \\(a,n\\) such that 19 divides \\(5\\cdot 10^{n-1}-1\\) (as 19 can't divide \\(2 a\\)) and the result has \\(n\\)-digits. It's easy to check that the smallest value of \\(n\\) that satisfies the first condition is \\(n=17\\). To get the smallest solution we try \\(a=1\\), but this yields a value with only 16 digits. Setting \\(a=2\\), however, yields the 17-digit \\(m = 10526315789473684\\). The smallest solution to our puzzle is therefore the 18-digit number \\(105263157894736842\\); that's surprisingly large. <p\\><br /><br />Numbers with this type of property are known as <a href=\"https://en.wikipedia.org/wiki/Parasitic_number\">parasitic numbers</a>.<br /><br />Later, I wondered if there were numbers with the slightly different, but equally interesting property, that moving the last digit to the front converted (\"autoconverts\") it from a value under one unit of measurement to an equivalent value under a different unit of measurement.<br /><br />The first one I tried was moving the last digit to the front converts from Celsius to Fahrenheit. This is a fun puzzle that eventually made its way into the <a href=\"http://tierneylab.blogs.nytimes.com/2009/11/16/monday-puzzle-conversion-factors/\">New York Times</a>. The smallest such value is 275 C, which exactly equals 527 F. What's the next smallest temperature?<br /><br />How about moving the first digit to the end? We'll need to use the little-known fact that, legally, a <a href=\"https://en.wikipedia.org/wiki/Pound_(mass)\">pound is exactly equal to 0.45359237 kilograms</a>. Given this, does there exist a number such that moving the first digit to the end converts from pounds to kilograms? The answer is yes, but the smallest solution has 108,437,840 digits! The solution is similar to the above, but as it's computationally more involved I've written <a href=\"https://en.wikipedia.org/wiki/SageMath\">Sage</a> code to solve it, which you can find in my <a href=\"https://github.com/octonion/puzzles/tree/master/parasitic\">GitHub puzzles repository</a>.<br /><br />The smallest number that autoconverts from gallons to liters, incidentally, is even bigger at 382,614,539 digits!",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

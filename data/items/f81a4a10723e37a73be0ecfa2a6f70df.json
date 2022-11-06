@@ -1,0 +1,25 @@
+{
+  "id": "tag:blogger.com,1999:blog-8982037438137564684.post-425260446377936840",
+  "published": "2022-10-28T12:25:00.000-07:00",
+  "updated": "2022-10-28T12:25:41.659-07:00",
+  "category": [
+    "",
+    ""
+  ],
+  "title": "Stable Channel Update for ChromeOS",
+  "content": "<p style=\"box-sizing: inherit;\"><span style=\"font-family: inherit;\">The Stable channel is being updated to </span>107.0.5304.92<span style=\"font-family: inherit;\">&nbsp;(Platform version: </span>15117.86.0/15117.87.0<span style=\"font-family: inherit;\">) for most ChromeOS devices. This build contains a number of bug fixes and security updates.</span></p><p style=\"box-sizing: inherit;\"><span style=\"font-family: inherit;\">If you find new issues, please let us know one of the following ways</span></p><ul style=\"text-align: left;\"><li style=\"box-sizing: inherit;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"box-sizing: inherit; color: #00838f;\"><span style=\"font-family: inherit;\">File a bug</span></a></li><li style=\"box-sizing: inherit;\"><span style=\"font-family: inherit;\">Visit our ChromeOS communities</span><ul><li style=\"box-sizing: inherit;\"><span style=\"font-family: inherit;\">General:&nbsp;<a href=\"https://support.google.com/chromebook/community/?hl=en&amp;gpf=%23!forum%2Fchromebook-central\" style=\"box-sizing: inherit; color: #00838f;\">Chromebook Help Community</a></span></li><li style=\"box-sizing: inherit;\"><span style=\"font-family: inherit;\">Beta Specific:&nbsp;<a href=\"https://support.google.com/chromeos-beta/community\" style=\"box-sizing: inherit; color: #00838f;\">ChromeOS Beta Help Community</a></span></li></ul></li><li style=\"box-sizing: inherit;\"><a href=\"https://support.google.com/chrome/answer/95315?hl=en&amp;co=GENIE.Platform%3DDesktop\" style=\"box-sizing: inherit; color: #00838f;\"><span style=\"font-family: inherit;\">Report an issue or send feedback on Chrome</span></a></li></ul><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\">Interested in switching channels?&nbsp;<a href=\"https://support.google.com/chromebook/answer/1086915\" style=\"box-sizing: inherit; color: #00838f;\">Find out how</a>.</span></div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span></div><div style=\"box-sizing: inherit; text-align: left;\">Daniel Gagnon,<br />Google ChromeOS&nbsp;</div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span></div><div style=\"box-sizing: inherit; text-align: left;\"><span><a name='more'></a></span><span style=\"font-family: inherit;\"><br /></span><span style=\"font-family: inherit;\">Security Fixes and Rewards</span></div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span><span style=\"font-family: inherit;\">Note: Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven’t yet fixed.</span></div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span><span style=\"font-family: inherit;\">[$2000] [<a href=\"https://bugs.chromium.org/p/chromium/issues/detail?id=1352817&amp;q=Type%3DBug-Security%20label%3ARelease-0-M107%20OS%3DChrome%2CLacros%20-OS%3DWindows%2CMac%2CLinux%2CiOS%2CFuchsia%20-is%3Aopen&amp;can=1\" target=\"_blank\">1352817</a>] Medium CVE-2022-3658 Use-after-free in ChromeOS. Reported by Nan Wang(@eternalsakura13) and Guang Gong of 360 Vulnerability Research Institute</span></div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span><span style=\"font-family: inherit;\">[$2000] [<a href=\"https://bugs.chromium.org/p/chromium/issues/detail?id=1355560&amp;q=Type%3DBug-Security%20label%3ARelease-0-M107%20OS%3DChrome%2CLacros%20-OS%3DWindows%2CMac%2CLinux%2CiOS%2CFuchsia%20-is%3Aopen&amp;can=1\" target=\"_blank\">1355560</a>] Medium CVE-2022-3659 Use-after-free in UI. Reported by @ginggilBesel</span></div><div style=\"box-sizing: inherit; text-align: left;\"><span style=\"font-family: inherit;\"><br /></span><span style=\"font-family: inherit;\">We would also like to thank all security researchers that worked with us during the development cycle to prevent security bugs from ever reaching the stable channel.</span></div>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Daniel Gagnon",
+    "uri": "http://www.blogger.com/profile/08962480190214295615",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

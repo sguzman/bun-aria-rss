@@ -1,0 +1,9 @@
+{
+  "title": "Efficient DPLL algorithm",
+  "link": "http://fa.bianp.net/blog/2009/efficient-dpll-algorithm/",
+  "description": "<p>Background: DPLL is the algorithm behind SymPy's implementation of\nlogic.inference.satisfiable After reading the original papers by Davis &amp;\nPutnam [1], I managed to implement a more efficient version of the DPLL\nalgorithm. It is 10x times faster on medium-sized problems (40\nvariables), and solves some wrong result bugs [2 …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Sun, 28 Jun 2009 18:16:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-06-28:/blog/2009/efficient-dpll-algorithm/",
+  "category": "General"
+}

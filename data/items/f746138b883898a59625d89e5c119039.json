@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-19803222.post-1504350658259132096",
+  "published": "2016-08-16T17:22:00.002-06:00",
+  "updated": "2016-08-16T17:22:19.710-06:00",
+  "title": "Feature (or architecture) ablation",
+  "content": "I wrote my first (and only) <a href=\"http://hal3.name/docs/daume05coref.pdf\">coreference paper</a> back in 2005. At the time, my goals were to (a) do well on coref, (b) integrate background knowledge (like \"Bush\" is \"president\") using simple techniques, and (c) try to figure out how important different (types of) features were for making coreference decisions.<br /><br />For the last, there is a reasonably extensive feature-type ablation experiment using backward selection (which I trust far more than forward selection). After writing the paper, I had many internal dialogues about why experiments like that are interesting. I have had, over the years, a couple of answers:<br /><ol><li>The obvious answer is \"it tells us something interesting about language.\" It would be nice if this were true, but I'm not totally sure it is, and it's definitely not true if one doesn't put a bunch more effort into it than I put into that 2005 paper. What can we say? Yeah, spelling is important. Knowledge is important. Syntax is hard to actualize. I don't know that we didn't already know these things before.<br /></li><li>Engineering. Suppose someone wanted to build a similar system. They want to put their effort where it's most valuable, and so feature ablation experiments tell you where you're likely to get the most bang for the buck. In a sense, you can see these as<i> a type of negative result</i>. Which features actually aren't that important. In the 2005 paper, you could remove syntactic, semantic, and class-based features with zero performance degradation; and also get rid of pattern-based features with minor performance degradation. This saves a lot of effort because some of these are actually quite a pain to implement and/or are slow and/or require lots of external resources.</li></ol>Today, I mostly lean toward the engineering answer, or at least that's what I want to use as a jumping off point here.<br /><br />Now that we're partially allergic to feature engineering and prefer to replace it with architecture engineering, I think the charge is stronger, not weaker, to do ablation experiments. Does that thing really need to be a biLSTM? Would an RNN suffice? What about just averaged bag of word embeddings? Do you need two layers of attention there or would one suffice? Do you need attention at all? Does that layer really need to be that wide?<br /><br />These are all easy questions to ablate and answer.<br /><br />There's never going to be a crisp answer like \"yes, if I cut my hidden state from 493 units to 492 units performance goes down the drain.\" Many things will be gradual, but not all.<br /><br />Why do I think this is important? Precisely for reason #2 above, but about a bajillion times more so. Training these really complicated models with wide hidden units, bidirectional stuff, etc., is really slow. Really really slow. If you tell me I can be within 1% accuracy but can train 100 times faster, I'm going to do it. Sure, for a final test run I might crank everything up again (and then report that!) but for development, it's super useful to have a system you can train and evaluate efficiently.<br /><br />Does this tell us anything interesting about language? Almost certainly not (or at least not without a huge amount of extra work). But it does make everyone's life better.<br /><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "hal",
+    "uri": "http://www.blogger.com/profile/02162908373916390369",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 4
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39381 (hummusjs, muhammarajs)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39381",
+  "description": "Muhammara is a node module with c/cpp bindings to modify PDF with js for node or electron (based/replacement on/of galkhana/hummusjs). The package muhammara before 2.6.0; all versions of package hummus are vulnerable to Denial of Service (DoS) when supplied with a maliciously crafted PDF file to be appended to another. This issue has been patched in 2.6.0 for muhammara and not at all for hummus. As a workaround, do not process files from untrusted sources.",
+  "dc:date": "2022-11-02T15:15:10Z"
+}

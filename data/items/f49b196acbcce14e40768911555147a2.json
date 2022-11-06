@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-7865189674426685465",
+  "published": "2011-11-06T23:01:00.000-08:00",
+  "updated": "2011-11-06T23:03:05.519-08:00",
+  "title": "b-matching as improvement of kNN",
+  "summary": "Below is an illustration of b-matching from  (Huang,Jebara AISTATS 2007)  paper. You start with a weighted graph and the goal is to connect each v to k u's to minimize total edge cost. If v's represent labelled datapoints, u's unlabeled and weights correspond to distances, this works as a robust version of kNN classifier (k=2 in the picture) because it prevents any datapoint from exhibiting too",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 52
+}

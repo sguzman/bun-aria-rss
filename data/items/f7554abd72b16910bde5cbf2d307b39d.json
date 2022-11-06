@@ -1,0 +1,15 @@
+{
+  "title": "On the Link Between Optimization and Polynomials, Part 3",
+  "link": "http://fa.bianp.net/blog/2021/hitchhiker/",
+  "description": "<blockquote class=\"pullquote\">\n    <p>\n      <q><i>I've seen things you people wouldn't believe. <br>\n      Valleys sculpted by trigonometric functions. <br>\n      Rates on fire off the shoulder of divergence. <br>\n      Beams glitter in the dark near the Polyak gate. <br>\n      All those landscapes will be lost in time, like tears in rain. <br>Time to halt.</i></q> <br>\n  </p>\n  <p style=\"text-align: right;\">\n    A momentum optimizer <a href=\"https://en.wikipedia.org/wiki/Tears_in_rain_monologue\">*</a>\n  </p>\n  </blockquote>\n  <figure class=\"fullwidth\">\n    <img style=\"max-width: 1000px;\" src=\"/images/2021/rate_convergence_momentum.png\" alt=\"\">\n  </figure>\n\n  <script type=\"text/javascript\" src=\"/theme/js/bibtexParse.js\">\n  </script>\n\n  <script type=\"text/x-mathjax-config\">\n  MathJax.Hub.Config …</script>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 02 Mar 2021 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2021-03-02:/blog/2021/hitchhiker/",
+  "category": [
+    "optimization",
+    "polynomials",
+    "acceleration",
+    "momentum",
+    "Chebyshev"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Iran-linked Lyceum Group adds a new weapon to its arsenal. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/244/notes",
+  "description": "Deepen Desai from Zscaler's ThreatLabz joins Dave to discuss how APTs, like Lyceum Group, create tactics and malware to carry out attacks against their targets. The Lyceum group has been active since 2017 and is a state-sponsored Iranian APT group. This group targets Middle Eastern organizations most notably in the energy and telecommunication sectors, and they rely heavily on .NET based malwares.\nZscaler said in their research they \"recently observed a new campaign where the Lyceum Group was utilizing a newly developed and customized .NET based malware targeting the Middle East by copying the underlying code from an open source tool.\" They go on to give an analysis explaining why the .NET based DNS backdoor is causing problems.\nThe research can be found here:\nLyceum .NET DNS Backdoor",
+  "pubDate": "Sat, 06 Aug 2022 07:00:00 -0000",
+  "itunes:title": "Iran-linked Lyceum Group adds a new weapon to its arsenal. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 244,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Deepen Desai from Zscaler's ThreatLabz joins Dave to discuss how APTs, like Lyceum Group, create tactics and malware to carry out attacks against their targets. The Lyceum group has been active since 2017 and is a state-sponsored Iranian APT group. This group targets Middle Eastern organizations most notably in the energy and telecommunication sectors, and they rely heavily on .NET based malwares.\nZscaler said in their research they \"recently observed a new campaign where the Lyceum Group was utilizing a newly developed and customized .NET based malware targeting the Middle East by copying the underlying code from an open source tool.\" They go on to give an analysis explaining why the .NET based DNS backdoor is causing problems.\nThe research can be found here:\nLyceum .NET DNS Backdoor",
+  "content:encoded": "<p>Deepen Desai from Zscaler's ThreatLabz joins Dave to discuss how APTs, like Lyceum Group, create tactics and malware to carry out attacks against their targets. The Lyceum group has been active since 2017 and is a state-sponsored Iranian APT group. This group targets Middle Eastern organizations most notably in the energy and telecommunication sectors, and they rely heavily on .NET based malwares.</p><p>Zscaler said in their research they \"recently observed a new campaign where the Lyceum Group was utilizing a newly developed and customized .NET based malware targeting the Middle East by copying the underlying code from an open source tool.\" They go on to give an analysis explaining why the .NET based DNS backdoor is causing problems.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.zscaler.com/blogs/security-research/lyceum-net-dns-backdoor\">Lyceum .NET DNS Backdoor</a></li></ul>",
+  "itunes:duration": 1018,
+  "itunes:explicit": "no",
+  "guid": "cace50f6-141c-11ed-94a4-c35d83b7733b",
+  "enclosure": ""
+}

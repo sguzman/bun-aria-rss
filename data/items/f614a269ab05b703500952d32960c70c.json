@@ -1,0 +1,6 @@
+{
+  "title": "Continuous rational functions are deterministic regular. (arXiv:2204.11235v2 [cs.FL] UPDATED)",
+  "link": "http://arxiv.org/abs/2204.11235",
+  "description": "<p>A word-to-word function is rational if it can be realized by a\nnon-deterministic one-way transducer. Over finite words, it is a classical\nresult that any rational function is regular, i.e. it can be computed by a\ndeterministic two-way transducer, or equivalently, by a deterministic streaming\nstring transducer (a one-way automaton which manipulates string registers).\n</p>\n<p>This result no longer holds for infinite words, since a non-deterministic\none-way transducer can guess, and check along its run, properties such as\ninfinitely many occurrences of some pattern, which is impossible for a\ndeterministic machine. In this paper, we identify the class of rational\nfunctions over infinite words which are also computable by a deterministic\ntwo-way transducer. It coincides with the class of rational functions which are\ncontinuous, and this property can thus be decided. This solves an open question\nraised in a previous paper of Dave et al.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Carton_O/0/1/0/all/0/1\">Olivier Carton</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Doueneau_Tabot_G/0/1/0/all/0/1\">Ga&#xeb;tan Dou&#xe9;neau-Tabot</a>"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-13410 (aedes)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-13410",
+  "description": "An issue was discovered in MoscaJS Aedes 0.42.0. lib/write.js does not properly consider exceptions during the writing of an invalid packet to a stream.",
+  "dc:date": "2020-08-26T15:15:12Z"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-39945 (fortimail)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39945",
+  "description": "An improper access control vulnerability [CWE-284] in FortiMail 7.2.0, 7.0.0 through 7.0.3, 6.4 all versions, 6.2 all versions, 6.0 all versions may allow an authenticated admin user assigned to a specific domain to access and modify other domains information via insecure direct object references (IDOR).",
+  "dc:date": "2022-11-02T12:15:54Z"
+}

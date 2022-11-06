@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:wSMad7QpaqE",
+  "yt:videoId": "wSMad7QpaqE",
+  "yt:channelId": "UC9rTsvTxJnx1DNrDA3Rqa6A",
+  "title": "Variation of Parameters || How to solve non-homogeneous ODEs",
+  "link": "",
+  "author": {
+    "name": "Dr. Trefor Bazett",
+    "uri": "https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A"
+  },
+  "published": "2022-03-28T16:19:20+00:00",
+  "updated": "2022-07-22T10:22:39+00:00",
+  "media:group": {
+    "media:title": "Variation of Parameters || How to solve non-homogeneous ODEs",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "MY DIFFERENTIAL EQUATIONS COURSE PLAYLIST: ►https://www.youtube.com/playlist?list=PLHXZ9OQGMqxde-SlgmWlCmNHroIWtujBw\nMy Open Source (i.e free) ODE Textbook: ►http://web.uvic.ca/~tbazett/diffyqs\n\nCheck out my MATH MERCH line in collaboration with Beautiful Equations \n►https://www.beautifulequation.com/pages/trefor\n\nThe method of Variation of Parameters is a method to solve nonhomogeneous linear differential equations like y''+y=tan(x). We have seem previously in the ODE playlist that we can solve homogeneous constant coefficient equations like y''+y=0 easily. So the real goal here is how to adapt the homogeneous solutions to this nonhomogeneous case. The trick is instead of guessing a linear combination of the homogeneous solutions where the coefficients are constants, we guess a particular solution where the coefficients are actual functions (i.e. the parameters are being varied). Turns out that this method always works, up to our ability to find the homogeneous solution and solve the resulting integrals. This is in contrast to the previous method of undetermined coefficients, which was great in that it reduces the problem to algebra but bad in that it only sometimes works. \n\n0:00 Homogeneous vs Nonhomogeneous\n1:35 Variation of Parameters Example\n7:07 Variation of Parameters General Formulas\n9:42 Undetermined Coefficients\n\nCOURSE PLAYLISTS:\n►DISCRETE MATH: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS\n►LINEAR ALGEBRA: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfUl0tcqPNTJsb7R6BqSLo6\n►CALCULUS I: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfT9RMcReZ4WcoVILP4k6-m\n► CALCULUS II: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n\n►MULTIVARIABLE CALCULUS (Calc III): https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc_CvEy7xBKRQr6I214QJcd\n►VECTOR CALCULUS (Calc IV) https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfW0GMqeUE1bLKaYor6kbHa\n►DIFFERENTIAL EQUATIONS: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxde-SlgmWlCmNHroIWtujBw\n►LAPLACE TRANSFORM: https://www.youtube.com/playlist?list=PLHXZ9OQGMqxcJXnLr08cyNaup4RDsbAl1\n►GAME THEORY:  https://www.youtube.com/playlist?list=PLHXZ9OQGMqxdzD8KpTHz6_gsw9pPxRFlX\n\nOTHER PLAYLISTS:\n► Learning Math Series\nhttps://www.youtube.com/watch?v=LPH2lqis3D0&list=PLHXZ9OQGMqxfSkRtlL5KPq6JqMNTh_MBw\n►Cool Math Series:\nhttps://www.youtube.com/playlist?list=PLHXZ9OQGMqxelE_9RzwJ-cqfUtaFBpiho\n\nBECOME A MEMBER:\n►Join: https://www.youtube.com/channel/UC9rTsvTxJnx1DNrDA3Rqa6A/join\n\nSOCIALS:\n►Twitter (math based): http://twitter.com/treforbazett\n►Instagram (photography based): http://instagram.com/treforphotography",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

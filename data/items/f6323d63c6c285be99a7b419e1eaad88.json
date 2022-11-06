@@ -1,0 +1,18 @@
+{
+  "title": "The secrets behind Docker. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/227/notes",
+  "description": "Alon Zahavi from CyberArk, joins Dave Bittner on this episode to discuss CyberArk's work in conjunction with Patch Tuesday. CyberArk published about how Docker inadvertently created a new vulnerability and what happens when it's exploited.\nCyberArk's research concluded that an attacker may execute files with capabilities or setuid files in order to escalate its privileges up to root level. CyberArk found the new vuln in some of Microsoft’s Docker images, caused by misuse of Linux capabilities, a powerful additional layer of security that gives admins the ability to assign capabilities and privileges to processes and files in the Linux system\nThe research can be found here:\nHow Docker Made Me More Capable and the Host Less Secure",
+  "pubDate": "Sat, 09 Apr 2022 07:00:00 -0000",
+  "itunes:title": "The secrets behind Docker. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 227,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Alon Zahavi from CyberArk, joins Dave Bittner on this episode to discuss CyberArk's work in conjunction with Patch Tuesday. CyberArk published about how Docker inadvertently created a new vulnerability and what happens when it's exploited.\nCyberArk's research concluded that an attacker may execute files with capabilities or setuid files in order to escalate its privileges up to root level. CyberArk found the new vuln in some of Microsoft’s Docker images, caused by misuse of Linux capabilities, a powerful additional layer of security that gives admins the ability to assign capabilities and privileges to processes and files in the Linux system\nThe research can be found here:\nHow Docker Made Me More Capable and the Host Less Secure",
+  "content:encoded": "<p>Alon Zahavi from CyberArk, joins Dave Bittner on this episode to discuss CyberArk's work in conjunction with Patch Tuesday. CyberArk published about how Docker inadvertently created a new vulnerability and what happens when it's exploited.</p><p>CyberArk's research concluded that an attacker may execute files with capabilities or setuid files in order to escalate its privileges up to root level. CyberArk found the new vuln in some of Microsoft’s Docker images, caused by misuse of Linux capabilities, a powerful additional layer of security that gives admins the ability to assign capabilities and privileges to processes and files in the Linux system</p><p>The research can be found here:</p><ul><li><a href=\"https://www.cyberark.com/resources/threat-research-blog/how-docker-made-me-more-capable-and-the-host-less-secure\">How Docker Made Me More Capable and the Host Less Secure</a></li></ul>",
+  "itunes:duration": 1314,
+  "itunes:explicit": "no",
+  "guid": "a617d70c-b5bf-11ec-9076-8b9eaec222a5",
+  "enclosure": ""
+}

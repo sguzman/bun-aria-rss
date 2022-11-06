@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3789 (tim_campus_confession_wall)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3789",
+  "description": "A vulnerability has been found in Tim Campus Confession Wall and classified as critical. Affected by this vulnerability is an unknown functionality of the file share.php. The manipulation of the argument post_id leads to sql injection. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-212611.",
+  "dc:date": "2022-11-01T14:15:12Z"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Isotonic Regression",
+  "link": "http://fa.bianp.net/blog/2013/isotonic-regression/",
+  "description": "<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n  equationNumbers: { autoNumber: \"AMS\" },\n  extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n\n<script type=\"text/javascript\" async\n  src=\"/js/mathjax@2.7.5/MathJax.js\">\n</script>\n\n<p>My latest contribution for <a href=\"http://scikit-learn.org\">scikit-learn</a> is\n an implementation of the isotonic regression model that I coded with\n <a href=\"https://twitter.com/nvaroqua\">Nelle Varoquaux</a> and\n <a href=\"http://alexandre.gramfort.net/\">Alexandre Gramfort …</a></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 16 Apr 2013 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2013-04-16:/blog/2013/isotonic-regression/",
+  "category": [
+    "misc",
+    "isotonic regression",
+    "machine learning",
+    "Python",
+    "scikit-learn"
+  ]
+}

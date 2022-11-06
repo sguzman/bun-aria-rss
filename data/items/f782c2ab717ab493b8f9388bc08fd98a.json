@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-3211409948956809184.post-5888478073763548653",
+  "published": "2021-09-06T08:11:00.001-07:00",
+  "updated": "2021-09-06T08:11:31.934-07:00",
+  "title": "How can we visualize attention?",
+  "content": "<p>&nbsp;A nice and recent paper from Lior Wolf's lab at Tel Aviv University:&nbsp;https://arxiv.org/pdf/2103.15679.pdf by Hila Chefer, Shir Gur and Lior Wolf. The problem is very simple: given a transformer encoder/ decoder network, we would like to visualize the affect of attention on the image. While the problem is simple the answer is pretty complicated: we need to take into account attention matrices from mutliple layers at once. The paper suggests an iterative way to add up all those attention layers into one coherent image.</p><p>Figure 4 shows that the result is very compelling vs. previous art:&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-u7ZprLIurts/YTJPDbX7XdI/AAAAAAABhso/OkkqEDx9HSoYe__oLMR-8JVyWUZkBxXsQCLcBGAsYHQ/s2048/Screen%2BShot%2B2021-09-03%2Bat%2B19.35.42.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"1106\" data-original-width=\"2048\" height=\"330\" src=\"https://1.bp.blogspot.com/-u7ZprLIurts/YTJPDbX7XdI/AAAAAAABhso/OkkqEDx9HSoYe__oLMR-8JVyWUZkBxXsQCLcBGAsYHQ/w610-h330/Screen%2BShot%2B2021-09-03%2Bat%2B19.35.42.png\" width=\"610\" /></a></div>top row is the new paper and bottom row is work for comparison.&nbsp;<p></p>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Danny Bickson",
+    "uri": "http://www.blogger.com/profile/01517237836051035400",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

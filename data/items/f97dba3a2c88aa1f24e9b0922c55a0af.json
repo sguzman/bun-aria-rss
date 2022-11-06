@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-1381 (fedora, macos, vim)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1381",
+  "description": "global heap buffer overflow in skip_range in GitHub repository vim/vim prior to 8.2.4763. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution",
+  "dc:date": "2022-04-18T01:15:10Z"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Reducing gender bias in Google Translate",
+  "link": "https://blog.google/products/translate/reducing-gender-bias-google-translate/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p>Over the course of this year, there’s been an effort across Google to <a href=\"https://ai.google/education/responsible-ai-practices?category=fairness\">promote fairness and reduce bias</a> in machine learning. Our latest development in this effort addresses gender bias by providing feminine and masculine translations for some gender-neutral words on the <a href=\"https://translate.google.com/\">Google Translate website</a>.</p><br/><p>Google Translate learns from hundreds of millions of already-translated examples from the web. Historically, it has provided only one translation for a query, even if the translation could have either a feminine or masculine form. So when the model produced one translation, it inadvertently replicated gender biases that already existed. For example: it would skew masculine for words like “strong” or “doctor,” and feminine for other words, like “nurse” or “beautiful.”</p><br/><p>Now you’ll get both a feminine and masculine translation for a single word—like “surgeon”—when translating from English into French, Italian, Portuguese or Spanish. You’ll also get both translations when translating phrases and sentences from Turkish to English. For example, if you type “o bir doktor” in Turkish, you’ll now get “she is a doctor” and “he is a doctor” as the gender-specific translations.</p><p><br/></p></div></div><div class=\"block-image_full_width\"><div class=\"h-c-page\"><div class=\"article-image__is-caption h-c-grid__col-l--6 h-c-grid__col--8 h-c-grid__col-l--offset-3 h-c-grid__col--offset-2\"><a class=\"article-image--link\"><img alt=\"gender specific translation\" class=\"article-image--large\" data-loading='{\n                \"mobile\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gender-before-after.max-500x500.jpg\",\n                \"desktop\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gender-before-after.max-1000x1000.jpg\"\n              }' loading=\"lazy\" src=\" https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gender-before-after.max-100x100.jpg \" tabindex=\"0\"/></a></div><figcaption class=\"article-image__caption article-image__is-caption-image h-c-grid__col--8 h-c-grid__col--offset-2 h-c-grid__col-l--6 h-c-grid__col-l--offset-3\"><div class=\"rich-text\"><p>Gender-specific translations on the Google Translate website.</p></div></figcaption></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><p>In the future, we plan to extend gender-specific translations to more languages, launch on other Translate surfaces like our iOS and Android apps, and address gender bias in features like query auto-complete. And we're already thinking about how to address non-binary gender in translations, though it’s not part of this initial launch.</p><br/>To check out gender-specific translations, visit the <a href=\"https://translate.google.com/\">Google Translate website</a>, and you can get more information on our <a href=\"https://support.google.com/translate/answer/9179237\">Google Translate Help Center page</a>.</div></div></body></html>",
+  "pubDate": "Thu, 06 Dec 2018 16:42:00 +0000",
+  "guid": "https://blog.google/products/translate/reducing-gender-bias-google-translate/",
+  "category": "Translate",
+  "og": {
+    "type": "article",
+    "title": "Reducing gender bias in Google Translate",
+    "description": "Google Translate is launching gender-specific translations: masculine and feminine results for a gender-neutral query.",
+    "site_name": "Google",
+    "url": "https://blog.google/products/translate/reducing-gender-bias-google-translate/"
+  },
+  "author": {
+    "name": "James Kuczmarski",
+    "title": "Product Manager, Google Translate",
+    "department": "",
+    "company": ""
+  }
+}

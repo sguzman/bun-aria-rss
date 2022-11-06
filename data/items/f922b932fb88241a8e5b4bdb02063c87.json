@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:lqbZdTLMyQw",
+  "yt:videoId": "lqbZdTLMyQw",
+  "yt:channelId": "UCSMOQeBJ2RAnuFungnQOxLg",
+  "title": "Generating synthetic data for deep learning",
+  "link": "",
+  "author": {
+    "name": "Blender",
+    "uri": "https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg"
+  },
+  "published": "2022-10-29T15:13:39+00:00",
+  "updated": "2022-11-03T09:48:45+00:00",
+  "media:group": {
+    "media:title": "Generating synthetic data for deep learning",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We, the Virtual Reality & Multimedia Group of the Freiberg University of Mining & Technology (Germany), would like to introduce our Blender add-on “BlAInder” – a range scanner tool to simulate depth sensors, e.g. LiDAR (laser) or sonar (ultrasonic) for synthetic data generation.\n\nThese sensors are common technology within a wide range of domains, e.g. autonomous driving and robotics. To simplify the training data generation process for the AI of these systems, this add-on enables a largely automated generation of semantically annotated point-cloud data in virtual 3D environments.\n\nWithin the add-on, different depth sensors can be loaded from presets, customized sensors can be implemented and different environmental conditions (e. g., influence of rain, dust) can be simulated. The semantically labeled data can be exported to various 2D and 3D formats and are thus optimized for different deep learning applications and visualizations. In addition, semantically labeled images can be exported using the rendering functionalities of Blender.\n\nThe add-on is fully open-source, you can find it on GitHub: https://github.com/ln-12/blainder-range…. We published a scientific paper on this topic, which you can find here: https://www.mdpi.com/1424-8220/21/6/2144.\n\n\"Generating synthetic data for deep learning\" by Stefan Reitmann\nBlender Conference 2022\n2022-10-29 16:00 at the attic.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "title": "ODSC webinar&#58; End-to-End Data Science Without Leaving the GPU",
+  "description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5xBMrO-BSy8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+  "pubDate": "Thu, 11 Jul 2019 00:00:00 +0000",
+  "link": "http://randyzwitch.com/omnisci-cudf-rapids-odsc-webinar/",
+  "guid": "http://randyzwitch.com/omnisci-cudf-rapids-odsc-webinar/",
+  "content": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5xBMrO-BSy8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n\n<p>In this webinar sponsored by the <a href=\"https://odsc.com/\">Open Data Science Conference</a> (ODSC), I outline a brief history of GPU analytics and the problems that using GPU analytics solves relative to using other parallel computation methods such as Hadoop. I also demonstrate how <a href=\"https://www.omnisci.com/\">OmniSci</a> fits into the broader GPU-accelerated data science workflow, with examples provided using Python.</p>\n\n<p>Check out the video, grab the Jupyter Notebook from the <a href=\"https://github.com/omnisci/odscwebinar\">odscwebinar</a> repo and get started with OmniSci and GPU-accelerated data science!</p>"
+}

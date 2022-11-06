@@ -1,0 +1,6 @@
+{
+  "title": "Probing Statistical Representations For End-To-End ASR. (arXiv:2211.01993v1 [cs.CL])",
+  "link": "http://arxiv.org/abs/2211.01993",
+  "description": "<p>End-to-End automatic speech recognition (ASR) models aim to learn a\ngeneralised speech representation to perform recognition. In this domain there\nis little research to analyse internal representation dependencies and their\nrelationship to modelling approaches. This paper investigates cross-domain\nlanguage model dependencies within transformer architectures using SVCCA and\nuses these insights to exploit modelling approaches. It was found that specific\nneural representations within the transformer layers exhibit correlated\nbehaviour which impacts recognition performance.\n</p>\n<p>Altogether, this work provides analysis of the modelling approaches affecting\ncontextual dependencies and ASR performance, and can be used to create or adapt\nbetter performing End-to-End ASR models and also for downstream tasks.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Ollerenshaw_A/0/1/0/all/0/1\">Anna Ollerenshaw</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jalal_M/0/1/0/all/0/1\">Md Asif Jalal</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hain_T/0/1/0/all/0/1\">Thomas Hain</a>"
+}

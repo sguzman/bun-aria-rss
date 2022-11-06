@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-2475 (haas_controller_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-2475",
+  "description": "Haas Controller version 100.20.000.1110 has insufficient granularity of access control when using the &quot;Ethernet Q Commands&quot; service. Any user is able to write macros into registers outside of the authorized accessible range. This could allow a user to access privileged resources or resources out of context.",
+  "dc:date": "2022-10-28T18:15:11Z"
+}

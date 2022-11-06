@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:DrhDHDDWxOE",
+  "yt:videoId": "DrhDHDDWxOE",
+  "yt:channelId": "UCWNx17Jt6eW4N4ayAEiXdEA",
+  "title": "12 Differences between LIBOR and RFRs (alternative reference/risk free rates: SOFR, SONIA,€STR, …)",
+  "link": "",
+  "author": {
+    "name": "quantpie",
+    "uri": "https://www.youtube.com/channel/UCWNx17Jt6eW4N4ayAEiXdEA"
+  },
+  "published": "2020-12-01T09:01:47+00:00",
+  "updated": "2022-06-27T17:24:07+00:00",
+  "media:group": {
+    "media:title": "12 Differences between LIBOR and RFRs (alternative reference/risk free rates: SOFR, SONIA,€STR, …)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Outlines the differences between LIBOR and the RFRs, from the most trivial differences such as number of decimal places, to the more subtle ones such as the Term rate in advance vs O/N in arrears, and their implications for the design of financial instruments such as loans, futures, and swaps etc.\n\nThe RFRs, are known by several names such as nearly Risk Free Rates, Alternative Reference Rates, new reference rates, overnight indices, and are set to replace the LIBOR (the IBOR Transition), if not by 2021 then definitely by 2023!  For major currencies, the RFR choices have already been made (let’s hope they don’t switch!): USD SOFR, GPP SONIA, EUR €STR, CHF SARON, CAD CORRA, and JPY TONA. With the RFRs come a few more features such as payment delay, look-back (with and without observation shifts), lockouts, truncated observation period etc in order to facilitate their use in cash/loan products, so we naturally discuss these as well.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
