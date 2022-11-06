@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:lUBrwHyDMWc",
+  "yt:videoId": "lUBrwHyDMWc",
+  "yt:channelId": "UC5miyvhPsWWyfTulnJ43koQ",
+  "title": "Baby Penguin during Global Timer Overflow",
+  "link": "",
+  "author": {
+    "name": "UncommentatedPannen",
+    "uri": "https://www.youtube.com/channel/UC5miyvhPsWWyfTulnJ43koQ"
+  },
+  "published": "2022-06-17T01:13:45+00:00",
+  "updated": "2022-09-08T07:46:19+00:00",
+  "media:group": {
+    "media:title": "Baby Penguin during Global Timer Overflow",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I show what happens to the baby penguin when the global timer overflows from 4,294,967,295 to 0. Specifically, two interesting phenomena occur:\n(1) The baby penguin makes 2 crying sounds that are extra close together.\n(2) The baby penguin's blinking cycle gets interrupted, so the eyes go straight from closed to open without the intermediate frames.\nBoth of these phenomena are due to logic that uses the global timer mod a number that 2^32 is not divisible by. Thus, when the global timer overflows, the cycles get interrupted.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2017-18379 (linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-18379",
+  "description": "In the Linux kernel before 4.14, an out of boundary access happened in drivers/nvme/target/fc.c.",
+  "dc:date": "2019-07-27T22:15:11Z"
+}
