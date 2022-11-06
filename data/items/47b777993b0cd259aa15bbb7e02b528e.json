@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-25097 (labtools)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-25097",
+  "description": "The LabTools WordPress plugin through 1.0 does not have proper authorisation and CSRF check in place when deleting publications, allowing any authenticated users, such as subscriber to delete arbitrary publication",
+  "dc:date": "2022-02-01T13:15:09Z"
+}
