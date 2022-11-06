@@ -1,0 +1,6 @@
+{
+  "title": "Space-grid approximations of hybrid stochastic differential equations and first passage properties. (arXiv:2211.01844v1 [math.PR])",
+  "link": "http://arxiv.org/abs/2211.01844",
+  "description": "<p>Hybrid stochastic differential equations are a useful tool to model\ncontinuously varying stochastic systems which are modulated by a random\nenvironment that may depend on the system state itself. In this paper, we\nestablish the pathwise convergence of the solutions to hybrid stochastic\ndifferential equations via space-grid discretizations. While time-grid\ndiscretizations are a classical approach for simulation purposes, our\nspace-grid discretization provides a link with multi-regime Markov modulated\nBrownian motions, leading to computational tractability. We exploit our\nconvergence result to obtain efficient approximations to first passage\nprobabilities and expected occupation times of the solutions hybrid stochastic\ndifferential equations, results which are the first of their kind for such a\nrobust framework. We finally illustrate the performance of the resulting\napproximations in numerical examples.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Albrecher_H/0/1/0/all/0/1\">Hansjoerg Albrecher</a>, <a href=\"http://arxiv.org/find/math/1/au:+Peralta_O/0/1/0/all/0/1\">Oscar Peralta</a>"
+}

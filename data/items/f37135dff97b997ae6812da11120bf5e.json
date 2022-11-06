@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-27784 (hcl_launch_container_image)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-27784",
+  "description": "The provided HCL Launch Container images contain non-unique HTTPS certificates and a database encryption key. The fix provides directions and tools to replace the non-unique keys and certificates. This does not affect the standard installer packages.",
+  "dc:date": "2022-10-31T22:15:12Z"
+}

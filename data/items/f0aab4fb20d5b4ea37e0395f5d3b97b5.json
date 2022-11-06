@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43752",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43752",
+  "description": "** UNSUPPORTED WHEN ASSIGNED ** Oracle Solaris version 10 1/13, when using the Common Desktop Environment (CDE), is vulnerable to a privilege escalation vulnerability. A low privileged user can escalate to root by crafting a malicious printer and double clicking on the the crafted printer's icon.",
+  "dc:date": "2022-10-31T21:15:13Z"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Counting Clusters",
+  "link": "http://blog.echen.me/2011/03/14/counting-clusters/",
+  "description": "<div class=\"entry-content\"><p>Given a set of datapoints, we often want to know how many clusters the datapoints form. The <strong>gap statistic</strong> and the <strong>prediction strength</strong> are two practical algorithms for choosing the number of clusters.</p>\n\n  <h1>Gap Statistic</h1>\n\n  <p>The <a href=\"http://www.stanford.edu/~hastie/Papers/gap.pdf\">gap statistic algorithm</a> works as follows:</p>\n\n  <p>For each i from 1 up to some …</p></div>",
+  "dc:creator": "Edwin Chen",
+  "pubDate": "Mon, 14 Mar 2011 04:15:00 +0100",
+  "guid": "tag:blog.echen.me,2011-03-14:/2011/03/14/counting-clusters/",
+  "category": "misc"
+}

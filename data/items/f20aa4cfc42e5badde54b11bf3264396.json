@@ -1,0 +1,26 @@
+{
+  "title": "Face Similarity searching ~ landmark detecting",
+  "link": "http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/",
+  "comments": "http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/#respond",
+  "dc:creator": "iridescent",
+  "pubDate": "Mon, 18 Sep 2017 01:26:42 +0000",
+  "category": [
+    "deep learning",
+    "Deploy on Linux",
+    "machine learning",
+    "Python",
+    "beauty store",
+    "face ID",
+    "face id face recognition beauty store face landmarks machine learning deep learning",
+    "face landmarks",
+    "face recognition",
+    "image mining",
+    "image processing",
+    "Machine Learning"
+  ],
+  "guid": "http://shichaoji.com/?p=6158",
+  "description": "<p>Thanks to this post of facial landmarks and the openface project! 11/11&#160; updated the image pool to 710000 11/3 &#160;updated the image pool to 540000 10/14 add face similarity searching! from a 4000-photo pool Deep Learning model find 128 features of each face &#8211;Then Cosine distance ~ simple but powerful.&#160; face similarity searching from celebrities [&#8230;]</p>\n<p>The post <a href=\"http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/\">Face Similarity searching ~ landmark detecting</a> first appeared on <a href=\"http://shichaoji.com\">Data Science Notebook</a>.</p>",
+  "content:encoded": "<div id=\"dslc-theme-content\"><div id=\"dslc-theme-content-inner\"><p><em>Thanks to this <a href=\"http://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/\">post of facial landmarks</a> and the <a href=\"https://cmusatyalab.github.io/openface/\">openface project</a>!</em></p>\n<p><em>11/11&nbsp; updated the image pool to 710000</em></p>\n<p><em>11/3 &nbsp;updated the image pool to 540000</em></p>\n<p><span style=\"font-size: 12pt; color: #4e0000;\"><em>10/14 add face similarity searching! from a 4000-photo pool</em></span></p>\n<p><span style=\"font-size: 16pt; color: #004e27;\"><em>Deep Learning model find 128 features of each face &#8211;Then Cosine distance ~ simple but powerful.&nbsp;</em></span></p>\n<p><span style=\"font-size: 16pt;\"><strong><span style=\"color: #004e27;\"><em> face similarity searching from celebrities (which superstar looks like you the most)?</em></span></strong></span></p>\n<p><span style=\"font-size: 12pt;\">I&#8217;ve implemented the idea to a web app that can batch processing face chopping from pics &nbsp;& facial landmarks pinpointing!</span></p>\n<p><span style=\"font-size: 12pt;\">The next step will be training beauty score rating model & a face similarity comparing to superstars (which star looks like you the most)?</span></p>\n<p><span style=\"font-size: 18pt;\"><strong><em><a href=\"http://iridescent.date:28888\" target=\"_blank\" rel=\"noopener noreferrer\">Original App Url</a></em></strong></span></p>\n\n<!-- iframe plugin v.4.5 wordpress.org/plugins/iframe/ -->\n<iframe src=\"http://iridescent.date:28888\" width=\"100%\" height=\"1000\" scrolling=\"yes\" class=\"iframe-class\" frameborder=\"0\"></iframe>\n\n<p><a class=\"a2a_button_facebook\" href=\"https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fshichaoji.com%2F2017%2F09%2F17%2Fface-landmarks-detector-web-app%2F&linkname=Face%20Similarity%20searching%20~%20landmark%20detecting\" title=\"Facebook\" rel=\"nofollow noopener\" target=\"_blank\"></a><a class=\"a2a_button_twitter\" href=\"https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fshichaoji.com%2F2017%2F09%2F17%2Fface-landmarks-detector-web-app%2F&linkname=Face%20Similarity%20searching%20~%20landmark%20detecting\" title=\"Twitter\" rel=\"nofollow noopener\" target=\"_blank\"></a><a class=\"a2a_button_linkedin\" href=\"https://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fshichaoji.com%2F2017%2F09%2F17%2Fface-landmarks-detector-web-app%2F&linkname=Face%20Similarity%20searching%20~%20landmark%20detecting\" title=\"LinkedIn\" rel=\"nofollow noopener\" target=\"_blank\"></a><a class=\"a2a_dd addtoany_share_save addtoany_share\" href=\"https://www.addtoany.com/share#url=http%3A%2F%2Fshichaoji.com%2F2017%2F09%2F17%2Fface-landmarks-detector-web-app%2F&#038;title=Face%20Similarity%20searching%20~%20landmark%20detecting\" data-a2a-url=\"http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/\" data-a2a-title=\"Face Similarity searching ~ landmark detecting\"></a></p></div></div><p>The post <a href=\"http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/\">Face Similarity searching ~ landmark detecting</a> first appeared on <a href=\"http://shichaoji.com\">Data Science Notebook</a>.</p>",
+  "wfw:commentRss": "http://shichaoji.com/2017/09/17/face-landmarks-detector-web-app/feed/",
+  "slash:comments": 0
+}

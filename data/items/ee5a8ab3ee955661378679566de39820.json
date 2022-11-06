@@ -1,0 +1,18 @@
+{
+  "title": "A record breaking DDoS attack. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/241/notes",
+  "description": "Chad Seaman, Team Lead at Akamai SIRT joins Dave to discuss their research about a record-breaking DDoS Attack. The research says \"A new reflection/amplification distributed denial-of-service (DDoS) vector with a record-breaking potential amplification ratio of 4,294,967,296:1 has been abused by attackers in the wild to launch multiple high-impact DDoS attacks.\"\nStarting in mid-February 2022, security researchers, network operators, and security vendors noticed a spike in DDoS attacks. Researchers started to investigate the spike and determined that the devices that were being abused to launch these attacks are MiCollab and MiVoice Business Express collaboration systems. The research goes into how you can help mitigate the attacks and how Mitel has now released patched software.\nThe research can be found here:\nCVE-2022-26143: TP240PhoneHome Reflection/Amplification DDoS Attack Vector",
+  "pubDate": "Sat, 16 Jul 2022 07:00:00 -0000",
+  "itunes:title": "A record breaking DDoS attack. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 5,
+  "itunes:episode": 241,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Chad Seaman, Team Lead at Akamai SIRT joins Dave to discuss their research about a record-breaking DDoS Attack. The research says \"A new reflection/amplification distributed denial-of-service (DDoS) vector with a record-breaking potential amplification ratio of 4,294,967,296:1 has been abused by attackers in the wild to launch multiple high-impact DDoS attacks.\"\nStarting in mid-February 2022, security researchers, network operators, and security vendors noticed a spike in DDoS attacks. Researchers started to investigate the spike and determined that the devices that were being abused to launch these attacks are MiCollab and MiVoice Business Express collaboration systems. The research goes into how you can help mitigate the attacks and how Mitel has now released patched software.\nThe research can be found here:\nCVE-2022-26143: TP240PhoneHome Reflection/Amplification DDoS Attack Vector",
+  "content:encoded": "<p>Chad Seaman, Team Lead at Akamai SIRT joins Dave to discuss their research about a record-breaking DDoS Attack. The research says \"A new reflection/amplification distributed denial-of-service (DDoS) vector with a record-breaking potential amplification ratio of 4,294,967,296:1 has been abused by attackers in the wild to launch multiple high-impact DDoS attacks.\"</p><p>Starting in mid-February 2022, security researchers, network operators, and security vendors noticed a spike in DDoS attacks. Researchers started to investigate the spike and determined that the devices that were being abused to launch these attacks are MiCollab and MiVoice Business Express collaboration systems. The research goes into how you can help mitigate the attacks and how Mitel has now released patched software.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.akamai.com/blog/security/phone-home-ddos-attack-vector\">CVE-2022-26143: TP240PhoneHome Reflection/Amplification DDoS Attack Vector</a></li></ul>",
+  "itunes:duration": 1560,
+  "itunes:explicit": "no",
+  "guid": "ec6707d0-045e-11ed-9650-f359aa6ab84d",
+  "enclosure": ""
+}

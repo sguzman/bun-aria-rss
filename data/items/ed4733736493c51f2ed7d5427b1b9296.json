@@ -1,0 +1,18 @@
+{
+  "title": "AutoWarp bug leads to Automation headaches. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/233/notes",
+  "description": "Yanir Tsarimi from Orca Security, joins Dave to discuss how researchers have discovered a critical Azure Automation service vulnerability called AutoWarp. The security flaw was discovered this past March causing Yanir to leap into action announcing the issue to Microsoft who helped to swiftly resolve the cross-account vulnerability.\nThe research shows how this serious flaw would allow attackers unauthorized access to other customer accounts and potentially full control over resources and data belonging to those accounts, as well as put multiple Fortune 500 companies and billions of dollars at risk. The research shares the crucial time line that the vulnerability was discovered as well as Microsofts response to the vulnerability.\nThe research can be found here:\nAutoWarp: Critical Cross-Account Vulnerability in Microsoft Azure Automation Service",
+  "pubDate": "Sat, 21 May 2022 07:00:00 -0000",
+  "itunes:title": "AutoWarp bug leads to Automation headaches. [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 233,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Yanir Tsarimi from Orca Security, joins Dave to discuss how researchers have discovered a critical Azure Automation service vulnerability called AutoWarp. The security flaw was discovered this past March causing Yanir to leap into action announcing the issue to Microsoft who helped to swiftly resolve the cross-account vulnerability.\nThe research shows how this serious flaw would allow attackers unauthorized access to other customer accounts and potentially full control over resources and data belonging to those accounts, as well as put multiple Fortune 500 companies and billions of dollars at risk. The research shares the crucial time line that the vulnerability was discovered as well as Microsofts response to the vulnerability.\nThe research can be found here:\nAutoWarp: Critical Cross-Account Vulnerability in Microsoft Azure Automation Service",
+  "content:encoded": "<p>Yanir Tsarimi from Orca Security, joins Dave to discuss how researchers have discovered a critical Azure Automation service vulnerability called AutoWarp. The security flaw was discovered this past March causing Yanir to leap into action announcing the issue to Microsoft who helped to swiftly resolve the cross-account vulnerability.</p><p>The research shows how this serious flaw would allow attackers unauthorized access to other customer accounts and potentially full control over resources and data belonging to those accounts, as well as put multiple Fortune 500 companies and billions of dollars at risk. The research shares the crucial time line that the vulnerability was discovered as well as Microsofts response to the vulnerability.</p><p>The research can be found here:</p><ul><li><a href=\"https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/\">AutoWarp: Critical Cross-Account Vulnerability in Microsoft Azure Automation Service</a></li></ul>",
+  "itunes:duration": 1166,
+  "itunes:explicit": "no",
+  "guid": "9cbc1f84-d86e-11ec-8af4-2f0a56548ef7",
+  "enclosure": ""
+}

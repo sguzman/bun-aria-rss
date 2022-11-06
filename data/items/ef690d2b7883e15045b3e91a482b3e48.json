@@ -1,0 +1,13 @@
+{
+  "title": "MLB week 4 review, week 5 posted",
+  "link": "",
+  "published": "2015-05-10T20:34:00-07:00",
+  "updated": "2015-05-10T20:34:00-07:00",
+  "author": {
+    "name": "Jonathan Landy"
+  },
+  "id": "tag:efavdb.com,2015-05-10:/mlb-week-4-review-week-5-posted",
+  "summary": "<p>Relatively poor results this past week, 44 of 94 games, 47% accuracy overall. Given our relatively strong performance in the <span class=\"caps\">NBA</span> this past season, our early <span class=\"caps\">MLB</span> results have been a bit disappointing. However, after doing a bit of learnin&#8217;, we realized an interesting point: Professional baseball teams are simply …</p>",
+  "content": "<p>Relatively poor results this past week, 44 of 94 games, 47% accuracy overall. Given our relatively strong performance in the <span class=\"caps\">NBA</span> this past season, our early <span class=\"caps\">MLB</span> results have been a bit disappointing. However, after doing a bit of learnin&#8217;, we realized an interesting point: Professional baseball teams are simply much more balanced than their <span class=\"caps\">NBA</span> counterparts. A statistic illustrating this point is provided by the winning rates of the top teams: This past year, the Warriors had a win rate just over 80%, while the top team in the <span class=\"caps\">MLB</span> last season, the Angels, had just under a 61% win rate. This difference explains why we can&#8217;t achieve 70% win prediction accuracy in the <span class=\"caps\">MLB</span>. Instead, we&#8217;ll be shooting for just 56% accuracy this season &#8212; this may sound modest, but we expect this rate will be a challenge to meet. To work towards that goal, we&#8217;ve already begun to implement a number of improvements to our algorithm. New predictions are <a href=\"http://efavdb.github.io/weekly-nba-predictions\">posted</a>.</p>\n<table>\n<thead>\n<tr>\n<th>Point spread</th>\n<th># games</th>\n<th>Accuracy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>&lt;= 1</td>\n<td>23</td>\n<td>43%</td>\n</tr>\n<tr>\n<td>&lt;=2</td>\n<td>20</td>\n<td>45%</td>\n</tr>\n<tr>\n<td>&lt;=5</td>\n<td>32</td>\n<td>41%</td>\n</tr>\n<tr>\n<td>&gt;5</td>\n<td>19</td>\n<td>63%</td>\n</tr>\n</tbody>\n</table>",
+  "category": ""
+}

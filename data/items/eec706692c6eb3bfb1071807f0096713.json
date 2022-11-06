@@ -1,0 +1,7 @@
+{
+  "title": "Deep learning resources",
+  "link": "https://yanirseroussi.com/deep-learning-resources/",
+  "pubDate": "Mon, 06 Jul 2015 00:38:44 +0000",
+  "guid": "https://yanirseroussi.com/deep-learning-resources/",
+  "description": "This page summarises the deep learning resources I&rsquo;ve consulted in my album cover classification project.\nTutorials and blog posts Convolutional Neural Networks for Visual Recognition Stanford course notes: an excellent resource, very up-to-date and useful, despite still being a work in progress DeepLearning.net&rsquo;s Theano-based tutorials: not as up-to-date as the Stanford course notes, but still a good introduction to some of the theory and general Theano usage Lasagne&rsquo;s documentation and tutorials: still a bit lacking, but good when you know what you&rsquo;re looking for lasagne4newbs: Lasagne&rsquo;s convnet example with richer comments Using convolutional neural nets to detect facial keypoints tutorial: the resource that made me want to use Lasagne Classifying plankton with deep neural networks: an epic post, which I found while looking for Lasagne examples Various Wikipedia pages: a bit disappointing – the above resources are much better Papers Adam: a method for stochastic optimization (Kingma and Ba, 2015): an improvement over SGD with Nesterov momentum, AdaGrad and RMSProp, which I found to be useful in practice Algorithms for Hyper-Parameter Optimization (Bergstra et al."
+}

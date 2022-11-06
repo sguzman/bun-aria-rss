@@ -1,0 +1,14 @@
+{
+  "title": "Notes on the Frank-Wolfe Algorithm, Part I",
+  "link": "http://fa.bianp.net/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/",
+  "description": "<p>This blog post is the first in a series discussing different theoretical and practical aspects of the Frank-Wolfe algorithm.</p>\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n    equationNumbers: { autoNumber: \"AMS\" },\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n<script type=\"text/javascript\" async src=\"/js/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML\">\n</script>\n\n\n<!-- for highlighting -->\n<link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css\">\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js\"></script>\n<script>hljs.initHighlightingOnLoad();</script>\n\n\n<div style=\"display: none\">\n  $$\n   \\def\\xx{\\boldsymbol x}\n   \\def\\yy{\\boldsymbol y}\n   \\def\\ss{\\boldsymbol s}\n   \\def\\dd …</div>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 21 Mar 2018 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2018-03-21:/blog/2018/notes-on-the-frank-wolfe-algorithm-part-i/",
+  "category": [
+    "optimization",
+    "Frank-Wolfe",
+    "conditional gradient",
+    "convergence analysis"
+  ]
+}

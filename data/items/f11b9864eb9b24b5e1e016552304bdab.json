@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3785 (bento4)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3785",
+  "description": "A vulnerability, which was classified as critical, has been found in Axiomatic Bento4. Affected by this issue is the function AP4_DataBuffer::SetDataSize of the component Avcinfo. The manipulation leads to heap-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212564.",
+  "dc:date": "2022-10-31T21:15:12Z"
+}

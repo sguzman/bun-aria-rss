@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:oBf5lrmquYI",
+  "yt:videoId": "oBf5lrmquYI",
+  "yt:channelId": "UCdngmbVKX1Tgre699-XLlUA",
+  "title": "Kubernetes Security Best Practices you need to know | THE Guide for securing your K8s cluster!",
+  "link": "",
+  "author": {
+    "name": "TechWorld with Nana",
+    "uri": "https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA"
+  },
+  "published": "2022-05-03T13:18:48+00:00",
+  "updated": "2022-05-09T01:22:56+00:00",
+  "media:group": {
+    "media:title": "Kubernetes Security Best Practices you need to know | THE Guide for securing your K8s cluster!",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Secure your K8s cluster with this Top 10 Kubernetes Security Best Practices | Kubernetes Security 101\n💙   Become a Kubernetes Administrator                                    ►  https://bit.ly/k8s-admin-course\n💚   Become a DevOps Engineer - full educational program     ►  https://bit.ly/3gEwf4V\n💛   Follow me on IG for behind-the-scenes-content                  ►  https://bit.ly/2F3LXYJ\n\n✅  Learn more about Kubernetes Backup and Restore with Kasten:  https://youtu.be/01qcYSck1c4\n\n#kubernetes #devops  #techworldwithnana\n\n► Thank you Kasten for sponsoring this video 🙌\n► Free Kubernetes Backup and Migration - Download Free Kasten K10 #1 Kubernetes Backup: https://www.kasten.io/nana\n\n\nIn this video I talk about a super important topic, which is security in Kubernetes and what are some of the best practices for securing your Kubernetes cluster.\n\nThe big challenge that we see in terms of Kubernetes security is that it's already so challenging to set up a Kubernetes cluster and to configure it to deploy the applications in it, that security often becomes the afterthought, adding on top of that already complex configuration. However we can't deny the importance of security, especially when the systems are so complex!\n\nCloud applications actually become a very attractive target to a lot of hackers and this growing number of cloud native applications mostly use Kubernetes as a platform and that's where the relevance of knowing how to secure Kubernetes clusters comes into play.\n\n\n▬▬▬▬▬▬  L I N K S  🔗▬▬▬▬▬▬ \nSign up to get notified about new upcoming courses    ►  https://www.techworld-with-nana.com/course-roadmap\n\n\n▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬\n0:00 - Intro\n00:33 - Security in Cloud in general\n01:39 - Security in Kubernetes\n02:26 - Security as a Spectrum\n04:39 - BP 1 - Image Scanning\n09:45 - BP 2 - Run as Non-Root User\n11:08 - BP 3 - Users & Permissions with RBAC\n15:44 - BP 4 - Use Network Policies\n18:18 - BP 5 -  Encrypt Communication\n19:06 - BP 6 -  Secure  Secret Data\n20:34 - BP 7 - Secure etcd\n22:05 - BP 8 - Automated Backup & Restore\n24:54 - BP 9 - Configure Security Policies\n26:50 - BP 10 - Disaster Recovery\n\n\n▬▬▬▬▬▬ Want to learn more? 🚀  ▬▬▬▬▬▬ \nFull Python course                                            ►  https://youtu.be/t8pPdKYpowI\nFull Docker course                                            ►  https://youtu.be/3c-iBn73dDE\nFull K8s course                                                  ►  https://youtu.be/X48VuDVv0do\nDevOps Tools explained                                   ►  https://bit.ly/2W9UEq6\n\n\n▬▬▬▬▬▬ Connect with me 👋   ▬▬▬▬▬▬ \nINSTAGRAM             ►  https://bit.ly/2F3LXYJ\nTWITTER                   ►  https://bit.ly/3i54PUB\nLINKEDIN                  ►  https://bit.ly/3hWOLVT\nFB group                   ►  https://bit.ly/32UVSZP\nDEV                            ►  https://bit.ly/3h2fqiO\n\n\n▬▬▬▬▬▬ Courses & Bootcamp & Ebooks 🚀      ▬▬▬▬▬▬ \n► Become a DevOps Engineer - full educational program             👉🏼  https://bit.ly/3gEwf4V\n► High-Quality and Hands-On Courses                                             👉🏼   https://bit.ly/3nIouPW\n► Kubernetes 101 - compact and easy-to-read ebook bundle      👉🏼   https://bit.ly/3mPIaiU",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

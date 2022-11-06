@@ -1,0 +1,12 @@
+{
+  "title": "Nutch &#8211; Plugin Tutorial",
+  "link": "https://florianhartl.com/nutch-plugin-tutorial.html",
+  "comments": "https://florianhartl.com/nutch-plugin-tutorial.html#comments",
+  "dc:creator": "Florian Hartl",
+  "pubDate": "Thu, 17 May 2012 20:13:59 +0000",
+  "category": "Machine Learning",
+  "guid": "http://www.florianhartl.com/?p=27",
+  "description": "<p>In one of my previous posts about Nutch, I already mentioned plugins. The plugin system is central to how Nutch works and allows you to customize Nutch to your personal needs in a very flexible and maintainable way. Everybody who wants to use Nutch for other things than just playing around will be challenged to write an own plugin at one point or another. Indeed, there are many settings which can be changed within the files &#8216;nutch-default.xml&#8217; or rather &#8216;nutch-site.xml&#8217;. But simply imagine you would like to add a new field to the index by doing some custom analysis of…</p>\n<p>The post <a rel=\"nofollow\" href=\"https://florianhartl.com/nutch-plugin-tutorial.html\">Nutch &#8211; Plugin Tutorial</a> appeared first on <a rel=\"nofollow\" href=\"https://florianhartl.com\">Florian Hartl</a>.</p>\n",
+  "wfw:commentRss": "https://florianhartl.com/nutch-plugin-tutorial.html/feed",
+  "slash:comments": 18
+}

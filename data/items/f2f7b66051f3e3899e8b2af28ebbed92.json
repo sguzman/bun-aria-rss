@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-7287905824139329105",
+  "published": "2017-03-31T18:33:00.000-07:00",
+  "updated": "2017-03-31T18:39:12.164-07:00",
+  "title": "Prime Divisors of \\(3^{32}-2^{32}\\)",
+  "content": "Find four prime divisors &lt; 100 for \\(3^{32}-2^{32}\\).<br />Source: British Math Olympiad, 2006.<br /><br />This factors nicely as \\(3^{32}-2^{32} = \\left(3^{16}+2^{16}\\right)\\left(3^{16}-2^{16}\\right)\\), and we can continue factoring in this way to get \\[3^{32}-2^{32} = \\left(3^{16}+2^{16}\\right)\\left(3^8+2^8\\right)\\left(3^4+2^4\\right)\\left(3^2+2^2\\right)\\left(3^2-2^2\\right).\\]The final three terms are \\(5, 13, 97\\), so we have three of the four required primes. For another prime divisor, consider \\(3^{16}-2^{16}\\). By <a href=\"https://en.wikipedia.org/wiki/Fermat%27s_little_theorem\">Fermat's Little Theorem</a> \\(a^{16}-1\\equiv 0 \\bmod 17\\) for all \\(a\\) with \\((a,17)=1\\), and so it follows that \\(3^{16}-2^{16}\\equiv 0 \\bmod 17\\), and we therefore have \\(17\\) as a fourth such prime divisor.<br />Alternatively, note \\( \\left(\\dfrac{3}{17}\\right)=-1, \\left(\\dfrac{2}{17}\\right)=1\\), hence by <a href=\"https://en.wikipedia.org/wiki/Euler%27s_criterion\">Euler's Criterion</a> \\(3^8\\equiv -1 \\bmod 17\\) and \\(2^8\\equiv 1 \\bmod 17\\), giving \\(3^8+2^8\\equiv 0\\bmod 17\\).",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

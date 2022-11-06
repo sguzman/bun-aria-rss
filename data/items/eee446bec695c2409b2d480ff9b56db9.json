@@ -1,0 +1,14 @@
+{
+  "title": "Data-driven hemodynamic response function estimation",
+  "link": "http://fa.bianp.net/blog/2014/data-driven-hemodynamic-response-function-estimation/",
+  "description": "<p>My <a href=\"http://www.sciencedirect.com/science/article/pii/S1053811914008027\">latest research paper</a>[<sup id=\"fnref:1\"><a class=\"footnote-ref\" href=\"#fn:1\" rel=\"footnote\">1</a></sup>]  deals with the estimation of the hemodynamic response function (HRF) from fMRI data. </p>\n<div style=\"text-align: center\">\n<img width=\"600px\" src=\"/images/2014/graphical_abstract.jpg\" />\n</div>\n\n<p>This is an important topic since the knowledge of a  hemodynamic response function is what makes it possible to extract the brain activation maps that are used in most of the impressive …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 05 Dec 2014 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2014-12-05:/blog/2014/data-driven-hemodynamic-response-function-estimation/",
+  "category": [
+    "misc",
+    "fMRI",
+    "GLM",
+    "python"
+  ]
+}

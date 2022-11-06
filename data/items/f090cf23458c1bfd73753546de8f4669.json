@@ -1,0 +1,13 @@
+{
+  "title": "LARS algorithm",
+  "link": "http://fa.bianp.net/blog/2010/lars-algorithm/",
+  "description": "<p>I've been working lately with <a class=\"reference external\" href=\"http://www-sop.inria.fr/members/Alexandre.Gramfort/\">Alexandre Gramfort</a> coding the <a class=\"reference external\" href=\"http://scikit-learn.sf.net/modules/glm.html#lars-algorithm-and-its-variants\">LARS\nalgorithm</a> in <a class=\"reference external\" href=\"hhtp://scikit-learn.sf.net\">scikits.learn</a>. This algorithm computes the solution to\nseveral general linear models used in machine learning: LAR, Lasso,\nElasticnet and Forward Stagewise. Unlike the implementation by\ncoordinate descent, the LARS algorithm gives the full coefficient path\nalong the …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 30 Sep 2010 16:01:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-09-30:/blog/2010/lars-algorithm/",
+  "category": [
+    "misc",
+    "scikit-learn",
+    "sparse"
+  ]
+}

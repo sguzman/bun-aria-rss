@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-20956",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-20956",
+  "description": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to bypass authorization and access system files. This vulnerability is due to improper access control in the web-based management interface of an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request to the affected device. A successful exploit could allow the attacker to list, download, and delete certain files that they should not have access to. Cisco plans to release software updates that address this vulnerability. https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-access-contol-EeufSUCx [&quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-access-contol-EeufSUCx&quot;]",
+  "dc:date": "2022-11-04T18:15:11Z"
+}

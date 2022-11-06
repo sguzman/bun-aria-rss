@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3373 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3373",
+  "description": "Out of bounds write in V8 in Google Chrome prior to 106.0.5249.91 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chrome security severity: High)",
+  "dc:date": "2022-11-01T03:15:10Z"
+}

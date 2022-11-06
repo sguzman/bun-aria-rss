@@ -1,0 +1,26 @@
+{
+  "id": "tag:blogger.com,1999:blog-8698702854482141883.post-3754398734553677195",
+  "published": "2022-10-18T09:00:00.010-07:00",
+  "updated": "2022-10-18T10:20:45.722-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "ko applies to become a CNCF sandbox project",
+  "content": "<meta name=\"twitter:image\" content=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_crE7WWe5IfUcYzM6hFLkWzoYUyZKCbyGNG0saqkYljlADMrs93-0ldD9QYvJs-0sgeJGyrtb0T2IlJIIa3razRigucNsXHu0pS3QkE78ldwuGYwuTXzWLNGXRZiYlToBiha8U7R4vU7nEc_qo0RpZW4mplapOg9XrzH66fj9ts5N06RG1aKyxmuY/s1600/Blog-17-new%20title-03.png\"><img style=\"display:none\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_crE7WWe5IfUcYzM6hFLkWzoYUyZKCbyGNG0saqkYljlADMrs93-0ldD9QYvJs-0sgeJGyrtb0T2IlJIIa3razRigucNsXHu0pS3QkE78ldwuGYwuTXzWLNGXRZiYlToBiha8U7R4vU7nEc_qo0RpZW4mplapOg9XrzH66fj9ts5N06RG1aKyxmuY/s1600/Blog-17-new%20title-03.png\">  <div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjphJUS1GQF4ukyVL_wnm7mLGMpPyzp_rB6szWbOfte1KbCobhUXOXXrN-ygLrUP2Kjr5JhPnaIOthpsXSToB841seJkTbbbLL2pty16bytPebigRCG_j_-t77NTzVQuJq09IWQjWIuHS3cxzmyqnZZuKjy7_7-O-RcVBjGui_pZs29Hd7TgJHiYfUr/s1600/image1.png\" style=\"clear: right; display: block; float: right; padding: 1em 0px; text-align: center;\"><img alt=\"\" border=\"0\" data-original-height=\"217\" data-original-width=\"597\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjphJUS1GQF4ukyVL_wnm7mLGMpPyzp_rB6szWbOfte1KbCobhUXOXXrN-ygLrUP2Kjr5JhPnaIOthpsXSToB841seJkTbbbLL2pty16bytPebigRCG_j_-t77NTzVQuJq09IWQjWIuHS3cxzmyqnZZuKjy7_7-O-RcVBjGui_pZs29Hd7TgJHiYfUr/s16000/image1.png\" /></a></div><p>Back in 2018, the team at Google working on <a href=\"https://knative.dev/docs/\" target=\"_blank\">Knative</a> needed a faster way to iterate on Kubernetes controllers. They created a new tool dedicated to deploying Go applications to Kubernetes without having to worry about container images. That tool has proven to be indispensable to the Knative community, so in March 2019, Google released it as a stand-alone open source project <a href=\"https://github.com/ko-build/ko\" target=\"_blank\">named ko</a>.<br /><br />Since then, ko has gained in popularity as a simple, fast, and secure container image builder for Go applications. More recently, the ko community has added, amongst many other features, multi-platform support and automatic SBOM generation. Today, like the original team at Google, many open source and enterprise development teams depend on ko to improve their developer productivity. The ko project is also increasingly used as a solution for a number of build use-cases, and is being integrated into a variety of third party CI/CD tools. <br /><br />At Google, we believe that using open source comes with a responsibility to contribute, sustain, and improve the projects that make our ecosystem better. To support the next phase of community-driven innovation, enable net-new adoption patterns, and to further raise the bar in the container tool industry, we are excited to announce today that we have <a href=\"https://github.com/cncf/toc/pull/945\" target=\"_blank\">submitted ko as a sandbox project</a> to the Cloud Native Computing Foundation (CNCF). <br /><br />This step begins the process of transferring the ko trademark, IP, and code to CNCF. We are excited to see how the broader open source community will continue innovating with ko.</p><i>By Mark Chmarny – Google Open Source Programs Office<br /></i><p></p>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Open Source Programs Office",
+    "uri": "http://www.blogger.com/profile/11192158996903493674",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}
