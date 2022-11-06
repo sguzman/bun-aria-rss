@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40739 (ragic)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40739",
+  "description": "Ragic report generation page has insufficient filtering for special characters. A remote attacker with general user privilege can inject JavaScript to perform XSS (Reflected Cross-Site Scripting) attack.",
+  "dc:date": "2022-10-31T07:15:10Z"
+}
