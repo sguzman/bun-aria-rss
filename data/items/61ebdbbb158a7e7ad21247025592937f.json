@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43109 (dir-823g_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43109",
+  "description": "D-Link DIR-823G v1.0.2 was found to contain a command injection vulnerability in the function SetNetworkTomographySettings. This vulnerability allows attackers to execute arbitrary commands via a crafted packet.",
+  "dc:date": "2022-11-03T14:15:33Z"
+}

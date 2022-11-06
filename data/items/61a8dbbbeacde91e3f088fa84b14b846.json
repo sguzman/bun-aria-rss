@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3586 (debian_linux, linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3586",
+  "description": "A flaw was found in the Linux kernel&acirc;&euro;&trade;s networking code. A use-after-free was found in the way the sch_sfb enqueue function used the socket buffer (SKB) cb field after the same SKB had been enqueued (and freed) into a child qdisc. This flaw allows a local, unprivileged user to crash the system, causing a denial of service.",
+  "dc:date": "2022-10-19T18:15:13Z"
+}

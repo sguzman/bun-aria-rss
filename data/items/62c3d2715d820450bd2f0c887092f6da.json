@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:vaJOVyfPaBE",
+  "yt:videoId": "vaJOVyfPaBE",
+  "yt:channelId": "UCMm211NGh4Ls5SAMZJF7E8A",
+  "title": "SM64 - Stomp on the Thwomp - 6x A Presses (Commentated) [OUTDATED]",
+  "link": "",
+  "author": {
+    "name": "pannenkoek2012",
+    "uri": "https://www.youtube.com/channel/UCMm211NGh4Ls5SAMZJF7E8A"
+  },
+  "published": "2015-12-31T13:53:25+00:00",
+  "updated": "2022-06-06T06:23:17+00:00",
+  "media:group": {
+    "media:title": "SM64 - Stomp on the Thwomp - 6x A Presses (Commentated) [OUTDATED]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "THIS VIDEO IS OUTDATED - SEE A BETTER VERSION OF THIS VIDEO HERE:\nhttps://youtu.be/7S5CF1vsDPQ\n\nI collect the star Stomp on the Thwomp in Tick Tock Clock using 6 A presses. The A presses are as follows:\n\nA Press #1: to get past the first rotating block\nA Presses #2-3: to get past the 3 rotating blocks onto the mesh floor\nA Press #4: to get onto the rotating cogs\nA Press #5: to double jump to the top of the clock\nA Press #6: to jump onto thwomp\n\nThis video is an improvement from my previous video in which I collected this star in 7 A presses. You can find that video here: https://youtu.be/5W6_55IDpbU. Since then, Tyler Kehne discovered that there is a pedro spot within the cogs if the clock parts are frozen. Furthermore, he figured out that Mario could reach this pedro spot using a bob-omb. I then optimized the A presses needed to achieve that pedro spot enough so that we ended up saving an A press.\n\nHere is a play by play of what I do. First, I use the crazy box in TTM to set the HOLP to a precise location. Then in TTC I use instant release to place the bob-omb at the HOLP. I then climb up TTC and reactivate the bob-omb to have it snap to me. I bring it to the cogs and use its hitbox to push Mario into the pedro spot. From there, I use the pedro spot to build up speed until I have enough to double jump to the top of the clock, and from there I collect the star.\n\nWhat is instant release? If Mario both dives into a grabbable object and bonks his head on a wall simultaneously, he'll both grab the object and release it on the same frame. The HOLP is a variable in the game that keeps track of the last place Mario has held an object. It updates continuously as Mario holds an object, and it's the position where released objects appear. However, when Mario performs instant release, the object is released at the HOLP (as it usually is), but the HOLP has not been updated to where it should be since Mario released the object after 0 frames! This means the object will appear at the previous HOLP, i.e. the coordinates of the last place Mario held an object.\n\nWhat is a pedro spot? It's a spot where Mario can be airborne and about to move onto a floor that has a ceiling right above it. The game calculates Mario's intended position, which is then raised up by the floor. However, the ceiling prevents Mario from moving to that spot. Consequently, Mario will end up remaining in place while able to gain forward speed. His forward speed will increase until the ceiling or floor runs out and he breaks free from the pedro spot.\n\n.m64 stats:\nLength: 4 minutes and 38 seconds\nRe-records: 2021\nFrames: 16660 (8250 input)\nTime to TAS: 2 hours\nTime to edit video: ~15 hours\n\nUncommentated Version: https://youtu.be/5t-ZbJsFEwg\nABC Playlist: https://www.youtube.com/playlist?list=PLmvvhlevqC2d6vis077yFHuLJHYtTtqe_\nABC Routes: https://docs.google.com/document/d/1ypRVVRyf4x-v8GqCSmKYnicrfKSIjao3Y1ZVl52RIyM/edit",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

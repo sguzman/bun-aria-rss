@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-2129041043834723465",
+  "published": "2022-09-20T11:43:00.000-07:00",
+  "updated": "2022-09-20T11:43:11.123-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Announcing beta launch of Display & Video 360 API v2 and survey extension",
+  "content": "<p>We’re pleased to announce that <a href=\"https://developers.google.com/display-video/api/reference/rest/v2\">Display & Video 360 API v2</a> is available in public beta starting today. We're also extending our <a href=\"https://google.qualtrics.com/jfe/form/SV_d09TVCUZy1hLiGW\">DV360 API Developer Survey</a> through the end of September so that we can gather more customer feedback on v2 and the API in general. </p><p>v2 includes a number of new features and breaking changes. Here are some of the changes introduced in v2: </p><ul> <li>You can now retrieve YouTube & Partners line items and their targeting settings using <code>get</code> and <code>list</code> methods in the <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems\">advertisers.lineItems</a></code> and <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems.targetingTypes.assignedTargetingOptions\">advertisers.lineItems.targetingTypes.assignedTargetingOptions</a></code> services. <li>You can now retrieve and update assigned targeting options for multiple line items in a single request using the new <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems/bulkListAssignedTargetingOptions\">advertisers.lineItems.bulkListAssignedTargetingOptions</a></code> and <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems/bulkEditAssignedTargetingOptions\">advertisers.lineItems.bulkEditAssignedTargetingOptions</a></code> methods. <li>You can now update the  <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems#LineItem.FIELDS.entity_status\">lineItem.entityStatus</a></code> field across multiple line items in a single request using the new <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.lineItems/bulkUpdate\">advertisers.lineItems.bulkUpdate</a></code> method. <li>Some targeting types now use enum values as <code><a href=\"https://developers.google.com/display-video/api/reference/rest/v2/advertisers.campaigns.targetingTypes.assignedTargetingOptions#AssignedTargetingOption.FIELDS.assigned_targeting_option_id\">assignedTargetingOptionId</a></code> values, enabling the <a href=\"https://developers.google.com/display-video/api/v2-migration-guide#update_calls_to_targeting_methods\">retrieval, creation, and deletion of targeting settings with enums</a>.</li></ul> <p>More detailed information about this release can be found in our <a href=\"https://developers.google.com/display-video/api/release-notes#september_15_2022\">release notes</a>. Follow the steps in our <a href=\"https://developers.google.com/display-video/api/v2-migration-guide\">migration guide</a> to migrate from v1 to v2. As it is in beta, be aware that we might make unversioned breaking changes to DV360 API v2 before it exits the beta phase. </p><p>If you want to provide feedback and recommend features that should be included in future versions of the API, please fill out our <a href=\"https://google.qualtrics.com/jfe/form/SV_d09TVCUZy1hLiGW\">DV360 API Developer Survey</a>. The survey has been extended through the end of September and will help shape the product roadmap for v2 and beyond. </p><p>If you run into issues or need help with these new features or samples, please contact us using our <a href=\"https://support.google.com/displayvideo/contact/nghelp_contact_form\">support contact form</a>. </p> <span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/ul6Bu6os82XfScd3uPkxcr4wuYHeOjBXB0TsB7mFIO-63RW7I-ciH9SZVTiRUk0NOGUg_8oit2oD7cr9HTrH8gol_Y6p8mqEeEWTQB24GyiZTGwpB-BFvji9n9goOPHz19mSYqtr\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Trevor Mulchay, Display &amp; Video 360 API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  }
+}
