@@ -1,0 +1,16 @@
+{
+  "title": "Announcing: NBA learner v0.1",
+  "link": "",
+  "published": "2014-10-29T02:04:00-07:00",
+  "updated": "2014-10-29T02:04:00-07:00",
+  "author": {
+    "name": "Dustin McIntosh"
+  },
+  "id": "tag:efavdb.com,2014-10-29:/announcing-nba-learner-v0-1",
+  "summary": "<p>Tonight is the opening night of the 2014-15 <span class=\"caps\">NBA</span> season.  This year, we\nwill be running a machine learning algorithm aimed at estimating\nunderlying features characterizing each team.  With these features, we\nhope to identify interesting match-ups (including potential upsets),\nsimilar team-playing-style categories, and win-loss probabilities for\nfuture games.  As …</p>",
+  "content": "<p>Tonight is the opening night of the 2014-15 <span class=\"caps\">NBA</span> season.  This year, we\nwill be running a machine learning algorithm aimed at estimating\nunderlying features characterizing each team.  With these features, we\nhope to identify interesting match-ups (including potential upsets),\nsimilar team-playing-style categories, and win-loss probabilities for\nfuture games.  As of now, the only source data that we intend to feed\nour system will be win-loss results of completed games.  As the season\nprogresses, our algorithm will thus have more and more data informing\nit —  It will be interesting to see if it can begin to provide\naccurate predictions by the end of the season.  Stay tuned for\nperiodic updates on this&nbsp;experiment!</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43079 (train_scheduler_app)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43079",
+  "description": "A cross-site scripting (XSS) vulnerability in /admin/add-fee.php of Train Scheduler App v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the cmddept parameter.",
+  "dc:date": "2022-11-01T14:15:14Z"
+}

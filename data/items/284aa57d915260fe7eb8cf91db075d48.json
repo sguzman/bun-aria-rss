@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-29593 (dt-r004_firmware)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29593",
+  "description": "relay_cgi.cgi on Dingtian DT-R002 2CH relay devices with firmware 3.1.276A allows an attacker to replay HTTP post requests without the need for authentication or a valid signed/authorized request.",
+  "dc:date": "2022-07-14T15:15:08Z"
+}

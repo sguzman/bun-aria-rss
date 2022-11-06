@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-6894866515532737257.post-2359903811026635882",
+  "published": "2017-02-16T07:37:00.002-08:00",
+  "updated": "2017-02-17T12:23:20.061-08:00",
+  "title": "A nice Bayes theorem problem: medical testing",
+  "content": "On these&nbsp;<a href=\"http://allendowney.blogspot.com/2011/10/my-favorite-bayess-theorem-problems.html\">previous post about my favorite Bayes theorem problems</a>, I got the following comment from a reader named Riya:<br /><br /><blockquote class=\"tr_bq\"><i>I have a question. Exactly 1/5th of the people in a town have Beaver Fever . There are two tests for Beaver Fever, TEST1 and TEST2. When a person goes to a doctor to test for Beaver Fever, with probability 2/3 the doctor conducts TEST1 on him and with probability 1/3 the doctor conducts TEST2 on him. When TEST1 is done on a person, the outcome is as follows: If the person has the disease, the result is positive with probability 3/4. If the person does not have the disease, the result is positive with probability 1/4. When TEST2 is done on a person, the outcome is as follows: If the person has the disease, the result is positive with probability 1. If the person does not have the disease, the result is positive with probability 1/2. A person is picked uniformly at random from the town and is sent to a doctor to test for Beaver Fever. The result comes out positive. What is the probability that the person has the disease?&nbsp;</i></blockquote><br />I think this is an excellent question, so I am passing it along to the readers of this blog. &nbsp;One suggestion: you might want to use <a href=\"https://docs.google.com/drawings/d/1dHkIa-RdmnLPze84gkcmYflWwA7xwtwFhXPs_Rd0oRM/edit?usp=sharing\">my world famous Bayesian update worksheet</a>.<br /><br />Hint: This question is similar to <a href=\"http://allendowney.blogspot.com/2016/05/probability-is-hard-part-two.html\">one I wrote about last year</a>. &nbsp;In that article, I started with a problem that was underspecified; it took a while for me to realize that there were several ways to formulate the problem, with different answers.<br /><br />Fortunately, the problem posed by Riya is completely specified; it is an example of what I called Scenario A, where there are two tests with different properties, and we don't know which test was used.<br /><br />There are several ways to proceed, but I recommend writing four hypotheses that specify the test and the status of the patient:<br /><br />TEST1 and sick<br />TEST1 and not sick<br />TEST2 and sick<br />TEST2 and not sick<br /><br />For each of these hypotheses, it is straightforward to compute the prior probability and the likelihood of a positive test. &nbsp;From there, it's just arithmetic. <br /><br />Here's what it looks like using&nbsp;<a href=\"https://docs.google.com/drawings/d/1dHkIa-RdmnLPze84gkcmYflWwA7xwtwFhXPs_Rd0oRM/edit?usp=sharing\">my world famous Bayesian update worksheet</a>:<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-aqm97BrCnGc/WKcrXfmL8uI/AAAAAAAAELo/LTYqbNYAnEYwBEkJAjux_vhattiZLYoNgCLcB/s1600/bayes_medical_test.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://1.bp.blogspot.com/-aqm97BrCnGc/WKcrXfmL8uI/AAAAAAAAELo/LTYqbNYAnEYwBEkJAjux_vhattiZLYoNgCLcB/s640/bayes_medical_test.png\" width=\"494\" /></a></div>(Now with more smudges because I had an arithmetic error the first time. &nbsp;Thanks, Ben Torvaney, for pointing it out.)<br /><br /><div>After the update, the total probability that the patient is sick is 10/26 or about 38%. &nbsp;That's up from the prior, which was 1/5 or 20%. &nbsp;So the positive test is evidence that the patient is sick, but it is not very strong evidence.</div><div><br /></div><div>Interestingly, the total posterior probability of TEST2 is 12/26 or about 46%. &nbsp;That's up from the prior, which was 33%. &nbsp;So the positive test provides some evidence that TEST2 was used.</div><div><br /></div><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Allen Downey",
+    "uri": "http://www.blogger.com/profile/01633071333405221858",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 7
+}

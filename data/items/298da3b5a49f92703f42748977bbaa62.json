@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:bZbuKOxH71o",
+  "yt:videoId": "bZbuKOxH71o",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Monte Carlo Geometry Processing",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2022-08-29T21:03:36+00:00",
+  "updated": "2022-09-08T03:27:15+00:00",
+  "media:group": {
+    "media:title": "Monte Carlo Geometry Processing",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "How can we solve physical equations on massively complex geometry?  Computer graphics grappled with a similar question in the 1990s, leading to the widespread adoption of Monte Carlo methods for photorealistic image generation.  This talk explores how Monte Carlo can also be used to solve a broader class of equations appearing in science and engineering, using the so-called \"walk on spheres method\" and recent extensions developed at Carnegie Mellon University.\n\nThe talk was originally given by Keenan Crane at the Oberwolfach Research Institute for Mathematics on August 22, 2022.  It is based primarily on two papers:\n\n   1. Sawhney & Crane, \"Monte Carlo Geometry Processing: A Grid-Free Approach to PDE-Based Methods on Volumetric Domains\" — http://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html\n\n   2. Sawhney, Seyb, Jarosz, Crane, \"Grid-Free Monte Carlo for PDEs with Spatially Varying Coefficients\" — https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
