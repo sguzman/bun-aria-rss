@@ -1,0 +1,9 @@
+{
+  "title": "Cambiar el color de ls para terminales con fondo oscuro",
+  "link": "http://fa.bianp.net/blog/2008/cambiar-el-color-de-ls-para-terminales-con-fondo-oscuro/",
+  "description": "<p>Por fin encontré la manera para no dejarme la vista intentando\ndistinguir azul oscuro sobre negro. Se trata de añadir el código a tu\n.bash_profile y los directorios se te colorearán de un verde mucho más\nlegible alias ls='ls --color'\nLS_COLORS='di=1:fi=0:ln=31:pi=5 …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 23 Oct 2008 19:48:00 +0200",
+  "guid": "tag:fa.bianp.net,2008-10-23:/blog/2008/cambiar-el-color-de-ls-para-terminales-con-fondo-oscuro/",
+  "category": "misc"
+}

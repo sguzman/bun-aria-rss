@@ -1,0 +1,37 @@
+{
+  "title": "Introducing reCAPTCHA Enterprise’s Mobile SDK to help protect iOS, Android apps",
+  "link": "https://cloud.google.com/blog/products/identity-security/introducing-recaptcha-enterprises-mobile-sdk-to-help-protect-ios-android-apps/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p><a href=\"https://cloud.google.com/recaptcha-enterprise\">reCAPTCHA Enterprise</a> is Google’s online fraud detection service that leverages more than a decade of experience defending the internet. reCAPTCHA Enterprise can be used to prevent fraud and attacks perpetrated by scripts, bot software, and humans. When installed inside a mobile app at the point of action, such as login, purchase, or account creation, reCAPTCHA Enterprise can block fake users and bots while allowing legitimate users to proceed. </p><p>To provide more complete coverage for native mobile iOS and Android applications, we’re announcing the general availability of the reCAPTCHA Enterprise Mobile SDK. Designed with digital-first and mobile-first organizations in mind, the new Mobile SDK fully integrates reCAPTCHA Enterprise’s frictionless experience on end-users’ mobile devices.</p><h3>Why should I use the Mobile SDK?</h3><p>Unlike most web applications, iOS and Android apps run on physical devices that can provide a wealth of device telemetry to help identify fraud and bot activity. By combining both device and network signals, the new mobile SDK can better protect native mobile applications from bot attacks while unlocking the full potential of reCAPTCHA Enterprise. It provides:</p><ul><li><p>Frictionless customer experience — no picking fire hydrants from a grid</p></li><li><p>Easy integration to your native mobile app with support for popular frameworks like Cocoa Pods and Swift Package Manager</p></li><li><p>A regularly-updated device threat model to help stay ahead of attack evolution</p></li></ul><h3>Protecting against fraud across all your channels</h3><p>Customers will be able to leverage the new mobile SDK to implement native iOS and Android protection against the <a href=\"https://cloud.google.com/architecture/owasp-top-ten-mitigation#recaptcha_enterprise_a07\">OWASP Top 10</a> automated attacks common on the internet, which include fraudulent account creation, financial hijacking, and credential stuffing. This is particularly important for mobile workforces and end users who use a mobile app to access products and services. Since mobile traffic surpasses web traffic in many industries, it’s even more important to implement a comprehensive mobile app protection strategy to protect against the most prevalent attacks. </p><h3>Integrating the new Mobile SDK</h3><p>If you’re interested in learning more about how to integrate the new Mobile SDK, check out the documentation for <a href=\"https://cloud.google.com/recaptcha-enterprise/docs/instrument-ios-apps\">iOS</a> and <a href=\"https://cloud.google.com/recaptcha-enterprise/docs/instrument-android-apps\">Android</a>. Mobile and Web integrations leverage the same easy to understand pricing for Assessments, found <a href=\"https://cloud.google.com/recaptcha-enterprise/pricing\">here</a>.</p></div></div><div class=\"block-related_article_tout\"><div class=\"uni-related-article-tout h-c-page\"><section class=\"h-c-grid\"><a class=\"uni-related-article-tout__wrapper h-c-grid__col h-c-grid__col--8 h-c-grid__col-m--6 h-c-grid__col-l--6 h-c-grid__col--offset-2 h-c-grid__col-m--offset-3 h-c-grid__col-l--offset-3 uni-click-tracker\" data-analytics='{\n                       \"event\": \"page interaction\",\n                       \"category\": \"article lead\",\n                       \"action\": \"related article - inline\",\n                       \"label\": \"article: {slug}\"\n                     }' href=\"https://gweb-cloudblog-publish.appspot.com/products/identity-security/recaptcha-enterprise-protects-users-and-is-frictionless/\"><div class=\"uni-related-article-tout__inner-wrapper\"><p class=\"uni-related-article-tout__eyebrow h-c-eyebrow\">Related Article</p><div class=\"uni-related-article-tout__content-wrapper\"><div class=\"uni-related-article-tout__image-wrapper\"><div class=\"uni-related-article-tout__image\" style=\"background-image: url('https://storage.googleapis.com/gweb-cloudblog-publish/images/security_TPB7eM1.max-500x500.jpg')\"></div></div><div class=\"uni-related-article-tout__content\"><h4 class=\"uni-related-article-tout__header h-has-bottom-margin\">reCAPTCHA Enterprise puts users first</h4><p class=\"uni-related-article-tout__body\">reCAPTCHA Enterprise has evolved from requiring engagement from end users to being frictionless while still providing best-in-class secur...</p><div class=\"cta module-cta h-c-copy uni-related-article-tout__cta muted\"><span class=\"nowrap\">Read Article<svg class=\"icon h-c-icon\" role=\"presentation\"><use xlink:href=\"#mi-arrow-forward\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"></use></svg></span></div></div></div></div></a></section></div></div></body></html>",
+  "pubDate": "Tue, 01 Nov 2022 16:00:00 -0000",
+  "guid": "https://cloud.google.com/blog/products/identity-security/introducing-recaptcha-enterprises-mobile-sdk-to-help-protect-ios-android-apps/",
+  "category": [
+    "Retail",
+    "Public Sector",
+    "Financial Services",
+    "Gaming",
+    "Identity & Security"
+  ],
+  "media:content": "",
+  "og": {
+    "type": "article",
+    "title": "Introducing reCAPTCHA Enterprise’s Mobile SDK to help protect iOS, Android apps",
+    "description": "Mobile app usage surpasses web traffic for many enterprise customers, and our new reCAPTCHA Enterprise Mobile SDK can help protect their Android and iOS users.",
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/security_2022_DNSDXzj.max-600x600.jpg",
+    "site_name": "Google",
+    "url": "https://cloud.google.com/blog/products/identity-security/introducing-recaptcha-enterprises-mobile-sdk-to-help-protect-ios-android-apps/"
+  },
+  "author": [
+    {
+      "name": "Hakan Kilic",
+      "title": "Senior Product Manager reCAPTCHA",
+      "department": "",
+      "company": ""
+    },
+    {
+      "name": "Mark Corner",
+      "title": "Engineering Lead Mobile reCAPTCHA",
+      "department": "",
+      "company": ""
+    }
+  ]
+}
