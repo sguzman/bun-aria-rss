@@ -1,0 +1,9 @@
+{
+  "title": "Manifold learning in scikit-learn",
+  "link": "http://fa.bianp.net/blog/2011/manifold-learning-in-scikit-learn/",
+  "description": "<p>The manifold module in <a class=\"reference external\" href=\"http://scikit-learn.sf.net\">scikit-learn</a> is slowly progressing: the\n<a class=\"reference external\" href=\"http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/\">locally linear embedding</a> implementation was finally merged along with\n<a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/dev/modules/manifold.html\">some documentation</a>. At about the same time but in a different\ntimezone, <a class=\"reference external\" href=\"http://www.astro.washington.edu/users/vanderplas/\">Jake VanderPlas</a> began coding <a class=\"reference external\" href=\"https://github.com/jakevdp/scikit-learn/compare/master...manifold\">other manifold learning\nmethods</a> and back in Paris <a class=\"reference external\" href=\"http://twitter.com/ogrisel\">Olivier Grisel</a> made <a class=\"reference external\" href=\"http://fa.bianp.net/blog/2011/handwritten-digits-and-locally-linear-embedding/\">my digits example</a>\na <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net/dev/auto_examples/manifold/plot_lle_digits.html\">lot …</a></p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 07 Jun 2011 09:19:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-06-07:/blog/2011/manifold-learning-in-scikit-learn/",
+  "category": "scikit-learn"
+}

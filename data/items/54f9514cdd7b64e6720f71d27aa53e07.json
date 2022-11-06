@@ -1,0 +1,20 @@
+{
+  "title": "Python Vulnerability Checking Links",
+  "link": "https://streamhacker.com/2020/08/03/python-vulnerability-checking-links/#utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed",
+  "comments": "https://streamhacker.com/2020/08/03/python-vulnerability-checking-links/#respond",
+  "dc:creator": "Jacob",
+  "pubDate": "Mon, 03 Aug 2020 17:00:00 +0000",
+  "category": [
+    "links",
+    "python",
+    "github",
+    "safety",
+    "vulnerabilities"
+  ],
+  "guid": "https://streamhacker.com/?p=2153",
+  "description": "Python package vulnerability checks with Safety, PyUp, and GitHub.",
+  "content:encoded": "\n<ul><li><a href=\"https://pypi.org/project/safety/\">Safety</a> checks Python packages against a vulnerability database</li><li><a href=\"https://pyup.io/\">PyUp</a> offers a paid service for Safety</li><li><a href=\"https://proxyserver.com/security-tools/automatic-python-vulnerability-checking/\">Automatic Python Vulnerability Checking</a> shows how to use GitHub actions to automate Safety checks</li><li><a href=\"https://docs.github.com/en/github/managing-security-vulnerabilities/configuring-github-dependabot-security-updates\">GitHub Dependabot</a> can check Python requirements files and other language dependencies against GitHub&#8217;s vulnerability database</li></ul>\n",
+  "wfw:commentRss": "https://streamhacker.com/2020/08/03/python-vulnerability-checking-links/feed/",
+  "slash:comments": 0,
+  "post-id": 2153
+}
