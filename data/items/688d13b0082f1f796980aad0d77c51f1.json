@@ -1,0 +1,6 @@
+{
+  "title": "Unsupervised Parameter Estimation using Model-based Decoder. (arXiv:2211.01849v1 [eess.SP])",
+  "link": "http://arxiv.org/abs/2211.01849",
+  "description": "<p>In this work, we consider the use of a model-based decoder in combination\nwith an unsupervised learning strategy for direction-of-arrival (DoA)\nestimation. Relying only on unlabeled training data we show in our analysis\nthat we can outperform existing unsupervised machine learning methods and\nclassical methods. This is done by introducing a model-based decoder in an\nautoencoder architecture with leads to a meaningful representation of the\nstatistical model in the latent space. Our numerical simulation show that the\nperformance of the presented approach is not affected by correlated signals but\nrather improves slightly. This is due to the fact, that we propose the\nestimation of the correlation parameters simultaneously to the DoA estimation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Weisser_F/0/1/0/all/0/1\">Franz Wei&#xdf;er</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Baur_M/0/1/0/all/0/1\">Michael Baur</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Utschick_W/0/1/0/all/0/1\">Wolfgang Utschick</a>"
+}

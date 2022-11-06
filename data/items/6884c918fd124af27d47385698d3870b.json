@@ -1,0 +1,9 @@
+{
+  "title": "django, change language settings dynamically",
+  "link": "http://fa.bianp.net/blog/2009/django-change-language-settings-dynamically/",
+  "description": "<p>After some failed attempts, I just found how to change the language\nsettings dynamically in django, and I thought it could be useful to\nsomeone. Just use function activate() from django.utils.translation. For\nexample: [cc lang=&quot;python&quot;] from django.utils.translation import\nactivate activate('es-ES') [/cc] will change global …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 07 Aug 2009 16:12:00 +0200",
+  "guid": "tag:fa.bianp.net,2009-08-07:/blog/2009/django-change-language-settings-dynamically/",
+  "category": "General, Tecnologí­a"
+}

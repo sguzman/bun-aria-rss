@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2014-1943 (debian_linux, fine_free_file, php, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1943",
+  "description": "Fine Free file before 5.17 allows context-dependent attackers to cause a denial of service (infinite recursion, CPU consumption, and crash) via a crafted indirect offset value in the magic of a file.",
+  "dc:date": "2014-02-18T19:55:04Z"
+}

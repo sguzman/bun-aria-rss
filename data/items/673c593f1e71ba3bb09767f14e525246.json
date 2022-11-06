@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-4446292666398344382.post-7395017907511800305",
+  "published": "2019-05-10T14:54:00.000-07:00",
+  "updated": "2019-05-10T14:58:02.810-07:00",
+  "title": "ICLR 2019 Thoughts",
+  "content": "<a href=\"https://iclr.cc/Conferences/2019/\">ICLR 2019</a> was reminiscent of the early NeurIPS days (sans skiing): a single track of talks, vibrant poster sessions, and a large mid-day break.  The Tuesday morning talks were on climate change, modeling proteins, generating music, and modeling the visual cortex.  Except for climate change, these were all hot topics at NeurIPS in the late 1990s.  History doesn't repeat, but it does rhyme.<br /><br />My favorite talk was by Pierre-Yves Oudeyer, whose <a href=\"http://www.pyoudeyer.com/active-learning-and-artificial-curiosity-in-robots/\">research in curiosity based learning</a> spans both human subjects and robotics.  Pierre's presentation was an entertaining tour de force of cognitive science, and I highly recommend <a href=\"https://www.facebook.com/iclr.cc/videos/1061645560700150/\">watching the video</a> (starts about 9 minutes 30 seconds).  These ideas have extensively influenced the reinforcement learning community: the well-known Achilles' Heel of reinforcement learning is sample complexity, and recently practitioners have attacked it inspired by ideas from curiosity based learning (e.g., the <a href=\"https://pathak22.github.io/large-scale-curiosity/\">Burda et. al.</a> poster at the conference).   Furthermore the view &ldquo;exploration is for building world models&rdquo; is reflected in <a href=\"https://arxiv.org/abs/1811.08540\">recent theoretical results in contextual decision processes</a>.<br /><br />The strangest moment for me at the conference was seeing the <a href=\"https://gluebenchmark.com/\">GLUE poster</a>.  Apparently with the latency of conference review and publication, GLUE is just now being presented.  Of course, it is already obsolete, so the presenters had another poster about their new dataset called <a href=\"https://super.gluebenchmark.com/\">SuperGLUE</a>.  Things are moving so quickly that the former &ldquo;fast path&rdquo; of conference proceedings is now noticeably behind.<br /><br />Here's some stuff that caught my attention:<br /><ul><li><a href=\"https://arxiv.org/abs/1804.05862\">Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach</a>: A couple years ago <a href=\"https://arxiv.org/abs/1611.03530\">Zhang et. al.</a> stunned the community by demonstrating convnets can fit Imagenet labels to randomly generated images, destroying the common belief that convnets generalized well due to capacity control.  Here Zhou et. al. show that an MDL-style generalization bound applies, i.e., networks whose representation can be compressed after training have tighter deviation bounds.  This is a (training) data-dependent bound and they seal the argument by noting networks trained on randomized training data do not compress as well.</li><li><a href=\"https://arxiv.org/abs/1810.02274\">Episodic Curiousity through Reachability</a>: One of many curiosity-based exploration posters, Savinov et. al. propose a combination of a memory and something akin to a policy cover, with promising results.  Also cool: the poster includes QR codes which trigger videos of agents learning to move via different algorithms.</li><li><a href=\"https://arxiv.org/abs/1805.11706\">Supervised Policy Update for Deep Reinforcement Learning</a>: Vuong et. al. presented a plausible improvement over TRPO and PPO by convexifying the constrained policy optimization.</li></ul><br />",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Paul Mineiro",
+    "uri": "http://www.blogger.com/profile/05439062526157173163",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

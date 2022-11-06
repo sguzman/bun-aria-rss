@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-31622 (mariadb)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31622",
+  "description": "MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_compress.cc, when an error occurs (pthread_create returns a nonzero value) while executing the method create_worker_threads, the held lock is not released correctly, which allows local users to trigger a denial of service due to the deadlock.",
+  "dc:date": "2022-05-25T21:15:08Z"
+}

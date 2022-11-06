@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:r1Wgx1GfJWs",
+  "yt:videoId": "r1Wgx1GfJWs",
+  "yt:channelId": "UC5Jz6SBlu2Sv61kfssv4DOw",
+  "title": "Compliant Transmission Mechanism with Two Decoupled Degrees of Freedom",
+  "link": "",
+  "author": {
+    "name": "The FACTs of Mechanical Design",
+    "uri": "https://www.youtube.com/channel/UC5Jz6SBlu2Sv61kfssv4DOw"
+  },
+  "published": "2022-07-14T16:16:20+00:00",
+  "updated": "2022-07-19T16:12:32+00:00",
+  "media:group": {
+    "media:title": "Compliant Transmission Mechanism with Two Decoupled Degrees of Freedom",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video introduces a compliant mechanism that converts two rotational degrees of freedom (DOFs) into two translations with a specified transmission ratio. In other words, two handles can be rotated to drive an output stage such that it translates in two different directions according to a ratio that relates how much the output stage translates over how much the two input handles rotate. Moreover, the mechanism uses decoupling flexures so that each input handle can be rotated independently without appreciably affecting each other and so that the desired output motions of the stage are also independent and achieve negligible parasitic motion error. The mechanism was designed using Prof. Hopkins’ freedom and constraint topologies (FACT) synthesis approach.\n\nTo learn more about the compliant transmission mechanism of this video, you can read our journal paper published in Precision Engineering:\nhttps://www.sciencedirect.com/science/article/pii/S0141635912001407?casa_token=33-rm5odYqsAAAAA:TAa4JmG-aPHZhcl3dtjyrk4Ig0XDmc9WauQ-ACY73FkskpF-l8PoXvTK7exNR-HdIzeOykeeLJQ\n\nThe part files for the mechanism can be downloaded from Thingiverse at this link:\nhttps://www.thingiverse.com/thing:5436842\n\nAcknowledgements:\nSpecial thanks to Dr. Robert Panas and Professor Martin Culpepper for helping to collect data and fund the effort at MIT.\nAlso, we acknowledge the following source:\nhttps://commons.wikimedia.org/wiki/File:Blood_cells_090304-F-5951M-108.jpg\nhttps://upload.wikimedia.org/wikipedia/commons/e/e7/Blood_cells_090304-F-5951M-108.jpg\nU.S. Air Force photo/Airman 1st Class Laura Max., Public domain, via Wikimedia Commons\n\nDisclaimer: \nResponsibility for the content of this video is my own. The University of California, Los Angeles is not involved with this channel nor does it endorse its content.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

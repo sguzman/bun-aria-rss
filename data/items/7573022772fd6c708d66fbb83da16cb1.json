@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:w-M9UFHLAl0",
+  "yt:videoId": "w-M9UFHLAl0",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "How to build Gmail-like UI with React Native [at a Zen temple Koshoji]",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2022-06-08T02:12:25+00:00",
+  "updated": "2022-08-22T02:09:32+00:00",
+  "media:group": {
+    "media:title": "How to build Gmail-like UI with React Native [at a Zen temple Koshoji]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.youtube.com/watch?v=-qBavwqc_mY\n▶ Source code\nhttps://github.com/craftzdog/inkdrop-ui-mockup-react-native\n▶ Koshoji website\nhttps://www.uji-koushouji.jp/eng/index.html\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My equipment\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4 - https://amzn.to/3MVuPBV\n* Tripod: PeakDesign TT-CB-5-150-CF-1 - https://amzn.to/3NCqN2c\n* Mic: Zoom H1n - https://amzn.to/38VAwkx\n* Keyboard: NuPhy Air60 https://nuphy.com/collections/shop/products/air60\n* Keyboard: Keychron Q1 with Gateron Zealios V2 67g\n* Browser: Min - https://minbrowser.org/\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\n00:00 Intro\n01:20 Heading to Koshoji\n06:56 Create a new react native project\n07:15 Install dependencies\n10:15 Configure the project\n17:45 Integrate React Navigation\n19:48 Add main screen and sidebar\n25:34 Add types to navigator\n26:51 Add basic atoms and light theme\n34:19 Style the sidebar with the theme\n35:57 Make fixtures\n39:38 Container component\n41:40 Note list\n47:15 Header bar\n53:24 Add vector icons\n58:26 Touchable (Button)\n01:07:55 Add press handler to sidebar\n01:09:39 Prepare making header sticky\n01:12:02 Sticky header\n01:19:22 Implement snapping\n01:21:14 Status bar\n01:24:20 Swipeable View\n01:33:34 Note list swipe action\n01:42:06 Bottom sheet\n01:54:28 Notebook list\n02:01:37 Add Inkdrop logo\n02:05:39 Add notebook list to the bottom sheet\n02:07:17 Detail screen\n02:10:29 Dark theme\n02:14:47 Time-up! Let's go home\n02:15:15 Fix a TS error in theme\n02:15:36 Theme picker\n02:26:51 More themes\n02:29:24 Thanks for watching\n\n▶ Ingredients\n- TypeScript - https://www.typescriptlang.org/\n- React Native - https://reactnative.dev/\n- React Navigation(v6) - https://reactnavigation.org/\n- Restyle - https://github.com/Shopify/restyle\n- React Native Reanimated - https://docs.swmansion.com/react-native-reanimated/\n- React Native SVG - https://github.com/react-native-svg/react-native-svg\n- React Native Vector Icons - https://github.com/oblador/react-native-vector-icons\n- React Native Bottom Sheet - https://github.com/gorhom/react-native-bottom-sheet\n- jotai - https://jotai.org/\n\n#ReactNative #CodeWithMe #ASMR",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

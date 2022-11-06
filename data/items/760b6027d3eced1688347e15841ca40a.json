@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-23990 (communications_metasolv_solution, debian_linux, fedora, libexpat, nessus, sinema_remote_connect_server)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23990",
+  "description": "Expat (aka libexpat) before 2.4.4 has an integer overflow in the doProlog function.",
+  "dc:date": "2022-01-26T19:15:08Z"
+}

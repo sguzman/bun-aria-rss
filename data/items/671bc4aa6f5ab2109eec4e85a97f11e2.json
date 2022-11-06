@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43061 (online_tours_&_travels_management_system)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43061",
+  "description": "Online Tours &amp; Travels Management System v1.0 was discovered to contain an arbitrary file upload vulnerability in the component /operations/travellers.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.",
+  "dc:date": "2022-11-03T20:15:33Z"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Faster JWT Key Rotation in API Gateway",
+  "description": "JSON Web Tokens (JWT) use digital signatures to establish the authenticity of the data they contain, as well as authenticating the identity of the signer. A valid signature check ensures that any party can rely on the contents and the...",
+  "link": "https://www.akamai.com/blog/news/verify-jwt-with-json-web-key-set-jwks-in-api-gateway",
+  "author": "Jeffrey Costa",
+  "guid": "https://www.akamai.com/blog/news/verify-jwt-with-json-web-key-set-jwks-in-api-gateway",
+  "pubDate": "Fri, 11 Oct 2019 04:00 AM UTC"
+}

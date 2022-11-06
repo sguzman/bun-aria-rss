@@ -1,0 +1,24 @@
+{
+  "id": "tag:blogger.com,1999:blog-7815614485808579332.post-2477084758084414292",
+  "published": "2022-08-18T10:06:00.001-07:00",
+  "updated": "2022-08-18T10:06:56.766-07:00",
+  "category": [
+    "",
+    "",
+    ""
+  ],
+  "title": "Deprecation of Bid Manager API v1.1",
+  "content": "<p>Today we’re announcing the deprecation of the <a href=\"https://developers.google.com/bid-manager/v1.1\">Bid Manager (DBM) API v1.1</a>. This version will be fully sunset on <strong>February 28, 2023</strong>.  </p><p>Please migrate to <a href=\"https://developers.google.com/bid-manager/reference/rest\">Bid Manager API v2</a> by the sunset date to avoid an interruption of service. v2 introduced a number of new features and breaking changes, which are listed in our <a href=\"https://developers.google.com/bid-manager/release-notes#version_2\">release notes</a>. Here are some of the changes introduced in v2: </p><ul> <li>Updated <a href=\"https://developers.google.com/bid-manager/reference/rest#service-endpoint\">API endpoints</a> for existing services and methods. <li>Restructured <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries\">Query</a></code> and <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries.reports\">Report</a></code> resources that use named object types and enums. <li>Added ability to request individual <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries.reports\">Report</a></code> objects via <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries.reports/get\">queries.reports.get</a></code>. <li>Added ability to order <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries/list#body.QUERY_PARAMETERS.order_by\">queries.list</a></code> and <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries.reports/list#body.QUERY_PARAMETERS.order_by\">queries.reports.list</a></code> requests. <li>Improved <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries/run#response-body\">queries.run</a></code> behavior to return a <code><a href=\"https://developers.google.com/bid-manager/reference/rest/v2/queries.reports\">Report</a></code> object instead of an empty response</li></ul> <p>Follow the steps in our <a href=\"https://developers.google.com/bid-manager/how-tos/v2-migration\">v2 migration guide</a> to help you migrate from v1.1 to v2. </p><p>If you run into issues or need help with your migration, please contact us using our <a href=\"https://support.google.com/displayvideo/contact/nghelp_contact_form\">support contact form</a>. </p><span class=\"byline-author\"><img height=\"40\" src=\"https://lh5.googleusercontent.com/ul6Bu6os82XfScd3uPkxcr4wuYHeOjBXB0TsB7mFIO-63RW7I-ciH9SZVTiRUk0NOGUg_8oit2oD7cr9HTrH8gol_Y6p8mqEeEWTQB24GyiZTGwpB-BFvji9n9goOPHz19mSYqtr\" style=\"border: none; vertical-align: middle;\" width=\"40\" /> - Trevor Mulchay, Display &amp; Video 360 API Team</span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Google Ads Developer Advisor",
+    "uri": "http://www.blogger.com/profile/16700526826531306391",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

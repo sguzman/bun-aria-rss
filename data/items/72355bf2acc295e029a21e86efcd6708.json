@@ -1,0 +1,9 @@
+{
+  "title": "A profiler for Python extensions",
+  "link": "http://fa.bianp.net/blog/2011/a-profiler-for-python-extensions/",
+  "description": "<p>Profiling Python extensions has not been a pleasant experience for me,\nso I made my own package to do the job. Existing alternatives were\neither hard to use, forcing you to recompile with custom flags like\ngprofile or desperately slow like valgrind/callgrind. The package I'll\ntalk about is called …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 06 Apr 2011 14:02:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-04-06:/blog/2011/a-profiler-for-python-extensions/",
+  "category": "General, Python"
+}

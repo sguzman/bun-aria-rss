@@ -1,0 +1,6 @@
+{
+  "title": "Circling Back to Recurrent Models of Language. (arXiv:2211.01848v1 [cs.CL])",
+  "link": "http://arxiv.org/abs/2211.01848",
+  "description": "<p>Just because some purely recurrent models suffer from being hard to optimize\nand inefficient on today's hardware, they are not necessarily bad models of\nlanguage. We demonstrate this by the extent to which these models can still be\nimproved by a combination of a slightly better recurrent cell, architecture,\nobjective, as well as optimization. In the process, we establish a new state of\nthe art for language modelling on small datasets and on enwik8 with dynamic\nevaluation.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Melis_G/0/1/0/all/0/1\">G&#xe1;bor Melis</a>"
+}

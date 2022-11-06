@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Fpm9ahABhx0",
+  "yt:videoId": "Fpm9ahABhx0",
+  "yt:channelId": "UCK_m2976Yvbx-TyDLw7n1WA",
+  "title": "Availability and Resilience - Part 1: Scalability Overview",
+  "link": "",
+  "author": {
+    "name": "MongoDB",
+    "uri": "https://www.youtube.com/channel/UCK_m2976Yvbx-TyDLw7n1WA"
+  },
+  "published": "2022-11-05T12:26:58+00:00",
+  "updated": "2022-11-05T12:27:01+00:00",
+  "media:group": {
+    "media:title": "Availability and Resilience - Part 1: Scalability Overview",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Scalability is the ability of a database to constantly adjust its resources to meet application demands. MongoDB has a full range of vertical, horizontal, and elastic scaling options available, and they are built into MongoDB Atlas, MongoDB’s multi-cloud developer data platform.&#13;\n&#13;\n- Vertical and horizontal scaling — and which one to choose&#13;\n- Scaling proactively vs. reactively&#13;\n- How to choose cluster sizing and tier selection&#13;\n- Atlas cluster auto-scaling&#13;\n- Horizontal scaling with sharding&#13;\n- Serverless instances and elastic scaling&#13;\n&#13;\nScalability is a key requirement of modern, distributed applications and database systems. Make sure your applications are using the best practices for scaling.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

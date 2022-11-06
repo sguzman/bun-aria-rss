@@ -1,0 +1,16 @@
+{
+  "title": "Animating the Lorenz System in 3D",
+  "link": "",
+  "published": "2013-02-16T08:05:00-08:00",
+  "updated": "2013-02-16T08:05:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-02-16:blog/2013/02/16/animating-the-lorentz-system-in-3d/",
+  "summary": "<p>One of the things I really enjoy about Python is how easy it makes it to solve\ninteresting problems and visualize those solutions in a compelling way. I've\ndone several posts on creating animations using matplotlib's relatively new\n<a href=\"http://matplotlib.sourceforge.net/api/animation_api.html\">animation toolkit</a>:\n(some examples are a chaotic\n<a href=\"/blog/2012/08/18/matplotlib-animation-tutorial/\">double pendulum</a>,\nthe collisions of\n<a href=\"/blog/2012/08/18/matplotlib-animation-tutorial/\">particles in a box</a>,\nthe time-evolution of a\n<a href=\"/blog/2012/09/05/quantum-python/\">quantum-mechanical wavefunction</a>,\nand even a scene from the classic video game,\n<a href=\"/blog/2013/01/13/hacking-super-mario-bros-with-python/\">Super Mario Bros.</a>).</p>\n<p>Recently, a reader <a href=\"/blog/2012/08/18/matplotlib-animation-tutorial/#comment-799781196\">commented</a> asking whether I might do a 3D animation example.  Matplotlib\nhas a decent 3D toolkit called\n<a href=\"http://matplotlib.org/mpl_toolkits/mplot3d/index.html\">mplot3D</a>,\nand though I haven't previously seen it used in conjunction with the\nanimation tools, there's nothing fundamental that prevents it.</p>\n<p>At the commenter's suggestion, I decided to try this out with a simple\nexample of a chaotic system: the Lorenz equations.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

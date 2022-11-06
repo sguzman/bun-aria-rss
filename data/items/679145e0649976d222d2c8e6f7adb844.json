@@ -1,0 +1,6 @@
+{
+  "title": "Complexity of Simon's problem in classical sense. (arXiv:2211.01776v1 [cs.CC])",
+  "link": "http://arxiv.org/abs/2211.01776",
+  "description": "<p>Simon's problem is a standard example of a problem that is exponential in\nclassical sense, while it admits a polynomial solution in quantum computing. It\nis about a function $f$ for which it is given that a unique non-zero vector $s$\nexists for which $f(x) = f(x \\oplus s)$ for all $x$, where $\\oplus$ is the\nexclusive or operator. The goal is to find $s$. The exponential lower bound for\nthe classical sense assumes that $f$ only admits black box access. In this\npaper we investigate classical complexity when $f$ is given by a standard\nrepresentation like a circuit. We focus on finding the vector space of all\nvectors $s$ for which $f(x) = f(x \\oplus s)$ for all $x$, for any given $f$.\nTwo main results are: (1) if $f$ is given by any circuit, then checking whether\nthis vector space contains a non-zero element is NP-hard, and (2) if $f$ is\ngiven by any ordered BDD, then a basis of this vector space can be computed in\npolynomial time.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Zantema_H/0/1/0/all/0/1\">Hans Zantema</a>"
+}

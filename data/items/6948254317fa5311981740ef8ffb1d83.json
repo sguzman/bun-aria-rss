@@ -1,0 +1,16 @@
+{
+  "title": "Conway's Game of Life in Python",
+  "link": "",
+  "published": "2013-08-07T16:00:00-07:00",
+  "updated": "2013-08-07T16:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-08-07:blog/2013/08/07/conways-game-of-life/",
+  "summary": "In 1970 the British Mathematician John Conway created his \"Game of Life\" -- \na set of rules that mimics the chaotic yet\npatterned growth of a colony of biological organisms.  The \"game\" takes place on\na two-dimensional grid consisting of \"living\" and \"dead\" cells, and\nthe rules to step from generation to generation are simple:</p>\n<ul>\n<li><strong>Overpopulation:</strong> if a living cell is surrounded by more than three living cells, it dies.</li>\n<li><strong>Stasis:</strong> if a living cell is surrounded by two or three living cells, it survives.</li>\n<li><strong>Underpopulation:</strong> if a living cell is surrounded by fewer than two living cells, it dies.</li>\n<li><strong>Reproduction:</strong> if a dead cell is surrounded by exactly three cells, it becomes a live cell.</li>\n</ul>\n<p>By enforcing these rules in sequential steps, beautiful and unexpected patterns can appear.</p>\n\n\n\n\n\n\n\n\n<p>I was thinking about classic problems that could be used to demonstrate the effectiveness\nof Python for computing and visualizing dynamic phenomena, and thought back to a high school\ncourse I took where we had an assignment to implement a Game Of Life computation in C++.\nIf only I'd had access to IPython and associated tools back then, my homework assignment\nwould have been a whole lot easier!</p>\n<p>Here I'll use Python and NumPy to compute generational steps for the game of life, and use\nmy <a href=\"http://github.com/jakevdp/JSAnimation\">JSAnimation</a> package to animate the results.",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

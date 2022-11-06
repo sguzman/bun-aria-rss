@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:JBUgAXvcObU",
+  "yt:videoId": "JBUgAXvcObU",
+  "yt:channelId": "UCSmjcWvgVBqF3x_7e5rfe3A",
+  "title": "Learning from AWS (Customer) Security Breaches with Rami McCarthy",
+  "link": "",
+  "author": {
+    "name": "OWASP DevSlop",
+    "uri": "https://www.youtube.com/channel/UCSmjcWvgVBqF3x_7e5rfe3A"
+  },
+  "published": "2022-05-16T03:26:53+00:00",
+  "updated": "2022-07-22T02:43:28+00:00",
+  "media:group": {
+    "media:title": "Learning from AWS (Customer) Security Breaches with Rami McCarthy",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "▬▬▬▬▬▬ SHOW SPONSOR ✨ ▬▬▬▬▬▬\nAs a special offer for the OWASP DevSlop audience, sign up for a free 2-week Datadog trial and receive a Datadog t-shirt!\nhttps://www.datadoghq.com/owasp-devslop\n▬▬▬▬▬▬ SHOW SPONSOR ✨ ▬▬▬▬▬▬\nThis show will discuss the public catalog of AWS Customer Security Incidents (https://github.com/ramimac/aws-customer-security-incidents), covering over twenty different public breaches. We’ll walk through the technical details of these attacks, establish the common root causes, look at lessons learned, and establish how you can proactively secure your environment against these real-world risks.\n\nRami McCarthy\nRami McCarthy is a Staff Security Engineer and reformed Security Consultant. He currently works at Cedar, scaling up security for a health-tech unicorn. He previously worked with NCC Group to assess & secure multiple Fortune 500 and most of the Big Five tech companies. Rami is the creator of sadcloud - a tool for terraform-ing purposefully insecure AWS infrastructure and is a contributor to ScoutSuite - an open-source multi-cloud auditing tool. He holds a B.S. in Computer Science and cybersecurity from Northeastern and an M.S. in Information Security Leadership from Brandeis.\n▬▬▬▬▬▬ LINKS ✨ ▬▬▬▬▬▬\nSLIDES:\nhttps://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents-2022\nBLOG POSTS\nhttp://ramimac.me/cloudsec/security/aws-iam-tool-reference/\nTool recommendation:\nhttps://github.com/iann0036/iamlive\nhttps://github.com/salesforce/cloudsplaining",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

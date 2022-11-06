@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3380 (customizer_export/import)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3380",
+  "description": "The Customizer Export/Import WordPress plugin before 0.9.5 unserializes the content of an imported file, which could lead to PHP object injection issues when an admin imports (intentionally or not) a malicious file and a suitable gadget chain is present on the blog.",
+  "dc:date": "2022-10-31T16:15:11Z"
+}
