@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:e0odAzEHsm0",
+  "yt:videoId": "e0odAzEHsm0",
+  "yt:channelId": "UCSMOQeBJ2RAnuFungnQOxLg",
+  "title": "POST BCON BLUES - Blender.Today LIVE #209",
+  "link": "",
+  "author": {
+    "name": "Blender",
+    "uri": "https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg"
+  },
+  "published": "2022-10-31T17:31:02+00:00",
+  "updated": "2022-11-01T07:22:28+00:00",
+  "media:group": {
+    "media:title": "POST BCON BLUES - Blender.Today LIVE #209",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "BlenderToday is a weekly live show highlighting the latest news in Blender development, the community, and Q&A. Streaming from the Blender HQ in Amsterdam since 2018, hosted by Pablo Vazquez.\n\n--\n\nSupport the future of Blender by joining the Development Fund https://fund.blender.org\n\n#b3d \n* Music by @Thaehan\n\n--\nCHANGELOG - BLENDER TODAY #209 \n\nBLENDER CONFERENCE\n\nNODEVEMBER https://twitter.com/NodevemberIO/status/1587041305468747777\n\nUI\n* UI: Icon number indicator for data-blocks https://developer.blender.org/rB84825e4\n\nGEOMETRY NODES\n* Geometry Nodes: Use common utility for copying attribute data https://developer.blender.org/rBa803dbe\n* Nodes: Improve socket node lookup performance https://developer.blender.org/rBc39eb09\n\nCURVES\n* Curves: make the \"surface_uv_map\" a searchable dropdown https://developer.blender.org/rB2180e6f\n\nCYCLES\n* Cycles: add Equiangular Cubemap Face camera projection https://developer.blender.org/rBf9113b7\n* Cycles: Metal integrator state size tuning https://developer.blender.org/rB8dd7b5b\n* Cycles: Allow Intel GPUs under Metal https://developer.blender.org/rBe6902d1\n* Cycles: use packed float3 back for oneAPI https://developer.blender.org/rB4b14b33\n\nUV\n* UV: support snapping on non-uniform grids https://developer.blender.org/rB1edebb7\n\nSCULPT\n* Sculpt: Remove face sets from default cube https://developer.blender.org/rBe8291f4\n* Sculpt: Improve performance of face set creation from selection https://developer.blender.org/rBda4bd24\n\nPERFORMANCE\n* Make batch ID deletion 100 times faster https://developer.blender.org/rB358155a\n* Lib reload/relocate: Improve performances https://developer.blender.org/rB40afb8a\n* ViewLayer: Reduce object duplication syncing https://developer.blender.org/rBf017fde\n\nCOMPOSITOR\n* Realtime Compositor: Implement Tone Map node https://developer.blender.org/rB7f2cd2d\n* Realtime Compositor: Implement normalize node https://developer.blender.org/rB58e25f1\n\nLINUX\n* GHOST/Wayland: support high resolution 2D track-pad scroll events https://developer.blender.org/rB30d9a62\n* GHOST/Wayland: invert touch-pad scrolling https://developer.blender.org/rBf0fba1a\n* GHOST/Wayland: primary clipboard support https://developer.blender.org/rBb0eff51\n* GHOST/Wayland: multi-touch gesture support https://developer.blender.org/rB8bb211a\n* GHOST/Wayland: swap tablet middle/right mouse buttons https://developer.blender.org/rBc4f9e4a\n* GHOST/Wayland: support device add/removal at runtime https://developer.blender.org/rBe844f70\n\nADD-ONS\n* Align Tools add-on: allow undo for all operators and presets for advanced https://developer.blender.org/rBA70fab4\n\nPOTPOURRI\n* Video rendering: FFMpeg AV1 codec encoding support https://developer.blender.org/rB59a0b49\n* install_deps: Update Python, OIIO, openPGL and FFMPEG versions https://developer.blender.org/rB3bac6f1\n* GPU: Add placeholder for Vulkan backend https://developer.blender.org/rB0e6f2d9\n* Blender: Add command line argument to switch gpu backends. https://developer.blender.org/rB3655eb7\n* SystemInfo: Add active GPU backend https://developer.blender.org/rBec60c8a\n* Build: update OSL to version 1.12.6.2 https://developer.blender.org/rB303dd26\n* Fix T66713: Walk mode doesn't take scene unit scale into account https://developer.blender.org/rBa0bbd65",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
