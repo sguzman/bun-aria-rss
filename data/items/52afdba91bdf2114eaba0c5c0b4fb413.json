@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:jK0l2s5R1tM",
+  "yt:videoId": "jK0l2s5R1tM",
+  "yt:channelId": "UCXzn66XFtpyKdGf8JDJOpCQ",
+  "title": "Proximity Graphs with Gravity | Let's Build a Physics Simulation",
+  "link": "",
+  "author": {
+    "name": "MinuteLabs.io",
+    "uri": "https://www.youtube.com/channel/UCXzn66XFtpyKdGf8JDJOpCQ"
+  },
+  "published": "2020-09-07T20:23:04+00:00",
+  "updated": "2022-06-06T00:40:32+00:00",
+  "media:group": {
+    "media:title": "Proximity Graphs with Gravity | Let's Build a Physics Simulation",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Playing around with gravity, anti-gravity, and elastic forces!\n\nStart with this: https://playcode.io/666098\n\nFinished Product: https://playcode.io/658580\n\nIf you haven't seen the pong video, check it out here:\nhttps://www.youtube.com/watch?v=gNA6HKRWAI0\n\nVisit MinuteLabs.io for more interactives and simulations!\nhttps://minutelabs.io\n----\nDonate\n\nIf you get something out of the work I do, consider sponsoring me on either:\n\nGithub Sponsors: https://github.com/sponsors/wellcaffeinated\nPatreon: https://www.patreon.com/minutelabsio\n\n----\nContents\n\n00:00 Introduction\n01:52 Making a higher DPI canvas\n04:43 Creating a bunch of nodes\n15:40 Min-Max Normalization with lerp()\n21:57 Connecting the dots (nodes)\n27:12 Distance dependency (the proximity part)\n29:54 Fun stuff to try\n31:00 Colouring the connections with rescale()\n36:14 Minimum distance threshold\n37:09 Smoother animation with requestAnimationFrame()\n41:16 Faster line drawing\n43:54 Adding forces\n48:15 Elastic forces\n49:50 Gravity\n53:32 Parting thoughts\n\n---\nMusic\n\n\"Land of the RetroOnes\" by RAGE\n\"Local Forecast - Elevator Music\" by Kevin Macleod",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

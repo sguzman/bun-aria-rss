@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-41666 (ecostruxure_operator_terminal_expert, pro-face_blue)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41666",
+  "description": "A CWE-347: Improper Verification of Cryptographic Signature vulnerability exists that allows adversaries with local user privileges to load a malicious DLL which could lead to execution of malicious code. Affected Products: EcoStruxure Operator Terminal Expert(V3.3 Hotfix 1 or prior), Pro-face BLUE(V3.3 Hotfix1 or prior).",
+  "dc:date": "2022-11-04T05:15:09Z"
+}

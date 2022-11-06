@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:ajmK0ZNcM4Q",
+  "yt:videoId": "ajmK0ZNcM4Q",
+  "yt:channelId": "UC7yZ6keOGsvERMp2HaEbbXQ",
+  "title": "Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.",
+  "link": "",
+  "author": {
+    "name": "devaslife",
+    "uri": "https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ"
+  },
+  "published": "2022-08-09T10:33:50+00:00",
+  "updated": "2022-08-22T02:08:21+00:00",
+  "media:group": {
+    "media:title": "Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hello. I'm Takuya Matsuyama from Japan, an indie developer making a Markdown note-taking app called Inkdrop.\nIn this video, I share my latest Neovim setup for my app developments using React, React Native, TypeScript, etc.\nI hope you enjoy it :)\n\n▶ Check out my product: Inkdrop - Markdown note-taking app\nhttps://www.youtube.com/watch?v=-qBavwqc_mY\n▶ My dotfiles\nhttps://github.com/craftzdog/dotfiles-public\n▶ My terminal setup\nhttps://youtu.be/RNqDkF17ogY?t=293\n▶ My equipment\n* Video editing: Final Cut Pro X\n* Camera: Fujifilm X-T4\n* Mic: Zoom H1n\n* Slider: SliderONE v2\n* Keyboard: Keychron K2 (V1) with brown switches and PGA profile ABS Doubleshot keycaps\n* Browser: Min - https://minbrowser.org/\n* Keystroke visualizer: KeyCastr - https://github.com/keycastr/keycastr\n* Cursor effect: Cursor Pro - https://apple.co/3rlWOBA?at=11l7AK\n\nFollow me online here:\n▶ Twitter https://twitter.com/inkdrop_app\n▶ Blog https://blog.inkdrop.app/\n▶ Instagram https://instagram.com/craftzdog\n▶ Subscribe to my Newsletter http://eepurl.com/dNgJo6\n\n00:00 Hello\n02:20 Install Neovim\n03:06 Create init.lua\n03:21 Base configuration\n09:37 Highlights\n10:40 Basic keymaps\n17:56 Clipboard\n20:09 Packer - Lua-based package manager\n22:07 Color scheme: Neosolarized\n28:37 Status line: Lualine\n35:02 Create a demo project\n36:29 Fix a Neosolarized error\n36:49 Lspconfig\n43:43 Auto-completion: Lspkind and cmp\n50:02 Snippets: Luasnip\n51:15 Syntax highlightings: Treesitter\n54:23 Autotag and Autopair\n56:43 Fuzz finder: Telescope\n01:06:32 File icons: web-devicons\n01:08:17 Tabs: Bufferline\n01:12:31 Color code highlightings: Colorizer\n01:14:16 LSP Uls: Lspsaga\n01:19:18 Code formatter: Prettier and null-ls\n01:25:42 Git markers: gitsigns\n01:27:42 git\n01:29:46 LSP tool: mason\n01:33:45 Wrap up\n01:36:20 Thanks for watching\n\nCredits:\n▶ BGM: Epidemic Sound https://www.epidemicsound.com/referral/p96aa8/\n\n#codewithme #neovim #asmr",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

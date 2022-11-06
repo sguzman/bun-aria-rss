@@ -1,0 +1,15 @@
+{
+  "title": "Static Interactive Widgets for IPython Notebooks",
+  "link": "",
+  "published": "2013-12-05T19:00:00-08:00",
+  "updated": "2013-12-05T19:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-12-05:blog/2013/12/05/static-interactive-widgets/",
+  "summary": "<p>The inspiration of my previous <a href=\"http://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/\">kernel density estimation post</a> was a blog post by <a href=\"http://www.mglerner.com/blog/?p=28\">Michael Lerner</a>, who used my <a href=\"http://jakevdp.github.io/blog/2013/05/19/a-javascript-viewer-for-matplotlib-animations/\">JSAnimation</a> tools to do a nice interactive demo of the relationship between kernel density estimation and histograms.</p>\n<p>This was on the heels of <a href=\"https://twitter.com/ellisonbg\">Brian Granger</a>'s excellent <a href=\"http://vimeo.com/79832657\">PyData NYC Keynote</a> where he live-demoed the brand new IPython interactive tools.  This new functionality is very cool.  Wes McKinney <a href=\"https://twitter.com/wesmckinn/status/399560987415965696\">remarked</a> that day on Twitter that \"IPython's interact machinery is going to be a huge deal\".\nI completely agree: the ability to quickly generate interactive widgets to explore your data is going to change the way a lot of people do their daily scientific computing work.</p>\n<p>But there's one issue with the new widget framework as it currently stands: unless you're connected to an IPython kernel (i.e. actually running IPython to view your notebook), the widgets are useless.  Don't get me wrong: they're incredibly cool when you're actually interacting with data.  But the bread-and-butter of this blog and many others is static notebook views: for this purpose, widgets with callbacks to the Python kernel aren't so helpful.</p>\n<p>This is where <code>ipywidgets</code> comes in.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

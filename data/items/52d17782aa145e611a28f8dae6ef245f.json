@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32879 (ipados, iphone_os, macos, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32879",
+  "description": "A logic issue was addressed with improved state management. This issue is fixed in macOS Ventura 13, iOS 16, iOS 15.7 and iPadOS 15.7, watchOS 9, tvOS 16. A user with physical access to a device may be able to access contacts from the lock screen.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}
