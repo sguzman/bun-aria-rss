@@ -1,0 +1,27 @@
+{
+  "id": "tag:blogger.com,1999:blog-5245696872621940063.post-7605198690444028259",
+  "published": "2022-10-27T13:22:00.005-07:00",
+  "updated": "2022-10-27T13:22:52.375-07:00",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "title": "Configure App Access Control for third-party applications in bulk",
+  "content": "<h3 style=\"text-align: left;\">What’s changing&nbsp;</h3><div>Currently, you can download and view a CSV file with information on accessed and configured apps. Now, you can use that CSV file to specify the status of each app—trusted, blocked, or limited—and upload the file back into the Admin console for updates.&nbsp;</div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaEhj1XjeKliQM8ZLHTv8OwddLw1JInhHY7koFxFnYFRFKddhPwGcF8Io7D68BnBuuHb9wUVsg-dAbTi6wHWfjVuGVAHuYSFH7Fe_xHYNNhWmgKVNo_5cDxa2jFYK8CBrjWqrFmrgJt-Jm3J7103SYQZFITO0rJ57wkBwOC9NkaQ1F2g0N_OMXB3mk/s1600/1.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"976\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaEhj1XjeKliQM8ZLHTv8OwddLw1JInhHY7koFxFnYFRFKddhPwGcF8Io7D68BnBuuHb9wUVsg-dAbTi6wHWfjVuGVAHuYSFH7Fe_xHYNNhWmgKVNo_5cDxa2jFYK8CBrjWqrFmrgJt-Jm3J7103SYQZFITO0rJ57wkBwOC9NkaQ1F2g0N_OMXB3mk/s16000/1.png\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs67v6sJ7vD40Mo_jd3XtclU-EodgW3RWk0E_uMHZg9cXRWz0Mj7HUZTJMnd24_1NJ7T71DVOKhOco-GN12zH7yZTGjo5Ix-Th0utgsXCJcHkr-lEWHH6mXwmnytVUub4onEFyBAwjQH_zwe_2ebVtG55YvGwCrdxYURbd14E0WEo5jsgWmJRF0h53/s1600/2.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"788\" data-original-width=\"1600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs67v6sJ7vD40Mo_jd3XtclU-EodgW3RWk0E_uMHZg9cXRWz0Mj7HUZTJMnd24_1NJ7T71DVOKhOco-GN12zH7yZTGjo5Ix-Th0utgsXCJcHkr-lEWHH6mXwmnytVUub4onEFyBAwjQH_zwe_2ebVtG55YvGwCrdxYURbd14E0WEo5jsgWmJRF0h53/s16000/2.png\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><br /><div style=\"text-align: center;\"><br /></div><div style=\"text-align: center;\"><i><span style=\"font-size: xx-small;\">In the Admin console, under Security &gt; API Controls &gt; App Access Controls, you’ll see the option to “Bulk update list”.&nbsp;</span></i></div><div style=\"text-align: center;\"><i><span style=\"font-size: xx-small;\"><br /></span></i></div><div style=\"text-align: center;\"><br /></div><div>Controlling how apps across your organization access Google Workspace data is critical to the security of your end users and sensitive data. This change makes it easier for Admins to set these policies in bulk, versus taking these actions individually, which can be time consuming.&nbsp;</div><div><br /></div><div><br /></div><h3 style=\"text-align: left;\">Getting started&nbsp;</h3><div><ul style=\"text-align: left;\"><li><b>Admins:</b> To manage app access, in the Admin console navigate to <i>Security &gt; API Controls &gt; App Access Controls</i>. Visit the Help Center to learn more about <a href=\"https://support.google.com/a/answer/12653991\">adding &amp; configuring third-party apps in bulk</a>.&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Rollout pace</h3><div><ul style=\"text-align: left;\"><li><a href=\"https://support.google.com/a/answer/172177\">Rapid Release and Scheduled Release domains</a>: Gradual rollout (up to 15 days for feature visibility) starting on October 27, 2022&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Availability&nbsp;</h3><div><ul style=\"text-align: left;\"><li>Available to Google Workspace Business Starter, Business Standard, Business Plus, Enterprise Essentials, Enterprise Standard, Enterprise Plus, Education Fundamentals, Education Plus, Education Standard, the Teaching and Learning Upgrade, Frontline, and Nonprofits, as well as legacy G Suite Basic and Business customers&nbsp;</li><li>Available to Cloud Identity Pro customers&nbsp;</li><li>Not available to Google Workspace Essentials customers&nbsp;</li></ul></div><div><br /></div><h3 style=\"text-align: left;\">Resources&nbsp;</h3><div><ul style=\"text-align: left;\"><li><a href=\"https://support.google.com/a/answer/12653991\">Google Workspace Admin Help: Add and configure third-party apps in bulk</a></li></ul></div>",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Unknown",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

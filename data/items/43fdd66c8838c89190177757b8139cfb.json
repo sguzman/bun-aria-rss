@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3780 (remote_desktop_manager)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3780",
+  "description": "Database connections on deleted users could stay active on MySQL data sources in Remote Desktop Manager 2022.3.7 and below which allow deleted users to access unauthorized data. This issue affects : Remote Desktop Manager 2022.3.7 and prior versions.",
+  "dc:date": "2022-11-01T19:15:11Z"
+}
