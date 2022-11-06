@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-43267 (fedora, h300e_firmware, h300s_firmware, h410s_firmware, h500e_firmware, h500s_firmware, h700e_firmware, h700s_firmware, linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-43267",
+  "description": "An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient validation of user-supplied sizes for the MSG_CRYPTO message type.",
+  "dc:date": "2021-11-02T23:15:07Z"
+}

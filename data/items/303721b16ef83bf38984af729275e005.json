@@ -1,0 +1,12 @@
+{
+  "title": "Constructing Pure-Exchange Economies with Many Equilibria",
+  "link": "https://fedinprint.org/item/fedmsr/93490",
+  "description": "We develop a restart algorithm based on Scarf’s (1973) algorithm for computing approximate Brouwer fixed points. We use the algorithm to compute all of the equilibria of a general equilibrium pure-exchange model with four consumers, four goods, and 15 equilibria. The mathematical result that motivates the algorithm is a fixed-point index theorem that provides a sufficient condition for uniqueness of equilibrium and a necessary condition for multiplicity of equilibria. Examining the structure of the model with 15 equilibria provides us with a method for constructing higher dimensional models with even more equilibria. For example, using our method, we can construct a pure-exchange economy with eight consumers and eight goods that has (at least) 255 equilibria.",
+  "guid": "https://fedinprint.org/item/fedmsr/93490",
+  "dc:creator": "Quintin, Erwan; Kehoe, Timothy J.; Gauthier, Pascal",
+  "dc:date": "2021-12-13",
+  "dc:subject": "Uniqueness of equilibrium; Multiplicity of equilibrium; Computation of equilibrium",
+  "swpo:hasNumber": 631,
+  "identifiers:doi": "10.21034/sr.631",
+  "bibo:series": "Staff Report"
+}

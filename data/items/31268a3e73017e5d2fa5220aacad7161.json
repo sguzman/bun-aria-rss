@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-1759380959914215633",
+  "published": "2015-10-10T17:25:00.000-07:00",
+  "updated": "2015-10-10T17:25:28.315-07:00",
+  "title": "Solving a Math Puzzle using Physics",
+  "content": "The following math problem, which appeared on a Scottish maths paper, has been <a href=\"http://gizmodo.com/can-you-solve-the-math-problem-that-stumped-most-scotti-1735604246\">making the internet rounds</a>.<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"http://2.bp.blogspot.com/-1Q63s68Tj0Q/VhmsVliOXmI/AAAAAAAADTE/tGn2BHhRuVQ/s1600/1466229790313874095.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://2.bp.blogspot.com/-1Q63s68Tj0Q/VhmsVliOXmI/AAAAAAAADTE/tGn2BHhRuVQ/s400/1466229790313874095.png\" /></a></div><br />The first two parts require students to interpret the meaning of the components of the formula \\(T(x) = 5 \\sqrt{36+x^2} + 4(20-x) \\), and the final \"challenge\" component involves finding the minimum of \\( T(x) \\) over \\( 0 \\leq x \\leq 20 \\). Usually this would require a differentiation, but if you know <a href=\"https://en.wikipedia.org/wiki/Snell%27s_law\">Snell's law</a> you can write down the solution almost immediately. People normally think of Snell's law in the context of light and optics, but it's really a statement about least time across media permitting different velocities.<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"http://3.bp.blogspot.com/-JDqJpTkDKdE/VhmmQcVJT8I/AAAAAAAADS0/po9hMnRXoJ8/s1600/Picture0.jpg\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-JDqJpTkDKdE/VhmmQcVJT8I/AAAAAAAADS0/po9hMnRXoJ8/s320/Picture0.jpg\" /></a></div><br />One way to phrase Snell's law is that least travel time is achieved when \\[ \\frac{\\sin{\\theta_1}}{\\sin{\\theta_2}} = \\frac{v_1}{v_2},\\] where \\( \\theta_1, \\theta_2\\) are the angles to the normal and \\(v_1, v_2\\) are the travel velocities in the two media.<br /><br />In our puzzle the crocodile has an implied travel velocity of 1/5 in the water and 1/4 on land. Furthermore, the crocodile travels along the riverbank once it hits land, so \\( \\theta_2 = 90^{\\circ}\\) and \\(\\sin{\\theta_2} = 1\\). Snell's law now says that the path of least time satisfies \\[ \\sin{\\theta_1} = \\frac{x}{\\sqrt{36+x^2}} = \\frac{4}{5},\\] giving us \\( 25x^2 = 16x^2 + 24^2\\). Solving, \\( 3^2 x^2 = 24^2, x^2 = 8^2\\) and the solution is \\(x = 8\\).",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 0
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Targeting your browser bookmarks? [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/252/notes",
+  "description": "David Prefer from SANS sits down with Dave to discuss how a new covert channel exfiltrates data via a browser's built-in bookmark sync. David goes on to describe how this research will \"describe how the ability to synchronize bookmarks across devices introduces a novel vector for data exfiltration and other misuses.\"\nIn the research, he shares how he tested his said hypothesis and goes on to describe how the interesting find was tested on multiple browsers including Chrome, Edge, Brave and Opera. In his research, he found that bookmarks are able to keep data and synchronize it, making it easier to infiltrate and extract data from. David shares the rest of his findings, as well as what organizations and browser developers can do to work on this new threat.\nThe research can be found here:\nBookmark Bruggling: Novel Data Exfiltration with Brugglemark",
+  "pubDate": "Sat, 01 Oct 2022 07:00:00 -0000",
+  "itunes:title": "Targeting your browser bookmarks? [Research Saturday]",
+  "itunes:episodeType": "bonus",
+  "itunes:season": 5,
+  "itunes:episode": 252,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "David Prefer from SANS sits down with Dave to discuss how a new covert channel exfiltrates data via a browser's built-in bookmark sync. David goes on to describe how this research will \"describe how the ability to synchronize bookmarks across devices introduces a novel vector for data exfiltration and other misuses.\"\nIn the research, he shares how he tested his said hypothesis and goes on to describe how the interesting find was tested on multiple browsers including Chrome, Edge, Brave and Opera. In his research, he found that bookmarks are able to keep data and synchronize it, making it easier to infiltrate and extract data from. David shares the rest of his findings, as well as what organizations and browser developers can do to work on this new threat.\nThe research can be found here:\nBookmark Bruggling: Novel Data Exfiltration with Brugglemark",
+  "content:encoded": "<p>David Prefer from SANS sits down with Dave to discuss how a new covert channel exfiltrates data via a browser's built-in bookmark sync. David goes on to describe how this research will \"describe how the ability to synchronize bookmarks across devices introduces a novel vector for data exfiltration and other misuses.\"</p><p>In the research, he shares how he tested his said hypothesis and goes on to describe how the interesting find was tested on multiple browsers including Chrome, Edge, Brave and Opera. In his research, he found that bookmarks are able to keep data and synchronize it, making it easier to infiltrate and extract data from. David shares the rest of his findings, as well as what organizations and browser developers can do to work on this new threat.</p><p>The research can be found here:</p><ul><li><a href=\"https://sansorg.egnyte.com/dl/QiM93tBLEr%20\">Bookmark Bruggling: Novel Data Exfiltration with Brugglemark</a></li></ul>",
+  "itunes:duration": 1325,
+  "itunes:explicit": "no",
+  "guid": "8cdcef8a-402e-11ed-9f76-43bdee9fb5d0",
+  "enclosure": ""
+}

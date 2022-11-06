@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-38142 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38142",
+  "description": "Delta Electronics InfraSuite Device Master versions 00.00.01a and prior deserialize user-supplied data provided through the Device-Gateway service port without proper verification. An attacker could provide malicious serialized objects to execute arbitrary code upon deserialization.",
+  "dc:date": "2022-10-31T20:15:12Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:Gmjk5G2TrSo",
+  "yt:videoId": "Gmjk5G2TrSo",
+  "yt:channelId": "UCHsYWDqJkNlboBpyrRqLzkA",
+  "title": "[Extra Visual] Building a Mandelbrot Set Step-by-step",
+  "link": "",
+  "author": {
+    "name": "The Mathemagicians' Guild",
+    "uri": "https://www.youtube.com/channel/UCHsYWDqJkNlboBpyrRqLzkA"
+  },
+  "published": "2020-05-10T06:02:30+00:00",
+  "updated": "2022-07-01T16:15:15+00:00",
+  "media:group": {
+    "media:title": "[Extra Visual] Building a Mandelbrot Set Step-by-step",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This visual relates to the \"How to Build a Julia Set\" video.  https://youtu.be/5T0cC6KRezo    It shows the Mandelbrot forming one iteration at a time.  The shape converges on the Mandelbrot Set.  The shape at each iteration relates how you normally see the Mandelbrot coloured.  Unlike the Julia Sets, this has little meaning as a series of transformations.\n\nTake a look at where the \"8-way crosses\" are found.  This was the origin of the original circle.  You will notice that origin maps to the bulbs in a periodic manner.\n\nThe animation from one frame to the next has no real meaning, it looks cool, and makes it easier to watch, so I included it.  It is simply an interpolation from one value to the next.  So don't try too hard to understand the motion between frames.\n\nIn this series:\n1 - https://youtu.be/7MotVcGvFMg The Mandelbrot Set Explained\n2 - https://youtu.be/dctJ7ISkU-4 Julia Sets, and how they relate to The Mandelbrot Set\n3 - https://youtu.be/5T0cC6KRezo How to Build a Julia Set\n4 - https://youtu.be/oNxPSP2tQEk Number Sequences in the Mandelbrot Set\n\nExtra Visuals (No commentary):\nhttps://youtu.be/JYlAPaPsoSY - All orbits of the Mandelbrot\nhttps://youtu.be/-ObPTFNVByk - Period 1 orbits of the Mandelbrot\nhttps://youtu.be/4y8OCqceJjo - Period 2 orbits of the Mandelbrot\nhttps://youtu.be/Gmjk5G2TrSo - Building a Mandelbrot step-by-step\nhttps://youtu.be/0E9fT8hOkVQ - Period 2 orbits of a Julia Set\nhttps://youtu.be/CYdKlN38VHE - Period 3 orbits of a Julia Set\nhttps://youtu.be/XWboHruR6N8 - Period 4 orbits of a Julia Set\nhttps://youtu.be/mt6PYJnnUHg - Period 5 orbits of a Julia Set\nhttps://youtu.be/wxkuQdXcp70 - Period 6 orbits of a Julia Set",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

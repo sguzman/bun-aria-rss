@@ -1,0 +1,61 @@
+{
+  "title": "Where have the graduates gone?",
+  "link": [
+    "",
+    ""
+  ],
+  "id": "tag:typepad.com,2003:post-6a00d8341e992c53ef02a2eed78b02200d",
+  "published": "2022-09-27T09:13:00-04:00",
+  "updated": "2022-09-27T09:13:00-04:00",
+  "summary": "Kaiser looks at a Washington Post chart showing where college graduates land after graduation.",
+  "author": {
+    "name": "junkcharts"
+  },
+  "category": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "content": {
+    "div": {
+      "p": [
+        "Someone submitted this chart on Twitter as an example of good dataviz.",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "The chart shows the surprising leverage colleges have on where students live after graduation.",
+        "The primary virtue of this chart is conservation of space. If our main line of inquiry is the destination states of college graduations - by state, then it's hard to beat this chart's efficiency at delivering this information. For each state, it's easy to see what proportion of graduates leave the state after graduation, and then within those who leave, the reader can learn which are the most popular destination states, and their relative importance.",
+        {
+          "a": "colors",
+          "#text": "Thelink the most popular destination states (e.g. Texas in orange) but they are not enough because the designer uses state labels also. A next set of states are labeled without being differentiated by color. In particular, New York and Massachusetts share shades of blue, which also is the dominant color on the left side."
+        },
+        "***",
+        "The following is a draft of a concept I have in my head.",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        {
+          "a": "tile map",
+          "#text": "I imagine this to be a. The underlying data are not public so I just copied down a bunch of interesting states. This view brings out the spatial information, as we expect graduates are moving to neighboring states (or the states with big cities)."
+        },
+        "The students in the Western states are more likely to stay in their own state, and if they move, they stay in the West Coast. The graduates in the Eastern states also tend to stay nearby, except for California.",
+        "I decided to use groups of color - blue for East, green for South, red for West. Color is a powerful device, if used well. If the reader wants to know which states send graduates to New York, I'm hoping the reader will see the chart this way:",
+        {
+          "a": {
+            "img": ""
+          }
+        },
+        "&#0160;"
+      ]
+    }
+  }
+}

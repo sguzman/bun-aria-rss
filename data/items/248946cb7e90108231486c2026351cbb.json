@@ -1,0 +1,19 @@
+{
+  "id": "tag:blogger.com,1999:blog-2471378914199150966.post-8692686698337239782",
+  "published": "2021-11-02T09:03:00.003-07:00",
+  "updated": "2021-11-02T09:04:59.524-07:00",
+  "title": "Run on OS Login",
+  "content": "<p>Users want frequently used applications such as Email, Chat, and other productivity apps to automatically start when they log in to their devices. Auto-starting these apps at login streamlines the user experience as users don't have to manually start apps after logging into their devices. <br />Windows, Mac, and Linux devices allow users to configure native apps to be launched automatically on startup. In Chrome 91, we introduced the Run on OS Login feature. With the launch of this feature, users can now configure desktop web apps to launch automatically when they log-in to the device on Windows, Mac, and Linux devices. <em>Installed apps will not be permitted to automatically enable themselves to run when the user logs in. A manual user gesture will always be required. </em><br />To configure apps to run on OS login, open Chrome browser. Navigate to chrome://apps or click the ‘Apps' icon in your bookmark bar (example below). </p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-jco0juUd1Zw/YYFgpAND0-I/AAAAAAAABs4/gf_OmILeSLwfZ48uWOulUvJEPeZQ8oicgCLcBGAsYHQ/s66/copyofrunonosl--dkwpvkjdw5v.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"27\" data-original-width=\"66\" height=\"27\" src=\"https://1.bp.blogspot.com/-jco0juUd1Zw/YYFgpAND0-I/AAAAAAAABs4/gf_OmILeSLwfZ48uWOulUvJEPeZQ8oicgCLcBGAsYHQ/s0/copyofrunonosl--dkwpvkjdw5v.png\" width=\"66\" /></a></div><p>To configure an app to start at login, first right click on it. From the context menu, select ‘Start app when you sign in' and you are all set. Next time when you log in to your device, the app will automatically launch on its own. To disable this feature for an app, navigate to <span style=\"font-family: courier; font-size: x-small;\">chrome://apps</span>. Right click on the app to bring up the context menu and deselect the option, ‘Start app when you sign in'.</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://1.bp.blogspot.com/-RVOtYgygU6c/YYFgyw3bDvI/AAAAAAAABs8/NCY3Dbu8A8wlp9ASiJNVaLyNbNutEe3TQCLcBGAsYHQ/s1057/copyofrunonosl--ukb91y8rh2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"799\" data-original-width=\"1057\" height=\"484\" src=\"https://1.bp.blogspot.com/-RVOtYgygU6c/YYFgyw3bDvI/AAAAAAAABs8/NCY3Dbu8A8wlp9ASiJNVaLyNbNutEe3TQCLcBGAsYHQ/w640-h484/copyofrunonosl--ukb91y8rh2.png\" width=\"640\" /></a></div><p>Apps launched through Run on OS Login are launched only after the device is running. ‘Run on OS Login' is a browser only feature and doesn't expose any launch source information to app developers.</p><p>We're continuously improving the web platform to provide safe, low friction ways for users to get their day-to-day tasks done. Support for running installed web apps on OS login is a small but significant step to simplifying the startup routine for users that want apps like chat, email, or calendar clients to start as soon as they turn on their computer. As always, we're looking forward to your <a href=\"https://forms.gle/JtHPkor6Z5dP87RU7\">feedback</a>. Your input will help us prioritize next steps!</p> <div><span class=\"post-author\"><br /></span></div><span class=\"post-author\">Posted by Pratyush Sinha </span>",
+  "link": [
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Chromium Blog",
+    "uri": "http://www.blogger.com/profile/06394244468194711527",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": ""
+}

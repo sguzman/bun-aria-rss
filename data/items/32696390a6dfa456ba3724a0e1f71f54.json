@@ -1,0 +1,12 @@
+{
+  "title": "Nutch &#8211; How It Works",
+  "link": "https://florianhartl.com/nutch-how-it-works.html",
+  "comments": "https://florianhartl.com/nutch-how-it-works.html#comments",
+  "dc:creator": "Florian Hartl",
+  "pubDate": "Sun, 04 Mar 2012 22:55:50 +0000",
+  "category": "Machine Learning",
+  "guid": "http://florianhartl.com/?p=97",
+  "description": "<p>After the installation of Nutch as described in my previous post, you can either follow this tutorial without the need of thinking, or get a sense of how Nutch actually works beforehand. I recommend doing both in parallel. And since you won&#8217;t find the latter on the Apache Nutch Website, let me help you out in this matter. The following illustration depicts the major parts as well as the workflow of a crawl: The injector takes all the URLs of the nutch.txt file and adds them to the crawldb. As a central part of Nutch, the crawldb maintains information on all known URLs…</p>\n<p>The post <a rel=\"nofollow\" href=\"https://florianhartl.com/nutch-how-it-works.html\">Nutch &#8211; How It Works</a> appeared first on <a rel=\"nofollow\" href=\"https://florianhartl.com\">Florian Hartl</a>.</p>\n",
+  "wfw:commentRss": "https://florianhartl.com/nutch-how-it-works.html/feed",
+  "slash:comments": 13
+}

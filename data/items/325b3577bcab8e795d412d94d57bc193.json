@@ -1,0 +1,8 @@
+{
+  "title": "Why You Shouldn't Tie IP Addresses to Tokens",
+  "description": "Locking tokens to the client IP address might seem like a good way to prevent content theft, such as sharing of authenticated URLs that include tokens. It might even appear to work in small-scale test environments. However, the internet has evolved to a point where it?s quite common for clients to use multiple source IP addresses. This is especially true when a token is created by a server on one hostname (such as a CMS) but then validated by a server on another hostname, such as an Akamai edge server, when serving content.",
+  "link": "https://www.akamai.com/blog/developers/why-you-shouldn-t-tie-ip-addresses-to-tokens",
+  "author": "Alex Balford & Erik Nygren",
+  "guid": "https://www.akamai.com/blog/developers/why-you-shouldn-t-tie-ip-addresses-to-tokens",
+  "pubDate": "Fri, 11 Feb 2022 14:00 PM UTC"
+}

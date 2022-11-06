@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:2SdSiJTGKLM",
+  "yt:videoId": "2SdSiJTGKLM",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "How to install & use QEMU+KVM and virt-manager",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2020-12-18T20:32:19+00:00",
+  "updated": "2022-07-23T13:07:37+00:00",
+  "media:group": {
+    "media:title": "How to install & use QEMU+KVM and virt-manager",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this video I'll cover installing QEMU and virt-manager and setting your first virtual machine.  In my opinion, the performance you get out of QEMU with KVM is much better than alternatives such as VirtualBox and VMWare. And unlike the others, QEMU is open source!\n\nIf you like my videos and/or find them useful, consider donating to my channel! https://www.patreon.com/doriandotslash\n\nCommands using various package managers;\n\nDEBIAN/MINT/UBUNTU using apt (apt-get)\n  sudo apt install virt-manager\nARCH/MANJARO using pacman\n sudo pacman -S virt-manager\nFEDORA using dnf\n sudo dnf install virt-manager\nOPENSUSE using zypper\nsudo zypper install virt-manager\n\nTime Stamps;\n00:00 Intro\n\n00:49 Installing\n03:32 Troubleshooting issues\n05:04 Create a VM\n07:43 First boot from ISO\n09:37 Additional VM settings\n13:28 Concluding remarks\n\nBig Buck Bunny (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org\nMrGamer (@AndreasRohdin): https://soundcloud.com/gamermachine",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

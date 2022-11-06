@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42824 (ipados, iphone_os, macos, safari, tvos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42824",
+  "description": "A logic issue was addressed with improved state management. This issue is fixed in tvOS 16.1, macOS Ventura 13, watchOS 9.1, Safari 16.1, iOS 16.1 and iPadOS 16. Processing maliciously crafted web content may disclose sensitive user information.",
+  "dc:date": "2022-11-01T20:15:24Z"
+}

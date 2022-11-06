@@ -1,0 +1,18 @@
+{
+  "title": "Social engineering: MINEBRIDGE RAT embedded to look like job résumés. [Research Saturday]",
+  "link": "https://thecyberwire.com/podcasts/research-saturday/179/notes",
+  "description": "Guest Deepen Desai joins Dave to talk about Zsaler's research \"Return of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures.\" In Jan 2021, Zscaler ThreatLabZ discovered new instances of the MINEBRIDGE remote-access Trojan (RAT) embedded in macro-based Word document files crafted to look like valid job resumes (CVs). Such lures are often used as social engineering schemes by threat actors.\nMINEBRIDGE buries itself into the vulnerable remote desktop software TeamViewer, enabling the threat actor to take a wide array of remote follow-on actions such as spying on users or deploying additional malware.The use of social engineering tactics targeting security teams appears to be on an upward trend.\nThe research can be found here:\nReturn of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures",
+  "pubDate": "Sat, 17 Apr 2021 07:00:00 -0000",
+  "itunes:title": "Social engineering: MINEBRIDGE RAT embedded to look like job résumés. [Research Saturday]",
+  "itunes:episodeType": "full",
+  "itunes:season": 3,
+  "itunes:episode": 179,
+  "itunes:author": "CyberWire, Inc.",
+  "itunes:subtitle": "",
+  "itunes:summary": "Guest Deepen Desai joins Dave to talk about Zsaler's research \"Return of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures.\" In Jan 2021, Zscaler ThreatLabZ discovered new instances of the MINEBRIDGE remote-access Trojan (RAT) embedded in macro-based Word document files crafted to look like valid job resumes (CVs). Such lures are often used as social engineering schemes by threat actors.\nMINEBRIDGE buries itself into the vulnerable remote desktop software TeamViewer, enabling the threat actor to take a wide array of remote follow-on actions such as spying on users or deploying additional malware.The use of social engineering tactics targeting security teams appears to be on an upward trend.\nThe research can be found here:\nReturn of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures",
+  "content:encoded": "<p>Guest Deepen Desai joins Dave to talk about Zsaler's research \"Return of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures.\" In Jan 2021, Zscaler ThreatLabZ discovered new instances of the MINEBRIDGE remote-access Trojan (RAT) embedded in macro-based Word document files crafted to look like valid job resumes (CVs). Such lures are often used as social engineering schemes by threat actors.</p><p>MINEBRIDGE buries itself into the vulnerable remote desktop software TeamViewer, enabling the threat actor to take a wide array of remote follow-on actions such as spying on users or deploying additional malware.The use of social engineering tactics targeting security teams appears to be on an upward trend.</p><p>The research can be found here:</p><ul><li><a href=\"https://www.zscaler.com/blogs/security-research/return-minebridge-rat-new-ttps-and-social-engineering-lures\">Return of the MINEBRIDGE RAT With New TTPs and Social Engineering Lures</a></li></ul>",
+  "itunes:duration": 1113,
+  "itunes:explicit": "no",
+  "guid": "94d32d0e-9edf-11eb-93df-db878028b947",
+  "enclosure": ""
+}

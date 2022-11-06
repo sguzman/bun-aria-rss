@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-26762 (ipados, iphone_os, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26762",
+  "description": "A memory corruption issue was addressed with improved memory handling. This issue is fixed in macOS Monterey 12.4, iOS 15.5 and iPadOS 15.5. A malicious application may be able to execute arbitrary code with system privileges.",
+  "dc:date": "2022-11-01T20:15:17Z"
+}

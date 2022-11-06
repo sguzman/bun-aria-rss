@@ -1,0 +1,17 @@
+{
+  "title": "Memoryview Benchmarks 2",
+  "link": "",
+  "published": "2012-08-16T14:19:00-07:00",
+  "updated": "2012-08-16T14:19:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2012-08-16:blog/2012/08/16/memoryview-benchmarks-2/",
+  "summary": "<p>In the <a href=\"/blog/2012/08/08/memoryview-benchmarks/\">previous post</a>, I explored\nhow cython typed memoryviews can be used to speed up repeated array\noperations.  It became clear that typed memoryviews are superior to\nthe ndarray syntax for slicing, and as fast as raw pointers for single\nelement access.  In the comments, Mathieu brought up an interesting\nquestion: is the ndarray syntax as good as typed memoryviews if you're\nnot doing slicing?</p>\n<p>The answer turns out to be yes, <em>unless</em> the compiler tries to inline your\nfunction.</p>",
+  "category": [
+    "",
+    "",
+    "",
+    ""
+  ]
+}

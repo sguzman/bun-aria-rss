@@ -1,0 +1,14 @@
+{
+  "title": "Learning to rank with scikit-learn: the pairwise transform",
+  "link": "http://fa.bianp.net/blog/2012/learning-to-rank-with-scikit-learn-the-pairwise-transform/",
+  "description": "<script type=\"text/x-mathjax-config\">\nMathJax.Hub.Config({\n  extensions: [\"tex2jax.js\"],\n  jax: [\"input/TeX\", \"output/HTML-CSS\"],\n  tex2jax: {\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\n    processEscapes: true\n  },\n  TeX: {\n  equationNumbers: { autoNumber: \"AMS\" },\n  extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n  },\n  \"HTML-CSS\": { fonts: [\"TeX\"] }\n});\n</script>\n\n<script type=\"text/javascript\" async\n  src=\"/js/mathjax@2.7.5/MathJax.js\">\n</script>\n\n<p>This tutorial introduces the concept of pairwise preference used in most <a href=\"http://en.wikipedia.org/wiki/Learning_to_rank\">ranking problems</a>. I'll use scikit-learn and for learning and matplotlib for …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Tue, 23 Oct 2012 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2012-10-23:/blog/2012/learning-to-rank-with-scikit-learn-the-pairwise-transform/",
+  "category": [
+    "misc",
+    "python",
+    "scikit-learn",
+    "ranking"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "All the codeword symbols in polar codes have the same SER under the SC decoder. (arXiv:2203.14184v3 [cs.IT] UPDATED)",
+  "link": "http://arxiv.org/abs/2203.14184",
+  "description": "<p>We consider polar codes constructed from the $2\\times 2$ kernel\n$\\begin{bmatrix}\n</p>\n<p>1 &amp; 0 \\\\\n</p>\n<p>\\alpha &amp; 1 \\end{bmatrix}$ over a finite field $\\mathbb{F}_{q}$, where $q=p^s$\nis a power of a prime number $p$, and $\\alpha$ satisfies that\n$\\mathbb{F}_{p}(\\alpha) = \\mathbb{F}_{q}$. We prove that for any\n$\\mathbb{F}_{q}$-symmetric memoryless channel, any code length, and any code\ndimension, all the codeword symbols in such polar codes have the same symbol\nerror rate (SER) under the successive cancellation (SC) decoder.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Li_G/0/1/0/all/0/1\">Guodong Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ye_M/0/1/0/all/0/1\">Min Ye</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hu_S/0/1/0/all/0/1\">Sihuang Hu</a>"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "&#8220;get nan or inf error&#8221; in cuda-convnet &#8211; possible fix",
+  "link": "https://mirror2image.wordpress.com/2014/01/17/get-nan-or-inf-error-in-cuda-convnet-possible-fix/",
+  "comments": "https://mirror2image.wordpress.com/2014/01/17/get-nan-or-inf-error-in-cuda-convnet-possible-fix/#comments",
+  "dc:creator": "mirror2image",
+  "pubDate": "Fri, 17 Jan 2014 09:57:38 +0000",
+  "category": [
+    "Coding",
+    "convolutional network",
+    "cuda",
+    "cuda-convnet",
+    "Deep Learning"
+  ],
+  "guid": "http://mirror2image.wordpress.com/?p=1605",
+  "description": "&#8220;get nan or inf&#8221; error happens sometimes on lower-end GPU&#8217;s in cuda-convnet. I have traced this error to NaN values in the weights of convolutional layers. I still not clear to me why these NaN values appear in the weights. Are they backpropagate from fully-connected layers or popping up in the convolution kernel? It looks [&#8230;]",
+  "content:encoded": "<p>&#8220;get nan or inf&#8221; error happens sometimes on lower-end GPU&#8217;s in cuda-convnet. I have traced this error to NaN values in the weights of convolutional layers. I still not clear to me why these NaN values appear in the weights. Are they backpropagate from fully-connected layers or popping up in the convolution kernel? It looks to me latter is more likely. Anyway I made a temporary fix &#8211; just scan weight&#8217;s gradients with simple cuda kernel and replace NaN&#8217;a with zeroes. Didn&#8217;t observe the error after that.</p>\n<p>I have pushed fix into windows version of cuda-convnet at</p>\n<p><a href=\"https://github.com/s271/win_convnet\" rel=\"nofollow\">https://github.com/s271/win_convnet</a></p>\n<p>Fix activated with option &#8211;fix-nan=1</p>\n<p><span style=\"font-size:14px;line-height:1.5em;\">There shouldn&#8217;t be any problem with making those changes for linux version &#8211; there are several small changes in  *.cu and *.py files only</span></p>\n<p>PS</p>\n<p>If anyone wondering what cuda-convnet is here is a nice explanation:</p>\n<p><a href=\"http://fastml.com/object-recognition-in-images-with-cuda-convnet/\" rel=\"nofollow\">http://fastml.com/object-recognition-in-images-with-cuda-convnet/</a></p>\n<p>And here is the main paper about cuda-convnet</p>\n<p><object data=\"http://books.nips.cc/papers/files/nips25/NIPS2012_0534.pdf\" type=\"application/pdf\" width=\"100%\" height=\"800\" style=\"height: 800px;\"><p><a href=\"http://books.nips.cc/papers/files/nips25/NIPS2012_0534.pdf\">Click to access NIPS2012_0534.pdf</a></p></object></p>\n<p>&nbsp;</p>\n",
+  "wfw:commentRss": "https://mirror2image.wordpress.com/2014/01/17/get-nan-or-inf-error-in-cuda-convnet-possible-fix/feed/",
+  "slash:comments": 3,
+  "media:content": {
+    "media:title": "mirror2image"
+  }
+}
