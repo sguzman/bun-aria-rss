@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:dtYGiCpzzbA",
+  "yt:videoId": "dtYGiCpzzbA",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "Repulsive Shape Optimization",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2021-12-07T00:17:16+00:00",
+  "updated": "2022-01-14T06:21:48+00:00",
+  "media:group": {
+    "media:title": "Repulsive Shape Optimization",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In visual computing, point locations are often optimized using a \"repulsive\" energy, to obtain a nice uniform distribution for tasks ranging from image stippling to mesh generation to fluid simulation.  But how do you perform this same kind of repulsive optimization on curves and surfaces?  This talk takes a deep dive into the mathematical and computational challenges of repulsive shape optimization, with applications in computer graphics, mathematical visualization, and 3D geometry processing.\n\n00:00 — Introduction [easy]\n01:16 — Motivation [easy]\n07:27 — Repulsive Energies [intermediate]\n13:47 — Energy Minimization [difficult]\n22:27 — Fractional Preconditioning [experts only]\n29:10 — Discretization [intermediate]\n32:24 — Constraints [intermediate]\n34:27 — Hierarchical Acceleration [intermediate]\n38:54 — Evaluation & Comparisons [easy]\n41:47 — Results & Applications [easy]\n51:43 — Limitations & Future Work [easy]\n\nThe work in this talk comes from the papers:\nYu, Schumacher, Crane, \"Repulsive Curves\" (Transactions on Graphics 2021)\nYu, Brakensiek, Schumacher, Crane, \"Repulsive Surfaces\" (SIGGRAPH Asia 2021)\n\nAn initial version of this talk was given on November 18, 2021 at the Center on Frontiers of Computing Studies, Peking University.\n\nFor more information, see:\nhttp://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html\nhttp://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveCurves/index.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

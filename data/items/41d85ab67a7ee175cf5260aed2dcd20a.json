@@ -1,0 +1,7 @@
+{
+  "title": "Optimizing over multinomial distributions",
+  "link": "https://erikbern.com/2013/07/24/normalizing-multinomial-distributions.html",
+  "pubDate": "Wed, 24 Jul 2013 00:00:00 +0000",
+  "guid": "https://erikbern.com/2013/07/24/normalizing-multinomial-distributions.html",
+  "description": "Sometimes you have to maximize some function $$ f(w_1, w_2, ldots, w_n) $$ where $$ w_1 + w_2 + ldots + w_n = 1 $$ and $$ 0 le w_i le 1 $$ . Usually, $$ f $$ is concave and differentiable, so there's one unique global maximum and you can solve it by applying gradient ascent."
+}

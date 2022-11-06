@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-27645 (debian_linux, fedora, glibc)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-27645",
+  "description": "The nameserver caching daemon (nscd) in the GNU C Library (aka glibc or libc6) 2.29 through 2.33, when processing a request for netgroup lookup, may crash due to a double-free, potentially resulting in degraded service or Denial of Service on the local system. This is related to netgroupcache.c.",
+  "dc:date": "2021-02-24T15:15:13Z"
+}
