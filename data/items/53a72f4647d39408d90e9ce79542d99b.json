@@ -1,0 +1,15 @@
+{
+  "title": "Logistic Ordinal Regression",
+  "link": "http://fa.bianp.net/blog/2013/logistic-ordinal-regression/",
+  "description": "<p><strong>TL;DR: I've implemented a logistic ordinal regression or\n  proportional odds model. <a href=\"http://github.com/fabianp/minirank/blob/master/minirank/logistic.py\">Here is the Python code</a></strong></p>\n<p><script type=\"text/x-mathjax-config\">\n  MathJax.Hub.Config({\n    extensions: [\"tex2jax.js\"],\n    jax: [\"input/TeX\", \"output/HTML-CSS\"],\n    tex2jax: {\n      inlineMath: [ ['$','$'] ],\n      displayMath: [ ['$$','$$'], [\"\\[\",\"\\]\"] ],\n      processEscapes: true\n    },\n    TeX: {\n    equationNumbers: { autoNumber: \"AMS\" },\n    extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n    },\n    \"HTML-CSS\": { fonts: [\"TeX\"] }\n  });\n  </script>\n  <script type=\"text/javascript\" async\n    src=\"/js/mathjax@2.7.5/MathJax.js\">\n  </script></p>\n<p>The <em>logistic ordinal regression</em> model …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 02 May 2013 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2013-05-02:/blog/2013/logistic-ordinal-regression/",
+  "category": [
+    "misc",
+    "machine learning",
+    "ordinal regression",
+    "Python",
+    "ranking"
+  ]
+}
