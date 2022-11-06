@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2015-1421 (debian_linux, linux_kernel, ubuntu_linux)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1421",
+  "description": "Use-after-free vulnerability in the sctp_assoc_update function in net/sctp/associola.c in the Linux kernel before 3.18.8 allows remote attackers to cause a denial of service (slab corruption and panic) or possibly have unspecified other impact by triggering an INIT collision that leads to improper handling of shared-key data.",
+  "dc:date": "2015-03-16T10:59:06Z"
+}

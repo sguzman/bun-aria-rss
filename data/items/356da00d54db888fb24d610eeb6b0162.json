@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32895 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32895",
+  "description": "A race condition was addressed with improved state handling. This issue is fixed in macOS Ventura 13. An app may be able to modify protected parts of the file system.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}

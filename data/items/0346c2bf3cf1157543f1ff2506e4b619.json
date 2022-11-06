@@ -1,0 +1,6 @@
+{
+  "title": "Iterative autoregression: a novel trick to improve your low-latency speech enhancement model. (arXiv:2211.01751v1 [cs.SD])",
+  "link": "http://arxiv.org/abs/2211.01751",
+  "description": "<p>Streaming models are an essential component of real-time speech enhancement\ntools. The streaming regime constrains speech enhancement models to use only a\ntiny context of future information, thus, the low-latency streaming setup is\ngenerally assumed to be challenging and has a significant negative effect on\nthe model quality. However, due to the sequential nature of streaming\ngeneration, it provides a natural possibility for autoregression, i.e., using\nprevious predictions when making current ones. In this paper, we present a\nsimple, yet effective trick for training of autoregressive low-latency speech\nenhancement models. We demonstrate that the proposed technique leads to stable\nimprovement across different architectures and training scenarios.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Andreev_P/0/1/0/all/0/1\">Pavel Andreev</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Babaev_N/0/1/0/all/0/1\">Nicholas Babaev</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Saginbaev_A/0/1/0/all/0/1\">Azat Saginbaev</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shchekotov_I/0/1/0/all/0/1\">Ivan Shchekotov</a>"
+}
