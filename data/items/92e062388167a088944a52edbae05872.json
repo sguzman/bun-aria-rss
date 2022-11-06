@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:1ji3htNqqig",
+  "yt:videoId": "1ji3htNqqig",
+  "yt:channelId": "UCvqbFHwN-nwalWPjPUKpvTA",
+  "title": "Lightning Talk: Securing K8s Pods from Within: A Runtime Approach - Rahul Arvind Jadhav, Accuknox",
+  "link": "",
+  "author": {
+    "name": "CNCF [Cloud Native Computing Foundation]",
+    "uri": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA"
+  },
+  "published": "2022-11-02T23:09:28+00:00",
+  "updated": "2022-11-03T00:48:25+00:00",
+  "media:group": {
+    "media:title": "Lightning Talk: Securing K8s Pods from Within: A Runtime Approach - Rahul Arvind Jadhav, Accuknox",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2023 in Amsterdam, The Netherlands from April 17-21. Learn more at https://kubecon.io​. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nLightning Talk: Securing K8s Pods from Within: A Runtime Approach - Rahul Arvind Jadhav, Accuknox Inc\n\nFor Kubernetes, the basic unit of execution is a pod. All the binaries in all the containers have equal access to the volume mount points and thus have direct access to the service account tokens and k8s secrets that the pod mounts. Almost all Kubernetes attacks exploit/leverage this fact. The only thing an attacker has to ensure is to inject a binary into the pod using a known/unknown vulnerability in any of the binaries within any of the containers. Once the attacker injects a malicious binary, it has unrestricted access to the secrets in predefined volume mount points (we are making it so easy for the attacker!). Typically only a few binaries within the pod need access to the tokens/secrets. The access should be restricted to such a list of processes/binaries, and an automated framework should derive this list. This is easier said than done, taking into consideration that the app is updated every few weeks, i.e., the security posture changes with the app updates. The sessions aim to highlight runtime security risks that are inherent to k8s design and possible solutions to alleviate some of these concerns. Rahul is a dev/maintainer of KubeArmor (runtime security engine).",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
