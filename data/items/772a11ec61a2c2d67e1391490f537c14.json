@@ -1,0 +1,25 @@
+{
+  "title": "Offline translations are now a lot better thanks to on-device AI",
+  "link": "https://blog.google/products/translate/offline-translations-are-now-lot-better-thanks-device-ai/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p>Just about two years ago we <a href=\"https://www.blog.google/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/\">introduced</a> neural machine translation (NMT) to Google Translate, significantly improving accuracy of our online translations. Today, we’re bringing NMT technology offline—on device. This means that the technology will run in the Google Translate apps directly on your Android or iOS device, so that you can get high-quality translations even when you don't have access to an internet connection.</p><p>The neural system translates whole sentences at a time, rather than piece by piece. It uses broader context to help determine the most relevant translation, which it then rearranges and adjusts to sound more like a real person speaking with proper grammar. This makes translated paragraphs and articles a lot smoother and easier to read.</p><p>Offline translations can be useful when traveling to other countries without a local data plan, if you don’t have access to internet, or if you just don’t want to use cellular data. And since each language set is just 35-45MB, they won’t take too much storage space on your phone when you download them.</p></div></div><div class=\"block-image_full_width\"><div class=\"h-c-page\"><div class=\"article-image__is-caption h-c-grid__col--10 h-c-grid__col--offset-1 h-c-grid__col-l--offset-2 h-c-grid__col-l--8\"><a class=\"article-image--link\"><img alt=\"Comparison between phrase based translation and online/offline NMT\" class=\"article-image--full\" data-loading='{\n                \"mobile\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/offline-comparison.png\",\n                \"desktop\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/offline-comparison.max-1000x1000.png\"\n              }' loading=\"lazy\" src=\" https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/offline-comparison.png \" tabindex=\"0\"/></a></div><figcaption class=\"article-image__caption article-image__is-caption-image h-c-grid__col--8 h-c-grid__col--offset-2 h-c-grid__col-l--6 h-c-grid__col-l--offset-3\"><div class=\"rich-text\"><p>A comparison between our current phrase-based machine translation (PBMT), new offline neural machine translation (on-device), and online neural machine translation<br/></p></div></figcaption></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><p>To try NMT offline translations, go to your Translate app on Android or iOS. If you’ve used offline translations before, you’ll see a banner on your home screen which will take you to the right place to update your offline files. If not, go to your offline translation settings and tap the arrow next to the language name to download the package for that language. Now you’ll be ready to translate text whether you’re online or not. </p></div></div><div class=\"block-image_full_width\"><div class=\"h-c-page\"><div class=\"article-image h-c-grid__col-l--4 h-c-grid__col--6 h-c-grid__col-l--offset-4 h-c-grid__col--offset-3\"><a class=\"article-image--link\"><img alt=\"Google Translate offline NMT\" class=\"article-image--medium\" data-loading='{\n                \"mobile\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Screenshot_20180612-110738.png\",\n                \"desktop\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_20180612-110738.max-1000x1000.png\"\n              }' loading=\"lazy\" src=\" https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Screenshot_20180612-110738.png \" tabindex=\"0\"/></a></div></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><p>We're rolling out this update in 59 languages over the next few days, so get out there and connect to the world around you!</p></div></div></body></html>",
+  "pubDate": "Tue, 12 Jun 2018 17:43:00 +0000",
+  "guid": "https://blog.google/products/translate/offline-translations-are-now-lot-better-thanks-device-ai/",
+  "category": [
+    "Translate",
+    "Next Billion Users",
+    "AI"
+  ],
+  "og": {
+    "type": "article",
+    "title": "Offline translations are now a lot better thanks to on-device AI",
+    "description": "We’re bringing neural machine translation technology on device, so you can get high-quality translations even when you're offline.",
+    "site_name": "Google",
+    "url": "https://blog.google/products/translate/offline-translations-are-now-lot-better-thanks-device-ai/"
+  },
+  "author": {
+    "name": "Julie Cattiau",
+    "title": "Product Manager",
+    "department": "Translate apps",
+    "company": ""
+  }
+}

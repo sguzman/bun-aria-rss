@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:3oL1xokuHBE",
+  "yt:videoId": "3oL1xokuHBE",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Implementing Hazard Pointers in Rust (part 4/4)",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2022-01-15T22:58:19+00:00",
+  "updated": "2022-08-19T15:41:32+00:00",
+  "media:group": {
+    "media:title": "Implementing Hazard Pointers in Rust (part 4/4)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We continue our journey implementing Hazard Pointers (https://erdani.org/publications/cuj-2004-12.pdf) in Rust. We follow along with the C++ implementation in Facebook's Folly library (https://github.com/facebook/folly/blob/master/folly/synchronization/Hazptr.h), starting from where we left off last time: https://github.com/facebook/folly/tree/0e92d3c2705a45ba7850708fd7fe0c709d6a0e5f.\n\nThis time, the focus is on porting over tests and benchmarks, including using loom (for concurrency testing) and criterion (for benchmarks).\n\nhttps://twitter.com/jonhoo/status/1482179476423208963\n\n0:00:00 Introduction\n0:02:22 Changes since last stream\n0:11:39 The Twitter poll\n0:13:35 folly's test suite\n0:38:31 Domain::cleanup\n0:45:19 Porting folly tests\n1:44:51 Custom deleters\n1:58:49 Porting spin test to loom\n2:46:36 Benchmarking hazard pointer creation\n3:15:12 Benchmarking retire and reclaim\n3:21:08 drop(stream)\n\nYou can find the code here: https://github.com/jonhoo/haphazard/\n\nLive version with chat: https://youtu.be/t0Nza-v1XIg",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

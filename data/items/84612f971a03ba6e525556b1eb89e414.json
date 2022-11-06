@@ -1,0 +1,7 @@
+{
+  "title": "Learning to rank for personalised search (Yandex Search Personalisation – Kaggle Competition Summary – Part 2)",
+  "link": "https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/",
+  "pubDate": "Wed, 11 Feb 2015 06:34:17 +0000",
+  "guid": "https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/",
+  "description": "This is the second and last post summarising my team&rsquo;s solution for the Yandex search personalisation Kaggle competition. See the first post for a summary of the dataset, evaluation approach, and some thoughts about search engine optimisation and privacy. This post discusses the algorithms and features we used.\nTo quickly recap the first post, Yandex released a 16GB dataset of query &amp; click logs. The goal of the competition was to use this data to rerank query results such that the more relevant results appear before less relevant results."
+}

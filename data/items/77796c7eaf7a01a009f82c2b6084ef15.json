@@ -1,0 +1,14 @@
+{
+  "title": "Surrogate Loss Functions in Machine Learning",
+  "link": "http://fa.bianp.net/blog/2014/surrogate-loss-functions-in-machine-learning/",
+  "description": "<!-- <div style=\"float: left; margin: 20px; width; 200px\" >\n<img src=\"http://upload.wikimedia.org/wikipedia/commons/4/46/R._A._Fischer.jpg\" />\n<p>Sir R. A. Fisher. Source: Wikipedia </p>\n</div>\n -->\n\n<p><script type=\"text/x-mathjax-config\">\n MathJax.Hub.Config({\n   extensions: [\"tex2jax.js\"],\n   jax: [\"input/TeX\", \"output/HTML-CSS\"],\n   tex2jax: {\n     inlineMath: [ ['$','$'], [\"\\(\",\"\\)\"] ],\n     displayMath: [ ['$$','$$'], [\"\\[\",\"\\]\"] ],\n     processEscapes: true\n   },\n   TeX: {\n   equationNumbers: { autoNumber: \"AMS\" },\n   extensions: [\"AMSmath.js\", \"AMSsymbols.js\"]\n   },\n   \"HTML-CSS\": { fonts: [\"TeX\"] }\n });\n </script>\n <script type=\"text/javascript\" async\n   src=\"/js/mathjax@2.7.5/MathJax.js\">\n </script></p>\n<p><span class=\"bold\">TL; DR</span> These are some notes on calibration of surrogate loss functions in the context of machine learning. But mostly it is …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 20 Jun 2014 00:00:00 +0200",
+  "guid": "tag:fa.bianp.net,2014-06-20:/blog/2014/surrogate-loss-functions-in-machine-learning/",
+  "category": [
+    "misc",
+    "machine learning",
+    "consistency",
+    "calibration"
+  ]
+}

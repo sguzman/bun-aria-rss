@@ -1,0 +1,15 @@
+{
+  "title": "On the Link Between Optimization and Polynomials, Part 2",
+  "link": "http://fa.bianp.net/blog/2020/momentum/",
+  "description": "<p>\n    We can tighten the analysis of gradient descent with momentum through a cobination of Chebyshev polynomials of the first and second kind. Following this connection, we'll derive one of the most iconic methods in optimization: Polyak momentum. \n  </p>\n\n\n  <script type=\"text/javascript\" src=\"/theme/js/bibtexParse.js\">\n  </script>\n\n  <script type=\"text/x-mathjax-config\">\n    MathJax.Hub.Config({\n      extensions: [\"tex2jax.js\"],\n      jax: [\"input/TeX\", \"output/HTML-CSS\"],\n      tex2jax: {\n        inlineMath …</script>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 21 Dec 2020 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2020-12-21:/blog/2020/momentum/",
+  "category": [
+    "optimization",
+    "polynomials",
+    "acceleration",
+    "momentum",
+    "Chebyshev"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Item-to-Item Collaborative Filtering with Amazon's Recommendation System",
+  "link": "http://blog.echen.me/2011/02/15/item-to-item-collaborative-filtering-with-amazons-recommendation-system/",
+  "description": "<div class=\"entry-content\"><h1>Introduction</h1>\n\n<p>In making its product recommendations, Amazon makes heavy use of an item-to-item collaborative filtering approach. This essentially means that for each item X, Amazon builds a neighborhood of related items S(X); whenever you buy/look at an item, Amazon then recommends you items from that item&#8217;s neighborhood …</p></div>",
+  "dc:creator": "Edwin Chen",
+  "pubDate": "Tue, 15 Feb 2011 04:15:00 +0100",
+  "guid": "tag:blog.echen.me,2011-02-15:/2011/02/15/item-to-item-collaborative-filtering-with-amazons-recommendation-system/",
+  "category": "misc"
+}

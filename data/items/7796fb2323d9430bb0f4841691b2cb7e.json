@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3771 (easyiicms)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3771",
+  "description": "A vulnerability, which was classified as critical, has been found in easyii CMS. This issue affects the function file of the file helpers/Upload.php of the component File Upload Management. The manipulation leads to unrestricted upload. The attack may be initiated remotely. The identifier VDB-212501 was assigned to this vulnerability.",
+  "dc:date": "2022-10-31T14:15:10Z"
+}

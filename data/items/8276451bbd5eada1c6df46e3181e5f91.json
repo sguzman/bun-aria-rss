@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2010-0986 (shockwave_player)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-0986",
+  "description": "Adobe Shockwave Player before 11.5.7.609 does not properly process asset entries, which allows remote attackers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a crafted Shockwave file.",
+  "dc:date": "2010-05-13T17:30:01Z"
+}

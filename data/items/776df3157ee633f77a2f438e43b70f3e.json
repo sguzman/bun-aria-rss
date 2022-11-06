@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40742 (mail_sqr_expert)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40742",
+  "description": "Mail SQR Expert system has a Local File Inclusion vulnerability. An unauthenticated remote attacker can exploit this vulnerability to execute arbitrary PHP file with .asp file extension under specific system paths, to access and modify partial system information but does not affect service availability.",
+  "dc:date": "2022-10-31T07:15:10Z"
+}

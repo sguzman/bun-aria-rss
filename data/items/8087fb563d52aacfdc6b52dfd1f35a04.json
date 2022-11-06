@@ -1,0 +1,27 @@
+{
+  "title": "Making the internet more inclusive in India",
+  "link": "https://blog.google/products/translate/making-internet-more-inclusive-india/",
+  "description": "<html><head></head><body><div class=\"block-paragraph\"><div class=\"rich-text\"><p>More than 400 million people in India use the internet, and more are coming online every day. But the vast majority of India’s online content is in English, which only 20 percent of the country’s population speaks—meaning most Indians have a hard time finding content and services in their language.</p><p>Building for everyone means first and foremost making things work in the languages people speak. That’s why we’ve now brought our new <a href=\"https://research.googleblog.com/2016/09/a-neural-network-for-machine.html\">neural machine translation</a> technology to translations between English and nine widely used Indian languages—Hindi, Bengali, Marathi, Gujarati, Punjabi, Tamil, Telugu, Malayalam and Kannada.<br/></p><p>Neural machine translation translates full sentences at a time, instead of pieces of a sentence, using this broader context to help it figure out the most relevant translation. The result is higher-quality, more human sounding translations.<br/></p><p>Just like it’s easier to learn a language when you already know a related language, our neural technology speaks each language better when it learns several at a time. For example, we have a whole lot more sample data for Hindi than its relatives Marathi and Bengali, but when we train them all together, the translations for all improve more than if we’d trained each individually.<br/></p></div></div><div class=\"block-image_full_width\"><div class=\"h-c-page\"><div class=\"article-image__is-caption h-c-grid__col--10 h-c-grid__col--offset-1 h-c-grid__col-l--offset-2 h-c-grid__col-l--8\"><a class=\"article-image--link\"><img alt=\"NMT Translation India.jpg\" class=\"article-image--full\" data-loading='{\n                \"mobile\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NMT_Translation_India.max-500x500.jpg\",\n                \"desktop\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NMT_Translation_India.max-1000x1000.jpg\"\n              }' loading=\"lazy\" src=\" https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NMT_Translation_India.max-100x100.jpg \" tabindex=\"0\"/></a></div><figcaption class=\"article-image__caption article-image__is-caption-image h-c-grid__col--8 h-c-grid__col--offset-2 h-c-grid__col-l--6 h-c-grid__col-l--offset-3\"><div class=\"rich-text\">Left: Phrase-based translation; right: neural machine translation</div></figcaption></div></div><div class=\"block-paragraph\"><div class=\"rich-text\"><p>These improvements to Google Translate in India join several other updates we announced at an event in New Delhi today, including neutral machine translation in Chrome and bringing the Rajpal &amp; Sons Hindi dictionary online so it’s easier for Hindi speakers to find word meanings right in search results. All these improvements help make the web more useful for hundreds of millions of Indians, and bring them closer to benefiting from the full value of the internet.</p></div></div></body></html>",
+  "pubDate": "Tue, 25 Apr 2017 19:30:00 +0000",
+  "guid": "https://blog.google/products/translate/making-internet-more-inclusive-india/",
+  "category": [
+    "India",
+    "Translate",
+    "Google in Asia"
+  ],
+  "media:content": "",
+  "og": {
+    "type": "article",
+    "title": "Making the internet more inclusive in India",
+    "description": "We’re bringing our neural machine translation technology to nine Indian languages—Hindi, Bengali, Marathi, Tamil, Telugu, Gujarati, Punjabi, Malayalam and Kannada.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/about_fallback_B_3_nuZyZBl.max-600x600.png",
+    "site_name": "Google",
+    "url": "https://blog.google/products/translate/making-internet-more-inclusive-india/"
+  },
+  "author": {
+    "name": "Barak Turovsky",
+    "title": "Group Product Manager",
+    "department": "Google Translate",
+    "company": ""
+  }
+}

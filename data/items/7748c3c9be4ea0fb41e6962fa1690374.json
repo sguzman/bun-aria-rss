@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-25849 (hyperdown)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25849",
+  "description": "The package joyqi/hyper-down from 0.0.0 are vulnerable to Cross-site Scripting (XSS) because the module of parse markdown does not filter the href attribute very well.",
+  "dc:date": "2022-10-26T05:15:08Z"
+}

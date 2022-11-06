@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:l1ujHfWoiOU",
+  "yt:videoId": "l1ujHfWoiOU",
+  "yt:channelId": "UCtxCXg-UvSnTKPOzLH4wJaQ",
+  "title": "Writing an Embedded Operating System in Rust",
+  "link": "",
+  "author": {
+    "name": "Coding Tech",
+    "uri": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ"
+  },
+  "published": "2022-10-29T18:18:52+00:00",
+  "updated": "2022-11-04T18:14:10+00:00",
+  "media:group": {
+    "media:title": "Writing an Embedded Operating System in Rust",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Rust is a systems language, similar to C, that also provides memory and thread safety at compile time. It's an extremely powerful language with great performance. It is slowly being introduced into open source projects, including the Linux kernel. This talk will discuss writing an embedded Operating System (OS) entirely in Rust. Tock is an operating system targeting both ARM Cortex-M and RISC-V embedded platforms. Tock is designed around running multiple concurrent and distrusted applications in a secure and isolated environment. This talk will focus on why Rust is such a powerful language for embedded. It will then discuss the design of Tock and how we can utilise both software and hardware to provide isolation and protection between applications and within the embedded OS itself. Finally Alistair will conclude with some pain points from Rust, lessons learnt and the status of useful embedded Rust improvements.\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=yT0cRctyZOE",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

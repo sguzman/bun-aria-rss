@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:V2erpZgOA78",
+  "yt:videoId": "V2erpZgOA78",
+  "yt:channelId": "UCJYVW4HVrMWpUvvsjPQc8-Q",
+  "title": "CentOS to Rocky Linux migration demo",
+  "link": "",
+  "author": {
+    "name": "DorianDotSlash",
+    "uri": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+  },
+  "published": "2021-05-10T13:30:03+00:00",
+  "updated": "2022-05-26T19:42:31+00:00",
+  "media:group": {
+    "media:title": "CentOS to Rocky Linux migration demo",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Rocky Linux can easily replace CentOS IN-PLACE using a great migration script which I demonstrate in this video.  In this example I have a basic web server running in CentOS, and then I migrate it over to Rocky.\n\nSee the Rocky installation video here: https://youtu.be/xHrk9BncaZw\nGet the script here: https://github.com/rocky-linux/rocky-tools\nGet Rocky Linux RC here: https://www.rockylinux.org\n\nSupport my channel: https://www.patreon.com/doriandotslash/\n\nTimestamps:\n00:00 Intro\n00:17 Current CentOS 8 setup\n00:56 Migration Script\n01:50 Migration process\n04:33 Reboot into Rocky\n05:32 Verifying previously installed packages & services\n06:50 Conclusion\n07:38 The most important part\n\n#linux #rockylinux #centos",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

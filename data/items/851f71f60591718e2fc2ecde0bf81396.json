@@ -1,0 +1,13 @@
+{
+  "title": "Improving Inflation Forecasts Using Robust Measures",
+  "link": "https://fedinprint.org/item/fedcwq/94549/original",
+  "description": "Both theory and extant empirical evidence suggest that the cross-sectional asymmetry across disaggregated price indexes might be useful in the forecasting of aggregate inflation. Trimmed-mean inflation estimators have been shown to be useful devices for forecasting headline PCE inflation. But does this stem from their ability to signal the underlying trend, or does it mainly come from their implicit signaling of asymmetry (when included alongside headline PCE)? We address this question by augmenting a “hard to beat” benchmark inflation forecasting model of headline PCE price inflation with robust measures of trimmed-mean estimators of inflation (median PCE and trimmed-mean PCE) and robust measures of the cross-sectional asymmetry (Bowley skewness; Kelly skewness) computed using the 180+ components of the PCE price index. We also construct new trimmed-mean measures of goods and services PCE inflation and their accompanying robust skewness. Our results indicate significant gains in the point and density accuracy of PCE inflation forecasts over medium- and longer-term horizons, up through and including the COVID-19 pandemic. We find that improvements in accuracy stem mainly from the trend information implicit in trimmed-mean estimators, but that skewness is also useful. Median PCE slightly outperforms trimmed-mean PCE; both outperform core PCE. For point forecasts, Kelly skewness is preferred; but for estimating stochastic volatility, Bowley skewness is preferred. An examination of goods and services PCE inflation provides similar inference.",
+  "guid": "https://fedinprint.org/item/fedcwq/94549/original",
+  "dc:creator": "Zaman, Saeed; Verbrugge, Randal",
+  "dc:date": "2022-08-03",
+  "rdau:hasExtent": 58,
+  "dc:subject": "median PCE inflation; trimmed-mean PCE; disaggregate inflation; skewness; forecasting",
+  "swpo:hasNumber": "22-23",
+  "identifiers:doi": "10.26509/frbc-wp-202223",
+  "bibo:series": "Working Papers"
+}

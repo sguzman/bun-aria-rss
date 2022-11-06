@@ -1,0 +1,8 @@
+{
+  "title": "Romanian Crypto Mining Infection",
+  "description": "While examining my honeypot logs and digging through the newly downloaded binaries last week, I noticed a large compressed file. I figured it would be a crypto miner, typically a tar archive and gzip (normally erroneously) compressed. I moved the archive over to my test lab and started examining the contents.",
+  "link": "https://www.akamai.com/blog/security/romanian-crypto-mining-infection",
+  "author": "Larry Cashdollar",
+  "guid": "https://www.akamai.com/blog/security/romanian-crypto-mining-infection",
+  "pubDate": "Mon, 24 May 2021 04:00 AM UTC"
+}

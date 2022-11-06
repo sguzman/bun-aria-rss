@@ -1,0 +1,7 @@
+{
+  "title": "Prediction vs Forecasting",
+  "link": "https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/",
+  "pubDate": "Sun, 09 Dec 2018 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/",
+  "description": "In supervised learning, we are often concerned with prediction. However, there is also the concept of forecasting. Here, I will discuss the differences between the two concepts so that we can answer the question why weather forecasting is not called weather prediction.\nPredicion and forecasting Prediction is concerned with estimating the outcomes for unseen data. For this purpose, you fit a model to a training data set, which results in an estimator \\(\\hat{f}(x)\\) that can make predictions for new samples \\(x\\)."
+}

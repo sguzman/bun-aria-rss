@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:_LK7qvBWNYo",
+  "yt:videoId": "_LK7qvBWNYo",
+  "yt:channelId": "UC_iD0xppBwwsrM9DegC5cQQ",
+  "title": "Implementing Hazard Pointers in Rust (part 2)",
+  "link": "",
+  "author": {
+    "name": "Jon Gjengset",
+    "uri": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ"
+  },
+  "published": "2021-07-10T23:59:55+00:00",
+  "updated": "2022-08-19T15:42:54+00:00",
+  "media:group": {
+    "media:title": "Implementing Hazard Pointers in Rust (part 2)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "We continue our journey implementing Hazard Pointers (https://erdani.org/publications/cuj-2004-12.pdf) in Rust. We follow along with the C++ implementation in Facebook's Folly library (https://github.com/facebook/folly/blob/master/folly/synchronization/Hazptr.h), starting from where we left off last time: https://github.com/jonhoo/haphazard/tree/7f0d8d62e071f8bc55233a3d2437225d6282e368\n\n\n\n0:00:00 Introduction\n0:01:50 Where we left off\n0:05:50 PRs fixing problems from part 1\n0:10:35 Update on issues we filed\n0:20:37 Bugs I found\n0:35:12 Can deleter alias be const?\n0:38:35 impl Drop vs drop in vtable\n0:40:25 Some Rust Q&A\n0:43:20 Splitting up into modules\n0:56:56 Support for custom domains\n2:19:30 Improving static domain safety\n2:58:04 Intermission\n3:02:02 Aligning with Folly's HazPtrDomain\n4:39:03 Aligning with Folly's HazPtrHolder\n5:18:32 Aligning with Folly's HazPtrObject\n\n5:25:10 Where we are and where next?\n\n\nYou can find the latest code for the implementation at https://github.com/jonhoo/haphazard.\n\nLive version with chat: https://youtu.be/Hy8VfC2FwBM",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

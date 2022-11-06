@@ -1,0 +1,13 @@
+{
+  "title": "qr_multiply function in scipy.linalg",
+  "link": "http://fa.bianp.net/blog/2011/qr_multiply-function-in-scipylinalg/",
+  "description": "<p>In scipy's development version there's a new function closely related to\nthe <a class=\"reference external\" href=\"http://en.wikipedia.org/wiki/QR_decomposition\">QR-decomposition</a> of a matrix and to the least-squares solution of\na linear system. What this function does is to compute the\nQR-decomposition of a matrix and then multiply the resulting orthogonal\nfactor by another arbitrary matrix. In pseudocode …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Fri, 14 Oct 2011 16:44:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-10-14:/blog/2011/qr_multiply-function-in-scipylinalg/",
+  "category": [
+    "misc",
+    "python",
+    "scipy"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3441 (rock_convert)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3441",
+  "description": "The Rock Convert WordPress plugin before 2.11.0 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)",
+  "dc:date": "2022-10-31T16:15:11Z"
+}

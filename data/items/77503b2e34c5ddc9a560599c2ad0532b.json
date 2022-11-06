@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-13963 (soplanning)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-13963",
+  "description": "SOPlanning before 1.47 has Incorrect Access Control because certain secret key information, and the related authentication algorithm, is public. The key for admin is hardcoded in the installation code, and there is no key for publicsp (which is a guest account).",
+  "dc:date": "2021-03-21T21:15:12Z"
+}

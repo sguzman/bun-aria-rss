@@ -1,0 +1,6 @@
+{
+  "title": "Phoneme Segmentation Using Self-Supervised Speech Models. (arXiv:2211.01461v1 [eess.AS])",
+  "link": "http://arxiv.org/abs/2211.01461",
+  "description": "<p>We apply transfer learning to the task of phoneme segmentation and\ndemonstrate the utility of representations learned in self-supervised\npre-training for the task. Our model extends transformer-style encoders with\nstrategically placed convolutions that manipulate features learned in\npre-training. Using the TIMIT and Buckeye corpora we train and test the model\nin the supervised and unsupervised settings. The latter case is accomplished by\nfurnishing a noisy label-set with the predictions of a separate model, it\nhaving been trained in an unsupervised fashion. Results indicate our model\neclipses previous state-of-the-art performance in both settings and on both\ndatasets. Finally, following observations during published code review and\nattempts to reproduce past segmentation results, we find a need to disambiguate\nthe definition and implementation of widely-used evaluation metrics. We resolve\nthis ambiguity by delineating two distinct evaluation schemes and describing\ntheir nuances.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Strgar_L/0/1/0/all/0/1\">Luke Strgar</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Harwath_D/0/1/0/all/0/1\">David Harwath</a>"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "More recommender algorithms",
+  "link": "https://erikbern.com/2013/12/20/more-insight-into-recommender-algorithms.html",
+  "pubDate": "Fri, 20 Dec 2013 00:00:00 +0000",
+  "guid": "https://erikbern.com/2013/12/20/more-insight-into-recommender-algorithms.html",
+  "description": "I wanted to share some more insight into the algorithms we use at Spotify. One matrix factorization algorithm we have used for a while assumes that we have user vectors $$ bf{a}_u $$ and item vectors $$ bf{b}_i $$ ."
+}

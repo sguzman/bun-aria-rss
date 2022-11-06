@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32938 (ipad_os, iphone_os, macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32938",
+  "description": "A parsing issue in the handling of directory paths was addressed with improved path validation. This issue is fixed in iOS 16.1 and iPadOS 16, macOS Ventura 13. A shortcut may be able to check the existence of an arbitrary path on the file system.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}

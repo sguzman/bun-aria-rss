@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:1l411zv5iFA",
+  "yt:videoId": "1l411zv5iFA",
+  "yt:channelId": "UC548OYFGjdJuprVWeqg60fw",
+  "title": "Visualizing Complex-Valued Functions",
+  "link": "",
+  "author": {
+    "name": "Lemmaxiom",
+    "uri": "https://www.youtube.com/channel/UC548OYFGjdJuprVWeqg60fw"
+  },
+  "published": "2021-01-24T00:42:27+00:00",
+  "updated": "2022-07-22T18:56:32+00:00",
+  "media:group": {
+    "media:title": "Visualizing Complex-Valued Functions",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video goes over a few means of visualizing complex-valued functions/transformations, including domain coloring, modular surfaces and Riemann surfaces. The information provided isn't completely comprehensive and not at all rigorous, but hopefully will give you at least a little bit of insight and interest in the math for which these visuals are involved.\n\nI should mention that the definition of a Riemann surface I gave at 15:09 is a naïve one - what I showed were examples of Riemann surfaces, however they don't have to necessarily be a plot of the imaginary/real component of some function (https://en.wikipedia.org/wiki/Riemann_surface). Also, as pointed out in the comments, the function in the blue box at 3:08 (arctan[Im(z)/Re(z)]) only works within quadrants 1 and 4. In general one would need a function like this: https://en.wikipedia.org/wiki/Atan2 \n\nChapters:\n0:00 Intro\n0:25 Fundamentals\n3:55 2D graphs\n8:05 Domain coloring\n11:42 3D & 4D plots\n20:02 Making your own plots\n\nBlender Add-ons: https://github.com/timvickman/Blender-Complex-function-plots   (Chances are you can code much better than I can - feel free to use and improve upon the code for your own projects)\n\nMatplotlib Graphs: https://gist.github.com/timvickman/e87f874a06ef882cf86b886f1251a995\n\nOnline Complex Function Plotter: https://www.dynamicmath.xyz/domain-coloring/#adv\n\nProof of Euler's Identity: https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/bc-10-14/v/euler-s-formula-and-euler-s-identity\n\nI made all the music in a free, open source DAW called LMMS ( https://lmms.io/ ).",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

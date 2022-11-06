@@ -1,0 +1,7 @@
+{
+  "title": "Understanding LSTM Networks",
+  "link": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html",
+  "description": "\n<p>Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.</p>\n\n<p>Traditional neural networks can’t do this, and it seems like a major shortcoming. For example, imagine you want to classify what kind of event is happening at every point in a movie. It’s unclear how a traditional neural network could use its reasoning about previous events in the film to inform later ones.</p>\n\n<p>Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist... <a href=\"http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html\">Read more.</a></p>\n",
+  "pubDate": "Thurs, 27 Aug 2015 00:00:00 UTC",
+  "guid": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html"
+}

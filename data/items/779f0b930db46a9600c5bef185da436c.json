@@ -1,0 +1,16 @@
+{
+  "title": "Hacking Super Mario Bros. with Python",
+  "link": "",
+  "published": "2013-01-13T10:32:00-08:00",
+  "updated": "2013-01-13T10:32:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2013-01-13:blog/2013/01/13/hacking-super-mario-bros-with-python/",
+  "summary": "<p>This weekend I was coming home from the meeting of the\n<a href=\"http://www.lsst.org\">LSST</a> Dark Energy Science Collaboration,\nand found myself with a few extra hours in the airport.\nI started passing the time by poking around on the <a href=\"http://imgur.com\">imgur</a>\ngallery, and saw a couple animated gifs based on\none of my all-time favorite games, Super Mario Bros.\nIt got me wondering: could I use matplotlib's animation tools to create these\nsorts of gifs in Python?  Over a few beers at an SFO bar, I started to try\nto figure it out.  To spoil the punchline a bit, I managed to do it, and the\nresult looks like this:</p>\n<p><img class=\"center\" src=\"/images/mario.gif\"></p>\n<p>This animation was created <em>entirely in Python and matplotlib</em>, by scraping the\nimage data directly from the Super Mario Bros. ROM.  Below I'll explain how\nI managed to do it.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
