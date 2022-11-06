@@ -1,0 +1,13 @@
+{
+  "title": "Finding Needles in Haystacks: Multiple-Imputation Record  Linkage Using Machine Learning",
+  "link": "https://fedinprint.org/item/fedbwp/94891/original",
+  "description": "This paper considers the problem of record linkage between a household-level survey and an establishment-level frame in the absence of unique identifiers. Linkage between frames in this setting is challenging because the distribution of employment across establishments is highly skewed. To address these difficulties, this paper develops a probabilistic record linkage methodology that combines machine learning (ML) with multiple imputation (MI). This ML-MI methodology is applied to link survey respondents in the Health and Retirement Study to their workplaces in the Census Business Register. The linked data reveal new evidence that non-sampling errors in household survey data are correlated with respondents’ workplace characteristics.",
+  "guid": "https://fedinprint.org/item/fedbwp/94891/original",
+  "dc:creator": "Raghunathan, Trivellore; Rodgers, Ann Michelle; McCue, Kristin; Patki, Dhiren; Abramowitz, Joelle Hillary; Shapiro, Matthew D.; Zinsser, Dawn; Levenstein, Margaret Catherine; Wasi, Nada; Abowd, John M.",
+  "dc:date": "2021-10-01",
+  "rdau:hasExtent": 36,
+  "dc:subject": "administrative data; machine learning; multiple imputation; probabilistic record linkage; survey data",
+  "swpo:hasNumber": "22-11",
+  "identifiers:doi": "10.29412/res.wp.2022.11",
+  "bibo:series": "Working Papers"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:EC8RyCL68IQ",
+  "yt:videoId": "EC8RyCL68IQ",
+  "yt:channelId": "UCIAmdxvgfnIEZnyQSiqgVgQ",
+  "title": "What's the nicest way to draw a shape with many holes?",
+  "link": "",
+  "author": {
+    "name": "Keenan Crane",
+    "uri": "https://www.youtube.com/channel/UCIAmdxvgfnIEZnyQSiqgVgQ"
+  },
+  "published": "2021-12-09T13:13:01+00:00",
+  "updated": "2022-07-09T06:36:08+00:00",
+  "media:group": {
+    "media:title": "What's the nicest way to draw a shape with many holes?",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "For millennia human beings have been drawn to the question: what's the nicest possible shape I can make?  \"Nicest\" could mean the most symmetric—for instance, the ancient Greeks discovered there were five so-called Platonic solids where every face and every vertex looks the same (tetrahedron, cube, octahedron, dodecahedron, icosahedron).  Or, \"nicest\" could mean smoothest.  For instance, the smoothest shape with no holes or handles is a round sphere; the smoothest shape with a single hole is (by some definitions) a perfectly round donut, also known as a torus of revolution.\n\nWhat's the nicest way to draw a shape with many holes?  As shown in this video, the smoothest possible shapes often want to have a high degree of symmetry—just like the Platonic solids.  In each case we start with an initial guess of several donuts glued together along a straight line.  If we make this surface smoother and smoother and smoother, we end up with nice smooth shapes that look like the tetrahedron, the cube, and the icosahedron.\n\nMore precisely, these surfaces are (conjectured!) minimizers of something called the tangent-point energy.  This energy tries to keep all pairs of points on the surface far away from each other—just like two electrons pushing away from one another.  At the same time, the area of the surface must remain the same, so that it doesn't just blow up to infinity.\n\nThese motions were computed using the algorithm described in\n\nChris Yu, Caleb Brakensiek, Henrik Schumacher, Keenan Crane\n\"Repulsive Surfaces\" (2021)\n\nFor more information, see http://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveSurfaces/index.html",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
