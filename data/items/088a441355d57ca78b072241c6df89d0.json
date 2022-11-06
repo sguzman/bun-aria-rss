@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:P1IcaBn3ej0",
+  "yt:videoId": "P1IcaBn3ej0",
+  "yt:channelId": "UCp3Q1Xhsu-TRljsDqp0Kj_A",
+  "title": "Enhancing Photorealism Enhancement",
+  "link": "",
+  "author": {
+    "name": "ISL and Collaborators",
+    "uri": "https://www.youtube.com/channel/UCp3Q1Xhsu-TRljsDqp0Kj_A"
+  },
+  "published": "2021-05-10T20:13:00+00:00",
+  "updated": "2022-07-22T10:55:15+00:00",
+  "media:group": {
+    "media:title": "Enhancing Photorealism Enhancement",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Enhancing Photorealism Enhancement\nStephan R. Richter, Hassan Abu AlHaija, and Vladlen Koltun\n\nPaper: https://arxiv.org/abs/2105.04619\nCode and data: https://github.com/isl-org/PhotorealismEnhancement\nProject page: https://isl-org.github.io/PhotorealismEnhancement/\n\nWe present an approach to enhancing the realism of synthetic images. The images are enhanced by a convolutional network that leverages intermediate representations produced by conventional rendering pipelines. The network is trained via a novel adversarial objective, which provides strong supervision at multiple perceptual levels. We analyze scene layout distributions in commonly used datasets and find that they differ in important ways. We hypothesize that this is one of the causes of strong artifacts that can be observed in the results of many prior methods. To address this we propose a new strategy for sampling image patches during training. We also introduce multiple architectural improvements in the deep network modules used for photorealism enhancement. We confirm the benefits of our contributions in controlled experiments and report substantial gains in stability and realism in comparison to recent image-to-image translation methods and a variety of other baselines.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

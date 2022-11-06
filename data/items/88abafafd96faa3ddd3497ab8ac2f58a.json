@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-45943 (debian_linux, fedora, gdal, spatial_and_graph)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-45943",
+  "description": "GDAL 3.3.0 through 3.4.0 has a heap-based buffer overflow in PCIDSK::CPCIDSKFile::ReadFromFile (called from PCIDSK::CPCIDSKSegment::ReadFromFile and PCIDSK::CPCIDSKBinarySegment::CPCIDSKBinarySegment).",
+  "dc:date": "2022-01-01T01:15:09Z"
+}
