@@ -1,0 +1,15 @@
+{
+  "title": "D3 Plugins: Truly Interactive Matplotlib In Your Browser",
+  "link": "",
+  "published": "2014-01-10T16:00:00-08:00",
+  "updated": "2014-01-10T16:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-01-10:blog/2014/01/10/d3-plugins-truly-interactive/",
+  "summary": "<p>It's been a few weeks since I introduced <a href=\"http://github.com/jakevdp/mpld3\">mpld3</a>, a\ntoolkit for visualizing matplotlib graphics in-browser via d3, and a lot of progress\nhas been made.  I've added a lot of features, and there have also been dozens of pull\nrequests from other users which have made the package much more complete.</p>\n<p>One thing I recognized early was the potential to use mpld3 to add interactive bells\nand whistles to matplotlib plots.  Yesterday, at the <a href=\"http://twitter.com/search?q=%23HackAAS\">#HackAAS</a> event at the\nAmerican Astronomical Society meeting, I had a solid chunk of time to\nwork this out.  The result is what I'll describe and demonstrate below: a general\nplugin framework for matplotlib plots, which, given some d3 skills, can be utilized\nto modify your matplotlib plots in almost any imaginable way.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Random mandalas deconstruction in R, Python, and Mathematica",
+  "link": "https://mathematicaforprediction.wordpress.com/2022/03/01/random-mandala-deconstruction-in-r-python-and-mathematica/",
+  "comments": "https://mathematicaforprediction.wordpress.com/2022/03/01/random-mandala-deconstruction-in-r-python-and-mathematica/#comments",
+  "dc:creator": "Anton Antonov Antonov",
+  "pubDate": "Tue, 01 Mar 2022 02:17:59 +0000",
+  "category": [
+    "Data Science",
+    "Data visualization",
+    "dimension reduction",
+    "Independent Component Analysis",
+    "Latent Semantic Analysis",
+    "Machine learning",
+    "Mathematica vs R vs Python",
+    "Mathematica vs. R",
+    "Non-negative matrix factorization",
+    "Python",
+    "R",
+    "SVD",
+    "data visualization",
+    "dimensions reduction"
+  ],
+  "guid": "http://mathematicaforprediction.wordpress.com/?p=1225",
+  "description": "In this presentation we discuss the application of different dimension reduction algorithms over collections of random mandalas. We discuss and compare the derived image bases and show how those bases explain the underlying collection structure.",
+  "content:encoded": "<p>Today (2022-02-28) I gave a presentation <strong><em><a href=\"https://www.meetup.com/Boston-useR/events/284045968/\">Greater Boston useR&nbsp;Meetup</a></em></strong>&nbsp;titled &#8220;Random&nbsp;mandalas deconstruction with R, Python, and Mathematica&#8221;. (<a href=\"https://youtu.be/nKlcts5aGwY\">Link to the video recording</a>.)</p>\n<hr>\n<p id=\"abstract\">Here is the abstract:</p>\n<blockquote><p>In this presentation we discuss the application of different&nbsp;dimension reduction algorithms over collections of random mandalas. We&nbsp;discuss and compare the derived image bases and show how those bases&nbsp;explain the underlying collection structure. The presented techniques&nbsp;and insights (1) are applicable to any collection of images, and (2) can&nbsp;be included in larger, more complicated machine learning workflows. The&nbsp;former is demonstrated with a handwritten digits recognition<br />\napplication; the latter with the generation of random Bethlehem stars.&nbsp;The (parallel) walk-through of the core demonstration is in all three&nbsp;programming languages: Mathematica, Python, and R.</p></blockquote>\n<hr>\n<p>Here is the related RStudio project: <a href=\"https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book/tree/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/RandomMandalasDeconstruction\">“RandomMandalasDeconstruction”</a>.</p>\n<p>Here is a link to the R-computations notebook converted to HTML: <a href=\"https://htmlpreview.github.io/?https://raw.githubusercontent.com/antononcube/SimplifiedMachineLearningWorkflows-book/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/RandomMandalasDeconstruction/notebooks/LSA-methods-comparison-R.nb.html\">“LSA&nbsp;methods comparison in R”</a>.</p>\n<p>The Mathematica notebooks are placed in project’s folder <a href=\"https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book/tree/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/RandomMandalasDeconstruction/notebooks-WL\">“notebooks-WL”</a>.</p>\n<hr>\n<p>See the work plan status in the <a href=\"https://orgmode.org\">org-mode</a> file <a href=\"https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book/raw/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/org/Random-mandalas-deconstruction-presentation-work-plan.org\">&#8220;Random-mandalas-deconstruction-presentation-work-plan.org&#8221;</a>.</p>\n<p>Here is the mind-map for the presentation:</p>\n<p><a href=\"https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book/raw/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/org/Random-mandalas-deconstruction-presentation-mind-map.pdf\"><img src=\"https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book/raw/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/org//Random-mandalas-deconstruction-presentation-mind-map.png\"></a></p>\n<hr>\n<p>The comparison workflow implemented in the notebooks of this project&nbsp;is summarized in the following flow chart:</p>\n<p><a href=\"https://raw.githubusercontent.com/antononcube/SimplifiedMachineLearningWorkflows-book/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/RandomMandalasDeconstruction/diagrams/Random-mandalas-deconstruction-in-Mathematica-Python-R.pdf\"><img src=\"https://raw.githubusercontent.com/antononcube/SimplifiedMachineLearningWorkflows-book/master/Presentations/Greater-Boston-useR-Group-Meetup-2022/RandomMandalasDeconstruction/diagrams/Random-mandalas-deconstruction-in-Mathematica-Python-R.png\" alt=\"Random mandalas deconstruction workflow\"></a></p>\n<hr>\n<h2 id=\"references\">References</h2>\n<h3 id=\"articles\">Articles</h3>\n<p>[AA1] Anton Antonov, <a href=\"https://mathematicaforprediction.wordpress.com/2017/02/10/comparison-of-dimension-reduction-algorithms-over-mandala-images-generation/\">“Comparison&nbsp;of dimension reduction algorithms over mandala images generation”</a>,&nbsp;(2017), <a href=\"https://mathematicaforprediction.wordpress.com\">MathematicaForPrediction&nbsp;at WordPress</a>.</p>\n<p>[AA2] Anton Antonov, <a href=\"https://mathematicaforprediction.wordpress.com/2016/11/12/handwritten-digits-recognition-by-matrix-factorization/\">“Handwritten&nbsp;digits recognition by matrix factorization”</a>, (2016), <a href=\"https://mathematicaforprediction.wordpress.com\">MathematicaForPrediction&nbsp;at WordPress</a>.</p>\n<h3 id=\"mathematica-packages-and-repository-functions\">Mathematica&nbsp;packages and repository functions</h3>\n<p>[AAp1] Anton Antonov, <a href=\"https://github.com/antononcube/MathematicaForPrediction/blob/master/MonadicProgramming/MonadicLatentSemanticAnalysis.m\">Monadic&nbsp;Latent Semantic Analysis Mathematica package</a>, (2017), <a href=\"https://github.com/antononcube/MathematicaForPrediction\">MathematicaForPrediction&nbsp;at GitHub/antononcube</a>.</p>\n<p>[AAf1] Anton Antonov, <a href=\"https://resources.wolframcloud.com/FunctionRepository/resources/NonNegativeMatrixFactorization\">NonNegativeMatrixFactorization</a>,&nbsp;(2019), <a href=\"https://resources.wolframcloud.com\">Wolfram Function&nbsp;Repository</a>.</p>\n<p>[AAf2] Anton Antonov, <a href=\"https://resources.wolframcloud.com/FunctionRepository/resources/IndependentComponentAnalysis\">IndependentComponentAnalysis</a>,&nbsp;(2019), <a href=\"https://resources.wolframcloud.com\">Wolfram Function&nbsp;Repository</a>.</p>\n<p>[AAf3] Anton Antonov, <a href=\"https://resources.wolframcloud.com/FunctionRepository/resources/RandomMandala\">RandomMandala</a>,&nbsp;(2019), <a href=\"https://resources.wolframcloud.com\">Wolfram Function&nbsp;Repository</a>.</p>\n<h3 id=\"python-packages\">Python packages</h3>\n<p>[AAp2] Anton Antonov, <a href=\"https://pypi.org/project/LatentSemanticAnalyzer\">LatentSemanticAnalyzer&nbsp;Python package</a> (2021), <a href=\"https://pypi.org/\">PyPI.org</a>.</p>\n<p>[AAp3] Anton Antonov, <a href=\"https://pypi.org/project/RandomMandala\">Random Mandala Python&nbsp;package</a>, (2021), <a href=\"https://pypi.org/\">PyPI.org</a>.</p>\n<h3 id=\"r-packages\">R packages</h3>\n<p>[AAp4] Anton Antonov, <a href=\"https://github.com/antononcube/R-packages/tree/master/LSAMon-R\">Latent&nbsp;Semantic Analysis Monad R package</a>, (2019), <a href=\"https://github.com/antononcube/R-packages\">R-packages at&nbsp;GitHub/antononcube</a>.</p>\n",
+  "wfw:commentRss": "https://mathematicaforprediction.wordpress.com/2022/03/01/random-mandala-deconstruction-in-r-python-and-mathematica/feed/",
+  "slash:comments": 2,
+  "media:thumbnail": "",
+  "media:content": [
+    {
+      "media:title": "random-mandalas-desconstruction-python-nnmf"
+    },
+    {
+      "media:title": "antononcube"
+    },
+    "",
+    {
+      "media:title": "Random mandalas deconstruction workflow"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "EvoJAX: A Hardware-Accelerated Neuroevolution",
+  "link": "https://blog.otoro.net/2022/02/10/evojax/",
+  "guid": "https://blog.otoro.net/2022/02/10/evojax/",
+  "description": "<center>\n<video class=\"b-lazy\" autoplay=\"\" muted=\"\" playsinline=\"\" loop=\"\" style=\"display: block; margin: auto; width: 50%;\"><source src=\"/assets/20220210/evojax_waterworld.mp4\" type=\"video/mp4\" /></video><br />\n<br />\n<i>EvoJAX is a hardware-accelerated neuroevolution toolkit built on top of JAX. It can help run a wide range of evolution experiments within minutes on a TPU/GPU, compared to hours or days on CPU clusters.</i>\n</center>\n<p><br /></p>\n\n<p>Redirecting to <a href=\"https://github.com/google/evojax/\">github.com/google/evojax/</a>, where the repo resides.</p>\n\n<script>\nconsole.log('redirect.');\nwindow.location.href = \"https://github.com/google/evojax/\";\n</script>",
+  "pubDate": "Thu, 10 Feb 2022 00:00:00 -0600"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "A Stack-Free Traversal Algorithm for Left-Balanced k-d Trees. (arXiv:2210.12859v2 [cs.DS] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.12859",
+  "description": "<p>We present an algorithm that allows for find-closest-point and kNN-style\ntraversals of left-balanced k-d trees, without the need for either recursion or\nsoftware-managed stacks; instead using only current and last previously\ntraversed node to compute which node to traverse next.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/cs/1/au:+Wald_I/0/1/0/all/0/1\">Ingo Wald</a>"
+}

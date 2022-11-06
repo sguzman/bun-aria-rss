@@ -1,0 +1,7 @@
+{
+  "title": "Goodbye, Parse.com",
+  "link": "https://yanirseroussi.com/2015/07/31/goodbye-parse-com/",
+  "pubDate": "Fri, 31 Jul 2015 03:29:50 +0000",
+  "guid": "https://yanirseroussi.com/2015/07/31/goodbye-parse-com/",
+  "description": "Over the past year, I&rsquo;ve been using Parse‘s free backend-as-a-service and web hosting to serve BCRecommender (music recommendation service) and Price Dingo (now-closed shopping comparison engine). The main lesson: You get what you pay for. Despite some improvements, Parse remains very unreliable, and any time saved by using their APIs and SDKs tends to be offset by having to work around the restrictions of their sandboxed environment. This post details some of the issues I faced and the transition away from the service."
+}

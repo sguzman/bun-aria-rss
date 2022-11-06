@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2020-21598 (libde265)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-21598",
+  "description": "libde265 v1.0.4 contains a heap buffer overflow in the ff_hevc_put_unweighted_pred_8_sse function, which can be exploited via a crafted a file.",
+  "dc:date": "2021-09-16T22:15:07Z"
+}

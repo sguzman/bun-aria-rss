@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-0135 (enterprise_linux, virglrenderer)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0135",
+  "description": "An out-of-bounds write issue was found in the VirGL virtual OpenGL renderer (virglrenderer). This flaw allows a malicious guest to create a specially crafted virgil resource and then issue a VIRTGPU_EXECBUFFER ioctl, leading to a denial of service or possible code execution.",
+  "dc:date": "2022-08-25T18:15:09Z"
+}

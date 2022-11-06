@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:9aUsTlBjspE",
+  "yt:videoId": "9aUsTlBjspE",
+  "yt:channelId": "UCzBjutX2PmitNF4avysL-vg",
+  "title": "The Insolvability of the Quintic",
+  "link": "",
+  "author": {
+    "name": "Aleph 0",
+    "uri": "https://www.youtube.com/channel/UCzBjutX2PmitNF4avysL-vg"
+  },
+  "published": "2021-02-20T16:00:07+00:00",
+  "updated": "2022-07-22T08:15:29+00:00",
+  "media:group": {
+    "media:title": "The Insolvability of the Quintic",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video is an introduction to Galois Theory, which spells out a beautiful connection between fields and their Galois Groups. Using this, we'll prove that the quintic has no general formula in radicals.\n\n__\nSOURCES and REFERENCES for further reading!\n\nAs with any quick introduction, there are details that I gloss over for the sake of brevity. If you’d like to learn these details more rigorously, I've listed a few resources down below.\n\n(a) Group Theory\n\nThis playlist by Professor Benedict Gross is a beauty. It goes through the entire group theory syllabus from the ground up, and Professor Gross is a masterful lecturer.\nhttps://www.youtube.com/playlist?list=PLelIK3uylPMGzHBuR3hLMHrYfMqWWsmx5\n\n(b) Galois Theory\n\n“Galois Theory” by David Cox is a skinny little book that goes through the main theorems of Galois Theory. The first few chapters give historical background, and the remaining chapters lay out the key theorems and applications.\n\n“Galois Theory for Beginners” by Jorg Bewersdorff explains the insolvability of the quintic in intuitive terms. It doesn’t assume any prior background knowledge, and all chapters but the last can be understood without group theory. The last chapter formulates the theorem using the language of groups and field extensions, but it explains all the definitions as it goes along.\n\nThis playlist on Galois Theory by Professor Richard Borcherds is a gem. It explains Galois Theory from the ground up, rigorously, in almost complete generality.\nhttps://www.youtube.com/playlist?list=PL8yHsr3EFj53Zxu3iRGMYL_89GDMvdkgt\n\n__\nSOME NOTES ABOUT THE VIDEO CONTENT:\n\nGalois Theory is normally introduced at the end of a course in abstract algebra, and for good reason. There’s a lot of technical machinery involved, and I’ve deliberately omitted certain parts that I felt were not immediately relevant towards the insolvability of the quintic. If you’re interested in seeing how the ideas in this video differ from the standard treatment, read on.\n\n1) (The Galois Group.) In this video, we define the Galois Group of a *polynomial*. In the modern treatment, however, we normally talk about the Galois Group of a *field extension* (not a polynomial), and we define it as the set of all automorphisms of the top field that fix the bottom field pointwise. When I refer to the Galois Group of a polynomial, I am referring to the Galois Group of its *splitting field*, viewed as a field extension of the rational numbers. But obviously, that’s quite a mouthful. That’s why I took the route I did; I felt that introducing all this machinery – automorphisms, splitting fields, etc. – would have obscured the main point of the video.\n  \n2) (Normal Subgroups.) We observed in the final example that the subgroup partitions the group table into squares, and many of the squares had the same elements, just in a different order. A subgroup that splits the group table into squares so that any two squares are either equal or mutually disjoint is called a “normal subgroup”. \n\nThis is a non-standard definition of a normal subgroup – although, it is equivalent to the standard definition. I felt that this definition of a normal subgroup was a lot more intuitive than the standard definition (which, for the record, I still find quite mysterious, even after having taken a course in group theory!) \n\n___\nMUSIC CREDITS:\n\nMusic: https://www.purple-planet.com\nSong: Thinking Ahead\n\nSOFTWARE USED:\nAdobe Premiere Pro for Editing\n\nFollow me!\nTwitter: @00aleph00\nInstagram: @00aleph00\n\nIntro: (0:00)\nField Extensions: (0:48)\nGalois Groups: (3:22)\nThe Insolvability of the Quintic: (8:20)",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

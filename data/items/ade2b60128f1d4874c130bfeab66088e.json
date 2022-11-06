@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:MuMzCrdVMfg",
+  "yt:videoId": "MuMzCrdVMfg",
+  "yt:channelId": "UC5miyvhPsWWyfTulnJ43koQ",
+  "title": "BitS Goomba Escort to Pole Demonstration",
+  "link": "",
+  "author": {
+    "name": "UncommentatedPannen",
+    "uri": "https://www.youtube.com/channel/UC5miyvhPsWWyfTulnJ43koQ"
+  },
+  "published": "2022-08-02T21:04:03+00:00",
+  "updated": "2022-08-04T05:15:45+00:00",
+  "media:group": {
+    "media:title": "BitS Goomba Escort to Pole Demonstration",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I show that it's theoretically possible to have one goomba escort another goomba outside of its home range, and move it all the way to the pole in BitS. Note that the initial positions, angles, and target angles of the goombas were set up with hacks, but I believe the same result could be achieved in practice.\n\nThe dream is to drop off of the pole, bounce on both goombas, and land on the upper platform. This would allow for a speedy pole dismount that doesn't rely on a preset HOLP. Before now, there were 2 issues with this plan. Firstly, only one goomba would voluntarily walk to the pole, since the other goomba was too far away. Secondly, even bouncing on both goombas doesn't seem to go far enough to land on the upper platform (https://youtu.be/GJ1rcMMiyqw?t=372). With the demonstration in this video, issue #1 is now resolved since the far goomba can now reach the pole, meaning issue #2 is all that remains. Unfortunately, even when testing with ideal placement of the goombas, I haven't been able to move far enough for a double bounce to land up top. Nevertheless, there's another possibility. If we can get one of the goombas to move close enough to Mario to give him knockback, then maybe he'd be able to bounce on the other goomba and get up, since knockback gives Mario significant horizontal speed. However, so far I've been unable to find a way to make this happen.\n\nI'm still not sure how the goomba escort works exactly. Normally, a goomba will turn around once it reaches the edge of its home range. However, by having the other goomba walk beside it and continuously bump into it, the goomba's target angle will oscillate, leading to it walking farther away from its home. I discovered this by just testing random orientations of the goombas until something interesting happened.\n\nOn the map:\n- the blue circles are the goombas' home ranges\n- the yellow arrows are the goombas' facing angles\n- the green arrows are the goombas' target angles",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

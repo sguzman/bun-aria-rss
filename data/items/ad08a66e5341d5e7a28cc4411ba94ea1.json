@@ -1,0 +1,21 @@
+{
+  "title": "Jérôme Petazzoni",
+  "itunes:season": 2,
+  "itunes:episode": 6,
+  "itunes:title": "Jérôme Petazzoni",
+  "itunes:episodeType": "full",
+  "guid": "e1c51cf4-ff0d-4188-9576-fba81c418b22",
+  "link": "https://share.transistor.fm/s/e8741582",
+  "description": "<p>Podcast Twitter: <a href=\"https://twitter.com/BTOPPod\">https://twitter.com/BTOPPod</a><br>Podcast email: <a href=\"mailto:podcast@gremlin.com\">podcast@gremlin.com</a><br>Jérôme's Twitter: <a href=\"https://twitter.com/jpetazzo\">https://twitter.com/jpetazzo</a></p><p>Episode Highlights:</p><ul>\n<li>Distributed databases at dotCloud & avoiding a major outage (2:18)</li>\n<li>Multilayered Kubernetes lasagna (16:06)</li>\n<li>Empowering others & what's important (24:22)</li>\n</ul><p>Episode transcript: <a href=\"https://www.gremlin.com/blog/podcast-break-things-on-purpose-jerome-petazzoni-tinkerer-and-container-technology-educator\">https://www.gremlin.com/blog/podcast-break-things-on-purpose-jerome-petazzoni-tinkerer-and-container-technology-educator</a></p>",
+  "content:encoded": "<p>Podcast Twitter: <a href=\"https://twitter.com/BTOPPod\">https://twitter.com/BTOPPod</a><br>Podcast email: <a href=\"mailto:podcast@gremlin.com\">podcast@gremlin.com</a><br>Jérôme's Twitter: <a href=\"https://twitter.com/jpetazzo\">https://twitter.com/jpetazzo</a></p><p>Episode Highlights:</p><ul>\n<li>Distributed databases at dotCloud & avoiding a major outage (2:18)</li>\n<li>Multilayered Kubernetes lasagna (16:06)</li>\n<li>Empowering others & what's important (24:22)</li>\n</ul><p>Episode transcript: <a href=\"https://www.gremlin.com/blog/podcast-break-things-on-purpose-jerome-petazzoni-tinkerer-and-container-technology-educator\">https://www.gremlin.com/blog/podcast-break-things-on-purpose-jerome-petazzoni-tinkerer-and-container-technology-educator</a></p>",
+  "pubDate": "Tue, 23 Mar 2021 02:00:00 -0700",
+  "author": "Gremlin",
+  "enclosure": "",
+  "itunes:author": "Gremlin",
+  "itunes:image": "",
+  "itunes:duration": 1637,
+  "itunes:summary": "Is it better to build a system that fails all the time, but recovers gracefully, or one that rarely fails, but when it does, it's catastrophic? Jérôme Petazzoni (tinkerer extraordinaire and container technology educator) joins the pod to share an incident from the very early days of Docker (dotCloud) and how to apply the lessons learned when building with tools like Kubernetes.",
+  "itunes:subtitle": "Is it better to build a system that fails all the time, but recovers gracefully, or one that rarely fails, but when it does, it's catastrophic? Jérôme Petazzoni (tinkerer extraordinaire and container technology educator) joins the pod to share an incident",
+  "itunes:keywords": "reliability, resilience, chaos, engineering, SRE, technology, programming, infrastructure",
+  "itunes:explicit": "No"
+}

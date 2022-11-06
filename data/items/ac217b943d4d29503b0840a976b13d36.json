@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-40202 (infrasuite_device_master)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40202",
+  "description": "The database backup function in Delta Electronics InfraSuite Device Master Versions 00.00.01a and prior lacks proper authentication. An attacker could provide malicious serialized objects which, when deserialized, could activate an opcode for a backup scheduling function without authentication. This function allows the user to designate all function arguments and the file to be executed. This could allow the attacker to start any new process and achieve remote code execution.",
+  "dc:date": "2022-10-31T20:15:12Z"
+}

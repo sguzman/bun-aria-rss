@@ -1,0 +1,9 @@
+{
+  "title": "scikits.learn 0.2 release",
+  "link": "http://fa.bianp.net/blog/2010/scikitslearn-02-release/",
+  "description": "<p>Today I released a new version of the <a class=\"reference external\" href=\"http://scikit-learn.sourceforge.net\">scikits.learn</a> library for\nmachine learning. This new release includes the new libsvm bindings,\nJake VanderPlas' BallTree algorithm for *fast* nearest neighbor\nqueries in high dimension, etc. <a class=\"reference external\" href=\"http://sourceforge.net/mailarchive/message.php?msg_name=4BA72BE3.1010208%40inria.fr\">Here</a> is the official announcement. As\nusual, it can be downloaded from <a class=\"reference external\" href=\"http://sourceforge.net/projects/scikit-learn/files\">sourceforge</a> or from …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 22 Mar 2010 11:37:00 +0100",
+  "guid": "tag:fa.bianp.net,2010-03-22:/blog/2010/scikitslearn-02-release/",
+  "category": "General"
+}

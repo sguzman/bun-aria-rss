@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:ukUoLnCOyio",
+  "yt:videoId": "ukUoLnCOyio",
+  "yt:channelId": "UCAczr0j6ZuiVaiGFZ4qxApw",
+  "title": "Recipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022",
+  "link": "",
+  "author": {
+    "name": "cpponsea",
+    "uri": "https://www.youtube.com/channel/UCAczr0j6ZuiVaiGFZ4qxApw"
+  },
+  "published": "2022-09-22T15:00:12+00:00",
+  "updated": "2022-09-22T16:03:07+00:00",
+  "media:group": {
+    "media:title": "Recipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "C++ on Sea Website: https://cpponsea.uk/\nC++ on Sea Twitter: https://twitter.com/cpponsea\n---\n\nRecipes for Reducing Allocations by C++ Containers - Lukas Böger - C++ on Sea 2022\nSlides: https://github.com/philsquared/cpponsea-slides/tree/master/2022\n\nIt is well known that allocations can have a significant negative impact on the runtime performance of software. Frequently, these memory requests are made by containers (standard ones or otherwise). But the actual allocations might not be easily identifiable, and the options to avoid them aren't obvious.\nIn this talk, we will go through a number of comprehensible recipes to address these issues.\nWe will start with the most basic std::vector T ::reserve, cover container choices and using the right constructors. Then, different forms of scope promotion are discussed before we cover view types and two hands-on examples with pmr allocators. Recipes are presented with a discussion of up and downsides, benchmarks, and techniques to measure and diagnose allocation behaviour.\n---\n\nLukas Böger\n \nLukas is a civil engineer who stuck with Fortran77 during his PhD and started a C++ side project to alleviate his frustration. This worked out; today, he develops software for Oxbotica, a robotics spinoff working on autonomous vehicles. Lukas likes reading, brass music, Newton mechanics and his family.\n--- \n\nC++ on Sea is an annual C++ and coding conference, in Folkestone, in the UK. The 2022 conference was conducted as a two part, physical and online C++ event. \n- Annual C++ on Sea,  C++ conference: https://cpponsea.uk/\n- 2022 Program: https://cpponsea.uk/2022/schedule/\n--- \n\nProduced and Edited by Digital Medium Ltd: https://events.digital-medium.co.uk\nEnquiries: events@digital-medium.co.uk\n\n \n#Programming​ #Cpp​ #CppOnSea​",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

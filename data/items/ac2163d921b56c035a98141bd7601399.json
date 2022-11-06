@@ -1,0 +1,21 @@
+{
+  "id": "tag:blogger.com,1999:blog-9149402429183581490.post-7009974848766785430",
+  "published": "2016-06-08T16:05:00.000-07:00",
+  "updated": "2016-06-08T16:05:06.375-07:00",
+  "title": "A Simple Estimate for Pythagorean Exponents",
+  "content": "Given the number of runs scored and runs allowed by a baseball team, what's a good estimate for that team's win fraction? Bill James famously came up with what he called the \"<a href=\"https://en.wikipedia.org/wiki/Pythagorean_expectation\">Pythagorean expectation</a>\" \\[w = \\frac{R^2}{R^2 + A^2},\\] which can also be written as \\[w = \\frac{{(R/A)}^2}{{(R/A)}^2 + 1}.\\] More generally, if team \\(i\\) scores \\(R_i\\) and allows \\(A_i\\) runs, the Pythagorean estimate for the probability of team \\(1\\) beating team \\(2\\) is \\[w = \\frac{{(R_1/A_1)}^2}{{(R_1/A_1)}^2 + (R_2/A_2)^2}.\\] We can see that the estimate of the team's win fraction is a consequence of this, as an average team would by definition have \\(R_2 = A_2\\). Now, there's nothing magical about the exponent being 2; it's a coincidence, and in fact is not even the \"best\" exponent. But what's a good way to estimate the exponent? Note the structural similarity of this win probability estimator and the Bradley-Terry estimator \\[ w = \\frac{P_1}{P_1+P_2}.\\] Here the \\(P_i\\) are what we could call the \"Bradley-Terry power\" of the team. This immediately suggests one way to estimate the expectation model's exponent - fit a Bradley-Terry model, then fit the log-linear regression \\(\\log(P_i)\\) vs \\(\\log(R_i/A_i)\\). The slope of this regression will be one estimate for the expectation exponent.<br /><br />How well does this work? I get <a href=\"https://github.com/octonion/lunchtime/blob/master/pythagorean/mlb_btl.txt\">1.727 for MLB in 2014</a>. The R code and data files for MLB and other sports may be found in my <a href=\"https://github.com/octonion/lunchtime/tree/master/pythagorean\">GitHub repo</a>.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Christopher D. Long",
+    "uri": "http://www.blogger.com/profile/13687149457345266350",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 0
+}

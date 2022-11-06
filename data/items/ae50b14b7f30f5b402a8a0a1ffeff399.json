@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32915 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32915",
+  "description": "A type confusion issue was addressed with improved checks. This issue is fixed in macOS Ventura 13. An app may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:19Z"
+}

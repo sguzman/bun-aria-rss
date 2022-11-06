@@ -1,0 +1,22 @@
+{
+  "id": "tag:blogger.com,1999:blog-10560800.post-7633989648266744620",
+  "published": "2011-06-25T22:33:00.001-07:00",
+  "updated": "2011-07-14T20:16:58.126-07:00",
+  "title": "Embracing non-determinism",
+  "summary": "Computers are supposed to be deterministic. This is often the case for single processor machines. However, as you scale up, guaranteeing determinism becomes increasingly expensive.Even on single processor machines you are facing non-determinism on semi-regular basis. Here are some examples Bugs + poor OS memory control that allows programs to read uninitialized memory. A recent example for me was",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Yaroslav Bulatov",
+    "uri": "http://www.blogger.com/profile/06139256691290554110",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "media:thumbnail": "",
+  "thr:total": 27
+}
