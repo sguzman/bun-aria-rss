@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:GcbML8bGSu8",
+  "yt:videoId": "GcbML8bGSu8",
+  "yt:channelId": "UCHsYWDqJkNlboBpyrRqLzkA",
+  "title": "[Visual] The Riemann Zeta Function Visualised",
+  "link": "",
+  "author": {
+    "name": "The Mathemagicians' Guild",
+    "uri": "https://www.youtube.com/channel/UCHsYWDqJkNlboBpyrRqLzkA"
+  },
+  "published": "2021-01-09T21:00:44+00:00",
+  "updated": "2021-12-23T11:13:29+00:00",
+  "media:group": {
+    "media:title": "[Visual] The Riemann Zeta Function Visualised",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Three different visuals exploring the Riemann Zeta function (without commentary). The 3rd visual shows shows a large part of the critical strip.  These visuals are \"3D phase portraits\" or  \"modular surfaces\" (not to be confused with modular functions or forms). The input is the complex plane, shown as the silver base plate.  The output is the surface.  The height of the surface is the absolute value of the Riemann Zeta function.  The colour is the argument, or polar angle, of the Riemann Zeta function.\n\nThe zeros are where the surface touches the ground plate. (sometimes there is the slightest gap, because the mesh doesn't have a vertex perfectly on the zero.)  On the real axis there are the trivial zeros which are easily calculated.  Next to the imaginary axis at Re(ζ) = 0.5, are the \"Million Dollar Zeros\". (There is a 1 million prize available if you can prove they only appear at Re(ζ) = 0.5.  The Riemann Hypothesis).\n\nIn this video:\n0:00 Riemann Zeta Function.\n1:36 Riemann Zeta Function. Height = log(1+|ζ|)\n3:13 The Critical Strip of the Riemann Zeta Function\n\nThe 2nd visual uses the log function to control the height.\n\nThe 3rd visual shows only the critical strip (Re(ζ) between 0 and 1) .  It is known that all the million dollar zeros are within this strip.  To date, they have only be found at Re(ζ)=0.5 \n\nSorry my camera-work is a little wonky.  I'll try to improve it.  I just couldn't bring myself to re-render this.  Ray-tracing this took some CPU & GPU cycles!  Rendered with Blender.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

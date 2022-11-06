@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:fjMrDDj47E8",
+  "yt:videoId": "fjMrDDj47E8",
+  "yt:channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+  "title": "how strings in C are getting you HACKED (buffer overflows explained)",
+  "link": "",
+  "author": {
+    "name": "Low Level Learning",
+    "uri": "https://www.youtube.com/channel/UC6biysICWOJ-C3P4Tyeggzg"
+  },
+  "published": "2022-11-02T15:00:24+00:00",
+  "updated": "2022-11-05T15:39:56+00:00",
+  "media:group": {
+    "media:title": "how strings in C are getting you HACKED (buffer overflows explained)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Hackers have been trying to steal information since the beginning of the information age. Buffer overflow attacks have been one of the ways they do it. By taking advantage of logic bugs in programs, hackers have been able to get access to computers and steal information which they later sell on the dark web. Buffer overflows have been one of the most common ways they get in.\n\nIn C, strings are a little weird. Because there is no length encoded with the string type, string functions in C are extremely easy to use incorrectly. When used in an unsafe way, hackers can abuse the way that functions call each other to give them access to your computer.\n\n🏫 COURSES 🏫\nhttps://www.udemy.com/course/c-programming-101-for-aspiring-embedded-developers\n\n🔥🔥🔥 SOCIALS 🔥🔥🔥\nLow Level Merch!: https://www.linktr.ee/lowlevellearning\nFollow me on Twitter: https://twitter.com/lowlevellearni1\nFollow me on Twitch: https://twitch.tv/lowlevellearning\nJoin me on Discord!: https://discord.gg/gZhRXDdBYY",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

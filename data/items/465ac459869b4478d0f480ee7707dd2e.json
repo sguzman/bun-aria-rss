@@ -1,0 +1,9 @@
+{
+  "title": "Flags to debug python C extensions.",
+  "link": "http://fa.bianp.net/blog/2010/flags-to-debug-python-c-extensions/",
+  "description": "<p>I often find myself debugging python C extensions from gdb, but usually\nsome variables are hidden because aggressive optimizations that\ndistutils sets by default. What I did not know, is that you can prevent\nthose optimizations by passing flags -O0 -fno-inline to gcc in keyword\nextra_compile_args (note: this will only …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Wed, 18 Aug 2010 13:40:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-08-18:/blog/2010/flags-to-debug-python-c-extensions/",
+  "category": "General"
+}

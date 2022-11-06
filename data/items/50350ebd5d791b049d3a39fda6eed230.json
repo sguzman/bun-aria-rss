@@ -1,0 +1,13 @@
+{
+  "title": "MLB week 2 review, week 3 predictions",
+  "link": "",
+  "published": "2015-04-25T09:01:00-07:00",
+  "updated": "2015-04-25T09:01:00-07:00",
+  "author": {
+    "name": "Jonathan Landy"
+  },
+  "id": "tag:efavdb.com,2015-04-25:/mlb-week-2-review-week-3-predictions",
+  "summary": "<p>This week, we went 52/95, giving 54.7% accuracy, a value comparable to the previous week. We believe this relatively modest early showing is largely due to the fact that we haven&#8217;t yet got many games to train on for the current season. As more games come in …</p>",
+  "content": "<p>This week, we went 52/95, giving 54.7% accuracy, a value comparable to the previous week. We believe this relatively modest early showing is largely due to the fact that we haven&#8217;t yet got many games to train on for the current season. As more games come in, our accuracy should increase, perhaps approaching 70% &#8212; the value we were hitting at the end of this last <span class=\"caps\">NBA</span> season. We also are working on implementing a few improvements to our algorithm, which we hope will also give us a boost. New predictions are now <a href=\"http://efavdb.github.io/weekly-nba-predictions\">posted</a>.</p>\n<table>\n<thead>\n<tr>\n<th>Point spread</th>\n<th># games</th>\n<th>Accuracy</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>&lt;= 1</td>\n<td>31</td>\n<td>52%</td>\n</tr>\n<tr>\n<td>&lt;=2</td>\n<td>14</td>\n<td>50%</td>\n</tr>\n<tr>\n<td>&lt;=5</td>\n<td>32</td>\n<td>56%</td>\n</tr>\n<tr>\n<td>&gt;5</td>\n<td>18</td>\n<td>61%</td>\n</tr>\n</tbody>\n</table>",
+  "category": ""
+}

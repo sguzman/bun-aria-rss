@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:85pG_pDkITY",
+  "yt:videoId": "85pG_pDkITY",
+  "yt:channelId": "UCwRXb5dUK4cvsHbx-rGzSgw",
+  "title": "PostgreSQL Tutorial Full Course 2022",
+  "link": "",
+  "author": {
+    "name": "Derek Banas",
+    "uri": "https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw"
+  },
+  "published": "2022-09-29T14:38:09+00:00",
+  "updated": "2022-10-04T18:03:47+00:00",
+  "media:group": {
+    "media:title": "PostgreSQL Tutorial Full Course 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "I provide here in this PostgreSQL tutorial a full course you can use to master PostgreSQL. Postgres is an object relational database that is just as fast as MySQL that adheres more closely to SQL standards and excels at concurrency. Postgres is also superior at avoiding data corruption. \n\nPostgres also provides more advanced data types and allows for the creation of custom types, operators and index types. \n\nPostgres is normally the best option when extensibility, scalability and data integrity are most important to you. The table of contents below provides timestamps to everything I cover.\n\nCode & Transcript Here : https://github.com/derekbanas/postgresql-tutorial\nBest Book on PostgreSQL : https://amzn.to/3rkNX3e\n\nMY UDEMY COURSES ARE 87.5% OFF TIL October 4th ($9.99)\n\n➡️ Python Data Science Series for $9.99 : Highest Rated & Largest Python Udemy Course + 56 Hrs + 200 Videos + Data Science https://bit.ly/Master_Python_39\n➡️ New C++ Programming Bootcamp Series for $9.99 : Over 23 Hrs + 53 Videos + Quizzes + Graded Assignments + New Videos Every Month https://bit.ly/C_Course_39\n\n\n#postgresql #postgres #fullcourse \n\nTABLE OF CONTENTS\n00:00 Intro\n00:30 Why Use Postgres?\n01:13 What is a Database\n03:12 Change Database Theme\n03:53 Create a Database\n04:46 Design a Database\n05:50 Turn Invoice into a Database\n07:04 Make a Table\n12:13 Data Types\n16:36 Adding Data to Table\n18:15 To See Data\n18:25 SELECT\n19:19 Create Custom Type\n20:48 Change Column Data Type\n22:58 Thinking About Tables\n25:37 Breaking Up Tables\n27:03  Primary & Foreign Keys\n32:40 Foreign & Primary Keys\n33:28 Altering Tables Many Examples\n53:00   Getting Data from One Table\n53:40 Where\n54:30 Conditional Operators\n55:48 Logical Operators\n58:12 Order By\n59:32 Limit\n1:01:45 GROUP BY\n1:03:11 Distinct\n1:05:00 Getting Data from Multiple Tables\n1:05:21 Inner Join\n1:08:50 Join 3 Tables\n1:13:15  Arithmetic Operators\n1:13:45 Join with Where\n1:14:55 Outer Joins\n1:17:03 Cross Joins\n1:18:16 Unions\n1:19:27 Extract\n1:21:05 IS NULL\n1:22:03 SIMILAR LIKE & ~ \n1:29:25 GROUP BY\n1:31:14  HAVING\n1:32:18  AGGREGATE FUNCTIONS\n1:34:22 WORKING WITH VIEWS\n1:45:01 SQL Functions\n1:49:00 Dollar Quotes\n1:50:06 Functions that Return Void\n1:52:38 Get Maximum Product Price\n1:53:39 Get Total Value of Inventory\n1:54:26 Get Number of Customers\n1:56:15 Named Parameters\n2:01:30 Return a Row / Composite\n2:03:38 Get Multiple Rows\n2:07:08 PL/pgSQL\n2:11:35 Variables in Functions\n2:15:55 Store Rows in Variables\n2:19:17 IN INOUT and OUT\n2:21:01 Using Multiple Outs\n2:25:56 Return Query Results\n2:33:42 IF ELSEIF and ELSE\n2:38:48  CASE Statement\n2:42:01 Loop Statement\n2:45:20 FOR LOOP\n2:48:34 Result Sets, Blocks & Raise Notice\n2:51:11 For Each and Arrays\n2:53:20 While Loop\n2:54:54 Continue\n3:01:34 Stored Procedures\n3:09:35 Triggers\n3:29:25 Cursors\n3:39:45 Installation",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

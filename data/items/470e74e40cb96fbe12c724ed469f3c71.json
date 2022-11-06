@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:NnfX-TlBg-s",
+  "yt:videoId": "NnfX-TlBg-s",
+  "yt:channelId": "UCvqbFHwN-nwalWPjPUKpvTA",
+  "title": "Edge Meets Kubernetes: Project Flotta - Jakub Dżon & Gloria Ciavarrini , Red Hat",
+  "link": "",
+  "author": {
+    "name": "CNCF [Cloud Native Computing Foundation]",
+    "uri": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA"
+  },
+  "published": "2022-11-03T17:47:10+00:00",
+  "updated": "2022-11-03T21:03:41+00:00",
+  "media:group": {
+    "media:title": "Edge Meets Kubernetes: Project Flotta - Jakub Dżon & Gloria Ciavarrini , Red Hat",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2023 in Amsterdam, The Netherlands from April 17-21. Learn more at https://kubecon.io​. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nEdge Meets Kubernetes: Project Flotta - Jakub Dżon & Gloria Ciavarrini , Red Hat\n\nDo you have a Raspberry Pi and want to learn about a cool way to use your devices and a Kubernetes cluster? During this talk Jakub and Gloria will introduce you to Project Flotta. They will demonstrate how to register your devices within a Kubernetes cluster and how to deploy containerized workloads. You can’t imagine how easy it is to access cameras or other sensors available on your device fleet, collect data from them and then transfer it from an edge device to a cluster using the Flotta Project (https://project-flotta.io/)! At the end of the presentation, you will be able to make your distributed collected data sets available in one central location. You will also learn how to monitor your devices using Flotta's built-in metrics and logs collection mechanisms, that will allow you to have good insight into how your workloads perform.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

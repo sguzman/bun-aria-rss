@@ -1,0 +1,25 @@
+{
+  "id": "tag:blogger.com,1999:blog-4446292666398344382.post-8221747922437992799",
+  "published": "2017-01-13T15:39:00.001-08:00",
+  "updated": "2017-01-27T17:47:09.864-08:00",
+  "category": [
+    "",
+    ""
+  ],
+  "title": "Generating Text via Adversarial Training",
+  "content": "There was a really cute paper at the GAN workshop this year, <a href=\"https://c4209155-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adversarial/WAT16_paper_20.pdf?attachauth=ANoY7crhVMeBjlVzimWWcRGP1HDDn3kqhKMJ28QG-ScFpePoWtKmNFE19WEviKEkMsESm2ZY26--b6qu1jggzKWj2ftFtrzhoEIqu2Q2biTusqMGw9icjPWLU3-BRcMQMPFToITwZ23IGKd7iok87FYq1JP7uyWHYEVUp6Jqqjabpu-77KvzDVNS2Lm3CzjzqAi-uYPPbKIcBodP9Kf_7rIZz43ulC3lVuVKJqyZRjELTPPxu_UCFZM%3D&attredirects=0\">Generating Text via Adversarial Training</a> by Zhang, Gan, and Carin.  In particular, they make a couple of unusual choices that appear important.  (Warning: if you are not familiar with GANs, this post will not make a lot of sense.)<br /><ol><li>They use a convolutional neural network (CNN) as a discriminator, rather than an RNN.  In retrospect this seems like a good choice, e.g. Tong Zhang has been <a href=\"http://riejohnson.com/cnn_download.html\">crushing it</a> in text classification with CNNs.  CNNs are a bit easier to train than RNNs, so the net result is a powerful discriminator with a relatively easy optimization problem associated with it.<br /></li><li>They use a smooth approximation to the LSTM output in their generator, but actually this kind of trick appears everywhere so isn't so remarkable in isolation.<br /></li><li>They use a pure moment matching criterion for the saddle point optimization (estimated over a mini-batch).  GANs started with a pointwise discrimination loss and more recent work has augmented this loss with moment matching style penalties, but here the saddle point optimization is pure moment matching.  (So technically the discriminator isn't a discriminator.  They actually refer to it as discriminator or encoder interchangeably in the text, this explains why.)<br /></li><li>They are very smart about initialization.  In particular the discriminator is pre-trained to distinguish between a true sentence and the same sentence with two words swapped in position.  (During initialization, the discriminator is trained using a pointwise classification loss).  This is interesting because swapping two words preserves many of the $n$-gram statistics of the input, i.e., many of the convolutional filters will compute the exact same value.  (I've had good luck recently using permuted sentences as negatives for other models, now I'm going to try swapping two words.)<br /><li>They update the generator <b>more frequently</b> than the discriminator, which is counter to the standard folklore which says you want the discriminator to move faster than the generator.  Perhaps this is because the CNN optimization problem is much easier than the LSTM one; the use of a purely moment matching loss might also be relevant.<br /></li><br /><br /><br /></ol>The old complaint about neural network papers was that you couldn't replicate them.  Nowadays it is often easier to replicate neural network papers than other papers, because you can just fork their code on github and run the experiment.  However, I still find it difficult to ascertain the relative importance of the various choices that were made.  For the choices enumerated above: what is the sensitivity of the final result to these choices?  Hard to say, but I've started to assume the sensitivity is high, because when I have tried to tweak a result after replicating it, it usually goes to shit.  (I haven't tried to replicate this particular result yet.)<br /><br />Anyway this paper has some cool ideas and hopefully it can be extended to generating realistic-looking dialog.",
+  "link": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "author": {
+    "name": "Paul Mineiro",
+    "uri": "http://www.blogger.com/profile/05439062526157173163",
+    "email": "noreply@blogger.com",
+    "gd:image": ""
+  },
+  "thr:total": 2
+}

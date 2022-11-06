@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:tq6COdZOE6U",
+  "yt:videoId": "tq6COdZOE6U",
+  "yt:channelId": "UCv0aU2eKry3kdSTnFa8QAWA",
+  "title": "This robot can hike as fast as a human",
+  "link": "",
+  "author": {
+    "name": "Science Magazine",
+    "uri": "https://www.youtube.com/channel/UCv0aU2eKry3kdSTnFa8QAWA"
+  },
+  "published": "2022-01-19T19:02:14+00:00",
+  "updated": "2022-09-23T17:51:05+00:00",
+  "media:group": {
+    "media:title": "This robot can hike as fast as a human",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "*Correction: Joonho Lee's first name is misspelled in the credits.\n\nIn 2020, researchers at ETH Zurich introduced the world to a four-legged robot named ANYmal that could traverse a variety of environments without slipping. The machine relied solely on proprioception—awareness of its body position—to navigate these complex terrains. ANYmal couldn’t actually see its surroundings, however, which limited how fast it could move. \n\nThis year, the same researchers gave ANYmal “eyes”—depth sensors that allowed it to take in its surroundings. The robot could create a height map of its environment to plan and adapt to its terrain. But the sensors were not always accurate: soft, unstable surfaces, such as vegetation or snow, appeared as solid obstacles the robot could not walk over. \n\nTo overcome this problem, the researchers trained ANYmal to rely solely on its proprioceptive perception when it was at odds with its height map. After integrating these senses, this iteration of the robot could move twice as fast as its predecessor, and about as fast as an average human’s walking speed, researchers report today in Science Robotics. Watch the video to see ANYmal in action—from the mountains of Switzerland to an underground tunnel.\n\nRead the research: https://www.science.org/doi/10.1126/scirobotics.abk2822",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

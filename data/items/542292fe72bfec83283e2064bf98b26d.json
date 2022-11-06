@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:2d6Ag7uPnlI",
+  "yt:videoId": "2d6Ag7uPnlI",
+  "yt:channelId": "UCRfR7ivZHwXIC8kdydo5jdQ",
+  "title": "Booleans in HoTT: Putting Bool to Use [Intro to HoTT, No. 3, Part 1]",
+  "link": "",
+  "author": {
+    "name": "Jacob Neumann",
+    "uri": "https://www.youtube.com/channel/UCRfR7ivZHwXIC8kdydo5jdQ"
+  },
+  "published": "2022-06-30T15:36:59+00:00",
+  "updated": "2022-10-05T09:35:20+00:00",
+  "media:group": {
+    "media:title": "Booleans in HoTT: Putting Bool to Use [Intro to HoTT, No. 3, Part 1]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Boolean logic is an important part of computer science, both at the hardware level and the software level. Can we do boolean logic in HoTT? Of course we can! In this video, I give our first example of the iteration and computation rules for a type, which are how we use types. With booleans, this corresponds to gate-like constructs called multiplexers and to the ubiquitous 'if-then-else' construction of programming languages.\n\nVideo site for the series: https://intro-hott.video\nYoutube: https://www.youtube.com/playlist?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq\nInstagram: @Intro_HoTT\nTwitter: @Intro_HoTT\n\nFormalization links:\n- Appeared in this video: https://github.com/jacobneu/HoTT-agda/blob/main/01-simpleTT.agda and https://github.com/jacobneu/HoTT-agda/blob/main/sandbox-03.agda\n- The formalization I'm developing for this video series: https://github.com/jacobneu/HoTT-agda\n- The formalization it's based on (by Egbert Rijke, for his upcoming textbook): https://github.com/HoTT-Intro/Agda\n- More up-to-date HoTT formalization in Agda: https://github.com/UniMath/agda-unimath\n\nHoTT textbooks:\n- The HoTT Book (2013) -- the original statement of HoTT: https://homotopytypetheory.org/book/\n- Introduction to Homotopy Type Theory, by Egbert Rijke (to be released): https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory\n\n\nImage/audio credits:\n- \"Wholesome\" by Kevin MacLeod (incompetech.com); CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\n\n\n\nHomotopy type theory (HoTT) is a new branch of type theory and a new foundation for mathematics. It serves as a common language for reasoning about computation (functional programming), about mathematical structure (synthetic homotopy theory and higher category theory), and about constructive logic. This Introduction to Homotopy Type Theory video lecture series is intended to explain what HoTT is, show how to work in HoTT (including how formalization in Agda works), and give intuition for why HoTT is the way it is. I don’t assume any particular background familiarity, but the more you know about mathematics, computer science, and logic, the more you’ll be able to get out of these videos. Enjoy!",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-20953 (roomos, telepresence_collaboration_endpoint)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-20953",
+  "description": "Multiple vulnerabilities in Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an attacker to conduct path traversal attacks, view sensitive data, or write arbitrary files on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.",
+  "dc:date": "2022-10-26T15:15:14Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:yWF6LSBhkpM",
+  "yt:videoId": "yWF6LSBhkpM",
+  "yt:channelId": "UC9NuJImUbaSNKiwF2bdSfAw",
+  "title": "Debugging apps running in Kubernetes An overview of the tooling available",
+  "link": "",
+  "author": {
+    "name": "FOSDEM",
+    "uri": "https://www.youtube.com/channel/UC9NuJImUbaSNKiwF2bdSfAw"
+  },
+  "published": "2020-11-18T08:06:08+00:00",
+  "updated": "2022-06-29T17:20:58+00:00",
+  "media:group": {
+    "media:title": "Debugging apps running in Kubernetes An overview of the tooling available",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "by Jeff Knurek\n\nAt: FOSDEM 2020\nhttps://video.fosdem.org/2020/K.4.201/debugging_kubernetes.webm\n\nNew tools are coming out to make it possible to add breakpoints and debug running code in a Kubernetes Pod. This talk will present an overview of some of these tools. We'll cover tools that make it easy to update the code that's running in a Pod (Squash/Ksync/Telepresence). And we'll also cover how to connect your IDE to the code and set breakpoints.\n❮ul❯\n❮li❯A really brief, high level overview of k8s pods &amp; how to run an application there❮/li❯\n❮li❯List out some the tools available that make debugging possible❮/li❯\n❮li❯Overview of how each tool differs❮/li❯\n❮li❯A demo of 2 different debugging tools❮/li❯\n❮/ul❯\n\n\nRoom: K.4.201\nScheduled start: 2020-02-02 15:05:00",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

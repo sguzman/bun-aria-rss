@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:2H8629BCbkM",
+  "yt:videoId": "2H8629BCbkM",
+  "yt:channelId": "UCcf4LQogGFtYzPhq05uHE4g",
+  "title": "Halting Problem & Quantum Entanglement 2020 Breakthrough result [MIP*=RE]",
+  "link": "",
+  "author": {
+    "name": "udiprod",
+    "uri": "https://www.youtube.com/channel/UCcf4LQogGFtYzPhq05uHE4g"
+  },
+  "published": "2021-11-14T20:42:08+00:00",
+  "updated": "2022-03-07T22:30:23+00:00",
+  "media:group": {
+    "media:title": "Halting Problem & Quantum Entanglement 2020 Breakthrough result [MIP*=RE]",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This video explains the MIP*=RE result. We skip the proof details, just explain what the result means.\n\nPlease leave comments in the comment section if something is unclear.\n\nThe links mentioned in the video:\n\n1) Proof that the halting problem can't be solved:\nhttps://youtu.be/92WHN-pAFCs\n\n2) Using the entanglement, see here: https://youtu.be/v7jctqKsUMA\n\nAlso, here's a general primer to quantum physics: \nhttps://youtu.be/p7bzE1E5PMY\n\n3) Proof that PSPACE contains P and is contained in EXP: TBA sometime\n\nChapters:\n0:00 Part 1: Decision problems\n3:13 Part 2: Complexity classes\n7:32 Part 3: Verification\n12:57 Part 4: More verification power\n17:51 Part 5: Some implications\n\nSome more explanations:\n\nPart 3:\n\n* We require the verifier to run in polynomial time. This has the usual definition with respect to the input's size. This constraints the size of the proof sent by the prover, since reading 1 character costs 1 time unit.\n\n* In the video we make a distinction between honest and malicious provers. Sometimes it is defined differently: there's only one kind of prover, and it always wants to get the verifier to accept. For w that is in L, it gets the verifier to accept by cooperating and behaving nicely. For w outside of L, it tries to get the verifier to accept by cheating.\n\nPart 4:\n\n* MIP:  In previous games, the verifier faces a single prover. Its goal was to be able to detect if the prover is lying or telling the truth. For languages inside PSPACE, the prover could do that. But languages outside PSPACE are more complicated. For these languages, the verifier can't tell if the prover is lying or telling the truth.\nIn MIP we help the verifier more by having two provers. The verifier can now judge if a response is a lie not just by examining the response itself, but by comparing what the two provers say. If they respond to the same question differently, one of the responses must be a lie, and the verifier can reject immediately.\nThis added ability to detect lies helps it verify more complicated languages - all languages in the large class called NEXP.\n\nMIP*: Here there's something non-intuitive going on. We help the provers by giving them a quantum device, but it turns out it actually helps the verifier. The details here are complicated, but we may explore them further in future videos.\n\nOne frequent question is why the provers use the entanglement at all, even the honest ones. The reason is that the verifier forces them to use the entangelement. \n\nTo see why, consider the non-isomoprhism example: the verifier gives the prover a computational challenge. This challenge is designed such that the prover can win only if the graphs are non-isomorphic.\n\nThe quantum entanglement opens the door for new kinds of challenges that the provers can win. It wasn't obvious if any of them are useful for our purposes, but then one was discovered: there exists a challenge such that for a given program p:\n1) The provers can only win if p halts.\n2) And they can only win if they cooperate via the entanglement.\nCondition (2) is logically important: without it the game would have been possible with MIP as well. The provers can choose not to use the entangelement, but then they'll lose. We assume the provers want to win.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

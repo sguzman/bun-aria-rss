@@ -1,0 +1,13 @@
+{
+  "title": "TorchMetrics",
+  "description": "TorchMetrics is a really nice and convenient library that lets us compute the performance of models in an iterative fashion. It's designed with PyTorch (and PyTorch Lightning) in mind, but it is a general-purpose library compatible with other libraries and workflows. This iterative computation is useful if we want to track a model during iterative training or evaluation on minibatches (and optionally across on multiple GPUs). In deep learning, that's essentially *all the time*. However, when using TorchMetrics, one common question is whether we should use `.update()` or `.forward()`? (And that's also a question I certainly had when I started using it.). Here's a hands-on example and explanation.",
+  "pubDate": "Thu, 24 Mar 2022 13:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2022/torchmetrics.html",
+  "guid": "https://sebastianraschka.com/blog/2022/torchmetrics.html",
+  "category": [
+    "Deep",
+    "Learning,",
+    "Machine",
+    "Learning"
+  ]
+}

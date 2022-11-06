@@ -1,0 +1,6 @@
+{
+  "title": "Data-driven Abstractions for Verification of Deterministic Systems. (arXiv:2211.01793v1 [eess.SY])",
+  "link": "http://arxiv.org/abs/2211.01793",
+  "description": "<p>A common technique to verify complex logic specifications for dynamical\nsystems is the construction of symbolic abstractions: simpler, finite-state\nmodels whose behaviour mimics the one of the systems of interest. Typically,\nabstractions are constructed exploiting an accurate knowledge of the underlying\nmodel: in real-life applications, this may be a costly assumption. By sampling\nrandom $\\ell$-step trajectories of an unknown system, we build an abstraction\nbased on the notion of $\\ell$-completeness. We newly define the notion of\nprobabilistic behavioural inclusion, and provide probably approximately correct\n(PAC) guarantees that this abstraction includes all behaviours of the concrete\nsystem, for finite and infinite time horizon, leveraging the scenario theory\nfor non convex problems. Our method is then tested on several numerical\nbenchmarks.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/eess/1/au:+Coppola_R/0/1/0/all/0/1\">Rudi Coppola</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Peruffo_A/0/1/0/all/0/1\">Andrea Peruffo</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Mazo_M/0/1/0/all/0/1\">Manuel Mazo Jr</a>"
+}

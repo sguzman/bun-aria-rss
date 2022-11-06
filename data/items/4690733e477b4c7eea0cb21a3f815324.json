@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:FXd31Lv34NA",
+  "yt:videoId": "FXd31Lv34NA",
+  "yt:channelId": "UCTdw38Cw6jcm0atBPA39a0Q",
+  "title": "Apollo Federation: Connecting GraphQL Microservices - Allen Azemia - NDC Melbourne 2022",
+  "link": "",
+  "author": {
+    "name": "NDC Conferences",
+    "uri": "https://www.youtube.com/channel/UCTdw38Cw6jcm0atBPA39a0Q"
+  },
+  "published": "2022-10-20T07:34:59+00:00",
+  "updated": "2022-10-21T13:33:48+00:00",
+  "media:group": {
+    "media:title": "Apollo Federation: Connecting GraphQL Microservices - Allen Azemia - NDC Melbourne 2022",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Apollo federation enables you to architect, build and connect multiple distributed GraphQL microservices. In a microservices world, you'll eventually run into the situation where you need to query distributed APIs. GraphQL microservices are no different. Whether they are created using AWS AppSync or Apollo Server, you have to query these distributed GraphQL microservices in your client application. If you had to connect to each one in your client application, you must authenticate against all these GraphQL APIs as they have different domains. Apollo Federation Gateway enables you to combine the distributed GraphQL subgraphs into one so that your client sends queries to one endpoint.\n\nYou'll learn the power of Apollo Federation and how it is used to connect distributed GraphQL microservices built using AWS AppSync and Apollo Server in Azure Function.\n\n\nCheck out more of our featured speakers and talks at\nhttps://www.ndcconferences.com\nhttps://ndcmelbourne.com/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

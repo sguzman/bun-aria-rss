@@ -1,0 +1,7 @@
+{
+  "title": "Where Do The World's Software Developers Live?",
+  "link": "",
+  "updated": "2018-04-24T00:00:00-07:00",
+  "id": "http://www.benfrederickson.com/github-developer-locations/",
+  "content": "\n        \n            <img src=\"http://www.benfrederickson.com/images/github/locations/map.png\" width=\"100%\" style=\"max-width:500px\">\n        \n        <p>I’ve been digging into GitHub data recently, and I thought it would be fun to use that data to figure out exactly where the world’s\nsoftware developers live and then to visualize the results interactively using D3.</p>\n\n<p>In a previous post, I wrote about how an <a href=\"/github-wont-help-with-hiring/\">individual’s GitHub profile is a noisy and unreliable indicator of programming talent</a>. For this post though I’m aggregating GitHub profiles together over the population of an entire country or city, meaning that the impact of the data sparsity and noise issues I was talking about shouldn’t be nearly as significant.</p>\n\n<p>The results ended up being pretty interesting. While top developers live all over the world, an extraordinary amount of\nthem seem to live in the San Francisco Bay area. Likewise, it seems that developing open source software is a luxury for the\nrich, India has an unusual lack of famous developers, and Eastern Europe might offer the best value on hiring remotely.</p>\n\n<p class='more'><a href='http://www.benfrederickson.com/github-developer-locations/'>Read more ...</a></p>\n     "
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3799 (go-ibax)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3799",
+  "description": "A vulnerability classified as critical was found in IBAX go-ibax. Affected by this vulnerability is an unknown functionality of the file /api/v2/open/tablesInfo. The manipulation leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-212635.",
+  "dc:date": "2022-11-01T16:15:13Z"
+}

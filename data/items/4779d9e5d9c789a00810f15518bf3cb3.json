@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32899 (ipad_os, iphone_os, macos, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32899",
+  "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7 and iPadOS 15.7, iOS 16, macOS Ventura 13, watchOS 9. An app may be able to execute arbitrary code with kernel privileges.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}
