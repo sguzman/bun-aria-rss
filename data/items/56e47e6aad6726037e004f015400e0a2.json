@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2017-13715 (linux_kernel)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-13715",
+  "description": "The __skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel before 4.3 does not ensure that n_proto, ip_proto, and thoff are initialized, which allows remote attackers to cause a denial of service (system crash) or possibly execute arbitrary code via a single crafted MPLS packet.",
+  "dc:date": "2017-08-29T01:35:13Z"
+}

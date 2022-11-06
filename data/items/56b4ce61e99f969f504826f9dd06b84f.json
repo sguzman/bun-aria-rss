@@ -1,0 +1,12 @@
+{
+  "title": "Thoughts on Machine Learning &#8211; Dealing with Skewed Classes",
+  "link": "https://florianhartl.com/thoughts-on-machine-learning-dealing-with-skewed-classes.html",
+  "comments": "https://florianhartl.com/thoughts-on-machine-learning-dealing-with-skewed-classes.html#comments",
+  "dc:creator": "Florian Hartl",
+  "pubDate": "Mon, 27 Aug 2012 19:54:52 +0000",
+  "category": "Machine Learning",
+  "guid": "http://florianhartl.com/?p=142",
+  "description": "<p>A challenge which machine learning practitioners often face, is how to deal with skewed classes in classification problems. Such a tricky situation occurs when one class is over-represented in the data set. A common example for this issue is fraud detection: a very big part of the data set, usually 9x%, describes normal activities and only a small fraction of the data records should get classified as fraud. In such a case, if the model always predicts &#8220;normal&#8221;, then it is correct 9x% of the time. At first, the accuracy and therewith the quality of such a model might seem…</p>\n<p>The post <a rel=\"nofollow\" href=\"https://florianhartl.com/thoughts-on-machine-learning-dealing-with-skewed-classes.html\">Thoughts on Machine Learning &#8211; Dealing with Skewed Classes</a> appeared first on <a rel=\"nofollow\" href=\"https://florianhartl.com\">Florian Hartl</a>.</p>\n",
+  "wfw:commentRss": "https://florianhartl.com/thoughts-on-machine-learning-dealing-with-skewed-classes.html/feed",
+  "slash:comments": 10
+}

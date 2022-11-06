@@ -1,0 +1,7 @@
+{
+  "title": "100 Terabytes, 5 Billion Documents, 10 Billion Parameters, 1 Billion Inserts/s",
+  "description": "<p>We&rsquo;ve been busy building the next generation of a Parameter Server and it&rsquo;s finally ready. It&rsquo;s quite different from our previous designs, the main improvements being fault tolerance and self repair, a much improved network protocol, flexible consistency models, and a much more general interface.</p>\n<p>In the next few posts I&rsquo;ll explain the engineering decisions that went into this system which is capable of solving problems as diverse as very high throughput sketching, topic models, and optimization. And yes, it will be open source so you can build your own algorithms on top of it.</p>",
+  "link": "https://blog.smola.org/post/85462143726",
+  "guid": "https://blog.smola.org/post/85462143726",
+  "pubDate": "Sun, 11 May 2014 14:56:25 -0700"
+}
