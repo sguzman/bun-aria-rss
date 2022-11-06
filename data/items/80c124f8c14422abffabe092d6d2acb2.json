@@ -1,0 +1,8 @@
+{
+  "title": "Record 0-Second SLA PPS Mitigation",
+  "description": "On May 2, 2020, Akamai blocked a large PPS-focused attack against one of our financial services customers in 0 seconds, utilizing a proactive mitigation posture. This was one of the largest PPS levels we have on record, and the biggest mitigated to date in 0 seconds. The attacker launched a bevy of minimally sized UDP packets in an attempt to overwhelm network gear in the customer's data center.",
+  "link": "https://www.akamai.com/blog/security/record-0-second-sla-pps-mitigation",
+  "author": "Tom Emmons",
+  "guid": "https://www.akamai.com/blog/security/record-0-second-sla-pps-mitigation",
+  "pubDate": "Tue, 26 May 2020 21:14 PM UTC"
+}

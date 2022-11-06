@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:lJllt5X6ELg",
+  "yt:videoId": "lJllt5X6ELg",
+  "yt:channelId": "UCtxCXg-UvSnTKPOzLH4wJaQ",
+  "title": "Let's Build a RUST WebAssembly Frontend App With Yew",
+  "link": "",
+  "author": {
+    "name": "Coding Tech",
+    "uri": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ"
+  },
+  "published": "2022-09-17T19:38:22+00:00",
+  "updated": "2022-09-19T22:41:09+00:00",
+  "media:group": {
+    "media:title": "Let's Build a RUST WebAssembly Frontend App With Yew",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "WebAssembly opens the door for frontend developers to use languages that don't compile to JavaScript, like Rustlang.\n\nThese technologies (rustlang yew) will change web development!!\n\nWe use js-sys, web-sys, and friends to power this web application.\n\n00:00 Introduction\n00:04 What We'll Build (yew vp9 video streaming app)\n00:41 Setup\n01:19 Creating basic yew app structure\n02:25 Running bare-bones app\n02:42 How to call browser javascript frameworks from rust\n03:26 Creating the skeleton of the yew app\n05:06 Running the skeleton app\n05:24 Connecting the WebCam\n09:33 Testing Webcam with the Browser\n09:57 Setting up the VP9 WebCodec Encoder\n15:40 Things go sideways!! installing local libraries via cargo patch\n18:14 Setting up the VP9 Encoder Part 2\n20:40 Testing VP9 Encoding with the browser\n21:03 Communicating Producer and Consumer using get_context\n23:38 Connecting the Consumer to the Context\n31:20 Debugging \n33:54 Demo and Conclusions\n\nPUBLICATION PERMISSIONS:\nOriginal video was published with the Creative Commons Attribution license (reuse allowed). Link: https://www.youtube.com/watch?v=In09Lgqxp6Y",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}
