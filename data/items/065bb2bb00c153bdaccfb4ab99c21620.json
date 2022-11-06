@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-43148 (rtf2html)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-43148",
+  "description": "rtf2html v0.2.0 was discovered to contain a heap overflow in the component /rtf2html/./rtf_tools.h.",
+  "dc:date": "2022-10-31T19:15:10Z"
+}
