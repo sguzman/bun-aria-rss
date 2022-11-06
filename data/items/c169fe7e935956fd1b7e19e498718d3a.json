@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:ElHi2h9Ho6M",
+  "yt:videoId": "ElHi2h9Ho6M",
+  "yt:channelId": "UCEBcDOjv-bhAmLavY71RMHA",
+  "title": "Lambda World 2019 - What FP Can Learn From Static Introspection - Aditya Siram (Deech)",
+  "link": "",
+  "author": {
+    "name": "Lambda World",
+    "uri": "https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"
+  },
+  "published": "2019-11-05T14:20:05+00:00",
+  "updated": "2022-07-23T08:00:03+00:00",
+  "media:group": {
+    "media:title": "Lambda World 2019 - What FP Can Learn From Static Introspection - Aditya Siram (Deech)",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Aditya Siram (Deech) discusses what Functional Programming can learn from static introspection. This presentation was delivered at Lambda World in Cádiz, Spain on October 18, 2019.\n\nPresentation Description:\n\nWhat if compile time and type level programming in functional programming languages were easy, something you reach for without even thinking about it? What if you could debug type errors with a simple compile time print statement? Write highly flexible systems by being able to introspect into types at compile time? Pre-calculate large portions of your programs for great efficiency?\n\nTyped functional programming is a great and fun way to write resilient software, and as type systems have become more and more expressive in recent years, we are able to program sophisticated and useful properties at the type level for even better compile time safety. Just one problem: It is very difficult, requires advanced knowledge of the type system, the syntax is convoluted, the error messages are impenetrable, and it is nearly impossible to debug.\n\nThis talk will dive into why we should steal static introspection from languages like Nim, and D, state-of-the-art imperative programming languages which can solve all these issues, make type systems much more approachable without losing any expressive power, and offer new design possibilities for functional programs.\n\n------\nFollow: \n-https://www.twitter.com/lambda_world \n-https://www.twitter.com/47deg\n-https://twitter.com/deech\n\nVisit: \n-https://www.47deg.com/events for more details\n-http://www.lambda.world",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

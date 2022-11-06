@@ -1,0 +1,15 @@
+{
+  "title": "Behind the Design of the Tron Videogame",
+  "link": "https://spectrum.ieee.org/tron-game",
+  "description": "\n<img src=\"https://spectrum.ieee.org/media-library/screenshot-shows-a-blue-ring-with-6-pink-floating-disks-3-on-each-side-a-game-avatar-throws-a-disk-from-one-side-towards-an-av.jpg?id=28785019&width=1245&height=700&coordinates=0%2C441%2C0%2C442\"/><br/><br/><p>In the <a href=\"https://movies.disney.com/tron\" rel=\"noopener noreferrer\" target=\"_blank\">Walt Disney film <em>Tron</em></a>, an evil Master Control Program schemes to take over the Pentagon and the Kremlin, telling its human henchman that it can run them 900 to 1200 times more efficiently. In the <a href=\"https://en.wikipedia.org/wiki/Midway_Games\" rel=\"noopener noreferrer\" target=\"_blank\">Midway Manufacturing Co.’s</a> Tron arcade game, a master control program, known as the executive, makes more efficient use of game programmers’ time by taking care of all of the routine functions of accepting quarters, recording game scores, switching between players, and displaying messages on the screen.</p><p>Before the standardized executive was developed, programmers would write the computer code for each game from scratch. The executive allows them to concentrate on writing the code for the game play, which is unique to each game.</p><h3></h3><br/><p>This article was first published as \"Tron: the master control program takes over.\" It appeared in the December 1982 issue of <em>IEEE Spectrum </em>as part of a special report, “Video games: The electronic big bang.” A <a href=\"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6366912\" rel=\"noopener noreferrer\" target=\"_blank\">PDF version</a> is available on IEEE Xplore.</p><h3></h3><br/><p>While the executive must be altered somewhat for each game, it still saves a great deal of time. For example, when a new weakness is discovered in arcade games, it only needs to be dealt with once, according to John Pasierb, vice president for engineering at Midway.</p><p>“We were having a problem where if someone tampered with the game by turning the power switch on and off really quickly, our battery backup didn’t maintain the information,” noted Bill Adams, Midway’s manager of software development. “Normally, you can turn one of our games off, come back two weeks later, and it will still remember all the high scores.</p><p>The solution was to change the software, Mr. Pasierb said, adding, “We did this in the executive, and that solved the problem in all the games.”</p><p>The same executive was used by Midway in one game before Tron, and it is now being used for all arcade games the company has in production. Copies of the code have also been distributed to freelance programmers who develop games for Midway.</p>",
+  "pubDate": "Sat, 19 Feb 2022 16:00:00 +0000",
+  "guid": "https://spectrum.ieee.org/tron-game",
+  "category": [
+    "History of technology",
+    "Software",
+    "Design",
+    "Videogames"
+  ],
+  "dc:creator": "Paul Wallich",
+  "media:content": ""
+}

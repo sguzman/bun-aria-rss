@@ -1,0 +1,15 @@
+{
+  "title": "The Waiting Time Paradox, or, Why Is My Bus Always Late?",
+  "link": "",
+  "published": "2018-09-13T10:00:00-07:00",
+  "updated": "2018-09-13T10:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2018-09-13:blog/2018/09/13/waiting-time-paradox/",
+  "summary": "<p><img src=\"http://jakevdp.github.io/images/rapid-ride.jpg\" alt=\"Rapid Ride Bus\">\n<em>Image Source: <a href=\"https://en.wikipedia.org/wiki/RapidRide#/media/File:King_County_Metro_Rapid_Ride_New_Flyer_DE60LFR_6060.JPG\">Wikipedia</a> License CC-BY-SA 3.0</em></p>\n<p>If you, like me, frequently commute via public transit, you may be familiar with the following situation:</p>\n<blockquote><p><em>You arrive at the bus stop, ready to catch your bus: a line that advertises arrivals every 10 minutes. You glance at your watch and note the time... and when the bus finally comes 11 minutes later, you wonder why you always seem to be so unlucky.</em></p>\n</blockquote>\n<p>Naïvely, you might expect that if buses are coming every 10 minutes and you arrive at a random time, your average wait would be something like 5 minutes.\nIn reality, though, buses do not arrive exactly on schedule, and so you might wait longer.\nIt turns out that under some reasonable assumptions, you can reach a startling conclusion:</p>\n<p><strong>When waiting for a bus that comes on average every 10 minutes, your average waiting time will be 10 minutes.</strong></p>\n<p>This is what is sometimes known as the <em>waiting time paradox</em>.</p>\n<p>I've encountered this idea before, and always wondered whether it is actually true... how well do those \"reasonable assumptions\" match reality?\nThis post will explore the waiting time paradox from the standpoint of both simulation and probabilistic arguments, and then take a look at some real bus arrival time data from the city of Seattle to (hopefully) settle the paradox once and for all.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}

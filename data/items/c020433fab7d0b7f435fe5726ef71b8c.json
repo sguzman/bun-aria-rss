@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:O_DIoKqoW8I",
+  "yt:videoId": "O_DIoKqoW8I",
+  "yt:channelId": "UCEBcDOjv-bhAmLavY71RMHA",
+  "title": "Lambda World 2019 - So I used Erlang...is my system as scalable as they say it'd be? - Laura Castro",
+  "link": "",
+  "author": {
+    "name": "Lambda World",
+    "uri": "https://www.youtube.com/channel/UCEBcDOjv-bhAmLavY71RMHA"
+  },
+  "published": "2019-11-07T12:39:46+00:00",
+  "updated": "2022-07-16T23:53:03+00:00",
+  "media:group": {
+    "media:title": "Lambda World 2019 - So I used Erlang...is my system as scalable as they say it'd be? - Laura Castro",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In this Lambda World 2019 presentation, Laura Castro looks at the process of testing the robustness of an Erlang-based system.\n\nPresentation Description:\n\nIn the world of distributed, highly concurrent and scalable systems, few technologies can live up to Erlang/OTP's potential. But, as we often hear, with great power comes great responsibility . . . What if we have designed the architecture of our background to be scalable and used Erlang/OTP to implement it? What now? Should we go straight ahead and jump into the production pool?\n\nSit and wait for thousands, millions of requests to come? In this talk, we'll see how we can test the robustness of our system in a controlled setting, and in an automated, effective way. Using ProER, a property-based testing tool that follows into the footsteps of the famous QuickCheck, we will see how our software's validation can be both a challenge and a cool task, when we put the right tools in practice.\n\n------\nFollow: \n-https://www.twitter.com/lambda_world \n-https://www.twitter.com/47deg\n-https://twitter.com/lauramcastro\n\nVisit: \n-https://www.47deg.com/events for more details\n-http://www.lambda.world",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

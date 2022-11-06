@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:REuMgZW2JEU",
+  "yt:videoId": "REuMgZW2JEU",
+  "yt:channelId": "UCvqbFHwN-nwalWPjPUKpvTA",
+  "title": "Keynote: Why Developer Laptop Security is Key to Securing Your CI/CD Pipeline - Jeremy Colvin",
+  "link": "",
+  "author": {
+    "name": "CNCF [Cloud Native Computing Foundation]",
+    "uri": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA"
+  },
+  "published": "2022-11-02T22:29:47+00:00",
+  "updated": "2022-11-02T23:31:03+00:00",
+  "media:group": {
+    "media:title": "Keynote: Why Developer Laptop Security is Key to Securing Your CI/CD Pipeline - Jeremy Colvin",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Don’t miss out! Join us at our upcoming event: KubeCon + CloudNativeCon Europe 2023 in Amsterdam, The Netherlands from April 17-21. Learn more at https://kubecon.io​. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects.\n\nKeynote: Why Developer Laptop Security is Key to Securing Your CI/CD Pipeline - Jeremy Colvin, Technical PMM, Uptycs\n\nYour developer’s laptop is only one hop away from cloud infrastructure and crown-jewel data and services. \n \nWhen it comes to securing cloud applications, security teams need to consider how they can secure the arc of application development. It often begins when a developer signs into an identity provider using their laptop, then pulls open-source code from a Git repository. Developers use Chrome extensions for development tasks, then push code through their build, test, and deploy processes using automation servers, Kubernetes, and public cloud services like AWS. At each stage, there are multiple points an attacker can target. \n \nThis 5-minute lightening session will cover the requirements for visibility into the entire development supply chain, from laptop to cloud, including: \n\n    Why developer laptops are often an entry point for attackers—now more than ever\n    How to gather real-time \"device integrity\" or security hygiene checks for zero-trust access\n    How to audit for malicious Chrome extensions or vulnerable software packages\n    How to tie together identity and GitHub activity on the laptop with CI/CD actions",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-27893",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27893",
+  "description": "The Foundry Magritte plugin osisoft-pi-web-connector versions 0.15.0 - 0.43.0 was found to be logging in a manner that captured authentication requests. This vulnerability is resolved in osisoft-pi-web-connector version 0.44.0.",
+  "dc:date": "2022-11-04T16:15:14Z"
+}

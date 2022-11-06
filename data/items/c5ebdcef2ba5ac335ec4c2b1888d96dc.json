@@ -1,0 +1,6 @@
+{
+  "title": "Tight Error Bounds for Nonnegative Orthogonality Constraints and Exact Penalties. (arXiv:2210.05164v4 [math.OC] UPDATED)",
+  "link": "http://arxiv.org/abs/2210.05164",
+  "description": "<p>For the intersection of the Stiefel manifold and the set of nonnegative\nmatrices in $\\mathbb{R}^{n\\times r}$, we present global and local error bounds\nwith easily computable residual functions and explicit coefficients. Moreover,\nwe show that the error bounds cannot be improved except for the coefficients,\nwhich explains why two square-root terms are necessary in the bounds when $1 &lt;\nr &lt; n$ for the nonnegativity and orthogonality, respectively. The error bounds\nare applied to penalty methods for minimizing a Lipschitz continuous function\nwith nonnegative orthogonality constraints. Under only the Lipschitz continuity\nof the objective function, we prove the exactness of penalty problems that\npenalize the nonnegativity constraint, or the orthogonality constraint, or both\nconstraints. Our results cover both global and local minimizers.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Chen_X/0/1/0/all/0/1\">Xiaojun Chen</a>, <a href=\"http://arxiv.org/find/math/1/au:+He_Y/0/1/0/all/0/1\">Yifan He</a>, <a href=\"http://arxiv.org/find/math/1/au:+Zhang_Z/0/1/0/all/0/1\">Zaikun Zhang</a>"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:gqgXIY09htI",
+  "yt:videoId": "gqgXIY09htI",
+  "yt:channelId": "UCp3Q1Xhsu-TRljsDqp0Kj_A",
+  "title": "Stable View Synthesis",
+  "link": "",
+  "author": {
+    "name": "ISL and Collaborators",
+    "uri": "https://www.youtube.com/channel/UCp3Q1Xhsu-TRljsDqp0Kj_A"
+  },
+  "published": "2020-11-17T04:23:54+00:00",
+  "updated": "2022-06-08T20:37:15+00:00",
+  "media:group": {
+    "media:title": "Stable View Synthesis",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Stable View Synthesis\nGernot Riegler and Vladlen Koltun\nComputer Vision and Pattern Recognition (CVPR), 2021\n\nPaper: https://arxiv.org/abs/2011.07233\nCode: https://github.com/intel-isl/StableViewSynthesis\n\nWe present Stable View Synthesis (SVS). Given a set of source images depicting a scene from freely distributed viewpoints, SVS synthesizes new views of the scene. The method operates on a geometric scaffold computed via structure-from-motion and multi-view stereo. Each point on this 3D scaffold is associated with view rays and corresponding feature vectors that encode the appearance of this point in the input images. The core of SVS is view-dependent on-surface feature aggregation, in which directional feature vectors at each 3D point are processed to produce a new feature vector for a ray that maps this point into the new target view. The target view is then rendered by a convolutional network from a tensor of features synthesized in this way for all pixels. The method is composed of differentiable modules and is trained end-to-end. It supports spatially-varying view-dependent importance weighting and feature transformation of source images at each point; spatial and temporal stability due to the smooth dependence of on-surface feature aggregation on the target view; and synthesis of view-dependent effects such as specular reflection. Experimental results demonstrate that SVS outperforms state-of-the-art view synthesis methods both quantitatively and qualitatively on three diverse real-world datasets, achieving unprecedented levels of realism in free-viewpoint video of challenging large-scale scenes.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

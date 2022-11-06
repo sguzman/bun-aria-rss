@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:cWpFZbjtSQg",
+  "yt:videoId": "cWpFZbjtSQg",
+  "yt:channelId": "UCmtyQOKKmrMVaKuRXz02jbQ",
+  "title": "Coding Adventure: Portals",
+  "link": "",
+  "author": {
+    "name": "Sebastian Lague",
+    "uri": "https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ"
+  },
+  "published": "2020-02-08T05:53:20+00:00",
+  "updated": "2022-09-02T13:18:59+00:00",
+  "media:group": {
+    "media:title": "Coding Adventure: Portals",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Experimenting with portals, for science.\n\nThe project is available here: https://github.com/SebLague/Portals/tree/master\nIf you'd like to get early access to new projects, or simply want to support me in creating more videos, please visit https://www.patreon.com/SebastianLague\n\nResources I used:\nhttp://tomhulton.blogspot.com/2015/08/portal-rendering-with-offscreen-render.html\nhttp://www.terathon.com/lengyel/Lengyel-Oblique.pdf\nhttps://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrices-what-you-need-to-know-first\nhttps://www.turiyaware.com/a-solution-to-unitys-camera-worldtoscreenpoint-causing-ui-elements-to-display-when-object-is-behind-the-camera/\n\nChapters:\n0:00 Introduction\n0:25 Figuring out the cameras\n1:41 Test world\n3:09 Texture mapping\n4:27 Trying to understand perspective divide\n5:50 Optimization\n6:50 Making a prettier test world\n7:18 Teleportation, at last!\n9:17 Fixing the flickering\n10:00 Slicing\n12:15 Oblique projection\n13:31 Recursive portals\n15:33 Outroduction\n\n3D Models:\nPlane: https://www.turbosquid.com/FullPreview/Index.cfm/ID/1041070\nCar: https://www.turbosquid.com/FullPreview/Index.cfm/ID/1101519\n\nMusic:\n\"Twisting\", \"Lightless Dawn\", \"Frost Waltz\", \"Heart of Nowhere\", \"At Rest\", \"Spellbound\", \"In Your Arms\", \"Rynos Theme\", and \"The Builder\" by Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

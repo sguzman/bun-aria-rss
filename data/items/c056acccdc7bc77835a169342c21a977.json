@@ -1,0 +1,6 @@
+{
+  "title": "An inequality characterizing convex domains. (arXiv:2209.14153v2 [math.CA] UPDATED)",
+  "link": "http://arxiv.org/abs/2209.14153",
+  "description": "<p>A property of smooth convex domains $\\Omega \\subset \\mathbb{R}^n$ is that if\ntwo points on the boundary $x, y \\in \\partial \\Omega$ are close to each other,\nthen their normal vectors $n(x), n(y)$ point roughly in the same direction and\nthis direction is almost orthogonal to $x-y$ (for `nearby' $x$ and $y$). We\nprove there exists a constant $c_n &gt; 0$ such that if $\\Omega \\subset\n\\mathbb{R}^n$ is a bounded domain with $C^1-$boundary $\\partial \\Omega$, then\n$$ \\int_{\\partial \\Omega \\times \\partial \\Omega} \\frac{\\left|\\left\\langle n(x),\ny - x \\right\\rangle \\left\\langle y - x, n(y) \\right\\rangle \\right| }{\\|x -\ny\\|^{n+1}}~d \\sigma(x) d\\sigma(y) \\geq c_n |\\partial \\Omega|$$ and equality\noccurs if and only if the domain $\\Omega$ is convex.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Steinerberger_S/0/1/0/all/0/1\">Stefan Steinerberger</a>"
+}

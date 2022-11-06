@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3237 (wp_contact_slider)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3237",
+  "description": "The WP Contact Slider WordPress plugin before 2.4.8 does not sanitize and escape its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
+  "dc:date": "2022-10-31T16:15:10Z"
+}

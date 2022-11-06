@@ -1,0 +1,7 @@
+{
+  "title": "Two Environment Variables for More Robust R Code",
+  "link": "https://www.datascienceblog.net/post/programming/more-robust-r-code-with-environment-variables/",
+  "pubDate": "Thu, 06 Feb 2020 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/programming/more-robust-r-code-with-environment-variables/",
+  "description": "<script src=\"https://www.datascienceblog.net/rmarkdown-libs/header-attrs/header-attrs.js\"></script>\n\n\n<p>I was recently alerted because my Bioconductor package <a href=\"https://bioconductor.org/packages/release/bioc/html/openPrimeR.html\">openPrimeR</a> was failing the automated package tests.\nThe reason for this is that the Bioconductor team has decided to set a new environment variable when testing the packages."
+}

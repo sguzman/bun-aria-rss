@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-32890 (macos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32890",
+  "description": "A logic issue was addressed with improved checks. This issue is fixed in macOS Ventura 13. A sandboxed process may be able to circumvent sandbox restrictions.",
+  "dc:date": "2022-11-01T20:15:18Z"
+}

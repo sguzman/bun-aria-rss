@@ -1,0 +1,15 @@
+{
+  "title": "Frequentism and Bayesianism: A Practical Introduction",
+  "link": "",
+  "published": "2014-03-11T11:00:00-07:00",
+  "updated": "2014-03-11T11:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-03-11:blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/",
+  "summary": "<p>One of the first things a scientist hears about statistics is that there is are two different approaches: frequentism and Bayesianism. Despite their importance, many scientific researchers never have opportunity to learn the distinctions between them and the different practical approaches that result. The purpose of this post is to synthesize the philosophical and pragmatic aspects of the frequentist and Bayesian approaches, so that scientists like myself might be better prepared to understand the types of data analysis people do.</p>\n<p>I'll start by addressing the philosophical distinctions between the views, and from there move to discussion of how these ideas are applied in practice, with some Python code snippets demonstrating the difference between the approaches.</p>",
+  "category": [
+    "",
+    ""
+  ]
+}
