@@ -1,0 +1,7 @@
+{
+  "title": "Research: Backpropagation through camera",
+  "description": "<p>I finally implemented the backpropagation through a camera.</p>\n\n<p>We have optimized a controller for the pendulum-cart system, by backpropagating through the physics, vision and controller. By treating the whole system as a differentiable function, we could update the controller parameters, and have it solve this problem. In only 2420 update steps (or trials in the simulator), it managed to completely learn the vision and the control task, and solve the pendulum-cart system. I hope <a href=\"https://openreview.net/forum?id=SyEiHNKxx\">the paper for ICLR</a> will be accepted soon, such that I can publish the code and see what other people will do with it.</p>\n\n<p>Next step: evaluating this method on the real setup!</p>\n\n<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Control the pendulum-cart setup with only visual perception. Optimized deep controller with backpropagation through time, camera and physics <a href=\"https://t.co/6gu7GHpQBv\">pic.twitter.com/6gu7GHpQBv</a></p>&mdash; 317070 (@317070) <a href=\"https://twitter.com/317070/status/821062814798331905\">January 16, 2017</a></blockquote>\n<script async=\"\" src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+  "pubDate": "Mon, 16 Jan 2017 00:00:00 +0000",
+  "link": "https://317070.github.io/backpropagation/",
+  "guid": "https://317070.github.io/backpropagation/"
+}

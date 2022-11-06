@@ -1,0 +1,16 @@
+{
+  "title": "Fast Lomb-Scargle Periodograms in Python",
+  "link": "",
+  "published": "2015-06-13T14:00:00-07:00",
+  "updated": "2015-06-13T14:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2015-06-13:blog/2015/06/13/lomb-scargle-in-python/",
+  "summary": "<center>\n<a href=\"http://www.astroml.org/_images/fig_LS_example_1.png\"><img src=\"http://www.astroml.org/_images/fig_LS_example_1.png\"></a>\n<small>Image source: astroML. Source code <a href=\"http://www.astroml.org/book_figures/chapter10/fig_LS_example.html#book-fig-chapter10-fig-ls-example\">here</a></small>\n</center>\n<p><em>Edit, Spring 2017: For an in-depth guide to the practical use of Lomb-Scargle periodograms, see the paper discussed in <a href=\"http://jakevdp.github.io/blog/2017/03/30/practical-lomb-scargle/\">A Practical Guide to the Lomb-Scargle Periodogram</a>.</em></p>\n<p><em>Edit, Summer 2016: All of the implementations discussed below have been added to <a href=\"http://astropy.org\">AstroPy</a> as of Version 1.2, along with logic to choose the optimal implementation automatically. Read more here: <a href=\"http://astropy.readthedocs.io/en/latest/stats/lombscargle.html\"><code>astropy.stats.LombScargle</code></a>.</em></p>\n<p>The Lomb-Scargle periodogram (named for <a href=\"http://adsabs.harvard.edu/abs/1976Ap%26SS..39..447L\">Lomb (1976)</a> and <a href=\"http://adsabs.harvard.edu/abs/1982ApJ...263..835S\">Scargle (1982)</a>) is a classic method for finding periodicity in irregularly-sampled data.\nIt is in many ways analogous to the more familiar Fourier Power Spectral Density (PSD) often used for detecting periodicity in regularly-sampled data.</p>\n<p>Despite the importance of this method, until recently there have not been any (in my opinion) solid implementations of the algorithm available for easy use in Python.\nThat has changed with the introduction of the <a href=\"http://astroml.org/gatspy/\">gatspy</a> package, which I recently released.\nIn this post, I will compare several available Python implementations of the Lomb-Scargle periodogram, and discuss some of the considerations required when using it to analyze data.</p>\n<p>To cut to the chase, I'd recommend using the <a href=\"http://astroml.org/gatspy/\">gatspy</a> package for Lomb-Scargle periodograms in Python, and particularly its <code>gatspy.periodic.LombScargleFast</code> algorithm which implements an efficient pure-Python version of Press &amp; Rybicki's $O[N\\log N]$ periodogram.\nBelow, I'll dive into the reasons for this recommendation.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}
