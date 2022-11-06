@@ -1,0 +1,13 @@
+{
+  "title": "Creating Confidence Intervals for Machine Learning Classifiers",
+  "description": "Developing good predictive models hinges upon accurate performance evaluation and comparisons. However, when evaluating machine learning models, we typically have to work around many constraints, including limited data, independence violations, and sampling biases. Confidence intervals are no silver bullet, but at the very least, they can offer an additional glimpse into the uncertainty of the reported accuracy and performance of a model. This article outlines different methods for creating confidence intervals for machine learning models. Note that these methods also apply to deep learning.",
+  "pubDate": "Mon, 25 Apr 2022 07:00:00 +0000",
+  "link": "https://sebastianraschka.com/blog/2022/confidence-intervals-for-ml.html",
+  "guid": "https://sebastianraschka.com/blog/2022/confidence-intervals-for-ml.html",
+  "category": [
+    "Deep",
+    "Learning,",
+    "Machine",
+    "Learning"
+  ]
+}

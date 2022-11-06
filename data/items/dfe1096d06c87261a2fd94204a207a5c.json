@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3575 (frauscher_diagnostic_system_102)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3575",
+  "description": "Frauscher Sensortechnik GmbH FDS102 for FAdC R2 and FAdCi R2 v2.8.0 to v2.9.1 are vulnerable to malicious code upload without authentication by using the configuration upload function. This could lead to a complete compromise of the FDS102 device.",
+  "dc:date": "2022-11-02T17:15:18Z"
+}

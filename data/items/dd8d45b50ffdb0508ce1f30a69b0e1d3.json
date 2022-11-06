@@ -1,0 +1,16 @@
+{
+  "title": "Exploring Line Lengths in Python Packages",
+  "link": "",
+  "published": "2017-11-09T14:00:00-08:00",
+  "updated": "2017-11-09T14:00:00-08:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2017-11-09:blog/2017/11/09/exploring-line-lengths-in-python-packages/",
+  "summary": "<p>This week, Twitter upped their single-tweet character limit from 140 to 280, purportedly based on this <a href=\"https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html\">interesting analysis of tweet lengths</a> published on Twitter's engineering blog.\nThe gist of the analysis is this: English language tweets display a roughly log-normal distribution of character counts, except near the 140-character limit, at which the distribution spikes:</p>\n<p><img src=\"http://jakevdp.github.io/images/tweet_lengths.png\" width=500></p>\n<p>The analysis takes this as evidence that twitter users often \"cram\" their longer thoughts into the 140 character limit, and suggest that a 280-character limit would more naturally accommodate the distribution of people's desired tweet lengths.</p>\n<p>This immediately brought to mind another character limit that many Python programmers face in their day-to-day lives: the 79-character line limit suggested by Python's <a href=\"https://www.python.org/dev/peps/pep-0008/#maximum-line-length\">PEP8 style guide</a>:</p>\n<blockquote><p>Limit all lines to a maximum of 79 characters.</p>\n</blockquote>\n<p>I began to wonder whether popular Python packages (e.g. NumPy, SciPy, Pandas, Scikit-Learn, Matplotlib, AstroPy) display anything similar to what is seen in the distribution of tweet lengths.</p>\n<p>Spoiler alert: they do! And the details of the distribution reveal some insights into the programming habits and stylistic conventions of the communities who write them.</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Support for sparse matrices in scikits.learn",
+  "link": "http://fa.bianp.net/blog/2010/support-for-sparse-matrices-in-scikitslearn/",
+  "description": "<p>I recently added support for sparse matrices (as defined in\nscipy.sparse) in some classifiers of <a class=\"reference external\" href=\"http://scikit-learn.sf.net\">scikits.learn</a>. In those classes,\nthe fit method will perform the algorithm without converting to a dense\nrepresentation and will also store parameters in an efficient format.\nRight now, the only classese that implements …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 23 Aug 2010 17:47:00 +0200",
+  "guid": "tag:fa.bianp.net,2010-08-23:/blog/2010/support-for-sparse-matrices-in-scikitslearn/",
+  "category": "General"
+}

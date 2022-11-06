@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:mPB3dCWlZVY",
+  "yt:videoId": "mPB3dCWlZVY",
+  "yt:channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+  "title": "Fixing HORRIBLE Embedded Rust So You Don’t Have To",
+  "link": "",
+  "author": {
+    "name": "Low Level Learning",
+    "uri": "https://www.youtube.com/channel/UC6biysICWOJ-C3P4Tyeggzg"
+  },
+  "published": "2022-09-10T15:00:26+00:00",
+  "updated": "2022-09-20T03:25:28+00:00",
+  "media:group": {
+    "media:title": "Fixing HORRIBLE Embedded Rust So You Don’t Have To",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "In my previous Rust video, I did some pretty hacky code to get my Raspberry Pi to Blink an LED. We used the Raspberry Pi Datasheet to come up with some hacky unsafe code that enabled a GPIO pin to be an output, and then blinked it on and off. We did this ALL BAREMETAL with no operating system underneath our code.\n\nThe code WORKED. But, it doesn't port well, and it's not very RUSTY. In this video, I'll take my previous embedded Rust code and make it more Rusty by creating parts to a Peripheral Access Crate. A Peripheral Access Crate or PAC is a component to a Hardware Abstraction Layer in Rust. Hardware Abstraction Layers abstract away the memory addresses and pointers to memory mapped IO to make programming embedded systems a little easier.\n\n🏫 COURSES 🏫\nC Programming 101 for Aspiring Embedded Developers: https://www.udemy.com/course/c-programming-101-for-aspiring-embedded-developers/\n\n🔥 SOCIALS 🔥\nLow Level Merch!: https://www.linktr.ee/lowlevellearning\nFollow me on Twitter: https://twitter.com/lowlevellearni1\nFollow me on Twitch: https://twitch.tv/lowlevellearning\nJoin me on Discord!: https://discord.gg/gZhRXDdBYY\n\n0:00 Intro\n0:21 Code Review\n0:41 Lets Code!\n0:59 Making a Clean Interface\n1:37 Datasheet 4 Life\n2:30 Match Statements\n3:46 Unsafe but LESS\n4:21 Binary Math\n6:35 PUT IT BACK\n7:20 One Down Two to Go\n7:47 NEXT!\n9:29 DOUBLE KILL\n10:13 Linker Hack\n11:03 Outro",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

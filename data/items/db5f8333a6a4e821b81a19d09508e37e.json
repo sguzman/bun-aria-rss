@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-22235 (debian_linux, wireshark)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-22235",
+  "description": "Crash in DNP dissector in Wireshark 3.4.0 to 3.4.6 and 3.2.0 to 3.2.14 allows denial of service via packet injection or crafted capture file",
+  "dc:date": "2021-07-20T12:15:07Z"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2021-45451 (fedora, mbed_tls)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-45451",
+  "description": "In Mbed TLS before 3.1.0, psa_aead_generate_nonce allows policy bypass or oracle-based decryption when the output buffer is at memory locations accessible to an untrusted application.",
+  "dc:date": "2021-12-21T07:15:06Z"
+}

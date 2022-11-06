@@ -1,0 +1,15 @@
+{
+  "title": "SAGA algorithm in the lightning library",
+  "link": "http://fa.bianp.net/blog/2016/saga-algorithm-in-the-lightning-library/",
+  "description": "<p>Recently I've implemented, together with <a href=\"http://arachez.com/\">Arnaud Rachez</a>, the SAGA[<sup id=\"fnref:1\"><a class=\"footnote-ref\" href=\"#fn:1\" rel=\"footnote\">1</a></sup>] algorithm in the <a href=\"http://contrib.scikit-learn.org/lightning/\">lightning</a> machine learning library (which by the way, has been recently moved to the new <a href=\"https://github.com/scikit-learn-contrib\">scikit-learn-contrib</a> project). The lightning library uses the same API as scikit-learn but is particularly adapted to online learning. As for the SAGA …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Mon, 22 Feb 2016 00:00:00 +0100",
+  "guid": "tag:fa.bianp.net,2016-02-22:/blog/2016/saga-algorithm-in-the-lightning-library/",
+  "category": [
+    "misc",
+    "Python",
+    "scikit-learn",
+    "machine learning",
+    "lightning"
+  ]
+}

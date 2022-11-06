@@ -1,0 +1,9 @@
+{
+  "title": "Locally linear embedding and sparse eigensolvers",
+  "link": "http://fa.bianp.net/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/",
+  "description": "<p>I've been working for some time on implementing a <a class=\"reference external\" href=\"http://www.cs.nyu.edu/~roweis/lle/algorithm.html\">locally linear\nembedding</a> algorithm for the upcoming manifold module in scikit-learn.\nWhile several implementations of this algorithm exist in Python, as far\nas I know none of them is able to use a sparse eigensolver in the last\nstep of the …</p>",
+  "dc:creator": "Fabian Pedregosa",
+  "pubDate": "Thu, 21 Apr 2011 14:28:00 +0200",
+  "guid": "tag:fa.bianp.net,2011-04-21:/blog/2011/locally-linear-embedding-and-sparse-eigensolvers/",
+  "category": "General, Python, scikit-learn"
+}

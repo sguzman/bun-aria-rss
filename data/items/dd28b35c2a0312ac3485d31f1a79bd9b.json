@@ -1,0 +1,16 @@
+{
+  "title": "An Introduction to the Python Buffer Protocol",
+  "link": "",
+  "published": "2014-05-05T16:00:00-07:00",
+  "updated": "2014-05-05T16:00:00-07:00",
+  "author": {
+    "name": "Jake VanderPlas"
+  },
+  "id": "tag:jakevdp.github.io,2014-05-05:blog/2014/05/05/introduction-to-the-python-buffer-protocol/",
+  "summary": "<p>This is a bit of a niche topic, but I figured there might be one or two people out there who would find this useful (including my future self)... today I managed to implement a simple Python object which exposes the buffer protocol. If that means nothing to you, you may want to stop reading and instead browse this <a href=\"http://imgur.com/gallery/zWeJ5\">gallery of puppy gifs</a>.</p>\n<p>But if you're the kind of person who becomes mildly excited at the words <em>Python buffer protocol</em>, I hope this short post will help you in your quest...</p>",
+  "category": [
+    "",
+    "",
+    ""
+  ]
+}

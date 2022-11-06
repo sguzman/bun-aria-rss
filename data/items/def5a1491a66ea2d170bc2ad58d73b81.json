@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3181 (vtscada)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3181",
+  "description": "An Improper Input Validation vulnerability exists in Trihedral VTScada version 12.0.38 and prior. A specifically malformed HTTP request could cause the affected VTScada to crash. Both local area network (LAN)-only and internet facing systems are affected.",
+  "dc:date": "2022-11-02T21:15:09Z"
+}

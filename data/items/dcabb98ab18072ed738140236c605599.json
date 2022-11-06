@@ -1,0 +1,16 @@
+{
+  "title": "Using MXNet in Keras",
+  "link": "https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/",
+  "comments": "https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/#respond",
+  "dc:creator": "phunterlau",
+  "pubDate": "Wed, 31 May 2017 00:35:37 +0000",
+  "category": "Machine Learning",
+  "guid": "http://no2147483647.wordpress.com/?p=280",
+  "description": "By popular demand, DMLC has added MXNet support for Keras. Please follow these steps for having it: After having CUDA driver, install MXNet like pip install mxnet-cu80 Install Keras with MXNet support: git clone --recursive https://github.com/dmlc/keras cd keras python setup.py install Assign MXNet as Keras backend: KERAS_BACKEND=mxnet python -c \"from keras import backend\" &#8220;Using MXNet [&#8230;]",
+  "content:encoded": "<p>By popular demand, <a href=\"http://dmlc.ml\">DMLC</a> has added MXNet support for Keras. Please follow these steps for having it:</p>\n<ol>\n<li>After having CUDA driver, install MXNet like\n<pre><code class=\"language-text\">pip install mxnet-cu80</code></pre>\n</li>\n<li>Install Keras with MXNet support:\n<pre><code class=\"language-text\">git clone --recursive https://github.com/dmlc/keras\ncd keras\npython setup.py install</code></pre>\n</li>\n<li>Assign MXNet as Keras backend:\n<pre><code class=\"language-text\">KERAS_BACKEND=mxnet python -c \"from keras import backend\"</code></pre>\n<p>&#8220;Using MXNet backend.&#8221; means Keras+MXNet is successfully installed. Enjoy.</li>\n</ol>\n<p>Q&A:</p>\n<ol>\n<li>I am using Windows, can I have it? Yes, just replace step 1 with <strong>pip install mxnet-cu80-win</strong></li>\n<li>I don&#8217;t have a GPU, can I have a try? Yes, just replace step 1 with <strong>pip install </strong>mxnet or <strong>pip install </strong>mxnet<strong>&#8211;</strong>mkl if you have Intel CPU(s).</li>\n<li>How is compared to TensorFlow backend? em, do you want to benchmark it? Please feel free to submit benchmark results and bugs to <a href=\"https://github.com/dmlc/keras/issues\">github issue</a>.</li>\n</ol>\n",
+  "wfw:commentRss": "https://no2147483647.wordpress.com/2017/05/31/using-mxnet-in-keras/feed/",
+  "slash:comments": 0,
+  "media:content": {
+    "media:title": "phunterlau"
+  }
+}

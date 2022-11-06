@@ -1,0 +1,6 @@
+{
+  "title": "A Scharfetter-Gummerl stabilization scheme for HDG approximations of convection-diffusion problems. (arXiv:2211.01648v1 [math.NA])",
+  "link": "http://arxiv.org/abs/2211.01648",
+  "description": "<p>We present a Scharfetter-Gummel (SG) stabilization scheme for high-order\nHybrid Discontinuous Galerkin (HDG) approximations of convection-diffusion\nproblems. The scheme is based on a careful choice of the stabilization\nparameters used to define the numerical flux in the HDG method. We show that,\nin one dimension, the SG-HDG scheme is equivalent to the Finite Volume method\nstabilized with the Scharfetter--Gummel on the dual grid, for all orders of HDG\nschemes.\n</p>",
+  "dc:creator": "<a href=\"http://arxiv.org/find/math/1/au:+Piani_S/0/1/0/all/0/1\">Stefano Piani</a>, <a href=\"http://arxiv.org/find/math/1/au:+Heltai_L/0/1/0/all/0/1\">Luca Heltai</a>, <a href=\"http://arxiv.org/find/math/1/au:+Lei_W/0/1/0/all/0/1\">Wenyu Lei</a>"
+}

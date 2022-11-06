@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-35842 (fortios)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35842",
+  "description": "An exposure of sensitive information to an unauthorized actor vulnerabiltiy [CWE-200] in FortiOS SSL-VPN versions 7.2.0, versions 7.0.0 through 7.0.6 and versions 6.4.0 through 6.4.9 may allow a remote unauthenticated attacker to gain information about LDAP and SAML settings configured in FortiOS.",
+  "dc:date": "2022-11-02T12:15:53Z"
+}

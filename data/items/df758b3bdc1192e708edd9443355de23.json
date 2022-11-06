@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:b4ObZlE60CI",
+  "yt:videoId": "b4ObZlE60CI",
+  "yt:channelId": "UCK_m2976Yvbx-TyDLw7n1WA",
+  "title": "From Homegrown to Managed: Indeed’s Journey to MongoDB Atlas",
+  "link": "",
+  "author": {
+    "name": "MongoDB",
+    "uri": "https://www.youtube.com/channel/UCK_m2976Yvbx-TyDLw7n1WA"
+  },
+  "published": "2022-10-31T20:50:30+00:00",
+  "updated": "2022-11-01T00:51:45+00:00",
+  "media:group": {
+    "media:title": "From Homegrown to Managed: Indeed’s Journey to MongoDB Atlas",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "Indeed had many MongoDB clusters running on-prem in Austin, TX. In February, 2021, there was a major Winter event that affected much of Texas with power outages. This threatened their MongoDB clusters as there was a potential to lose their servers due to these power outages. From this occurrence, a new project was born, \"Winter is Coming.\" This new project moves all of their current clusters 754 into Atlas on AWS.\n\nPreviously Indeed leveraged a homegrown system to provision and manage MongoDB clusters within Indeed. However, it became difficult to keep up with the new mongo versions and features that are natively available with MongoDB Atlas. Moreover, the time and human effort it takes to keep up with the provisioning of resources in the homegrown system was not sustainable. As we considered alternative solutions to provisioning mongo clusters, we looked to MongoDB Atlas.\n\nNew projects are now added to MongoDB Atlas directly via Terraform. As Indeed has nearly 1K clusters we are designing a one-click automation through our old provisioning platform.\n\nThis talk will highlight this journey and call out some things we learned through designing the automation with terraform and kicking off these migrations to MongoDB Atlas.\n\nSpeaker: Manan Shah, Sr Data Engineer\nCompany: Indeed\n\n.local Dallas ’22 playlist ➡️ https://trymongodb.com/3SXkqYW\nSubscribe to MongoDB  ➡️ https://bit.ly/3bpg1Z1\n\n#MongoDBlocalDallas22",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

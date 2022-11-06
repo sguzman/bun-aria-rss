@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-3659 (chrome)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3659",
+  "description": "Use after free in Accessibility in Google Chrome on Chrome OS prior to 107.0.5304.62 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruption via specific UI interactions. (Chrome security severity: Medium)",
+  "dc:date": "2022-11-01T23:15:19Z"
+}

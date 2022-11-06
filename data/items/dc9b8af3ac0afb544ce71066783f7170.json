@@ -1,0 +1,23 @@
+{
+  "id": "yt:video:I-qW0At156E",
+  "yt:videoId": "I-qW0At156E",
+  "yt:channelId": "UCF_N2LmIT3x75ppQGUiPrKw",
+  "title": "Booting Ultrix-11 v3.1 on pdp-11/45",
+  "link": "",
+  "author": {
+    "name": "Michael Robinson",
+    "uri": "https://www.youtube.com/channel/UCF_N2LmIT3x75ppQGUiPrKw"
+  },
+  "published": "2022-08-03T02:30:32+00:00",
+  "updated": "2022-11-02T16:31:00+00:00",
+  "media:group": {
+    "media:title": "Booting Ultrix-11 v3.1 on pdp-11/45",
+    "media:content": "",
+    "media:thumbnail": "",
+    "media:description": "This is a visualization of the memory contents of my pdp-11/45, front panel, and console terminal, as it boots Ultrix-11 v3.1.  The system volumes are on RL02 drives emulated by a Unibone designed and built by Joerg Hoppe.\n\nThe memory is also captured by the Unibone every every 1/2 second. The memory display is a grid, with columns corresponding to addresses and rows corresponding to byte values.  Each column is a histogram of byte values (in grayscale) aggregated over 1024 bytes.  When the machine is idle (near the end of the video), you can see the Unibone's memory logging access pattern as a pulsing light pattern.",
+    "media:community": {
+      "media:starRating": "",
+      "media:statistics": ""
+    }
+  }
+}

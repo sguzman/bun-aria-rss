@@ -1,0 +1,7 @@
+{
+  "title": "An Introduction to Forecasting",
+  "link": "https://www.datascienceblog.net/post/machine-learning/forecasting-an-introduction/",
+  "pubDate": "Tue, 18 Dec 2018 00:00:00 +0000",
+  "guid": "https://www.datascienceblog.net/post/machine-learning/forecasting-an-introduction/",
+  "description": "Forecasting is concerned with making predictions about future observations by relying on past measurements. In this article, I will give an introduction how ARMA, ARIMA (Box-Jenkins), SARIMA, and ARIMAX models can be used for forecasting given time-series data.\nPreliminaries Before we can talk about models for time-series data, we have to introduce two concepts.\nThe backshift operator Given the time series \\(y = \\{y_1, y_2, \\ldots \\}\\), the backshift operator (also called lag operator) is defined as"
+}

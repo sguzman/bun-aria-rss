@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-26122 (antivirus_engine, fortimail, fortios)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26122",
+  "description": "An insufficient verification of data authenticity vulnerability [CWE-345] in FortiClient, FortiMail and FortiOS AV engines version 6.2.168 and below and version 6.4.274 and below may allow an attacker to bypass the AV engine via manipulating MIME attachment with junk and pad characters in base64.",
+  "dc:date": "2022-11-02T12:15:52Z"
+}
