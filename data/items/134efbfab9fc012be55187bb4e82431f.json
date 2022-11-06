@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-34173 (jenkins)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34173",
+  "description": "In Jenkins 2.340 through 2.355 (both inclusive) the tooltip of the build button in list views supports HTML without escaping the job display name, resulting in a cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.",
+  "dc:date": "2022-06-23T17:15:15Z"
+}

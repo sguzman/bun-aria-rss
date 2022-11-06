@@ -1,0 +1,6 @@
+{
+  "title": "CVE-2022-42817 (ipados, iphone_os, watchos)",
+  "link": "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42817",
+  "description": "A logic issue was addressed with improved state management. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, iOS 16.1 and iPadOS 16, watchOS 9.1. Visiting a maliciously crafted website may leak sensitive data.",
+  "dc:date": "2022-11-01T20:15:23Z"
+}
